@@ -111,7 +111,7 @@ for (i in 1:length(lines)) {
 # if required install tiktoken with py_install("tiktoken") 
 
 tiktoken <-import("tiktoken") 
-encoding <- tiktoken$encoding_for_model("gpt-3.5-turbo")
+encoding <- tiktoken$encoding_for_model("text-davinci-003")
 
 # Count tokens
 # Initialize token as an empty list
