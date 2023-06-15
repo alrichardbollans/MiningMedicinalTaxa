@@ -215,7 +215,7 @@ df <- cbind(df2[1], df1) %>%
 df
 ```
 
-## Save GPT-3 results in an Excel file
+## Extracted names to be verified
 
 ```{r}
 
@@ -224,7 +224,7 @@ writexl::write_xlsx(df, "output.xlsx")
 
 ```
 
-## Extracted names to be verified
+## Save GPT-3 results in an csv file
 
 ```{r}
 gpt3_extracted <- df1 %>%
@@ -235,6 +235,8 @@ gpt3_extracted <- df1 %>%
   unlist()%>%
   as_tibble()%>%
   mutate(value= str_replace_all(value, "@@|##", ""))
+
+write.csv(gpt3_extracted, "gpt3_extracted.csv")
 ```
 
 #GNFinder
@@ -264,7 +266,7 @@ response <- POST(url, body = multi_part_content, verbose())
 
 ```
 
-## Save GNFinder results in an Excel file
+## Save GNFinder results in an csv file
 
 ```{r}
 # export GNFinder results
