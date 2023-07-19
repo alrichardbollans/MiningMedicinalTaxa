@@ -1,31 +1,17 @@
-#!/usr/bin/env python3
-import dotenv
-import pandas as pd
-
-from literature_downloads.semantic_scholar import download_path, paper_info_path
-
-dotenv.load_dotenv()
-
-import argparse
 import os
-from requests import Session
+import time
 from typing import Generator, Union, List, Tuple
 
+import pandas as pd
 import urllib3
+from requests import Session
 
-urllib3.disable_warnings()
+from literature_downloads.semantic_scholar import download_path, paper_info_path, S2_API_KEY
 
-S2_API_KEY = os.environ['S2_API_KEY']
+# urllib3.disable_warnings()
+
 
 downloaded_papers = os.path.join(download_path, 'papers_pdfs')
-
-
-# import dotenv
-# dotenv.load_dotenv()
-# S2_API_KEY = os.environ['S2_API_KEY']
-# headers = {
-#         'x-api-key': S2_API_KEY,
-#     }
 
 
 def get_paper(session: Session, paper_id: str, fields: str = 'paperId,title', **kwargs) -> dict:
@@ -40,6 +26,8 @@ def get_paper(session: Session, paper_id: str, fields: str = 'paperId,title', **
     with session.get(f'https://api.semanticscholar.org/graph/v1/paper/{paper_id}', params=params,
                      headers=headers) as response:
         response.raise_for_status()
+        time.sleep(float(1 / 90))
+
         return response.json()
 
 
@@ -61,6 +49,7 @@ def download_pdf(session: Session, url: str, path: str, user_agent: str = 'reque
             # write the response to the file, chunk_size bytes at a time
             for chunk in response.iter_content(chunk_size=8192):
                 f.write(chunk)
+        time.sleep(float(1 / 90))
 
 
 def download_paper(session: Session, paper_id: str, directory: str = 'papers_pdfs',
@@ -85,7 +74,8 @@ def download_paper(session: Session, paper_id: str, directory: str = 'papers_pdf
     return pdf_path
 
 
-def download_papers(paper_ids: List[str], directory: str = 'papers_pdfs', user_agent: str = 'requests/2.0.0') -> \
+def download_papers(paper_ids: List[str], directory: str = 'papers_pdfs',
+                    user_agent: str = 'requests/2.0.0') -> \
         Generator[Tuple[str, Union[str, None, Exception]], None, None]:
     # use a session to reuse the same TCP connection
     with Session() as session:
@@ -108,8 +98,8 @@ def main(paper_ids, directory, user_agent) -> None:
 
 
 if __name__ == '__main__':
-    initial_query = 'grass antiplasmodial'
+    initial_query = 'aspidosperma antiplasmodial'
     info_df = pd.read_csv(os.path.join(paper_info_path, initial_query + '.csv'))
-    info_df = info_df[info_df['isOpenAccess'] == 'True']
+    info_df = info_df[info_df['isOpenAccess']]
     paper_ids = info_df['paperId'].unique().tolist()
-    main(paper_ids, downloaded_papers, user_agent='requests/2.0.0')
+    main(paper_ids, os.path.join(downloaded_papers, initial_query), user_agent='requests/2.0.0')
