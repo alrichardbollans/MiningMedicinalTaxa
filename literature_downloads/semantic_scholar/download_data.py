@@ -6,6 +6,8 @@ import os.path
 from literature_downloads.semantic_scholar import download_path
 
 dataset_download_path = os.path.join(download_path, 'datasets')
+if not os.path.exists(dataset_download_path):
+    os.mkdir(dataset_download_path)
 
 
 def convert_corpus_id_to_paper_id(corpus_id) -> str:

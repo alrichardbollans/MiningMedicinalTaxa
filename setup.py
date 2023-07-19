@@ -9,7 +9,8 @@ setup(
     packages=find_packages(),
 
     install_requires=[
-        "automatchnames == 1.1.1"
+        "automatchnames == 1.2.1",
+        "taxonerd"
     ],
     # *strongly* suggested for sharing
     version='1.0',
