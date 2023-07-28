@@ -1,2 +1,4 @@
 Knoth, P., Herrmannova, D., Cancellieri, M. et al.
 CORE: A Global Aggregation Service for Open Access Papers. Sci Data 10, 366 (2023). https://doi.org/10.1038/s41597-023-02208-w
+
+Accessed: 28/07/23
