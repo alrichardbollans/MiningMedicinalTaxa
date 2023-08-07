@@ -16,20 +16,18 @@ headers = {
 }
 
 core_download_path = os.path.join('downloads')
-core_dataset_download_path = os.path.join(core_download_path, 'datasets')
 core_abstracts_path = os.path.join(core_download_path, 'abstracts')
 core_text_path = os.path.join(core_download_path, 'text')
 core_paper_info_path = os.path.join(core_download_path, 'paper_info')
-for p in [core_download_path, core_dataset_download_path, core_text_path, core_paper_info_path, core_abstracts_path]:
+for p in [core_download_path, core_text_path, core_paper_info_path, core_abstracts_path]:
     if not os.path.exists(p):
         os.mkdir(p)
 
 
 def download_full_core_dataset():
     # dataset docs = https://core.ac.uk/documentation/dataset
-    import wget
 
-    wget.download('https://core.ac.uk/datasets/core_2020-12-20_resync.tar.xz', out=core_dataset_download_path)
+    os.system('wget -c https://core.ac.uk/datasets/core_2022-03-11_dataset.tar.xz')
 
 
 def get_relevant_papers_from_download():
@@ -39,7 +37,7 @@ def get_relevant_papers_from_download():
 
     import tarfile
 
-    zipfile = os.path.join(core_dataset_download_path, 'core_2020-12-20_resync.tar.xz')
+    zipfile = 'core_2022-03-11_dataset.tar.xz'
     print('unzipping')
     # TODO: Add thread pool
     with tarfile.open(zipfile, 'r') as main_archive:
@@ -91,4 +89,5 @@ if __name__ == '__main__':
     # Getting an EOFError: Compressed file ended before the end-of-stream marker was reached
     # ./0f1/3b/223015690.json is not complete
     # wget -c https://core.ac.uk/datasets/core_2020-12-20_resync.tar.xz says file is fullly retrieved...
-    get_relevant_papers_from_download()
+    download_full_core_dataset()
+    # get_relevant_papers_from_download()
