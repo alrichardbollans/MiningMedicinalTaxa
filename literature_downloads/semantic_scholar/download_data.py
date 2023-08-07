@@ -15,6 +15,8 @@ headers = {
     'x-api-key': S2_API_KEY,
 }
 
+# docs: https://api.semanticscholar.org/api-docs/datasets
+
 sem_schol_download_path = os.path.join('downloads')
 sem_schol_dataset_download_path = os.path.join(sem_schol_download_path, 'datasets')
 sem_schol_abstracts_path = os.path.join(sem_schol_download_path, 'abstracts')
@@ -76,7 +78,9 @@ def get_relevant_papers_from_download():
 
     import gzip
     from tqdm import tqdm
-    # TODO: Add thread pool
+    # TODO: Add thread pool?
+    # TODO: Add found term
+    # Simple query takes 6 mins per part
     for part in tqdm(range(0, 30)):
         zipfile = get_zip_file_for_part(part)
         print('unzipping')
@@ -96,7 +100,6 @@ def get_relevant_papers_from_download():
                     corpusid = str(paper['corpusid'])
                     abstract = ' '.join(set(text_of('abstract')))
                     title = ' '.join(set(text_of('title')))
-                    print(title)
                     authors = ', '.join(set(text_of('author')))
                     try:
                         url = paper['content']['source']['oainfo']['openaccessurl']
@@ -117,21 +120,21 @@ def get_relevant_papers_from_download():
                          'text_path': [os.path.join(sem_schol_text_path, corpusid + '.txt')]})
                     paper_df = pd.concat([paper_df, info_df])
 
-    for c_id in relevant_abstracts:
-        abstract = relevant_abstracts[c_id]
-        if abstract is not None:
-            f = open(os.path.join(sem_schol_abstracts_path, c_id + '.txt'), 'w')
-            f.write(abstract)
-            f.close()
+        for c_id in relevant_abstracts:
+            abstract = relevant_abstracts[c_id]
+            if abstract is not None:
+                f = open(os.path.join(sem_schol_abstracts_path, c_id + '.txt'), 'w')
+                f.write(abstract)
+                f.close()
 
-    for c_id in relevant_text:
-        te = relevant_text[c_id]
-        if te is not None:
-            f = open(os.path.join(sem_schol_text_path, c_id + '.txt'), 'w')
-            f.write(te)
-            f.close()
+        for c_id in relevant_text:
+            te = relevant_text[c_id]
+            if te is not None:
+                f = open(os.path.join(sem_schol_text_path, c_id + '.txt'), 'w')
+                f.write(te)
+                f.close()
 
-    paper_df.to_csv(os.path.join(sem_schol_paper_info_path, query_name + '.csv'))
+        paper_df.to_csv(os.path.join(sem_schol_paper_info_path, query_name + '.csv'))
     return paper_df
 
 
@@ -144,6 +147,7 @@ def check_for_repetitions():
 
 
 def check_for_subsumption_by_core():
+    # Check what's already in core and remove rest to save space, also provide a statistic for this. Actually think this will be really expensive.
     pass
 
 
@@ -152,3 +156,4 @@ if __name__ == '__main__':
     # download_fullset()
     get_relevant_papers_from_download()
     check_for_repetitions()
+    check_for_subsumption_by_core()
