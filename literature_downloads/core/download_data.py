@@ -3,8 +3,13 @@ import os
 
 import dotenv
 import pandas as pd
-from literature_downloads.filter_terms import is_relevant_text, query_name
 from tqdm import tqdm
+import sys
+
+sys.path.append('../..')
+
+from literature_downloads import is_relevant_text, query_name
+
 
 dotenv.load_dotenv()
 CORE_API_KEY = os.environ['CORE_API_KEY']
@@ -12,7 +17,8 @@ headers = {
     'x-api-key': CORE_API_KEY,
 }
 
-core_download_path = os.path.join('downloads')
+project_path = os.path.join(os.environ.get('SCRATCH'), 'MedicinalPlantMining', 'literature_downloads', 'core')
+core_download_path = os.path.join(project_path, 'downloads')
 core_abstracts_path = os.path.join(core_download_path, 'abstracts')
 core_text_path = os.path.join(core_download_path, 'text')
 core_paper_info_path = os.path.join(core_download_path, 'paper_info')

@@ -4,6 +4,9 @@ import time
 
 import dotenv
 import pandas as pd
+import sys
+
+sys.path.append('../..')
 from literature_downloads.filter_terms import is_relevant_text, query_name
 
 dotenv.load_dotenv()
@@ -13,13 +16,15 @@ headers = {
 }
 
 # docs: https://api.semanticscholar.org/api-docs/datasets
+project_path = os.path.join(os.environ.get('SCRATCH'), 'MedicinalPlantMining', 'literature_downloads', 'semantic_scholar')
 
-sem_schol_download_path = os.path.join('downloads')
+sem_schol_download_path = os.path.join(project_path, 'downloads')
 sem_schol_dataset_download_path = os.path.join(sem_schol_download_path, 'datasets')
 sem_schol_abstracts_path = os.path.join(sem_schol_download_path, 'abstracts')
 sem_schol_text_path = os.path.join(sem_schol_download_path, 'text')
 sem_schol_paper_info_path = os.path.join(sem_schol_download_path, 'paper_info')
 if not os.path.exists(sem_schol_dataset_download_path):
+    sem_schol_download_path = os.path.join(project_path, 'downloads')
     os.mkdir(sem_schol_dataset_download_path)
 
 
@@ -54,7 +59,7 @@ def download_fullset():
         urllib.request.urlretrieve(s2orc['files'][part],
                                    get_zip_file_for_part(part))
         print(f'part {part} done')
-        time.sleep(5)
+        time.sleep(10)
 
     # extract to file
     # import gzip
