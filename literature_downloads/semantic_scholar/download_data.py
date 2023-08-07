@@ -1,12 +1,9 @@
 import json
 import os.path
 import time
-from typing import List
-
-import pandas as pd
 
 import dotenv
-
+import pandas as pd
 from literature_downloads.filter_terms import is_relevant_text, query_name
 
 dotenv.load_dotenv()
@@ -95,7 +92,8 @@ def get_relevant_papers_from_download():
                     types = annotations.get(type, '')
                     return [text[int(a['start']):int(a['end'])] for a in types]
 
-                if is_relevant_text(text):
+                matched_text = is_relevant_text(text)
+                if matched_text is not None:
 
                     corpusid = str(paper['corpusid'])
                     abstract = ' '.join(set(text_of('abstract')))
@@ -115,6 +113,7 @@ def get_relevant_papers_from_download():
 
                     info_df = pd.DataFrame(
                         {'corpusid': [corpusid], 'DOI': [doi],
+                         'matched_text': matched_text,
                          'title': [title], 'authors': [authors], 'oaurl': [url],
                          'abstract_path': [os.path.join(sem_schol_abstracts_path, corpusid + '.txt')],
                          'text_path': [os.path.join(sem_schol_text_path, corpusid + '.txt')]})
@@ -153,7 +152,7 @@ def check_for_subsumption_by_core():
 
 if __name__ == '__main__':
     # Download then check they're all there
-    # download_fullset()
-    get_relevant_papers_from_download()
-    check_for_repetitions()
-    check_for_subsumption_by_core()
+    download_fullset()
+    # get_relevant_papers_from_download()
+    # check_for_repetitions()
+    # check_for_subsumption_by_core()

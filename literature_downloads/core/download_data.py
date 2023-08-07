@@ -2,12 +2,9 @@ import json
 import os
 
 import dotenv
-from typing import List
-
 import pandas as pd
-from tqdm import tqdm
-
 from literature_downloads.filter_terms import is_relevant_text, query_name
+from tqdm import tqdm
 
 dotenv.load_dotenv()
 CORE_API_KEY = os.environ['CORE_API_KEY']
@@ -55,15 +52,20 @@ def get_relevant_papers_from_download():
                         lines = f.readlines()
                         paper = json.loads(lines[0])
                         text = paper['fullText']
-                        if is_relevant_text(text):
+                        # See https://stackoverflow.com/questions/41728329/how-to-find-what-matched-in-any-with-python
+                        matched_text = is_relevant_text(text)
+                        if matched_text is not None:
                             corpusid = paper['coreId']
 
                             relevant_abstracts[corpusid] = paper['abstract']
                             relevant_text[corpusid] = text
+                            language = paper['lan']
 
                             info_df = pd.DataFrame(
-                                {'corpusid': [corpusid], 'DOI': [paper['doi']],
-                                 'title': [paper['title']], 'authors': [str(paper['authors'])], 'oaurl': [paper['downloadUrl']],
+                                {'corpusid': [corpusid], 'DOI': [paper['doi']], 'language': [language],
+                                 'matched_text': matched_text,
+                                 'title': [paper['title']], 'authors': [str(paper['authors'])],
+                                 'oaurl': [paper['downloadUrl']],
                                  'abstract_path': [os.path.join(core_abstracts_path, corpusid + '.txt')],
                                  'text_path': [os.path.join(core_text_path, corpusid + '.txt')]})
                             paper_df = pd.concat([paper_df, info_df])
@@ -86,8 +88,5 @@ def get_relevant_papers_from_download():
 
 
 if __name__ == '__main__':
-    # Getting an EOFError: Compressed file ended before the end-of-stream marker was reached
-    # ./0f1/3b/223015690.json is not complete
-    # wget -c https://core.ac.uk/datasets/core_2020-12-20_resync.tar.xz says file is fullly retrieved...
     download_full_core_dataset()
     # get_relevant_papers_from_download()
