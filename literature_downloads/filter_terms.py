@@ -77,10 +77,8 @@ _en_keywords = ['medicinal',
                 'nutraceuticals',
                 'nutraceutical']
 
-# _misc_paired_keywords = []
-# plant_terms = genus_names + family_names
 
-query_name = '_'.join(_en_keywords)  # + _misc_paired_keywords)
+query_name = 'en_keywords_genera_families'#'_'.join(_en_keywords)  # + _misc_paired_keywords)
 
 
 def get_varied_form_of_word(given_word: str) -> List:
@@ -105,9 +103,12 @@ def get_varied_forms() -> set:
     return set(forms)
 
 
-varied_keywords = list(get_varied_forms())
-_all_keywords = varied_keywords + genus_names + family_names
-print(f'all variations of keywords: {varied_keywords}')
+_varied_keywords = list(get_varied_forms())
+words_to_exclude = ['add']
+_varied_keywords_to_use = [x for x in _varied_keywords if x not in words_to_exclude]
+_all_keywords = _varied_keywords_to_use + genus_names + family_names
+print(f'all variations of keywords: {_varied_keywords}')
+
 
 
 def is_relevant_text(given_text: str) -> str:
