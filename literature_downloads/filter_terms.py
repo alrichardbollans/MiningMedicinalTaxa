@@ -11,8 +11,8 @@ query_name = '_'.join(misc_keywords + plant_terms)
 
 
 # search_filtering_terms = ['medicinal', 'plant', 'medicinal plant']
-
-def is_relevant_text(given_text: str) -> bool:
+# See https://stackoverflow.com/questions/41728329/how-to-find-what-matched-in-any-with-python
+def is_relevant_text(given_text: str) -> str:
     if given_text is not None:
         # Note order of this can improve optimisation
         if any(x in given_text for x in misc_keywords) and any(x in given_text for x in plant_terms):
