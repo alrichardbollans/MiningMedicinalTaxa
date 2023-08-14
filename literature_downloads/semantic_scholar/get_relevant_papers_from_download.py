@@ -4,19 +4,24 @@ import sys
 
 import pandas as pd
 
-
 sys.path.append('../..')
-from literature_downloads import is_relevant_text, query_name
+from literature_downloads import query_name, number_of_keywords
 
 from literature_downloads.semantic_scholar import get_zip_file_for_part, sem_schol_download_path
 
+scratch_path = os.environ.get('SCRATCH')
+
 sem_schol_abstracts_path = os.path.join(sem_schol_download_path, 'abstracts')
+_rel_abstract_path = os.path.relpath(sem_schol_abstracts_path, scratch_path)
 sem_schol_text_path = os.path.join(sem_schol_download_path, 'text')
+_rel_text_path = os.path.relpath(sem_schol_text_path, scratch_path)
+
 sem_schol_paper_info_path = os.path.join(sem_schol_download_path, 'paper_info')
 _dirs = [sem_schol_abstracts_path, sem_schol_text_path, sem_schol_paper_info_path]
 for d in _dirs:
     if not os.path.exists(d):
         os.mkdir(d)
+
 
 def get_relevant_papers_from_download():
     paper_df = pd.DataFrame()
@@ -40,9 +45,17 @@ def get_relevant_papers_from_download():
                 def text_of(type):
                     types = annotations.get(type, '')
                     return [text[int(a['start']):int(a['end'])] for a in types]
+
                 if text is not None:
-                    matched_text = is_relevant_text(text)
-                    if matched_text is not None:
+                    kwords_dict, plantnames_dict, plantkwords_dict = number_of_keywords(text)
+                    total_kword_mentions = sum(kwords_dict.values())
+                    num_unique_kwords = len(kwords_dict.keys())
+                    total_plantname_mentions = sum(plantnames_dict.values())
+                    num_unique_plantnames = len(plantnames_dict.keys())
+
+                    total_plantkeyword_mentions = sum(plantkwords_dict.values())
+                    num_unique_plantkeywords = len(plantkwords_dict.keys())
+                    if (total_kword_mentions > 0) or (total_plantname_mentions > 0) or (total_plantkeyword_mentions > 0):
 
                         corpusid = str(paper['corpusid'])
                         abstract = ' '.join(set(text_of('abstract')))
@@ -62,10 +75,19 @@ def get_relevant_papers_from_download():
 
                         info_df = pd.DataFrame(
                             {'corpusid': [corpusid], 'DOI': [doi],
-                             'matched_text': matched_text,
+                             'total_keyword_mentions': total_kword_mentions,
+                             'unique_keyword_mentions': num_unique_kwords,
+                             'keyword_count': str(kwords_dict),
+                             'total_plantname_mentions': total_plantname_mentions,
+                             'unique_plantname_mentions': num_unique_plantnames,
+                             'plantname_count': str(plantnames_dict),
+                             'total_plantkeyword_mentions': total_plantkeyword_mentions,
+                             'unique_plantkeyword_mentions': num_unique_plantkeywords,
+
+                             'plantkeyword_count': str(plantkwords_dict),
                              'title': [title], 'authors': [authors], 'oaurl': [url],
-                             'abstract_path': [os.path.join(sem_schol_abstracts_path, corpusid + '.txt')],
-                             'text_path': [os.path.join(sem_schol_text_path, corpusid + '.txt')]})
+                             'abstract_path': [os.path.join(_rel_abstract_path, corpusid + '.txt')],
+                             'text_path': [os.path.join(_rel_text_path, corpusid + '.txt')]})
                         paper_df = pd.concat([paper_df, info_df])
 
                         for c_id in relevant_abstracts:
@@ -84,6 +106,7 @@ def get_relevant_papers_from_download():
 
                         paper_df.to_csv(os.path.join(sem_schol_paper_info_path, query_name + '.csv'))
     return paper_df
+
 
 def check_for_repetitions():
     'corpusid'

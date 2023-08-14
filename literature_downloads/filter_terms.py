@@ -1,84 +1,94 @@
 import string
-
+from collections import Counter
 from typing import List
+
 from wcvp_download import get_all_taxa, wcvp_columns
 
 all_taxa = get_all_taxa()
 genus_names = all_taxa[wcvp_columns['genus']].unique().tolist()
 family_names = all_taxa[wcvp_columns['family']].unique().tolist()
+_unclean_lifeforms = all_taxa['lifeform_description'].dropna().unique().tolist()
+_lifeforms = []
+for x in [w.split() for w in _unclean_lifeforms]:
+    for y in x:
+        w = y.strip(string.punctuation).lower()
+        if w not in ['or', 'cl', 'somewhat', 'sometimes']:
+            _lifeforms.append(w)
+_lifeforms = list(set(_lifeforms))
+
 # common_names = []
 # species_names = ['pubescens']
 
 
-_en_keywords = ['medicinal',
-                'medicines',
-                'medicine',
-                'medics',
-                'medic',
-                'pharmacopoeia',
-                'pharmaceuticals',
-                'pharmaceutical',
-                'ethnobotany',
-                'ethnopharmacology',
-                'drug',
-                'drugs',
-                'herbals',
-                'herbal',
-                'remedies',
-                'remedy',
-                'homeopathic',
-                'homeopathy',
-                'homeopath',
-                'homeopaths',
-                'immunoglobulin',
-                'immune',
-                'immunoserum',
-                'oil',
-                'oily',
-                'oils',
-                'candles',
-                'candle',
-                'candlenut',
-                'food',
-                'foods',
-                'foodstuff',
-                'foodstuffs',
-                'food-based',
-                'additive',
-                'additives',
-                'edible',
-                'inedible',
-                'beverages',
-                'beverage',
-                'drink',
-                'drinks',
-                'drinking',
-                'tea',
-                'alcohol',
-                'alcoholic',
-                'hydroalcoholic',
-                'cosmetics',
-                'cosmetic',
-                'shampoo',
-                'shampoos',
-                'shampooing',
-                'toxic',
-                'toxicity',
-                'toxicological',
-                'endotoxin',
-                'toxins',
-                'toxin',
-                'endotoxins',
-                'supplement',
-                'supplements',
-                'supplementary',
-                'antioxidants',
-                'antioxidant',
-                'nutraceuticals',
-                'nutraceutical']
+_en_product_keywords = ['medicinal',
+                        'medicines',
+                        'medicine',
+                        'medics',
+                        'medic',
+                        'pharmacopoeia',
+                        'pharmaceuticals',
+                        'pharmaceutical',
+                        'drug',
+                        'drugs',
+                        'ethnopharmacology',
+                        'remedies',
+                        'remedy',
+                        'homeopathic',
+                        'homeopathy',
+                        'homeopath',
+                        'homeopaths',
+                        'immunoglobulin',
+                        'immune',
+                        'immunoserum',
+                        'oil',
+                        'oily',
+                        'oils',
+                        'candles',
+                        'candle',
+                        'candlenut',
+                        'food',
+                        'foods',
+                        'foodstuff',
+                        'foodstuffs',
+                        'food-based',
+                        'additive',
+                        'additives',
+                        'edible',
+                        'inedible',
+                        'beverages',
+                        'beverage',
+                        'drink',
+                        'drinks',
+                        'drinking',
+                        'tea',
+                        'alcohol',
+                        'alcoholic',
+                        'hydroalcoholic',
+                        'cosmetics',
+                        'cosmetic',
+                        'shampoo',
+                        'shampoos',
+                        'shampooing',
+                        'toxic',
+                        'toxicity',
+                        'toxicological',
+                        'endotoxin',
+                        'toxins',
+                        'toxin',
+                        'endotoxins',
+                        'supplement',
+                        'supplements',
+                        'supplementary',
+                        'antioxidants',
+                        'antioxidant',
+                        'nutraceuticals',
+                        'nutraceutical']
 
+query_name = 'en_keywords_genera_families'  # '_'.join(_en_product_keywords)  # + _misc_paired_keywords)
 
-query_name = 'en_keywords_genera_families'#'_'.join(_en_keywords)  # + _misc_paired_keywords)
+plant_specific_keywords = ['herbals',
+                           'herbal', 'botany', 'ethnobotany',
+                           ] + _lifeforms
 
 
 def get_varied_form_of_word(given_word: str) -> List:
@@ -95,29 +105,66 @@ def get_varied_form_of_word(given_word: str) -> List:
     return forms
 
 
-def get_varied_forms() -> set:
+def get_varied_forms(list_of_words) -> List:
     forms = []
-    for w in _en_keywords:
+    for w in list_of_words:
         forms += get_varied_form_of_word(w)
+    out = [x.lower() for x in forms]
+    return list(set(out))
 
-    return set(forms)
 
-
-_varied_keywords = list(get_varied_forms())
+_varied_keywords = get_varied_forms(_en_product_keywords)
 words_to_exclude = ['add']
 _varied_keywords_to_use = [x for x in _varied_keywords if x not in words_to_exclude]
-_all_keywords = _varied_keywords_to_use + genus_names + family_names
-print(f'all variations of keywords: {_varied_keywords}')
+print(f'all variations of keywords: {_varied_keywords_to_use}')
+
+with open('product_keywords.txt', 'w') as f:
+    for line in _varied_keywords_to_use:
+        f.write(f"{line}\n")
+
+_lower_case_plant_names = [x.lower() for x in genus_names + family_names]
+print(f'all plant words: {_lower_case_plant_names}')
+
+_varied_plantspecific_keywords = get_varied_forms(plant_specific_keywords)
+print(f'all plant key words: {_varied_plantspecific_keywords}')
+
+with open('plant_keywords.txt', 'w') as f:
+    for line in _varied_plantspecific_keywords:
+        f.write(f"{line}\n")
 
 
+def _is_relevant_text(given_text: str) -> str:
+    # start_time = time.time()
 
-def is_relevant_text(given_text: str) -> str:
     # Note order of this can improve optimisation
     words = [w.strip(string.punctuation) for w in given_text.split()]
+    lower_words = [x.lower() for x in words]
 
-    first_match = next((string for string in _all_keywords if string in words), None)
+    first_match = next((string for string in _varied_keywords_to_use if string in lower_words), None)
     # if first_match is None:
     #     adjacent_words = [" ".join([words[i], words[i + 1]])
     #                       for i in range(len(words) - 1)]
     #     first_match = next((string for string in _misc_paired_keywords if string in adjacent_words), None)
+    # print("getting relevant text takes: %s seconds ---" % (time.time() - start_time))
     return first_match
+
+
+def number_of_keywords(given_text: str):
+    # start_time = time.time()
+    words = [w.strip(string.punctuation).lower() for w in given_text.split()]
+    res = Counter(words)
+    num_kwords = {key: res[key] for key in _varied_keywords_to_use if key in res}
+
+    num_plantnames = {key: res[key] for key in _lower_case_plant_names if key in res}
+    num_plantkwords = {key: res[key] for key in _varied_plantspecific_keywords if key in res}
+
+    # print("getting number of keywords: %s seconds ---" % (time.time() - start_time))
+    return num_kwords, num_plantnames, num_plantkwords
+
+
+if __name__ == '__main__':
+    test = get_varied_form_of_word('tree')
+    example_text = ", eanother exampel"
+    number_of_keywords(example_text)
+    _is_relevant_text(example_text)
+    pass
