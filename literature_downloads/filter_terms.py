@@ -118,7 +118,7 @@ words_to_exclude = ['add']
 _varied_keywords_to_use = [x for x in _varied_keywords if x not in words_to_exclude]
 print(f'all variations of keywords: {_varied_keywords_to_use}')
 
-with open('product_keywords.txt', 'w') as f:
+with open('../product_keywords.txt', 'w') as f:
     for line in _varied_keywords_to_use:
         f.write(f"{line}\n")
 
@@ -128,7 +128,7 @@ print(f'all plant words: {_lower_case_plant_names}')
 _varied_plantspecific_keywords = get_varied_forms(plant_specific_keywords)
 print(f'all plant key words: {_varied_plantspecific_keywords}')
 
-with open('plant_keywords.txt', 'w') as f:
+with open('../plant_keywords.txt', 'w') as f:
     for line in _varied_plantspecific_keywords:
         f.write(f"{line}\n")
 
@@ -160,11 +160,3 @@ def number_of_keywords(given_text: str):
 
     # print("getting number of keywords: %s seconds ---" % (time.time() - start_time))
     return num_kwords, num_plantnames, num_plantkwords
-
-
-if __name__ == '__main__':
-    test = get_varied_form_of_word('tree')
-    example_text = ", eanother exampel"
-    number_of_keywords(example_text)
-    _is_relevant_text(example_text)
-    pass
