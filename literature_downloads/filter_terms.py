@@ -16,9 +16,7 @@ for x in [w.split() for w in _unclean_lifeforms]:
             _lifeforms.append(w)
 _lifeforms = list(set(_lifeforms))
 
-# common_names = []
-# species_names = ['pubescens']
-
+# Supplement is really caught in a lot of text..
 
 _en_product_keywords = ['medicinal',
                         'medicines',

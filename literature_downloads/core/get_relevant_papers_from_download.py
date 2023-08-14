@@ -33,7 +33,11 @@ def get_relevant_papers_from_download():
 
     zipfile = 'core_2022-03-11_dataset.tar.xz'
     print('unzipping')
-    # TODO: Add thread pool
+    # TODO: Add thread pool e.g.
+    # for train_i, test_i in kf.split(train_data_X):
+    #     iter_args.append((test_i, train_data_X, train_data_y))
+    # with Pool(processes=8) as pool:
+    #     pool.starmap(function thats in main scope, iter_args)
     with tarfile.open(zipfile, 'r') as main_archive:
 
         for member in main_archive:
@@ -88,21 +92,21 @@ def get_relevant_papers_from_download():
                                      'abstract_path': [os.path.join(_rel_abstract_path, corpusid + '.txt')],
                                      'text_path': [os.path.join(_rel_text_path, corpusid + '.txt')]})
                                 paper_df = pd.concat([paper_df, info_df])
-                                for c_id in relevant_abstracts:
-                                    abstract = relevant_abstracts[c_id]
-                                    if abstract is not None:
-                                        f = open(os.path.join(core_abstracts_path, c_id + '.txt'), 'w')
-                                        f.write(abstract)
-                                        f.close()
+                for c_id in relevant_abstracts:
+                    abstract = relevant_abstracts[c_id]
+                    if abstract is not None:
+                        f = open(os.path.join(core_abstracts_path, c_id + '.txt'), 'w')
+                        f.write(abstract)
+                        f.close()
 
-                                for c_id in relevant_text:
-                                    te = relevant_text[c_id]
-                                    if te is not None:
-                                        f = open(os.path.join(core_text_path, c_id + '.txt'), 'w')
-                                        f.write(te)
-                                        f.close()
+                for c_id in relevant_text:
+                    te = relevant_text[c_id]
+                    if te is not None:
+                        f = open(os.path.join(core_text_path, c_id + '.txt'), 'w')
+                        f.write(te)
+                        f.close()
 
-                                paper_df.to_csv(os.path.join(core_paper_info_path, query_name + '.csv'))
+                paper_df.to_csv(os.path.join(core_paper_info_path, query_name + '.csv'))
     return paper_df
 
 

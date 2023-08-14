@@ -90,21 +90,21 @@ def get_relevant_papers_from_download():
                              'text_path': [os.path.join(_rel_text_path, corpusid + '.txt')]})
                         paper_df = pd.concat([paper_df, info_df])
 
-                        for c_id in relevant_abstracts:
-                            abstract = relevant_abstracts[c_id]
-                            if abstract is not None:
-                                f = open(os.path.join(sem_schol_abstracts_path, c_id + '.txt'), 'w')
-                                f.write(abstract)
-                                f.close()
+        for c_id in relevant_abstracts:
+            abstract = relevant_abstracts[c_id]
+            if abstract is not None:
+                f = open(os.path.join(sem_schol_abstracts_path, c_id + '.txt'), 'w')
+                f.write(abstract)
+                f.close()
 
-                        for c_id in relevant_text:
-                            te = relevant_text[c_id]
-                            if te is not None:
-                                f = open(os.path.join(sem_schol_text_path, c_id + '.txt'), 'w')
-                                f.write(te)
-                                f.close()
+        for c_id in relevant_text:
+            te = relevant_text[c_id]
+            if te is not None:
+                f = open(os.path.join(sem_schol_text_path, c_id + '.txt'), 'w')
+                f.write(te)
+                f.close()
 
-                        paper_df.to_csv(os.path.join(sem_schol_paper_info_path, query_name + '.csv'))
+        paper_df.to_csv(os.path.join(sem_schol_paper_info_path, query_name + '.csv'))
     return paper_df
 
 
