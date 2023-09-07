@@ -10,10 +10,9 @@ setup(
 
     install_requires=[
         "automatchnames == 1.2.1",
-        "taxonerd"
     ],
     # *strongly* suggested for sharing
     version='1.0',
-    description='A set of python packages for plant trait data',
+    description='Collected packages for downloading corpora and extracting plant names',
     long_description=open('README.md').read(),
 )
