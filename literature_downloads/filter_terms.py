@@ -112,13 +112,13 @@ def get_varied_forms(list_of_words) -> List:
     return list(set(out))
 
 
-_varied_keywords = get_varied_forms(_en_product_keywords)
+_varied_product_keywords = get_varied_forms(_en_product_keywords)
 words_to_exclude = ['add', 'drunkard']
-_varied_keywords_to_use = sorted([x for x in _varied_keywords if x not in words_to_exclude])
-print(f'all variations of keywords: {_varied_keywords_to_use}')
+_varied_product_keywords_to_use = sorted([x for x in _varied_product_keywords if x not in words_to_exclude])
+print(f'all variations of keywords: {_varied_product_keywords_to_use}')
 
 with open('../product_keywords.txt', 'w') as f:
-    for line in _varied_keywords_to_use:
+    for line in _varied_product_keywords_to_use:
         f.write(f"{line}\n")
 
 _lower_case_plant_names = sorted([x.lower() for x in genus_names + family_names])
@@ -143,7 +143,7 @@ def _is_relevant_text(given_text: str) -> str:
     words = [w.strip(string.punctuation) for w in given_text.split()]
     lower_words = [x.lower() for x in words]
 
-    first_match = next((string for string in _varied_keywords_to_use if string in lower_words), None)
+    first_match = next((string for string in _varied_product_keywords_to_use if string in lower_words), None)
     # if first_match is None:
     #     adjacent_words = [" ".join([words[i], words[i + 1]])
     #                       for i in range(len(words) - 1)]
@@ -156,13 +156,13 @@ def number_of_keywords(given_text: str):
     # start_time = time.time()
     words = [w.strip(string.punctuation).lower() for w in given_text.split()]
     res = Counter(words)
-    num_kwords = {key: res[key] for key in _varied_keywords_to_use if key in res}
+    num_product_kwords = {key: res[key] for key in _varied_product_keywords_to_use if key in res}
 
     num_plantnames = {key: res[key] for key in _lower_case_plant_names if key in res}
     num_plantkwords = {key: res[key] for key in _varied_plantspecific_keywords if key in res}
 
     # print("getting number of keywords: %s seconds ---" % (time.time() - start_time))
-    return num_kwords, num_plantnames, num_plantkwords
+    return num_product_kwords, num_plantnames, num_plantkwords
 
 
 def sort_final_dataframe(df: pd.DataFrame):

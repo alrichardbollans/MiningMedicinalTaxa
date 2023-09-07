@@ -56,16 +56,16 @@ def get_relevant_papers_from_download():
                         text = paper['fullText']
 
                         if text is not None:
-                            kwords_dict, plantnames_dict, plantkwords_dict = number_of_keywords(text)
-                            total_kword_mentions = sum(kwords_dict.values())
-                            num_unique_kwords = len(kwords_dict.keys())
+                            product_kwords_dict, plantnames_dict, plantkwords_dict = number_of_keywords(text)
+                            total_product_kword_mentions = sum(product_kwords_dict.values())
+                            num_unique_product_kwords = len(product_kwords_dict.keys())
                             total_plantname_mentions = sum(plantnames_dict.values())
                             num_unique_plantnames = len(plantnames_dict.keys())
 
                             total_plantkeyword_mentions = sum(plantkwords_dict.values())
                             num_unique_plantkeywords = len(plantkwords_dict.keys())
 
-                            if (total_kword_mentions > 0) or (total_plantname_mentions > 0) or (total_plantkeyword_mentions > 0):
+                            if (total_product_kword_mentions > 0) or (total_plantname_mentions > 0) or (total_plantkeyword_mentions > 0):
                                 corpusid = paper['coreId']
 
                                 relevant_abstracts[corpusid] = paper['abstract']
@@ -77,9 +77,9 @@ def get_relevant_papers_from_download():
 
                                 info_df = pd.DataFrame(
                                     {'corpusid': [corpusid], 'DOI': [paper['doi']], 'language': [language],
-                                     'total_keyword_mentions': total_kword_mentions,
-                                     'unique_keyword_mentions': num_unique_kwords,
-                                     'keyword_count': str(kwords_dict),
+                                     'total_product_keyword_mentions': total_product_kword_mentions,
+                                     'unique_product_keyword_mentions': num_unique_product_kwords,
+                                     'product_keyword_count': str(product_kwords_dict),
                                      'total_plantname_mentions': total_plantname_mentions,
                                      'unique_plantname_mentions': num_unique_plantnames,
                                      'plantname_count': str(plantnames_dict),
