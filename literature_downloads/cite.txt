@@ -1,3 +1,7 @@
+Knoth, P., Herrmannova, D., Cancellieri, M. et al.
+CORE: A Global Aggregation Service for Open Access Papers. Sci Data 10, 366 (2023). https://doi.org/10.1038/s41597-023-02208-w
+Accessed: 01/08/23
+
 Kinney, R.M., Anastasiades, C., Authur, R., Beltagy, I., Bragg, J., Buraczynski, A., Cachola, I., Candra, S., Chandrasekhar, Y., Cohan, A., Crawford, M., Downey, D., Dunkelberger, J., Etzioni, O., Evans, R., Feldman, S., Gorney, J., Graham, D.W., Hu, F., Huff, R., King, D., Kohlmeier, S., Kuehl, B., Langan, M., Lin, D., Liu, H., Lo, K., Lochner, J., MacMillan, K., Murray, T., Newell, C., Rao, S., Rohatgi, S., Sayre, P.L., Shen, Z., Singh, A., Soldaini, L., Subramanian, S., Tanaka, A., Wade, A.D., Wagner, L.M., Wang, L.L., Wilhelm, C., Wu, C., Yang, J., Zamarron, A., van Zuylen, M., & Weld, D.S. (2023). The Semantic Scholar Open Data Platform. ArXiv, abs/2301.10140.
 
 @inproceedings{lo-wang-2020-s2orc,
@@ -12,5 +16,7 @@ Kinney, R.M., Anastasiades, C., Authur, R., Beltagy, I., Bragg, J., Buraczynski,
     doi = "10.18653/v1/2020.acl-main.447",
     pages = "4969--4983"
 }
-
 Accessed 26/07/23
+
+Govaerts R (ed.). 2023. WCVP: World Checklist of Vascular Plants. V11
+Facilitated by the Royal Botanic Gardens, Kew. [WWW document] URL http://sftp.kew.org/pub/data-repositories/WCVP/ [accessed XXXX].
