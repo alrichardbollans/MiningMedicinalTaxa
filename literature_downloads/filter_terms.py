@@ -2,6 +2,7 @@ import string
 from collections import Counter
 from typing import List
 
+import pandas as pd
 from wcvp_download import get_all_taxa, wcvp_columns
 
 all_taxa = get_all_taxa()
@@ -113,17 +114,21 @@ def get_varied_forms(list_of_words) -> List:
 
 _varied_keywords = get_varied_forms(_en_product_keywords)
 words_to_exclude = ['add', 'drunkard']
-_varied_keywords_to_use = [x for x in _varied_keywords if x not in words_to_exclude]
+_varied_keywords_to_use = sorted([x for x in _varied_keywords if x not in words_to_exclude])
 print(f'all variations of keywords: {_varied_keywords_to_use}')
 
 with open('../product_keywords.txt', 'w') as f:
     for line in _varied_keywords_to_use:
         f.write(f"{line}\n")
 
-_lower_case_plant_names = [x.lower() for x in genus_names + family_names]
+_lower_case_plant_names = sorted([x.lower() for x in genus_names + family_names])
 print(f'all plant words: {_lower_case_plant_names}')
+with open('../plantname_keywords.txt', 'w') as f:
+    for line in _lower_case_plant_names:
+        f.write(f"{line}\n")
 
-_varied_plantspecific_keywords = get_varied_forms(plant_specific_keywords)
+
+_varied_plantspecific_keywords = sorted(get_varied_forms(plant_specific_keywords))
 print(f'all plant key words: {_varied_plantspecific_keywords}')
 
 with open('../plant_keywords.txt', 'w') as f:
@@ -158,3 +163,7 @@ def number_of_keywords(given_text: str):
 
     # print("getting number of keywords: %s seconds ---" % (time.time() - start_time))
     return num_kwords, num_plantnames, num_plantkwords
+
+
+def sort_final_dataframe(df: pd.DataFrame):
+    pass
