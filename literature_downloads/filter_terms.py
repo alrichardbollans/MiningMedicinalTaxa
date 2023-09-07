@@ -112,7 +112,7 @@ def get_varied_forms(list_of_words) -> List:
 
 
 _varied_keywords = get_varied_forms(_en_product_keywords)
-words_to_exclude = ['add']
+words_to_exclude = ['add', 'drunkard']
 _varied_keywords_to_use = [x for x in _varied_keywords if x not in words_to_exclude]
 print(f'all variations of keywords: {_varied_keywords_to_use}')
 
