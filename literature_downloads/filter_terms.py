@@ -127,7 +127,6 @@ with open('../plantname_keywords.txt', 'w') as f:
     for line in _lower_case_plant_names:
         f.write(f"{line}\n")
 
-
 _varied_plantspecific_keywords = sorted(get_varied_forms(plant_specific_keywords))
 print(f'all plant key words: {_varied_plantspecific_keywords}')
 
@@ -166,4 +165,5 @@ def number_of_keywords(given_text: str):
 
 
 def sort_final_dataframe(df: pd.DataFrame):
-    pass
+    return df.sort_values(by=['unique_product_keyword_mentions', 'unique_plantname_mentions', 'unique_plantkeyword_mentions'],
+                          ascending=False).reset_index(drop=True)

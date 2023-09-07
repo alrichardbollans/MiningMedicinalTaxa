@@ -6,7 +6,7 @@ import pandas as pd
 from tqdm import tqdm
 
 sys.path.append('../..')
-from literature_downloads import query_name, number_of_keywords
+from literature_downloads import query_name, number_of_keywords, sort_final_dataframe
 
 scratch_path = os.environ.get('SCRATCH')
 
@@ -105,9 +105,9 @@ def get_relevant_papers_from_download():
                         f = open(os.path.join(core_text_path, c_id + '.txt'), 'w')
                         f.write(te)
                         f.close()
-
-                paper_df.to_csv(os.path.join(core_paper_info_path, query_name + '.csv'))
-    return paper_df
+                out_df = sort_final_dataframe(paper_df)
+                out_df.to_csv(os.path.join(core_paper_info_path, query_name + '.csv'))
+    return out_df
 
 
 if __name__ == '__main__':

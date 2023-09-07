@@ -5,7 +5,7 @@ import sys
 import pandas as pd
 
 sys.path.append('../..')
-from literature_downloads import query_name, number_of_keywords
+from literature_downloads import query_name, number_of_keywords, sort_final_dataframe
 
 from literature_downloads.semantic_scholar import get_zip_file_for_part, sem_schol_download_path
 
@@ -103,9 +103,9 @@ def get_relevant_papers_from_download():
                 f = open(os.path.join(sem_schol_text_path, c_id + '.txt'), 'w')
                 f.write(te)
                 f.close()
-
-        paper_df.to_csv(os.path.join(sem_schol_paper_info_path, query_name + '.csv'))
-    return paper_df
+        out_df = sort_final_dataframe(paper_df)
+        out_df.to_csv(os.path.join(sem_schol_paper_info_path, query_name + '.csv'))
+    return out_df
 
 
 def check_for_repetitions():
