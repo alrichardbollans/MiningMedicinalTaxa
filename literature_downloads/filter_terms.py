@@ -1,5 +1,6 @@
 import os
 import string
+import time
 from collections import Counter
 from typing import List
 
@@ -149,21 +150,30 @@ with open('../plant_keywords.txt', 'w') as f:
         f.write(f"{line}\n")
 
 
+def get_dict_from_res(count_result: Counter, list_to_check: List[str]):
+
+    # start_time = time.time()
+    intersection = set(count_result.keys()).intersection(list_to_check)
+    out_res = {key: count_result[key] for key in intersection}
+    # print("getting number of keywords using intersection: %s seconds ---" % (time.time() - start_time))
+    return out_res
+
+
 def number_of_keywords(given_text: str):
     # start_time = time.time()
     words = [w.strip(string.punctuation).lower() for w in given_text.split()]
-    res = Counter(words)
-    num_product_kwords = {key: res[key] for key in _varied_product_keywords_to_use if key in res}
-    num_familynames = {key: res[key] for key in _lower_case_family_names if key in res}
-    num_genusnames = {key: res[key] for key in _lower_case_genus_names if key in res}
-    num_plantkwords = {key: res[key] for key in _varied_plantspecific_keywords if key in res}
     # Species names could be 3 words long due to hybrid characters
     paired_words = [" ".join([words[i], words[i + 1]]) for i in range(len(words) - 1)]
     trio_words = [" ".join([words[i], words[i + 1], words[i + 2]]) for i in range(len(words) - 2)]
-    potential_binomials = paired_words + trio_words
-    paired_res = Counter(potential_binomials)
-    num_sp_binomials = {key: paired_res[key] for key in _lower_case_binom_names if key in paired_res}
-    # print("getting number of keywords: %s seconds ---" % (time.time() - start_time))
+    potential_words = words + paired_words + trio_words
+
+    res = Counter(potential_words)
+    num_product_kwords = get_dict_from_res(res, _varied_product_keywords_to_use)
+    num_familynames = get_dict_from_res(res, _lower_case_family_names)
+    num_genusnames = get_dict_from_res(res, _lower_case_genus_names)
+    num_plantkwords = get_dict_from_res(res, _varied_plantspecific_keywords)
+    num_sp_binomials = get_dict_from_res(res, _lower_case_binom_names)
+
     return num_product_kwords, num_genusnames, num_familynames, num_sp_binomials, num_plantkwords
 
 
