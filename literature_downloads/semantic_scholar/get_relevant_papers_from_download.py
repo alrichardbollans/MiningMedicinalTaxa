@@ -5,7 +5,7 @@ import sys
 import pandas as pd
 
 sys.path.append('../..')
-from literature_downloads import query_name, number_of_keywords, sort_final_dataframe
+from literature_downloads import query_name, number_of_keywords, sort_final_dataframe, build_output_dict
 
 from literature_downloads.semantic_scholar import get_zip_file_for_part, sem_schol_download_path
 
@@ -47,15 +47,22 @@ def get_relevant_papers_from_download():
                     return [text[int(a['start']):int(a['end'])] for a in types]
 
                 if text is not None:
-                    product_kwords_dict, plantnames_dict, plantkwords_dict = number_of_keywords(text)
+                    product_kwords_dict, genusnames_dict, familynames_dict, plantkwords_dict = number_of_keywords(text)
+                    # Products
                     total_product_kword_mentions = sum(product_kwords_dict.values())
                     num_unique_product_kwords = len(product_kwords_dict.keys())
-                    total_plantname_mentions = sum(plantnames_dict.values())
-                    num_unique_plantnames = len(plantnames_dict.keys())
-
+                    # Genera
+                    total_genusname_mentions = sum(genusnames_dict.values())
+                    num_unique_genusnames = len(genusnames_dict.keys())
+                    # Families
+                    total_familyname_mentions = sum(familynames_dict.values())
+                    num_unique_familynames = len(familynames_dict.keys())
+                    # Plants
                     total_plantkeyword_mentions = sum(plantkwords_dict.values())
                     num_unique_plantkeywords = len(plantkwords_dict.keys())
-                    if (total_product_kword_mentions > 0) or (total_plantname_mentions > 0) or (total_plantkeyword_mentions > 0):
+
+                    if (total_product_kword_mentions > 0) or (total_genusname_mentions > 0) or (total_familyname_mentions > 0) or (
+                            total_plantkeyword_mentions > 0):
 
                         corpusid = str(paper['corpusid'])
                         abstract = ' '.join(set(text_of('abstract')))
@@ -73,21 +80,15 @@ def get_relevant_papers_from_download():
                         except TypeError:
                             doi = None
 
-                        info_df = pd.DataFrame(
-                            {'corpusid': [corpusid], 'DOI': [doi],
-                             'total_product_keyword_mentions': total_product_kword_mentions,
-                             'unique_product_keyword_mentions': num_unique_product_kwords,
-                             'product_keyword_count': str(product_kwords_dict),
-                             'total_plantname_mentions': total_plantname_mentions,
-                             'unique_plantname_mentions': num_unique_plantnames,
-                             'plantname_count': str(plantnames_dict),
-                             'total_plantkeyword_mentions': total_plantkeyword_mentions,
-                             'unique_plantkeyword_mentions': num_unique_plantkeywords,
+                        info_df = pd.DataFrame(build_output_dict(corpusid, paper['doi'], total_product_kword_mentions, num_unique_product_kwords,
+                                                                 product_kwords_dict,
+                                                                 total_genusname_mentions, num_unique_genusnames, genusnames_dict,
+                                                                 total_familyname_mentions,
+                                                                 num_unique_familynames,
+                                                                 familynames_dict, total_plantkeyword_mentions,
+                                                                 num_unique_plantkeywords, plantkwords_dict, paper['title'], paper['authors'],
+                                                                 paper['downloadUrl'], _rel_abstract_path, _rel_text_path))
 
-                             'plantkeyword_count': str(plantkwords_dict),
-                             'title': [title], 'authors': [authors], 'oaurl': [url],
-                             'abstract_path': [os.path.join(_rel_abstract_path, corpusid + '.txt')],
-                             'text_path': [os.path.join(_rel_text_path, corpusid + '.txt')]})
                         paper_df = pd.concat([paper_df, info_df])
 
         for c_id in relevant_abstracts:

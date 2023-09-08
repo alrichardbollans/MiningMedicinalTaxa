@@ -1,3 +1,4 @@
+import os
 import string
 from collections import Counter
 from typing import List
@@ -6,8 +7,8 @@ import pandas as pd
 from wcvp_download import get_all_taxa, wcvp_columns
 
 all_taxa = get_all_taxa()
-genus_names = all_taxa[wcvp_columns['genus']].unique().tolist()
-family_names = all_taxa[wcvp_columns['family']].unique().tolist()
+genus_names = all_taxa[wcvp_columns['genus']].dropna().unique().tolist()
+family_names = all_taxa[wcvp_columns['family']].dropna().unique().tolist()
 _unclean_lifeforms = all_taxa['lifeform_description'].dropna().unique().tolist()
 _lifeforms = []
 for x in [w.split() for w in _unclean_lifeforms]:
@@ -121,10 +122,16 @@ with open('../product_keywords.txt', 'w') as f:
     for line in _varied_product_keywords_to_use:
         f.write(f"{line}\n")
 
-_lower_case_plant_names = sorted([x.lower() for x in genus_names + family_names])
-print(f'all plant words: {_lower_case_plant_names}')
-with open('../plantname_keywords.txt', 'w') as f:
-    for line in _lower_case_plant_names:
+_lower_case_genus_names = sorted([x.lower() for x in genus_names])
+print(f'all genus words: {_lower_case_genus_names}')
+with open('../genusname_keywords.txt', 'w') as f:
+    for line in _lower_case_genus_names:
+        f.write(f"{line}\n")
+
+_lower_case_family_names = sorted([x.lower() for x in family_names])
+print(f'all family words: {_lower_case_family_names}')
+with open('../familyname_keywords.txt', 'w') as f:
+    for line in _lower_case_family_names:
         f.write(f"{line}\n")
 
 _varied_plantspecific_keywords = sorted(get_varied_forms(plant_specific_keywords))
@@ -135,35 +142,42 @@ with open('../plant_keywords.txt', 'w') as f:
         f.write(f"{line}\n")
 
 
-def _is_relevant_text(given_text: str) -> str:
-    # start_time = time.time()
-
-    # Note order of this can improve optimisation
-    words = [w.strip(string.punctuation) for w in given_text.split()]
-    lower_words = [x.lower() for x in words]
-
-    first_match = next((string for string in _varied_product_keywords_to_use if string in lower_words), None)
-    # if first_match is None:
-    #     adjacent_words = [" ".join([words[i], words[i + 1]])
-    #                       for i in range(len(words) - 1)]
-    #     first_match = next((string for string in _misc_paired_keywords if string in adjacent_words), None)
-    # print("getting relevant text takes: %s seconds ---" % (time.time() - start_time))
-    return first_match
-
-
 def number_of_keywords(given_text: str):
     # start_time = time.time()
     words = [w.strip(string.punctuation).lower() for w in given_text.split()]
     res = Counter(words)
     num_product_kwords = {key: res[key] for key in _varied_product_keywords_to_use if key in res}
-
-    num_plantnames = {key: res[key] for key in _lower_case_plant_names if key in res}
+    num_familynames = {key: res[key] for key in _lower_case_family_names if key in res}
+    num_genusnames = {key: res[key] for key in _lower_case_genus_names if key in res}
     num_plantkwords = {key: res[key] for key in _varied_plantspecific_keywords if key in res}
 
     # print("getting number of keywords: %s seconds ---" % (time.time() - start_time))
-    return num_product_kwords, num_plantnames, num_plantkwords
+    return num_product_kwords, num_genusnames, num_familynames, num_plantkwords
+
+
+def build_output_dict(corpusid, doi, total_product_kword_mentions, num_unique_product_kwords, product_kwords_dict,
+                      total_genusname_mentions, num_unique_genusnames, genusnames_dict, total_familyname_mentions, num_unique_familynames,
+                      familynames_dict, total_plantkeyword_mentions,
+                      num_unique_plantkeywords, plantkwords_dict, title, authors, url, _rel_abstract_path, _rel_text_path, language=None):
+    return {'corpusid': [corpusid], 'DOI': [doi], 'language': language,
+            'total_product_keyword_mentions': total_product_kword_mentions,
+            'unique_product_keyword_mentions': num_unique_product_kwords,
+            'product_keyword_count': str(product_kwords_dict),
+            'total_genusname_mentions': total_genusname_mentions,
+            'unique_genusname_mentions': num_unique_genusnames,
+            'genusname_count': str(genusnames_dict),
+            'total_familyname_mentions': total_familyname_mentions,
+            'unique_familyname_mentions': num_unique_familynames,
+            'familyname_count': str(familynames_dict),
+            'total_plant_keyword_mentions': total_plantkeyword_mentions,
+            'unique_plant_keyword_mentions': num_unique_plantkeywords,
+            'plant_keyword_count': str(plantkwords_dict),
+            'title': [title], 'authors': [str(authors)], 'oaurl': [url],
+            'abstract_path': [os.path.join(_rel_abstract_path, corpusid + '.txt')],
+            'text_path': [os.path.join(_rel_text_path, corpusid + '.txt')]}
 
 
 def sort_final_dataframe(df: pd.DataFrame):
-    return df.sort_values(by=['unique_product_keyword_mentions', 'unique_plantname_mentions', 'unique_plantkeyword_mentions'],
-                          ascending=False).reset_index(drop=True)
+    return df.sort_values(
+        by=['unique_familyname_mentions', 'unique_product_keyword_mentions', 'unique_plant_keyword_mentions', 'unique_genusname_mentions'],
+        ascending=False).reset_index(drop=True)

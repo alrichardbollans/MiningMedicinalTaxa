@@ -94,7 +94,6 @@ acamptoclados
 acamptopappus
 acanos
 acantacaryx
-acanthaceae
 acanthambrosia
 acanthanthus
 acantharia
@@ -212,11 +211,9 @@ achania
 achantia
 acharagma
 acharia
-achariaceae
 acharitea
 achariterium
 achasma
-achatocarpaceae
 achatocarpus
 achetaria
 achicodonia
@@ -351,7 +348,6 @@ aconitum
 aconogonon
 acontias
 acopanea
-acoraceae
 acorellus
 acoridium
 acorus
@@ -457,7 +453,6 @@ actinanthus
 actinea
 actinella
 actinidia
-actinidiaceae
 actiniopteris
 actinobole
 actinocarpus
@@ -660,7 +655,6 @@ adesmia
 adetogramma
 adhatoda
 adhunia
-adiantaceae
 adianthum
 adiantopsis
 adiantum
@@ -821,7 +815,6 @@ aethyopys
 aetia
 aetopteron
 aetoxylon
-aextoxicaceae
 aextoxicon
 afarca
 affonsea
@@ -1062,7 +1055,6 @@ aithales
 aitkenara
 aitonia
 aitopsis
-aizoaceae
 aizoanthemopsis
 aizoanthemum
 aizodraba
@@ -1075,7 +1067,6 @@ ajovea
 ajuga
 ajugoides
 akania
-akaniaceae
 akea
 akeassia
 akebia
@@ -1233,7 +1224,6 @@ alipendula
 alipsa
 aliseta
 alisma
-alismataceae
 alismodorus
 alismorchis
 alismorkis
@@ -1273,7 +1263,6 @@ allenia
 allenrolfea
 alleptauminia
 allexis
-alliaceae
 alliaria
 allibertia
 allinum
@@ -1407,7 +1396,6 @@ alseis
 alseodaphne
 alseodaphnopsis
 alseuosmia
-alseuosmiaceae
 alshehbazia
 alsinanthe
 alsinanthemum
@@ -1429,7 +1417,6 @@ alsomitra
 alsophila
 alstonia
 alstroemeria
-alstroemeriaceae
 altamirania
 altamiranoa
 altensteinia
@@ -1440,7 +1427,6 @@ althenia
 altheria
 althoffia
 altingia
-altingiaceae
 altoparadisium
 altora
 altriarabis
@@ -1474,7 +1460,6 @@ alyssum
 alytostylis
 alyxia
 alzatea
-alzateaceae
 amadea
 amaioua
 amalago
@@ -1491,7 +1476,6 @@ amaracus
 amaralia
 amarantellus
 amarantesia
-amaranthaceae
 amaranthoides
 amaranthus
 amarcrinum
@@ -1502,7 +1486,6 @@ amarine
 amarolea
 amaroria
 amarygia
-amaryllidaceae
 amaryllis
 amasonia
 amathea
@@ -1556,7 +1539,6 @@ amblytropis
 ambongia
 ambora
 amborella
-amborellaceae
 amboroa
 ambraria
 ambrella
@@ -1776,7 +1758,6 @@ anabasis
 anabata
 anacampaludorchis
 anacampseros
-anacampserotaceae
 anacampta
 anacampterorchis
 anacampteulenia
@@ -1786,7 +1767,6 @@ anacamptiserapias
 anacamptorchis
 anacantha
 anacaona
-anacardiaceae
 anacardium
 anacharis
 anachaste
@@ -1910,7 +1890,6 @@ ancistrocarpus
 ancistrocarya
 ancistrochilus
 ancistrochloa
-ancistrocladaceae
 ancistrocladus
 ancistrodesmus
 ancistrolanthe
@@ -2180,7 +2159,6 @@ anisopappus
 anisopetala
 anisopetalon
 anisophyllea
-anisophylleaceae
 anisophyllum
 anisoplectus
 anisopleura
@@ -2224,7 +2202,6 @@ anneslia
 annesorhiza
 annickia
 annona
-annonaceae
 annularia
 annulodiscus
 anocheile
@@ -2554,7 +2531,6 @@ aphanochilus
 aphanococcus
 aphanomyrtus
 aphanopappus
-aphanopetalaceae
 aphanopetalum
 aphanopleura
 aphanosperma
@@ -2570,7 +2546,6 @@ aphelandros
 aphelexis
 aphelia
 aphloia
-aphloiaceae
 aphoma
 aphomonix
 aphora
@@ -2587,7 +2562,6 @@ aphyllodium
 aphyllon
 aphyllorchis
 aphyteia
-apiaceae
 apiastrum
 apicra
 apinagia
@@ -2629,12 +2603,10 @@ apochloa
 apochoris
 apoclada
 apocopis
-apocynaceae
 apocynastrum
 apocynum
 apoda-prorepentia
 apodandra
-apodanthaceae
 apodanthera
 apodanthes
 apodasmia
@@ -2658,7 +2630,6 @@ apollonias
 apomuria
 aponoa
 aponogeton
-aponogetonaceae
 apopetalum
 apophragma
 apophyllum
@@ -2732,7 +2703,6 @@ apurimacia
 apworthia
 aquarius
 aquartia
-aquifoliaceae
 aquifolium
 aquilaria
 aquilariella
@@ -2747,7 +2717,6 @@ arabidopsis
 arabis
 aracampe
 aracamunia
-araceae
 arachidna
 arachis
 arachnadenia
@@ -2785,7 +2754,6 @@ aragoa
 araiostegia
 araiostegiella
 aralia
-araliaceae
 aralidium
 araliopsis
 araliorhamnus
@@ -2801,7 +2769,6 @@ ararocarpus
 araschcoolia
 aratitiyopea
 araucaria
-araucariaceae
 araujia
 arausiaca
 arawakia
@@ -2882,7 +2849,6 @@ ardisia
 ardisiandra
 arduina
 areca
-arecaceae
 arecastrum
 arechavaletaia
 aregelia
@@ -2918,7 +2884,6 @@ argocoffeopsis
 argolasia
 argomuellera
 argophilum
-argophyllaceae
 argophyllum
 argopogon
 argorips
@@ -3001,7 +2966,6 @@ aristocapsa
 aristoclesia
 aristogeitonia
 aristolochia
-aristolochiaceae
 aristomenia
 aristopsis
 aristotela
@@ -3244,7 +3208,6 @@ aspalathoides
 aspalathus
 aspaleomnia
 aspalthium
-asparagaceae
 asparagopsis
 asparagus
 aspasia
@@ -3260,7 +3223,6 @@ asperuginoides
 asperugo
 asperula
 aspezia
-asphodelaceae
 asphodeline
 asphodeliris
 asphodeloides
@@ -3291,7 +3253,6 @@ aspiliopsis
 aspilobium
 aspioda
 aspitium
-aspleniaceae
 asplenicystopteris
 asplenidictyum
 aspleniopsis
@@ -3319,7 +3280,6 @@ asta
 astartea
 astartoseris
 astelia
-asteliaceae
 astelma
 astemma
 astemon
@@ -3330,7 +3290,6 @@ astephanocarpa
 astephanus
 aster
 asteracantha
-asteraceae
 asterago
 asterandra
 asteranthe
@@ -3364,7 +3323,6 @@ asterolinon
 asteromoea
 asteromyrtus
 asteropeia
-asteropeiaceae
 asterophorum
 asterophyllum
 asteropsis
@@ -3498,7 +3456,6 @@ atherolepis
 atherophora
 atheropogon
 atherosperma
-atherospermataceae
 atherostemon
 atherstonea
 athertonia
@@ -3650,7 +3607,6 @@ australorchis
 austroamericium
 austrobaeckea
 austrobaileya
-austrobaileyaceae
 austrobassia
 austroblechnum
 austrobrickellia
@@ -3878,9 +3834,7 @@ balania
 balaniella
 balanites
 balanocarpus
-balanopaceae
 balanophora
-balanophoraceae
 balanoplis
 balanops
 balanopsis
@@ -3940,7 +3894,6 @@ balsamaria
 balsamea
 balsamiflua
 balsamina
-balsaminaceae
 balsamita
 balsamocarpon
 balsamocitrus
@@ -4018,9 +3971,7 @@ barbellina
 barberetta
 barberina
 barbeuia
-barbeuiaceae
 barbeya
-barbeyaceae
 barbeyastrum
 barbieria
 barbilus
@@ -4127,7 +4078,6 @@ basanacantha
 basananthe
 basedowia
 basella
-basellaceae
 baseonema
 bashania
 basicarpus
@@ -4152,7 +4102,6 @@ bastardiastrum
 bastardiopsis
 basteria
 basutica
-bataceae
 batania
 batanthes
 bataprine
@@ -4262,7 +4211,6 @@ beesia
 beethovenia
 befaria
 begonia
-begoniaceae
 begoniella
 beguea
 behaimia
@@ -4403,8 +4351,6 @@ bequaertia
 bequaertiodendron
 beranekara
 berardia
-berberidaceae
-berberidopsidaceae
 berberidopsis
 berberina
 berberis
@@ -4497,7 +4443,6 @@ betonica
 bettsara
 betula
 betula-alnus
-betulaceae
 betulaster
 beureria
 beurreria
@@ -4535,7 +4480,6 @@ bidens
 bidoupia
 bidwillia
 biebersteinia
-biebersteiniaceae
 bielzia
 bieneria
 bienertia
@@ -4556,7 +4500,6 @@ bigelowia
 biggina
 biglandularia
 bignonia
-bignoniaceae
 bihai
 bihania
 bijlia
@@ -4653,7 +4596,6 @@ bivonea
 bivonia
 biwaldia
 bixa
-bixaceae
 bixagrewia
 bizonula
 blabeia
@@ -4681,7 +4623,6 @@ blanchetiodendron
 blanckia
 blancoa
 blandfordia
-blandfordiaceae
 blandibractea
 blandina
 blandowia
@@ -4923,7 +4864,6 @@ bonjeanea
 bonnaya
 bonnayodes
 bonnetia
-bonnetiaceae
 bonniera
 bonnierella
 bonplandara
@@ -4944,7 +4884,6 @@ bopusia
 boquila
 borabora
 borageocereus
-boraginaceae
 boraginella
 boraginodes
 borago
@@ -4987,7 +4926,6 @@ borsczowia
 borthwickia
 borwickara
 borya
-boryaceae
 boryangraecum
 borzicactella
 borzicactus
@@ -5281,7 +5219,6 @@ brassiantha
 brassica
 brassica-napus
 brassicaceae
-brassicaceae
 brassicaria
 brassicastrum
 brassicella
@@ -5426,7 +5363,6 @@ brolarchilis
 brombya
 bromecanthe
 bromelia
-bromeliaceae
 bromelica
 bromfeldia
 bromheadia
@@ -5480,11 +5416,9 @@ bruinsmia
 brummittara
 brunella
 brunellia
-brunelliaceae
 brunfelsia
 brunfelsiopsis
 brunia
-bruniaceae
 bruniera
 brunnera
 brunnichia
@@ -5662,7 +5596,6 @@ burlemarxia
 burlingtonia
 burmabambus
 burmannia
-burmanniaceae
 burmeistera
 burnatastrum
 burnatia
@@ -5679,7 +5612,6 @@ bursa
 bursa-pastoris
 bursaria
 bursera
-burseraceae
 burseranthe
 burseria
 burshia
@@ -5711,7 +5643,6 @@ butia
 butiarecastrum
 butinia
 butneria
-butomaceae
 butomissa
 butomopsis
 butomus
@@ -5721,13 +5652,11 @@ buttonia
 butumia
 butyagrus
 butyrospermum
-buxaceae
 buxanthus
 buxella
 buxiphyllum
 buxus
 buyssonara
-byblidaceae
 byblis
 byrnesia
 byronia
@@ -5752,7 +5681,6 @@ cabanisia
 cabi
 cabobanthus
 cabomba
-cabombaceae
 cabralea
 cabrera
 cabreraea
@@ -5772,7 +5700,6 @@ cacosmanthus
 cacosmia
 cacotanis
 cacoucia
-cactaceae
 cactodendron
 cactus
 cacuvallum
@@ -5871,7 +5798,6 @@ calcarunia
 calcatrippa
 calcearia
 calceolaria
-calceolariaceae
 calceolus
 calchas
 calcicola
@@ -6040,7 +5966,6 @@ calophaca
 calophanes
 calophanoides
 calophylica
-calophyllaceae
 calophylloides
 calophyllum
 calophysa
@@ -6103,11 +6028,9 @@ calycacanthus
 calycadenia
 calycampe
 calycandra
-calycanthaceae
 calycanthemum
 calycanthus
 calycera
-calyceraceae
 calycium
 calycobolus
 calycocarpum
@@ -6236,7 +6159,6 @@ campanocalyx
 campanolea
 campanopsis
 campanula
-campanulaceae
 campanulastrum
 campanuloides
 campanulopsis
@@ -6319,7 +6241,6 @@ campylotropis
 campylus
 campynema
 campynemanthe
-campynemataceae
 camunium
 camusia
 camusiella
@@ -6353,7 +6274,6 @@ candollea
 candolleodendron
 candollina
 canella
-canellaceae
 canephora
 canhamo
 canicidia
@@ -6363,11 +6283,9 @@ canistrum
 canizaresia
 cankrienia
 canna
-cannabaceae
 cannabina
 cannabis
 cannaboides
-cannaceae
 cannacorus
 cannaeorchis
 cannazzaroara
@@ -6420,7 +6338,6 @@ capnoides
 capnophyllum
 capnorchis
 capnorea
-capparaceae
 capparicordis
 capparidastrum
 capparis
@@ -6428,7 +6345,6 @@ cappeara
 capraea
 capraria
 caprificus
-caprifoliaceae
 caprifolium
 capriola
 caprosma
@@ -6506,7 +6422,6 @@ cardiopetalum
 cardiophora
 cardiophyllarium
 cardiophyllum
-cardiopteridaceae
 cardiopteris
 cardiospermum
 cardiostegia
@@ -6532,7 +6447,6 @@ cargilla
 cargillia
 caribea
 carica
-caricaceae
 caricella
 caricina
 caricinella
@@ -6547,7 +6461,6 @@ carissa
 carissophyllum
 carlea
 carlemannia
-carlemanniaceae
 carlephyton
 carlesia
 carlina
@@ -6672,7 +6585,6 @@ carvifolia
 carya
 carylopha
 caryocar
-caryocaraceae
 caryochloa
 caryococca
 caryodaphne
@@ -6682,7 +6594,6 @@ caryolobis
 caryolobium
 caryolopha
 caryomene
-caryophyllaceae
 caryophyllata
 caryophyllea
 caryophyllus
@@ -6771,7 +6682,6 @@ castroa
 castronia
 castroviejoa
 casuarina
-casuarinaceae
 catabrosa
 catabrosella
 catabrosia
@@ -6954,7 +6864,6 @@ ceiba
 celaena
 celaenodendron
 celanthera
-celastraceae
 celastrus
 celatorchis
 celebnia
@@ -7029,7 +6938,6 @@ centropappus
 centropetalum
 centrophorum
 centrophyllum
-centroplacaceae
 centroplacus
 centropodia
 centropogon
@@ -7105,8 +7013,6 @@ cephalostachyum
 cephalostemon
 cephalostigma
 cephalostigmaton
-cephalotaceae
-cephalotaxaceae
 cephalotaxus
 cephalotomandra
 cephalotos
@@ -7182,7 +7088,6 @@ ceratonychia
 ceratopetalorchis
 ceratopetalum
 ceratophorus
-ceratophyllaceae
 ceratophyllum
 ceratophytum
 ceratopsis
@@ -7208,7 +7113,6 @@ cerberiopsis
 cercanthemum
 cercestis
 cercidiopsis
-cercidiphyllaceae
 cercidiphyllum
 cercidium
 cercinia
@@ -7832,7 +7736,6 @@ chlora
 chloracantha
 chloradenia
 chloraea
-chloranthaceae
 chloranthus
 chloraster
 chloridion
@@ -8036,7 +7939,6 @@ chrysion
 chrysiphiala
 chrysitrix
 chrysobactron
-chrysobalanaceae
 chrysobalanus
 chrysobaphus
 chrysobotrya
@@ -8203,7 +8105,6 @@ cipura
 cipuropsis
 circaea
 circaeaster
-circaeasteraceae
 circaeocarpus
 circandra
 circinnus
@@ -8224,7 +8125,6 @@ cissampelopsis
 cissampelos
 cissarobryon
 cissus
-cistaceae
 cistanche
 cistanthe
 cistanthera
@@ -8411,7 +8311,6 @@ cleobula
 cleobulia
 cleochroma
 cleodora
-cleomaceae
 cleome
 cleomella
 cleomena
@@ -8428,7 +8327,6 @@ clermontia
 clerodendranthus
 clerodendrum
 clethra
-clethraceae
 clethropsis
 clevelandia
 cleyera
@@ -8501,7 +8399,6 @@ cluacena
 clueria
 clugnia
 clusia
-clusiaceae
 clusianthemum
 clusiella
 clusiophyllea
@@ -8743,7 +8640,6 @@ colaste
 colax
 colbergaria
 colbertia
-colchicaceae
 colchicum
 coldenella
 coldenia
@@ -8857,7 +8753,6 @@ columbiadoria
 columella
 columellea
 columellia
-columelliaceae
 columnea
 coluppa
 coluria
@@ -8889,7 +8784,6 @@ comatoglossum
 combera
 combesia
 comborhiza
-combretaceae
 combretocarpus
 combretodendron
 combretopsis
@@ -8904,7 +8798,6 @@ cominsia
 comiphyton
 commarum
 commelina
-commelinaceae
 commelinantia
 commelinidium
 commelinopsis
@@ -8994,7 +8887,6 @@ conioselinum
 coniothele
 conirostrum
 conium
-connaraceae
 connaropsis
 connarus
 connellia
@@ -9049,7 +8941,6 @@ contarenia
 contortuplicata
 conuleum
 convallaria
-convolvulaceae
 convolvuloides
 convolvulus
 conygeron
@@ -9148,7 +9039,6 @@ corethrum
 coriandropsis
 coriandrum
 coriaria
-coriariaceae
 coridochloa
 coridothymus
 coriflora
@@ -9165,7 +9055,6 @@ cormophyllum
 cormus
 cormylus
 cornacchinia
-cornaceae
 cornalia
 cornelia
 cornella
@@ -9211,7 +9100,6 @@ corrigiola
 corryocactus
 corryocereus
 corsia
-corsiaceae
 corsiopsis
 cortaderia
 cortesia
@@ -9253,7 +9141,6 @@ corynemyrtus
 corynephorus
 corynephyllum
 corynitis
-corynocarpaceae
 corynocarpus
 corynophallus
 corynopuntia
@@ -9302,7 +9189,6 @@ cosmostigma
 cossinia
 cossonia
 costa
-costaceae
 costaea
 costantina
 costarica
@@ -9433,7 +9319,6 @@ crassipes
 crassocephalum
 crassothonna
 crassula
-crassulaceae
 crassularia
 crassuvia
 crataegomespilus
@@ -9614,7 +9499,6 @@ crossopetalum
 crossophrys
 crossopteryx
 crossosoma
-crossosomataceae
 crossosperma
 crossostemma
 crossostephium
@@ -9683,7 +9567,6 @@ cryptarrhena
 cryptbergia
 crypteris
 crypteronia
-crypteroniaceae
 cryptina
 cryptmea
 cryptobasis
@@ -9763,7 +9646,6 @@ ctenodaucus
 ctenodon
 ctenolepis
 ctenolophon
-ctenolophonaceae
 ctenomeria
 ctenopaepale
 ctenophrynium
@@ -9804,7 +9686,6 @@ cucumeroides
 cucumeropsis
 cucumis
 cucurbita
-cucurbitaceae
 cucurbitella
 cucurbitula
 cudicia
@@ -9852,7 +9733,6 @@ cunila
 cunina
 cunninghamia
 cunonia
-cunoniaceae
 cunto
 cunuria
 cupameni
@@ -9870,7 +9750,6 @@ cupidonia
 cupirana
 cuprella
 cuprespinnata
-cupressaceae
 cupressocyparis
 cupresstellata
 cupressus
@@ -9901,7 +9780,6 @@ curroria
 cursonia
 curtia
 curtisia
-curtisiaceae
 curtisina
 curtogyne
 curtonus
@@ -9968,7 +9846,6 @@ cyanus
 cyathanthera
 cyathanthus
 cyathea
-cyatheaceae
 cyathella
 cyathidaria
 cyathidium
@@ -10008,7 +9885,6 @@ cybianthus
 cybiostigma
 cybistax
 cybistetes
-cycadaceae
 cycas
 cycatonia
 cycca
@@ -10022,7 +9898,6 @@ cyclaminum
 cyclaminus
 cyclandra
 cyclandrophora
-cyclanthaceae
 cyclanthera
 cyclantheropsis
 cyclanthus
@@ -10173,7 +10048,6 @@ cymelonema
 cyminon
 cyminosma
 cymodocea
-cymodoceaceae
 cymonamia
 cymonetra
 cymophora
@@ -10202,7 +10076,6 @@ cynoglottis
 cynomarathrum
 cynometra
 cynomorbium
-cynomoriaceae
 cynomorium
 cynomyrtus
 cynopaema
@@ -10225,7 +10098,6 @@ cynthia
 cyparissia
 cypella
 cypellium
-cyperaceae
 cyperella
 cyperochloa
 cyperocymbidium
@@ -10274,7 +10146,6 @@ cyrassostele
 cyrbasium
 cyrenea
 cyrilla
-cyrillaceae
 cyrillopsis
 cyrilwhitea
 cyrollaria
@@ -10365,7 +10236,6 @@ cystium
 cystoathyrium
 cystocarpium
 cystochilum
-cystodiaceae
 cystodiopteris
 cystodium
 cystogyne
@@ -10378,7 +10248,6 @@ cystostemon
 cytheraea
 cytherea
 cytheris
-cytinaceae
 cytinus
 cytisanthus
 cytisogenista
@@ -10539,7 +10408,6 @@ daphne
 daphnidium
 daphnidostaphylis
 daphnimorpha
-daphniphyllaceae
 daphniphyllopsis
 daphniphyllum
 daphnitis
@@ -10607,7 +10475,6 @@ dasypetalum
 dasyphyllum
 dasypoa
 dasypogon
-dasypogonaceae
 dasypyrum
 dasysphaera
 dasystachys
@@ -10615,7 +10482,6 @@ dasystemon
 dasystephana
 dasytropis
 datisca
-datiscaceae
 datura
 daturicarpa
 daubentona
@@ -10733,7 +10599,6 @@ defforgia
 deflersia
 degarmoara
 degeneria
-degeneriaceae
 degenia
 degranvillea
 deguelia
@@ -10891,7 +10756,6 @@ denisophytum
 denmoza
 dennettia
 dennstaedtia
-dennstaedtiaceae
 dens-leonis
 denscantia
 denslovia
@@ -11079,7 +10943,6 @@ dianthus
 dianyuea
 diapedium
 diapensia
-diapensiaceae
 diapenzia
 diaperia
 diaphanangis
@@ -11164,7 +11027,6 @@ dichaetaria
 dichaetophora
 dichanthelium
 dichanthium
-dichapetalaceae
 dichapetalum
 dichasianthus
 dichasium
@@ -11323,7 +11185,6 @@ didesmus
 didiciea
 didiclis
 didierea
-didiereaceae
 didimeria
 didiplis
 didiscus
@@ -11440,7 +11301,6 @@ dilivaria
 dilkea
 dillandia
 dillenia
-dilleniaceae
 dillonara
 dillonia
 dillwynia
@@ -11539,7 +11399,6 @@ diomedes
 diomma
 dion
 dionaea
-dioncophyllaceae
 dioncophyllum
 dionea
 dioneiodon
@@ -11554,7 +11413,6 @@ diorimasperma
 dioryktandra
 diosanthos
 dioscorea
-dioscoreaceae
 dioscoreophyllum
 dioscoreopsis
 dioscoridea
@@ -11582,7 +11440,6 @@ dipcadioides
 dipelta
 dipentaplandra
 dipentodon
-dipentodontaceae
 dipera
 diperis
 diperium
@@ -11766,10 +11623,8 @@ diptera
 dipteracanthus
 dipteranthemum
 dipteranthus
-dipteridaceae
 dipteris
 dipterocalyx
-dipterocarpaceae
 dipterocarpus
 dipterocome
 dipterocypsela
@@ -11790,7 +11645,6 @@ diptychocarpus
 diptychum
 dipyrena
 dirachma
-dirachmaceae
 diracodes
 dirca
 dircaea
@@ -12171,7 +12025,6 @@ dortiguea
 dortmanna
 dortmannia
 dorvalia
-doryanthaceae
 doryanthes
 dorycheile
 dorychnium
@@ -12302,11 +12155,9 @@ drosanthemopsis
 drosanthemum
 drosanthus
 drosera
-droseraceae
 drosocarpium
 drosodendron
 drosophorus
-drosophyllaceae
 drosophyllum
 drossera
 drouguetia
@@ -12560,7 +12411,6 @@ eatoniopteris
 ebandoua
 ebelia
 ebelingia
-ebenaceae
 ebenidium
 ebenopsis
 ebenoxylon
@@ -12596,7 +12446,6 @@ eccremocactus
 eccremocarpus
 eccremocereus
 ecdeiocolea
-ecdeiocoleaceae
 ecdysanthera
 echaltium
 echeandia
@@ -12824,10 +12673,8 @@ elachopappus
 elachothamnos
 elachyptera
 elaeagia
-elaeagnaceae
 elaeagnus
 elaeis
-elaeocarpaceae
 elaeocarpus
 elaeocharis
 elaeochytris
@@ -12854,7 +12701,6 @@ elateriodes
 elateriopsis
 elateriospermum
 elaterium
-elatinaceae
 elatine
 elatinella
 elatinoides
@@ -13017,7 +12863,6 @@ embergeria
 emblemantha
 emblica
 emblingia
-emblingiaceae
 embolanthera
 embothrium
 embreea
@@ -13257,7 +13102,6 @@ epetorhiza
 ephaiola
 ephebopogon
 ephedra
-ephedraceae
 ephedranthus
 ephedrides
 ephemerantha
@@ -13409,7 +13253,6 @@ eplingia
 eplingiella
 epurga
 equilabium
-equisetaceae
 equisetum
 eraclissa
 eragrostiella
@@ -13516,7 +13359,6 @@ eriastrum
 eriaxis
 eribroma
 erica
-ericaceae
 ericala
 ericalluna
 ericameria
@@ -13555,7 +13397,6 @@ eriocarpaea
 eriocarpha
 eriocarpum
 eriocaucanthus
-eriocaulaceae
 eriocaulon
 eriocephala
 eriocephalus
@@ -13744,13 +13585,11 @@ erythrostemon
 erythrostictus
 erythrostigma
 erythrotis
-erythroxylaceae
 erythroxylon
 erythroxylum
 erytropyxis
 eryumnia
 escallonia
-escalloniaceae
 eschatogramme
 eschenbachia
 escheria
@@ -13873,7 +13712,6 @@ eucolum
 eucomea
 eucomis
 eucommia
-eucommiaceae
 eucorymbia
 eucosia
 eucrinum
@@ -13968,7 +13806,6 @@ euphocarpus
 euphoebe
 euphora
 euphorbia
-euphorbiaceae
 euphorbiastrum
 euphorbiodendron
 euphorbion
@@ -13980,7 +13817,6 @@ euphoriopsis
 euphrasia
 euphrona
 euphronia
-euphroniaceae
 euphrosine
 euphrosinia
 euphrosyne
@@ -13991,14 +13827,12 @@ eupodia
 eupodium
 eupogon
 eupomatia
-eupomatiaceae
 euporphyranda
 euporteria
 euprepia
 eupritchardia
 euproboscis
 euptelea
-eupteleaceae
 eupteris
 eupteron
 euptilia
@@ -14232,7 +14066,6 @@ ezeria
 ezoloba
 ezosciadium
 faba
-fabaceae
 fabago
 fabera
 faberia
@@ -14253,7 +14086,6 @@ fadenia
 fadogia
 fadogiella
 fadyenia
-fagaceae
 fagara
 fagaras
 fagarastrum
@@ -14512,7 +14344,6 @@ flabellaria
 flabellariopsis
 flacourtia
 flagellaria
-flagellariaceae
 flagellarisaema
 flagenium
 flamaria
@@ -14647,7 +14478,6 @@ fougerouxia
 fouha
 foullioya
 fouquieria
-fouquieriaceae
 fourcroya
 fourneaua
 fourniera
@@ -14680,12 +14510,10 @@ franciscea
 franciscodendron
 francisia
 francoa
-francoaceae
 francoeuria
 frangula
 frangularia
 frankenia
-frankeniaceae
 frankia
 franklandia
 franklinia
@@ -14996,7 +14824,6 @@ garrelia
 garretia
 garrettia
 garrya
-garryaceae
 garuga
 garugandra
 garuleum
@@ -15109,7 +14936,6 @@ geissaspis
 geissois
 geissolepis
 geissoloma
-geissolomataceae
 geissomeria
 geissopappus
 geissorhiza
@@ -15124,7 +14950,6 @@ gelidocalamus
 gelonium
 gelpkea
 gelrebia
-gelsemiaceae
 gelseminum
 gelsemium
 gembanga
@@ -15160,7 +14985,6 @@ gennaria
 genoplesium
 genosiris
 gentiana
-gentianaceae
 gentianella
 gentianodes
 gentianopsis
@@ -15212,7 +15036,6 @@ geothamnus
 geracium
 geraea
 gerageum
-geraniaceae
 geranion
 geraniopsis
 geraniospermum
@@ -15238,7 +15061,6 @@ gerontogea
 geropogon
 gerrardanthus
 gerrardina
-gerrardinaceae
 gerritea
 gersinia
 gertrudia
@@ -15248,7 +15070,6 @@ geryonia
 geschollia
 gesnera
 gesneria
-gesneriaceae
 gesnouinia
 gestroa
 gethosyne
@@ -15295,7 +15116,6 @@ gigantocalamus
 gigantochloa
 gigara
 gigasiphon
-gigaspermaceae
 gigliolia
 gigotorcya
 gilberta
@@ -15330,7 +15150,6 @@ gingidia
 gingidium
 ginginsia
 ginkgo
-ginkgoaceae
 ginnania
 ginora
 ginoria
@@ -15345,7 +15164,6 @@ girgensohnia
 gironniera
 girtanneria
 gisekia
-gisekiaceae
 gisopteris
 gissanthe
 gissonia
@@ -15402,7 +15220,6 @@ gleditsia
 glehnia
 gleichenella
 gleichenia
-gleicheniaceae
 gleicheniastrum
 glekia
 glenniea
@@ -15536,7 +15353,6 @@ gnaphalon
 gnaphalopsis
 gnemon
 gnephosis
-gnetaceae
 gnetum
 gnidia
 gnidiopsis
@@ -15609,7 +15425,6 @@ gomonia
 gomoniopcidium
 gomopsiella
 gomortega
-gomortegaceae
 gomotriche
 gomozia
 gompassia
@@ -15733,7 +15548,6 @@ goodaleara
 goodalemoirara
 goodallia
 goodenia
-goodeniaceae
 goodenoughia
 goodia
 goodisachilus
@@ -15782,7 +15596,6 @@ goulardia
 gouldia
 gouldochloa
 goupia
-goupiaceae
 gourliea
 gourmania
 govantesia
@@ -15946,7 +15759,6 @@ grisebachia
 grisebachianthus
 grisebachiella
 griselinia
-griseliniaceae
 griseocactus
 griseocereus
 grisia
@@ -15965,12 +15777,10 @@ grosourdya
 grossera
 grossheimia
 grossularia
-grossulariaceae
 grosvenoria
 grotefendia
 groutia
 grubbia
-grubbiaceae
 grubovia
 gruenera
 gruhlmania
@@ -15996,7 +15806,6 @@ guajacum
 guajava
 gualteria
 guamatela
-guamatelaceae
 guamia
 guanabanus
 guanchezia
@@ -16106,7 +15915,6 @@ gunnarella
 gunnaria
 gunnarorchis
 gunnera
-gunneraceae
 gunneropsis
 gunnessia
 gunnia
@@ -16318,7 +16126,6 @@ gyrostachis
 gyrostachys
 gyrostelma
 gyrostemon
-gyrostemonaceae
 gyrostephium
 gyrostipula
 gyrotaenia
@@ -16385,7 +16192,6 @@ haematoxylum
 haemax
 haemocarpus
 haemocharis
-haemodoraceae
 haemodoron
 haemodorum
 haemospermum
@@ -16469,10 +16275,8 @@ halongia
 halopegia
 halopeplis
 halophila
-halophytaceae
 halophytum
 halopyrum
-haloragaceae
 haloragis
 haloragodendron
 halosarcia
@@ -16488,7 +16292,6 @@ haloxanthium
 haloxylon
 halphophyllum
 hamadryas
-hamamelidaceae
 hamamelis
 hamaria
 hamatocactus
@@ -16525,7 +16328,6 @@ handroanthus
 hanesara
 hanghomia
 hanguana
-hanguanaceae
 haniffara
 haniffia
 hannafordia
@@ -16886,7 +16688,6 @@ heliciopsis
 helicodea
 helicodiceros
 heliconia
-heliconiaceae
 heliconiopsis
 helicophyllum
 helicostylis
@@ -16976,7 +16777,6 @@ helothrix
 helpilia
 helvingia
 helwingia
-helwingiaceae
 helxine
 helyga
 helygia
@@ -17190,7 +16990,6 @@ hermorchis
 hermupoa
 hernandezia
 hernandia
-hernandiaceae
 hernandiopsis
 herniaria
 herodotia
@@ -17537,7 +17336,6 @@ himalayacalamus
 himalayopteris
 himalrandia
 himantandra
-himantandraceae
 himantochilus
 himantoglossum
 himantophyllum
@@ -17956,7 +17754,6 @@ hsenhsua
 hsuara
 hsuehochloa
 hua
-huaceae
 hualania
 huanaca
 huangara
@@ -18029,7 +17826,6 @@ humboltia
 humea
 humeocline
 humiria
-humiriaceae
 humirianthera
 humiriastrum
 hummelara
@@ -18106,7 +17902,6 @@ hybosperma
 hybridella
 hydastylus
 hydatella
-hydatellaceae
 hydatica
 hydnocarpus
 hydnophytum
@@ -18115,7 +17910,6 @@ hydnostachyon
 hydora
 hydragonum
 hydrangea
-hydrangeaceae
 hydrangia
 hydranthelium
 hydranthus
@@ -18130,7 +17924,6 @@ hydrocera
 hydroceratophyllon
 hydrocharella
 hydrocharis
-hydrocharitaceae
 hydrochloa
 hydrochorea
 hydrocleis
@@ -18144,7 +17937,6 @@ hydrogeton
 hydroglossum
 hydroidea
 hydrolea
-hydroleaceae
 hydrolirion
 hydrolythrum
 hydromestus
@@ -18165,7 +17957,6 @@ hydrorchis
 hydroschoenus
 hydrosme
 hydrospondylus
-hydrostachyaceae
 hydrostachys
 hydrostemma
 hydrotaenia
@@ -18262,7 +18053,6 @@ hymenonema
 hymenopappus
 hymenopholis
 hymenophora
-hymenophyllaceae
 hymenophyllopsis
 hymenophyllum
 hymenophysa
@@ -18310,7 +18100,6 @@ hyperacanthus
 hyperanthera
 hyperaspis
 hyperbaena
-hypericaceae
 hypericinea
 hypericoides
 hypericon
@@ -18366,7 +18155,6 @@ hypopterygium
 hypostate
 hypotanthus
 hypothronia
-hypoxidaceae
 hypoxidia
 hypoxidopsis
 hypoxis
@@ -18421,7 +18209,6 @@ ibidium
 iboga
 iboza
 icacina
-icacinaceae
 icacinopsis
 icaco
 icacorea
@@ -18538,7 +18325,6 @@ incadendron
 incaea
 incarum
 incarvillea
-incertae_sedis
 indagator
 india
 indianthus
@@ -18666,7 +18452,6 @@ iria
 iriartea
 iriartella
 iriastrum
-iridaceae
 iridodictyum
 iridopsis
 iridorchis
@@ -18687,7 +18472,6 @@ irvingara
 irvingbaileya
 irvingella
 irvingia
-irvingiaceae
 irwinia
 iryanthera
 isabelcristinia
@@ -18759,7 +18543,6 @@ isodendron
 isodesmia
 isodictyophorus
 isodon
-isoetaceae
 isoetella
 isoetes
 isoetopsis
@@ -18811,7 +18594,6 @@ itasina
 itatiaia
 itaya
 itea
-iteaceae
 iteadaphne
 iteiluma
 iteroloba
@@ -18850,14 +18632,12 @@ ixina
 ixine
 ixiochlamys
 ixiolaena
-ixioliriaceae
 ixiolirion
 ixiosporum
 ixoca
 ixocactus
 ixodia
 ixodonerium
-ixonanthaceae
 ixonanthes
 ixophorus
 ixora
@@ -19049,7 +18829,6 @@ johowia
 johrenia
 johreniopsis
 joinvillea
-joinvilleaceae
 joliffia
 jollya
 jollydora
@@ -19102,7 +18881,6 @@ jucunda
 juelia
 juergensia
 jugastrum
-juglandaceae
 juglandicarya
 juglans
 julbernardia
@@ -19114,8 +18892,6 @@ jumangis
 jumanthes
 jumellea
 jumelleanthus
-juncaceae
-juncaginaceae
 juncago
 juncastrum
 juncella
@@ -19412,7 +19188,6 @@ keulia
 keumkangsania
 keura
 kewa
-kewaceae
 keyesara
 keyserlingia
 keysseria
@@ -19490,7 +19265,6 @@ kirganelia
 kirilowia
 kirkbridea
 kirkia
-kirkiaceae
 kirkianella
 kirkophytum
 kirpicznikovia
@@ -19577,7 +19351,6 @@ kodamaara
 kodda-pail
 koddampuli
 koeberlinia
-koeberliniaceae
 koechlea
 koehneago
 koehneola
@@ -19681,7 +19454,6 @@ krainzia
 kralikella
 kralikia
 krameria
-krameriaceae
 kraniopsis
 krapfia
 krapovickasia
@@ -19862,7 +19634,6 @@ laciala
 lacinaria
 lacis
 lacistema
-lacistemataceae
 lacistemopsis
 lackeya
 lacmellea
@@ -19991,7 +19762,6 @@ lambertia
 lamechites
 lamellisepalum
 lamiacanthus
-lamiaceae
 lamiastrum
 lamiella
 lamiodendron
@@ -20035,7 +19805,6 @@ lamyra
 lamyropappus
 lamyropsis
 lanaria
-lanariaceae
 lancea
 lancebirkara
 lancisia
@@ -20110,7 +19879,6 @@ lapsyoungia
 lapthops
 larbrea
 lardizabala
-lardizabalaceae
 larentia
 larephes
 laretia
@@ -20236,7 +20004,6 @@ laumoniera
 launaea
 launaya
 launea
-lauraceae
 lauradia
 laurea
 laurelia
@@ -20332,7 +20099,6 @@ lecosia
 lecostomon
 lectandra
 lecticula
-lecythidaceae
 lecythis
 lecythopsis
 leda
@@ -20477,7 +20243,6 @@ lenoveria
 lens
 lentago
 lentibularia
-lentibulariaceae
 lenticula
 lenticularia
 lentilla
@@ -20566,7 +20331,6 @@ lepidiberis
 lepidion
 lepidium
 lepidobolus
-lepidobotryaceae
 lepidobotrys
 lepidocarpa
 lepidocarpus
@@ -21080,7 +20844,6 @@ lilacina
 lilaea
 lilaeopsis
 lilavia
-liliaceae
 liliacum
 liliago
 liliastrum
@@ -21101,13 +20864,11 @@ limara
 limatodis
 limbarda
 limborchia
-limeaceae
 limeum
 limia
 limivasculum
 limlia
 limnalsine
-limnanthaceae
 limnanthemum
 limnanthes
 limnas
@@ -21148,7 +20909,6 @@ limoniopsis
 limonium
 limonoseris
 limosella
-linaceae
 linagrostis
 linanthastrum
 linanthus
@@ -21169,7 +20929,6 @@ lindenia
 lindeniopiper
 lindera
 lindernia
-linderniaceae
 linderniella
 lindheimera
 lindleya
@@ -21180,7 +20939,6 @@ lindmania
 lindnera
 lindneria
 lindsaea
-lindsaeaceae
 lindsaenium
 lindsaeosoria
 lindsayella
@@ -21340,7 +21098,6 @@ llerasia
 llewelynia
 lloydia
 loasa
-loasaceae
 loasella
 lobadium
 lobake
@@ -21401,7 +21158,6 @@ loethainia
 loevigia
 loewia
 logania
-loganiaceae
 logfia
 loghania
 loheria
@@ -21450,7 +21206,6 @@ lomilis
 lomoplis
 lonas
 lonchestigma
-lonchitidaceae
 lonchitis
 lonchitis-aspera
 lonchocarpus
@@ -21489,7 +21244,6 @@ lophia
 lophiarella
 lophiaris
 lophidium
-lophiocarpaceae
 lophiocarpus
 lophiocirsium
 lophiola
@@ -21521,7 +21275,6 @@ lophophytum
 lophopogon
 lophopterys
 lophopyrum
-lophopyxidaceae
 lophopyxis
 lophoschoenus
 lophosciadium
@@ -21544,7 +21297,6 @@ lopima
 lopimia
 lopriorea
 lorandersonia
-loranthaceae
 loranthella
 loranthos
 loranthus
@@ -21604,7 +21356,6 @@ lowara
 lowea
 lowellia
 lowia
-lowiaceae
 lowianthus
 lowiorchis
 lowryanthus
@@ -21797,7 +21548,6 @@ lycoctonum
 lycomela
 lycomormium
 lycopersicon
-lycopodiaceae
 lycopodiastrum
 lycopodiella
 lycopodina
@@ -21873,7 +21623,6 @@ lysistigma
 lytanthobularia
 lytanthus
 lythastrum
-lythraceae
 lythron
 lythropsis
 lythrum
@@ -21898,7 +21647,6 @@ macaranga
 macarenia
 macarisia
 macarthuria
-macarthuriaceae
 macbridea
 macbrideara
 macbrideina
@@ -22135,7 +21883,6 @@ magdalenaea
 magdaris
 magnistipula
 magnolia
-magnoliaceae
 magnusia
 magodendron
 magonia
@@ -22258,14 +22005,12 @@ malouetia
 malouetiella
 malperia
 malpighia
-malpighiaceae
 malpighiodes
 malpigiantha
 maltea
 maltebrunia
 malus
 malva
-malvaceae
 malvalthaea
 malvastrum
 malvaviscus
@@ -22378,7 +22123,6 @@ maralia
 marama
 maraniona
 maranta
-marantaceae
 maranthes
 marantochloa
 marantopsis
@@ -22386,7 +22130,6 @@ marara
 marasmodes
 marathrum
 marattia
-marattiaceae
 marcania
 marcanodendron
 marcchristopherstormara
@@ -22396,7 +22139,6 @@ marcelliopsis
 marcetella
 marcetia
 marcgravia
-marcgraviaceae
 marcgraviastrum
 marconia
 marcorella
@@ -22484,7 +22226,6 @@ marshalljohnstonia
 marshallocereus
 marshara
 marsilea
-marsileaceae
 marsippospermum
 marssonia
 marsupiaria
@@ -22514,7 +22255,6 @@ martiusia
 martrasia
 martretia
 martynia
-martyniaceae
 marum
 marumia
 marupa
@@ -22585,7 +22325,6 @@ mathiolaria
 mathurina
 matisia
 matonia
-matoniaceae
 matourea
 matpania
 matrella
@@ -22624,7 +22363,6 @@ mauloutchia
 maumeneara
 maunderara
 maundia
-maundiaceae
 mauneia
 maurandella
 maurandya
@@ -22658,7 +22396,6 @@ maxonia
 maxthompsonara
 maxwellia
 mayaca
-mayacaceae
 mayanaea
 mayara
 mayariochloa
@@ -22671,7 +22408,6 @@ mays
 maysara
 maytenus
 mayzea
-mazaceae
 mazaea
 mazeutoxeron
 mazinna
@@ -22871,7 +22607,6 @@ melanoxylum
 melanthera
 melanthesa
 melanthesopsis
-melanthiaceae
 melanthium
 melara
 melargyra
@@ -22882,13 +22617,11 @@ melasma
 melasphaerula
 melastoma
 melastomastrum
-melastomataceae
 melchiora
 meleagrinex
 melfona
 melhania
 melia
-meliaceae
 meliadelpha
 meliandra
 melianthus
@@ -22996,7 +22729,6 @@ meniscium
 meniscogyne
 meniscosta
 menisorus
-menispermaceae
 menispermum
 menitskia
 menkea
@@ -23014,7 +22746,6 @@ menthella
 mentocalyx
 mentodendron
 mentzelia
-menyanthaceae
 menyanthes
 menziesara
 menziesia
@@ -23198,7 +22929,6 @@ metrosideros
 metroxylon
 mettenia
 metteniusa
-metteniusaceae
 metternichia
 metula
 meum
@@ -23451,7 +23181,6 @@ microstylis
 microsyphus
 microtatorchis
 microtea
-microteaceae
 microterangis
 microterus
 microtheca
@@ -23619,7 +23348,6 @@ mischospora
 miscolobium
 miscopetalum
 misipus
-misodendraceae
 misodendrum
 misopates
 missiessya
@@ -23652,7 +23380,6 @@ mitrasacme
 mitrasacmopsis
 mitrastemma
 mitrastemon
-mitrastemonaceae
 mitrastigma
 mitrastylus
 mitratheca
@@ -23751,7 +23478,6 @@ mollia
 mollinedia
 molloya
 molloybas
-molluginaceae
 mollugo
 mollugophytum
 molongum
@@ -23826,7 +23552,6 @@ monilicarpa
 monilifera
 monilistus
 monimia
-monimiaceae
 monimiastrum
 monimiopsis
 monimopetalum
@@ -23965,12 +23690,10 @@ montelia
 monteverdia
 montezuma
 montia
-montiaceae
 montiastrum
 monticalia
 montigena
 montinia
-montiniaceae
 montiopsis
 montira
 montitega
@@ -23997,7 +23720,6 @@ moquinia
 moquiniastrum
 moquiniella
 mora
-moraceae
 moraea
 moranara
 moranda
@@ -24028,7 +23750,6 @@ morina
 morinda
 morindopsis
 moringa
-moringaceae
 morisea
 morisia
 morisonia
@@ -24177,7 +23898,6 @@ munroidendron
 munronia
 muntafara
 muntingia
-muntingiaceae
 munychia
 munzothamnus
 muralta
@@ -24205,7 +23925,6 @@ murucoa
 murucuia
 murueva
 musa
-musaceae
 musanga
 muscadinia
 muscarella
@@ -24263,7 +23982,6 @@ myobranthus
 myobroma
 myoda
 myodium
-myodocarpaceae
 myodocarpus
 myogalum
 myonima
@@ -24302,7 +24020,6 @@ myrianthemum
 myrianthus
 myriaspora
 myrica
-myricaceae
 myricanthe
 myricaria
 myrice
@@ -24327,7 +24044,6 @@ myriotheca
 myriotriche
 myripnois
 myristica
-myristicaceae
 myrmecanthe
 myrmecatavola
 myrmecatyclia
@@ -24359,7 +24075,6 @@ myrodia
 myrosma
 myrosmodes
 myrospermum
-myrothamnaceae
 myrothamnus
 myrovernix
 myroxylon
@@ -24375,7 +24090,6 @@ myrsine
 myrsiphyllum
 myrstiphylla
 myrstiphyllum
-myrtaceae
 myrtama
 myrtastrum
 myrtekmania
@@ -24520,7 +24234,6 @@ narica
 naringi
 narketis
 naron
-nartheciaceae
 narthecium
 narthex
 narukila
@@ -24652,7 +24365,6 @@ nelsonianthus
 neltuma
 nelumbium
 nelumbo
-nelumbonaceae
 nemacaulis
 nemacianthus
 nemacladus
@@ -25054,7 +24766,6 @@ neoyusofara
 neozenkerina
 neozygisia
 nepa
-nepenthaceae
 nepenthandra
 nepenthes
 nepeta
@@ -25152,7 +24863,6 @@ neuracanthus
 neurachne
 neuractis
 neurada
-neuradaceae
 neuradopsis
 neuras
 neurelmis
@@ -25312,7 +25022,6 @@ nitelium
 nitidobulbon
 nitidocidium
 nitraria
-nitrariaceae
 nitrophila
 nitrosalsola
 nivaria
@@ -25424,7 +25133,6 @@ nothocnide
 nothoderris
 nothodissotis
 nothodoritis
-nothofagaceae
 nothofagus
 nothoholcus
 notholaena
@@ -25537,7 +25245,6 @@ nuxia
 nuytsia
 nyachia
 nyalelia
-nyctaginaceae
 nyctaginia
 nyctago
 nyctanthes
@@ -25558,7 +25265,6 @@ nylandtia
 nymania
 nymanina
 nymphaea
-nymphaeaceae
 nymphanthus
 nymphoides
 nymphona
@@ -25566,7 +25272,6 @@ nymphozanthus
 nypa
 nyrophylla
 nyssa
-nyssaceae
 nyssanthes
 nyssopsis
 nzidora
@@ -25615,7 +25320,6 @@ ochlandra
 ochlogramma
 ochlopoa
 ochna
-ochnaceae
 ochnella
 ochocoa
 ochoterenaea
@@ -25833,7 +25537,6 @@ okea
 okenia
 okia
 okoubaka
-olacaceae
 olamblis
 olax
 olbia
@@ -25844,7 +25547,6 @@ oldenlandiopsis
 oldfeltia
 oldfieldia
 olea
-oleaceae
 oleander
 oleandra
 oleandropsis
@@ -25970,7 +25672,6 @@ omphalotrigonotis
 omphalotrix
 ona
 onagra
-onagraceae
 oncaglossum
 oncandra
 oncella
@@ -26019,7 +25720,6 @@ oncostemum
 oncostylis
 oncostylus
 oncotheca
-oncothecaceae
 oncufis
 oncus
 ondetia
@@ -26097,7 +25797,6 @@ ophiocephalus
 ophiochloa
 ophiocolea
 ophioderma
-ophioglossaceae
 ophioglossella
 ophioglossum
 ophioiris
@@ -26132,7 +25831,6 @@ ophthalmoblapton
 ophthalmophyllum
 opicrina
 opilia
-opiliaceae
 opilionanthe
 opisthiolepis
 opisthocentra
@@ -26189,7 +25887,6 @@ orchadocarpa
 orchiaceras
 orchiastrum
 orchicoeloglossum
-orchidaceae
 orchidactyla
 orchidactylorhiza
 orchidanacamptis
@@ -26374,7 +26071,6 @@ ornithoxanthum
 ornithrophus
 ornitrophe
 ornus
-orobanchaceae
 orobanche
 orobanchella
 orobanchia
@@ -26521,7 +26217,6 @@ osmothamnus
 osmoxylon
 osmunasium
 osmunda
-osmundaceae
 osmundastrum
 osmundopteris
 osmunimunda
@@ -26645,7 +26340,6 @@ ovostima
 owataria
 owenia
 owensara
-oxalidaceae
 oxalis
 oxalistylis
 oxandra
@@ -26864,7 +26558,6 @@ paederotella
 paedicalyx
 paenula
 paeonia
-paeoniaceae
 paepalanthus
 paesia
 pagaea
@@ -26977,8 +26670,6 @@ panczakara
 panda
 pandaca
 pandacastrum
-pandaceae
-pandanaceae
 pandanophyllum
 pandanus
 panderia
@@ -27030,7 +26721,6 @@ panzhuyuia
 paolia
 paorchis
 papaver
-papaveraceae
 papaya
 papeda
 paphia
@@ -27132,7 +26822,6 @@ paracorynanthe
 paracostus
 paracroton
 paracryphia
-paracryphiaceae
 paractaenum
 paracyclea
 paracynoglossum
@@ -27448,7 +27137,6 @@ passaea
 passaveria
 passerina
 passiflora
-passifloraceae
 passoura
 passovia
 pastinaca
@@ -27501,7 +27189,6 @@ paullinia
 paulo-wilhelmia
 paulomagnusia
 paulownia
-paulowniaceae
 paulsenara
 paulseniella
 paulstormara
@@ -27565,7 +27252,6 @@ pectinopitys
 pectis
 pectocarya
 pectophytum
-pedaliaceae
 pedaliodiscus
 pedaliophyton
 pedalium
@@ -27687,7 +27373,6 @@ pelucha
 pembertonia
 pemphis
 penaea
-penaeaceae
 penar-valli
 pendletonara
 pendressia
@@ -27706,7 +27391,6 @@ peniocereus
 peniophyllum
 penkimia
 pennantia
-pennantiaceae
 pennellara
 pennellia
 pennellianthus
@@ -27742,7 +27426,6 @@ pentadenia
 pentadesma
 pentadesmos
 pentadiplandra
-pentadiplandraceae
 pentadynamis
 pentaglossum
 pentaglottis
@@ -27776,8 +27459,6 @@ pentaphalangium
 pentaphiltrum
 pentaphorus
 pentaphragma
-pentaphragmataceae
-pentaphylacaceae
 pentaphylax
 pentaphylloides
 pentaphyllon
@@ -27822,7 +27503,6 @@ pentelesia
 pentena
 penthea
 pentheriella
-penthoraceae
 penthorum
 penthysa
 pentisea
@@ -27856,7 +27536,6 @@ peponium
 peponopsis
 pera
 peracarpa
-peraceae
 perakalia
 perakanthus
 peraltea
@@ -27923,7 +27602,6 @@ pericycla
 perideraea
 perideridia
 peridictyon
-peridiscaceae
 peridiscus
 peridium
 periestes
@@ -28098,13 +27776,11 @@ petchoa
 petelotia
 petelotiella
 petenaea
-petenaeaceae
 peteniodendron
 peteravenia
 peterhuntara
 peteria
 petermannia
-petermanniaceae
 peterodendron
 petersenara
 petersia
@@ -28117,7 +27793,6 @@ petitia
 petitiocodon
 petitmenginia
 petiveria
-petiveriaceae
 petkovia
 petlomelia
 petopentia
@@ -28159,7 +27834,6 @@ petroravenia
 petrorchis
 petrorhagia
 petrosavia
-petrosaviaceae
 petrosciadium
 petrosedum
 petroselinum
@@ -28331,7 +28005,6 @@ pheliandra
 phelipanche
 phelipea
 phellandrium
-phellinaceae
 phelline
 phellocalyx
 phellocarpus
@@ -28371,7 +28044,6 @@ philcoxia
 philenoptera
 phileozera
 philesia
-philesiaceae
 philetaeria
 philgamia
 philibertella
@@ -28400,7 +28072,6 @@ philostizus
 philotheca
 philotria
 philoxerus
-philydraceae
 philydrella
 philydrum
 philyra
@@ -28501,7 +28172,6 @@ phrygia
 phrygilanthus
 phrygiobureaua
 phryma
-phrymaceae
 phryna
 phryne
 phrynella
@@ -28534,7 +28204,6 @@ phyllagathis
 phyllamphora
 phyllangium
 phyllanoa
-phyllanthaceae
 phyllanthera
 phyllantherum
 phyllanthidea
@@ -28592,7 +28261,6 @@ phylloma
 phyllomelia
 phyllomphax
 phyllonoma
-phyllonomaceae
 phyllopappus
 phyllopentas
 phyllophiorhiza
@@ -28652,7 +28320,6 @@ physaria
 physedra
 physematium
 physena
-physenaceae
 physeterostemon
 physetobasis
 physianthus
@@ -28713,7 +28380,6 @@ phyteumoides
 phyteumopsis
 phytocrene
 phytolacca
-phytolaccaceae
 phytosalpinx
 phytoxis
 piaggiaea
@@ -28741,7 +28407,6 @@ picradeniopsis
 picraena
 picralima
 picramnia
-picramniaceae
 picrasma
 picrella
 picria
@@ -28752,7 +28417,6 @@ picrita
 picrium
 picrocardia
 picrococcus
-picrodendraceae
 picrodendron
 picroderma
 picrolemma
@@ -28840,7 +28504,6 @@ pimia
 pimpinele
 pimpinella
 pinacantha
-pinaceae
 pinacopodium
 pinalia
 pinanga
@@ -28882,7 +28545,6 @@ piotes
 pipalia
 piparea
 piper
-piperaceae
 piperanthera
 piperella
 piperi
@@ -28985,7 +28647,6 @@ pittierothamnus
 pittocaulon
 pittonia
 pittoniotis
-pittosporaceae
 pittosporoides
 pittosporopsis
 pittosporum
@@ -29075,7 +28736,6 @@ planichloa
 planocarpa
 planodes
 planotia
-plantaginaceae
 plantaginastrum
 plantaginella
 plantaginorchis
@@ -29087,7 +28747,6 @@ plarodrigoa
 plaso
 plastobrassica
 plastolaena
-platanaceae
 platanaria
 platanocarpum
 platanocephalus
@@ -29394,7 +29053,6 @@ plocandra
 plocaniophyllon
 plocoglottis
 plocosperma
-plocospermataceae
 plocostemma
 ploesslia
 ploiarium
@@ -29412,7 +29070,6 @@ plumatichilos
 plumatistylis
 plumbagella
 plumbagidium
-plumbaginaceae
 plumbago
 plumea
 plumeria
@@ -29430,7 +29087,6 @@ pneumatopteris
 pneumonanthe
 pneumonanthopsis
 poa
-poaceae
 poacynum
 poaephyllum
 poagris
@@ -29471,7 +29127,6 @@ podlechiella
 podocaelia
 podocallis
 podocalyx
-podocarpaceae
 podocarpium
 podocarpus
 podocentrum
@@ -29513,7 +29168,6 @@ podospermum
 podostachys
 podostaurus
 podostelma
-podostemaceae
 podostemma
 podostemum
 podostigma
@@ -29616,7 +29270,6 @@ polatherus
 polemannia
 polemanniopsis
 polembryum
-polemoniaceae
 polemoniella
 polemonium
 polevansia
@@ -29709,10 +29362,8 @@ polydora
 polydragma
 polyechma
 polygala
-polygalaceae
 polygaloides
 polyglochin
-polygonaceae
 polygonanthus
 polygonastrum
 polygonatum
@@ -29750,7 +29401,6 @@ polyphylax
 polyplethia
 polypleurella
 polypleurum
-polypodiaceae
 polypodiastrum
 polypodiodes
 polypodiopsis
@@ -29854,7 +29504,6 @@ pontania
 pontechium
 pontederas
 pontederia
-pontederiaceae
 ponterara
 pontesia
 ponthieva
@@ -29937,14 +29586,12 @@ portlandia
 portoara
 portula
 portulaca
-portulacaceae
 portulacaria
 portulacastrum
 portuna
 posadaara
 posadaea
 posidonia
-posidoniaceae
 posidonion
 poskea
 posoqueria
@@ -29962,7 +29609,6 @@ potamocharis
 potamochloa
 potamoganos
 potamogeton
-potamogetonaceae
 potamophila
 potamopitys
 potamoxylon
@@ -30070,7 +29716,6 @@ prieurea
 prieurella
 prillea
 primula
-primulaceae
 primularia
 primulidium
 primulina
@@ -30205,7 +29850,6 @@ protangiopteris
 protarum
 protasparagus
 protea
-proteaceae
 proteinia
 proteinophallus
 proteocarpus
@@ -30722,7 +30366,6 @@ psilostachys
 psilostemon
 psilostoma
 psilostrophe
-psilotaceae
 psilothamnus
 psilothonna
 psilotrichopsis
@@ -30813,7 +30456,6 @@ pteranthus
 pteraton
 pteretis
 pterichis
-pteridaceae
 pteridanetium
 pteridella
 pteridium
@@ -31080,7 +30722,6 @@ puschkiscilla
 pusillanthus
 putoria
 putranjiva
-putranjivaceae
 putterlickia
 putzeysia
 puya
@@ -31248,7 +30889,6 @@ quilamum
 quilesia
 quiliusa
 quillaja
-quillajaceae
 quinaria
 quinasis
 quinata
@@ -31331,7 +30971,6 @@ radojitskya
 radyera
 raffenaldia
 rafflesia
-rafflesiaceae
 rafinesqueara
 rafinesquia
 rafnia
@@ -31397,7 +31036,6 @@ ranisia
 ranopisoa
 ranorchis
 ranula
-ranunculaceae
 ranunculastrum
 ranunculus
 ranzania
@@ -31407,7 +31045,6 @@ rapa
 rapanea
 raparia
 rapatea
-rapateaceae
 raphanis
 raphanistrocarpus
 raphanistrum
@@ -31636,7 +31273,6 @@ rephesis
 reptonia
 requienia
 reseda
-resedaceae
 resedella
 resetnikia
 resia
@@ -31647,7 +31283,6 @@ resnova
 restella
 restiaria
 restio
-restionaceae
 restrepia
 restrepiella
 restrepiopsis
@@ -31685,7 +31320,6 @@ rhabdia
 rhabdocalyx
 rhabdocaulon
 rhabdocrinum
-rhabdodendraceae
 rhabdodendron
 rhabdophyllum
 rhabdosciadium
@@ -31709,7 +31343,6 @@ rhagadiolus
 rhaganus
 rhagodia
 rhammatophyllum
-rhamnaceae
 rhamnella
 rhamnicastrum
 rhamnidium
@@ -31835,7 +31468,6 @@ rhizomatophora
 rhizomatopteris
 rhizomonanthes
 rhizophora
-rhizophoraceae
 rhizosperma
 rhodactinea
 rhodalix
@@ -32151,7 +31783,6 @@ riparoampelos
 ripartia
 ripasia
 ripidium
-ripogonaceae
 ripogonum
 ripselaxis
 ripsoctis
@@ -32345,12 +31976,10 @@ roraimanthus
 rorella
 rorida
 roridula
-roridulaceae
 roripa
 roripella
 rorippa
 rosa
-rosaceae
 rosakirschara
 rosalesia
 rosanowia
@@ -32436,7 +32065,6 @@ roupellina
 rourea
 roureopsis
 roussea
-rousseaceae
 rousseauvia
 rousseauxia
 rousselia
@@ -32461,7 +32089,6 @@ rubenara
 rubentia
 rubeola
 rubia
-rubiaceae
 rubimons
 rubina
 rubioides
@@ -32527,7 +32154,6 @@ rupifraga
 rupiphila
 ruppara
 ruppia
-ruppiaceae
 ruprechtia
 ruptiliocarpon
 rusbya
@@ -32546,7 +32172,6 @@ russellodendron
 russowia
 rustia
 ruta
-rutaceae
 rutaea
 rutaneblina
 ruteria
@@ -32600,7 +32225,6 @@ sabbata
 sabbatia
 sabdariffa
 sabia
-sabiaceae
 sabicea
 sabina
 sabinaria
@@ -32630,7 +32254,6 @@ saccolabium
 saccolaria
 saccolena
 saccoloma
-saccolomataceae
 sacconia
 saccopetalum
 saccoplectus
@@ -32712,7 +32335,6 @@ saldania
 saldinia
 salgada
 salica
-salicaceae
 salicaria
 salicornia
 salimori
@@ -32758,14 +32380,12 @@ saltugilia
 saltzwedelia
 salutiaea
 salvadora
-salvadoraceae
 salvadoropsis
 salvertia
 salvia
 salviacanthus
 salviastrum
 salvinia
-salviniaceae
 salweenia
 salzmannia
 samadera
@@ -32831,7 +32451,6 @@ sanseviella
 sansevieria
 sansonia
 sansovinia
-santalaceae
 santalina
 santalodes
 santaloidella
@@ -32855,7 +32474,6 @@ sanvitalia
 sanvitaliopsis
 saouari
 saphesia
-sapindaceae
 sapindopsis
 sapindus
 sapiopsis
@@ -32864,7 +32482,6 @@ saplalaara
 saponaria
 saposhnikovia
 sapota
-sapotaceae
 sappanara
 sapphoa
 sapranthus
@@ -32890,7 +32507,6 @@ sarcathria
 sarcaulus
 sarcinanthus
 sarcinula
-sarcobataceae
 sarcobatus
 sarcobodium
 sarcobotrya
@@ -32924,7 +32540,6 @@ sarcoglottis
 sarcoglyphis
 sarcogonum
 sarcolaena
-sarcolaenaceae
 sarcolexia
 sarcolipes
 sarcolobus
@@ -33005,7 +32620,6 @@ sarothrostachys
 sarpariza
 sarracenella
 sarracenia
-sarraceniaceae
 sarratia
 sarrazinia
 sarsaparilla
@@ -33056,7 +32670,6 @@ saurolluma
 saurolophorkis
 sauromatum
 sauropus
-saururaceae
 saururopsis
 saururus
 saussurea
@@ -33080,7 +32693,6 @@ saviniona
 saxegothaea
 saxicolella
 saxifraga
-saxifragaceae
 saxifragella
 saxifragites
 saxifragodes
@@ -33194,7 +32806,6 @@ schepperia
 scherya
 schetti
 scheuchzeria
-scheuchzeriaceae
 scheutzia
 schickara
 schickendantzia
@@ -33228,7 +32839,6 @@ schinziella
 schinziophyton
 schippia
 schisandra
-schisandraceae
 schisanthes
 schischkinia
 schischkiniella
@@ -33259,7 +32869,6 @@ schizachne
 schizachyrium
 schizacme
 schizaea
-schizaeaceae
 schizangium
 schizanthera
 schizanthoseddera
@@ -33344,7 +32953,6 @@ schlechterina
 schlechterorchis
 schlechterosciadium
 schlegelia
-schlegeliaceae
 schleichera
 schleidenia
 schleinitzia
@@ -33405,7 +33013,6 @@ schoenoselinum
 schoenoxiphium
 schoenus
 schoepfia
-schoepfiaceae
 schoepfianthus
 schoepfiopsis
 schollera
@@ -33515,7 +33122,6 @@ sciadonardus
 sciadopanax
 sciadophila
 sciadophyllum
-sciadopityaceae
 sciadopitys
 sciadotaenia
 sciadotenia
@@ -33670,7 +33276,6 @@ scrofella
 scrophucephalus
 scrophulari-verbascum
 scrophularia
-scrophulariaceae
 scrophularioides
 scrotochloa
 scubulon
@@ -33801,7 +33406,6 @@ sekanama
 sekika
 selaginastrum
 selaginella
-selaginellaceae
 selago
 selas
 selatium
@@ -34025,7 +33629,6 @@ sesuvium
 setachna
 setaria
 setariopsis
-setchellanthaceae
 setchellanthus
 setcreasea
 sethia
@@ -34221,7 +33824,6 @@ silvorchis
 silybum
 simaba
 simarouba
-simaroubaceae
 simaruba
 simarubopsis
 simblocline
@@ -34234,7 +33836,6 @@ simira
 simirestis
 simlera
 simmondsia
-simmondsiaceae
 simocheilus
 simonisia
 simplicia
@@ -34334,7 +33935,6 @@ sipania
 sipapoa
 sipapoantha
 siparuna
-siparunaceae
 siphanthemum
 siphanthera
 siphantheropsis
@@ -34433,7 +34033,6 @@ skytanthus
 slackia
 sladeara
 sladenia
-sladeniaceae
 slateria
 sleumeria
 sleumerodendron
@@ -34452,7 +34051,6 @@ smelophyllum
 smelowskia
 smicrostigma
 smidstia
-smilacaceae
 smilacina
 smilax
 smirnowia
@@ -34513,7 +34111,6 @@ soja
 sokinochloa
 sokolofia
 solaenacanthus
-solanaceae
 solanastrum
 solandera
 solanderara
@@ -34703,7 +34300,6 @@ sparattanthelium
 sparattosperma
 sparattosyce
 sparaxis
-sparganiaceae
 sparganium
 sparganophorus
 sparmannia
@@ -34839,7 +34435,6 @@ sphaerorrhiza
 sphaerosacme
 sphaeroschoenus
 sphaerosciadium
-sphaerosepalaceae
 sphaerosepalum
 sphaerosicyos
 sphaerospora
@@ -34872,7 +34467,6 @@ sphenista
 sphenocarpus
 sphenocentrum
 sphenoclea
-sphenocleaceae
 sphenodesme
 sphenogyne
 sphenomeris
@@ -35050,7 +34644,6 @@ stachypitys
 stachys
 stachystemon
 stachytarpheta
-stachyuraceae
 stachyurus
 stachyus
 stackhousia
@@ -35107,7 +34700,6 @@ staphidiastrum
 staphidium
 staphisagria
 staphylea
-staphyleaceae
 staphylis
 staphylodendron
 staphylodendrum
@@ -35169,7 +34761,6 @@ stegitris
 stegnocarpus
 stegnogramma
 stegnosperma
-stegnospermataceae
 stegocedrus
 stegolepis
 stegonotus
@@ -35253,11 +34844,9 @@ stemodiopsis
 stemodoxis
 stemona
 stemonacanthus
-stemonaceae
 stemonix
 stemonocoleus
 stemonoporus
-stemonuraceae
 stemonurus
 stemoptera
 stemotis
@@ -35488,7 +35077,6 @@ stigmatosema
 stigmatotheca
 stilaginella
 stilago
-stilbaceae
 stilbanthus
 stilbe
 stilbocarpa
@@ -35580,7 +35168,6 @@ strania
 stranvaesia
 stranvinia
 strasburgeria
-strasburgeriaceae
 strateuma
 stratiotes
 straussia
@@ -35601,7 +35188,6 @@ streblus
 streckera
 streleskia
 strelitzia
-strelitziaceae
 strempelia
 strempeliopsis
 strephium
@@ -35744,7 +35330,6 @@ stylarthropus
 stylesia
 styleurodon
 stylexia
-stylidiaceae
 stylidium
 stylidocleome
 stylimnus
@@ -35785,7 +35370,6 @@ styphonia
 styponema
 stypostylis
 styppeiochloa
-styracaceae
 styrandra
 styrax
 styrophyton
@@ -35863,7 +35447,6 @@ suregada
 surenus
 surfacea
 suriana
-surianaceae
 suringaria
 surreya
 surubea
@@ -35993,7 +35576,6 @@ symphytum
 sympieza
 symplectochilus
 symplectrodia
-symplocaceae
 symplocarpus
 symplococarpon
 symplocos
@@ -36209,7 +35791,6 @@ talguenea
 tali
 taliera
 taligalea
-talinaceae
 talinaria
 talinella
 talinium
@@ -36227,7 +35808,6 @@ tamamschjania
 tamananthus
 tamania
 tamara
-tamaricaceae
 tamaricaria
 tamarindus
 tamariscus
@@ -36302,7 +35882,6 @@ tapiphyllum
 tapirira
 tapirocarpus
 tapiscia
-tapisciaceae
 taplinia
 tapogomea
 tapoides
@@ -36379,7 +35958,6 @@ tavastemon
 taverniera
 taveunia
 tawaia
-taxaceae
 taxandria
 taxanthema
 taxillus
@@ -36399,7 +35977,6 @@ tecomanthe
 tecomaria
 tecomella
 tecophilaea
-tecophilaeaceae
 tectaria
 tectaridium
 tecticornia
@@ -36575,7 +36152,6 @@ tetraberlinia
 tetrabroughtanthe
 tetracanthus
 tetracarpaea
-tetracarpaeaceae
 tetracarpidium
 tetracarpum
 tetracattleya
@@ -36587,7 +36163,6 @@ tetrachaete
 tetracheilos
 tetrachne
 tetrachondra
-tetrachondraceae
 tetrachyron
 tetraclea
 tetraclinis
@@ -36645,12 +36220,10 @@ tetrallia
 tetralobus
 tetralocularia
 tetralopha
-tetramelaceae
 tetrameles
 tetrameranthus
 tetrameris
 tetramerista
-tetrameristaceae
 tetramerium
 tetramicra
 tetramolopium
@@ -36791,7 +36364,6 @@ thawatchaia
 thayerara
 thayeria
 thea
-theaceae
 theana
 theaphylla
 theaphyllum
@@ -36926,7 +36498,6 @@ thoa
 thodaya
 thogsennia
 thomandersia
-thomandersiaceae
 thomasia
 thomassetia
 thompsonara
@@ -37002,7 +36573,6 @@ thurberia
 thurnhausera
 thurnheyssera
 thurnia
-thurniaceae
 thurovia
 thurya
 thuspeinanta
@@ -37021,7 +36591,6 @@ thylax
 thylocodraba
 thymbra
 thymelaea
-thymelaeaceae
 thymelina
 thymocarpus
 thymophylla
@@ -37082,7 +36651,6 @@ tibisia
 tibouchina
 tibouchinopsis
 ticanto
-ticodendraceae
 ticodendron
 ticoglossum
 ticorea
@@ -37093,7 +36661,6 @@ tieghemia
 tieghemopanax
 tienmuia
 tietkensia
-tiganophytaceae
 tiganophyton
 tigarea
 tigivesta
@@ -37198,7 +36765,6 @@ todea
 toechima
 toelkenia
 tofieldia
-tofieldiaceae
 toga
 toisochosenia
 toisusu
@@ -37287,7 +36853,6 @@ torreya
 torreycactus
 torreyochloa
 torricellia
-torricelliaceae
 torrubia
 tortipes
 tortuella
@@ -37318,7 +36883,6 @@ toussaintia
 touterea
 tovara
 tovaria
-tovariaceae
 tovarochloa
 tovomita
 tovomitidium
@@ -37765,7 +37329,6 @@ trigonanthera
 trigonea
 trigonella
 trigonia
-trigoniaceae
 trigoniastrum
 trigonidium
 trigoniodendron
@@ -37815,7 +37378,6 @@ trilopus
 trimeiandra
 trimelopter
 trimenia
-trimeniaceae
 trimeranthes
 trimeranthus
 trimeria
@@ -38012,7 +37574,6 @@ triumfetta
 triumfettoides
 triunia
 triuranthera
-triuridaceae
 triuridopsis
 triuris
 triurocodon
@@ -38040,7 +37601,6 @@ trochiscus
 trochocarpa
 trochocephalus
 trochocodon
-trochodendraceae
 trochodendron
 trochomeria
 trochomeriopsis
@@ -38058,7 +37618,6 @@ trompettia
 tromsdorffia
 tronicena
 troostwykia
-tropaeolaceae
 tropaeolum
 tropalanthe
 tropentis
@@ -38273,7 +37832,6 @@ tynanthus
 tynnanthus
 tynus
 typha
-typhaceae
 typhalaea
 typhalea
 typhoides
@@ -38329,7 +37887,6 @@ ulina
 ulleria
 ulloa
 ullucus
-ulmaceae
 ulmaria
 ulmarronia
 ulmus
@@ -38471,7 +38028,6 @@ ursiniopsis
 ursopuntia
 ursulaea
 urtica
-urticaceae
 urticastrum
 urucu
 urumovia
@@ -38521,7 +38077,6 @@ vagnera
 vahadenia
 vahea
 vahlia
-vahliaceae
 vahlodea
 vailia
 vaillantia
@@ -38711,7 +38266,6 @@ vellereophyton
 velleruca
 vellosiella
 vellozia
-velloziaceae
 velophylla
 velpeaulia
 veltheimia
@@ -38743,7 +38297,6 @@ veratronia
 veratrum
 verbascum
 verbena
-verbenaceae
 verbenella
 verbenoxylum
 verbesina
@@ -38819,7 +38372,6 @@ vibo
 vibones
 viborgia
 viborquia
-viburnaceae
 viburnum
 vicarya
 vicatia
@@ -38902,7 +38454,6 @@ vinogradovia
 vinsonia
 vinticena
 viola
-violaceae
 violaeoides
 vionaea
 viorna
@@ -38940,7 +38491,6 @@ visnaga
 visnea
 vissadali
 vistnu
-vitaceae
 vitaeda
 vitaliana
 vitara
@@ -38975,7 +38525,6 @@ voanioala
 voatamalo
 vochya
 vochysia
-vochysiaceae
 voelckeria
 vogelia
 vogelocassia
@@ -39188,7 +38737,6 @@ wellesleyara
 wellingtonia
 wellstedia
 welwitschia
-welwitschiaceae
 welwitschiella
 welwitschiina
 wenchengia
@@ -39332,7 +38880,6 @@ winklerella
 winkleria
 winnara
 wintera
-winteraceae
 winterana
 winteria
 winterlia
@@ -39529,7 +39076,6 @@ xeroloma
 xeromalon
 xeromphis
 xeronema
-xeronemataceae
 xeropappus
 xeropetalon
 xeropetalum
@@ -39632,7 +39178,6 @@ xyochlaena
 xyphanthus
 xyphion
 xyphostylis
-xyridaceae
 xyridanthe
 xyridion
 xyridopsis
@@ -39735,7 +39280,6 @@ zaluzianskya
 zamaria
 zameioscirpus
 zamia
-zamiaceae
 zamioculcas
 zamzela
 zandera
@@ -39847,7 +39391,6 @@ zingela
 zingeria
 zingeriopsis
 zingiber
-zingiberaceae
 zinnia
 zinowiewia
 zippelia
@@ -39884,7 +39427,6 @@ zornia
 zoroxus
 zosima
 zostera
-zosteraceae
 zosterella
 zosterophyllanthos
 zosterospermon
@@ -39953,7 +39495,6 @@ zygopetalon
 zygopetalum
 zygophinia
 zygophlebia
-zygophyllaceae
 zygophyllidium
 zygophyllidum
 zygophyllum
