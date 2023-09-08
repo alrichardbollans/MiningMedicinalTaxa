@@ -30,7 +30,7 @@ def get_relevant_papers_from_download():
 
     import gzip
     from tqdm import tqdm
-    # TODO: Add thread pool?
+    # TODO: Add thread pool with 32?
     # Simple query takes 6 mins per part
     for part in tqdm(range(0, 30)):
         zipfile = get_zip_file_for_part(part)
@@ -47,7 +47,7 @@ def get_relevant_papers_from_download():
                     return [text[int(a['start']):int(a['end'])] for a in types]
 
                 if text is not None:
-                    product_kwords_dict, genusnames_dict, familynames_dict, plantkwords_dict = number_of_keywords(text)
+                    product_kwords_dict, genusnames_dict, familynames_dict, species_dict, plantkwords_dict = number_of_keywords(text)
                     # Products
                     total_product_kword_mentions = sum(product_kwords_dict.values())
                     num_unique_product_kwords = len(product_kwords_dict.keys())
@@ -57,12 +57,16 @@ def get_relevant_papers_from_download():
                     # Families
                     total_familyname_mentions = sum(familynames_dict.values())
                     num_unique_familynames = len(familynames_dict.keys())
+                    # Species
+                    total_species_mentions = sum(species_dict.values())
+                    unique_species_mentions = len(species_dict.keys())
+
                     # Plants
                     total_plantkeyword_mentions = sum(plantkwords_dict.values())
                     num_unique_plantkeywords = len(plantkwords_dict.keys())
 
                     if (total_product_kword_mentions > 0) or (total_genusname_mentions > 0) or (total_familyname_mentions > 0) or (
-                            total_plantkeyword_mentions > 0):
+                            total_plantkeyword_mentions > 0) or (total_species_mentions > 0):
 
                         corpusid = str(paper['corpusid'])
                         abstract = ' '.join(set(text_of('abstract')))
@@ -80,17 +84,18 @@ def get_relevant_papers_from_download():
                         except TypeError:
                             doi = None
 
-                        info_df = pd.DataFrame(build_output_dict(corpusid, paper['doi'], total_product_kword_mentions, num_unique_product_kwords,
+                        info_df = pd.DataFrame(build_output_dict(corpusid, doi, total_product_kword_mentions, num_unique_product_kwords,
                                                                  product_kwords_dict,
                                                                  total_genusname_mentions, num_unique_genusnames, genusnames_dict,
                                                                  total_familyname_mentions,
                                                                  num_unique_familynames,
-                                                                 familynames_dict, total_plantkeyword_mentions,
-                                                                 num_unique_plantkeywords, plantkwords_dict, paper['title'], paper['authors'],
-                                                                 paper['downloadUrl'], _rel_abstract_path, _rel_text_path))
+                                                                 familynames_dict,
+                                                                 total_species_mentions, unique_species_mentions, species_dict,
+                                                                 total_plantkeyword_mentions,
+                                                                 num_unique_plantkeywords, plantkwords_dict, title, authors,
+                                                                 url, _rel_abstract_path, _rel_text_path))
 
                         paper_df = pd.concat([paper_df, info_df])
-
         for c_id in relevant_abstracts:
             abstract = relevant_abstracts[c_id]
             if abstract is not None:

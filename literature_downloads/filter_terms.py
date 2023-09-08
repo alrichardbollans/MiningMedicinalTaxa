@@ -9,6 +9,7 @@ from wcvp_download import get_all_taxa, wcvp_columns
 all_taxa = get_all_taxa()
 genus_names = all_taxa[wcvp_columns['genus']].dropna().unique().tolist()
 family_names = all_taxa[wcvp_columns['family']].dropna().unique().tolist()
+species_binomial_names = all_taxa[all_taxa[wcvp_columns['rank']] == 'Species'][wcvp_columns['name']].dropna().unique().tolist()
 _unclean_lifeforms = all_taxa['lifeform_description'].dropna().unique().tolist()
 _lifeforms = []
 for x in [w.split() for w in _unclean_lifeforms]:
@@ -84,7 +85,7 @@ _en_product_keywords = ['medicinal',
                         'nutraceuticals',
                         'nutraceutical']
 
-query_name = 'en_keywords_genera_families'  # '_'.join(_en_product_keywords)  # + _misc_paired_keywords)
+query_name = 'en_keywords_spbinomials_genera_families'  # '_'.join(_en_product_keywords)  # + _misc_paired_keywords)
 
 plant_specific_keywords = ['herbals',
                            'herbal', 'botany', 'ethnobotany',
@@ -134,6 +135,12 @@ with open('../familyname_keywords.txt', 'w') as f:
     for line in _lower_case_family_names:
         f.write(f"{line}\n")
 
+_lower_case_binom_names = sorted([x.lower() for x in species_binomial_names])
+# print(f'all sp binom words: {_lower_case_binom_names}')
+with open('../sp_binomname_keywords.txt', 'w') as f:
+    for line in _lower_case_binom_names:
+        f.write(f"{line}\n")
+
 _varied_plantspecific_keywords = sorted(get_varied_forms(plant_specific_keywords))
 print(f'all plant key words: {_varied_plantspecific_keywords}')
 
@@ -150,25 +157,35 @@ def number_of_keywords(given_text: str):
     num_familynames = {key: res[key] for key in _lower_case_family_names if key in res}
     num_genusnames = {key: res[key] for key in _lower_case_genus_names if key in res}
     num_plantkwords = {key: res[key] for key in _varied_plantspecific_keywords if key in res}
-
+    # Species names could be 3 words long due to hybrid characters
+    paired_words = [" ".join([words[i], words[i + 1]]) for i in range(len(words) - 1)]
+    trio_words = [" ".join([words[i], words[i + 1], words[i + 2]]) for i in range(len(words) - 2)]
+    potential_binomials = paired_words + trio_words
+    paired_res = Counter(potential_binomials)
+    num_sp_binomials = {key: paired_res[key] for key in _lower_case_binom_names if key in paired_res}
     # print("getting number of keywords: %s seconds ---" % (time.time() - start_time))
-    return num_product_kwords, num_genusnames, num_familynames, num_plantkwords
+    return num_product_kwords, num_genusnames, num_familynames, num_sp_binomials, num_plantkwords
 
 
 def build_output_dict(corpusid, doi, total_product_kword_mentions, num_unique_product_kwords, product_kwords_dict,
                       total_genusname_mentions, num_unique_genusnames, genusnames_dict, total_familyname_mentions, num_unique_familynames,
-                      familynames_dict, total_plantkeyword_mentions,
+                      familynames_dict,
+                      total_species_mentions, unique_species_mentions, species_dict,
+                      total_plantkeyword_mentions,
                       num_unique_plantkeywords, plantkwords_dict, title, authors, url, _rel_abstract_path, _rel_text_path, language=None):
     return {'corpusid': [corpusid], 'DOI': [doi], 'language': language,
             'total_product_keyword_mentions': total_product_kword_mentions,
             'unique_product_keyword_mentions': num_unique_product_kwords,
             'product_keyword_count': str(product_kwords_dict),
-            'total_genusname_mentions': total_genusname_mentions,
-            'unique_genusname_mentions': num_unique_genusnames,
-            'genusname_count': str(genusnames_dict),
-            'total_familyname_mentions': total_familyname_mentions,
-            'unique_familyname_mentions': num_unique_familynames,
-            'familyname_count': str(familynames_dict),
+            'total_genus_mentions': total_genusname_mentions,
+            'unique_genus_mentions': num_unique_genusnames,
+            'genus_counts': str(genusnames_dict),
+            'total_family_mentions': total_familyname_mentions,
+            'unique_family_mentions': num_unique_familynames,
+            'family_counts': str(familynames_dict),
+            'total_species_mentions': total_species_mentions,
+            'unique_species_mentions': unique_species_mentions,
+            'species_counts': str(species_dict),
             'total_plant_keyword_mentions': total_plantkeyword_mentions,
             'unique_plant_keyword_mentions': num_unique_plantkeywords,
             'plant_keyword_count': str(plantkwords_dict),
@@ -179,5 +196,6 @@ def build_output_dict(corpusid, doi, total_product_kword_mentions, num_unique_pr
 
 def sort_final_dataframe(df: pd.DataFrame):
     return df.sort_values(
-        by=['unique_familyname_mentions', 'unique_product_keyword_mentions', 'unique_plant_keyword_mentions', 'unique_genusname_mentions'],
+        by=['unique_species_mentions', 'unique_family_mentions', 'unique_product_keyword_mentions', 'unique_plant_keyword_mentions',
+            'unique_genus_mentions'],
         ascending=False).reset_index(drop=True)
