@@ -120,32 +120,32 @@ words_to_exclude = ['add', 'drunkard']
 _varied_product_keywords_to_use = sorted([x for x in _varied_product_keywords if x not in words_to_exclude])
 print(f'all variations of keywords: {_varied_product_keywords_to_use}')
 
-with open('../product_keywords.txt', 'w') as f:
+with open('../final_keywords_lists/product_keywords.txt', 'w') as f:
     for line in _varied_product_keywords_to_use:
         f.write(f"{line}\n")
 
 _lower_case_genus_names = sorted([x.lower() for x in genus_names])
 print(f'all genus words: {_lower_case_genus_names}')
-with open('../genusname_keywords.txt', 'w') as f:
+with open('../final_keywords_lists/genusname_keywords.txt', 'w') as f:
     for line in _lower_case_genus_names:
         f.write(f"{line}\n")
 
 _lower_case_family_names = sorted([x.lower() for x in family_names])
 print(f'all family words: {_lower_case_family_names}')
-with open('../familyname_keywords.txt', 'w') as f:
+with open('../final_keywords_lists/familyname_keywords.txt', 'w') as f:
     for line in _lower_case_family_names:
         f.write(f"{line}\n")
 
 _lower_case_binom_names = sorted([x.lower() for x in species_binomial_names])
 # print(f'all sp binom words: {_lower_case_binom_names}')
-with open('../sp_binomname_keywords.txt', 'w') as f:
+with open('../final_keywords_lists/sp_binomname_keywords.txt', 'w') as f:
     for line in _lower_case_binom_names:
         f.write(f"{line}\n")
 
 _varied_plantspecific_keywords = sorted(get_varied_forms(plant_specific_keywords))
 print(f'all plant key words: {_varied_plantspecific_keywords}')
 
-with open('../plant_keywords.txt', 'w') as f:
+with open('../final_keywords_lists/plant_keywords.txt', 'w') as f:
     for line in _varied_plantspecific_keywords:
         f.write(f"{line}\n")
 
