@@ -7,10 +7,13 @@ from typing import List
 import pandas as pd
 from wcvp_download import get_all_taxa, wcvp_columns
 
+from literature_downloads import manual_plant_specific_keywords, manual_en_product_keywords
+
 all_taxa = get_all_taxa()
 genus_names = all_taxa[wcvp_columns['genus']].dropna().unique().tolist()
 family_names = all_taxa[wcvp_columns['family']].dropna().unique().tolist()
-species_binomial_names = all_taxa[all_taxa[wcvp_columns['rank']] == 'Species'][wcvp_columns['name']].dropna().unique().tolist()
+species_binomial_names = all_taxa[all_taxa[wcvp_columns['rank']] == 'Species'][
+    wcvp_columns['name']].dropna().unique().tolist()
 _unclean_lifeforms = all_taxa['lifeform_description'].dropna().unique().tolist()
 _lifeforms = []
 for x in [w.split() for w in _unclean_lifeforms]:
@@ -22,75 +25,10 @@ _lifeforms = list(set(_lifeforms))
 
 # Supplement is really caught in a lot of text..
 
-_en_product_keywords = ['medicinal',
-                        'medicines',
-                        'medicine',
-                        'medics',
-                        'medic',
-                        'pharmacopoeia',
-                        'pharmaceuticals',
-                        'pharmaceutical',
-                        'drug',
-                        'drugs',
-                        'ethnopharmacology',
-                        'remedies',
-                        'remedy',
-                        'homeopathic',
-                        'homeopathy',
-                        'homeopath',
-                        'homeopaths',
-                        'immunoglobulin',
-                        'immune',
-                        'immunoserum',
-                        'oil',
-                        'oily',
-                        'oils',
-                        'candles',
-                        'candle',
-                        'candlenut',
-                        'food',
-                        'foods',
-                        'foodstuff',
-                        'foodstuffs',
-                        'food-based',
-                        'additive',
-                        'additives',
-                        'edible',
-                        'inedible',
-                        'beverages',
-                        'beverage',
-                        'drink',
-                        'drinks',
-                        'drinking',
-                        'tea',
-                        'alcohol',
-                        'alcoholic',
-                        'hydroalcoholic',
-                        'cosmetics',
-                        'cosmetic',
-                        'shampoo',
-                        'shampoos',
-                        'shampooing',
-                        'toxic',
-                        'toxicity',
-                        'toxicological',
-                        'endotoxin',
-                        'toxins',
-                        'toxin',
-                        'endotoxins',
-                        'supplement',
-                        'supplements',
-                        'supplementary',
-                        'antioxidants',
-                        'antioxidant',
-                        'nutraceuticals',
-                        'nutraceutical']
 
-query_name = 'en_keywords_spbinomials_genera_families'  # '_'.join(_en_product_keywords)  # + _misc_paired_keywords)
+query_name = 'en_keywords_spbinomials_genera_families'  # '_'.join(manual_en_product_keywords)  # + _misc_paired_keywords)
 
-plant_specific_keywords = ['herbals',
-                           'herbal', 'botany', 'ethnobotany',
-                           ] + _lifeforms
+plant_specific_keywords = manual_plant_specific_keywords + _lifeforms
 
 
 def get_varied_form_of_word(given_word: str) -> List:
@@ -115,7 +53,7 @@ def get_varied_forms(list_of_words) -> List:
     return list(set(out))
 
 
-_varied_product_keywords = get_varied_forms(_en_product_keywords)
+_varied_product_keywords = get_varied_forms(manual_en_product_keywords)
 words_to_exclude = ['add', 'drunkard']
 _varied_product_keywords_to_use = sorted([x for x in _varied_product_keywords if x not in words_to_exclude])
 print(f'all variations of keywords: {_varied_product_keywords_to_use}')
@@ -151,7 +89,6 @@ with open('../final_keywords_lists/plant_keywords.txt', 'w') as f:
 
 
 def get_dict_from_res(count_result: Counter, list_to_check: List[str]):
-
     # start_time = time.time()
     intersection = set(count_result.keys()).intersection(list_to_check)
     out_res = {key: count_result[key] for key in intersection}
@@ -177,12 +114,15 @@ def number_of_keywords(given_text: str):
     return num_product_kwords, num_genusnames, num_familynames, num_sp_binomials, num_plantkwords
 
 
-def build_output_dict(corpusid, doi, total_product_kword_mentions, num_unique_product_kwords, product_kwords_dict,
-                      total_genusname_mentions, num_unique_genusnames, genusnames_dict, total_familyname_mentions, num_unique_familynames,
+def build_output_dict(corpusid, doi, total_product_kword_mentions, num_unique_product_kwords,
+                      product_kwords_dict,
+                      total_genusname_mentions, num_unique_genusnames, genusnames_dict,
+                      total_familyname_mentions, num_unique_familynames,
                       familynames_dict,
                       total_species_mentions, unique_species_mentions, species_dict,
                       total_plantkeyword_mentions,
-                      num_unique_plantkeywords, plantkwords_dict, title, authors, url, _rel_abstract_path, _rel_text_path, language=None):
+                      num_unique_plantkeywords, plantkwords_dict, title, authors, url, _rel_abstract_path,
+                      _rel_text_path, language=None):
     return {'corpusid': [corpusid], 'DOI': [doi], 'language': language,
             'total_product_keyword_mentions': total_product_kword_mentions,
             'unique_product_keyword_mentions': num_unique_product_kwords,
@@ -206,6 +146,7 @@ def build_output_dict(corpusid, doi, total_product_kword_mentions, num_unique_pr
 
 def sort_final_dataframe(df: pd.DataFrame):
     return df.sort_values(
-        by=['unique_species_mentions', 'unique_family_mentions', 'unique_product_keyword_mentions', 'unique_plant_keyword_mentions',
+        by=['unique_species_mentions', 'unique_family_mentions', 'unique_product_keyword_mentions',
+            'unique_plant_keyword_mentions',
             'unique_genus_mentions'],
         ascending=False).reset_index(drop=True)
