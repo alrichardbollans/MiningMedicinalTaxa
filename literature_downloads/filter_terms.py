@@ -9,6 +9,12 @@ from wcvp_download import get_all_taxa, wcvp_columns
 
 from literature_downloads import manual_plant_specific_keywords, manual_en_product_keywords
 
+scratch_path = os.environ.get('SCRATCH')
+pnaps_df = pd.read_csv(
+    os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'PNAPs.csv'))
+pnaps_df['simplified_names'] = pnaps_df['non_sci_name'].apply(lambda x: x.split()[:2])
+pnaps = pnaps_df['simplified_names'].unique().tolist()
+
 all_taxa = get_all_taxa()
 genus_names = all_taxa[wcvp_columns['genus']].dropna().unique().tolist()
 family_names = all_taxa[wcvp_columns['family']].dropna().unique().tolist()
@@ -23,10 +29,7 @@ for x in [w.split() for w in _unclean_lifeforms]:
             _lifeforms.append(w)
 _lifeforms = list(set(_lifeforms))
 
-# Supplement is really caught in a lot of text..
-
-
-query_name = 'en_keywords_spbinomials_genera_families'  # '_'.join(manual_en_product_keywords)  # + _misc_paired_keywords)
+query_name = 'en_keywords_spbinomials_genera_families'
 
 plant_specific_keywords = manual_plant_specific_keywords + _lifeforms
 
@@ -54,7 +57,7 @@ def get_varied_forms(list_of_words) -> List:
 
 
 _varied_product_keywords = get_varied_forms(manual_en_product_keywords)
-words_to_exclude = ['add', 'drunkard']
+words_to_exclude = ['add', 'drunkard', 'supplementary']
 _varied_product_keywords_to_use = sorted([x for x in _varied_product_keywords if x not in words_to_exclude])
 print(f'all variations of keywords: {_varied_product_keywords_to_use}')
 
