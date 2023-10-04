@@ -36,8 +36,9 @@ def number_of_keywords(given_text: str):
 
 
 def build_output_dict(corpusid, doi, keyword_counts, title, authors, url, _rel_abstract_path,
-                      _rel_text_path, language=None):
-    out_dict = {'corpusid': [corpusid], 'DOI': [doi], 'language': language,
+                      _rel_text_path, language=None, journals=None, subjects=None):
+    out_dict = {'corpusid': [corpusid], 'DOI': [doi], 'language': language, 'journals': journals,
+                'subjects': subjects,
                 'title': [title], 'authors': [str(authors)], 'oaurl': [url],
                 'abstract_path': [os.path.join(_rel_abstract_path, corpusid + '.txt')],
                 'text_path': [os.path.join(_rel_text_path, corpusid + '.txt')]}
@@ -55,3 +56,8 @@ def sort_final_dataframe(df: pd.DataFrame):
         by=['species_binomials_unique_total', 'family_names_unique_total', 'medicinal_unique_total', 'plants_unique_total',
             'genus_names_unique_total'],
         ascending=False).reset_index(drop=True)
+
+
+def filter_final_dataframe():
+    # What should be removed and how can we sort?
+    pass

@@ -24,7 +24,7 @@ for p in [core_download_path, core_text_path, core_paper_info_path, core_abstrac
         os.mkdir(p)
 
 
-def get_relevant_papers_from_download():
+def get_relevant_papers_from_download(write_texts=False):
     paper_df = pd.DataFrame()
 
     import tarfile
@@ -45,9 +45,10 @@ def get_relevant_papers_from_download():
             # iterate over members then get all members out of these
             print(f'Number {member_count} of main archive containing 10251')
             member_count += 1
-            print(f'Number of papers collected: {len(paper_count)}')
+            print(f'Number of papers collected: {paper_count}')
             file_obj = main_archive.extractfile(member)
             with tarfile.open(fileobj=file_obj, mode='r') as sub_archive:
+                # Data providers of each subarchive are here: https://core.ac.uk/data-providers
                 members = sub_archive.getmembers()
                 for i in tqdm(range(len(members))):
                     m = members[i]
@@ -63,27 +64,40 @@ def get_relevant_papers_from_download():
                             if any(len(k_word_counts[kword_type].keys()) > 0 for kword_type in k_word_counts):
                                 paper_count += 1
                                 corpusid = paper['coreId']
-
-                                f = open(os.path.join(core_text_path, corpusid + '.txt'), 'w')
-                                f.write(text)
-                                f.close()
-
-                                if paper['abstract'] is not None:
-                                    f = open(os.path.join(core_abstracts_path, corpusid + '.txt'), 'w')
-                                    f.write(paper['abstract'])
+                                if write_texts:
+                                    f = open(os.path.join(core_text_path, corpusid + '.txt'), 'w')
+                                    f.write(text)
                                     f.close()
+
+                                    if paper['abstract'] is not None:
+                                        f = open(os.path.join(core_abstracts_path, corpusid + '.txt'), 'w')
+                                        f.write(paper['abstract'])
+                                        f.close()
 
                                 try:
                                     language = paper['language']['code']
                                 except TypeError:
                                     language = None
 
+                                if len(paper['journals']) == 1:
+                                    journals = paper['journals'][0]
+                                elif len(paper['journals']) > 1:
+                                    journals = str(paper['journals'])
+                                else:
+                                    journals = None
+                                if len(paper['subjects']) == 1:
+                                    subjects = paper['subjects'][0]
+                                elif len(paper['subjects']) > 1:
+                                    subjects = str(paper['subjects'])
+                                else:
+                                    subjects = None
+
                                 info_df = pd.DataFrame(
                                     build_output_dict(corpusid, paper['doi'], k_word_counts, paper['title'], paper['authors'],
-                                                      paper['downloadUrl'], _rel_abstract_path, _rel_text_path, language=language))
+                                                      paper['downloadUrl'], _rel_abstract_path, _rel_text_path, language=language, journals=journals,
+                                                      subjects=subjects))
 
                                 paper_df = pd.concat([paper_df, info_df])
-
 
                 out_df = sort_final_dataframe(paper_df)
                 out_df.to_csv(os.path.join(core_paper_info_path, query_name + '.csv'))

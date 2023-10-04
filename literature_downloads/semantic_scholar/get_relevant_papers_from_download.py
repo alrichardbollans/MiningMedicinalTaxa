@@ -23,18 +23,19 @@ for d in _dirs:
         os.mkdir(d)
 
 
-def get_relevant_papers_from_download():
+def get_relevant_papers_from_download(write_texts =False):
     paper_df = pd.DataFrame()
 
     import gzip
     from tqdm import tqdm
     # TODO: Add thread pool with 32?
+    paper_count = 0
     # Simple query takes 6 mins per part
     for part in tqdm(range(0, 30)):
         zipfile = get_zip_file_for_part(part)
         print('unzipping')
         with gzip.open(zipfile, 'rb') as infile:
-            print('unzipped')
+            print(f'Number of papers collected: {paper_count}')
             for line in infile:
                 paper = json.loads(line)
                 text = paper['content']['text']
@@ -48,18 +49,19 @@ def get_relevant_papers_from_download():
                     k_word_counts = number_of_keywords(text)
 
                     if any(len(k_word_counts[kword_type].keys()) > 0 for kword_type in k_word_counts):
-
+                        paper_count +=1
                         corpusid = str(paper['corpusid'])
                         abstract = ' '.join(set(text_of('abstract')))
 
-                        f = open(os.path.join(sem_schol_text_path, corpusid + '.txt'), 'w')
-                        f.write(text)
-                        f.close()
-
-                        if abstract != '':
-                            f = open(os.path.join(sem_schol_abstracts_path, corpusid + '.txt'), 'w')
-                            f.write(abstract)
+                        if write_texts:
+                            f = open(os.path.join(sem_schol_text_path, corpusid + '.txt'), 'w')
+                            f.write(text)
                             f.close()
+
+                            if abstract != '':
+                                f = open(os.path.join(sem_schol_abstracts_path, corpusid + '.txt'), 'w')
+                                f.write(abstract)
+                                f.close()
 
                         title = ' '.join(set(text_of('title')))
                         authors = ', '.join(set(text_of('author')))
@@ -73,8 +75,23 @@ def get_relevant_papers_from_download():
                         except TypeError:
                             doi = None
 
+                        try:
+                            journal = paper['journal']['name']
+                        except KeyError:
+                            journal = None
+
+                        try:
+                            subjects_list = []
+                            for _s in paper['fieldsOfStudy']:
+                                subjects_list.append(_s)
+                            for _d in paper['s2FieldsOfStudy']:
+                                subjects_list.append(paper['s2FieldsOfStudy'][_d]['category'])
+                            subjects = str(list(set(subjects_list)))
+                        except KeyError:
+                            subjects = None
+
                         info_df = pd.DataFrame(build_output_dict(corpusid, doi, k_word_counts, title, authors,
-                                                                 url, _rel_abstract_path, _rel_text_path))
+                                                                 url, _rel_abstract_path, _rel_text_path, journals=journal, subjects=subjects))
 
                         paper_df = pd.concat([paper_df, info_df])
 
