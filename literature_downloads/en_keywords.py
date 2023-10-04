@@ -7,7 +7,9 @@ from wcvp_download import get_all_taxa, wcvp_columns
 
 scratch_path = os.environ.get('SCRATCH')
 
-words_to_exclude = ['add', 'drunkard', 'supplementary']
+words_to_exclude = [_x.lower().strip() for _x in
+                    pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'list_keywords.xlsx'),
+                                  sheet_name='Excluded')['Excluded keywords'].tolist()]
 
 ### Taxa specific
 _pnaps_df = pd.read_csv(
@@ -32,6 +34,9 @@ for _x in [w.split() for w in _unclean_lifeforms]:
             _lifeforms.append(_w)
 _lifeforms = list(set(_lifeforms))
 
+import inflect
+inflect_p = inflect.engine()
+
 
 ### Products and plants
 def get_varied_form_of_word(given_word: str) -> List:
@@ -46,8 +51,14 @@ def get_varied_form_of_word(given_word: str) -> List:
     if given_word not in forms:
         forms.append(given_word)
 
-    # Now get plurals
-
+    # Now get plural and singulars
+    for f in forms[:]:
+        pl = inflect_p.plural(f)
+        if pl:
+            forms.append(pl)
+        sing = inflect_p.singular_noun(f)
+        if sing:
+            forms.append(sing)
     return forms
 
 

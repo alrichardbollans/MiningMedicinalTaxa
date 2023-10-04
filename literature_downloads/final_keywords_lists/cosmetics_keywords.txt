@@ -2,4 +2,5 @@ cosmetic
 cosmetics
 shampoo
 shampooing
+shampooings
 shampoos

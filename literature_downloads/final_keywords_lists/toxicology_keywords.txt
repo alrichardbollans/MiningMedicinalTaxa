@@ -1,8 +1,12 @@
 endotoxin
 endotoxins
 toxic
+toxicities
 toxicity
 toxicological
+toxicologicals
+toxicologies
 toxicology
+toxics
 toxin
 toxins
