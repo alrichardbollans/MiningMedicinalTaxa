@@ -47,26 +47,9 @@ def get_relevant_papers_from_download():
                     return [text[int(a['start']):int(a['end'])] for a in types]
 
                 if text is not None:
-                    product_kwords_dict, genusnames_dict, familynames_dict, species_dict, plantkwords_dict = number_of_keywords(text)
-                    # Products
-                    total_product_kword_mentions = sum(product_kwords_dict.values())
-                    num_unique_product_kwords = len(product_kwords_dict.keys())
-                    # Genera
-                    total_genusname_mentions = sum(genusnames_dict.values())
-                    num_unique_genusnames = len(genusnames_dict.keys())
-                    # Families
-                    total_familyname_mentions = sum(familynames_dict.values())
-                    num_unique_familynames = len(familynames_dict.keys())
-                    # Species
-                    total_species_mentions = sum(species_dict.values())
-                    unique_species_mentions = len(species_dict.keys())
+                    k_word_counts = number_of_keywords(text)
 
-                    # Plants
-                    total_plantkeyword_mentions = sum(plantkwords_dict.values())
-                    num_unique_plantkeywords = len(plantkwords_dict.keys())
-
-                    if (total_product_kword_mentions > 0) or (total_genusname_mentions > 0) or (total_familyname_mentions > 0) or (
-                            total_plantkeyword_mentions > 0) or (total_species_mentions > 0):
+                    if any(len(k_word_counts[kword_type].keys()) > 0 for kword_type in k_word_counts):
 
                         corpusid = str(paper['corpusid'])
                         abstract = ' '.join(set(text_of('abstract')))
@@ -84,15 +67,7 @@ def get_relevant_papers_from_download():
                         except TypeError:
                             doi = None
 
-                        info_df = pd.DataFrame(build_output_dict(corpusid, doi, total_product_kword_mentions, num_unique_product_kwords,
-                                                                 product_kwords_dict,
-                                                                 total_genusname_mentions, num_unique_genusnames, genusnames_dict,
-                                                                 total_familyname_mentions,
-                                                                 num_unique_familynames,
-                                                                 familynames_dict,
-                                                                 total_species_mentions, unique_species_mentions, species_dict,
-                                                                 total_plantkeyword_mentions,
-                                                                 num_unique_plantkeywords, plantkwords_dict, title, authors,
+                        info_df = pd.DataFrame(build_output_dict(corpusid, doi, k_word_counts, title, authors,
                                                                  url, _rel_abstract_path, _rel_text_path))
 
                         paper_df = pd.concat([paper_df, info_df])
