@@ -18,5 +18,5 @@ Kinney, R.M., Anastasiades, C., Authur, R., Beltagy, I., Bragg, J., Buraczynski,
 }
 Accessed 26/07/23
 
-Govaerts R (ed.). 2023. WCVP: World Checklist of Vascular Plants. V11
-Facilitated by the Royal Botanic Gardens, Kew. [WWW document] URL http://sftp.kew.org/pub/data-repositories/WCVP/ [accessed XXXX].
+Govaerts R (ed.). 2023. WCVP: World Checklist of Vascular Plants. V12
+Facilitated by the Royal Botanic Gardens, Kew. [WWW document] URL http://sftp.kew.org/pub/data-repositories/WCVP/ [accessed 04/10/23].

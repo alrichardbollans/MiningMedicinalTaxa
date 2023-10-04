@@ -8,7 +8,6 @@ aextoxicaceae
 aizoaceae
 akaniaceae
 alismataceae
-alliaceae
 alseuosmiaceae
 alstroemeriaceae
 altingiaceae
@@ -401,7 +400,6 @@ siparunaceae
 sladeniaceae
 smilacaceae
 solanaceae
-sparganiaceae
 sphaerosepalaceae
 sphenocleaceae
 stachyuraceae
