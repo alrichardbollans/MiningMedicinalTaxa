@@ -12,17 +12,30 @@ words_to_exclude = [_x.lower().strip() for _x in
                                   sheet_name='Excluded')['Excluded keywords'].tolist()]
 
 ### Taxa specific
+# IPNI
+_ipni_df = pd.read_csv(
+    os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'ipni_flat.csv'))
+
+_ipni_df = _ipni_df[_ipni_df['citation_type'] != 'miscauto']
+
+_ipni_families = _ipni_df['family'].dropna().unique().tolist()
+_ipni_genera = _ipni_df['genus'].dropna().unique().tolist()
+_ipni_binomials = _ipni_df[_ipni_df['rank']=='spec.']['full_name_without_family_and_authors'].dropna().unique().tolist()
+
+
+# PNAPS
 _pnaps_df = pd.read_csv(
     os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'PNAPs.csv'))
 _pnaps_df['simplified_names'] = _pnaps_df['non_sci_name'].apply(lambda x: ' '.join(x.split()[:2]))
 _pnaps = _pnaps_df['simplified_names'].unique().tolist()
 
+# Checklist
 _all_taxa = get_all_taxa()
-_genus_names = _all_taxa[wcvp_columns['genus']].dropna().unique().tolist()
-_family_names = _all_taxa[wcvp_columns['family']].dropna().unique().tolist()
+_genus_names = _all_taxa[wcvp_columns['genus']].dropna().unique().tolist() + _ipni_genera
+_family_names = _all_taxa[wcvp_columns['family']].dropna().unique().tolist() + _ipni_families
 _species_binomial_names = _all_taxa[_all_taxa[wcvp_columns['rank']] == 'Species'][
     wcvp_columns['name']].dropna().unique().tolist()
-_species_binomial_names = _species_binomial_names + _pnaps
+_species_binomial_names = _species_binomial_names + _pnaps + _ipni_binomials
 
 ### Lifeforms
 _unclean_lifeforms = _all_taxa['lifeform_description'].dropna().unique().tolist()
@@ -35,6 +48,7 @@ for _x in [w.split() for w in _unclean_lifeforms]:
 _lifeforms = list(set(_lifeforms))
 
 import inflect
+
 inflect_p = inflect.engine()
 
 
@@ -103,3 +117,6 @@ for _fk in final_en_keyword_dict:
     with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', _fk + '_keywords.txt'), 'w') as f:
         for line in final_en_keyword_dict[_fk]:
             f.write(f"{line}\n")
+
+if __name__ == '__main__':
+    pass

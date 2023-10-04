@@ -20,3 +20,6 @@ Accessed 26/07/23
 
 Govaerts R (ed.). 2023. WCVP: World Checklist of Vascular Plants. V12
 Facilitated by the Royal Botanic Gardens, Kew. [WWW document] URL http://sftp.kew.org/pub/data-repositories/WCVP/ [accessed 04/10/23].
+
+IPNI (2023). International Plant Names Index. Published on the Internet http://www.ipni.org,
+The Royal Botanic Gardens, Kew, Harvard University Herbaria & Libraries and Australian National Herbarium. [Retrieved 25 July 2023].
