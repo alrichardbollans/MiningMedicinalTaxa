@@ -25,8 +25,6 @@ for d in _dirs:
 
 def get_relevant_papers_from_download():
     paper_df = pd.DataFrame()
-    relevant_abstracts = {}
-    relevant_text = {}
 
     import gzip
     from tqdm import tqdm
@@ -53,6 +51,16 @@ def get_relevant_papers_from_download():
 
                         corpusid = str(paper['corpusid'])
                         abstract = ' '.join(set(text_of('abstract')))
+
+                        f = open(os.path.join(sem_schol_text_path, corpusid + '.txt'), 'w')
+                        f.write(text)
+                        f.close()
+
+                        if abstract != '':
+                            f = open(os.path.join(sem_schol_abstracts_path, corpusid + '.txt'), 'w')
+                            f.write(abstract)
+                            f.close()
+
                         title = ' '.join(set(text_of('title')))
                         authors = ', '.join(set(text_of('author')))
                         try:
@@ -60,8 +68,6 @@ def get_relevant_papers_from_download():
                         except TypeError:
                             url = None
 
-                        relevant_abstracts[corpusid] = abstract
-                        relevant_text[corpusid] = text
                         try:
                             doi = paper['externalids']['doi']
                         except TypeError:
@@ -71,19 +77,7 @@ def get_relevant_papers_from_download():
                                                                  url, _rel_abstract_path, _rel_text_path))
 
                         paper_df = pd.concat([paper_df, info_df])
-        for c_id in relevant_abstracts:
-            abstract = relevant_abstracts[c_id]
-            if abstract is not None:
-                f = open(os.path.join(sem_schol_abstracts_path, c_id + '.txt'), 'w')
-                f.write(abstract)
-                f.close()
 
-        for c_id in relevant_text:
-            te = relevant_text[c_id]
-            if te is not None:
-                f = open(os.path.join(sem_schol_text_path, c_id + '.txt'), 'w')
-                f.write(te)
-                f.close()
         out_df = sort_final_dataframe(paper_df)
         out_df.to_csv(os.path.join(sem_schol_paper_info_path, query_name + '.csv'))
     return out_df

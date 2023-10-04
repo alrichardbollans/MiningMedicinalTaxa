@@ -26,8 +26,6 @@ for p in [core_download_path, core_text_path, core_paper_info_path, core_abstrac
 
 def get_relevant_papers_from_download():
     paper_df = pd.DataFrame()
-    relevant_abstracts = {}
-    relevant_text = {}
 
     import tarfile
 
@@ -42,11 +40,12 @@ def get_relevant_papers_from_download():
         # This is slow but useful info. # Main archive length: 10251
         # print(f'Main archive length: {len(main_archive.getnames())}')
         member_count = 1
+        paper_count = 0
         for member in main_archive:
             # iterate over members then get all members out of these
             print(f'Number {member_count} of main archive containing 10251')
             member_count += 1
-            print(f'Number of papers collected: {len(relevant_text)}')
+            print(f'Number of papers collected: {len(paper_count)}')
             file_obj = main_archive.extractfile(member)
             with tarfile.open(fileobj=file_obj, mode='r') as sub_archive:
                 members = sub_archive.getmembers()
@@ -62,10 +61,18 @@ def get_relevant_papers_from_download():
                             k_word_counts = number_of_keywords(text)
                             # TODO: This could be stricter
                             if any(len(k_word_counts[kword_type].keys()) > 0 for kword_type in k_word_counts):
+                                paper_count += 1
                                 corpusid = paper['coreId']
 
-                                relevant_abstracts[corpusid] = paper['abstract']
-                                relevant_text[corpusid] = text
+                                f = open(os.path.join(core_text_path, corpusid + '.txt'), 'w')
+                                f.write(text)
+                                f.close()
+
+                                if paper['abstract'] is not None:
+                                    f = open(os.path.join(core_abstracts_path, corpusid + '.txt'), 'w')
+                                    f.write(paper['abstract'])
+                                    f.close()
+
                                 try:
                                     language = paper['language']['code']
                                 except TypeError:
@@ -76,19 +83,8 @@ def get_relevant_papers_from_download():
                                                       paper['downloadUrl'], _rel_abstract_path, _rel_text_path, language=language))
 
                                 paper_df = pd.concat([paper_df, info_df])
-                for c_id in relevant_abstracts:
-                    abstract = relevant_abstracts[c_id]
-                    if abstract is not None:
-                        f = open(os.path.join(core_abstracts_path, c_id + '.txt'), 'w')
-                        f.write(abstract)
-                        f.close()
 
-                for c_id in relevant_text:
-                    te = relevant_text[c_id]
-                    if te is not None:
-                        f = open(os.path.join(core_text_path, c_id + '.txt'), 'w')
-                        f.write(te)
-                        f.close()
+
                 out_df = sort_final_dataframe(paper_df)
                 out_df.to_csv(os.path.join(core_paper_info_path, query_name + '.csv'))
     return out_df
