@@ -10,6 +10,7 @@ setup(
 
     install_requires=[
         "automatchnames == 1.2.1",
+        "openpyxl"
     ],
     # *strongly* suggested for sharing
     version='1.0',

@@ -46,7 +46,7 @@ def get_relevant_papers_from_download():
             # iterate over members then get all members out of these
             print(f'Number {member_count} of main archive containing 10251')
             member_count += 1
-            print(f'Numer of papers collected: {len(relevant_text)}')
+            print(f'Number of papers collected: {len(relevant_text)}')
             file_obj = main_archive.extractfile(member)
             with tarfile.open(fileobj=file_obj, mode='r') as sub_archive:
                 members = sub_archive.getmembers()
@@ -59,26 +59,9 @@ def get_relevant_papers_from_download():
                         text = paper['fullText']
 
                         if text is not None:
-                            product_kwords_dict, genusnames_dict, familynames_dict, species_dict, plantkwords_dict = number_of_keywords(text)
-                            # Products
-                            total_product_kword_mentions = sum(product_kwords_dict.values())
-                            num_unique_product_kwords = len(product_kwords_dict.keys())
-                            # Genera
-                            total_genusname_mentions = sum(genusnames_dict.values())
-                            num_unique_genusnames = len(genusnames_dict.keys())
-                            # Families
-                            total_familyname_mentions = sum(familynames_dict.values())
-                            num_unique_familynames = len(familynames_dict.keys())
-                            # Species
-                            total_species_mentions = sum(species_dict.values())
-                            unique_species_mentions = len(species_dict.keys())
-
-                            # Plants
-                            total_plantkeyword_mentions = sum(plantkwords_dict.values())
-                            num_unique_plantkeywords = len(plantkwords_dict.keys())
-
-                            if (total_product_kword_mentions > 0) or (total_genusname_mentions > 0) or (total_familyname_mentions > 0) or (
-                                    total_plantkeyword_mentions > 0) or (total_species_mentions > 0):
+                            k_word_counts = number_of_keywords(text)
+                            # TODO: This could be stricter
+                            if any(len(k_word_counts[kword_type].keys()) > 0 for kword_type in k_word_counts):
                                 corpusid = paper['coreId']
 
                                 relevant_abstracts[corpusid] = paper['abstract']
@@ -89,14 +72,7 @@ def get_relevant_papers_from_download():
                                     language = None
 
                                 info_df = pd.DataFrame(
-                                    build_output_dict(corpusid, paper['doi'], total_product_kword_mentions, num_unique_product_kwords,
-                                                      product_kwords_dict,
-                                                      total_genusname_mentions, num_unique_genusnames, genusnames_dict, total_familyname_mentions,
-                                                      num_unique_familynames,
-                                                      familynames_dict,
-                                                      total_species_mentions, unique_species_mentions, species_dict,
-                                                      total_plantkeyword_mentions,
-                                                      num_unique_plantkeywords, plantkwords_dict, paper['title'], paper['authors'],
+                                    build_output_dict(corpusid, paper['doi'], k_word_counts, paper['title'], paper['authors'],
                                                       paper['downloadUrl'], _rel_abstract_path, _rel_text_path, language=language))
 
                                 paper_df = pd.concat([paper_df, info_df])
