@@ -1,12 +1,12 @@
 import os
 
-import dotenv
-
-dotenv.load_dotenv()
-CORE_API_KEY = os.environ['CORE_API_KEY']
-headers = {
-    'x-api-key': CORE_API_KEY,
-}
+# import dotenv
+#
+# dotenv.load_dotenv()
+# CORE_API_KEY = os.environ['CORE_API_KEY']
+# headers = {
+#     'x-api-key': CORE_API_KEY,
+# }
 
 
 def download_full_core_dataset():
