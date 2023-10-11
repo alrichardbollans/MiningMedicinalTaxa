@@ -108,8 +108,8 @@ _plant_kwords_df = pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMinin
 _plant_specific_keyword_dict = _get_keywords_from_df(_plant_kwords_df)
 _plant_specific_keyword_dict['lifeform'] = get_varied_forms(_lifeforms)
 
-final_en_keyword_dict = {'family_names': tidy_list(_family_names), 'genus_names': tidy_list(_genus_names),
-                         'species_binomials': tidy_list(_species_binomial_names)}
+final_en_keyword_dict = {'plant_family_names': tidy_list(_family_names), 'plant_genus_names': tidy_list(_genus_names),
+                         'plant_species_binomials': tidy_list(_species_binomial_names)}
 final_en_keyword_dict.update(_product_keyword_dict)
 final_en_keyword_dict.update(_plant_specific_keyword_dict)
 
