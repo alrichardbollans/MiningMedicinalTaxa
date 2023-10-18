@@ -37,7 +37,17 @@ _species_binomial_names = _all_taxa[_all_taxa[wcvp_columns['rank']] == 'Species'
 _species_binomial_names = _species_binomial_names + _pnaps + _ipni_binomials
 
 # Fungi
+_fungi_species_df = pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'FungusNames.xlsx'),
+                                  sheet_name='SpeciesNames')
+_fungi_species_binomial_names = _fungi_species_df['NAME OF FUNGUS'].dropna().unique().tolist()
 
+_fungi_genus_df = pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'FungusNames.xlsx'),
+                                sheet_name='GenusNames')
+_fungi_genus_names = _fungi_genus_df['NAME OF FUNGUS'].dropna().unique().tolist()
+
+_fungi_family_df = pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'FungusNames.xlsx'),
+                                 sheet_name='FamilyNames')
+_fungi_family_names = _fungi_family_df['NAME OF FUNGUS'].dropna().unique().tolist()
 
 ### Lifeforms
 _unclean_lifeforms = _all_taxa['lifeform_description'].dropna().unique().tolist()
@@ -82,7 +92,6 @@ def get_varied_form_of_word(given_word: str) -> List:
             if sing:
                 forms.append(sing)
 
-
     return forms
 
 
@@ -123,7 +132,10 @@ _plant_specific_keyword_dict = _get_keywords_from_df(_plant_kwords_df)
 _plant_specific_keyword_dict['lifeform'] = get_varied_forms(_lifeforms)
 
 final_en_keyword_dict = {'plant_family_names': tidy_list(_family_names), 'plant_genus_names': tidy_list(_genus_names),
-                         'plant_species_binomials': tidy_list(_species_binomial_names)}
+                         'plant_species_binomials': tidy_list(_species_binomial_names),
+                         'fungi_family_names': tidy_list(_fungi_family_names), 'fungi_genus_names': tidy_list(_fungi_genus_names),
+                         'fungi_species_binomials': tidy_list(_fungi_species_binomial_names)
+                         }
 final_en_keyword_dict.update(_product_keyword_dict)
 final_en_keyword_dict.update(_plant_specific_keyword_dict)
 final_en_keyword_dict.update(dual_product_keywords_dict)
