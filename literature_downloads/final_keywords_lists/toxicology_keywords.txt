@@ -1,5 +1,10 @@
 endotoxin
 endotoxins
+poison
+poisoning
+poisonings
+poisonous
+poisons
 toxic
 toxicities
 toxicity

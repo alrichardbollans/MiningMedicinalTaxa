@@ -4,14 +4,6 @@ druggings
 druggist
 druggists
 drugs
-ethnopharmacologies
-ethnopharmacology
-homeopath
-homeopathic
-homeopathics
-homeopathies
-homeopaths
-homeopathy
 immune
 immunes
 immunities

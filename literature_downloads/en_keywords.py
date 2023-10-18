@@ -20,8 +20,7 @@ _ipni_df = _ipni_df[_ipni_df['citation_type'] != 'miscauto']
 
 _ipni_families = _ipni_df['family'].dropna().unique().tolist()
 _ipni_genera = _ipni_df['genus'].dropna().unique().tolist()
-_ipni_binomials = _ipni_df[_ipni_df['rank']=='spec.']['full_name_without_family_and_authors'].dropna().unique().tolist()
-
+_ipni_binomials = _ipni_df[_ipni_df['rank'] == 'spec.']['full_name_without_family_and_authors'].dropna().unique().tolist()
 
 # PNAPS
 _pnaps_df = pd.read_csv(
@@ -29,13 +28,16 @@ _pnaps_df = pd.read_csv(
 _pnaps_df['simplified_names'] = _pnaps_df['non_sci_name'].apply(lambda x: ' '.join(x.split()[:2]))
 _pnaps = _pnaps_df['simplified_names'].unique().tolist()
 
-# Checklist
+# Plant Checklist
 _all_taxa = get_all_taxa()
 _genus_names = _all_taxa[wcvp_columns['genus']].dropna().unique().tolist() + _ipni_genera
 _family_names = _all_taxa[wcvp_columns['family']].dropna().unique().tolist() + _ipni_families
 _species_binomial_names = _all_taxa[_all_taxa[wcvp_columns['rank']] == 'Species'][
     wcvp_columns['name']].dropna().unique().tolist()
 _species_binomial_names = _species_binomial_names + _pnaps + _ipni_binomials
+
+# Fungi
+
 
 ### Lifeforms
 _unclean_lifeforms = _all_taxa['lifeform_description'].dropna().unique().tolist()
@@ -67,12 +69,20 @@ def get_varied_form_of_word(given_word: str) -> List:
 
     # Now get plural and singulars
     for f in forms[:]:
-        pl = inflect_p.plural(f)
-        if pl:
-            forms.append(pl)
-        sing = inflect_p.singular_noun(f)
-        if sing:
-            forms.append(sing)
+        # Fix fungi pluralisation
+        if f.endswith('fungi'):
+            forms.append(f.replace('fungi', 'fungus'))
+        elif f.endswith('fungus'):
+            forms.append(f.replace('fungus', 'fungi'))
+        else:
+            pl = inflect_p.plural(f)
+            if pl:
+                forms.append(pl)
+            sing = inflect_p.singular_noun(f)
+            if sing:
+                forms.append(sing)
+
+
     return forms
 
 
@@ -103,6 +113,10 @@ _product_keywords_df = pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantM
                                      sheet_name='Product related')
 _product_keyword_dict = _get_keywords_from_df(_product_keywords_df)
 
+_dual_product_keywords_df = pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'list_keywords.xlsx'),
+                                          sheet_name='Dual Keywords')
+dual_product_keywords_dict = _get_keywords_from_df(_dual_product_keywords_df)
+
 _plant_kwords_df = pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'list_keywords.xlsx'),
                                  sheet_name='Plant specific')
 _plant_specific_keyword_dict = _get_keywords_from_df(_plant_kwords_df)
@@ -112,6 +126,7 @@ final_en_keyword_dict = {'plant_family_names': tidy_list(_family_names), 'plant_
                          'plant_species_binomials': tidy_list(_species_binomial_names)}
 final_en_keyword_dict.update(_product_keyword_dict)
 final_en_keyword_dict.update(_plant_specific_keyword_dict)
+final_en_keyword_dict.update(dual_product_keywords_dict)
 
 for _fk in final_en_keyword_dict:
     with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', _fk + '_keywords.txt'), 'w') as f:
