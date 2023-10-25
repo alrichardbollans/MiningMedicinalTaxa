@@ -9,13 +9,16 @@ import pandas as pd
 from literature_downloads import final_en_keyword_dict, dual_product_keywords_dict
 
 query_name = 'en_keywords'
-sort_order = [_c + '_unique_total' for _c in dual_product_keywords_dict.keys()] + ['plant_species_binomials_unique_total', 'plant_family_names_unique_total', 'medicinal_unique_total', 'plants_unique_total',
-            'plant_genus_names_unique_total']
+sort_order = [_c + '_unique_total' for _c in dual_product_keywords_dict.keys()] + ['plant_species_binomials_unique_total',
+                                                                                   'plant_family_names_unique_total', 'medicinal_unique_total',
+                                                                                   'plants_unique_total',
+                                                                                   'plant_genus_names_unique_total']
 for _kwsort in sort_order:
     list_to_check = list(final_en_keyword_dict.keys())
-    if _kwsort not in [c+'_unique_total' for c in list_to_check]:
+    if _kwsort not in [c + '_unique_total' for c in list_to_check]:
         print(_kwsort)
         raise ValueError
+
 
 def get_dict_from_res(count_result: Counter, list_to_check: List[str]):
     # start_time = time.time()
@@ -41,10 +44,11 @@ def number_of_keywords(given_text: str):
     return out_dict
 
 
-def build_output_dict(corpusid, doi, keyword_counts, title, authors, url, _rel_abstract_path,
-                      _rel_text_path, language=None, journals=None, subjects=None):
-    out_dict = {'corpusid': [corpusid], 'DOI': [doi], 'language': language, 'journals': journals,
-                'subjects': subjects,
+def build_output_dict(corpusid: str, doi: str, year: int, keyword_counts: dict, title: str, authors: List[str], url: str, _rel_abstract_path: str,
+                      _rel_text_path: str, language: str = None, journals: List[str] = None, subjects: List[str] = None, topics: List[str] = None,
+                      issn: str = None):
+    out_dict = {'corpusid': [corpusid], 'DOI': [doi], 'year': year, 'language': language, 'journals': journals, 'issn': issn,
+                'subjects': subjects, 'topics': topics,
                 'title': [title], 'authors': [str(authors)], 'oaurl': [url],
                 'abstract_path': [os.path.join(_rel_abstract_path, corpusid + '.txt')],
                 'text_path': [os.path.join(_rel_text_path, corpusid + '.txt')]}

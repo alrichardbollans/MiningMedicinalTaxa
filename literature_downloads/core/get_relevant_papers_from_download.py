@@ -60,7 +60,6 @@ def get_relevant_papers_from_download(write_texts=False):
 
                         if text is not None:
                             k_word_counts = number_of_keywords(text)
-                            # TODO: This could be stricter
                             if any(len(k_word_counts[kword_type].keys()) > 0 for kword_type in k_word_counts):
                                 paper_count += 1
                                 corpusid = paper['coreId']
@@ -79,23 +78,26 @@ def get_relevant_papers_from_download(write_texts=False):
                                 except TypeError:
                                     language = None
 
-                                if len(paper['journals']) == 1:
-                                    journals = paper['journals'][0]
-                                elif len(paper['journals']) > 1:
+                                if len(paper['journals']) >= 1:
                                     journals = str(paper['journals'])
                                 else:
                                     journals = None
-                                if len(paper['subjects']) == 1:
-                                    subjects = paper['subjects'][0]
-                                elif len(paper['subjects']) > 1:
+                                if len(paper['subjects']) >= 1:
                                     subjects = str(paper['subjects'])
                                 else:
                                     subjects = None
+                                if len(paper['topics']) >= 1:
+                                    topics = str(paper['topics'])
+                                else:
+                                    topics = None
+
+                                year = paper['year']
+                                issn = paper['issn']
 
                                 info_df = pd.DataFrame(
-                                    build_output_dict(corpusid, paper['doi'], k_word_counts, paper['title'], paper['authors'],
+                                    build_output_dict(corpusid, paper['doi'], year, k_word_counts, paper['title'], paper['authors'],
                                                       paper['downloadUrl'], _rel_abstract_path, _rel_text_path, language=language, journals=journals,
-                                                      subjects=subjects))
+                                                      subjects=subjects, topics=topics, issn=issn))
 
                                 paper_df = pd.concat([paper_df, info_df])
 
