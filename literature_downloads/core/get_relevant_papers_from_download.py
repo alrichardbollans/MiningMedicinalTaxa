@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import sys
 
 import pandas as pd
@@ -24,10 +25,29 @@ for p in [core_download_path, core_text_path, core_paper_info_path, core_abstrac
         os.mkdir(p)
 
 
-def clean_title_strings(given_title: str):
+def clean_title_strings(given_title: str) -> str:
     ## Also need to fix encodings e.g. \\u27
     fixed_whitespace = ' '.join(given_title.split())
     return fixed_whitespace
+
+
+def clean_paper_text(paper: dict) -> str:
+    text = paper['fullText']
+    if text is None:
+        return None
+
+    # Split by looking for an instance of 'Reference' or 'REFERENCE' begins a line on its own (followed by any amount of whitespace and then a new line)
+    # Must use re.MULTILINE flag such that the pattern character '^' matches at the beginning of the string and at the beginning of each line (immediately following each newline)
+    ref_text_split = re.split(r"^(References|REFERENCES)\s*\n", text, 2, flags=re.MULTILINE)
+    pre_reference = ref_text_split[0]
+
+    # Split by looking for an instance of 'Supplementary material' (ignoring case) begins a line on its own (followed by any amount of whitespace and then a new line)
+    # Currently not included as sometimes this line may be near the top, and anyway may contain relevant information
+    # Could be incorporated if check the occurence is after 1/2 length of paper?
+    # suppl_text_split = re.split(r"^Supplementary material\s*\n", pre_reference, maxsplit=2, flags=re.IGNORECASE | re.MULTILINE)
+    # pre_supplementary = suppl_text_split[0]
+
+    return pre_reference
 
 
 def get_info_from_core_paper(paper: dict):
@@ -93,7 +113,7 @@ def get_relevant_papers_from_download():
                         f = sub_archive.extractfile(m)
                         lines = f.readlines()
                         paper = json.loads(lines[0])
-                        text = paper['fullText']
+                        text = clean_paper_text(paper)
 
                         if text is not None:
                             k_word_counts = number_of_keywords(text)
@@ -141,9 +161,10 @@ def save_texts_from_ids(ids: List[int]):
                         lines = f.readlines()
                         paper = json.loads(lines[0])
                         corpusid = paper['coreId']
+
                         if corpusid in ids_to_check:
                             paper_count += 1
-                            text = paper['fullText']
+                            text = clean_paper_text(paper)
                             corpusid, language, journals, subjects, topics, year, issn, doi, title, authors, url = get_info_from_core_paper(paper)
 
                             f = open(os.path.join(core_text_path, corpusid + '.txt'), 'w')
@@ -178,5 +199,5 @@ def load_texts_from_id(given_id: Union[int, str]):
 
 if __name__ == '__main__':
     # load_texts_from_id(81695610)
-    # save_texts_from_ids([81695610, 41338455])
-    get_relevant_papers_from_download()
+    save_texts_from_ids([81695610, 41338455])
+    # get_relevant_papers_from_download()
