@@ -126,10 +126,10 @@ _dual_product_keywords_df = pd.read_excel(os.path.join(scratch_path, 'MedicinalP
                                           sheet_name='Dual Keywords')
 dual_product_keywords_dict = _get_keywords_from_df(_dual_product_keywords_df)
 
-_plant_kwords_df = pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'list_keywords.xlsx'),
-                                 sheet_name='Plant specific')
-_plant_specific_keyword_dict = _get_keywords_from_df(_plant_kwords_df)
-_plant_specific_keyword_dict['lifeform'] = get_varied_forms(_lifeforms)
+_kingdom_kwords_df = pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'list_keywords.xlsx'),
+                                   sheet_name='Kingdom specific')
+_kingdom_specific_keyword_dict = _get_keywords_from_df(_kingdom_kwords_df)
+_kingdom_specific_keyword_dict['lifeform'] = get_varied_forms(_lifeforms)
 
 final_en_keyword_dict = {'plant_family_names': tidy_list(_family_names), 'plant_genus_names': tidy_list(_genus_names),
                          'plant_species_binomials': tidy_list(_species_binomial_names),
@@ -137,7 +137,7 @@ final_en_keyword_dict = {'plant_family_names': tidy_list(_family_names), 'plant_
                          'fungi_species_binomials': tidy_list(_fungi_species_binomial_names)
                          }
 final_en_keyword_dict.update(_product_keyword_dict)
-final_en_keyword_dict.update(_plant_specific_keyword_dict)
+final_en_keyword_dict.update(_kingdom_specific_keyword_dict)
 final_en_keyword_dict.update(dual_product_keywords_dict)
 
 for _fk in final_en_keyword_dict:
