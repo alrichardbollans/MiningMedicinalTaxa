@@ -31,23 +31,35 @@ def clean_title_strings(given_title: str) -> str:
     return fixed_whitespace
 
 
+def retrieve_text_before_simple_phrase(given_text: str, simple_string: str) -> str:
+    my_regex = r"^" + re.escape(simple_string) + r"\s*\n"
+    # Split by looking for an instance of given_text (ignoring case) begins a line on its own (followed by any amount of whitespace and then a new line)
+    # Must use re.MULTILINE flag such that the pattern character '^' matches at the beginning of the string and at the beginning of each line (immediately following each newline)
+    text_split = re.split(my_regex, given_text, maxsplit=1, flags=re.IGNORECASE | re.MULTILINE)
+    pre_split = text_split[0]
+    if len(text_split) > 1:
+        post_split = text_split[
+            1]  # If maxsplit is nonzero, at most maxsplit splits occur, and the remainder of the string is returned as the final element of the list
+        # if text after split point is longer than before, then revert.
+        if len(post_split) > len(pre_split):
+            pre_split = given_text
+
+    return pre_split
+
+
 def clean_paper_text(paper: dict) -> str:
     text = paper['fullText']
     if text is None:
         return None
 
-    # Split by looking for an instance of 'Reference' or 'REFERENCE' begins a line on its own (followed by any amount of whitespace and then a new line)
-    # Must use re.MULTILINE flag such that the pattern character '^' matches at the beginning of the string and at the beginning of each line (immediately following each newline)
-    ref_text_split = re.split(r"^(References|REFERENCES)\s*\n", text, 2, flags=re.MULTILINE)
-    pre_reference = ref_text_split[0]
+    # Split by looking for an instance of 'Supplementary material' (ignoring case)
+    # begins a line on its own (followed by any amount of whitespace and then a new line)
+    pre_reference = retrieve_text_before_simple_phrase(text, 'References')
+    pre_supplementary = retrieve_text_before_simple_phrase(pre_reference, 'Supplementary material')
+    pre_conflict = retrieve_text_before_simple_phrase(pre_supplementary, 'Conflict of interest')
+    pre_acknowledgement = retrieve_text_before_simple_phrase(pre_conflict, 'Acknowledgments')
 
-    # Split by looking for an instance of 'Supplementary material' (ignoring case) begins a line on its own (followed by any amount of whitespace and then a new line)
-    # Currently not included as sometimes this line may be near the top, and anyway may contain relevant information
-    # Could be incorporated if check the occurence is after 1/2 length of paper?
-    # suppl_text_split = re.split(r"^Supplementary material\s*\n", pre_reference, maxsplit=2, flags=re.IGNORECASE | re.MULTILINE)
-    # pre_supplementary = suppl_text_split[0]
-
-    return pre_reference
+    return pre_acknowledgement
 
 
 def get_info_from_core_paper(paper: dict):
@@ -84,7 +96,7 @@ def get_relevant_papers_from_download():
     paper_df = pd.DataFrame()
 
     import tarfile
-    from literature_downloads import query_name, number_of_keywords, sort_final_dataframe, build_output_dict
+    from literature_downloads import query_name, number_of_keywords, build_output_dict
 
     zipfile = 'core_2022-03-11_dataset.tar.xz'
     print('unzipping')
@@ -128,9 +140,8 @@ def get_relevant_papers_from_download():
 
                                 paper_df = pd.concat([paper_df, info_df])
 
-                out_df = sort_final_dataframe(paper_df)
-                out_df.to_csv(os.path.join(core_paper_info_path, query_name + '.csv'))
-    return out_df
+                paper_df.to_csv(os.path.join(core_paper_info_path, query_name + '.csv'))
+    return paper_df
 
 
 def save_texts_from_ids(ids: List[int]):
@@ -198,6 +209,6 @@ def load_texts_from_id(given_id: Union[int, str]):
 
 
 if __name__ == '__main__':
-    # load_texts_from_id(81695610)
-    save_texts_from_ids([81695610, 41338455])
-    # get_relevant_papers_from_download()
+    # # load_texts_from_id(81695610)
+    # save_texts_from_ids([81695610, 41338455])
+    get_relevant_papers_from_download()
