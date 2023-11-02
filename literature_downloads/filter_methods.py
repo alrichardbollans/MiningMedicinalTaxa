@@ -3,8 +3,9 @@ import string
 from collections import Counter
 from typing import List
 
-from literature_downloads import final_en_keyword_dict
+from literature_downloads import get_kword_dict
 
+final_en_keyword_dict = get_kword_dict()
 
 def get_dict_from_res(count_result: Counter, list_to_check: List[str]):
     # start_time = time.time()

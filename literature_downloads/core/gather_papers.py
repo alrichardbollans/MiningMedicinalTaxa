@@ -6,9 +6,7 @@ from typing import Union, List
 import pandas as pd
 from tqdm import tqdm
 
-# TODO: fix so that don't have to remake keywords
-sys.path.append('..')
-from core import core_paper_info_path, core_text_path, core_abstracts_path, clean_paper_text, get_info_from_core_paper
+from literature_downloads.core import core_paper_info_path, clean_paper_text, core_text_path, get_info_from_core_paper, core_abstracts_path
 
 
 def get_papers_from_query(q_name: str, sort_order: List[str], capacity: int, out_csv: str):
