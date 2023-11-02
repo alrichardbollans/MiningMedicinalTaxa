@@ -5,6 +5,8 @@ import pandas as pd
 from typing import List
 from wcvp_download import get_all_taxa, wcvp_columns
 
+query_name = 'en_medic_toxic_keywords'
+
 scratch_path = os.environ.get('SCRATCH')
 
 words_to_exclude = [_x.lower().strip() for _x in
