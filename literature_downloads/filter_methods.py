@@ -1,23 +1,9 @@
 import os
 import string
-import time
 from collections import Counter
 from typing import List
 
-import pandas as pd
-
-from literature_downloads import final_en_keyword_dict, dual_product_keywords_dict
-
-query_name = 'en_keywords'
-sort_order = [_c + '_unique_total' for _c in dual_product_keywords_dict.keys()] + ['plant_species_binomials_unique_total',
-                                                                                   'plant_family_names_unique_total', 'medicinal_unique_total',
-                                                                                   'plants_unique_total',
-                                                                                   'plant_genus_names_unique_total']
-for _kwsort in sort_order:
-    list_to_check = list(final_en_keyword_dict.keys())
-    if _kwsort not in [c + '_unique_total' for c in list_to_check]:
-        print(_kwsort)
-        raise ValueError
+from literature_downloads import final_en_keyword_dict
 
 
 def get_dict_from_res(count_result: Counter, list_to_check: List[str]):
@@ -59,14 +45,3 @@ def build_output_dict(corpusid: str, doi: str, year: int, keyword_counts: dict, 
         out_dict[k + '_unique_total'] = len(keyword_counts[k].keys())
 
     return out_dict
-
-
-def sort_final_dataframe(df: pd.DataFrame):
-    return df.sort_values(
-        by=sort_order,
-        ascending=False).reset_index(drop=True)
-
-
-def filter_final_dataframe():
-    # What should be removed and how can we sort?
-    pass
