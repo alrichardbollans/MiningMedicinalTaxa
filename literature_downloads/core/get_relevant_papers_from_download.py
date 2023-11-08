@@ -1,10 +1,15 @@
+import _lzma
 import json
+import multiprocessing
 import os
 import re
 import sys
+import tarfile
 
 import pandas as pd
-from tqdm import tqdm
+import time
+
+from literature_downloads import query_name, number_of_keywords, build_output_dict
 
 sys.path.append('../..')
 
@@ -19,9 +24,12 @@ core_text_path = os.path.join(core_download_path, 'text')
 _rel_text_path = os.path.relpath(core_text_path, scratch_path)
 
 core_paper_info_path = os.path.join(core_download_path, 'paper_info')
-for p in [core_download_path, core_text_path, core_paper_info_path, core_abstracts_path]:
+core_paper_info_query_path = os.path.join(core_paper_info_path, query_name)
+for p in [core_download_path, core_text_path, core_paper_info_path, core_abstracts_path, core_paper_info_query_path]:
     if not os.path.exists(p):
         os.mkdir(p)
+
+zipfile = 'core_2022-03-11_dataset.tar.xz'
 
 
 def clean_title_strings(given_title: str) -> str:
@@ -91,34 +99,17 @@ def get_info_from_core_paper(paper: dict):
     return corpusid, language, journals, subjects, topics, year, issn, doi, title, authors, url
 
 
-def get_relevant_papers_from_download():
-    paper_df = pd.DataFrame()
-
-    import tarfile
-    from literature_downloads import query_name, number_of_keywords, build_output_dict
-
-    zipfile = 'core_2022-03-11_dataset.tar.xz'
-    print('unzipping')
-    # TODO: Add thread pool e.g. with 32 threads for cluster
-    # for train_i, test_i in kf.split(train_data_X):
-    #     iter_args.append((test_i, train_data_X, train_data_y))
-    # with Pool(processes=32) as pool:
-    #     pool.starmap(function thats in main scope, iter_args)
+def process_tar_member(provider):
+    start_time = time.time()
+    member_df = pd.DataFrame()
     with tarfile.open(zipfile, 'r') as main_archive:
-        # This is slow but useful info. # Main archive length: 10251
-        # print(f'Main archive length: {len(main_archive.getnames())}')
-        member_count = 1
-        paper_count = 0
-        for member in main_archive:
-            # iterate over members then get all members out of these
-            print(f'Number {member_count} of main archive containing 10251')
-            member_count += 1
-            print(f'Number of papers collected: {paper_count}')
-            file_obj = main_archive.extractfile(member)
-            with tarfile.open(fileobj=file_obj, mode='r') as sub_archive:
-                # Data providers of each subarchive are here: https://core.ac.uk/data-providers
-                members = sub_archive.getmembers()
-                for i in tqdm(range(len(members))):
+        provider_file_obj = main_archive.extractfile(provider)
+        provider_name = os.path.basename(provider.name)
+
+        with tarfile.open(fileobj=provider_file_obj, mode='r') as sub_archive:
+            try:
+                members = sub_archive.getmembers()  # Get members will get all files recursively, though deeper archives will need extracting too.
+                for i in range(len(members)):
                     m = members[i]
                     if m.name.endswith('.json'):
                         f = sub_archive.extractfile(m)
@@ -129,7 +120,7 @@ def get_relevant_papers_from_download():
                         if text is not None:
                             k_word_counts = number_of_keywords(text)
                             if any(len(k_word_counts[kword_type].keys()) > 0 for kword_type in k_word_counts):
-                                paper_count += 1
+                                # paper_count += 1
                                 corpusid, language, journals, subjects, topics, year, issn, doi, title, authors, url = get_info_from_core_paper(paper)
 
                                 info_df = pd.DataFrame(
@@ -137,10 +128,34 @@ def get_relevant_papers_from_download():
                                                       url, _rel_abstract_path, _rel_text_path, language=language, journals=journals,
                                                       subjects=subjects, topics=topics, issn=issn))
 
-                                paper_df = pd.concat([paper_df, info_df])
+                                member_df = pd.concat([member_df, info_df])
+                    elif m.name.endswith('.xml'):
+                        f = sub_archive.extractfile(m)
+                        lines = f.readlines()
+                    elif '.tar' in m.name:
+                        print('Need more recursion')
+                        raise ValueError
+            except _lzma.LZMAError:
+                print(sub_archive)
 
-                paper_df.to_csv(os.path.join(core_paper_info_path, query_name + '.csv'))
-    return paper_df
+    member_df['provider_in_tar'] = provider_name
+    member_df.set_index(['corpusid'], drop=True).to_csv(os.path.join(core_paper_info_query_path, provider_name + '.csv'))
+    end_time = time.time()
+    print(f'{len(member_df)} papers collected from provider: {provider_name}. Took {round((end_time - start_time) / 60, 2)} mins')
+    return member_df
+
+
+def get_relevant_papers_from_download():
+    print('unzipping main archive')
+    # May need to make mode 'r:'
+    with tarfile.open(zipfile, 'r') as main_archive:
+        # This is slow but useful info. # Main archive length: 10251
+        # print(f'Main archive length: {len(main_archive.getnames())}')
+        # iterate over members then get all members out of these
+        # Each member is a Data provider, see here: https://core.ac.uk/data-providers
+        print('unzipped main archive')
+        with multiprocessing.Pool(multiprocessing.cpu_count()) as pool:
+            [pool.apply_async(process_tar_member, args=(member,)) for member in main_archive]
 
 
 if __name__ == '__main__':

@@ -10,16 +10,19 @@ from literature_downloads.core import core_paper_info_path, clean_paper_text, co
 
 
 def get_papers_from_query(q_name: str, sort_order: List[str], capacity: int, out_csv: str):
-    paper_info_df = pd.read_csv(os.path.join(core_paper_info_path, q_name + '.csv'), index_col=0)
+    query_dir = os.path.join(core_paper_info_path, q_name)
+    df_files = [f for f in os.listdir(query_dir) if f.endswith('.csv')]
+
+    paper_info_df = pd.concat([pd.read_csv(os.path.join(query_dir, f)) for f in df_files])
     sorted_df = paper_info_df.sort_values(
         by=sort_order,
         ascending=False).reset_index(drop=True).head(capacity)
 
-    save_texts_from_ids(sorted_df['corpusid'].values.tolist())
+    save_texts_from_ids(sorted_df['corpusid'].values.tolist(), sorted_df['provider_in_tar'].values.tolist())
     sorted_df.to_csv(out_csv)
 
 
-def save_texts_from_ids(ids: List[int]):
+def save_texts_from_ids(ids: List[int], providers: List[int]):
     ids_to_check = ids + [str(int_id) for int_id in ids]
     number_of_papers_to_check = len(ids)
     import tarfile
@@ -32,38 +35,42 @@ def save_texts_from_ids(ids: List[int]):
         member_count = 1
         paper_count = 0
         for member in main_archive:
-            # iterate over members then get all members out of these
             print(f'Number {member_count} of main archive containing 10251')
             member_count += 1
-            print(f'Number of papers collected: {paper_count}')
-            file_obj = main_archive.extractfile(member)
-            with tarfile.open(fileobj=file_obj, mode='r') as sub_archive:
-                # Data providers of each subarchive are here: https://core.ac.uk/data-providers
-                members = sub_archive.getmembers()
-                for i in tqdm(range(len(members))):
-                    m = members[i]
-                    if m.name.endswith('.json'):
-                        f = sub_archive.extractfile(m)
-                        lines = f.readlines()
-                        paper = json.loads(lines[0])
-                        corpusid = paper['coreId']
 
-                        if corpusid in ids_to_check:
-                            paper_count += 1
-                            text = clean_paper_text(paper)
-                            corpusid, language, journals, subjects, topics, year, issn, doi, title, authors, url = get_info_from_core_paper(paper)
+            # iterate over members then get all members out of these
+            provider_name = os.path.basename(member.name)
+            if provider_name in providers:
+                print(f'Searching {provider_name}')
+                file_obj = main_archive.extractfile(member)
+                with tarfile.open(fileobj=file_obj, mode='r') as sub_archive:
+                    # Data providers of each subarchive are here: https://core.ac.uk/data-providers
+                    members = sub_archive.getmembers()
+                    for i in tqdm(range(len(members))):
+                        m = members[i]
+                        if m.name.endswith('.json'):
+                            f = sub_archive.extractfile(m)
+                            lines = f.readlines()
+                            paper = json.loads(lines[0])
+                            corpusid = paper['coreId']
 
-                            f = open(os.path.join(core_text_path, corpusid + '.txt'), 'w')
-                            f.write(text)
-                            f.close()
+                            if corpusid in ids_to_check:
+                                paper_count += 1
+                                print(f'Number of papers collected: {paper_count}')
+                                text = clean_paper_text(paper)
+                                corpusid, language, journals, subjects, topics, year, issn, doi, title, authors, url = get_info_from_core_paper(paper)
 
-                            if paper['abstract'] is not None:
-                                f = open(os.path.join(core_abstracts_path, corpusid + '.txt'), 'w')
-                                f.write(paper['abstract'])
+                                f = open(os.path.join(core_text_path, corpusid + '.txt'), 'w')
+                                f.write(text)
                                 f.close()
-                            if paper_count == number_of_papers_to_check:
-                                print('All papers saved')
-                                return
+
+                                if paper['abstract'] is not None:
+                                    f = open(os.path.join(core_abstracts_path, corpusid + '.txt'), 'w')
+                                    f.write(paper['abstract'])
+                                    f.close()
+                                if paper_count == number_of_papers_to_check:
+                                    print('All papers saved')
+                                    return
 
 
 def load_texts_from_id(given_id: Union[int, str]):
