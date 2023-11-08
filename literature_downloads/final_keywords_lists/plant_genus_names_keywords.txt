@@ -40395,7 +40395,6 @@ szlachetkoa
 szlachetkoella
 szovitsia
 szowitsia
-t
 tabacina
 tabacum
 tabacus

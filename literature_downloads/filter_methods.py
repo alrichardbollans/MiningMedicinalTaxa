@@ -7,6 +7,7 @@ from literature_downloads import get_kword_dict
 
 final_en_keyword_dict = get_kword_dict()
 
+
 def get_dict_from_res(count_result: Counter, list_to_check: List[str]):
     # start_time = time.time()
     intersection = set(count_result.keys()).intersection(list_to_check)
@@ -33,8 +34,8 @@ def number_of_keywords(given_text: str):
 
 def build_output_dict(corpusid: str, doi: str, year: int, keyword_counts: dict, title: str, authors: List[str], url: str, _rel_abstract_path: str,
                       _rel_text_path: str, language: str = None, journals: List[str] = None, subjects: List[str] = None, topics: List[str] = None,
-                      issn: str = None):
-    out_dict = {'corpusid': [corpusid], 'DOI': [doi], 'year': year, 'language': language, 'journals': journals, 'issn': issn,
+                      issn: str = None, oai: str = None):
+    out_dict = {'corpusid': [corpusid], 'oai': [oai], 'DOI': [doi], 'year': year, 'language': language, 'journals': journals, 'issn': issn,
                 'subjects': subjects, 'topics': topics,
                 'title': [title], 'authors': [str(authors)], 'oaurl': [url],
                 'abstract_path': [os.path.join(_rel_abstract_path, corpusid + '.txt')],
