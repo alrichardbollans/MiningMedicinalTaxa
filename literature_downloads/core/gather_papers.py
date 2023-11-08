@@ -9,7 +9,7 @@ from tqdm import tqdm
 from literature_downloads.core import core_paper_info_path, clean_paper_text, core_text_path, get_info_from_core_paper, core_abstracts_path
 
 
-def get_papers_from_query(q_name: str, sort_order: List[str], capacity: int, out_csv: str):
+def get_papers_from_query(q_name: str, sort_order: List[str], capacity: int, out_csv: str, folder_tag:str):
     query_dir = os.path.join(core_paper_info_path, q_name)
     df_files = [f for f in os.listdir(query_dir) if f.endswith('.csv')]
 
@@ -18,17 +18,23 @@ def get_papers_from_query(q_name: str, sort_order: List[str], capacity: int, out
         by=sort_order,
         ascending=False).reset_index(drop=True).head(capacity)
 
-    save_texts_from_ids(sorted_df['corpusid'].values.tolist(), sorted_df['provider_in_tar'].values.tolist())
+    save_texts_from_ids(sorted_df['corpusid'].values.tolist(), sorted_df['tar_archive_name'].values.tolist(), folder_tag)
     sorted_df.to_csv(out_csv)
 
 
-def save_texts_from_ids(ids: List[int], providers: List[int]):
+def save_texts_from_ids(ids: List[int], providers: List[int], folder_tag: str):
     ids_to_check = ids + [str(int_id) for int_id in ids]
     number_of_papers_to_check = len(ids)
     import tarfile
 
     zipfile = 'core_2022-03-11_dataset.tar.xz'
     print('unzipping')
+
+    if not os.path.exists(os.path.join(core_text_path, folder_tag)):
+        os.mkdir(os.path.join(core_text_path, folder_tag))
+    if not os.path.exists(os.path.join(core_abstracts_path, folder_tag)):
+        os.mkdir(os.path.join(core_abstracts_path, folder_tag))
+
     with tarfile.open(zipfile, 'r') as main_archive:
         # This is slow but useful info. # Main archive length: 10251
         # print(f'Main archive length: {len(main_archive.getnames())}')
@@ -58,14 +64,14 @@ def save_texts_from_ids(ids: List[int], providers: List[int]):
                                 paper_count += 1
                                 print(f'Number of papers collected: {paper_count}')
                                 text = clean_paper_text(paper)
-                                corpusid, language, journals, subjects, topics, year, issn, doi, title, authors, url = get_info_from_core_paper(paper)
+                                corpusid, language, journals, subjects, topics, year, issn, doi, title, authors, url, oai = get_info_from_core_paper(paper)
 
-                                f = open(os.path.join(core_text_path, corpusid + '.txt'), 'w')
+                                f = open(os.path.join(core_text_path, folder_tag, corpusid + '.txt'), 'w')
                                 f.write(text)
                                 f.close()
 
                                 if paper['abstract'] is not None:
-                                    f = open(os.path.join(core_abstracts_path, corpusid + '.txt'), 'w')
+                                    f = open(os.path.join(core_abstracts_path, folder_tag, corpusid + '.txt'), 'w')
                                     f.write(paper['abstract'])
                                     f.close()
                                 if paper_count == number_of_papers_to_check:
@@ -97,8 +103,8 @@ def example():
     medicine_sort_order = ['medicinal entity_unique_total', 'medicinal_unique_total'] + kingdom_sort_order
     toxic_sort_order = ['toxicology entity_unique_total', 'toxicology_unique_total'] + kingdom_sort_order
 
-    get_papers_from_query('en_medic_toxic_keywords', medicine_sort_order, 10, os.path.join(core_paper_info_path, 'top10_medicinals.csv'))
-    get_papers_from_query('en_medic_toxic_keywords', toxic_sort_order, 10, os.path.join(core_paper_info_path, 'top10_toxics.csv'))
+    get_papers_from_query('en_medic_toxic_keywords', medicine_sort_order, 50, os.path.join(core_text_path, 'top50_medicinals.csv'), 'medicinal')
+    get_papers_from_query('en_medic_toxic_keywords', toxic_sort_order, 50, os.path.join(core_text_path, 'top50_toxics.csv'), 'toxic')
 
 
 if __name__ == '__main__':

@@ -9,9 +9,8 @@ import tarfile
 import pandas as pd
 import time
 
-from literature_downloads import query_name, number_of_keywords, build_output_dict
-
 sys.path.append('../..')
+from literature_downloads import query_name, number_of_keywords, build_output_dict
 
 scratch_path = os.environ.get('SCRATCH')
 
@@ -92,19 +91,33 @@ def get_info_from_core_paper(paper: dict):
     year = paper['year']
     issn = paper['issn']
     doi = paper['doi']
+    oai = paper['oai']
     title = clean_title_strings(paper['title'])
     authors = paper['authors']
     url = paper['downloadUrl']
+    # provider = return_provider_from_oai(paper['oai'])
+    return corpusid, language, journals, subjects, topics, year, issn, doi, title, authors, url, oai
 
-    return corpusid, language, journals, subjects, topics, year, issn, doi, title, authors, url
+
+def return_provider_from_oai(given_provider: str):
+    if given_provider is not None:
+        match = re.search(r'oai:(.+):', given_provider)
+        if match:
+            out = match.group(1)
+            return out
+        else:
+            return None
+    else:
+        return None
 
 
 def process_tar_member(provider):
     start_time = time.time()
-    member_df = pd.DataFrame()
+    provider_df = pd.DataFrame()
+    total_paper_count = 0
     with tarfile.open(zipfile, 'r') as main_archive:
         provider_file_obj = main_archive.extractfile(provider)
-        provider_name = os.path.basename(provider.name)
+        tar_archive_name = os.path.basename(provider.name)
 
         with tarfile.open(fileobj=provider_file_obj, mode='r') as sub_archive:
             try:
@@ -112,6 +125,7 @@ def process_tar_member(provider):
                 for i in range(len(members)):
                     m = members[i]
                     if m.name.endswith('.json'):
+                        total_paper_count += 1
                         f = sub_archive.extractfile(m)
                         lines = f.readlines()
                         paper = json.loads(lines[0])
@@ -120,15 +134,14 @@ def process_tar_member(provider):
                         if text is not None:
                             k_word_counts = number_of_keywords(text)
                             if any(len(k_word_counts[kword_type].keys()) > 0 for kword_type in k_word_counts):
-                                # paper_count += 1
-                                corpusid, language, journals, subjects, topics, year, issn, doi, title, authors, url = get_info_from_core_paper(paper)
+                                corpusid, language, journals, subjects, topics, year, issn, doi, title, authors, url, oai = get_info_from_core_paper(paper)
 
                                 info_df = pd.DataFrame(
                                     build_output_dict(corpusid, doi, year, k_word_counts, title, authors,
                                                       url, _rel_abstract_path, _rel_text_path, language=language, journals=journals,
-                                                      subjects=subjects, topics=topics, issn=issn))
+                                                      subjects=subjects, topics=topics, issn=issn, oai=oai))
 
-                                member_df = pd.concat([member_df, info_df])
+                                provider_df = pd.concat([provider_df, info_df])
                     elif m.name.endswith('.xml'):
                         f = sub_archive.extractfile(m)
                         lines = f.readlines()
@@ -136,13 +149,14 @@ def process_tar_member(provider):
                         print('Need more recursion')
                         raise ValueError
             except _lzma.LZMAError:
-                print(sub_archive)
+                print(f'LZMAError for: {sub_archive}')
 
-    member_df['provider_in_tar'] = provider_name
-    member_df.set_index(['corpusid'], drop=True).to_csv(os.path.join(core_paper_info_query_path, provider_name + '.csv'))
+    provider_df['tar_archive_name'] = tar_archive_name
+    provider_df.set_index(['corpusid'], drop=True).to_csv(os.path.join(core_paper_info_query_path, tar_archive_name + '.csv'))
     end_time = time.time()
-    print(f'{len(member_df)} papers collected from provider: {provider_name}. Took {round((end_time - start_time) / 60, 2)} mins')
-    return member_df
+    print(
+        f'{len(provider_df)} out of {total_paper_count} papers collected from provider: {tar_archive_name}. Took {round((end_time - start_time) / 60, 2)} mins.')
+    return provider_df
 
 
 def get_relevant_papers_from_download():
@@ -151,11 +165,15 @@ def get_relevant_papers_from_download():
     with tarfile.open(zipfile, 'r') as main_archive:
         # This is slow but useful info. # Main archive length: 10251
         # print(f'Main archive length: {len(main_archive.getnames())}')
+        # names = main_archive.getnames()
         # iterate over members then get all members out of these
         # Each member is a Data provider, see here: https://core.ac.uk/data-providers
         print('unzipped main archive')
-        with multiprocessing.Pool(multiprocessing.cpu_count()) as pool:
-            [pool.apply_async(process_tar_member, args=(member,)) for member in main_archive]
+        with multiprocessing.Pool(multiprocessing.cpu_count() - 1) as pool:
+            tasks = [pool.apply_async(process_tar_member, args=(member,)) for member in main_archive]
+            # Wait for all tasks to complete
+            for task in tasks:
+                task.get()
 
 
 if __name__ == '__main__':
