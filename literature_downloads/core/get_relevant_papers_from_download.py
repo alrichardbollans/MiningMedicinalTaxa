@@ -134,7 +134,8 @@ def process_tar_member(provider):
                         if text is not None:
                             k_word_counts = number_of_keywords(text)
                             if any(len(k_word_counts[kword_type].keys()) > 0 for kword_type in k_word_counts):
-                                corpusid, language, journals, subjects, topics, year, issn, doi, title, authors, url, oai = get_info_from_core_paper(paper)
+                                corpusid, language, journals, subjects, topics, year, issn, doi, title, authors, url, oai = get_info_from_core_paper(
+                                    paper)
 
                                 info_df = pd.DataFrame(
                                     build_output_dict(corpusid, doi, year, k_word_counts, title, authors,
@@ -151,8 +152,9 @@ def process_tar_member(provider):
             except _lzma.LZMAError:
                 print(f'LZMAError for: {sub_archive}')
 
-    provider_df['tar_archive_name'] = tar_archive_name
-    provider_df.set_index(['corpusid'], drop=True).to_csv(os.path.join(core_paper_info_query_path, tar_archive_name + '.csv'))
+    if len(provider_df.index) > 0:
+        provider_df['tar_archive_name'] = tar_archive_name
+        provider_df.set_index(['corpusid'], drop=True).to_csv(os.path.join(core_paper_info_query_path, tar_archive_name + '.csv'))
     end_time = time.time()
     print(
         f'{len(provider_df)} out of {total_paper_count} papers collected from provider: {tar_archive_name}. Took {round((end_time - start_time) / 60, 2)} mins.')
@@ -169,7 +171,7 @@ def get_relevant_papers_from_download():
         # iterate over members then get all members out of these
         # Each member is a Data provider, see here: https://core.ac.uk/data-providers
         print('unzipped main archive')
-        with multiprocessing.Pool(multiprocessing.cpu_count() - 1) as pool:
+        with multiprocessing.Pool(64) as pool:
             tasks = [pool.apply_async(process_tar_member, args=(member,)) for member in main_archive]
             # Wait for all tasks to complete
             for task in tasks:
