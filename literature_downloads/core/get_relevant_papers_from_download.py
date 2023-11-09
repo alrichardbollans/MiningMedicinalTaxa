@@ -28,13 +28,16 @@ for p in [core_download_path, core_text_path, core_paper_info_path, core_abstrac
     if not os.path.exists(p):
         os.mkdir(p)
 
-zipfile = 'core_2022-03-11_dataset.tar.xz'
+CORE_TAR_FILE = 'core_2022-03-11_dataset.tar.xz'
 
 
 def clean_title_strings(given_title: str) -> str:
     ## Also need to fix encodings e.g. \\u27
-    fixed_whitespace = ' '.join(given_title.split())
-    return fixed_whitespace
+    if given_title is not None:
+        fixed_whitespace = ' '.join(given_title.split())
+        return fixed_whitespace
+    else:
+        return given_title
 
 
 def retrieve_text_before_simple_phrase(given_text: str, simple_string: str) -> str:
@@ -115,7 +118,7 @@ def process_tar_member(provider):
     start_time = time.time()
     provider_df = pd.DataFrame()
     total_paper_count = 0
-    with tarfile.open(zipfile, 'r') as main_archive:
+    with tarfile.open(CORE_TAR_FILE, 'r') as main_archive:
         provider_file_obj = main_archive.extractfile(provider)
         tar_archive_name = os.path.basename(provider.name)
 
@@ -163,8 +166,7 @@ def process_tar_member(provider):
 
 def get_relevant_papers_from_download():
     print('unzipping main archive')
-    # May need to make mode 'r:'
-    with tarfile.open(zipfile, 'r') as main_archive:
+    with tarfile.open(CORE_TAR_FILE, 'r') as main_archive:
         # This is slow but useful info. # Main archive length: 10251
         # print(f'Main archive length: {len(main_archive.getnames())}')
         # names = main_archive.getnames()
