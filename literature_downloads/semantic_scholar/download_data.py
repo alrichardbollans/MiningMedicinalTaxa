@@ -20,13 +20,15 @@ for d in _dirs:
         os.mkdir(d)
 
 
-def get_zip_file_for_part(part: int):
+def get_zip_file_for_s2orc_part(part: int):
     return os.path.join(sem_schol_dataset_download_path, "s2orc-part" + str(part) + ".jsonl.gz")
 
 
-def get_unzipped_file_for_part(part: int):
+def get_unzipped_file_for_s2orc_part(part: int):
     return os.path.join(sem_schol_dataset_download_path, "s2orc-part" + str(part) + ".jsonl")
 
+def get_zip_file_for_sem_paper_part(part: int):
+    return os.path.join(sem_schol_dataset_download_path, "papers-part" + str(part) + ".jsonl.gz")
 
 def download_fullset():
     import requests
@@ -43,36 +45,30 @@ def download_fullset():
     print(latest_release['datasets'][2]['README'])
 
     for part in range(0, 30):
-        # Get info about the s2orc dataset
+        # Get the s2orc dataset
         s2orc = requests.get("http://api.semanticscholar.org/datasets/v1/release/latest/dataset/s2orc",
                              headers={'x-api-key': S2_API_KEY}).json()
         print(part)
         # Download the part of the dataset
         urllib.request.urlretrieve(s2orc['files'][part],
-                                   get_zip_file_for_part(part))
+                                   get_zip_file_for_s2orc_part(part))
         print(f'part {part} done')
         time.sleep(10)
 
-    # extract to file
-    # import gzip
-    # import shutil
-    #
-    # for i in [0]:  # range(0, 30):
-    #     if not os.path.exists(get_unzipped_file_for_part(i)):
-    #         zipfile = get_zip_file_for_part(i)
-    #         with gzip.open(zipfile, 'rb') as f_in:
-    #             with open(get_unzipped_file_for_part(i), 'wb') as f_out:
-    #                 shutil.copyfileobj(f_in, f_out)
+def download_metadata():
+    import requests
+    import urllib
+    for part in range(0, 30):
+        # Get info about the papers
+        # Get info about the papers dataset
+        papers = requests.get("http://api.semanticscholar.org/datasets/v1/release/latest/dataset/papers",
+                              headers={'X-API-KEY': os.getenv("S2_API_KEY")}).json()
 
-
-def check_for_subsumption_by_core():
-    # Check what's already in core and remove rest to save space, also provide a statistic for this. Actually think this will be really expensive.
-    pass
+        # Download the first part of the dataset
+        urllib.request.urlretrieve(papers['files'][part], get_zip_file_for_sem_paper_part(part))
 
 
 if __name__ == '__main__':
     # Download then check they're all there
-    download_fullset()
-    # get_relevant_papers_from_download()
-    # check_for_repetitions()
-    # check_for_subsumption_by_core()
+    # download_fullset()
+    download_metadata()
