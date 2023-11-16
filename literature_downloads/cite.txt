@@ -21,3 +21,6 @@ The Royal Botanic Gardens, Kew, Harvard University Herbaria & Libraries and Aust
 Index Fungorum
 https://www.indexfungorum.org/
 [Retrieved 18 Oct 2023].
+
+The authors acknowledge the Research/Scientific Computing teams at The James Hutton Institute and NIAB for providing computational resources and technical support for the
+“UK’s Crop Diversity Bioinformatics HPC” (BBSRC grant BB/S019669/1), use of which has contributed to the results reported within this paper.

@@ -9,7 +9,9 @@ setup(
     packages=find_packages(),
 
     install_requires=[
-        "automatchnames == 1.2.1",
+        "automatchnames == 1.2.3",
+        "pandas",
+        "tqdm",
         "openpyxl"
     ],
     # *strongly* suggested for sharing
