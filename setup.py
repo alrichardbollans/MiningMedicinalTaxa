@@ -15,7 +15,7 @@ setup(
         "openpyxl"
     ],
     # *strongly* suggested for sharing
-    version='1.0',
+    version='1.1',
     description='Collected packages for downloading corpora and extracting plant names',
     long_description=open('README.md').read(),
 )
