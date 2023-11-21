@@ -5,9 +5,12 @@ import os
 import re
 import sys
 import tarfile
+from concurrent.futures import ThreadPoolExecutor
 
 import pandas as pd
 import time
+
+from tqdm import tqdm
 
 sys.path.append('../..')
 from literature_downloads import query_name, number_of_keywords, build_output_dict
@@ -125,7 +128,7 @@ def process_tar_member(provider):
         with tarfile.open(fileobj=provider_file_obj, mode='r') as sub_archive:
             try:
                 members = sub_archive.getmembers()  # Get members will get all files recursively, though deeper archives will need extracting too.
-                for i in range(len(members)):
+                for i in tqdm(range(len(members))):
                     m = members[i]
                     if m.name.endswith('.json'):
                         total_paper_count += 1
@@ -166,6 +169,8 @@ def process_tar_member(provider):
 
 def get_relevant_papers_from_download():
     print('unzipping main archive')
+    # TODO: Fix memory usage here..
+    BATCH_SIZE = 128
     with tarfile.open(CORE_TAR_FILE, 'r') as main_archive:
         # This is slow but useful info. # Main archive length: 10251
         # print(f'Main archive length: {len(main_archive.getnames())}')
@@ -174,8 +179,20 @@ def get_relevant_papers_from_download():
         # Each member is a Data provider, see here: https://core.ac.uk/data-providers
         print('unzipped main archive')
         with multiprocessing.Pool(64) as pool:
-            tasks = [pool.apply_async(process_tar_member, args=(member,)) for member in main_archive]
-            # Wait for all tasks to complete
+            i = 0
+            for member in main_archive:
+
+                if i % BATCH_SIZE == 0:
+                    tasks = []
+                tasks.append(pool.apply_async(process_tar_member, args=(member,)))
+
+                if i % BATCH_SIZE == BATCH_SIZE - 1:
+                    for task in tasks:
+                        task.get()
+                    tasks = []
+                i += 1
+
+            # Remaining partial batch
             for task in tasks:
                 task.get()
 
