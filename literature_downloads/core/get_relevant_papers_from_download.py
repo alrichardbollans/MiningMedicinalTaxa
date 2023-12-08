@@ -124,43 +124,49 @@ def process_tar_member(provider):
     with tarfile.open(CORE_TAR_FILE, 'r') as main_archive:
         provider_file_obj = main_archive.extractfile(provider)
         tar_archive_name = os.path.basename(provider.name)
+        provider_csv = os.path.join(core_paper_info_query_path, tar_archive_name + '.csv')
+        # Check if already done. Useful for when e.g. cluster fails
+        if not os.path.isfile(provider_csv):
+            with tarfile.open(fileobj=provider_file_obj, mode='r') as sub_archive:
+                try:
+                    members = sub_archive.getmembers()  # Get members will get all files recursively, though deeper archives will need extracting too.
+                    for i in range(len(members)):
+                        m = members[i]
+                        if m.name.endswith('.json'):
+                            total_paper_count += 1
+                            f = sub_archive.extractfile(m)
+                            lines = f.readlines()
+                            paper = json.loads(lines[0])
+                            if len(lines) > 1:
+                                raise ValueError('Unexpected number of lines in archive')
+                            text = clean_paper_text(paper)
 
-        with tarfile.open(fileobj=provider_file_obj, mode='r') as sub_archive:
-            try:
-                members = sub_archive.getmembers()  # Get members will get all files recursively, though deeper archives will need extracting too.
-                for i in tqdm(range(len(members))):
-                    m = members[i]
-                    if m.name.endswith('.json'):
-                        total_paper_count += 1
-                        f = sub_archive.extractfile(m)
-                        lines = f.readlines()
-                        paper = json.loads(lines[0])
-                        text = clean_paper_text(paper)
+                            if text is not None:
+                                k_word_counts = number_of_keywords(text)
+                                if any(len(k_word_counts[kword_type]) > 0 for kword_type in k_word_counts):
+                                    corpusid, language, journals, subjects, topics, year, issn, doi, title, authors, url, oai = get_info_from_core_paper(
+                                        paper)
 
-                        if text is not None:
-                            k_word_counts = number_of_keywords(text)
-                            if any(len(k_word_counts[kword_type].keys()) > 0 for kword_type in k_word_counts):
-                                corpusid, language, journals, subjects, topics, year, issn, doi, title, authors, url, oai = get_info_from_core_paper(
-                                    paper)
+                                    info_df = pd.DataFrame(
+                                        build_output_dict(corpusid, doi, year, k_word_counts, title, authors,
+                                                          url, _rel_abstract_path, _rel_text_path, language=language, journals=journals,
+                                                          subjects=subjects, topics=topics, issn=issn, oai=oai))
 
-                                info_df = pd.DataFrame(
-                                    build_output_dict(corpusid, doi, year, k_word_counts, title, authors,
-                                                      url, _rel_abstract_path, _rel_text_path, language=language, journals=journals,
-                                                      subjects=subjects, topics=topics, issn=issn, oai=oai))
+                                    provider_df = pd.concat([provider_df, info_df])
+                        elif m.name.endswith('.xml'):
+                            f = sub_archive.extractfile(m)
+                            lines = f.readlines()
+                        elif '.tar' in m.name:
+                            print('Need more recursion')
+                            raise ValueError
+                except _lzma.LZMAError:
+                    print(f'LZMAError for: {sub_archive}')
 
-                                provider_df = pd.concat([provider_df, info_df])
-                    elif m.name.endswith('.xml'):
-                        f = sub_archive.extractfile(m)
-                        lines = f.readlines()
-                    elif '.tar' in m.name:
-                        print('Need more recursion')
-                        raise ValueError
-            except _lzma.LZMAError:
-                print(f'LZMAError for: {sub_archive}')
-
+        else:
+            print(f'Already checked: {provider_csv}')
     if len(provider_df.index) > 0:
         provider_df['tar_archive_name'] = tar_archive_name
-        provider_df.set_index(['corpusid'], drop=True).to_csv(os.path.join(core_paper_info_query_path, tar_archive_name + '.csv'))
+        provider_df.set_index(['corpusid'], drop=True).to_csv(provider_csv)
     end_time = time.time()
     print(
         f'{len(provider_df)} out of {total_paper_count} papers collected from provider: {tar_archive_name}. Took {round((end_time - start_time) / 60, 2)} mins.')
@@ -169,8 +175,6 @@ def process_tar_member(provider):
 
 def get_relevant_papers_from_download():
     print('unzipping main archive')
-    # TODO: Fix memory usage here..
-    BATCH_SIZE = 128
     with tarfile.open(CORE_TAR_FILE, 'r') as main_archive:
         # This is slow but useful info. # Main archive length: 10251
         # print(f'Main archive length: {len(main_archive.getnames())}')
@@ -178,19 +182,11 @@ def get_relevant_papers_from_download():
         # iterate over members then get all members out of these
         # Each member is a Data provider, see here: https://core.ac.uk/data-providers
         print('unzipped main archive')
-        with multiprocessing.Pool(64) as pool:
-            i = 0
+        tasks = []
+        with multiprocessing.Pool(1) as pool:
             for member in main_archive:
 
-                if i % BATCH_SIZE == 0:
-                    tasks = []
                 tasks.append(pool.apply_async(process_tar_member, args=(member,)))
-
-                if i % BATCH_SIZE == BATCH_SIZE - 1:
-                    for task in tasks:
-                        task.get()
-                    tasks = []
-                i += 1
 
             # Remaining partial batch
             for task in tasks:
