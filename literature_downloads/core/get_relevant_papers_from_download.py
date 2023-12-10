@@ -1,17 +1,13 @@
-import _lzma
 import json
 import multiprocessing
 import os
 import re
 import sys
 import tarfile
-from concurrent.futures import ThreadPoolExecutor
+import time
 
 import numpy as np
 import pandas as pd
-import time
-
-from tqdm import tqdm
 
 sys.path.append('../..')
 from literature_downloads import query_name, number_of_keywords, build_output_dict
@@ -161,7 +157,7 @@ def get_relevant_papers_from_download():
 
                     tasks = []
                     provider_outputs = []
-                    with multiprocessing.Pool(256) as pool:
+                    with multiprocessing.Pool(128) as pool:
                         for paper_member in members:
                             if paper_member.name.endswith('.json'):
                                 # Cannot serialize these objects, so get lines out before adding to process
