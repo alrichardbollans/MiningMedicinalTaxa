@@ -1,0 +1,289 @@
+Many conven-
+tional anticancer drugs including vinblastine, doxorubicin,
+campthotecin, cisplatin, and inostamycin have been reported
+to activate a caspase-3(-like) protease causing generation of
+H
+2
+O
+2
+presumably through the activation of NADPH oxidase
+that subsequently induces apoptosis in cancer cells [125]. Intriguingly, cancer cells are frequently deficient in crucial
+antioxidative enzymes, such as catalase, GPx, and SOD, and
+therefore demonstrate a high vulnerability to ROS. One
+antitumor strategy is to deliver excess oxidative stress into
+tumor cells or to target the disruption of the antioxidative
+defense systems of tumor cells.This strategy has been termed
+“oxidation therapy” in cancer treatment [126]. Several studies
+have reported that certain dietary anticancer/cancer preven-
+tive agents cause generation of ROS specifically in tumor cells,
+not in normal cells [56, 127, 128].Through adaptation, normal
+cells that are exposed to pro-oxidant chemopreventive agents
+which generate oxidative stress can acquire resistance to
+transformation via adjusting the normal redox tone of these
+cells. In contrast, transformed cells, which typically endure
+an oxidizing intracellular environment, would ultimately
+succumb due to an excess of ROS caused by the same agent. ROS and cellular redox tone are exploitable targets in cancer
+chemoprevention via the stimulation of cytoprotection in
+normal cells and/or the induction of apoptosis in malignant
+cells [129]. Dietary intake of such chemopreventive agents
+could be a prefect strategy to achieve this purpose. (a) Sulfur-Containing Compounds. Diallyl disulfide (DADS)
+and diallyltrisulfide (DATS) which are found in abun-
+dance in garlic are among the dietary factors studied
+extensively for their anticancer action involving induction
+of oxidative stress in the human body, as reviewed else-
+where [130]. The pro-oxidant and thiol-adducting activ-
+ities of these electrophilic organosulfur compounds are
+attributed to their reactive isothiocyanate (R–N=C=S) phar-
+macophore. Dietary isothiocyanates include sulforaphane,
+phenethyl isothiocyanate (PEITC), benzyl-isothiocyanate,
+and 6-methylsulfinylhexyl-isothiocyanate (Figure 6). Origi-
+nally, copper-mediated oxidative DNA damage induced by
+these isothiocyanates was considered to be carcinogenic [131];
+however, later studies demonstrated that these phytochem-
+icals exhibit preferential cytostaticity in premalignant and
+tumor cells via their pleiotropic pro-oxidant activities as
+reviewed elsewhere [106]. (b) Curcumin. Curcumin (diferuloylmethane) from turmeric,
+like isothiocyanates, is a pleiotropic redox modulator that is
+involved in multiple cellular activities as a pro/antioxidant
+and metal chelator, as recently reviewed [59]. Curcumin,
+which contains an electrophilic Michael acceptor as an active
+moiety, can also mediate strand scission of DNA in the
+presence of Cu (II) [132].The compelling anticancer activities
+of curcumin have been widely demonstrated across different
+cancer cell lines and animal systems, as a function of above-
+mentioned reactive pharmacophores targeting various cellu-
+lar molecules. Currently, the cancer preventive/therapeutic
+potential of curcumin, as single or combinatorial agent, is
+under evaluation in various clinical trials, including multiple
+myeloma, rectal cancer, metastatic colon cancer, advanced
+osteosarcoma, and pancreatic cancer [59]. (c) Sesquiterpene Lactones. The sesquiterpene lactones (SLs)
+have also gained considerable attention for their effective-
+ness in treating inflammation, headaches, infections, and
+other human diseases. SLs contain Michael acceptors that
+act as electrophiles that can increase cellular ROS and
+modulate specific redox sensitive targets in cancer cells. Artemisinin and parthenolide (Figure 6) are SL-derived
+drugs now being evaluated in cancer clinical trials [133–
+138]. Artemisinin, isolated from Artemisia annua (qinhao,
+sweet wormwood), possesses an endoperoxide bridge in the
+reactive pharmacophore that can be activated and cleaved
+by endogenous ions, leading to the generation of radical
+species and ROS through the Fenton reaction, which was
+observed to be a common mechanism underlying both the
+antimalarial and anticancer activities of the compound [139]. Parthenolide, identified from feverfew (Tanacetum parthe-
+nium), contains an electrophilic 𝛼-methylene-𝛾-lactone as
+the active moiety underlying its anticancer activity related to
+the Michael acceptor electrophile [66, 67]. Phytochemicals
+with prooxidant properties such as the SLs with Michael
+acceptor electrophiles have the potential to sensitize tumors
+in cancer treatment. For example, concurrent delivery of
+the SL parthenolide and the clinical drug paclitaxel in
+mixed micelles greatly improved the therapeutic response of
+resistant lung cancer cell lines to paclitaxel treatment [140]. In
+a mouse peritoneal dissemination model, parthenolide also
+improved the chemosensitivity of paclitaxel against gastric
+cancer through deregulation of theNF-𝜅B signalling pathway
+[141]. Nevertheless, parthenolide and dehydrocostus lactone
+can also suppress cancer cell activity through downregulating
+other molecular targets, such as mitogen-activated protein
+kinase (MAPK) and protein kinase C, and induction of c-Jun-
+N-termial kinase (JNK) [142]. In our laboratory, we identified a germacranolide SL
+deoxyelephantopin (DET) from a medicinal plant Elephan-
+topus scaber (Asteraceas) which contains an 𝛼-methylene-𝛾-
+lactone, an 𝛼,𝛽-unsaturated lactone and a methacrylate ester
+side chain [62]. DET could induce ROS in breast cancer
+cells which became the upstream stimulus for the formation
+of centrosomal ubiquitinated protein aggregates and the
+12 Oxidative Medicine and Cellular Longevity
+induction of protein carbonylation that might subsequently
+restrict cancer cell motility [63]. DET was also observed to
+activate ER stress- and JNK pathway-mediated apoptosis in
+mammary carcinoma cells triggered by ROS [62]. However,
+it is not yet clear whether DET caused oxidative DNAdamage
+through the involvement of transitionmetals. Illustration that
+the anticancer activity of DET, the same as artemisinin, is
+through its role as a pro-oxidant suggests that pro-oxidant
+intervention using SLsmay constitute a promising anticancer
+strategy. 3.4. Cancer-Associated Transition Metals in Phytochemical-
+Mediated Redox Regulation. Several essential transition met-
+als, such as zinc, iron, copper, cobalt, and manganese, are
+known to regulate various metabolic and signaling path-
+ways. For example, iron is an essential element in oxygen
+transportation [143] while copper is an essential component
+of several antioxidant enzymes [144]. In cancer cells, high
+metal ion concentration is one factor that contributes to the
+observed high base level of oxidative stress, which raises
+the possibility of killing cancer cells by dosing with metal
+supplements [145]. However, the prooxidant effect of metal
+ions is also known to initiate carcinogenesis [30], which
+raises concerns about applying metal supplementation as a
+therapeutic strategy against cancer. However, some studies
+indicated that cancer cells are prone to proliferate in envi-
+ronments with high levels of copper and iron and therefore
+suggested that these ions maybe be functionally involved in
+carcinogenesis [146, 147]. In a national cohort of the United
+States adults, serum concentrations of iron and copper were
+shown to correlate with mortality rate in cancer patients
+[148]. Due to the significant role of these metal ions in cancer
+epidemiology, their levels in different cancers were reviewed
+by Gupte and Mumper [145]. In comparison to normal
+individuals, the Cu (Zn, Se, Fe) ratios are usually higher in
+patients suffering from breast [149], cervical [150], ovarian
+[150], lung [151], prostate [152], bladder [153], and stomach
+cancer [154], and leukemia [155]. Increased levels of copper
+have also recently been correlated with poor survival in
+breast cancer patients [156].Themajormetal ion contained in
+chromatin, copper is closely associated with the DNA bases,
+especially guanine [157]. As one of the redox active metals,
+copper can directly catalyze the formation of ROS via the
+Fenton reaction and cause oxidative stress in the cells [158]. The intracellular level of transition metal ions can determine
+whether phytoantioxidants act as cytoprotective antioxidants
+or cytotoxic prooxidants. Figure 7 summarizes the current
+understanding of the interplay between phytoagents and
+transition metal ions and the antioxidant/pro-oxidant role
+switch of phytoagents in response to the level of metal ions. The level of transition metal ions determines whether a
+phytoagent ultimately functions as cytoprotective antioxidant
+or cytotoxic pro-oxidant. Under normal level of transition
+metal ions, phytoantioxidants serve as radical scavengers
+and Nrf2/ARE activators that confer a cytoprotective effect
+that can be applied in chemoprevention. When the level of
+intracellular transition metal ion is high, such as in cancer
+cells, phytoagents recycle the metal ions and thus facilitate
+ROS production through the Fenton or Fenton-like reactions. Otherwise, metal ions catalyze the cleavage of phytoagents
+and generate radical cleavage products that can cause ROS. Such a prooxidant effect further drives the redox-sensitive
+cancer cells to their antioxidant limit and leads to cytotoxicity
+that can be applied as a chemotherapeutic strategy. On
+the other hand, metal-chelating phytoagents reduce metal
+ion levels and thus block the ROS producing Fenton(-like)
+reaction and provide a cytoprotective effect. 3.4.1. Ion Chelation by Phytoagents. Increasing numbers of
+studies are evaluating the antioxidant properties of phyto-
+chemicals through assessment of their ability to chelate metal
+ions that lead to attenuated reactivity of free radicals. Water
+extracts of pine needles inhibited oxidative DNA damage
+probably due to their stronghydroxyl radical and intracellular
+ROS scavenging activity and the chelating action of the
+iron (Fe2+) ion [159]. Antioxidant activity was reported for
+lunasin, a novel preventive peptide purified from Solanum
+nigrum L, which is also found in soy, barley, and wheat. The peptide did not scavenge endogenous hydroxyl radicals
+but inhibited the Fenton reaction by chelating iron ions,
+thus protecting DNA from oxidative damage [160]. The
+antioxidant properties of phenolic compounds are clear;
+however, the contribution of metal ion chelation to the
+antioxidative effect of these compounds is not yet conclusive. One study showed that the orthodihydroxy polyphenols bear-
+ing catechol or galloyl groups exhibit strong metal chelating
+activity [161]. In the study by Andjelkovic and colleagues, the
+ability of the phenolic compounds which chelate iron was
+ranked based on iron binding constants in ascending order. Protocatechuic acid was the weakest chelator, followed by
+hydroxytyrosol, gallic acid, and caffeic acid, with chlorogenic
+acid as the strongest chelator [162]. Iron chelation by phenolic
+compounds, phytochemicals in pine needle extracts, or by
+the peptide lunasin, which subsequently inhibited DNA
+oxidation, may deserve further exploration for their potential
+in cancer prevention. The reactivity of metal ions can be attenuated indi-
+rectly through inhibition of their transportation. Dihy-
+droartemisinin was reported to decrease iron uptake and
+disturb iron homeostasis in cancer cells through down
+regulating cell-surface transferrin receptor-1, which may be
+a novel mechanism of dihydroartemisinin independent of
+oxidative damage that has been previously mentioned as
+anticancer property of artemisinin [163]. The disturbance
+of iron homeostasis in cancer cells via irondepletion by
+natural or synthetic iron chelators has recently been shown
+to inhibit tumor growth by therapeutically manipulating iron
+level [164]. The effect of phytocompounds on deregulation
+of reactive ion metabolism in tumor cells is worth further
+exploration. It is interesting to note that a prokaryotic glutathione
+analog, namely, ergothioneine, can protect cells from oxida-
+tive damage as measured by 4-HNE and partially rescue cell
+death caused by irradiation [165]. Another report showed that
+ergothioneine forms a chelation complex with copper and
+therefore protects cells from copper-induced DNA damage
+[166]. Oxidative Medicine and Cellular Longevity 13
+Phenolics, lunasin, etc. Metal ion chelation
+Block ROS production 
+through fenton reaction
+Cytoprotective effect
+Chemopreventive
+application
+Prooxidant effects
+Facilitating fenton reaction 
+by recycling of metal ions
+ROS production
+Cytotoxic effect
+Chemotherapeutic
+application
+Medium 
+level
+High levelTransition metal ions
+Normal
+level
+Cancer cells
+Phytoagents
+Antioxidant effects
+Scavenging ROS, 
+activating Nrf2/ARE, and 
+ROS clearance
+Cytoprotective effect
+Chemopreventive
+application
+Vitamin C, resveratrol, 
+quercetin, caffeic acid, and
+Phytoagents
+Vitamin C, resveratrol, 
+quercetin, caffeic acid, and
+Phytoagents
+so forth
+so forth
+so forth
+Figure 7: Role switches under different conditions—phytoagents function as both antioxidants and prooxidants in concert with transition
+metal ions. The level of transition metal ions determines whether a phyto-antioxidant ultimately functions as cytoprotective antioxidant or
+cytotoxic prooxidant. Under normal levels of transition metal ions, phytoantioxidants serve as radical scavengers and Nrf2/ARE activators
+that confer a cytoprotective effect that can be applied in chemoprevention. When the level of intracellular transition metal ion is high, such
+as in cancer cells, phytoantioxidants recycle the metal ions and thus facilitate ROS production through the Fenton or Fenton-like reactions. Otherwise,metal ions catalyze the cleavage of phytoagents and generate radical cleavage products that can cause ROS. Such a prooxidant effect
+further drives the redox-sensitive cancer cells to their antioxidant limit and leads to cytotoxicity that can be applied as a chemotherapeutic
+strategy. On the other hand, metal-chelating phytoagents reduce metal ion levels and thus block the ROS producing Fenton(-like) reaction
+and provide a cytoprotective effect. 3.4.2. Transition Metal-Mediated Prooxidant Properties of
+Phytochemicals in Anticancer Activity. Under certaincon-
+ditions, antioxidants can act as prooxidants [167]. Caffeic
+acid produces hydrogen peroxide which is activated by
+transition metals to cause oxidative DNA damage in vitro
+and in cultured human cells in the presence of Mn(II)
+or Cu(II) [168]. In another study using DNA fragments
+isolated from the human p53 gene, quercetin increased
+8-oxoG levelsignificantly in the presence of copper ions
+(Cu2+), whereas 8-oxoG formation by kaempferol or luteolin
+was insignificant [169]. These early studies raised concern
+about whether ingestion of these phytochemicals may lead
+to increased risk of cancer. Lately, rats treated with 7,12-
+dimethylbenz[a]anthracene (DMBA) have become a widely
+usedmodel formammary carcinogenesis and in recent study,
+dietary supplementation with copper alone or together with
+the grape polyphenol resveratrol was found to promote
+carcinogenesis through increased frequency of microsatellite
+instability [170]. Later, a similar result was observed in the
+DMBA-model treated with combined supplementation with
+zinc ions and resveratrol [171]. However, a different mecha-
+nism was reported for resveratrol action in another cancer
+model with different stage of carcinogenesis. Resveratrol
+and its derivatives increase copper-mediated oxidative DNA
+damage by their pro-oxidant properties coupled with higher
+apoptosis induction in human leukemia cell lines [172]. The well-known antioxidant vitamin C, for example, was
+also found to act as a pro-oxidant in vitro when mixed with
+transition metal ions [173]. In healthy humans, Rehman and
+colleagues observed an increased level of oxidative DNA
+damage after 6-week supplementation of a mixture of ferrous
+sulphate andvitamin C, suggesting that this combination
+acts as a pro-oxidant; however, a longer period of sup-
+plementation by 12 weeks did not show significant effect
+[174]. Intriguingly, catalytic therapy that involves hydroxyl
+radical induction through a redox active mixture of vitamin
+C/medicinal herbal extracts and copper has been employed
+to improve the treatment of cancer patients [175, 176]. The
+Bhat group that established a model that involves human
+peripheral lymphocytes and comet assay carried out a series
+of studies on plant-derived polyphenolic antioxidants and
+proved that the mechanism is not restricted to vitamin C
+[177–179]. The most recent finding from the group is that the
+polyphenolic compound gossypol from the cotton plant and
+its derivative apogossypolone also cause oxidative damage
+to DNA by mobilizing endogenous copper in lymphocytes
+[180].

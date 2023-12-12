@@ -1,0 +1,323 @@
+Hindawi Publishing Corporation
+Oxidative Medicine and Cellular Longevity
+Volume 2013, Article ID 925804, 22 pages
+http://dx.doi.org/10.1155/2013/925804
+Review Article
+Phytoagents for Cancer Management: Regulation of Nucleic Acid
+Oxidation, ROS, and Related Mechanisms
+Wai-Leng Lee,1 Jing-Ying Huang,2 and Lie-Fen Shyur2,3,4
+1 School of Science, Monash University Sunway Campus, Jalan Lagoon Selatan, 47500 Bandar Sunway,
+Selangor Darul Ehsan, Malaysia
+2 Agricultural Biotechnology Research Center, Academia Sinica, No. 128, Sec. 2, Academia Road, Nankang, Taipei 115, Taiwan
+3Graduate Institute of Pharmacognosy, Taipei Medical University, No. 250 Wu-Hsing Street, Taipei 110, Taiwan
+4Graduate Institute of Biotechnology, National Chung Hsing University, No. 250 Kuo Kuang Rd., Taichung 402, Taiwan
+Correspondence should be addressed to Lie-Fen Shyur; lfshyur@ccvax.sinica.edu.tw
+Received 3 May 2013; Revised 27 September 2013; Accepted 5 October 2013
+Academic Editor: Chiung-Wen Hu
+Copyright © 2013 Wai-Leng Lee et al. This is an open access article distributed under the Creative Commons Attribution License,
+which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. Accumulation of oxidized nucleic acids causes genomic instability leading to senescence, apoptosis, and tumorigenesis. Phytoagents
+are known to reduce the risk of cancer development; whether such effects are through regulating the extent of nucleic acid
+oxidation remains unclear. Here, we outlined the role of reactive oxygen species in nucleic acid oxidation as a driving force in
+cancer progression. The consequential relationship between genome instability and cancer progression highlights the importance
+of modulation of cellular redox level in cancer management. Current epidemiological and experimental evidence demonstrate
+the effects and modes of action of phytoagents in nucleic acid oxidation and provide rationales for the use of phytoagents as
+chemopreventive or therapeutic agents. Vitamins and various phytoagents antagonize carcinogen-triggered oxidative stress by
+scavenging free radicals and/or activating endogenous defence systems such as Nrf2-regulated antioxidant genes or pathways. Moreover, metal ion chelation by phytoagents helps to attenuate oxidative DNA damage caused by transition metal ions. Besides,
+the prooxidant effects of some phytoagents pose selective cytotoxicity on cancer cells and shed light on a new strategy of cancer
+therapy. The “double-edged sword” role of phytoagents as redox regulators in nucleic acid oxidation and their possible roles in
+cancer prevention or therapy are discussed in this review. 1. Nucleic Acid Oxidation as a Marker of
+Oxidative Insult by Reactive Oxygen Species
+and the Driving Force in Cancer Progression
+The integrity of the genome is of crucial importance for
+proper gene expression andDNA replication. Loss of genome
+integrity jeopardizes normal cellular physiological activities
+and leads to cellular pathological events such as senescence,
+apoptosis, and tumorigenesis [1]. Under oxidative stress,
+the level of genotoxic reactive oxygen species (ROS) is
+abnormally elevated. ROS interact with and modify the
+chemical properties of biomolecules inside the cell, which
+causes oxidative insults such as oxidation of nucleic acids,
+peroxidation of lipids [2], and denaturation of proteins [3]. Oxidative modification to DNA structure mainly occurs in
+the form of base oxidation. Guanine, which possesses the
+lowest oxidation potential of the DNA bases, is the most
+frequent target of ROS. ROS-elicited changes in biomolecules
+can be used as biomarkers to indicate the presence and
+extent of oxidative insult. 8-Oxo-7,8-dihydroguanine (8-
+oxoG), the oxidation product of the DNA base guanine
+is a well-characterized marker for oxidative stress-induced
+DNA damage [4]. Following the oxidation of a DNA base,
+genome integrity is at increased risk because the DNA repair
+process, base excision repair (BER), can increase the level
+of interrupted DNA strands resulting in indirect single-
+strand break (SSB) [5], subsequently leading to introduction
+of mismatched base pairing during translesion DNA repair
+[6]. As a consequence, genome instability and accumulation
+of mutations lead to genetic heterogeneity in cancer cells
+that drive the adaptive evolution of cancer colonies with
+survival/expansion advantages [7]. Figure 1 shows the genetic
+2 Oxidative Medicine and Cellular Longevity
+Accumulation of genetic heterogeneity
+Cancer evolution
+Tumor initiation
+Tumor promotion
+Tumor invasion
+Tumor metastasis
+PARP-mediated 
+cell death
+Genome instability,
+genome rearrangement
+Base pair mismatch,
+point mutation
+Base excision repair (BER)
+Indirect single-strand break (SSB) 
+Translesion DNA synthesis
+ROS
+Nucleic acid oxidation
+(e.g., 8-oxoG)
+SSB-activated
+PARP activity
+Translesion DNA repair
+Ca
+rc
+in
+og
+en
+es
+is
+PAR/AIF
+Restoration of 
+genome integrity
+DNA ligase III
+PCNA
+DNA polymerase 𝛽
+Figure 1: Genetic heterogeneity following nucleic acid oxidation is a major driving force of cancer progression. ROS causes the oxidation of
+DNA bases. Subsequent base excision repair (BER) introduces genetic errors during the repair process, and the accumulation of these errors
+drives cancer progression. instability and heterogeneity caused by nucleic acid oxidation
+in cancer cells which lead to carcinogenesis and cancer evolu-
+tion. During BER, indirect SSB are produced as intermediates
+after the removal of oxidized bases and their corresponding
+nucleotides. If SSB takes place at adjacent regions on both
+strands of the same chromosome, genome instability can
+ensue. Meanwhile, poly (ADP-ribose) polymerase (PARP)
+is activated after binding to SSB and consumes NAD+ to
+synthesize polyA chains which then recruit important DNA
+repair enzymes, such as DNA polymerase 𝛽 and DNA
+ligase III. PARP also induces apoptosis through increased
+poly (ADP-ribose) (PAR) levels that facilitate the release of
+apoptosis-inducing factor (AIF) frommitochondria and elicit
+apoptosis. Otherwise, depletion of NAD due to excessive
+PARP activity will further deplete the ATP pool and lead to
+cell lysis (necrosis). Proliferating cell nuclear antigen (PCNA)
+promotes the switch to a specialized DNA polymerase with a
+larger active site that tolerates damaged bases at the expense
+of sacrificing fidelity during translesion synthesis/repair. Lower fidelity increases the chance of mismatch which gives
+rise to point mutations. The accumulation of genome insta-
+bility and point mutations results in genome heterogeneity
+among cells and, chronologically, within cells. Tumor initi-
+ation is triggered by mutations that can activate oncogenes
+or silence tumor suppressor genes. Further mutations that
+give rise to gain/loss of function of genes then grant tumor
+cells the ability to resist growth control. Further gain/loss
+of function continues to drive cancer progression enabling
+tumor cells to escape layers of control and become capable
+of invasion and metastasis. Elevated levels of oxidative DNA lesions (8-oxoG) have
+been noted in various tumors, supporting the argument that
+such damage contributes to the etiology of cancer. Therefore,
+8-oxoG has been established as an important biomarker
+which is widely used to measure oxidative stress and assess
+risk of tumor initiation after exposure to various carcinogenic
+substances and pollutants [8]. In a cohort study involving
+esophageal cancer patients, more extensive oxidative damage
+to DNA as indicated by 8-oxoG levels was detected in cancer
+patients, in comparison to a healthy control group. Smoking
+habits and alcohol consumption, risk factors for esophageal
+cancer, were also correlated with the observed levels of
+oxidative DNA damage [9]. Oxidative stress-induced lipid peroxidation is also asso-
+ciated with the early stages of carcinogenesis [10]. Mal-
+ondialdehyde (MDA), the product of lipid peroxidation,
+can induce the formation of DNA adducts which leads to
+mutagenesis. In an epidemiological study of breast cancer, the
+level of the malondialdehyde-DNA adduct, 3-(2-deoxy-𝛽-D-
+erythro-pentofuranosyl) pyrimido [1,2-𝛼]purin-10(3H) one
+(M1dG), was significantly higher in breast tissue specimens
+from cancer patients than in those from healthy individuals
+[11].Therefore, other than 8-oxoG, the level ofM1dGhas been
+employed as an indicator of cancer-associated oxidative DNA
+Oxidative Medicine and Cellular Longevity 3
+ROS
+8-oxoG
+MDA + guanine
+MDA-DNA adduct
+(M1dG)
+Elevated levels of oxidative DNA 
+damage markers in cancer patients
+Malondialdehyde
+(MDA)
+DNA Lipid Protein
+DNA base 
+oxidation Lipid peroxidation
+Protein 
+carbonylation
+O
+O
+OO
+O
+H
+N
+N
+NNN
+N
+N
+N
+H
+N
+H2N
+Figure 2: Markers of oxidative DNA damage are elevated in cancer patients. ROS causes oxidative damage to biomolecules such as DNA,
+lipids, and proteins, and the resulting end products are often detrimental to normal cell physiological functions. As the result of DNA base
+oxidation, 8-oxo-guanine (8-oxoG) can serve as a biomarker of primary oxidative DNA damage.When lipids are attacked by ROS, secondary
+DNA damage arises due to malondialdehyde (MDA), the end production of lipid peroxidation that can covalently bind to guanine and form
+MDA-DNA adduct (M1dG). In human cancer patients, both 8-oxoG and M1dG are found to be elevated, suggesting a correlation between
+higher oxidative stress and cancer. damage. These markers are used as measures of antioxidant
+activity in studies that assess the chemopreventive efficacy
+of anticancer agents including phytochemicals [9, 12, 13]
+(Figure 2). 2. Sources of ROS and Cellular
+Antioxidant Defense
+ROS are genotoxic and ubiquitous. They include the super-
+oxide anion radical (O
+2
+∙−), hydrogen peroxide (H
+2
+O
+2
+), the
+hydroxyl radical (OH∙), and the nitric oxide radical (NO∙)
+[14]. For maintenance of genome integrity and normal cell
+physiological function, cells have developed strategies to
+control ROS levels. Such control is known as antioxidant
+defense [14]. Cellular redox status, the level of ROS, is the net
+result of ROS arising from various origins and the capacity
+of the cell to remove it by antioxidant defense. Many pre-
+ventive/therapeutic regimens, including those phytoagent-
+based, intervene in disease progression by fine-tuning the
+level of ROS and the corresponding antioxidant responses in
+the cell [15], and thus shifting the redox balance in favor of
+human health. Introductions of the various origins of ROS
+and cellular antioxidant defense mechanisms are outlined
+below. 2.1. Origins of ROS. Sources of ROS can be divided into three
+major categories: exogenous, endogenous, metal-catalyzed
+(Figure 3(a)). Exogenously, ROS levels are mainly increased
+by environmental and dietary factors. These factors may
+serve as prooxidants that elicit ROS directly through chem-
+ical reactions or through the inhibition of cellular anti-
+oxidant defense or as substrates or stimulators of ROS-
+producing enzymes. Environmental factors that increaseROS
+production include ultraviolet light, ionizing radiation, air
+pollutants, cigarette smoke, pesticides, and industrial solvents
+or chemicals. Dietary factors that induce ROS include food
+containing peroxidized lipids (from rotten oil), polycyclic
+aromatic hydrocarbons (PAH, from high-temperature pro-
+cessed hydrocarbon-based food), and food additives (preser-
+vatives). 4 Oxidative Medicine and Cellular Longevity
+Exogenous stimuli
+(1) Radiation
+(2) UV
+(3) Cigarette smoke
+(4) Industrial solvent
+(5) Pesticides 
+(6) Induction of inflammation
+Endogenous origins 
+through enzyme catalysis
+(1) NADPH oxidase (NOX)
+(2) Cytochrome P450 (CYP)
+(3) Lipoxygenase (LOX)
+(4) Xanthine oxidase (XO)
+(5) Mitochondrial respiratory chain
+(6) Peroxisomal fatty acid beta-oxidation
+(7) Inflammation
+(a) NADPH oxidase (NOX) 
+(b) Myeloperoxidase (MPO)
+Fenton(-like) reaction
+Transition metal ion-catalyzed
+(1) Fe(II)
+(2) Cu(I)
+(3) Co(I)
+(4) Cr(III)
+(5) Cr(IV)
+(6) Cr(V)
+(7) V(III)
+H2O2 OH∙ + OH−
+M(n) M(n + 1)
+(a)
+The first layer 
+Nonenzymatic antioxidant defense
+(a) Radical scavengers
+(1) Vit. C
+(2) Vit. E
+(3) GSH
+(4) Ubiquinol-10
+(5) Urate
+(6) Bilirubin
+(b) Metal-chelating proteins
+(1) Ferritin
+(2) Transferrin
+(3) Coeruloplasmin
+(4) Metallothionein
+The second layer
+Enzymatic antioxidant defense
+(a) Superoxide dismutase (SOD)
+(b) Catalase (CAT)
+(c) Glutathione system 
+(1) Glutathione synthetase (GSS)
+(2) Glutathione peroxidase (GPx)
+(3) Glutathione reductase (GR)
+(d) Thioredoxin system
+(1) Thioredoxin (TRX)
+(2) Thioredoxin reductase (TRR)
+(3) Peroxiredoxin (PRX)
+(e) NADPH supplying system
+(1) Glucose-6-phosphate 
+dehydrogenase (G6PD)
+(2) Others
+SOD
+Superoxide dismutase
+CAT
+Catalase
+[Glutamate-glycine] + cysteine GSHGSS
+GPx
+GR
+2GSH + X-S-S-X GSSG + 2XSHGPx
+Glutathione system
+PRX
+TRR
+TRX
+PRX
+TRX
+Thioredoxin system
+H2O2
+H2O2 2H2O + O2
+2GSH + H2O2 GSSG + 2H2O2 + O2
+2GSH + 2NADP+
+TRX-(SH)2 + X-S-S-X 2TRX-S2 + 2XSH
+2TRX-(SH)2 + 2NADP
++TRX-S2 + 2NADPH
+2PRX-(SH)22PRX-S2
+PRX-(SH)2 + XOOH PRX-S2 + 2XOH + H2O2
+PRX-(SH)2 + H2O2 PRX-S2 + 2H2O + O2
+GSSG2 + NADPH
+O2
+∙
+(b)
+Figure 3: The source and clearance of ROS. (a) Three major origins of ROS. The sources of ROS can be roughly classified into three
+major categories: exogenous, endogenous, and transition metal ion-catalyzed. Exogenous sources of ROS can elicit radical chain reactions,
+contain/produce ROS, or stimulate enzymatic ROS production. Endogenous sources of ROS include the various enzymes that produce
+ROS as by-products or as signaling mediators or as antimicrobial agents during inflammation. Many of these enzymes can be activated
+by stimulation by cytokines and growth factors, such as NOX, LOX, XO, and MPO. Some CYPs are inducible and can be upregulated by
+environmental pollutants, dietary phytocompounds, or drugs. The transition metal ion-catalyzed Fenton-reaction produces highly reactive
+hydroxyl radical from hydrogen peroxide. (b) Layers of antioxidant defense. There are several layers of antioxidant defense. Basal level
+antioxidant defenses provide buffering capacity upon ROS challenge. Radical scavengers can directly quench ROS, and metal-chelating
+proteins can block ROS generation catalyzed by the Fenton or Fenton-like reactions. Further antioxidant capacity is provided by inducible
+antioxidant enzymes that aremostly under the regulation of Nrf2/ARE signaling (see Figure 4). ROS can oxidize the thiol group of amino acid
+residues leading to intermolecular or intramolecular disulfide bond formation. These disulfide bonds that are caused by oxidation can lead
+to structural/functional alteration of proteins. These disulfide bonds can be reduced by the glutathione system and the thioredoxin system
+allowing resumption of protein function. NADPH plays an indispensable role in the recycling of glutathione and thioredoxin, and therefore
+metabolic enzymes that are involved in NADPH generation also account for antioxidant defense.

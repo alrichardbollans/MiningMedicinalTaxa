@@ -1,0 +1,338 @@
+In general, phytoagents with electrophilic groups that are
+thiol-reactive induce the most potent Nrf2 activation when
+compared based on fold of induction of Nrf2-regulated
+8 Oxidative Medicine and Cellular Longevity
+O
+O
+OH
+OH
+HO
+OH
+O
+OH
+OH
+HO
+OH
+OH
+O
+OH
+OH
+HO
+OH
+O
+O OH
+OH
+OH
+OH
+O
+O
+O
+O O
+H H
+H
+OO
+O
+O
+O
+O
+O
+O
+O
+HO
+O
+HO
+O
+OH
+OH
+OH
+H
+N C S
+O
+O
+OH
+OO
+O
+HO
+OH
+OH
+HO
+N
+C
+S
+S
+O
+S
+S
+S
+S
+S
+S
+(b) Curcuminoids
+(A) Phenolics
+Quercetin
+(a) Flavonoids
+Catechin
+Epigallocatechin gallate
+(EGCG)
+(c) Stilbenoids
+Resveratrol
+Curcumin
+Ascorbic acid (Vit. C)
+(B) Terpenes (isoprenoids)
+(a) Carotenes
+(b) Sesquiterpene lactones
+Artemisinin Parthenolide
+(C) Vitamins
+Deoxyelephantopin
+Tocopherol (Vit. E)
+Sulforaphane 
+(SFN)
+Phenethyl isothiocyanate 
+(PEITC)
+(a) Isothiocyanates
+(D) Organosulfides
+Diallyl trisulfide
+(b) Sulfides
+Diallyl sulfide
+Diallyl disulfide
+𝛽-carotene
+Figure 6: Representative phytocompoundswith redox regulation capability.There are fourmajor types of phytocompounds that canmodulate
+intracellular redox status: (A) phenolics, (B) terpenes, (C) vitamins, and (D) organosulfides. They show free radical scavenging, Nrf2/ARE
+activation, and/or facilitation of ROS production in cancer cells. NADPH: quinone reductase [72]. Some phytoagents without
+electrophilic groups could also induce Nrf2, though to a
+lesser extent. These types of phytoagents might activate Nrf2
+indirectly through modulating signaling pathways whereas
+thiol-reactive electrophiles can directly modify the redox-
+sensitive cysteine residues in theNrf2/Keap1 complex thereby
+promoting the dissociation of the complex and the nuclear
+translocation of Nrf2. (d) Attenuation of Inflammation through Inactivation. NF-𝜅B
+is the master transcription factor that governs the expression
+of many inflammation-related genes. Notably, the activation
+Oxidative Medicine and Cellular Longevity 9
+of NF-𝜅B is redox-sensitive. High endogenous ROS level
+stimulates NF-𝜅B activation, which then leads to a pro-
+inflammatory response and further exacerbates the intracel-
+lular redox status [73–77]. Such a feedback loop mediated
+by redox-sensitive NF-𝜅B activation often leads to chronic
+inflammation, one of the hallmarks of cancer. Many phytoa-
+gents exhibiting an anti-inflammatory effect have been shown
+to efficiently suppress NF-𝜅B activation. Suppression of NF-
+𝜅B can be achieved by either the aforementioned antioxidant
+actions or through direct chemical modification of NF-
+𝜅B redox-sensitive cysteine residues by phytoagents with
+electrophilic groups, such as C=O, N=C=S or organosulfide
+groups to compromise its ability to translocate to the nucleus
+and bind DNA. 3.2.2. Antioxidant Effects and Defense Systems of Selected Phy-
+toagents. Vitamins and phenolics (two well-known groups
+of antioxidants), as well as electrophilic phytocompounds,
+are used below to exemplify the latest developments in the
+evaluation of the antioxidant effects and related defense
+systems of phytocompounds with a focus on oxidative DNA
+damage as a biomarker in cancer prevention. (a) Vitamins. The ability of macronutrients and micronutri-
+ents present in fruits and vegetables to reduce the risk of can-
+cer is well known. Among these compounds, the antioxidant
+vitamins and their precursors have been extensively studied
+[15]. Vitamin C (ascorbic acid), vitamin E, and 𝛽-carotene
+are often referred to as “antioxidant vitamins.” Vitamin C
+cooperates with vitamin E to generate 𝛼-tocopherol from 𝛼-
+tocopherol radicals in membranes and lipoproteins.Through
+working along with other antioxidant enzymes, these antiox-
+idants have been suggested to reduce oxidative damage in
+humans [78], and thereby minimizing the risk of certain
+chronic diseases [79–81]. However, early epidemiological
+studies and clinical trials investigating the efficacy of these
+vitamins in affecting disease outcome concluded that there
+was insufficient evidence to link supplementation of humans
+with vitamin C, vitamin E, or 𝛽-carotene with a reduction
+in in vivo oxidative damage to lipids, proteins, or DNA
+based on the measurement of oxidative biomarkers [82]. More recent clinical trials also suggest no correlatable effect
+between individual vitamins and chemoprevention [83, 84]. Further, anticancer properties reported for different vitamins
+have been discrepant. The history of the most well-known
+antioxidant, vitamin C, in cancer treatment is controversial
+while vitamins A and E only showed dispensable effects
+in tumor elimination [85]. However, the role of vitamin
+D in cancer treatment and prevention is promising [86,
+87]. Interestingly, a large-scale, randomized, double-blind,
+placebo-controlled trial in male physicians showed that,
+compared with placebo, men taking a daily multivitamin
+had a statistically significant reduction in the incidence of
+total cancer; however, there was no significant effect on some
+specific cancer types, such as prostate cancer and colorectal
+cancer. It was therefore concluded that “daily multivitamin
+supplementation modestly but significantly reduced the risk
+of total cancer [88].”
+Recently, in a large cohort studywith 356 healthy subjects,
+dietary intake of vitamins was demonstrated to be associated
+with reduced levels ofmarkers of DNAdamage and oxidation
+(M1dG and 8-oxoG) measured in peripheral white blood
+cells. Notably, the associations were stronger in nonsmokers
+than in smokers [89]. It is important to keep in mind
+that several environmental factors can affect the antioxidant
+capacity of these vitamins. Environmental factors such as
+smoking and metal intoxication that causes excessive ROS
+burden to the body should be avoided, because antioxidant
+phytoagents can prevent de novo oxidation to nucleic acid
+but are not able to rescue or reverse oxidized nucleic acid
+caused by persistent oxidative insults from environmental
+stimulation. In another study, the protective effects of vitamin
+C and a natural phenol resveratrol on ethanol-induced oxida-
+tive DNA damage in human peripheral lymphocytes were
+investigated. Resveratrol showed significant DNA protection
+in a 24 h experiment, while the protective effect of vitamin
+C was seen in only 1 h. Both compounds were shown to
+directly scavenge hydroxyl radicals produced during ethanol
+metabolism. In addition, resveratrol inhibited dehydrogenase
+gene expression and activated the base excision repair (BER)
+system, mechanisms whichmay underlie its substantial effect
+on DNA protection. Vitamin C, however, showed no effect
+on the ethanol metabolic pathway or the BER system [90]. The antioxidant properties of vitamins in comparison to
+whole fruits and vegetables as anticancer agents are also of
+interest. The effectiveness of kiwifruit in decreasing oxidative
+DNA damage was assessed using comet assay (single-cell gel
+electrophoresis) tomeasure damage to lymphocytes collected
+from a human trial in which subjects drank kiwifruit juice. It was observed that a simple extract of kiwifruit was more
+effective than a solution of vitamin C in protecting DNA
+from damage in vitro [91]. This study demonstrated that the
+significant antioxidant activity of kiwifruit ex vivo and in vitro
+is not attributable entirely to vitamin C contained in the fruit. Instead, other components like phenolics and vitamin E may
+also contribute to the antioxidant effect of kiwi fruit extract
+[92]. These studies suggest an undetermined role of vitamin
+C present in fresh fruits, although different vitamin C content
+present in kiwifruit extractmight result in different protective
+effects. (b) Phenolics. Phenolic compounds are present in high con-
+centrations in many components of the so-called “Mediter-
+ranean diet,” including fruit and vegetables. These com-
+pounds seem to scavenge ROS, resulting in protection against
+oxidative DNA. This assumption was verified by testing the
+effect of Mediterranean plant extracts (Crepis vesicaria L,
+Origanumheracleoticum, Scandix australis L,Amaranthus sp.,
+Scolymus hispanicus L, and Thymus piperella L) on oxidative
+DNA damage induced in lymphocytes by H
+2
+O
+2
+in relation to
+their polyphenolic content using comet assay [93].This study
+revealed that the protection of DNA by phenols present in
+Mediterranean plants is only partly due to ROS scavenging
+properties. Phenols can also attenuate Fenton(-like) reac-
+tions through metal ion chelation and induce endogenous
+antioxidant defense through Nrf2 activation. Apparently,
+ROS scavenging only partially contributes to antioxidant
+10 Oxidative Medicine and Cellular Longevity
+activity of Mediterranean diet-derived phenolics or other
+phytochemicals. Their protection against oxidative DNA
+may involve other redox regulation such as upregulation of
+antioxidant enzymes in cells and attenuation of Fenton(-like)
+reaction by metal ion chelation. In the carcinogenesis of hepatocellular carcinoma (HCC),
+oxidative stress is a major predisposing condition which is
+relevant to the development and progression of the cancer. In search for a dietary chemopreventive approach for the
+lethal HCC, pomegranate, an ancient fruit has gained atten-
+tion owing to its significant antioxidant properties mainly
+contributed by the anthocyanins and ellagic acid derivatives
+[94, 95]. Pomegranate emulsion, a proprietary combination
+of aqueous phase extract and pomegranate seed oil contain-
+ing several polyphenolic compounds, mixed with octadeca-
+trienoic acids, sterols, steroids, and 𝛾-tocopherol, was found
+to prevent hepatocarcinogenesis through induction of Nrf2-
+regulated phase II xenobiotic-metabolizing genes such as
+several GST isozymes that are involved in antagonizing
+oxidative stress [96]. A similar Nrf2-mediated antioxidant
+effect was also observed in HCC rats treated with blackcur-
+rant anthocyanins [97]. Flavonoids are naturally occurring diphenylpropanoids
+that appear in animal and human cells following consump-
+tion of vegetables, fruits, and beverages such as tea and
+wine. Flavonoids can be classified into six major subgroups:
+flavonols (e.g., quercetin, kaempferol), flavones (e.g., api-
+genin, luteolin), flavanones (e.g., hesperidin, naringenin),
+flavan-3-ols (e.g., catechin, theaflavin, and gallic esters of
+catechin and theaflavins), anthocyanidins (e.g., pelargonidin,
+cyanidin), and isoflavones (e.g., genistein, daidzein). Epi-
+demiological studies suggest that dietary intake of flavonoids
+may reduce the risk of tumors of the breast, colon, lung,
+prostate, and pancreas. However, the generalizability of these
+anticancer effects remains a subject of study [98]. (c) Electrophilic Phytochemicals. Electrophilic phytochemi-
+cals, such as phenethylisothiocyanate (PEITC), sulforaphane
+(SFN), turmeric, curcumin, and EGCG, prevent oxidative
+modification and mutation of genes through activation of
+the Nrf2/Keap1 complex [45, 99–101]. These phytochemicals
+modulate Keap1-associated transcriptional regulation which
+results in up-regulation of ARE-bearing genes encoding
+phase II detoxifying enzymes and transporters that protect
+normal cells from ROS, reactive nitrogen species (RNS)
+or reactive metabolites of carcinogenic species [71]. Such
+responses are thought to represent a form of cellular adapta-
+tion to chemicals and oxidative stress that maintains cellular
+redox homeostasis [15, 99]. Therefore, the use of dietary phy-
+tochemicals to regulateNrf2-dependent antioxidant response
+to counter oxidative DNA damage has emerged as a promis-
+ing strategy for cancer prevention. Hormonal factors, especially 17ß-estradiol (E2), play a
+major role in the etiology of breast cancer where the cir-
+culating levels of E2 itself are an independent risk factor. E2 can cause both oxidative DNA damage and attenuate
+DNA repair leading to oncogenic mutagenesis [102]. In the
+liver, the metabolism of E2 to its various phase I metabo-
+lites, such as the carcinogenic 4-hydroxy estradiol (4E2),
+primarily involves the cytochrome P450 enzymes CYP1A2
+and CYP3A4 [103]. Dietary berries and their chemical con-
+stituents are known for their cancer preventive potential,
+which were recently shown to affect the enzymes involved in
+carcinogen metabolism in mouse liver [104] and significantly
+reduced hepatic oxidative DNA damage, indicated by the
+level of 8-oxoG and other polar adducts validated by P32-
+postlabeling experiments. Compared to crude berry juices,
+ellagic acid, one of the bioactive components found in berries,
+showed more elimination of oxidative DNA adducts induced
+by redox cycling of 4E2 catalyzed by copper chloride in vitro
+[105]. 3.3. Phytocompounds as Prooxidative Agents for Cancer Ther-
+apy. Prooxidant phytoagents, on the other hand, are particu-
+larly effective in treating aggressive tumors with abnormally
+radical-reactive cellular environments. They act by tipping
+the limit of oxidative stress that can be tolerated by tumor
+cells over a limit, thus triggering apoptosis and cell death
+[106]. Although pro-oxidant effects are observed after treat-
+ment with certain phytoagents, generally, phytoagents do
+not produce ROS directly. Instead, their prooxidant effect
+is highly dependent on the original redox status of the
+cell which determines sensitivity to cytotoxicity mediated
+by phytoagents. The basal redox levels of cancer cells are
+different from those of normal cells. Higher levels of free form
+metal ions and higher levels of endogenous ROS production
+in cancer cells sensitizes them to phytoagent-mediated proox-
+idant cytotoxicity [30, 107, 108]. In this section, we elaborate
+on how phytoagents act as prooxidants to selectively kill
+cancer cells and their effects in cancer chemotherapy. 3.3.1. Major Prooxidant Mechanisms of Action of Phytoagents
+(a) Promotion of Fenton(-Like) Reactions byCatalyzing Redox-
+Cycling of Metal Ions. Phytoagents with strong reducing
+capacity can reduce not only ROS but also metal ions. Under normal physiological conditions, most metal ions
+are complexed with proteins and few exist in free form. However, in the presence of abundant free form metal ions,
+phytoagents catalyze Fenton(-like) reactions that produce
+injurious hydroxyl radicals [29, 109]. Notably, cancer cells
+develop abnormally high concentrations of metal ions due
+to overexpression of the transferrin receptor [110, 111]. When
+excessive concentrations of free form metal ions exist, clas-
+sical antioxidant phytoagents catalyze the redox cycling of
+metal ions by reducing their oxidized form. As a result, a
+burst of hydroxyl free radical production ensues and the
+phytoagents become pro-oxidants. (b) Basal ROS Generation through Glutathione Depletion by
+Electrophiles. Phytoagents with electrophilic groups can form
+covalent bonds with cysteine resides of proteins. Glutathione,
+the most abundant cysteine-containing peptide, thus can
+be rapidly depleted due to adduct formation with elec-
+trophilic phytoagents [112–115]. Upon glutathione depletion,
+the buffering capacity of ROS is attenuated so that the
+basal ROS production is revealed. Therefore, electrophilic
+Oxidative Medicine and Cellular Longevity 11
+phytoagents exhibit pronounced pro-oxidant effect in cancer
+cells with high ROS production and push cancer cells over
+the tolerable limit of ROS. In contrast, the same dosage
+of phytoagents produces a negligible pro-oxidant effect in
+normal cells with low basal ROS production and boosts
+antioxidant response by Nrf2 activation [71, 100, 116–121]. 3.3.2. Prooxidant Effects and Defense Systems of Selected
+Phytoagents. ROS and cellular oxidative stress have long
+been associated with cancer [122]. Hypoxic condition, that
+is, low ambient oxygen pressure, is well described in cancer
+cells, particularly in the central area of the tumor nodule
+or mass [123]. These cancer cells act more like anaerobic
+bacteria, showing low levels of mitochondrial oxidative phos-
+phorylation, and generally survive through the generation of
+ATP in an oxygen-independent manner [124].

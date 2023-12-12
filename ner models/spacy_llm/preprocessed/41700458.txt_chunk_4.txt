@@ -1,0 +1,220 @@
+Although the reported mechanism was mainly the
+result obtained from lymphocytes; nevertheless, it could
+14 Oxidative Medicine and Cellular Longevity
+PAPA
+PA
+PA
+PARP
+Protein denaturation
+Protein carboxylation
+Sulfhydrate disulfide bond
+TRX
+GPx
+PRX
+GPx
+PRX
+Lipid peroxidation
+MDA
+Oxidative DNA damage
+8-oxoG
+Indirect SSB
+Mutation
+BER
+Translesion repair
+Cell death
+Genome instability
+Mutation
+PCNA
+Translesion 
+DNA synthesis
+GPx
+GR
+TRR
+TRX
+PRX
+GSS
+GSH
+GSH GSSG
+CATSOD
+Fenton reaction
+GPx
+OncogenesisPA
+PA
+Nrf2/ARE
+O2 + e
+∙− + 2 2H2O2 2H2O2 + e
+−
+Fe2+
+Fe3+
+PA Phytoagents
+Prooxidant role
+Antioxidant role
+Inhibition
+∙OH + OH−
+H+ O + O2
+Figure 8: Summary of mechanisms of action of phytoagents in chemoprevention and chemotherapeutics through modulating oxidative
+stress. In the presence of ferrous ions (or other transition metal ions), phytoagents recycle the metal ion and thus promote the Fenton
+reaction that generates the highly reactive hydroxyl radical from hydrogen peroxide. Such prooxidant effects of phytoagents in the presence
+of metal ion can overwrite their cytoprotective roles because the production of ROS may be faster than the induction of antioxidant defense. Hydrogen peroxide imposes oxidative damage on biomolecules, such as proteins, lipids, and DNA, and leads to protein carbonylation, lipid
+peroxidation, and DNA base oxidation, which can be prevented by phytoantioxidants. Phytoantioxidants can activate Nrf2/ARE signaling
+and thus transcriptionally upregulate a panel of antioxidant genes that can provide further antioxidant capacity. Glutathione synthetase (GSS)
+can raise the level of glutathione (GSH) which can reduce oxidative damage by scavenging hydroxyl radicals, which otherwise cause oxidative
+DNA damage and increase the chance of point mutation and genome instability during the DNA repair process while glutathione reductase
+(GR) recycles the oxidized form of GSH and maintains the level of the reduced form of GSH. Glutathione peroxidase (GPx), thioredoxin
+(TRX), and peroxiredoxin (PRX) can prevent oxidative insults on proteins and lipids. imply the anticancer property of polyphenols based on
+the abundant copper detected in different types of tumors
+[145, 153]. The enhanced electron transfer between transi-
+tion metals and phytochemicals probably occurs in cancer
+cells with higher levels of copper ions, which may induce
+ROS generation subsequently leading to DNA damage [178,
+180]. However, the mixture of a polyphenol and a transition
+metal was shown to promote tumor growth in mice with
+carcinogen induction that mimics the process of cancer
+initiation [170, 171]. These studies raise concerns about the
+potential carcinogenic activities of phytoagents. It is not
+clear whether the mixture of antioxidant phytochemical and
+transition metal resembles the oxidative stress that could
+possibly initiate tumorigenesis in normal cells, but that such
+a prooxidant effect drives the redox-sensitive cancer cells
+to their antioxidant limit and leads to cytotoxicity that has
+been applied in catalytic therapy.More studies are required to
+clarify the interaction of phytoagents and redox active metals
+as their oxidative potential may initiate tumors in a healthy
+individual. 4. Future Prospects
+This review provides updated and integrative information
+about the regulation of nucleic acid oxidation by phytoagents
+in cancer. Animalmodels and human epidemiological studies
+have revealed that phytochemicals prevent carcinogenesis
+through direct ROS scavenging or induction of cellular
+antioxidant defense systems that consist of detoxifying
+enzymes, defense machinery mediated by Nrf2-antioxidative
+stress, and inhibiting inflammatory signaling pathways that
+together protect cells fromDNAdamage by ROS and reactive
+metabolites of carcinogens [42, 57, 58] (Figure 8). Inves-
+tigation of oxidative modulation of proteins and lipids as
+well as DNA by phytochemicals provides a comprehensive
+picture of their functions as redox regulators in cancer. In
+general, antioxidant phytoagents are potentially useful in
+cancer prevention because they can protect healthy cells from
+oxidative DNA damage through radical scavenging, antiox-
+idant defense system stimulation, and metal ion chelation;
+prooxidant phytoagents, on the other hand, are particu-
+larly effective in treating aggressive tumors with abnormally
+Oxidative Medicine and Cellular Longevity 15
+radical-reactive cellular environments by exceeding the limit
+of oxidative stress that can be tolerated by tumor cells. Cancer
+cells, in general, have a higher basal redox level due to either
+defects in antioxidant defense or increased production of
+ROS during oncogenic transformation [122, 126]. Therefore,
+when challenged with similar quantities of ROS, cancer cells
+fail to buffer/clear excessive ROS and cell death ensues. In
+contrast, normal cells with lower redox levels are capable
+of buffering/clearing ROS by inducible antioxidant defense
+regulated by Nrf2/ARE signaling and are thus protected from
+cell death. Recently, dietary levels of phytochemicals have
+been suggested to trigger induction of low levels of oxidative
+stress that may “prime” cellular antioxidant defense systems
+to resist higher level of oxidative insults, thus offering greater
+protection against carcinogenic insult [60]. However, several studies have also hinted at a “dark”
+side of these cell-protective mechanisms. For example, the
+cytotoxicity of the anticancer drug platinum was attenuated
+by base excision repair of ROS-induced formation of 8-oxoG,
+indicating that repairing genotoxic damage could contribute
+to multidrug resistance of cancer cells [181]. Restoration of
+glutathione level by overexpression of 𝛾-glutamylcysteine
+synthetase was found to prevent DNA damage and subse-
+quent apoptosis caused by genotoxic agents in a resistant
+human ovarian carcinoma cell line [182]. Overexpression of
+catalase was found to cause drug resistance in breast cancer
+cell lines in chemotherapy [183]. These findings imply that
+alteration of the expression of antioxidant enzymes could be
+a mechanism through which cancer-cell resistance to redox-
+based chemotherapeutic agents is promoted. On the other
+hand, several phytochemicals have been indicated to upreg-
+ulate the Nrf2 pathway which stimulates the defense system
+and leads to cancer prevention. However, overexpression of
+Nrf2 and its downstream genes was also observed in several
+cancer cell lines and human tumors, rendering cancer cells
+at an advantage for survival and unlimited proliferation. In
+addition, increased Nrf2 activity was found in some resistant
+cancer cells; in other words, to overcome chemoresistance in
+tumors, the Nrf2 pathway has to be deregulated [184]. There-
+fore, sophisticated design is necessary and caution has to be
+taken when administrating and handling Nrf2-dependent (as
+discussed above) phytochemicals in cancer patients, given
+that transformed cancer cells that are “overprotected” by
+antioxidants could possibly develop drug resistance. Nrf2 is one of the key players in phytoagent-mediated
+antioxidant defensewhose activation confers a chemopreven-
+tive effect. However, recent studies indicate that Nrf2 itself
+also plays a double-bladed-sword role in cancer manage-
+ment [185]. On one hand, Nrf2 orchestrates gene expression
+that protects cells from oxidative damage and detoxifies
+xenobiotics; on the other hand, the same effects confer
+chemoresistance to cancer cells. It is important to discern
+when and how tomanipulate Nrf2 and so we canmake use of
+its advantages while minimizing potential disadvantages.The
+major negative sides of Nrf2 activation include promoting
+bioactivation of xenobiotics whose glucuronide conjugation
+form is genotoxic and forms adducts with DNA [186–188],
+neutralizing the chemotherapeutic effects in which oxidative
+stress plays a significant role in mediating cytotoxicity to
+cancer cells, and facilitating drug excretion from cell through
+increasing the expression levels ofmultidrug resistant pumps. Thereby, to minimize potential disadvantages, the use of
+phytoagents as Nrf2 activators for chemoprevention should
+carefully avoid coadministration of drugs that are bioacti-
+vated by Nrf2-regulated phase II enzyme processing. On
+the other hand, for pro-oxidant cancer chemotherapy, Nrf2
+activation is deemed as a side-effect and should be suppressed
+by coadministration of Nrf2 inhibitor [185]. Still, more future
+studies are required to confirm these points and thus provide
+a more accurate prediction, and therefore application, of
+phytoagents in cancer management. For phytochemicals that function as both antioxidants
+and prooxidants, further characterization of the factors that
+determine the transition from antioxidative to prooxidative
+effects in the biosystem is essential. One contributing factor
+is the presence of transition metals. In addition, the doses of
+phytochemicals used in each treatment at different timesmay
+be crucial. In this regard, we propose some considerations
+on context-dependent, dual function of phytoagents thatmay
+help to understand and to predict the chemotherapeutic role
+of phytoagents. By comparing normal and cancer-bearing
+individuals, we know that the oxidative DNAmarker 8-oxoG
+correlates well with basal redox level [8, 189]. Cancer cells
+with higher basal redox level demonstrated elevated levels of
+8-oxoG, whereas normal cells had lower levels of basal redox
+level and 8-oxoG. The overexpression of transferrin receptor
+in cancer cells increased intracellular level of ferrous ions
+and, presumably, increased the rate of the Fenton reaction. It can be assumed that high levels of ferrous ions in cancer
+cells switch the functions of phyto-antioxidants to those of
+pro-oxidants resulting in further elevation of ROS level in
+cancer cells but not in normal cells, and the selective killing of
+cancer cells. More studies are required to determine the con-
+centration threshold of metal ions that switche phytoagents
+to their prooxidant roles, so that potential chemotherapeutic
+applications can be better characterized. In summary, two
+main points form the base of the concept of the context-
+dependent dual role of phytoagents. One is the level of
+intracellular level of transition metal ions and the other is
+the basal redox level. The higher the two, the more likely
+the agent to produce a pro-oxidant effect, whereas the lower
+the two, the more likely the agent to produce an antioxidant
+effect. Continued rigorous research to identifymolecular targets
+and conduct human studies with bioactive phytochemicals
+are important to provide potential alternatives or novel
+approaches for plant-based cancer prevention or therapy. It is
+likely that the anticancer properties of phytochemicals result
+frommodulation of a number of molecular mechanisms that
+regulate different stages of carcinogenesis. In this regard,
+increased antioxidant strength may be important prior to
+dysregulation of signaling pathways during tumorigenesis,
+whereas prooxidant cytotoxicity may be critical in eliminat-
+ing transformed tumor cells that exhibit dysregulated redox
+balance and metal ion absorption. In conclusion, careful
+dose-response and stage-dependent studies that compare
+enhancement of antioxidant capacity and induction of oxida-
+tive stress by phytochemicals are essential to clarify when
+16 Oxidative Medicine and Cellular Longevity
+and to what extent these phytoagents can be used in cancer
+prevention or therapy. Authors’ Contribution
+Wai-Leng Lee and Jing-Ying Huang contributed equally to
+this paper as the co-first authors.

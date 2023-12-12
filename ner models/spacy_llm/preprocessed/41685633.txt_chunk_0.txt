@@ -1,0 +1,326 @@
+Determination of Mineral Composition and Heavy Metal
+Content of Some Nutraceutically Valued Plant Products
+Rajeev Bhat & K. Kiran & A. B. Arun & A. A. Karim
+Received: 1 July 2009 /Accepted: 24 August 2009 /Published online: 16 September 2009
+# Springer Science + Business Media, LLC 2009
+Abstract Minerals and heavy metal concentrations of 23
+plants (arial parts, leaves, bark, stem, root, rhizome, dried
+berries, seeds) possessing health-promoting effects and
+used in indigenous medicines (as medicinal food) were
+determined using inductively coupled plasma atomic
+spectrometry. Vital essential minerals and heavy metals
+were present in all the samples analyzed. The majority of
+the plant materials were rich in some of the essential
+minerals like Na, K, Ca, Fe, Mg, Cu, Mn, and Zn, which
+are known to be beneficial for health. The plant material of
+Vitiveria zizinalis had highest concentration of toxic heavy
+metals, including arsenic (53.1 mg/100 g), chromium
+(6.74 mg/100 g), cobalt (10.2 mg/100 g), mercury
+(3.6 mg/100 g), and nickel (3.28 mg/100 g). Results of
+the present study provide vital data on the availability of
+some essential minerals, which can be useful to provide
+dietary information for designing value-added foods and for
+food biofortification. Apart from this, data on the contam-
+inant levels of heavy metals highlights the necessity on the
+quality and safety concerns about their use. Keywords Minerals . HeavyMetals . Nutraceuticals . Quality . Safety
+Introduction
+Plants and their products have always played a substantial
+role in human welfare by satisfying various essential needs
+ranging from food to medicines. Currently, functional foods
+or the nutraceuticals of plant origin have gained in
+popularity and constitute a major share of the health care
+market (Bhat and Sridhar 2008; Bhat and Karim 2009). Today, consumers are quite practical and choosy in their
+approach to diet; they are interested in incorporating high
+nutrient levels with adequate amount of essential minerals
+into their normal diet, preferably with sources from plant
+origin. The expansion of the mineral supplement industry is
+a direct indication of the gaining importance of minerals to
+consumers. In this regard, interest has grown in finding
+traditionally consumed plant products (e.g. herbs, spices)
+that might not only have culinary and medicinal properties
+but that also are abundant in essential micronutrients. Most
+of the minerals, even at threshold levels, contribute
+significantly to normal growth and play a pivotal role in
+biochemical functions and essential enzyme systems. Plant products play a significant role in traditional
+medicine systems, and the majority of consumers have the
+misconception that these products are inherently safe for
+consumption. However, there is concern among researchers
+that plants might accumulate heavy metals at significantly
+high levels when grown in polluted soil (Kalǎc and
+Svoboda 2000). If true, this will reflect the failure of good
+agricultural and manufacturing practices and quality assur-
+ance. Purity issues of plant-based drugs are also of high
+concern (Mazzanti et al. 2008). Hence, studying the
+R. Bhat (*) :A. A. Karim
+Food Technology Division, School of Industrial Technology,
+Universiti Sains Malaysia,
+11800 Penang, Malaysia
+e-mail: rajeevbhat@usm.my
+K. Kiran
+Indian Forensic Laboratory,
+Madiwala,
+Bangalore 560 068, India
+A. B. Arun
+College of Agriculture and Natural Resources,
+Department of Soil Environmental Science,
+National Chung Hsing University,
+250 Kuo-Khang Road,
+Taichung, Taiwan
+Food Anal. Methods (2010) 3:181–187
+DOI 10.1007/s12161-009-9107-y
+presence of unwanted heavy metals and their concentrations
+in plant species used as traditional medicines and recom-
+mended to be incorporated in the normal food is a
+necessity. Of late, numerous efforts have been made to determine
+the mineral and heavy metal contents of herbal, medicinal,
+and aromatic plants, vegetables, and even wines from
+various parts of the world (Aberoumand and Deokule 2009;
+Galgano et al. 2008; Lavilla et al. 1999; Miller-Cebert et al. 2009; Tuzen et al. 2007). Trace elements and heavy metals
+have certain health benefits at lower concentrations, but at
+higher levels, they can be toxic and pose health risks
+(Schumacher et al. 1991); thus, it is important to determine
+the levels of these compounds in common, popular, and
+widely used herbal plants (or as medicinal foods). Detection of mineral and heavy metal concentrations in
+various foods has been conducted mainly using atomic
+absorption spectrophotometry (AAS) with flame atomiza-
+tion and a graphite furnace. However, other alternative,
+more reliable, and accurate methods are available, such as:
+inductively coupled plasma mass spectrometry, neutron
+activation analysis, and X-ray fluorescence methods
+(Knapp 1991). In this study, inductively coupled plasma
+optical emission spectrometry (ICP-OES) was used as this
+is a multi-element technique which allows fast and accurate
+analysis of nearly 75 elements of the periodic table. The major objective of this study was to evaluate and
+provide baseline information on the mineral composition
+and heavy metal contents of some popular and commer-
+cially valuable plants from the Indian market that possess
+high nutraceutical value. If at least a few of the plants were
+found to have high mineral contents, they might have the
+potential to be used for biofortification and development of
+new food products. Materials and Methods
+Sample Collection and Identification
+Certain common and popular plant materials that have
+therapeutic and nutraceutical value and are used in
+indigenous ayurvedic medicines were purchased from a
+leading local market dealer (from Mysore, India). The
+samples purchased were freshly harvested ones (less than
+2 weeks) with no apparent physical damage. The materials
+(a total of 23 plants consisting of arial parts, leaves, bark,
+stem, root, rhizome, dried berries, seeds) were air dried at
+room temperature (25±1°C) and ground into fine powder
+in a mortar and pestle to avoid chromium contamination
+from stainless steel utensils. The powder was placed
+temporarily in air-tight polyethylene pouches until further
+analysis. The identity of the plant material was confirmed
+with assistance from local practitioners and botanists. Table 1 lists the common name, scientific name, family,
+parts used, and the medicinal/health-promoting effects of
+the plant materials used in this study. Preparation and Analysis
+The minerals and heavy metal [aluminum (Al), arsenic
+(As), barium (Ba), calcium (Ca), cadmium (Cd), chromium
+(Cr), cobalt (Co), copper (Cu), iron (Fe), lead (Pb),
+magnesium (Mg), manganese (Mn), molybdenum (Mo),
+mercury (Hg), potassium (K), sodium (Na), nickel (Ni), and
+zinc (Zn)] contents of the powdered samples were deter-
+mined using the AOAC (1990) method. Briefly, a known
+amount of the sample was digested with a mixture of
+concentrated nitric acid, sulfuric acid, and perchloric acid
+(10:0.5:2, v/v), and the analysis was conducted using the
+ICP-OES (Varian Inc., Walnut Creek, CA, USA). Table 2
+lists the conditions and parameters used. All the glassware
+were cleaned by soaking overnight in a 10% nitric acid
+solution and then rinsing three times with deionized water. Statistical Analysis
+Analysis of minerals and heavy metals were performed in
+replicates, and data are presented as mean±SD (n=3) with
+one-way analysis of variance (significance level at P<0.05)
+was performed with statistical software (ORIGIN®, version
+6.0, Microcal Software Inc., Northampton, MA). Results and Discussion
+Table 3 depicts the mineral and heavy metal concentrations
+of the samples analyzed in this study. Values varied widely
+among samples, but in general, most samples were rich in
+the following essential minerals: Cu, Fe, K, Mg, Mn, Na,
+and Zn. These minerals serve as structural components of
+tissues, function in cellular and basal metabolism, and help
+maintain water and acid–base balance (Smith 1988). The
+abundances of K, Mg, and Ca agree with earlier data from
+many of the plant specimens (Lavilla et al. 1999). Artemisia vulgaris had the highest levels of Ca
+(3,441.8 mg/100 g), whereas Annona squamosa had the
+lowest (3.72 mg/100 g). Ca is a major component of bone,
+assists in tooth development, helps regulate endo- and exo-
+enzymes, and plays a significant role in regulating blood
+pressure (Brody 1994). Using plant-based Ca as a nutri-
+tional supplement might be advantageous for consumers
+who are allergic to animal-based food sources or who
+practice strict vegetarianism. Cu was the highest in Berberis aristata (134.96 mg/100 g)
+and lowest in Sida cordifolia (0.05 mg/100 g). Vitiveria
+182 Food Anal. Methods (2010) 3:181–187
+Table 1 Plants and their parts used in the present studya
+Botanical name Common/English
+name
+Family Parts
+used
+Therapeutic uses
+Anethum sowa Kurz. Sowa/dill/Indian
+dill
+Umbelliferae Seed Appetizer/carminative/used to treat colic or gas in
+children
+Aegle marmelos (Linn). Correa. ex
+Roxb. Stone apple Rutaceae Bark Astringent and antidysenteric, used to treat cough,
+acute gonorrhea dysentery, diarrhea, cancers,
+syphilitic affections, hypoglycemic activity ( in
+albino rats)
+Annona squamosa L. Sugar-apple/
+sweetsop/custard
+apple
+Annonaceae Arial part
+(leaves,
+twigs)
+Cold remedy and to clarify urine/leaves are used
+for wound cleaning/also used to treat diarrhea
+Artemisia vulgaris L. Asian mugwort/
+common
+wormwood
+Asteraceae Arial
+parts
+Used in treating fatigue and to stimulate the
+nervous system (nervine and emmenagogue),
+have diuretic and diaphoretic action
+Bacopa monnieri L. Brahmi/water
+hyssop/herb-of-
+grace
+Scrophulariaceae Arial
+parts
+Memory enhancing/relieves anxiety, stress and
+depression/longevity enhancer
+Berberis aristata DC. Indian berberi/tree
+turmeric
+Berberidaceae Dried
+stem
+Blood purifier/antiperiodic and diaphoretic, anti-
+inflammatory activity
+Chlorophytum borivilianum Sant. and Fernandes
+Safed Musli/Safed
+Moosli
+Liliaceae Root Aphrodisiac, tonic, pain reliever
+Decalepis hamiltonii Wight and
+Arn. Swallowroot Asclepiadaceae Root Health drink/appetizer possess rich antioxidant
+and antifungal activity
+Embelia ribes Burm.f. False black
+pepper, false
+pepper/vidang
+Myrsinaceae Fruit
+(dried
+berries)
+Used to treat worm infection, as carminative,
+anthelmintic, vermifuge, edema, fever, anorexia,
+urinary calculi, polyuria, fistula, pain and in
+vomiting
+Hemidesmus indicus R.Br. Hemidesmus/
+Indian
+sarsaparilla
+Asclepiadaceae Root Used to treat polyuria, hemorrhage, leprosy, blood
+disorders, anemia, jaundice, antibacterial and
+antilithic activity
+Momordica charantia Linn. Bitter melon or
+bitter gourd
+Cucurbitaceae Arial
+parts
+Blood sugar support/used in diabetes
+Piper longum Linn. Dried Pepper/
+Pepper
+Piperaceae Fruit Appetizer and carminative agent, stimulates the
+appetite and dispels gas from the intestines, used
+to treat respiratory tract diseases like cough
+asthma, bronchitis
+Picrorhiza Kurrooa Royle ex
+Benth
+Picrorhiza/Gentian Scrophulariaceae Dried
+rhizomes
+Used to treat viral hepatitis, antiasthmatic, anti-
+inflammatory activity
+Rauvolfia serpentina Benth. Ex
+kurz
+Serpentine wood/
+sarpagandha/
+Indian snakeroot
+Apocynaceae Root Used for insomnia, psychosis, worm infection,
+epilepsy, nervous disorders, anorexia, mental
+disorders, pain and in poisoning
+Sarcostemma acidum (Roxb)
+Voight. Moon plant Asclepiadaceae Arial
+parts
+As emetic used in leprosy
+Sida cordifolia Linn. Country mallow Malvaceae Roots Anti-inflammatory, stimulant, used in cases of
+polyurea, spermatorrhea, leucorrhea, for nervous
+disorders, coryza and cardiac diseases
+Syzygium cumini Linn. Black plum, Java
+plum, bell fruit,
+water apple/
+cherry
+Myrtaceae Dried
+whole
+fruit
+Polyuria, diabetes and in hemorrhage
+Terminalia bellarica Roxb. Acacia arabica Combretaceae Fruit Bronchial asthma, eye diseases, diarrhea,
+constipation, worm infections, cardiac diseases
+Terminalia Chebula Retz. Chebulic
+myrobalan
+Combretaceae Fruit Jaundice, obesity, polyuria, anorexia, poisoning,
+cough, dyspnea, ascites, urinary disorders,
+carcinoma, laxative
+Tribulus terrestris Linn. Small caltrops Zygophyllaceae Arial
+parts
+Urinary tract disorders/to overcome infertility
+Cinnamomum zeylanicum Presl. +Elettaria cardamomum Maton. Trijataka Lauraceae
+Zingiberaceae
+Mixed in
+equal
+Respiratory related diseases
+Food Anal. Methods (2010) 3:181–187 183
+zizinalis had the highest concentrations of Fe and Zn (6,413.3
+and 5.93 mg/100 g, respectively). Deficiency of zinc and iron
+in the diet is a widespread problem and a matter of great
+concern, especially in developing countries where people rely
+more on vegetarian diets. These essential trace elements are
+involved with vital immune system (Zn) and metabolic
+functions and are intrinsic components of hemoglobin,
+myoglobin, and cytochrome (Fe) (Hemalatha et al. 2007). Hence, further study of V. zizinalis might prove this species to
+be a useful dietary supplement to provide Zn and Fe,
+especially for vegetarians. Piper longum had the highest potassium content
+(1,352.3 mg/100 g), Anethum sowa had the highest sodium
+concentration (170.69 mg/100 g), and Rauvolfia serpentina
+had the highest Mn concentration (856.4 mg/100 g). Perry
+(1972) reported a correlation between therapeutic properties
+of Cr and Mn in plants with diabetic and cardiovascular
+diseases. Plant materials with high concentrations of the
+above-mentioned micronutrient elements will definitely
+play an important role in maintenance of human health
+when taken at recommended levels. Earlier research on humans and livestock has shown that
+optimal intakes of elements such as Na, K, Mg, Ca, Mn, Cu,
+and Zn can reduce individual risk factors for health problems
+such as cardiovascular disease (Mertz 1982; Sanchez-
+Castillo et al. 1998). Mayer and Vyklicky (1989) reported
+that these elements play a significant role in neurochemical
+transmission and also serve as constituents of biological
+molecules as a cofactor for various enzymes and in a variety
+of different metabolic processes. Minerals like Fe, Zn, and
+Mn are also recognized to be potential antioxidants (Talwar
+et al. 1989), which are involved in strengthening the immune
+system. Similarly, Mg, and Zn are known to prevent
+cardiomyopathy, muscle degeneration, growth retardation,
+alopecia, dermatitis, immunological dysfunction, gonadal
+atrophy, impaired spermatogenesis, congenital malforma-
+tions, and bleeding disorders (Chaturvedi et al. 2004). Monitoring the presence and concentrations of heavy
+metals in plants/herbs used for medicinal and health-
+promoting effects is crucial because these levels can be
+used as an indicator of the surrounding pollution and
+because they can have ill effects when consumed directly. According to Schilcher et al. (1987), the presence of toxic
+metals in the environment is quite varied and depends on
+various factors, such as pollution from industrial and traffic
+emissions, the use of purification mud and agricultural
+expedients such as Cd-containing dung and the use of
+organic Hg fungicides and insecticides containing lead
+arsenate. In the present study, the heavy metals Al, Ba, Cd, and
+Mo were not detectable, and lead was present but below
+detection levels in all samples analyzed. In contrast, As, Co,
+Cr, and Ni were detected in almost all samples, but they
+were present in low concentrations (Table 3).

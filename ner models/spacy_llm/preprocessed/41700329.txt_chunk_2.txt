@@ -1,0 +1,126 @@
+S. N. IUPAC names Common names Structure Plant part(country) References
+63 7-Phenylhepta-4,6-diyn-1,2-diol HO
+OH
+Aerial (China) [42]
+64 1,3,5-Heptatriyn-1-yl-benzene
+1-Phenylhepta-1,3,5-
+triyne
+Leaves (not
+stated); leaves of
+tissue culture
+(not stated);
+aerial (Tanzania;
+China);
+Whole (Taiwan);
+roots (Brazil)
+[18, 34, 38,
+42, 56–58]
+65 7-Phenyl-2,4,6-heptatriyn-1-ol HO
+Leaves (not
+stated); aerial
+(China)
+[38, 42]
+66
+7-Phenyl-2,4,6-
+heptatriyn-1-ol-
+acetate O
+O Leaves (not
+stated) [38]
+67
+5-(2-Phenylethynyl)-
+2-thiophene
+methanol
+S OH
+Aerial (China) [42]
+68
+5-(2-Phenylethynyl)-
+2𝛽-glucosylmethyl-
+thiophene
+O
+O
+OH
+H
+OH
+H
+H
+H
+OH H
+O
+HO
+S
+Aerial (China) [42]
+69
+3- 𝛽 -D-
+Glucopyranosyl-1-
+hydroxy-6(E)-
+tetradecene-8,10,12-
+triyne
+OH
+O
+O
+H
+HO
+HO
+H
+H
+H
+H
+OH
+OH
+Leaves
+(Cameroon) [28]
+70
+1-Phenyl-1,3-diyn-5-
+en-7-ol-acetate O
+O
+Leaves (Brazil) [27]
+S.N. denotes serial number. the chloroform fraction was the most toxic with a half
+maximal inhibitory concentration (IC
+50
+) of 97 ± 7.2 and 83 ±
+5.2 𝜇g/mL in NRU and MTT, respectively [82]. Kumari and
+colleagues also reported the anti-cancer and anti-malarial
+activities of B. pilosa leaves [77]. Based on a cytotoxicity-
+directed fractionation strategy, they identified phenyl-1,3,5-
+heptatriene with IC
+50
+values of 8±0.01, 0.49±0.45, 0.7±0.01,
+and 10 ± 0.01 𝜇g/mL against human oral, liver, colon, and
+breast cancer cell lines, respectively. However, phenyl-1,3,5-
+heptatriyne showed lower activity against breast cancer cell
+lines than the chloroform leaf extract which had an IC
+50
+value of 6.5 ± 0.01 𝜇g/mL. Moreover, the positive control,
+taxol, showed higher activity than phenyl-1,3,5-heptatriyne
+[77]. Furthermore, in vitro comet assays were performed to
+evaluate the toxicity of n-hexane, chloroform, and methanol
+extracts of B. pilosa and its ethyl acetate, acetone, and water
+fractions onHela andKB cells.The ethyl acetate fraction from
+the methanol extract exhibited the highest activity with half
+maximal cytotoxic concentrations (CTC
+50
+) of 965.2𝜇g/mL
+and 586.2𝜇g/mL against Hela and KB cells, respectively. Despite the moderate toxicity, these findings suggest that
+these B. pilosa extracts/fractions could be useful for future
+12 Evidence-Based Complementary and Alternative Medicine
+Ta
+bl
+e
+5:
+Fl
+av
+on
+oi
+ds
+iso
+lat
+ed
+fro
+m
+B.
+pi
+lo
+sa
+[3
+0]
+.

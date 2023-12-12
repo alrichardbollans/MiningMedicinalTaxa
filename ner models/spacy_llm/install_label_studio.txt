@@ -1,0 +1,7 @@
+C:\Users\fci10kg\AppData\Local\Microsoft\WindowsApps\python3.10.exe -m venv  C:\Users\fci10kg\AppData\Local\Microsoft\WindowsApps\myenv
+
+Activate virtual environment
+C:\Users\fci10kg\AppData\Local\Microsoft\WindowsApps\myenv\Scripts\activate.bat
+
+Install label studio
+pip install -U label-studio

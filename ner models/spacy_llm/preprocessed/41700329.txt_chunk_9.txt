@@ -1,0 +1,243 @@
+Using theThcell differentiation assay as a screening
+platform, 3 polyynes, 2-𝛽-D-glucopyranosyloxy-1 -
+hydroxytrideca-5,7,9,11-tetrayne (53), 3-𝛽-D-glucopyranosyl-
+1-hydroxy-6(E)- tetradecene-8,10,12-triyne (69), and 2-𝛽-D-
+glucopyranosyloxy-1-hydroxy-5(E)- tridecene-7,9,11-triyne
+(49) were discovered from B. pilosa [49, 53]. The data shows
+that cytopiloyne and other two polyynes suppressed the
+differentiation of type 1 helper T (Th1) cells and production
+of Th1 cytokines and promoted that of type 2 helper T (Th2)
+cells and production of Th2 cytokines, thus explaining the
+immunomodulatory and anti-inflammatory effects of B.
+pilosa and its polyynes. Chang and colleagues were the first to report the effect of
+the butanol extract of B. pilosa on the autoimmune diabetes
+and airway inflammation inmice [48]. Imbalance in the levels
+ofTh1 andTh2 and of various cytokines leads to autoimmune
+diseases. T1D and other autoimmune diseases (rheumatoid
+arthritis, Crohn’s disease, among others) are exacerbated by
+an increase Th1 levels (specifically, CD4+ Th1 cells) while
+Th2 cells antagonize this effect [19]. Moreover, Th2 cells
+mediate asthma in ovalbumin-induced hypersensitivity in
+BALB/c mice [48]. In their work [48], Chang and colleagues
+showed that 10mg/kg butanol extracts with 1.5% (w/w)
+compound 69 and 1.1% (w/w) compound 49 (Table 11)
+ameliorated the development of Th1-mediated diabetes in
+NOD mice through inhibition of 𝛽 cell death and leukocyte
+infiltration. At the same dosage, the butanol extracts also
+exacerbated ovalbumin-induced pulmonary inflammation
+in BALB/c mice with an increase in the infiltration of
+eosinophils and mast cells into the airway of the mice [48]. Despite the different outcomes, both mouse models proved
+44 Evidence-Based Complementary and Alternative Medicine
+the concept that control over the Th1/Th2 shift is associated
+with autoimmune diseases and that the B. pilosa butanol
+extract can shift the differentiation of Th0 cells to Th2 cells
+[48, 49]. An extended study presented by Chiang and colleagues
+showed that compound 53 modulates T-cell functions [50]. Using CD4+ T cells from BALB/c mice, they demonstrated
+that cytopiloyne decreased levels of IFN-𝛾 producing cells
+(Th1) by 12.2% (from 72% to 59.8%). Since Th1 and Th2 cell
+differentiation is antagonistic, it was expected that compound
+53 increased the percentage of mouse IL-4 producing cells
+(Th2) by 7.2% (from 23.7% to 30.9%). Subsequent assess-
+ment of effect of compound 53 on the modulation of the
+transcription of IL-4 and IFN-𝛾 showed that cytopiloyne, as
+expected, decreased the splenocyte levels of IFN-𝛾 mRNA
+and increasing that of IL-4 in a dose-dependent manner. In
+the range of 0.1 to 3 𝜇g/mL of compound 53, the effects were
+not attributed to its cytotoxicity. Consequently, using 3𝜇g/mL
+cytopiloyne for 72 and 96 hours, the protein concentration of
+IFN-𝛾 decreased to 18.6% and 44.4%, respectively. Under the
+same conditions, cytopiloyne increased IL-4 concentrations
+to 198.5% and 247.0% (for 72 and 96 hours, resp.). This
+modulation of T-cell differentiation exhibited by compound
+53 was used to explain its anti-diabetic activity [50]. The anti-diabetic role of cytopiloyne was extensively
+discussed above (Section 3.3, anti-diabetic activity). The
+molecular basis of the regulation of cytokine expression by
+cytopiloyne has been described. Cytopiloyne directly elevated
+the expression level of IL-4 via GATA-3 upregulation in
+T cells [53]. However, reduction of IFN-𝛾 expression in T
+cells seemed to come from the indirect opposing effect IL-4
+cytokine because the expression level of T-bet was unaltered
+[53]. In this way, cytopiloyne skewedTh1 polarization into the
+Th2 state, conferring protection against T1D in NOD mice. Aside frompolarization ofThcell differentiation, cytopiloyne
+also activated the expression of Fas ligand in pancreatic
+b cells, this increase leading to the partial depletion of T
+cells and reduction of immune response in local areas such
+as the pancreas. Of note, cytopiloyne also inhibited T-cell
+proliferation and activation. By targeting T cells from three
+immunomodulatory actions, cytopiloyne protects against
+T1D and probably other Th1-mediated autoimmune diseases
+[19]. The phytochemical constituents of B. pilosa exert their
+functions on different immune cells to modulate immune
+response. It is possible that some of the compounds may
+have agonistic or antagonistic effects on immune response. Immune function of B. pilosa may depend on its compo-
+sition and amount of compounds, which could explain the
+apparently conflicting report of B. pilosa butanol extract
+aggravating allergy in mice [48] while cellulosine-treated
+extract ameliorated allergy [48, 75]. IFN-𝛾 promoter reporter
+assays and T-cell differentiation assays were used to isolate
+2 flavonoids [69] and 3 polyynes [49, 50] as immunomod-
+ulatory compounds from the butanol fraction of B. pilosa. Interestingly, the flavonoids promote IFN-𝛾 expression in
+NK and T cells. In marked contrast, the polyynes promote
+IL-4 expression and indirectly inhibit IFN-𝛾 expression in
+differentiating T cells. Sensitivity appears to be the key to
+identifying structure- and bioactivity-related phytochemicals
+from medicinal plants. 3.6. Antimalarial Activity. The use of chemical drugs against
+pathogens has resulted in drug-resistant mutants. Examples
+of drug resistance can be found in the species of the
+Plasmodium that cause malaria. It is important to search for
+new compounds to combat Plasmodium parasites [47]. A
+study of the anti-malarial activity of the leaf extracts of B.
+pilosa using a combination of phytochemistry and bioassays
+showed that compound 49 (Table 11) showed activity against
+a malaria parasite (P. falciparum NF54 strain) with an IC
+50
+value of 6.0 𝜇g/mL [77]. In addition, compound 49, isolated
+from the aerial parts of B. pilosa, inhibited growth of the P.
+falciparum FCR-3 strain with an IC
+50
+value of 0.35 𝜇g/mL. This compound was tested for its in vivo effect in mice
+infected with P. berghei NK-65 strain. Results showed that
+compound 49 decreased the average parasitemia in the red
+blood cells by 20.7 (from 32.8% of that of the control to
+12.1%) after an intravenous injection of 0.8mg/kg BW/day for
+four days [47]. Further studies addressing the anti-malarial
+mechanism underlying both polyynes and clinical studies are
+needed. 3.7. Antibacterial Activity. Emergence of multiple antibiotic-
+resistantmicrobes is becoming a global threat to public health
+and a challenge to disease treatment. For instance, penicillin
+is commonly used to combat a food-borne intracellular
+bacteriumListeria; however, penicillin-resistant bacteria have
+been discovered recently [69]. Chang and coworkers iso-
+lated centaurein (110) and centaureidin (109) from B. pilosa
+extract [69, 70]. Centaurein enhances expression of IFN-𝛾,
+a key cytokine for macrophage activation and, consequently,
+enhances bactericidal activity in macrophages [69, 70]. In
+agreement with observed in vitro effects, centaurein was
+reported to prevent and treat Listeria infection in C57BL/6J
+mice [91]. Mechanistic studies confirmed that centaurein
+exerted antilisterial action via IFN-𝛾 expression in wild-type
+mice but not IFN-𝛾 knockout mice [91]. Further in vitro
+studies on centaurein showed that this compound increased
+IFN-𝛾 expression by 13% (from 17% to 20%), 20% (from 21%
+to 41%), and 11% (from 6% to 17%) in CD4+ T cells, CD8+T
+cells, and NK cells, respectively. That is to say, there was
+an increase in IFN-𝛾 producing immune cells. As expected,
+centaurein also enhanced the expression level of T-bet, a key
+nuclear factor for IFN-𝛾 expression. Consistently, centaurein
+augmented the serum IFN-𝛾 levels inC57BL/6Jmice, and this
+augmentation peaked 24 hours after compound injection. The quantity of mouse serum IFN-𝛾 was sufficient to activate
+macrophages in vitro and eradicated GFP-producing Listeria
+inside macrophages. However, the entry of Listeria into
+macrophages was not affected by centaurein-treated mouse
+sera. Centaurein treatment at 20𝜇g per mouse rescued 30%
+of the mice infected with a lethal dose of Listeria (2 ×
+106 CFU). It is noteworthy that in the presence of ampicillin
+(5 𝜇g/mouse), centaurein (20 𝜇g/mouse) rescued 70% of the
+mice, suggesting an additive effect between ampicillin and
+centaurein [91]. Despite lower abundance, centaureidin was
+Evidence-Based Complementary and Alternative Medicine 45
+30 times more active than centaurein in terms of IFN-𝛾
+production [91]. Aside from the indirect antibacterial action mentioned
+above, extract and/or compounds of B. pilosa also showed
+direct bacteriostatic and/or bactericidal action. One study
+reported that essential oils and leaf/flower extracts of B.
+pilosa could suppress the growth of gram positive and gram
+negative bacteria as evidenced by zone of inhibition assays. In this study, antibacterial activity of the essential oils from
+the leaves and flowers of B. pilosa was determined in an
+attempt to identify natural products as food preservatives for
+prevention of microbial multiplication and food oxidation. The essential oils and extracts of B. pilosa leaves and flow-
+ers showed moderate but different extents of antibacterial
+activity (Table 17). In general, essential oils had higher
+antibacterial activity than crude extracts. One explanation for
+this could be that monoterpenes in the essential oils destroy
+cellular integrity and, subsequently, inhibit the respiration
+and ion transport processes. The presence of antibacterial
+𝛽-caryophyllene could be another explanation as reported
+elsewhere [92]. Another study reported that the methanol
+and acetone extract of B. pilosa roots displayed antibacterial
+activities against the bacteria listed in Table 18 [93] and
+methanol extracts from the roots seemed to be the most
+effective. Another study indicated that the polyyne, (R)-1,2-
+dihydroxytrideca-3,5,7,9,11-pentayne (49), from this plant
+also suppressed bacterial growth as shown by the minimum
+inhibitory concentration required to inhibit 50% bacterial
+growth (MIC
+50
+) in Table 19. This compound was highly
+effective against several Gram positive and Gram negative
+bacteria including the drug-resistant bacteria Staphylococcus
+aureus N315 (MRSA) and Enterococcus faecalis NCTC12201
+(VRE) [47]. Strikingly, compound 49 had a similar MIC
+50
+value to antibiotics (ampicillin, tetracycline, norfloxacin, and
+amphotericin B) in most of the bacteria tested. Antibacterial activity of B. pilosa extracts and compo-
+nents, expressed as MIC
+50
+and the mean zone of inhibition,
+is tabulated in Tables 17, 18, and 19.The zone of inhibition for
+Ampicilline (positive control) ranges from 15.3 ± 0.3mm to
+44.3 ± 0.2mm [92]. 3.8. Antifungal Activity. B. pilosa has traditionally been used
+to treat microbial infection. Recently, different parts of B.
+pilosa have been tested for antifungal activities. Deba and
+colleagues first evaluated the antifungal effect of the hot
+water extracts of the B. pilosa roots, stems, and leaves against
+Corticium rolfsii, Fusarium solani, and Fusarium oxysporum. They discovered that C. rolfsii was most suppressed by
+treatment with B. pilosa as its growth was reduced at almost
+all the tested doses, followed by F. oxysporum and F. solani
+[99]. However, the fungicidal activities of the stems, and
+roots were greater than the leaves [99]. Moreover, the same
+group assessed the antifungal activity of the essential oils
+and aqueous extracts from B. pilosa flowers and leaves [92]. They showed that the extracts and oils had antifungal activity
+against C. rolfsii, F. solani, and F. oxysporum. Essential oils
+appeared to have better fungicidal activity thanwater extracts
+as summarized in Table 20. Another study by Ashafa and colleagues showed that
+acetone, methanol, and water extracts of the B. pilosa roots
+showed antifungal activities against Aspergillus niger, A.
+flavus, and Penicillium notatum using the agar dilution
+method. The results are tabulated in Table 21 [93]. Negative
+controls showed 0% growth inhibition.The methanol extract
+of the B. pilosa roots at 10mg/mL was also effective against
+Candida albicans [93].Of note, B. pilosa obtained fromPapua
+New Guinea had no activity against A. niger and C. albicans
+[126], but the SouthAfrican (EasternCape) ecotype exhibited
+moderate activity against C. albicans [93]. This discrepancy
+may depend on extraction solvents, extraction procedure,
+assay techniques, different plant parts, and abundance of
+active compounds. B. pilosa produces a variety of secondary metabolites
+such as flavonoids, phenylacetylenes, alkaloids, sterols, ter-
+penoids, and tannis [92, 93]. However, none of them have
+been confirmed as active compounds against fungi. Further
+investigation of active compounds from B. pilosa is necessary
+to further understand the antifungal efficacy of this plant. 3.9. Hypotensive and Vasodilatory Activities. In early studies,
+Dimo and colleagues used three rat models, normotensive
+Wistar rats (NTR), salt-loading hypertensive rats (SLHR),
+and spontaneous hypertensive rats (SHR) to investigate the
+hypotensive effect of the methanol crude extract of B. pilosa
+leaves [28, 127]. The extract lowered systolic blood pressure
+in hypertensive rats (SLHR and SHR) to a greater degree
+than NTR [28, 127]. In addition, a decrease in urinary
+sodium ions and an increase in urinary potassium ions were
+observed after treatment with the methanol extract of B.
+pilosa leaves although neither differences were statistically
+significant [28, 127]. Taking the data together, the study
+proposed that B. pilosa leaf extract reduced blood pressure
+via vasodilation [28, 127]. The same group continued to
+test the antihypertensive effect of aqueous and methylene
+chloride extracts of B. pilosa leaves in a hypertensive rat
+model [28, 127]. To establish a fructose-induced hypertension
+model, male Wistar rats were given 10% fructose solution
+to drink ad libitum for three weeks. In addition to free
+access to 10% fructose, the rats were treated with the aqueous
+(150mg/kg) or methyl chloride (350mg/kg) extracts of B.
+pilosa for additional three weeks [28, 127]. Both extracts of
+B. pilosa leaves had a hypotensive effect on rats. However,
+neither extracts reversed the elevation of serum insulin in
+fructose-fed rats. Therefore, B. pilosa lowered blood pressure
+irrespective of insulin [28, 127]. To better understand the
+hypotensive mechanism, the authors investigated the effect
+of a neutral extract of B. pilosa (NBP), a mixture of methanol
+andmethylene chloride (1 : 1) extract after neutralization with
+NaOH and HCl, on the heart and the blood pressure of
+NTR and SHR [110]. This study showed that an intravenous
+injection of the NBP resulted in a biphasic reduction in
+systolic blood pressure.
