@@ -21,14 +21,16 @@ def get_dict_from_res(count_result: Counter, list_to_check: List[str]):
 def number_of_keywords(given_text: str):
     out_dict = {}
 
+    # Getting words like this is second bottleneck
     words = [w.strip(string.punctuation).lower() for w in given_text.split()]
     # Species names could be 3 words long due to hybrid characters
     paired_words = [" ".join([words[i], words[i + 1]]) for i in range(len(words) - 1)]
     trio_words = [" ".join([words[i], words[i + 1], words[i + 2]]) for i in range(len(words) - 2)]
-    potential_words = words + paired_words + trio_words
 
+    potential_words = set(words + paired_words + trio_words)
+    # Next step was the biggest bottleneck
     for k in final_en_keyword_dict:
-        out_dict[k] = set(potential_words).intersection(final_en_keyword_dict[k])
+        out_dict[k] = potential_words.intersection(final_en_keyword_dict[k])
 
     return out_dict
 
