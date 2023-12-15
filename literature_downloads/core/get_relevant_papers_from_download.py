@@ -30,6 +30,14 @@ for p in [core_download_path, core_text_path, core_paper_info_path, core_abstrac
 
 CORE_TAR_FILE = 'core_2022-03-11_dataset.tar.xz'
 
+# Compile regexes once first
+# Split by looking for an instance of simple_string (ignoring case) begins a line on its own (or with line numbers) followed by any amount of whitespace and then a new line
+# Must use re.MULTILINE flag such that the pattern character '^' matches at the beginning of the string and at the beginning of each line (immediately following each newline)
+_reference_regex = re.compile(r"^\s*\d*\s*References\s*\n", flags=re.IGNORECASE | re.MULTILINE)
+_supp_regex = re.compile(r"^\s*\d*\s*Supplementary material\s*\n", flags=re.IGNORECASE | re.MULTILINE)
+_conf_regex = re.compile(r"^\s*\d*\s*Conflict of interest\s*\n", flags=re.IGNORECASE | re.MULTILINE)
+_ackno_regex = re.compile(r"^\s*\d*\s*Acknowledgments\s*\n", flags=re.IGNORECASE | re.MULTILINE)
+
 
 def clean_title_strings(given_title: str) -> str:
     ## Also need to fix encodings e.g. \\u27
@@ -40,20 +48,23 @@ def clean_title_strings(given_title: str) -> str:
         return given_title
 
 
-def retrieve_text_before_simple_phrase(given_text: str, simple_string: str) -> str:
-    my_regex = r"^" + re.escape(simple_string) + r"\s*\n"
-    # Split by looking for an instance of given_text (ignoring case) begins a line on its own (followed by any amount of whitespace and then a new line)
-    # Must use re.MULTILINE flag such that the pattern character '^' matches at the beginning of the string and at the beginning of each line (immediately following each newline)
-    text_split = re.split(my_regex, given_text, maxsplit=1, flags=re.IGNORECASE | re.MULTILINE)
-    pre_split = text_split[0]
-    if len(text_split) > 1:
-        post_split = text_split[
-            1]  # If maxsplit is nonzero, at most maxsplit splits occur, and the remainder of the string is returned as the final element of the list
-        # if text after split point is longer than before, then revert.
-        if len(post_split) > len(pre_split):
-            pre_split = given_text
+def retrieve_text_before_phrase(given_text: str, my_regex, simple_string: str, simple_string_lower: str) -> str:
+    if simple_string in given_text or simple_string_lower in given_text:
 
-    return pre_split
+        text_split = my_regex.split(given_text, maxsplit=1)  # This is the bottleneck
+
+        pre_split = text_split[0]
+        if len(text_split) > 1:
+            post_split = text_split[
+                1]  # If maxsplit is nonzero, at most maxsplit splits occur, and the remainder of the string is returned as the final element of the list
+            # if text after split point is longer than before, then revert.
+            if len(post_split) > len(pre_split):
+                pre_split = given_text
+
+        return pre_split
+    else:
+
+        return given_text
 
 
 def clean_paper_text(paper: dict) -> str:
@@ -63,10 +74,10 @@ def clean_paper_text(paper: dict) -> str:
 
     # Split by looking for an instance of 'Supplementary material' (ignoring case)
     # begins a line on its own (followed by any amount of whitespace and then a new line)
-    pre_reference = retrieve_text_before_simple_phrase(text, 'References')
-    pre_supplementary = retrieve_text_before_simple_phrase(pre_reference, 'Supplementary material')
-    pre_conflict = retrieve_text_before_simple_phrase(pre_supplementary, 'Conflict of interest')
-    pre_acknowledgement = retrieve_text_before_simple_phrase(pre_conflict, 'Acknowledgments')
+    pre_reference = retrieve_text_before_phrase(text, _reference_regex, 'References', 'references')
+    pre_supplementary = retrieve_text_before_phrase(pre_reference, _supp_regex, 'Supplementary material', 'supplementary material')
+    pre_conflict = retrieve_text_before_phrase(pre_supplementary, _conf_regex, 'Conflict of interest', 'conflict of interest')
+    pre_acknowledgement = retrieve_text_before_phrase(pre_conflict, _ackno_regex, 'Acknowledgments', 'acknowledgments')
 
     return pre_acknowledgement
 
@@ -153,12 +164,10 @@ def get_relevant_papers_from_download():
 
                 with tarfile.open(fileobj=provider_file_obj, mode='r') as sub_archive:
 
-                    members = sub_archive.getmembers()  # Get members will get all files recursively, though deeper archives will need extracting too.
-
                     tasks = []
                     provider_outputs = []
                     with multiprocessing.Pool(128) as pool:
-                        for paper_member in members:
+                        for paper_member in sub_archive:
                             if paper_member.name.endswith('.json'):
                                 # Cannot serialize these objects, so get lines out before adding to process
                                 f = sub_archive.extractfile(paper_member)
