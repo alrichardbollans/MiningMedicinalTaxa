@@ -30,7 +30,7 @@ def number_of_keywords(given_text: str):
     potential_words = set(words + paired_words + trio_words)
     # Next step was the biggest bottleneck
     for k in final_en_keyword_dict:
-        out_dict[k] = potential_words.intersection(final_en_keyword_dict[k])
+        out_dict[k] = potential_words & final_en_keyword_dict[k]
 
     return out_dict
 

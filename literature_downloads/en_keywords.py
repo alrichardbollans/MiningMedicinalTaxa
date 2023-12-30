@@ -25,7 +25,7 @@ def get_kword_dict():
             words = file.read().splitlines()
 
         # Add to dictionary with filename as key
-        word_dict[f.replace('_keywords.txt', '')] = words
+        word_dict[f.replace('_keywords.txt', '')] = set(words)
 
     return word_dict
 
