@@ -20,9 +20,9 @@ def get_dict_from_res(count_result: Counter, list_to_check: List[str]):
 
 def number_of_keywords(given_text: str):
     out_dict = {}
-
+    given_text_lower_list = given_text.lower().split()
     # Getting words like this is second bottleneck
-    words = [w.strip(string.punctuation).lower() for w in given_text.split()]
+    words = [w.strip(string.punctuation) for w in given_text_lower_list]
     # Species names could be 3 words long due to hybrid characters
     paired_words = [" ".join([words[i], words[i + 1]]) for i in range(len(words) - 1)]
     trio_words = [" ".join([words[i], words[i + 1], words[i + 2]]) for i in range(len(words) - 2)]
