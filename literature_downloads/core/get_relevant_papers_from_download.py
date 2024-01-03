@@ -48,8 +48,8 @@ def clean_title_strings(given_title: str) -> str:
         return given_title
 
 
-def retrieve_text_before_phrase(given_text: str, my_regex, simple_string: str, simple_string_lower: str) -> str:
-    if simple_string in given_text or simple_string_lower in given_text:
+def retrieve_text_before_phrase(given_text: str, my_regex, simple_string: str) -> str:
+    if simple_string.lower() in given_text.lower():
 
         text_split = my_regex.split(given_text, maxsplit=1)  # This is the bottleneck
 
@@ -74,10 +74,10 @@ def clean_paper_text(paper: dict) -> str:
 
     # Split by looking for an instance of 'Supplementary material' (ignoring case)
     # begins a line on its own (followed by any amount of whitespace and then a new line)
-    pre_reference = retrieve_text_before_phrase(text, _reference_regex, 'References', 'references')
-    pre_supplementary = retrieve_text_before_phrase(pre_reference, _supp_regex, 'Supplementary material', 'supplementary material')
-    pre_conflict = retrieve_text_before_phrase(pre_supplementary, _conf_regex, 'Conflict of interest', 'conflict of interest')
-    pre_acknowledgement = retrieve_text_before_phrase(pre_conflict, _ackno_regex, 'Acknowledgments', 'acknowledgments')
+    pre_reference = retrieve_text_before_phrase(text, _reference_regex, 'References')
+    pre_supplementary = retrieve_text_before_phrase(pre_reference, _supp_regex, 'Supplementary material')
+    pre_conflict = retrieve_text_before_phrase(pre_supplementary, _conf_regex, 'Conflict of interest')
+    pre_acknowledgement = retrieve_text_before_phrase(pre_conflict, _ackno_regex, 'Acknowledgments')
 
     return pre_acknowledgement
 
@@ -161,7 +161,7 @@ def get_relevant_papers_from_download():
             # Check if already done. Useful for when e.g. cluster fails
             if not os.path.isfile(provider_csv):
                 start_time = time.time()
-
+                paper_count = 0
                 with tarfile.open(fileobj=provider_file_obj, mode='r') as sub_archive:
 
                     tasks = []
@@ -169,6 +169,7 @@ def get_relevant_papers_from_download():
                     with multiprocessing.Pool(128) as pool:
                         for paper_member in sub_archive:
                             if paper_member.name.endswith('.json'):
+                                paper_count += 1
                                 # Cannot serialize these objects, so get lines out before adding to process
                                 f = sub_archive.extractfile(paper_member)
                                 lines = f.readlines()
@@ -192,7 +193,12 @@ def get_relevant_papers_from_download():
                     provider_df.set_index(['corpusid'], drop=True).to_csv(provider_csv)
                     end_time = time.time()
                     print(
-                        f'{len(provider_df)} papers collected from provider: {tar_archive_name}. Took {round((end_time - start_time) / 60, 2)} mins.')
+                        f'{len(provider_df)} out of {paper_count} papers collected from provider: {tar_archive_name}. Took {round((end_time - start_time) / 60, 2)} mins.')
+                    if paper_count > 0:
+                        speed = round((end_time - start_time) / paper_count, 5)
+                    else:
+                        speed = 0
+                    print(f'Took {speed} seconds per record')
 
             else:
                 print(f'Already checked: {provider_csv}')
