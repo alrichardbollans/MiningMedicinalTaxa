@@ -2,6 +2,7 @@ import unittest
 
 from pkg_resources import resource_filename
 
+from literature_downloads import get_kword_dict
 from ner_string_methods import retrieve_text_before_phrase, remove_double_spaces_and_break_characters, retrieve_paragraphs_containing_words
 
 _test_output_dir = resource_filename(__name__, 'test_outputs')
@@ -45,12 +46,17 @@ class Test(unittest.TestCase):
             self.assertEqual(retrieve_paragraphs_containing_words(example, ['medicinal', 'plant_name']), examples[example])
 
     def test_example_pipeline(self):
-        example = 'This is an example of some text to be cleaned. This first paragraph will contain a reference to a medicinal plant.\n\n The second paragraph may discuss the plant_name \n\n This third paragraph \n has no useful information and so is discarded.\n\n Another relevant paragraph discussing plant_name\n\nFinally there will be some references. \n\n References \n 1 Et al.\n\n'
+        # Note need to add SCRATCH=Your Repo Path to env variables
+        kword_dict = get_kword_dict()
+        all_keywords = []
+        for dict_value in kword_dict.values():
+            all_keywords += list(dict_value)
+        example = 'This is an example of some text to be cleaned. This first paragraph will contain a reference to a medicinal plant.\n\n The second paragraph may discuss the Cinchona \n\n This third paragraph \n has no useful information and so is discarded.\n\n Another relevant paragraph discussing cinchona\n\nFinally there will be some references. \n\n References \n 1 Et al.\n\n'
         pre_reference = retrieve_text_before_phrase(example, 'REFERENCES')
-        only_useful_paragraphs = retrieve_paragraphs_containing_words(pre_reference, ['medicinal', 'plant_name'])
+        only_useful_paragraphs = retrieve_paragraphs_containing_words(pre_reference, all_keywords)
         final_clean = remove_double_spaces_and_break_characters(only_useful_paragraphs)
         self.assertEqual(final_clean,
-                         'This is an example of some text to be cleaned. This first paragraph will contain a reference to a medicinal plant. The second paragraph may discuss the plant_name Another relevant paragraph discussing plant_name')
+                         'This is an example of some text to be cleaned. This first paragraph will contain a reference to a medicinal plant. The second paragraph may discuss the Cinchona Another relevant paragraph discussing cinchona')
 
 
 if __name__ == '__main__':

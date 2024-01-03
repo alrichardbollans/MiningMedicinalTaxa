@@ -55,7 +55,7 @@ def retrieve_paragraphs_containing_words(given_text: str, given_words: List[str]
         paragraphs = given_text.split('\n\n')
         relevant_paragraphs = []
         for paragraph in paragraphs:
-            lower_paragraph = paragraph.lower()
+            lower_paragraph = paragraph.lower().split()
             if any(word.lower() in lower_paragraph for word in given_words):
                 relevant_paragraphs.append(paragraph)
 
