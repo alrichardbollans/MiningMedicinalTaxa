@@ -1,0 +1,64 @@
+import re
+
+from typing import List
+
+
+def retrieve_text_before_phrase(given_text: str, simple_string: str, check_position_of_phrase: bool = False) -> str:
+    # Split by looking for an instance of simple_string (ignoring case) begins a line on its own (or with line numbers) followed by any amount of
+    # whitespace and then a new line
+    # Must use re.MULTILINE flag such that the pattern character '^' matches at the beginning of the string and at the beginning of each line
+    # (immediately following each newline)
+    if given_text:
+        my_regex = re.compile(r"^\s*\d*\s*" + simple_string + r"\s*\n", flags=re.IGNORECASE | re.MULTILINE)
+
+        text_split = my_regex.split(given_text, maxsplit=1)
+
+        pre_split = text_split[0]
+        if check_position_of_phrase:
+            if len(text_split) > 1:
+                # At most 1 split occurs, if there has been a split the remainder of the string is returned as the final element of the list.
+                # if text after split point is longer than before the split, then revert to given text.
+                post_split = text_split[1]
+                if len(post_split) > len(pre_split):
+                    pre_split = given_text
+
+        return pre_split
+    else:
+        return given_text
+
+
+def remove_double_spaces_and_break_characters(given_text: str) -> str:
+    '''
+    This will simplify a text by removing double spaces and all whitespace characters (e.g. space, tab, newline, return, formfeed).
+    See https://stackoverflow.com/a/1546251/8633026
+    This may or may not be desirable and should only be used at the end of preprocessing as it removes important characters like \n.
+    :param given_text:
+    :return:
+    '''
+    if given_text:
+        return " ".join(given_text.split())
+    else:
+        return given_text
+
+
+def retrieve_paragraphs_containing_words(given_text: str, given_words: List[str]) -> str:
+    '''
+    Slightly experimental and should be used PRIOR to above cleaning methods
+    Relies on \n\n designating new paragraphs which may not always be the case. At worst this should return the original text.
+    Could be optimised with sets but don't think that's necessary
+    :param given_text:
+    :param given_words:
+    :return:
+    '''
+    if given_text:
+        # Splitting text into paragraphs based on double newline characters
+        paragraphs = given_text.split('\n\n')
+        relevant_paragraphs = []
+        for paragraph in paragraphs:
+            lower_paragraph = paragraph.lower().split()
+            if any(word.lower() in lower_paragraph for word in given_words):
+                relevant_paragraphs.append(paragraph)
+
+        return '\n\n'.join(relevant_paragraphs)
+    else:
+        return given_text
