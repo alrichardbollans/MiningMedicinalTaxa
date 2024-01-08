@@ -170,6 +170,9 @@ def get_relevant_papers_from_download():
                         for paper_member in sub_archive:
                             if paper_member.name.endswith('.json'):
                                 # Cannot serialize these objects, so get lines out before adding to process
+                                # TODO: possibly add context manager here to improve memory usage e.g.:
+                                # with sub_archive.extractfile(paper_member) as paper_file:
+                                #     lines = paper_file.readlines()
                                 f = sub_archive.extractfile(paper_member)
                                 lines = f.readlines()
                                 tasks.append(pool.apply_async(process_tar_paper_member_lines, args=(lines,)))
