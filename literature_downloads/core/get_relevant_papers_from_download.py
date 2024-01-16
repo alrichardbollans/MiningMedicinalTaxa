@@ -171,11 +171,9 @@ def get_relevant_papers_from_download():
                             if paper_member.name.endswith('.json'):
                                 paper_count += 1
                                 # Cannot serialize these objects, so get lines out before adding to process
-                                # TODO: possibly add context manager here to improve memory usage e.g.:
-                                # with sub_archive.extractfile(paper_member) as paper_file:
-                                #     lines = paper_file.readlines()
                                 f = sub_archive.extractfile(paper_member)
                                 lines = f.readlines()
+                                f.close()
                                 tasks.append(pool.apply_async(process_tar_paper_member_lines, args=(lines,)))
                             elif '.tar' in paper_member.name:
                                 print('Need more recursion')
