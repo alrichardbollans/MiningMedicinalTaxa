@@ -5,7 +5,7 @@ from pkg_resources import resource_filename
 
 from literature_downloads import get_kword_dict
 from ner_string_methods import retrieve_text_before_phrase, remove_double_spaces_and_break_characters, retrieve_paragraphs_containing_words, \
-    remove_HTML_tags, normalize_text_encoding
+    remove_HTML_tags, remove_non_ascii_characters
 
 _test_output_dir = resource_filename(__name__, 'test_outputs')
 
@@ -86,10 +86,10 @@ class TestNerStringMethodsCleaning(unittest.TestCase):
         """
         Test that it can normalize text encoding of a string
         """
-        pairs = [('MÃ¶nk', 'MA¶nk'), ('dioxeto[3󸀠,4󸀠:3,4]- cyclo-pent[1,2-b]', 'dioxeto[3󸀠,4󸀠:3,4]- cyclo-pent[1,2-b]'),
-                 ('\u0391', 'A')]
+        pairs = [('MÃ¶nk', 'Mnk'), ('dioxeto[3󸀠,4󸀠:3,4]- cyclo-pent[1,2-b]', 'dioxeto[3,4:3,4]- cyclo-pent[1,2-b]'),
+                 ('\u0391', ''), ('\udba0\udc20', '')]
         for pair in pairs:
-            result = normalize_text_encoding(pair[0])
+            result = remove_non_ascii_characters(pair[0])
             self.assertIsInstance(result, str)
             self.assertEqual(result, pair[1])
 
@@ -97,7 +97,7 @@ class TestNerStringMethodsCleaning(unittest.TestCase):
         """
         Test that it returns empty string as is
         """
-        result = normalize_text_encoding('')
+        result = remove_non_ascii_characters('')
         self.assertIsInstance(result, str)
         self.assertEqual(result, '')
 
@@ -105,7 +105,7 @@ class TestNerStringMethodsCleaning(unittest.TestCase):
         """
         Test that it returns None as None
         """
-        result = normalize_text_encoding(None)
+        result = remove_non_ascii_characters(None)
         self.assertIsNone(result)
 
 

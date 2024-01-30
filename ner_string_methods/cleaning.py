@@ -65,6 +65,12 @@ def retrieve_paragraphs_containing_words(given_text: str, given_words: List[str]
 
 
 def remove_HTML_tags(given_text: str) -> str:
+    """
+    Remove HTML tags from the given text.
+
+    :param given_text: The text containing HTML tags.
+    :return: The text with HTML tags removed.
+    """
     from bs4 import BeautifulSoup
 
     if given_text is not None:
@@ -75,12 +81,14 @@ def remove_HTML_tags(given_text: str) -> str:
         return given_text
 
 
-def normalize_text_encoding(given_text: str) -> str:
-    import unicodedata
+def remove_non_ascii_characters(given_text: str) -> str:
+    """
 
+    :param given_text: A string that may contain non-ASCII characters.
+    :return: A string with any non-ASCII characters removed.
+
+    """
     if given_text is not None:
-        "Decompose the unicode string and remove non-spacing marks."
-        return ''.join(c for c in unicodedata.normalize('NFKD', given_text)
-                       if unicodedata.category(c) != 'Mn')
+        return ''.join(i for i in given_text if ord(i) < 128)
     else:
         return given_text
