@@ -92,3 +92,17 @@ def remove_non_ascii_characters(given_text: str) -> str:
         return ''.join(i for i in given_text if ord(i) < 128)
     else:
         return given_text
+
+
+def convert_nonascii_to_ascii(input_str):
+    from unidecode import unidecode
+    """
+    Convert non-ASCII characters to their ASCII equivalents.
+
+    Parameters:
+    - input_str (str): The input string containing non-ASCII characters.
+
+    Returns:
+    - str: The input string with non-ASCII characters replaced by their ASCII equivalents.
+    """
+    return unidecode(input_str)

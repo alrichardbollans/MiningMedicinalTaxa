@@ -5,7 +5,7 @@ from pkg_resources import resource_filename
 
 from literature_downloads import get_kword_dict
 from ner_string_methods import retrieve_text_before_phrase, remove_double_spaces_and_break_characters, retrieve_paragraphs_containing_words, \
-    remove_HTML_tags, remove_non_ascii_characters
+    remove_HTML_tags, remove_non_ascii_characters, convert_nonascii_to_ascii
 
 _test_output_dir = resource_filename(__name__, 'test_outputs')
 
@@ -108,6 +108,17 @@ class TestNerStringMethodsCleaning(unittest.TestCase):
         result = remove_non_ascii_characters(None)
         self.assertIsNone(result)
 
+    def test_convert_nonascii_to_ascii(self):
+        self.assertEqual(convert_nonascii_to_ascii("ñ"), "n")
+        self.assertEqual(convert_nonascii_to_ascii("élèvé"), "eleve")
+        self.assertEqual(convert_nonascii_to_ascii("café"), "cafe")
+        self.assertEqual(convert_nonascii_to_ascii("mañana"), "manana")
+        self.assertEqual(convert_nonascii_to_ascii(""), "")
+        self.assertEqual(convert_nonascii_to_ascii("normal string with no nonascii"), "normal string with no nonascii")
+        self.assertEqual(convert_nonascii_to_ascii('dioxeto[3󸀠,4󸀠:3,4]- cyclo-pent[1,2-b]'), 'dioxeto[3,4:3,4]- cyclo-pent[1,2-b]')
+        self.assertEqual(convert_nonascii_to_ascii('\u0391'), 'A')
+        self.assertEqual(convert_nonascii_to_ascii('α'), 'a')
+        self.assertEqual(convert_nonascii_to_ascii('\udba0\udc20'), '')
 
 if __name__ == '__main__':
     unittest.main()
