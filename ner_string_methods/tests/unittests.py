@@ -1,14 +1,16 @@
+import unicodedata
 import unittest
 
 from pkg_resources import resource_filename
 
 from literature_downloads import get_kword_dict
-from ner_string_methods import retrieve_text_before_phrase, remove_double_spaces_and_break_characters, retrieve_paragraphs_containing_words
+from ner_string_methods import retrieve_text_before_phrase, remove_double_spaces_and_break_characters, retrieve_paragraphs_containing_words, \
+    remove_HTML_tags, normalize_text_encoding
 
 _test_output_dir = resource_filename(__name__, 'test_outputs')
 
 
-class Test(unittest.TestCase):
+class TestGenericMethods(unittest.TestCase):
 
     def test_retrieving_text_before(self):
         examples = {'This is something that comes\n before\n references \n': 'This is something that comes\n before\n',
@@ -57,6 +59,54 @@ class Test(unittest.TestCase):
         final_clean = remove_double_spaces_and_break_characters(only_useful_paragraphs)
         self.assertEqual(final_clean,
                          'This is an example of some text to be cleaned. This first paragraph will contain a reference to a medicinal plant. The second paragraph may discuss the Cinchona Another relevant paragraph discussing cinchona')
+
+
+class TestRemoveHTMLTags(unittest.TestCase):
+
+    def test_remove_HTML_tags_valid_input(self):
+        self.assertEqual(remove_HTML_tags("<h1>Hello, World!</h1>"), "Hello, World!")
+
+    def test_remove_HTML_tags_none_input(self):
+        self.assertIsNone(remove_HTML_tags(None), None)
+
+    def test_remove_HTML_tags_multiple_tags(self):
+        self.assertEqual(remove_HTML_tags("<h1>Hello,</h1><p>World!</p>"), "Hello,World!")
+
+    def test_remove_HTML_tags_nested_tags(self):
+        self.assertEqual(remove_HTML_tags("<div><h1>Hello, World!</h1></div>"), "Hello, World!")
+
+    def test_remove_HTML_tags_empty_string(self):
+        self.assertEqual(remove_HTML_tags(""), "")
+
+
+# create TestNerStringMethodsCleaning class
+class TestNerStringMethodsCleaning(unittest.TestCase):
+
+    def test_normalize_text_encoding_valid_input(self):
+        """
+        Test that it can normalize text encoding of a string
+        """
+        pairs = [('MÃ¶nk', 'MA¶nk'), ('dioxeto[3󸀠,4󸀠:3,4]- cyclo-pent[1,2-b]', 'dioxeto[3󸀠,4󸀠:3,4]- cyclo-pent[1,2-b]'),
+                 ('\u0391', 'A')]
+        for pair in pairs:
+            result = normalize_text_encoding(pair[0])
+            self.assertIsInstance(result, str)
+            self.assertEqual(result, pair[1])
+
+    def test_normalize_text_encoding_empty_string(self):
+        """
+        Test that it returns empty string as is
+        """
+        result = normalize_text_encoding('')
+        self.assertIsInstance(result, str)
+        self.assertEqual(result, '')
+
+    def test_normalize_text_encoding_none(self):
+        """
+        Test that it returns None as None
+        """
+        result = normalize_text_encoding(None)
+        self.assertIsNone(result)
 
 
 if __name__ == '__main__':

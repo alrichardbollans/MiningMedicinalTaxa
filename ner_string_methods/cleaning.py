@@ -62,3 +62,25 @@ def retrieve_paragraphs_containing_words(given_text: str, given_words: List[str]
         return '\n\n'.join(relevant_paragraphs)
     else:
         return given_text
+
+
+def remove_HTML_tags(given_text: str) -> str:
+    from bs4 import BeautifulSoup
+
+    if given_text is not None:
+        # Remove HTML tags using BeautifulSoup
+        text = BeautifulSoup(given_text, "html.parser").get_text()
+        return text
+    else:
+        return given_text
+
+
+def normalize_text_encoding(given_text: str) -> str:
+    import unicodedata
+
+    if given_text is not None:
+        "Decompose the unicode string and remove non-spacing marks."
+        return ''.join(c for c in unicodedata.normalize('NFKD', given_text)
+                       if unicodedata.category(c) != 'Mn')
+    else:
+        return given_text
