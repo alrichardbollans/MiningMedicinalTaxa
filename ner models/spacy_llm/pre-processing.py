@@ -47,8 +47,8 @@ def process_text_file(file_path, max_tokens=4000, encoding_name="cl100k_base"):
     return chunks
 
 
-input_folder = os.path.join('ner models', 'spacy_llm', '3_medicinal_hits')
-output_folder = os.path.join('ner models', 'spacy_llm', 'preprocessed')
+input_folder = '3_medicinal_hits'
+output_folder = 'preprocessed'
 os.makedirs(output_folder, exist_ok=True)
 
 for file in os.listdir(input_folder):

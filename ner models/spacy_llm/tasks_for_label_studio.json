@@ -50,9 +50,9 @@
             "to_name": "text",
             "type": "labels",
             "value": {
-              "start": 6102,
-              "end": 6114,
-              "text": "V. zizinalis",
+              "start": 6144,
+              "end": 6159,
+              "text": "Bacopa monnieri",
               "labels": [
                 "Scientific Plant Name"
               ]
@@ -64,9 +64,9 @@
             "to_name": "text",
             "type": "labels",
             "value": {
-              "start": 6172,
-              "end": 6187,
-              "text": "Bacopa monnieri",
+              "start": 6226,
+              "end": 6251,
+              "text": "Chlorophytum borivilianum",
               "labels": [
                 "Scientific Plant Name"
               ]
@@ -78,9 +78,9 @@
             "to_name": "text",
             "type": "labels",
             "value": {
-              "start": 6254,
-              "end": 6279,
-              "text": "Chlorophytum borivilianum",
+              "start": 6740,
+              "end": 6759,
+              "text": "Momardica chasintia",
               "labels": [
                 "Scientific Plant Name"
               ]
@@ -132,23 +132,71 @@
           },
           {
             "from_id": "entity_4",
-            "to_id": "entity_0",
+            "to_id": "entity_5",
             "type": "relation",
             "labels": [
               "treats_medical_condition"
             ]
           },
           {
-            "from_id": "entity_5",
-            "to_id": "entity_0",
+            "from_id": "entity_4",
+            "to_id": "entity_6",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_2",
+            "to_id": "entity_1",
             "type": "relation",
             "labels": [
               "has_medicinal_effect"
             ]
           },
           {
-            "from_id": "entity_6",
-            "to_id": "entity_0",
+            "from_id": "entity_3",
+            "to_id": "entity_1",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_4",
+            "to_id": "entity_2",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_4",
+            "to_id": "entity_3",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_4",
+            "to_id": "entity_4",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_4",
+            "to_id": "entity_5",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_4",
+            "to_id": "entity_6",
             "type": "relation",
             "labels": [
               "has_medicinal_effect"
@@ -549,9 +597,9 @@
             "to_name": "text",
             "type": "labels",
             "value": {
-              "start": 13054,
+              "start": 13044,
               "end": 13063,
-              "text": "dysentery",
+              "text": "Bacillary dysentery",
               "labels": [
                 "Medical Condition"
               ]
@@ -1133,7 +1181,7 @@
           },
           {
             "from_id": "entity_0",
-            "to_id": "entity_2",
+            "to_id": "entity_10",
             "type": "relation",
             "labels": [
               "has_medicinal_effect"
@@ -1141,54 +1189,6 @@
           },
           {
             "from_id": "entity_0",
-            "to_id": "entity_3",
-            "type": "relation",
-            "labels": [
-              "has_medicinal_effect"
-            ]
-          },
-          {
-            "from_id": "entity_0",
-            "to_id": "entity_4",
-            "type": "relation",
-            "labels": [
-              "has_medicinal_effect"
-            ]
-          },
-          {
-            "from_id": "entity_0",
-            "to_id": "entity_5",
-            "type": "relation",
-            "labels": [
-              "has_medicinal_effect"
-            ]
-          },
-          {
-            "from_id": "entity_0",
-            "to_id": "entity_6",
-            "type": "relation",
-            "labels": [
-              "has_medicinal_effect"
-            ]
-          },
-          {
-            "from_id": "entity_0",
-            "to_id": "entity_7",
-            "type": "relation",
-            "labels": [
-              "has_medicinal_effect"
-            ]
-          },
-          {
-            "from_id": "entity_0",
-            "to_id": "entity_8",
-            "type": "relation",
-            "labels": [
-              "has_medicinal_effect"
-            ]
-          },
-          {
-            "from_id": "entity_1",
             "to_id": "entity_2",
             "type": "relation",
             "labels": [
@@ -1196,7 +1196,7 @@
             ]
           },
           {
-            "from_id": "entity_1",
+            "from_id": "entity_0",
             "to_id": "entity_3",
             "type": "relation",
             "labels": [
@@ -1204,7 +1204,7 @@
             ]
           },
           {
-            "from_id": "entity_1",
+            "from_id": "entity_0",
             "to_id": "entity_4",
             "type": "relation",
             "labels": [
@@ -1212,7 +1212,7 @@
             ]
           },
           {
-            "from_id": "entity_1",
+            "from_id": "entity_0",
             "to_id": "entity_5",
             "type": "relation",
             "labels": [
@@ -1220,7 +1220,7 @@
             ]
           },
           {
-            "from_id": "entity_1",
+            "from_id": "entity_0",
             "to_id": "entity_6",
             "type": "relation",
             "labels": [
@@ -1228,7 +1228,7 @@
             ]
           },
           {
-            "from_id": "entity_1",
+            "from_id": "entity_0",
             "to_id": "entity_7",
             "type": "relation",
             "labels": [
@@ -1236,8 +1236,16 @@
             ]
           },
           {
-            "from_id": "entity_1",
+            "from_id": "entity_0",
             "to_id": "entity_8",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_9",
             "type": "relation",
             "labels": [
               "treats_medical_condition"
