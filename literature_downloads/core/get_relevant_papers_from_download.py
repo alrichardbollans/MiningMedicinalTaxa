@@ -12,7 +12,7 @@ import pandas as pd
 sys.path.append('../..')
 from literature_downloads import query_name, number_of_keywords, build_output_dict
 
-scratch_path = os.environ.get('SCRATCH')
+scratch_path = os.environ.get('KEWSCRATCHPATH')
 
 core_project_path = os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'core')
 core_download_path = os.path.join(core_project_path, 'downloads')
@@ -55,9 +55,9 @@ def retrieve_text_before_phrase(given_text: str, my_regex, simple_string: str) -
 
         pre_split = text_split[0]
         if len(text_split) > 1:
-            post_split = text_split[
-                1]  # If maxsplit is nonzero, at most maxsplit splits occur, and the remainder of the string is returned as the final element of the list
-            # if text after split point is longer than before, then revert.
+            # At most 1 split occurs, if there has been a split the remainder of the string is returned as the final element of the list.
+            # if text after split point is longer than before the split, then revert to given text.
+            post_split = text_split[1]
             if len(post_split) > len(pre_split):
                 pre_split = given_text
 
@@ -144,7 +144,54 @@ def process_tar_paper_member_lines(lines):
             return info_df
 
 
-def get_relevant_papers_from_download():
+def process_provider(provider: tarfile.TarInfo, main_archive: tarfile.TarFile) -> None:
+    provider_file_obj = main_archive.extractfile(provider)
+    tar_archive_name = os.path.basename(provider.name)
+    provider_csv = os.path.join(core_paper_info_query_path, tar_archive_name + '.csv')
+
+    # Check if already done. Useful for when e.g. cluster fails
+    if not os.path.isfile(provider_csv):
+        start_time = time.time()
+        paper_count = 0
+        with tarfile.open(fileobj=provider_file_obj, mode='r') as sub_archive:
+
+            tasks = []
+            provider_outputs = []
+            with multiprocessing.Pool(128) as pool:
+                for paper_member in sub_archive:
+                    if paper_member.name.endswith('.json'):
+                        paper_count += 1
+                        # Cannot serialize these objects, so get lines out before adding to process
+                        f = sub_archive.extractfile(paper_member)
+                        lines = f.readlines()
+                        f.close()
+                        tasks.append(pool.apply_async(process_tar_paper_member_lines, args=(lines,)))
+                    elif '.tar' in paper_member.name:
+                        print('Need more recursion')
+                        raise ValueError
+
+                for task in tasks:
+                    paper_df = task.get()
+                    if paper_df is not None:
+                        provider_outputs.append(paper_df)
+
+            if len(provider_outputs) > 0:
+                provider_df = pd.concat(provider_outputs)
+            else:
+                provider_df = pd.DataFrame()
+                provider_df['corpusid'] = np.nan
+
+            provider_df['tar_archive_name'] = tar_archive_name
+            provider_df.set_index(['corpusid'], drop=True).to_csv(provider_csv)
+            end_time = time.time()
+            print(
+                f'{len(provider_df)} out of {paper_count} papers collected from provider: {tar_archive_name}. Took {round((end_time - start_time) / 60, 2)} mins.')
+
+    else:
+        print(f'Already checked: {provider_csv}')
+
+
+def get_relevant_papers_from_download(profile: bool = False):
     print('unzipping main archive')
     with tarfile.open(CORE_TAR_FILE, 'r') as main_archive:
         # This is slow but useful info. # Main archive length: 10251
@@ -153,56 +200,22 @@ def get_relevant_papers_from_download():
         # iterate over members then get all members out of these
         # Each member is a Data provider, see here: https://core.ac.uk/data-providers
         print('unzipped main archive')
-        for provider in main_archive:
-            provider_file_obj = main_archive.extractfile(provider)
-            tar_archive_name = os.path.basename(provider.name)
-            provider_csv = os.path.join(core_paper_info_query_path, tar_archive_name + '.csv')
+        count = 0
+        while count < 1:
+            count += 1
+            for provider in main_archive:
+                if profile:
+                    import cProfile
+                    import pstats
 
-            # Check if already done. Useful for when e.g. cluster fails
-            if not os.path.isfile(provider_csv):
-                start_time = time.time()
-                paper_count = 0
-                with tarfile.open(fileobj=provider_file_obj, mode='r') as sub_archive:
+                    with cProfile.Profile() as pr:
+                        process_provider(provider, main_archive)
 
-                    tasks = []
-                    provider_outputs = []
-                    with multiprocessing.Pool(128) as pool:
-                        for paper_member in sub_archive:
-                            if paper_member.name.endswith('.json'):
-                                paper_count += 1
-                                # Cannot serialize these objects, so get lines out before adding to process
-                                f = sub_archive.extractfile(paper_member)
-                                lines = f.readlines()
-                                f.close()
-                                tasks.append(pool.apply_async(process_tar_paper_member_lines, args=(lines,)))
-                            elif '.tar' in paper_member.name:
-                                print('Need more recursion')
-                                raise ValueError
-
-                        for task in tasks:
-                            paper_df = task.get()
-                            if paper_df is not None:
-                                provider_outputs.append(paper_df)
-
-                    if len(provider_outputs) > 0:
-                        provider_df = pd.concat(provider_outputs)
-                    else:
-                        provider_df = pd.DataFrame()
-                        provider_df['corpusid'] = np.nan
-
-                    provider_df['tar_archive_name'] = tar_archive_name
-                    provider_df.set_index(['corpusid'], drop=True).to_csv(provider_csv)
-                    end_time = time.time()
-                    print(
-                        f'{len(provider_df)} out of {paper_count} papers collected from provider: {tar_archive_name}. Took {round((end_time - start_time) / 60, 2)} mins.')
-                    if paper_count > 0:
-                        speed = round((end_time - start_time) / paper_count, 5)
-                    else:
-                        speed = 0
-                    print(f'Took {speed} seconds per record')
-
-            else:
-                print(f'Already checked: {provider_csv}')
+                    stats = pstats.Stats(pr)
+                    stats.sort_stats(pstats.SortKey.TIME)
+                    stats.print_stats()
+                else:
+                    process_provider(provider, main_archive)
 
 
 if __name__ == '__main__':
