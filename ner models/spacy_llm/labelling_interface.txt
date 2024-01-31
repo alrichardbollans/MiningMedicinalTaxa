@@ -3,17 +3,14 @@
 <View>
   <!-- Define Relationships -->
   <Relations>
-    <Relation value="has_common_name" color="#f48fb1"/>
-    <Relation value="causes_condition" color="#90caf9"/>
-    <Relation value="treats_condition" color="#80deea"/>
+    <Relation value="treats_medical_condition" color="#90caf9"/>
     <Relation value="has_medicinal_effect" color="#85feca"/>
   </Relations>
 
   <!-- Define Labels -->
   <Labels name="label" toName="text">
     <Label value="Scientific Plant Name" background="#ff8080"/>
-    <Label value="Common Name" background="#aed581"/>
-    <Label value="Condition" background="#0d25d3"/>
+    <Label value="Medical Condition" background="#0d25d3"/>
   	<Label value="Medicinal Effect" background="#9efff9"/></Labels>
 
   <!-- Text to be labeled -->
