@@ -3,7 +3,12 @@ import nltk
 import tiktoken
 from nltk.tokenize import sent_tokenize
 
+# Import text processing functions
+from ner_string_methods import retrieve_text_before_phrase, remove_double_spaces_and_break_characters, remove_HTML_tags, \
+    normalize_text_encoding
+
 nltk.download('punkt')
+
 
 # Function to count tokens using tiktoken
 def num_tokens_from_string(string: str, encoding_name: str) -> int:
@@ -11,10 +16,14 @@ def num_tokens_from_string(string: str, encoding_name: str) -> int:
     num_tokens = len(encoding.encode(string))
     return num_tokens
 
+
 def process_text_file(file_path, max_tokens=4000, encoding_name="cl100k_base"):
     with open(file_path, 'r', encoding='utf-8') as file:
         text = file.read()
-
+    text = retrieve_text_before_phrase(text, 'REFERENCES')
+    text = remove_double_spaces_and_break_characters(text)
+    text = remove_HTML_tags(text)
+    text = normalize_text_encoding(text)
     sentences = sent_tokenize(text)
 
     chunks = []
@@ -34,6 +43,7 @@ def process_text_file(file_path, max_tokens=4000, encoding_name="cl100k_base"):
         chunks.append(' '.join(current_chunk))
 
     return chunks
+
 
 input_folder = '3_medicinal_hits'
 output_folder = 'preprocessed'
