@@ -4,8 +4,11 @@ import tiktoken
 from nltk.tokenize import sent_tokenize
 
 # Import text processing functions
-from ner_string_methods import retrieve_text_before_phrase, remove_double_spaces_and_break_characters, remove_HTML_tags, \
-    normalize_text_encoding
+from ner_string_methods import (
+    retrieve_text_before_phrase,
+    remove_double_spaces_and_break_characters,
+    convert_nonascii_to_ascii
+)
 
 nltk.download('punkt')
 
@@ -22,8 +25,7 @@ def process_text_file(file_path, max_tokens=4000, encoding_name="cl100k_base"):
         text = file.read()
     text = retrieve_text_before_phrase(text, 'REFERENCES')
     text = remove_double_spaces_and_break_characters(text)
-    text = remove_HTML_tags(text)
-    text = normalize_text_encoding(text)
+    text = convert_nonascii_to_ascii(text)
     sentences = sent_tokenize(text)
 
     chunks = []
@@ -45,8 +47,8 @@ def process_text_file(file_path, max_tokens=4000, encoding_name="cl100k_base"):
     return chunks
 
 
-input_folder = '3_medicinal_hits'
-output_folder = 'preprocessed'
+input_folder = os.path.join('ner models', 'spacy_llm', '3_medicinal_hits')
+output_folder = os.path.join('ner models', 'spacy_llm', 'preprocessed')
 os.makedirs(output_folder, exist_ok=True)
 
 for file in os.listdir(input_folder):
