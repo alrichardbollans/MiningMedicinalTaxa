@@ -1,0 +1,34 @@
+- text:  Terminalia bellarica Roxb. Acacia arabica Combretaceae Fruit Bronchial asthma, eye diseases, diarrhea, constipation, worm infections, cardiac diseases
+  entities:
+    Scientific Plant Name:
+      - Terminalia bellarica Roxb.
+    Medical Condition:
+      - Bronchial asthma
+      - eye diseases
+      - diarrhea
+      - constipation
+      - worm infections
+      - cardiac diseases
+- text: Sida cordifolia Linn. Country mallow Malvaceae Roots Anti-inflammatory, stimulant, used in cases of polyurea, spermatorrhea, leucorrhea, for nervous disorders, coryza, and cardiac diseases.
+  entities:
+    Scientific Plant Name:
+      - Sida cordifolia Linn.
+    Medicinal Effect:
+      - Anti-inflammatory
+      - stimulant
+    Medical Condition:
+      - cases of polyurea
+      - spermatorrhea
+      - nervous disorders
+      - coryza
+      - cardiac diseases
+- text: Anti-inflammatory [117] 170 3,5-Di-O-caffeoylquinic acid [94].
+  entities:
+    Medicinal Effect:
+      - Anti-inflammatory
+- text: Mirroring the positive control neomycin sulfate, the ethanol extract of B. pilosa had faster wound closure than control rats 3, 6, and 9 days after topical application.
+  entities: 
+    Scientific Plant Name:
+      - B. pilosa
+    Medicinal Effect:
+      - faster wound closure
