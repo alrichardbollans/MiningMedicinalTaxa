@@ -1,15 +1,13 @@
 import os
 import json
 import logging
-import spacy_llm
 from spacy_llm.util import assemble
+import spacy_llm
 from dotenv import load_dotenv
-
 
 def load_environment_variables():
     """ Load environment variables from a .env file. """
     load_dotenv()
-
 
 def configure_logging():
     """ Configure logging for the application. """
@@ -17,11 +15,9 @@ def configure_logging():
     spacy_llm.logger.setLevel(logging.DEBUG)
     spacy_llm.logger.addHandler(handler)
 
-
 def load_spacy_model(config_file):
     """ Load and return a spaCy model based on the provided configuration. """
     return assemble(config_file)
-
 
 def format_document_spans(doc, entity_id_map):
     """ Format document spans for Label Studio. """
@@ -44,7 +40,6 @@ def format_document_spans(doc, entity_id_map):
             formatted_spans.append(span_data)
     return formatted_spans
 
-
 def format_document_relations(doc):
     """ Extract and format relations from the document. """
     formatted_relations = []
@@ -63,7 +58,6 @@ def format_document_relations(doc):
 
     return formatted_relations
 
-
 def process_text_files(folder_path, model):
     """ Process text files in a given folder and extract entities and relations. """
     tasks = []
@@ -79,13 +73,11 @@ def process_text_files(folder_path, model):
                 tasks.append(task)
     return tasks
 
-
 def save_tasks_to_json(tasks, output_file):
     """ Save the tasks to a JSON file. """
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(tasks, f, indent=2)
     print(f'Saved {len(tasks)} tasks to "{output_file}"')
-
 
 def main():
     load_environment_variables()
@@ -94,7 +86,6 @@ def main():
     preprocessed_folder = 'preprocessed'
     tasks = process_text_files(preprocessed_folder, nlp_model)
     save_tasks_to_json(tasks, 'tasks_for_label_studio.json')
-
 
 if __name__ == "__main__":
     main()
