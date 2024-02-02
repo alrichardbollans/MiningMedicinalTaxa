@@ -1,0 +1,107 @@
+[
+  {
+    "text": "Sida cordifolia Linn. Country mallow Malvaceae Roots Anti-inflammatory, stimulant, used in cases of polyurea, spermatorrhea, leucorrhea, for nervous disorders, coryza and cardiac diseases",
+    "spans": [
+      {
+        "text": "Sida cordifolia Linn.",
+        "is_entity": true,
+        "label": "Scientific Plant Name",
+        "reason": "is a plant scientific name"
+      },
+      {
+        "text": "Country mallow",
+        "is_entity": false,
+        "label": "==NONE==",
+        "reason": "is a vernacular plant name"
+      },
+      {
+        "text": "Anti-inflammatory",
+        "is_entity": true,
+        "label": "Medicinal Effect",
+        "reason": "is a medicinal effect"
+      },
+      {
+        "text": "stimulant",
+        "is_entity": true,
+        "label": "Medicinal Effect",
+        "reason": "is a medicinal effect"
+      },
+      {
+        "text": "cases of polyurea",
+        "is_entity": true,
+        "label": "Medical Condition",
+        "reason": "is a medical condition"
+      },
+      {
+        "text": "spermatorrhea",
+        "is_entity": true,
+        "label": "Medical Condition",
+        "reason": "is a medical condition"
+      },
+      {
+        "text": "leucorrhea",
+        "is_entity": true,
+        "label": "Medical Condition",
+        "reason": "is a medical condition"
+      },
+      {
+        "text": "nervous disorders",
+        "is_entity": true,
+        "label": "Medical Condition",
+        "reason": "is a medical condition"
+      },  
+      {
+        "text": "coryza",
+        "is_entity": true,
+        "label": "Medical Condition",
+        "reason": "is a medical condition"
+      },
+      {
+        "text": "cardiac diseases",
+        "is_entity": true,
+        "label": "Medical Condition",
+        "reason": "is a medical condition"
+      }
+    ]
+  },
+  {
+    "text": "Anti-inflammatory [117] 170 3,5-Di-O-caffeoylquinic acid [94] ",
+    "spans": [
+      {
+        "text": "Anti-inflammatory",
+        "is_entity": true,
+        "label": "Medicinal Effect",
+        "reason": "is a medicinal effect"
+      },
+      {
+        "text": "-Di-O-caffeoylquinic acid",
+        "is_entity": false,
+        "label": "==NONE==",
+        "reason": "is a chemical compound"
+      }
+    ]
+  },
+  {
+    "text": "Mirroring the positive control neomycin sulfate, the ethanol extract of B. pilosa had faster wound closure than control rats 3, 6, and 9 days after topical application.",
+    "spans": [
+      {
+        "text": "B. pilosa",
+        "is_entity": true,
+        "label": "Scientific Plant Name",
+        "reason": "is a scientific plant name"
+      },
+      {
+        "text": "faster wound closure",
+        "is_entity": true,
+        "label": "Medicinal Effect",
+        "reason": "is a medicinal effect"
+      },
+      {
+        "text": "3",
+        "is_entity": false,
+        "label": "==NONE==",
+        "reason": "is just a number"
+      }
+    ]
+  }
+]
