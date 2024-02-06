@@ -1,136 +1,173 @@
-import json
-import multiprocessing
+import ast
+import gc
 import os
-import tarfile
 import zipfile
-from concurrent.futures import ThreadPoolExecutor
 from typing import Union, List
 
+import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
-from literature_downloads.core import core_paper_info_path, clean_paper_text, core_text_path, core_abstracts_path, \
-    CORE_TAR_FILE, core_download_path
+from literature_downloads.core import core_paper_info_path, core_text_path, core_abstracts_path, \
+    core_download_path
+
+KINGDOM_SORT_ORDER = ['plant_species_binomials_unique_total', 'fungi_species_binomials_unique_total',
+                      'plant_genus_names_unique_total', 'fungi_genus_names_unique_total',
+                      'plant_family_names_unique_total', 'fungi_family_names_unique_total']
 
 
-def get_papers_from_query(q_name: str, sort_order: List[str], capacity: int, out_csv: str, folder_tag: str):
-    query_zip = os.path.join(core_paper_info_path, q_name + '.zip')  # zip downloaded from cluster
-    with zipfile.ZipFile(query_zip, "r") as zf:
-        namelist = zf.namelist()
-        df_files = [f for f in namelist if f.endswith('.csv')]
-        dfs = []
-        for i in tqdm(range(len(df_files))):
-            dfs.append(pd.read_csv(zf.open(df_files[i])).sort_values(by=sort_order, ascending=False).reset_index(drop=True).head(
-                capacity))  ## Limit capacity to save memory
-        paper_info_df = pd.concat(dfs)
-    sorted_df = paper_info_df.sort_values(
-        by=sort_order,
-        ascending=False).reset_index(drop=True).head(capacity)
-    sorted_df.to_csv(out_csv)
-    save_texts_from_ids(sorted_df['corpusid'].values.tolist(), sorted_df['tar_archive_name'].values.tolist(), folder_tag)
+def get_papers_with_value_greater_than_zero(df: pd.DataFrame, colstocheck=None) -> pd.DataFrame:
+    if colstocheck is None:
+        colstocheck = KINGDOM_SORT_ORDER
+    mask = np.column_stack([df[col] > 0 for col in colstocheck])
+    df = df.loc[mask.any(axis=1)]
+    return df
 
 
-def save_texts_from_provider(provider, providers, ids_to_check, folder_tag, get_abstracts):
-    paper_count_from_provider = 0
-    provider_name = os.path.basename(provider.name)
-    if provider_name in providers:
-        with tarfile.open(CORE_TAR_FILE, 'r') as main_archive:
-            provider_file_obj = main_archive.extractfile(provider)
+class CQuery:
+    def __init__(self, zip_file: str, extracted_paper_csv: str, sort_order: List[str], capacity: int):
+        self.zip_file = os.path.join(core_paper_info_path, zip_file)
+        self.extracted_paper_csv = extracted_paper_csv
+        self.sort_order = sort_order
+        self.capacity = capacity
 
-            with tarfile.open(fileobj=provider_file_obj, mode='r') as sub_archive:
-                # Data providers of each subarchive are here: https://core.ac.uk/data-providers
-                members = sub_archive.getmembers()
-                for i in tqdm(range(len(members))):
-                    m = members[i]
-                    if m.name.endswith('.json'):
-                        f = sub_archive.extractfile(m)
-                        lines = f.readlines()
-                        paper = json.loads(lines[0])
-                        corpusid = paper['coreId']
+    def sort_df(self, df: pd.DataFrame):
+        # Only return papers with Kingdom mentions
+        df = get_papers_with_value_greater_than_zero(df)
+        # Sort by sort order at get top
+        df = df.sort_values(by=self.sort_order, ascending=False).reset_index(drop=True).head(
+            self.capacity)
+        return df
 
-                        if corpusid in ids_to_check:
-                            paper_count_from_provider += 1
-                            text = clean_paper_text(paper)
-                            corpusid = paper['coreId']
+    def extract_query_zip(self):
+        # Extract filtered papers into one clean dataframe
 
-                            with open(os.path.join(core_text_path, folder_tag, corpusid + '.txt'), 'w') as textfile:
-                                textfile.write(text)
+        with zipfile.ZipFile(self.zip_file, "r") as zf:
+            namelist = zf.namelist()
+            df_files = [f for f in namelist if f.endswith('.csv')]
+            dfs = []
 
-                            if get_abstracts:
-                                if paper['abstract'] is not None:
-                                    with open(os.path.join(core_abstracts_path, folder_tag, corpusid + '.txt'), 'w') as absfile:
-                                        absfile.write(paper['abstract'])
-    print(f'{paper_count_from_provider} papers collected from: {provider_name}')
+            for i in tqdm(range(len(df_files))):
+                if i % 1000 == 0:
+                    # Run garbage collection periodically so df instances are not kept in memory
+                    collected = gc.collect()
+                    # Prints Garbage collector
+                    # as 0 object
+                    print("Garbage collector: collected",
+                          "%d objects." % collected)
+                name = df_files[i]
+                df = pd.read_csv(zf.open(name))
+                if len(df.columns) > 2:
+                    df = self.sort_df(df)
+                df = clean_papers(df)
+                if df is not None:
 
-    return paper_count_from_provider
+                    dfs.append(df)
+        print('concatting')
+        # TODO: batch this to concat slices and then sort and then concat (in say batches of 100).
+        paper_df = pd.concat(dfs)
+        print('final sort')
+        paper_df = self.sort_df(paper_df)
+        print('writing')
+        paper_df.to_csv(self.extracted_paper_csv)
 
+    def save_texts(self):
+        paper_count_from_provider = 0
+        provider_name = os.path.basename(provider.name)
 
-def save_texts_from_ids(ids: List[int], providers: List[int], folder_tag: str, get_abstracts: bool = False):
-    ids_to_check = ids + [str(int_id) for int_id in ids]
-    number_of_papers_to_check = len(ids)
+        print(f'{paper_count_from_provider} papers collected from: {provider_name}')
 
-    if not os.path.exists(os.path.join(core_text_path, folder_tag)):
-        os.mkdir(os.path.join(core_text_path, folder_tag))
-    if not os.path.exists(os.path.join(core_abstracts_path, folder_tag)):
-        os.mkdir(os.path.join(core_abstracts_path, folder_tag))
-    BATCH_SIZE = 1000
-    with tarfile.open(CORE_TAR_FILE, 'r') as main_archive:
-        with multiprocessing.Pool(64) as pool:
-            i = 0
-            for member in main_archive:
-                fileCounter = 0
-                for root, dirs, files in os.walk(os.path.join(core_text_path, folder_tag)):
-                    for file in files:
-                        if file.endswith('.txt'):
-                            fileCounter += 1
-                if fileCounter == number_of_papers_to_check:
-                    tasks = []
-                    print('Collected all papers')
-                    break
-                else:
-                    if i % BATCH_SIZE == 0:
-                        tasks = []
-                    tasks.append(pool.apply_async(save_texts_from_provider, args=(member, providers, ids_to_check, folder_tag, get_abstracts,)))
+        return paper_count_from_provider
 
-                    if i % BATCH_SIZE == BATCH_SIZE - 1:
-                        for task in tasks:
-                            task.get()
-                        tasks = []
-                    i += 1
+    def load_texts_from_id(self, given_id: Union[int, str]):
+        text_path = os.path.join(core_text_path, str(given_id) + '.txt')
+        text_file = open(text_path, 'r')
+        # read all lines at once
+        text = text_file.read()
+        # close the file
+        text_file.close()
 
-            # Remaining partial batch
-            for task in tasks:
-                task.get()
-
-
-def load_texts_from_id(given_id: Union[int, str]):
-    text_path = os.path.join(core_text_path, str(given_id) + '.txt')
-    text_file = open(text_path, 'r')
-    # read all lines at once
-    text = text_file.read()
-    # close the file
-    text_file.close()
-
-    abstract_path = os.path.join(core_abstracts_path, str(given_id) + '.txt')
-    abs_file = open(abstract_path, 'r')
-    # read all lines at once
-    abstract = abs_file.read()
-    # close the file
-    abs_file.close()
-    return text, abstract
+        abstract_path = os.path.join(core_abstracts_path, str(given_id) + '.txt')
+        abs_file = open(abstract_path, 'r')
+        # read all lines at once
+        abstract = abs_file.read()
+        # close the file
+        abs_file.close()
+        return text, abstract
 
 
-def example():
-    kingdom_sort_order = ['plant_species_binomials_unique_total', 'fungi_species_binomials_unique_total',
-                          'plant_genus_names_unique_total', 'fungi_genus_names_unique_total',
-                          'plants_unique_total', 'fungi_family_names_unique_total']
-    medicine_sort_order = ['medicinal entity_unique_total', 'medicinal_unique_total'] + kingdom_sort_order
-    toxic_sort_order = ['toxicology entity_unique_total', 'toxicology_unique_total'] + kingdom_sort_order
+def clean_papers(df: pd.DataFrame) -> pd.DataFrame:
+    # This is currently messy but can be tidied for future versions
+    # Clean to match newer versions with previous versions of get_rel script
+    # Apply some checks
+    def optimised_dict_conversion(input_str: str):
+        if input_str == '{}':
+            out = []
+        else:
+            out = list(ast.literal_eval(input_str).keys())
+        return out
 
-    get_papers_from_query('en_medic_toxic_keywords', medicine_sort_order, 10, os.path.join(core_download_path, 'top10_medicinals.csv'),
-                          'medicinal')
-    get_papers_from_query('en_medic_toxic_keywords', toxic_sort_order, 10, os.path.join(core_download_path, 'top10_toxics.csv'), 'toxic')
+    first_columns = ['corpusid', 'oai', 'DOI', 'year', 'language', 'journals', 'issn', 'subjects', 'topics', 'title', 'authors',
+                     'oaurl', 'abstract_path', 'text_path', 'fungi_genus_names_counts', 'fungi_genus_names_total',
+                     'fungi_genus_names_unique_total', 'fungi_species_binomials_counts', 'fungi_species_binomials_total',
+                     'fungi_species_binomials_unique_total', 'fungi_counts', 'fungi_total', 'fungi_unique_total',
+                     'fungi_family_names_counts', 'fungi_family_names_total', 'fungi_family_names_unique_total',
+                     'plant_family_names_counts', 'plant_family_names_total', 'plant_family_names_unique_total',
+                     'toxicology_counts', 'toxicology_total', 'toxicology_unique_total', 'medicinal_counts', 'medicinal_total',
+                     'medicinal_unique_total', 'medicinal entity_counts', 'medicinal entity_total',
+                     'medicinal entity_unique_total', 'plant_species_binomials_counts', 'plant_species_binomials_total',
+                     'plant_species_binomials_unique_total', 'toxicology entity_counts', 'toxicology entity_total',
+                     'toxicology entity_unique_total', 'plant_genus_names_counts', 'plant_genus_names_total',
+                     'plant_genus_names_unique_total', 'lifeform_counts', 'lifeform_total', 'lifeform_unique_total',
+                     'plants_counts', 'plants_total', 'plants_unique_total', 'tar_archive_name']
+    second_columns = ['corpusid', 'oai', 'DOI', 'year', 'language', 'journals', 'issn', 'subjects', 'topics', 'title', 'authors', 'oaurl',
+                      'abstract_path', 'text_path', 'fungi_genus_names_counts', 'fungi_genus_names_unique_total', 'fungi_species_binomials_counts',
+                      'fungi_species_binomials_unique_total', 'fungi_counts', 'fungi_unique_total', 'fungi_family_names_counts',
+                      'fungi_family_names_unique_total', 'plant_family_names_counts', 'plant_family_names_unique_total', 'toxicology_counts',
+                      'toxicology_unique_total', 'medicinal_counts', 'medicinal_unique_total', 'medicinal entity_counts',
+                      'medicinal entity_unique_total', 'plant_species_binomials_counts', 'plant_species_binomials_unique_total',
+                      'toxicology entity_counts', 'toxicology entity_unique_total', 'plant_genus_names_counts', 'plant_genus_names_unique_total',
+                      'lifeform_counts', 'lifeform_unique_total', 'plants_counts', 'plants_unique_total', 'tar_archive_name']
+    # These should be dropped
+    in_old_but_not_new = ['fungi_genus_names_total', 'fungi_species_binomials_total', 'fungi_total', 'fungi_family_names_total',
+                          'plant_family_names_total', 'toxicology_total', 'medicinal_total', 'medicinal entity_total',
+                          'plant_species_binomials_total', 'toxicology entity_total', 'plant_genus_names_total', 'lifeform_total', 'plants_total']
+    if len(df.columns) > 2:
+
+        if df.columns.tolist() == first_columns:
+            for c in in_old_but_not_new:
+                unq_c = c.replace('_total', '_unique_total')
+                problems = df[df[unq_c].gt(df[c])]
+                assert len(problems.index) == 0
+            df = df.drop(columns=in_old_but_not_new)
+            for col in df.columns:
+                if 'count' in col:
+                    df[col] = df[col].apply(optimised_dict_conversion)
+
+        elif df.columns.tolist() != second_columns:
+            print(df)
+            raise ValueError(f'{df.columns.tolist()}')
+
+    else:
+
+        # print(f'Skipping {name}: Columns {df.columns.tolist()}')
+        assert len(df.index) == 0
+        assert df.columns.tolist() == ['corpusid', 'tar_archive_name']
+        return None
+    return df
 
 
 if __name__ == '__main__':
-    example()
+    medicine_sort_order = ['medicinal entity_unique_total', 'medicinal_unique_total'] + KINGDOM_SORT_ORDER
+
+    medicinal_query = CQuery('en_medic_toxic_keywords3.zip',
+                             os.path.join(core_download_path, 'top_100_medicinals.csv'),
+                             medicine_sort_order,
+                             100)
+    medicinal_query.extract_query_zip()
+
+    toxic_sort_order = ['toxicology entity_unique_total', 'toxicology_unique_total'] + KINGDOM_SORT_ORDER
+    toxic_query = CQuery('en_medic_toxic_keywords3.zip',
+                         os.path.join(core_download_path, 'top_100_toxics.csv'),
+                         toxic_sort_order, 100)
+    toxic_query.extract_query_zip()
