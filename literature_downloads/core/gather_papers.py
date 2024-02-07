@@ -14,6 +14,8 @@ from literature_downloads.core import core_paper_info_path, core_text_path, core
 KINGDOM_SORT_ORDER = ['plant_species_binomials_unique_total', 'fungi_species_binomials_unique_total',
                       'plant_genus_names_unique_total', 'fungi_genus_names_unique_total',
                       'plant_family_names_unique_total', 'fungi_family_names_unique_total']
+medicine_sort_order = ['medicinal entity_unique_total', 'medicinal_unique_total'] + KINGDOM_SORT_ORDER
+toxic_sort_order = ['toxicology entity_unique_total', 'toxicology_unique_total'] + KINGDOM_SORT_ORDER
 
 
 def get_papers_with_value_greater_than_zero(df: pd.DataFrame, colstocheck=None) -> pd.DataFrame:
@@ -27,7 +29,7 @@ def get_papers_with_value_greater_than_zero(df: pd.DataFrame, colstocheck=None) 
 class CQuery:
     def __init__(self, zip_file: str, extracted_paper_csv: str, sort_order: List[str], capacity: int):
         self.zip_file = os.path.join(core_paper_info_path, zip_file)
-        self.extracted_paper_csv = extracted_paper_csv
+        self.extracted_paper_csv = extracted_paper_csv.replace('.csv', f'_top_{str(capacity)}.csv')
         self.sort_order = sort_order
         self.capacity = capacity
 
@@ -41,31 +43,23 @@ class CQuery:
 
     def extract_query_zip(self):
         # Extract filtered papers into one clean dataframe
-
+        paper_df = pd.DataFrame()
         with zipfile.ZipFile(self.zip_file, "r") as zf:
             namelist = zf.namelist()
             df_files = [f for f in namelist if f.endswith('.csv')]
-            dfs = []
 
             for i in tqdm(range(len(df_files))):
-                if i % 1000 == 0:
-                    # Run garbage collection periodically so df instances are not kept in memory
-                    collected = gc.collect()
-                    # Prints Garbage collector
-                    # as 0 object
-                    print("Garbage collector: collected",
-                          "%d objects." % collected)
                 name = df_files[i]
                 df = pd.read_csv(zf.open(name))
                 if len(df.columns) > 2:
                     df = self.sort_df(df)
                 df = clean_papers(df)
                 if df is not None:
+                    paper_df = pd.concat([paper_df, df])
+                # Periodically sort dataframe to save memory
+                if i % 2000 == 0 and i != 0:
+                    paper_df = self.sort_df(paper_df)
 
-                    dfs.append(df)
-        print('concatting')
-        # TODO: batch this to concat slices and then sort and then concat (in say batches of 100).
-        paper_df = pd.concat(dfs)
         print('final sort')
         paper_df = self.sort_df(paper_df)
         print('writing')
@@ -98,11 +92,12 @@ class CQuery:
 
 def clean_papers(df: pd.DataFrame) -> pd.DataFrame:
     # This is currently messy but can be tidied for future versions
+    # It is also slow because of literal_eval
     # Clean to match newer versions with previous versions of get_rel script
     # Apply some checks
     def optimised_dict_conversion(input_str: str):
         if input_str == '{}':
-            out = []
+            out = np.nan
         else:
             out = list(ast.literal_eval(input_str).keys())
         return out
@@ -158,16 +153,14 @@ def clean_papers(df: pd.DataFrame) -> pd.DataFrame:
 
 
 if __name__ == '__main__':
-    medicine_sort_order = ['medicinal entity_unique_total', 'medicinal_unique_total'] + KINGDOM_SORT_ORDER
-
     medicinal_query = CQuery('en_medic_toxic_keywords3.zip',
-                             os.path.join(core_download_path, 'top_100_medicinals.csv'),
+                             os.path.join(core_download_path, 'medicinals.csv'),
                              medicine_sort_order,
-                             100)
+                             10000)
+
     medicinal_query.extract_query_zip()
 
-    toxic_sort_order = ['toxicology entity_unique_total', 'toxicology_unique_total'] + KINGDOM_SORT_ORDER
     toxic_query = CQuery('en_medic_toxic_keywords3.zip',
-                         os.path.join(core_download_path, 'top_100_toxics.csv'),
-                         toxic_sort_order, 100)
+                         os.path.join(core_download_path, 'toxics.csv'),
+                         toxic_sort_order, 10000)
     toxic_query.extract_query_zip()
