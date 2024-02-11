@@ -14,8 +14,8 @@ from literature_downloads.core import core_paper_info_path, core_download_path
 KINGDOM_SORT_ORDER = ['plant_species_binomials_unique_total', 'fungi_species_binomials_unique_total',
                       'plant_genus_names_unique_total', 'fungi_genus_names_unique_total',
                       'plant_family_names_unique_total', 'fungi_family_names_unique_total']
-medicine_sort_order = ['medicinal entity_unique_total', 'medicinal_unique_total'] + KINGDOM_SORT_ORDER
-toxic_sort_order = ['toxicology entity_unique_total', 'toxicology_unique_total'] + KINGDOM_SORT_ORDER
+medicine_sort_order = ['medicinal entity_unique_total', 'medicinal_unique_total']
+toxic_sort_order = ['toxicology entity_unique_total', 'toxicology_unique_total']
 
 
 class CQuery:
@@ -25,6 +25,7 @@ class CQuery:
         self.output_dir = output_dir + f'_top_{str(capacity)}'
         self.summary_csv = os.path.join(self.output_dir, zip_file + '_summary.csv')  # This is only dependent on the zip
         self.extracted_paper_csv = os.path.join(self.output_dir, extracted_paper_csv_name.replace('.csv', f'_top_{str(capacity)}.csv'))
+        self.extracted_paper_summary_csv = self.extracted_paper_csv.replace('.csv', f'_summary.csv')
         self.sort_order = sort_order
         self.capacity = capacity
         self.tmp_dl_path = os.path.join(self.output_dir, 'tmp_downloads_for_core_providers_salt1982733')
@@ -97,18 +98,19 @@ class CQuery:
         return df
 
     @staticmethod
-    def get_papers_with_value_greater_than_zero(df: pd.DataFrame, colstocheck=None) -> pd.DataFrame:
-        if colstocheck is None:
-            colstocheck = KINGDOM_SORT_ORDER
+    def get_papers_with_value_greater_than_zero(df: pd.DataFrame, colstocheck: List[str]) -> pd.DataFrame:
+
         mask = np.column_stack([df[col] > 0 for col in colstocheck])
         df = df.loc[mask.any(axis=1)]
         return df
 
     def sort_df(self, df: pd.DataFrame):
         # Only return papers with Kingdom mentions
-        df = self.get_papers_with_value_greater_than_zero(df)
-        # Sort by sort order at get top
-        df = df.sort_values(by=self.sort_order, ascending=False).reset_index(drop=True).head(
+        df = self.get_papers_with_value_greater_than_zero(df, KINGDOM_SORT_ORDER)
+        # Only return papers with mentions from sort order
+        df = self.get_papers_with_value_greater_than_zero(df, self.sort_order)
+        # Sort by sort order and get top
+        df = df.sort_values(by=self.sort_order + KINGDOM_SORT_ORDER, ascending=False).reset_index(drop=True).head(
             self.capacity)
         return df
 
@@ -122,24 +124,42 @@ class CQuery:
             for i in tqdm(range(len(df_files))):
                 name = df_files[i]
                 df = pd.read_csv(zf.open(name))
-                # if len(df.columns) > 2:
-                #     df = self.sort_df(df)
+                if len(df.columns) > 2:
+                    ## Sorting is faster than cleaning
+                    df = self.sort_df(df)
                 df = self.clean_paper_df(df)
                 if df is not None:
                     paper_df = pd.concat([paper_df, df])
                 # Periodically sort dataframe to save memory
-                # if i % 2000 == 0 and i != 0:
-                #     paper_df = self.sort_df(paper_df)
-        # Summarise
-        print('summarising paper dataframe...')
-        paper_df[['corpusid', 'DOI', 'year', 'language', 'tar_archive_name', 'fungi_family_names_counts', 'plant_family_names_counts']].describe(
-            include='all').to_csv(
-            self.summary_csv)
+                if i % 2000 == 0 and i != 0:
+                    paper_df = self.sort_df(paper_df)
 
         print('final sort')
         paper_df = self.sort_df(paper_df)
         print('writing')
         paper_df.to_csv(self.extracted_paper_csv)
+        print('summarising')
+        paper_df['corpusid', 'DOI', 'year', 'language', 'tar_archive_name', 'fungi_family_names_counts', 'plant_family_names_counts'].describe(
+            include='all').to_csv(self.extracted_paper_summary_csv)
+
+    def summarise_zip(self):
+        cols_to_summarise = ['corpusid', 'DOI', 'year', 'language', 'tar_archive_name']
+        paper_df = pd.DataFrame()
+        with zipfile.ZipFile(self.zip_file, "r") as zf:
+            namelist = zf.namelist()
+            df_files = [f for f in namelist if f.endswith('.csv')]
+
+            for i in tqdm(range(len(df_files))):
+                name = df_files[i]
+                df = pd.read_csv(zf.open(name))
+                if len(df.columns) > 2:
+                    paper_df = pd.concat([paper_df, df[cols_to_summarise]])
+
+        # Summarise
+        print('summarising paper dataframe...')
+        paper_df.describe(
+            include='all').to_csv(
+            self.summary_csv)
 
     def download_providers(self):
         paper_df = pd.read_csv(self.extracted_paper_csv)
@@ -175,9 +195,10 @@ class CQuery:
                     json_files[corpus_id] = filepath
                     with open(filepath, 'r') as infile:
                         json_data = json.load(infile)['fullText']
-                    with open(os.path.join(self.text_dump_path, corpus_id+'.txt'), "w") as text_file:
+                    with open(os.path.join(self.text_dump_path, corpus_id + '.txt'), "w") as text_file:
                         text_file.write(json_data)
         raise ValueError('add some checks')
+
     def load_texts_from_id(self, given_id: Union[int, str]):
         pass
 
@@ -187,10 +208,11 @@ if __name__ == '__main__':
                              'medicinals.csv',
                              medicine_sort_order,
                              10000)
-
+    medicinal_query.summarise_zip()
     medicinal_query.extract_query_zip()
 
     toxic_query = CQuery('en_medic_toxic_keywords3.zip', os.path.join(core_download_path, 'toxics.csv'),
                          'toxics.csv',
                          toxic_sort_order, 10000)
+    toxic_query.summarise_zip()
     toxic_query.extract_query_zip()
