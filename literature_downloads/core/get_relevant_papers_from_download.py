@@ -1,9 +1,8 @@
+import fnmatch
 import json
-import multiprocessing
 import os
 import re
 import sys
-import tarfile
 import time
 
 import numpy as np
@@ -16,6 +15,9 @@ scratch_path = os.environ.get('KEWSCRATCHPATH')
 
 core_project_path = os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'core')
 core_download_path = os.path.join(core_project_path, 'downloads')
+extracted_core_path = os.path.join(core_project_path, 'extracted_core', 'data-ext', 'resync', 'output', 'tmp')
+
+# TODO: Remove abstract and text paths in future versions
 core_abstracts_path = os.path.join(core_download_path, 'abstracts')
 _rel_abstract_path = os.path.relpath(core_abstracts_path, scratch_path)
 
@@ -24,7 +26,7 @@ _rel_text_path = os.path.relpath(core_text_path, scratch_path)
 
 core_paper_info_path = os.path.join(core_download_path, 'paper_info')
 core_paper_info_query_path = os.path.join(core_paper_info_path, query_name)
-for p in [core_download_path, core_text_path, core_paper_info_path, core_abstracts_path, core_paper_info_query_path]:
+for p in [core_download_path, core_paper_info_path, core_paper_info_query_path]:
     if not os.path.exists(p):
         os.mkdir(p)
 
@@ -125,10 +127,7 @@ def return_provider_from_oai(given_provider: str):
         return None
 
 
-def process_tar_paper_member_lines(lines):
-    paper = json.loads(lines[0])
-    if len(lines) > 1:
-        raise ValueError('Unexpected number of lines in archive')
+def process_tar_paper_member_lines(paper):
     text = clean_paper_text(paper)
 
     if text is not None:
@@ -144,78 +143,61 @@ def process_tar_paper_member_lines(lines):
             return info_df
 
 
-def process_provider(provider: tarfile.TarInfo, main_archive: tarfile.TarFile) -> None:
-    provider_file_obj = main_archive.extractfile(provider)
-    tar_archive_name = os.path.basename(provider.name)
-    provider_csv = os.path.join(core_paper_info_query_path, tar_archive_name + '.csv')
+def process_provider(extracted_provider: str) -> None:
+    # TODO: Improve query path handling
+    # TODO: +'.tar.xz' This is an artifact to be removed in future versions
+
+    extracted_provider_archive = extracted_provider + '.tar.xz'
+    provider_csv = os.path.join(core_paper_info_query_path, extracted_provider_archive + '.csv')
 
     # Check if already done. Useful for when e.g. cluster fails
     if not os.path.isfile(provider_csv):
+        provider_df = pd.DataFrame()
         start_time = time.time()
         paper_count = 0
-        with tarfile.open(fileobj=provider_file_obj, mode='r') as sub_archive:
+        # find all .json files recursively in nested directories in PATH
+        extracted_provider_path = os.path.join(extracted_core_path, extracted_provider)
+        for root, dirnames, filenames in os.walk(extracted_provider_path):
+            for filename in fnmatch.filter(filenames, '*.json'):
+                paper_count += 1
 
-            tasks = []
-            provider_outputs = []
-            with multiprocessing.Pool(128) as pool:
-                for paper_member in sub_archive:
-                    if paper_member.name.endswith('.json'):
-                        paper_count += 1
-                        # Cannot serialize these objects, so get lines out before adding to process
-                        f = sub_archive.extractfile(paper_member)
-                        lines = f.readlines()
-                        f.close()
-                        tasks.append(pool.apply_async(process_tar_paper_member_lines, args=(lines,)))
-                    elif '.tar' in paper_member.name:
-                        print('Need more recursion')
-                        raise ValueError
+                filepath = os.path.join(root, filename)
+                with open(filepath, 'r') as infile:
+                    json_data = json.load(infile)
+                    paper_df = process_tar_paper_member_lines(json_data)
 
-                for task in tasks:
-                    paper_df = task.get()
                     if paper_df is not None:
-                        provider_outputs.append(paper_df)
+                        provider_df = pd.concat([paper_df, provider_df])
 
-            if len(provider_outputs) > 0:
-                provider_df = pd.concat(provider_outputs)
-            else:
-                provider_df = pd.DataFrame()
-                provider_df['corpusid'] = np.nan
-
-            provider_df['tar_archive_name'] = tar_archive_name
-            provider_df.set_index(['corpusid'], drop=True).to_csv(provider_csv)
-            end_time = time.time()
-            print(
-                f'{len(provider_df)} out of {paper_count} papers collected from provider: {tar_archive_name}. Took {round((end_time - start_time) / 60, 2)} mins.')
+        provider_df['tar_archive_name'] = extracted_provider_archive
+        if provider_df.empty:
+            # TODO: This is another artifact
+            provider_df['corpusid'] = np.nan
+        end_time = time.time()
+        provider_df.set_index(['corpusid'], drop=True).to_csv(provider_csv)
+        print(
+            f'{len(provider_df)} out of {paper_count} papers collected from provider: {extracted_provider_archive}.Took {round((end_time - start_time) / 60, 2)} mins.')
 
     else:
         print(f'Already checked: {provider_csv}')
 
 
 def get_relevant_papers_from_download(profile: bool = False):
-    print('unzipping main archive')
-    with tarfile.open(CORE_TAR_FILE, 'r') as main_archive:
-        # This is slow but useful info. # Main archive length: 10251
-        # print(f'Main archive length: {len(main_archive.getnames())}')
-        # names = main_archive.getnames()
-        # iterate over members then get all members out of these
+    for provider in os.listdir(extracted_core_path):
+        # Main archive length: 10251?
         # Each member is a Data provider, see here: https://core.ac.uk/data-providers
-        print('unzipped main archive')
-        count = 0
-        while count < 1:
-            count += 1
-            for provider in main_archive:
-                if profile:
-                    import cProfile
-                    import pstats
+        if profile:
+            import cProfile
+            import pstats
 
-                    with cProfile.Profile() as pr:
-                        process_provider(provider, main_archive)
+            with cProfile.Profile() as pr:
+                process_provider(provider)
 
-                    stats = pstats.Stats(pr)
-                    stats.sort_stats(pstats.SortKey.TIME)
-                    stats.print_stats()
-                else:
-                    process_provider(provider, main_archive)
+            stats = pstats.Stats(pr)
+            stats.sort_stats(pstats.SortKey.TIME)
+            stats.print_stats()
+        else:
+            process_provider(provider)
 
 
 if __name__ == '__main__':
