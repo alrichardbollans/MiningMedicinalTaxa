@@ -1,3 +1,4 @@
+import os
 import unicodedata
 import unittest
 
@@ -5,7 +6,7 @@ from pkg_resources import resource_filename
 
 from literature_downloads import get_kword_dict
 from ner_string_methods import retrieve_text_before_phrase, remove_double_spaces_and_break_characters, retrieve_paragraphs_containing_words, \
-    remove_HTML_tags, remove_non_ascii_characters, convert_nonascii_to_ascii
+    remove_HTML_tags, remove_non_ascii_characters, convert_nonascii_to_ascii, remove_unneccesary_lines
 
 _test_output_dir = resource_filename(__name__, 'test_outputs')
 
@@ -119,6 +120,32 @@ class TestNerStringMethodsCleaning(unittest.TestCase):
         self.assertEqual(convert_nonascii_to_ascii('\u0391'), 'A')
         self.assertEqual(convert_nonascii_to_ascii('α'), 'a')
         self.assertEqual(convert_nonascii_to_ascii('\udba0\udc20'), '')
+
+
+class TestlineMethods(unittest.TestCase):
+
+    def test_remove_unnecessary_lines_empty(self):
+        result = remove_unneccesary_lines('')
+        self.assertEqual(result, '', f'Expected empty string, got {result}')
+
+    def test_remove_unnecessary_lines_spaces(self):
+        result = remove_unneccesary_lines('    ')
+        self.assertEqual(result, '', f'Expected empty string, got {result}')
+
+    def test_remove_unnecessary_lines_multiline(self):
+        multiline_text = f"Some text here{os.linesep} {os.linesep}More text here"
+        expected_result = f"Some text here{os.linesep}More text here"
+        result = remove_unneccesary_lines(multiline_text)
+
+        self.assertEqual(result, expected_result, f'Expected {expected_result}, got {result}')
+
+    def test_remove_unnecessary_lines_with_tab(self):
+        text = "Some text here\t\t"
+        expected_result = """Some text here\t\t"""
+        result = remove_unneccesary_lines(text)
+
+        self.assertEqual(result, expected_result, f'Expected {expected_result}, got {result}')
+
 
 if __name__ == '__main__':
     unittest.main()

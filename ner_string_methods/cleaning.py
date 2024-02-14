@@ -1,3 +1,4 @@
+import os
 import re
 
 from typing import List
@@ -106,3 +107,9 @@ def convert_nonascii_to_ascii(input_str):
     - str: The input string with non-ASCII characters replaced by their ASCII equivalents.
     """
     return unidecode(input_str)
+
+
+def remove_unneccesary_lines(given_text: str) -> str:
+    '''Note this may remove information used to find paragraphs, but can be useful in reducing charcters'''
+    without_unneeded_lines = os.linesep.join([s for s in given_text.splitlines() if (not s.isspace())])
+    return without_unneeded_lines

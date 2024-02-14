@@ -10,6 +10,7 @@ import pandas as pd
 
 sys.path.append('../..')
 from literature_downloads import query_name, number_of_keywords, build_output_dict
+from ner_string_methods import remove_unneccesary_lines
 
 scratch_path = os.environ.get('KEWSCRATCHPATH')
 
@@ -73,10 +74,10 @@ def clean_paper_text(paper: dict) -> str:
     text = paper['fullText']
     if text is None:
         return None
-
+    given_text_cleaned = remove_unneccesary_lines(text)
     # Split by looking for an instance of 'Supplementary material' (ignoring case)
     # begins a line on its own (followed by any amount of whitespace and then a new line)
-    pre_reference = retrieve_text_before_phrase(text, _reference_regex, 'References')
+    pre_reference = retrieve_text_before_phrase(given_text_cleaned, _reference_regex, 'References')
     pre_supplementary = retrieve_text_before_phrase(pre_reference, _supp_regex, 'Supplementary material')
     pre_conflict = retrieve_text_before_phrase(pre_supplementary, _conf_regex, 'Conflict of interest')
     pre_acknowledgement = retrieve_text_before_phrase(pre_conflict, _ackno_regex, 'Acknowledgments')
@@ -152,6 +153,8 @@ def process_provider(extracted_provider: str) -> None:
 
     # Check if already done. Useful for when e.g. cluster fails
     if not os.path.isfile(provider_csv):
+        print(f'checking provider {extracted_provider}')
+        print(provider_csv)
         provider_df = pd.DataFrame()
         start_time = time.time()
         paper_count = 0
@@ -168,7 +171,6 @@ def process_provider(extracted_provider: str) -> None:
 
                     if paper_df is not None:
                         provider_df = pd.concat([paper_df, provider_df])
-
         provider_df['tar_archive_name'] = extracted_provider_archive
         if provider_df.empty:
             # TODO: This is another artifact
@@ -183,20 +185,21 @@ def process_provider(extracted_provider: str) -> None:
 
 
 def get_relevant_papers_from_download(profile: bool = False):
-    for provider in os.listdir(extracted_core_path):
-        # Main archive length: 10251?
-        # Each member is a Data provider, see here: https://core.ac.uk/data-providers
-        if profile:
-            import cProfile
-            import pstats
-
+    provider_list = os.listdir(extracted_core_path)
+    # Main archive length: 10251?
+    # Each member is a Data provider, see here: https://core.ac.uk/data-providers
+    if profile:
+        import cProfile
+        import pstats
+        for provider in provider_list:
             with cProfile.Profile() as pr:
                 process_provider(provider)
 
             stats = pstats.Stats(pr)
             stats.sort_stats(pstats.SortKey.TIME)
             stats.print_stats()
-        else:
+    else:
+        for provider in provider_list:
             process_provider(provider)
 
 
