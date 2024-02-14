@@ -185,6 +185,7 @@ def process_provider(extracted_provider: str) -> None:
 
 
 def get_relevant_papers_from_download(profile: bool = False):
+    # TODO: Add multiprocessing
     provider_list = os.listdir(extracted_core_path)
     # Main archive length: 10251?
     # Each member is a Data provider, see here: https://core.ac.uk/data-providers
@@ -199,8 +200,9 @@ def get_relevant_papers_from_download(profile: bool = False):
             stats.sort_stats(pstats.SortKey.TIME)
             stats.print_stats()
     else:
-        for provider in provider_list:
-            process_provider(provider)
+        from multiprocessing import Pool
+        pool = Pool(8)
+        pool.map(process_provider, provider_list)
 
 
 if __name__ == '__main__':
