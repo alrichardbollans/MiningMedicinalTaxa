@@ -13,10 +13,11 @@ from literature_downloads import query_name, number_of_keywords, build_output_di
 from ner_string_methods import remove_unneccesary_lines
 
 scratch_path = os.environ.get('KEWSCRATCHPATH')
+conda_path = os.environ.get('KEWDATAPATH') # A separate path for a non networked drive to handle a large number of files and directories
 
 core_project_path = os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'core')
 core_download_path = os.path.join(core_project_path, 'downloads')
-extracted_core_path = os.path.join(core_project_path, 'extracted_core', 'data-ext', 'resync', 'output', 'tmp')
+extracted_core_path = os.path.join(conda_path, 'extracted_core', 'data-ext', 'resync', 'output', 'tmp')
 
 # TODO: Remove abstract and text paths in future versions
 core_abstracts_path = os.path.join(core_download_path, 'abstracts')
@@ -185,8 +186,9 @@ def process_provider(extracted_provider: str) -> None:
 
 
 def get_relevant_papers_from_download(profile: bool = False):
-    # TODO: Add multiprocessing
     provider_list = os.listdir(extracted_core_path)
+    print(f'Number of providers to check: {len(provider_list)}')
+
     # Main archive length: 10251?
     # Each member is a Data provider, see here: https://core.ac.uk/data-providers
     if profile:
@@ -201,7 +203,7 @@ def get_relevant_papers_from_download(profile: bool = False):
             stats.print_stats()
     else:
         from multiprocessing import Pool
-        pool = Pool(8)
+        pool = Pool()
         pool.map(process_provider, provider_list)
 
 
