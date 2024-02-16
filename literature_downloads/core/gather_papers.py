@@ -2,11 +2,13 @@ import ast
 import fnmatch
 import json
 import os
+import time
 import zipfile
 from typing import Union, List
 
 import numpy as np
 import pandas as pd
+import requests
 from tqdm import tqdm
 
 from literature_downloads.core import core_paper_info_path, core_download_path, extracted_core_path
@@ -14,6 +16,7 @@ import dotenv
 
 dotenv.load_dotenv()
 CROP_DATA_SSH_PATH = os.environ['CROP_DATA_SSH_PATH']
+CORE_API_KEY = os.environ['CORE_API_KEY']
 
 KINGDOM_SORT_ORDER = ['plant_species_binomials_unique_total', 'fungi_species_binomials_unique_total',
                       'plant_genus_names_unique_total', 'fungi_genus_names_unique_total',
@@ -186,8 +189,29 @@ class CQuery:
             os.system('pwd')
             os.system(new_command)
 
+    @staticmethod
+    def download_json_from_coreid(coreid: str, outpath: str):
+        if not os.path.isfile(outpath):
+            # print(f'Downloading {coreid} to {outpath}')
+            time.sleep(5)  # 10,000 tokens per day, maximum 10 per minute.
+            headers = {"Authorization": "Bearer " + CORE_API_KEY}
+            response = requests.get(f"https://api.core.ac.uk/v3/outputs/{coreid}", headers=headers)
+            output_json = response.json()
+            if response.status_code != 200:
+                print(output_json)
+                print(f'Response code: {response.status_code} for {coreid}')
+            else:
+                with open(outpath, 'w') as f:
+                    json.dump(output_json, f)
+
+                return output_json
+        else:
+            # print(f'Already downloaded: {coreid} at {outpath}')
+            with open(outpath, 'r') as infile:
+                json_data = json.load(infile)
+            return json_data
+
     def save_texts_from_provider(self, provider):
-        # TODO: Change this to either fetch on cluster in job or through downloading providers.. Using wildcards in rsync isn't good.
         if 'tar.xz' not in provider:
             raise ValueError()
         if not os.path.exists(self.text_dump_path):
@@ -199,29 +223,23 @@ class CQuery:
 
         relevant_ids = provider_df['corpusid'].astype('string').values
 
-        cluster_directory_path = CROP_DATA_SSH_PATH + '/extracted_core/data-ext/resync/output/tmp/'
-        base_command = f'rsync --archive --progress --ignore-existing {cluster_directory_path}'
+        not_worked = []
         provider_dir = provider.replace(".tar.xz", "")
         provider_download_path = os.path.join(self.tmp_dl_path, provider_dir)
         if not os.path.exists(provider_download_path):
             os.mkdir(provider_download_path)
         for corpus_id in relevant_ids:
-            pass
-            # new_command = base_command + f'{provider_dir}/**/*/' + corpus_id + '.json ' +'"'+ provider_download_path+'"'
-            # os.system('pwd')
-            # print(new_command)
-            # os.system(new_command)
+            record_path = os.path.join(provider_download_path, corpus_id + '.json')
 
-        json_files = {}
-        for filename in fnmatch.filter(provider_download_path, '*.json'):
-            corpus_id = filename.replace('.json', '')
-            if corpus_id in relevant_ids:
-                filepath = os.path.join(provider_download_path, filename)
-                json_files[corpus_id] = filepath
-                with open(filepath, 'r') as infile:
-                    json_data = json.load(infile)['fullText']
+            returned_json = self.download_json_from_coreid(corpus_id, record_path)
+            try:
+                assert str(returned_json['dataProvider']['id']) == provider_dir
+                fulltext = returned_json['fullText']
                 with open(os.path.join(self.text_dump_path, corpus_id + '.txt'), "w") as text_file:
-                    text_file.write(json_data)
+                    text_file.write(fulltext)
+            except (AssertionError, TypeError):
+                not_worked.append(corpus_id)
+                print(f'not worked to manually get: {not_worked}')
 
     def save_all_texts(self):
         paper_df = pd.read_csv(self.extracted_paper_csv)
@@ -240,9 +258,11 @@ if __name__ == '__main__':
                              10000)
     # medicinal_query.summarise_zip()
     # medicinal_query.extract_query_zip()
+    medicinal_query.save_all_texts()
 
     toxic_query = CQuery('en_medic_toxic_keywords_final.zip', os.path.join(core_download_path, 'toxics'),
                          'toxics.csv',
                          toxic_sort_order, 10000)
     # toxic_query.summarise_zip()
-    toxic_query.extract_query_zip()
+    # toxic_query.extract_query_zip()
+    toxic_query.save_all_texts()
