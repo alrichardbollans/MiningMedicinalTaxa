@@ -9,7 +9,11 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
-from literature_downloads.core import core_paper_info_path, core_download_path
+from literature_downloads.core import core_paper_info_path, core_download_path, extracted_core_path
+import dotenv
+
+dotenv.load_dotenv()
+CROP_DATA_SSH_PATH = os.environ['CROP_DATA_SSH_PATH']
 
 KINGDOM_SORT_ORDER = ['plant_species_binomials_unique_total', 'fungi_species_binomials_unique_total',
                       'plant_genus_names_unique_total', 'fungi_genus_names_unique_total',
@@ -28,7 +32,7 @@ class CQuery:
         self.extracted_paper_summary_csv = self.extracted_paper_csv.replace('.csv', f'_summary.csv')
         self.sort_order = sort_order
         self.capacity = capacity
-        self.tmp_dl_path = os.path.join(self.output_dir, 'tmp_downloads_for_core_providers_salt1982733')
+        self.tmp_dl_path = os.path.join(extracted_core_path, 'misc_jsons')
         self.text_dump_path = os.path.join(self.output_dir, 'texts')
 
         if not os.path.exists(self.output_dir):
@@ -85,7 +89,7 @@ class CQuery:
                     if 'count' in col:
                         df[col] = df[col].apply(optimised_dict_conversion)
 
-            elif df.columns.tolist() != second_columns:
+            elif set(df.columns.tolist()) != set(second_columns):
                 print(df)
                 raise ValueError(f'{df.columns.tolist()}')
 
@@ -109,7 +113,7 @@ class CQuery:
         df = self.get_papers_with_value_greater_than_zero(df, KINGDOM_SORT_ORDER)
         # Only return papers with mentions from sort order
         df = self.get_papers_with_value_greater_than_zero(df, self.sort_order)
-        # Sort by sort order and get top
+        # Sort by sort order and then kingdom order and then get top
         df = df.sort_values(by=self.sort_order + KINGDOM_SORT_ORDER, ascending=False).reset_index(drop=True).head(
             self.capacity)
         return df
@@ -138,11 +142,17 @@ class CQuery:
         paper_df = self.sort_df(paper_df)
         print('writing')
         paper_df.to_csv(self.extracted_paper_csv)
+        self.summarise_papers()
+
+    def summarise_papers(self):
+        paper_df = pd.read_csv(self.extracted_paper_csv)
+        assert len(paper_df.index) == self.capacity
         print('summarising')
-        paper_df['corpusid', 'DOI', 'year', 'language', 'tar_archive_name', 'fungi_family_names_counts', 'plant_family_names_counts'].describe(
+        paper_df[['corpusid', 'DOI', 'year', 'language', 'tar_archive_name', 'fungi_family_names_counts', 'plant_family_names_counts']].describe(
             include='all').to_csv(self.extracted_paper_summary_csv)
 
     def summarise_zip(self):
+        ''' A summary that doesn't require any cleaning'''
         cols_to_summarise = ['corpusid', 'DOI', 'year', 'language', 'tar_archive_name']
         paper_df = pd.DataFrame()
         with zipfile.ZipFile(self.zip_file, "r") as zf:
@@ -162,57 +172,77 @@ class CQuery:
             self.summary_csv)
 
     def download_providers(self):
+
         paper_df = pd.read_csv(self.extracted_paper_csv)
         providers = paper_df['tar_archive_name'].unique()
         print(providers)
 
-        cluster_directory_path = 'arichard@gruffalo.cropdiversity.ac.uk:/mnt/shared/scratch/arichard/MedicinalPlantMining/literature_downloads/core/extracted_core/data-ext/resync/output/tmp/'
-        base_command = f'scp -r {cluster_directory_path}'
-        if not os.path.exists(self.tmp_dl_path):
-            os.mkdir(self.tmp_dl_path)
+        cluster_directory_path = CROP_DATA_SSH_PATH + '/extracted_core/data-ext/resync/output/tmp/'
+        base_command = f'rsync --archive --progress --ignore-existing {cluster_directory_path}'
+        if not os.path.exists(extracted_core_path):
+            os.mkdir(extracted_core_path)
         for provider in providers:
-            new_command = base_command + f'{provider.replace(".tar.xz", "")} {self.tmp_dl_path}'
+            new_command = base_command + f'{provider.replace(".tar.xz", "")} {extracted_core_path}'
             os.system('pwd')
             os.system(new_command)
 
     def save_texts_from_provider(self, provider):
+        # TODO: Change this to either fetch on cluster in job or through downloading providers.. Using wildcards in rsync isn't good.
         if 'tar.xz' not in provider:
             raise ValueError()
         if not os.path.exists(self.text_dump_path):
             os.mkdir(self.text_dump_path)
+        if not os.path.exists(self.tmp_dl_path):
+            os.mkdir(self.tmp_dl_path)
         paper_df = pd.read_csv(self.extracted_paper_csv)
         provider_df = paper_df[paper_df['tar_archive_name'] == provider]
 
         relevant_ids = provider_df['corpusid'].astype('string').values
 
-        # find all .json files recursively in nested directories in PATH
+        cluster_directory_path = CROP_DATA_SSH_PATH + '/extracted_core/data-ext/resync/output/tmp/'
+        base_command = f'rsync --archive --progress --ignore-existing {cluster_directory_path}'
+        provider_dir = provider.replace(".tar.xz", "")
+        provider_download_path = os.path.join(self.tmp_dl_path, provider_dir)
+        if not os.path.exists(provider_download_path):
+            os.mkdir(provider_download_path)
+        for corpus_id in relevant_ids:
+            pass
+            # new_command = base_command + f'{provider_dir}/**/*/' + corpus_id + '.json ' +'"'+ provider_download_path+'"'
+            # os.system('pwd')
+            # print(new_command)
+            # os.system(new_command)
+
         json_files = {}
-        for root, dirnames, filenames in os.walk(self.tmp_dl_path):
-            for filename in fnmatch.filter(filenames, '*.json'):
-                corpus_id = filename.replace('.json', '')
-                if corpus_id in relevant_ids:
-                    filepath = os.path.join(root, filename)
-                    json_files[corpus_id] = filepath
-                    with open(filepath, 'r') as infile:
-                        json_data = json.load(infile)['fullText']
-                    with open(os.path.join(self.text_dump_path, corpus_id + '.txt'), "w") as text_file:
-                        text_file.write(json_data)
-        raise ValueError('add some checks')
+        for filename in fnmatch.filter(provider_download_path, '*.json'):
+            corpus_id = filename.replace('.json', '')
+            if corpus_id in relevant_ids:
+                filepath = os.path.join(provider_download_path, filename)
+                json_files[corpus_id] = filepath
+                with open(filepath, 'r') as infile:
+                    json_data = json.load(infile)['fullText']
+                with open(os.path.join(self.text_dump_path, corpus_id + '.txt'), "w") as text_file:
+                    text_file.write(json_data)
+
+    def save_all_texts(self):
+        paper_df = pd.read_csv(self.extracted_paper_csv)
+        providers = paper_df['tar_archive_name'].unique().tolist()
+        for p in tqdm(providers):
+            self.save_texts_from_provider(p)
 
     def load_texts_from_id(self, given_id: Union[int, str]):
         pass
 
 
 if __name__ == '__main__':
-    medicinal_query = CQuery('en_medic_toxic_keywords3.zip', os.path.join(core_download_path, 'medicinals'),
+    medicinal_query = CQuery('en_medic_toxic_keywords_final.zip', os.path.join(core_download_path, 'medicinals'),
                              'medicinals.csv',
                              medicine_sort_order,
                              10000)
-    medicinal_query.summarise_zip()
-    medicinal_query.extract_query_zip()
+    # medicinal_query.summarise_zip()
+    # medicinal_query.extract_query_zip()
 
-    toxic_query = CQuery('en_medic_toxic_keywords3.zip', os.path.join(core_download_path, 'toxics.csv'),
+    toxic_query = CQuery('en_medic_toxic_keywords_final.zip', os.path.join(core_download_path, 'toxics'),
                          'toxics.csv',
                          toxic_sort_order, 10000)
-    toxic_query.summarise_zip()
+    # toxic_query.summarise_zip()
     toxic_query.extract_query_zip()
