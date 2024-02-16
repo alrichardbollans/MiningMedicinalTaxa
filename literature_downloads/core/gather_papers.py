@@ -2,8 +2,10 @@ import ast
 import fnmatch
 import json
 import os
+import pickle
 import time
 import zipfile
+from json import JSONDecodeError
 from typing import Union, List
 
 import numpy as np
@@ -26,6 +28,7 @@ toxic_sort_order = ['toxicology entity_unique_total', 'toxicology_unique_total']
 
 
 class CQuery:
+    text_dump_path = os.path.join(core_download_path, 'texts')
     def __init__(self, zip_file: str, output_dir: str, extracted_paper_csv_name: str, sort_order: List[str], capacity: int):
         self.zip_file = os.path.join(core_paper_info_path, zip_file)
 
@@ -36,7 +39,6 @@ class CQuery:
         self.sort_order = sort_order
         self.capacity = capacity
         self.tmp_dl_path = os.path.join(extracted_core_path, 'misc_jsons')
-        self.text_dump_path = os.path.join(self.output_dir, 'texts')
 
         if not os.path.exists(self.output_dir):
             os.mkdir(self.output_dir)
@@ -190,26 +192,43 @@ class CQuery:
             os.system(new_command)
 
     @staticmethod
-    def download_json_from_coreid(coreid: str, outpath: str):
+    def download_single_paper(provider, corpus_id, download_path):
+        raise ValueError('this isnt very nice. Maybe just download providers instead')
+        cluster_directory_path = CROP_DATA_SSH_PATH + '/extracted_core/data-ext/resync/output/tmp/'
+        new_command = f'rsync --archive --progress --ignore-existing {cluster_directory_path}{provider}/**/*/{corpus_id}.json "{os.path.dirname(download_path)}"'
+        os.system(new_command)
+
+    @staticmethod
+    def download_json_from_coreid(coreid: str, outpath: str, provider: str):
         if not os.path.isfile(outpath):
             # print(f'Downloading {coreid} to {outpath}')
-            time.sleep(5)  # 10,000 tokens per day, maximum 10 per minute.
-            headers = {"Authorization": "Bearer " + CORE_API_KEY}
-            response = requests.get(f"https://api.core.ac.uk/v3/outputs/{coreid}", headers=headers)
-            output_json = response.json()
-            if response.status_code != 200:
-                print(output_json)
-                print(f'Response code: {response.status_code} for {coreid}')
-            else:
-                with open(outpath, 'w') as f:
-                    json.dump(output_json, f)
+            try:
+                with open('saved_issues.pkl', 'rb') as f:
+                    loaded_dict = pickle.load(f)
 
-                return output_json
-        else:
-            # print(f'Already downloaded: {coreid} at {outpath}')
-            with open(outpath, 'r') as infile:
-                json_data = json.load(infile)
-            return json_data
+                known_issues = loaded_dict[provider]
+
+            except (FileNotFoundError, KeyError):
+                known_issues = []
+            if coreid not in known_issues:
+                headers = {"Authorization": "Bearer " + CORE_API_KEY}
+                response = requests.get(f"https://api.core.ac.uk/v3/outputs/{coreid}", headers=headers)
+                output_json = response.json()
+                if response.status_code != 200:
+                    # print(output_json)
+                    print(f'Response code: {response.status_code} for {coreid} for provider: {provider}')
+                    # CQuery.download_single_paper(provider, coreid, outpath)
+                    # with open(outpath, 'r') as infile:
+                    #     output_json = json.load(infile)
+                    # return output_json
+                    time.sleep(1)
+                    raise ValueError
+                else:
+                    with open(outpath, 'w') as f:
+                        json.dump(output_json, f)
+                    time.sleep(5)  # 10,000 tokens per day, maximum 10 per minute.
+            else:
+                raise ValueError
 
     def save_texts_from_provider(self, provider):
         if 'tar.xz' not in provider:
@@ -230,22 +249,42 @@ class CQuery:
             os.mkdir(provider_download_path)
         for corpus_id in relevant_ids:
             record_path = os.path.join(provider_download_path, corpus_id + '.json')
+            text_path = os.path.join(self.text_dump_path, corpus_id + '.txt')
+            if not os.path.isfile(text_path):
+                try:
+                    self.download_json_from_coreid(corpus_id, record_path, provider_dir)
+                except ValueError:
+                    not_worked.append(corpus_id)
+                else:
+                    with open(record_path, 'r') as infile:
+                        returned_json = json.load(infile)
 
-            returned_json = self.download_json_from_coreid(corpus_id, record_path)
-            try:
-                assert str(returned_json['dataProvider']['id']) == provider_dir
-                fulltext = returned_json['fullText']
-                with open(os.path.join(self.text_dump_path, corpus_id + '.txt'), "w") as text_file:
-                    text_file.write(fulltext)
-            except (AssertionError, TypeError):
-                not_worked.append(corpus_id)
-                print(f'not worked to manually get: {not_worked}')
+                    assert str(returned_json['dataProvider']['id']) == provider_dir
+                    fulltext = returned_json['fullText']
+                    with open(text_path, "w") as text_file:
+                        text_file.write(fulltext)
+
+        return not_worked
 
     def save_all_texts(self):
         paper_df = pd.read_csv(self.extracted_paper_csv)
         providers = paper_df['tar_archive_name'].unique().tolist()
+
+        try:
+            with open('saved_issues.pkl', 'rb') as f:
+                not_worked = pickle.load(f)
+
+        except (FileNotFoundError, KeyError):
+            not_worked = {}
+
         for p in tqdm(providers):
-            self.save_texts_from_provider(p)
+            not_worked_p = self.save_texts_from_provider(p)
+            if len(not_worked_p) > 0:
+                not_worked[p.replace(".tar.xz", "")] = not_worked_p
+                with open('saved_issues.pkl', 'wb') as f:
+                    pickle.dump(not_worked, f)
+        for p in not_worked:
+            print(f'Issues for provider: {p}. {not_worked[p]}')
 
     def load_texts_from_id(self, given_id: Union[int, str]):
         pass
