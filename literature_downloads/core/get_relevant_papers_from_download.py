@@ -19,7 +19,7 @@ core_project_path = os.path.join(scratch_path, 'MedicinalPlantMining', 'literatu
 core_download_path = os.path.join(core_project_path, 'downloads')
 extracted_core_path = os.path.join(conda_path, 'extracted_core', 'data-ext', 'resync', 'output', 'tmp')
 
-# TODO: Remove abstract and text paths in future versions
+# TODO: Remove abstract and text paths in future versions. Instead save text path in extracted_core so that its easy to retrieve.
 core_abstracts_path = os.path.join(core_download_path, 'abstracts')
 _rel_abstract_path = os.path.relpath(core_abstracts_path, scratch_path)
 

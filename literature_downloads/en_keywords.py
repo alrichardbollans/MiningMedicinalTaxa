@@ -6,7 +6,7 @@ from typing import List
 from wcvp_download import get_all_taxa, wcvp_columns
 
 query_name = 'en_medic_toxic_keywords'
-scratch_path = os.environ.get('SCRATCH')
+scratch_path = os.environ.get('KEWSCRATCHPATH')
 
 
 def get_kword_dict():
