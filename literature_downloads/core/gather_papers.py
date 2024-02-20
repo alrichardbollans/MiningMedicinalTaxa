@@ -2,10 +2,9 @@ import ast
 import fnmatch
 import json
 import os
-import pickle
+import sys
 import time
 import zipfile
-from json import JSONDecodeError
 from typing import Union, List
 
 import numpy as np
@@ -13,12 +12,8 @@ import pandas as pd
 import requests
 from tqdm import tqdm
 
+sys.path.append('../..')
 from literature_downloads.core import core_paper_info_path, core_download_path, extracted_core_path
-import dotenv
-
-dotenv.load_dotenv()
-CROP_DATA_SSH_PATH = os.environ['CROP_DATA_SSH_PATH']
-CORE_API_KEY = os.environ['CORE_API_KEY']
 
 KINGDOM_SORT_ORDER = ['plant_species_binomials_unique_total', 'fungi_species_binomials_unique_total',
                       'plant_genus_names_unique_total', 'fungi_genus_names_unique_total',
@@ -29,6 +24,8 @@ toxic_sort_order = ['toxicology entity_unique_total', 'toxicology_unique_total']
 
 class CQuery:
     text_dump_path = os.path.join(core_download_path, 'texts')
+    tmp_dl_path = os.path.join(extracted_core_path, 'misc_jsons')
+
     def __init__(self, zip_file: str, output_dir: str, extracted_paper_csv_name: str, sort_order: List[str], capacity: int):
         self.zip_file = os.path.join(core_paper_info_path, zip_file)
 
@@ -38,10 +35,14 @@ class CQuery:
         self.extracted_paper_summary_csv = self.extracted_paper_csv.replace('.csv', f'_summary.csv')
         self.sort_order = sort_order
         self.capacity = capacity
-        self.tmp_dl_path = os.path.join(extracted_core_path, 'misc_jsons')
 
         if not os.path.exists(self.output_dir):
             os.mkdir(self.output_dir)
+
+    def __str__(self):
+        return (
+            f'CQuery(text_dump_path={self.text_dump_path},capacity={self.capacity},zip_file={self.zip_file}, output_dir={self.output_dir}, self.summary_csv={self.summary_csv}, '
+            f'extracted_paper_csv={self.extracted_paper_csv},extracted_paper_summary_csv={self.extracted_paper_summary_csv}, sort_order={self.sort_order}')
 
     @staticmethod
     def clean_paper_df(df: pd.DataFrame) -> pd.DataFrame:
@@ -176,8 +177,12 @@ class CQuery:
             include='all').to_csv(
             self.summary_csv)
 
-    def download_providers(self):
-
+    def _download_providers(self):
+        ''' A method to download all providers in query from the cluster'''
+        import dotenv
+        dotenv.load_dotenv()
+        CROP_DATA_SSH_PATH = os.environ['CROP_DATA_SSH_PATH']
+        CORE_API_KEY = os.environ['CORE_API_KEY']
         paper_df = pd.read_csv(self.extracted_paper_csv)
         providers = paper_df['tar_archive_name'].unique()
         print(providers)
@@ -192,35 +197,14 @@ class CQuery:
             os.system(new_command)
 
     @staticmethod
-    def download_single_paper(provider, corpus_id, download_path):
-        raise ValueError('this isnt very nice. Maybe just download providers instead')
-        cluster_directory_path = CROP_DATA_SSH_PATH + '/extracted_core/data-ext/resync/output/tmp/'
-        new_command = f'rsync --archive --progress --ignore-existing {cluster_directory_path}{provider}/**/*/{corpus_id}.json "{os.path.dirname(download_path)}"'
-        os.system(new_command)
-
-    @staticmethod
-    def download_json_from_coreid(coreid: str, outpath: str, provider: str):
+    def _download_json_from_coreid(coreid: str, outpath: str, known_issues: str):
+        """ If file doesn't alreadt exist and coreid not in list of known issues, download the core json to the outpath."""
         if not os.path.isfile(outpath):
-            # print(f'Downloading {coreid} to {outpath}')
-            try:
-                with open('saved_issues.pkl', 'rb') as f:
-                    loaded_dict = pickle.load(f)
-
-                known_issues = loaded_dict[provider]
-
-            except (FileNotFoundError, KeyError):
-                known_issues = []
             if coreid not in known_issues:
                 headers = {"Authorization": "Bearer " + CORE_API_KEY}
                 response = requests.get(f"https://api.core.ac.uk/v3/outputs/{coreid}", headers=headers)
                 output_json = response.json()
                 if response.status_code != 200:
-                    # print(output_json)
-                    print(f'Response code: {response.status_code} for {coreid} for provider: {provider}')
-                    # CQuery.download_single_paper(provider, coreid, outpath)
-                    # with open(outpath, 'r') as infile:
-                    #     output_json = json.load(infile)
-                    # return output_json
                     time.sleep(1)
                     raise ValueError
                 else:
@@ -230,61 +214,43 @@ class CQuery:
             else:
                 raise ValueError
 
-    def save_texts_from_provider(self, provider):
-        if 'tar.xz' not in provider:
+    def save_texts_from_provider(self, provider_archive: str):
+        if 'tar.xz' not in provider_archive:
             raise ValueError()
         if not os.path.exists(self.text_dump_path):
             os.mkdir(self.text_dump_path)
-        if not os.path.exists(self.tmp_dl_path):
-            os.mkdir(self.tmp_dl_path)
+
         paper_df = pd.read_csv(self.extracted_paper_csv)
-        provider_df = paper_df[paper_df['tar_archive_name'] == provider]
+        provider = provider_archive.replace('.tar.xz', '')
+        provider_df = paper_df[paper_df['tar_archive_name'] == provider_archive]
 
         relevant_ids = provider_df['corpusid'].astype('string').values
 
-        not_worked = []
-        provider_dir = provider.replace(".tar.xz", "")
-        provider_download_path = os.path.join(self.tmp_dl_path, provider_dir)
-        if not os.path.exists(provider_download_path):
-            os.mkdir(provider_download_path)
-        for corpus_id in relevant_ids:
-            record_path = os.path.join(provider_download_path, corpus_id + '.json')
-            text_path = os.path.join(self.text_dump_path, corpus_id + '.txt')
-            if not os.path.isfile(text_path):
-                try:
-                    self.download_json_from_coreid(corpus_id, record_path, provider_dir)
-                except ValueError:
-                    not_worked.append(corpus_id)
-                else:
-                    with open(record_path, 'r') as infile:
-                        returned_json = json.load(infile)
+        found = []
+        extracted_provider_path = os.path.join(extracted_core_path, provider)
+        for root, dirnames, filenames in os.walk(extracted_provider_path):
+            for filename in fnmatch.filter(filenames, '*.json'):
+                corpus_id = filename.replace('.json', '')
+                if corpus_id in relevant_ids:
+                    found.append(corpus_id)
+                    text_path = os.path.join(self.text_dump_path, corpus_id + '.txt')
+                    if not os.path.isfile(text_path):
+                        jsonfilepath = os.path.join(root, filename)
+                        with open(jsonfilepath, 'r') as infile:
+                            json_data = json.load(infile)
+                            fulltext = json_data['fullText']
+                        with open(text_path, "w") as text_file:
+                            text_file.write(fulltext)
 
-                    assert str(returned_json['dataProvider']['id']) == provider_dir
-                    fulltext = returned_json['fullText']
-                    with open(text_path, "w") as text_file:
-                        text_file.write(fulltext)
-
-        return not_worked
+        not_worked = [ri for ri in relevant_ids if ri not in found]
+        if len(not_worked) > 0:
+            raise ValueError(f'Provider: {provider}. Not worked: {not_worked}')
 
     def save_all_texts(self):
         paper_df = pd.read_csv(self.extracted_paper_csv)
         providers = paper_df['tar_archive_name'].unique().tolist()
-
-        try:
-            with open('saved_issues.pkl', 'rb') as f:
-                not_worked = pickle.load(f)
-
-        except (FileNotFoundError, KeyError):
-            not_worked = {}
-
         for p in tqdm(providers):
-            not_worked_p = self.save_texts_from_provider(p)
-            if len(not_worked_p) > 0:
-                not_worked[p.replace(".tar.xz", "")] = not_worked_p
-                with open('saved_issues.pkl', 'wb') as f:
-                    pickle.dump(not_worked, f)
-        for p in not_worked:
-            print(f'Issues for provider: {p}. {not_worked[p]}')
+            self.save_texts_from_provider(p)
 
     def load_texts_from_id(self, given_id: Union[int, str]):
         pass
@@ -295,6 +261,7 @@ if __name__ == '__main__':
                              'medicinals.csv',
                              medicine_sort_order,
                              10000)
+    print(medicinal_query)
     # medicinal_query.summarise_zip()
     # medicinal_query.extract_query_zip()
     medicinal_query.save_all_texts()
@@ -304,4 +271,5 @@ if __name__ == '__main__':
                          toxic_sort_order, 10000)
     # toxic_query.summarise_zip()
     # toxic_query.extract_query_zip()
+    print(toxic_query)
     toxic_query.save_all_texts()
