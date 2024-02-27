@@ -47,7 +47,7 @@ def process_text_file(file_path, max_tokens=4000, encoding_name="cl100k_base"):
     return chunks
 
 
-input_folder = '3_medicinal_hits'
+input_folder = '10_medicinal_hits'
 output_folder = 'preprocessed'
 os.makedirs(output_folder, exist_ok=True)
 

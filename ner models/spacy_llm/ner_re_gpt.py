@@ -5,6 +5,7 @@ from spacy_llm.util import assemble
 import spacy_llm
 from dotenv import load_dotenv
 
+
 def load_environment_variables():
     """ Load environment variables from a .env file. """
     load_dotenv()
@@ -83,7 +84,7 @@ def main():
     load_environment_variables()
     configure_logging()
     nlp_model = load_spacy_model('zeroshot.cfg')
-    preprocessed_folder = 'preprocessed'
+    preprocessed_folder = 'selected_preprocessed'
     tasks = process_text_files(preprocessed_folder, nlp_model)
     save_tasks_to_json(tasks, 'tasks_for_label_studio.json')
 
