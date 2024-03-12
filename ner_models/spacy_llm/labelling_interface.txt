@@ -1,0 +1,20 @@
+# Copy this in `Settings`> labelling interface >code
+
+<View>
+  <!-- Define Relationships -->
+  <Relations>
+    <Relation value="treats_medical_condition" color="#90caf9"/>
+    <Relation value="has_medicinal_effect" color="#85feca"/>
+  </Relations>
+
+  <!-- Define Labels -->
+  <Labels name="label" toName="text">
+    <Label value="Scientific Plant Name" background="#ff8080"/>
+    <Label value="Medical Condition" background="#0d25d3"/>
+  	<Label value="Medicinal Effect" background="#9efff9"/></Labels>
+
+  <!-- Text to be labeled -->
+  <Text name="text" value="$text"/>
+</View><!-- Example Data --><!-- {"data": {
+  "text": "Bidens pilosa, commonly known as Spanish Needles, is used in traditional medicine to treat inflammation."
+}} -->
