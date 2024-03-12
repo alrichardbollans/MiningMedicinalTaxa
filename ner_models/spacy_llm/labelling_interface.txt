@@ -16,7 +16,7 @@
   </Labels>  
 
   <!-- Text to be labeled -->
-  <Text name="text" value="$text"/>
+  <Text name="text" value="$text" granularity="word"/>
 </View><!-- Example Data --><!-- {"data": {
   "text": "Bidens pilosa, commonly known as Spanish Needles, is used in traditional medicine to treat inflammation."
 }} -->
