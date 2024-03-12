@@ -12,7 +12,7 @@
     <Label value="Scientific Plant Name" background="#ff8080"/>
     <Label value="Scientific Fungus Name" background="#ffef9e"/>
     <Label value="Medical Condition" background="#0d25d3"/>
-  	<Label value="Medicinal Effect" background="#9efff9"/>
+    <Label value="Medicinal Effect" background="#9efff9"/>
   </Labels>  
 
   <!-- Text to be labeled -->
