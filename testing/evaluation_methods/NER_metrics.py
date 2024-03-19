@@ -66,6 +66,19 @@ def read_annotation_json(annotations_directory: str, corpus_id: str, chunk_id: s
     return separate_NER_annotations, separate_RE_annotations
 
 
+def precise_entity_match(entity1: dict, entity2: dict):
+    """
+    :param entity1: A dictionary representing the first entity to be matched. It should have keys 'start', 'end', and 'text'.
+    :param entity2: A dictionary representing the second entity to be matched. It should have keys 'start', 'end', and 'text'.
+    :return: A boolean value indicating whether the two entities are a precise match.
+    """
+    if entity1['start'] == entity2['start'] and entity1['end'] == entity2['end'] and entity1['text'].lower() == entity2['text'].lower():
+
+        return True
+    else:
+        return False
+
+
 def precise_NER_annotation_match(a1: dict, a2: dict):
     """
     This method compares two annotations to determine if they match precisely. The annotations are considered a match if the following conditions are satisfied:
@@ -76,15 +89,54 @@ def precise_NER_annotation_match(a1: dict, a2: dict):
     entity1 = a1['value']
     entity2 = a2['value']
 
-    if entity1['end'] == entity2['end'] and entity1['start'] == entity2['start'] and entity1['text'].lower() == entity2['text'].lower() and entity1[
-        'label'] == entity2['label']:
+    if precise_entity_match(entity1, entity2) and entity1['label'] == entity2['label']:
 
         return True
     else:
         return False
 
 
-def relaxed_NER_annotation_match(a1: dict, a2: dict):
+def approximate_entity_match(entity1: dict, entity2: dict):
+    """
+    Check if entity1 and entity2 are approximate matches.
+
+    :param entity1: A dictionary representing the first entity with keys 'start', 'end', and 'text'.
+    :param entity2: A dictionary representing the second entity with keys 'start', 'end', and 'text'.
+    :return: True if entity1 and entity2 are approximate matches, False otherwise.
+    """
+    if entity1['start'] <= entity2['start'] and entity1['end'] >= entity2['end'] and entity2['text'].lower() in entity1['text'].lower():
+        # If entity1 contains entity2
+        return True
+    elif entity2['start'] <= entity1['start'] and entity2['end'] >= entity1['end'] and entity1['text'].lower() in entity2['text'].lower():
+        # If entity2 contains entity1
+        return True
+    else:
+        return False
+
+
+def approximate_NER_annotation_match(a1: dict, a2: dict):
+    """
+    :param a1: A dictionary representing the first entity with 'value' and 'label' keys.
+    :param a2: A dictionary representing the second entity with 'value' and 'label' keys.
+    :return: A boolean indicating whether the first entity approximately matches the second entity.
+
+    This method checks if one entity is a substring of the other and if their labels are the same. It returns True if the conditions are met, otherwise False.
+    """
+    # Matches if one is a substring of the other.
+    # From: Subramaniam, L. Venkata, et al. "Information extraction from biomedical literature: methodology, evaluation and an application."
+    # Proceedings of the twelfth international conference on Information and knowledge management. 2003.
+    # Used in: Tsai, Richard Tzong-Han, et al. "Various criteria in the evaluation of biomedical named entity recognition." BMC bioinformatics 7 (2006): 1-8.
+    # and
+    # Le Guillarme, Nicolas, and Wilfried Thuiller. "TaxoNERD: deep neural models for the recognition of taxonomic entities in the ecological and evolutionary literature."
+    # Methods in Ecology and Evolution 13.3 (2022): 625-641.
+    entity1 = a1['value']
+    entity2 = a2['value']
+
+    if approximate_entity_match(entity1, entity2) and entity1['label'] == entity2['label']:
+
+        return True
+    else:
+        return False
     pass
 
 
@@ -136,6 +188,8 @@ def NER_evaluation(model_annotations, ground_truth_annotations, matching_method,
 
 def example_main():
     ner_annotations, re_annotations = read_annotation_json('../test_medicinal_01/tasks_completed', '4187556', '32')
+    NER_evaluation(ner_annotations, ner_annotations, approximate_NER_annotation_match)
+    NER_evaluation(ner_annotations, ner_annotations, approximate_NER_annotation_match, 'Medicinal Effect')
     NER_evaluation(ner_annotations, ner_annotations, precise_NER_annotation_match)
     NER_evaluation(ner_annotations, ner_annotations, precise_NER_annotation_match, 'Medicinal Effect')
 

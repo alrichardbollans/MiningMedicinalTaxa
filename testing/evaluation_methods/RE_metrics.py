@@ -1,6 +1,6 @@
 import os
 
-from testing.evaluation_methods import is_annotation_in_annotation_list, read_annotation_json
+from testing.evaluation_methods import is_annotation_in_annotation_list, read_annotation_json, precise_entity_match, approximate_entity_match
 
 
 def precise_RE_annotation_match(a1: dict, a2: dict):
@@ -22,9 +22,28 @@ def precise_RE_annotation_match(a1: dict, a2: dict):
 
         to_entity1 = a1['to_entity']['value']
         to_entity2 = a2['to_entity']['value']
-        if from_entity1['start'] == from_entity2['start'] and from_entity1[
-            'end'] == from_entity2['end'] and to_entity1['start'] == to_entity2['start'] and to_entity1['end'] == to_entity2['end'] and from_entity1[
-            'text'].lower() == from_entity2['text'].lower() and to_entity1['text'].lower() == to_entity2['text'].lower():
+        if precise_entity_match(from_entity1, from_entity2) and precise_entity_match(to_entity1, to_entity2):
+            return True
+
+    return False
+
+
+def approximate_RE_annotation_match(a1: dict, a2: dict):
+    """
+    :param a1: dictionary containing the first annotation
+    :param a2: dictionary containing the second annotation
+    :return: True if the annotations match precisely, False otherwise
+
+    This method compares two annotations to determine if they match approximately.
+    """
+
+    if a1['label'] == a2['label']:
+        from_entity1 = a1['from_entity']['value']
+        from_entity2 = a2['from_entity']['value']
+
+        to_entity1 = a1['to_entity']['value']
+        to_entity2 = a2['to_entity']['value']
+        if approximate_entity_match(from_entity1, from_entity2) and approximate_entity_match(to_entity1, to_entity2):
             return True
 
     return False
@@ -64,7 +83,11 @@ def RE_evaluation(model_annotations, ground_truth_annotations, matching_method, 
 def example_main():
     ner_annotations, re_annotations = read_annotation_json('../test_medicinal_01/tasks_completed', '4187556', '32')
     RE_evaluation(re_annotations, re_annotations, precise_RE_annotation_match)
-    RE_evaluation(re_annotations, re_annotations, precise_RE_annotation_match, 'has_medicinal_effect')
+    RE_evaluation(re_annotations, re_annotations, approximate_RE_annotation_match)
+    x, y, z = RE_evaluation(re_annotations, re_annotations, precise_RE_annotation_match, 'has_medicinal_effect')
+    assert x == 1
+    assert y == 1
+    assert z == 1
 
 
 if __name__ == '__main__':
