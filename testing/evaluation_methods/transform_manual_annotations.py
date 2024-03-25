@@ -1,6 +1,8 @@
 import json
 from NER_metrics import read_annotation_json, NER_evaluation, precise_NER_annotation_match, approximate_NER_annotation_match
 
+# TODO: loop over task ids to get the total TP FP and FN and calculate overall precision, recall and F1
+
 def read_annotation_file(file_path):
     with open(file_path, 'r') as file:
         return json.load(file)
