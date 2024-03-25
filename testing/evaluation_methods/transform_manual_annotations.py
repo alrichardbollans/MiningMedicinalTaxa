@@ -7,7 +7,6 @@ def read_annotation_file(file_path):
     with open(file_path, 'r') as file:
         return json.load(file)
 
-
 def load_json_data(filename):
     """
     Load JSON data from a file.
@@ -20,7 +19,6 @@ def load_json_data(filename):
     """
     with open(filename, 'r') as file:
         return json.load(file)
-
 
 def transform_annotation_for_task_id(data, task_id):
     """
@@ -78,13 +76,13 @@ def transform_annotation_for_task_id(data, task_id):
 
     # Return the transformed structure
     return transformed_data
+
 def save_transformed_annotation(data, filename):
     """
     Save the transformed data to a JSON file.
     """
     with open(filename, 'w') as file:
         json.dump(data, file, indent=2)
-
 
 def main():
     # Load JSON data from file
