@@ -1,6 +1,7 @@
 import json
 import os
 import copy
+import numpy as np
 
 ENTITY_CLASSES = ['Scientific Plant Name', 'Scientific Fungus Name', 'Medical Condition', 'Medicinal Effect']
 
@@ -156,6 +157,41 @@ def is_annotation_in_annotation_list(model_annotation: dict, ner_annotations: li
     return False
 
 
+def get_metrics_from_tp_fp_fn(true_positives: list, false_positives: list, false_negatives: list):
+    """
+    Calculate precision, recall, and F1 score given lists of true positives (TP), false positives (FP),
+    and false negatives (FN).
+
+    :param true_positives: The number of true positives.
+    :param false_positives: The number of false positives.
+    :param false_negatives: The number of false negatives.
+    :return: A tuple containing the precision, recall, and F1 score.
+    """
+    # precision
+    if len(true_positives + false_positives) != 0:
+        precision = len(true_positives) / len(true_positives + false_positives)
+    else:
+        print(f'Zero Division WARNING: No positive annotations given by model.')
+        print(f'Setting precision to np.nan')
+        precision = np.nan
+    # recall
+    if len(true_positives + false_negatives) != 0:
+        recall = len(true_positives) / len(true_positives + false_negatives)
+    else:
+        print(f'Zero Division WARNING: No positive ground truth annotations.')
+        print(f'Setting recall to np.nan')
+        recall = np.nan
+    # f1
+    denom = ((2 * len(true_positives)) + len(false_positives) + len(false_negatives))
+    if denom != 0:
+        f1_score = 2 * len(true_positives) / denom
+    else:
+        print(f'Zero Division WARNING: No TP,FP,FN.')
+        print(f'Setting f1_score to np.nan')
+        f1_score = np.nan
+    return precision, recall, f1_score
+
+
 def NER_evaluation(model_annotations, ground_truth_annotations, matching_method, entity_class: str = None):
     """
     Calculate the precision, recall, and F1 score for Named Entity Recognition (NER) evaluation.
@@ -177,13 +213,9 @@ def NER_evaluation(model_annotations, ground_truth_annotations, matching_method,
     # False negatives
     false_negatives = [a for a in ground_truth_annotations if
                        not is_annotation_in_annotation_list(a, model_annotations, matching_method)]
-    # precision
-    precision = len(true_positives) / len(true_positives + false_positives)
-    # recall
-    recall = len(true_positives) / len(true_positives + false_negatives)
-    # f1
-    f1_score = 2 * precision * recall / (precision + recall)
-    return precision, recall, f1_score
+
+    precision, recall, f1 = get_metrics_from_tp_fp_fn(true_positives, false_positives, false_negatives)
+    return precision, recall, f1
 
 
 def example_main():

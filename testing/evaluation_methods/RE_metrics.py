@@ -1,6 +1,5 @@
-import os
-
-from testing.evaluation_methods import is_annotation_in_annotation_list, read_annotation_json, precise_entity_match, approximate_entity_match
+from testing.evaluation_methods import is_annotation_in_annotation_list, read_annotation_json, precise_entity_match, approximate_entity_match, \
+    get_metrics_from_tp_fp_fn
 
 
 def precise_RE_annotation_match(a1: dict, a2: dict):
@@ -71,13 +70,8 @@ def RE_evaluation(model_annotations, ground_truth_annotations, matching_method, 
     # False negatives
     false_negatives = [a for a in ground_truth_annotations if
                        not is_annotation_in_annotation_list(a, model_annotations, matching_method)]
-    # precision
-    precision = len(true_positives) / len(true_positives + false_positives)
-    # recall
-    recall = len(true_positives) / len(true_positives + false_negatives)
-    # f1
-    f1_score = 2 * precision * recall / (precision + recall)
-    return precision, recall, f1_score
+
+    return get_metrics_from_tp_fp_fn(true_positives, false_positives, false_negatives)
 
 
 def example_main():
