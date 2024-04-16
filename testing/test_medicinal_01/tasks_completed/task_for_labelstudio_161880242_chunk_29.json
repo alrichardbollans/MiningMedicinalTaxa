@@ -99,8 +99,8 @@
             ]
           },
           {
-            "from_id": "entity_2",
-            "to_id": "entity_4",
+            "from_id": "entity_4",
+            "to_id": "entity_2",
             "type": "relation",
             "labels": [
               "has_medicinal_effect"

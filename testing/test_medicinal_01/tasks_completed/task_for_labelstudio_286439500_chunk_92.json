@@ -1,0 +1,463 @@
+[
+  {
+    "data": {
+      "text": "Scrophularia lucida in CCID Assaymethanolic extract of Scrophularia oxysepala Boiss. Iran. J. Pharm. Res. 16,338-346.Passalacqua, N. G., Guarrera, P. M., and De Fine, G. (2007). Contribution tothe knowledge of the folk plant medicine in Calabria region (Southern Italy).Fitoterapia 78, 52-68. doi: 10.1016/j.fitote.2006.07.005Stevenson, P. C., Simmonds, M. S. J., Sampson, J., Houghton, P. J., and Grice, P.(2002). Wound healing activity of acylated iridoid glycosides from Scrophularianodosa. Phytother. Res. 16, 33-35. doi: 10.1002/ptr.798Stoger, E. A. (2017). Arzneibuch der Chinesischen Medizin. Stuttgart: DeutscherApotheker Verlag.Tong, S., Yan, J., and Lou, J. (2006). Preparative isolation and purification ofharpagoside from Scrophularia ningpoensis Hemsley by high-speed counter-current chromatography. Phytochem. Anal. 17, 406-408. doi: 10.1002/pca.938Valiyari, S., Jahanban-Esfahlan, R., Shahneh, F. Z., Yaripour, S., Baradaran, B., andDelazar, A. (2013). Cytotoxic and apoptotic activity of Scrophularia oxysepalain MCF-7 human breast cancer cells. Toxicol. Environ. Chem. 95, 1208-1220.doi: 10.1080/02772248.2013.854362Venditti, A., Frezza, C., Riccardelli, M., Foddai, S., Nicoletti, M., Serafini, M., et al.(2016). Secondary metabolites from Scrophularia canina L. Nat. Prod. Res. 30,1665-1669. doi: 10.1080/14786419.2015.1122598Viola, K., Kopf, S., Huttary, N., Vonach, C., Kretschy, N., Teichmann, M., et al.(2013). Bay11-7082 inhibits the disintegration of the lymphendothelial barriertriggered by MCF-7 breast cancer spheroids; the role of ICAM-1 and adhesion.Br. J. Cancer 108, 564-569. doi: 10.1038/bjc.2012.485Vonach, C., Viola, K., Giessrigl, B., Huttary, N., Raab, I., Kalt, R., et al. (2011).NF-kappaB mediates the 12(S)-HETE-induced endothelial to mesenchymaltransition of lymphendothelial cells during the intravasation of breastcarcinoma cells. Br. J. Cancer 105, 263-271. doi: 10.1038/bjc.2011.194Wang, M., Li, J., Rangarajan, M., Shao, Y., Lavoie, E. J., Huang, T.-C.,et al. (1998). Antioxidative phenolic compounds from sage (Salviaofficinalis). J. Agric. Food Chem. 46, 4869-4873. doi: 10.1021/jf980614bWang, Y., Liu, W., He, X., and Fei, Z. (2015). Hispidulin enhances theanti-tumor effects of temozolomide in glioblastoma by activatingAMPK. Cell Biochem. Biophys. 71, 701-706. doi: 10.1007/s12013-014-0252-6Yu, C. Y., Su, K. Y., Lee, P. L., Jhan, J. Y., Tsao, P. H., Chan, D. C., et al. (2013).Potential therapeutic role of hispidulin in gastric cancer through inductionof apoptosis via NAG-1 signaling. Evid. Based Complement. Alternat. Med.2013:518301. doi: 10.1155/2013/518301Zhang, L., Yang, Z., Jia, Q., Dorje, G., Zhao, Z., Guo, F., et al. (2013). Two newphenylpropanoid glycosides with interesterification from Scrophularia dentataRoyle ex Benth. J. Mol. Struct. 1049, 299-302. doi: 10.1016/j.molstruc.2013.05.039Conflict of Interest Statement: The authors declare that the research wasconducted in the absence of any commercial or financial relationships that couldbe construed as a potential conflict of interest.Copyright (c) 2018 Lewenhofer, Schweighofer, Ledermuller, Eichsteininger, Kahlig,Zehl, Nguyen, Krupitza, Ozmen and Krenn. This is an open-access article distributedunder the terms of the Creative Commons Attribution License (CC BY). The use,distribution or reproduction in other forums is permitted, provided the originalauthor(s) and the copyright owner are credited and that the original publicationin this journal is cited, in accordance with accepted academic practice. No use,distribution or reproduction is permitted which does not comply with these terms.Frontiers in Pharmacology | www.frontiersin.org April 2018 | Volume 9 | Article 304241fphar-09-00220 March 12, 2018 Time: 13:3 # 1ORIGINAL RESEARCHpublished: 14 March 2018doi: 10.3389/fphar.2018.00220Edited by:Judit Hohmann,University of Szeged, HungaryReviewed by:Linlin Lu,International Institute for TranslationalChinese Medicine, ChinaCodruta Soica,Victor Babes, University of Medicineand Pharmacy, Timis,oara, Romania*Correspondence:Georg Krupitzageorg.krupitza@meduniwien.ac.atLiselotte Krennliselotte.krenn@univie.ac.atSpecialty section:This article was submitted toEthnopharmacology,a section of the journalFrontiers in PharmacologyReceived: 05 October 2017Accepted: 27 February 2018Published: 14 March 2018Citation:Hong J, Fristiohady A, Nguyen CH,Milovanovic D, Huttary N, Krieger S,Hong J, Geleff S, Birner P, Jager W,Ozmen A, Krenn L and Krupitza G(2018) Apigenin and LuteolinAttenuate the Breachingof MDA-MB231 Breast CancerSpheroids Through the LymphEndothelial Barrier in Vitro.Front. Pharmacol. 9:220.doi: 10.3389/fphar.2018.00220Apigenin and Luteolin Attenuate theBreaching of MDA-MB231 BreastCancer Spheroids Through theLymph Endothelial Barrier in VitroJunli Hong1,2,3, Adryan Fristiohady3,4,5, Chi H. Nguyen3,4, Daniela Milovanovic3,Nicole Huttary3, Sigurd Krieger3, Junqiang Hong6, Silvana Geleff3, Peter Birner3,Walter Jager4, Ali Ozmen7, Liselotte Krenn1* and Georg Krupitza3*1 Department of Pharmacognosy, Faculty of Life Sciences, University of Vienna, Vienna, Austria, 2 School of Pharmacy,Nanjing Medical University, Nanjing, China, 3 Clinical Institute of Pathology, Medical University of Vienna, Vienna, Austria,4 Department for Clinical Pharmacy and Diagnostics, Faculty of Life Sciences, University of Vienna, Vienna, Austria,5 Faculty of Pharmacy, Halu Oleo University, Kendari, Indonesia, 6 Department of Medical Oncology, The 188th Hospital ofPeople's Liberation Army of China, Chaozhou, China, 7 Department of Biology, Faculty of Science and Art, Adnan MenderesUniversity, Aydin, TurkeyFlavonoids, present in fruits, vegetables and traditional medicinal plants, showanticancer effects in experimental systems and are reportedly non-toxic. This is afavorable property for long term strategies for the attenuation of lymph node metastasis,which may effectively improve the prognostic states in breast cancer. Hence, westudied two flavonoids, apigenin and luteolin exhibiting strong bio-activity in varioustest systems in cancer research and are readily available on the market. This studyhas further advanced the mechanistic understanding of breast cancer intravasationthrough the lymphatic barrier. Apigenin and luteolin were tested in a three-dimensional(3-D) assay consisting of MDA-MB231 breast cancer spheroids and immortalizedlymph endothelial cell (LEC) monolayers. The 3-D model faithfully resembles theintravasation of breast cancer emboli through the lymphatic vasculature. Western blotanalysis, intracellular Ca2+ determination, EROD assay and siRNA transfection revealedinsights into mechanisms of intravasation as well as the anti-intravasative outcomeof flavonoid action. Both flavonoids suppressed pro-intravasative trigger factors inMDA-MB231 breast cancer cells, specifically MMP1 expression and CYP1A1 activity.A pro-intravasative contribution of FAK expression in LECs was established as FAKsupported the retraction of the LEC monolayer upon contact with cancer cells therebyenabling them to cross the endothelial barrier. As mechanistic basis, MMP1 caused thephosphorylation (activation) of FAK at Tyr397 in LECs. Apigenin and luteolin preventedMMP1-induced FAK activation, but not constitutive FAK phosphorylation. Luteolin,unlike apigenin, inhibited MMP1-induced Ca2+ release. Free intracellular Ca2+ is acentral signal amplifier triggering LEC retraction through activation of the mobility proteinMLC2, thereby enhancing intravasation. FAK activity and Ca2+ levels did not correlate.This implicates that the pro-intravasative contribution of FAK and of Ca2+ release inLECs was independent of each other and explains the better anti-intravasative effectsFrontiers in Pharmacology | www.frontiersin.org March 2018 | Volume 9 | Article 220242fphar-09-00220 March 12, 2018 Time: 13:3 # 2Hong et al. Inhibition of Intravasation by Flavonoidsof luteolin in vitro. In specific formulations, flavonoid concentrations causing significantanti-intravasative effects, can certainly be achieved in vivo. As the therapeutic strategyhas to be based on permanent flavonoid treatment both the beneficial and adverseeffects have to be investigated in future studies.Keywords: intravasation, 3D model, flavonoids, FAK, MMP1, CYP1A1, Ca2+ releaseINTRODUCTIONSpecies of the Scrophularia family are used in ethno-medicinesince ancient times (Galindez et al., 2002). In the search foranti-metastatic natural compounds, extracts of six Scrophulariaspecies were tested. For a methanolic extract from S. lucida asignificant anti-intravasative activity was discovered (Giessriglet al., 2012). The chloroform fraction of the methanolic extractinhibited in vitro intravasation of breast cancer spheroids mosteffectively. The major compound of the most active sub-fractionwas hispidulin which, as pure compound, attenuated this earlystage of the metastatic process significantly (Lewenhofer et al.,2018, same issue). Therefore, we decided to test two structurallyrelated flavonoids, luteolin and apigenin, in in-depth mechanisticstudies. These flavonoids are present in many medicinal plantsused in the traditional medicine of Central and Eastern Europe.One of the oldest references to a healing plant in occidentalliterature can be found in Homer's Iliad (book XI, line 822et seq. ; Murray, 1924). There is said that 'Akhilleu's used abitter, astringent root to treat wounds. This background inmythology led to the name of a very important medicinal plant:Achillea. In fact, this plant is used to treat, among other ailments,bleeding disorders and bruises (Akram, 2013). Later, Achillea sp. (\"Achilleios\") was also listed in De Materia Medica; Dioscurides,1st century A.D. and used by Classical Greeks, in the RomanEmpire, the Byzantium, and the Middle Ages up until ourpresent day. A. millefolium is very rich in glycosides of luteolinand apigenin, which are easily metabolized into the respectivegenins (Benedek et al., 2007; Benetis et al., 2008). Many otherapigenin- and luteolin-rich plant genera are also listed in DeMateria Medica: Cynara, Apium, Allium, Petroselinum, Punica,Thymus, Solidago, Chamaemelum, Viola, and Vitis (the entire 5thbook is dedicated to Vitis).Triple negative breast cancer (TNBC) comprises about 15%of all breast cancer types. In general, TNBC responds wellto chemotherapy as long it has not disseminated to otherorgans. However, as soon as TNBC metastasizes the success ofdrug treatment is very limited. This implicates that TNBC, inaddition to conventional therapy, needs a metastasis-preventiveapproach to maintain a tumor state associated with a betterprognosis. At an early stage of metastasis breast cancer cellsintravasate the lymphatic vasculature and colonize lymph nodes.Importantly, the \"lymph node status\" is a prognostic breasttumor marker (Sobin et al., 2009). Hence, we hypothesizedthat compounds which prevent intravasation may interfere withtumor progression such as lymph node- and distant organmetastasis. As such a preventive concept for TNCB has to bebased on long term drug administration, the therapeutic regimenhas to be mild and rather free of side effects to allow continuoustreatment. Luteolin inhibited proliferation and induced apoptosisof the highly metastatic TNBC cell line MDA-MB231 (Attoubet al., 2011). Anti-invasive/anti-metastatic activities of luteolin(Tsai et al., 2016; Lin et al., 2017) and the structurally relatedanalog apigenin (Lindenmeyer et al., 2001; Qin et al., 2016;Zhao et al., 2017) have also been demonstrated in variouscancer cell lines. As these flavonoids are also wide-spreadconstituents in fruits and vegetables they are considered freeof adverse effects. This tempted us to investigate luteolinand apigenin in terms of their anti-intravasative properties.In the daily diet, the concentration of flavonoids is too lowto show tumor preventive effects (Vogiatzoglou et al., 2015).However, apigenin and luteolin are also commercially availableas food supplements with rather high concentrations (40-200 mgapigenin/capsule; 50 mg luteolin/capsule) and may provide apreventive option.The TNCB cell line MDA-MB231 over-expresses thepro-metastatic matrix metalloprotease 1 (MMP1), and inhibitionof MMP1 attenuates tumor intravasation (Nguyen et al., 2015).Furthermore, MDA-MB231 cells secrete the pro-intravasativearachidonic acid metabolite 12(S)-HETE (Nguyen et al., 2016a),which is synthesized by CYP1A1. Therefore, we investigatedwhether luteolin and apigenin interfered with MMP1 expressionand CYP1A1 activity in MDA-MB231 cells.MMP1 and 12(S)-HETE activate the PAR1 and the12(S)-HETE receptor, respectively, in LECs, which both triggerthe release of Ca2+, causing the rapid retraction of LECs. Thisopens gaps in the monolayer [circular chemorepellent-induceddefects (CCIDs)] through which tumor cells cross the endothelialbarrier (Nguyen et al., 2015, 2016b). Hence, the influence ofapigenin and luteolin on levels of intracellular Ca2+ in LECswas investigated. The expression of FAK in LECs seems to becrucial for rapid cell movement (Desai et al., 2009) as observedduring CCID formation. Thus, FAK expression and activity werestudied as well.MATERIALS AND METHODSAntibodies and ReagentsPolyclonal rabbit anti-focal adhesion kinase (FAK) andpolyclonal rabbit anti-phospho-Tyr397-FAK were purchasedfrom Cell Signaling (Danvers, MA, United States), polyclonalrabbit anti-MMP1 from Abcam (Cambridge, United Kingdom)and monoclonal anti-b-actin from Sigma (Munich, Germany).Polyclonal rabbit anti-mouse, anti-goat and anti-rabbit IgGswere acquired from Dako (Glostrup, Denmark). Apigenin andluteolin were purchased from Sigma (Munich, Germany) andhuman recombinant MMP1 from Sigma-Aldrich (SRP3117,Frontiers in Pharmacology | www.frontiersin.org March 2018 | Volume 9 | Article 220243fphar-09-00220 March 12, 2018 Time: 13:3 # 3Hong et al."
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "id": "entity_0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 0,
+              "end": 19,
+              "text": "Scrophularia lucida",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 55,
+              "end": 77,
+              "text": "Scrophularia oxysepala",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 734,
+              "end": 758,
+              "text": "Scrophularia ningpoensis",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 982,
+              "end": 991,
+              "text": "apoptotic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1004,
+              "end": 1016,
+              "text": "Scrophularia",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1041,
+              "end": 1054,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1258,
+              "end": 1277,
+              "text": "Scrophularia canina",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_7",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1523,
+              "end": 1536,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1645,
+              "end": 1650,
+              "text": "Viola",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5869,
+              "end": 5890,
+              "text": "lymph node metastasis",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_10",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5946,
+              "end": 5959,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_11",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6194,
+              "end": 6207,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_12",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6344,
+              "end": 6357,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_13",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6480,
+              "end": 6493,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_14",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6811,
+              "end": 6824,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_15",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8440,
+              "end": 8451,
+              "text": "-metastatic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_16",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8726,
+              "end": 8739,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_17",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10085,
+              "end": 10091,
+              "text": "Cynara",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_18",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10093,
+              "end": 10098,
+              "text": "Apium",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_19",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10100,
+              "end": 10106,
+              "text": "Allium",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_20",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10108,
+              "end": 10120,
+              "text": "Petroselinum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_21",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10122,
+              "end": 10128,
+              "text": "Punica",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_22",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10129,
+              "end": 10135,
+              "text": "Thymus",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_23",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10137,
+              "end": 10145,
+              "text": "Solidago",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_24",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10147,
+              "end": 10158,
+              "text": "Chamaemelum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_25",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10160,
+              "end": 10165,
+              "text": "Viola",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_26",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10171,
+              "end": 10176,
+              "text": "Vitis",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_27",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10236,
+              "end": 10249,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_28",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10283,
+              "end": 10296,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_29",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10676,
+              "end": 10689,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_30",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11329,
+              "end": 11344,
+              "text": "anti-metastatic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "from_id": "entity_4",
+            "to_id": "entity_5",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_8",
+            "to_id": "entity_9",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

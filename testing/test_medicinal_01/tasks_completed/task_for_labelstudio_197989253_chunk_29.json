@@ -5,7 +5,724 @@
     },
     "predictions": [
       {
-        "result": []
+        "result": [
+          {
+            "id": "entity_0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3147,
+              "end": 3162,
+              "text": "food poisonings",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3179,
+              "end": 3202,
+              "text": "microbial contamination",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3357,
+              "end": 3366,
+              "text": "microbial",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13892,
+              "end": 13915,
+              "text": "Saccharomyces cerevisae",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13917,
+              "end": 13931,
+              "text": "Candida atilis",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13933,
+              "end": 13953,
+              "text": "Kluyveromyces lactis",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13955,
+              "end": 13983,
+              "text": "Saccharomyces carlsbergensis",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_7",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13985,
+              "end": 14017,
+              "text": "Paecilomyces hepiali Chen et Dai",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14019,
+              "end": 14026,
+              "text": "sp. Nov",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14028,
+              "end": 14059,
+              "text": "Hirsutella hepiali Chen et Shen",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_10",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14061,
+              "end": 14078,
+              "text": "Ganoderma lucidum",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_11",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14080,
+              "end": 14098,
+              "text": "Ganoderma sinensis",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_12",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14100,
+              "end": 14116,
+              "text": "Ganoderma tsugae",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_13",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14118,
+              "end": 14130,
+              "text": "Monacus anka",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_14",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14132,
+              "end": 14148,
+              "text": "Monacus purpures",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_15",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 16748,
+              "end": 16781,
+              "text": "Hawthorn fruit (Fructus Crataegi)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_16",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 16783,
+              "end": 16822,
+              "text": "Barbary wolfberry fruit (Fructus Lycii)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_17",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 16824,
+              "end": 16854,
+              "text": "Lotus leaf (Folium Nelumbilis)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_18",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 16856,
+              "end": 16885,
+              "text": "Lotus seed (Semen Nelumbilis)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_19",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 16887,
+              "end": 16915,
+              "text": "Hemp seed (Fructus Cannabis)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_20",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 16917,
+              "end": 16943,
+              "text": "Ginkgo seed (Semen Ginkgo)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_21",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 16945,
+              "end": 16974,
+              "text": "Oyster Shell (Concha Ostreae)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_22",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 16976,
+              "end": 16997,
+              "text": "Honey (Apis Melifera)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_23",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 16999,
+              "end": 17025,
+              "text": "Peppermint (Herba Menthae)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_24",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17027,
+              "end": 17054,
+              "text": "Peach seed (Semen Persicae)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_25",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17060,
+              "end": 17082,
+              "text": "Tangerine peel (Citrus",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_26",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17443,
+              "end": 17455,
+              "text": "Ginseng root",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_27",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17457,
+              "end": 17486,
+              "text": "leaf and fruit (Radix Ginseng",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_28",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17488,
+              "end": 17502,
+              "text": "Folium Ginseng",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_29",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17504,
+              "end": 17520,
+              "text": "Fructus Ginseng)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_30",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17522,
+              "end": 17547,
+              "text": "Deer embryo (Fetus Cervi)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_31",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17549,
+              "end": 17570,
+              "text": "Deer bone (Fel Cervi)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_32",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17572,
+              "end": 17610,
+              "text": "White peony root (Radix Paeoniae alba)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_33",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17612,
+              "end": 17649,
+              "text": "Red peony root (Radix Paeoniae rubra)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_34",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17651,
+              "end": 17673,
+              "text": "Aloe vera (Herba aloe)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_35",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17675,
+              "end": 17708,
+              "text": "Magnolia fl ower (Flos magnoliae)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_36",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17710,
+              "end": 17757,
+              "text": "Tortoise shell (Carapax et Plastrum testudinis)",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_37",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17763,
+              "end": 17782,
+              "text": "Ginkgo leaf (Folium",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "from_id": "entity_15",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_16",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_17",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_18",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_19",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_20",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_21",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_22",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_23",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_24",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_25",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_26",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_27",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_28",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_29",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_30",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_31",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_32",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_33",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_34",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_35",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_36",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_37",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          }
+        ]
       }
     ]
   }

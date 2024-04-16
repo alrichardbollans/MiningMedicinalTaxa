@@ -1,0 +1,243 @@
+[
+  {
+    "data": {
+      "text": "Boka1, D. Benaki2, N. Aligiannis11 Department of Pharmacognosy and Natural Products Chemistry, Faculty of Pharmacy, National and Kapodistrian University of Athens, Greece2 Department of Pharmaceutical Chemistry, Faculty of Pharmacy, National and Kapodistrian University of Athens, GreeceNatural products have been a source of medicinal agents for thousands of years and the remarkable number of modern drugs that have been derived, are predominantly based on traditional medicine. However, isolation of natural compounds has always been tedious, as herbal extracts are complicated systems constituted of hundreds of chemical entities, consume time and solvent and very often the procedure ends with the re-isolation of known metabolites. Complementary, there has been a pressing need to involve approaches that accelerate the measurement of metabolite levels directly from plant extracts through the implementation of high-throughput screening (HTS) technologies and chemometrics.The goal of PEGASUS is the establishment of a validated analytical chemometrics platform through the elaboration of contemporary chromatographic and spectroscopic techniques (FCPC, HPTLC, LC-HRMS/MS, NMR) along with sophisticated statistical algorithms for the rapid and effective identification of bioactive compounds, prior to their isolation.The last five years, the development of an HeteroCovariance Approach (HetCA algorithms), has been applied at our Department for the discovery of bioactive metabolites in several biological targets such as free radicals, enzymes and cancer cell lines [1-4]. HetCA is a MATLAB toolbox based on Statistical Total Correlation Spectroscopy (STOCSY) and Statistical Heterospectroscopy (SHY) methodologies. Specifically, in this work is presented the establishment of HetCA algorithm via the study of the antioxidant capacity of a mixture consisting of known pure compounds and further more the application of HetCA for the discovery of antioxidant compounds from Stachys tymphaea, and the anti-tyrosinase activity of Paeonia mascula ssp hellenica, belonging to the Greek flora.PEGASUS incorporates for the first time chromatographic and spectroscopic techniques and various bioactivity results along with advanced chemometrics for the rapid identification of bioactive compounds. [1] Aligiannis, N., Halabalaki, M., Chaita, E., Kouloura, E., Argyropoulou, A., Benaki, D., Kalpoutzakis, E., Angelis, A., Stathopoulou, K., Antoniou, S., Sani, M., Krauth, V., Werz, O., Schutz, B., Schafer, H., Spraul, M., Mikros, E., Skaltsounis, A.L., 2016. Heterocovariance based metabolomics as a powerful tool accelerating bioactive natural product identification. ChemistrySelect. 1, 2531-2535. [2] Chaita, E., Gikas, V., Aligiannis, N., 2017. Integrated HPTLC-based methodology for the tracing of bioactive compounds in herbal extracts employing multivariate chemometrics. A case study on Morus alba. Phytochem. Anal. 28(2), 125-131. [3] Boka, V.I., Stathopoulou, K., Benaki, D., Gikas, E., Aligiannis, N., Mikros, E., Skaltsounis, A.L., 2017. Could multivariate statistics exploit HPTLC and NMR data to reveal bioactive compounds? The case of Paeonia mascula. Phytochem. Lett. 20, 379-385. [4] Michalea, R., Stathopoulou, K., Polychronopoulos, P., Benaki, D., Mikros, E., Aligiannis, N., 2018. Efficient identification of Acetylcholinesterase and Hyaluronidase inhibitors from Paeonia parnassica extracts through a HeteroCovariance Approach. J. Ethnopharmacol. doi.org/10.1016/j.jep.2018.10.008.Acknowledgment: This project is funded under the European H2020-MSCA-RISE-2018 (823973) project EthnoHERBS: Conservation of European Biodiversity through Exploitation of Traditional Herbal Knowledge for the Development of Innovative Products.www.ethnopharmacology2021.org 6720th International Congress of the International Society for Ethnopharmacology Virtual Congress * 18-20 April 2021ORAL PRESENTATIONSApplication of hyphenated techniques in quality assurance of ethnopharmacological sourceswww.ethnopharmacology2021.org68Aromatic and medicinal plants in animal health ethnopharmacological approachOrals20th International Congress of the International Society for Ethnopharmacology Virtual Congress * 18-20 April 2021ORAL PRESENTATIONSAromatic and medicinal plants in animal health ethnopharmacological approachO09. Of Elephants and Men: From animal observation to veterinary and human pharmacopeia in Laos.JM. DubostMuseum National d'Histoire Naturelle-UMR 7206, Paris, FranceUMR 152 Pharmadev, Universite de Toulouse, IRD, UPS, FranceIn a region of Laos where domestic elephants are still kept on the outskirts of villages, we studied the interactions between the observation of elephants by their mahouts (elephant care handlers) and their own medicinal practices. This study highlights many convergences between elephant self-medication observations reported by mahouts (elephant care handler) and their own medicinal practices, as for example the root of Harrisonia perforata which is said to be consumed by elephants suffering from diarrhoea and also used in decoctions by some mahouts to cure this ailment in the household context. Some mahouts explain the therapeutic action of these plant items consumed by elephants by referring to certain principles derived from the semiology and etiology of Laotian traditional medicine; thus of the vegetal items of \"cold\" nature consumed by elephants that are supposed to counteract \"hot\" ailments like diarrhoea. Some mahouts combine plant items selected from elephant observation with other plants from the local pharmacopoeia in preparations intended for the care of elephants. These elements show that in this area there is a close interconnexion between ethnoveterinary practices, traditional medicine, and animal observation, providing insight into the pathways that lead to the genesis of certain medicinal practices.www.ethnopharmacology2021.org7020th International Congress of the International Society for Ethnopharmacology Virtual Congress * 18-20 April 2021ORAL PRESENTATIONSAromatic and medicinal plants in animal health ethnopharmacological approachO10. Current status of ethnoveterinary surveys conducted in South Africa.L.J. McGaw1, I.M. Famuyide1, E.T. Khunoana1, A.O. Aremu21 Phytomedicine Programme, Department of Paraclinical Sciences, University of Pretoria, South Africa2 Indigenous Knowledge Systems (IKS) Centre, Faculty of Natural and Agricultural Sciences, North West University, Mmabatho, South AfricaTraditional practices are often used by livestock owners in developing countries with limited access to professional veterinary services. Plant-based remedies are commonly used to cure animals suffering from internal or external parasite infestations, wounds, gastrointestinal ailments and inflammation. For such disorders, ethnoveterinary medicine (EVM) may comprise an affordable and readily available alternative or adjunct to expensive orthodox drugs, and also may play an important role in preventative medicine. Interest in the use of medicinal plants has increased markedly as there is a clear association between animal health and human health. Additionally, drug residues in meat combined with the rising occurrence of antibiotic resistance also provide motivation to search for alternatives to commercially available drugs. Indigenous communities hold valuable knowledge of plants used in traditional animal healthcare, and relatively little has been done to document and preserve this knowledge in various communities around South Africa. However, in recent years several more surveys focusing on ethnoveterinary use of plants have been conducted. In the past ten years alone, 139 plants from 50 families used against 21 animal diseases and conditions were recorded. Leaves, roots and bark remained popular plant parts used for EVM. In terms of livestock type reported, the major focus was on cattle, goats and poultry. These studies contribute valuable knowledge that may be used to support development of innovative products for use in preventing and curing certain livestock diseases. However, only four of the nine provinces in the country have been surveyed and there is much to be done to complete the ethnoveterinary medicinal plant inventory of South Africa. The use of certain plant species for similar ailments by different ethnic groups offers an indication of efficacy and non-toxicity, generating interesting leads for prioritising research.www.ethnopharmacology2021.org 7120th International Congress of the International Society for Ethnopharmacology Virtual Congress * 18-20 April 2021ORAL PRESENTATIONSAromatic and medicinal plants in animal health ethnopharmacological approachO11. Effect of dietary aromatic plants and essential oils in combination with tributyrin on broiler chicken meat composition and oxidative stability.E. Bonos1, E. Sidiropoulou2, I. Giannenas2, A. Karamoutsios1, O. Tsiftsoglou3, D. Lazari3, E. Christaki2, I. Skoufos1, A. Tzora11 Department of Agriculture, School of Agriculture, University of Ioannina, Kostakioi, Arta, Greece. 2 Laboratory of Nutrition, School of Veterinary Medicine, Faculty of Health Sciences, Aristotle University of Thessaloniki, Greece.3 Laboratory of Pharmacognosy, School of Pharmacy, Faculty of Health Sciences, Aristotle University of Thessaloniki, Greece.Meat quality of broiler chicken in terms of chemical composition along with its oxidative stability is of immense interest for consumers. Various feed additives are under examination in order to improve the broiler chicken production and meat quality. This trial examined the combined dietary use of a mixture of aromatic plants and essential oils together with tributyrin, an ester of butyric acid and glycerol that could attenuate intestinal inflammation and oxidative stress. In a 37 days trial, 360 one-day-old male broiler chicks (Ross-308) were randomly allocated to 4 groups with 6 replicates (of 15 chicks), housed in floor pens with rice hulls litter. Commercial breeding, management and vaccinations procedures were employed. Group A (Control) was fed a basal diet. Group B was given the basal diet supplemented with a mixture of oregano oil (50ppm), garlic oil (5 ppm), dried ground sage (2 g/kg) and Crithmum (1 g/kg); Group C the basal diet with tributyrin (1 g/kg); Group D diet with both the mixture of dried aromatic plants and essential oils and tributyrin. At slaughter, breast and thigh samples were collected for analysis. Meat chemical composition was evaluated using the FoodScan Analyser. Meat resistance to oxidation after one day of refrigerated storage was determined as malondialdehyde (MDA). Data were analysed with the ANOVA and Kruskal-Wallis procedures, using SPSS v20 software. The breast chemical analysis showed that the Group D had higher (P<0.05) fat percentage compared to the group A, while the other parameters were not significantly affected. Thigh chemical composition did not differ between the groups. The oxidative stability analysis showed that the breast meat of group B had lower (P<0.05) MDA values compared to group C, whereas the thigh meat of group B had the lower (<0.001) MDA values and the meat of group C had the higher MDA values.Acknowledgments: The project/research is co-financed by the European Regional Development Fund (ERDF) under the Operational Program \"Epirus 2014-2020\", NSRF 2014-2020. Project Code: HP1AB-0028192. Acronym: Innochicken.www.ethnopharmacology2021.org72Aromatic and medicinal plants of the Mediterranean basin as food and dietary supplementsOrals20th International Congress of the International Society for Ethnopharmacology Virtual Congress * 18-20 April 2021ORAL PRESENTATIONSAromatic and medicinal plants of the Mediterranean basin as food and dietary supplementsO12. Pistacia lentiscus resin (Chios mastic gum): chemistry and biology.M. HalabalakiLaboratory of Pharmacognosy and Natural Products Chemistry, Department of Pharmacy, University of Athens, GreeceChios mastic, is the resinous secretion obtained from the wounds of the trunk and branches of P. lentiscus L. var. chia, which is endemic to the Greek island of Chios [1]. Since antiquity (500 BC), Chios Mastic has been well recorded for its medicinal and pharmaceutical properties. From 1997, Chios mastic has been identified as a product of Protected Designation of Origin (PDO) while cultivating mastic has been inscribed by UNESCO in 2014 in its Representative List of the Intangible Cultural Heritage of Humanity. In July 2015, mastic was recognized as a traditional medicinal product by the European Medicines Agency (EMA) with two therapeutic indications (mild dyspeptic disorders & skin inflammation/ healing of minor wounds) [2]. In the frame of a continuation study on Pistacia sp. an integrated, complementary bottom up approach has been designed. This approach includes isolation of active, marker compounds from starting material with fast and state-of-the-art techniques (CPC-UV, SFC-UV-MS); profiling and characterisation of composition via multiple analytical methods (HPTLC, HPLC-DAD, UPLC-HRMS & HRMS/MS & NMR); and validation of methods for quality control purposes. Additionally, pharmacokinetic characteristics of major mastic constituents have been determined after a human cohort and metabolomics approaches (LC-MS and NMR) have been implemented for revealing of biomarkers. The current work could be considered as an example of a complete workflow implemented in medicinal plants, from the natural entity to human organism. [1] Bozorgi M, Memariani Z, Mobli M, Hossein M, Surmaghi S, Shams-Ardekani MR, & Rahimi R. Sci. World J, 2013, 1-33. [2] http://www.ema.europa.eu/docs/en_GB/document_library/Herbal_-_HMPC_assessment_report/2015/07/ WC500190097.pdfwww.ethnopharmacology2021.org7420th International Congress of the International Society for Ethnopharmacology Virtual Congress * 18-20 April 2021ORAL PRESENTATIONSAromatic and medicinal plants of the Mediterranean basin as food and dietary supplementsO13. Human gastrointestinal and colonic metabolisation study of olive secoiridoids using an in vitro continuous flow dialysis system.M.E. Sakavitsi1, A. Breynaert2, A. Angelis1, L. Pieters2, N. Hermans2, S. Mitakou1, M. Halabalaki11 Department of Pharmacognosy and Natural Products Chemistry, Faculty of Pharmacy, University of Athens, Greece2 Research group Natural Products & Food Research and Analysis, Department of Pharmaceutical Sciences, University of Antwerp, BelgiumOlive oil biophenols such as tyrosol (T), hydroxytyrosol (HT) along with secoiridoids oleacein (OLEA), oleocanthal (OLEO) and oleuropein (OLEU) and total polyphenolic fraction (TPF) are genuinely associated with the Mediterranean diet, bearing diverse health promoting and disease preventing abilities. Additionally, a large body of evidence suggests that the potential biological effects of edible phenolic compounds in the human body are partly consequence of their biotransformation by the colon microbiota. Yet, metabolisation studies of the aforementioned compounds are limited.Aiming towards a detailed investigation into the absorption, metabolism and microflora-dependent transformation of olive oil polar constituents, and within the framework of the international MediHealth project, the GIDM-Colon Model was applied. The above-mentioned model is an optimized, validated in vitro continuous flow dialysis system, simulating the absorption from lumen to mucosa; followed by the colon phase using pooled human faecal suspensions, which mimics the physiological conditions during human gastrointestinal digestion [1]. Throughout GIDM-Colon digestion, different samples were collected of dialysate solutions, after gastric and small intestinal digestion, and at four different time points of colonic digestion.Overall, tentative identification of more than 50 metabolites was achieved by using the information obtained from statistical analysis, the different metabolism stages, chromatographic and spectrometric features and the high-resolution information from the Orbitrap mass analyzer. The metabolisation patterns seemed to differ greatly among the various compounds, and the most abundant metabolites came from compounds containing a 1,2-dihydroxybenzene group, such as the phenylalcohol HT and the secoiridoids OLEU and OLEA. Also, the results indicated that most of the metabolites studied are reaching the maximum level in the human gut metabolism up to 6 h, whereas in the samples taken 24 h after entering the colon phase, a fast elimination of the compounds was observed. [1] Breynaert A, Bosscher D, Kahnt A, Claeys M, Cos P, Pieters L, Hermans N. Development and Validation of an in vitro Experimental GastroIntestinal Dialysis Model with Colon Phase to Study the Availability and Colonic Metabolisation of Polyphenolic Compounds. Planta Med 2015; 81: 1075-1083.www.ethnopharmacology2021.org 7520th International Congress of the International Society for Ethnopharmacology Virtual Congress * 18-20 April 2021ORAL PRESENTATIONSAromatic and medicinal plants of the Mediterranean basin as food and dietary supplementswww.ethnopharmacology2021.org76Conservation and sustainable use of herbal resourcesOrals20th International Congress of the International Society for Ethnopharmacology Virtual Congress * 18-20 April 2021ORAL PRESENTATIONSConservation and sustainable use of herbal resourcesO14. Understanding local knowledge as integral factor in designing strategies for sustainably conserving and using herbal resources.Y.M. Scherrer1, M. Heinrich21 Sustainability Research Group, University of Basel, Switzerland 2 Research Group 'Pharmacognosy and Phytotherapy', UCL School of Pharmacy, London, United KingdomLocal communities have to be familiar with the environment sustaining them. Consequently, knowledge on natural resources and related regional ecological processes is essential in identifying adequate local development strategies also contributing to advancing sustainable development (SD). However, understanding what matters is often challenging."
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "id": "entity_0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1823,
+              "end": 1834,
+              "text": "antioxidant",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1955,
+              "end": 1966,
+              "text": "antioxidant",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1982,
+              "end": 1998,
+              "text": "Stachys tymphaea",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2008,
+              "end": 2023,
+              "text": "anti-tyrosinase",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2036,
+              "end": 2065,
+              "text": "Paeonia mascula ssp hellenica",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5045,
+              "end": 5054,
+              "text": "diarrhoea",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5458,
+              "end": 5467,
+              "text": "diarrhoea",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_7",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6743,
+              "end": 6768,
+              "text": "gastrointestinal ailments",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6773,
+              "end": 6785,
+              "text": "inflammation",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 9765,
+              "end": 9777,
+              "text": "inflammation",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_10",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11774,
+              "end": 11792,
+              "text": "Pistacia lentiscus",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_11",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12629,
+              "end": 12653,
+              "text": "mild dyspeptic disorders",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_12",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12656,
+              "end": 12660,
+              "text": "skin",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "from_id": "entity_2",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_4",
+            "to_id": "entity_3",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_4",
+            "to_id": "entity_2",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_6",
+            "to_id": "entity_5",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_8",
+            "to_id": "entity_7",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_8",
+            "to_id": "entity_9",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

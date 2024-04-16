@@ -1,0 +1,859 @@
+[
+  {
+    "data": {
+      "text": "8:680.doi: 10.3389/fphar.2017.00680Bioactivity Potential of Prunusspinosa L. Flower Extracts:Phytochemical Profiling, CellularSafety, Pro-inflammatory EnzymesInhibition and Protective EffectsAgainst Oxidative Stress In VitroAnna Marchelak 1, Aleksandra Owczarek 1, Magdalena Matczak 1, Adam Pawlak 1,Joanna Kolodziejczyk-Czepas 2, Pawel Nowak 2 and Monika A. Olszewska 1*1Department of Pharmacognosy, Faculty of Pharmacy, Medical University of Lodz, Lodz, Poland, 2Department of GeneralBiochemistry, Faculty of Biology and Environmental Protection, University of Lodz, Lodz, PolandFlower extracts of Prunus spinosa L. (blackthorn)--a traditional medicinal plant of Centraland Eastern Europe indicated for the treatment of urinary tract disorders, inflammation,and adjunctive therapy of cardiovascular diseases--were evaluated in terms of chemicalcomposition, antioxidant activity, potential anti-inflammatory effects, and cellular safetyin function of fractionated extraction. The UHPLC-PDA-ESI-MS3 fingerprinting led tofull or partial identification of 57 marker constituents (36 new for the flowers), mostlyflavonoids, A-type proanthocyanidins, and phenolic acids, and provided the basis forauthentication and standardization of the flower extracts. With the contents up to 584.07mg/g dry weight (dw), 490.63, 109.43, and 66.77 mg/g dw of total phenolics (TPC),flavonoids, proanthocyanidins, and phenolic acids, respectively, the extracts were provento be rich sources of polyphenols. In chemical in vitro tests of antioxidant (DPPH, FRAP,TBARS) and enzyme (lipoxygenase and hyaluronidase) inhibitory activity, the extractseffects were profound, dose-, phenolic-, and extraction solvent-dependent. Moreover, atin vivo-relevant levels (1-5ug/mL) the extracts effectively protected the human plasmacomponents against peroxynitrite-induced damage (reduced the levels of oxidativestress biomarkers: 3-nitrotyrosine, lipid hydroperoxides, and thiobarbituric acid-reactivesubstances) and enhanced the total antioxidant status of plasma. The effects observedin biological models were in general dose- and TPC-dependent; only for protein nitrationthe relationships were not significant. Furthermore, in cytotoxicity tests, the extracts didnot affect the viability of human peripheral blood mononuclear cells (PBMC), and mightbe regarded as safe. Among extracts, the defatted methanol-water (7:3, v/v) extractand its diethyl ether and ethyl acetate fractions appear to be the most advantageousfor biological applications. As compared to the positive controls, activity of the extractswas favorable, which might be attributed to some synergic effects of their constituents.In conclusion, this research proves that the antioxidant and enzyme inhibitory capacityof phenolic fractions should be counted as one of the mechanisms behind the activity282Marchelak et al. Bioactivity Potential of Prunus spinosa L. Flower Extractsof the flowers reported by traditional medicine and demonstrates the potential of theextracts as alternative ingredients for functional products supporting the treatment ofoxidative stress-related pathologies cross-linked with inflammatory changes, especiallyin cardiovascular protection.Keywords: Prunus spinosa, oxidative stress, antioxidants, human plasma, lipoxygenase, hyaluronidase,polyphenols, LC-MSINTRODUCTIONMedicinal plants as primary sources of natural bioactivecompounds are attracting growing interest as constituents offunctional products active in prevention and adjunctive therapyof numerous chronic diseases, including cardiovascular disorders(CVD), the leading cause of mortality in the world today. In thesearch of new candidates for closer investigation, ethnobotanicalknowledge constitutes an important guideline indicating specieswith the relevant activity (Franz et al., 2011).One of such plants might be Prunus spinosa L. (blackthornor sloe)--a wild plume tree native to Europe, western Asia,north-western Africa, and naturalized in New Zealand andNorth America (Tutin et al., 1968). In European tradition ithas been known for over 7,000 years, at first as a sourceof edible fruit and then also as a medicinal plant (Poonamet al., 2011; Zohary et al., 2012), used i.a. in the treatment ofvarious circulatory system disorders. For medicinal applicationsthe plant has been used throughout Europe with the flowersbeing the most popular in central and eastern parts ofthe continent (Hoppe, 1981). Ethnopharmacological sourcesindicate vasoprotective, anti-inflammatory, diuretic, detoxifying(blood purifying), and spasmolytic activities for the flowers,and document their use as ingredients of compound herbalprescriptions traditionally applied, e.g., to treat intestinal andrespiratory tract disorders, but also various cardiac complaints,such as myocarditis, cardiac neurosis and atherosclerosis(Berger, 1949; Hoppe, 1981; Wawrzyniak, 1992; Blumenthal andBusse, 1998). The fruits, according to German CommissionE, have been indicated mainly in mild inflammation ofthe oral and pharyngeal mucosa, as well as an astringent(Blumenthal and Busse, 1998); however, local European sourcesreport their use also as a heart-strengthening remedy (Kultur,2007; Jaric' et al., 2015). Branches, on the other hand, havebeen more popular in the south of Europe and suggestedto possess anti-hypertensive properties (Calvo and Cavero,2014).Active components of the plant are believed to be polyphenols,including flavonoids, A-type proanthocyanidins, anthocyanins,coumarins, and phenolic acids, forming unique and diversifiedprofiles in particular organs, among which the flowers are theleast characterized (Kolodziej et al., 1991; Sakar and Kolodziej,1993; Olszewska and Wolbis', 2001, 2002a,b; Guimaraeset al., 2013; Pinacho et al., 2015; Owczarek et al., 2017).Some blackthorn constituents, such as flavonoid pentosides(arabinosides, xylosides, rhamnosides) and A-type procyanidindimers with twice-bonded structures are quite rare in natureand their distribution is generally limited to selected species andplant families (Pinacho et al., 2015). This unique compositionmay correspond to the distinctive activity profile of P. spinosareported by traditional medicine. Indeed, the earliest studiessuggested that the flavonoid fraction of blackthorn flowerssignificantly reduces capillary permeability and shows anti-inflammatory effects in animal internal organs, normalizesthe blood cholesterol and cholesterol/phospholipid ratio inatherogenic rabbits, exhibits spasmolytic effects on isolatedintestinal segments from different animals, and increases theamplitude of heart contractions in perfusion of isolated froghearts (Lisevitskaya et al., 1968; Makarov, 1968, 1972; Makarovand KhadzhaiV, 1969). However, despite these promising in vivoand ex vivo results, the potential of blackthorn, especially theblackthorn flowers, as a source of biologically active extracts(that means standardized dry extracts--more effective thanunprocessed plant materials and recommended in modernphytotherapy) remains unexplored, and the plant materials arestill used mostly in the form of traditional herbal teas, partly dueto the lacking molecular background for their activity and safety.Recently, special attention has been given to the antioxidantactivity of the extracts from the branches, leaves, and fruits,as one of the possible mechanism of action of the blackthornpolyphenols (Barros et al., 2010; Guimaraes et al., 2014; Pinachoet al., 2015). Nevertheless, as these studies were based only onsimple, mostly chemical tests, and did not cover the flowerextracts, the subject requires more detailed investigations.Polyphenols, including flavonoids, are specialized plantmetabolites, the beneficial effects of which in CVD is commonlylinked with their ability to influence two interdependentpathological processes of oxidative/nitrative stress andinflammation (Biswas, 2016). As free radical scavengers,metal chelators, inhibitors of pro-inflammatory enzymes, andmodifiers of cell signaling pathways, polyphenols may protectcellular and functional elements of the circulatory system againstlipid peroxidation, protein nitration, chronic inflammation, andoxidative damage to DNA, which results i.a. in vasodilatory,vasoprotective, anti-atherogenic, antithrombotic, and anti-apoptotic effects (Alissa and Ferns, 2012; Quinones et al., 2013).Moreover, the reducing polyphenols and their metabolites canincrease the total antioxidant capacity of blood plasma andthus the tolerance of body tissues against ischemic/reperfusioninjuries (Pandey and Rizvi, 2009).Therefore, the aim of this project was a comprehensivecharacteristic of the flowers of P. spinosa in a function offractionated extraction with respect to the chemical compositionand biological activity of the dry extracts obtained with solventsof different polarity. Phenolic profiles of the extracts wereinvestigated by UHPLC-PDA-ESI-MS3, HPLC-PDA, and UV-spectrophotometric methods, while their biological effects werestudied in vitro by nine complementary tests (both chemical andFrontiers in Pharmacology | www.frontiersin.org October 2017 | Volume 8 | Article 680283Marchelak et al. Bioactivity Potential of Prunus spinosa L. Flower Extractshuman plasma models) covering some of the main mechanismsof the beneficial action of polyphenols in CVD, includingdirect scavenging of free radicals, inhibition of pro-inflammatoryenzymes, enhancement of the total antioxidant capacity ofblood plasma and protection against oxidative and nitrativedamage of its lipid and protein components. Moreover, therelationship between activity of the extracts and the presenceof different groups of polyphenolic constituents was exploredstatistically. Additionally, cellular safety of the extracts wasevaluated in vitro in cytotoxicity tests against human peripheralblood mononuclear cells (PBMCs).MATERIALS AND METHODSGeneralHPLC grade reagents and standards, such as 2,2-diphenyl-1-picrylhydrazyl (DPPH); 2,2'-azobis-(2-amidinopropane)dihydrochloride (AAPH); 2,4,6-tris-(2-pyridyl)-s-triazine(TPTZ); (+-)-6-hydroxy-2,2,7,8-tetramethylchroman-2-carboxylic acid (Trolox R(c)); gallic acid monohydrate; chlorogenicacid hemihydrate; caffeic acid; kaempferol; quercetin trihydrate;isorhamnetin; rutin trihydrate; cyanidin chloride; indomethacin;bovine testis hyaluronidase; lipoxygenase from soybean; linoleicacid; 2-thiobarbituric acid; were purchased from Sigma-Aldrich(Seelze, Germany/St. Louis, MO, USA), as were analyticalgrade butylated hydroxyanisole (BHA); 2,6-di-tert-butyl-4-methylphenol (BHT); Tween R(c) 40; xylenol orange disodiumsalt; and Histopaque R(c)-1077 medium. HPLC grade solvents(acetonitrile and methanol) used for UHPLC and HPLC analyseswere obtained from Avantor Performance Materials (Gliwice,Poland). A (Ca2+)-free phosphate buffered saline (PBS) waspurchased from Biomed (Lublin, Poland). Peroxynitrite wassynthesized according to Pryor et al. (1995). All immunoreagentsfor 3-nitrotyrosine detection were purchased from Abcam(Cambridge, UK). Pierce BCA Protein Assay Kit was obtainedfrom Thermo Scientific (Waltham, MA, USA). All otherchemicals and solvents were of analytical grade and obtainedfrom Avantor (Poland). In all analyses redistilled waterwas used. For chemical tests samples were incubated ina constant temperature using a BD 23 incubator (Binder,Tuttlingen, Germany) and measured using a UV-1601 Rayleighspectrophotometer (Beijing, China), in 10mm quartz cuvettes.Activity tests in blood plasma models and enzyme inhibitoryassays were done using 96-well plates and a microplate reader,SPECTROStar Nano (BMG LabTech, Ortenberg, Germany).Plant Material and Extracts PreparationCommercial samples of Prunus spinosa L. flowers were purchasedin 2015 (harvest in April 2015) from Dary Natury (Koryciny,Poland). According to the manufacturer, the raw material wascollected in the district Rudka, Malopolska province (50*02'N,20*52'E). The raw material was powdered with an electricgrinder, and sieved through a 0.315-mm sieve. A portion (100 g)was extracted with chloroform (3 L, 30 h) in a Soxhlet apparatusand the pellet was next four times refluxed with methanol-water (7:3, v/v; 4 x 1 L) to give the defatted methanol extract(MED, 27.3 g dw). The extraction solvent was selected frommethanol-water mixtures of different alcohol concentration afteroptimization performed in terms of extracts yield and totalphenolic content (results not shown). The MED (25.0 g) wassuspended in water (1 L) and subjected to sequential liquid-liquid extraction with organic solvents (8 x 100 mL each)to yield diethyl ether fraction (DEF, 1.23 g dw), ethyl acetatefraction (EAF, 4.00 g dw), n-butanol fraction (BF, 4.86 g dw) andwater residue (WR, 13.08 g dw). The organic solvent extractswere evaporated in vacuo, and the water-containing fractionswere lyophilized using an Alpha 1-2/LD Plus freeze dryer(Christ, Osterode amHarz, Germany) before weighing. In furtheranalyses freshly prepared solutions of the extracts in methanol-water (7:3, v/v) were used. All quantitative results were calculatedper dry weight (dw) of the extracts.Phytochemical ProfilingQualitative LC-MS StudyThe UHPLC-PDA-ESI-MS3 analysis was performed on UHPLC-3000 RS system (Dionex, Dreieich, Germany) equipped witha dual low-pressure gradient pump, an autosampler, a columncompartment, a diode array detector, and an AmaZon SL iontrap mass spectrometer with an ESI interface (Bruker Daltonik,Bremen, Germany). Separations were carried out on a KinetexXB-C18 column (1.7 um, 150mm x 2.1mm i.d. ; Phenomenex,Torrance, CA, USA) at 25*C. The mobile phase consistedof solvent A (water/formic acid, 100:0.1, v/v), and solvent B(acetonitrile/formic acid, 100:0.1, v/v) with the elution profile asfollows: 0-10 min, 6-13% B (v/v); 10-15 min, 13% B (v/v); 15-19min, 13-15% B (v/v); 19-24 min, 15% B (v/v); 24-40 min, 15-23% B (v/v); 40-55 min, 23-40% B (v/v); 55-60 min, 40% B (v/v);60-63 min, 40-6% B (v/v); 63-70 min, 6% B (equilibration). Theflow rate was 0.3 mL/min. Before injection, sample solutions ofthe extracts (3.0 mg/mL) were filtered through a PTFE syringefilter (13mm, 0.2 um, Whatman, Pittsburgh, PA, USA). UV-Vis spectra were recorded over a range of 200-600 nm, andchromatograms were acquired at 254, 280, and 350 nm. TheLC eluate was introduced directly into the ESI interface withoutsplitting and analyzed in both negative and positive ion modes.ESI parameters: the nebulizer pressure was 40 psi; dry gas flow 9L/min; dry temperature 300*C; and capillary voltage 4.5 kV. MS2and MS3 fragmentations were obtained in Auto MS/MS modefor the most abundant ions at the time. Analysis was carried outusing scan from m/z 200-2,200.Quantitative StandardizationThe total phenolic contents (TPC) and total proanthocyanidincontents (TPA) were quantified by the Folin-Ciocalteu andn-butanol-HCl methods, respectively, as described previously(Olszewska et al., 2012). Results were expressed as equivalentsof gallic acid (GAE) and cyanidin chloride (CYE), respectively.The total flavonoid contents (TFA) were determined by HPLC-PDA as the total content of flavonoid aglycones after acidhydrolysis. Samples of the extracts (1-5 mg) were heated underreflux for 30 min with methanol-water (9:1, v/v; 30 mL) and25% (w/v) hydrochloric acid (9 mL)."
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "id": "entity_0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 600,
+              "end": 617,
+              "text": "Prunus spinosa L.",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 722,
+              "end": 745,
+              "text": "urinary tract disorders",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 747,
+              "end": 759,
+              "text": "inflammation",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 786,
+              "end": 809,
+              "text": "cardiovascular diseases",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 859,
+              "end": 870,
+              "text": "antioxidant",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 891,
+              "end": 908,
+              "text": "anti-inflammatory",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1517,
+              "end": 1528,
+              "text": "antioxidant",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_7",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2003,
+              "end": 2014,
+              "text": "antioxidant",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2710,
+              "end": 2721,
+              "text": "antioxidant",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2881,
+              "end": 2898,
+              "text": "Prunus spinosa L.",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_10",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3096,
+              "end": 3122,
+              "text": "stress-related pathologies",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_11",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3141,
+              "end": 3161,
+              "text": "inflammatory changes",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_12",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3176,
+              "end": 3201,
+              "text": "cardiovascular protection",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_13",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3228,
+              "end": 3244,
+              "text": "oxidative stress",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_14",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3523,
+              "end": 3539,
+              "text": "chronic diseases",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_15",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3551,
+              "end": 3565,
+              "text": "cardiovascular",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_16",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3843,
+              "end": 3860,
+              "text": "Prunus spinosa L.",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_17",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4235,
+              "end": 4263,
+              "text": "circulatory system disorders",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_18",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4469,
+              "end": 4483,
+              "text": "vasoprotective",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_19",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4485,
+              "end": 4502,
+              "text": "anti-inflammatory",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_20",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4504,
+              "end": 4512,
+              "text": "diuretic",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_21",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4548,
+              "end": 4559,
+              "text": "spasmolytic",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_22",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4721,
+              "end": 4736,
+              "text": "tract disorders",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_23",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4755,
+              "end": 4773,
+              "text": "cardiac complaints",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_24",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4782,
+              "end": 4793,
+              "text": "myocarditis",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_25",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4795,
+              "end": 4811,
+              "text": "cardiac neurosis",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_26",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4980,
+              "end": 4997,
+              "text": "mild inflammation",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_27",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5144,
+              "end": 5170,
+              "text": "heart-strengthening remedy",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_28",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5305,
+              "end": 5333,
+              "text": "anti-hypertensive properties",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_29",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6329,
+              "end": 6346,
+              "text": "anti-inflammatory",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_30",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6481,
+              "end": 6492,
+              "text": "spasmolytic",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_31",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8146,
+              "end": 8158,
+              "text": "inflammation",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_32",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8210,
+              "end": 8222,
+              "text": "vasodilatory",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_33",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8223,
+              "end": 8237,
+              "text": "vasoprotective",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_34",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8239,
+              "end": 8255,
+              "text": "anti-atherogenic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_35",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8257,
+              "end": 8271,
+              "text": "antithrombotic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_36",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8277,
+              "end": 8291,
+              "text": "anti-apoptotic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_37",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8427,
+              "end": 8438,
+              "text": "antioxidant",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_38",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 9177,
+              "end": 9194,
+              "text": "Prunus spinosa L.",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_39",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 9424,
+              "end": 9435,
+              "text": "antioxidant",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_40",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11685,
+              "end": 11702,
+              "text": "Prunus spinosa L.",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_1",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_2",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_3",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_4",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_5",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_6",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_8",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_10",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_11",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_12",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_13",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_16",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_17",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_18",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_19",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_20",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_21",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_22",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_23",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_24",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_25",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_26",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_27",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_28",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_29",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_30",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_31",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_32",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_33",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_34",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_35",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_36",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_37",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_39",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

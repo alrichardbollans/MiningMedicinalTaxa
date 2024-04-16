@@ -1,0 +1,117 @@
+Component: llm
+Response: Medical Condition: 
+- Cancer
+
+Medicinal Effect: 
+- Antitumor
+
+Scientific Fungus Name: 
+
+Scientific Plant Name: 
+- Andrographis paniculata
+Component: llm_rel
+Response: {"dep": 118, "dest": 162, "relation": "treats_medical_condition"}
+Saved tasks to "tasks_completed\task_for_labelstudio_161880242_chunk_1.json"
+
+
+(Antidiarrhoeal activity, Andrographis paniculata, Andrographis paniculata, Hypericum perforatum, Andrographis paniculata, Andrographis paniculata)
+Component: llm
+Response: Medical Condition: Antidiarrhoeal activity
+Medicinal Effect: Antidiarrhoeal
+Scientific Fungus Name: 
+Scientific Plant Name: Andrographis paniculata, Hypericum perforatum, Artemisinin
+Component: llm_rel
+Response: {"dep": 1, "dest": 0, "relation": "treats_medical_condition"}
+{"dep": 4, "dest": 2, "relation": "has_medicinal_effect"}
+Saved tasks to "tasks_completed\task_for_labelstudio_161880242_chunk_29.json"
+
+Process finished with exit code 0
+
+Component: llm
+Response: Medical Condition: 
+- cytotoxicity
+- mutagenicity
+- chromosome damage
+
+Medicinal Effect: 
+- mutagenic
+- cytotoxic
+- anti-bacterial
+
+Scientific Fungus Name: 
+- Not found
+
+Scientific Plant Name: 
+- Andrographis paniculata
+Component: llm_rel
+Response: {"dep": 0, "dest": 1, "relation": "treats_medical_condition"}
+Saved tasks to "tasks_completed\task_for_labelstudio_161880242_chunk_24.json"
+
+
+Component: llm
+Response: Medical Condition: 
+- Cancer
+
+Medicinal Effect: 
+- Antitumor
+
+Scientific Fungus Name: 
+
+Scientific Plant Name: 
+- Andrographis paniculata
+Component: llm_rel
+Response: {"dep": 118, "dest": 162, "relation": "treats_medical_condition"}
+Saved tasks to "tasks_completed\task_for_labelstudio_161880242_chunk_1.json"
+
+()
+Component: llm
+Response: Medical Condition: 
+- Chronic heart failure
+- Atherosclerosis
+
+Medicinal Effect: 
+- Hypoglycemic
+- Hypolipidemic
+- Antioxidant
+
+Scientific Fungus Name: 
+- N/A
+
+Scientific Plant Name: 
+- Lycium barbarum
+- Emblica officinalis
+- Hawthorn
+Component: llm_rel
+Response: {"dep": 61, "dest": 77, "relation": "has_medicinal_effect"}
+{"dep": 77, "dest": 79, "relation": "treats_medical_condition"}
+Saved tasks to "tasks_completed\task_for_labelstudio_197989253_chunk_3.json"
+
+()
+Component: llm
+Response: Medical Condition: 
+- food security
+- lactose intolerance
+- atopic eczema
+
+Medicinal Effect: 
+- cholesterol-lowering
+- blood pressure medication
+
+Scientific Fungus Name: 
+- Fusarium-mycotoxins
+
+Scientific Plant Name: 
+- Rubus arcticus
+- Rubus stellatus
+- Anethum graveolens
+- Fragaria x ananassa
+- Hippophae rhamnoides
+Component: llm_rel
+Response: {"dep": 1, "dest": 2, "relation": "treats_medical_condition"}
+Saved tasks to "tasks_completed\task_for_labelstudio_197989253_chunk_56.json"
+
+Process finished with exit code 0
+
+
+
+
