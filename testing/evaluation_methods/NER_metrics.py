@@ -99,7 +99,7 @@ def precise_NER_annotation_match(a1: dict, a2: dict):
 
 def approximate_entity_match(entity1: dict, entity2: dict):
     """
-    Check if entity1 and entity2 are approximate matches.
+    Check if entity1 and entity2 are approximate matches. i.e. if one entity subsumes another.
 
     :param entity1: A dictionary representing the first entity with keys 'start', 'end', and 'text'.
     :param entity2: A dictionary representing the second entity with keys 'start', 'end', and 'text'.
