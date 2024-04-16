@@ -92,13 +92,13 @@ def main():
 
     # Specify the task ID dynamically (could be user input or another source)
     #task_id_input = 272  # Example task ID
-   # task_id_input = 282 # Example task ID
+    task_id_input = 282 # Example task ID
 
-   task_id_to_output = {
-        282: 'task_for_labelstudio_80818116_chunk_111.json',
-        283: 'task_for_labelstudio_80818116_chunk_112.json',
+   #task_id_to_output = {
+   #     282: 'task_for_labelstudio_80818116_chunk_111.json',
+   #     283: 'task_for_labelstudio_80818116_chunk_112.json',
         # Add more mappings as needed
-    }
+   #}
 
 
     # Transform the data for the specified task ID
