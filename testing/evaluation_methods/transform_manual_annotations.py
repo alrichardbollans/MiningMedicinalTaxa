@@ -80,11 +80,14 @@ def save_transformed_annotation(data, filename):
 def main():
     data_filename1 = '../test_medicinal_01/manual_annotation/task_for_labelstudio_80818116_ifra_FC_09_04_2024.json'
     data_filename2 = '../test_medicinal_01/manual_annotation/task_for_labelstudio_4187756.json'
+    data_filename3 = '../test_medicinal_01/manual_annotation/task_for_labelstudio_161880242.json'
 
     data1 = load_json_data(data_filename1)
     data2 = load_json_data(data_filename2)
+    data3 = load_json_data(data_filename3)
 
     data = merge_json_data(data1, data2)
+    data = merge_json_data(data,data3)
 
     task_id_to_output = {
         278: 'task_for_labelstudio_80818116_chunk_26.json',
@@ -96,7 +99,17 @@ def main():
         273: 'task_for_labelstudio_4187756_chunk_15.json',
         274: 'task_for_labelstudio_4187756_chunk_19.json',
         275: 'task_for_labelstudio_4187756_chunk_22.json',
-        276: 'task_for_labelstudio_4187756_chunk_31.json'
+        276: 'task_for_labelstudio_4187756_chunk_31.json',
+        1: 'task_for_labelstudio_161880242_chunk_0.json',
+        2: 'task_for_labelstudio_161880242_chunk_2.json',
+        3: 'task_for_labelstudio_161880242_chunk_3.json',
+        4: 'task_for_labelstudio_161880242_chunk_4.json',
+        #5: 'task_for_labelstudio_161880242_chunk_5.json',
+        6: 'task_for_labelstudio_161880242_chunk_11.json',
+        7: 'task_for_labelstudio_161880242_chunk_12.json',
+        8: 'task_for_labelstudio_161880242_chunk_25.json',
+        9: 'task_for_labelstudio_161880242_chunk_26.json',
+        10: 'task_for_labelstudio_161880242_chunk_27.json'
     }
 
     for task_id, output_filename in task_id_to_output.items():
@@ -118,6 +131,16 @@ def main():
         'task_for_labelstudio_4187756_chunk_19.json',
         'task_for_labelstudio_4187756_chunk_22.json',
         'task_for_labelstudio_4187756_chunk_31.json'
+        'task_for_labelstudio_161880242_chunk_0.json',
+        'task_for_labelstudio_161880242_chunk_2.json',
+        'task_for_labelstudio_161880242_chunk_3.json',
+        'task_for_labelstudio_161880242_chunk_4.json',
+       # 'task_for_labelstudio_161880242_chunk_5.json',
+        'task_for_labelstudio_161880242_chunk_11.json',
+        'task_for_labelstudio_161880242_chunk_12.json',
+        'task_for_labelstudio_161880242_chunk_25.json',
+        'task_for_labelstudio_161880242_chunk_26.json',
+        'task_for_labelstudio_161880242_chunk_27.json'
     ]
 
     # Model NER and Ground Truth NER annotations lists
@@ -176,31 +199,52 @@ def main():
         print(
             f"All Entities - Approximate RE Precision: {precision}, Approximate RE Recall: {recall}, Approximate RE F1 Score: {f1_score}")
 
+   # Single labels
 
-    # Precise match
-    #precision, recall, f1_score = NER_evaluation(ner_annotations, gt_ner_annotations, precise_NER_annotation_match)
-    #print(f"All Entities - Precision: {precision}, Recall: {recall}, F1 Score: {f1_score}")
+        # Precise match NER Scientific Plant Name
+        precision, recall, f1_score = NER_evaluation(model_NER_annotations, gt_NER_annotations,
+                                                     precise_NER_annotation_match, 'Scientific Plant Name')
+        print(f"Scientific Plant Name - NER Precision: {precision}, NER Recall: {recall}, NER F1 Score: {f1_score}")
 
-    #precision, recall, f1_score = NER_evaluation(ner_annotations, gt_ner_annotations, precise_NER_annotation_match,
-    #                                             'Scientific Plant Name')
-    #print(f"Scientific Plant Name - Precision: {precision}, Recall: {recall}, F1 Score: {f1_score}")
+        # Approximate match NER Scientific Plant Name
+        precision, recall, f1_score = NER_evaluation(model_NER_annotations, gt_NER_annotations,
+                                                     approximate_NER_annotation_match, 'Scientific Plant Name')
+        print(
+            f"Scientific Plant Name - Approximate NER Precision: {precision}, Approximate NER Recall: {recall}, Approximate NER F1 Score: {f1_score}")
 
-    #precision, recall, f1_score = NER_evaluation(ner_annotations, gt_ner_annotations, precise_NER_annotation_match,
-    #                                          'Medical Condition')
-    #print(f"Medical Condition - Precision: {precision}, Recall: {recall}, F1 Score: {f1_score}")
+        # Precise match NER Scientific Fungus Name
+        precision, recall, f1_score = NER_evaluation(model_NER_annotations, gt_NER_annotations,
+                                                     precise_NER_annotation_match, 'Scientific Fungus Name')
+        print(f"Scientific Fungus Name - NER Precision: {precision}, NER Recall: {recall}, NER F1 Score: {f1_score}")
 
-    # Approximate match
+        # Approximate match NER Scientific Fungus Name
+        precision, recall, f1_score = NER_evaluation(model_NER_annotations, gt_NER_annotations,
+                                                     approximate_NER_annotation_match, 'Scientific Fungus Name')
+        print(
+            f"Scientific Fungus Name - Approximate NER Precision: {precision}, Approximate NER Recall: {recall}, Approximate NER F1 Score: {f1_score}")
 
-    #precision, recall, f1_score = NER_evaluation(ner_annotations, gt_ner_annotations, approximate_NER_annotation_match)
-    #print(f"All Entities - Approximate Precision: {precision}, Approximate Recall: {recall}, Approximate F1 Score: {f1_score}")
+        # Precise match NER Medical condition
+        precision, recall, f1_score = NER_evaluation(model_NER_annotations, gt_NER_annotations,
+                                                     precise_NER_annotation_match, 'Medical Condition')
+        print(f"Medical Condition - NER Precision: {precision}, NER Recall: {recall}, NER F1 Score: {f1_score}")
 
-    #precision, recall, f1_score = NER_evaluation(ner_annotations, gt_ner_annotations, approximate_NER_annotation_match,
-    #                                          'Scientific Plant Name')
-    #print(f"Scientific Plant Name - Approximate Precision: {precision}, Approximate Recall: {recall}, Approximate F1 Score: {f1_score}")
+        # Approximate match NER Medical Condition
+        precision, recall, f1_score = NER_evaluation(model_NER_annotations, gt_NER_annotations,
+                                                     approximate_NER_annotation_match, 'Medical Condition')
+        print(
+            f"Medical Condition - Approximate NER Precision: {precision}, Approximate NER Recall: {recall}, Approximate NER F1 Score: {f1_score}")
 
-    #precision, recall, f1_score = NER_evaluation(ner_annotations, gt_ner_annotations, approximate_NER_annotation_match,
-    #                                           'Medical Condition')
-    #print(f"Medical Condition - Approximate Precision: {precision}, Approximate Recall: {recall}, Approximate F1 Score: {f1_score}")
+        # Precise match NER Medicinal Effect
+        precision, recall, f1_score = NER_evaluation(model_NER_annotations, gt_NER_annotations,
+                                                     precise_NER_annotation_match, 'Medicinal Effect')
+        print(f"Medicinal Effect - NER Precision: {precision}, NER Recall: {recall}, NER F1 Score: {f1_score}")
+
+        # Approximate match NER Medical Effect
+        precision, recall, f1_score = NER_evaluation(model_NER_annotations, gt_NER_annotations,
+                                                     approximate_NER_annotation_match, 'Medicinal Effect')
+        print(
+            f"Medicinal Effect - Approximate NER Precision: {precision}, Approximate NER Recall: {recall}, Approximate NER F1 Score: {f1_score}")
+
 
 
 if __name__ == '__main__':

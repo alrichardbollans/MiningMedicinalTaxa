@@ -1,0 +1,97 @@
+[
+  {
+    "data": {
+      "text": "Swansea University E-Theses _________________________________________________________________________ Genotoxicity assessment of andrographolide. Sharifuddin, Yusrizam How to cite: _________________________________________________________________________ Sharifuddin, Yusrizam (2008) Genotoxicity assessment of andrographolide.. thesis, Swansea University.http://cronfa.swan.ac.uk/Record/cronfa42296 Use policy: _________________________________________________________________________ This item is brought to you by Swansea University. Any person downloading material is agreeing to abide by the termsof the repository licence: copies of full text items may be used or reproduced in any format or medium, without priorpermission for personal research or study, educational or non-commercial purposes only. The copyright for any workremains with the original author unless otherwise specified. The full-text must not be sold in any format or mediumwithout the formal permission of the copyright holder. Permission for multiple reproductions should be obtained fromthe original author. Authors are personally responsible for adhering to copyright and publisher restrictions when uploading content to therepository. Please link to the metadata record in the Swansea University repository, Cronfa (link given in the citation referenceabove.) http://www.swansea.ac.uk/library/researchsupport/ris-support/ Y Sharifuddin 2008Genotoxicity Assessment of AndrographolideByYusrizam SharifuddinYr Ysgol Feddygaeth, Prifysgol AbertaweSchool of Medicine, Swansea UniversityA thesis submitted in partial fulfilment of the requirement for the degree of Doctor of PhilosophyIProQuest Number: 10798004All rights reservedINFORMATION TO ALL USERS The quality of this reproduction is dependent upon the quality of the copy submitted.In the unlikely event that the author did not send a com p le te manuscript and there are missing pages, these will be noted. Also, if material had to be removed,a note will indicate the deletion.uestProQuest 10798004Published by ProQuest LLC(2018). Copyright of the Dissertation is held by the Author.All rights reserved.This work is protected against unauthorized copying under Title 17, United States C odeMicroform Edition (c) ProQuest LLC.ProQuest LLC.789 East Eisenhower Parkway P.O. Box 1346 Ann Arbor, Ml 48106- 1346LIBRARYY. Sharifuddin 2008DECLARATIONThis work has not previously been accepted in substance for any degree and is not being concurrently submitted in candidature for any degree.This thesis is the result of my own investigations, except where otherwise stated. Where correction services have been used, the extent and nature of the correction is clearly marked in a footnote(s).Other sources are acknowledged by footnotes giving explicit references. A bibliography is appended.S igned .............. ... (Yusrizam Sharifuddin)Date ..................................I hereby give consent for my thesis, if accepted, to be available for photocopying and for inter-library loan, and for the title and summary to be made available to outside organisations.SinnpHfwuiaxt <yoo%(Yusrizam Sharifuddin)FIRST STATEMENTSECOND STATEMENTSigned.................D a t e 'f y o t . f(Yusrizam Sharifuddin)Y. Sharifuddin 2008To my parents and my family for everything they had done for me\"Amser dyn yw ei gynhysgaeth-a gwae y sawl a'l gwey'n ofer\"\"Time is m an's greatest inheritance and woe betide he who spends itwantonly\"Morgan Llywd o W ynedd, W elsh philosopher.Y. Sharifuddin 2008ACKNOWLEDGEMENTSiiiiii(Firstly, I wouldlihe to thanfjmy supervisors (Professor James Parry and Dr. Elizabeth | Parry, whom I have hnown since my undergraduate years in jAbertawe, whose lectures, advice and guidance I wild aCways treasure. Professor Parry usually claims that I have I no sense o f humour 6ut I fo u n d that pursuing a research degree under the watchfuC eyes o f a distinguish scientist, his words were andstillare important to me, that I frequently did not reaCise he was sharing a johe. I was certainly impressed when he correctly identified the Dderide^Class Ppmulan 'Warbird!M y thanks also go to my lecturers at the School o f (BiologicalSciences, JLbertawe during my undergraduate years fo r what they had taught me especially Professor (David Shihinshi, Professor Norman (Ratcliffe, (Dr. Jlugh Jones and the late Professor John (Jadon. I t must have 6een a real challenge fo r them to teach a late Sloomer lihe me. Not j to forget is (Dr. Philip Judson who has 6een helpful w ith my wort^!One o f my Sest friends, Dr. DaRa Saidely deserves a special credit fo r her unwavering support in my studies and my well6eing. I would not 6e surprised should she win the NoSel Prize one day. My special thanks also goes to Dr. Cjeorge Johnson fo r 6eing there fo r me during good times as w ell as turbulent ones and whom I am proud to claim as a close friend. I also wish to express my gratitude to Dr. (Jareth Jenkins and Dr. Shareen D oahfor their much valued opinions, their achievements have always 6een a source o f I motivation fo r me to worfjharder.I| do the Ladies o f the La6oratory, I thanh^Mrs. Margaret Chtworthy and Mrs. Sally \\ James whose presence were indispensa6le to my daily wort^ whose company I w ifi not forget and certainly fo r tolerating my tantrums when some o f the other patrons were 'involved in temporally transient 6ut consistent actions that affected the operational harmony o f the laboratory'. I surely w ill not forget Mrs. Cherrill Laws and Mrs. Diane Plw ellfor always cheering me up andforaH the cherished conversations.I Rhe to thanh^ my friends namely Dr. James Cronin, Dr. jAthanassios (Rpussos, Dr. Sarah Prior, Dr. <Emma Quichi Jane Mikhail, NurulNamicR and the younglings' who recently joined the laboratory namely James <cThe Diving Snowman ' Davies, Beverley 'Sunshine' Jones and (Elizabeth 'F lin to ff McJLdam, I thanh^ a ll o f you fo r your friendship and fo r tolerating my 'Cjodzilla' moments.M y record o f gratitude are also reserved fo r Dr. Vivienne Jenhins and Dr. Diane %elly fo r their invaluable assistance, support andinterests in my research.IVY. Sharifuddin 2008Last 6ut not (east, I thanf^ aCC the scientists particuCarCy those in genetic toxjcoCogy, some o f whom I had the pleasure to meet or listen to in person and others whose names arefamifiar to my dps. Lheir worh^has 6een inspirationaldinaffy, I Cihe to thanf^ myseCf fo r my hard wort^ and perseverance in my inextinguisha6(e desire to 6etter myseff despite aCC the trials and tri6uCations in Gfe. Otherwise, this thesis would not have seen day fight.VY. Sharifuddin 2008SUMMARYIn this thesis, the genotoxic potential of andrographolide, which is a primary phytochemical of an annual herb Andrographis paniculata, was assessed and the possible mechanisms of action were elucidated.In silico predictions showed that andrographolide may be capable of inducing skin sensitisation and chromosome damage in mammals in vitro and the identification of possible metabolites.Andrographolide was demonstrated to induce micronuclei formation in vitro in three cell lines tested namely AHH-1, MCL-5 and V-79. In AHH-1 and V-79 cell lines, the highest frequency of micronuclei was recorded at 30 pM whereas in MCL-5 cell line, 50 pM of the compound was necessary to elicit similar damage, which may be due differences in cellular metabolism capacity. The phytochemical was shown to cause dose-dependent cellular cytotoxicity in all the cell lines tested with cells dying primarily via necrosis compared to apoptosis and effectively reduced cell number.Kinetochore labelling on MCL-5 cells challenged with increasing doses of andrographolide revealed that the phytochemical acts in aneugenic manner evident from the increment in kinetochore-positive micronuclei.The compound of interest was also found to disrupt segregation fidelity via centrosome amplification resulting in chromosomal aberration. The presence of extra microtubule organising centres may play a role in the promotion of aberrant mitoses. Disruption to normal cell division was observed even after the removal of the compound in vitro.Mammalian HPRT point mutation assay using AHH-1 cell line revealed that andrographolide induced mutation evident from HPRT~ mutant colonies formation between 5pM and 30pM. The phytochemical was also found to exert cytotoxicity in a concentration-dependent manner between 1 pM and 50pM.Thus, andrographolide is capable of disrupting normal mammalian cell division and causing dose-dependent cytotoxicity in vitro.VIY. Sharifuddin 2008ABBREVIATIONSy-TuRC. y-tubulin ring complex.ADP. Adenosine diphosphate.AHH. Aryl hydrocarbon hydroxilase.AP-1. Activator protein-1.APE. Andrographis paniculata extract.APC/C. Anaphase promoting complex/cyclosome.ATCC. American Type Culture Collection.ATM. Ataxia telangiectasia mutated.ATP. Adenosine triphosphate.BER. Base excision repair.BSA. Bovine serum albumin.BBR. Brilliant blue R.BFB. Breakage-fusion-bridge.CBMA. Cytokinesis-block micronucleus assay.CDK-1. Cyclin-dependent kinase-1.CDK-2. Cyclin-dependent kinase-2.COM. Committee on Mutagenicity of Chemicals in Food, Consumer Productsand the Environment (Department of Health, UK).COX. Cyclooxygenase.CREST. Calcinosis, Raynaud phenomenon, esophageal dismotility, sclerodactylyand telangiectasia.CS. Cockayne syndrome.CSAR. Computer-assisted structure activity relationship.CYP. Cytochrome P450.DAPI. 4,6-diamidine-2-phenyl-indoledihydrochloride.DEREK. Deductive estimation of risk from existing knowledge.DHFR. Dihydrofolate reductase.DMAPP. Dimethylallyl pyrophosphate.I DMEM. Dulbecco's modified E medium.DMSO. Dimethylsulfoxide.VIIY. Sharifuddin 2008DNA. Deoxyribonucleic acid.DSB. Double-strand break.EC ACC. European Collection of Cell Cultures.ERK. Extra-cellular signal-related kinase.EU. The European Union.FAP. Familial Adematous PolyposisFDA. Food and Drugs Administration (US).FISH. Fluorescence in situ hybridisation.FPP. Famesyl pyrophosphate.FSA. Food Standards Agency (UK).Go/1/2 Gap 0/1/2 .GGPP. Geranyl geranyl pyrophosphate.GLP. Good Laboratory Practice.GRO. Growth-related oncogene.GSH. GlutathioneGST. Glutathione S-transferases.GSSG. Oxidised glutathione.HAT. Hypoxanthine-aminopterin-thymidine.HT. Hypoxanthine-thymidine.HBSS. Hank's balanced salt solution.HPRT. Hypoxanthine phosphoribosyl transferase.HR. Homologous recombination.HTS. High-throughput screening.I ARC. International Agency for Research on Cancer.ICH. International Conference on Harmonisation of Technical Requirements forRegistration of Pharmaceuticals for Human Use.IMDM. Iscove's modified Dulbecco media.IPP. Isopentenyl pyrophosphate.IUPAC. International Union of Pure and Applied Chemistry.IWGT. International Workshops on Genotoxicity Testing.LPS. Lipopolysaccharide.| MAO. Monoamine oxidases.! MAPK. Mitogen-activated protein kinases.MCASE. Multiple computer automated structure evaluation.Y. Sharifuddin 2008MCC.MF.MFI.MFO.MHC.MHRA.MMP.MMR.MTOC.NAPQI.NCE.NER.NF-kB.NHEJ.NO.NOELNPB.OECD.PAF.PAH.PAPS.PAR.PARP.PBS.PBT.PCR.PCM.PCNA.PE.QSAR.RANTES.Rb.REACH.| RNA.i!iMitotic checkpoint complex.Mutation frequency.Mean fluorescence intensity.Mixed-function oxygenase.Major histocompatibility complex.Medicines and Healthcare products Regulatory Agency (UK). Mitochondrial membrane potential.Mismatched repair.Microtubule-organising centre. vV-acetyl-/?-benzoquinone imine.New chemical entity.Nucleotide excision repair.Nuclear factor-xB Non-homologous end joining.Nitric oxide.No observed effect levels.Nucleoplasmic bridge.Organisation of Economic Co-operation and Development. Platelet aggregation factor.Polycyclic aromatic hydrocarbon.3 '-phosphoadenosine-5 '-phosphosulfate.Poly-ADP-ribosylation.Poly(ADP-ribose) polymerase.Phosphate-buffered saline.Phosphate-buffered saline with Tween 20.Polymerase chain reaction.Pericentriolar matrix.Proliferating cell nuclear antigen.Plating efficiency.Qualitative structure-activity relationships.Regulated upon activation normal T-cell expressed and secreted. Retinoblastoma.Registration, Evaluation and Authorisation of Chemicals. Ribonucleic acid.IXY. Sharifuddin 2008RTG. Relative total growth.SDS. Sodium dodecyl sulphate.SO. Safranin O.SOM. Self-organising map.SULT. Sulfotransferases.TOPKAT. Toxicity Prediction by Komputer Assisted Technology.UDS. Unscheduled DNA synthesis.UGT. UDP-glucuronosyltransferases.UK. ' The United Kingdom.US. The United States.VC AM. Vascular cell adhesion molecule.WHO. World Health Organisation.XP. Xeroderma pigmentosumXY. Sharifuddin 2008MAIN CONTENTSAcknowledgements (IV -V)Summary (VI)Abbreviations (VII - X)Chapter 1. Part 1. INTRODUCTION TO THE IMPORTANCE OF PHYTOCHEMICALS AND THE NEED TO ASSURE THEIR SAFETY1.1 Phytochemicals and Herbal Applications in Traditional Medicines. 11.2 Increasing Public Interest in Phytomedicines and Phytotherapy. 61.3 The Regulation of Phytomedicines in the UK and the EU. 111.4 The Importance of Natural Products and Phytomedicines. 131.5 The Efficacy of Phytomedicines. 151.6 Safety of Phytomedicines: Clear and Hidden Risks. 161.7 Plants and Secondary Metabolites. 221.8 Brief Introduction to Andrographis paniculata. 221.9 The Compound of Interest: Andrographolide. 251.10 Genotoxicity Information on A. paniculata extracts and Andrographolide. 29Chapter 1. Part 2. INTRODUCTION TO GENETIC TOXICOLOGY IN MAMMALIAN CELLS AND ITS IMPORTANCE1.11 Brief Introduction to Genetic Toxicology. 321.12 Biotransformation of Xenobiotics. 3 31.13 The Cycle of Cell Division. 351.14 Cell Cycle Checkpoints and the Integrity of the Genome. 381.14.1 Gi/S Checkpoint. 39Y. Sharifuddin 20081.14.2 Intra-S-phase Checkpoint. 391.14.3 G2/M Checkpoint. 401.15 The Centrosome Cycle. 431.16 DNA Damage Repair Mechanisms. 431.17 Genotoxicants and Mutations. 441.17.1 Micro-mutations. 461.17.2 Macro-mutations. 471.18 Aneuploidy. 481.18.1 Aneuploidy and Cancer. 531.19 Testing Strategies for Genotoxicity Detection. 561.19.1 Hazard and Risk Assessment. 561.19.2 Genotoxicity Testing for Regulatory Purposes. 571.19.2.1 In Vitro Assays in Somatic Cells in Stage I. 581.19.2.2 In Vitro Asays in Somatic Cells in Stage II. 581.19.2.3 Testing in Germ Cells. 59Chapter 2. Part 1. IN SILICO ASSESSMENT OF GENOTOXICITY AND TOXICITY POTENTIAL OF ANDROGRAPHOLIDE2.1 General Introduction. 632.2 Chemical Reactivity and Possible Mechanisms of Action. 632.3 Computer-assisted Structure Activity Relationships (CSAR). 642.4 Introduction to DEREK. 652.5 Methods. 692.6 Results. 702.7 Discussion. 72XIIY. Sharifuddin 2008Chapter 2. Part 2. IN SILICO PREDICTION OF ANDROGRAPHOLIDE BIOTRANSFORMATION ROUTES2.8 Biotransformation of Xenobiotics. 762.8.1 Induction of cytochrome P450. 802.8.2 Inhibition of cytochrome P450. 812.8.3 Phase II Enzyme Reactions. 812.9 Introduction to METEOR. 842.10 Methods. 872.11 Results. 872.12 Discussion. 94Chapter 3. ASSESSMENT OF ANDROGRAPHOLIDE GENOTOXICITY POTENTIAL USING THE IN VITRO CYTOKINESIS BLOCK MICRONUCLEUS ASSAY3.1 Micronuclei as Genotoxicity Biomarkers: A Historical Perspective. 1003.2 The In Vitro Cytokinesis Block Micronucleus Assay and Its Application. 1013.2.1 CBMA in Combination with Kinetochore Labelling Kinetochore Labelling. 1053.3 Cellular Toxicity in Genotoxicity Assessment. 1073.3.1 Methods in Cytotoxicity Measurement. 1093.4 The Objective of the Study."
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "id": "entity_2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6734,
+              "end": 6757,
+              "text": "Andrographis paniculata",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8703,
+              "end": 8726,
+              "text": "Andrographis paniculata",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13139,
+              "end": 13162,
+              "text": "Andrographis paniculata",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "J7RgSp5-3z",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12503,
+              "end": 12526,
+              "text": "Xeroderma pigmentosumXY",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "dSb3hAS3Nc",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12503,
+              "end": 12526,
+              "text": "Xeroderma pigmentosumXY",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "BY64CRs5WS",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13248,
+              "end": 13261,
+              "text": "A. paniculata",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
