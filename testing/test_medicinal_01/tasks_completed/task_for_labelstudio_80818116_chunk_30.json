@@ -5,7 +5,202 @@
     },
     "predictions": [
       {
-        "result": []
+        "result": [
+          {
+            "id": "entity_0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 231,
+              "end": 247,
+              "text": "Candida albicans",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 284,
+              "end": 308,
+              "text": "Aspergillus brasiliensis",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 595,
+              "end": 617,
+              "text": "antimicrobial activity",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 667,
+              "end": 689,
+              "text": "antimicrobial activity",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1045,
+              "end": 1061,
+              "text": "Candida albicans",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1098,
+              "end": 1122,
+              "text": "Aspergillus brasiliensis",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1587,
+              "end": 1609,
+              "text": "antimicrobial activity",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_7",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1997,
+              "end": 2013,
+              "text": "Candida albicans",
+              "labels": [
+                "Scientific Fungus Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2227,
+              "end": 2240,
+              "text": "antimicrobial",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2490,
+              "end": 2512,
+              "text": "antimicrobial activity",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_10",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2565,
+              "end": 2587,
+              "text": "antimicrobial activity",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_6",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_2",
+            "to_id": "entity_9",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_3",
+            "to_id": "entity_10",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_6",
+            "to_id": "entity_9",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_9",
+            "to_id": "entity_10",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          }
+        ]
       }
     ]
   }

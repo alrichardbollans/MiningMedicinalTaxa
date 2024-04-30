@@ -7,35 +7,35 @@
       {
         "result": [
           {
-            "id": "entity_0",
+            "id": "jOwKMdSLO7",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
             "value": {
-              "start": 11646,
-              "end": 11652,
-              "text": "ajwain",
+              "start": 11671,
+              "end": 11680,
+              "text": "digestion",
               "labels": [
-                "Scientific Plant Name"
+                "Medicinal Effect"
               ]
             }
           },
           {
-            "id": "entity_1",
+            "id": "tl-FACVI2u",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
             "value": {
-              "start": 11682,
-              "end": 11688,
-              "text": "ginger",
+              "start": 11693,
+              "end": 11699,
+              "text": "nausea",
               "labels": [
-                "Scientific Plant Name"
+                "Medical Condition"
               ]
             }
           },
           {
-            "id": "entity_2",
+            "id": "gyMsWpgwSa",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -49,7 +49,7 @@
             }
           },
           {
-            "id": "entity_3",
+            "id": "CAblU9MjxD",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -63,7 +63,7 @@
             }
           },
           {
-            "id": "entity_4",
+            "id": "A4UTY5bUJJ",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -77,91 +77,77 @@
             }
           },
           {
-            "id": "entity_5",
+            "id": "PAJvLgDm2n",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
             "value": {
-              "start": 11734,
-              "end": 11742,
-              "text": "cardamom",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_6",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 11785,
-              "end": 11789,
-              "text": "mint",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_7",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 11807,
-              "end": 11813,
-              "text": "fennel",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_8",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 11818,
-              "end": 11824,
-              "text": "coughs",
+              "start": 11858,
+              "end": 11867,
+              "text": "toothache",
               "labels": [
                 "Medical Condition"
               ]
             }
           },
           {
-            "id": "entity_9",
+            "id": "zQ2Ww18O05",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
             "value": {
-              "start": 11847,
-              "end": 11853,
-              "text": "cloves",
+              "start": 11770,
+              "end": 11783,
+              "text": "aid digestion",
               "labels": [
-                "Scientific Plant Name"
+                "Medicinal Effect"
               ]
             }
           },
           {
-            "id": "entity_10",
+            "id": "b67ZzJ-imA",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
             "value": {
-              "start": 11890,
-              "end": 11898,
-              "text": "turmeric",
+              "start": 11794,
+              "end": 11805,
+              "text": "indigestion",
               "labels": [
-                "Scientific Plant Name"
+                "Medical Condition"
               ]
             }
           },
           {
-            "id": "entity_11",
+            "id": "k6IdleGZRM",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11829,
+              "end": 11841,
+              "text": "constipation",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "fjbFT83bAg",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11748,
+              "end": 11763,
+              "text": "mouth freshener",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "i4HSekZ1L3",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -175,7 +161,21 @@
             }
           },
           {
-            "id": "entity_12",
+            "id": "2282U7dXL9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11964,
+              "end": 11969,
+              "text": "colds",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "hlU8VPtyZJ",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -189,7 +189,7 @@
             }
           },
           {
-            "id": "entity_13",
+            "id": "zrHWah41cl",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -203,7 +203,7 @@
             }
           },
           {
-            "id": "entity_14",
+            "id": "_98C5S7buu",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -217,35 +217,7 @@
             }
           },
           {
-            "id": "entity_15",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 12031,
-              "end": 12046,
-              "text": "immune boosting",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
-            "id": "entity_16",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 12069,
-              "end": 12074,
-              "text": "lemon",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_17",
+            "id": "LVPuS4Bo5d",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -259,7 +231,21 @@
             }
           },
           {
-            "id": "entity_18",
+            "id": "Ss11DIOiIU",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12108,
+              "end": 12120,
+              "text": "sore throats",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "__vRHazHoJ",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -273,147 +259,21 @@
             }
           },
           {
-            "id": "entity_19",
+            "id": "rBB2Th7pUW",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
             "value": {
-              "start": 12246,
-              "end": 12256,
-              "text": "curry leaf",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_20",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 12258,
-              "end": 12267,
-              "text": "fenugreek",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_21",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 12269,
-              "end": 12275,
-              "text": "karela",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_22",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 12281,
-              "end": 12286,
-              "text": "tulsi",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_23",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 12307,
+              "start": 12300,
               "end": 12321,
-              "text": "blood pressure",
+              "text": "reduce blood pressure",
               "labels": [
-                "Medical Condition"
+                "Medicinal Effect"
               ]
             }
           },
           {
-            "id": "entity_24",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 12340,
-              "end": 12351,
-              "text": "cholesterol",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
-            "id": "entity_25",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 12452,
-              "end": 12471,
-              "text": "healthy hair growth",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
-            "id": "entity_26",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 12481,
-              "end": 12484,
-              "text": "egg",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_27",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 12489,
-              "end": 12496,
-              "text": "yoghurt",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_28",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 12500,
-              "end": 12505,
-              "text": "henna",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_29",
+            "id": "Xpiof-MTTi",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -427,49 +287,21 @@
             }
           },
           {
-            "id": "entity_30",
+            "id": "7Su3qTjYvm",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
             "value": {
-              "start": 12535,
-              "end": 12542,
-              "text": "menthol",
+              "start": 12452,
+              "end": 12471,
+              "text": "healthy hair growth",
               "labels": [
-                "Scientific Plant Name"
+                "Medicinal Effect"
               ]
             }
           },
           {
-            "id": "entity_31",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 12546,
-              "end": 12560,
-              "text": "eucalyptus oil",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_32",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 12566,
-              "end": 12578,
-              "text": "tea tree oil",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_33",
+            "id": "6OHro1BRst",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -483,7 +315,7 @@
             }
           },
           {
-            "id": "entity_34",
+            "id": "pljRi--9JW",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -497,21 +329,7 @@
             }
           },
           {
-            "id": "entity_35",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 14189,
-              "end": 14195,
-              "text": "ajwain",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_36",
+            "id": "BcJZY3-wIb",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -525,194 +343,22 @@
             }
           },
           {
-            "id": "entity_37",
+            "id": "_obbPDk7vg",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
             "value": {
-              "start": 14221,
-              "end": 14225,
-              "text": "mint",
+              "start": 12031,
+              "end": 12046,
+              "text": "immune boosting",
               "labels": [
-                "Scientific Plant Name"
+                "Medicinal Effect"
               ]
             }
           },
           {
-            "id": "entity_38",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 15545,
-              "end": 15551,
-              "text": "ajwain",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_39",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 15570,
-              "end": 15575,
-              "text": "tulsi",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_40",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 15581,
-              "end": 15589,
-              "text": "turmeric",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_41",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 15989,
-              "end": 15997,
-              "text": "turmeric",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_42",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 16101,
-              "end": 16109,
-              "text": "turmeric",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "entity_43",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 16250,
-              "end": 16258,
-              "text": "turmeric",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "from_id": "entity_35",
-            "to_id": "entity_4",
-            "type": "relation",
-            "labels": [
-              "treats_medical_condition"
-            ]
-          },
-          {
-            "from_id": "entity_1",
-            "to_id": "entity_2",
-            "type": "relation",
-            "labels": [
-              "treats_medical_condition"
-            ]
-          },
-          {
-            "from_id": "entity_3",
-            "to_id": "entity_4",
-            "type": "relation",
-            "labels": [
-              "treats_medical_condition"
-            ]
-          },
-          {
-            "from_id": "entity_7",
-            "to_id": "entity_8",
-            "type": "relation",
-            "labels": [
-              "treats_medical_condition"
-            ]
-          },
-          {
-            "from_id": "entity_10",
-            "to_id": "entity_11",
-            "type": "relation",
-            "labels": [
-              "treats_medical_condition"
-            ]
-          },
-          {
-            "from_id": "entity_10",
-            "to_id": "entity_12",
-            "type": "relation",
-            "labels": [
-              "has_medicinal_effect"
-            ]
-          },
-          {
-            "from_id": "entity_10",
-            "to_id": "entity_13",
-            "type": "relation",
-            "labels": [
-              "has_medicinal_effect"
-            ]
-          },
-          {
-            "from_id": "entity_10",
-            "to_id": "entity_14",
-            "type": "relation",
-            "labels": [
-              "has_medicinal_effect"
-            ]
-          },
-          {
-            "from_id": "entity_10",
-            "to_id": "entity_15",
-            "type": "relation",
-            "labels": [
-              "has_medicinal_effect"
-            ]
-          },
-          {
-            "from_id": "entity_16",
-            "to_id": "entity_17",
-            "type": "relation",
-            "labels": [
-              "treats_medical_condition"
-            ]
-          },
-          {
-            "from_id": "entity_18",
-            "to_id": "entity_4",
-            "type": "relation",
-            "labels": [
-              "treats_medical_condition"
-            ]
-          },
-          {
-            "from_id": "entity_23",
-            "to_id": "entity_24",
+            "from_id": "CAblU9MjxD",
+            "to_id": "A4UTY5bUJJ",
             "type": "relation",
             "labels": [
               "treats_medical_condition"

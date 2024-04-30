@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 import shutil
 import time
 
-
 def load_environment_variables():
     """ Load environment variables from a .env file. """
     load_dotenv()
@@ -67,7 +66,8 @@ def process_text_file(input_folder, output_folder, file, model):
     with open(file_path, 'r', encoding='utf-8') as file_obj:
         text = file_obj.read()
     doc = model(text)
-    print(doc.ents)
+    print(f"DOC ENTS: {doc.ents}")
+    print([(ent.text, ent.label_) for ent in doc.ents])
     llm_io_data = doc.user_data["llm_io"]
     for component_name, io_data in llm_io_data.items():
         print(f"Component: {component_name}")

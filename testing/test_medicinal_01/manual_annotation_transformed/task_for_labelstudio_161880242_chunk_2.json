@@ -7,20 +7,6 @@
       {
         "result": [
           {
-            "id": "entity_0",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 79,
-              "end": 92,
-              "text": "HPRT mutation",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
             "id": "entity_2",
             "from_name": "label",
             "to_name": "text",

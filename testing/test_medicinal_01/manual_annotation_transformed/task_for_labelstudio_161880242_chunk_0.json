@@ -49,34 +49,6 @@
             }
           },
           {
-            "id": "J7RgSp5-3z",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 12503,
-              "end": 12526,
-              "text": "Xeroderma pigmentosumXY",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "dSb3hAS3Nc",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 12503,
-              "end": 12526,
-              "text": "Xeroderma pigmentosumXY",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
             "id": "BY64CRs5WS",
             "from_name": "label",
             "to_name": "text",

@@ -7,20 +7,6 @@
       {
         "result": [
           {
-            "id": "entity_0",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 1922,
-              "end": 1939,
-              "text": "anti-inflammatory",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
             "id": "entity_2",
             "from_name": "label",
             "to_name": "text",
@@ -225,20 +211,6 @@
               "start": 4956,
               "end": 4976,
               "text": "urothelial carcinoma",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
-            "id": "NXjeEsBUov",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 5917,
-              "end": 5923,
-              "text": "cancer",
               "labels": [
                 "Medical Condition"
               ]
@@ -665,6 +637,20 @@
             }
           },
           {
+            "id": "PGWLJjH-uM",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8615,
+              "end": 8625,
+              "text": "Depression",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
             "from_id": "entity_10",
             "to_id": "hRq4jCUsFs",
             "type": "relation",
@@ -771,6 +757,22 @@
           {
             "from_id": "Xq8993gq9E",
             "to_id": "t5ZO1WvG77",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_14",
+            "to_id": "PP8mzsucua",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "SGeFCaaRgC",
+            "to_id": "PGWLJjH-uM",
             "type": "relation",
             "labels": [
               "treats_medical_condition"

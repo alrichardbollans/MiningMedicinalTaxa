@@ -75,6 +75,14 @@
                 "Scientific Plant Name"
               ]
             }
+          },
+          {
+            "from_id": "2GdxkCHbDy",
+            "to_id": "nT9YJX-6NL",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
           }
         ]
       }

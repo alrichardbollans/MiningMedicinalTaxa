@@ -343,34 +343,6 @@
             }
           },
           {
-            "id": "9Tn4xn4Xo8",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 11371,
-              "end": 11378,
-              "text": "tumours",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
-            "id": "ZjT7F-anqA",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 11585,
-              "end": 11603,
-              "text": "Kills cancer cells",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
             "from_id": "entity_12",
             "to_id": "YWfILde6lb",
             "type": "relation",

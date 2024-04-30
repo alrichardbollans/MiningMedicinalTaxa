@@ -113,5 +113,50 @@ Saved tasks to "tasks_completed\task_for_labelstudio_197989253_chunk_56.json"
 Process finished with exit code 0
 
 
+DOC ENTS: ()
+[]
+Component: llm
+Response: Medical Condition: 
+- None identified
+
+Medicinal Effect: 
+- None identified
+
+Scientific Fungus Name: 
+- None identified
+
+Scientific Plant Name: 
+- Cannabis sativa, Cannabis
+
+(Note: The text provided does not contain specific mentions of medical conditions, medicinal effects, scientific fungus names, or scientific plant names. The only relevant information extracted pertains to the scientific plant names "Cannabis sativa" and "Cannabis".)
+Component: llm_rel
+Response: {
+"dep": 0,
+"dest": 1,
+"relation": "has_medicinal_effect"
+}
+Saved tasks to "tasks_completed\task_for_labelstudio_80818116_chunk_26.json"
+
+DOC ENTS: ()
+[]
+Component: llm
+Response: Medical Condition: 
+- none mentioned in the text
+
+Medicinal Effect: 
+- antioxidant
+- pain reliever
+- immune system booster
+
+Scientific Fungus Name: 
+- Candida albicans
+- Aspergillus brasiliensis
+
+Scientific Plant Name: 
+- none mentioned in the text
+Component: llm_rel
+Response: {"dep": 1, "dest": 2, "relation": "has_medicinal_effect"}
+{"dep": 3, "dest": 4, "relation": "has_medicinal_effect"}
+Saved tasks to "tasks_completed\task_for_labelstudio_80818116_chunk_29.json"
 
 

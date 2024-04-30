@@ -63,118 +63,6 @@
             }
           },
           {
-            "id": "69cduDq1TU",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 10347,
-              "end": 10360,
-              "text": "anti-malarial",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
-            "id": "V9HNTIHBuD",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 11183,
-              "end": 11202,
-              "text": "Alzheimer's disease",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
-            "id": "54yHpWKoSy",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 11166,
-              "end": 11178,
-              "text": "Inflammation",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
-            "id": "ezzmTk6uMe",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 13370,
-              "end": 13381,
-              "text": "infertility",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
-            "id": "fcY8zj2Cfe",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 13499,
-              "end": 13512,
-              "text": "anti-malarial",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
-            "id": "vHX1zfVio6",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 13972,
-              "end": 13984,
-              "text": "neck tumours",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
-            "id": "EUliPluqrU",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 14183,
-              "end": 14217,
-              "text": "head and neck squamous cell cancer",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
-            "id": "Tb4o2SsyTW",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 14520,
-              "end": 14526,
-              "text": "asthma",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
             "id": "EeFqT4Y5C4",
             "from_name": "label",
             "to_name": "text",
@@ -185,6 +73,20 @@
               "text": "hepatitis",
               "labels": [
                 "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "rTirA6yFJc",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15281,
+              "end": 15299,
+              "text": "Chelidortium majus",
+              "labels": [
+                "Scientific Plant Name"
               ]
             }
           }

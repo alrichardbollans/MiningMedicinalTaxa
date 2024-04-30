@@ -26,20 +26,6 @@
             "to_name": "text",
             "type": "labels",
             "value": {
-              "start": 2859,
-              "end": 2875,
-              "text": "help circulation",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
-            "id": "entity_2",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
               "start": 2887,
               "end": 2900,
               "text": "muscular pain",
@@ -49,21 +35,7 @@
             }
           },
           {
-            "id": "entity_3",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 2905,
-              "end": 2919,
-              "text": "help digestion",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
-            "id": "entity_4",
+            "id": "entity_2",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -77,7 +49,7 @@
             }
           },
           {
-            "id": "entity_5",
+            "id": "entity_3",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -91,7 +63,7 @@
             }
           },
           {
-            "id": "entity_6",
+            "id": "entity_4",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -105,7 +77,7 @@
             }
           },
           {
-            "id": "entity_7",
+            "id": "entity_5",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -119,21 +91,7 @@
             }
           },
           {
-            "id": "entity_8",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 5959,
-              "end": 5985,
-              "text": "prevent and treat diseases",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
-            "id": "entity_9",
+            "id": "entity_6",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -147,7 +105,7 @@
             }
           },
           {
-            "id": "entity_10",
+            "id": "entity_7",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -161,7 +119,7 @@
             }
           },
           {
-            "id": "entity_11",
+            "id": "entity_8",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -175,7 +133,7 @@
             }
           },
           {
-            "id": "entity_12",
+            "id": "entity_9",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -189,7 +147,7 @@
             }
           },
           {
-            "id": "entity_13",
+            "id": "entity_10",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -203,7 +161,7 @@
             }
           },
           {
-            "id": "entity_14",
+            "id": "entity_11",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -217,7 +175,7 @@
             }
           },
           {
-            "id": "entity_15",
+            "id": "entity_12",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -231,7 +189,7 @@
             }
           },
           {
-            "id": "entity_16",
+            "id": "entity_13",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -245,7 +203,7 @@
             }
           },
           {
-            "id": "entity_17",
+            "id": "entity_14",
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
@@ -259,7 +217,7 @@
             }
           },
           {
-            "from_id": "entity_12",
+            "from_id": "entity_9",
             "to_id": "entity_0",
             "type": "relation",
             "labels": [
@@ -267,7 +225,15 @@
             ]
           },
           {
-            "from_id": "entity_12",
+            "from_id": "entity_9",
+            "to_id": "entity_1",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_9",
             "to_id": "entity_2",
             "type": "relation",
             "labels": [
@@ -275,7 +241,15 @@
             ]
           },
           {
-            "from_id": "entity_12",
+            "from_id": "entity_9",
+            "to_id": "entity_3",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_9",
             "to_id": "entity_4",
             "type": "relation",
             "labels": [
@@ -283,7 +257,7 @@
             ]
           },
           {
-            "from_id": "entity_12",
+            "from_id": "entity_9",
             "to_id": "entity_5",
             "type": "relation",
             "labels": [
@@ -291,7 +265,7 @@
             ]
           },
           {
-            "from_id": "entity_12",
+            "from_id": "entity_9",
             "to_id": "entity_6",
             "type": "relation",
             "labels": [
@@ -299,7 +273,7 @@
             ]
           },
           {
-            "from_id": "entity_12",
+            "from_id": "entity_9",
             "to_id": "entity_7",
             "type": "relation",
             "labels": [
@@ -307,32 +281,48 @@
             ]
           },
           {
-            "from_id": "entity_12",
-            "to_id": "entity_9",
+            "from_id": "entity_9",
+            "to_id": "entity_8",
             "type": "relation",
             "labels": [
               "treats_medical_condition"
             ]
           },
           {
-            "from_id": "entity_12",
+            "from_id": "entity_9",
             "to_id": "entity_10",
             "type": "relation",
             "labels": [
-              "treats_medical_condition"
+              "has_medicinal_effect"
             ]
           },
           {
-            "from_id": "entity_12",
+            "from_id": "entity_9",
             "to_id": "entity_11",
             "type": "relation",
             "labels": [
-              "treats_medical_condition"
+              "has_medicinal_effect"
             ]
           },
           {
-            "from_id": "entity_12",
-            "to_id": "entity_8",
+            "from_id": "entity_9",
+            "to_id": "entity_12",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_9",
+            "to_id": "entity_13",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_9",
+            "to_id": "entity_14",
             "type": "relation",
             "labels": [
               "has_medicinal_effect"
