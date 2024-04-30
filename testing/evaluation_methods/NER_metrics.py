@@ -3,17 +3,12 @@ import os
 import copy
 import numpy as np
 
+from literature_downloads import get_kword_dict
+from testing.evaluation_methods import standardise_NER_annotations, standardise_RE_annotations
+
 ENTITY_CLASSES = ['Scientific Plant Name', 'Scientific Fungus Name', 'Medical Condition', 'Medicinal Effect']
 
 RELATIONS = ['treats_medical_condition', 'has_medicinal_effect']
-
-
-# TODO: Set up pre evaluation checks to check annotations for things like leading/trailing whitespace
-# TODO: Write some unittests
-
-def pre_evaluation_checks(annotations: list):
-    # Check manual annotations and model annotations for artefacts that we want to avoid
-    pass
 
 
 def read_annotation_json(annotations_directory: str, corpus_id: str, chunk_id: str):
@@ -28,7 +23,7 @@ def read_annotation_json(annotations_directory: str, corpus_id: str, chunk_id: s
     json_file = os.path.join(annotations_directory, f'task_for_labelstudio_{corpus_id}_chunk_{chunk_id}.json')
     with open(json_file) as f:
         d = json.load(f)
-        print(d)
+        # print(d)
     results = d[0]['predictions'][0]['result']
     ner_annotations = [c for c in results if c['type'] == 'labels']
     re_annotations = [c for c in results if c['type'] == 'relation']
@@ -53,7 +48,8 @@ def read_annotation_json(annotations_directory: str, corpus_id: str, chunk_id: s
             del new_annotation['value']['labels']
             separate_NER_annotations.append(new_annotation)
 
-    pre_evaluation_checks(separate_NER_annotations)
+    kw_dict = get_kword_dict()
+    standardise_NER_annotations(separate_NER_annotations, kw_dict)
 
     separate_RE_annotations = []
     for ann in re_annotations:
@@ -63,7 +59,7 @@ def read_annotation_json(annotations_directory: str, corpus_id: str, chunk_id: s
             del new_annotation['labels']
             separate_RE_annotations.append(new_annotation)
 
-    pre_evaluation_checks(separate_RE_annotations)
+    standardise_RE_annotations(separate_RE_annotations)
     return separate_NER_annotations, separate_RE_annotations
 
 
@@ -219,9 +215,10 @@ def NER_evaluation(model_annotations, ground_truth_annotations, matching_method,
 
 
 def example_main():
-    ner_annotations, re_annotations = read_annotation_json('../test_medicinal_01/tasks_completed', '4187556', '32')
-    NER_evaluation(ner_annotations, ner_annotations, approximate_NER_annotation_match)
-    NER_evaluation(ner_annotations, ner_annotations, approximate_NER_annotation_match, 'Medicinal Effect')
+    ner_annotations, re_annotations = read_annotation_json(os.path.join('..', 'test_medicinal_01', 'tasks_completed'), '4187556', '32')
+    ner_annotations2, re_annotations2 = read_annotation_json(os.path.join('..', 'test_medicinal_01', 'tasks_completed'), '4187756', '0')
+    NER_evaluation(ner_annotations + ner_annotations2, ner_annotations, approximate_NER_annotation_match)
+    NER_evaluation(ner_annotations, ner_annotations + ner_annotations2, approximate_NER_annotation_match, 'Medicinal Effect')
     NER_evaluation(ner_annotations, ner_annotations, precise_NER_annotation_match)
     NER_evaluation(ner_annotations, ner_annotations, precise_NER_annotation_match, 'Medicinal Effect')
 

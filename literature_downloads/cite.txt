@@ -2,16 +2,6 @@ Knoth, P., Herrmannova, D., Cancellieri, M. et al.
 CORE: A Global Aggregation Service for Open Access Papers. Sci Data 10, 366 (2023). https://doi.org/10.1038/s41597-023-02208-w
 Accessed: XX/XX/XX
 
-Kinney, R.M., Anastasiades, C., Authur, R., Beltagy, I., Bragg, J., Buraczynski, A., Cachola, I., Candra, S., Chandrasekhar, Y., Cohan, A., Crawford,
-M., Downey, D., Dunkelberger, J., Etzioni, O., Evans, R., Feldman, S., Gorney, J., Graham, D.W., Hu, F., Huff, R., King, D., Kohlmeier, S., Kuehl, B.,
- Langan, M., Lin, D., Liu, H., Lo, K., Lochner, J., MacMillan, K., Murray, T., Newell, C., Rao, S., Rohatgi, S., Sayre, P.L., Shen, Z., Singh, A.,
- Soldaini, L., Subramanian, S., Tanaka, A., Wade, A.D., Wagner, L.M., Wang, L.L., Wilhelm, C., Wu, C., Yang, J., Zamarron, A., van Zuylen, M., & Weld,
-  D.S. (2023). The Semantic Scholar Open Data Platform. ArXiv, abs/2301.10140.
-
-Kyle Lo et al., ‘S2ORC: The Semantic Scholar Open Research Corpus’, in Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
-(Online: Association for Computational Linguistics, 2020), 4969–83, https://doi.org/10.18653/v1/2020.acl-main.447.
-Accessed XX/XX/XX
-
 Govaerts R (ed.). 2023. WCVP: World Checklist of Vascular Plants. V12
 Facilitated by the Royal Botanic Gardens, Kew. [WWW document] URL http://sftp.kew.org/pub/data-repositories/WCVP/ [accessed 04/10/23].
 

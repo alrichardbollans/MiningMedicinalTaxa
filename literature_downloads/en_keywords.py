@@ -10,6 +10,14 @@ scratch_path = os.environ.get('KEWSCRATCHPATH')
 
 
 def get_kword_dict():
+    """
+    Get the keyword dictionary.
+
+    This method reads a list of keywords from text files and stores them in a dictionary.
+    Each text file corresponds to a specific query aspect and contains a list of keywords.
+
+    :return: A dictionary where the keys are query names and the values are sets of keywords.
+    """
     # TODO: Could store this in a folder depending on query name
     # Read keywords into dict once they have been produced
     word_dict = {}
@@ -30,8 +38,16 @@ def get_kword_dict():
     return word_dict
 
 
-if __name__ == '__main__':
+def summarise_keywords(keyword_dict: dict, name: str):
+    out_dict = {}
+    for query in keyword_dict:
+        out_dict[query] = [len(keyword_dict[query])]
+    out_df = pd.DataFrame.from_dict(out_dict, orient='index')
+    out_df.to_csv(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', 'summaries',
+                               name + '_keywords_summary.csv'))
 
+
+if __name__ == '__main__':
     words_to_exclude = [_x.lower().strip() for _x in
                         pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'list_keywords.xlsx'),
                                       sheet_name='Excluded')['Excluded keywords'].tolist()]
@@ -171,3 +187,5 @@ if __name__ == '__main__':
                   'w') as f:
             for line in out_keyword_dict[_fk]:
                 f.write(f"{line}\n")
+
+    summarise_keywords(get_kword_dict(), 'en_medic_toxic_keywords')
