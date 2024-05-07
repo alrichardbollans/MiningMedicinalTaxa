@@ -1,6 +1,8 @@
+import copy
 import json
 import os
-import copy
+from typing import Callable
+
 import numpy as np
 
 from literature_downloads import get_kword_dict
@@ -137,17 +139,17 @@ def approximate_NER_annotation_match(a1: dict, a2: dict):
     pass
 
 
-def is_annotation_in_annotation_list(model_annotation: dict, ner_annotations: list, matching_method) -> bool:
+def is_annotation_in_annotation_list(model_annotation: dict, annotation_list: list, matching_method) -> bool:
     """
     Check if a given annotation is present in the list of annotations.
 
     :param model_annotation: The annotation to check.
-    :param ner_annotations: The list of annotations to search in.
+    :param annotation_list: The list of annotations to search in.
     :param matching_method: The method to check if two annotations match.
     :return: True if the annotation is found, False otherwise.
     :rtype: bool
     """
-    for annotation in ner_annotations:
+    for annotation in annotation_list:
         if matching_method(annotation, model_annotation):
             return True
     return False
@@ -188,7 +190,7 @@ def get_metrics_from_tp_fp_fn(true_positives: list, false_positives: list, false
     return precision, recall, f1_score
 
 
-def NER_evaluation(model_annotations, ground_truth_annotations, matching_method, entity_class: str = None):
+def NER_evaluation(model_annotations: list, ground_truth_annotations: list, matching_method: Callable, entity_class: str = None):
     """
     Calculate the precision, recall, and F1 score for Named Entity Recognition (NER) evaluation.
 
