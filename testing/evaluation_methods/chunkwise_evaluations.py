@@ -23,8 +23,9 @@ def get_outputs_from_annotations(annotations: List[dict]):
                 outputs.append(
                     {'from_text': ann['from_entity']['value']['text'], 'to_text': ann['to_entity']['value']['text'], 'relationship': ann['label'],
                      'from_label': from_label, 'to_label': to_label})
-
-    return outputs
+    # Get non duplicated outputs
+    unique_outputs = [dict(t) for t in {tuple(d.items()) for d in outputs}]
+    return unique_outputs
 
 
 def precise_output_annotation_match(a1: dict, a2: dict):
@@ -94,8 +95,15 @@ def chunkwise_evaluation(model_annotations: list, ground_truth_annotations: list
 
 def example_main():
     ner_annotations, re_annotations = read_annotation_json('../test_medicinal_01/tasks_completed', '4187556', '32')
-    chunkwise_evaluation(re_annotations, re_annotations, precise_output_annotation_match)
-    chunkwise_evaluation(re_annotations, re_annotations, approximate_output_annotation_match)
+    ner_annotations2, re_annotations2 = read_annotation_json('../test_medicinal_01/tasks_completed', '35321774', '57')
+    precision, recall, f1_score = chunkwise_evaluation(re_annotations, re_annotations2, precise_output_annotation_match)
+    assert precision == 0
+    assert recall == 0
+    assert f1_score == 0
+    precision, recall, f1_score = chunkwise_evaluation(re_annotations, re_annotations2, approximate_output_annotation_match)
+    assert precision == 0
+    assert recall == 0
+    assert f1_score == 0
 
 
 if __name__ == '__main__':
