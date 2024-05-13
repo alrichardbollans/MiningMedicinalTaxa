@@ -1,7 +1,9 @@
 # TODO: Set up pre evaluation checks to check annotations for things like leading/trailing whitespace
+# TODO: Think about how this affects indices of the annotations.
+# TODO: Checking in keywords won't work for e.g. names containing authors.
 
 allowed_links = {'treats_medical_condition': [['Scientific Plant Name', 'Medical Condition'], ['Scientific Fungus Name', 'Medical Condition']],
-                 'has_medicinal_effect': [['Scientific Plant Name', 'Medical Effect'], ['Scientific Fungus Name', 'Medical Effect']]}
+                 'has_medicinal_effect': [['Scientific Plant Name', 'Medicinal Effect'], ['Scientific Fungus Name', 'Medicinal Effect']]}
 
 
 def leading_trailing_whitespace(given_str: str):

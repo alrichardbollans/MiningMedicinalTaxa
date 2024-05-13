@@ -1,3 +1,5 @@
+from typing import Callable
+
 from NER_metrics import is_annotation_in_annotation_list, read_annotation_json, precise_entity_match, approximate_entity_match, \
     get_metrics_from_tp_fp_fn
 # had to remove from testing.evaluation_ethods to make it work
@@ -48,7 +50,7 @@ def approximate_RE_annotation_match(a1: dict, a2: dict):
     return False
 
 
-def RE_evaluation(model_annotations, ground_truth_annotations, matching_method, relationship_class: str = None):
+def RE_evaluation(model_annotations: list, ground_truth_annotations: list, matching_method: Callable, relationship_class: str = None):
     """
 
     :param model_annotations: List of model annotations.
