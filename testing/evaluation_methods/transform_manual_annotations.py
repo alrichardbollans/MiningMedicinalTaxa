@@ -281,6 +281,7 @@ def main():
     data_filenames = ['../test_medicinal_01/manual_annotation/task_for_labelstudio_80818116_ifra_FC_09_04_2024.json',
                       '../test_medicinal_01/manual_annotation/task_for_labelstudio_4187756.json',
                       '../test_medicinal_01/manual_annotation/task_for_labelstudio_161880242_228197190.json'
+                      '../test_medicinal_01/manual_annotation/task_for_labelstudio_360558516_Adam.json'
                       ]
     data = merge_json_data(*[load_json_data(f) for f in data_filenames])
 
@@ -339,6 +340,11 @@ def main():
         41: 'task_for_labelstudio_228197190_chunk_37.json',
         # 42: 'task_for_labelstudio_228197190_chunk_38.json', # wrong parsing
         # 43: 'task_for_labelstudio_228197190_chunk_39.json' # wrong parsing
+        111: 'task_for_labelstudio_360558516_chunk_4.json',
+        112: 'task_for_labelstudio_360558516_chunk_7.json',
+        113: 'task_for_labelstudio_360558516_chunk_8.json',
+        114: 'task_for_labelstudio_360558516_chunk_9.json',
+        115: 'task_for_labelstudio_360558516_chunk_10.json',
     }  # Example task IDs
 
     for task_id, output_filename in task_id_to_output.items():
@@ -396,6 +402,12 @@ def main():
         'task_for_labelstudio_228197190_chunk_37.json',
         # 'task_for_labelstudio_228197190_chunk_38.json', # wrong parsing
         # 'task_for_labelstudio_228197190_chunk_39.json' # wrong parsing
+        'task_for_labelstudio_360558516_chunk_4.json',
+        'task_for_labelstudio_360558516_chunk_7.json',
+        'task_for_labelstudio_360558516_chunk_8.json',
+        'task_for_labelstudio_360558516_chunk_9.json',
+        'task_for_labelstudio_360558516_chunk_10.json'
+
     ]  # Example filenames
     tasks_completed_dir = '../test_medicinal_01/tasks_completed'
     manual_transformed_dir = '../test_medicinal_01/manual_annotation_transformed'

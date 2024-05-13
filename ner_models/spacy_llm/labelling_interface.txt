@@ -1,5 +1,3 @@
-# Copy this in `Settings`> labelling interface >code
-
 <View>
   <!-- Define Relationships -->
   <Relations>
@@ -10,13 +8,13 @@
   <!-- Define Labels -->
   <Labels name="label" toName="text">
     <Label value="Scientific Plant Name" background="#ff8080"/>
-    <Label value="Scientific Fungus Name" background="#ffef9e"/>
+    <Label value="Scientific Fungus Name" background="#c3a304"/>
     <Label value="Medical Condition" background="#0d25d3"/>
-    <Label value="Medicinal Effect" background="#9efff9"/>
+  	<Label value="Medicinal Effect" background="#00756d"/>
   </Labels>  
 
   <!-- Text to be labeled -->
-  <Text name="text" value="$text" granularity="word"/>
+  <Text name="text" value="$text"/>
 </View><!-- Example Data --><!-- {"data": {
   "text": "Bidens pilosa, commonly known as Spanish Needles, is used in traditional medicine to treat inflammation."
 }} -->
