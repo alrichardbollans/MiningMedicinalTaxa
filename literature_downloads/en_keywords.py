@@ -3,7 +3,6 @@ import string
 
 import pandas as pd
 from typing import List
-from wcvp_download import get_all_taxa, wcvp_columns
 
 query_name = 'en_medic_toxic_keywords'
 scratch_path = os.environ.get('KEWSCRATCHPATH')
@@ -48,6 +47,9 @@ def summarise_keywords(keyword_dict: dict, name: str):
 
 
 if __name__ == '__main__':
+    # to install see: https://github.com/alrichardbollans/wcvpy
+    from wcvpy.wcvp_download import get_all_taxa, wcvp_columns
+
     words_to_exclude = [_x.lower().strip() for _x in
                         pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'list_keywords.xlsx'),
                                       sheet_name='Excluded')['Excluded keywords'].tolist()]
