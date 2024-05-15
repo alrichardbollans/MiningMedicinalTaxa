@@ -9,7 +9,7 @@ setup(
     packages=find_packages(),
 
     install_requires=[
-        "automatchnames == 1.2.3",
+        "wcvpy",
         "pandas",
         "tqdm",
         "openpyxl"
