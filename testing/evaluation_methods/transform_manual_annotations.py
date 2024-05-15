@@ -1,8 +1,8 @@
 import json
 import pandas as pd
 from pathlib import Path
-from NER_metrics import read_annotation_json, NER_evaluation, precise_NER_annotation_match, approximate_NER_annotation_match
-from RE_metrics import RE_evaluation, precise_RE_annotation_match, approximate_RE_annotation_match
+from testing.evaluation_methods import read_annotation_json, NER_evaluation, precise_NER_annotation_match, approximate_NER_annotation_match
+from testing.evaluation_methods import RE_evaluation, precise_RE_annotation_match, approximate_RE_annotation_match
 
 # Function to read JSON file
 def read_annotation_file(file_path):
@@ -184,8 +184,8 @@ def save_df_to_csv(df, filename):
 
 def test_ner_re():
     # Load JSON data for NER and RE annotations
-    ner_annotations, re_annotations = read_annotation_json('../test_medicinal_01/tasks_completed', '228197190', '6')
-    gt_ner_annotations, gt_re_annotations = read_annotation_json('../test_medicinal_01/manual_annotation_transformed',
+    ner_annotations, re_annotations = read_annotation_json('testing/test_medicinal_01/tasks_completed', '228197190', '6')
+    gt_ner_annotations, gt_re_annotations = read_annotation_json('testing/test_medicinal_01/manual_annotation_transformed',
                                                                  '228197190', '6')
 
     # Test precise NER match
@@ -278,10 +278,10 @@ def calculate_summary_metrics(df):
 
 # The main function for loading and processing
 def main():
-    data_filenames = ['../test_medicinal_01/manual_annotation/task_for_labelstudio_80818116_ifra_FC_09_04_2024.json',
-                      '../test_medicinal_01/manual_annotation/task_for_labelstudio_4187756.json',
-                      '../test_medicinal_01/manual_annotation/task_for_labelstudio_161880242_228197190.json'
-                      '../test_medicinal_01/manual_annotation/task_for_labelstudio_360558516_Adam.json'
+    data_filenames = ['testing/test_medicinal_01/manual_annotation/task_for_labelstudio_80818116_ifra_FC_09_04_2024.json',
+                      'testing/test_medicinal_01/manual_annotation/task_for_labelstudio_4187756.json',
+                      'testing/test_medicinal_01/manual_annotation/task_for_labelstudio_161880242_228197190.json',
+                      'testing/test_medicinal_01/manual_annotation/task_for_label_studio_360558516_Adam.json'
                       ]
     data = merge_json_data(*[load_json_data(f) for f in data_filenames])
 
@@ -344,13 +344,13 @@ def main():
         112: 'task_for_labelstudio_360558516_chunk_7.json',
         113: 'task_for_labelstudio_360558516_chunk_8.json',
         114: 'task_for_labelstudio_360558516_chunk_9.json',
-        115: 'task_for_labelstudio_360558516_chunk_10.json',
+        115: 'task_for_labelstudio_360558516_chunk_19.json',
     }  # Example task IDs
 
     for task_id, output_filename in task_id_to_output.items():
         transformed_result = transform_annotation_for_task_id(data, task_id)
         if transformed_result:
-            output_path = f'../test_medicinal_01/manual_annotation_transformed/{output_filename}'
+            output_path = f'testing/test_medicinal_01/manual_annotation_transformed/{output_filename}'
             save_transformed_annotation(transformed_result, output_path)
             print(f"Saved transformed data for task ID {task_id} to {output_path}")
 
@@ -406,17 +406,17 @@ def main():
         'task_for_labelstudio_360558516_chunk_7.json',
         'task_for_labelstudio_360558516_chunk_8.json',
         'task_for_labelstudio_360558516_chunk_9.json',
-        'task_for_labelstudio_360558516_chunk_10.json'
+        'task_for_labelstudio_360558516_chunk_19.json'
 
     ]  # Example filenames
-    tasks_completed_dir = '../test_medicinal_01/tasks_completed'
-    manual_transformed_dir = '../test_medicinal_01/manual_annotation_transformed'
+    tasks_completed_dir = 'testing/test_medicinal_01/tasks_completed'
+    manual_transformed_dir = 'testing/test_medicinal_01/manual_annotation_transformed'
     df = process_annotations(manual_filenames, tasks_completed_dir, manual_transformed_dir)
     print(df.head())
 
-    save_df_to_csv(df, '../test_medicinal_01/all_metrics.csv')
+    save_df_to_csv(df, 'testing/test_medicinal_01/all_metrics.csv')
     summary_metrics = calculate_summary_metrics(df)
-    save_df_to_csv(summary_metrics, '../test_medicinal_01/summary_metrics.csv')
+    save_df_to_csv(summary_metrics, 'testing/test_medicinal_01/summary_metrics.csv')
     # Call the testing function
     test_ner_re()
 
