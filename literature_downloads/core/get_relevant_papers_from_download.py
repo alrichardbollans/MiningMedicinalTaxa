@@ -10,7 +10,7 @@ import pandas as pd
 
 sys.path.append('../..')
 from literature_downloads import query_name, number_of_keywords, build_output_dict
-from ner_string_methods import remove_unneccesary_lines
+from useful_string_methods import remove_unneccesary_lines
 
 scratch_path = os.environ.get('KEWSCRATCHPATH')
 conda_path = os.environ.get('KEWDATAPATH') # A separate path for a non networked drive to handle a large number of files and directories

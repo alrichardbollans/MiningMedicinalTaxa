@@ -8,7 +8,7 @@ from nltk.tokenize import sent_tokenize
 # This is assuming your current script is in the 'testing' directory and your utilities are in 'ner_models/spacy_llm'
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'ner_models', 'spacy_llm'))
 
-from ner_string_methods import (
+from useful_string_methods import (
     retrieve_text_before_phrase,
     remove_double_spaces_and_break_characters,
     convert_nonascii_to_ascii

@@ -42,29 +42,6 @@ def remove_double_spaces_and_break_characters(given_text: str) -> str:
         return given_text
 
 
-def retrieve_paragraphs_containing_words(given_text: str, given_words: List[str]) -> str:
-    '''
-    Slightly experimental and should be used PRIOR to above cleaning methods
-    Relies on \n\n designating new paragraphs which may not always be the case. At worst this should return the original text.
-    Could be optimised with sets but don't think that's necessary
-    :param given_text:
-    :param given_words:
-    :return:
-    '''
-    if given_text:
-        # Splitting text into paragraphs based on double newline characters
-        paragraphs = given_text.split('\n\n')
-        relevant_paragraphs = []
-        for paragraph in paragraphs:
-            lower_paragraph = paragraph.lower().split()
-            if any(word.lower() in lower_paragraph for word in given_words):
-                relevant_paragraphs.append(paragraph)
-
-        return '\n\n'.join(relevant_paragraphs)
-    else:
-        return given_text
-
-
 def remove_HTML_tags(given_text: str) -> str:
     """
     Remove HTML tags from the given text.

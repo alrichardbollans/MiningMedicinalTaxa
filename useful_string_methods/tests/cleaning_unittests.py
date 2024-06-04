@@ -1,12 +1,11 @@
 import os
-import unicodedata
 import unittest
 
 from pkg_resources import resource_filename
 
 from literature_downloads import get_kword_dict
-from ner_string_methods import retrieve_text_before_phrase, remove_double_spaces_and_break_characters, retrieve_paragraphs_containing_words, \
-    remove_HTML_tags, remove_non_ascii_characters, convert_nonascii_to_ascii, remove_unneccesary_lines
+from useful_string_methods import retrieve_text_before_phrase, remove_double_spaces_and_break_characters, remove_HTML_tags, \
+    remove_non_ascii_characters, convert_nonascii_to_ascii, remove_unneccesary_lines
 
 _test_output_dir = resource_filename(__name__, 'test_outputs')
 
