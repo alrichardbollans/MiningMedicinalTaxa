@@ -5,7 +5,6 @@ from typing import Callable
 
 import numpy as np
 
-from literature_downloads import get_kword_dict
 from testing.evaluation_methods import standardise_NER_annotations, standardise_RE_annotations
 
 ENTITY_CLASSES = ['Scientific Plant Name', 'Scientific Fungus Name', 'Medical Condition', 'Medicinal Effect']
@@ -50,8 +49,7 @@ def read_annotation_json(annotations_directory: str, corpus_id: str, chunk_id: s
             del new_annotation['value']['labels']
             separate_NER_annotations.append(new_annotation)
 
-    kw_dict = get_kword_dict()
-    standardise_NER_annotations(separate_NER_annotations, kw_dict)
+    standardise_NER_annotations(separate_NER_annotations)
 
     separate_RE_annotations = []
     for ann in re_annotations:
