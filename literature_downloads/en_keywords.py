@@ -27,7 +27,7 @@ def get_kword_dict():
 
     for f in txt_files:
         # Open each text file
-        with open(os.path.join(folder, f)) as file:
+        with open(os.path.join(folder, f), encoding = 'utf-8') as file:
             # Read content into list
             words = file.read().splitlines()
 
