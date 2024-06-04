@@ -133,20 +133,6 @@
             }
           },
           {
-            "id": "cul2R95RCd",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 8735,
-              "end": 8749,
-              "text": "deranged liver",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
             "id": "xpX6Zk48No",
             "from_name": "label",
             "to_name": "text",
@@ -269,6 +255,20 @@
               "text": "O. gratissimum L.",
               "labels": [
                 "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "iK8xl135yl",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8735,
+              "end": 8759,
+              "text": "deranged liver functions",
+              "labels": [
+                "Medical Condition"
               ]
             }
           },

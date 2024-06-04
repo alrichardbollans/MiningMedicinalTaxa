@@ -749,6 +749,20 @@
             }
           },
           {
+            "id": "2AUIwwbHrJ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12574,
+              "end": 12580,
+              "text": "ginkgo",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
             "from_id": "entity_52",
             "to_id": "ZzBPImGCz-",
             "type": "relation",

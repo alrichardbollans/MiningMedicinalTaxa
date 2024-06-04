@@ -1183,20 +1183,6 @@
             }
           },
           {
-            "id": "B_FErQl58C",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 4707,
-              "end": 4719,
-              "text": "purification",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
             "id": "YXO7mXnAq1",
             "from_name": "label",
             "to_name": "text",
@@ -1277,6 +1263,230 @@
               "text": "Ocimum",
               "labels": [
                 "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "kRZ3ALE6LX",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 420,
+              "end": 437,
+              "text": "internal strength",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "LgGuRd9TET",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 288,
+              "end": 297,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "5G3EbxUfnK",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 500,
+              "end": 509,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "lZIS2d5GJJ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 510,
+              "end": 522,
+              "text": "Liver health",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "2bI2AA8v4l",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 606,
+              "end": 617,
+              "text": "Cholesterol",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "z4gUVCvwFT",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 695,
+              "end": 704,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "cv5yHBooHQ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1459,
+              "end": 1468,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "tbiNUG-a_W",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1815,
+              "end": 1824,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "tLHAi4rM1g",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4707,
+              "end": 4719,
+              "text": "purification",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "VSdns_PWc_",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4687,
+              "end": 4704,
+              "text": "Blood circulation",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "3CnV0bsI9Q",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4720,
+              "end": 4726,
+              "text": "Libido",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "4rCrPwChYJ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4727,
+              "end": 4752,
+              "text": "Mental & physical stamina",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "QsmXKSn4c6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4610,
+              "end": 4616,
+              "text": "Energy",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "5fUXs4yvtJ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4329,
+              "end": 4338,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "wDwFmAlcDX",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1112,
+              "end": 1121,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "0Yn-s8i2q9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1305,
+              "end": 1314,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
               ]
             }
           },
@@ -1523,6 +1733,78 @@
           {
             "from_id": "entity_46",
             "to_id": "dcJAy1jaa8",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_6",
+            "to_id": "kRZ3ALE6LX",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_4",
+            "to_id": "LgGuRd9TET",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_9",
+            "to_id": "5G3EbxUfnK",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_9",
+            "to_id": "lZIS2d5GJJ",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_13",
+            "to_id": "2bI2AA8v4l",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "BNQ_R_VoqP",
+            "to_id": "cv5yHBooHQ",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_43",
+            "to_id": "tbiNUG-a_W",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_23",
+            "to_id": "wDwFmAlcDX",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "SE7OJQXerz",
+            "to_id": "0Yn-s8i2q9",
             "type": "relation",
             "labels": [
               "has_medicinal_effect"

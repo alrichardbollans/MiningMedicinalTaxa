@@ -735,6 +735,62 @@
             }
           },
           {
+            "id": "oxWvhDVEiX",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 9963,
+              "end": 9969,
+              "text": "phlegm",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "QuVEZLZzmw",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11179,
+              "end": 11185,
+              "text": "cramps",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "05eDEdDSDr",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12129,
+              "end": 12144,
+              "text": "GI disturbances",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "cCoc9v9MTd",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12151,
+              "end": 12169,
+              "text": "excessive belching",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
             "from_id": "Noe-voBT8u",
             "to_id": "Elyuu-OHSH",
             "type": "relation",

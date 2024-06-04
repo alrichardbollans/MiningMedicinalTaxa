@@ -427,20 +427,6 @@
             }
           },
           {
-            "id": "entity_33",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 9053,
-              "end": 9074,
-              "text": "antifertility effects",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
             "id": "entity_34",
             "from_name": "label",
             "to_name": "text",
@@ -801,6 +787,34 @@
               "text": "O. tenuiflorum",
               "labels": [
                 "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "hW3YHAdIUt",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8683,
+              "end": 8694,
+              "text": "miscarriage",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "dwt4QxLcsc",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8718,
+              "end": 8726,
+              "text": "abortion",
+              "labels": [
+                "Medical Condition"
               ]
             }
           },
@@ -1215,14 +1229,6 @@
           {
             "from_id": "LyDDL8AEx7",
             "to_id": "entity_32",
-            "type": "relation",
-            "labels": [
-              "treats_medical_condition"
-            ]
-          },
-          {
-            "from_id": "LyDDL8AEx7",
-            "to_id": "entity_33",
             "type": "relation",
             "labels": [
               "treats_medical_condition"

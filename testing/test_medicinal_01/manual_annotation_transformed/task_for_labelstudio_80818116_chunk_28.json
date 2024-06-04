@@ -7,20 +7,6 @@
       {
         "result": [
           {
-            "id": "7t0a1k8ZMD",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 4271,
-              "end": 4282,
-              "text": "indigestion",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
             "id": "8UmBfUl050",
             "from_name": "label",
             "to_name": "text",
@@ -105,20 +91,6 @@
             }
           },
           {
-            "id": "qrCRGsj6Tn",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 4226,
-              "end": 4266,
-              "text": "problems with the gastrointestinal tract",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
             "id": "S5O-pU73Lv",
             "from_name": "label",
             "to_name": "text",
@@ -129,62 +101,6 @@
               "text": "migraine",
               "labels": [
                 "Medical Condition"
-              ]
-            }
-          },
-          {
-            "id": "GEY2UFmY_W",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 4486,
-              "end": 4528,
-              "text": "neutralize the gastric acid in the stomach",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
-            "id": "2J61Q4WWyc",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 4620,
-              "end": 4631,
-              "text": "indigestion",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
-            "id": "qIrIz61seq",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 4649,
-              "end": 4668,
-              "text": "feeling of bloating",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
-            "id": "Qi9v0-Ufip",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 7139,
-              "end": 7152,
-              "text": "antimicrobial",
-              "labels": [
-                "Medicinal Effect"
               ]
             }
           }

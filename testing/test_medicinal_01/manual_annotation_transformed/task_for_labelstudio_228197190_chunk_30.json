@@ -133,20 +133,6 @@
             }
           },
           {
-            "id": "entity_14",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 3568,
-              "end": 3577,
-              "text": "arthritis",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
             "id": "entity_16",
             "from_name": "label",
             "to_name": "text",

@@ -2065,6 +2065,90 @@
             }
           },
           {
+            "id": "0HviNK1a8c",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2612,
+              "end": 2621,
+              "text": "digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "mXhUXlCR3Y",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2674,
+              "end": 2684,
+              "text": "painkiller",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "ydj7yllS5U",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2705,
+              "end": 2714,
+              "text": "digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "3EzLC-xOfG",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4021,
+              "end": 4035,
+              "text": "cleansing face",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "YfCLba3YLE",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5466,
+              "end": 5479,
+              "text": "immune system",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "S4qNeusPOz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5759,
+              "end": 5763,
+              "text": "skin",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
             "from_id": "entity_1",
             "to_id": "CT_G4crZbH",
             "type": "relation",

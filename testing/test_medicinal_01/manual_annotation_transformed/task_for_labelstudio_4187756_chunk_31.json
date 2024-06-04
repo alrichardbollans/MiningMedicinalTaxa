@@ -7,20 +7,6 @@
       {
         "result": [
           {
-            "id": "entity_0",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 516,
-              "end": 520,
-              "text": "heal",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
             "id": "b15pOWD33o",
             "from_name": "label",
             "to_name": "text",

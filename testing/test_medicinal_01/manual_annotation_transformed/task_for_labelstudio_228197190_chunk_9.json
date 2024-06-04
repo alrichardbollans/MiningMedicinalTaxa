@@ -371,6 +371,48 @@
             }
           },
           {
+            "id": "Key4XmokSA",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2810,
+              "end": 2829,
+              "text": "moisturise the skin",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "6tWxzJLC9J",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2834,
+              "end": 2852,
+              "text": "reduce the dryness",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "6LFgLwPHm7",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4407,
+              "end": 4412,
+              "text": "wound",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
             "from_id": "entity_40",
             "to_id": "entity_39",
             "type": "relation",
@@ -392,6 +434,14 @@
             "type": "relation",
             "labels": [
               "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_72",
+            "to_id": "6LFgLwPHm7",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
             ]
           }
         ]

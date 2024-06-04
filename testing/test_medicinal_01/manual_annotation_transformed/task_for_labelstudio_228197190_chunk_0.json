@@ -89,6 +89,48 @@
                 "Scientific Plant Name"
               ]
             }
+          },
+          {
+            "id": "NQo6ajV39h",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4358,
+              "end": 4364,
+              "text": "Ocimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "BR5MMph3_a",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6141,
+              "end": 6147,
+              "text": "Ocimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "SQCQAAq5L5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 20129,
+              "end": 20147,
+              "text": "Ocimum gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
           }
         ]
       }

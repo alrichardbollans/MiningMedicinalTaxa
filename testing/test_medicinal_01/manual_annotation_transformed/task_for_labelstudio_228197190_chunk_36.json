@@ -1491,20 +1491,6 @@
             }
           },
           {
-            "id": "9EO0iwMsWs",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 14932,
-              "end": 14945,
-              "text": "cassia Cassia",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
             "id": "yhp0oml945",
             "from_name": "label",
             "to_name": "text",
@@ -1589,20 +1575,6 @@
             }
           },
           {
-            "id": "jzNaesWESA",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 15494,
-              "end": 15511,
-              "text": " Amomum subulatum",
-              "labels": [
-                "Scientific Plant Name"
-              ]
-            }
-          },
-          {
             "id": "LXrk1-HOQ_",
             "from_name": "label",
             "to_name": "text",
@@ -1641,20 +1613,6 @@
               "text": "cancer",
               "labels": [
                 "Medical Condition"
-              ]
-            }
-          },
-          {
-            "id": "K15Valv1dU",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 15898,
-              "end": 15902,
-              "text": "Rosa",
-              "labels": [
-                "Scientific Plant Name"
               ]
             }
           },
@@ -2019,20 +1977,6 @@
               "text": "Piper nigrum",
               "labels": [
                 "Scientific Plant Name"
-              ]
-            }
-          },
-          {
-            "id": "nyEyNHU1CB",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 17469,
-              "end": 17481,
-              "text": "eye problems",
-              "labels": [
-                "Medical Condition"
               ]
             }
           },
@@ -2499,6 +2443,552 @@
             }
           },
           {
+            "id": "MhLijsh-iO",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17972,
+              "end": 17985,
+              "text": "Ocimum vaalae",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "BkobbpXV6S",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17986,
+              "end": 17991,
+              "text": "Colds",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "TRblhBNp6O",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17992,
+              "end": 18002,
+              "text": "Congestion",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "Uf668yoDKP",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17939,
+              "end": 17962,
+              "text": "Plectranthus amboinicus",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "IxT5FGHdtU",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13656,
+              "end": 13673,
+              "text": "Strength/ stamina",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "pQ7Djq73Ct",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13674,
+              "end": 13683,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "U-j0i2gscM",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14319,
+              "end": 14336,
+              "text": "Eleusine coracana",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "FiiFs0W5aS",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14939,
+              "end": 14951,
+              "text": "Cassia absus",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "jI5BZ4_zdZ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14932,
+              "end": 14938,
+              "text": "cassia",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "gluhEoDZPZ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13961,
+              "end": 13983,
+              "text": "Skin and hair vitality",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "yw-p2QLtsR",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13938,
+              "end": 13960,
+              "text": "Mental stamina/ memory",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "TUDai2OB55",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13931,
+              "end": 13937,
+              "text": "Energy",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "P8ht1bkru-",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15075,
+              "end": 15084,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "L5AT8dGev9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15315,
+              "end": 15324,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "SHX3bQtf9A",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15495,
+              "end": 15511,
+              "text": "Amomum subulatum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "IHWzusichH",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15773,
+              "end": 15792,
+              "text": "Eye health & vision",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "S21oh9-kw0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15765,
+              "end": 15772,
+              "text": "Roas sp",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "TjaUx7hWTV",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15807,
+              "end": 15820,
+              "text": "Reduces spots",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "urT1Jt9uN3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15898,
+              "end": 15905,
+              "text": "Rosa sp",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "PVlQIkzCp1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15906,
+              "end": 15916,
+              "text": "Eye health",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "TYoOUIQi5z",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15930,
+              "end": 15939,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "zcYMGwBVM7",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 16675,
+              "end": 16684,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "5zdlpIlF2o",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17200,
+              "end": 17210,
+              "text": "Eye health",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "_bVMio6_Q_",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17272,
+              "end": 17280,
+              "text": "Strength",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "mMMGvyHkAE",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17451,
+              "end": 17460,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "3M93rihRhd",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17461,
+              "end": 17481,
+              "text": "Vision/ eye problems",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "SiLgBW5Lg6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 18319,
+              "end": 18328,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "xX0xDcPSwM",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 18436,
+              "end": 18445,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "0UAaqn-PXC",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 18522,
+              "end": 18534,
+              "text": "Oral hygiene",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "5i3oYjUxcm",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 18549,
+              "end": 18560,
+              "text": "clean teeth",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "yta0T7g42O",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 18639,
+              "end": 18648,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "yDN2TavtZ4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 18709,
+              "end": 18718,
+              "text": "Aloe vera",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "3lajNcqNJi",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 18959,
+              "end": 18968,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "1TAKB9Idus",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 19239,
+              "end": 19248,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "Y6V1BOhKsn",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 19378,
+              "end": 19387,
+              "text": "Digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "OszaFhKYi6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 20166,
+              "end": 20180,
+              "text": "Cocos nucifera",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "S_CgdzJzsK",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 20696,
+              "end": 20701,
+              "text": "Spots",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "8Km67MwK2O",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 20704,
+              "end": 20711,
+              "text": "pimples",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "c43P97NagY",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 20683,
+              "end": 20695,
+              "text": "Skin lighter",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
             "from_id": "entity_5",
             "to_id": "entity_6",
             "type": "relation",
@@ -2691,14 +3181,6 @@
             ]
           },
           {
-            "from_id": "9EO0iwMsWs",
-            "to_id": "yhp0oml945",
-            "type": "relation",
-            "labels": [
-              "has_medicinal_effect"
-            ]
-          },
-          {
             "from_id": "entity_27",
             "to_id": "entity_28",
             "type": "relation",
@@ -2741,38 +3223,6 @@
           {
             "from_id": "entity_31",
             "to_id": "VcbbP-C7UG",
-            "type": "relation",
-            "labels": [
-              "treats_medical_condition"
-            ]
-          },
-          {
-            "from_id": "jzNaesWESA",
-            "to_id": "LXrk1-HOQ_",
-            "type": "relation",
-            "labels": [
-              "treats_medical_condition"
-            ]
-          },
-          {
-            "from_id": "jzNaesWESA",
-            "to_id": "entity_34",
-            "type": "relation",
-            "labels": [
-              "treats_medical_condition"
-            ]
-          },
-          {
-            "from_id": "jzNaesWESA",
-            "to_id": "HofP1Owfrv",
-            "type": "relation",
-            "labels": [
-              "has_medicinal_effect"
-            ]
-          },
-          {
-            "from_id": "K15Valv1dU",
-            "to_id": "WR1keY-5VF",
             "type": "relation",
             "labels": [
               "treats_medical_condition"
@@ -2973,14 +3423,6 @@
           {
             "from_id": "0HEnPS7Qf2",
             "to_id": "entity_51",
-            "type": "relation",
-            "labels": [
-              "treats_medical_condition"
-            ]
-          },
-          {
-            "from_id": "0HEnPS7Qf2",
-            "to_id": "nyEyNHU1CB",
             "type": "relation",
             "labels": [
               "treats_medical_condition"
@@ -3349,6 +3791,278 @@
           {
             "from_id": "entity_31",
             "to_id": "25yh8mTw5J",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "Uf668yoDKP",
+            "to_id": "BkobbpXV6S",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "MhLijsh-iO",
+            "to_id": "BkobbpXV6S",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "Uf668yoDKP",
+            "to_id": "TRblhBNp6O",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "MhLijsh-iO",
+            "to_id": "TRblhBNp6O",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "-8NfBabNMT",
+            "to_id": "IxT5FGHdtU",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "-8NfBabNMT",
+            "to_id": "pQ7Djq73Ct",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "U-j0i2gscM",
+            "to_id": "entity_23",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "jI5BZ4_zdZ",
+            "to_id": "yhp0oml945",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "FiiFs0W5aS",
+            "to_id": "yhp0oml945",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_20",
+            "to_id": "TUDai2OB55",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_20",
+            "to_id": "yw-p2QLtsR",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_20",
+            "to_id": "gluhEoDZPZ",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_27",
+            "to_id": "P8ht1bkru-",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_31",
+            "to_id": "L5AT8dGev9",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "S21oh9-kw0",
+            "to_id": "IHWzusichH",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "S21oh9-kw0",
+            "to_id": "entity_35",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "S21oh9-kw0",
+            "to_id": "TjaUx7hWTV",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "urT1Jt9uN3",
+            "to_id": "PVlQIkzCp1",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "urT1Jt9uN3",
+            "to_id": "WR1keY-5VF",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "urT1Jt9uN3",
+            "to_id": "TYoOUIQi5z",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "6EfFmF4e0f",
+            "to_id": "zcYMGwBVM7",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "Kvy_XLxmnI",
+            "to_id": "5zdlpIlF2o",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "C9mKrSfkhz",
+            "to_id": "_bVMio6_Q_",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "j8P5BJy8pa",
+            "to_id": "SiLgBW5Lg6",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_65",
+            "to_id": "xX0xDcPSwM",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "7DNmYJU0kG",
+            "to_id": "0UAaqn-PXC",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "7DNmYJU0kG",
+            "to_id": "5i3oYjUxcm",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "srZbGqlw_z",
+            "to_id": "yta0T7g42O",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "kjO-OSftUJ",
+            "to_id": "3lajNcqNJi",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "dXgiNZ4WTY",
+            "to_id": "1TAKB9Idus",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "RMFlGjzLK7",
+            "to_id": "Y6V1BOhKsn",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "OszaFhKYi6",
+            "to_id": "entity_98",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "OszaFhKYi6",
+            "to_id": "entity_99",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_104",
+            "to_id": "c43P97NagY",
             "type": "relation",
             "labels": [
               "has_medicinal_effect"

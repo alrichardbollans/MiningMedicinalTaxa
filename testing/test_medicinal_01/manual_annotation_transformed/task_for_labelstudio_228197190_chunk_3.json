@@ -271,6 +271,34 @@
                 "Scientific Plant Name"
               ]
             }
+          },
+          {
+            "id": "8EVnWk4jr0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3573,
+              "end": 3587,
+              "text": "enzyme inducer",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "aXf-HeBa4N",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4791,
+              "end": 4808,
+              "text": "burning sensation",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
           }
         ]
       }

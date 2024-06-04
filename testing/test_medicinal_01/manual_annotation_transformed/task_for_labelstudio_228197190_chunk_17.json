@@ -819,6 +819,104 @@
             }
           },
           {
+            "id": "4zLCn5Ca21",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1223,
+              "end": 1241,
+              "text": "abdominal cramping",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "J0UkwUYWIh",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2341,
+              "end": 2358,
+              "text": "urinary frequency",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "cLUxQliVQ0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10436,
+              "end": 10444,
+              "text": "bleeding",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "6dQCz88XH_",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11219,
+              "end": 11228,
+              "text": "heartburn",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "bYln9nNej-",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11681,
+              "end": 11689,
+              "text": "irritant",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "dPSIxk7_NL",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11703,
+              "end": 11719,
+              "text": "hypersensitivity",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "jZNUdHmemM",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15524,
+              "end": 15534,
+              "text": "blood loss",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
             "from_id": "JhsUHOx0D7",
             "to_id": "V3C8v3AiKI",
             "type": "relation",

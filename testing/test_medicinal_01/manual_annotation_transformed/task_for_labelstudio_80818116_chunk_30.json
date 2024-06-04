@@ -35,34 +35,6 @@
             }
           },
           {
-            "id": "H7j4aH-HXV",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 595,
-              "end": 608,
-              "text": "antimicrobial",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
-            "id": "8U2SuDNcex",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 667,
-              "end": 680,
-              "text": "antimicrobial",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
             "id": "herTiG5zPA",
             "from_name": "label",
             "to_name": "text",
@@ -119,20 +91,6 @@
             }
           },
           {
-            "id": "2Q-q1nLZmA",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 1587,
-              "end": 1600,
-              "text": "antimicrobial",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
             "id": "nO4i3R4n1Y",
             "from_name": "label",
             "to_name": "text",
@@ -157,62 +115,6 @@
               "text": "Aspergillus spizenii",
               "labels": [
                 "Scientific Fungus Name"
-              ]
-            }
-          },
-          {
-            "id": "4SE7I8RW2h",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 2227,
-              "end": 2240,
-              "text": "antimicrobial",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
-            "id": "T3Z5Brtmz8",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 2490,
-              "end": 2503,
-              "text": "antimicrobial",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
-            "id": "GxWusDQbaU",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 2565,
-              "end": 2578,
-              "text": "antimicrobial",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
-            "id": "zoAWpZ0bQG",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 1670,
-              "end": 1684,
-              "text": "antimicro-bial",
-              "labels": [
-                "Medicinal Effect"
               ]
             }
           }

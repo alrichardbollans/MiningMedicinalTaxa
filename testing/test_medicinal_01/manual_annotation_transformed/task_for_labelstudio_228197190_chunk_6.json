@@ -357,6 +357,90 @@
             }
           },
           {
+            "id": "dEEHgJEeJI",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11829,
+              "end": 11841,
+              "text": "constipation",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "mV_t_d8rs4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11818,
+              "end": 11824,
+              "text": "coughs",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "pybglTiJyP",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12148,
+              "end": 12162,
+              "text": "remove pimples",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "qb0wuBYQ-w",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12167,
+              "end": 12183,
+              "text": "lighten the skin",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "7pgaZh1NKg",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12340,
+              "end": 12351,
+              "text": "cholesterol",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "D_NrKhr3Tl",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15358,
+              "end": 15367,
+              "text": "Aloe Vera",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
             "from_id": "CAblU9MjxD",
             "to_id": "A4UTY5bUJJ",
             "type": "relation",

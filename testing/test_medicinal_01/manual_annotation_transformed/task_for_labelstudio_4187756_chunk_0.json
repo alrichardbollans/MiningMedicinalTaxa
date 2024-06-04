@@ -145,38 +145,6 @@
                 "Medical Condition"
               ]
             }
-          },
-          {
-            "from_id": "entity_8",
-            "to_id": "entity_3",
-            "type": "relation",
-            "labels": [
-              "treats_medical_condition"
-            ]
-          },
-          {
-            "from_id": "entity_8",
-            "to_id": "entity_7",
-            "type": "relation",
-            "labels": [
-              "treats_medical_condition"
-            ]
-          },
-          {
-            "from_id": "entity_8",
-            "to_id": "entity_15",
-            "type": "relation",
-            "labels": [
-              "treats_medical_condition"
-            ]
-          },
-          {
-            "from_id": "entity_8",
-            "to_id": "entity_16",
-            "type": "relation",
-            "labels": [
-              "treats_medical_condition"
-            ]
           }
         ]
       }

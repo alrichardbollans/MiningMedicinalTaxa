@@ -973,20 +973,6 @@
             }
           },
           {
-            "id": "AXJKTz1Fdq",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 1948,
-              "end": 1957,
-              "text": "digestion",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
             "id": "DfwEr5X-g-",
             "from_name": "label",
             "to_name": "text",
@@ -1095,20 +1081,6 @@
               "text": "skin irritation",
               "labels": [
                 "Medical Condition"
-              ]
-            }
-          },
-          {
-            "id": "l7Sw5Tul96",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 5905,
-              "end": 5906,
-              "text": " ",
-              "labels": [
-                "Scientific Plant Name"
               ]
             }
           },
@@ -1435,20 +1407,6 @@
             }
           },
           {
-            "id": "pbRJurq80J",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 15881,
-              "end": 15905,
-              "text": "anti-diabetic properties",
-              "labels": [
-                "Medicinal Effect"
-              ]
-            }
-          },
-          {
             "id": "Coc0zTIVxb",
             "from_name": "label",
             "to_name": "text",
@@ -1501,6 +1459,34 @@
               "text": "inflammation",
               "labels": [
                 "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "tn9VXloXA7",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1948,
+              "end": 1957,
+              "text": "digestion",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "-tZRMO5VAh",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15881,
+              "end": 15894,
+              "text": "anti-diabetic",
+              "labels": [
+                "Medicinal Effect"
               ]
             }
           },
@@ -1682,14 +1668,6 @@
           },
           {
             "from_id": "entity_57",
-            "to_id": "pbRJurq80J",
-            "type": "relation",
-            "labels": [
-              "has_medicinal_effect"
-            ]
-          },
-          {
-            "from_id": "entity_57",
             "to_id": "Coc0zTIVxb",
             "type": "relation",
             "labels": [
@@ -1699,6 +1677,14 @@
           {
             "from_id": "entity_57",
             "to_id": "X3uu_WHkv2",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_57",
+            "to_id": "-tZRMO5VAh",
             "type": "relation",
             "labels": [
               "has_medicinal_effect"

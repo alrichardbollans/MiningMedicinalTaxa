@@ -369,6 +369,20 @@
                 "Medicinal Effect"
               ]
             }
+          },
+          {
+            "id": "LHLqsVGTkq",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5678,
+              "end": 5684,
+              "text": "ginkgo",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
           }
         ]
       }

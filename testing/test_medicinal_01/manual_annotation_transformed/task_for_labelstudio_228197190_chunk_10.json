@@ -175,20 +175,6 @@
             }
           },
           {
-            "id": "UjwDLdjbLL",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 6126,
-              "end": 6133,
-              "text": "iabetic",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
             "id": "FbgFCr5Je6",
             "from_name": "label",
             "to_name": "text",
@@ -273,20 +259,6 @@
             }
           },
           {
-            "id": "_OJzmZZe0n",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "value": {
-              "start": 7546,
-              "end": 7581,
-              "text": "upper respiratory tract congestion.",
-              "labels": [
-                "Medical Condition"
-              ]
-            }
-          },
-          {
             "id": "efa5A-1RYb",
             "from_name": "label",
             "to_name": "text",
@@ -365,6 +337,76 @@
               "start": 6936,
               "end": 6945,
               "text": "analgesic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "a1rIY3U769",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6120,
+              "end": 6133,
+              "text": "anti-diabetic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "yM5AUAJcqR",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6920,
+              "end": 6931,
+              "text": "carminative",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "GbKUTt4pD0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7416,
+              "end": 7430,
+              "text": "blood thinning",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "iGCWFWgx2N",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7546,
+              "end": 7580,
+              "text": "upper respiratory tract congestion",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "coBAnqtEIl",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7796,
+              "end": 7819,
+              "text": "increase blood pressure",
               "labels": [
                 "Medicinal Effect"
               ]
