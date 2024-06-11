@@ -9,7 +9,8 @@ def get_paragraphs_from_pdf(pdf_file: str):
     print(text)
     print(repr(text))
     special_paragraph_placeholder = 'xyzxyzplaceholder'
-    placeholder = text.replace('\n\n', special_paragraph_placeholder)
+    placeholder = text.replace('-\n\n', '')
+    placeholder = placeholder.replace('\n\n', special_paragraph_placeholder)
     # Make line breaks more readable
     placeholder = placeholder.replace('-\n', '')
     placeholder = placeholder.replace('\n', ' ')
@@ -55,5 +56,5 @@ def get_chunks_from_pdf(pdf_file: str, chunk_character_limit: int):
 
 
 if __name__ == '__main__':
-    _inputs_path = 'example_inputs'
+    _inputs_path = 'useful_string_methods/example_inputs'
     get_chunks_from_pdf(os.path.join(_inputs_path, 'normal.pdf'), 20000)
