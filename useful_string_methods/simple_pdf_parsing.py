@@ -5,6 +5,8 @@ from useful_string_methods import remove_double_spaces_and_break_characters, con
 
 
 def get_paragraphs_from_pdf(pdf_file: str):
+    raise ValueError(
+        'In the event you are trying to roll your own pdf extraction process, please see https://python.langchain.com/v0.1/docs/use_cases/extraction/how_to/handle_files/ instead.')
     text = extract_text(pdf_file)
     print(text)
     print(repr(text))

@@ -7,7 +7,9 @@ import numpy as np
 
 from testing.evaluation_methods import standardise_NER_annotations, standardise_RE_annotations
 
-ENTITY_CLASSES = ['Scientific Plant Name', 'Scientific Fungus Name', 'Medical Condition', 'Medicinal Effect']
+TAXON_ENTITY_CLASSES = ['Scientific Plant Name', 'Scientific Fungus Name']
+MEDICINAL_CLASSES = ['Medical Condition', 'Medicinal Effect']
+ENTITY_CLASSES = TAXON_ENTITY_CLASSES + MEDICINAL_CLASSES
 
 RELATIONS = ['treats_medical_condition', 'has_medicinal_effect']
 

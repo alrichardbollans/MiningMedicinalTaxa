@@ -3,7 +3,7 @@ import sys
 
 sys.path.append("../testing/evaluation_methods")
 
-from chunk_level_models.gemini import get_response_json
+from rag_models.gemini import get_response_json
 from testing.evaluation_methods import get_metrics_from_tp_fp_fn, is_annotation_in_annotation_list, read_annotation_json
 
 
@@ -59,13 +59,13 @@ def get_outputs_from_human_annotations(annotations: List[dict]):
 
     new_outputs = []
     for ann in unique_outputs:
-        if ann['from_label'] in ["Scientific Plant Name", "Scientific Fungus Name"]:
+        if ann['from_label'] in TAXON_ENTITY_CLASSES:
             new_outputs.append({'entity': ann['from_text']})
             if ann['relationship'] == 'treats_medical_condition':
                 new_outputs.append({'entity': ann['from_text'], 'Medical condition': ann['to_text']})
             if ann['relationship'] == 'has_medicinal_effect':
                 new_outputs.append({'entity': ann['from_text'], 'Medicinal effect': ann['to_text']})
-        if ann['to_label'] in ["Scientific Plant Name", "Scientific Fungus Name"]:
+        if ann['to_label'] in TAXON_ENTITY_CLASSES:
             new_outputs.append({'entity': ann['to_text']})
             raise ValueError('this should never happen')
     # TODO:check this
