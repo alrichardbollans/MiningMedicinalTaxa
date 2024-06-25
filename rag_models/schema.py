@@ -32,6 +32,36 @@ class TaxaData(BaseModel):
     taxa: List[Taxon]
 
 
+def dedpulicate_taxa_lists(taxa: List[Taxon]) -> List[Taxon]:
+    # TODO: test this
+    unique_scientific_names = []
+    for taxon in taxa:
+        if taxon.scientific_name is not None and taxon.scientific_name not in unique_scientific_names:
+            unique_scientific_names.append(taxon.scientific_name)
+
+    new_taxa_list = []
+    for name in unique_scientific_names:
+        new_taxon = Taxon(scientific_name=name, medical_conditions=[], medicinal_effects=[])
+        for taxon in taxa:
+            if taxon.scientific_name == name:
+                if taxon.medical_conditions is not None:
+                    new_taxon.medical_conditions.extend(taxon.medical_conditions)
+                if taxon.medicinal_effects is not None:
+                    new_taxon.medicinal_effects.extend(taxon.medicinal_effects)
+
+        if len(new_taxon.medical_conditions) == 0:
+            new_taxon.medical_conditions = None
+        else:
+            new_taxon.medical_conditions = list(set(new_taxon.medical_conditions))
+        if len(new_taxon.medicinal_effects) == 0:
+            new_taxon.medicinal_effects = None
+        else:
+            new_taxon.medicinal_effects = list(set(new_taxon.medicinal_effects))
+
+        new_taxa_list.append(new_taxon)
+    return new_taxa_list
+
+
 def convert_human_annotations_to_taxa_data_schema(human_ner_annotations, human_re_annotations) -> TaxaData:
     # TODO: test this
     collected_output = {}
