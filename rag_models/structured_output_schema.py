@@ -1,7 +1,11 @@
+import os
 from typing import Optional, List
 
 from langchain_core.pydantic_v1 import BaseModel, Field
+import sys
 
+sys.path.append('../testing/evaluation_methods/')
+from testing.evaluation_methods import read_annotation_json, TAXON_ENTITY_CLASSES, RELATIONS, MEDICINAL_CLASSES, clean_strings
 
 class Taxon(BaseModel):
     """Information about a plant or fungus."""
@@ -32,18 +36,21 @@ class TaxaData(BaseModel):
     taxa: List[Taxon]
 
 
-def dedpulicate_taxa_lists(taxa: List[Taxon]) -> List[Taxon]:
+def deduplicate_and_standardise_output_taxa_lists(taxa: List[Taxon]) -> TaxaData:
+    ''' Clean strings, as in read_annotation_json and then deduplicate results'''
     # TODO: test this
     unique_scientific_names = []
     for taxon in taxa:
-        if taxon.scientific_name is not None and taxon.scientific_name not in unique_scientific_names:
-            unique_scientific_names.append(taxon.scientific_name)
+        if taxon.scientific_name is not None:
+            clean_name = clean_strings(taxon.scientific_name)
+            if clean_name not in unique_scientific_names:
+                unique_scientific_names.append(clean_name)
 
     new_taxa_list = []
     for name in unique_scientific_names:
         new_taxon = Taxon(scientific_name=name, medical_conditions=[], medicinal_effects=[])
         for taxon in taxa:
-            if taxon.scientific_name == name:
+            if clean_strings(taxon.scientific_name) == name:
                 if taxon.medical_conditions is not None:
                     new_taxon.medical_conditions.extend(taxon.medical_conditions)
                 if taxon.medicinal_effects is not None:
@@ -52,14 +59,16 @@ def dedpulicate_taxa_lists(taxa: List[Taxon]) -> List[Taxon]:
         if len(new_taxon.medical_conditions) == 0:
             new_taxon.medical_conditions = None
         else:
-            new_taxon.medical_conditions = list(set(new_taxon.medical_conditions))
+            cleaned_version = [clean_strings(c) for c in new_taxon.medical_conditions]
+            new_taxon.medical_conditions = list(set(cleaned_version))
         if len(new_taxon.medicinal_effects) == 0:
             new_taxon.medicinal_effects = None
         else:
-            new_taxon.medicinal_effects = list(set(new_taxon.medicinal_effects))
+            cleaned_version = [clean_strings(c) for c in new_taxon.medicinal_effects]
+            new_taxon.medicinal_effects = list(set(cleaned_version))
 
         new_taxa_list.append(new_taxon)
-    return new_taxa_list
+    return TaxaData(taxa=new_taxa_list)
 
 
 def convert_human_annotations_to_taxa_data_schema(human_ner_annotations, human_re_annotations) -> TaxaData:
@@ -112,11 +121,20 @@ def convert_human_annotations_to_taxa_data_schema(human_ner_annotations, human_r
     return out
 
 
-if __name__ == '__main__':
-    import sys
+def get_all_human_annotations_for_corpus_id(corpus_id:str):
+    # TODO: finish this
+    collected_taxa_data = TaxaData(taxa=[])
+    for file in os.listdir('../../testing/test_medicinal_01/manual_annotation_transformed'):
+        if file.startswith(f'task_for_labelstudio_{corpus_id}'):
+            chunk_id = file.split('.json')[0].split('_')[-1]
+            human_ner_annotations1, human_re_annotations1 = read_annotation_json('../../testing/test_medicinal_01/manual_annotation_transformed', corpus_id,
+                                                                                 chunk_id)
+            taxa_data = convert_human_annotations_to_taxa_data_schema(human_ner_annotations1, human_re_annotations1)
+            collected_taxa_data.taxa.extend(taxa_data.taxa)
+    return deduplicate_and_standardise_output_taxa_lists(collected_taxa_data.taxa)
 
-    sys.path.append('../testing/evaluation_methods/')
-    from testing.evaluation_methods import read_annotation_json, TAXON_ENTITY_CLASSES, RELATIONS, MEDICINAL_CLASSES
+if __name__ == '__main__':
+
 
     human_ner_annotations1, human_re_annotations1 = read_annotation_json('../testing/test_medicinal_01/manual_annotation_transformed', '4187756', '0')
 

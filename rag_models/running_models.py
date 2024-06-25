@@ -5,12 +5,12 @@ from langchain_mistralai import ChatMistralAI
 from langchain_openai import ChatOpenAI
 from langchain_google_vertexai import ChatVertexAI
 
+from rag_models.base_prompt_structure import standard_medicinal_prompt
 from rag_models.loading_files import get_txt_from_file, read_file_and_chunk
-from rag_models.schema import TaxaData, dedpulicate_taxa_lists
-from rag_models.structured_prompting import standard_medicinal_prompt
+from rag_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, TaxaData
 
 
-def query_a_model(model, text_file: str, context_window: int) -> list:
+def query_a_model(model, text_file: str, context_window: int) -> TaxaData:
     text_chunks = read_file_and_chunk(text_file, context_window)
     extractor = standard_medicinal_prompt | model.with_structured_output(schema=TaxaData, include_raw=False)
     extractions = extractor.batch(
@@ -23,9 +23,14 @@ def query_a_model(model, text_file: str, context_window: int) -> list:
     for extraction in extractions:
         output.extend(extraction.taxa)
 
-    deduplicated_extractions = dedpulicate_taxa_lists(output)
+    deduplicated_extractions = deduplicate_and_standardise_output_taxa_lists(output)
     return deduplicated_extractions
 
+def get_input_size_limit(total_context_window_k: int):
+    # Output tokens so far is a tiny fraction, so allow 5% of context window for output
+    out_units = total_context_window_k * 1000
+    input_size = int(out_units * 0.95)
+    return input_size
 
 if __name__ == '__main__':
     # Get API keys
@@ -34,11 +39,7 @@ if __name__ == '__main__':
     load_dotenv()
 
 
-    def get_input_size_limit(total_context_window_k: int):
-        # Output tokens so far is a tiny fraction, so allow 5% of context window for output
-        out_units = total_context_window_k * 1000
-        input_size = int(out_units * 0.95)
-        return input_size
+
 
 
     # Max tokens 16k
