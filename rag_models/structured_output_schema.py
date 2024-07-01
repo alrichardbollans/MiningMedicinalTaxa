@@ -25,7 +25,7 @@ class Taxon(BaseModel):
     )
     medicinal_effects: Optional[List[str]] = Field(
         default=None,
-        description="Therapeutic or negative effects induced by consuming the taxon, such as 'antitumor', 'anti-inflammatory', or 'digestive stimulant'."
+        description="Therapeutic effects induced by consuming the taxon, such as 'antitumor', 'anti-inflammatory', or 'digestive stimulant'."
     )
 
 
