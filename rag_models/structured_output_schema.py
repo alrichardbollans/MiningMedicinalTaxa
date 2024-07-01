@@ -7,6 +7,7 @@ import sys
 sys.path.append('../testing/evaluation_methods/')
 from testing.evaluation_methods import read_annotation_json, TAXON_ENTITY_CLASSES, RELATIONS, MEDICINAL_CLASSES, clean_strings
 
+
 class Taxon(BaseModel):
     """Information about a plant or fungus."""
 
@@ -121,21 +122,21 @@ def convert_human_annotations_to_taxa_data_schema(human_ner_annotations, human_r
     return out
 
 
-def get_all_human_annotations_for_corpus_id(corpus_id:str):
+def get_all_human_annotations_for_corpus_id(corpus_id: str):
     # TODO: finish this
     collected_taxa_data = TaxaData(taxa=[])
     for file in os.listdir('../../testing/test_medicinal_01/manual_annotation_transformed'):
         if file.startswith(f'task_for_labelstudio_{corpus_id}'):
             chunk_id = file.split('.json')[0].split('_')[-1]
-            human_ner_annotations1, human_re_annotations1 = read_annotation_json('../../testing/test_medicinal_01/manual_annotation_transformed', corpus_id,
+            human_ner_annotations1, human_re_annotations1 = read_annotation_json('../../testing/test_medicinal_01/manual_annotation_transformed',
+                                                                                 corpus_id,
                                                                                  chunk_id)
             taxa_data = convert_human_annotations_to_taxa_data_schema(human_ner_annotations1, human_re_annotations1)
             collected_taxa_data.taxa.extend(taxa_data.taxa)
     return deduplicate_and_standardise_output_taxa_lists(collected_taxa_data.taxa)
 
+
 if __name__ == '__main__':
-
-
     human_ner_annotations1, human_re_annotations1 = read_annotation_json('../testing/test_medicinal_01/manual_annotation_transformed', '4187756', '0')
 
     convert_human_annotations_to_taxa_data_schema(human_ner_annotations1, human_re_annotations1)

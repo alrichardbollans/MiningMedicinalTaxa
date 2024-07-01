@@ -10,7 +10,7 @@ standard_medicinal_prompt = ChatPromptTemplate.from_messages(
             "You should collect all scientific plant and fungal names mentioned in the text. You should include scientific authorities in the names if they appear in the text."
             "For each of the plant or fungi names you should also collect any medical conditions they treat or medicinal effects they have. "
             "A medical condition refers to a specific health issue, disease, or physical state."
-            "A medicinal effect refers to therapeutic or negative effects induced by plants or fungi, such as 'antitumor', 'anti-inflammatory', or 'digestive stimulant'."
+            "A medicinal effect refers to therapeutic effects induced by plants or fungi, such as 'antitumor', 'anti-inflammatory', or 'digestive stimulant'."
         ),
         # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
         # MessagesPlaceholder("examples"),  # <-- EXAMPLES!
@@ -18,5 +18,3 @@ standard_medicinal_prompt = ChatPromptTemplate.from_messages(
         ("human", "{text}"),
     ]
 )
-
-
