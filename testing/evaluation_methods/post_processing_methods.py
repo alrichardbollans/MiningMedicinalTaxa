@@ -55,6 +55,8 @@ def clean_strings(given_str: str):
     Clean the given string by removing leading/trailing whitespace,
     leading/trailing punctuation, and converting all characters to lowercase.
 
+    A clean string should be retrievable from the original text when all lower case.
+
     :param given_str: The string to be cleaned.
     :return: The cleaned string.
     """

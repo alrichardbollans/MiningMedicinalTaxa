@@ -12,14 +12,14 @@ def get_txt_from_file(txt_file: str):
     return out
 
 
-def read_file_and_chunk(txt_file: str, context_size:int) -> list:
+def read_file_and_chunk(txt_file: str, context_size: int) -> list:
     # chunking specific to models: https://python.langchain.com/v0.1/docs/use_cases/extraction/how_to/handle_long_text/
     text = get_txt_from_file(txt_file)
     text_splitter = TokenTextSplitter(
         # Controls the size of each chunk
         chunk_size=context_size,
         # Controls overlap between chunks
-        chunk_overlap=20,
+        chunk_overlap=20,  # TODO: increase?
     )
 
     texts = text_splitter.split_text(text)
