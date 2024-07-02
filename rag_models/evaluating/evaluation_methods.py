@@ -38,12 +38,12 @@ def NER_evaluation(model_annotations: TaxaData, ground_truth_annotations: TaxaDa
     assert len(ground_truth_names) == len(set(ground_truth_names))
 
     true_positives = []
+    # TODO: fix this for recall, in approximate case could potentially be repetitions so break isn't working
     for a in model_annotations.taxa:
         for g in ground_truth_annotations.taxa:
             if matching_method(a.scientific_name, g.scientific_name):
-                if a.scientific_name in true_positives:
-                    raise ValueError('The sets should be unique so this shouldnt happen twice')  # This might break for approxomations
                 true_positives.append(a.scientific_name)
+                break
     # False positives
     false_positives = []
     for a in model_annotations.taxa:
@@ -61,4 +61,8 @@ def NER_evaluation(model_annotations: TaxaData, ground_truth_annotations: TaxaDa
 
 def RE_evaluation(model_annotations: TaxaData, ground_truth_annotations: TaxaData, matching_method: Callable, relationship: str):
     # TODO: finish this
+    pass
+
+
+def check_errors(model_annotations: TaxaData, ground_truth_annotations: TaxaData):
     pass
