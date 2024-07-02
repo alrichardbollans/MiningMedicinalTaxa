@@ -5,7 +5,7 @@ from langchain_mistralai import ChatMistralAI
 from langchain_openai import ChatOpenAI
 from langchain_google_vertexai import ChatVertexAI
 
-from rag_models.base_prompt_structure import standard_medicinal_prompt
+from rag_models.rag_prompting import standard_medicinal_prompt
 from rag_models.loading_files import get_txt_from_file, read_file_and_chunk
 from rag_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, TaxaData
 
@@ -38,15 +38,12 @@ if __name__ == '__main__':
 
     load_dotenv()
 
-
-
-
-
     # Max tokens 16k
     # Input: $0.5/1M tokens
     # Output $1.5/1M tokens
-    model1 = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
-    gpt3_outputs = query_a_model(model1, os.path.join('example_inputs', '4187756.txt'), get_input_size_limit(16))
+    # A model to play with on one annotated paper
+    hparam_tuning_model = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
+    gpt3_outputs = query_a_model(hparam_tuning_model, os.path.join('example_inputs', '4187756.txt'), get_input_size_limit(16))
 
     # Max tokens 128k
     # Input: $5.00 /1M tokens

@@ -11,7 +11,7 @@ TAXON_ENTITY_CLASSES = ['Scientific Plant Name', 'Scientific Fungus Name']
 MEDICINAL_CLASSES = ['Medical Condition', 'Medicinal Effect']
 ENTITY_CLASSES = TAXON_ENTITY_CLASSES + MEDICINAL_CLASSES
 
-RELATIONS = ['treats_medical_condition', 'has_medicinal_effect']
+MEDICINAL_RELATIONS = ['treats_medical_condition', 'has_medicinal_effect']
 
 
 def read_annotation_json(annotations_directory: str, corpus_id: str, chunk_id: str):

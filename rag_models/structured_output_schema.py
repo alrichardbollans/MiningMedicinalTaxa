@@ -5,7 +5,9 @@ from langchain_core.pydantic_v1 import BaseModel, Field
 import sys
 
 sys.path.append('../testing/evaluation_methods/')
-from testing.evaluation_methods import read_annotation_json, TAXON_ENTITY_CLASSES, RELATIONS, MEDICINAL_CLASSES, clean_strings
+from rag_models.rag_prompting import medicinal_effect_def, medical_condition_def
+
+from testing.evaluation_methods import read_annotation_json, TAXON_ENTITY_CLASSES, MEDICINAL_RELATIONS, MEDICINAL_CLASSES, clean_strings
 
 
 class Taxon(BaseModel):
@@ -22,11 +24,11 @@ class Taxon(BaseModel):
     scientific_name: Optional[str] = Field(default=None,
                                            description="The scientific name of the taxon, with scientific authority in the name if it appears in the text.")
     medical_conditions: Optional[List[str]] = Field(
-        default=None, description="Specific health issues, diseases, or physical states that the taxon is used to treat."
+        default=None, description=medical_condition_def
     )
     medicinal_effects: Optional[List[str]] = Field(
         default=None,
-        description="Therapeutic effects induced by consuming the taxon, such as 'antitumor', 'anti-inflammatory', or 'digestive stimulant'."
+        description=medicinal_effect_def
     )
 
 
@@ -91,7 +93,7 @@ def convert_human_annotations_to_taxa_data_schema(human_ner_annotations, human_r
         if to_label not in MEDICINAL_CLASSES:
             raise ValueError
         medicinal_property = entry['to_entity']['value']['text']
-        if entry['label'] not in RELATIONS:
+        if entry['label'] not in MEDICINAL_RELATIONS:
             raise ValueError
         if entry['label'] == 'treats_medical_condition':
             if medicinal_property not in collected_output[taxon]['medical_conditions']:

@@ -1,6 +1,7 @@
 from useful_string_methods import remove_double_spaces_and_break_characters
 from langchain_text_splitters import TokenTextSplitter
 
+
 def get_txt_from_file(txt_file: str):
     import os
 
@@ -19,7 +20,7 @@ def read_file_and_chunk(txt_file: str, context_size: int) -> list:
         # Controls the size of each chunk
         chunk_size=context_size,
         # Controls overlap between chunks
-        chunk_overlap=20,  # TODO: increase?
+        chunk_overlap=500,
     )
 
     texts = text_splitter.split_text(text)
