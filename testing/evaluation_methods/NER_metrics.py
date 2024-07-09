@@ -14,6 +14,39 @@ ENTITY_CLASSES = TAXON_ENTITY_CLASSES + MEDICINAL_CLASSES
 MEDICINAL_RELATIONS = ['treats_medical_condition', 'has_medicinal_effect']
 
 
+def check_human_annotations(human_ner_annotations, human_re_annotations):
+    """
+    :param human_ner_annotations: A list of dictionaries representing the named entity annotations made by a human.
+    :param human_re_annotations: A list of dictionaries representing the relation annotations made by a human.
+    :return: None
+
+    This method validates the annotations made by a human for named entities and relations. It raises ValueError if any invalid annotations are found.
+    """
+    to_text_in_entries = []
+    for entry in human_re_annotations:
+        # make entry
+        if len(entry['from_entity']['value']['labels']) > 1 or len(entry['to_entity']['value']['labels']) > 1:
+            raise ValueError(f"Too many labels for entry: {entry['from_entity']['value']['labels']} in human annotations")
+        from_label = entry['from_entity']['value']['labels'][0]
+        if from_label not in TAXON_ENTITY_CLASSES:
+            raise ValueError(f"Invalid label {from_label} in human annotations")
+
+        to_label = entry['to_entity']['value']['labels'][0]
+        if to_label not in MEDICINAL_CLASSES:
+            raise ValueError(f"Invalid label {to_label} in human annotations")
+
+        if entry['label'] not in MEDICINAL_RELATIONS:
+            raise ValueError(f"Invalid relation {entry['label']} in human annotations")
+        to_text_in_entries.append(entry['to_entity']['value']['text'])
+    # Check labels are in given classes etc..
+    for entry in human_ner_annotations:
+        if entry['value']['label'] not in TAXON_ENTITY_CLASSES:
+            # Check no medicinal info on its own
+            text_value = entry['value']['text']
+            if text_value not in to_text_in_entries:
+                raise ValueError(f"entry: {text_value} for: {entry['value']['label']} not associated with taxon in human annotations")
+
+
 def read_annotation_json(annotations_directory: str, corpus_id: str, chunk_id: str):
     """
     Reads annotation data from a JSON file.
@@ -62,6 +95,7 @@ def read_annotation_json(annotations_directory: str, corpus_id: str, chunk_id: s
             separate_RE_annotations.append(new_annotation)
 
     standardise_RE_annotations(separate_RE_annotations)
+    check_human_annotations(separate_NER_annotations, separate_RE_annotations)
     return separate_NER_annotations, separate_RE_annotations
 
 

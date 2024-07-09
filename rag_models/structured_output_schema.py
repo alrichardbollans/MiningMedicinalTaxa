@@ -1,13 +1,14 @@
 import os
+import sys
 from typing import Optional, List
 
 from langchain_core.pydantic_v1 import BaseModel, Field
-import sys
 
 sys.path.append('../testing/evaluation_methods/')
 from rag_models.rag_prompting import medicinal_effect_def, medical_condition_def
 
-from testing.evaluation_methods import read_annotation_json, TAXON_ENTITY_CLASSES, MEDICINAL_RELATIONS, MEDICINAL_CLASSES, clean_strings
+from testing.evaluation_methods import read_annotation_json, TAXON_ENTITY_CLASSES, clean_strings, \
+    check_human_annotations
 
 
 class Taxon(BaseModel):
@@ -76,25 +77,17 @@ def deduplicate_and_standardise_output_taxa_lists(taxa: List[Taxon]) -> TaxaData
 
 def convert_human_annotations_to_taxa_data_schema(human_ner_annotations, human_re_annotations) -> TaxaData:
     # TODO: test this
+    check_human_annotations(human_ner_annotations, human_re_annotations)
     collected_output = {}
     for entry in human_re_annotations:
         # make entry
-        if len(entry['from_entity']['value']['labels']) > 1 or len(entry['to_entity']['value']['labels']) > 1:
-            raise ValueError
-        from_label = entry['from_entity']['value']['labels'][0]
-        if from_label not in TAXON_ENTITY_CLASSES:
-            raise ValueError
         taxon = entry['from_entity']['value']['text']
 
         if taxon not in collected_output.keys():
             collected_output[taxon] = {'medical_conditions': [], 'medicinal_effects': []}
 
-        to_label = entry['to_entity']['value']['labels'][0]
-        if to_label not in MEDICINAL_CLASSES:
-            raise ValueError
         medicinal_property = entry['to_entity']['value']['text']
-        if entry['label'] not in MEDICINAL_RELATIONS:
-            raise ValueError
+
         if entry['label'] == 'treats_medical_condition':
             if medicinal_property not in collected_output[taxon]['medical_conditions']:
                 collected_output[taxon]['medical_conditions'].append(medicinal_property)

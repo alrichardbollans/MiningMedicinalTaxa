@@ -32,7 +32,7 @@ def NER_evaluation(model_annotations: TaxaData, ground_truth_annotations: TaxaDa
     """
 
     """
-
+    check_human_annotations(ground_truth_annotations)
     ground_truth_names = [g.scientific_name for g in ground_truth_annotations.taxa]
     assert len(ground_truth_names) == len(ground_truth_annotations.taxa)
     assert len(ground_truth_names) == len(set(ground_truth_names))
@@ -65,4 +65,5 @@ def RE_evaluation(model_annotations: TaxaData, ground_truth_annotations: TaxaDat
 
 
 def check_errors(model_annotations: TaxaData, ground_truth_annotations: TaxaData):
+    # TODO: output errors in model_annotations
     pass
