@@ -42,6 +42,7 @@ class TaxaData(BaseModel):
 
 def deduplicate_and_standardise_output_taxa_lists(taxa: List[Taxon]) -> TaxaData:
     ''' Clean strings, as in read_annotation_json and then deduplicate results'''
+    # TODO: also replace standardise all apostrophes?
     # TODO: test this
     unique_scientific_names = []
     for taxon in taxa:
@@ -118,20 +119,22 @@ def convert_human_annotations_to_taxa_data_schema(human_ner_annotations, human_r
 
 
 def get_all_human_annotations_for_corpus_id(corpus_id: str):
-    # TODO: finish this
-    collected_taxa_data = TaxaData(taxa=[])
-    for file in os.listdir('../../testing/test_medicinal_01/manual_annotation_transformed'):
+    # TODO: test this
+    collected_taxa_data = []
+    annotation_folder = '../testing/test_medicinal_01/manual_annotation_transformed'
+    for file in os.listdir(annotation_folder):
         if file.startswith(f'task_for_labelstudio_{corpus_id}'):
             chunk_id = file.split('.json')[0].split('_')[-1]
-            human_ner_annotations1, human_re_annotations1 = read_annotation_json('../../testing/test_medicinal_01/manual_annotation_transformed',
+            human_ner_annotations1, human_re_annotations1 = read_annotation_json(annotation_folder,
                                                                                  corpus_id,
                                                                                  chunk_id)
             taxa_data = convert_human_annotations_to_taxa_data_schema(human_ner_annotations1, human_re_annotations1)
-            collected_taxa_data.taxa.extend(taxa_data.taxa)
-    return deduplicate_and_standardise_output_taxa_lists(collected_taxa_data.taxa)
+            collected_taxa_data.extend(taxa_data.taxa)
+    return deduplicate_and_standardise_output_taxa_lists(collected_taxa_data)
 
 
 if __name__ == '__main__':
+    corpus_output = get_all_human_annotations_for_corpus_id('4187756')
     human_ner_annotations1, human_re_annotations1 = read_annotation_json('../testing/test_medicinal_01/manual_annotation_transformed', '4187756', '0')
 
     convert_human_annotations_to_taxa_data_schema(human_ner_annotations1, human_re_annotations1)

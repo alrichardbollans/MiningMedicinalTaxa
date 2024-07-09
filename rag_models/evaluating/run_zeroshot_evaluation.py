@@ -2,6 +2,7 @@ import os
 import sys
 
 from langchain_openai import ChatOpenAI
+
 sys.path.append("../../testing/evaluation_methods")
 from rag_models.evaluating import NER_evaluation, precise_match, approximate_match
 from rag_models.running_models import query_a_model, get_input_size_limit
@@ -12,7 +13,7 @@ def assessing_hparams():
     # Get API keys
     from dotenv import load_dotenv
     repo_path = os.environ.get('KEWSCRATCHPATH')
-    load_dotenv(os.path.join(repo_path,'MedicinalPlantMining','rag_models', '.env'))
+    load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'rag_models', '.env'))
 
     base_text_path = os.path.join('..', '..', 'testing', 'test_medicinal_01', '10_medicinal_hits')
     corpus_id = '4187756'
