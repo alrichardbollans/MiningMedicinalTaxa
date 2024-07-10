@@ -6,9 +6,9 @@ from testing.evaluation_methods import read_annotation_json, NER_evaluation, pre
 from testing.evaluation_methods import RE_evaluation, precise_RE_annotation_match, approximate_RE_annotation_match
 from testing.evaluation_methods import get_metrics_from_tp_fp_fn, get_outputs_from_annotations, precise_output_annotation_match, approximate_output_annotation_match, chunkwise_evaluation
 # Function to read JSON file
-def read_annotation_file(file_path):
-    with open(file_path, 'r') as file:
-        return json.load(file)
+#def read_annotation_file(file_path):
+#    with open(file_path, 'r') as file:
+#        return json.load(file)
 
 def load_json_data(filename):
     with open(filename, 'r') as file:
@@ -73,23 +73,6 @@ def save_transformed_annotation(data, filename):
         json.dump(data, file, indent=2)
 
 
-def calculate_metrics(model_annots, gt_annots, eval_func, match_func, label=None):
-    print(f"Calculating metrics for label: {label}")  # Debug output
-    model_label_annots = [ann for ann in model_annots if ann.get('label') == label]
-    gt_label_annots = [ann for ann in gt_annots if ann.get('label') == label]
-
-    print(f"Model annotations for {label}: {model_label_annots}")  # Debug output
-    print(f"GT annotations for {label}: {gt_label_annots}")  # Debug output
-
-    if not model_label_annots and not gt_label_annots:
-        return {'Precision': float('nan'), 'Recall': float('nan'), 'F1 Score': float('nan')}
-    else:
-        precision, recall, f1_score = eval_func(model_label_annots, gt_label_annots, match_func, label)
-        return {
-            'Precision': precision,
-            'Recall': recall,
-            'F1 Score': f1_score
-        }
 
 def calculate_metrics(model_annots, gt_annots, eval_func, match_func, label=None):
     print(f"Calculating metrics for label: {label}")  # Debug output
@@ -260,7 +243,7 @@ def process_annotations_chunkwise(manual_filenames, tasks_completed_dir, manual_
 
         results.append(result)
 
-    return results
+    return pd.DataFrame(results)
 
 
 def save_df_to_csv(df, filename):
@@ -283,92 +266,6 @@ def calculate_summary_metrics(df):
 
     return summary_metrics
 
-def get_outputs_from_annotations(annotations: List[dict]):
-    """
-    Extracts output information from annotations.
-
-    :param annotations: A list of dictionaries representing annotations.
-
-    :return: A list of dictionaries representing the outputs. Each dictionary contains the following keys -
-                - 'from_text': A string representing the text of the from entity value.
-                - 'to_text': A string representing the text of the to entity value.
-                - 'relationship': A string representing the relationship label.
-                - 'from_label': A string representing a label of the from entity.
-                - 'to_label': A string representing a label of the to entity.
-    """
-    outputs = []
-    for ann in annotations:
-        if 'from_entity' in ann and 'to_entity' in ann:
-            for from_label in ann['from_entity']['value']['labels']:
-                for to_label in ann['to_entity']['value']['labels']:
-                    outputs.append(
-                        {'from_text': ann['from_entity']['value']['text'], 'to_text': ann['to_entity']['value']['text'], 'relationship': ann['label'],
-                         'from_label': from_label, 'to_label': to_label})
-    # Get non duplicated outputs
-    unique_outputs = [dict(t) for t in {tuple(d.items()) for d in outputs}]
-    return unique_outputs
-
-def precise_output_annotation_match(a1: dict, a2: dict):
-    """
-    Check if two outputs match exactly i.e. the same entity types, relationship and corresponding text.
-
-    :param a1: The first dictionary.
-    :param a2: The second dictionary.
-    :return: True if values of corresponding keys are equal in both dictionaries, False otherwise.
-    """
-    for key in a1.keys():
-        if key not in a2.keys():
-            return False
-        if not a1[key] == a2[key]:
-            return False
-    for key in a2.keys():
-        if key not in a1.keys():
-            return False
-        if not a1[key] == a2[key]:
-            return False
-    return True
-
-def approximate_output_annotation_match(a1: dict, a2: dict):
-    """
-    :param a1: Dictionary containing information about the first annotation.
-    :param a2: Dictionary containing information about the second annotation.
-    :return: True if the annotations approximately match, False otherwise.
-
-    This method checks whether two annotations approximately match by comparing their attributes. It returns True if the following conditions are met:
-    - The 'from_label' attribute of a1 and a2 are equal.
-    - The 'to_label' attribute of a1 and a2 are equal.
-    - The 'relationship' attribute of a1 and a2 are equal.
-    - The from_text of a1 is contained in a2 or vice versa.
-    - The to_text of a1 is contained in a2 or vice versa.
-
-    If any of these conditions are not met, the method returns False.
-    """
-    if a1['from_label'] == a2['from_label'] and a1['to_label'] == a2['to_label'] and a1['relationship'] == a2['relationship']:
-        if a1['from_text'].lower() in a2['from_text'].lower() or a2['from_text'].lower() in a1['from_text'].lower():
-            if a1['to_text'].lower() in a2['to_text'].lower() or a2['to_text'].lower() in a1['to_text'].lower():
-                return True
-
-    return False
-
-def chunkwise_evaluation(model_annotations: list, ground_truth_annotations: list, matching_method: Callable):
-    """
-    Evaluate model performance on a chunkwise basis. Note this can also be extended to papers by including all annotations from a paper.
-
-    :param model_annotations: List of model annotations.
-    :param ground_truth_annotations: List of ground truth annotations.
-    :param matching_method: Method to determine if an annotation matches another.
-    :return: Metrics calculated from true positives, false positives, and false negatives.
-    """
-    model_outputs = get_outputs_from_annotations(model_annotations)
-    ground_truth_outputs = get_outputs_from_annotations(ground_truth_annotations)
-
-    true_positives = [a for a in model_outputs if is_annotation_in_annotation_list(a, ground_truth_outputs, matching_method)]
-    # False positives
-    false_positives = [a for a in model_outputs if not is_annotation_in_annotation_list(a, ground_truth_outputs, matching_method)]
-    # False negatives
-    false_negatives = [a for a in ground_truth_outputs if not is_annotation_in_annotation_list(a, model_outputs, matching_method)]
-
-    return get_metrics_from_tp_fp_fn(true_positives, false_positives, false_negatives)
 
 def test_ner_re():
     # Load JSON data for NER and RE annotations
@@ -447,8 +344,6 @@ def test_ner_re():
     precision, recall, f1_score = RE_evaluation(re_annotations, gt_re_annotations, approximate_RE_annotation_match,
                                                 'has_medicinal_effects')
     print(f"Approximate RE has_medicinal_effects - Precision: {precision}, Recall: {recall}, F1 Score: {f1_score}")
-
-
 
 
 # The main function for loading and processing
@@ -877,7 +772,7 @@ def main():
     summary_metrics_chunkwise = calculate_summary_metrics(df_chunkwise)
     save_df_to_csv(summary_metrics_chunkwise, 'testing/test_medicinal_01/summary_chunkwise_metrics.csv')
     # Call the testing function
-    test_ner_re()
+   # test_ner_re()
 
 
 if __name__ == '__main__':

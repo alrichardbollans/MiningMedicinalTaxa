@@ -2,7 +2,6 @@ from typing import List, Callable
 
 from testing.evaluation_methods import read_annotation_json, get_metrics_from_tp_fp_fn, is_annotation_in_annotation_list
 
-
 def get_outputs_from_annotations(annotations: List[dict]):
     """
     Extracts output information from annotations.
@@ -18,6 +17,26 @@ def get_outputs_from_annotations(annotations: List[dict]):
     """
     outputs = []
     for ann in annotations:
+        # Add debug print statements to check the structure of each annotation
+        if 'from_entity' not in ann:
+            print(f"Missing 'from_entity' in annotation: {ann}")
+            continue
+        if 'to_entity' not in ann:
+            print(f"Missing 'to_entity' in annotation: {ann}")
+            continue
+        if 'value' not in ann['from_entity']:
+            print(f"Missing 'value' in 'from_entity': {ann['from_entity']}")
+            continue
+        if 'value' not in ann['to_entity']:
+            print(f"Missing 'value' in 'to_entity': {ann['to_entity']}")
+            continue
+        if 'labels' not in ann['from_entity']['value']:
+            print(f"Missing 'labels' in 'from_entity.value': {ann['from_entity']['value']}")
+            continue
+        if 'labels' not in ann['to_entity']['value']:
+            print(f"Missing 'labels' in 'to_entity.value': {ann['to_entity']['value']}")
+            continue
+
         for from_label in ann['from_entity']['value']['labels']:
             for to_label in ann['to_entity']['value']['labels']:
                 outputs.append(
