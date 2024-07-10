@@ -1,0 +1,251 @@
+[
+  {
+    "data": {
+      "text": "During the expression phase, the cell concentrations were routinely diluted to 1.00x10 cells per ml with dilutions carried out on 1,3,5,7,9 and 11 days respectively, involving centrifugation and re-suspension in fresh growth medium.Mutant frequency determination followed the phenotypic expression phase where the cells | were added to 96-well plates at the concentration of 4xl04 cells per well in fresh growthi medium. A toxic analogue of guanine, 6-thioguanine at the final concentrations of 0.6pg/ml was employed as a selection agent.For the plating efficiency determination, 20 cells per well were plated at each dose in the absence of the selecting agent. Plates were scored for colony formation after 14 days of incubation at 37+-1degC in humidified incubator with circulating 5% CO2 in air.Copy 1 202Y. SharifuddinChapter 55.3.3.3 Scoring Procedures.After 14 days, the plates were scored using Nikon TMS phase contrast inverted microscope under 100X magnification where colonies with a diameter consisting of more than 20 cells were scored as viable colonies and ensuring that separate colonies were clearly apart, thereby accounting for clonal expansion. The cloning efficiencies and mutant frequencies were estimated as described by Furth et al. (1981). Figure 5.4 highlights all the procedures followed when conducting this study.Copy 1 203Y. SharifuddinChapter 55.3.3.4 Mutation Frequency and Plating Efficiency CalculationsPlating efficiency, cell viability and mutation frequency were calculated using the formulae shown below.Plating Efficiency % (PE) = -Ln (Xo/N0) x 100 ....(1)Cell ViabilityCell viability % = PE x 100PE of control ...(2)Mutant FractionMutation frequency (MF) =Dilution factor-Ln (X<</N5) x dilution factor -Ln (Xo/No)(No. of initial cells per well) Non-selective conditions (No. of initial cells per well) Selective conditionsXs= Number of wells without coloniesNs = Total number of wells J Selective conditionsXo= Number of wells without colonies LN0 = Total number of wells Non-selective conditionsWorked examples:HPRT mutation frequency (MF) calculation for untreated cells.MF = -Ln (296/300) -Ln (2/300)20 = 0.01342302 / 5.01063529 * 0.000540000=1.339x10'6HPRT mutation frequency (MF) calculation for cells treated with 30pM andrographolideMF = -Ln (236/300) -Ln (10/300)20 = 0.23995067 / 3.40119738 * 0.000540000=3.527x10-5Copy 1 204Y. SharifuddinChapter 55.3.3.5 Statistical Analyses Dunnetts and 2-sample t-test.Dunnetts is a specialised multiple comparison post-hoc test performed after an ANOVA or j a t-test by comparing all treatment data against the negative control. A samples size| formula is proposed that guarantees the probability of correctly detecting each treatment[ with mean value sufficiently different from the control mean value (Liu 1997). Dunnettsj alongside t-test statistical analysis provides sufficient confidence in analysing thesignificance of the results. The 2 sample t-test is more subjective as it compares each sample mean to the control separately, which is why both tests were required.Y. SharifuddinChapter 5Fig. 5.4 Flow chart for necessary steps in the methods employed for HPRT mutation assessment in AHH-1cells treated with andrographolide.MUTANT CLEANSING PHASERemoval o f existing mutants. Growth of cells for 3 days in HAT media followed by a further 24 hours in HT media.Growth of cells in normal media for 3-4 days to obtain sufficient cell number.4ANDROGRAPHOLIDE TREATMENTTreatment flasks prepared w ith 5xl06 cells ml\"1 in 10ml. The cultured cells were treated with andrographolide, doses ranging from lpM to 50pM (the highest dose).Cells were then incubated at 37+-1(,C for 24 hours with circulating 5% CCb in air. Subsequently, cells were washed by centrifugation and re-suspended in fresh growth media.4PHENOTYPIC EXPRESSION PHASECells were then allowed to grow for 14 days and serially diluted to l.OOxlO^ cells/ml on alternate days.ft 4MUTANT FREQUENCY H PLATING EFFECIENCYCells were added to 96-well plates at Cells were added to 96-well plates withthe concentration of 4x 104 cells per approximately 20 cells added per wellwell in fresh growth medium with 6- to measure cell viabilitythioguanine at the final concentrations of 0.6 pg/ml employed as a selection agent.SCORING FOR MUTANTSAfter 14 days, the 96-well plates were scoredCopy I2 0 6Y. SharifuddinChapter 55.4 RESULTSThe data generated for mutation at the HPRT locus in AHH-1 cells treated with andrographolide are tabulated in Table 5.1 below. Four sets of experiment replicates using freshly prepared new stocks of andrographolide were used with five plates per dose in order for suitable statistical analysis to be performed. Only 60 out of 96 wells were examined for colony formations as the periphery wells around the 96-well plates were not suitable for scoring. The concentrations of andrographolide used in this study were changed and are slightly different where the higher doses of 70 and 90pM of the phytochemical were discarded because of previous cell viability studies demonstrated that more than 50% of the cells subjected to these doses died primarily due to necrosis. Instead, 1 and 5pM of andrographolide were used to examine the effect of the compound at lower concentrations while retaining other doses used previously.Table 5.1. Data summary for mutation frequency (xlO'6) o f andrographolide-treated AHH-1 cells with 6- thioguanine selection for HPRT mutant detection.______________________________________________0.00 1.45 0.41 1.43 0.391.00 3.37 0.85 0.43 1.235.00 2.88* 2.32* 3.37* 5.80*10.00 4.83* 3.97* 5.80* 8.56*30.00 35.27* 46.93* 47.46* 59.50*50.00 4.90* 9.62* 7.36* 7.15*MMS 63.18* 68.93* 71.24* 69.71*Each set o f experiment replicates involves 5 plates o f 96-well plates per dose and 60 wells scored per plate. *Denotes significant (p<0.05) difference between sample means obtained using the two-tailed two-sample t- test and Dunnetts. HPRT= Hypoxanthine phosphoribosyl transferase. MMS =methyl methane sulfonate.Data are presented as presence of viable colonies in a series o f 96 well plates and mutation frequency values were calculated using formula (3) as described in section 5.2.3.4 previously incorporating colonies observed both with and without 6-thioguanine selection. As shown in Table 5.1, there were statistically significant increases (p<0.05) in the frequency of HPRT mutants induced in a dose-response manner between 5 and lOpM of andrographolide. Although the incidence of mutant colonies formation was abruptly reduced at 50 pM of the compound, the values were still significantly different (p<0.05) against the negative control of untreated AHH-1 cells. The statistical analyses were conducted using t-test and Dunnetts test where the values were as shown in Table 5.2 respectively. This finding suggests that andrographolide is mutagenic to the mammalianCopy I 2 0 7Y. SharifuddinChapter 5cells AHH-1 in vitro at a concentration as low as 5pM with the maximum induction of HPRT mutants was observed at 30pM of the phytochemical as graphically presented in Figure 5.5.Table 5.2. Two-tailed two sample t-test and Dunnetts test performed on AHH-1 HPRT data.0.00 0.707 Not applicable Not applicable1.00 1.307 0.351 0.8915.00 1.535 0.002* 0.012*10.00 1.991 0.000* 0.000*30.00 9.892 0.000* 0.000*50.00 1.928 0.000* 0.000*MMS 3.525 0.000* 0.000**Denotes significant (p<0.05) difference between sample means obtained using the two-tailed two-sample t- test and Dunnetts.Mean Mutant Frequency<oLLAndrographolide (pM)Fig. 5.5. Mutation frequency (MF) o f AFIH-1 HPRT mutant cells after treatment with various concentrations o f andrographolide. Data points derived from mean o f four experiment replicates.Plating efficiency (P.E.) is a cell viability count in plates without 6-thioguanine selection and viable colonies are regarded as mutants after selection. AHH-1 cell viability after andrographolide insult at different doses was calculated using the formulae (1) and (2) that were described in section 5.2.3.4 previously with all data values compared to negative control of untreated cells as 100% cell viability. The data are tabulated in Table 5.3 and graphically displayed in Figure 5.6. Statistical analyses performed using Dunnetts and two- tailed two-sample t-test revealed that 5pM of andrographolide was sufficient to induce statistically significant difference in AHH-1 cell viability against the negative control. Thus, andrographolide caused cell death in a dose-dependent manner and it can beCopy I 2 0 8Y. SharifuddinChapter 5speculated that such trend would be continued if the cells were challenged with 70 and 90pM of the compound as in other previous studies.Table 5.3. Data summary o f cell viability (%) o f andrographolide-treated AHH-1 cells with 6-thioguanine selection for HPRT mutant detection.0.00 100.00 100.00 100.00 100.00 100.001.00 76.14 97.82 95.55 94.83 91.095.00 76.14 90.63 85.64 74.55 81.74*10.00 76.14 85.05 78.62 69.39 77.30*30.00 73.86 76.64 66.14 59.49 69.03*50.00 59.92 62.14 56.24 54.93 58.31*MMS 84.95 87.69 88.52 83.95 86.27Each set o f experiment involves 5 replicates o f 96-well plates. HPRT = Hypoxanthine phosphoribosyl transferase. MMS= methyl methane sulfonate.100Mean % Viable CellsAndrographolide (pM)Fig. 5.6 Shows the reduction in AHH-1 cell viability after treatment with andrographolide.Graph was derived using plating efficiency (PE) data. Data points derived from mean o f four experimentreplicates.Copy I2 0 9Y. SharifuddinChapter 55.5 DISCUSSION| The HPRT mammalian forward mutation assay was employed to examine the potential;| mutagenicity of andrographolide, a phytochemical derived from the annual herb!Andrographis paniculata. To the best of the author's knowledge, there were no previous! publications to this date that attempted to elucidating the phytochemical's ability to elicitj point mutations using mammalian cell line.|| The AHH-1 cell line was chosen for this assay due to a proven track-record in its utilisationin genotoxicity testing. This lymphoblastoid cell line was chosen over rodent cell lines since human cells are known to be 1000 times more sensitive to some cytotoxic antibiotics at least six times more sensitive to hydrogen peroxide and twice as sensitive to radiation (Cox et al., 1977a; Cox et al., 1977b; Hoffman et al., 1984; Gupta & Prasad, 1992). The HPRT forward mutation assay had been used successfully in the past in evaluating genotoxic potencies of mutagens (Crespi et al., 1985; Furth et al., 1981; Doak et al., 2007).The extract of the aerial parts of Andrographis paniculata with high andrographolide content was reported to be not mutagenic in vitro using the Ames test (Liu et al., 1990). As mentioned previously in the section 1.10 of Chapter 1, the use of aqueous extract of A. paniculata may hamper the bioavailability of the compound to cellular targets (Gupta et al., 1990; 1993; O'Neil et al., 2001) and the anti-bacterial property of andrographolide (Singha et al., 2003) may affect the Salmonella typhimurium bacteria used for the Ames test.The data generated from this study contradicted the findings made by Liu et al. (1990)j since andrographolide was shown to be capable of inducing mutation of the HPRT locus inAHH-1 cells in vitro. Andrographolide caused statistically significant (p<0.05) increases of HPRT mutations in a dose-related fashion between 5 to 30pM followed by the reduction in HPRT mutants frequency at the top dose of 50pM, where the value is still significantly (p<0.05) different against untreated cells. This mutagenic potential exerted by andrographolide on AHH-1 cells in vitro supported the DEREK report that this phytochemical can cause chromosome damage in mammals in vitro. The highest incidence of HPRT mutants was observed at 30p.M of andrographolide and as demonstrated earlier, the highest frequency of micronuclei was also registered at this particular concentration in AHH-1 cells.Ic degpyl 210Y SharifuddinChapter 5Although andrographolide was found to be mutagenic to AHH-1 cells in vitro, it also|\\ caused a consistent decrement in cell viability. Apart from the lowest dose tested which| was ljxM, all other doses exhibited significant (p<0.05) reduction in cell viability against\\ the negative controls. At the top dose tested, the phytochemical caused almost 50%reduction of viable cells, which was close to the 60% cytotoxicity mark. !|| Earlier, andrographolide was demonstrated to cause cytotoxicity in a dose- and time-[| dependent manner in V-79, AHH-1 and MCL-5 using different methods of assessment.I There were concerns that the measurements of cell viability immediately after exposure totoxic agents may underestimate or generate inaccurate cellular toxicity data (Greenwood et al., 2004; Fellows & O'Donovan, 2007). In this study, andrographolide-treated AHH-1 cells were subsequently allowed to grow for the next 14 days in the absence of the phytochemical and selective agent during the mutant expression period, registered a steady and statistically significant (p<0.05) reduction in cell viability, measured as cloning efficiency. This finding provided additional support to the results obtained earlier that andrographolide caused a dose- and time-dependent cytotoxicity. Furthermore, it is now clear that this phytochemical might have a delayed effect on cytotoxicity even after its removal from the growth medium as demonstrated previously.Even though this is the first finding to exhibit the potential mutagenicity of this phytochemical, the mutagenic mode of action is not really known due to the paucity of data in the literature. It cannot be ascertain whether andrographolide is acting directly orI indirectly in causing mutations. Furthermore, as the treatment dose increased, so did cell|viability. Hence, mutations may not be passed efficiently since many of the cells will die.The author believes that further studies, including independent verification are warranted to elucidate the biological significance of this mutagenic potential and whether this in vitro effect can be translated in vivo. Data derived from in silico predictions using DEREK and this assay employing AHH-1 cell line did not take into account the influence of a more profound metabolic process in vivo. MCL-5 cell line that has superior metabolic ability than AHH-1 was found to be able to withstand andrographolide at 10pM and high micronuclei incidence was observed at 50pM compared to 30pM in AHH-1. Attempts to use MCL-5 cell line in this assay were not successful due to inconsistencies in plating efficiency values.Copy 1 211Y. SharifuddinChapter 5MCL-5 cell line only has limited Phase I biotransformation capacity and predictions made using METEOR with concordance to previous published studies, revealed various I biotransformation routes. Currently, the pharmacokinetic and pharmacodynamic data on andrographolide is still lacking and the serum concentration has not been determined. As a conclusion, andrographolide was shown to educe mutations in AHH-1 cells in vitro and further study is needed to determine the biological significance of this finding. However, the absence of initial experiments to determine the optimum expression period meant that AHH-1 cells harbouring larger intragenic mutations might have been lost before scoring can be performed, since andrographolide was shown to elicit chromosome damage."
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "id": "entity_0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6838,
+              "end": 6847,
+              "text": "mutagenic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 9594,
+              "end": 9606,
+              "text": "mutagenicity",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 9685,
+              "end": 9695,
+              "text": "paniculata",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10150,
+              "end": 10159,
+              "text": "cytotoxic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10560,
+              "end": 10583,
+              "text": "Andrographis paniculata",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10641,
+              "end": 10650,
+              "text": "mutagenic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11552,
+              "end": 11561,
+              "text": "mutagenic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_7",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11684,
+              "end": 11701,
+              "text": "chromosome damage",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12012,
+              "end": 12021,
+              "text": "mutagenic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12377,
+              "end": 12389,
+              "text": "cytotoxicity",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_10",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12451,
+              "end": 12463,
+              "text": "cytotoxicity",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_11",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13235,
+              "end": 13247,
+              "text": "cytotoxicity",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_12",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13333,
+              "end": 13345,
+              "text": "cytotoxicity",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_13",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13482,
+              "end": 13494,
+              "text": "mutagenicity",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_14",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13522,
+              "end": 13531,
+              "text": "mutagenic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_15",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14005,
+              "end": 14014,
+              "text": "mutagenic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_16",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15372,
+              "end": 15389,
+              "text": "chromosome damage",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

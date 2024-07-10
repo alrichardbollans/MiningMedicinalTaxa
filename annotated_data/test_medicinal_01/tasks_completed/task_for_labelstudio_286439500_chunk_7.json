@@ -1,0 +1,381 @@
+[
+  {
+    "data": {
+      "text": "Cell Cycle 7, 1360-1370. doi: 10.4161/cc.7.10.5953Conflict of Interest Statement: The authors declare that the research wasconducted in the absence of any commercial or financial relationships that couldbe construed as a potential conflict of interest.Copyright (c) 2018 Grienke, Radic' Brkanac, VujcVic', Urban, Ivankovic', Stojkovic',Rollinger, Kralj, Brozovic and Radic' Stojkovic'. This is an open-access articledistributed under the terms of the Creative Commons Attribution License (CC BY).The use, distribution or reproduction in other forums is permitted, provided theoriginal author(s) and the copyright owner(s) are credited and that the originalpublication in this journal is cited, in accordance with accepted academic practice.No use, distribution or reproduction is permitted which does not comply with theseterms.Frontiers in Pharmacology | www.frontiersin.org August 2018 | Volume 9 | Article 97223REVIEWpublished: 21 August 2018doi: 10.3389/fphar.2018.00557Frontiers in Pharmacology | www.frontiersin.org August 2018 | Volume 9 | Article 557Edited by:Anna Karolina Kiss,Medical University of Warsaw, PolandReviewed by:Pinarosa Avato,Universita degli Studi di Bari AldoMoro, ItalySylwia Zielinska,Wroclaw Medical University, Poland*Correspondence:Andrei Mocanmocan.andrei@umfcluj.roSpecialty section:This article was submitted toEthnopharmacology,a section of the journalFrontiers in PharmacologyReceived: 21 December 2017Accepted: 09 May 2018Published: 21 August 2018Citation:Neag MA, Mocan A, Echeverria J,Pop RM, Bocsan CI, Cris,an G andBuzoianu AD (2018) Berberine:Botanical Occurrence, TraditionalUses, Extraction Methods, andRelevance in Cardiovascular,Metabolic, Hepatic, and RenalDisorders. Front. Pharmacol. 9:557.doi: 10.3389/fphar.2018.00557Berberine: Botanical Occurrence,Traditional Uses, Extraction Methods,and Relevance in Cardiovascular,Metabolic, Hepatic, and RenalDisordersMaria A. Neag 1, Andrei Mocan 2*, Javier Echeverria 3, Raluca M. Pop 1, Corina I. Bocsan 1,Gianina Cris,an 2 and Anca D. Buzoianu 11Department of Pharmacology, Toxicology and Clinical Pharmacology, \"Iuliu Hatieganu\" University of Medicine and Pharmacy,Cluj-Napoca, Romania, 2Department of Pharmaceutical Botany, \"Iuliu Hatieganu\" University of Medicine and Pharmacy,Cluj-Napoca, Romania, 3Department of Environmental Sciences, Universidad de Santiago de Chile, Santiago de Chile, ChileBerberine-containing plants have been traditionally used in different parts of the world forthe treatment of inflammatory disorders, skin diseases, wound healing, reducing fevers,affections of eyes, treatment of tumors, digestive and respiratory diseases, and microbialpathologies. The physico-chemical properties of berberine contribute to the high diversityof extraction and detection methods. Considering its particularities this review describesvarious methods mentioned in the literature so far with reference to the most importantfactors influencing berberine extraction. Further, the common separation and detectionmethods like thin layer chromatography, high performance liquid chromatography, andmass spectrometry are discussed in order to give a complex overview of the existingmethods. Additionally, many clinical and experimental studies suggest that berberinehas several pharmacological properties, such as immunomodulatory, antioxidative,cardioprotective, hepatoprotective, and renoprotective effects. This review summarizesthe main information about botanical occurrence, traditional uses, extraction methods,and pharmacological effects of berberine and berberine-containing plants.Keywords: berberine, botanical occurrence, traditional uses, extraction methods, biological activitiesINTRODUCTIONBerberineBerberine(5,6-dihydro-9,10-dimethoxybenzo[g]-1,3-benzodioxolo[5,6-a]quinolizinium) Figure 1,is a nonbasic and quaternary benzylisoquinoline alkaloid, a relevant molecule in pharmacology andmedicinal chemistry. Indeed, it is known as a very important natural alkaloid for the synthesisof several bioactive derivatives by means of condensation, modification, and substitution offunctional groups in strategic positions for the design of new, selective, and powerful drugs(Chen et al., 2005).24Neag et al. Berberine: Botanical Occurrence, Traditional Uses, Extraction and BioactivitiesFIGURE 1 | Berberine structure (according to ChemSpider database).TRADITIONAL USE OFBERBERINE-CONTAINING SPECIESIn the Berberidaceae family, the genus Berberis comprises of~450-500 species, which represent the main natural source ofberberine. Plants of this genus are used against inflammation,infectious diseases, diabetes, constipation, and other pathologies(Singh A. et al., 2010). The oldest evidence of using barberryfruit (Berberis vulgaris) as a blood purifying agent was written onthe clay tablets in the library of Assyrian emperor Asurbanipalduring 650 BC (Karimov, 1993). In Asia, the extensive useof the stem, stem bark, roots, and root bark of plants richin berberine, particularly Berberis species, has more than 3000years of history. Moreover, they have been used as raw materialor as an important ingredient in Ayurvedic and traditionalChinese medicine (Birdsall, 1997; Kirtikar and Basu, 1998; Guptaand Tandon, 2004; Kulkarni and Dhir, 2010). In Ayurveda,Berberis species have been traditionally used for the treatmentof a wide range of infections of the ear, eye, and mouth, forquick healing of wounds, curing hemorrhoids, indigestion anddysentery, or treatment of uterine and vaginal disorders. It hasalso been used to reduce obesity, and as an antidote for thetreatment of scorpion sting or snakebite (Dev, 2006). Berberineextracts and decoctions are traditionally used for their activitiesagainst a variety of microorganisms including bacteria, viruses,fungi, protozoa, helminthes, in Ayurvedic, Chinese, and Middle-Eastern folk medicines (Tang et al., 2009; Gu et al., 2010).In Yunani medicine, Berberis asiatica has multiple uses,such as for the treatment of asthma, eye sores, jaundice,skin pigmentation, and toothache, as well as for favoring theelimination of inflammation and swelling, and for drying ulcers(Kirtikar and Basu, 1998). Decoction of the roots, and stembarks originating from Berberis aristata, B. chitria, and B. lycium(Indian Berberis species), have been used as domestic treatmentof conjunctivitis or other ophthalmic diseases, enlarged liverand spleen, hemorrhages, jaundice, and skin diseases like ulcers(Rajasekaran and Kumar, 2009). On the other hand, the use ofdecoction of Indian barberry mixed with honey has also beenreported for the treatment of jaundice. Additionally, it has beenreported the use of decoction of Indian barberry and Emblicmyrobalan mixed with honey in the cure of urinary disorders aspainful micturition (Kirtikar and Basu, 1998). Numerous studiesdealing with its antimicrobial and antiprotozoal activities againstdifferent types of infectious organisms (Vennerstrom et al., 1990;Stermitz et al., 2000; Bahar et al., 2011) have been assessed so far.Moreover, it has been used to treat diarrhea (Chen et al., 2014)and intestinal parasites since ancient times in China (Singh andMahajan, 2013), and the Eastern hemisphere, while in China it isalso used for treating diabetes (Li et al., 2004).Nowadays, a significant number of dietary supplements basedon plants containing berberine (Kataoka et al., 2008) are usedfor reducing fever, common cold, respiratory infections, andinfluenza (Fabricant and Farnsworth, 2001). Another reporteduse for berberine-containing plants is their application as anastringent agent to lower the tone of the skin. Also, positiveeffects were observed on the mucous membranes of the upperrespiratory tract and gastrointestinal system with effects on theassociated ailments (Chen et al., 2014; Yu et al., 2016).In southern South America leaves and bark of species of thegenus Berberis are used in traditional medicine administeredfor mountain sickness, infections, and fever (San Martin, 1983;Houghton and Manby, 1985; Anesini and Perez, 1993).Furthermore, there are other genera which contain berberine.The genus Mahonia comprises of several species that containberberine. Within them, M. aquifolium has been traditionallyused for various skin conditions. Due to its main alkaloid(berberine), is known to be used in Asian medicine for itsantimicrobial activity. Coptidis rhizoma (rhizomes of Coptischinensis), another plant which contains berberine, is a famousherb very frequently used in traditional Chinese medicine for theelimination of toxins, \"damp-heat syndromes\", \"purge fire\", andto \"clear heat in the liver\" (Tang et al., 2009). Table 1 gathersa synthesis of the main traditional uses of species containingberberine.BOTANICAL SOURCES OF BERBERINEBerberine has been detected, isolated, and quantified fromvarious plant families and genera including Annonaceae(Annickia, Coelocline, Rollinia, and Xylopia), Berberidaceae(Berberis, Caulophyllum, Jeffersonia, Mahonia, Nandina, andSinopodophyllum), Menispermaceae (Tinospora), Papaveraceae(Argemone, Bocconia, Chelidonium, Corydalis, Eschscholzia,Glaucium, Hunnemannia, Macleaya, Papaver, and Sanguinaria),Ranunculaceae (Coptis, Hydrastis, and Xanthorhiza), andRutaceae (Evodia, Phellodendron, and Zanthoxyllum) (Table 2).The genus Berberis is well-known as the most widely distributednatural source of berberine. The bark of B. vulgaris containsmore than 8% of alkaloids, berberine being the major alkaloid(about 5%) (Arayne et al., 2007).Berberine is also widely present in barks, leaves, twigs,rhizomes, roots, and stems of several medicinal plants species,including Argemone mexicana (Etminan et al., 2005), Berberisaristata, B. aquifolium, B. heterophylla, B. beaniana, Cosciniumfenestratum (Rojsanga and Gritsanapan, 2005), C. chinensis,C. japonica, C. rhizome, Hydratis canadensis (Imanshahidi andFrontiers in Pharmacology | www.frontiersin.org August 2018 | Volume 9 | Article 55725Neag et al. Berberine: Botanical Occurrence, Traditional Uses, Extraction and BioactivitiesTABLE 1 | Traditional uses of berberine-containing species.Family Scientific name Traditional uses ReferencesAnnonaceae Annickia chlorantha (Oliv. )Setten & Maas (ex-Enantiachlorantha Oliv. )Treat jaundice, hepatitis A, B, C, and D,conjunctivitis, leishmaniasis, medicine for cutsand infected wounds, sores and ulcers,antipyretic for various fevers, tuberculosis,vomiting of blood, urinary tract infections,treatment of fatigue, rheumatism, treat malariasymptoms, aches, wounds, boils, vomiting,yellow bitter, chills, sore, spleen in children andbody pains, skin ailments, intercostal pain andto promote conception, intestinal worms,intestinal spasms, malaria and sexual asthenia,treat coughs and wounds; rickettsia fever, treatof sleeping sickness and dysentery, hemostaticand rickettsia, treat yellow fever and typhoidfever, treat diabetes, treat syphilis, and otherinfectious diseases, poliomyelitis, treathypertension, treat HIV and prostate cancerOliver, 1960; Sandberg, 1965; Bouquet, 1969;Hamonniere et al., 1975; Onwuanibe, 1979;Burkill, 1985; Gill and Akinwumi, 1986; Gbileet al., 1988; Vennerstrom and Klayman, 1988;Vennerstrom et al., 1990; Adjanohoun et al.,1996; Nguimatsia et al., 1998; Kayode, 2006;Odugbemi et al., 2007; Ehiagbonare andOnyibe, 2008; Jiofack et al., 2008, 2009;Kadiri, 2008; Ogbonna et al., 2008;Olowokudejo et al., 2008; Betti and Lejoly,2009; Ndenecho, 2009; Adeyemi et al., 2010;Noumi, 2010; Noumi and Anguessin, 2010;Noumi and Yumdinguetmun, 2010; Bele et al.,2011; Din et al., 2011; Ngono Ngane et al.,2011; Oladunmoye and Kehinde, 2011;Gbolade, 2012; Musuyu Muganza et al., 2012;Tsabang et al., 2012; Betti et al., 2013;Borokini et al., 2013; Fongod, 2014; Isholaet al., 2014; Ohemu et al., 2014Annickia pilosa (Exell) Setten &Maas (ex-Enantia pilosa Exell)Medicine for cuts Versteegh and Sosef, 2007Annickia polycarpa (DC. )Setten & Maas ex I.M.Turner(ex-Enantia polycarpa (DC.)Engl. & Diels)Treat cuts, antiseptic to treat sores, stomachulcers, leprosy and ophthalmia, treatment ofskin infections and sores, treat jaundice, andtreat fever including malaria and to promotewound healing, against intestinal problemsIrvine, 1961; Bouquet and Debray, 1974; Ajali,2000; Govindasamy et al., 2007; Versteeghand Sosef, 2007Rollinia mucosa (Jacq.) Baill. Treat of tumors Hartwell, 1982Xylopia polycarpa (DC.) Oliv. Treat wounds, ulcers, leprosy, rheumatism,stomach and gall-bladder problems, eyediseases, for conception, diarrhea, malaria,fevers and sleeping disordersNeuwinger, 1996Berberidaceae Berberis actinacantha Mart. Antipyretic San Martin, 1983Berberis aquifolium Pursh Skin conditions, treat eczema, acne,conjunctivitis and herpes, alleviate thesymptoms of psoriasis, treat diarrhea and inhigher doses to treat constipation,improvement of blood flow to the liver,stimulate intestinal secretions and bile flow,treat jaundice, hepatitis, cirrhosis and generaldigestive problems, treatment of gall bladderdisease, hemorrhages and a few forms ofcancer, fungal infections, dysentery,anti-inflammatory properties, stomachproblems, sore womb following childbirthand/or menstruationKing, 1898; Ritch-Krc et al., 1996Berberis aristata DC. Treat allergies, metabolic disorders,ophthalmia, and other eye diseases, treatbleeding piles, anti-osteoporosis, treat skindiseases, menorrhagia, fever, diarrhea,dysentery, cholera, jaundice, ear and urinarytract infections, anti-bacterial, anti-fungal,anti-inflammatory, analgesic, anti-pyretic,jaundice, piles, malaria, laxative, anti-scorbutic,anti-diabetic, and anti-hepatopathicBhattacharjee et al., 1980; Duke andBeckstrom-Sternberg, 1994; Kupeli et al.,2002; Acharya and Rokaya, 2005; Chhetriet al., 2005; Kunwar and Adhikari, 2005;Sharma et al., 2005; Joshi and Joshi, 2007;Meena et al., 2009; Shahid et al., 2009;Phondani et al., 2010; Saraf et al., 2010;Tiwary et al., 2010; Sati and Joshi, 2011;Yogesh et al., 2011Berberis asiatica Roxb. ex DC."
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "id": "entity_0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2501,
+              "end": 2523,
+              "text": "inflammatory disorders",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2525,
+              "end": 2538,
+              "text": "skin diseases",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2540,
+              "end": 2553,
+              "text": "wound healing",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2555,
+              "end": 2570,
+              "text": "reducing fevers",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2604,
+              "end": 2610,
+              "text": "tumors",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2612,
+              "end": 2646,
+              "text": "digestive and respiratory diseases",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3312,
+              "end": 3328,
+              "text": "immunomodulatory",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_7",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3330,
+              "end": 3343,
+              "text": "antioxidative",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3344,
+              "end": 3360,
+              "text": "cardioprotective",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3362,
+              "end": 3378,
+              "text": "hepatoprotective",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_10",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3384,
+              "end": 3398,
+              "text": "renoprotective",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_11",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4723,
+              "end": 4740,
+              "text": "Berberis vulgaris",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_12",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5911,
+              "end": 5928,
+              "text": "Berberis asiatica",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_13",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6210,
+              "end": 6227,
+              "text": "Berberis aristata",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_14",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6418,
+              "end": 6431,
+              "text": "skin diseases",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_15",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8352,
+              "end": 8368,
+              "text": "Coptidis rhizoma",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_16",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12144,
+              "end": 12151,
+              "text": "healing",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_17",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12322,
+              "end": 12328,
+              "text": "tumors",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_18",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13185,
+              "end": 13193,
+              "text": "aristata",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_19",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13932,
+              "end": 13940,
+              "text": "asiatica",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "from_id": "entity_18",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_18",
+            "to_id": "entity_1",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_18",
+            "to_id": "entity_2",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_18",
+            "to_id": "entity_3",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_18",
+            "to_id": "entity_4",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_18",
+            "to_id": "entity_5",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_18",
+            "to_id": "entity_6",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_18",
+            "to_id": "entity_7",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_18",
+            "to_id": "entity_8",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_18",
+            "to_id": "entity_9",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_18",
+            "to_id": "entity_10",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

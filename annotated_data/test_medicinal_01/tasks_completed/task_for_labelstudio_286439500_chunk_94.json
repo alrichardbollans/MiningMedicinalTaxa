@@ -1,0 +1,167 @@
+[
+  {
+    "data": {
+      "text": "The calculated FAK protein expression levels are shown in the bar graphs next to the FAK Western blots. The relative phosphorylation of FAK (p-FAK;corresponding to FAK activity) was quantified by densitometry facilitating the comparison with FAK protein expression, which was set to a value of \"1.\" Thecalculated FAK protein activity levels (Prot. Act.) are shown in the bar graphs next to the p-FAK Western blots. The numbers below the bar graphs refer to therespective treatment conditions indicated in the blot lanes. Densitometries are means +- SEM from at least three experiments (asterisks indicate significances,p < 0.05; t-test) and the Western blot images are representatives for illustration. Hashes (#; rhomboids) indicate significance.FIGURE 7 | Inhibition of focal adhesion kinase (FAK) expression in LECs by specific siRNA. LECs were transiently transfected with either non-targeting siRNA (n.t.co)or siRNA inhibiting the expression of FAK. (A) MDA-MB231 spheroids were placed on confluent LEC monolayers and co-incubated for 4 h when the areas of CCIDswere analyzed using an Axiovert microscope and Zen Little 2012 software. Three independent experiments with at least five replicates were analyzed. (B) After 24 hcells were lysed, total protein was isolated, separated by SDS-PAGE and transferred to PVDF membranes for Western blotting using FAK antibody. b-Actin was usedto control equal sample loading. Relative protein expression levels (Prot. expr.) are shown to the right of the blots and the numbers below the bar graphs refer to therespective treatment conditions shown below the lanes. Densitometries are means +- SEM from at least three experiments (asterisks indicate significances, p < 0.05;t-test) and the Western blot images are representatives for illustration.with apigenin or luteolin prevented MMP1-induced, but notconstitutive FAK phosphorylation (Figures 6A,B). The inhibitionof Tyr397-FAK phosphorylation by apigenin did not correlatewith the inhibition of Ca2+ release. Therefore, the relevanceof FAK for CCID formation was studied by siRNA-mediatedknock-down of FAK (siFAK). In fact, siFAK transfection of LECssuppressed MDA-MB231-induced CCID formation by ~50%(Figure 7A). The knock-down of FAK was confirmed by Westernblotting (Figure 7B). Hence, FAK significantly contributed tointravasation in vitro and apigenin and luteolin inhibited thismechanism.Earlier work demonstrated that CCID formation throughMLC2 depends on intracellular Ca2+ release (Nguyen et al.,2015). Our results show that FAK-dependent CCID formationdid not correlate with intracellular Ca2+ levels. Althoughboth pathways were induced by MMP1, they, obviously,are independent of each other. Thus, we hypothesized thatsimultaneous inhibition of MLC2 (Ca2+-dependent) andFAK (Ca2+-independent) by respective siRNAs, shouldbring about a greater reduction in CCID formation thaninhibition of either FAK or MLC2 alone, which wasactually confirmed (Figure 8). This supports former data(Figure 1C) showing that luteolin (inhibiting FAK andCa2+ release) and apigenin (inhibiting FAK but not Ca2+release) synergize in CCID attenuation via distinct signalingpathways.Frontiers in Pharmacology | www.frontiersin.org March 2018 | Volume 9 | Article 220248fphar-09-00220 March 12, 2018 Time: 13:3 # 8Hong et al. Inhibition of Intravasation by FlavonoidsFIGURE 8 | Inhibition of focal adhesion kinase (FAK) and myosin light chain 2(MLC2) protein expression in LECs by specific siRNAs. LECs were transientlytransfected with either non-targeting siRNA (n.t.co), or siRNAs inhibiting theexpression of FAK and MLC2. Then, MDA-MB231 spheroids were placed onconfluent LEC monolayers and co-incubated for 4 h, after which the areas ofCCIDs were analyzed using an Axiovert microscope and Zen Little 2012software. Three independent experiments with at least five replicates wereanalyzed. Error bars indicate means +- SEM, asterisks and hash significances(p < 0.05; t-test).DISCUSSIONWe show for the first time that luteolin and apigenin attenuatethe intravasation of breast cancer cells in vitro. At the testedconcentrations, luteolin and apigenin inhibited CYP1A1 activityin MDA-MB231 cells. CYP1A1 synthesizes the pro-metastaticarachidonic acid metabolite 12(S)-HETE and is induced, e.g., bythe activated aryl hydrocarbon receptor, the expression of whichis high in many cancer entities (Murray et al., 2014) and alsoin MDA-MB231 cells (Nguyen et al., 2016a). In HepG2 cellswith a luciferase reporter fused to the CYP1A1-regulator region,5 uM apigenin increased reporter gene expression by threefold.In contrast, the higher concentration of 20 uM apigenininhibited the expression by 50% (Allen et al., 2001). In cell-freeassays luteolin inhibited CYP1A1 more potently than apigenin,whereas CYP1A2 was inhibited more efficiently by apigenin(Kim et al., 2005). CYP1A2 mediates the formation of flavonoidmetabolites with different properties to the genuin compounds.The comparability of flavonoid effects is rather difficult amongdifferent cell lines, which depend on the expression and activityprofiles of the various CYP isoforms converting these flavonoidsto other (more or less active) products (Androutsopoulos et al.,2009). Based on the very different individual expression levelsof CYP1A2 in humans, Breinholt et al. (2002) conclude that thismay result in different individual sensitivity.Apigenin and luteolin inhibited also MMP1 expression inMDA-MB231 cells. MMP1 expression is induced by NF-kB(Lee et al., 2011), which is activated not only in inflamed- butalso in cancerous tissue (Karin and Greten, 2005; Karin, 2006).Recently, we provided evidence that specific inhibition ofNF-kB (by siRELA, siNFKB1, siNEMO) down-regulated MMP1expression and attenuated CCID formation (Nguyen et al., 2015).Flavones such as apigenin and luteolin inhibited NF-kB activityand consequently the expression of its target MMP9 (Amruthaet al., 2014). Hence, the inhibition of NF-kB by apigenin andluteolin may have been the reason for suppressed MMP1 levelsin MDA-MB231 cells.As shown here, recombinant MMP1 significantly inducedthe phosphorylation of FAK at Tyr397 in LECs. FAK activitycontributes to cancer cell migration by establishing loosecell-matrix interactions necessary for rapid cell movement(Desai et al., 2009; Schwock et al., 2010), as described inCCID formation (Kerjaschki et al., 2011). In our experimentssuppression of FAK significantly inhibited CCID formation.The activation of FAK (through phosphorylation of Tyr397)is mediated through Kv2.1 channels (Wei et al., 2008). SinceFAK as well as potassium channel activity contribute to LECretraction and CCID formation (Nguyen et al., 2017), thereduction of Tyr397-FAK phosphorylation by apigenin mayhave been due to the inhibition of potassium channels. Thiswas supported by reports demonstrating that trimethyl-apigenininterfered with cardiac potassium currents (Liu et al., 2012) andthe inhibition of potassium channel activity by the flavonoidsacacetin, scutellarin, genistein, and naringenin (Teisseyre andMichalak, 2005; Zhu et al., 2008; Wu et al., 2011; Gasiorowskaet al., 2012). However, quite to the contrary, apigenin andluteolin exhibited vasodilatory effects, which are discussed tobe due to activation (rather than inactivation) of potassiumchannels (Calderone et al., 2004; Jiang et al., 2005). A morerecent research concluded that the vasodilatory properties ofapigenin and luteolin were independent of potassium channelinhibition, but due to extracellular calcium influx (Robertset al., 2013). Therefore, the mechanism by which apigeninand luteolin inhibit FAK phosphorylation remains to beestablished.MMP1 also activates the mobility protein MLC2 in LECs,which contributes to CCID formation as well (Nguyen et al., 2015,2016c). MMP1 binds to PAR1, activates PLCb, triggers Ca2+release and activates the Ca2+-calmodulin kinase MYLK, whichphosphorylates MLC2. MMP1 was also shown to cause migrationby binding to PAR1 in breast cancer cells (Boire et al., 2005)and blood endothelial cells (Juncker-Jensen et al., 2013). WhereasMMP1-induced MLC2 activation depends on Ca2+ release,FAK activation was not found to correlate with intracellularCa2+ levels. This implicates that the pathway activating FAKrepresents a pro-intravasative mechanism independent of theone activating MLC2. Therefore, the inhibition both of FAK(either by siFAK or apigenin) and of MLC2 (by siMLC2, orBAPTA-AM, or U73122) reduced CCID formation in LECmonolayers to a greater extent than the inhibition of just onepathway.Summing up, luteolin and apigenin inhibitedpro-intravasative mechanisms in MDA-MB231 breast cancercells at the levels of CYP1A1 activity and MMP1 expression. InLECs, apigenin and luteolin inhibited MMP1-induced, aberrantFAK activity but not constitutive, normal FAK phosphorylation.Only luteolin inhibited Ca2+ signaling in LEC, which contributedFrontiers in Pharmacology | www.frontiersin.org March 2018 | Volume 9 | Article 220249fphar-09-00220 March 12, 2018 Time: 13:3 # 9Hong et al. Inhibition of Intravasation by Flavonoidsto CCID formation (Nguyen et al., 2016b). This may explain whyluteolin affected CCID formation more potently than apigenin aswell as the synergism between apigenin and luteolin.The results implicate that luteolin and apigenin maintainedthe resilience of the endothelial barrier whilst attacking cancercells and additionally, inhibited the malignant armamentariumof the tumor. Luteolin and apigenin exerted their effects at lowuM concentrations which usually cannot be reached by dailydietary intake (Vogiatzoglou et al., 2015). Nevertheless, the dailyintake of particular flavonoid subclasses (flavonols, flavan-3-ols,anthocyanidins) significantly correlates inversely with the riskof colorectal cancer (Woo and Kim, 2013). However, no otherflavonoid subclasses or total flavonoids are associated with alower risk of breast cancer in post-menopausal women (Huiet al., 2013). Intake of highly enriched apigenin and luteolinformulations achieved flavonoid concentrations in blood plasmawhich are comparable to those described herein in vitro. In detail,a single oral dose of apigenin delivered via a carbon nanopowdersolid dispersion carrier (60 mg/kg) to rats resulted in peak plasmaconcentrations of up to 3.2ug/mL which corresponds to 11.8uM(Ding et al., 2014). Similarly, a single oral dose luteolin in apeanut hull extract (14.3 mg/kg) to rats resulted in peak plasmaconcentrations of up to 8.3 ug/mL (29.1 uM) (Zhou et al., 2008).The evaluation as to whether these concentrations are free ofnegative side effects throughout long term treatment requirescontrolled phase I studies.AUTHOR CONTRIBUTIONSJlH, AF, and DM performed the experiments. CN, NH, andSK analyzed the data. JqH, SG, PB, and WJ were involvedin experiment planning and supervision. AO, LK, and GKsupervised experimental work, and compiled and interpreted thedata. LK and GK wrote the manuscript.FUNDINGJlH was supported by a State Scholarship Fund of ChinaScholarship Council, the National Natural Science Foundationof China (No. 81202853), the Natural Science Foundationof Jiangsu Province (No. BK2012444), and Jiangsu PlannedProjects for Postdoctoral Research Funds, AF by a DIKTI-OeADfellowship, and CN by a technology grant (TSA Doktorat)financed by the Austrian Federal Ministry of Scienceand Research (BMFW) within the framework of ASEA-UNINET.ACKNOWLEDGMENTSWe wish to thank Toni Jager for preparing the figures andGertrud Krainz for improvements in grammar and style.REFERENCESAkram, M. (2013). Minireview on Achillea millefolium Linn. J. Membr. Biol. 246,661-663. doi: 10.1007/s00232-013-9588-xAllen, S. W., Mueller, L., Williams, S. N., Quattrochi, L. C., and Raucy, J.(2001). The use of a high-volume screening procedure to assess the effectsof dietary flavonoids on human CYP1A1 expression. Drug Metab. Dispos. 29,1074-1079.Amrutha, K., Nanjan, P., Shaji, S. K., Sunilkumar, D., Subhalakshmi, K.,Rajakrishna, L., et al. (2014). Discovery of lesser known flavones as inhibitorsof NF-kB signaling in MDA-MB-231 breast cancer cells-A SAR study. Bioorg.Med. Chem. Lett. 24, 4735-4742. doi: 10.1016/j.bmcl.2014.07.093Androutsopoulos, V. P., Ruparelia, K., Arroo, R. R., Tsatsakis, A. M., andSpandidos, D. A. (2009). CYP1-mediated antiproliferative activity of dietaryflavonoids in MDA-MB-468 breast cancer cells. Toxicology 264, 162-170.doi: 10.1016/j.tox.2009.07.023Attoub, S., Hassan, A. H., Vanhoecke, B., Iratni, R., Takahashi, T., Gaben, A. M.,et al. (2011). Inhibition of cell survival, invasion, tumor growth and histonedeacetylase activity by the dietary flavonoid luteolin in human epithelioidcancer cells. Eur. J. Pharmacol. 651, 18-25. doi: 10.1016/j.ejphar.2010.10.063Benedek, B., Gjoncaj, N., Saukel, J., and Kopp, B. (2007). Distribution of phenoliccompounds in Middleeuropean taxa of the Achillea millefolium L. aggregate.Chem. Biodivers. 4, 849-857. doi: 10.1002/cbdv.200790072Benetis, R., Radusiene, J., and Janulis, V. (2008). Variability of phenolic compoundsin flowers of Achillea millefolium wild populations in Lithuania. Medicina 44,775-781.Boire, A., Covic, L., Agarwal, A., Jacques, S., Sherifi, S., and Kuliopulos, A.(2005). PAR1 is a matrix metalloprotease-1 receptor that promotes invasion andtumorigenesis of breast cancer cells. Cell 120, 303-313. doi: 10.1016/j.cell.2004.12.018Breinholt, V. M., Offord, E. A., Brouwer, C., Nielsen, S. E., Brosen, K., andFriedberg, T. (2002). In vitro investigation of cytochrome P450-mediatedmetabolism of dietary flavonoids. Food Chem. Toxicol. 40, 609-616.doi: 10.1016/S0278-6915(01)00125-9Calderone, V., Chericoni, S., Martinelli, C., Testai, L., Nardi, A., Morelli, I.,et al. (2004). Vasorelaxing effects of flavonoids: investigation on the possibleinvolvement of potassium channels. Naunyn Schmiedebergs Arch. Pharmacol.370, 290-298.Desai, L. P., White, S. R., and Waters, C. M. (2009). Mechanical stretch decreasesFAK phosphorylation and reduces cell migration through loss of JIP3-inducedJNK phosphorylation in airway epithelial cells. Am. J. Physiol. Lung Cell. Mol.Physiol. 297, 520-529. doi: 10.1152/ajplung.00076.2009Ding, S. M., Zhang, Z. H., Song, J., Cheng, X. D., Jiang, J., and Jia, X. B.(2014). Enhanced bioavailability of apigenin via preparation of a carbonnanopowder solid dispersion. Int. J. Nanomed."
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "id": "entity_0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4054,
+              "end": 4067,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7980,
+              "end": 7993,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8637,
+              "end": 8643,
+              "text": "breast",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 9766,
+              "end": 9783,
+              "text": "colorectal cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 9898,
+              "end": 9911,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11568,
+              "end": 11588,
+              "text": "Achillea millefolium",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12072,
+              "end": 12085,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_7",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12350,
+              "end": 12363,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12861,
+              "end": 12881,
+              "text": "Achillea millefolium",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13050,
+              "end": 13070,
+              "text": "Achillea millefolium",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_10",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13296,
+              "end": 13309,
+              "text": "breast cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

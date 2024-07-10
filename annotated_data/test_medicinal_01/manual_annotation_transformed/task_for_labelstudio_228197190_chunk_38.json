@@ -1,0 +1,3047 @@
+[
+  {
+    "data": {
+      "text": "Please refer to the external memory device for the sample sequences Key: - = No result n/a = Not applicable as not analysed Grey text = Sample identification failed * = Species identified according to the closest match on GenBank Category: Sample ID: Extraction Number: Sample source: Type of tulsi specified: Type of Sample: Species identification -ITS: Species identification -trnH-psbA: Community Tulsi samples B01 432 K.K TBC Fresh leaves O. gratissimum O. gratissimum B02a 433 H.P Raam Fresh leaves O. gratissimum O. gratissimum B02b 425 H.P Shyam Fresh leaves O. gratissimum O. gratissimum B03 435 A.S TBC Seeds Veronica species* Veronica species* B04 436 R.M Raam Fresh leaves O. basilicum* O. basilicum* B05 437 L.M Raam Fresh leaves O. gratissimum O. gratissimum B06 438 L.P Shyam Fresh leaves O. tenuiflorum O. tenuiflorum B06g 431 L.P Shyam Seeds O. tenuiflorum O. tenuiflorum B07 422 SSHC Raam Fresh leaves O. gratissimum O. gratissimum B07g 439 SSHC Raam Seeds O. gratissimum O. gratissimum B09 697 K.P India TBC Dried leaves - n/a L10 459 M.M TBC Dried leaves O. tenuiflorum O. tenuiflorum L11 460 M.A TBC Dried leaves O. basilicum* O. basilicum* B12 - B.C TBC Seeds n/a n/a A14 490 D.N TBC Seeds O. gratissimum O. gratissimum B15a 491 H.A Raam Dried leaves O. gratissimum O. gratissimum B15b 492 H.A Shyam Dried leaves O. tenuiflorum O. tenuiflorum Li79 840 K.R TBC Dried leaves - O. tenuiflorum Li80 841 M.J Basil Dried leaves - O. basilicum* U100 892 A.S TBC Dried leaves - O. tenuiflorum B101 893 Apna ghar TBC Dried leaves - - B102a 947 R.P Shyam Dried leaves - O. tenuiflorum B102b 950 R.P Shyam Dried leaves - O. tenuiflorum B102c 948 R.P Raam Dried leaves - O. tenuiflorum B102d 949 R.P TBC Dried leaves - O. tenuiflorum B105 - R.R TBC Seeds n/a n/a Commercial Tulsi samples B00 424 Tesco basil O. basilicum Fresh leaves O. basilicum* O. basilicum* C08 423 Pukka three tulsi tea bag Raam, Shyam & lemon tulsi Tea bag - O. tenuiflorum 270 Sukvinder Kaur Bhamra C13 461 Shyam tulsi seeds ebay O. tenuiflorum Seeds O. tenuiflorum O. tenuiflorum C16 493 Akamba garden centre O. basilicum Fresh leaves O. basilicum* O. basilicum* C20 574 Pukka O. tenuiflorum Capsule - - C21 575 Pukka O. tenuiflorum Oil - n/a C22 576 Pukka TBC Tulsi beads - n/a C23 615 Pukka Raam Dried leaves - - C24 616 Pukka Shyam Dried leaves - - C25 617 Pukka Lemon tulsi Dried leaves - - C40 - Herbal Veda O. tenuiflorum Tulsi juice - n/a I44 786 Fort Kochi TBC Dried leaves O. tenuiflorum O. tenuiflorum I45 787 Phalada Agro O. tenuiflorum Dried leaves - O. tenuiflorum I46 789 Phalada Agro O. tenuiflorum Dried leaves O. tenuiflorum O. tenuiflorum I47 790 Phalada Agro O. tenuiflorum Dried leaves - O. tenuiflorum I48 791 Phalada Agro O. tenuiflorum Dried leaves - O. tenuiflorum I49 792 Phalada Agro TBC Dried leaves - - C50 0110 Organic India O. tenuiflorum Capsules - n/a C51 0111 Organic India O. gratissimum Capsules - n/a C52 0112 Organic India O. gratissimum Capsules - n/a C53 0113 Organic India O. tenuiflorum Capsules - n/a C54 0114 Organic India O. tenuiflorum & gratissimum Capsules - n/a C55 0115 Organic India O. tenuiflorum & gratissimum Capsules - n/a C56 0120 VASU respiratory care O. tenuiflorum Capsules - n/a C57 0121 Bipha pharmacy O. tenuiflorum Tablets - n/a C58 0122 Sudarsanam O. tenuiflorum Tablets - n/a C59 0123 SAINA O. tenuiflorum Tablets - n/a C60 0124 MUCEX O. tenuiflorum Tablets - n/a C61 0125 Madhumardan O. tenuiflorum Powder - n/a C62 0126 Sitopaladi Churna powder O. tenuiflorum Powder - n/a C63 0128 VASU O. tenuiflorum Syrup - n/a C64 0129 Cruz cough syrup O. tenuiflorum Syrup - n/a C65 0130 Krishna Tulsi cough syrup O. tenuiflorum Syrup - n/a 271 Sukvinder Kaur Bhamra C66 0131 Amrutha Kasturo cough syrup O. tenuiflorum Syrup - n/a C67 0132 Bipha Tulsi essential oil O. tenuiflorum Oil - n/a C68 0133 KPN Ayurvedic Hair oil O. tenuiflorum Oil - n/a C69 0134 Krishna Tulsi Hair Tonic O. tenuiflorum Oil - n/a C70 0315 Dabur O. tenuiflorum Toothpaste - n/a C71 - Bipha Neem and Tulsi soap TBC Soap bar - n/a C72 - Bipha Tulsi Soap TBC Soap bar - n/a C73 834 Pukka TBC (Raam) Dried leaves - O. tenuiflorum C74 835 Pukka TBC (Raam) Dried leaves - O. tenuiflorum C75 836 Pukka TBC (Krishna) Dried leaves - - C76 837 Pukka TBC (Krishna) Dried leaves - O. tenuiflorum C77 838 Pukka TBC(lemon vana) Dried leaves - - C78 839 Pukka TBC (lemon vana) Dried leaves - O. basilicum Miscellaneous Tulsi samples A17 571 Egypt TBC Dried leaves O. basilicum* O. africanmum* A18 572 Egypt TBC Dried leaves - O. basilicum* A19 573 Egypt TBC Dried leaves - O. africanmum* I41 783 Taj Hotel India O. tenuiflorum Dried leaves - O. basilicum* I42 784 Taj Hotel India O. tenuiflorum Dried leaves - O. basilicum* I43 785 Taj Hotel India O. basilicum Dried leaves - O. basilicum* Reference Ocimum samples G26 618 Peter Nick O. tenuiflorum Seeds O. tenuiflorum O. tenuiflorum G27 619 Peter Nick O. tenuiflorum Seeds O. tenuiflorum O. tenuiflorum G28 620 Peter Nick O. africanum Seeds - O. africanum G29 674 Peter Nick O. citridorum Seeds - O. citridorum* G30 768 Peter Nick O. gratissimum Seeds O. gratissimum O. gratissimum G31 676 Peter Nick O.kilimandscharicum Seeds - O.kilimandscharicum* G32 769 Peter Nick O. gratissimum Seeds O. gratissimum O. gratissimum G33 678 Peter O. tenuiflorum Seeds - - 272 Sukvinder Kaur Bhamra Nick G34 745 Peter Nick O. basilicum Seeds O. basilicum* O. basilicum* G35 842 Peter Nick O. carnosum Seeds - - G36 746 Peter Nick O. tenuiflorum Seeds O. tenuiflorum O. tenuiflorum G37 770 Peter Nick O. tenuiflorum Seeds O. tenuiflorum O. tenuiflorum G38 771 Peter Nick O. tenuiflorum Seeds O. tenuiflorum O. tenuiflorum G39 844 Peter Nick O. tenuiflorum Seeds - O. tenuiflorum C81 1138 Kew O. gratissimum DNA extract O. gratissimum O. gratissimum C82 1583 Kew O. selloi DNA extract O. selloi* - C83 9936 Kew O. basilicum DNA extract - - C84 9937 Kew O. tenuiflorum DNA extract - O. tenuiflorum C85 9939 Kew O. americanum DNA extract - O. americanum* V86 865 CAMAG O. tenuiflorum Dried material - O. tenuiflorum V87 866 CAMAG O. tenuiflorum Dried material - O. tenuiflorum V88 867 CAMAG O. tenuiflorum Dried material - O. tenuiflorum V89 868 CAMAG O. tenuiflorum Dried material - - V90 869 CAMAG O. tenuiflorum Dried material - O. tenuiflorum V91 870 CAMAG O. americanum Dried material - - V92 871 CAMAG O. tenuiflorum Dried material - O. tenuiflorum V93 872 CAMAG O. tenuiflorum Dried material O. tenuiflorum O. tenuiflorum V94 873 CAMAG O. tenuiflorum Dried material O. tenuiflorum O. tenuiflorum V95 874 CAMAG O. tenuiflorum Dried material - - V96 875 CAMAG O. tenuiflorum Dried material - O. tenuiflorum V97 876 CAMAG O. tenuiflorum Dried material - - V98 877 CAMAG O. tenuiflorum Dried material O. tenuiflorum O. tenuiflorum V99 878 CAMAG O. tenuiflorum Dried material O. tenuiflorum O. tenuiflorum 273 Sukvinder Kaur Bhamra Appendix 13 DNA Sequences and Multiple Alignments *Please refer to the external memory device for DNA sequences and multiple alignments created during this research. All figures included in the thesis can be viewed in pdf format. Sequences, contigs and additional multiple alignments can be viewed using a trial version of CLC sequence viewer which can be downloaded free from: http://www.clcbio.com/products/clc-sequence-viewer/ 274 Sukvinder Kaur Bhamra Appendix 14 Ocimum Sequence Accession Numbers from GenBank ITS Ocimum americanum GU810517.1; Ocimum basilicum DQ667240.1; Ocimum basilicum GU810522.1; Ocimum basilicum KF815492.1; Ocimum bascilicum x Ocimum gratissimum GU810521.1; Ocimum gratissimum FJ593402.1; Ocimum gratissimum GU810520.1; Ocimum gratissimum GU810518.1 Ocimum gratissimum GU810516.1; Ocimum gratissimum GU810515.1; Ocimum selloi JF301405.1; Ocimum tenuiflorum GU810519.1 trnH-psbA Ocimum africanum JX294428.1; Ocimum africanum JX262182.1; Ocimum africanum KP218940.1; Ocimum americanum JX262179.1; Ocimum basilicum DQ667350.1; Ocimum basilicum KF855613.1; Ocimum basilicum JX262185.1; Ocimum basilicum JQ339256.1; Ocimum campechianum HG963580.1; Ocimum filamentosum JX294429.1; Ocimum gratissimum JX262181.1; Ocimum gratissimum FR726109.1; Ocimum gratissimum KF855614.1; Ocimum kilimandscharicum JX262180.1; Ocimum tenuiflorum cultivar Krishna tulsi JX262184.1; Ocimum tenuiflorum cultivar Ram tulsi : JX262183.1; Ocimum tenuiflorum FR726110.1; 275 Sukvinder Kaur Bhamra Appendix 15 Ocimum Species Summary Table Image: Species: General Description: Description of Leaves: Description of Flowers: (Inflorescence) Description of Fruit: Native to: Any other information: DNA Sequence: Ocimum africanum -Annual herb -Erect much branched -Aromatic -0.3-1m tall -Stem and branches are quadrangular -Hairs on stem grow side-wards and downwards = spreading -Simple decussate with petiolate. -lance to elliptical shape -Hairless -Glands on both upper and lower surface - -4 nutlets -Black -Nutlet wall produces a thick white cover in water Tropical Africa and Asia Often confused with O. basilicum Synonym: O. americanum O. canum O. brachiatum G28_620 ITS ACTGCAAGCAGACCGCGAACACGTGTTTAACTCATGAATCCCGCCGCCGGCCCCGGTCGGCGCGCGGGCTAACGAACCCCGGCGCGGAACGCGCCAAGGAAAACTCAAAACGTCGGCGCCGGCCCCCCCCACCCCGTCCGCGGGTCGTGCGGGGGGCGCGGGCGTCCATCGACGAATGTCAAAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCGAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCATCAGGCCGAGGGCACGTCTGCCTGGGCGTCACGCATCGCGTCGCCCCCCCATCCCCGCGCAATGCGCTCGGCTTGGGGGGGCGGATACTGGCCTCCCGTGCGCCCCGCCGCGCGGCCGGCCCAAATGCGATCCCCCGGCGACCCGCGTCGCGACAAGTGGTGGTTGAACTCATCAATTTCCCCGTCGCGCCCCGGGTCGTCCGCGCGGATCCTTTAATAAAAAGAACCCAAGCTCCTCGACCGCGACCCCAGGTCAGGCGGGATCACCCGTTGAGTTTAAC trnH-psbA TAATGCTCATAACTTCCCTCTAGACCTAGCTGCTATTGAAGCTCCAACAAATGGCTAAAACTTGTTCTTGGTGTGTAGAAGTTTTTGAAATATAGATAAATATAAGGAGCAATAAACCCTTTCTTGTTCTATCAAAAGAGGGTTTATTGCTCCTTTCTTTTATTTTCAATTAGAAGTCCTTTTGTATTTTTCTAGTAGTATTGGACTTACCTAGACTTTTCTTTCCATAAAAGCAAGAAGATAAAAAAATGATTGAAATTCTATCTTTTGCTTTTGTTTTACAATTTTGAAAAAAAAAAAATTCAAAAAGTGAATTCGTAAATAAATAGAAAATTTACTTTTTTAGAATAGTGGGGCGGA Ocimum basilicum -Annual herb -0.3-0.5m tall up to 1m -Almost hairless plant = glabrous If there are any hairs they only grow in one direction =side-wards -Silky green opposite (paired) oval leaves -No hairs -Highly aromatic with glands on surface of the leaf. -Fleshy leaves -Convex shape -Very few hairs on leaf/ stem -White or -Pink -Large flowers Fruits have four small nutlets, which are mucilaginous when wet Tropical origins Closely related to and frequently confused with O. africanum and O. americanum, but they can be identified on the basis of indumentum (hair distribution) and flower size. Lemon-scented cultivars are usually the result of crosses between O. basilicum and O. africanum."
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "id": "w7rGc2JLZa",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 443,
+              "end": 457,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "mEC1xWVSLX",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 458,
+              "end": 472,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "BpICkazmRz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 504,
+              "end": 518,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "xRiDP6L_Jl",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 519,
+              "end": 533,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "LCYcDC9qZV",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 566,
+              "end": 580,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "rj3MuieZjS",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 581,
+              "end": 595,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "e3Vr-dipeZ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 618,
+              "end": 626,
+              "text": "Veronica",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "UsNIne0o8h",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 636,
+              "end": 644,
+              "text": "Veronica",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "ZvrD2aLDz1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 684,
+              "end": 696,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "kzdlA5kNFm",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 698,
+              "end": 710,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "LQBY0Ujj4_",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 742,
+              "end": 756,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "VMq5r6tQMj",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 757,
+              "end": 771,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "w0NyEY7uKh",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 803,
+              "end": 817,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "Vuz6wAoVO_",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 818,
+              "end": 832,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "8SOzCHAYBv",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 858,
+              "end": 872,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "cq3kWpRvZy",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 873,
+              "end": 887,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "G2CEbpcJVt",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 919,
+              "end": 933,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "YqM0mS6END",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 934,
+              "end": 948,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "6MgYzuEJSW",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 974,
+              "end": 988,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "UsqWf9NzC8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 989,
+              "end": 1003,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "uWWTu-dRsr",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1074,
+              "end": 1088,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "w2mJtcjuX4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1089,
+              "end": 1103,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "tC6QhfbHJ8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1133,
+              "end": 1145,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "pySnyLUiQW",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1147,
+              "end": 1159,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "dog78WfGOz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1211,
+              "end": 1225,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "RekOEl-XpO",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1226,
+              "end": 1240,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "J83lvN24tB",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1272,
+              "end": 1286,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "NOX4U32ZyH",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1287,
+              "end": 1301,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "Yr2w3K6XJf",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1334,
+              "end": 1348,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "0EEo7NpdUz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1349,
+              "end": 1363,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "zFiEd-Sr9d",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1396,
+              "end": 1410,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "eGxI2ceBJE",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1445,
+              "end": 1457,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "PWcw9BcnOj",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1491,
+              "end": 1505,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "MYFKrFwipc",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1581,
+              "end": 1595,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "QkPhyNeXYS",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1631,
+              "end": 1645,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "P3mW26WfpS",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1680,
+              "end": 1694,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "wYp7YAw8nl",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1728,
+              "end": 1742,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "eOM2_sKxEc",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1817,
+              "end": 1829,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "PH6NRG_2N6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1843,
+              "end": 1855,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "SKZz-eS-Vr",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1857,
+              "end": 1869,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "UBfBjsG9oF",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1941,
+              "end": 1955,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "bMOQN8Xe1L",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2013,
+              "end": 2027,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "Eri4oPn_E2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2034,
+              "end": 2048,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "ThVi9cesuH",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2049,
+              "end": 2063,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "LD2m2kyTMJ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2093,
+              "end": 2105,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "0sR0Q_CXx0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2119,
+              "end": 2131,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "SW8hwI08ZI",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2133,
+              "end": 2145,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "XnVAF4TgCh",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2161,
+              "end": 2175,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "d-tyuyOBB3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2202,
+              "end": 2216,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "hJcfEP_fEK",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2397,
+              "end": 2411,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "1SWktNzVmF",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2466,
+              "end": 2480,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "BhsqCz_Xut",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2481,
+              "end": 2495,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "oF-P0m-wGY",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2517,
+              "end": 2531,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "k6ysfPUSlx",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2547,
+              "end": 2561,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "RqTD6-O4Zy",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2583,
+              "end": 2597,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "JFQ_QerEU1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2611,
+              "end": 2625,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "nBj4iY__Pi",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2626,
+              "end": 2640,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "r24e9pN2Hp",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2662,
+              "end": 2676,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "4QDNkUENFu",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2692,
+              "end": 2706,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "h6le8Wpnru",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2728,
+              "end": 2742,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "Ouk0nCvrCi",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2758,
+              "end": 2772,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "lib6VWv71t",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2838,
+              "end": 2852,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "Ggdkc2m4tl",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2891,
+              "end": 2905,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "lkepgGHnnu",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2944,
+              "end": 2958,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "e3pTu2xvfa",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2997,
+              "end": 3011,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "Rd3P1GQmia",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3050,
+              "end": 3064,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "v-QZ9Blgiz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3067,
+              "end": 3078,
+              "text": "gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "dI2pbLGi0x",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3117,
+              "end": 3131,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "lNsYPh7BQ6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3134,
+              "end": 3145,
+              "text": "gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "VDWrskkNQz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3246,
+              "end": 3260,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "BycPKFw60h",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3295,
+              "end": 3309,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "bHAJ5XhQSg",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3339,
+              "end": 3353,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "MBYMVoUEwc",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3383,
+              "end": 3397,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "4-8439_WHH",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3433,
+              "end": 3447,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "H3Mt1_llvF",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3537,
+              "end": 3551,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "if3r9bu7XT",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3495,
+              "end": 3509,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "p58K48fLCy",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3590,
+              "end": 3604,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "K1_OyOXxZP",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3730,
+              "end": 3735,
+              "text": "cough",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "WVAVgAYIt-",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3742,
+              "end": 3756,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "fIWyz_lHdC",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3804,
+              "end": 3818,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "-MfnbWI-9r",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3861,
+              "end": 3875,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "kBnBaXCKTc",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3920,
+              "end": 3934,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "obDH7p6LOS",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3960,
+              "end": 3974,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "hEVRcGrqua",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4125,
+              "end": 4139,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "JDveQcVFSz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4180,
+              "end": 4194,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "8Bdrblyg87",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4283,
+              "end": 4297,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "F2TIpR7hOW",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4391,
+              "end": 4403,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "4P--Z3tJhH",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4463,
+              "end": 4475,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "erhFNwdiML",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4477,
+              "end": 4490,
+              "text": "O. africanmum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "RlmYw2i2cf",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4525,
+              "end": 4537,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "IvH2keIoiN",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4572,
+              "end": 4585,
+              "text": "O. africanmum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "lxXoLmsG9M",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4641,
+              "end": 4653,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "kk0q4v4fT-",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4679,
+              "end": 4693,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "4BBZzkuYBM",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4709,
+              "end": 4721,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "MZJ5CnAwV2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4775,
+              "end": 4787,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "JZwPt2rytx",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4799,
+              "end": 4805,
+              "text": "Ocimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "Q6jJ77G99D",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4833,
+              "end": 4847,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "AeDaMIj8M3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4854,
+              "end": 4868,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "Vim_GnJWUx",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4869,
+              "end": 4883,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "4XhlemLk1s",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4903,
+              "end": 4917,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "xnivT79Oax",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4924,
+              "end": 4938,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "YsjXHPnwUP",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4939,
+              "end": 4953,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "oSXSQX-JVf",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4973,
+              "end": 4985,
+              "text": "O. africanum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "sRK4Xe5Q15",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4994,
+              "end": 5006,
+              "text": "O. africanum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "6ixjfhTUgg",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5026,
+              "end": 5039,
+              "text": "O. citridorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "jdmbAbhJT3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5048,
+              "end": 5061,
+              "text": "O. citridorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "MPEV0dQSAl",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5082,
+              "end": 5096,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "6yQf-C_8Ia",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5103,
+              "end": 5117,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "5JgBArD95U",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5118,
+              "end": 5132,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "z9HMFfdM1R",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5152,
+              "end": 5171,
+              "text": "O.kilimandscharicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "hXMCAP85M3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5180,
+              "end": 5199,
+              "text": "O.kilimandscharicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "MkfqiAQMqc",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5220,
+              "end": 5234,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "h7H461QRk_",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5241,
+              "end": 5255,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "HQFIOdDlKR",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5256,
+              "end": 5270,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "d2NeeRB9CS",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5285,
+              "end": 5299,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "vK2KnMZqqP",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5360,
+              "end": 5372,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "rORb7BWtAO",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5379,
+              "end": 5391,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "cNhvRD1Gpx",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5393,
+              "end": 5405,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "HnxdHFv90m",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5467,
+              "end": 5481,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "X7N92s8bjZ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5488,
+              "end": 5502,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "NiSmPWvdTL",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5503,
+              "end": 5517,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "sB4k2O8_Pk",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5537,
+              "end": 5551,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "iody0v52yG",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5558,
+              "end": 5572,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "IWYOGm6UrI",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5607,
+              "end": 5621,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "2qiWs2d-4n",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5628,
+              "end": 5642,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "DYj8b3YaMw",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5643,
+              "end": 5657,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "ArANlCTabJ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5677,
+              "end": 5691,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "f28M92ibYf",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5700,
+              "end": 5714,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "0D5_GR-wQd",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5728,
+              "end": 5742,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "ZfSnELZo0K",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5755,
+              "end": 5769,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "zfAkWSakGA",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5770,
+              "end": 5784,
+              "text": "O. gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "82c1SRa9UI",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5846,
+              "end": 5858,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "9WcdYRoD97",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5888,
+              "end": 5902,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "IcK9iB8l2m",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5917,
+              "end": 5931,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "4Ev1CQ4gXc",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5945,
+              "end": 5958,
+              "text": "O. americanum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "zccWWULYR6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5973,
+              "end": 5986,
+              "text": "O. americanum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "994VBTo0H9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6002,
+              "end": 6016,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "Ty9KZozdqo",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6034,
+              "end": 6048,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "4snuxATUlz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6063,
+              "end": 6077,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "mhbFxa1ePE",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6095,
+              "end": 6109,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "7JZ4DXPG8O",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6124,
+              "end": 6138,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "9EhbU9mhzU",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6156,
+              "end": 6170,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "Ryza5FplH8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6185,
+              "end": 6199,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "JdNt-RtvaC",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6233,
+              "end": 6247,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "-mcCPCV6tC",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6265,
+              "end": 6279,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "mEFBV6wsET",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6294,
+              "end": 6307,
+              "text": "O. americanum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "XbnWugFf0I",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6341,
+              "end": 6355,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "m2MQTSn2ej",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6373,
+              "end": 6387,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "maxxLhiX6W",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6402,
+              "end": 6416,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "HRy3Dg3PEl",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6432,
+              "end": 6446,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "xj7S0xSstA",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6447,
+              "end": 6461,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "A5lYO8h2_v",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6476,
+              "end": 6490,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "lixW3t5Oqg",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6506,
+              "end": 6520,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "Gj5Llg7ezY",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6521,
+              "end": 6535,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "M1hORuMa-a",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6550,
+              "end": 6564,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "O7sEOX5AMW",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6598,
+              "end": 6612,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "5-3LgD_EoN",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6630,
+              "end": 6644,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "cVjnJBWRzT",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6659,
+              "end": 6673,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "FyBLH4feJ-",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6707,
+              "end": 6721,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "U713r2cC9J",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6737,
+              "end": 6751,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "npfbZawIDT",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6752,
+              "end": 6766,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "xOWuRfMi2L",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6781,
+              "end": 6795,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "-8NENUQV5m",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6811,
+              "end": 6825,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "Pr_0-gDuA5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6826,
+              "end": 6840,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "jpsB9EkMO9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7335,
+              "end": 7341,
+              "text": "Ocimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "cUXgLZkGvl",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7386,
+              "end": 7403,
+              "text": "Ocimum americanum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "MxcKCDPlUv",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7416,
+              "end": 7432,
+              "text": "Ocimum basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "yiM-KupVcK",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7445,
+              "end": 7461,
+              "text": "Ocimum basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "LpzTv3HInI",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7474,
+              "end": 7490,
+              "text": "Ocimum basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "WVttiYq6VX",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7503,
+              "end": 7520,
+              "text": "Ocimum bascilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "N9w6bpnjJ1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7523,
+              "end": 7541,
+              "text": "Ocimum gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "ARyDd7wY30",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7554,
+              "end": 7572,
+              "text": "Ocimum gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "CF45bZvAuQ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7585,
+              "end": 7603,
+              "text": "Ocimum gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "RjE7vY2u9U",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7616,
+              "end": 7634,
+              "text": "Ocimum gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "H8wuEXJo0Z",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7646,
+              "end": 7664,
+              "text": "Ocimum gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "nC_egjYuy0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7677,
+              "end": 7695,
+              "text": "Ocimum gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "03ukzEagkx",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7708,
+              "end": 7721,
+              "text": "Ocimum selloi",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "-SgrRtmbBt",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7734,
+              "end": 7752,
+              "text": "Ocimum tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "w42eVzHRZk",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7774,
+              "end": 7790,
+              "text": "Ocimum africanum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "2UpBHFV3iB",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7803,
+              "end": 7819,
+              "text": "Ocimum africanum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "iPNMKWG62y",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7832,
+              "end": 7848,
+              "text": "Ocimum africanum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "0ErY6j2_yf",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7861,
+              "end": 7878,
+              "text": "Ocimum americanum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "MIiRdBJul5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7891,
+              "end": 7907,
+              "text": "Ocimum basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "aiLidDH7en",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7920,
+              "end": 7936,
+              "text": "Ocimum basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "Y9cagQDleK",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7949,
+              "end": 7965,
+              "text": "Ocimum basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "M_DxpfHJh-",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7978,
+              "end": 7994,
+              "text": "Ocimum basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "6isyguC4AO",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8007,
+              "end": 8026,
+              "text": "Ocimum campechianum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "wUy_qBEV4y",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8039,
+              "end": 8058,
+              "text": "Ocimum filamentosum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "rCpsgvucst",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8071,
+              "end": 8089,
+              "text": "Ocimum gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "mtleJzs-IU",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8102,
+              "end": 8120,
+              "text": "Ocimum gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "duqpPWCa2a",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8133,
+              "end": 8151,
+              "text": "Ocimum gratissimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "lxidFzcCw0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8164,
+              "end": 8188,
+              "text": "Ocimum kilimandscharicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "pBYyR7Pd-W",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8201,
+              "end": 8219,
+              "text": "Ocimum tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "uGLD0Comjs",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8255,
+              "end": 8273,
+              "text": "Ocimum tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "2IMk9wYdWF",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8307,
+              "end": 8325,
+              "text": "Ocimum tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "xVC5oGncSp",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8575,
+              "end": 8591,
+              "text": "Ocimum africanum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "WuSeyiUR8N",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8969,
+              "end": 8981,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "NNeNwsKILu",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8991,
+              "end": 9004,
+              "text": "O. americanum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "sJNTe2vSGW",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 9005,
+              "end": 9013,
+              "text": "O. canum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "NU83PSP5JF",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 9014,
+              "end": 9027,
+              "text": "O. brachiatum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "n1r1n8XxfV",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10003,
+              "end": 10019,
+              "text": "Ocimum basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "CImZH2H0oL",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4747,
+              "end": 4759,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "X0UNo7LwEp",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5426,
+              "end": 5437,
+              "text": "O. carnosum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "zZq8a7kKtG",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3578,
+              "end": 3583,
+              "text": "cough",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "UItnlvNy_8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3652,
+              "end": 3666,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "bPaE26BIuE",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3640,
+              "end": 3645,
+              "text": "cough",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "SWEfRP4chS",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4611,
+              "end": 4625,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "-bP2BP1Tmj",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3192,
+              "end": 3206,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "QxMtfL750K",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5819,
+              "end": 5829,
+              "text": " O. selloi",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "Tl2Nf9S1qn",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10689,
+              "end": 10701,
+              "text": "O. africanum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "gOPZjVxFDR",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10672,
+              "end": 10684,
+              "text": "O. basilicum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "EtxV-jAHO0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10500,
+              "end": 10513,
+              "text": "O. americanum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "eAbURsZx2r",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8376,
+              "end": 8382,
+              "text": "Ocimum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "78790qqSqu",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10483,
+              "end": 10495,
+              "text": "O. africanum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "v0-P0JVUeo",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5573,
+              "end": 5587,
+              "text": "O. tenuiflorum",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "from_id": "WVAVgAYIt-",
+            "to_id": "K1_OyOXxZP",
+            "type": "relation",
+            "labels": [
+              "Default label"
+            ]
+          },
+          {
+            "from_id": "p58K48fLCy",
+            "to_id": "zZq8a7kKtG",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "UItnlvNy_8",
+            "to_id": "bPaE26BIuE",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
