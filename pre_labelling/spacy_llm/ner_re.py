@@ -4,7 +4,6 @@ import logging
 from spacy_llm.util import assemble
 import spacy_llm
 from dotenv import load_dotenv
-import shutil
 import time
 
 def load_environment_variables():
@@ -61,7 +60,7 @@ def format_document_relations(doc):
     return formatted_relations
 
 
-def process_text_file(input_folder, output_folder, file, model):
+def extract_entities(input_folder, output_folder, file, model, log_file_path):
     file_path = os.path.join(input_folder, file)
     with open(file_path, 'r', encoding='utf-8') as file_obj:
         text = file_obj.read()
@@ -84,13 +83,11 @@ def process_text_file(input_folder, output_folder, file, model):
     output_file = f"task_for_labelstudio_{chunk_name}.json"
     save_tasks_to_json([task], output_folder, output_file)
 
-    # Move the processed file to the 'selected_preprocessed_completed' directory
-    completed_folder = os.path.join(input_folder, '..', 'selected_preprocessed_completed')
-    if not os.path.exists(completed_folder):
-        os.makedirs(completed_folder)
-    completed_file_path = os.path.join(completed_folder, file)
-    shutil.move(file_path, completed_file_path)
-    time.sleep(60) # After moving a file sleep for 5 seconds
+    # Append the processed file name to the log file
+    with open(log_file_path, 'a') as log_file:
+        log_file.write(file + '\n')
+
+    time.sleep(60) # After moving a file sleep for 60 seconds
 
 def save_tasks_to_json(tasks, output_folder, output_file):
     if not os.path.exists(output_folder):
@@ -100,14 +97,14 @@ def save_tasks_to_json(tasks, output_folder, output_file):
         json.dump(tasks, f, indent=2)
     print(f'Saved tasks to "{output_path}"')
 
-def ner_re_gpt(input_folder='selected_preprocessed', output_folder='task_completed'):
+def ner_re_gpt(input_folder, output_folder, log_file_path, config_file):
     load_environment_variables()
     configure_logging()
-    nlp_model = load_spacy_model('zeroshot.cfg')
+    nlp_model = load_spacy_model(config_file)
 
     files = [f for f in os.listdir(input_folder) if f.endswith('.txt')]
     for file in files:
-        process_text_file(input_folder, output_folder, file, nlp_model)
+        extract_entities(input_folder, output_folder, file, nlp_model, log_file_path)
 
 
 if __name__ == "__main__":
