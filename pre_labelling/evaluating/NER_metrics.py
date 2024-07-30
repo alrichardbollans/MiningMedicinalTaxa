@@ -5,7 +5,7 @@ from typing import Callable
 
 import numpy as np
 
-from testing.evaluation_methods import standardise_NER_annotations, standardise_RE_annotations
+from pre_labelling.evaluating import standardise_NER_annotations, standardise_RE_annotations
 
 TAXON_ENTITY_CLASSES = ['Scientific Plant Name', 'Scientific Fungus Name']
 MEDICINAL_CLASSES = ['Medical Condition', 'Medicinal Effect']

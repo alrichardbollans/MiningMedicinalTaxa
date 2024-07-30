@@ -1,12 +1,12 @@
 import os
 
 from langchain_anthropic import ChatAnthropic
+from langchain_google_vertexai import ChatVertexAI
 from langchain_mistralai import ChatMistralAI
 from langchain_openai import ChatOpenAI
-from langchain_google_vertexai import ChatVertexAI
 
+from rag_models.loading_files import read_file_and_chunk
 from rag_models.rag_prompting import standard_medicinal_prompt
-from rag_models.loading_files import get_txt_from_file, read_file_and_chunk
 from rag_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, TaxaData
 
 
@@ -40,45 +40,47 @@ def setup_models():
 
     load_dotenv()
     out = {}
+    # A selection of models that support .with_structured_output https://python.langchain.com/v0.2/docs/integrations/chat/
+    # Try to use the best from each company
+    # If any work particularly well then also test cheaper versions e.g. gpt-mini, claude haiku
 
-    # Max tokens 16k
-    # Input: $0.5/1M tokens
-    # Output $1.5/1M tokens
-    # A model to play with on one annotated paper
-    hparam_tuning_model = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
-    out['gpt3.5'] = [hparam_tuning_model, get_input_size_limit(16)]
 
     # Max tokens 128k
     # Input: $5.00 /1M tokens
     # Output $15.00 /1M tokens
-    model2 = ChatOpenAI(model="gpt-4o", temperature=0)
-    out['gpt4o'] = [model2, get_input_size_limit(128)]
+    model1 = ChatOpenAI(model="gpt-4o", temperature=0)
+    out['gpt4o'] = [model1, get_input_size_limit(128)]
 
-    # TODO: fix auth for this
+    # Auth seems to work now
+    # installed gcloud following https://cloud.google.com/sdk/docs/install#deb
+    # then need to follow https://cloud.google.com/docs/authentication/provide-credentials-adc#local-dev
 
     # Max tokens 128k
     # Input: $0.00125 / 1k characters
     # Output $0.0025 / 1k characters
-    import vertexai
-    PROJECT_ID = "[medplantmining]"  # @param {type:"string"}
-    REGION = "europe-west2"  # @param {type:"string"}
-    # # Initialize Vertex AI SDK
-    vertexai.init(project=PROJECT_ID, location=REGION)
-    model3 = ChatVertexAI(model="gemini-pro", temperature=0)
-    out['gemini'] = [model3, get_input_size_limit(128)]
-
+    # import vertexai
+    # PROJECT_ID = "[medplantmining]"  # @param {type:"string"}
+    # REGION = "europe-west2"  # @param {type:"string"}
+    # # # Initialize Vertex AI SDK
+    # vertexai.init(project=PROJECT_ID, location=REGION)
+    model2 = ChatVertexAI(model="gemini-1.5-pro-001", temperature=0)
+    out['gemini'] = [model2, get_input_size_limit(128)]
 
     # Max tokens 200k
     # Input: $3 / MTok
     # Output $15 / MTok
-    model4 = ChatAnthropic(model="claude-3-5-sonnet-20240620", temperature=0)
-    out['gpt4o'] = [model4, get_input_size_limit(200)]
+    model3 = ChatAnthropic(model="claude-3-5-sonnet-20240620", temperature=0)
+    out['gpt4o'] = [model3, get_input_size_limit(200)]
 
     # Max tokens 32k
     # Input: $4/1M tokens
     # Output $8.1/1M tokens
-    model5 = ChatMistralAI(model="mistral-large-latest", temperature=0)
-    out['mistral'] = [model5, get_input_size_limit(32)]
+    model4 = ChatMistralAI(model="mistral-large-latest", temperature=0)
+    out['mistral'] = [model4, get_input_size_limit(32)]
+
+    # LLama API is still experimental in langchain, may become available through groq
+
+    # model5 = ChatGroq(model=)
     return out
 
 

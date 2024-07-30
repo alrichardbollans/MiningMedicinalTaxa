@@ -2,7 +2,8 @@ import unittest
 
 import numpy as np
 
-from testing.evaluation_methods import NER_metrics
+from pre_labelling.evaluating import NER_metrics
+
 
 class TestPreciseEntityMatch(unittest.TestCase):
     def setUp(self):

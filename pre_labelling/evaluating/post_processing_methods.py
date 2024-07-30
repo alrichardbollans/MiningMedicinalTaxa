@@ -60,7 +60,11 @@ def clean_strings(given_str: str):
     :param given_str: The string to be cleaned.
     :return: The cleaned string.
     """
-    return lowercase(leading_trailing_punctuation(leading_trailing_whitespace(given_str)))
+    low = lowercase(given_str)
+    while (leading_trailing_whitespace(low) != low) or (leading_trailing_punctuation(low) != low):
+        low = leading_trailing_whitespace(low)
+        low = leading_trailing_punctuation(low)
+    return low
 
 
 def standardise_NER_annotations(annotations: list):

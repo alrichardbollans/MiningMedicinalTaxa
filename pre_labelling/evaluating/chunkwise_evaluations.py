@@ -1,6 +1,7 @@
 from typing import List, Callable
 
-from testing.evaluation_methods import read_annotation_json, get_metrics_from_tp_fp_fn, is_annotation_in_annotation_list
+from pre_labelling.evaluating import is_annotation_in_annotation_list, get_metrics_from_tp_fp_fn, read_annotation_json
+
 
 def get_outputs_from_annotations(annotations: List[dict]):
     """

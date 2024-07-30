@@ -4,11 +4,11 @@ from typing import Optional, List
 
 from langchain_core.pydantic_v1 import BaseModel, Field
 
+# TODO: reorganise and check usage of these methods. Should probably be in 'annotated_data' folder
+from pre_labelling.evaluating import clean_strings, check_human_annotations, TAXON_ENTITY_CLASSES, read_annotation_json
+
 sys.path.append('../testing/evaluation_methods/')
 from rag_models.rag_prompting import medicinal_effect_def, medical_condition_def
-
-from testing.evaluation_methods import read_annotation_json, TAXON_ENTITY_CLASSES, clean_strings, \
-    check_human_annotations
 
 
 class Taxon(BaseModel):

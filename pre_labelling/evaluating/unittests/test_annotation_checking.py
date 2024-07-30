@@ -1,8 +1,7 @@
 import unittest
 import sys
 
-sys.path.append('..')
-from testing.evaluation_methods import check_human_annotations, TAXON_ENTITY_CLASSES, MEDICINAL_CLASSES, MEDICINAL_RELATIONS
+from pre_labelling.evaluating import TAXON_ENTITY_CLASSES, MEDICINAL_CLASSES, MEDICINAL_RELATIONS, check_human_annotations
 
 
 class TestCheckHumanAnnotations(unittest.TestCase):

@@ -2,9 +2,11 @@ import json
 import pandas as pd
 from pathlib import Path
 from typing import List, Callable
-from testing.evaluation_methods import read_annotation_json, NER_evaluation, precise_NER_annotation_match, approximate_NER_annotation_match
-from testing.evaluation_methods import RE_evaluation, precise_RE_annotation_match, approximate_RE_annotation_match
-from testing.evaluation_methods import get_metrics_from_tp_fp_fn, get_outputs_from_annotations, precise_output_annotation_match, approximate_output_annotation_match, chunkwise_evaluation
+
+from pre_labelling.evaluating import read_annotation_json, precise_NER_annotation_match, precise_RE_annotation_match, \
+    approximate_NER_annotation_match, approximate_RE_annotation_match, NER_evaluation, RE_evaluation, precise_output_annotation_match, \
+    approximate_output_annotation_match, chunkwise_evaluation
+
 
 def load_json_data(filename):
     with open(filename, 'r') as file:

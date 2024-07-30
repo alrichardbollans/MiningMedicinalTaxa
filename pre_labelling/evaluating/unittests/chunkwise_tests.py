@@ -1,6 +1,6 @@
 import unittest
 
-from testing.evaluation_methods import chunkwise_evaluations
+from pre_labelling.evaluating import chunkwise_evaluations
 
 
 class TestPreciseOutputAnnotationMatch(unittest.TestCase):

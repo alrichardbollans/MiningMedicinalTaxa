@@ -1,5 +1,6 @@
 import unittest
-from testing.evaluation_methods import post_processing_methods
+
+from pre_labelling.evaluating import post_processing_methods
 
 
 class TestPostWhitespace(unittest.TestCase):
@@ -56,6 +57,8 @@ class TestPostProcessingMethods(unittest.TestCase):
         self.assertEqual(post_processing_methods.clean_strings("Hello World!! "), "hello world")
         self.assertEqual(post_processing_methods.clean_strings(" PYTHON "), "python")
         self.assertEqual(post_processing_methods.clean_strings("!AI_Assistant!?"), "ai_assistant")
+        self.assertEqual(post_processing_methods.clean_strings("!AI_Assistant!? ."), "ai_assistant")
+        self.assertEqual(post_processing_methods.clean_strings("!AI_Assistant!? "), "ai_assistant")
 
 
 if __name__ == "__main__":

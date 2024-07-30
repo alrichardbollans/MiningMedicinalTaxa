@@ -1,7 +1,9 @@
 from typing import Callable
 
-from NER_metrics import is_annotation_in_annotation_list, read_annotation_json, precise_entity_match, approximate_entity_match, \
-    get_metrics_from_tp_fp_fn
+from pre_labelling.evaluating import precise_entity_match, approximate_entity_match, is_annotation_in_annotation_list, get_metrics_from_tp_fp_fn, \
+    read_annotation_json
+
+
 # had to remove from testing.evaluation_methods to make it work
 
 def precise_RE_annotation_match(a1: dict, a2: dict):
