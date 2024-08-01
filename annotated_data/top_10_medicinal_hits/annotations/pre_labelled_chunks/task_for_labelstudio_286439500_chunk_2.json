@@ -1,0 +1,267 @@
+[
+  {
+    "data": {
+      "text": "Moreover, pre-treatment of HeLa cells with the inhibitor of glutathione-S-transferasedecreased their viability indicating the detoxifying role of GSH in ragusinin treated cells.Cell death, derived by an accumulation of cells in a G2 phase of the cell cylce, wasshown to be independent of poly (ADP-ribose) polymerase and caspase-3 cleavagepointing toward an alternative cell death pathway.Keywords: Centaurea, sesquiterpene lactones, DNA, cell viability, toxicity, glutathioneFrontiers in Pharmacology | www.frontiersin.org August 2018 | Volume 9 | Article 9729fphar-09-00972 August 21, 2018 Time: 8:18 # 2Grienke et al. Centaurea ragusina L. Isolates' BioactivityINTRODUCTIONThe genus Centaurea (Asteraceae) represents an attractivesource for bioactive secondary metabolites such as sesquiterpenelactones (STLs), flavonoids, lignans, and their glycosides(Khammar and Djeddi, 2012). A number of therapeutic effectsagainst microbial infections, gastrointestinal disorders, andurogenital ailments have been attributed to Centaurea species inCroatian folk medicine and worldwide (Pahlow, 1989; Ayad et al.,2012; Politeo et al., 2012).Our recent study on the phytochemical and bioactive profileof non-volatile constituents of Centaurea ragusina L., an endemicCroatian halophytic species (Radic' et al., 2013), indicated thestrong potential for obtaining bioactive compounds from the leafethanol extract (CRE) (VujcVic' et al., 2017).In continuation of this previous study, the aim was toinvestigate the biological activity of all isolated compounds,namely the interaction with DNA, the antibacterial activityagainst Gram-positive (Staphylococcus aureus) and Gram-negative bacteria (Acinetobacter baumannii) (Lee et al., 2007;C'urkovic'-Perica et al., 2015) and anticancer activity against apanel of murine and human cancer cells.Due to its high biological significance, DNA is the primarytarget for many drugs with antibacterial and anticancer activity.Small organic molecules can bind to DNA by means of anon-specific, electrostatic binding along the DNA backbone, aspecific groove binding and intercalation or can form crosslinkswith DNA strands and induce cleavage of the DNA backbone(Demeunynck et al., 2002; Sangeetha Gowda et al., 2014).STLs are known to bind covalently to sulfhydryl groups ofenzymes and other functional proteins by Michael type additionof their electrophilic a, b-unsaturated carbonyl structures. It isbelieved that most of STL biological effects are due to theirreaction with biological nucleophiles such as GSH (Kupchanet al., 1971; Picman, 1986; Schmidt, 1999). Among many roles ofGSH in the cell, the most important one seems to be the removalof reactive species and elimination of xenobiotic compounds. Thelast one can be accomplished through conjugation with GSHfollowed by secretion of adducts from the cell (Boyland andChasseaud, 1969).Here, the aim was to study the activity of the most bioactivecompound in more detail, which included the interaction withDNA as the potential primary target and the interaction withGSH and its impact on cytotoxicity, cell cycle and cell death.MATERIALS AND METHODSAll safety precautions were taken when working with chemicalsreagents used in the experiments.General Experimental Procedures1D and 2D NMR experiments were performed on an Avance500 MHz instrument equipped with cryoprobe (Bruker,Billerica, MA, United States). The samples were measured inMeOD and DMSO-d6, respectively (calibrated to the residualnon-deuterated solvent signals). HR-ESI-MS analyses wereperformed on a maXis HD ESI-Qq-TOF mass spectrometer(Bruker Daltonics, Bremen, Germany). The ESI ion source wasoperated as follows: capillary voltage: 2.0 to 4.5 kV (individuallyoptimized), nebulizer: 0.4 bar (N2), dry gas flow: 4 L min-1 (N2)and dry temperature: 200*C, scanning range, m/z 50-1550. Foreach isolated compound, fragment ion spectra of the [M+H]+,the [M+Na]+ and either the [M-H] - or the [M+HCOO]- ionwere recorded. The sum formulas of the ions were determinedusing Bruker Compass DataAnalysis 4.2 based on the massaccuracy (1m/z <= 2 ppm for MS1 and<= 3 ppm for MS/MS) andisotopic pattern matching (SmartFormula algorithm).Column chromatography (CC) was performed usingMerck silica gel 60 (40-63 um) and Pharmacia SephadexLH-20 (20-100 um). The fractions obtained from allchromatographic steps were analyzed by TLC (mobile phase:CH2Cl2-EtOAc (85:15), n-hexane-EtOAc-CH3COOH (6:3:1),or n-hexane-EtOAc (8:2); stationary phase: Merck silica gel60 PF254, detected with staining reagents vanillin/H2SO4 atvis, UV254, and UV366). HPLC was performed on a ShimadzuUFLC-XR instrument (Kyoto, Japan) with a photodiode arraydetector (DAD). LC-parameters: stationary phase: PhenomenexGemini-NX (C18), 150 mm x 3.00 mm, 5 um; temperature:35*C; mobile phase: water with 0.1% formic acid (A); acetonitrile(B); flow rate 0.4 mL/min; UV detection wavelength: 275 nm;injection volume: 10 uL; gradient: 80/20 A/B in 5 min to 70/30A/B, then within 20 min to 50/50 A/B and within another 2 minto 2/98, followed by a 5 min column wash (2A/98B) and are-equilibration period of 10 min. All chemicals and solventsused were of analytical grade.Plant MaterialCentaurea ragusina L. plants (in vegetative phase) were collectedin September, 2016, from two wild habitats - Katalinic' brig(43*30'03''N, 16*26'40''E, 363 m) and Sustipan (43*30'04''N,16*25'35''E, 754 m), Split, Croatia and identified by M. RuscVic',Department of Biology, University of Split, Croatia. A voucherspecimen (FSS-CR112016) is deposited at the above-mentioneddepartment.For extract preparation and isolation of pure compounds,lyophilized leaf materials from both locations were combinedafter confirmation of their comparable metabolite profile (VujcVic'et al., 2017).Extraction and IsolationThe dried ground leaves of C. ragusina L. (804.9 g) weremacerated with 7 L EtOH 96% (at 22*C for 7 days). For anexhaustive extraction the procedure was repeated three times.The dried extract (CRE, 108.9 g) was roughly fractionated bysilica gel CC (Merck silica gel 60 PF254, 510 g; 5.5 cm x 56 cm)using a step gradient of CH2Cl2-EtOAc-MeOH (CH2Cl2;CH2Cl2-EtOAc 98:2; 95:5; 90:10; 85:15; 80:20; 75:25; 65:35; 60:40;55:45; 45:55; 35:65; 25:75; EtOAc; EtOAc-MeOH 80:20; 60:40;40:60; 20:80; MeOH) to give twelve fractions (A1-12).Fraction A6 (2.9 g) was further separated using silica gel CC(Merck silica gel 60 PF254, 213 g; 3 cmx 56 cm) applying again agradient system of CH2Cl2-EtOAc-MeOH to yield 25 fractions(B1-25). Fraction B11 (91.6 mg) was purified via SephadexFrontiers in Pharmacology | www.frontiersin.org August 2018 | Volume 9 | Article 97210fphar-09-00972 August 21, 2018 Time: 8:18 # 3Grienke et al. Centaurea ragusina L. Isolates' BioactivityLH-20 CC (mobile phase: MeOH) yielding eight fractions (C1-8).Fraction C7 was obtained as 17.5 mg of compound 2 (oroxylin A).Also Fraction B12 (76.4 mg) was purified via Sephadex LH-20 CC(mobile phase: MeOH) yielding 14 fractions (D1-14). FractionD13 was obtained as 11.8 mg of compound 1 (chrysin).Fraction B19 (939.8 mg) was subjected to silica gel CC(Merck silica gel 60 PF254, 310 g; 3.3 cmx 63 cm) eluting withthe isocratic solvent system of n-hexane-EtOAc-CH3COOH(6:3:1), yielding 14 fractions (E1-14). Fraction E9 (26.9 mg) wasfurther separated by means of a Sephadex LH-20 column (mobilephase: MeOH) to give three fractions (F1-3). Fraction F2 wasobtained as 21.8 mg of compound 5 [(3aR,4S,6aR,8S,9aR,9bR)-[dodecahydro-8-dihydroxy-3,6,9-tris(methylene)-2oxo-2(3H)-azuleno[4,5-b]furanyl]-3-methyl-butanoate].Fraction A8 (834.3 mg) was separated via a SephadexLH-20 column (mobile phase: MeOH) giving seven fractions(G1-7). Fraction G7 was obtained as 80.3 mg of compound3 (hispidulin). Fraction G4 (339.4 mg) was submitted topassage over a Sephadex LH-20 column (mobile phase: CH2Cl2-acetone, 85:15) to yield twelve fractions (H1-12). Fraction H10(251.4 mg) was further separated using silica gel CC (Mercksilica gel 60 PF254, 150 g; 1.5 cm x 56 cm) applying againa gradient system of n-hexane-EtOAc-CH3COOH (6:3:1 to4:5:1) to yield ten fractions (I1-10). Fraction I9 (185.8 mg)was subjected to a Sephadex LH-20 column (mobile phase:MeOH) resulting in three fractions (J1-3). Fraction J1 (17.8 mg)was purified by silica gel CC (Merck silica gel 60 PF254,50 g; 1.5 cm x 35 cm) applying again a gradient system ofCH2Cl2-EtOAc-MeOH to yield two fractions (K1-2). FractionK1 was obtained as 3.4 mg of compound 4 (deacylcynaropicrin).Fraction J2 (153.6 mg) was purified by preparative TLC (Mercksilica gel 60 PF254, 20 cm x 20 cm) and a solvent systemof n-hexane-EtOAc-CH3COOH (5:4:1) to yield three fractions(L1-3). Fraction L2 (115.7 mg) was separated via a SephadexLH-20 column (mobile phase: MeOH) giving two fractions(M1-2). Fraction M2 was obtained as 12.7 mg of compound 6(hemistepsin A).The physical and spectroscopic data of compounds 1 to 6agreed with those published previously for chrysin, oroxylinA, hispidulin, deacylcynaropicrin, [3aR,4S,6aR,8S,9aR,9bR)-[dodecahydro-8-dihydroxy-3,6,9-tris(methylene)-2oxo-2(3H)-azuleno[4,5-b]furanyl]-3-methyl-butanoate], and hemistepsin A(Miyase et al., 1985; Zdero et al., 1989; Jang et al., 1999; Nagaoet al., 2002; Marques et al., 2010; Yang et al., 2013). Their puritywas checked using TLC and LC-MS and revealed to be > 98% inall cases.Spectroscopic Experiments for theDetermination of ctDNA InteractionsThe electronic absorption spectra (UV/Vis) were recorded on aVarian Cary 100 Bio spectrophotometer (Agilent, Santa Clara,CA, United States) and circular dichroism (CD) spectra on aJASCO J815 spectrophotometer (ABL&E Handels GmbH, Wien,Austria) at 25*C using appropriate 1 cm path quartz cuvettes(Eriksson and Norden, 2001). The calf thymus DNA (ctDNA)was purchased from Sigma-Aldrich. Isothermal titrationcalorimetry (ITC) experiments were performed on a MicroCalVP-ITC microcalorimeter (MicroCal, Inc., Northampton, MA,United States) (Chaires, 2006). Origin 7.0 software, suppliedby the manufacturer was used for data analysis. All additionaldata of these experiments are provided in the SupplementaryMaterial.Antibacterial AssayAntibacterial activities of C. ragusina L. CRE extract, fractionsand isolated compounds against Gram-negative A. baumanniiDurn (C'urkovic'-Perica et al., 2015) and Gram-positive S. aureusATCC 25923 were tested using modified Clinical and LaboratoryStandards Institute (CLSI), broth microdilution (BD) using2,3,5-triphenyltetrazolium chloride (TTC) (Lee et al., 2007). TheTTC-BD were performed according to the guidelines of theCLSI using 96-well microplates (Clinical Laboratory StandardsInstitute [CLSI], 2007). The bacteria were grown on nutrientagar (Biolife, Milan, Italy) for 16 h at 36 +- 0.1*C to obtainthe cultures in log phase of growth. The bacterial biomass wasthen suspended in sterile NaCl (0.85% v/v) to give turbidityequivalent to the McFarland 0.5 standard. Bacterial suspension(0.1 mL) was transferred to a tube containing 9.1 mL nutrientbroth (Biolife) and 0.8 mL 0.05% TTC to give an inoculumdensity of 1 x 106 Colony Forming Units (CFU)/mL. Minimuminhibitory concentration (MIC) and minimum bactericidalconcentration (MBC) values were determined in triplicates. Thefinal concentrations for MIC and MBC determination of sampleswere 1.9-4000 ug/mL. Other data on antibacterial experimentsare available in the Supplementary Material.Cytotoxicity Assays and Cell DeathAnalysisCrystal Violet (CV) AssayMurine melanoma (B16F10) cell lines, human colon carcinoma(Caco-2) and human breast carcinoma (MCF-7) cell lines werepurchased from American Type Culture Collection (ATCC,Manassas, VA, United States), murine fibrosarcoma (FsaR) andmurine squamous cell carcinoma (SCCVII) cell lines wereobtained from BC Cancer Research Centre (Vancouver, Canada).Cells were grown in a humidified atmosphere of 5% CO2,at 37 *C in Roswell Park Memorial Institute (RPMI) 1640medium supplemented with 10% fetal bovine serum (FBS)(Sigma-Aldrich, St. Louis, MO, United States). As normal cellline, the V79 fibroblasts derived from hamster's lung tissue,were used. CV protocol (Ivankovic' et al., 2015) is described inSupplementary Material. [3-(4,5-Dimethylthiazol-2-yl)-2,5-DiphenyltetrazoliumBromide] Tetrazolium Reduction (MTT) AssayEthacrynic acid (ETA; Sigma-Aldrich) was dissolved inDMSO (Sigma-Aldrich) and kept at -20*C. Buthioninesulfoximine (BSO; Sigma-Aldrich) and N-acetylcysteine (NAC;Sigma-Aldrich) were dissolved in water, 3-(4,5-dimethyl-2-thiazolyl)-2,5-diphenyl-2H-tetrazolium bromide was purchasedby Sigma-Aldrich and dissolved in phosphate-buffered salineand kept by 4*C. Human cervical carcinoma HeLa cell linewas obtained from cell culture bank (GIBCO BRL-Invitrogen,Waltham, MA, United States). The cells were grown as aFrontiers in Pharmacology | www.frontiersin.org August 2018 | Volume 9 | Article 97211fphar-09-00972 August 21, 2018 Time: 8:18 # 4Grienke et al."
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "id": "entity_0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 370,
+              "end": 380,
+              "text": "cell death",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 455,
+              "end": 463,
+              "text": "toxicity",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 621,
+              "end": 642,
+              "text": "Centaurea ragusina L.",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1222,
+              "end": 1243,
+              "text": "Centaurea ragusina L.",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1582,
+              "end": 1595,
+              "text": "antibacterial",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1757,
+              "end": 1767,
+              "text": "anticancer",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1911,
+              "end": 1924,
+              "text": "antibacterial",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_7",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1929,
+              "end": 1939,
+              "text": "anticancer",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3069,
+              "end": 3081,
+              "text": "cytotoxicity",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 3098,
+              "end": 3108,
+              "text": "cell death",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_10",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5191,
+              "end": 5202,
+              "text": "ragusina L.",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_11",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6697,
+              "end": 6718,
+              "text": "Centaurea ragusina L.",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_12",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11312,
+              "end": 11325,
+              "text": "antibacterial",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "from_id": "entity_3",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_3",
+            "to_id": "entity_1",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_3",
+            "to_id": "entity_4",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_3",
+            "to_id": "entity_5",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_3",
+            "to_id": "entity_6",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_3",
+            "to_id": "entity_7",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_3",
+            "to_id": "entity_8",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_3",
+            "to_id": "entity_9",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_10",
+            "to_id": "entity_11",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

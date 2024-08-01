@@ -1,0 +1,663 @@
+[
+  {
+    "data": {
+      "text": "The protein concentration was measured by Bradfordreagent (BIORAD), according to manufacturer's instruction.Equal amounts of whole cell lysates were resolved by 12%SDS-PAGE, and transferred to PVDF membrane. This PVDFmembrane was incubated with primary antibody (Anti-caspase-3antibody (#9661, Cell signaling), Anti-BCL-2 antibody (SC-7382,Santa Cruz Technology), Anti-actin antibody (A02066, SigmaAldrich) used at 1:1000 dilution) overnight at 4*C. Afterwashing, the PVDF membrane was further incubated withHRP-conjugated secondary antibody (used at 1:10000 dilution)for 1 h at room temperature. The washed membrane was furtherincubated with chemiluminescent substrate and subsequently,the blot was scanned by C-DIGIT Blot Scanner (Li-COR-Model:3600).Colony Formation AssayCells were seeded at a density of 500 cells/well in a 12 well tissueculture plate in DMEM with 10% FBS at 37*C incubator with5% CO2 for 24 h. Cells were then treated with PEE and PAEextracts (25 ug/ml), and incubated under same conditions for5 days. Next, colonies were fixed with methanol and were stainedwith crystal violet solution (Hirsch et al., 2009). Photographsof stained plate were taken by a camera. Photographs ofcolonies were also taken by a bright field inverted microscope(Carl-Zeiss).Soft Agar Sphere Formation AssayFor performing soft agar assay (Sebolt-Leopold et al., 1999),MDA-MB-231 cells (10,000 cells/plate) were mixed with 2XDMEM containing 0.6% (w/v) agar and layered with 2X DMEMcontaining 1.2% base agar medium in 35 mm culture plates.25 ug/ml of PEE and PAE was added in 300 ul of DMEM to thetop agar and cells were allowed to grow for 8 days. The top 300 ulmedium was replaced with fresh medium with or without testfactors at intervals of every 3 days. The morphology and size ofthe spheres were visualized using bright field inverted microscope(Carl-Zeiss) and photographed. Subsequently, spheres weremanually counted under the microscope.Frontiers in Pharmacology | www.frontiersin.org September 2017 | Volume 8 | Article 593299fphar-08-00593 September 1, 2017 Time: 16:33 # 4Chowdhury et al. Colocynth Extracts: EMT and StemnessFIGURE 1 | Effect of fruit pulp ethanol extract of colocynth on cell viability and cytotoxicity of breast and cervical cancer cell lines. Cell viability was measured by MTTassay after 24 h of treatment of breast cancer MDA-MB-231 (A) and MCF-7 (B), and cervical SiHa (C) cell lines with pulp ethanol extract (PEE) with differentconcentrations (25-250 ug/ml). Values represent mean +- SE of triplicate measurements, *p < 0.05, **p < 0.01, and ***p < 0.001 vs. control. (D-F) Morphologicvisualization (cytotoxicity) was recorded after 24 hr of treatment of breast cancer MDA-MB-231 (D) and MCF-7 (E), and cervical SiHa (F) cell lines with PEE(100 ug/ml). Photographs were taken at 10X magnification.GC-MS/MS AnalysisSolvent Extraction of Citrullus colocynthis fruit pulp was done byethanol and acetone. Dried extracts were dissolved in methanolfollowed by GC-MS/MS analysis using Thermo GC 1300 and\"TSQ 8000\" Triple quadrupole GC-MS/MS SYSTEM with autosampler Al 1310. The Gas Chromatography 1300 was used witha fused GC column TG-5MS AMINE. The column length was of30 m with an internal diameter coated film of 0.25 um, with theflow rate of 10 ml/min and the condition kept were as follows:PTV Temp. Program: 70*C, hold 2.00 min, 10*C/min to 270*C,hold 8 min. Carrier gas helium flow rate was 1 ml/min and splitratio of 1:50. GC was equipped with an auto sampler AI 1300and sample volume loaded was 1 ul. Eluates were automaticallypassed into the mass spectrometer. Mass Spectrum analysis wasconducted using TSQ-8000 with a transfer line temperatureof 280*C and ion source temperature of 230*C in EI mode.Mass scan time was 4 min with feature of full Scan MS. Themass spectrum was also equipped with a computer fed NIST massSpectra data library.Component IdentificationChemical constituents of the extracts were identified by matchingthe peaks with Computer NIST MS libraries and confirmed bycomparing mass spectra of the peaks and those from literature.List of 50 compounds isolated from the extracts are listed inSupplementary Tables S2, S3. Scifinder was used to analyzethe compounds and thus interpret the literature available forthem.Statistical AnalysisStatistical analysis was done by GraphPad Prism (Ghosh-Choudhury et al., 2010; Mandal et al., 2011a,b, 2016b). A p-valueof < 0.05 was considered to be statistically significant. All valueswere represented as mean +- standard error mean of threemeasurements.RESULTSEffect of Colocynth Fruit Pulp Extractson Viability of Breast and CervicalCancer CellsTo test the anticancer potential of colocynth fruit pulp extracts(prepared separately by solvent ethanol and acetone), cell viabilitywas measured by MTT assay. For this, different cancer cells,including breast cancer cell lines, MCF-7 and MDA-MB-231,and cervical cancer cell line, SiHa, were separately treated withincreasing concentrations (range 25-250 ug/ml) of PEE andPAE for 24 h (Figures 1A-C, 2A-C). MTT assay result showednoteworthy reduction in the number of viable cells in a dosedependent manner for both PEE and PAE treatment whencompared to their respective solvent controls. To determine theeffectiveness of the pulp extracts in these cancer cells, LC50 values(using MTT data) were also calculated. In case of ethanol extract,LC50 (ug /ml) values were 142+- 16, 105+- 8.3 and 157+- 4.3 forMDA-MB-231, MCF-7 and SiHa cell lines respectively (Table 1).For acetone extract, these values were 140 +- 0.8, 94 +- 6.4and 121 +- 4.6 respectively. These findings indicated relativelyhigher efficacy of PAE in cancer cell lines compared to PEE.Moreover, MCF-7 cells showed higher sensitivity to both PAEand PEE as compared to MDA-MB-231 cells. LC50 values of boththe extracts in PBMC and J774A cell line were >300 ug /ml(Table 1). Furthermore, microscopic visualization indicated acytotoxic effect of the extracts upon these cancer cell lines(Figures 1D-F, 2D-F). All these findings suggested that thefruit pulp extracts induced reduced viability of cells that ispresumably caused by inhibiting cell proliferation and inducingcytotoxicity.To examine the influence of these pulp extracts on cellapoptosis, RT-PCR analysis was performed to compare thetranscript levels of anti-apoptotic BCL2 and BCLXL andapoptotic BAX genes, using total RNA of MDA-MB-231Frontiers in Pharmacology | www.frontiersin.org September 2017 | Volume 8 | Article 593300fphar-08-00593 September 1, 2017 Time: 16:33 # 5Chowdhury et al. Colocynth Extracts: EMT and StemnessTABLE 1 | Cytotoxic effect [LC50 (ug/ml)] of Citrullus colocynthis pulp extracts against two breast cancer (MDA-MB-231 and MCF-7), a cervical cancer (SiHa) cell lines, ahuman mononuclear cell PBMC and a macrophage cell J774A.LC50 (ug/ml) +- SEMCancer cell lines Normal cell linesSolvents (extraction) MDA-MB-231 MCF-7 SiHa PBMC J774AColocynth fruit pulp Ethanol 142 +- 16 105 +- 8.3 157 +- 4.3 >300 >300Acetone 140 +- 0.8 94 +- 6.4 121 +- 4.6 >300 >300Values represent mean +- SEM of three independent experiments.FIGURE 2 | Effect of fruit pulp acetone extract of colocynth on cell viability and cytotoxicity of breast and cervical cancer cell lines. MTT assay was performed tomeasure cell viability by after 24 h of treatment of breast cancer MDA-MB-231 (A) and MCF-7 (B), and cervical SiHa (C) cell lines with pulp acetone extract (PAE)with different concentrations (25-250 ug/ml). Values represent mean +- SE of triplicate measurements, **p < 0.01, ***p < 0.001, and ****p < 0.0001, vs. control. (D-F) Morphologic visualization (cytotoxicity) was recorded after 24 h of treatment of breast cancer MDA-MB-231 (D) and MCF-7 (E), and cervical SiHa (F) cell lineswith PAE (100 ug/ml). Photographs were taken at 10X magnification.cells with or without treatment with ethanol and acetoneextracts (50 ug/ml). Both PEE and PAE considerably impededBCL2 and BCLXL expression with simultaneous upsurge inBAX expression (Figures 3A-D and Supplementary FiguresS1A-C,E-G). Moreover, expression of apoptotic caspase 3gene was augmented upon treatment with both PAE andPEE (Figures 3E,F and Supplementary Figures S1D,H).Furthermore, western blot results demonstrated increasedlevel of cleaved caspase 3 (Figures 3G,H) with a concomitantdecrease in the protein level of anti-apoptotic gene BCL2(Figures 3I,J) for both ethanol and acetone extract treated cellscompared to control. These observations led us to proposean apoptotic activity of fruit pulp extracts in breast cancercells.Inhibitory Effect of Colocynth PulpExtracts on Cancer Cell MigrationA common problem faced by a large percentage of cancer patientsis development of metastasis if cancers are not detected inearly and/or not treated with a suitable therapy. Migration ofcancer cells is a critical step in the metastatic cascade (Chafferand Weinberg, 2011). Thus, we investigated the effect of pulpethanol and acetone extracts on the migratory property ofcancer cells by performing scratch assay. Scratches were madeon cell monolayer by a small pipet tip, and subsequently, cellswere incubated with or without pulp extracts. Microscopicphotos indicated migration of cells to close the induced scratchafter 24 h in control MDA-MB-231, MCF-7 and SiHa cells(Figures 4A-C, 5A-C). Cells treated with both ethanol andacetone extracts (25 ug/ml) showed substantial prevention ofcell migration as evident from the unfilled gap areas betweenthe two ends of the scratches that were larger in cases ofpulp extracts as compared to control. The data displayed inFigures 4D-F, 5D-F denoted a significant inhibition of cellmigration in response to treatment with both ethanol and acetoneextracts.Effect of Colocynth Pulp Extracts onEMTTransition from epithelial to mesenchymal phenotype is a criticalstep for metastasis (Chaffer and Weinberg, 2011). To examine theeffect of fruit pulp extracts on prevention of EMT of metastaticMDA-MB-231 cells, we analyzed mRNA levels of several EMTmarkers by RT-PCR. Interestingly, we observed a decline inexpression of mesenchymal markers, Vimentin and N-cadherin,with a concurrent increase in the expression of epithelial markerFrontiers in Pharmacology | www.frontiersin.org September 2017 | Volume 8 | Article 593301fphar-08-00593 September 1, 2017 Time: 16:33 # 6Chowdhury et al. Colocynth Extracts: EMT and StemnessFIGURE 3 | Effect of fruit pulp extracts on anti-apoptotic and apoptotic genes in MDA-MB-231 cells. (A) Cells were separately treated with pulp ethanol extract(PEE) (A,C,E,G) and pulp acetone extract (PAE) (B,D,F,H) for 24 h, and subsequently expression of anti-apoptotic genes (A,B) BCL2 and BCLXL, and pro-apoptoticgenes BAX (C,D) and Caspase 3 (E,F) were measured by RT-PCR analysis, using total RNA isolated from cells with or without PEE and PAE treatment, and genespecific primers. Here, GAPDH was used as an internal loading control. Densitometric analysis data are given in Supplementary Figure S1. (G,H) Level of cleavedcaspase 3 and (I,J) BCL-2 was measured by western blotting using equal amount of cellular protein isolated from cells with or without treatment with PEE or PAE.B-actin serves as an internal loading control.keratin-19 in treated samples (Figures 6A,B and SupplementaryFigures S2A-C,F-H). Moreover, both PEE and PAE treatmentstrongly inhibited expression of the mesenchymal phenotypeinducing transcription factors, Zeb1 and Zeb2 (Figures 6A,Band Supplementary Figures S2D,E,I,J). These observations clearlyindicate a restraining impact of these pulp extracts on EMT ofbreast cancer cells.Colocynth Pulp Extracts InhibitedStemness Property of Breast CancerCellsAccumulating evidences suggest that cancers develop fromcancer initiating cells or cancer stem cells (CSCs) (Reya et al.,2001; Singh and Settleman, 2010). Although CSCs comprise ofa small percentage of the tumor population, their resistanceto contemporary chemo- and radiation- therapy is a leadingcause for tumor recurrence and metastasis (Li et al., 2007;Singh and Settleman, 2010). Thus, we investigated the effect ofcolocynth pulp extracts on the stemness property of metastaticMDA-MB-231 cells by colony formation assay. In agreementwith previous observations, the number of colony formed wasmarkedly reduced when cells were treated with pulp extracts(25 ug/ml) as compared to control, indicating an inhibitoryrole of both PEE and PAE on cancer stemness (Figures 7A-D).To further support these results, we carried out soft agarsphere formation assay. Microscopic visualization documentedformation of a great number of spheres with large size after8 days of cell culture in the control plates. The numberas well as the size of such spheres was, however, greatlydiminished when cells were incubated with both PAE and PEE(25 ug/ml) as compared to control (Figures 8A-D). Theseresults show that fruit pulp extracts might attenuate stemnessproperty of cancer cells. To verify these findings, we furtherexamined the effect of these pulp extracts on the expression ofstemness associated genes CD44 and BMI-1. RT-PCR analysisdocumented that transcript levels of both CD44 and BMI-1 genes (Al-Hajj et al., 2003; Liu et al., 2006) were significantlyFrontiers in Pharmacology | www.frontiersin.org September 2017 | Volume 8 | Article 593302fphar-08-00593 September 1, 2017 Time: 16:33 # 7Chowdhury et al. Colocynth Extracts: EMT and StemnessFIGURE 4 | Pulp ethanol extract inhibited migration of breast and cervical cancer cells. Breast cancer MDA-MB-231 (A), MCF-7 (B) and cervical cancer (SiHa) (C)cells were treated with pulp ethanol extract (PEE) for 24 h. Photos of cells at the starting time point and after 24 h of treatment were captured by inverted bright fieldmicroscope. The unfilled gap areas between two ends of the scratch were measured and subsequently plotted. Significant inhibition of cell migration was observedin case of PEE treated plates wells as compared to control in MDA-MB-231 (D), MCF-7 (E) and SiHa (F) cancer cell lines. Percent inhibition by PEE after 24 h wascalculated with the 0 h being the control. Values represent mean +- SE of triplicate measurements. In (D) ****p < 0.0001; control (ethanol) 24 h vs. control (ethanol)0 h and ****p < 0.0001; PEE 24 h vs. control 24 h. In (E) ****p < 0.0001; control (ethanol) 24 h vs. control (ethanol) 0 h and ****p < 0.0001; PEE 24 h vs. control(ethanol) 24 h. In (F) **p < 0.01; control (ethanol) 24 h vs. control (ethanol) 0 h and **p < 0.01; PEE 24 h vs. control (ethanol) 24 h.FIGURE 5 | Pulp acetone extract inhibited migration of breast and cervical cancer cells. Breast cancer MDA-MB-231 (A), MCF-7 (B) and cervical cancer (SiHa) (C)cells were treated with pulp acetone extract (PAE) for 24 h. Photos of cells at the starting timepoint and after 24 h of treatment were captured by inverted bright fieldmicroscope. The unfilled gap areas between two ends of the scratch were measured and subsequently plotted."
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "id": "entity_0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2252,
+              "end": 2258,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2345,
+              "end": 2351,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2695,
+              "end": 2701,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 2869,
+              "end": 2890,
+              "text": "Citrullus colocynthis",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4653,
+              "end": 4663,
+              "text": "anticancer",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4821,
+              "end": 4827,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4851,
+              "end": 4857,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_7",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4904,
+              "end": 4910,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5290,
+              "end": 5296,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5655,
+              "end": 5661,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_10",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5970,
+              "end": 5976,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_11",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6320,
+              "end": 6329,
+              "text": "apoptotic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_12",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6634,
+              "end": 6655,
+              "text": "Citrullus colocynthis",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_13",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6689,
+              "end": 6695,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_14",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 6731,
+              "end": 6737,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_15",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7222,
+              "end": 7228,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_16",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7327,
+              "end": 7333,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_17",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7683,
+              "end": 7689,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_18",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8076,
+              "end": 8085,
+              "text": "apoptotic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_19",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8351,
+              "end": 8360,
+              "text": "apoptotic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_20",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8495,
+              "end": 8504,
+              "text": "apoptotic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_21",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8675,
+              "end": 8681,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_22",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 8708,
+              "end": 8718,
+              "text": "metastasis",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_23",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 9834,
+              "end": 9844,
+              "text": "metastasis",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_24",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10431,
+              "end": 10440,
+              "text": "apoptotic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_25",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10445,
+              "end": 10454,
+              "text": "apoptotic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_26",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10644,
+              "end": 10653,
+              "text": "apoptotic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_27",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11584,
+              "end": 11590,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_28",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11752,
+              "end": 11758,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_29",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 11998,
+              "end": 12008,
+              "text": "metastasis",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_30",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12412,
+              "end": 12418,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_31",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12921,
+              "end": 12927,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_32",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13479,
+              "end": 13485,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_33",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13500,
+              "end": 13506,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_34",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13546,
+              "end": 13552,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_35",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13994,
+              "end": 14000,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_36",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14593,
+              "end": 14599,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_37",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14614,
+              "end": 14620,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_38",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14660,
+              "end": 14666,
+              "text": "cancer",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "from_id": "entity_12",
+            "to_id": "entity_0",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_12",
+            "to_id": "entity_1",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_12",
+            "to_id": "entity_2",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_12",
+            "to_id": "entity_4",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_12",
+            "to_id": "entity_8",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_12",
+            "to_id": "entity_10",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_12",
+            "to_id": "entity_18",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_12",
+            "to_id": "entity_19",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_12",
+            "to_id": "entity_24",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_12",
+            "to_id": "entity_25",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_12",
+            "to_id": "entity_32",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_12",
+            "to_id": "entity_33",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_12",
+            "to_id": "entity_36",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

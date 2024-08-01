@@ -1,0 +1,403 @@
+[
+  {
+    "data": {
+      "text": "Bellman1,2, F. Scotti1, F. Smith2, M. Heinrich11 Department of Pharmacognosy and Phytotherapy, UCL School of Pharmacy, London, UK 2 Research Dept of Pharmacy Practice and Policy, UCL School of Pharmacy, London, UK The hemp and cannabidiol (CBD) market (products low in THC) is emerging globally whilst little is known about the perception and consumption of these products' usage. Due to the preparations' pharmacological, legal and commercial characteristics the market offers an opportunity to study borderlines between medicine and food-supplements with implications for harm-reduction policies.The survey (N =1450) was distributed online (e.g., by social-media) and addressed aspects of cannabis use ranging from self-reported medical uses, indicators-of-quality, formulations used, method-of-consumption, product-sources, and concomitant medicine-use.Responses categorised as 'drug-type cannabis' and 'hemp and CBD' were compared indicating similarities in the main self-reported medical uses such as for mood alteration, pain-relief and substitutive cannabis use (instead of prescription medicines). Over 50% of reported uses of cannabis were for 'minor self-limiting medical conditions' (e.g., pain-relief ) whereas 5% and less reported use with serious medical conditions (e.g., epilepsy), a finding which adds a new perspective on our understanding of the products' use patterns. Further the presentation will consider how new and emerging blockchain technologies can contribute to our understanding of survey data related to medical products, as well as it's potential to solve big issues in medicinal plant science such as supply-chain issues (sustainability, working with big-data etc...).Products low in THC are commonly used for minor conditions associated with chronic pain and inflammation, mostly as unregulated food supplements. Further research is needed into the fast-developing use of cannabis products in order to inform public health strategy and science.www.ethnopharmacology2021.org18220th International Congress of the International Society for Ethnopharmacology Virtual Congress * 18-20 April 2021POSTER PRESENTATIONSMiscellaneousP071. Computational investigation of the associative behavior of essential-oil ingredients in an aqueous environment.V. Raptis1,2, K. Karatasos2,3, A. Assimopoulou2,31 Institute of Applied and Computational Mathematics, Foundation for Research and Technology-Hellas, Heraklion-Crete, Greece2 Department of Chemical Engineering, Aristotle University, Thessaloniki, Greece3 Natural Products Research Centre of Excellence (NatPro-AUTH), Center for Interdisciplinary Research and Innovation (CIRI-AUTH), Balkan Center, Thessaloniki, GreeceOur project concerns the study of candidate drug compounds found in aromatic plants of the Greek endemic flora, with the aid of experimental and theoretical-modelling techniques. In this work, we report the study of four such compounds, Carvacrol, p-Cymene, g-Terpinene and Thymol, via the simulation method of Molecular Dynamics. 1M and 0.1M aqueous solutions consisting of 104 to 105 water plus compound molecules, have been simulated at atmospheric pressure and 37oC in order to quantify the molecules' tendency to cluster. General Amber Force Field (GAFF), an established model of atomistic resolution, was used in our calculations that were carried out with the aid of GROMACS molecular simulation package. Thermodynamic and mass transport properties of the systems, were also looked at in order to verify the validity of the simulations by comparing with available experimental data. Mathematical analysis (DBSCAN algorithm) of observed clustering behaviour has shown that all four compounds tend invariably to form aggregates, thus bespeaking little or no propensity to mix with water. This situation calls for the use of carrier molecules as an aid for these compounds to be transported efficiently to targeted sites for biomedical purposes. Systems of two such carrier molecules, poly(vinyl alcohol) and poly(L-lactic acid) (linear and branched) are currently under study with the same simulation techniques, in order to predict their ability to capture and release the aforementioned molecules.Acknowledgment: This research has been co-financed by the European Union and Greek national funds through the Operational Program Competitiveness, Entrepreneurship and Innovation, under the call RESEARCH - CREATE - INNOVATE (project code: T1EDK-04174).www.ethnopharmacology2021.org 18320th International Congress of the International Society for Ethnopharmacology Virtual Congress * 18-20 April 2021POSTER PRESENTATIONSMiscellaneousP072. In vitro assessment of strawberry tree (Arbutus unedo L.) honey.A. Juric1, U. Gasic2, A. Hudek3, D. Milojkovic-Opsenica4, D. Lusic5, K. Durgo3, N. Kopjar1, I. Brcic Karaconji1,61 Institute for Medical Research and Occupational Health, Zagreb, Croatia2 Institute for Biological Research \"Sinisa Stankovic\", National Institute of Republic of Serbia, University of Belgrade, Serbia3 Faculty of Food Technology and Biotechnology, University of Zagreb, Croatia4 Faculty of Chemistry, University of Belgrade, Serbia5 Faculty of Medicine, University of Rijeka, Croatia6 Faculty of Health Studies, University of Rijeka, CroatiaStrawberry tree (Arbutus unedo L.) honey (STH), a typical product of Mediterranean region, is a rich source of bioactive compounds that possess strong antioxidant activity. This study examined the phenolic profile, total phenolic content (TPC) and antioxidant activity of STH from the town of Vrgorac (southern Croatia) and evaluated the protective role of STH and its main bioactive compound homogentisic acid (HGA) against cytogenetic damage induced by the anticancer drug irinotecan in human lymphocytes. Isolated human peripheral blood lymphocytes were exposed for 2 h to three different concentrations of STH and HGA (corresponding to average daily portion of 70 g of honey, as well as five- and ten- fold higher concentration). The outcomes of the treatments were evaluated using the cytokinesis-block micronucleus (CBMN) cytome assay.TPC was 1525 mg gallic acid equivalents per kg of honey. Antioxidant capacity, estimated by 1,1-diphenyl-2-picrylhydrazyl (DPPH) radical scavenging activity was 2.96 mmol Trolox equivalents per kg of honey. Twenty-two phenolics were quantified using ultra-high-performance liquid chromatograph (UHPLC) coupled to a hybrid mass spectrometer (LTQ Orbitrap MS). Both tested substances effectively ameliorated cytogenetic damage in irinotecan-treated lymphocytes and affected lymphocyte proliferation in vitro. STH offered slightly better cyto-/genoprotective effects than HGA, possibly due to its complex phytochemical profile. Convincing results obtained in vitro speak in favour of future investigations of STH, and further development of STH-based nutraceuticals, potentially useful even in cancer patients.Acknowledgements: This study was financially supported by the Foundation of the Croatian Academy for Science and Arts.www.ethnopharmacology2021.org184Pharmacological and clinical studies of medicinal plants & natural productsPosters20th International Congress of the International Society for Ethnopharmacology Virtual Congress * 18-20 April 2021POSTER PRESENTATIONSPharmacological and clinical studies of medicinal plants & natural productsP073. Treatment of seborrheic dermatitis using a cream containing Salvia fruticosa Mill.P. Kallimanis1, S. Prodromidis21 Pharmacist M.Sc, Private practice, Athens, Greece2 Dermatologist, Private practice, Athens, GreeceSeborrheic dermatitis (SD) is a common inflammatory lifelong disease that appears in areas of skin that are rich in sebaceous glands, such as the face, the scalp and the upper torso. Its course is characterized by relapses and recessions [1]. The safety and efficacy of a cream (SDp, for the face) and lotion (Lotion-Kp, for scalp and the chest) containing S. fruticosa Mill. (Greek Sage) leaf extract rich in antioxidants [2], were evaluated in three patients (3 males, age range: 40-64 years), suffering from SD with facial (one person), facial and scalp (one person), and facial and chest involvement (one person). The patients used cream SDp and Lotion-Kp, applying it to lesioned skin and around it, once at night. No concurrent therapies were used. There was a follow-up ranged from 2 to 4 years. All patients experienced a complete clearance of their disease in short time, ranged from 7 to 25 days. Regarding facial SD, common feature in all patients, the mean time to achieve this result was 9.6 days. The follow up showed that clear state lasted for a long time (range: 1-10 months). However, when relapses occurred, patients responded well to retreatment in less time than initially needed to completely clear the disease (mean time 6.6 days for facial SD). No adverse effects were observed during the treatment. In conclusion, SDp cream containing S. fruticosa Mill. is a prominent natural remedy for the topical treatment of SD, with high efficacy as monotherapy, able to induce disease clearance and long-lasting remission, without side effects. Moreover, it showed preservation of its efficiency when treating relapses. To our knowledge, it is the first time in the worldwide literature that such a study has been reported. [1] Dessinioti C, Katsambas A. \"Seborrheic dermatitis: etiology, risk factors, and treatments: facts and controversies.\" Clin Dermatol. 2013 Jul-Aug;31(4):343-351[2] Kallimanis PG. \"Rosemary and sage extracts for skin diseases: Compositions and treatments method.\" GR1009073www.ethnopharmacology2021.org18620th International Congress of the International Society for Ethnopharmacology Virtual Congress * 18-20 April 2021POSTER PRESENTATIONSPharmacological and clinical studies of medicinal plants & natural productsP074. Plaque psoriasis therapy using a cream containing Salvia fruticosa Mill.P. Kallimanis1, S. Prodromidis21 Pharmacist M.Sc, Private practice, Athens, Greece2 Dermatologist, Private practice, Athens, GreecePlaque psoriasis (PP) is a lifelong skin disease and patients have to use drugs many times in their lives, so the role of remedy safety while maintaining efficiency has become crucial [1]. The efficacy and safety of a cream (Kp) containing S. fruticosa Mill. (Greek Sage) leaf extract rich in antioxidants [2], were investigated in three patients (3 males, age range: 29-75 years), suffering from mild PP, in various body areas (elbows, legs, neck, hands, nails). All patients used cream Kp applying it to psoriatic lesions and around them, twice daily. No concurrent therapies were used. There was a follow-up ranged from 0.5 to 5 years. All patients experienced a complete clearance of their disease (mean PASI score initially=3,87 vs mean PASI score finally= 0). The mean time to achieve this result was 3,6 months. The follow up showed that clear state lasted for a long time, ranged from 4 to 48 months. However, when relapses occurred, they responded well to retreatment in less time than initially needed to completely clear the disease (range: 1-2 months). No adverse effects were observed during the treatment. In conclusion, Kp cream containing S. fruticosa Mill. is a prominent natural remedy for the topical treatment of mild PP as monotherapy, with high efficacy, able to induce disease clearance and achieving long lasting remission without side effects. Moreover, it showed preservation of its safety and efficiency when treating relapses. To our knowledge, it is the first time in the worldwide literature that such a study has been reported. [1] Langley RG et al., \"Psoriasis: epidemiology, clinical features, and quality of life.\" Ann Rheum Dis. 2005 Mar;64 Suppl 2: ii18-23. [2] Kallimanis PG. \"Rosemary and sage extracts for skin diseases: Compositions and treatments method.\" GR1009073www.ethnopharmacology2021.org 18720th International Congress of the International Society for Ethnopharmacology Virtual Congress * 18-20 April 2021POSTER PRESENTATIONSPharmacological and clinical studies of medicinal plants & natural productsP075. Guttate psoriasis therapy using a cream containing Salvia fruticosa Mill.P. Kallimanis1, S. Prodromidis21 Pharmacist M.Sc, Private practice, Athens, Greece2 Dermatologist, Private practice, Athens, GreeceGuttate psoriasis (GP) is a less common form of psoriasis (prevalence <10% of patients with psoriasis). It manifests with acute eruption of numerous small (0.3-1.0 cm diameter), round or slightly oval, erythematous and scaly papules and plaques which are widely disseminated, particularly on the trunk and proximal part of the extremities [1,2]. The efficacy and safety of a cream (Kp) containing S. fruticosa Mill. (Greek Sage) leaf extract rich in antioxidants [3], were investigated in two patients (2 females, age range: 68-75 years), suffering by GP, in various body areas (back, legs). Both patients used cream Kp, applying it in psoriatic lesions and around them, twice daily. No concurrent therapies were used. There was a follow-up ranged 1-4 years. Both patients experienced a complete clearance of their disease. The mean time to achieve this result was 2,7 months. The follow up showed that the clear state lasted for a long time (>=12 months). One patient experienced a slight relapse after one year, and she responded well to retreatment in less time (2 weeks) than initially needed to completely clear the disease. The other patient was in clear state one year after total cure. No adverse effects were observed during the treatment. In conclusion, cream Kp containing S. fruticosa Mill. extract is a prominent natural remedy for the topical treatment of guttate psoriasis as monotherapy, with high efficacy, able to induce the disease clearance and without side effects. To our knowledge, it is the first time in the worldwide literature that such a study has been reported. [1] Lisi P. \"Differential diagnosis of psoriasis.\" Reumatismo. 2007; 59 Suppl 1:56-60. [2] Vence L, Schmitt A, Meadows CE, Gress T. \"Recognizing Guttate Psoriasis and Initiating Appropriate Treatment\". W V Med J. 2015; 111(4):26-8. [3] Kallimanis PG. \"Rosemary and sage extracts for skin diseases: Compositions and treatments method.\" 2016; GR1009073www.ethnopharmacology2021.org18820th International Congress of the International Society for Ethnopharmacology Virtual Congress * 18-20 April 2021POSTER PRESENTATIONSPharmacological and clinical studies of medicinal plants & natural productsP076. Involvement of the benzodiazepine site in the anticonvulsant activity of Tapinanthus globiferus against pentylenetetrazole-induced seizures in mice.C. A. Elusiyan1, A. G. Faria2, A. Q. Mendes2, I. O. Silva2, J. L. R. Martins2, D. A. Rosa3, G. R. Pedrino3, E. A. Costa4, M. A. Ibrahim5, J. K. Zjawiony6, J. O. Fajemiroye2,3,41 Drug Research and Production Unit, Faculty of Pharmacy, Obafemi Awolowo University, Nigeria. 2 University center, UniEVANGELICA, Av. Universitaria, Km 3,5 - Cidade Universitaria, Anapolis - GO.3 Department of Physiological Sciences, Federal University of Goias, GO, Brazil.4 Department of Pharmacology Sciences, Federal University of Goias, GO, Brazil.5 National Center for Natural Products Research, University of Mississippi, United States.6 Department of Biomolecular Sciences, University of Mississippi, United States.Tapinanthus globiferus, popularly known as Afomo among Yoruba ethnic in Nigeria, is often referred to as an all-purpose herb for the treatment of stroke and epilepsy. The present study investigates the anticonvulsant effect of methanolic leaf extract (MET), active fractions and lupeol (isolate) of T. globiferus in mice as well as the underlying mechanisms.Following phytochemical studies of T. globiferus, preliminary assays were performed to evaluate MET-induced toxic effect and behavioral changes. The pentylenetetrazol (PTZ 70 mg/kg, i.p.) induced seizure was evaluated in mice that were pretreated orally with vehicle 10 mL/kg, MET (4, 20 or 100 mg/kg), fractions (F1 to F6), lupeol 10 mg/kg or diazepam (DZP 3 mg/kg). MET preserved neuron viability as well as the relative organ weight, hematological and biochemical parameters. The behavioral endpoints, neuromuscular coordination, sensory response parameters revealed a dose-dependent effect of MET. This extract, active fractions, lupeol, and DZP potentiated the hypno-sedative effect of the barbiturate and attenuated PTZ-induced acute seizure. This antiseizure effect was completely reversed by flumazenil 2 mg/kg (benzodiazepine site antagonist). Altogether, the benzodiazepine site-mediated anticonvulsant effects of MET, active fractions and lupeol corroborate traditional application of Tapinanthus globiferus against epilepsy.www.ethnopharmacology2021.org 18920th International Congress of the International Society for Ethnopharmacology Virtual Congress * 18-20 April 2021POSTER PRESENTATIONSPharmacological and clinical studies of medicinal plants & natural productsP077. Antihyperglycemic and antihyperlipidemic activity of the methanol extract of Shorea roxburghii in high fat diet/Streptozotocin induced diabetic rats.O.J. Olatunji, E.A."
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "id": "entity_0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1010,
+              "end": 1025,
+              "text": "mood alteration",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1287,
+              "end": 1295,
+              "text": "epilepsy",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1776,
+              "end": 1788,
+              "text": "chronic pain",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 1793,
+              "end": 1805,
+              "text": "inflammation",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4674,
+              "end": 4690,
+              "text": "Arbutus unedo L.",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_5",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 5270,
+              "end": 5286,
+              "text": "Arbutus unedo L.",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7361,
+              "end": 7382,
+              "text": "seborrheic dermatitis",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_7",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 7408,
+              "end": 7430,
+              "text": "Salvia fruticosa Mill.",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 9871,
+              "end": 9893,
+              "text": "Salvia fruticosa Mill.",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 12129,
+              "end": 12151,
+              "text": "Salvia fruticosa Mill.",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_10",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 13652,
+              "end": 13669,
+              "text": "guttate psoriasis",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_11",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14516,
+              "end": 14530,
+              "text": "anticonvulsant",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_12",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14543,
+              "end": 14565,
+              "text": "Tapinanthus globiferus",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_13",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14601,
+              "end": 14609,
+              "text": "seizures",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_14",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15318,
+              "end": 15340,
+              "text": "Tapinanthus globiferus",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_15",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15475,
+              "end": 15483,
+              "text": "epilepsy",
+              "labels": [
+                "Medical Condition"
+              ]
+            }
+          },
+          {
+            "id": "entity_16",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 15520,
+              "end": 15534,
+              "text": "anticonvulsant",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_17",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 16574,
+              "end": 16588,
+              "text": "anticonvulsant",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_18",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 16672,
+              "end": 16694,
+              "text": "Tapinanthus globiferus",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "id": "entity_19",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 16982,
+              "end": 17000,
+              "text": "antihyperlipidemic",
+              "labels": [
+                "Medicinal Effect"
+              ]
+            }
+          },
+          {
+            "id": "entity_20",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 17037,
+              "end": 17054,
+              "text": "Shorea roxburghii",
+              "labels": [
+                "Scientific Plant Name"
+              ]
+            }
+          },
+          {
+            "from_id": "entity_0",
+            "to_id": "entity_1",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_2",
+            "to_id": "entity_3",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_2",
+            "to_id": "entity_4",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_2",
+            "to_id": "entity_5",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_2",
+            "to_id": "entity_6",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_7",
+            "to_id": "entity_8",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_9",
+            "to_id": "entity_10",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_11",
+            "to_id": "entity_12",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_13",
+            "to_id": "entity_14",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          },
+          {
+            "from_id": "entity_15",
+            "to_id": "entity_16",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_17",
+            "to_id": "entity_18",
+            "type": "relation",
+            "labels": [
+              "treats_medical_condition"
+            ]
+          },
+          {
+            "from_id": "entity_19",
+            "to_id": "entity_20",
+            "type": "relation",
+            "labels": [
+              "has_medicinal_effect"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
