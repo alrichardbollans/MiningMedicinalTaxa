@@ -550,8 +550,16 @@ def main():
        # 184: 'task_for_labelstudio_80818116_chunk_68.json',
        # 185: 'task_for_labelstudio_80818116_chunk_67.json',
        # 186: 'task_for_labelstudio_80818116_chunk_78.json',
-       # 187: 'task_for_labelstudio_80818116_chunk_167.json'
-    }  # Example task IDs
+       # 187: 'task_for_labelstudio_80818116_chunk_167.json',
+       # 188: 'task_for_labelstudio_80818116_chunk_166.json',
+       # 189: 'task_for_labelstudio_80818116_chunk_165.json',
+       # 190: 'task_for_labelstudio_80818116_chunk_162.json',
+       # 191: 'task_for_labelstudio_80818116_chunk_161.json',
+       # 192: 'task_for_labelstudio_80818116_chunk_158.json',
+       # 193: 'task_for_labelstudio_80818116_chunk_155.json',
+       # 194: 'task_for_labelstudio_80818116_chunk_154.json',
+       # 195: 'task_for_labelstudio_80818116_chunk_125.json'
+    # }  # Example task IDs
 
     for task_id, output_filename in task_id_to_output.items():
         transformed_result = transform_annotation_for_task_id(data, task_id)
@@ -754,6 +762,14 @@ def main():
         #'task_for_labelstudio_80818116_chunk_67.json',
         #'task_for_labelstudio_80818116_chunk_78.json',
         #'task_for_labelstudio_80818116_chunk_167.json'
+        #'task_for_labelstudio_80818116_chunk_166.json',
+        #'task_for_labelstudio_80818116_chunk_165.json',
+        #'task_for_labelstudio_80818116_chunk_162.json',
+        #'task_for_labelstudio_80818116_chunk_161.json',
+        #'task_for_labelstudio_80818116_chunk_158.json',
+        #'task_for_labelstudio_80818116_chunk_155.json',
+        #'task_for_labelstudio_80818116_chunk_154.json',
+        #'task_for_labelstudio_80818116_chunk_125.json'
 
     ]  # Example filenames
     tasks_completed_dir = 'testing/test_medicinal_01/tasks_completed'
