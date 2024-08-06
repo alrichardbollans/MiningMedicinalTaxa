@@ -1,10 +1,9 @@
 import os
 import pickle
-import sys
 
-import pandas as pd
 from langchain_openai import ChatOpenAI
 
+from pre_labelling.evaluating import get_metrics_from_tp_fp_fn
 from rag_models.evaluating import NER_evaluation, precise_match, approximate_match, RE_evaluation, check_errors
 from rag_models.running_models import query_a_model, get_input_size_limit, setup_models
 from rag_models.structured_output_schema import get_all_human_annotations_for_corpus_id, annotation_info
@@ -28,8 +27,55 @@ def _get_train_test_papers():
     return train, test
 
 
+def get_all_metrics_for_model_outputs(model_outputs,
+                                      human_annotations):
+    precise_gpt3_precision, precise_gpt3_recall, precise_gpt3_f1_score = get_metrics_from_tp_fp_fn(*NER_evaluation(model_outputs,
+                                                                                                                   human_annotations,
+                                                                                                                   precise_match))
+    print(f'Precise NER')
+    print(precise_gpt3_precision, precise_gpt3_recall, precise_gpt3_f1_score)
+
+    approximate_gpt3_precision, approximate_gpt3_recall, approximate_gpt3_f1_score = get_metrics_from_tp_fp_fn(
+        *NER_evaluation(model_outputs, human_annotations,
+                        approximate_match))
+
+    print(f'Approximate NER')
+    print(approximate_gpt3_precision, approximate_gpt3_recall, approximate_gpt3_f1_score)
+    precise_gpt3_precision_mc, precise_gpt3_recall_mc, precise_gpt3_f1_score_mc = get_metrics_from_tp_fp_fn(
+        *RE_evaluation(model_outputs,
+                       human_annotations,
+                       precise_match,
+                       'medical_conditions'))
+
+    print(f'Precise medical_conditions')
+    print(precise_gpt3_precision_mc, precise_gpt3_recall_mc, precise_gpt3_f1_score_mc)
+
+    approx_gpt3_precision_mc, approx_gpt3_recall_mc, approx_gpt3_f1_score_mc = get_metrics_from_tp_fp_fn(
+        *RE_evaluation(model_outputs,
+                       human_annotations,
+                       approximate_match,
+                       'medical_conditions'))
+    print(f'Approx. medical_conditions')
+    print(approx_gpt3_precision_mc, approx_gpt3_recall_mc, approx_gpt3_f1_score_mc)
+    precise_gpt3_precision_me, precise_gpt3_recall_me, precise_gpt3_f1_score_me = get_metrics_from_tp_fp_fn(
+        *RE_evaluation(model_outputs,
+                       human_annotations,
+                       precise_match,
+                       'medicinal_effects'))
+    print(f'Precise medicinal_effects')
+    print(precise_gpt3_precision_me, precise_gpt3_recall_me, precise_gpt3_f1_score_me)
+
+    approx_gpt3_precision_me, approx_gpt3_recall_me, approx_gpt3_f1_score_me = get_metrics_from_tp_fp_fn(
+        *RE_evaluation(model_outputs,
+                       human_annotations,
+                       approximate_match,
+                       'medicinal_effects'))
+    print(f'Approx. medicinal_effects')
+    print(approx_gpt3_precision_me, approx_gpt3_recall_me, approx_gpt3_f1_score_me)
+
+
 def assessing_hparams():
-    # Get API keys
+    # This is a minimal process and more about getting the model to run and output something sensible than actual performance.
     from dotenv import load_dotenv
 
     load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'rag_models', '.env'))
@@ -39,33 +85,25 @@ def assessing_hparams():
 
         # model1 = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
         # gpt3_outputs = query_a_model(model1, os.path.join(base_text_path, f'{corpus_id}.txt'),
-        #                              get_input_size_limit(16))
-        # with open("hparam_outputs.pickle", "wb") as file_:
-        #     pickle.dump(gpt3_outputs, file_)
+        #                              get_input_size_limit(16),"hparam_outputs.pickle")
 
         gpt3_outputs = pickle.load(open("hparam_outputs.pickle", "rb", -1))
-
-        precise_gpt3_precision, precise_gpt3_recall, precise_gpt3_f1_score = NER_evaluation(gpt3_outputs, human_annotations, precise_match)
-        approximate_gpt3_precision, approximate_gpt3_recall, approximate_gpt3_f1_score = NER_evaluation(gpt3_outputs, human_annotations,
-                                                                                                        approximate_match)
-
-        print(precise_gpt3_precision, precise_gpt3_recall, precise_gpt3_f1_score)
-        precise_re_results = RE_evaluation(gpt3_outputs, human_annotations, precise_match)
-        check_errors(gpt3_outputs, human_annotations)
+        get_all_metrics_for_model_outputs(gpt3_outputs, human_annotations)
 
 
 def full_evaluation():
-    for corpus_id in test:
-        human_annotations = get_all_human_annotations_for_corpus_id(corpus_id)
+    # TODO: Finish setting this up to get mean of metrics per paper and also overall metrics
+    all_models = setup_models()
 
-        all_models = setup_models()
+    for m in all_models:
 
-        for m in all_models:
-            gpt3_outputs = query_a_model(m, os.path.join(base_text_path, f'{corpus_id}.txt'),
-                                         get_input_size_limit(16))
-            precise_gpt3_precision, precise_gpt3_recall, precise_gpt3_f1_score = NER_evaluation(gpt3_outputs, human_annotations, precise_match)
-            approximate_gpt3_precision, approximate_gpt3_recall, approximate_gpt3_f1_score = NER_evaluation(gpt3_outputs, human_annotations,
-                                                                                                            approximate_match)
+        all_precise_true_positives, all_precise_false_positives, all_precise_false_negatives = [], [], []
+        all_approx_true_positives, all_approx_false_positives, all_approx_false_negatives = [], [], []
+        for corpus_id in test:
+            human_annotations = get_all_human_annotations_for_corpus_id(corpus_id)
+            gpt3_outputs = query_a_model(all_models[m][0], os.path.join(base_text_path, f'{corpus_id}.txt'),
+                                         all_models[m][1], f'{m}_{corpus_id}.txt')
+            get_all_metrics_for_model_outputs(gpt3_outputs, human_annotations)
 
 
 def main():

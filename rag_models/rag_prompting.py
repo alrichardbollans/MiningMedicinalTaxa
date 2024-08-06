@@ -12,9 +12,9 @@ standard_medicinal_prompt = ChatPromptTemplate.from_messages(
             "Only extract relevant direct quotes from the text. "
             "Do not extract text contained in bibliography or reference sections. "
             "If you do not know the value of an attribute asked to extract, return null for the attribute's value. "
-            "You should collect all scientific plant and fungal names mentioned in the text. "
+            "You should extract all scientific plant and fungal names mentioned in the text. "
             "You should include scientific authorities in the names if they appear in the text. "
-            "Do not collect common or vernacular names. "
+            "Only extract scientific names. Do not extract common or vernacular names. "
             "For each of the plant or fungi names in the text, you should also extract mentions of any medical conditions they treat or medicinal effects they have. "
             "Medical conditions are " + medical_condition_def + " Medicinal effects are " + medicinal_effect_def
         ),

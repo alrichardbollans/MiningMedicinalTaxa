@@ -1,4 +1,5 @@
 ## these methods just provide some simple tidying of human and model annotations
+from useful_string_methods import remove_double_spaces_and_break_characters
 
 
 def leading_trailing_whitespace(given_str: str):
@@ -55,6 +56,8 @@ def clean_strings(given_str: str):
     Clean the given string by removing leading/trailing whitespace,
     leading/trailing punctuation, and converting all characters to lowercase.
 
+    Also remove double spaces and break characters, as with files that are passed to RAG models.
+
     A clean string should be retrievable from the original text when all lower case.
 
     :param given_str: The string to be cleaned.
@@ -64,7 +67,7 @@ def clean_strings(given_str: str):
     while (leading_trailing_whitespace(low) != low) or (leading_trailing_punctuation(low) != low):
         low = leading_trailing_whitespace(low)
         low = leading_trailing_punctuation(low)
-    return low
+    return remove_double_spaces_and_break_characters(low)
 
 
 def standardise_NER_annotations(annotations: list):

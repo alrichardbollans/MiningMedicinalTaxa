@@ -1,17 +1,21 @@
 import os
+import pickle
 
 from langchain_anthropic import ChatAnthropic
 from langchain_google_vertexai import ChatVertexAI
 from langchain_mistralai import ChatMistralAI
 from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq
 
 from rag_models.loading_files import read_file_and_chunk
 from rag_models.rag_prompting import standard_medicinal_prompt
 from rag_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, TaxaData
 
 
-def query_a_model(model, text_file: str, context_window: int) -> TaxaData:
+def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = None) -> TaxaData:
     text_chunks = read_file_and_chunk(text_file, context_window)
+    # A few different methods, depending on the specific model are used to get a structured output
+    # and this is handled by with_structured_output. See https://python.langchain.com/v0.1/docs/modules/model_io/chat/structured_output/
     extractor = standard_medicinal_prompt | model.with_structured_output(schema=TaxaData, include_raw=False)
     extractions = extractor.batch(
         [{"text": text} for text in text_chunks],
@@ -24,6 +28,11 @@ def query_a_model(model, text_file: str, context_window: int) -> TaxaData:
         output.extend(extraction.taxa)
 
     deduplicated_extractions = deduplicate_and_standardise_output_taxa_lists(output)
+
+    if pkl_dump:
+        with open(pkl_dump, "wb") as file_:
+            pickle.dump(deduplicated_extractions, file_)
+
     return deduplicated_extractions
 
 
@@ -43,7 +52,6 @@ def setup_models():
     # A selection of models that support .with_structured_output https://python.langchain.com/v0.2/docs/integrations/chat/
     # Try to use the best from each company
     # If any work particularly well then also test cheaper versions e.g. gpt-mini, claude haiku
-
 
     # Max tokens 128k
     # Input: $5.00 /1M tokens
@@ -78,9 +86,12 @@ def setup_models():
     model4 = ChatMistralAI(model="mistral-large-latest", temperature=0)
     out['mistral'] = [model4, get_input_size_limit(32)]
 
-    # LLama API is still experimental in langchain, may become available through groq
 
-    # model5 = ChatGroq(model=)
+    # TODO: Llama api still experimental and token limit is too small via groq
+    # model5 = ChatGroq(model="llama3-70b-8192",
+    #                   temperature=0)
+    # out['llama'] = [model5, get_input_size_limit(8)]
+
     return out
 
 
@@ -88,5 +99,8 @@ if __name__ == '__main__':
     models = setup_models()
 
     example_model_name = 'gemini'
-    example_model_outputs = query_a_model(models[example_model_name][0], os.path.join('example_inputs', '4187756.txt'), models[example_model_name][1])
+    repo_path = os.environ.get('KEWSCRATCHPATH')
+    base_text_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'text_files')
+
+    example_model_outputs = query_a_model(models[example_model_name][0], os.path.join(base_text_path, '4187756.txt'), models[example_model_name][1])
     print(example_model_outputs)

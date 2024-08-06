@@ -201,7 +201,8 @@ def is_annotation_in_annotation_list(model_annotation: dict, annotation_list: li
     return False
 
 
-def get_metrics_from_tp_fp_fn(true_positives: list, false_positives: list, false_negatives: list):
+def get_metrics_from_tp_fp_fn(true_positives_in_ground_truths: list, true_positives_in_model_annotations: list, false_positives: list,
+                              false_negatives: list):
     """
     Calculate precision, recall, and F1 score given lists of true positives (TP), false positives (FP),
     and false negatives (FN).
@@ -212,23 +213,23 @@ def get_metrics_from_tp_fp_fn(true_positives: list, false_positives: list, false
     :return: A tuple containing the precision, recall, and F1 score.
     """
     # precision
-    if len(true_positives + false_positives) != 0:
-        precision = len(true_positives) / len(true_positives + false_positives)
+    if len(true_positives_in_model_annotations + false_positives) != 0:
+        precision = len(true_positives_in_model_annotations) / len(true_positives_in_model_annotations + false_positives)
     else:
         print(f'Zero Division WARNING: No positive annotations given by model.')
         print(f'Setting precision to np.nan')
         precision = np.nan
     # recall
-    if len(true_positives + false_negatives) != 0:
-        recall = len(true_positives) / len(true_positives + false_negatives)
+    if len(true_positives_in_ground_truths + false_negatives) != 0:
+        recall = len(true_positives_in_ground_truths) / len(true_positives_in_ground_truths + false_negatives)
     else:
         print(f'Zero Division WARNING: No positive ground truth annotations.')
         print(f'Setting recall to np.nan')
         recall = np.nan
     # f1
-    denom = ((2 * len(true_positives)) + len(false_positives) + len(false_negatives))
-    if denom != 0:
-        f1_score = 2 * len(true_positives) / denom
+    # denom = ((2 * len(true_positives)) + len(false_positives) + len(false_negatives))
+    if recall == recall and precision == precision and precision + recall != 0:
+        f1_score = 2 * (precision * recall) / (precision + recall)
     else:
         print(f'Zero Division WARNING: No TP,FP,FN.')
         print(f'Setting f1_score to np.nan')
