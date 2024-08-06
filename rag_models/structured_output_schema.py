@@ -1,14 +1,32 @@
+import json
 import os
 import sys
 from typing import Optional, List
 
+import pandas as pd
 from langchain_core.pydantic_v1 import BaseModel, Field
 
 # TODO: reorganise and check usage of these methods. Should probably be in 'annotated_data' folder
-from pre_labelling.evaluating import clean_strings, check_human_annotations, TAXON_ENTITY_CLASSES, read_annotation_json
+from pre_labelling.evaluating import clean_strings, check_human_annotations, TAXON_ENTITY_CLASSES, \
+    get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations
 
-sys.path.append('../testing/evaluation_methods/')
 from rag_models.rag_prompting import medicinal_effect_def, medical_condition_def
+
+_repos_path = os.environ.get('KEWSCRATCHPATH')
+annotation_folder = os.path.join(_repos_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'annotations',
+                                 'manually_annotated_chunks')
+annotation_info = pd.read_excel(os.path.join(annotation_folder, 'annotated_chunks_list.xlsx'))
+annotation_info = annotation_info[annotation_info['reference_only'] != 'yes']
+
+
+def get_corpus_id_from_chunk_name(chunk_name: str) -> str:
+    # Get corpus id from a string like: 'task_for_labelstudio_{corpus_id}_chunk_{chunk_id}.json'
+    corpus_id = chunk_name.split('task_for_labelstudio_')[1]
+    corpus_id = corpus_id.split('_chunk_')[0]
+    return corpus_id
+
+
+annotation_info['corpus_id'] = annotation_info['name'].apply(get_corpus_id_from_chunk_name)
 
 
 class Taxon(BaseModel):
@@ -78,7 +96,7 @@ def deduplicate_and_standardise_output_taxa_lists(taxa: List[Taxon]) -> TaxaData
 
 def convert_human_annotations_to_taxa_data_schema(human_ner_annotations, human_re_annotations) -> TaxaData:
     # TODO: test this
-    check_human_annotations(human_ner_annotations, human_re_annotations)
+
     collected_output = {}
     for entry in human_re_annotations:
         # make entry
@@ -118,23 +136,51 @@ def convert_human_annotations_to_taxa_data_schema(human_ner_annotations, human_r
     return out
 
 
-def get_all_human_annotations_for_corpus_id(corpus_id: str):
-    # TODO: test this
+def get_all_human_annotations_for_corpus_id(corpus_id: str, check: bool = True):
     collected_taxa_data = []
-    annotation_folder = '../testing/test_medicinal_01/manual_annotation_transformed'
-    for file in os.listdir(annotation_folder):
-        if file.startswith(f'task_for_labelstudio_{corpus_id}'):
-            chunk_id = file.split('.json')[0].split('_')[-1]
-            human_ner_annotations1, human_re_annotations1 = read_annotation_json(annotation_folder,
-                                                                                 corpus_id,
-                                                                                 chunk_id)
+
+    annotation_file = os.path.join(annotation_folder, 'task_for_labelstudio_161880242_228197190_268329601_4187556_360558516_80818116.json')
+
+    relevant_annotation_info = annotation_info[annotation_info['corpus_id'] == corpus_id]
+    relevant_ids = relevant_annotation_info['id'].unique().tolist()
+
+    with open(annotation_file) as f:
+        d = json.load(f)
+    for ann in d:
+        if ann['id'] in relevant_ids:
+            if len(ann['annotations']) > 1:
+                raise ValueError
+            anns = ann['annotations'][0]['result']
+            human_ner_annotations1, human_re_annotations1 = get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(anns,
+                                                                                                                                          check=check)
             taxa_data = convert_human_annotations_to_taxa_data_schema(human_ner_annotations1, human_re_annotations1)
             collected_taxa_data.extend(taxa_data.taxa)
     return deduplicate_and_standardise_output_taxa_lists(collected_taxa_data)
 
 
-if __name__ == '__main__':
-    corpus_output = get_all_human_annotations_for_corpus_id('4187756')
-    human_ner_annotations1, human_re_annotations1 = read_annotation_json('../testing/test_medicinal_01/manual_annotation_transformed', '4187756', '0')
+def check_all_human_annotations():
+    annotation_file = os.path.join(annotation_folder, 'task_for_labelstudio_161880242_228197190_268329601_4187556_360558516_80818116.json')
+    bad_ids = []
+    bad_messages = []
+    with open(annotation_file) as f:
+        d = json.load(f)
+    for ann in d:
+        if len(ann['annotations']) > 1:
+            raise ValueError
+        anns = ann['annotations'][0]['result']
+        human_ner_annotations1, human_re_annotations1 = get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(anns,
+                                                                                                                                      check=False)
+        try:
+            check_human_annotations(human_ner_annotations1, human_re_annotations1)
+        except Exception as e:
+            print(f'Annotation Chunk ID: {ann["id"]}. Error message: {e}')
+            bad_ids.append(ann['id'])
+            bad_messages.append(e)
+    issues = annotation_info[annotation_info['id'].isin(bad_ids)]
+    issues['message'] = bad_messages
+    issues.to_csv('humman_annotation_issues.csv', index=False)
 
-    convert_human_annotations_to_taxa_data_schema(human_ner_annotations1, human_re_annotations1)
+
+if __name__ == '__main__':
+    check_all_human_annotations()
+    # corpus_output = get_all_human_annotations_for_corpus_id('4187756')

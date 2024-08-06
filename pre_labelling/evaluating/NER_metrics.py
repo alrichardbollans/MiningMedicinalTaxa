@@ -22,21 +22,22 @@ def check_human_annotations(human_ner_annotations, human_re_annotations):
 
     This method validates the annotations made by a human for named entities and relations. It raises ValueError if any invalid annotations are found.
     """
+    errors = []
     to_text_in_entries = []
     for entry in human_re_annotations:
         # make entry
         if len(entry['from_entity']['value']['labels']) > 1 or len(entry['to_entity']['value']['labels']) > 1:
-            raise ValueError(f"Too many labels for entry: {entry['from_entity']['value']['labels']} in human annotations")
+            errors.append(f"Too many labels for entry: {entry['from_entity']['value']['labels']} in human annotations")
         from_label = entry['from_entity']['value']['labels'][0]
         if from_label not in TAXON_ENTITY_CLASSES:
-            raise ValueError(f"Invalid label {from_label} in human annotations")
+            errors.append(f"Invalid from_entity label '{from_label}' in human annotations")
 
         to_label = entry['to_entity']['value']['labels'][0]
         if to_label not in MEDICINAL_CLASSES:
-            raise ValueError(f"Invalid label {to_label} in human annotations")
+            errors.append(f"Invalid to_entity label '{to_label}' in human annotations")
 
         if entry['label'] not in MEDICINAL_RELATIONS:
-            raise ValueError(f"Invalid relation {entry['label']} in human annotations")
+            errors.append(f"Invalid relation {entry['label']} in human annotations")
         to_text_in_entries.append(entry['to_entity']['value']['text'])
     # Check labels are in given classes etc..
     for entry in human_ner_annotations:
@@ -44,25 +45,18 @@ def check_human_annotations(human_ner_annotations, human_re_annotations):
             # Check no medicinal info on its own
             text_value = entry['value']['text']
             if text_value not in to_text_in_entries:
-                raise ValueError(f"entry: {text_value} for: {entry['value']['label']} not associated with taxon in human annotations")
+                errors.append(f"entry: {text_value} for: {entry['value']['label']} not associated with taxon in human annotations")
+
+    if len(errors) > 0:
+        raise ValueError(f"Errors found: {errors}")
 
 
-def read_annotation_json(annotations_directory: str, corpus_id: str, chunk_id: str):
+def get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(anns: list, check: bool = True):
     """
-    Reads annotation data from a JSON file.
-
-    :param annotations_directory: The directory where the JSON file is located.
-    :param corpus_id: The ID of the corpus.
-    :param chunk_id: The ID of the chunk within the corpus.
-    :return: A tuple containing two lists: separate_NER_annotations and separate_RE_annotations.
+    From a list of annotations (as given in annotations json), separate NER and RE annotations and return cleaned annotations (may be duplicates)
     """
-    json_file = os.path.join(annotations_directory, f'task_for_labelstudio_{corpus_id}_chunk_{chunk_id}.json')
-    with open(json_file) as f:
-        d = json.load(f)
-        # print(d)
-    results = d[0]['predictions'][0]['result']
-    ner_annotations = [c for c in results if c['type'] == 'labels']
-    re_annotations = [c for c in results if c['type'] == 'relation']
+    ner_annotations = [c for c in anns if c['type'] == 'labels']
+    re_annotations = [c for c in anns if c['type'] == 'relation']
 
     ### Resolve entities in RE annotations as don't want to match based on entity number
     for re_annotation in re_annotations:
@@ -95,8 +89,26 @@ def read_annotation_json(annotations_directory: str, corpus_id: str, chunk_id: s
             separate_RE_annotations.append(new_annotation)
 
     standardise_RE_annotations(separate_RE_annotations)
-    check_human_annotations(separate_NER_annotations, separate_RE_annotations)
+    if check:
+        check_human_annotations(separate_NER_annotations, separate_RE_annotations)
     return separate_NER_annotations, separate_RE_annotations
+
+
+def read_annotation_json(annotations_directory: str, corpus_id: str, chunk_id: str):
+    """
+    Reads annotation data from a JSON file.
+
+    :param annotations_directory: The directory where the JSON file is located.
+    :param corpus_id: The ID of the corpus.
+    :param chunk_id: The ID of the chunk within the corpus.
+    :return: A tuple containing two lists: separate_NER_annotations and separate_RE_annotations.
+    """
+    json_file = os.path.join(annotations_directory, f'task_for_labelstudio_{corpus_id}_chunk_{chunk_id}.json')
+    with open(json_file) as f:
+        d = json.load(f)
+        # print(d)
+    results = d[0]['predictions'][0]['result']
+    return get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(results)
 
 
 def precise_entity_match(entity1: dict, entity2: dict):

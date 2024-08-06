@@ -1,11 +1,9 @@
 from typing import List, Callable
 import sys
 
+from pre_labelling.evaluating import get_metrics_from_tp_fp_fn
 from rag_models.structured_output_schema import TaxaData
 
-sys.path.append("../testing/evaluation_methods")
-
-from testing.evaluation_methods import get_metrics_from_tp_fp_fn
 
 
 def precise_match(name1: str, name2: str):
