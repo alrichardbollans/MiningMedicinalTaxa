@@ -1,5 +1,6 @@
 import os
 import pickle
+import time
 
 import pandas as pd
 from langchain_openai import ChatOpenAI
@@ -33,7 +34,6 @@ def _get_train_test_papers():
     return train, test
 
 
-
 def get_chunk_filepath_from_chunk_id(chunk_id: int):
     name = annotation_info[annotation_info['id'] == chunk_id]['name'].iloc[0]
     name = name.removeprefix('task_for_labelstudio_')
@@ -43,12 +43,17 @@ def get_chunk_filepath_from_chunk_id(chunk_id: int):
     return os.path.join(base_chunk_path, name)
 
 
-def assessing_hparams():
-    # This is a minimal process and more about getting the model to run and output something sensible than actual performance.
-    from dotenv import load_dotenv
-
-    load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'rag_models', '.env'))
-
+def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun: bool = True):
+    """
+    Given a list of chunk ids, runs the model on each chunk and collects outputs
+    :param chunk_list:
+    :param model:
+    :param context_window:
+    :param rerun:
+    :return:
+    """
+    if rerun:
+        time.sleep(1)
     ### NER
     (all_precise_NER_true_positives_in_ground_truths, all_precise_NER_true_positives_in_model_annotations, all_precise_NER_false_positives,
      all_precise_NER_false_negatives) = [], [], [], []
@@ -67,19 +72,19 @@ def assessing_hparams():
     (all_approxMedEfftrue_positives_in_ground_truths, all_approxMedEfftrue_positives_in_model_annotations, all_approxMedEfffalse_positives,
      all_approxMedEfffalse_negatives) = [], [], [], []
 
-    for chunk_id in train['id'].unique().tolist():
+    for chunk_id in chunk_list:
         human_annotations = get_all_human_annotations_for_chunk_id(chunk_id, check=True)
-        pkl_file = os.path.join('hparam_runs', str(chunk_id) + "_hparam_outputs.pickle")
-        # model1 = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
-        # gpt3_outputs = query_a_model(model1, get_chunk_filepath_from_chunk_id(chunk_id),
-        #                              get_input_size_limit(16), pkl_file)
+        pkl_file = os.path.join('outputs', 'model_pkls', f'{str(chunk_id)}_{model.model_name}_outputs.pickle')
+        if rerun:
+            query_a_model(model, get_chunk_filepath_from_chunk_id(chunk_id),
+                          context_window, pkl_file)
 
-        gpt3_outputs = pickle.load(open(pkl_file, "rb", -1))
-        check_errors(gpt3_outputs, human_annotations, 'hparam_runs', chunk_id, 'gpt-3.5')
+        model_outputs = pickle.load(open(pkl_file, "rb", -1))
+        check_errors(model_outputs, human_annotations, os.path.join('outputs', 'model_errors'), chunk_id, model.model_name)
 
         ### NER
         precise_NER_true_positives_in_ground_truths, precise_NER_true_positives_in_model_annotations, precise_NER_false_positives, precise_NER_false_negatives = NER_evaluation(
-            gpt3_outputs,
+            model_outputs,
             human_annotations,
             abbreviated_precise_match)
         all_precise_NER_true_positives_in_ground_truths.extend(precise_NER_true_positives_in_ground_truths)
@@ -88,7 +93,7 @@ def assessing_hparams():
         all_precise_NER_false_negatives.extend(precise_NER_false_negatives)
 
         approx_NER_true_positives_in_ground_truths, approx_NER_true_positives_in_model_annotations, approx_NER_false_positives, approx_NER_false_negatives = NER_evaluation(
-            gpt3_outputs, human_annotations,
+            model_outputs, human_annotations,
             abbreviated_approximate_match)
         all_approx_NER_true_positives_in_ground_truths.extend(approx_NER_true_positives_in_ground_truths)
         all_approx_NER_true_positives_in_model_annotations.extend(approx_NER_true_positives_in_model_annotations)
@@ -97,20 +102,20 @@ def assessing_hparams():
 
         ### Medical Conditions
         (preciseMedCondtrue_positives_in_ground_truths, preciseMedCondtrue_positives_in_model_annotations, preciseMedCondfalse_positives,
-         preciseMedCondfalse_negatives) = RE_evaluation(gpt3_outputs,
-                       human_annotations,
-                       'precise',
-                       'medical_conditions')
+         preciseMedCondfalse_negatives) = RE_evaluation(model_outputs,
+                                                        human_annotations,
+                                                        'precise',
+                                                        'medical_conditions')
         all_preciseMedCondtrue_positives_in_ground_truths.extend(preciseMedCondtrue_positives_in_ground_truths)
         all_preciseMedCondtrue_positives_in_model_annotations.extend(preciseMedCondtrue_positives_in_model_annotations)
         all_preciseMedCondfalse_positives.extend(preciseMedCondfalse_positives)
         all_preciseMedCondfalse_negatives.extend(preciseMedCondfalse_negatives)
 
         (approxMedCondtrue_positives_in_ground_truths, approxMedCondtrue_positives_in_model_annotations, approxMedCondfalse_positives,
-         approxMedCondfalse_negatives) = RE_evaluation(gpt3_outputs,
-                       human_annotations,
-                       'approximate',
-                       'medical_conditions')
+         approxMedCondfalse_negatives) = RE_evaluation(model_outputs,
+                                                       human_annotations,
+                                                       'approximate',
+                                                       'medical_conditions')
         all_approxMedCondtrue_positives_in_ground_truths.extend(approxMedCondtrue_positives_in_ground_truths)
         all_approxMedCondtrue_positives_in_model_annotations.extend(approxMedCondtrue_positives_in_model_annotations)
         all_approxMedCondfalse_positives.extend(approxMedCondfalse_positives)
@@ -118,25 +123,24 @@ def assessing_hparams():
 
         ### Medicinal Effects
         (preciseMedEfftrue_positives_in_ground_truths, preciseMedEfftrue_positives_in_model_annotations, preciseMedEfffalse_positives,
-         preciseMedEfffalse_negatives) = RE_evaluation(gpt3_outputs,
-                                                        human_annotations,
-                                                        'precise',
-                                                        'medicinal_effects')
+         preciseMedEfffalse_negatives) = RE_evaluation(model_outputs,
+                                                       human_annotations,
+                                                       'precise',
+                                                       'medicinal_effects')
         all_preciseMedEfftrue_positives_in_ground_truths.extend(preciseMedEfftrue_positives_in_ground_truths)
         all_preciseMedEfftrue_positives_in_model_annotations.extend(preciseMedEfftrue_positives_in_model_annotations)
         all_preciseMedEfffalse_positives.extend(preciseMedEfffalse_positives)
         all_preciseMedEfffalse_negatives.extend(preciseMedEfffalse_negatives)
 
         (approxMedEfftrue_positives_in_ground_truths, approxMedEfftrue_positives_in_model_annotations, approxMedEfffalse_positives,
-         approxMedEfffalse_negatives) = RE_evaluation(gpt3_outputs,
-                                                       human_annotations,
-                                                       'approximate',
-                                                       'medicinal_effects')
+         approxMedEfffalse_negatives) = RE_evaluation(model_outputs,
+                                                      human_annotations,
+                                                      'approximate',
+                                                      'medicinal_effects')
         all_approxMedEfftrue_positives_in_ground_truths.extend(approxMedEfftrue_positives_in_ground_truths)
         all_approxMedEfftrue_positives_in_model_annotations.extend(approxMedEfftrue_positives_in_model_annotations)
         all_approxMedEfffalse_positives.extend(approxMedEfffalse_positives)
         all_approxMedEfffalse_negatives.extend(approxMedEfffalse_negatives)
-
 
     ### NER
     precise_NER_precision, precise_NER_recall, precise_NER_f1_score = get_metrics_from_tp_fp_fn(all_precise_NER_true_positives_in_ground_truths,
@@ -154,10 +158,11 @@ def assessing_hparams():
     print(f'precision:{approximate_NER_precision}, recall:{approximate_NER_recall}, f1:{approximate_NER_f1_score}')
 
     ### Medical Conditions
-    preciseMedCondprecision, preciseMedCondrecall, preciseMedCondf1_score = get_metrics_from_tp_fp_fn(all_preciseMedCondtrue_positives_in_ground_truths,
-                                                                                                all_preciseMedCondtrue_positives_in_model_annotations,
-                                                                                                all_preciseMedCondfalse_positives,
-                                                                                                all_preciseMedCondfalse_negatives)
+    preciseMedCondprecision, preciseMedCondrecall, preciseMedCondf1_score = get_metrics_from_tp_fp_fn(
+        all_preciseMedCondtrue_positives_in_ground_truths,
+        all_preciseMedCondtrue_positives_in_model_annotations,
+        all_preciseMedCondfalse_positives,
+        all_preciseMedCondfalse_negatives)
     print(f'Precise MedCond')
     print(f'precision: {preciseMedCondprecision}, recall {preciseMedCondrecall}, f1:{preciseMedCondf1_score}')
 
@@ -184,19 +189,30 @@ def assessing_hparams():
     print(f'Approximate MedEff')
     print(f'precision:{approximateMedEffprecision}, recall:{approximateMedEffrecall}, f1:{approximateMedEfff1_score}')
 
+    out_df = {'Precise NER': [precise_NER_precision, precise_NER_recall, precise_NER_f1_score],
+              'Approximate NER': [approximate_NER_precision, approximate_NER_recall, approximate_NER_f1_score],
+              'Precise MedCond': [preciseMedCondprecision, preciseMedCondrecall, preciseMedCondf1_score],
+              'Approximate MedCond': [approximateMedCondprecision, approximateMedCondrecall, approximateMedCondf1_score],
+              'Precise MedEff': [preciseMedEffprecision, preciseMedEffrecall, preciseMedEfff1_score],
+              'Approximate MedEff': [approximateMedEffprecision, approximateMedEffrecall, approximateMedEfff1_score]}
+    out_df = pd.DataFrame(out_df, index=['precision', 'recall', 'f1'])
+    out_df.to_csv(os.path.join(out_dir, model.model_name + '_results.csv'))
+
+
+def assessing_hparams():
+    # This is a minimal process and more about getting the model to run and output something sensible than actual performance.
+    from dotenv import load_dotenv
+
+    load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'rag_models', '.env'))
+    model1 = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
+    assess_model_on_chunk_list(train['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=False)
+
+
 def full_evaluation():
-    # TODO: Finish setting this up to get mean of metrics per paper and also overall metrics
     all_models = setup_models()
-
+    test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
     for m in all_models:
-
-        all_precise_true_positives, all_precise_false_positives, all_precise_false_negatives = [], [], []
-        all_approx_true_positives, all_approx_false_positives, all_approx_false_negatives = [], [], []
-        for chunk_id in test['id'].unique().tolist():
-            human_annotations = get_all_human_annotations_for_chunk_id(chunk_id, check=True)
-            gpt3_outputs = query_a_model(all_models[m][0], os.path.join(base_text_path, f'{corpus_id}.txt'),
-                                         all_models[m][1], f'{m}_{corpus_id}.txt')
-            get_all_metrics_for_model_outputs(gpt3_outputs, human_annotations)
+        assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'outputs')
 
 
 def evaluate_on_all_papers():

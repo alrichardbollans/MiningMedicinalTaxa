@@ -1,6 +1,7 @@
 import os
 import pickle
 
+import langchain_core
 from langchain_anthropic import ChatAnthropic
 from langchain_google_vertexai import ChatVertexAI
 from langchain_mistralai import ChatMistralAI
@@ -21,10 +22,14 @@ def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = No
     # A few different methods, depending on the specific model are used to get a structured output
     # and this is handled by with_structured_output. See https://python.langchain.com/v0.1/docs/modules/model_io/chat/structured_output/
     extractor = standard_medicinal_prompt | model.with_structured_output(schema=TaxaData, include_raw=False)
-    extractions = extractor.batch(
-        [{"text": text} for text in text_chunks],
-        {"max_concurrency": 1},  # limit the concurrency by passing max concurrency! Otherwise Requests rate limit exceeded
-    )
+    try:
+        extractions = extractor.batch(
+            [{"text": text} for text in text_chunks],
+            {"max_concurrency": 1},  # limit the concurrency by passing max concurrency! Otherwise Requests rate limit exceeded
+        )
+    except langchain_core.exceptions.OutputParserException as e:
+        print(e)
+        raise ValueError(f'resovlve this')
     # output = extractor.invoke({'text': text})
     output = []
 

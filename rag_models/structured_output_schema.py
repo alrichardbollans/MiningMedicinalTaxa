@@ -190,7 +190,7 @@ def get_all_human_annotations_for_chunk_id(chunk_id: int, check: bool = True):
             taxa_data = convert_human_annotations_to_taxa_data_schema(human_ner_annotations1, human_re_annotations1)
             collected_taxa_data.extend(taxa_data.taxa)
     if len(collected_taxa_data) == 0:
-        raise ValueError
+        raise ValueError(f'No human annotations for id: {chunk_id}')
     return deduplicate_and_standardise_output_taxa_lists(collected_taxa_data)
 
 
