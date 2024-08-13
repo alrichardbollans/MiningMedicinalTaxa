@@ -72,10 +72,9 @@ def clean_strings(given_str: str):
 
 def standardise_NER_annotations(annotations: list):
     """
-    Standardizes the NER annotations by cleaning the text strings and checking if they are in the given keyword dictionary.
+    Standardizes the NER annotations by cleaning the text strings.
 
     :param annotations: List of annotations dictionary.
-    :param keyword_dict: Dictionary containing keywords.
     :return: None
     """
 
@@ -85,11 +84,10 @@ def standardise_NER_annotations(annotations: list):
 
 def standardise_RE_annotations(annotations: list):
     """
+    Standardizes the RE annotations by cleaning the text strings.
+
     :param annotations: A list of annotation dictionaries representing links between entities.
     :return: None
-
-    This function takes a list of annotation dictionaries and standardizes the annotations by cleaning the text values of entities involved in the links.
-    It also checks the validity of the links and prints a warning message if an invalid link is found.
     """
     for ann in annotations:
         ann['from_entity']['value']['text'] = clean_strings(ann['from_entity']['value']['text'])

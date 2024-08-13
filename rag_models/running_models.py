@@ -12,8 +12,12 @@ from rag_models.rag_prompting import standard_medicinal_prompt
 from rag_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, TaxaData
 
 
-def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = None) -> TaxaData:
+def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = None, single_chunk: bool = True) -> TaxaData:
     text_chunks = read_file_and_chunk(text_file, context_window)
+    if single_chunk:
+        # For most of analysis, will be testing on single chunks as this is how we've annotated them.
+        # In this instance, the chunks should fit in the context window
+        assert len(text_chunks) == 1
     # A few different methods, depending on the specific model are used to get a structured output
     # and this is handled by with_structured_output. See https://python.langchain.com/v0.1/docs/modules/model_io/chat/structured_output/
     extractor = standard_medicinal_prompt | model.with_structured_output(schema=TaxaData, include_raw=False)
@@ -85,7 +89,6 @@ def setup_models():
     # Output $8.1/1M tokens
     model4 = ChatMistralAI(model="mistral-large-latest", temperature=0)
     out['mistral'] = [model4, get_input_size_limit(32)]
-
 
     # TODO: Llama api still experimental and token limit is too small via groq
     # model5 = ChatGroq(model="llama3-70b-8192",

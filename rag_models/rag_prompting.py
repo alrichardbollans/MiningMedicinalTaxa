@@ -2,7 +2,8 @@ from langchain_core.prompts import ChatPromptTemplate
 
 medical_condition_def = ("specific health issues, diseases, or physical states that a plant or fungus is used to treat, "
                          "such as 'diabetes', 'high blood pressure' or 'inflammation'.")
-medicinal_effect_def = "therapeutic effects induced by consuming a plant or fungus, such as 'antitumor', 'anti-inflammatory', or 'digestive stimulant'."
+medicinal_effect_def = ("therapeutic effects induced by consuming a plant or fungus, such as 'antitumor', 'anti-inflammatory', or 'digestive "
+                        "stimulant'.")
 
 standard_medicinal_prompt = ChatPromptTemplate.from_messages(
     [

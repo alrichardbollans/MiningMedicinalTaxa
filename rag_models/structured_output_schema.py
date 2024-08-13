@@ -16,6 +16,7 @@ _repos_path = os.environ.get('KEWSCRATCHPATH')
 annotation_folder = os.path.join(_repos_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'annotations',
                                  'manually_annotated_chunks')
 annotation_info = pd.read_excel(os.path.join(annotation_folder, 'annotated_chunks_list.xlsx'))
+assert annotation_info['reference_only'].unique().tolist() == ['no', 'yes']
 annotation_info = annotation_info[annotation_info['reference_only'] != 'yes']
 
 
@@ -59,7 +60,7 @@ class TaxaData(BaseModel):
 
 
 def deduplicate_and_standardise_output_taxa_lists(taxa: List[Taxon]) -> TaxaData:
-    ''' Clean strings, as in read_annotation_json and then deduplicate results'''
+    """ Clean strings, as in read_annotation_json and then deduplicate results"""
     # TODO: also replace standardise all apostrophes?
     # TODO: test this
     unique_scientific_names = []
@@ -74,10 +75,12 @@ def deduplicate_and_standardise_output_taxa_lists(taxa: List[Taxon]) -> TaxaData
         new_taxon = Taxon(scientific_name=name, medical_conditions=[], medicinal_effects=[])
         for taxon in taxa:
             if clean_strings(taxon.scientific_name) == name:
-                if taxon.medical_conditions is not None:
-                    new_taxon.medical_conditions.extend(taxon.medical_conditions)
-                if taxon.medicinal_effects is not None:
-                    new_taxon.medicinal_effects.extend(taxon.medicinal_effects)
+                for condition in taxon.medical_conditions or []:
+                    if condition == condition and condition.lower() != 'null':
+                        new_taxon.medical_conditions.append(condition)
+                for effect in taxon.medicinal_effects or []:
+                    if effect == effect and effect.lower() != 'null':
+                        new_taxon.medicinal_effects.append(effect)
 
         if len(new_taxon.medical_conditions) == 0:
             new_taxon.medical_conditions = None
@@ -137,6 +140,12 @@ def convert_human_annotations_to_taxa_data_schema(human_ner_annotations, human_r
 
 
 def get_all_human_annotations_for_corpus_id(corpus_id: str, check: bool = True):
+    """
+    For a given corpus_id, get related cleaned and deduplicated human annotations.
+    :param corpus_id:
+    :param check:
+    :return:
+    """
     collected_taxa_data = []
 
     annotation_file = os.path.join(annotation_folder, 'task_for_labelstudio_161880242_228197190_268329601_4187556_360558516_80818116.json')
@@ -155,6 +164,33 @@ def get_all_human_annotations_for_corpus_id(corpus_id: str, check: bool = True):
                                                                                                                                           check=check)
             taxa_data = convert_human_annotations_to_taxa_data_schema(human_ner_annotations1, human_re_annotations1)
             collected_taxa_data.extend(taxa_data.taxa)
+    return deduplicate_and_standardise_output_taxa_lists(collected_taxa_data)
+
+
+def get_all_human_annotations_for_chunk_id(chunk_id: int, check: bool = True):
+    """
+    For a given chunk id, get related cleaned and deduplicated human annotations.
+    :param chunk_id:
+    :param check:
+    :return:
+    """
+    collected_taxa_data = []
+
+    annotation_file = os.path.join(annotation_folder, 'task_for_labelstudio_161880242_228197190_268329601_4187556_360558516_80818116.json')
+
+    with open(annotation_file) as f:
+        d = json.load(f)
+    for ann in d:
+        if ann['id'] == chunk_id:
+            if len(ann['annotations']) > 1:
+                raise ValueError
+            anns = ann['annotations'][0]['result']
+            human_ner_annotations1, human_re_annotations1 = get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(anns,
+                                                                                                                                          check=check)
+            taxa_data = convert_human_annotations_to_taxa_data_schema(human_ner_annotations1, human_re_annotations1)
+            collected_taxa_data.extend(taxa_data.taxa)
+    if len(collected_taxa_data) == 0:
+        raise ValueError
     return deduplicate_and_standardise_output_taxa_lists(collected_taxa_data)
 
 

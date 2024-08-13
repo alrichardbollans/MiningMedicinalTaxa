@@ -30,11 +30,11 @@ def check_human_annotations(human_ner_annotations, human_re_annotations):
             errors.append(f"Too many labels for entry: {entry['from_entity']['value']['labels']} in human annotations")
         from_label = entry['from_entity']['value']['labels'][0]
         if from_label not in TAXON_ENTITY_CLASSES:
-            errors.append(f"Invalid from_entity label '{from_label}' in human annotations")
+            errors.append(f"Invalid from_entity label '{from_label}' for '{entry['from_entity']['value']['text']}' in human annotations")
 
         to_label = entry['to_entity']['value']['labels'][0]
         if to_label not in MEDICINAL_CLASSES:
-            errors.append(f"Invalid to_entity label '{to_label}' in human annotations")
+            errors.append(f"Invalid to_entity label '{to_label}' for '{entry['to_entity']['value']['text']}' in human annotations")
 
         if entry['label'] not in MEDICINAL_RELATIONS:
             errors.append(f"Invalid relation {entry['label']} in human annotations")
@@ -82,11 +82,15 @@ def get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotation
 
     separate_RE_annotations = []
     for ann in re_annotations:
-        for label in ann['labels']:
-            new_annotation = copy.deepcopy(ann)
-            new_annotation['label'] = label
-            del new_annotation['labels']
-            separate_RE_annotations.append(new_annotation)
+        try:
+            for label in ann['labels']:
+                new_annotation = copy.deepcopy(ann)
+                new_annotation['label'] = label
+                del new_annotation['labels']
+                separate_RE_annotations.append(new_annotation)
+        except KeyError:
+            print(ann)
+            raise KeyError
 
     standardise_RE_annotations(separate_RE_annotations)
     if check:
