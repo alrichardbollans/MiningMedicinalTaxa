@@ -5,9 +5,8 @@ import time
 import pandas as pd
 from langchain_openai import ChatOpenAI
 
-from pre_labelling.evaluating import get_metrics_from_tp_fp_fn
 from rag_models.evaluating import NER_evaluation, precise_match, approximate_match, RE_evaluation, check_errors, abbreviated_approximate_match, \
-    abbreviated_precise_match
+    abbreviated_precise_match, get_metrics_from_tp_fp_fn
 from rag_models.running_models import query_a_model, get_input_size_limit, setup_models
 from rag_models.structured_output_schema import get_all_human_annotations_for_corpus_id, annotation_info, get_all_human_annotations_for_chunk_id
 

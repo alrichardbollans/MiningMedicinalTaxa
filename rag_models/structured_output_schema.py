@@ -6,11 +6,10 @@ from typing import Optional, List
 import pandas as pd
 from langchain_core.pydantic_v1 import BaseModel, Field
 
-# TODO: reorganise and check usage of these methods. Should probably be in 'annotated_data' folder
-from pre_labelling.evaluating import clean_strings, check_human_annotations, TAXON_ENTITY_CLASSES, \
-    get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations
 
 from rag_models.rag_prompting import medicinal_effect_def, medical_condition_def
+from useful_string_methods import clean_strings, TAXON_ENTITY_CLASSES, get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations, \
+    check_human_annotations
 
 _repos_path = os.environ.get('KEWSCRATCHPATH')
 annotation_folder = os.path.join(_repos_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'annotations',
