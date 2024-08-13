@@ -8,6 +8,7 @@ import pandas as pd
 
 from rag_models.structured_output_schema import TaxaData
 
+
 def get_metrics_from_tp_fp_fn(true_positives_in_ground_truths: list, true_positives_in_model_annotations: list, false_positives: list,
                               false_negatives: list):
     """
@@ -43,6 +44,7 @@ def get_metrics_from_tp_fp_fn(true_positives_in_ground_truths: list, true_positi
         f1_score = np.nan
     return precision, recall, f1_score
 
+
 def abbreviate(name1: str) -> str:
     """
     Return given name with first word abbreviated, if there are multiple words.
@@ -73,7 +75,7 @@ def abbreviated_approximate_match(name1: str, name2: str):
         return False
 
 
-def precise_match(name1: str, name2: str):
+def precise_match(name1: str, name2: str, allow_any_start_point=None):
     """
 
     """
@@ -86,7 +88,7 @@ def precise_match(name1: str, name2: str):
         return False
 
 
-def approximate_match(name1: str, name2: str):
+def approximate_match(name1: str, name2: str, allow_any_start_point: bool = False):
     """
 
     """
@@ -96,13 +98,15 @@ def approximate_match(name1: str, name2: str):
     def get_succesive_combinations_of_words(namelist):
         possible_splits = []
         for i in range(len(namelist)):
-            # if i > 0:
-            #     for j in range(i):
-            #         possible_splits.append(' '.join(namelist[j:i + 1]))
-            #     possible_splits.append(namelist[i])
-            # else:
-            #     possible_splits.append(' '.join(namelist[:i + 1]))
-            possible_splits.append(' '.join(namelist[:i + 1]))
+            if allow_any_start_point:
+                if i > 0:
+                    for j in range(i):
+                        possible_splits.append(' '.join(namelist[j:i + 1]))
+                    possible_splits.append(namelist[i])
+                else:
+                    possible_splits.append(' '.join(namelist[:i + 1]))
+            else:
+                possible_splits.append(' '.join(namelist[:i + 1]))
         return possible_splits
 
     possible_2_splits = get_succesive_combinations_of_words(name2_split)
@@ -110,6 +114,8 @@ def approximate_match(name1: str, name2: str):
 
     cleaned_name1 = ' '.join(name1_split)
     cleaned_name2 = ' '.join(name2_split)
+    if allow_any_start_point:
+        print(name1)
     if cleaned_name1 in possible_2_splits or cleaned_name2 in possible_1_splits:
         return True
     else:
@@ -175,7 +181,7 @@ def RE_evaluation(model_annotations: TaxaData, ground_truth_annotations: TaxaDat
             for g in ground_truth_annotations.taxa:
                 if NER_matching_method(model_ann.scientific_name, g.scientific_name):
                     for ground_med_condition in getattr(g, relationship) or []:
-                        if RE_matching_method(model_med_cond, ground_med_condition):
+                        if RE_matching_method(model_med_cond, ground_med_condition, allow_any_start_point=True):
                             model_string = '_'.join([model_ann.scientific_name, model_med_cond])
                             if model_string not in true_positives_in_model_annotations:
                                 true_positives_in_model_annotations.append(model_string)
@@ -196,7 +202,7 @@ def RE_evaluation(model_annotations: TaxaData, ground_truth_annotations: TaxaDat
                 for g in ground_truth_annotations.taxa:
                     if NER_matching_method(model_ann.scientific_name, g.scientific_name):
                         for ground_med_condition in getattr(g, relationship) or []:
-                            if RE_matching_method(model_med_cond, ground_med_condition):
+                            if RE_matching_method(model_med_cond, ground_med_condition, allow_any_start_point=True):
                                 found = True
                 if not found:
                     false_positives.append(model_string)
@@ -214,7 +220,7 @@ def RE_evaluation(model_annotations: TaxaData, ground_truth_annotations: TaxaDat
                 for m in model_annotations.taxa:
                     if NER_matching_method(m.scientific_name, g.scientific_name):
                         for m_med_condition in getattr(m, relationship) or []:
-                            if RE_matching_method(m_med_condition, gt_med_cond):
+                            if RE_matching_method(m_med_condition, gt_med_cond, allow_any_start_point=True):
                                 found = True
                 if not found:
                     false_negatives.append(ground_truth_string)
