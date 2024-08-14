@@ -92,8 +92,21 @@ def approximate_match(name1: str, name2: str, allow_any_start_point: bool = Fals
     """
 
     """
-    name1_split = [word.strip(string.punctuation) for word in name1.split()]
-    name2_split = [word.strip(string.punctuation) for word in name2.split()]
+    # When allow_any_start_point is set to true, i.e. for relationships and not scientific names, remove '-' as these are sometimes used across line-
+    # breaks
+    if allow_any_start_point:
+        name1_to_use = name1.replace('-', '')
+        name2_to_use = name2.replace('-', '')
+    else:
+        name1_to_use = name1
+        name2_to_use = name2
+
+    name1_split = [word.strip(string.punctuation) for word in name1_to_use.split()]
+    name2_split = [word.strip(string.punctuation) for word in name2_to_use.split()]
+    if '' in name1_split:
+        name1_split.remove('')
+    if '' in name2_split:
+        name2_split.remove('')
 
     def get_succesive_combinations_of_words(namelist):
         possible_splits = []
@@ -114,8 +127,6 @@ def approximate_match(name1: str, name2: str, allow_any_start_point: bool = Fals
 
     cleaned_name1 = ' '.join(name1_split)
     cleaned_name2 = ' '.join(name2_split)
-    if allow_any_start_point:
-        print(name1)
     if cleaned_name1 in possible_2_splits or cleaned_name2 in possible_1_splits:
         return True
     else:

@@ -12,6 +12,17 @@ class TestApproximateMatch(unittest.TestCase):
     def test_name1_in_name2(self):
         self.assertTrue(approximate_match('John', 'John Doe'))
 
+    def test_start_point_and_punctuation(self):
+        self.assertFalse(approximate_match('John-Doe', 'JohnDoe'))
+        self.assertTrue(approximate_match('John- Doe', 'John Doe'))
+        self.assertTrue(approximate_match('John - Doe', 'John Doe'))
+
+        self.assertTrue(approximate_match('John-Doe', 'JohnDoe', allow_any_start_point=True))
+        self.assertTrue(approximate_match('John- Doe', 'John Doe', allow_any_start_point=True))
+        self.assertTrue(approximate_match('John - Doe', 'John Doe', allow_any_start_point=True))
+
+
+
     def test_name2_in_name1(self):
         self.assertTrue(approximate_match('John Doe', 'John'))
         self.assertTrue(approximate_match('John (Doe', 'John Doe'))
