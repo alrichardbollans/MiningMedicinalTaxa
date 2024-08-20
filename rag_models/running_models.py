@@ -23,9 +23,13 @@ def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = No
             {"max_concurrency": 1},  # limit the concurrency by passing max concurrency! Otherwise Requests rate limit exceeded
         )
     except langchain_core.exceptions.OutputParserException as e:
-        print(e)
-        # TODO: Resolve
-        raise ValueError(f'resovlve this. Think it happens because json is too big. Resolve by making chunks smaller (less info)')
+        # When there is too much info extracted the extractor can't parse the output json, so make chunks smaller.
+        # This is a temporary fix
+        new_chunks = read_file_and_chunk(text_file, int(context_window / 2))
+        extractions = extractor.batch(
+            [{"text": text} for text in new_chunks],
+            {"max_concurrency": 1},  # limit the concurrency by passing max concurrency! Otherwise Requests rate limit exceeded
+        )
     # output = extractor.invoke({'text': text})
     output = []
 
@@ -53,7 +57,7 @@ def setup_models():
     from langchain_google_vertexai import ChatVertexAI
     from langchain_mistralai import ChatMistralAI
     from langchain_openai import ChatOpenAI
-    from langchain_groq import ChatGroq
+    # from langchain_groq import ChatGroq
 
     # Get API keys
     from dotenv import load_dotenv
@@ -64,10 +68,12 @@ def setup_models():
     # Try to use the best from each company
     # If any work particularly well then also test cheaper versions e.g. gpt-mini, claude haiku
 
+    hparams = {'temperature': 0}
+
     # Max tokens 128k
     # Input: $5.00 /1M tokens
     # Output $15.00 /1M tokens
-    model1 = ChatOpenAI(model="gpt-4o", temperature=0)
+    model1 = ChatOpenAI(model="gpt-4o", **hparams)
     out['gpt4o'] = [model1, get_input_size_limit(128)]
 
     # Auth seems to work now
@@ -82,25 +88,35 @@ def setup_models():
     # REGION = "europe-west2"  # @param {type:"string"}
     # # # Initialize Vertex AI SDK
     # vertexai.init(project=PROJECT_ID, location=REGION)
-    model2 = ChatVertexAI(model="gemini-1.5-pro-001", temperature=0)
+    model2 = ChatVertexAI(model="gemini-1.5-pro-001", **hparams)
     out['gemini'] = [model2, get_input_size_limit(128)]
 
     # Max tokens 200k
     # Input: $3 / MTok
     # Output $15 / MTok
-    model3 = ChatAnthropic(model="claude-3-5-sonnet-20240620", temperature=0)
+    model3 = ChatAnthropic(model="claude-3-5-sonnet-20240620", **hparams)
     out['gpt4o'] = [model3, get_input_size_limit(200)]
 
     # Max tokens 32k
     # Input: $4/1M tokens
     # Output $8.1/1M tokens
-    model4 = ChatMistralAI(model="mistral-large-latest", temperature=0)
+    model4 = ChatMistralAI(model="mistral-large-latest", **hparams)
     out['mistral'] = [model4, get_input_size_limit(32)]
 
-    # TODO: Llama api still experimental and token limit is too small via groq
+    # Llama api still experimental and token limit is too small via groq
     # model5 = ChatGroq(model="llama3-70b-8192",
-    #                   temperature=0)
+    #                   **hparams)
     # out['llama'] = [model5, get_input_size_limit(8)]
+
+    # Llama 3.1 405B Instruct
+    # Max tokens 131k
+    # Input/Output: $3/1M tokens
+
+    from langchain_fireworks import ChatFireworks
+
+    model5 = ChatFireworks(
+        model="accounts/fireworks/models/llama-v3p1-405b-instruct", **hparams)
+    out['llama'] = [model5, get_input_size_limit(131)]
 
     return out
 
@@ -108,9 +124,10 @@ def setup_models():
 if __name__ == '__main__':
     models = setup_models()
 
-    example_model_name = 'gemini'
+    example_model_name = 'llama'
     repo_path = os.environ.get('KEWSCRATCHPATH')
     base_text_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'text_files')
 
-    example_model_outputs = query_a_model(models[example_model_name][0], os.path.join(base_text_path, '4187756.txt'), models[example_model_name][1])
+    example_model_outputs = query_a_model(models[example_model_name][0], os.path.join(base_text_path, '4187756.txt'), models[example_model_name][1],
+                                          single_chunk=False)
     print(example_model_outputs)
