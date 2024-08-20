@@ -1,15 +1,20 @@
 import os
 import pickle
 import time
+from collections.abc import Callable
 
+import matplotlib.pyplot as plt
 import pandas as pd
-from langchain_openai import ChatOpenAI
+import seaborn as sns
 
 from rag_models.evaluating import NER_evaluation, precise_match, approximate_match, RE_evaluation, check_errors, abbreviated_approximate_match, \
     abbreviated_precise_match, get_metrics_from_tp_fp_fn
 from rag_models.running_models import query_a_model, get_input_size_limit, setup_models
 from rag_models.structured_output_schema import get_all_human_annotations_for_corpus_id, annotation_info, get_all_human_annotations_for_chunk_id
 
+repo_path = os.environ.get('KEWSCRATCHPATH')
+base_text_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'text_files')
+base_chunk_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'chunks', 'all_chunks')
 
 def _get_chunks_to_tweak_with():
     raise ValueError('Are you sure you want to redefine?')
@@ -42,13 +47,13 @@ def get_chunk_filepath_from_chunk_id(chunk_id: int):
     return os.path.join(base_chunk_path, name)
 
 
-def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun: bool = True):
+def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun: bool = True, model_query_function:Callable =None):
     """
     Given a list of chunk ids, runs the model on each chunk and collects outputs
     :param chunk_list:
     :param model:
     :param context_window:
-    :param rerun:
+    :param rerun: Whether to query the model again, or used cached results
     :return:
     """
     if rerun:
@@ -75,8 +80,12 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
         human_annotations = get_all_human_annotations_for_chunk_id(chunk_id, check=True)
         pkl_file = os.path.join('outputs', 'model_pkls', f'{str(chunk_id)}_{model.model_name}_outputs.pickle')
         if rerun:
-            query_a_model(model, get_chunk_filepath_from_chunk_id(chunk_id),
-                          context_window, pkl_file)
+            if model_query_function is None:
+                query_a_model(model, get_chunk_filepath_from_chunk_id(chunk_id),
+                              context_window, pkl_file)
+            else:
+                model_query_function(model, get_chunk_filepath_from_chunk_id(chunk_id),
+                              context_window, pkl_file)
 
         model_outputs = pickle.load(open(pkl_file, "rb", -1))
         check_errors(model_outputs, human_annotations, os.path.join('outputs', 'model_errors'), chunk_id, model.model_name)
@@ -189,20 +198,46 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
     print(f'precision:{approximateMedEffprecision}, recall:{approximateMedEffrecall}, f1:{approximateMedEfff1_score}')
 
     out_df = {'Precise NER': [precise_NER_precision, precise_NER_recall, precise_NER_f1_score],
-              'Approximate NER': [approximate_NER_precision, approximate_NER_recall, approximate_NER_f1_score],
+              'Approx. NER': [approximate_NER_precision, approximate_NER_recall, approximate_NER_f1_score],
               'Precise MedCond': [preciseMedCondprecision, preciseMedCondrecall, preciseMedCondf1_score],
-              'Approximate MedCond': [approximateMedCondprecision, approximateMedCondrecall, approximateMedCondf1_score],
+              'Approx. MedCond': [approximateMedCondprecision, approximateMedCondrecall, approximateMedCondf1_score],
               'Precise MedEff': [preciseMedEffprecision, preciseMedEffrecall, preciseMedEfff1_score],
-              'Approximate MedEff': [approximateMedEffprecision, approximateMedEffrecall, approximateMedEfff1_score]}
+              'Approx. MedEff': [approximateMedEffprecision, approximateMedEffrecall, approximateMedEfff1_score]}
     out_df = pd.DataFrame(out_df, index=['precision', 'recall', 'f1'])
     out_df.to_csv(os.path.join(out_dir, model.model_name + '_results.csv'))
 
 
+def basic_plot_results(file_to_plot, out_dir, model_name):
+    out_df = pd.read_csv(file_to_plot, index_col=0)
+    sns.heatmap(out_df, annot=True, cmap='viridis')
+    plt.xticks(rotation=45,ha='right', rotation_mode='anchor')
+    plt.tight_layout()
+    plt.savefig(os.path.join(out_dir, model_name + '_results.png'), dpi=300)
+    plt.close()
+
+def plot_results(file_info, out_dir):
+    pairs = ['Precise NER', 'Approx. NER','Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
+    for p in pairs:
+        df = pd.DataFrame()
+        for model_name in file_info:
+            out_df = pd.read_csv(file_info[model_name][0], index_col=0)[[p]]
+            out_df = out_df.rename(columns={p: model_name})
+            df = pd.concat([df, out_df], axis=1)
+        sns.heatmap(df, annot=True, cmap='viridis')
+        plt.title(p)
+
+        plt.tight_layout()
+        plt.savefig(os.path.join(out_dir, p+'_results.png'), dpi=300)
+        plt.close()
+
 def assessing_hparams():
+    from langchain_openai import ChatOpenAI
+
     # This is a minimal process and more about getting the model to run and output something sensible than actual performance.
     from dotenv import load_dotenv
 
     load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'rag_models', '.env'))
+
     model1 = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
     assess_model_on_chunk_list(train['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=False)
 
@@ -221,12 +256,13 @@ def evaluate_on_all_papers():
 
 def main():
     assessing_hparams()
-
+    basic_plot_results(os.path.join('hparam_runs', 'gpt-3.5-turbo-0125_results.csv'), 'hparam_runs', 'gpt-3.5-turbo')
+    basic_plot_results(os.path.join('outputs', 'gpt-4o_results.csv'), 'outputs', 'gpt-4o')
+    plot_results({'gpt-3.5-turbo':[os.path.join('hparam_runs', 'gpt-3.5-turbo-0125_results.csv')],
+                        'gpt-4o':[os.path.join('outputs', 'gpt-4o_results.csv')]}, 'hparam_runs')
 
 if __name__ == '__main__':
     # _get_chunks_to_tweak_with()
     train = pd.read_csv(os.path.join('outputs', 'for_hparam_tuning.csv'))
-    repo_path = os.environ.get('KEWSCRATCHPATH')
-    base_text_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'text_files')
-    base_chunk_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'chunks', 'all_chunks')
+
     main()

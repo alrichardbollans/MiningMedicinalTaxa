@@ -15,7 +15,8 @@ def get_metrics_from_tp_fp_fn(true_positives_in_ground_truths: list, true_positi
     Calculate precision, recall, and F1 score given lists of true positives (TP), false positives (FP),
     and false negatives (FN).
 
-    :param true_positives: The number of true positives.
+    :param true_positives_in_model_annotations: The number of true positives within the model annotations.
+    :param true_positives_in_ground_truths: The number of true positives within the human annotations.
     :param false_positives: The number of false positives.
     :param false_negatives: The number of false negatives.
     :return: A tuple containing the precision, recall, and F1 score.
@@ -62,6 +63,11 @@ def abbreviate(name1: str) -> str:
 
 
 def abbreviated_precise_match(name1: str, name2: str):
+    """
+    :param name1: The first name to compare.
+    :param name2: The second name to compare.
+    :return: True if name1 is an exact match or an abbreviation of name2, or if name2 is an abbreviation of name1. False otherwise.
+    """
     if name1 == name2 or abbreviate(name1) == name2 or abbreviate(name2) == name1:
         return True
     else:
@@ -69,6 +75,13 @@ def abbreviated_precise_match(name1: str, name2: str):
 
 
 def abbreviated_approximate_match(name1: str, name2: str):
+    """
+    Function to check for an approximate match between two names, including name abbreviations.
+
+    :param name1: The first name to compare.
+    :param name2: The second name to compare.
+    :return: True if there is an abbreviated approximate match, False otherwise.
+    """
     if approximate_match(name1, name2) or approximate_match(abbreviate(name1), name2) or approximate_match(abbreviate(name2), name1):
         return True
     else:
@@ -77,6 +90,15 @@ def abbreviated_approximate_match(name1: str, name2: str):
 
 def precise_match(name1: str, name2: str, allow_any_start_point=None):
     """
+    The `precise_match` function checks whether two given names are an exact match.
+
+    :param name1: The first name to compare.
+    :param name2: The second name to compare.
+    :param allow_any_start_point: Unused. Defaults to None.
+    :return: True if the names are an exact match, False otherwise.
+
+    Raises:
+        ValueError: If any of the names is not in lower case.
 
     """
     if name1.lower() != name1.lower() or name2.lower() != name2.lower():
@@ -90,6 +112,14 @@ def precise_match(name1: str, name2: str, allow_any_start_point=None):
 
 def approximate_match(name1: str, name2: str, allow_any_start_point: bool = False):
     """
+    :param name1: The first name to compare
+    :param name2: The second name to compare
+    :param allow_any_start_point: [Optional] If set to True, remove '-' as they are sometimes used across line breaks for relationships. And look for any overlap.
+     Default is False.
+    :return: True if a partial match is found, False otherwise
+
+    This function compares two names and returns True if a partial match is found.
+    It checks for possible combinations of words in each name and compares them to find if there is any overlap.
 
     """
     # When allow_any_start_point is set to true, i.e. for relationships and not scientific names, remove '-' as these are sometimes used across line-
