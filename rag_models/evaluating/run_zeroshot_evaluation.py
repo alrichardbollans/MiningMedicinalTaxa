@@ -8,13 +8,14 @@ import pandas as pd
 import seaborn as sns
 
 from rag_models.evaluating import NER_evaluation, precise_match, approximate_match, RE_evaluation, check_errors, abbreviated_approximate_match, \
-    abbreviated_precise_match, get_metrics_from_tp_fp_fn
+    abbreviated_precise_match, get_metrics_from_tp_fp_fn, clean_model_annotations_using_taxonomy_knowledge
 from rag_models.running_models import query_a_model, get_input_size_limit, setup_models
 from rag_models.structured_output_schema import get_all_human_annotations_for_corpus_id, annotation_info, get_all_human_annotations_for_chunk_id
 
 repo_path = os.environ.get('KEWSCRATCHPATH')
 base_text_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'text_files')
 base_chunk_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'chunks', 'all_chunks')
+
 
 def _get_chunks_to_tweak_with():
     raise ValueError('Are you sure you want to redefine?')
@@ -47,9 +48,12 @@ def get_chunk_filepath_from_chunk_id(chunk_id: int):
     return os.path.join(base_chunk_path, name)
 
 
-def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun: bool = True, model_query_function:Callable =None):
+def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun: bool = True, autoremove_non_sci_names: bool = False,
+                               model_query_function: Callable = None):
     """
     Given a list of chunk ids, runs the model on each chunk and collects outputs
+    :param autoremove_non_sci_names: Whether to use taxonomy knowledge to remove non-scientific name hits from the model outputs
+    :param model_query_function: Function to call to query the model
     :param chunk_list:
     :param model:
     :param context_window:
@@ -75,7 +79,9 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
      all_preciseMedEfffalse_negatives) = [], [], [], []
     (all_approxMedEfftrue_positives_in_ground_truths, all_approxMedEfftrue_positives_in_model_annotations, all_approxMedEfffalse_positives,
      all_approxMedEfffalse_negatives) = [], [], [], []
-
+    model_tag = model.model_name
+    if autoremove_non_sci_names:
+        model_tag += '_autoremove_non_sci_names'
     for chunk_id in chunk_list:
         human_annotations = get_all_human_annotations_for_chunk_id(chunk_id, check=True)
         pkl_file = os.path.join('outputs', 'model_pkls', f'{str(chunk_id)}_{model.model_name}_outputs.pickle')
@@ -85,10 +91,14 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
                               context_window, pkl_file)
             else:
                 model_query_function(model, get_chunk_filepath_from_chunk_id(chunk_id),
-                              context_window, pkl_file)
+                                     context_window, pkl_file)
 
         model_outputs = pickle.load(open(pkl_file, "rb", -1))
-        check_errors(model_outputs, human_annotations, os.path.join('outputs', 'model_errors'), chunk_id, model.model_name)
+
+        if autoremove_non_sci_names:
+            model_outputs = clean_model_annotations_using_taxonomy_knowledge(model_outputs)
+
+        check_errors(model_outputs, human_annotations, os.path.join('outputs', 'model_errors'), chunk_id, model_tag)
 
         ### NER
         precise_NER_true_positives_in_ground_truths, precise_NER_true_positives_in_model_annotations, precise_NER_false_positives, precise_NER_false_negatives = NER_evaluation(
@@ -204,19 +214,20 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
               'Precise MedEff': [preciseMedEffprecision, preciseMedEffrecall, preciseMedEfff1_score],
               'Approx. MedEff': [approximateMedEffprecision, approximateMedEffrecall, approximateMedEfff1_score]}
     out_df = pd.DataFrame(out_df, index=['precision', 'recall', 'f1'])
-    out_df.to_csv(os.path.join(out_dir, model.model_name + '_results.csv'))
+    out_df.to_csv(os.path.join(out_dir, model_tag + '_results.csv'))
 
 
 def basic_plot_results(file_to_plot, out_dir, model_name):
     out_df = pd.read_csv(file_to_plot, index_col=0)
     sns.heatmap(out_df, annot=True, cmap='viridis')
-    plt.xticks(rotation=45,ha='right', rotation_mode='anchor')
+    plt.xticks(rotation=45, ha='right', rotation_mode='anchor')
     plt.tight_layout()
     plt.savefig(os.path.join(out_dir, model_name + '_results.png'), dpi=300)
     plt.close()
 
+
 def plot_results(file_info, out_dir):
-    pairs = ['Precise NER', 'Approx. NER','Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
+    pairs = ['Precise NER', 'Approx. NER', 'Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
     for p in pairs:
         df = pd.DataFrame()
         for model_name in file_info:
@@ -227,8 +238,9 @@ def plot_results(file_info, out_dir):
         plt.title(p)
 
         plt.tight_layout()
-        plt.savefig(os.path.join(out_dir, p+'_results.png'), dpi=300)
+        plt.savefig(os.path.join(out_dir, p + '_results.png'), dpi=300)
         plt.close()
+
 
 def assessing_hparams():
     from langchain_openai import ChatOpenAI
@@ -258,8 +270,9 @@ def main():
     assessing_hparams()
     basic_plot_results(os.path.join('hparam_runs', 'gpt-3.5-turbo-0125_results.csv'), 'hparam_runs', 'gpt-3.5-turbo')
     basic_plot_results(os.path.join('outputs', 'gpt-4o_results.csv'), 'outputs', 'gpt-4o')
-    plot_results({'gpt-3.5-turbo':[os.path.join('hparam_runs', 'gpt-3.5-turbo-0125_results.csv')],
-                        'gpt-4o':[os.path.join('outputs', 'gpt-4o_results.csv')]}, 'hparam_runs')
+    plot_results({'gpt-3.5-turbo': [os.path.join('hparam_runs', 'gpt-3.5-turbo-0125_results.csv')],
+                  'gpt-4o': [os.path.join('outputs', 'gpt-4o_results.csv')]}, 'hparam_runs')
+
 
 if __name__ == '__main__':
     # _get_chunks_to_tweak_with()

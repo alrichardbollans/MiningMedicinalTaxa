@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 
 from rag_models.structured_output_schema import TaxaData
+from useful_string_methods import filter_name_list_using_sci_names
 
 
 def get_metrics_from_tp_fp_fn(true_positives_in_ground_truths: list, true_positives_in_model_annotations: list, false_positives: list,
@@ -294,11 +295,13 @@ def check_errors(model_annotations: TaxaData, ground_truth_annotations: TaxaData
 
 
 def clean_model_annotations_using_taxonomy_knowledge(model_annotations: TaxaData):
-    ## Set up as an assessment of performance when we autoremove names that don't appear in taxonomic lists (this will better reflect usage).
-    new_taxa_list = []
-    kword_dict = get_kword_dict()
+    old_taxa_list = []
+    for m in model_annotations.taxa:
+        old_taxa_list.append(m.scientific_name)
+    new_taxa_list = filter_name_list_using_sci_names(old_taxa_list)
+    new_anns = []
     for model_ann in model_annotations.taxa:
-        if any(approximate_match(model_ann.scientific_name, x) for x in all_names):
-            new_taxa_list.append(model_ann)
+        if model_ann.scientific_name in new_taxa_list:
+            new_anns.append(model_ann)
 
-    return TaxaData(taxa=new_taxa_list)
+    return TaxaData(taxa=new_anns)

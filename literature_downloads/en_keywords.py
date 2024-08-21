@@ -27,7 +27,7 @@ def get_kword_dict():
 
     for f in txt_files:
         # Open each text file
-        with open(os.path.join(folder, f), encoding = 'utf-8') as file:
+        with open(os.path.join(folder, f), encoding='utf-8') as file:
             # Read content into list
             words = file.read().splitlines()
 
@@ -44,6 +44,7 @@ def summarise_keywords(keyword_dict: dict, name: str):
     out_df = pd.DataFrame.from_dict(out_dict, orient='index')
     out_df.to_csv(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', 'summaries',
                                name + '_keywords_summary.csv'))
+
 
 
 if __name__ == '__main__':
@@ -72,7 +73,7 @@ if __name__ == '__main__':
     _pnaps = _pnaps_df['simplified_names'].unique().tolist()
 
     # Plant Checklist
-    _all_taxa = get_all_taxa()
+    _all_taxa = get_all_taxa(version='12')
     _genus_names = _all_taxa[wcvp_columns['genus']].dropna().unique().tolist() + _ipni_genera
     _family_names = _all_taxa[wcvp_columns['family']].dropna().unique().tolist() + _ipni_families
     _species_binomial_names = _all_taxa[_all_taxa[wcvp_columns['rank']] == 'Species'][
@@ -101,6 +102,26 @@ if __name__ == '__main__':
             if _w not in ['or', 'cl', 'somewhat', 'sometimes']:
                 _lifeforms.append(_w)
     _lifeforms = list(set(_lifeforms))
+
+
+    def _tidy_list(l, _words_to_exclude=None) -> List:
+        """
+        Tidy a list by converting all elements to lowercase, removing leading and trailing whitespace,
+        and removing any elements that match the provided exclusion list.
+
+        :param l: The list to tidy.
+        :param _words_to_exclude: The list of words to exclude from the tidied list. Defaults to an empty list if not provided.
+        :return: The tidied list, with elements converted to lowercase, whitespace removed, and excluded words removed.
+
+        Example:
+            >>> _tidy_list(["   apple  ", "ORANGE", " grape ", " Banana "], _words_to_exclude=["apple", "banana"])
+            ["orange", "grape"]
+
+        """
+        if _words_to_exclude is None:
+            _words_to_exclude = []
+        return list(sorted(set([x.lower().strip() for x in l if x.lower() not in _words_to_exclude])))
+
 
     import inflect
 
@@ -143,11 +164,7 @@ if __name__ == '__main__':
         for w in list_of_words:
             forms += get_varied_form_of_word(w)
         out = [x.lower() for x in forms]
-        return tidy_list(out)
-
-
-    def tidy_list(l) -> List:
-        return list(sorted(set([x.lower().strip() for x in l if x.lower() not in words_to_exclude])))
+        return _tidy_list(out, _words_to_exclude=words_to_exclude)
 
 
     def _get_keywords_from_df(df: pd.DataFrame):
@@ -175,10 +192,10 @@ if __name__ == '__main__':
     _kingdom_specific_keyword_dict = _get_keywords_from_df(_kingdom_kwords_df)
     _kingdom_specific_keyword_dict['lifeform'] = get_varied_forms(_lifeforms)
 
-    out_keyword_dict = {'plant_family_names': tidy_list(_family_names), 'plant_genus_names': tidy_list(_genus_names),
-                        'plant_species_binomials': tidy_list(_species_binomial_names),
-                        'fungi_family_names': tidy_list(_fungi_family_names), 'fungi_genus_names': tidy_list(_fungi_genus_names),
-                        'fungi_species_binomials': tidy_list(_fungi_species_binomial_names)
+    out_keyword_dict = {'plant_family_names': _tidy_list(_family_names), 'plant_genus_names': _tidy_list(_genus_names),
+                        'plant_species_binomials': _tidy_list(_species_binomial_names),
+                        'fungi_family_names': _tidy_list(_fungi_family_names), 'fungi_genus_names': _tidy_list(_fungi_genus_names),
+                        'fungi_species_binomials': _tidy_list(_fungi_species_binomial_names)
                         }
     out_keyword_dict.update(_product_keyword_dict)
     out_keyword_dict.update(_kingdom_specific_keyword_dict)

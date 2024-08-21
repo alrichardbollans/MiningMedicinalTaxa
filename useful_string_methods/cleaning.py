@@ -1,8 +1,6 @@
 import os
 import re
 
-from typing import List
-
 
 def retrieve_text_before_phrase(given_text: str, simple_string: str, check_position_of_phrase: bool = False) -> str:
     # Split by looking for an instance of simple_string (ignoring case) begins a line on its own (or with line numbers) followed by any amount of

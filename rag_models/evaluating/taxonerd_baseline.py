@@ -49,9 +49,11 @@ def query_taxonerd(model, text_file: str, context_window: int, pkl_dump: str = N
 
 def full_evaluation():
     test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
-    taxon_test_model = NERModel("en_ner_eco_biobert")
     assess_model_on_chunk_list(test['id'].unique().tolist(), taxon_test_model, 99999999999999999, 'outputs',
-                               model_query_function=query_taxonerd)
+                               model_query_function=query_taxonerd, autoremove_non_sci_names=False)
+
+    assess_model_on_chunk_list(test['id'].unique().tolist(), taxon_test_model, 99999999999999999, 'outputs',
+                               model_query_function=query_taxonerd, autoremove_non_sci_names=True)
     # TODO: Check RE metrics =0
     # TODO: Fix entity linking. See (https://github.com/nleguillarme/taxonerd/issues/15)
 
@@ -60,5 +62,11 @@ if __name__ == '__main__':
     from taxonerd import TaxoNERD
 
     taxonerd = TaxoNERD(prefer_gpu=False)
-    taxonerd_ner_model = taxonerd.load(model="en_ner_eco_biobert", exclude=[], linker='gbif_backbone')
+
+    # taxonerd_ner_model = taxonerd.load(model="en_ner_eco_biobert", exclude=[], linker='gbif_backbone')
+    # taxon_test_model = NERModel("en_ner_eco_biobert_gbif_linker")
+    # full_evaluation()
+
+    taxonerd_ner_model = taxonerd.load(model="en_ner_eco_biobert", exclude=[])
+    taxon_test_model = NERModel("en_ner_eco_biobert")
     full_evaluation()
