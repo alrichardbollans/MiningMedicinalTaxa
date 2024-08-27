@@ -28,6 +28,7 @@ def check_taxon_is_known_name(given_taxon: str) -> bool:
 
 
 def check_name_and_relation_are_in_text(text: str, taxon_name: str, condition_or_effect: str) -> bool:
+    lower_text = text.lower() # taxon names are cleaned by lowercasing
     pass
 
 

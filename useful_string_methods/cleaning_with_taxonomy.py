@@ -4,19 +4,38 @@ from typing import List
 from wcvpy.wcvp_name_matching import get_genus_from_full_name
 
 from useful_string_methods import clean_strings
+from wcvpy.wcvp_download import hybrid_characters
 
 scratch_path = os.environ.get('KEWSCRATCHPATH')
 
-def filter_name_list_using_sci_names(list_of_possible_sci_names: List[str]):
+def abbreviate_sci_name(name1: str) -> str:
     """
-    Filters a given list of possible scientific names, returning a new list of scientific names.
+    Return given name with first word abbreviated, if there are multiple words.
+    :param name1:
+    :return:
+    """
+    words = name1.split()
+    if len(words) < 2:
+        return name1
+    else:
+        if words[0] in hybrid_characters:
+            if len(words) < 3:
+                return name1
+            else:
+                words[1] = words[1][0] + '.'
+        else:
+            words[0] = words[0][0] + '.'
+        return ' '.join(words)
+
+def _filter_name_list_using_genus_names(list_of_possible_sci_names: List[str]):
+    """
+    Filters a given list of possible scientific names, returning a list of scientific names.
 
     A name is counted as 'scientific' if the first word matches a known genus name.
 
     :param list_of_possible_sci_names: A list of strings representing possible scientific names.
     :return: A list of strings representing scientific names that match the criteria.
     """
-    from wcvpy.wcvp_download import hybrid_characters
 
     def _tidy_list(l):
         return set([clean_strings(get_genus_from_full_name(x)) for x in l])
@@ -26,7 +45,7 @@ def filter_name_list_using_sci_names(list_of_possible_sci_names: List[str]):
     _genus_names = []
     for g in ['fungi', 'plant']:
         with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', g + '_genus_names_keywords.txt'),
-                  'r') as file:
+                  'r', encoding="utf8") as file:
             _genus_names.extend(file.read().splitlines())
 
     _genus_names = _tidy_list(_genus_names)
@@ -46,3 +65,60 @@ def filter_name_list_using_sci_names(list_of_possible_sci_names: List[str]):
         if clean_strings(get_genus_from_full_name(name)) in sci_name_matches:
             final_names.append(name)
     return final_names
+
+
+def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
+    """
+    Filters a list of scientific names based on their species names.
+
+    :param list_of_possible_sci_names: A list of strings representing scientific names.
+    :return: A list of strings representing scientific names that match species names.
+    """
+    def tidy_name(x):
+        w = clean_strings(abbreviate_sci_name(x))
+        words = w.split()
+        if words[0] in hybrid_characters:
+            return ' '.join(words[:3])
+        else:
+            return ' '.join(words[:2])
+    def _tidy_list(l):
+        return set([tidy_name(x) for x in l])
+
+    cleaned_list = _tidy_list(list_of_possible_sci_names)
+
+    sci_name_matches = []
+    _genus_names = []
+    for g in ['fungi', 'plant']:
+        with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', g + '_species_binomials_keywords.txt'),
+                  'r', encoding="utf8") as file:
+            _genus_names.extend(file.read().splitlines())
+
+    _genus_names = _tidy_list(_genus_names)
+    initial_matches = cleaned_list.intersection(_genus_names)
+
+    sci_name_matches.extend(initial_matches)
+
+    final_names = []
+    for name in list_of_possible_sci_names:
+        if tidy_name(name) in sci_name_matches:
+            final_names.append(name)
+    return final_names
+
+def filter_name_list_using_sci_names(list_of_possible_sci_names: List[str]):
+    """
+    Filters a given list of possible scientific names, returning a list of scientific names.
+
+    A name is counted as 'scientific' if the first word matches a known genus name,
+    or if the first word abbreviated + the second word is a binomial name
+
+    :param list_of_possible_sci_names: A list of strings representing possible scientific names.
+    :return: A list of strings representing scientific names that match the criteria.
+    """
+
+    genus_matches = _filter_name_list_using_genus_names(list_of_possible_sci_names)
+    remaining = [c for c in list_of_possible_sci_names if c not in genus_matches]
+    if len(remaining)>0:
+        binom_matches = filter_name_list_with_species_names(remaining)
+    else:
+        binom_matches = []
+    return genus_matches + binom_matches

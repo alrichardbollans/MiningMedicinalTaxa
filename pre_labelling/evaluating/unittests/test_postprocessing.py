@@ -52,14 +52,6 @@ class LowercaseTest(unittest.TestCase):
         self.assertIsNone(post_processing_methods.lowercase(None), None)
 
 
-class TestPostProcessingMethods(unittest.TestCase):
-    def test_clean_strings(self):
-        self.assertEqual(post_processing_methods.clean_strings("Hello World!! "), "hello world")
-        self.assertEqual(post_processing_methods.clean_strings(" PYTHON "), "python")
-        self.assertEqual(post_processing_methods.clean_strings("!AI_Assistant!?"), "ai_assistant")
-        self.assertEqual(post_processing_methods.clean_strings("!AI_Assistant!? ."), "ai_assistant")
-        self.assertEqual(post_processing_methods.clean_strings("!AI_Assistant!? "), "ai_assistant")
-
 
 if __name__ == "__main__":
     unittest.main()

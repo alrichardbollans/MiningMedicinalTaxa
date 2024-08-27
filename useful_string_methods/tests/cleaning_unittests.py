@@ -5,7 +5,7 @@ from pkg_resources import resource_filename
 
 from literature_downloads import get_kword_dict
 from useful_string_methods import retrieve_text_before_phrase, remove_double_spaces_and_break_characters, remove_HTML_tags, \
-    remove_non_ascii_characters, convert_nonascii_to_ascii, remove_unneccesary_lines
+    remove_non_ascii_characters, convert_nonascii_to_ascii, remove_unneccesary_lines, clean_strings
 
 _test_output_dir = resource_filename(__name__, 'test_outputs')
 
@@ -144,6 +144,17 @@ class TestlineMethods(unittest.TestCase):
         result = remove_unneccesary_lines(text)
 
         self.assertEqual(result, expected_result, f'Expected {expected_result}, got {result}')
+
+
+class TestPostProcessingMethods(unittest.TestCase):
+    def test_clean_strings(self):
+        self.assertEqual(clean_strings("Hello World!! "), "hello world")
+        self.assertEqual(clean_strings(" PYTHON "), "python")
+        self.assertEqual(clean_strings("!AI_Assistant!?"), "ai_assistant")
+        self.assertEqual(clean_strings("!AI_Assistant!? ."), "ai_assistant")
+        self.assertEqual(clean_strings("!AI_Assistant!? "), "ai_assistant")
+        self.assertEqual(clean_strings("× !AI_Assistant!? "), "× !ai_assistant")
+
 
 
 if __name__ == '__main__':

@@ -60,8 +60,6 @@ class TaxaData(BaseModel):
 
 def deduplicate_and_standardise_output_taxa_lists(taxa: List[Taxon]) -> TaxaData:
     """ Clean strings, as in read_annotation_json and then deduplicate results"""
-    # TODO: also replace standardise all apostrophes?
-    # TODO: test this
     unique_scientific_names = []
     for taxon in taxa:
         if taxon.scientific_name is not None:
@@ -97,8 +95,13 @@ def deduplicate_and_standardise_output_taxa_lists(taxa: List[Taxon]) -> TaxaData
 
 
 def convert_human_annotations_to_taxa_data_schema(human_ner_annotations, human_re_annotations) -> TaxaData:
-    # TODO: test this
+    """
+    Convert human annotations to taxa data schema.
 
+    :param human_ner_annotations: List of human named entity annotations.
+    :param human_re_annotations: List of human relation extraction annotations.
+    :return: Instance of TaxaData.
+    """
     collected_output = {}
     for entry in human_re_annotations:
         # make entry
@@ -124,7 +127,8 @@ def convert_human_annotations_to_taxa_data_schema(human_ner_annotations, human_r
             if taxon not in collected_output.keys():
                 # make entry
                 collected_output[taxon] = {'medical_conditions': [], 'medicinal_effects': []}
-
+        else:
+            raise ValueError(f"{entry['value']['label']} not in {TAXON_ENTITY_CLASSES}")
     outlist = []
     for taxon in collected_output.keys():
         # Convert to None in case there are no values as this is the default.

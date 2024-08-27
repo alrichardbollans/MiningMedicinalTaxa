@@ -44,5 +44,13 @@ class TestExamples(unittest.TestCase):
         expected_output = ['× hypericum perforatum', '+ !AspidOsperma', '+ !Cinchona ', 'hypericum × perforatum_depression']
 
         self.assertEqual(result, expected_output)
+
+    def test_abbvs(self):
+        taxa = ['× H. beukmanii (C.A.Lückh.) G.D.Rowley', '× H. beukmanii ', 'h. perforatum_depression', 'h. perforatum']
+        result = filter_name_list_using_sci_names(taxa)
+
+        expected_output = ['× H. beukmanii (C.A.Lückh.) G.D.Rowley', '× H. beukmanii ', 'h. perforatum']
+
+        self.assertEqual(result, expected_output)
 if __name__ == "__main__":
     unittest.main()

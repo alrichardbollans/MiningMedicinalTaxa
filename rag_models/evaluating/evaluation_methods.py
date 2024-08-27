@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 
 from rag_models.structured_output_schema import TaxaData
-from useful_string_methods import filter_name_list_using_sci_names
+from useful_string_methods import filter_name_list_using_sci_names, abbreviate_sci_name
 
 
 def get_metrics_from_tp_fp_fn(true_positives_in_ground_truths: list, true_positives_in_model_annotations: list, false_positives: list,
@@ -47,29 +47,13 @@ def get_metrics_from_tp_fp_fn(true_positives_in_ground_truths: list, true_positi
     return precision, recall, f1_score
 
 
-def abbreviate(name1: str) -> str:
-    """
-    Return given name with first word abbreviated, if there are multiple words.
-    :param name1:
-    :return:
-    """
-    if '  ' in name1:
-        raise ValueError(f'Double spacing found in name: {name1}. This will break abbreviation formating.')
-    words = name1.split()
-    if len(words) < 2:
-        return name1
-    else:
-        words[0] = words[0][0] + '.'
-        return ' '.join(words)
-
-
 def abbreviated_precise_match(name1: str, name2: str):
     """
     :param name1: The first name to compare.
     :param name2: The second name to compare.
     :return: True if name1 is an exact match or an abbreviation of name2, or if name2 is an abbreviation of name1. False otherwise.
     """
-    if name1 == name2 or abbreviate(name1) == name2 or abbreviate(name2) == name1:
+    if name1 == name2 or abbreviate_sci_name(name1) == name2 or abbreviate_sci_name(name2) == name1:
         return True
     else:
         return False
@@ -83,7 +67,7 @@ def abbreviated_approximate_match(name1: str, name2: str):
     :param name2: The second name to compare.
     :return: True if there is an abbreviated approximate match, False otherwise.
     """
-    if approximate_match(name1, name2) or approximate_match(abbreviate(name1), name2) or approximate_match(abbreviate(name2), name1):
+    if approximate_match(name1, name2) or approximate_match(abbreviate_sci_name(name1), name2) or approximate_match(abbreviate_sci_name(name2), name1):
         return True
     else:
         return False
