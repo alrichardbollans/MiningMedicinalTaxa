@@ -1,7 +1,7 @@
 import unittest
 
 # Import the method module
-from rag_models.evaluating.evaluation_methods import approximate_match, abbreviated_precise_match,abbreviated_approximate_match
+from rag_models.evaluating.evaluation_methods import approximate_match, abbreviated_precise_match, abbreviated_approximate_match
 
 
 class TestApproximateMatch(unittest.TestCase):
@@ -21,8 +21,6 @@ class TestApproximateMatch(unittest.TestCase):
         self.assertTrue(approximate_match('John- Doe', 'John Doe', allow_any_start_point=True))
         self.assertTrue(approximate_match('John - Doe', 'John Doe', allow_any_start_point=True))
 
-
-
     def test_name2_in_name1(self):
         self.assertTrue(approximate_match('John Doe', 'John'))
         self.assertTrue(approximate_match('John (Doe', 'John Doe'))
@@ -39,6 +37,7 @@ class TestApproximateMatch(unittest.TestCase):
     def test_name_in_name_punctuation(self):
         self.assertTrue(approximate_match('John', 'John.'))
 
+
 class TestEvaluationMethods(unittest.TestCase):
     def test_abbreviated_precise_match(self):
         name1 = "Python"
@@ -51,10 +50,14 @@ class TestEvaluationMethods(unittest.TestCase):
         self.assertTrue(abbreviated_precise_match(name1, name2))
         self.assertTrue(abbreviated_approximate_match(name1, name2))
 
+        with self.assertRaises(ValueError):
+            self.assertTrue(abbreviated_approximate_match(name1, '   ' + name2))
+
+        with self.assertRaises(ValueError):
+            self.assertTrue(abbreviated_approximate_match('   ' + name1, name2))
 
         self.assertTrue(abbreviated_precise_match(name1, name1))
         self.assertTrue(abbreviated_approximate_match(name1, name1))
-
 
         name1 = "Python"
         name2 = "PYT"
@@ -71,6 +74,7 @@ class TestEvaluationMethods(unittest.TestCase):
         name1 = "JaVa"
         name2 = "JAV"
         self.assertFalse(abbreviated_precise_match(name1, name2))
+
 
 class TestAbbreviatedApproximateMatch(unittest.TestCase):
 

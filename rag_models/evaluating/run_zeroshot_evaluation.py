@@ -3,14 +3,12 @@ import pickle
 import time
 from collections.abc import Callable
 
-import matplotlib.pyplot as plt
 import pandas as pd
-import seaborn as sns
 
-from rag_models.evaluating import NER_evaluation, precise_match, approximate_match, RE_evaluation, check_errors, abbreviated_approximate_match, \
+from rag_models.evaluating import NER_evaluation, RE_evaluation, check_errors, abbreviated_approximate_match, \
     abbreviated_precise_match, get_metrics_from_tp_fp_fn, clean_model_annotations_using_taxonomy_knowledge
 from rag_models.running_models import query_a_model, get_input_size_limit, setup_models
-from rag_models.structured_output_schema import get_all_human_annotations_for_corpus_id, annotation_info, get_all_human_annotations_for_chunk_id
+from rag_models.structured_output_schema import annotation_info, get_all_human_annotations_for_chunk_id
 
 repo_path = os.environ.get('KEWSCRATCHPATH')
 base_text_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'text_files')
@@ -215,9 +213,14 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
               'Approx. MedEff': [approximateMedEffprecision, approximateMedEffrecall, approximateMedEfff1_score]}
     out_df = pd.DataFrame(out_df, index=['precision', 'recall', 'f1'])
     out_df.to_csv(os.path.join(out_dir, model_tag + '_results.csv'))
+    basic_plot_results(os.path.join(out_dir, model_tag + '_results.csv'), out_dir, model_tag)
+
 
 
 def basic_plot_results(file_to_plot, out_dir, model_name):
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+
     out_df = pd.read_csv(file_to_plot, index_col=0)
     sns.heatmap(out_df, annot=True, cmap='viridis')
     plt.xticks(rotation=45, ha='right', rotation_mode='anchor')
@@ -227,6 +230,9 @@ def basic_plot_results(file_to_plot, out_dir, model_name):
 
 
 def plot_results(file_info, out_dir):
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+
     pairs = ['Precise NER', 'Approx. NER', 'Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
     for p in pairs:
         df = pd.DataFrame()
@@ -252,13 +258,15 @@ def assessing_hparams():
 
     model1 = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
     assess_model_on_chunk_list(train['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=False)
+    assess_model_on_chunk_list(train['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=False, autoremove_non_sci_names=True)
 
 
 def full_evaluation():
     all_models = setup_models()
     test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
     for m in all_models:
-        assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'outputs')
+        assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'outputs', autoremove_non_sci_names=False)
+        assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'outputs', autoremove_non_sci_names=True)
 
 
 def evaluate_on_all_papers():
@@ -268,10 +276,11 @@ def evaluate_on_all_papers():
 
 def main():
     assessing_hparams()
-    basic_plot_results(os.path.join('hparam_runs', 'gpt-3.5-turbo-0125_results.csv'), 'hparam_runs', 'gpt-3.5-turbo')
-    basic_plot_results(os.path.join('outputs', 'gpt-4o_results.csv'), 'outputs', 'gpt-4o')
-    plot_results({'gpt-3.5-turbo': [os.path.join('hparam_runs', 'gpt-3.5-turbo-0125_results.csv')],
-                  'gpt-4o': [os.path.join('outputs', 'gpt-4o_results.csv')]}, 'hparam_runs')
+    # basic_plot_results(os.path.join('hparam_runs', 'gpt-3.5-turbo-0125_results.csv'), 'hparam_runs', 'gpt-3.5-turbo')
+    # basic_plot_results(os.path.join('hparam_runs', 'gpt-3.5-turbo-0125_autoremove_non_sci_names_results.csv'), 'hparam_runs', 'gpt-3.5-turbo-0125_autoremove_non_sci_names')
+    # basic_plot_results(os.path.join('outputs', 'gpt-4o_results.csv'), 'outputs', 'gpt-4o')
+    # plot_results({'gpt-3.5-turbo': [os.path.join('hparam_runs', 'gpt-3.5-turbo-0125_results.csv')],
+    #               'gpt-4o': [os.path.join('outputs', 'gpt-4o_results.csv')]}, 'hparam_runs')
 
 
 if __name__ == '__main__':

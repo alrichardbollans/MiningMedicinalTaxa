@@ -3,8 +3,8 @@ subjects and objects i.e. triplets (subject, relation, object) and the triplet i
 annotations. Matching triplets is considered in two setting, 'precise' and 'approximate'. Precision, recall and F1 scores are output.
 
 For NER evaluation, the process is the same except a single phrase is extracted rather than a triplet. The LLM models are compared to a baseline
-provided by TaxoNERD [3]. We use the "en_ner_eco_biobert" model for best performance. As the model is trained on common names as well, we use the
-entity linking to the GBIF backbone [4] in order to remove common names.
+provided by TaxoNERD [3]. We use the "en_ner_eco_biobert" model for best performance. As the model is trained on common names as well, we use
+taxonomic knowledge to remove common names.
 
 In contrast to much RE work, in predetermining the relationships to extract the model has to interpret the semantics of the relation rather than just
 extracting relevant snippets of text to represent the relation.

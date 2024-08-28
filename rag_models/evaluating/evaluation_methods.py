@@ -2,7 +2,6 @@ import itertools
 import os.path
 import string
 from typing import Callable
-
 import numpy as np
 import pandas as pd
 
@@ -53,6 +52,8 @@ def abbreviated_precise_match(name1: str, name2: str):
     :param name2: The second name to compare.
     :return: True if name1 is an exact match or an abbreviation of name2, or if name2 is an abbreviation of name1. False otherwise.
     """
+    if '  ' in name1 or '  ' in name2:
+        raise ValueError(f'Double spaces in name: {name1}, {name2}')
     if name1 == name2 or abbreviate_sci_name(name1) == name2 or abbreviate_sci_name(name2) == name1:
         return True
     else:
@@ -67,6 +68,9 @@ def abbreviated_approximate_match(name1: str, name2: str):
     :param name2: The second name to compare.
     :return: True if there is an abbreviated approximate match, False otherwise.
     """
+    if '  ' in name1 or '  ' in name2:
+        raise ValueError(f'Double spaces in name: {name1}, {name2}')
+
     if approximate_match(name1, name2) or approximate_match(abbreviate_sci_name(name1), name2) or approximate_match(abbreviate_sci_name(name2), name1):
         return True
     else:
@@ -86,6 +90,8 @@ def precise_match(name1: str, name2: str, allow_any_start_point=None):
         ValueError: If any of the names is not in lower case.
 
     """
+    if '  ' in name1 or '  ' in name2:
+        raise ValueError(f'Double spaces in name: {name1}, {name2}')
     if name1.lower() != name1.lower() or name2.lower() != name2.lower():
         raise ValueError(f'Names not lower case: {name1}, {name2}')
 
@@ -109,6 +115,8 @@ def approximate_match(name1: str, name2: str, allow_any_start_point: bool = Fals
     """
     # When allow_any_start_point is set to true, i.e. for relationships and not scientific names, remove '-' as these are sometimes used across line-
     # breaks
+    if '  ' in name1 or '  ' in name2:
+        raise ValueError(f'Double spaces in name: {name1}, {name2}')
     if allow_any_start_point:
         name1_to_use = name1.replace('-', '')
         name2_to_use = name2.replace('-', '')

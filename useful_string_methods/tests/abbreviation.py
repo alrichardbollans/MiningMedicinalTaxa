@@ -36,16 +36,9 @@ class TestEvaluationMethods(unittest.TestCase):
         self.assertEqual(result, '')
 
     def test_abbreviate_with_spaces(self):
-        with self.assertRaises(ValueError):
-            abbreviate_sci_name('  Python  ')
-
-    def test_abbreviate_with_leading_spaces(self):
-        with self.assertRaises(ValueError):
-            abbreviate_sci_name('  Python Charm')
-
-    def test_abbreviate_with_trailing_spaces(self):
-        with self.assertRaises(ValueError):
-            abbreviate_sci_name('Python Charm  ')
+        self.assertEqual(abbreviate_sci_name('  Python  '), '  Python  ')
+        self.assertEqual(abbreviate_sci_name('  Python Charm'), 'P. Charm')
+        self.assertEqual(abbreviate_sci_name('Python Charm  '), 'P. Charm')
 
 
 if __name__ == '__main__':

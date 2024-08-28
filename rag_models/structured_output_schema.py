@@ -1,15 +1,13 @@
 import json
 import os
-import sys
 from typing import Optional, List
 
 import pandas as pd
 from langchain_core.pydantic_v1 import BaseModel, Field
 
-
 from rag_models.rag_prompting import medicinal_effect_def, medical_condition_def
 from useful_string_methods import clean_strings, TAXON_ENTITY_CLASSES, get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations, \
-    check_human_annotations
+    check_human_annotations, ENTITY_CLASSES
 
 _repos_path = os.environ.get('KEWSCRATCHPATH')
 annotation_folder = os.path.join(_repos_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'annotations',
@@ -128,7 +126,8 @@ def convert_human_annotations_to_taxa_data_schema(human_ner_annotations, human_r
                 # make entry
                 collected_output[taxon] = {'medical_conditions': [], 'medicinal_effects': []}
         else:
-            raise ValueError(f"{entry['value']['label']} not in {TAXON_ENTITY_CLASSES}")
+            if entry['value']['label'] not in ENTITY_CLASSES:
+                raise ValueError(f"{entry['value']['label']} not in {ENTITY_CLASSES}")
     outlist = []
     for taxon in collected_output.keys():
         # Convert to None in case there are no values as this is the default.

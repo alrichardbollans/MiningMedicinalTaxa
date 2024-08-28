@@ -8,12 +8,14 @@ from wcvpy.wcvp_download import hybrid_characters
 
 scratch_path = os.environ.get('KEWSCRATCHPATH')
 
+
 def abbreviate_sci_name(name1: str) -> str:
     """
     Return given name with first word abbreviated, if there are multiple words.
     :param name1:
     :return:
     """
+
     words = name1.split()
     if len(words) < 2:
         return name1
@@ -27,6 +29,7 @@ def abbreviate_sci_name(name1: str) -> str:
             words[0] = words[0][0] + '.'
         return ' '.join(words)
 
+
 def _filter_name_list_using_genus_names(list_of_possible_sci_names: List[str]):
     """
     Filters a given list of possible scientific names, returning a list of scientific names.
@@ -39,6 +42,7 @@ def _filter_name_list_using_genus_names(list_of_possible_sci_names: List[str]):
 
     def _tidy_list(l):
         return set([clean_strings(get_genus_from_full_name(x)) for x in l])
+
     cleaned_list = _tidy_list(list_of_possible_sci_names)
 
     sci_name_matches = []
@@ -74,6 +78,7 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
     :param list_of_possible_sci_names: A list of strings representing scientific names.
     :return: A list of strings representing scientific names that match species names.
     """
+
     def tidy_name(x):
         w = clean_strings(abbreviate_sci_name(x))
         words = w.split()
@@ -81,6 +86,7 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
             return ' '.join(words[:3])
         else:
             return ' '.join(words[:2])
+
     def _tidy_list(l):
         return set([tidy_name(x) for x in l])
 
@@ -89,7 +95,8 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
     sci_name_matches = []
     _genus_names = []
     for g in ['fungi', 'plant']:
-        with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', g + '_species_binomials_keywords.txt'),
+        with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists',
+                               g + '_species_binomials_keywords.txt'),
                   'r', encoding="utf8") as file:
             _genus_names.extend(file.read().splitlines())
 
@@ -104,6 +111,7 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
             final_names.append(name)
     return final_names
 
+
 def filter_name_list_using_sci_names(list_of_possible_sci_names: List[str]):
     """
     Filters a given list of possible scientific names, returning a list of scientific names.
@@ -117,7 +125,7 @@ def filter_name_list_using_sci_names(list_of_possible_sci_names: List[str]):
 
     genus_matches = _filter_name_list_using_genus_names(list_of_possible_sci_names)
     remaining = [c for c in list_of_possible_sci_names if c not in genus_matches]
-    if len(remaining)>0:
+    if len(remaining) > 0:
         binom_matches = filter_name_list_with_species_names(remaining)
     else:
         binom_matches = []
