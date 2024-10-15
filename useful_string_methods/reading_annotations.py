@@ -135,10 +135,10 @@ def check_human_annotations(human_ner_annotations, human_re_annotations):
             # Check no medicinal info on its own
             text_value = entry['value']['text']
             if text_value not in to_text_in_entries:
-                errors.append(f"entry: {text_value} for: {entry['value']['label']} not associated with taxon in human annotations")
+                errors.append(f'Entry "{text_value}" for {entry["value"]["label"]} not associated with taxon in human annotations.')
 
     if len(errors) > 0:
-        raise ValueError(f"Errors found: {errors}")
+        raise ValueError(f"Errors found: {list(set(errors))}")
 
 
 def get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(anns: list, check: bool = True):
@@ -171,6 +171,7 @@ def get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotation
     standardise_NER_annotations(separate_NER_annotations)
 
     separate_RE_annotations = []
+    errors = []
     for ann in re_annotations:
         try:
             for label in ann['labels']:
@@ -179,8 +180,9 @@ def get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotation
                 del new_annotation['labels']
                 separate_RE_annotations.append(new_annotation)
         except KeyError:
-            print(ann)
-            raise KeyError
+            errors.append(f'Relationship from "{ann["from_entity"]["value"]["text"]}" to "{ann["to_entity"]["value"]["text"]}" not given a label')
+    if len(errors) > 0:
+        raise KeyError(f"Errors found: {list(set(errors))}")
 
     standardise_RE_annotations(separate_RE_annotations)
     if check:

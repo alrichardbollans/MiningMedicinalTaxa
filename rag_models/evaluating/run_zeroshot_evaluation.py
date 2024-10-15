@@ -8,11 +8,7 @@ import pandas as pd
 from rag_models.evaluating import NER_evaluation, RE_evaluation, check_errors, abbreviated_approximate_match, \
     abbreviated_precise_match, get_metrics_from_tp_fp_fn, clean_model_annotations_using_taxonomy_knowledge
 from rag_models.running_models import query_a_model, get_input_size_limit, setup_models
-from rag_models.structured_output_schema import annotation_info, get_all_human_annotations_for_chunk_id
-
-repo_path = os.environ.get('KEWSCRATCHPATH')
-base_text_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'text_files')
-base_chunk_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'chunks', 'all_chunks')
+from rag_models.structured_output_schema import valid_chunk_annotation_info, get_all_human_annotations_for_chunk_id, get_chunk_filepath_from_chunk_id, repo_path
 
 
 def _get_chunks_to_tweak_with():
@@ -20,7 +16,7 @@ def _get_chunks_to_tweak_with():
     ''' Splits into train/test chunks but will be easiest to use whole papers instead.'''
     from sklearn.model_selection import train_test_split
 
-    train, test = train_test_split(annotation_info, test_size=0.1, shuffle=True)
+    train, test = train_test_split(valid_chunk_annotation_info, test_size=0.1, shuffle=True)
 
     test.to_csv(os.path.join('outputs', 'for_hparam_tuning.csv'), index=False)
     train.to_csv(os.path.join('outputs', 'for_testing.csv'), index=False)
@@ -30,20 +26,11 @@ def _get_train_test_papers():
     raise ValueError('Are you sure you want to redefine?')
 
     # Not going to use this now
-    ids = annotation_info['corpus_id'].unique().tolist()
+    ids = valid_chunk_annotation_info['corpus_id'].unique().tolist()
     # assert len(ids) == 10
     train = ['4187756']  # just use first paper
     test = [c for c in ids if c not in train]
     return train, test
-
-
-def get_chunk_filepath_from_chunk_id(chunk_id: int):
-    name = annotation_info[annotation_info['id'] == chunk_id]['name'].iloc[0]
-    name = name.removeprefix('task_for_labelstudio_')
-    idx = name.index('_chunk')
-    name = name[:idx] + '.txt' + name[idx:]
-    name = name.replace('.json', '.txt')
-    return os.path.join(base_chunk_path, name)
 
 
 def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun: bool = True, autoremove_non_sci_names: bool = False,
@@ -216,7 +203,6 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
     basic_plot_results(os.path.join(out_dir, model_tag + '_results.csv'), out_dir, model_tag)
 
 
-
 def basic_plot_results(file_to_plot, out_dir, model_name):
     import matplotlib.pyplot as plt
     import seaborn as sns
@@ -258,7 +244,8 @@ def assessing_hparams():
 
     model1 = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
     assess_model_on_chunk_list(train['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=False)
-    assess_model_on_chunk_list(train['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=False, autoremove_non_sci_names=True)
+    assess_model_on_chunk_list(train['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=False,
+                               autoremove_non_sci_names=True)
 
 
 def full_evaluation():

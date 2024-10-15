@@ -9,13 +9,14 @@ from rag_models.rag_prompting import medicinal_effect_def, medical_condition_def
 from useful_string_methods import clean_strings, TAXON_ENTITY_CLASSES, get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations, \
     check_human_annotations, ENTITY_CLASSES
 
-_repos_path = os.environ.get('KEWSCRATCHPATH')
-annotation_folder = os.path.join(_repos_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'annotations',
+repo_path = os.environ.get('KEWSCRATCHPATH')
+base_text_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'text_files')
+base_chunk_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'chunks', 'all_chunks')
+annotation_folder = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'annotations',
                                  'manually_annotated_chunks')
-annotation_info = pd.read_excel(os.path.join(annotation_folder, 'annotated_chunks_list.xlsx'))
-assert annotation_info['reference_only'].unique().tolist() == ['no', 'yes']
-annotation_info = annotation_info[annotation_info['reference_only'] != 'yes']
+_annotation_file = os.path.join(annotation_folder, 'task_for_labelstudio_completed.json')
 
+annotation_info = pd.read_excel(os.path.join(annotation_folder, 'annotated_chunks_list.xlsx'))
 
 def get_corpus_id_from_chunk_name(chunk_name: str) -> str:
     # Get corpus id from a string like: 'task_for_labelstudio_{corpus_id}_chunk_{chunk_id}.json'
@@ -26,6 +27,8 @@ def get_corpus_id_from_chunk_name(chunk_name: str) -> str:
 
 annotation_info['corpus_id'] = annotation_info['name'].apply(get_corpus_id_from_chunk_name)
 
+assert annotation_info['reference_only'].unique().tolist() == ['no', 'yes']
+valid_chunk_annotation_info = annotation_info[annotation_info['reference_only'] != 'yes']
 
 class Taxon(BaseModel):
     """Information about a plant or fungus."""
@@ -141,6 +144,33 @@ def convert_human_annotations_to_taxa_data_schema(human_ner_annotations, human_r
     return out
 
 
+def get_chunk_filepath_from_chunk_id(chunk_id: int):
+    name = annotation_info[annotation_info['id'] == chunk_id]['name'].iloc[0]
+    name = name.removeprefix('task_for_labelstudio_')
+    idx = name.index('_chunk')
+    name = name[:idx] + '.txt' + name[idx:]
+    name = name.replace('.json', '.txt')
+    return os.path.join(base_chunk_path, name)
+
+
+def _get_result_from_ann_in_dict(ann: dict):
+    anns = ann['annotations'][0]['result']
+    if len(ann['annotations']) > 1:
+        print(ann)
+        # raise ValueError
+
+    ## Check chunk id
+    chunk_id_for_annotations = ann['annotations'][0]['id']
+    data = ann['data']['text']
+
+    import os
+
+    with open(os.path.join(get_chunk_filepath_from_chunk_id(chunk_id_for_annotations)), "r", encoding="utf8") as f:
+        text = f.read()
+    assert data == text
+    return anns, chunk_id_for_annotations
+
+
 def get_all_human_annotations_for_corpus_id(corpus_id: str, check: bool = True):
     """
     For a given corpus_id, get related cleaned and deduplicated human annotations.
@@ -150,18 +180,14 @@ def get_all_human_annotations_for_corpus_id(corpus_id: str, check: bool = True):
     """
     collected_taxa_data = []
 
-    annotation_file = os.path.join(annotation_folder, 'task_for_labelstudio_161880242_228197190_268329601_4187556_360558516_80818116.json')
-
     relevant_annotation_info = annotation_info[annotation_info['corpus_id'] == corpus_id]
     relevant_ids = relevant_annotation_info['id'].unique().tolist()
 
-    with open(annotation_file) as f:
+    with open(_annotation_file) as f:
         d = json.load(f)
     for ann in d:
-        if ann['id'] in relevant_ids:
-            if len(ann['annotations']) > 1:
-                raise ValueError
-            anns = ann['annotations'][0]['result']
+        anns, chunk_id = _get_result_from_ann_in_dict(ann)
+        if chunk_id in relevant_ids:
             human_ner_annotations1, human_re_annotations1 = get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(anns,
                                                                                                                                           check=check)
             taxa_data = convert_human_annotations_to_taxa_data_schema(human_ner_annotations1, human_re_annotations1)
@@ -178,15 +204,12 @@ def get_all_human_annotations_for_chunk_id(chunk_id: int, check: bool = True):
     """
     collected_taxa_data = []
 
-    annotation_file = os.path.join(annotation_folder, 'task_for_labelstudio_161880242_228197190_268329601_4187556_360558516_80818116.json')
-
-    with open(annotation_file) as f:
+    with open(_annotation_file) as f:
         d = json.load(f)
     for ann in d:
-        if ann['id'] == chunk_id:
-            if len(ann['annotations']) > 1:
-                raise ValueError
-            anns = ann['annotations'][0]['result']
+        anns, ann_chunk_id = _get_result_from_ann_in_dict(ann)
+
+        if ann_chunk_id == chunk_id:
             human_ner_annotations1, human_re_annotations1 = get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(anns,
                                                                                                                                           check=check)
             taxa_data = convert_human_annotations_to_taxa_data_schema(human_ner_annotations1, human_re_annotations1)
@@ -197,23 +220,25 @@ def get_all_human_annotations_for_chunk_id(chunk_id: int, check: bool = True):
 
 
 def check_all_human_annotations():
-    annotation_file = os.path.join(annotation_folder, 'task_for_labelstudio_161880242_228197190_268329601_4187556_360558516_80818116.json')
     bad_ids = []
     bad_messages = []
-    with open(annotation_file) as f:
+    with open(_annotation_file) as f:
         d = json.load(f)
     for ann in d:
-        if len(ann['annotations']) > 1:
-            raise ValueError
-        anns = ann['annotations'][0]['result']
-        human_ner_annotations1, human_re_annotations1 = get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(anns,
-                                                                                                                                      check=False)
+        anns, ann_chunk_id = _get_result_from_ann_in_dict(ann)
+
         try:
-            check_human_annotations(human_ner_annotations1, human_re_annotations1)
+            human_ner_annotations1, human_re_annotations1 = get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(anns,
+                                                                                                                                          check=False)
         except Exception as e:
-            print(f'Annotation Chunk ID: {ann["id"]}. Error message: {e}')
-            bad_ids.append(ann['id'])
-            bad_messages.append(e)
+            print(f'Annotation Chunk ID: {ann_chunk_id}. Error message: {e}')
+        else:
+            try:
+                check_human_annotations(human_ner_annotations1, human_re_annotations1)
+            except Exception as e:
+                print(f'Annotation Chunk ID: {ann_chunk_id}. Error message: {e}')
+                bad_ids.append(ann_chunk_id)
+                bad_messages.append(e)
     issues = annotation_info[annotation_info['id'].isin(bad_ids)]
     issues['message'] = bad_messages
     issues.to_csv('humman_annotation_issues.csv', index=False)
