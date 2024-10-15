@@ -1,7 +1,6 @@
 import json
-import os
 from pathlib import Path
-
+import os
 
 def load_json_file(file_path):
     """Load JSON data from a file."""
@@ -15,45 +14,59 @@ def save_json_file(data, file_path):
         json.dump(data, file, indent=2, ensure_ascii=False)
 
 
-def update_task_ids(data):
-    """Replace the task ID with the inner annotation ID in the given data,
-       and fix the annotation IDs starting from a specific number."""
+def check_and_correct_mismatches(data):
+    """Check and correct mismatches between outer id, task, and first annotation id."""
+    mismatches = []
+    current_annotation_id = 1  # Starting annotation ID expected
 
-    next_annotation_id = 322  # Start fixing annotation IDs from 322
+    for idx, item in enumerate(data):
+        expected_id = idx + 1
+        annotation_id = current_annotation_id
 
-    for item in data:
-        if 'annotations' in item and item['annotations']:
-            # Update inner annotation ID if it should follow a corrected sequence
-            for annotation in item['annotations']:
-                annotation['id'] = next_annotation_id
-                annotation['task'] = next_annotation_id
-                next_annotation_id += 1
+        # Record mismatch if found
+        if item['id'] != expected_id or item['annotations'][0]['id'] != annotation_id:
+            mismatches.append({
+                'outer_id': item['id'],
+                'first_annotation_id': item['annotations'][0]['id'],
+                'task_id': item['annotations'][0].get('task', None),
+                'import_id': item['annotations'][0].get('import_id', None),
+                'item_index': idx
+            })
 
-            # Replace task ID with the first annotation ID
-            item['id'] = item['annotations'][0]['id']
+        # Correct outer id, task id, and first annotation id
+        item['id'] = expected_id
+        item['annotations'][0]['id'] = annotation_id
+        item['annotations'][0]['task'] = annotation_id
+        item['annotations'][0]['import_id'] = annotation_id
 
-    return data
+        current_annotation_id += 1  # Increment annotation ID
+
+    return data, mismatches
 
 
 def main():
-    # Define the base path relative to this script's location
+    # Define file paths
     base_path = Path(
         os.path.join(os.path.dirname(__file__), '..', '..', 'annotated_data', 'top_10_medicinal_hits', 'annotations',
                      'manually_annotated_chunks'))
 
-    # Specify input and output files
-    input_file = base_path / 'task_for_label_studio_completed.json'
+    input_file = base_path / 'task_for_labelstudio_completed.json'
     output_file = base_path / 'task_for_labelstudio_completed_updated.json'
+    mismatches_file = base_path / 'mismatches_report.json'
 
     # Load the JSON data
     data = load_json_file(input_file)
 
-    # Update task IDs and annotation IDs
-    updated_data = update_task_ids(data)
+    # Check and correct mismatches
+    corrected_data, mismatches = check_and_correct_mismatches(data)
 
-    # Save the updated JSON data
-    save_json_file(updated_data, output_file)
-    print(f"Updated JSON file saved to {output_file}")
+    # Save the corrected JSON data
+    save_json_file(corrected_data, output_file)
+    print(f"Corrected JSON file saved to {output_file}")
+
+    # Save the mismatch report
+    save_json_file(mismatches, mismatches_file)
+    print(f"Mismatch report saved to {mismatches_file}")
 
 
 if __name__ == '__main__':
