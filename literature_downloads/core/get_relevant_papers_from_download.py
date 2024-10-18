@@ -72,6 +72,12 @@ def retrieve_text_before_phrase(given_text: str, my_regex, simple_string: str) -
 
 
 def clean_paper_text(paper: dict) -> str:
+    """
+    Attempts to remove References, Supplementary material etc from paper text
+
+    :param paper: A dictionary containing the full text of the paper under the key 'fullText'.
+    :return: A string representing the cleaned text of the paper.
+    """
     text = paper['fullText']
     if text is None:
         return None

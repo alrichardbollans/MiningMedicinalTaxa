@@ -3,6 +3,7 @@
 # TODO: Add highlight colours to subject/object
 # TODO: add a back button
 # TODO: Change to condition or effect
+# TODO: Ignore cases with no highlighting
 
 import csv
 import re
@@ -157,7 +158,7 @@ def server(input, output, session):
 
     @output
     @render.text
-    @reactive.event(input.publish)
+    @reactive.event(input.omit)
     def status():
         return "Omitted"
 

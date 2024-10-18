@@ -14,9 +14,10 @@ base_text_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data
 base_chunk_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'chunks', 'all_chunks')
 annotation_folder = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'annotations',
                                  'manually_annotated_chunks')
-_annotation_file = os.path.join(annotation_folder, 'task_for_labelstudio_completed.json')
+_annotation_file = os.path.join(annotation_folder, 'task_for_labelstudio_completed_updated.json')
 
 annotation_info = pd.read_excel(os.path.join(annotation_folder, 'annotated_chunks_list.xlsx'))
+
 
 def get_corpus_id_from_chunk_name(chunk_name: str) -> str:
     # Get corpus id from a string like: 'task_for_labelstudio_{corpus_id}_chunk_{chunk_id}.json'
@@ -29,6 +30,7 @@ annotation_info['corpus_id'] = annotation_info['name'].apply(get_corpus_id_from_
 
 assert annotation_info['reference_only'].unique().tolist() == ['no', 'yes']
 valid_chunk_annotation_info = annotation_info[annotation_info['reference_only'] != 'yes']
+
 
 class Taxon(BaseModel):
     """Information about a plant or fungus."""
@@ -157,10 +159,11 @@ def _get_result_from_ann_in_dict(ann: dict):
     anns = ann['annotations'][0]['result']
     if len(ann['annotations']) > 1:
         print(ann)
-        # raise ValueError
+        raise ValueError
 
     ## Check chunk id
-    chunk_id_for_annotations = ann['annotations'][0]['id']
+    chunk_id_for_annotations = ann['id']
+    assert ann['id'] == ann['inner_id']
     data = ann['data']['text']
 
     import os
@@ -226,7 +229,11 @@ def check_all_human_annotations():
         d = json.load(f)
     for ann in d:
         anns, ann_chunk_id = _get_result_from_ann_in_dict(ann)
-
+        if ann_chunk_id not in valid_chunk_annotation_info['id'].values:
+            try:
+                assert len(anns) == 0
+            except AssertionError:
+                print(f'Reference only chunk {ann_chunk_id} has annotations.')
         try:
             human_ner_annotations1, human_re_annotations1 = get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(anns,
                                                                                                                                           check=False)
