@@ -4,6 +4,7 @@ import pickle
 import langchain_core
 
 from rag_models.loading_files import read_file_and_chunk
+from rag_models.making_examples import example_messages
 from rag_models.rag_prompting import standard_medicinal_prompt
 from rag_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, TaxaData
 
@@ -19,7 +20,7 @@ def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = No
     extractor = standard_medicinal_prompt | model.with_structured_output(schema=TaxaData, include_raw=False)
     try:
         extractions = extractor.batch(
-            [{"text": text} for text in text_chunks],
+            [{"text": text, "examples": example_messages} for text in text_chunks],
             {"max_concurrency": 1},  # limit the concurrency by passing max concurrency! Otherwise Requests rate limit exceeded
         )
     except langchain_core.exceptions.OutputParserException as e:
@@ -27,7 +28,7 @@ def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = No
         # This is a temporary fix
         new_chunks = read_file_and_chunk(text_file, int(context_window / 2))
         extractions = extractor.batch(
-            [{"text": text} for text in new_chunks],
+            [{"text": text, "examples": example_messages} for text in new_chunks],
             {"max_concurrency": 1},  # limit the concurrency by passing max concurrency! Otherwise Requests rate limit exceeded
         )
     # output = extractor.invoke({'text': text})

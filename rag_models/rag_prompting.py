@@ -1,4 +1,4 @@
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 medical_condition_def = ("specific health issues, diseases, or physical states that a plant or fungus is used to treat; "
                          "such as 'diabetes', 'cancer', 'high blood pressure' or 'inflammation'.")
@@ -19,7 +19,7 @@ standard_medicinal_prompt = ChatPromptTemplate.from_messages(
             "If you do not know the value of an attribute asked to extract, return null for the attribute's value. "
         ),
         # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-        # MessagesPlaceholder("examples"),  # <-- EXAMPLES!
+        MessagesPlaceholder("examples"),  # <-- EXAMPLES!
         # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
         ("human", "{text}"),
     ]
