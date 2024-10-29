@@ -223,6 +223,17 @@ def get_all_human_annotations_for_chunk_id(chunk_id: int, check: bool = True):
 
 
 def check_all_human_annotations():
+    """
+    Validates human annotations by checking each annotation chunk against predetermined criteria and identifying errors.
+
+    Reads annotation data from the specified file, processes each annotation chunk, and verifies its validity.
+    If errors or issues are found within the annotations, they are recorded and saved into a CSV file named 'humman_annotation_issues.csv'.
+
+    :raises FileNotFoundError: If the specified annotation file does not exist.
+    :raises JSONDecodeError: If the annotation file is not a valid JSON.
+
+    :return: None
+    """
     bad_ids = []
     bad_messages = []
     with open(_annotation_file) as f:
@@ -248,7 +259,8 @@ def check_all_human_annotations():
                 bad_messages.append(e)
     issues = annotation_info[annotation_info['id'].isin(bad_ids)]
     issues['message'] = bad_messages
-    issues.to_csv('humman_annotation_issues.csv', index=False)
+    if len(issues)>0:
+        issues.to_csv('humman_annotation_issues.csv', index=False)
 
 
 if __name__ == '__main__':

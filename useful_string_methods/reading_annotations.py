@@ -106,17 +106,23 @@ def standardise_RE_annotations(annotations: list):
 
 def check_human_annotations(human_ner_annotations, human_re_annotations):
     """
-    :param human_ner_annotations: A list of dictionaries representing the named entity annotations made by a human.
-    :param human_re_annotations: A list of dictionaries representing the relation annotations made by a human.
-    :return: None
+    Checks that
+    - entities have exactly 1 label
+    - the 'from' labels are taxa
+    - the 'to' labels are conditions or effects
+    - the relations are treats condition or has effect
+    - the labelled conditions and effects are linked to taxa
 
-    This method validates the annotations made by a human for named entities and relations. It raises ValueError if any invalid annotations are found.
+    :param human_ner_annotations: List of named entity recognition (NER) annotations provided by human annotators. Each annotation should be a dictionary containing 'value' key with 'label' and 'text' as sub-keys.
+    :param human_re_annotations: List of relation extraction (RE) annotations provided by human annotators. Each annotation should be a dictionary containing 'from_entity' and 'to_entity' along with 'label' that defines the relationship.
+    :return: None if no errors, otherwise raises a ValueError with details of the annotation errors.
     """
     errors = []
     to_text_in_entries = []
+    # Check labels are in given classes etc..
     for entry in human_re_annotations:
         # make entry
-        if len(entry['from_entity']['value']['labels']) > 1 or len(entry['to_entity']['value']['labels']) > 1:
+        if len(entry['from_entity']['value']['labels']) != 1 or len(entry['to_entity']['value']['labels']) != 1:
             errors.append(f"Too many labels for entry: {entry['from_entity']['value']['labels']} in human annotations")
         from_label = entry['from_entity']['value']['labels'][0]
         if from_label not in TAXON_ENTITY_CLASSES:
@@ -129,7 +135,7 @@ def check_human_annotations(human_ner_annotations, human_re_annotations):
         if entry['label'] not in MEDICINAL_RELATIONS:
             errors.append(f"Invalid relation {entry['label']} in human annotations")
         to_text_in_entries.append(entry['to_entity']['value']['text'])
-    # Check labels are in given classes etc..
+
     for entry in human_ner_annotations:
         if entry['value']['label'] not in TAXON_ENTITY_CLASSES:
             # Check no medicinal info on its own

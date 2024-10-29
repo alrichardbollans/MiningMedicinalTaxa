@@ -8,7 +8,8 @@ import pandas as pd
 from rag_models.evaluating import NER_evaluation, RE_evaluation, check_errors, abbreviated_approximate_match, \
     abbreviated_precise_match, get_metrics_from_tp_fp_fn, clean_model_annotations_using_taxonomy_knowledge
 from rag_models.running_models import query_a_model, get_input_size_limit, setup_models
-from rag_models.structured_output_schema import valid_chunk_annotation_info, get_all_human_annotations_for_chunk_id, get_chunk_filepath_from_chunk_id, repo_path
+from rag_models.structured_output_schema import valid_chunk_annotation_info, get_all_human_annotations_for_chunk_id, get_chunk_filepath_from_chunk_id, \
+    repo_path
 
 
 def _get_chunks_to_tweak_with():
@@ -16,13 +17,20 @@ def _get_chunks_to_tweak_with():
     ''' Splits into train/test chunks but will be easiest to use whole papers instead.'''
     from sklearn.model_selection import train_test_split
 
+    assert valid_chunk_annotation_info['reference_only'].unique().tolist() == ['no']
+
     train, test = train_test_split(valid_chunk_annotation_info, test_size=0.1, shuffle=True)
+
+    assert len(train) > len(test)
+
+    for i in train['id'].values:
+        assert i not in test['id'].values
 
     test.to_csv(os.path.join('outputs', 'for_hparam_tuning.csv'), index=False)
     train.to_csv(os.path.join('outputs', 'for_testing.csv'), index=False)
 
 
-def _get_train_test_papers():
+def ___get_train_test_papers():
     raise ValueError('Are you sure you want to redefine?')
 
     # Not going to use this now
@@ -271,7 +279,7 @@ def main():
 
 
 if __name__ == '__main__':
-    # _get_chunks_to_tweak_with()
+    _get_chunks_to_tweak_with()
     train = pd.read_csv(os.path.join('outputs', 'for_hparam_tuning.csv'))
 
-    main()
+    # main()
