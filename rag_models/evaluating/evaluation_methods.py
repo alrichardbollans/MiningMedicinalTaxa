@@ -191,8 +191,8 @@ def NER_evaluation(model_annotations: TaxaData, ground_truth_annotations: TaxaDa
             false_negatives.append(g.scientific_name)
 
     assert len(ground_truth_names) == len(true_positives_in_ground_truths + false_negatives)
-    print(f'False positives: {false_positives}')
-    print(f'False negatives: {false_negatives}')
+    # print(f'False positives: {false_positives}')
+    # print(f'False negatives: {false_negatives}')
     return true_positives_in_ground_truths, true_positives_in_model_annotations, false_positives, false_negatives
 
 
@@ -259,8 +259,8 @@ def RE_evaluation(model_annotations: TaxaData, ground_truth_annotations: TaxaDat
                 if not found:
                     false_negatives.append(ground_truth_string)
     assert len(false_negatives) == len(set(false_negatives))
-    print(f'False positives: {false_positives}')
-    print(f'False negatives: {false_negatives}')
+    # print(f'False positives: {false_positives}')
+    # print(f'False negatives: {false_negatives}')
     return true_positives_in_ground_truths, true_positives_in_model_annotations, false_positives, false_negatives
 
 

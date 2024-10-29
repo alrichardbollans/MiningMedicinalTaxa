@@ -1,0 +1,19 @@
+Very good at NER
+
+Removing nonsci names adds improvements - improves precision without risking recall
+
+
+## General notes
+False negatives are hard to diagnose
+
+## Text Format
+
+Some chunks are terrible to read e.g. 99, 107
+
+## Human errors?
+
+In 94, ricinus communis_purgative as med effect should be correct.
+
+In 343, chelidonium majus_warts, chelidonium majus_skin protuberances etc.. should be correct.
+
+In 107, equisetum arvense_relieves dyspepsia should be correct.

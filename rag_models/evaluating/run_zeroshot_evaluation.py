@@ -19,15 +19,15 @@ def _get_chunks_to_tweak_with():
 
     assert valid_chunk_annotation_info['reference_only'].unique().tolist() == ['no']
 
-    train, test = train_test_split(valid_chunk_annotation_info, test_size=0.1, shuffle=True)
+    for_testing, for_hparam_tuning = train_test_split(valid_chunk_annotation_info, test_size=0.1, shuffle=True)
 
-    assert len(train) > len(test)
+    assert len(for_testing) > len(for_hparam_tuning)
 
     for i in train['id'].values:
         assert i not in test['id'].values
 
-    test.to_csv(os.path.join('outputs', 'for_hparam_tuning.csv'), index=False)
-    train.to_csv(os.path.join('outputs', 'for_testing.csv'), index=False)
+    for_hparam_tuning.to_csv(os.path.join('outputs', 'for_hparam_tuning.csv'), index=False)
+    for_testing.to_csv(os.path.join('outputs', 'for_testing.csv'), index=False)
 
 
 def ___get_train_test_papers():
@@ -45,12 +45,15 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
                                model_query_function: Callable = None):
     """
     Given a list of chunk ids, runs the model on each chunk and collects outputs
-    :param autoremove_non_sci_names: Whether to use taxonomy knowledge to remove non-scientific name hits from the model outputs
-    :param model_query_function: Function to call to query the model
+
+
     :param chunk_list:
     :param model:
     :param context_window:
+    :param out_dir:
     :param rerun: Whether to query the model again, or used cached results
+    :param autoremove_non_sci_names: Whether to use taxonomy knowledge to remove non-scientific name hits from the model outputs
+    :param model_query_function: Function to call to query the model
     :return:
     """
     if rerun:
@@ -242,7 +245,7 @@ def plot_results(file_info, out_dir):
         plt.close()
 
 
-def assessing_hparams():
+def assessing_hparams(rerun):
     from langchain_openai import ChatOpenAI
 
     # This is a minimal process and more about getting the model to run and output something sensible than actual performance.
@@ -251,8 +254,8 @@ def assessing_hparams():
     load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'rag_models', '.env'))
 
     model1 = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
-    assess_model_on_chunk_list(train['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=False)
-    assess_model_on_chunk_list(train['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=False,
+    assess_model_on_chunk_list(df_for_hparam_tuning['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=rerun)
+    assess_model_on_chunk_list(df_for_hparam_tuning['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=False,
                                autoremove_non_sci_names=True)
 
 
@@ -270,7 +273,7 @@ def evaluate_on_all_papers():
 
 
 def main():
-    assessing_hparams()
+    assessing_hparams(rerun=True)
     # basic_plot_results(os.path.join('hparam_runs', 'gpt-3.5-turbo-0125_results.csv'), 'hparam_runs', 'gpt-3.5-turbo')
     # basic_plot_results(os.path.join('hparam_runs', 'gpt-3.5-turbo-0125_autoremove_non_sci_names_results.csv'), 'hparam_runs', 'gpt-3.5-turbo-0125_autoremove_non_sci_names')
     # basic_plot_results(os.path.join('outputs', 'gpt-4o_results.csv'), 'outputs', 'gpt-4o')
@@ -279,7 +282,8 @@ def main():
 
 
 if __name__ == '__main__':
-    _get_chunks_to_tweak_with()
-    train = pd.read_csv(os.path.join('outputs', 'for_hparam_tuning.csv'))
+    # _get_chunks_to_tweak_with()
+    df_for_hparam_tuning = pd.read_csv(os.path.join('outputs', 'for_hparam_tuning.csv'))
 
-    # main()
+    main()
+    # print(get_chunk_filepath_from_chunk_id(343))
