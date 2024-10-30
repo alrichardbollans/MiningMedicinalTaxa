@@ -2,8 +2,9 @@ import os
 import pickle
 
 import langchain_core
+import pydantic_core
 
-from rag_models.loading_files import read_file_and_chunk
+from rag_models.loading_files import read_file_and_chunk, split_text_chunks
 from rag_models.making_examples import example_messages
 from rag_models.rag_prompting import standard_medicinal_prompt
 from rag_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, TaxaData
@@ -19,23 +20,29 @@ def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = No
     # and this is handled by with_structured_output. See https://python.langchain.com/v0.1/docs/modules/model_io/chat/structured_output/
     extractor = standard_medicinal_prompt | model.with_structured_output(schema=TaxaData, include_raw=False)
     try:
+
         extractions = extractor.batch(
             [{"text": text, "examples": example_messages} for text in text_chunks],
             {"max_concurrency": 1},  # limit the concurrency by passing max concurrency! Otherwise Requests rate limit exceeded
         )
-    except langchain_core.exceptions.OutputParserException as e:
+    except (langchain_core.exceptions.OutputParserException, pydantic_core._pydantic_core.ValidationError) as e:
         # When there is too much info extracted the extractor can't parse the output json, so make chunks smaller.
-        # This is a temporary fix
-        new_chunks = read_file_and_chunk(text_file, int(context_window / 2))
-        extractions = extractor.batch(
-            [{"text": text, "examples": example_messages} for text in new_chunks],
-            {"max_concurrency": 1},  # limit the concurrency by passing max concurrency! Otherwise Requests rate limit exceeded
-        )
-    # output = extractor.invoke({'text': text})
+        print(f'Warning: reducing size of chunk as output json is too large to parse. For file {text_file}')
+
+        new_chunks = split_text_chunks(text_chunks)
+        extractions = []
+        for text in new_chunks:
+            try:
+                chunk_output = extractor.invoke({"text": text, "examples": example_messages})
+                extractions.append(chunk_output)
+            except Exception as e:
+                print(f'Unknown error for text {e}')
+
     output = []
 
     for extraction in extractions:
-        output.extend(extraction.taxa)
+        if extraction.taxa is not None:
+            output.extend(extraction.taxa)
 
     deduplicated_extractions = deduplicate_and_standardise_output_taxa_lists(output)
 
@@ -66,11 +73,12 @@ def setup_models():
     load_dotenv()
     out = {}
     # A selection of models that support .with_structured_output https://python.langchain.com/v0.2/docs/integrations/chat/
-    # Try to use the best from each company
+    # Try to use the best from each company, and use a specified stable version.
     # If any work particularly well then also test cheaper versions e.g. gpt-mini, claude haiku
 
     hparams = {'temperature': 0}
 
+    # https://platform.openai.com/docs/models/gpt-4o
     # Max tokens 128k
     # Input: $5.00 /1M tokens
     # Output $15.00 /1M tokens
@@ -89,20 +97,23 @@ def setup_models():
     # REGION = "europe-west2"  # @param {type:"string"}
     # # # Initialize Vertex AI SDK
     # vertexai.init(project=PROJECT_ID, location=REGION)
-    model2 = ChatVertexAI(model="gemini-1.5-pro-001", **hparams)
+    # https://ai.google.dev/gemini-api/docs/models/gemini
+    model2 = ChatVertexAI(model="gemini-1.5-pro-002", **hparams)
     out['gemini'] = [model2, get_input_size_limit(128)]
 
     # Max tokens 200k
     # Input: $3 / MTok
     # Output $15 / MTok
-    model3 = ChatAnthropic(model="claude-3-5-sonnet-20240620", **hparams)
-    out['gpt4o'] = [model3, get_input_size_limit(200)]
+    # https://docs.anthropic.com/en/docs/about-claude/models
+    model3 = ChatAnthropic(model="claude-3-5-sonnet-20241022", **hparams)
+    out['claude'] = [model3, get_input_size_limit(200)]
 
     # Max tokens 32k
-    # Input: $4/1M tokens
-    # Output $8.1/1M tokens
-    model4 = ChatMistralAI(model="mistral-large-latest", **hparams)
-    out['mistral'] = [model4, get_input_size_limit(32)]
+    # Input: $2/1M tokens
+    # Output $6/1M tokens
+    # https://mistral.ai/technology/#pricing
+    model4 = ChatMistralAI(model="mistral-large-2407", **hparams)
+    out['mistral'] = [model4, get_input_size_limit(128)]
 
     # Llama api still experimental and token limit is too small via groq
     # model5 = ChatGroq(model="llama3-70b-8192",
@@ -117,6 +128,7 @@ def setup_models():
 
     model5 = ChatFireworks(
         model="accounts/fireworks/models/llama-v3p1-405b-instruct", **hparams)
+    model5.model_name = 'llama-v3p1-405b-instruct'
     out['llama'] = [model5, get_input_size_limit(131)]
 
     return out

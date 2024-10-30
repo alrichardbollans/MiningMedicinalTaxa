@@ -1,16 +1,15 @@
-# Following https://python.langchain.com/v0.1/docs/use_cases/extraction/how_to/examples/
+# Following https://python.langchain.com/docs/how_to/extraction_examples/
 
 import uuid
-from typing import Dict, List, TypedDict
+from typing import List, TypedDict
 
 from langchain_core.messages import (
     AIMessage,
     BaseMessage,
     HumanMessage,
-    SystemMessage,
     ToolMessage,
 )
-from langchain_core.pydantic_v1 import BaseModel, Field
+from pydantic import BaseModel
 
 from rag_models.structured_output_schema import Taxon
 

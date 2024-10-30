@@ -2,3 +2,5 @@ matplotlib
 langchain
 openpyxl
 seaborn
+langchain_core
+pydantic

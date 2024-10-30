@@ -26,6 +26,9 @@ def _get_chunks_to_tweak_with():
     for i in train['id'].values:
         assert i not in test['id'].values
 
+    summarise_annotations(for_hparam_tuning['id'].unique().tolist(), os.path.join('outputs', 'tuning_data_summary.csv'))
+    summarise_annotations(for_testing['id'].unique().tolist(), os.path.join('outputs', 'testing_data_summary.csv'))
+
     for_hparam_tuning.to_csv(os.path.join('outputs', 'for_hparam_tuning.csv'), index=False)
     for_testing.to_csv(os.path.join('outputs', 'for_testing.csv'), index=False)
 
@@ -75,13 +78,20 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
      all_preciseMedEfffalse_negatives) = [], [], [], []
     (all_approxMedEfftrue_positives_in_ground_truths, all_approxMedEfftrue_positives_in_model_annotations, all_approxMedEfffalse_positives,
      all_approxMedEfffalse_negatives) = [], [], [], []
-    model_tag = model.model_name
+    try:
+        model_name = model.model_name
+    except AttributeError:
+        # Different models use different fields for model names for some reason
+        model_name = model.model
+
+    model_tag = model_name
     if autoremove_non_sci_names:
         model_tag += '_autoremove_non_sci_names'
     for chunk_id in chunk_list:
         human_annotations = get_all_human_annotations_for_chunk_id(chunk_id, check=True)
-        pkl_file = os.path.join('outputs', 'model_pkls', f'{str(chunk_id)}_{model.model_name}_outputs.pickle')
+        pkl_file = os.path.join('outputs', 'model_pkls', f'{str(chunk_id)}_{model_name}_outputs.pickle')
         if rerun:
+            print(chunk_id)
             if model_query_function is None:
                 query_a_model(model, get_chunk_filepath_from_chunk_id(chunk_id),
                               context_window, pkl_file)
@@ -245,7 +255,7 @@ def plot_results(file_info, out_dir):
         plt.close()
 
 
-def assessing_hparams(rerun):
+def assessing_hparams(rerun:bool=True):
     from langchain_openai import ChatOpenAI
 
     # This is a minimal process and more about getting the model to run and output something sensible than actual performance.
@@ -253,18 +263,25 @@ def assessing_hparams(rerun):
 
     load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'rag_models', '.env'))
 
-    model1 = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
-    assess_model_on_chunk_list(df_for_hparam_tuning['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=rerun)
-    assess_model_on_chunk_list(df_for_hparam_tuning['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=False,
-                               autoremove_non_sci_names=True)
+    # model1 = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
+    # assess_model_on_chunk_list(df_for_hparam_tuning['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=rerun)
+    # assess_model_on_chunk_list(df_for_hparam_tuning['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=False,
+    #                            autoremove_non_sci_names=True)
 
+    all_models = setup_models()
 
-def full_evaluation():
+    for m in all_models:
+        if m not in ['gpt4o','claude']:
+            print(m)
+            assess_model_on_chunk_list(df_for_hparam_tuning['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'hparam_runs', rerun=rerun, autoremove_non_sci_names=False)
+            assess_model_on_chunk_list(df_for_hparam_tuning['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'hparam_runs', rerun=False, autoremove_non_sci_names=True)
+
+def full_evaluation(rerun:bool=True):
     all_models = setup_models()
     test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
     for m in all_models:
-        assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'outputs', autoremove_non_sci_names=False)
-        assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'outputs', autoremove_non_sci_names=True)
+        assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'outputs', rerun=rerun, autoremove_non_sci_names=False)
+        assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'outputs', rerun=False, autoremove_non_sci_names=True)
 
 
 def evaluate_on_all_papers():
@@ -279,10 +296,5 @@ def main():
 if __name__ == '__main__':
     # _get_chunks_to_tweak_with()
     df_for_hparam_tuning = pd.read_csv(os.path.join('outputs', 'for_hparam_tuning.csv'))
-    df_for_testing = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
-
-    summarise_annotations(df_for_hparam_tuning['id'].unique().tolist(), os.path.join('outputs', 'tuning_data_summary.csv'))
-    summarise_annotations(df_for_testing['id'].unique().tolist(), os.path.join('outputs', 'testing_data_summary.csv'))
 
     main()
-    # print(get_chunk_filepath_from_chunk_id(343))

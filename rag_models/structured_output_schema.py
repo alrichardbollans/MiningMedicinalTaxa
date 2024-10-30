@@ -3,7 +3,7 @@ import os
 from typing import Optional, List
 
 import pandas as pd
-from langchain_core.pydantic_v1 import BaseModel, Field
+from pydantic import BaseModel, Field
 
 from rag_models.rag_prompting import medicinal_effect_def, medical_condition_def
 from useful_string_methods import clean_strings, TAXON_ENTITY_CLASSES, get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations, \
@@ -58,7 +58,7 @@ class TaxaData(BaseModel):
     """Extracted data about taxa."""
 
     # Creates a model so that we can extract multiple entities.
-    taxa: List[Taxon]
+    taxa: Optional[List[Taxon]]
 
 
 def deduplicate_and_standardise_output_taxa_lists(taxa: List[Taxon]) -> TaxaData:
