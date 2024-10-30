@@ -70,17 +70,27 @@ def tool_example_to_messages(example: Example) -> List[BaseMessage]:
 
 _examples = [
     (
-        "The ocean is vast and blue. It's more than 20,000 feet deep. There are many fish in it.",
-        Taxon(scientific_name=None, medical_conditions=None, medicinal_effects=None),
+        "Panax ginseng C.A.Mey has numerous health benefits; it has been used for fatigue, enhancement of mental and physical performance, and as a male stimulant.",
+        Taxon(scientific_name='Panax ginseng C.A.Mey', medical_conditions=['fatigue'],
+              medicinal_effects=['enhancement of mental and physical performance', 'male stimulant']),
     ),
     (
-        "Fiona traveled far from France to Spain.",
-        Taxon(scientific_name=None, medical_conditions=None, medicinal_effects=None),
+        "The use of papaverine from the opium poppy (Papaver somniferum L.) as a vasodilator led to the development of verapamil for hypertension. More commonly known are the opioid analgesics codeine and morphine for pain relief which are also derivatives of the opium poppy.",
+        Taxon(scientific_name='Papaver somniferum L.', medical_conditions=['hypertension'], medicinal_effects=['vasodilator', 'pain relief']),
     ),
     (
-        "Castor oil (Ricinus communis). The ornamentalcastor bean plant is also the source of an importantindustrial oil. The United States is the largestimporter. The oil content of the seed varies from 35-55%. Castor oil is found in soap, synthetic rubber,linoleum, inks, nylons, and as a lubricant in airplaneand rocket engines. About 1% of the production goesinto a more refined version that is used in medicine,where it is called oleum ricini. It is a very effectivepurgative, an agent that causes evacuation of thebowels",
-        Taxon(scientific_name='Ricinus communis', medical_conditions=None, medicinal_effects=['purgative', 'evacuation of thebowels']),
+        "Castor oil (Ricinus communis) is the source of an important oil. The oil content of the seed varies from 35-55%. It is a very effective purgative, an agent that causes evacuation of the bowels",
+        Taxon(scientific_name='Ricinus communis', medical_conditions=None, medicinal_effects=['purgative', 'evacuation of the bowels']),
     ),
+    (
+        "Joseph Caventou isolated and purified quinine from the bark of the cinchona tree (Cinchona officinalis L.) which was used to treat malaria. The traditional use of quinine for treating fever and infectious disease dates back to the 1600s",
+        Taxon(scientific_name='Cinchona officinalis L.', medical_conditions=['malaria', 'fever', 'infectious disease'],
+              medicinal_effects=None),
+    ),
+    (
+        "During the tanning process, the animal skin is soaked in a tannin extraction for a period of time ranging from just a few hours to several months.",
+        Taxon(scientific_name=None, medical_conditions=None, medicinal_effects=None),
+    )
 ]
 
 example_messages = []

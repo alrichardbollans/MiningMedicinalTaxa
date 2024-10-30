@@ -274,11 +274,6 @@ def evaluate_on_all_papers():
 
 def main():
     assessing_hparams(rerun=True)
-    # basic_plot_results(os.path.join('hparam_runs', 'gpt-3.5-turbo-0125_results.csv'), 'hparam_runs', 'gpt-3.5-turbo')
-    # basic_plot_results(os.path.join('hparam_runs', 'gpt-3.5-turbo-0125_autoremove_non_sci_names_results.csv'), 'hparam_runs', 'gpt-3.5-turbo-0125_autoremove_non_sci_names')
-    # basic_plot_results(os.path.join('outputs', 'gpt-4o_results.csv'), 'outputs', 'gpt-4o')
-    # plot_results({'gpt-3.5-turbo': [os.path.join('hparam_runs', 'gpt-3.5-turbo-0125_results.csv')],
-    #               'gpt-4o': [os.path.join('outputs', 'gpt-4o_results.csv')]}, 'hparam_runs')
 
 
 if __name__ == '__main__':

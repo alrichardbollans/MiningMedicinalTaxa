@@ -2,6 +2,9 @@ Very good at NER
 
 Removing nonsci names adds improvements - improves precision without risking recall
 
+## Examples
+
+In some cases adding examples has meant it just adds those examples to the output
 
 ## General notes
 False negatives are hard to diagnose
