@@ -9,7 +9,7 @@ from rag_models.evaluating import NER_evaluation, RE_evaluation, check_errors, a
     abbreviated_precise_match, get_metrics_from_tp_fp_fn, clean_model_annotations_using_taxonomy_knowledge
 from rag_models.running_models import query_a_model, get_input_size_limit, setup_models
 from rag_models.structured_output_schema import valid_chunk_annotation_info, get_all_human_annotations_for_chunk_id, get_chunk_filepath_from_chunk_id, \
-    repo_path
+    repo_path, summarise_annotations
 
 
 def _get_chunks_to_tweak_with():
@@ -279,6 +279,10 @@ def main():
 if __name__ == '__main__':
     # _get_chunks_to_tweak_with()
     df_for_hparam_tuning = pd.read_csv(os.path.join('outputs', 'for_hparam_tuning.csv'))
+    df_for_testing = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
+
+    summarise_annotations(df_for_hparam_tuning['id'].unique().tolist(), os.path.join('outputs', 'tuning_data_summary.csv'))
+    summarise_annotations(df_for_testing['id'].unique().tolist(), os.path.join('outputs', 'testing_data_summary.csv'))
 
     main()
     # print(get_chunk_filepath_from_chunk_id(343))

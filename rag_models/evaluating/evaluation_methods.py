@@ -71,7 +71,8 @@ def abbreviated_approximate_match(name1: str, name2: str):
     if '  ' in name1 or '  ' in name2:
         raise ValueError(f'Double spaces in name: {name1}, {name2}')
 
-    if approximate_match(name1, name2) or approximate_match(abbreviate_sci_name(name1), name2) or approximate_match(abbreviate_sci_name(name2), name1):
+    if approximate_match(name1, name2) or approximate_match(abbreviate_sci_name(name1), name2) or approximate_match(abbreviate_sci_name(name2),
+                                                                                                                    name1):
         return True
     else:
         return False
@@ -169,7 +170,7 @@ def NER_evaluation(model_annotations: TaxaData, ground_truth_annotations: TaxaDa
     # Collect true positives
     # When calculating recall, want the true positives with respect to false negatives i.e. the number of ground truth scientific names that have been matched
     # When calculating precision, want the true positives with respect to false positives i.e. the number of predicted scientific names that have been matched
-    # Usually these two things would be the same, but when using an approximate matching method you might can end up with unwanted duplications
+    # Usually these two things would be the same, but when using an approximate matching method you can end up with unwanted duplications
     for a in model_annotations.taxa:
         for g in ground_truth_annotations.taxa:
             if matching_method(a.scientific_name, g.scientific_name):
@@ -277,12 +278,13 @@ def check_errors(model_annotations: TaxaData, ground_truth_annotations: TaxaData
         ground_truth_annotations,
         'approximate',
         'medicinal_effects')
-    all = [true_positives_in_model_annotations, false_positives, false_negatives,
+    all = [true_positives_in_ground_truths, true_positives_in_model_annotations, false_positives, false_negatives,
            retrue_positives_in_model_annotations, refalse_positives,
            refalse_negatives, meretrue_positives_in_model_annotations, merefalse_positives, merefalse_negatives]
     padded = list(zip(*itertools.zip_longest(*all, fillvalue='')))
     problems = pd.DataFrame(zip(*padded),
-                            columns=['NER_tp', 'NER_fp', 'NER_fn', 'MedCond_tp', 'MedCond_fp', 'MedCond_fn', 'MedEff_tp', 'MedEff_fp', 'MedEff_fn'])
+                            columns=['NER_tp_in_ground', 'NER_tp_in_model', 'NER_fp', 'NER_fn', 'MedCond_tp', 'MedCond_fp', 'MedCond_fn', 'MedEff_tp',
+                                     'MedEff_fp', 'MedEff_fn'])
     problems.to_csv(os.path.join(out_dir, f'{str(chunk_id)}_{model_tag}_problems.csv'))
 
 

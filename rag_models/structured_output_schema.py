@@ -160,17 +160,9 @@ def _get_result_from_ann_in_dict(ann: dict):
     if len(ann['annotations']) > 1:
         print(ann)
         raise ValueError
-
-    ## Check chunk id
     chunk_id_for_annotations = ann['id']
     assert ann['id'] == ann['inner_id']
-    data = ann['data']['text']
 
-    import os
-
-    with open(os.path.join(get_chunk_filepath_from_chunk_id(chunk_id_for_annotations)), "r", encoding="utf8") as f:
-        text = f.read()
-    assert data == text
     return anns, chunk_id_for_annotations
 
 
@@ -218,8 +210,21 @@ def get_all_human_annotations_for_chunk_id(chunk_id: int, check: bool = True):
             taxa_data = convert_human_annotations_to_taxa_data_schema(human_ner_annotations1, human_re_annotations1)
             collected_taxa_data.extend(taxa_data.taxa)
     if len(collected_taxa_data) == 0:
-        raise ValueError(f'No human annotations for id: {chunk_id}')
+        print(f'Warning: No human annotations for id: {chunk_id}')
     return deduplicate_and_standardise_output_taxa_lists(collected_taxa_data)
+
+
+def _check_ann_id_matches_with_info(ann):
+    ## Check chunk id matches with info
+    chunk_id_for_annotations = ann['id']
+    assert ann['id'] == ann['inner_id']
+    data = ann['data']['text']
+
+    import os
+
+    with open(os.path.join(get_chunk_filepath_from_chunk_id(chunk_id_for_annotations)), "r", encoding="utf8") as f:
+        text = f.read()
+    assert data == text
 
 
 def check_all_human_annotations():
@@ -240,6 +245,7 @@ def check_all_human_annotations():
         d = json.load(f)
     for ann in d:
         anns, ann_chunk_id = _get_result_from_ann_in_dict(ann)
+        _check_ann_id_matches_with_info(ann)
         if ann_chunk_id not in valid_chunk_annotation_info['id'].values:
             try:
                 assert len(anns) == 0
@@ -259,10 +265,33 @@ def check_all_human_annotations():
                 bad_messages.append(e)
     issues = annotation_info[annotation_info['id'].isin(bad_ids)]
     issues['message'] = bad_messages
-    if len(issues)>0:
+    if len(issues) > 0:
         issues.to_csv('humman_annotation_issues.csv', index=False)
+
+
+def summarise_annotations(chunk_ids: list, out_path: str):
+    number_of_chunks = len(chunk_ids)
+    number_of_taxa = 0
+    number_of_lone_taxa = 0
+    number_of_medical_conditions = 0
+    number_of_medicinal_effects = 0
+
+    for chunk_id in chunk_ids:
+        human_annotations = get_all_human_annotations_for_chunk_id(chunk_id, check=True)
+        taxa = human_annotations.taxa
+        number_of_taxa += len(taxa)
+
+        for t in taxa:
+            if t.medicinal_effects is None and t.medical_conditions is None:
+                number_of_lone_taxa += 1
+            for m in t.medical_conditions or []:
+                number_of_medical_conditions += 1
+            for m in t.medicinal_effects or []:
+                number_of_medicinal_effects += 1
+    out_df = pd.DataFrame([[number_of_chunks, number_of_taxa, number_of_lone_taxa, number_of_medical_conditions, number_of_medicinal_effects]],
+                          columns=['Number of Chunks', 'Taxa', 'Lone Taxa', 'Medical Conditions', 'Medicinal Effects'])
+    out_df.to_csv(out_path)
 
 
 if __name__ == '__main__':
     check_all_human_annotations()
-    # corpus_output = get_all_human_annotations_for_corpus_id('4187756')
