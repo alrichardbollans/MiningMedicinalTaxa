@@ -1,6 +1,6 @@
 import json
 import os
-from typing import Optional, List
+from typing import Optional, List, Any
 
 import pandas as pd
 from pydantic import BaseModel, Field
@@ -53,6 +53,18 @@ class Taxon(BaseModel):
         description=medicinal_effect_def
     )
 
+    def __setstate__(self, state: dict[Any, Any]) -> None:
+        """
+        Hack to allow unpickling models stored from pydantic V1
+        """
+        state.setdefault("__pydantic_extra__", {})
+        state.setdefault("__pydantic_private__", {})
+
+        if "__pydantic_fields_set__" not in state:
+            state["__pydantic_fields_set__"] = state.get("__fields_set__")
+
+        super().__setstate__(state)
+
 
 class TaxaData(BaseModel):
     """Extracted data about taxa."""
@@ -60,6 +72,17 @@ class TaxaData(BaseModel):
     # Creates a model so that we can extract multiple entities.
     taxa: Optional[List[Taxon]]
 
+    def __setstate__(self, state: dict[Any, Any]) -> None:
+        """
+        Hack to allow unpickling models stored from pydantic V1
+        """
+        state.setdefault("__pydantic_extra__", {})
+        state.setdefault("__pydantic_private__", {})
+
+        if "__pydantic_fields_set__" not in state:
+            state["__pydantic_fields_set__"] = state.get("__fields_set__")
+
+        super().__setstate__(state)
 
 def deduplicate_and_standardise_output_taxa_lists(taxa: List[Taxon]) -> TaxaData:
     """ Clean strings, as in read_annotation_json and then deduplicate results"""
