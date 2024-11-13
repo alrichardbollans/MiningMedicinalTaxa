@@ -69,21 +69,21 @@ def tool_example_to_messages(example: Example) -> List[BaseMessage]:
 
 _examples = [
     (
-        "Panax ginseng C.A.Mey has numerous health benefits; it has been used for fatigue, enhancement of mental and physical performance, and as a male stimulant.",
-        Taxon(scientific_name='Panax ginseng C.A.Mey', medical_conditions=['fatigue'],
-              medicinal_effects=['enhancement of mental and physical performance', 'male stimulant']),
+        "Panax ginseng C.A.Mey has many benefits; it has been used for tiredness and enhancement of physical performance.",
+        Taxon(scientific_name='Panax ginseng C.A.Mey', medical_conditions=['tiredness'],
+              medicinal_effects=['enhancement of physical performance']),
     ),
     (
-        "The use of papaverine from the opium poppy (Papaver somniferum L.) as a vasodilator led to the development of verapamil for hypertension. More commonly known are the opioid analgesics codeine and morphine for pain relief which are also derivatives of the opium poppy.",
-        Taxon(scientific_name='Papaver somniferum L.', medical_conditions=['hypertension'], medicinal_effects=['vasodilator', 'pain relief']),
+        "The opium poppy (Papaver somniferum L.) is grown in many places around the world. It is commonly used to treat hypertension. It is also used for pain relief as well as vasodilation.",
+        Taxon(scientific_name='Papaver somniferum L.', medical_conditions=['hypertension'], medicinal_effects=['vasodilation', 'pain relief']),
     ),
     (
-        "Castor oil (Ricinus communis) is the source of an important oil. The oil content of the seed varies from 35-55%. It is a very effective purgative, an agent that causes evacuation of the bowels",
-        Taxon(scientific_name='Ricinus communis', medical_conditions=None, medicinal_effects=['purgative', 'evacuation of the bowels']),
+        "There are many oils to choose from. Castor oil from Ricinus communis is a very effective purgative.",
+        Taxon(scientific_name='Ricinus communis', medical_conditions=None, medicinal_effects=['purgative']),
     ),
     (
-        "Joseph Caventou isolated and purified quinine from the bark of the cinchona tree (Cinchona officinalis L.) which was used to treat malaria. The traditional use of quinine for treating fever and infectious disease dates back to the 1600s",
-        Taxon(scientific_name='Cinchona officinalis L.', medical_conditions=['malaria', 'fever', 'infectious disease'],
+        "Quinine was isolated from the bark of the cinchona tree (Cinchona officinalis L.) which was used to treat malaria. The traditionaluse of quinine for treating fever and infectious-disease dates back to the 1600s",
+        Taxon(scientific_name='Cinchona officinalis L.', medical_conditions=['malaria', 'fever', 'infectious-disease'],
               medicinal_effects=None),
     ),
     (

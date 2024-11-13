@@ -1,5 +1,6 @@
 import os
 import pickle
+import string
 
 import langchain_core
 import pydantic_core
@@ -10,33 +11,55 @@ from rag_models.rag_prompting import standard_medicinal_prompt
 from rag_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, TaxaData
 
 
-def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = None, single_chunk: bool = True) -> TaxaData:
+def sanitize_text(s: str):
+    table = str.maketrans(dict.fromkeys(string.punctuation))
+    out = s.translate(table)
+    return out
+
+
+def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = None, single_chunk: bool = True, examples = example_messages) -> TaxaData:
     text_chunks = read_file_and_chunk(text_file, context_window)
     if single_chunk:
         # For most of analysis, will be testing on single chunks as this is how we've annotated them.
         # In this instance, the chunks should fit in the context window
         assert len(text_chunks) == 1
     # A few different methods, depending on the specific model are used to get a structured output
-    # and this is handled by with_structured_output. See https://python.langchain.com/v0.1/docs/modules/model_io/chat/structured_output/
+    # and this is handled by with_structured_output. See https://python.langchain.com/docs/how_to/structured_output/
     extractor = standard_medicinal_prompt | model.with_structured_output(schema=TaxaData, include_raw=False)
     try:
 
         extractions = extractor.batch(
-            [{"text": text, "examples": example_messages} for text in text_chunks],
+            [{"text": text, "examples": examples} for text in text_chunks],
             {"max_concurrency": 1},  # limit the concurrency by passing max concurrency! Otherwise Requests rate limit exceeded
         )
     except (langchain_core.exceptions.OutputParserException, pydantic_core._pydantic_core.ValidationError) as e:
         # When there is too much info extracted the extractor can't parse the output json, so make chunks smaller.
+        # This can also happen because of limits on model max output tokens
         print(f'Warning: reducing size of chunk as output json is too large to parse. For file {text_file}')
 
         new_chunks = split_text_chunks(text_chunks)
+        print(f'Length of old chunk: {len(text_chunks[0])}')
+
         extractions = []
         for text in new_chunks:
             try:
-                chunk_output = extractor.invoke({"text": text, "examples": example_messages})
+                chunk_output = extractor.invoke({"text": text, "examples": examples})
                 extractions.append(chunk_output)
             except Exception as e:
-                print(f'Unknown error for text {e}')
+                more_chunks = split_text_chunks([text])
+                for more_text in more_chunks:
+                    try:
+                        chunk_output = extractor.invoke({"text": more_text, "examples": examples})
+                        extractions.append(chunk_output)
+                    except Exception as e:
+                        print(f'Unknown error "{e}" for text with length {len(more_text)}: {more_text}')
+                        # even_more_chunks = split_text_chunks([more_text])
+                        # for even_more_text in even_more_chunks:
+                        #     try:
+                        #         chunk_output = extractor.invoke({"text": even_more_text, "examples": examples})
+                        #         extractions.append(chunk_output)
+                        #     except Exception as e:
+                        #         print(f'Unknown error "{e}" for text with length {len(even_more_text)}: {even_more_text}')
 
     output = []
 
@@ -98,22 +121,22 @@ def setup_models():
     # # # Initialize Vertex AI SDK
     # vertexai.init(project=PROJECT_ID, location=REGION)
     # https://ai.google.dev/gemini-api/docs/models/gemini
-    model2 = ChatVertexAI(model="gemini-1.5-pro-002", **hparams)
+    model2 = ChatVertexAI(model="gemini-1.5-pro-002", max_tokens=8192,**hparams)
     out['gemini'] = [model2, get_input_size_limit(128)]
 
     # Max tokens 200k
     # Input: $3 / MTok
     # Output $15 / MTok
     # https://docs.anthropic.com/en/docs/about-claude/models
-    model3 = ChatAnthropic(model="claude-3-5-sonnet-20241022", **hparams)
+    model3 = ChatAnthropic(model="claude-3-5-sonnet-20241022", max_tokens=4096, **hparams)
     out['claude'] = [model3, get_input_size_limit(200)]
 
     # Max tokens 32k
     # Input: $2/1M tokens
     # Output $6/1M tokens
     # https://mistral.ai/technology/#pricing
-    model4 = ChatMistralAI(model="mistral-large-2407", **hparams)
-    out['mistral'] = [model4, get_input_size_limit(128)]
+    # model4 = ChatMistralAI(model="mistral-large-2407", **hparams)
+    # out['mistral'] = [model4, get_input_size_limit(128)]
 
     # Llama api still experimental and token limit is too small via groq
     # model5 = ChatGroq(model="llama3-70b-8192",
@@ -128,7 +151,6 @@ def setup_models():
 
     model5 = ChatFireworks(
         model="accounts/fireworks/models/llama-v3p1-405b-instruct", **hparams)
-    model5.model_name = 'llama-v3p1-405b-instruct'
     out['llama'] = [model5, get_input_size_limit(131)]
 
     return out

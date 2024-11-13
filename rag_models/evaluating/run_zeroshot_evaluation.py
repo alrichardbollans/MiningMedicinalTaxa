@@ -84,6 +84,9 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
         # Different models use different fields for model names for some reason
         model_name = model.model
 
+    if '/' in model_name:
+        model_name = model_name[model_name.rindex('/') + 1:]
+
     model_tag = model_name
     if autoremove_non_sci_names:
         model_tag += '_autoremove_non_sci_names'
@@ -92,6 +95,7 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
         pkl_file = os.path.join('outputs', 'model_pkls', f'{str(chunk_id)}_{model_name}_outputs.pickle')
         if rerun:
             print(chunk_id)
+            time.sleep(0.1)
             if model_query_function is None:
                 query_a_model(model, get_chunk_filepath_from_chunk_id(chunk_id),
                               context_window, pkl_file)
@@ -222,6 +226,7 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
     out_df = pd.DataFrame(out_df, index=['precision', 'recall', 'f1'])
     out_df.to_csv(os.path.join(out_dir, model_tag + '_results.csv'))
     basic_plot_results(os.path.join(out_dir, model_tag + '_results.csv'), out_dir, model_tag)
+    return out_df
 
 
 def basic_plot_results(file_to_plot, out_dir, model_name):
@@ -255,7 +260,7 @@ def plot_results(file_info, out_dir):
         plt.close()
 
 
-def assessing_hparams(rerun:bool=True):
+def assessing_hparams(rerun: bool = True):
     from langchain_openai import ChatOpenAI
 
     # This is a minimal process and more about getting the model to run and output something sensible than actual performance.
@@ -263,25 +268,31 @@ def assessing_hparams(rerun:bool=True):
 
     load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'rag_models', '.env'))
 
-    # model1 = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0)
-    # assess_model_on_chunk_list(df_for_hparam_tuning['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=rerun)
-    # assess_model_on_chunk_list(df_for_hparam_tuning['id'].unique().tolist(), model1, get_input_size_limit(16), 'hparam_runs', rerun=False,
-    #                            autoremove_non_sci_names=True)
-
     all_models = setup_models()
 
+    all_results = pd.DataFrame()
     for m in all_models:
-        if m not in ['gpt4o','claude']:
-            print(m)
-            assess_model_on_chunk_list(df_for_hparam_tuning['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'hparam_runs', rerun=rerun, autoremove_non_sci_names=False)
-            assess_model_on_chunk_list(df_for_hparam_tuning['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'hparam_runs', rerun=False, autoremove_non_sci_names=True)
+        print(m)
+        assess_model_on_chunk_list(df_for_hparam_tuning['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'hparam_runs', rerun=rerun,
+                                   autoremove_non_sci_names=False)
+        model_results = assess_model_on_chunk_list(df_for_hparam_tuning['id'].unique().tolist(), all_models[m][0], all_models[m][1],
+                                                   'hparam_runs', rerun=False, autoremove_non_sci_names=True)
+        model_results = model_results.loc[['f1']]
+        model_results = model_results.rename(index={'f1': f'{m}_f1'})
+        all_results = pd.concat([all_results, model_results])
 
-def full_evaluation(rerun:bool=True):
+    all_results.loc['model_means'] = all_results.mean(numeric_only=True)
+    all_results.to_csv(os.path.join(os.path.join('hparam_runs', 'all_results.csv')))
+
+
+def full_evaluation(rerun: bool = True):
     all_models = setup_models()
     test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
     for m in all_models:
-        assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'outputs', rerun=rerun, autoremove_non_sci_names=False)
-        assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'outputs', rerun=False, autoremove_non_sci_names=True)
+        assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'outputs', rerun=rerun,
+                                   autoremove_non_sci_names=False)
+        assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'outputs', rerun=False,
+                                   autoremove_non_sci_names=True)
 
 
 def evaluate_on_all_papers():
