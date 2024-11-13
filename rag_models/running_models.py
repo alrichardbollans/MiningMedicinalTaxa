@@ -29,7 +29,7 @@ def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = No
     try:
 
         extractions = extractor.batch(
-            [{"text": text, "examples": examples} for text in text_chunks],
+            [{"text": text} for text in text_chunks],
             {"max_concurrency": 1},  # limit the concurrency by passing max concurrency! Otherwise Requests rate limit exceeded
         )
     except (langchain_core.exceptions.OutputParserException, pydantic_core._pydantic_core.ValidationError) as e:
@@ -43,13 +43,13 @@ def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = No
         extractions = []
         for text in new_chunks:
             try:
-                chunk_output = extractor.invoke({"text": text, "examples": examples})
+                chunk_output = extractor.invoke({"text": text})
                 extractions.append(chunk_output)
             except Exception as e:
                 more_chunks = split_text_chunks([text])
                 for more_text in more_chunks:
                     try:
-                        chunk_output = extractor.invoke({"text": more_text, "examples": examples})
+                        chunk_output = extractor.invoke({"text": more_text})
                         extractions.append(chunk_output)
                     except Exception as e:
                         print(f'Unknown error "{e}" for text with length {len(more_text)}: {more_text}')
