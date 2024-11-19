@@ -22,7 +22,7 @@ class TestExamples(unittest.TestCase):
         self.assertEqual(result, expected_output)
 
     def test_casing(self):
-        taxa = ['aspidosperma.', '!AspidOsperma', '!Cinchona ']
+        taxa = ['aspidosperma.', '!AspidOsperma', '!Cinchona ', 'unknown', ', ', '']
         result = filter_name_list_using_sci_names(taxa)
 
         expected_output = ['aspidosperma.', '!AspidOsperma', '!Cinchona ']

@@ -51,7 +51,7 @@ def _filter_name_list_using_genus_names(list_of_possible_sci_names: List[str]):
         with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', g + '_genus_names_keywords.txt'),
                   'r', encoding="utf8") as file:
             _genus_names.extend(file.read().splitlines())
-
+    # TODO: This could be optimised...
     _genus_names = _tidy_list(_genus_names)
     initial_matches = cleaned_list.intersection(_genus_names)
 
@@ -82,13 +82,21 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
     def tidy_name(x):
         w = clean_strings(abbreviate_sci_name(x))
         words = w.split()
-        if words[0] in hybrid_characters:
-            return ' '.join(words[:3])
+        if len(words)>0:
+            if words[0] in hybrid_characters:
+                return ' '.join(words[:3])
+            else:
+                return ' '.join(words[:2])
         else:
-            return ' '.join(words[:2])
+            return None
 
     def _tidy_list(l):
-        return set([tidy_name(x) for x in l])
+        out = []
+        for x in l:
+            t_name = tidy_name(x)
+            if t_name is not None:
+                out.append(t_name)
+        return set(out)
 
     cleaned_list = _tidy_list(list_of_possible_sci_names)
 
@@ -99,7 +107,7 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
                                g + '_species_binomials_keywords.txt'),
                   'r', encoding="utf8") as file:
             _genus_names.extend(file.read().splitlines())
-
+    # TODO: This could be optimised...
     _genus_names = _tidy_list(_genus_names)
     initial_matches = cleaned_list.intersection(_genus_names)
 
@@ -107,7 +115,8 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
 
     final_names = []
     for name in list_of_possible_sci_names:
-        if tidy_name(name) in sci_name_matches:
+        t_name = tidy_name(name)
+        if t_name is not None and t_name in sci_name_matches:
             final_names.append(name)
     return final_names
 

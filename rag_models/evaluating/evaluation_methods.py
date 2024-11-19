@@ -40,7 +40,7 @@ def get_metrics_from_tp_fp_fn(true_positives_in_ground_truths: list, true_positi
     if recall == recall and precision == precision and precision + recall != 0:
         f1_score = 2 * (precision * recall) / (precision + recall)
     else:
-        print(f'Zero Division WARNING: No TP,FP,FN.')
+        print(f'Zero Division WARNING: No TP,FP.')
         print(f'Setting f1_score to np.nan')
         f1_score = np.nan
     return precision, recall, f1_score

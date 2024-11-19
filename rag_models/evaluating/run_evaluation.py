@@ -87,27 +87,34 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
     if '/' in model_name:
         model_name = model_name[model_name.rindex('/') + 1:]
 
+    def run(c_id, p_file):
+        print(c_id)
+        time.sleep(0.5)
+        if model_query_function is None:
+            query_a_model(model, get_chunk_filepath_from_chunk_id(c_id),
+                          context_window, p_file)
+        else:
+            model_query_function(model, get_chunk_filepath_from_chunk_id(c_id),
+                                 context_window, p_file)
+        m_outputs = pickle.load(open(p_file, "rb", -1))
+        return m_outputs
     model_tag = model_name
     if autoremove_non_sci_names:
         model_tag += '_autoremove_non_sci_names'
     for chunk_id in chunk_list:
-        human_annotations = get_all_human_annotations_for_chunk_id(chunk_id, check=True)
         pkl_file = os.path.join('outputs', 'model_pkls', f'{str(chunk_id)}_{model_name}_outputs.pickle')
         if rerun:
-            print(chunk_id)
-            time.sleep(0.1)
-            if model_query_function is None:
-                query_a_model(model, get_chunk_filepath_from_chunk_id(chunk_id),
-                              context_window, pkl_file)
-            else:
-                model_query_function(model, get_chunk_filepath_from_chunk_id(chunk_id),
-                                     context_window, pkl_file)
-
-        model_outputs = pickle.load(open(pkl_file, "rb", -1))
+            model_outputs = run(chunk_id, pkl_file)
+        else:
+            try:
+                model_outputs = pickle.load(open(pkl_file, "rb", -1))
+            except FileNotFoundError:
+                model_outputs = run(chunk_id, pkl_file)
 
         if autoremove_non_sci_names:
             model_outputs = clean_model_annotations_using_taxonomy_knowledge(model_outputs)
 
+        human_annotations = get_all_human_annotations_for_chunk_id(chunk_id, check=True)
         check_errors(model_outputs, human_annotations, os.path.join('outputs', 'model_errors'), chunk_id, model_tag)
 
         ### NER
@@ -281,31 +288,31 @@ def assessing_hparams(rerun: bool = True):
         model_results = model_results.rename(index={'f1': f'{m}_f1'})
         all_results = pd.concat([all_results, model_results])
 
-    all_results.loc['model_means'] = all_results.mean(numeric_only=True)
+    all_results.loc['model_means'] = all_results.fillna(0).mean(numeric_only=True)
     all_results.to_csv(os.path.join(os.path.join('hparam_runs', 'all_results.csv')))
 
 
 def full_evaluation(rerun: bool = True):
+    from dotenv import load_dotenv
+
+    load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'rag_models', '.env'))
+
     all_models = setup_models()
     test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
     for m in all_models:
-        assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'outputs', rerun=rerun,
+        print(m)
+        assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], os.path.join('outputs','full_eval'), rerun=rerun,
                                    autoremove_non_sci_names=False)
-        assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'outputs', rerun=False,
+        assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], os.path.join('outputs','full_eval'), rerun=False,
                                    autoremove_non_sci_names=True)
 
 
-def evaluate_on_all_papers():
-    # May want to include full paper evaluations as an extra analysis.
-    pass
-
-
 def main():
-    assessing_hparams(rerun=True)
+    # assessing_hparams(rerun=True)
+    full_evaluation(rerun=False)
 
 
 if __name__ == '__main__':
     # _get_chunks_to_tweak_with()
     df_for_hparam_tuning = pd.read_csv(os.path.join('outputs', 'for_hparam_tuning.csv'))
-
     main()

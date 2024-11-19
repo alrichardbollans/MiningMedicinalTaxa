@@ -52,14 +52,14 @@ def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = No
                         chunk_output = extractor.invoke({"text": more_text, "examples": examples})
                         extractions.append(chunk_output)
                     except Exception as e:
-                        print(f'Unknown error "{e}" for text with length {len(more_text)}: {more_text}')
-                        # even_more_chunks = split_text_chunks([more_text])
-                        # for even_more_text in even_more_chunks:
-                        #     try:
-                        #         chunk_output = extractor.invoke({"text": even_more_text, "examples": examples})
-                        #         extractions.append(chunk_output)
-                        #     except Exception as e:
-                        #         print(f'Unknown error "{e}" for text with length {len(even_more_text)}: {even_more_text}')
+                        # print(f'Unknown error "{e}" for text with length {len(more_text)}: {more_text}')
+                        even_more_chunks = split_text_chunks([more_text])
+                        for even_more_text in even_more_chunks:
+                            try:
+                                chunk_output = extractor.invoke({"text": even_more_text, "examples": examples})
+                                extractions.append(chunk_output)
+                            except Exception as e:
+                                print(f'Unknown error "{e}" for text with length {len(even_more_text)}: {even_more_text}')
 
     output = []
 
