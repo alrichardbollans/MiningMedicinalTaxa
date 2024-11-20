@@ -44,21 +44,33 @@ def _filter_name_list_using_genus_names(list_of_possible_sci_names: List[str]):
         return set([clean_strings(get_genus_from_full_name(x)) for x in l])
 
     cleaned_list = _tidy_list(list_of_possible_sci_names)
+    tidied_genus_name_file = os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', 'tidied_genus_names.txt')
+    try:
+        with open(tidied_genus_name_file,
+                  'r', encoding="utf8") as file:
+            _tidied_genus_names = file.read().splitlines()
+    except FileNotFoundError as e:
+        print(e)
+
+        _genus_names = []
+        for g in ['fungi', 'plant']:
+            with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', g + '_genus_names_keywords.txt'),
+                      'r', encoding="utf8") as file:
+                _genus_names.extend(file.read().splitlines())
+
+        _tidied_genus_names = _tidy_list(set(_genus_names))
+        with open(tidied_genus_name_file,
+                  'w', encoding="utf8") as f:
+            for line in _tidied_genus_names:
+                f.write(f"{line}\n")
 
     sci_name_matches = []
-    _genus_names = []
-    for g in ['fungi', 'plant']:
-        with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', g + '_genus_names_keywords.txt'),
-                  'r', encoding="utf8") as file:
-            _genus_names.extend(file.read().splitlines())
-    # TODO: This could be optimised...
-    _genus_names = _tidy_list(_genus_names)
-    initial_matches = cleaned_list.intersection(_genus_names)
+    initial_matches = cleaned_list.intersection(_tidied_genus_names)
 
     sci_name_matches.extend(initial_matches)
 
     for h in hybrid_characters:
-        genus_with_hybrids_iterator = set([h + ' ' + g for g in _genus_names])
+        genus_with_hybrids_iterator = set([h + ' ' + g for g in _tidied_genus_names])
         initial_matches = cleaned_list.intersection(genus_with_hybrids_iterator)
 
         sci_name_matches.extend(initial_matches)
@@ -100,16 +112,31 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
 
     cleaned_list = _tidy_list(list_of_possible_sci_names)
 
-    sci_name_matches = []
-    _genus_names = []
-    for g in ['fungi', 'plant']:
-        with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists',
-                               g + '_species_binomials_keywords.txt'),
+    abbv_binomial_name_file = os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', 'abbreviated_binomial_names.txt')
+    try:
+        with open(abbv_binomial_name_file,
                   'r', encoding="utf8") as file:
-            _genus_names.extend(file.read().splitlines())
-    # TODO: This could be optimised...
-    _genus_names = _tidy_list(_genus_names)
-    initial_matches = cleaned_list.intersection(_genus_names)
+            _abbreviated_binomial_names = file.read().splitlines()
+    except FileNotFoundError as e:
+        print(e)
+
+        _binomial_names = []
+        for g in ['fungi', 'plant']:
+            with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists',
+                                   g + '_species_binomials_keywords.txt'),
+                      'r', encoding="utf8") as file:
+                _binomial_names.extend(file.read().splitlines())
+
+        _abbreviated_binomial_names = _tidy_list(set(_binomial_names))
+
+        with open(abbv_binomial_name_file,
+                  'w', encoding="utf8") as f:
+            for line in _abbreviated_binomial_names:
+                f.write(f"{line}\n")
+
+    sci_name_matches = []
+
+    initial_matches = cleaned_list.intersection(_abbreviated_binomial_names)
 
     sci_name_matches.extend(initial_matches)
 
