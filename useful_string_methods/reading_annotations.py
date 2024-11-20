@@ -40,7 +40,7 @@ def leading_trailing_punctuation(given_str: str):
         if given_str != given_str or given_str is None:
             return given_str
         else:
-            stripped = given_str.strip('!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~')
+            stripped = given_str.strip('!"#$%&\'()*,-./:;<=>?@[\\]^_`{|}~')
             return stripped
     except AttributeError:
         return given_str
