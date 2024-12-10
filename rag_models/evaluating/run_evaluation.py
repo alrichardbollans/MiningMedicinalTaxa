@@ -311,6 +311,19 @@ def full_evaluation(rerun: bool = True):
                                    rerun=False,
                                    autoremove_non_sci_names=True)
 
+    all_results = pd.DataFrame()
+    fileNames = os.listdir(os.path.join('outputs', 'full_eval'))
+    for f in fileNames:
+        if f.endswith(".csv") and not f.startswith('all_results'):
+
+            model_results = pd.read_csv(os.path.join('outputs', 'full_eval', f), index_col=0)
+            model_results = model_results.loc[['f1']]
+            model_results = model_results.rename(index={'f1': f'{f}_f1'})
+            all_results = pd.concat([all_results, model_results])
+    all_results.loc['model_means'] = all_results.fillna(0).mean(numeric_only=True)
+    all_results = all_results.sort_values(by='Precise NER', ascending=False)
+    all_results.to_csv(os.path.join(os.path.join('outputs', 'full_eval', 'all_results.csv')))
+
 
 def full_eval_gnfinder(rerun: bool = True):
     class Mplaceholder(BaseModel):
@@ -329,8 +342,8 @@ def full_eval_gnfinder(rerun: bool = True):
 
 def main():
     # assessing_hparams(rerun=True)
-    # full_evaluation(rerun=False)
     full_eval_gnfinder()
+    full_evaluation(rerun=False)
 
 
 if __name__ == '__main__':

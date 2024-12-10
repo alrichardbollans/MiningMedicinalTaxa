@@ -105,7 +105,7 @@ def setup_models():
     # Max tokens 128k
     # Input: $5.00 /1M tokens
     # Output $15.00 /1M tokens
-    model1 = ChatOpenAI(model="gpt-4o", **hparams)
+    model1 = ChatOpenAI(model="gpt-4o-2024-08-06", **hparams)
     out['gpt4o'] = [model1, get_input_size_limit(128)]
 
     # Auth seems to work now
