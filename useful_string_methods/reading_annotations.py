@@ -147,7 +147,7 @@ def check_human_annotations(human_ner_annotations, human_re_annotations):
         raise ValueError(f"Errors found: {list(set(errors))}")
 
 
-def get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(anns: list, check: bool = True):
+def get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(anns: list, check: bool = True, standardise_annotations:bool=True):
     """
     From a list of annotations (as given in annotations json), separate NER and RE annotations and return cleaned annotations (may be duplicates)
     """
@@ -174,7 +174,8 @@ def get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotation
             del new_annotation['value']['labels']
             separate_NER_annotations.append(new_annotation)
 
-    standardise_NER_annotations(separate_NER_annotations)
+    if standardise_annotations:
+        standardise_NER_annotations(separate_NER_annotations)
 
     separate_RE_annotations = []
     errors = []
@@ -190,7 +191,8 @@ def get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotation
     if len(errors) > 0:
         raise KeyError(f"Errors found: {list(set(errors))}")
 
-    standardise_RE_annotations(separate_RE_annotations)
+    if standardise_annotations:
+        standardise_RE_annotations(separate_RE_annotations)
     if check:
         check_human_annotations(separate_NER_annotations, separate_RE_annotations)
     return separate_NER_annotations, separate_RE_annotations
