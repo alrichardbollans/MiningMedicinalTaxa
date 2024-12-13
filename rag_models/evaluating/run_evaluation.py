@@ -233,9 +233,11 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
               'Approx. MedCond': [approximateMedCondprecision, approximateMedCondrecall, approximateMedCondf1_score],
               'Precise MedEff': [preciseMedEffprecision, preciseMedEffrecall, preciseMedEfff1_score],
               'Approx. MedEff': [approximateMedEffprecision, approximateMedEffrecall, approximateMedEfff1_score]}
+
+    filename = "".join(i for i in model_tag if i not in "\/:*?<>|")
     out_df = pd.DataFrame(out_df, index=['precision', 'recall', 'f1'])
-    out_df.to_csv(os.path.join(out_dir, model_tag + '_results.csv'))
-    basic_plot_results(os.path.join(out_dir, model_tag + '_results.csv'), out_dir, model_tag)
+    out_df.to_csv(os.path.join(out_dir, filename + '_results.csv'))
+    basic_plot_results(os.path.join(out_dir, filename + '_results.csv'), out_dir, filename)
     return out_df
 
 
