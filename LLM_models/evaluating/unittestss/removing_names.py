@@ -1,9 +1,9 @@
 # Importing required modules
 import unittest
 
-from rag_models.evaluating.evaluation_methods import TaxaData
-from rag_models.evaluating.evaluation_methods import clean_model_annotations_using_taxonomy_knowledge
-from rag_models.structured_output_schema import Taxon
+from LLM_models.evaluating.evaluation_methods import TaxaData
+from LLM_models.evaluating.evaluation_methods import clean_model_annotations_using_taxonomy_knowledge
+from LLM_models.structured_output_schema import Taxon
 
 
 class TestEvaluationMethods(unittest.TestCase):

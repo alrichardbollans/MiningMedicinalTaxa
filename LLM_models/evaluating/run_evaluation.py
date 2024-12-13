@@ -6,11 +6,11 @@ from collections.abc import Callable
 import pandas as pd
 from pydantic.v1 import BaseModel
 
-from rag_models.evaluating import NER_evaluation, RE_evaluation, check_errors, abbreviated_approximate_match, \
+from LLM_models.evaluating import NER_evaluation, RE_evaluation, check_errors, abbreviated_approximate_match, \
     abbreviated_precise_match, get_metrics_from_tp_fp_fn, clean_model_annotations_using_taxonomy_knowledge
-from rag_models.evaluating.gnfinder_baseline import gnfinder_query_function
-from rag_models.running_models import query_a_model, get_input_size_limit, setup_models
-from rag_models.structured_output_schema import valid_chunk_annotation_info, get_all_human_annotations_for_chunk_id, get_chunk_filepath_from_chunk_id, \
+from LLM_models.evaluating.gnfinder_baseline import gnfinder_query_function
+from LLM_models.running_models import query_a_model, get_input_size_limit, setup_models
+from LLM_models.structured_output_schema import valid_chunk_annotation_info, get_all_human_annotations_for_chunk_id, get_chunk_filepath_from_chunk_id, \
     repo_path, summarise_annotations
 
 
@@ -278,7 +278,7 @@ def assessing_hparams(rerun: bool = True):
     # This is a minimal process and more about getting the model to run and output something sensible than actual performance.
     from dotenv import load_dotenv
 
-    load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'rag_models', '.env'))
+    load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'LLM_models', '.env'))
 
     all_models = setup_models()
 
@@ -300,7 +300,7 @@ def assessing_hparams(rerun: bool = True):
 def full_evaluation(rerun: bool = True):
     from dotenv import load_dotenv
 
-    load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'rag_models', '.env'))
+    load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'LLM_models', '.env'))
 
     all_models = setup_models()
     test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))

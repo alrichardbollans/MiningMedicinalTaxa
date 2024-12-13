@@ -1,6 +1,6 @@
 import unittest
 
-from rag_models.loading_files import split_text_chunks
+from LLM_models.loading_files import split_text_chunks
 
 
 class TestLoading(unittest.TestCase):

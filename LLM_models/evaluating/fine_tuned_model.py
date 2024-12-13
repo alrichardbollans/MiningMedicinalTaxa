@@ -2,9 +2,9 @@ import os
 
 import pandas as pd
 
-from rag_models.evaluating.run_evaluation import assess_model_on_chunk_list
-from rag_models.running_models import get_input_size_limit
-from rag_models.structured_output_schema import repo_path
+from LLM_models.evaluating.run_evaluation import assess_model_on_chunk_list
+from LLM_models.running_models import get_input_size_limit
+from LLM_models.structured_output_schema import repo_path
 
 
 def get_fine_tuned_model():
@@ -13,7 +13,7 @@ def get_fine_tuned_model():
     # Get API keys
     from dotenv import load_dotenv
 
-    load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'rag_models', '.env'))
+    load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'LLM_models', '.env'))
     out = {}
 
     hparams = {'temperature': 0}

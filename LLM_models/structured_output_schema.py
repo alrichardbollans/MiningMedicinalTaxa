@@ -5,7 +5,7 @@ from typing import Optional, List, Any
 import pandas as pd
 from pydantic import BaseModel, Field
 
-from rag_models.rag_prompting import medicinal_effect_def, medical_condition_def
+from LLM_models.rag_prompting import medicinal_effect_def, medical_condition_def
 from useful_string_methods import clean_strings, TAXON_ENTITY_CLASSES, get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations, \
     check_human_annotations, ENTITY_CLASSES
 

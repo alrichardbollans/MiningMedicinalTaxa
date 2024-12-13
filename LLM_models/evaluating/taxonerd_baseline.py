@@ -6,8 +6,8 @@ import pickle
 import pandas as pd
 from pkg_resources import resource_filename
 
-from rag_models.evaluating.run_zeroshot_evaluation import assess_model_on_chunk_list
-from rag_models.structured_output_schema import TaxaData, Taxon
+from LLM_models.evaluating.run_zeroshot_evaluation import assess_model_on_chunk_list
+from LLM_models.structured_output_schema import TaxaData, Taxon
 from useful_string_methods import clean_strings
 
 _inputs_path = resource_filename(__name__, 'inputs')

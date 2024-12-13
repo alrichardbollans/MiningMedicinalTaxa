@@ -9,7 +9,7 @@ from io import BytesIO
 
 import pandas as pd
 
-from rag_models.structured_output_schema import Taxon, deduplicate_and_standardise_output_taxa_lists
+from LLM_models.structured_output_schema import Taxon, deduplicate_and_standardise_output_taxa_lists
 
 
 def get_gnfinder_verbatim_names_from_text_file(text_file: str):

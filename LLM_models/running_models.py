@@ -5,10 +5,10 @@ import string
 import langchain_core
 import pydantic_core
 
-from rag_models.loading_files import read_file_and_chunk, split_text_chunks
-from rag_models.making_examples import example_messages
-from rag_models.rag_prompting import standard_medicinal_prompt
-from rag_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, TaxaData
+from LLM_models.loading_files import read_file_and_chunk, split_text_chunks
+from LLM_models.making_examples import example_messages
+from LLM_models.rag_prompting import standard_medicinal_prompt
+from LLM_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, TaxaData
 
 
 def sanitize_text(s: str):

@@ -5,7 +5,7 @@ from typing import Callable
 import numpy as np
 import pandas as pd
 
-from rag_models.structured_output_schema import TaxaData
+from LLM_models.structured_output_schema import TaxaData
 from useful_string_methods import filter_name_list_using_sci_names, abbreviate_sci_name
 
 

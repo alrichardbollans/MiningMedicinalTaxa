@@ -1,7 +1,7 @@
 import unittest
 
 # Import the method module
-from rag_models.evaluating.evaluation_methods import approximate_match, abbreviated_precise_match, abbreviated_approximate_match
+from LLM_models.evaluating.evaluation_methods import approximate_match, abbreviated_precise_match, abbreviated_approximate_match
 
 
 class TestApproximateMatch(unittest.TestCase):

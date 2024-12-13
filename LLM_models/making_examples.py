@@ -11,7 +11,7 @@ from langchain_core.messages import (
 )
 from pydantic import BaseModel
 
-from rag_models.structured_output_schema import Taxon
+from LLM_models.structured_output_schema import Taxon
 
 
 class Example(TypedDict):

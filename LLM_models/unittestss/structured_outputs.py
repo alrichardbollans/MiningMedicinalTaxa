@@ -1,5 +1,5 @@
 import unittest
-from rag_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, Taxon, TaxaData, \
+from LLM_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, Taxon, TaxaData, \
     convert_human_annotations_to_taxa_data_schema
 
 

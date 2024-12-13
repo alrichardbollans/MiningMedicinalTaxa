@@ -3,8 +3,8 @@ import re
 
 import pandas as pd
 
-from rag_models.evaluating.run_zeroshot_evaluation import get_chunk_filepath_from_chunk_id
-from rag_models.structured_output_schema import TaxaData
+from LLM_models.evaluating.run_zeroshot_evaluation import get_chunk_filepath_from_chunk_id
+from LLM_models.structured_output_schema import TaxaData
 from useful_string_methods import abbreviate_sci_name
 
 
