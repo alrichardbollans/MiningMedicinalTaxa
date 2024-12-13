@@ -189,7 +189,7 @@ def get_all_human_annotations_for_corpus_id(corpus_id: str, check: bool = True):
     return deduplicate_and_standardise_output_taxa_lists(collected_taxa_data)
 
 
-def get_all_human_annotations_for_chunk_id(chunk_id: int, check: bool = True):
+def get_all_human_annotations_for_chunk_id(chunk_id: int, check: bool = True, standardise_annotations:bool=True):
     """
     For a given chunk id, get related cleaned and deduplicated human annotations.
     :param chunk_id:
@@ -205,12 +205,19 @@ def get_all_human_annotations_for_chunk_id(chunk_id: int, check: bool = True):
 
         if ann_chunk_id == chunk_id:
             human_ner_annotations1, human_re_annotations1 = get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(anns,
-                                                                                                                                          check=check)
+                                                                                                                                          check=check, standardise_annotations=standardise_annotations)
             taxa_data = convert_human_annotations_to_taxa_data_schema(human_ner_annotations1, human_re_annotations1)
             collected_taxa_data.extend(taxa_data.taxa)
     if len(collected_taxa_data) == 0:
         print(f'Warning: No human annotations for id: {chunk_id}')
-    return deduplicate_and_standardise_output_taxa_lists(collected_taxa_data)
+    if standardise_annotations:
+        return deduplicate_and_standardise_output_taxa_lists(collected_taxa_data)
+    else:
+        names = []
+        for taxon in collected_taxa_data:
+            names.append(taxon.scientific_name)
+        assert len(names)==len(set(names)) ## If this fails, will need to deduplicate but without standardising
+        return TaxaData(taxa=collected_taxa_data)
 
 
 def _check_ann_id_matches_with_info(ann):

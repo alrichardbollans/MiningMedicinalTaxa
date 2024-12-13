@@ -20,4 +20,18 @@ conference. Association for Computational Linguistics. Meeting_. Vol. 2023. NIH 
 [3] Le Guillarme, Nicolas, and Wilfried Thuiller. "TaxoNERD: deep neural models for the recognition of taxonomic entities in the ecological and
 evolutionary literature." Methods in Ecology and Evolution 13.3 (2022): 625-641.
 
-[4] GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2024-08-20. 
+[4] GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2024-08-20.
+
+
+### Costs
+For evaluation (approx 9 papers), these were the following incurred costs:
+Claude - $6.62
+LLama via Fireworks - $4.51
+Gemini via vertex ai api - £1.45
+gpt - $4.91
+
+Note that these are only approximate and extra costs may have been incurred from retrying chunks by splitting multiple times.
+
+For finetuning gpt4o - $12.29
+
+Evaluation of gpt4o_FT - $8.10
