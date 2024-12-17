@@ -1,16 +1,66 @@
+import pickle
+import spacy
+import spacy_component  # Downloaded from https://github.com/Babelscape/rebel/blob/main/spacy_component.py
+from LLM_models.loading_files import get_txt_from_file
 
-def convert_rebel_output_to_TaxaData(rebel_output: str):
-    # Some good examples
+from LLM_models.structured_output_schema import Taxon, deduplicate_and_standardise_output_taxa_lists
+
+
+def get_rebel_output_on_text_file(text_file: str):
+    nlp = spacy.load("en_core_web_sm")
+
+    nlp.add_pipe("rebel", after="senter", config={
+        'device': 0,  # Number of the GPU, -1 if want to use CPU
+        'model_name': 'Babelscape/rebel-large'}  # Model used, will default to 'Babelscape/rebel-large' if not given
+                 )
+    input_sentence = get_txt_from_file(text_file)
+    doc = nlp(input_sentence)
+    doc_list = nlp.pipe([input_sentence])
+    return doc
+
+
+def convert_rebel_output_to_TaxaData(rebel_output):
+    # Relations are from wikidata linking
     # Relations are here https://github.com/Babelscape/rebel/blob/54ea5fd07dafece420c28c6f71f1c6431f42797c/data/relations_count.tsv#L227
+    # Relevant relations are:
+    # - 'medical condition treated'
+    # - 'drug used for treatment'
+    # - maybe 'has effect'
+    relevant_relations = ['medical condition treated', 'drug used for treatment', 'has effect']
     # (0, 6): {'relation': 'medical condition treated', 'head_span': Cinchona calisaya, 'tail_span': malaria}
     # (6, 0): {'relation': 'drug used for treatment', 'head_span': malaria, 'tail_span': Cinchona calisaya}
     # (18, 11): {'relation': 'drug used for treatment', 'head_span': fever, 'tail_span': Aspidosperma pubsecens L.}
-    pass
+    taxa_list = []
+    for value, rel_dict in rebel_output._.rel.items():
+        if rel_dict['relation'] in relevant_relations:
+            if rel_dict['relation'] == 'has effect':
+                taxon = rel_dict['tail_span']
+                effect = rel_dict['head_span']
+                taxa_list.append(Taxon(scientific_name=taxon, medicinal_effects=[effect]))
+            else:
+                if rel_dict['relation'] == 'medical condition treated':
+                    taxon = rel_dict['head_span']
+                    condition = rel_dict['tail_span']
+                elif rel_dict['relation'] == 'drug used for treatment':
+                    taxon = rel_dict['tail_span']
+                    condition = rel_dict['head_span']
+                taxa_list.append(Taxon(scientific_name=taxon, medical_conditions=[condition]))
+
+    out_taxa = deduplicate_and_standardise_output_taxa_lists(taxa_list)
+
+    return out_taxa
+
+
+def rebel_query_function(model, text_file: str, context_window: int, pkl_dump: str):
+    rebel_output = get_rebel_output_on_text_file(text_file)
+    out_taxa_data = convert_rebel_output_to_TaxaData(rebel_output)
+    with open(pkl_dump, "wb") as file_:
+        pickle.dump(out_taxa_data, file_)
+    return out_taxa_data
 
 
 def simple_rebel():
-    import spacy
-    import spacy_component # Downloaded from https://github.com/Babelscape/rebel/blob/main/spacy_component.py
+    # Need to run python -m spacy download en first.
 
     nlp = spacy.load("en_core_web_sm")
 
@@ -24,6 +74,7 @@ def simple_rebel():
     doc_list = nlp.pipe([input_sentence])
     for value, rel_dict in doc._.rel.items():
         print(f"{value}: {rel_dict}")
+
 
 if __name__ == '__main__':
     simple_rebel()
