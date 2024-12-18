@@ -361,8 +361,7 @@ def full_eval_rebel(rerun: bool = True):
 
 def main():
     # assessing_hparams(rerun=True)
-    # full_eval_gnfinder()
-    full_eval_rebel()
+    full_eval_gnfinder()
     full_evaluation(rerun=False)
 
 

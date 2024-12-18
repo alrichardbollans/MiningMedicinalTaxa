@@ -1,21 +1,21 @@
+import os
 import pickle
+
+import pandas as pd
 import spacy
 import spacy_component  # Downloaded from https://github.com/Babelscape/rebel/blob/main/spacy_component.py
 from LLM_models.loading_files import get_txt_from_file
 
-from LLM_models.structured_output_schema import Taxon, deduplicate_and_standardise_output_taxa_lists
+from LLM_models.structured_output_schema import Taxon, deduplicate_and_standardise_output_taxa_lists, get_chunk_filepath_from_chunk_id
 
+_test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
+_test_chunk_list = _test['id'].unique().tolist()
+_test_chunk_file_paths = {c_id: get_chunk_filepath_from_chunk_id(c_id) for c_id in _test_chunk_list}
 
 def get_rebel_output_on_text_file(text_file: str):
-    nlp = spacy.load("en_core_web_sm")
 
-    nlp.add_pipe("rebel", after="senter", config={
-        'device': 0,  # Number of the GPU, -1 if want to use CPU
-        'model_name': 'Babelscape/rebel-large'}  # Model used, will default to 'Babelscape/rebel-large' if not given
-                 )
     input_sentence = get_txt_from_file(text_file)
-    doc = nlp(input_sentence)
-    doc_list = nlp.pipe([input_sentence])
+    doc = _rebel_nlp(input_sentence)
     return doc
 
 
@@ -34,16 +34,16 @@ def convert_rebel_output_to_TaxaData(rebel_output):
     for value, rel_dict in rebel_output._.rel.items():
         if rel_dict['relation'] in relevant_relations:
             if rel_dict['relation'] == 'has effect':
-                taxon = rel_dict['tail_span']
-                effect = rel_dict['head_span']
+                taxon = rel_dict['head_span'].text
+                effect = rel_dict['tail_span'].text
                 taxa_list.append(Taxon(scientific_name=taxon, medicinal_effects=[effect]))
             else:
                 if rel_dict['relation'] == 'medical condition treated':
-                    taxon = rel_dict['head_span']
-                    condition = rel_dict['tail_span']
+                    taxon = rel_dict['head_span'].text
+                    condition = rel_dict['tail_span'].text
                 elif rel_dict['relation'] == 'drug used for treatment':
-                    taxon = rel_dict['tail_span']
-                    condition = rel_dict['head_span']
+                    taxon = rel_dict['tail_span'].text
+                    condition = rel_dict['head_span'].text
                 taxa_list.append(Taxon(scientific_name=taxon, medical_conditions=[condition]))
 
     out_taxa = deduplicate_and_standardise_output_taxa_lists(taxa_list)
@@ -51,12 +51,37 @@ def convert_rebel_output_to_TaxaData(rebel_output):
     return out_taxa
 
 
+def read_rebel_output(text_file: str):
+    for c, t in _test_chunk_file_paths.items():
+        if t == text_file:
+            c_id = c
+            break
+    pkl_file = f'{c_id}.pkl'
+    m_outputs = pickle.load(open(os.path.join('outputs', 'rebel_pkls', pkl_file), "rb", -1))
+    return m_outputs
+
 def rebel_query_function(model, text_file: str, context_window: int, pkl_dump: str):
-    rebel_output = get_rebel_output_on_text_file(text_file)
-    out_taxa_data = convert_rebel_output_to_TaxaData(rebel_output)
+    # rebel_output = get_rebel_output_on_text_file(text_file)
+    # out_taxa_data = convert_rebel_output_to_TaxaData(rebel_output)
+    out_taxa_data = read_rebel_output(text_file)
     with open(pkl_dump, "wb") as file_:
         pickle.dump(out_taxa_data, file_)
     return out_taxa_data
+
+def get_all_rebel_outputs(text_file_dict):
+    # Run multiple instances and cache results for reading later.
+    text_files = list(text_file_dict.values())
+    chunk_ids = list(text_file_dict.keys())
+    input_docs = [get_txt_from_file(text_file) for text_file in text_files]
+    doc_list = _rebel_nlp.pipe(input_docs, n_process=-1)
+    i=0
+    for doc in doc_list:
+        out_taxa_data = convert_rebel_output_to_TaxaData(doc)
+        pkl_file = f'{chunk_ids[i]}.pkl'
+        with open(os.path.join('outputs', 'rebel_pkls', pkl_file), "wb") as file_:
+            pickle.dump(out_taxa_data, file_)
+        i+=1
+    return doc_list
 
 
 def simple_rebel():
@@ -77,4 +102,15 @@ def simple_rebel():
 
 
 if __name__ == '__main__':
-    simple_rebel()
+    import torch.multiprocessing as mp # https://stackoverflow.com/a/75308606
+    mp.set_start_method('spawn')
+    _rebel_nlp = spacy.load("en_core_web_sm")
+
+    _rebel_nlp.add_pipe("rebel", after="senter", config={
+        'device': 0,  # Number of the GPU, -1 if want to use CPU
+        'model_name': 'Babelscape/rebel-large'}  # Model used, will default to 'Babelscape/rebel-large' if not given
+                        )
+
+    get_all_rebel_outputs(_test_chunk_file_paths)
+    check = read_rebel_output('/home/atp/Documents/repos/MedicinalPlantMining/annotated_data/top_10_medicinal_hits/chunks/all_chunks/481470282.txt_chunk_16.txt')
+    print(check)
