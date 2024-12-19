@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,o. natrix,ononis natrix,,,,ononis natrix_alzheimer's diseases,,,,o. natrix_antimicrobial
+1,ononis,,,,,ononis natrix_diabetes mellitus,,,,o. natrix_antioxidant
+2,ononis natrix subsp. hispanica,,,,,,,,,o. natrix_enzymeinhibitory
+3,ononis natrix,,,,,,,,,o. natrix_anticancer
+4,ononis natrix subsp. hispanicasubsp. hispanica,,,,,,,,,ononis_enzyme inhibitory
+5,,,,,,,,,,ononis natrix subsp. hispanica_anti-diabetic
+6,,,,,,,,,,ononis natrix subsp. hispanica_anti-tyrosinase
+7,,,,,,,,,,ononis natrix subsp. hispanica_inhibitors of tyrosinase

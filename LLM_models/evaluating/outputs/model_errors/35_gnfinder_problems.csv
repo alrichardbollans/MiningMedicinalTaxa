@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ocimum,ocimum,shyam tulsi,o. africanum,,,,,,
+1,ocimum gratissimum,o. tenuiflorum,raam tulsi,o. citridorum,,,,,,
+2,o. tenuiflorum,o. gratissimum,o. basilicum1,o.kilimandscharicum,,,,,,
+3,o. gratissimum,o. basilicum,o. basilicum2,veronica,,,,,,
+4,o. basilicum,o. selloi,o. basilicum3,,,,,,,
+5,o. selloi,o. americanum,o. basilicum4,,,,,,,
+6,o. americanum,ocimum gratissimum,o. basilicum5,,,,,,,
+7,,,shyam (krishna) tulsi,,,,,,,
+8,,,akamba garden centre,,,,,,,
+9,,,vana,,,,,,,

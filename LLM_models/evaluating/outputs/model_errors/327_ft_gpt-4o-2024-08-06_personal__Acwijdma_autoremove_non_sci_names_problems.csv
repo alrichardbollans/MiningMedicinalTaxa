@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,punica granatum l,punica granatum l,punica granatum-l,punicagranatum,,punica granatum l_cardiovascular diseases,punica granatum l_colon cancer,,punica granatum l_inhibition of ace activity,punica granatum l_suppress inflammatory cell signaling
+1,punica granatum,punica granatum,,,,punica granatum l_carotid artery stenosis,punica granatum_prostate cancer,,punica granatum l_lowering lipid oxidation,
+2,,,,,,punica granatum l_dyslipidemia,,,punica granatum l_decreasingblood pressure,
+3,,,,,,punica granatum l_atherosclerosis,,,punica granatum l_vasculoprotective,
+4,,,,,,punica granatum l_restenosis,,,"punica granatum l_positive influencing macrophage-, endothelial cell-,and platelet function",
+5,,,,,,,,,punica granatum l_reducingblood glucose levels,
+6,,,,,,,,,punica granatum l_diminishing of oxidativestress,
+7,,,,,,,,,punica granatum l_vasodilatory,
+8,,,,,,,,,punica granatum-l_suppress inflammatory cell signaling in colon cancer cells,
+9,,,,,,,,,"punica granatum_suppress proliferation, xenograftgrowth, and invasion of human prostate cancer cells",

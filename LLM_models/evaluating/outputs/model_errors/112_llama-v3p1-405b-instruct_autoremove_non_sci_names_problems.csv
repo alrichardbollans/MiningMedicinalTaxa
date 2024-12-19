@@ -1,0 +1,16 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,sophora secundiflora,sophora secundiflora,lophophora williamsii,d. inoxia,datura stramonium_inflammation,,d. inoxia_bruises,datura stramonium_aphrodisiac,"lophophora williamsii_tactile, auditory, and olfactory hallucinations",d. inoxia_anaesthetic
+1,psilocybe mexicana,psilocybe mexicana,,d. meteloides,datura stramonium_asthma,,d. inoxia_wounds,datura stramonium_anesthetic,lophophora williamsii_alteration or loss of time,d. meteloides_anaesthetic
+2,psilocybe,datura stramonium,,stropharia,datura stramonium_wounds,,d. meteloides_bruises,,lophophora williamsii_weightlessness,
+3,datura,virola calophylla,,conocybe,datura stramonium_bruises,,d. meteloides_wounds,,lophophora williamsii_hallucinations,
+4,datura stramonium,anadenanthera peregrina,,panaeolus,,,,,lophophora williamsii_doubling of the ego,
+5,virola calophylla,,,v. calophylloidea,,,,,lophophora williamsii_depersonalization,
+6,virola,,,v. theiodora,,,,,sophora secundiflora_hallucinogenic effects,
+7,anadenanthera peregrina,,,,,,,,psilocybe mexicana_brilliant color visions,
+8,,,,,,,,,psilocybe mexicana_hallucinations,
+9,,,,,,,,,datura stramonium_irritant,
+10,,,,,,,,,datura stramonium_narcotic,
+11,,,,,,,,,datura stramonium_stupefy,
+12,,,,,,,,,datura stramonium_kill,
+13,,,,,,,,,virola calophylla_hallucinogenic effects,
+14,,,,,,,,,anadenanthera peregrina_hallucinogenic effects,

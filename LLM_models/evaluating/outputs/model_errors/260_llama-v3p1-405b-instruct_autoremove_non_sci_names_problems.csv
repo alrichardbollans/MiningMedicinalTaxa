@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,,allium cepa,,,,,,allium cepa_genotoxicity
+1,,,,vicia faba,,,,,,vicia faba_genotoxicity
+2,,,,trifolium repens,,,,,,trifolium repens_genotoxicity
+3,,,,phaseolus vulgaris,,,,,,phaseolus vulgaris_genotoxicity

@@ -1,0 +1,18 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,viola odorata l,viola odorata l,zingiber officinale roscoe,aloe vera,viola odorata l_cough,trigonella foenum-graecum l_diabetes,aloe vera_burns,momordica charantia l_hypoglycaemic,viola odorata l_sooth a cough,aloe vera_anti-inflammatory
+1,momordica charantia l,momordica charantia l,,eucalyptus,momordica charantia l_diabetes,zingiber officinale roscoe_arthritis,aloe vera_mouth ulcers,trigonella foenum-graecum l_anti-diabetic,zingiber officinale roscoe_anti-inflammatory,aloe vera_immune boosting effects
+2,trigonella foenum-graecum l,trigonella foenum-graecum l,,,,,aloe vera_itchy skin,,,aloe vera_wound healing
+3,,,,,,,aloe vera_arthritis,,,momordica charantia l_glucose absorption
+4,,,,,,,aloe vera_stomach and duodenal ulcers,,,momordica charantia l_increase glucose uptake in liver cells
+5,,,,,,,aloe vera_irritable bowel syndrome,,,momordica charantia l_improve insulin secretion
+6,,,,,,,aloe vera_skin conditions,,,trigonella foenum-graecum l_improving insulin response in diabetics
+7,,,,,,,aloe vera_diabetes,,,trigonella foenum-graecum l_reduce bg levels
+8,,,,,,,aloe vera_skin irritation,,,
+9,,,,,,,aloe vera_eczema,,,
+10,,,,,,,aloe vera_tooth aches,,,
+11,,,,,,,viola odorata l_fever,,,
+12,,,,,,,viola odorata l_coughs,,,
+13,,,,,,,viola odorata l_pain,,,
+14,,,,,,,viola odorata l_colds,,,
+15,,,,,,,viola odorata l_catarrh,,,
+16,,,,,,,viola odorata l_headache,,,

@@ -1,0 +1,17 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,t. jankae,thymus jankae,,t. moesia-cus,,,cannabis_muscle pains,,,cannabis_psychoactive
+1,thymus,thymus longicaulis,,thy-mus,,,cannabis_skin inflammations,,,cannabis_anti-inflammatory
+2,thymus jankae chel. var. jankae,thymus moesiacus,,t. lon-gicaulis,,,cannabis_glaucoma,,,
+3,t. jankae var. pantotrichus ronn,thymus pannonicus,,thymus l,,,cannabis_arthritis,,,
+4,t. jankae var. patentipilus lyka,thymus pulegioides,,t. ciliatopubescens,,,,,,
+5,t. longicaulis,thymus tosevii,,t. pseudo-atticus,,,,,,
+6,t. moesiacus,thymus tosevii ssp. substriatus,,,,,,,,
+7,t. pannonicus,thymus balcanus,,,,,,,,
+8,t. pulegioides,cannabis sativa,,,,,,,,
+9,t. tosevii,,,,,,,,,
+10,thymus tosevii ssp. substriatus,,,,,,,,,
+11,t. tosevii ssp. substriatus,,,,,,,,,
+12,t. balcanus,,,,,,,,,
+13,thymus balcanus,,,,,,,,,
+14,cannabis,,,,,,,,,
+15,c. sativa,,,,,,,,,

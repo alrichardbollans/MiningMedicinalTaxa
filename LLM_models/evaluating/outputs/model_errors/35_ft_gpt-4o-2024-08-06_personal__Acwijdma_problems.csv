@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ocimum,ocimum,,,,,,,,
+1,ocimum gratissimum,o. tenuiflorum,,,,,,,,
+2,o. tenuiflorum,o. africanum,,,,,,,,
+3,o. africanum,o. citridorum,,,,,,,,
+4,o. citridorum,o. gratissimum,,,,,,,,
+5,o. gratissimum,o.kilimandscharicum,,,,,,,,
+6,o.kilimandscharicum,o. basilicum,,,,,,,,
+7,o. basilicum,o. selloi,,,,,,,,
+8,o. selloi,o. americanum,,,,,,,,
+9,o. americanum,veronica,,,,,,,,
+10,veronica,,,,,,,,,

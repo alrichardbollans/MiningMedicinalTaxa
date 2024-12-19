@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,anacardium occidentale,anacardium,podolia,styrax,,,,,,
+1,asa foetida,asa foetida,vocabularium medicum,carlina acaulis,,,,,,
+2,cnicus benedictus,cnicus benedictus,polonis rubro,plantagomajor,,,,,,
+3,pimpinella saxifraga,pimpinella saxifraga,antidotarium parvum,archangelicaofficinalis,,,,,,
+4,,,antidotarium magnum,,,,,,,
+5,,,cordus,,,,,,,
+6,,,experemintorum medico-chymicorum,,,,,,,
+7,,,storacis(styrax liquidum,,,,,,,
+8,,,pharmacopoea incompendium redacta,,,,,,,

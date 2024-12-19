@@ -1,0 +1,24 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,citrullus colocynthis l,citrullus colocynthis l,saffron,crepis l,citrullus colocynthis l_peripheral neuropathy,saffron_wound,citrullus colocynthis l_nerve originated pain,citrullus colocynthis l_antioxidant,saffron_wound healing,m. bellicosus_suppression of induced contractions
+1,citrullus colocynthis,macrotermes bellicosus,crocin,phytosia crocifolia (boiss. & heldr.) kamari & greuter,macrotermes bellicosus_dysentery,crocin_wound,citrullus colocynthis l_diabetic rats,citrullus colocynthis l_hypoglycemic,crocin_wound healing,m. bellicosus_spasmolytic
+2,c. colocynthis,corydalis hendersonii hemsl,safranal,,macrotermes bellicosus_diarrhea,safranal_wound,citrullus colocynthis_diabetic rats,macrotermes bellicosus_anti-inflammatory,safranal_wound healing,m. bellicosus_relaxation of basal tone
+3,macrotermes bellicosus,senecio candicans dc,,,corydalis hendersonii hemsl_vasculitis,senecio candicans dc_gastric cancer,c. colocynthis_diabetic neuropathy,macrotermes bellicosus_antimicrobial,cantharellus cibarius_anti-inflammatory,corydalis hendersonii hemsl_lowering blood pressure
+4,m. bellicosus,crepis dioscoridis l,,,corydalis hendersonii hemsl_high altitude polycythemia,senecio candicans dc_duodenal ulcer,c. colocynthis_oxidative stress,macrotermes bellicosus_anti-spasmodic,cantharellus cibarius_antioxidant,corydalis hendersonii hemsl_anti-acute myocardial ischemia
+5,corydalis hendersonii hemsl,crepis commutata,,,corydalis hendersonii hemsl_acute myocardial ischemia,crepis dioscoridis l_edema,macrotermes bellicosus_infectious,corydalis hendersonii hemsl_anti-inflammatory,cantharellus cibarius_anticancer,cantharellus cibarius_induced apoptotic cell death
+6,senecio candicans dc,crepis incana sm,,,senecio candicans dc_gastric ulcer,crepis commutata_edema,macrotermes bellicosus_inflammatory diseases,senecio candicans dc_antioxidant,cantharellus cibarius_pro-apoptotic,cantharellus cinereus_induced apoptotic cell death
+7,s. candicans,crepis heldreichiana,,,chios mastic_arterial hypertension,crepis incana sm_edema,,senecio candicans dc_gastroprotective,cantharellus cinereus_anti-inflammatory,craterellus cornucopioides_induced apoptotic cell death
+8,crepis,crepis crocifolia,,,,crepis heldreichiana_edema,,crepis dioscoridis l_anti-inflammatory,cantharellus cinereus_antioxidant,hydnum repandum_induced apoptotic cell death
+9,c. dioscoridis l,cantharellus cibarius,,,,crepis crocifolia_edema,,crepis dioscoridis l_antioxidant,cantharellus cinereus_anticancer,
+10,c commutata (spreng.) greuter,cantharellus cinereus,,,,cantharellus cibarius_cancer,,crepis commutata_anti-inflammatory,cantharellus cinereus_pro-apoptotic,
+11,c. incana sm,craterellus cornucopioides,,,,cantharellus cinereus_cancer,,crepis commutata_antioxidant,craterellus cornucopioides_anti-inflammatory,
+12,c. heldreichiana (kuntze) greuter,hydnum repandum,,,,craterellus cornucopioides_cancer,,crepis incana sm_anti-inflammatory,craterellus cornucopioides_antioxidant,
+13,c. crocifolia boiss. & heldr,chios mastic,,,,hydnum repandum_cancer,,crepis incana sm_antioxidant,craterellus cornucopioides_anticancer,
+14,cantharellus cibarius,,,,,,,crepis heldreichiana_anti-inflammatory,craterellus cornucopioides_pro-apoptotic,
+15,cantharellus cinereus,,,,,,,crepis heldreichiana_antioxidant,hydnum repandum_anti-inflammatory,
+16,craterellus cornucopioides,,,,,,,crepis crocifolia_anti-inflammatory,hydnum repandum_antioxidant,
+17,hydnum repandum,,,,,,,crepis crocifolia_antioxidant,hydnum repandum_anticancer,
+18,chios mastic,,,,,,,cantharellus cibarius_cytotoxicity,hydnum repandum_pro-apoptotic,
+19,,,,,,,,cantharellus cinereus_cytotoxicity,,
+20,,,,,,,,craterellus cornucopioides_cytotoxicity,,
+21,,,,,,,,hydnum repandum_cytotoxicity,,
+22,,,,,,,,chios mastic_blood pressure haemodynamics,,

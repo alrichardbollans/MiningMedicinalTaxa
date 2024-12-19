@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,erythrox-ylumcoca,erythrox-ylumcoca,echinocactus williamsii,,,,,,,
+1,e. novogranatense,e. novogranatense,,,,,,,,
+2,erythroxylon,erythroxylon,,,,,,,,
+3,lophophora williamsii,lophophora williamsii,,,,,,,,

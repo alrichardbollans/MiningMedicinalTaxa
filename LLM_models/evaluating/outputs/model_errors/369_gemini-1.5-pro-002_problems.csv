@@ -1,0 +1,33 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ajuga,ajuga laxmannii,,ajugalaxmannii,ajuga laxmannii_hypertension,ajuga laxmannii_intestinal disorders,ajuga_edema,ajuga laxmannii_antipyretic,,a. laxmannii_antiradical
+1,a. laxmannii,ajuga bracteosa,,aspergillus flavus,ajuga laxmannii_biliary disorders,ajuga laxmannii_oedema,,ajuga laxmannii_astringent,,a. laxmannii_antioxidant
+2,ajuga laxmannii,ajuga relicta,,aspergillus niger,ajuga laxmannii_fever,ajuga bracteosa_intestinal disorders,,ajuga laxmannii_diuretic,,a. laxmannii_antimicrobial
+3,a. bracteosa,ajuga taiwanensis,,candida albicans,ajuga laxmannii_ulcer,ajuga relicta_intestinal disorders,,ajuga bracteosa_antipyretic,,a. laxmannii_antibacterial
+4,a. relicta,ajuga species,,candida parapsilosis,ajuga bracteosa_hypertension,ajuga taiwanensis_intestinal disorders,,ajuga bracteosa_astringent,,a. laxmannii_antifungal
+5,a. taiwanensis,ajuga turkestanica,,penicillium funiculosum,ajuga bracteosa_biliary disorders,ajuga species_intestinal disorders,,ajuga bracteosa_diuretic,,a. laxmannii_anti-inflammatory
+6,a. turkestanica,ajuga reptans,,,ajuga bracteosa_fever,ajuga turkestanica_intestinal disorders,,ajuga relicta_antipyretic,,a. turkestanica_antioxidant
+7,a. reptans,ajuga chamaecistus subsp. scoparia,,,ajuga bracteosa_ulcer,ajuga reptans_intestinal disorders,,ajuga relicta_astringent,,a. chamaecistus subsp. scoparia (boiss.) rech.f_antiradical
+8,a. chamaecistus subsp. scoparia (boiss.) rech.f,,,,ajuga relicta_hypertension,ajuga chamaecistus subsp. scoparia_intestinal disorders,,ajuga relicta_diuretic,,
+9,,,,,ajuga relicta_biliary disorders,,,ajuga taiwanensis_antipyretic,,
+10,,,,,ajuga relicta_fever,,,ajuga taiwanensis_astringent,,
+11,,,,,ajuga relicta_ulcer,,,ajuga taiwanensis_diuretic,,
+12,,,,,ajuga taiwanensis_hypertension,,,ajuga species_antipyretic,,
+13,,,,,ajuga taiwanensis_biliary disorders,,,ajuga species_astringent,,
+14,,,,,ajuga taiwanensis_fever,,,ajuga species_diuretic,,
+15,,,,,ajuga taiwanensis_ulcer,,,ajuga turkestanica_antipyretic,,
+16,,,,,ajuga species_hypertension,,,ajuga turkestanica_astringent,,
+17,,,,,ajuga species_biliary disorders,,,ajuga turkestanica_diuretic,,
+18,,,,,ajuga species_fever,,,ajuga reptans_antipyretic,,
+19,,,,,ajuga species_ulcer,,,ajuga reptans_astringent,,
+20,,,,,ajuga turkestanica_hypertension,,,ajuga reptans_diuretic,,
+21,,,,,ajuga turkestanica_biliary disorders,,,ajuga chamaecistus subsp. scoparia_antipyretic,,
+22,,,,,ajuga turkestanica_fever,,,ajuga chamaecistus subsp. scoparia_astringent,,
+23,,,,,ajuga turkestanica_ulcer,,,ajuga chamaecistus subsp. scoparia_diuretic,,
+24,,,,,ajuga reptans_hypertension,,,,,
+25,,,,,ajuga reptans_biliary disorders,,,,,
+26,,,,,ajuga reptans_fever,,,,,
+27,,,,,ajuga reptans_ulcer,,,,,
+28,,,,,ajuga chamaecistus subsp. scoparia_hypertension,,,,,
+29,,,,,ajuga chamaecistus subsp. scoparia_biliary disorders,,,,,
+30,,,,,ajuga chamaecistus subsp. scoparia_fever,,,,,
+31,,,,,ajuga chamaecistus subsp. scoparia_ulcer,,,,,

@@ -1,0 +1,25 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,commiphora and boswellia,commiphora,cinchona officinalis l,berberis vulgaris l,commiphora_arthritis,commiphora_malignant sores,commiphora and boswellia_chronic diseases,commiphora_anti-inflammatory,papaver somniferum l_pain relief,berberis vulgaris l_antioxidant
+1,commiphora,boswellia,papaver somniferum l,berberiscroatica horvat,commiphora_diabetes,boswellia_malignant sores,commiphoraand boswellia_chronic diseases,boswellia_anti-inflammatory,papaver somniferum l_vasodilation,berberiscroatica horvat_antioxidant
+2,commiphora wightii,,panax ginseng c.a.mey,commiphoraand boswellia,commiphora_ulcers,cinchona officinalis l_malaria,commiphora_malignantsores,,panax ginseng c.a.mey_enhancement of physical performance,commiphora_antiarthritic
+3,commiphora mukul,,ricinus communis,commiphoragileadensis,commiphora_internal tumors,cinchona officinalis l_fever,boswellia_malignantsores,,ricinus communis_purgative,commiphora_inhibit pro-inflammatory
+4,boswellia,,,boswelliaovalifoliolata,commiphora_cardiovascular diseases,cinchona officinalis l_infectious-disease,,,,boswellia_antiarthritic
+5,boswellia serata,,,phellodendron lavallei,commiphora_leucoderma,papaver somniferum l_hypertension,,,,boswellia_inhibit pro-inflammatory
+6,boswellia serrata,,,berberis aristata,commiphora_edema,panax ginseng c.a.mey_tiredness,,,,boswellia serata_analgesic
+7,boswellia carterii,,,berberis koreana,commiphora_liver dysfunction,,,,,commiphoragileadensis_anti-inflammatory
+8,boswellia sacra,,,coptis teeta,commiphora_intestinal worms,,,,,boswelliaovalifoliolata_anti-inflammatory
+9,boswellia dalzielii,,,c. mukul,commiphora_inflammatory bowel disease,,,,,
+10,boswellia frerean,,,,commiphora_sinus,,,,,
+11,,,,,commiphora_obesity,,,,,
+12,,,,,boswellia_arthritis,,,,,
+13,,,,,boswellia_diabetes,,,,,
+14,,,,,boswellia_ulcers,,,,,
+15,,,,,boswellia_internal tumors,,,,,
+16,,,,,boswellia_cardiovascular diseases,,,,,
+17,,,,,boswellia_leucoderma,,,,,
+18,,,,,boswellia_edema,,,,,
+19,,,,,boswellia_liver dysfunction,,,,,
+20,,,,,boswellia_intestinal worms,,,,,
+21,,,,,boswellia_inflammatory bowel disease,,,,,
+22,,,,,boswellia_sinus,,,,,
+23,,,,,boswellia_obesity,,,,,

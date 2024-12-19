@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,c. fenestratum,coscinium fenestratum,tribulus terrestris (l,c.fenestratum,,,,,,
+1,coscinium fenestratum,tinospora cordifolia (willd,emblica officinalis (gaertn,tinospora cordifolia(willd,,,,,,
+2,tinospora cordifolia,berberis aristata dc,coptis chinensis franch,tribulusterrestris (l,,,,,,
+3,berberis aristata dc,argemone mexicana,hydrastis canadensis l,emblicaofficinalis (gaertn,,,,,,
+4,berberis aristata,berberis tinctoria,mahonia manipurensis (takeda,coptischinensis franch,,,,,,
+5,argemone mexicana,,,hydrastiscanadensis l,,,,,,
+6,berberis tinctoria,,,berberis aristata dcroot,,,,,,
+7,,,,mahonia manipurensis(takeda,,,,,,
+8,,,,coptis chinensisfranch,,,,,,

@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,clarkia,clarkia,lewisia rediviva,lewisiarediviva,,,,,,
+1,darlingtonia californica,darlingtonia californica,wilkesia gymnoxiphium,wilkesiagymnoxiphium,,,,,,
+2,fremontodendron,fremontodendron,,bougainvillea,,,,,,
+3,banksia,banksia,,,,,,,,
+4,blighia sapida,blighia sapida,,,,,,,,
+5,arbutus menziesii,arbutus menziesii,,,,,,,,
+6,vancouveria,vancouveria,,,,,,,,
+7,quinaquina condamine,quinaquina condamine,,,,,,,,

@@ -1,0 +1,19 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hibiscus sabdariffa,hibiscus sabdariffa,,s. perfoliata l,hibiscus sabdariffa_breast cancer,lonicera japonica_breast cancer,,mikania micrantha_anti-inflammatory,physalis angulata l_anti-inflammatory,physalis angulata l_inhibit the production of inflammatory cytokines
+1,lonicera japonica,lonicera japonica,,s. curvidens stapf,hibiscus sabdariffa_liver cancer,lonicera japonica_liver cancer,,mikania micrantha_antioxidant,antrodia salmonea_anticancer,antrodia salmonea_autophagic and apoptotic cell death
+2,eucommia ulmoides,eucommia ulmoides,,,hibiscus sabdariffa_skin cancer,mikania micrantha_blood cancer,,sideritis cypria post_tonic,zingiber officinale roscoe_thrombolytic,antrodia salmonea_autophagic- and apoptotic-cell death
+3,physalis angulata l,physalis angulata l,,,lonicera japonica_skin cancer,cannabis sativa_arthritis,,sideritis cypria post_diaphoretic,zingiber officinale roscoe_antioxidant,antrodia salmonea_autophagic or apoptotic cell death
+4,antrodia salmonea,antrodia salmonea,,,eucommia ulmoides_breast cancer,cannabis sativa_epilepsy,,zingiber montanum koen_thrombolytic,zingiber officinale roscoe_cytotoxic,mikania micrantha_keratinocyte proliferation
+5,mikania micrantha,mikania micrantha,,,eucommia ulmoides_liver cancer,,,,zingiber zerumbet smith_thrombolytic,mikania micrantha_inhibits melanogenesis
+6,cannabis sativa,cannabis sativa,,,eucommia ulmoides_skin cancer,,,,zingiber zerumbet smith_antioxidant,mikania micrantha_anti-cancer
+7,sideritis cypria,sideritis cypria post,,,antrodia salmonea_glioblastoma,,,,zingiber zerumbet smith_cytotoxic,mikania micrantha_reducing tyrosinase
+8,s. cypria,zingiber officinale roscoe,,,cannabis sativa_pain,,,,curcuma amada roxb_thrombolytic,mikania micrantha_prevent free radical diseases
+9,sideritis,zingiber zerumbet smith,,,cannabis sativa_stress,,,,curcuma amada roxb_antioxidant,mikania micrantha_increasing autophagy
+10,zingiber officinale roscoe,curcuma amada roxb,,,cannabis sativa_anxiety,,,,curcuma amada roxb_cytotoxic,mikania micrantha_inhibits melanin production
+11,zingiber zerumbet smith,zingiber montanum koen,,,sideritis cypria post_common cold,,,,zingiber montanum koen_antioxidant,mikania micrantha_inhibit melanin production
+12,curcuma amada roxb,,,,sideritis cypria post_stomach disorders,,,,zingiber montanum koen_cytotoxic,mikania micrantha_anti-blood cancer
+13,zingiber montanum koen,,,,sideritis cypria post_headache,,,,,mikania micrantha_wound healing
+14,z. montanum koen,,,,,,,,,sideritis cypria_antioxidant
+15,,,,,,,,,,s. cypria_antioxidant
+16,,,,,,,,,,zingiber montanum koen_cytotoxicity
+17,,,,,,,,,,zingiber montanum koen_free radical scavenging

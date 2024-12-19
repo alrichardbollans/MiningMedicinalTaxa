@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ginkgo biloba,ginkgo biloba,,t. bacata,,taxus brevifolia_cancer,,,"ginkgo biloba_ginkgolides a, b, c, and m",taxus_anti-!| tumour
+1,taxus,taxus brevifolia,,aspergillus flavus,,,,,taxus brevifolia_taxol (paclitaxel,t. bacata_anti-!| tumour
+2,t. brevifolia,andrographis paniculata,,ginkgo hiloba,,,,,andrographis paniculata_andrographolide,t. brevifolia_anti-!| tumour
+3,a. paniculata,,,andrographolideii,,,,,,a. paniculata_antibacterial

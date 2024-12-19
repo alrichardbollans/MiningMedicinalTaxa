@@ -1,0 +1,18 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,euclea natalensis a.dc,euclea natalensis,africaeuclea natalensis,,,,euclea natalensis_stomach problems,,,euclea natalensis a.dc_antifibrotic
+1,euclea natalensis,vitex,caenorhabditis elegans,,,,euclea natalensis_drug-induced liver injury,,,euclea natalensis a.dc_hepatoprotective
+2,vitex,oldfieldia dactylophylla,germanyentada africana,,,,euclea natalensis_chest related complaints,,,euclea natalensis_antimycobacterial
+3,oldfieldia dactylophylla (welw. ex oliv,v. congolensis,africaacne vulgaris,,,,euclea natalensis_tuberculosis,,,euclea natalensis_antibacterial
+4,v. congolensis de wild and t. durand,v. doniana,poria cum,,,,euclea natalensis_dysentery,,,euclea natalensis_hepatoprotectant
+5,v. doniana sweet,v. fischeri,,,,,euclea natalensis_abdominal pain,,,euclea natalensis_antifibrotic
+6,v. fischeri gurke,v. madiensis,,,,,oldfieldia dactylophylla (welw. ex oliv_parasitic worm,,,vitex_anthelmintic
+7,v. madiensis subsp. milanjiensis (britten) f.white,v. mombassae,,,,,v. doniana sweet_parasitic worm,,,entada africana_anti-inflammatory
+8,v. mombassae vatke,entada africana,,,,,v. fischeri gurke_parasitic worm,,,entada africana guill. & perr_analgesic
+9,entada africana,e. africana,,,,,v. madiensis subsp. milanjiensis (britten) f.white_parasitic worm,,,e. africana_anti-inflammatory
+10,entada africana guill. & perr,persicaria senegalensis,,,,,v. mombassae vatke_parasitic worm,,,persicaria senegalensis (meisn.) sojak_anti-ageing
+11,e. africana,p. senegalensis,,,,,vitex_helminthiases,,,persicaria senegalensis_anti-ageing
+12,persicaria senegalensis (meisn.) sojak,poria,,,,,entada africana guill. & perr_pain related-diseases,,,p. senegalensis_anti-ageing
+13,persicaria senegalensis,poria cocos,,,,,entada africana guill. & perr_fractures and sprains,,,
+14,p. senegalensis,,,,,,e. africana_pain-related conditions,,,
+15,poria cocos,,,,,,persicaria senegalensis_chronic inflammation,,,
+16,poria cocos (schw.) wolf,,,,,,,,,

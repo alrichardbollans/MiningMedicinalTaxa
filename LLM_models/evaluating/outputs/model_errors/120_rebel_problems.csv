@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,cell division.inflorescence,papaver somniferum,,,,,cell division.inflorescence_cell enlargementand,papaver somniferum_pain-killing
+1,,,asddt,carica papaya,,,,,asddt_animal.insecticide,carica papaya_aid digestion
+2,,,atmospheric pollution.lignin,atropa belladonna,,,,,atmospheric pollution.lignin_vine.lichen,
+3,,,cell,amanita muscaria,,,,,cell_disintegration,
+4,,,sleep,pyrethrum,,,,,sleep_drowsiness,
+5,,,lightning;during,lathyrusspp,,,,,lightning;during_thunder-storms,
+6,,,heating.paregoric,claviceps purpurea,,,,,heating.paregoric_dried out,
+7,,,,ipomoea violacea,,,,,,
+8,,,,lophophorawilliamsii,,,,,,
+9,,,,citrus,,,,,,
+10,,,,nicotianatabacum,,,,,,
+11,,,,cyperus papyrus,,,,,,

@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,amanita caesarea (scop.) pers,amanita caesarea (scop.) pers,macrolepiota procera (scop. : fr.) sing,macrolepiotaprocera (scop. : fr.) sing,,amanita caesarea (scop.) pers_high blood pressure,,,amanita caesarea (scop.) pers_antioxidant,
+1,agaricus bisporus (lge.) sing,agaricus bisporus (lge.) sing,a. pantherina (dc. ex fr.) krombh,a. pantherina(dc. ex fr.) krombh,,agaricus bisporus (lge.) sing_high blood pressure,,,agaricus bisporus (lge.) sing_antioxidant,
+2,agaricus,boletus edulis bull,a. verna (bull. : fr.) lam,a.verna (bull. : fr.) lam,,macrolepiota procera (scop. : fr.) sing_high blood pressure,,,macrolepiota procera (scop. : fr.) sing_antioxidant,
+3,boletus edulis bull,lactarius deliciosus (l. ex fr.) sfgray s,,morchella,,boletus edulis bull_high blood pressure,,,boletus edulis bull_antioxidant,
+4,boletus,cantharellus cibarius fr,,pleurotus,,lactarius deliciosus (l. ex fr.) sfgray s_high blood pressure,,,lactarius deliciosus (l. ex fr.) sfgray s_antioxidant,
+5,lactarius deliciosus (l. ex fr.) sfgray s,amanita muscaria (l.: fr.) lam,,lentinus,,cantharellus cibarius fr_high blood pressure,,,cantharellus cibarius fr_antioxidant,
+6,lactarius,a. phalloides (vaill. ex fr.) link,,lactar-ius,,amanita muscaria (l.: fr.) lam_high blood pressure,,,amanita muscaria (l.: fr.) lam_antioxidant,
+7,cantharellus cibarius fr,,,,,a. pantherina (dc. ex fr.) krombh_high blood pressure,,,a. pantherina (dc. ex fr.) krombh_antioxidant,
+8,amanita muscaria (l.: fr.) lam,,,,,a. phalloides (vaill. ex fr.) link_high blood pressure,,,a. phalloides (vaill. ex fr.) link_antioxidant,
+9,a. phalloides (vaill. ex fr.) link,,,,,a. verna (bull. : fr.) lam_high blood pressure,,,a. verna (bull. : fr.) lam_antioxidant,

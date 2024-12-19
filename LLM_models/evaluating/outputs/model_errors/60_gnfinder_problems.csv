@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,cannabis sativa l. ssp. indica(lamarck) e. small & cronquist,cannabis sativa,insects,xtriticale,,,,,,
+1,zea mays l. ssp.mays,zea mays,gymnosperms,secale,,,,,,
+2,pelargonium hortense cv. 'marthawashington,pelargonium hortense,primates,m. balbisiana,,,,,,
+3,triticum,triticum,ramapithecus,acernegundo,,,,,,
+4,musa x paradisiaca,musa,sahelanthropus tchadensis,blighia,,,,,,
+5,musa acuminata,musa acuminata,ardipithecus ramidus,carnegia,,,,,,
+6,elymus smithii,elymus,australopithecus afarensis,penstemon,,,,,,
+7,ribes,ribes,australopithecus boisei,sanguinaria,,,,,,
+8,xanthium,xanthium,a. robustus,cepa,,,,,,
+9,,,homo habilis,agrostis,,,,,,
+10,,,homo erectus,,,,,,,
+11,,,homo sapiens,,,,,,,

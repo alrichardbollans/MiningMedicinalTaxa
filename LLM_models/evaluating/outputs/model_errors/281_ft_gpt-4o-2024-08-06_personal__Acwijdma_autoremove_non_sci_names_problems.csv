@@ -1,0 +1,14 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,boerhaavia diffusa,boerhaavia diffusa,cinchona officinalis l,boerhaaviadiffusa,boerhaavia diffusa_anemia,cinchona officinalis l_malaria,,boerhaavia diffusa_laxative,boerhaavia diffusa_diuretic,boerhaaviadiffusa_spasmolytic
+1,b. diffusa,bryonia dioica,panax ginseng c.a.mey,arthemisia absinthium l,boerhaavia diffusa_gastrointestinal disorders of oxidative etiology,cinchona officinalis l_fever,,boerhaavia diffusa_antioxidant,boerhaavia diffusa_anti-inflammatory,
+2,boerhaavia diffusa l,solanum dulcamara,papaver somniferum l,conium,boerhaavia diffusa_gastrointestinal disorders,cinchona officinalis l_infectious-disease,,boerhaavia diffusa_antioxidant activity,panax ginseng c.a.mey_enhancement of physical performance,
+3,bryonia dioica,asarum europaeum,ricinus communis,strychnos nux-vomica,boerhaavia diffusa_cystitis,panax ginseng c.a.mey_tiredness,,boerhaavia diffusa_spas-molytic,papaver somniferum l_vasodilation,
+4,solanum dulcamara,aconitum sp,,veratrum album,boerhaavia diffusa_gastrointestinal diseases,papaver somniferum l_hypertension,,,papaver somniferum l_pain relief,
+5,asarum europaeum,colchicum autumnale,,pulsatila vulgarismill,boerhaavia diffusa_gastro-intestinal,,,,ricinus communis_purgative,
+6,aconitum sp,datura stramonium,,,boerhaavia diffusa_stones,,,,,
+7,colchicum autumnale,claviceps purpurea,,,boerhaavia diffusa_kidney problems,,,,,
+8,datura stramonium,,,,boerhaavia diffusa_jaundice,,,,,
+9,claviceps purpurea,,,,boerhaavia diffusa_hepatitis,,,,,
+10,,,,,boerhaavia diffusa_menstrualsyndrome,,,,,
+11,,,,,boerhaavia diffusa_nephritis,,,,,
+12,,,,,boerhaavia diffusa_liverdisorders,,,,,

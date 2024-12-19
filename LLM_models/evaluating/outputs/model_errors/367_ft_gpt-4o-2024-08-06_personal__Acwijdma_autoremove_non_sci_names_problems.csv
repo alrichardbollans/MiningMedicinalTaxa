@@ -1,0 +1,25 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ajuga laxmannii (murray) benth,ajuga laxmannii,,ajugalaxmannii (murray) benth,ajuga_pain,,,ajuga laxmannii_anti-oxidative stress,ajuga_analgesic,ajugalaxmannii (murray) benth_inflammatory
+1,ajuga laxmannii,ajuga,,a. laxmannii(murray) benth,ajuga_high blood pressure,,,ajuga laxmannii_antifungal,ajuga laxmannii (murray) benth_antiprotozoal,ajuga laxmannii (murray) benth_galactogogue
+2,a. laxmannii,ajuga laxmannii (murray) benth,,c. albicans,ajuga_inflammation,,,ajuga laxmannii_antiradical,,a. laxmannii(murray) benth_antiprotozoal
+3,ajuga,a. laxmannii,,p. funiculosum,ajuga_diabetes,,,ajuga laxmannii_antioxidant,,
+4,,,,,ajuga_fever,,,ajuga laxmannii_anti-inflammatory,,
+5,,,,,ajuga_malaria,,,ajuga laxmannii_antimicrobial,,
+6,,,,,,,,ajuga_antimalarial,,
+7,,,,,,,,ajuga_anti-arthritis,,
+8,,,,,,,,ajuga_antifungal,,
+9,,,,,,,,ajuga_antipyretic,,
+10,,,,,,,,ajuga_antioxidant,,
+11,,,,,,,,ajuga_antihelmintic,,
+12,,,,,,,,ajuga_anti-inflammatory,,
+13,,,,,,,,ajuga_anabolic,,
+14,,,,,,,,ajuga_hepatoprotective,,
+15,,,,,,,,ajuga_cardiotonic,,
+16,,,,,,,,ajuga_hypoglycemic,,
+17,,,,,,,,ajuga_antibacterial,,
+18,,,,,,,,ajuga laxmannii (murray) benth_anti-inflammatory,,
+19,,,,,,,,ajuga laxmannii (murray) benth_galactagogue,,
+20,,,,,,,,a. laxmannii_anti-inflammatory,,
+21,,,,,,,,a. laxmannii_antifungal,,
+22,,,,,,,,a. laxmannii_antimicrobial,,
+23,,,,,,,,a. laxmannii_antioxidant,,

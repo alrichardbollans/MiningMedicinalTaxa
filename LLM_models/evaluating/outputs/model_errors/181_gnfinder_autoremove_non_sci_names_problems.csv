@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,pinus,pinus,pelister)>pinus mugo,pinuspeuce,,,pinus_urinary system disorders,,,pinus_antitumorial
+1,pinus peuce,pinus peuce,medica,,,,pinus_digestive system diseases,,,pinus_antimicrobial
+2,pinus sylvestris,pinus sylvestris,xenopus,,,,pinus_common cold,,,pinus_antioxidant
+3,pinus nigra,pinus nigra,,,,,pinus_bronchitis,,,pinus_antisep-tics
+4,pinus mugo,pinus mugo,,,,,pinus_skin diseases (wounds,,,pinus_expectorants
+5,pinus l,,,,,,pinus_asthma,,,pinus_tonics
+6,pinus peucegriseb,,,,,,pinus_respiratory,,,pinus_cholesterol low-ering
+7,,,,,,,,,,pinus_antiseptic
+8,,,,,,,,,,pinus_antibacterial
+9,,,,,,,,,,pinus_analgesics

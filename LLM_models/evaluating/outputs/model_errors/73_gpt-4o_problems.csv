@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,helminthosporium maydis,helminthosporium maydis,,tripsacum spp,,,,,,
+1,hordeum vulgare,hordeum vulgare,,euchlaena,,,,,,
+2,secale cereale,secale cereale,,zea,,,,,,
+3,claviceps purpurea,claviceps purpurea,,tripsacum,,,,,,
+4,sorghum,sorghum bicolor,,neurospora,,,,,,
+5,sorghum bicolor,avena sativa,,,,,,,,
+6,avena sativa,avena brevis,,,,,,,,
+7,a. brevis,avena strigosa,,,,,,,,
+8,a. strigosa,avena nuda,,,,,,,,
+9,a. nuda,avena barbata,,,,,,,,
+10,a. barbata,avena abyssinica,,,,,,,,
+11,a. abyssinica,,,,,,,,,

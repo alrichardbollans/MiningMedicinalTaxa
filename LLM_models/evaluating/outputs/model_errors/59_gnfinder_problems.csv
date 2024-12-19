@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,solanum tuberosum,solanum tuberosum,robinsoniana,cryptanthamilobakeri,,,,,,
+1,solanum,solanum nigrum,baker's cryptantha,cryptantha,,,,,,
+2,solanum nigrum,solanum,,solanummelongena,,,,,,
+3,quercus,quercus,,aster,,,,,,
+4,garcinia,garcinia,,chrysanthemum,,,,,,
+5,triticum,triticum,,rhododendron,,,,,,
+6,triticum aestivum,triticum aestivum,,magnolia,,,,,,
+7,zea mays l,zea mays,,petunia,,,,,,
+8,lycopersicon,lycopersicon esculentum,,begonia,,,,,,
+9,lycopersicon esculentum (l.) miller,,,convolvulus argentateus,,,,,,
+10,,,,solanumesculentum,,,,,,

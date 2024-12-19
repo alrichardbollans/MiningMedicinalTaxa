@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,centaurea ragusina l,centaurea ragusina l,,achilleamillefolium s.l,,,achilleamillefolium s.l_tumor,,,pinus pinaster_antibacterial
+1,centaurea melitensis,centaurea melitensis,,c. ragusinal,,,,,,
+2,pinus pinaster,pinus pinaster,,,,,,,,
+3,centaurea aspera,centaurea aspera,,,,,,,,
+4,centaurea jacea l,centaurea jacea l,,,,,,,,

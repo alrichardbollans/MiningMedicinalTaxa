@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,sideritis scardica griseb,sideritis scardica,svetlana,,,,sideritis scardica griseb_flu,,,s. scardica_antioxidant
+1,s. scardica,s. raeseri,suva,,,,sideritis scardica griseb_common cold,,,sideritis scardic_radical scavenging
+2,sideritis,sideritis raeseri,jana,,,,sideritis scardica griseb_aches,,,s. raeseri_radical scavenging
+3,sideritis scardica,s. scardica,,,,,sideritis scardica griseb_pains,,,sideritis spp_antimicrobial
+4,s. raeseri,sideritis,,,,,sideritis scardica griseb_sinus con-gestion,,,sideritis_antioxidant
+5,sideritis raeseri boiss. & heldr,capsicum annuum,,,,,,,,
+6,sideritis scardic,,,,,,,,,
+7,sideritis spp,,,,,,,,,
+8,capsicum annuum l,,,,,,,,,
+9,"capsicum annuum l., ssp. microcarpum longum conoides, convar. horgoshka",,,,,,,,,

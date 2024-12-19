@@ -1,0 +1,22 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,satureja,satureja pilosa,,alkanna tinctoria,satureja pilosa_gastrointestinal disorders,_skin disorders,,thymbra capitata_antimicrobial,alkana tinctoria_wound healing,alkanna tinctoria_wound healing
+1,satureja pilosa,alkana tinctoria,,thymus spp,satureja pilosa_cramps,centaurea phyllocephala boiss_antidiabetic,,thymbra capitata_antioxidant,thymus longicaulis subsp. longicaulis_antimicrobial,thymus spp_antioxidant
+2,s. pilosa,thymbra capitata,,thymbra spp,satureja pilosa_infectious diseases,,,thymus longicaulis subsp. longicaulis_antioxidant,thymus boissieri_antimicrobial,thymus spp_antimicrobial
+3,a. tinctoria,thymus longicaulis subsp. longicaulis,,centaurea sp,satureja pilosa_muscle pain,,,thymus boissieri_antioxidant,thymus degenii_antimicrobial,thymbra capitata_antibacterial
+4,thymbra capitata,thymus boissieri,,,,,,thymus degenii_antioxidant,thymus thracicus_antimicrobial,thymbra spp_antioxidant
+5,t. longicaulis subsp. longicaulis,thymus degenii,,,,,,thymus thracicus_antioxidant,thymus sibthorpii_antimicrobial,thymbra spp_antimicrobial
+6,thymus boissieri,thymus thracicus,,,,,,thymus sibthorpii_antioxidant,thymus striatus_antimicrobial,t. longicaulis subsp. longicaulis_antibacterial
+7,t. degenii,thymus sibthorpii,,,,,,thymus striatus_antioxidant,thymus longicaulis subsp. chaubardii_antimicrobial,thymus boissieri_antibacterial
+8,t. thracicus,thymus striatus,,,,,,centaurea phyllocephala boiss_anti-dandruff,thymus longicaulis subsp. chaubardii_antioxidant,t. degenii_antibacterial
+9,t. sibthorpii,thymus longicaulis subsp. chaubardii,,,,,,centaurea phyllocephala boiss_antioxidant,thymus holosericeus_antimicrobial,t. thracicus_antibacterial
+10,t. striatus,thymus holosericeus,,,,,,centaurea phyllocephala boiss_antirheumatic,thymus holosericeus_antioxidant,t. sibthorpii_antibacterial
+11,t. longicaulis subsp. chaubardii,thymus plasonii,,,,,,centaurea phyllocephala boiss_antibacterial,thymus plasonii_antimicrobial,t. striatus_antibacterial
+12,t. holosericeus,centaurea phyllocephala boiss,,,,,,centaurea phyllocephala boiss_anti-inflammatory,thymus plasonii_antioxidant,centaurea_antidiabetic
+13,t. plasonii,centaurea cyanoides,,,,,,centaurea cyanoides_anti-inflammatory,centaurea phyllocephala boiss_hypotensive,
+14,centaurea,centaurea cyanus,,,,,,centaurea cyanus_anti-inflammatory,centaurea phyllocephala boiss_anti-pyretic,
+15,centaurea phyllocephala boiss,,,,,,,,centaurea cyanoides_diuretic,
+16,centaurea cyanoides,,,,,,,,centaurea cyanoides_anti-diarrheic,
+17,centaurea cyanus,,,,,,,,centaurea cyanoides_emmenagogue,
+18,c. cyanus,,,,,,,,centaurea cyanus_diuretic,
+19,,,,,,,,,centaurea cyanus_anti-diarrheic,
+20,,,,,,,,,centaurea cyanus_emmenagogue,

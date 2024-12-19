@@ -1,0 +1,19 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,o. tenuiflorum l,ocimum tenuiflorum,,o. sanctum l,ocimum tenuiflorum_gonorrhoea,ocimum tenuiflorum_skin diseases,o. sanctum l_fever,ocimum tenuiflorum_antidiabetic,,o. sanctum l_abortive effects
+1,o. tenuiflorum,ocimum gratissimum,,o. bascilium l,ocimum tenuiflorum_asthma,ocimum tenuiflorum_fever,o. sanctum l_chronic conjunctivitis,ocimum tenuiflorum_adaptogenic,,o. sanctum l_anticancer
+2,ocimum tenuiflorum,,,o. sanctum,ocimum tenuiflorum_diarrhoea,ocimum tenuiflorum_snake bites,o. sanctum l_glaucoma,ocimum tenuiflorum_hepatoprotective,,o. sanctum l_analgesic
+3,ocimum,,,,ocimum tenuiflorum_diabetes,ocimum tenuiflorum_insect bites,o. sanctum l_skin diseases,ocimum tenuiflorum_antifertility,,o. sanctum l_hepatoprotective
+4,o. gratissimum,,,,ocimum tenuiflorum_eye disorders,ocimum tenuiflorum_malaria,o. sanctum l_bronchitis,ocimum tenuiflorum_cardioprotective,,o. sanctum l_cardioprotective
+5,,,,,ocimum tenuiflorum_bronchitis,,o. sanctum l_cataracts,ocimum tenuiflorum_analgesic,,o. sanctum l_antidiabetic
+6,,,,,,,o. sanctum l_eye disorders,ocimum tenuiflorum_antifungal,,o. sanctum l_antiviral
+7,,,,,,,o. sanctum l_diarrhoea,ocimum tenuiflorum_antibacterial,,o. sanctum l_antifertility
+8,,,,,,,o. sanctum l_asthma,ocimum tenuiflorum_anti-inflammatory,,o. sanctum l_adaptogenic
+9,,,,,,,o. sanctum l_snake bites,ocimum tenuiflorum_anticancer,,o. sanctum l_antibacterial
+10,,,,,,,o. sanctum l_insect bites,ocimum tenuiflorum_antiviral,,o. sanctum l_antifungal
+11,,,,,,,o. sanctum l_diabetes,,,o. sanctum l_anti-inflammatory
+12,,,,,,,o. sanctum l_malaria,,,o. tenuiflorum l_abortive effects
+13,,,,,,,o. tenuiflorum_sexually transmitted disease,,,o. tenuiflorum_blood thinning
+14,,,,,,,o. tenuiflorum_antifertility,,,o. tenuiflorum_antioxidant
+15,,,,,,,o. tenuiflorum_antifertility effects,,,o. tenuiflorum_anaesthetic
+16,,,,,,,,,,o. tenuiflorum_male contraceptive
+17,,,,,,,,,,o. tenuiflorum_antiseptic

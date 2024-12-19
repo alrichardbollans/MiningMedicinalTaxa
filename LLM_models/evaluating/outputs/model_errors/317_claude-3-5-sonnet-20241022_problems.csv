@@ -1,0 +1,14 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,b. serrata,boswellia serrata,,b.serrata,boswellia serrata_chronic colitis,boswellia serrata_ulcerative colitis,b. serrata_leukemia,commiphora mukul_anti-inflammatory,commiphora mukul_neuroprotective,commiphora opobalsamum_hepatoprotective
+1,boswellia,commiphora mukul,,b. serrate,boswellia serrata_crohn's disease,,b.serrata_grade ii and iii ulcerative colitis,,commiphora mukul_antiobesity,
+2,boswellia serrata l,,,commiphora opobalsamum,commiphora mukul_hyperlipidemia,,commiphora_arthritis,,commiphora mukul_cardioprotective,
+3,commiphora,,,cyperus scariosus l,commiphora mukul_inflammation,,commiphora_obesity,,commiphora mukul_hypolipidemic,
+4,c. mukul,,,c.mukul,,,commiphora_chronic diseases,,commiphora mukul_anti-tumor,
+5,,,,,,,boswellia_chronic diseases,,commiphora mukul_hepatoprotective,
+6,,,,,,,boswellia_inflammation,,commiphora mukul_thyroid stimulatory,
+7,,,,,,,boswellia_hyperlipidemia,,,
+8,,,,,,,b. serrate_type2 diabetic,,,
+9,,,,,,,cyperus scariosus l_stress incontinence,,,
+10,,,,,,,c.mukul_hyperlipemia,,,
+11,,,,,,,c.mukul_atherosclerosis,,,
+12,,,,,,,boswellia serrata l_stress incontinence,,,

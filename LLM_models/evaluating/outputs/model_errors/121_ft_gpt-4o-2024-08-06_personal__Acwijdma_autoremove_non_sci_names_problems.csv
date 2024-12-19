@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,penicillium notatum,penicillium notatum,,cassia,penicillium notatum_bacterial infections,,,,penicillium notatum_antibiotic,
+1,physostigma venenosum,physostigma venenosum,,derrisspp,cinchona spp_malaria,,,,,
+2,cinchona spp,cinchona spp,,atropabelladonna,rauvolfia serpentina_hypertension,,,,,
+3,rauvolfia serpentina,rauvolfia serpentina,,capsicum,rauvolfia serpentina_schizophrenia,,,,,
+4,solanum spp,solanum spp,,citrus,,,,,,
+5,strychnos nux-vomica,strychnos nux-vomica,,,,,,,,
+6,cannabis sativa,cannabis sativa,,,,,,,,

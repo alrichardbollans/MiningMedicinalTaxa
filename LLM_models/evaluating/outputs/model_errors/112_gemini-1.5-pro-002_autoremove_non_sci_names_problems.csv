@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,sophora secundiflora,sophora secundiflora,panax ginseng c.a.mey,stropharia,,,datura_asthma,,,datura_anesthetic
+1,psilocybe mexicana,psilocybe mexicana,brugmansia,conocybe,,,datura_inflammation,,,datura_aphrodisiac
+2,psilocybe,datura stramonium,,panaeolus,,,datura_bruises,,,d. inoxia_anaesthetic
+3,datura,datura inoxia,,,,,datura_wounds,,,d. meteloides_anaesthetic
+4,datura stramonium,datura meteloides,,,,,d. inoxia_bruises,,,
+5,d. inoxia,virola calophylla,,,,,d. inoxia_wounds,,,
+6,d. meteloides,virola calophylloidea,,,,,d. meteloides_bruises,,,
+7,virola calophylla,virola theiodora,,,,,d. meteloides_wounds,,,
+8,virola,anadenanthera peregrina,,,,,,,,
+9,v. calophylloidea,,,,,,,,,
+10,v. theiodora,,,,,,,,,
+11,anadenanthera peregrina,,,,,,,,,

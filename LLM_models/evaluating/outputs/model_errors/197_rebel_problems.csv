@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,microorganisms,salvia,,greek sage_tuberculosis,salvia_hemorrhage,,microorganisms_infectious ailments,salvia_antioxidant
+1,,,greek sage,salvia tomentosa miller,,,salvia_colds,,,salvia tomentosa miller_antioxidant
+2,,,,salvia fruticosa mill,,,salvia_epilepsy,,,salvia fruticosa mill_antifungal
+3,,,,salvia fruticosa,,,salvia_bronchitis,,,salvia fruticosa_antifungal
+4,,,,s. fruticosa,,,salvia_tuberculo-sis,,,s. fruticosa_antifungal
+5,,,,juniperus communis,,,salvia_menstrual disorders,,,s. fruticosa_hy-poglycemic
+6,,,,juniperus l,,,salvia_aches,,,
+7,,,,juniperus communis l,,,"s. fruticosa_skin, blood, and infectious ailments",,,
+8,,,,juniperus polycarpos,,,s. fruticosa_inflammations,,,
+9,,,,salvia officinalis l,,,s. fruticosa_hepatitis,,,
+10,,,,salvia fruticosa mill-er,,,s. fruticosa_tuberculosis,,,

@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ferula assafoetida l,ferula assafoetida,cheng,ferulaassafoetida l,,,,,,
+1,viscum album l,viscum,makedonijaferula assafoetida,,,,,,,
+2,,viscum album,dindica,,,,,,,
+3,,,espinosa,,,,,,,
+4,,,soria,,,,,,,

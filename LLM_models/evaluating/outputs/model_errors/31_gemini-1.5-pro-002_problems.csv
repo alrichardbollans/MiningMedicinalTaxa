@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,gingko biloba,gingko,st johns wort,aloe vera,,st johns wort_toothache,,,st johns wort_local wound healing,
+1,gingko,,ginseng,echinacea,,st johns wort_gastritis,,,ginseng_impair platelet aggregation,
+2,,,garlic,ginkgo biloba,,st johns wort_anxiety,,,gingko_impair platelet aggregation,
+3,,,cranberry,ginkgo,,st johns wort_mild depression,,,garlic_impair platelet aggregation,
+4,,,,,,st johns wort_stomach ulcers,,,cranberry_inhibited the metabolism of warfarin,
+5,,,,,,st johns wort_pain,,,,
+6,,,,,,st johns wort_sleep disorder,,,,
+7,,,,,,st johns wort_seasonal affective disorder,,,,
+8,,,,,,ginseng_bleeding,,,,
+9,,,,,,gingko_bleeding,,,,
+10,,,,,,garlic_bleeding,,,,
+11,,,,,,cranberry_bleeding,,,,

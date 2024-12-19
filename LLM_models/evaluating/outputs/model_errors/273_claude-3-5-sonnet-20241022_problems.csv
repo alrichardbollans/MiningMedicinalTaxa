@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,fagopyrum esculentum,fagopyrum esculentum,,eschscholzia,,fagopyrum esculentum_capillary fragility,,fagopyrum esculentum_hypotensive,,fagopyrum esculentum_antagonizes the in-crease of capillary fragility
+1,,,,dicra-nostigma,,,,fagopyrum esculentum_antioxidant,,eschscholzia_antioxidant
+2,,,,argemone,,,,,,dicra-nostigma_antioxidant
+3,,,,glaucium,,,,,,argemone_antioxidant
+4,,,,scutellaria baicalensisgeorgii,,,,,,glaucium_antioxidant
+5,,,,satureja laxiflora c. koch,,,,,,scutellaria baicalensisgeorgii_anticoagulants
+6,,,,g. squamigerum,,,,,,scutellaria baicalensisgeorgii_cytostatics
+7,,,,d. leptopodum,,,,,,scutellaria baicalensisgeorgii_antioxi-dants
+8,,,,e. douglasii,,,,,,scutellaria baicalensisgeorgii_sedatives
+9,,,,e. pulchella,,,,,,scutellaria baicalensisgeorgii_anti-inflammatory
+10,,,,s. baicalensis,,,,,,scutellaria baicalensisgeorgii_antihypertensive

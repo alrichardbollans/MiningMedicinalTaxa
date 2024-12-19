@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,pinus nigra,pinus nigra,,zizyphus lotus l,,,,pinus nigra_antimicrobial,pinus nigra_antioxidant,zizyphus lotus l_gastro-protective
+1,pinus nigra arnold,juniperus communis,,pinus peuce,,,,juniperus communis_antireumathic,pinus nigra_carminative,zizyphus lotus l_antioxidant
+2,pinus nigra arn,,,candida albicans,,,,juniperus communis_antiseptic,pinus nigra_antibacterial,zizyphus lotus l_antidiabetic
+3,pinus,,,pinus l,,,,juniperus communis_digestive,pinus nigra_abortifacient,zizyphus lotus l_anti-helicobacter pylori
+4,p. nigra j.f. arnold x p. sylvestris l,,,,,,,juniperus communis_stomachic,pinus nigra_antifungal,pinus peuce_antimicrobial
+5,p. nigra j.f. arnold x p. densiflora siebold et zucc,,,,,,,juniperus communis_diuretic,pinus nigra_rubefacient,
+6,p. nigra j.f. arnold x p. thunbergiana franco,,,,,,,,pinus nigra_emmenagogue,
+7,juniperus communis l,,,,,,,,,

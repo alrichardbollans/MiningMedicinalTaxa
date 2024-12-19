@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,diabetics,stevia rebaudiana bertoni,,,,,diabetics_obese,stevia rebaudiana bertoni_reduce blood sugar levels
+1,,,,crataegus laevigata,,,,,diabetics_blood sugar levels,
+2,,,,crataegus monogyna,,,,,,
+3,,,,crataegus oxycantha,,,,,,
+4,,,,crataegus pinnatifi da,,,,,,
+5,,,,lycium barbarum,,,,,,
+6,,,,stevia rebaudiana,,,,,,
+7,,,,argania spinosa l,,,,,,
+8,,,,canaria indicum l,,,,,,
+9,,,,stevia,,,,,,

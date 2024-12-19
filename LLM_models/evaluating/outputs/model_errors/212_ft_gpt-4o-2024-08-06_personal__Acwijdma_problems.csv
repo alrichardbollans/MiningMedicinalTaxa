@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,capsicum annuum l,capsicum annuum l,,,,,,,,origanum minu-tiflorum_analge-sic
+1,capsicum,origanum minu-tiflorum,,,,,,,,origanum minu-tiflorum_fungicidal
+2,"capsicum annuum l., spp. mi-crocarpum longum conoides, convar. horgoshka",,,,,,,,,origanum minu-tiflorum_in-secticidal
+3,origanum minu-tiflorum,,,,,,,,,origanum minu-tiflorum_antiparasitical
+4,,,,,,,,,,origanum minu-tiflorum_anaesthetic
+5,,,,,,,,,,origanum minu-tiflorum_virucidal
+6,,,,,,,,,,origanum minu-tiflorum_sedative
+7,,,,,,,,,,origanum minu-tiflorum_anti-inflammatory
+8,,,,,,,,,,origanum minu-tiflorum_spasmolytic

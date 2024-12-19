@@ -1,0 +1,43 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aspalathus linearis (burm.f.) r.dahlgren,aspalathus linearis,kovaleva,hoodiagordonii (masson) sweet ex decne,,,crataegus_cardiovascular problems,,,hoodiagordonii (masson) sweet ex decne_regulate the appetite
+1,cyclopia sp,cyclopia,"rosaceae,12",l.cardiaca l,,,,,,malpighia glabra l_vitamin c
+2,malpighia glabra l,malpighia glabra,compositae,thymusserpyllum l,,,,,,viburnum opulus l_diaphoretic
+3,viburnum opulus l,viburnum opulus,asteraceae,q. petraea(matt.) liebl,,,,,,viburnum opulus l_diuretic
+4,crataegus,crataegus,lamiaceae,taraxacum officinale l,,,,,,viburnum opulus l_anti-inflammatory
+5,origanum vulgare l,origanum vulgare,apiaceae,calendula officinalis l,,,,,,l.cardiaca l_antistress
+6,leonurus cardiaca l,leonurus cardiaca,betulaceae,pimpinellaanisum l,,,,,,
+7,quercus robur l,quercus robur,malvaceae,convallaria majalis l,,,,,,
+8,acorus calamus l,acorus calamus,leguminosae,frangula alnus mill,,,,,,
+9,taraxacum campylodes g.e.haglund,taraxacum campylodes,fabaceae,adonis vernalis l,,,,,,
+10,aralia elata (miq.) seem,aralia elata,adoxaceae,digitalis purpurea l,,,,,,
+11,equisetum arvense l,equisetum arvense,liliaceae,digitalis grandifloramill,,,,,,
+12,eucalyptus viminalis labill,eucalyptus viminalis,araliaceae,rubia tinctorum l,,,,,,
+13,zea mays l,zea mays,fagaceae,alnus glutinosa (l.) gaertn,,,,,,
+14,atropa belladonnal,atropa,laminariaceae,,,,,,,
+15,datura stramonium l,datura stramonium,pinaceae,,,,,,,
+16,hyoscyamus niger l,hyoscyamus niger,rhamnaceae,,,,,,,
+17,convallaria keiskei miq,convallaria keiskei,acoraceae,,,,,,,
+18,rhamnus cathartica l,rhamnus cathartica,caprifoliaceae,,,,,,,
+19,chelidonium majus l,chelidonium majus,valerianaceae,,,,,,,
+20,polemonium caeruleum l,polemonium caeruleum,cupressaceae,,,,,,,
+21,alnus incana (l.) moench,alnus incana,equisetaceae,,,,,,,
+22,gnaphalium uliginosum l,gnaphalium uliginosum,menyanthaceae,,,,,,,
+23,bidens tripartita l,bidens tripartita,myrtaceae,,,,,,,
+24,,,papaveraceae,,,,,,,
+25,,,ranunculaceae,,,,,,,
+26,,,rubiaceae,,,,,,,
+27,,,urticaceae,,,,,,,
+28,,,fructus rosae,,,,,,,
+29,,,fructus,,,,,,,
+30,,,herba hyperici,,,,,,,
+31,,,fructus alni,,,,,,,
+32,,,l.(cortex viburni,,,,,,,
+33,,,fructus viburni,,,,,,,
+34,,,flos,,,,,,,
+35,,,solanaceae,,,,,,,
+36,,,asparagaceae(convallaria majalis,,,,,,,
+37,,,rhamnaceae(frangula alnus,,,,,,,
+38,,,ranunculaceae(adonis vernalis,,,,,,,
+39,,,plantaginaceae(digitalis purpurea,,,,,,,
+40,,,"polemoniaceae),rubia tinctorum",,,,,,,
+41,,,moench andalnus glutinosa,,,,,,,

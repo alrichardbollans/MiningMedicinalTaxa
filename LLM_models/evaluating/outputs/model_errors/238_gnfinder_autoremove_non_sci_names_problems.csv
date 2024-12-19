@@ -1,0 +1,27 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,satureja,satureja pilosa,willdenowia,,,,satureja_cramps,,,alkanna tinctoria_wound healing
+1,satureja pilosa,satureja,enterococcus faecalis,,,,satureja_muscle pain,,,thymus spp_antimicrobial
+2,s. pilosa,s. pilosa,bacillus subtilis,,,,satureja_infectious diseases,,,thymus spp_antioxidant
+3,a. tinctoria,s. pilosa aerial,staphylococcus aureus,,,,satureja_gastrointestinal disorders,,,thymbra capitata_antibacterial
+4,alkanna tinctoria,alkana tinctoria,pseudomonas aeruginosa,,,,,,,thymbra capitata_antimicrobial
+5,thymus spp,alkanna tinctoria,,,,,,,,thymbra capitata_antioxidant
+6,thymus boissieri,a. tinctoria,,,,,,,,thymbra spp_antimicrobial
+7,thymbra capitata,thymus,,,,,,,,thymbra spp_antioxidant
+8,thymbra spp,thymbra capitata,,,,,,,,t. longicaulis subsp. longicaulis_antibacterial
+9,t. longicaulis subsp. longicaulis,thymbra,,,,,,,,t. longicaulis subsp. longicaulis_antioxidant
+10,t. degenii,t. longicaulis subsp. longicaulis,,,,,,,,thymus boissieri_antibacterial
+11,t. thracicus,thymus boissieri,,,,,,,,thymus boissieri_antioxidant
+12,t. sibthorpii,t. degenii,,,,,,,,t. degenii_antibacterial
+13,t. striatus,t. thracicus,,,,,,,,t. degenii_antioxidant
+14,t. longicaulis subsp. chaubardii,t. sibthorpii,,,,,,,,t. thracicus_antibacterial
+15,t. holosericeus,t. striatus,,,,,,,,t. thracicus_antioxidant
+16,t. plasonii,t. longicaulis subsp. chaubardii,,,,,,,,t. sibthorpii_antibacterial
+17,centaurea,t. holosericeus,,,,,,,,t. sibthorpii_antioxidant
+18,centaurea phyllocephala boiss,t. plasonii,,,,,,,,t. striatus_antibacterial
+19,centaurea cyanoides,centaurea phyllocephala,,,,,,,,t. striatus_antioxidant
+20,centaurea cyanus,centaurea,,,,,,,,centaurea_anti-inflammatory
+21,centaurea sp,centaurea cyanoides,,,,,,,,centaurea_antioxidant
+22,c. cyanus,centaurea cyanus,,,,,,,,centaurea_antirheumatic
+23,,c. cyanus,,,,,,,,centaurea_anti-dandruff
+24,,,,,,,,,,centaurea_antidiabetic
+25,,,,,,,,,,centaurea_antibacterial

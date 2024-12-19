@@ -1,0 +1,19 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hibiscus sabdariffa,hibiscus sabdariffa,,s. perfoliata l,hibiscus sabdariffa_skin cancer,lonicera japonica_breast,antrodia salmonea_glioblastoma,mikania micrantha_anti-blood cancer,physalis angulata l_anti-inflammatory,physalis angulata l_inhibit the production of inflammatory cytokines
+1,lonicera japonica,lonicera japonica,,s. curvidens stapf,hibiscus sabdariffa_breast,lonicera japonica_liver,,mikania micrantha_anti-cancer,antrodia salmonea_anticancer,antrodia salmonea_autophagic and apoptotic cell death
+2,eucommia ulmoides,eucommia ulmoides,,,hibiscus sabdariffa_liver,cannabis sativa_epilepsy,,mikania micrantha_antioxidant,,antrodia salmonea_autophagic or apoptotic cell death
+3,physalis angulata l,physalis angulata l,,,lonicera japonica_skin cancer,cannabis sativa_arthritis,,sideritis cypria post_diaphoretic,,antrodia salmonea_autophagic- and apoptotic-cell death
+4,antrodia salmonea,antrodia salmonea,,,eucommia ulmoides_skin cancer,,,sideritis cypria post_tonic,,mikania micrantha_inhibits melanin production
+5,mikania micrantha,mikania micrantha,,,eucommia ulmoides_breast,,,,,mikania micrantha_inhibits melanogenesis
+6,cannabis sativa,cannabis sativa,,,eucommia ulmoides_liver,,,,,mikania micrantha_anti-inflammatory
+7,sideritis cypria,sideritis cypria post,,,cannabis sativa_pain,,,,,mikania micrantha_increasing autophagy
+8,s. cypria,zingiber officinale roscoe,,,cannabis sativa_stress,,,,,mikania micrantha_reducing tyrosinase
+9,sideritis,zingiber zerumbet smith,,,cannabis sativa_anxiety,,,,,mikania micrantha_inhibit melanin production
+10,zingiber officinale roscoe,curcuma amada roxb,,,sideritis cypria post_stomach disorders,,,,,mikania micrantha_keratinocyte proliferation
+11,zingiber zerumbet smith,z. montanum koen,,,sideritis cypria post_common cold,,,,,mikania micrantha_prevent free radical diseases
+12,curcuma amada roxb,,,,sideritis cypria post_headache,,,,,mikania micrantha_wound healing
+13,zingiber montanum koen,,,,,,,,,sideritis cypria_antioxidant
+14,z. montanum koen,,,,,,,,,s. cypria_antioxidant
+15,,,,,,,,,,zingiber montanum koen_free radical scavenging
+16,,,,,,,,,,zingiber montanum koen_cytotoxicity
+17,,,,,,,,,,zingiber montanum koen_thrombolytic

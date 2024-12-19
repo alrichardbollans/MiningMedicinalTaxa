@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hypericum,hypericum,cinchona officinalis l,pulsatila vulgaris mill,hypericum_neurosis,hypericum_diarrhoea,,,coffea_reduce oxidative stress,
+1,h. perforatum,hypericum perforatum,ricinus communis,bryoniadioica,hypericum_depression,hypericum_burns,,,coffea_supress cancer cellgrowth,
+2,coffea sp,h. perforatum,papaver somniferum l,h.kotschyanum boiss,hypericum_neuralgia,hypericum_ulcers,,,coffea_spasmolytic function,
+3,camellia sinensis,coffea,panax ginseng c.a.mey,h.scabroidesrobson & poulter,hypericum_anxiety,hypericum_hemorroid,,,coffea_decrease platelat agregation,
+4,,camellia sinensis,,h.uniglandulosum hausskn. ex bornm,h. perforatum_diarrhoea,hypericum_wounds,,,coffea_endothelial adhesion,
+5,,,,h.salsugineum robson &hub.-mor,h. perforatum_burns,hypericum perforatum_mild to moderatedepression,,,coffea_antioxidative function,
+6,,,,h.thymopsis boiss,h. perforatum_ulcers,cinchona officinalis l_malaria,,,ricinus communis_purgative,
+7,,,,h. thymopsis,h. perforatum_hemorroid,cinchona officinalis l_fever,,,papaver somniferum l_vasodilation,
+8,,,,,h. perforatum_wounds,cinchona officinalis l_infectious-disease,,,papaver somniferum l_pain relief,
+9,,,,,,papaver somniferum l_hypertension,,,panax ginseng c.a.mey_enhancement of physical performance,
+10,,,,,,panax ginseng c.a.mey_tiredness,,,,

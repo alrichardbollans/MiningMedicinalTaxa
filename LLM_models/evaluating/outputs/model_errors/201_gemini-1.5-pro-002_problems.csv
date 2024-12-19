@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,trifolium pratense,trifolium pratense,,capsicum chinense,trifolium pratense_menopause,,,trifolium pratense_estrogenic effect,,capsicum chinense_antioxidant
+1,trifolium pratense extractum siccum,capsicum annuum l,,,,,,,,
+2,capsicum annuum,,,,,,,,,
+3,"capsicum annuum l., ssp. microcar-pum longum conoides, convar. horgoshka",,,,,,,,,
+4,capsicum,,,,,,,,,

@@ -1,0 +1,4 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,notopterygium incisum,notopterygium,mizuno,aegopodium-podagraria,,,,,,aegopodium-podagraria_antifungal
+1,,notopterygium incisum,1647-1654.mizuno,,,,,,,
+2,,,hayashi,,,,,,,

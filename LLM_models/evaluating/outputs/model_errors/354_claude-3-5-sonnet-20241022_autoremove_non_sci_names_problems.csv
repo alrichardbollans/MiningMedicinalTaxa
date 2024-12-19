@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,chamaemelum nobile,chamaemelum nobile (l.) all,,anthemis nobilis,,chamaemelum nobile (l.) all_hypertension,,,chamaemelum nobile (l.) all_spasmolytic,matricaria recutita_anxiolytic
+1,achillea millefolium s.l,achillea millefolium,,chamaemelum nobile (l.)all,,matricaria recutita (l_anxiety,,,achillea millefolium_spasmolytic,
+2,matricaria recutita,matricaria recutita (l,,chamaemelum nobile(l.) all,,,,,,
+3,,,,anthemis nobilis l,,,,,,
+4,,,,chamomilla recutita (l.) rauschert,,,,,,
+5,,,,spergularia purpurea pers,,,,,,
+6,,,,ginkgo biloba l,,,,,,
+7,,,,equisetum arvense l,,,,,,

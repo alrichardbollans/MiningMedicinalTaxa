@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,stevia rebaudiana bertoni,stevia rebaudiana bertoni,,gingko,emblica offi cinalis_dyslipidemia,allium sativum linn_hyperlipidemia,gingko_coronary atherosclerosis heart disease,,,gingko_platelet aggregative function
+1,morinda citrifolia l,morinda citrifolia l,,,mangifera indica_dyslipidemia,emblica offi cinalis gaertn_hyperlipidemia,,,,gingko_apolipoproteins
+2,emblica offi cinalis,emblica offi cinalis,,,,allium cepa linn_hyperlipidemia,,,,gingko_blood lipid
+3,emblica offi cinalis gaertn,mangifera indica,,,,,,,,
+4,mangifera indica,allium sativum linn,,,,,,,,
+5,allium sativum linn,emblica offi cinalis gaertn,,,,,,,,
+6,allium cepa linn,allium cepa linn,,,,,,,,

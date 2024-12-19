@@ -1,0 +1,16 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,,syringa vulgaris,,,syringa vulgaris_inflammation,,,punica granatum l_vasculoprotective
+1,,,,commiphora,,,commiphora_chronic diseases,,,hypericum hircinum subsp. majus_antifungal
+2,,,,boswellia,,,boswellia_chronic diseases,,,ajuga laxmannii (murray) benth_anti-inflammatory
+3,,,,punica granatum l,,,scrophularia lucida_tumor,,,ajuga laxmannii (murray) benth_antioxidant
+4,,,,hypericum hircinum subsp. majus,,,,,,ajuga laxmannii (murray) benth_antimicrobial
+5,,,,scrophularia lucida,,,,,,lavandula angustifolia_central nervous system
+6,,,,ajuga laxmannii (murray) benth,,,,,,
+7,,,,lavandula angustifolia,,,,,,
+8,,,,chelidonium majus,,,,,,
+9,,,,veronica officinalis,,,,,,
+10,,,,centaurea ragusina l,,,,,,
+11,,,,rhodiola rosea l,,,,,,
+12,,,,prunus spinosa l,,,,,,
+13,,,,ononis natrix subsp. hispanica,,,,,,
+14,,,,veronica chamaedrys,,,,,,

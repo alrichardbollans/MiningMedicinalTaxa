@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,matricaria recutita l,matricaria recutita l,,phaseolus vulgaris l,,,,,matricaria recutita l_antioxidant,
+1,m. recutita,,,triticum aestivum l,,,,,,
+2,,,,vicia faba l,,,,,,
+3,,,,matricaria chamomilla,,,,,,

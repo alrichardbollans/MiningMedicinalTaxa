@@ -1,0 +1,19 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,alyssum alyssoides,alyssum alyssoides,,primula elatior (l.) hill,capparis orientalis veill_atonia,sideritis raeseri boiss. & heldr. subsp. raeseri_inflammation,,sideritis raeseri boiss. & heldr. subsp. raeseri_antimicrobial,,capparis orientalis veill_anti-diabetes
+1,a. alyssoides,sideritis raeseri boiss. & heldr. subsp. raeseri,,,capparis orientalis veill_colds,sideritis raeseri boiss. & heldr. subsp. raeseri_stomach problems,,sideritis raeseri boiss. & heldr. subsp. raeseri_stomachic,,capparis orientalis veill_hiv-1 reverse transcriptase inhibitory
+2,sideritis,capparis orientalis veill,,,capparis orientalis veill_atherosclerosis,sideritis raeseri boiss. & heldr. subsp. raeseri_cough,,sideritis raeseri boiss. & heldr. subsp. raeseri_carminative,,
+3,sideritis raeseri boiss. & heldr. subsp. raeseri,primula veris,,,mimosa pudica_dysuria,sideritis raeseri boiss. & heldr. subsp. raeseri_infections,,sideritis raeseri boiss. & heldr. subsp. raeseri_analgesic,,
+4,sideritis raeseri boiss & heldr. subsp. raeseri,tinospora sinensis,,,,capparis orientalis veill_diabetes,,sideritis raeseri boiss. & heldr. subsp. raeseri_antitussive,,
+5,capparis orientalis veill,chromolaena odorata,,,,,,sideritis raeseri boiss. & heldr. subsp. raeseri_anti-inflammatory,,
+6,primula veris,mimosa pudica,,,,,,capparis orientalis veill_antimicrobial,,
+7,primula veris l,tadehagi triquetrum,,,,,,capparis orientalis veill_immunomodulatory,,
+8,tinospora sinensis,alysicarpus vaginalis,,,,,,capparis orientalis veill_antioxidant,,
+9,chromolaena odorata,streptocaulon juventas,,,,,,capparis orientalis veill_diuretic,,
+10,m. pudica,tradescantia zebrina,,,,,,capparis orientalis veill_antifungal,,
+11,mimosa pudica,canscora lucidissima,,,,,,capparis orientalis veill_anti-proliferative,,
+12,tadehagi triquetrum,rosa,,,,,,capparis orientalis veill_anti-inflammatory,,
+13,alysicarpus vaginalis,,,,,,,,,
+14,streptocaulon juventas,,,,,,,,,
+15,tradescantia zebrina,,,,,,,,,
+16,canscora lucidissima,,,,,,,,,
+17,rosa,,,,,,,,,

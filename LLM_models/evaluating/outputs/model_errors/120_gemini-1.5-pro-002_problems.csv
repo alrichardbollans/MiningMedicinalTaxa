@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,,papaver somniferum,,,,,,papaver somniferum_pain-killing
+1,,,,carica papaya,,,,,,carica papaya_aid digestion
+2,,,,atropa belladonna,,,,,,
+3,,,,amanita muscaria,,,,,,
+4,,,,pyrethrum,,,,,,
+5,,,,lathyrusspp,,,,,,
+6,,,,claviceps purpurea,,,,,,
+7,,,,ipomoea violacea,,,,,,
+8,,,,lophophorawilliamsii,,,,,,
+9,,,,citrus,,,,,,
+10,,,,nicotianatabacum,,,,,,
+11,,,,cyperus papyrus,,,,,,

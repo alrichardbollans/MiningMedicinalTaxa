@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,,enantia polycarpa,,,,,,enantia polycarpa_antibacterial
+1,,,,coscinium fenestratum,,,,,,
+2,,,,berberis pseudumbellata,,,,,,
+3,,,,berberis waziristanica,,,,,,
+4,,,,argemone mexicana l,,,,,,
+5,,,,berberis asiaticaroxb. ex. dc,,,,,,
+6,,,,berberis,,,,,,
+7,,,,coscinium fenestratum (gaertn.) colebr,,,,,,
+8,,,,berberisvulgaris,,,,,,

@@ -1,0 +1,7 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,cananga odorata,cananga odorata,,,,,,melissa officinalis_sedative,cananga odorata_anxiolytic,
+1,eugenia uniflora,eugenia uniflora,,,,,,citrus aurantifolia_anxiolytic-like,eugenia uniflora_antidepressant-like,
+2,melissa officinalis,melissa officinalis,,,,,,,,
+3,citrus,citrus aurantifolia,,,,,,,,
+4,citrus aurantifolia,lavandula angustifolia mill,,,,,,,,
+5,lavandula angustifolia mill,,,,,,,,,

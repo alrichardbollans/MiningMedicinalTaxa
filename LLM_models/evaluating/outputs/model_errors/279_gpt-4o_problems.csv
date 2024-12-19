@@ -1,0 +1,18 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hypericum perforatum,hypericum perforatum l,allium sativum l,cercis siliquastruml,ecballium elaterium rich_jaundice,hypericum perforatum l_skin treatment,cercis siliquastruml_respiratory system disorders,,hedera helix_expectorant,paliurus aculeatus l_antidiarrheal
+1,salvia officinalis l,salvia officinalis l,teucrium polium l,juncus acutusl,alopecurus myosuroides huds_urinary apparatus diseases,hypericum perforatum l_ulcers,ecballium elaterium rich_liverdiseases,,,hedera helix_antibacterial
+2,cichorium intybus l,cichorium intybus l,trifolium pratense l,solanum nigruml,physalis alkekengi l_skin diseases,hypericum perforatum l_stomach diseases,juncus acutusl_urinary apparatus diseases,,,
+3,origanum vulgare l,origanum vulgare l,cercis siliquastrum l,teu-crium polium l,trigonella corniculata l_skin diseases,paliurus aculeatus l_antidiarrheal,solanum nigruml_skin diseases,,,
+4,crataegus spp,crataegus spp,juncus acutus l,allium sativuml,,cercis siliquastrum l_respiratory system disorders,,,,
+5,juniperus communis l,juniperus communis l,solanum nigrum l,trifoliumpratense l,,ecballium elaterium rich_liver diseases,,,,
+6,laurus nobilis l,laurus nobilis l,,hypericumperforatum l,,juncus acutus l_urinary apparatus diseases,,,,
+7,ulmus campestris l,ulmus campestris l,,hederahelix,,solanum nigrum l_skin diseases,,,,
+8,paliurus aculeatus l,paliurus aculeatus l,,gymnospermium altaicum subsp.scipetarum,,,,,,
+9,ecballium elaterium rich,ecballium elaterium rich,,gym-nospermum altaicum,,,,,,
+10,alopecurus myosuroides huds,alopecurus myosuroides huds,,gymnospermum altaicum subs.scipetarum,,,,,,
+11,physalis alkekengi l,physalis alkekengi l,,g. scipetarum,,,,,,
+12,trigonella corniculata l,trigonella corniculata l,,hypericum per-foratum,,,,,,
+13,hedera helix,hedera helix,,,,,,,,
+14,hedera,gymnospermium altaicum subsp. scipetarum,,,,,,,,
+15,gymnospermium,,,,,,,,,
+16,gymnospermium altaicum,,,,,,,,,

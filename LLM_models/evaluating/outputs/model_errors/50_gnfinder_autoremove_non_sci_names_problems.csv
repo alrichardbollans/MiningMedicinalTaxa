@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,saccharomyces cerevisae,saccharomyces,streptococcus thermophilus,monacus purpures,,,,,,
+1,saccharomyces carlsbergensis,candida atilis,paeoniae rubra,saussurea involucrate,,,,,,
+2,candida atilis,kluyveromyces lactis,flos magnoliae,citrus reticulata,,,,,,
+3,kluyveromyces lactis,saccharomyces carlsbergensis,rhododendri mollis,ginkgo,,,,,,
+4,"paecilomyces hepiali chen et dai, sp. nov",paecilomyces hepiali,convallariae majalis,magnolia,,,,,,
+5,hirsutella hepiali chen et shen,hirsutella hepiali,,,,,,,,
+6,ganoderma lucidum,ganoderma lucidum,,,,,,,,
+7,ganoderma sinensis,ganoderma sinensis,,,,,,,,
+8,ganoderma tsugae,ganoderma tsugae,,,,,,,,
+9,monacus anka,monacus anka,,,,,,,,
+10,aloe vera,aloe vera,,,,,,,,
+11,aloe,,,,,,,,,

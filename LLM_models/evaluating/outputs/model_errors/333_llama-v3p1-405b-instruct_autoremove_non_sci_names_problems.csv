@@ -1,0 +1,16 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,rosa canina l,rosa canina l,salvia officinalis l,salviaofficinalis l,,medicago sativa_iron overload,,rosa canina l_anti-inflammatory,salvia officinalis l_antibacterial,salviaofficinalis l_antibacterial
+1,chenopodium album,chenopodium album,salix alba,menthaspicata,,allium porrum_iron overload,,chenopodium album_anthelmintic,laurus nobilis linn_anti-inflammatory,laurus nobilis linn_antinflammatory
+2,salvia triloba l,salvia triloba l,mentha spicata,sideritis,,morus alba l_diabetes,,chenopodium album_antioxidant,salix alba_anti-inflammatory,menthaspicata_antifungal
+3,ziziphora taurica subsp. cleonioides,ziziphora taurica subsp. cleonioides,datura stramonium l,salixalba,,,,chenopodium album_antimicrobial,mentha spicata_antifungal,sideritis_antioxidant
+4,medicago sativa,medicago sativa,,daturastramonium l,,,,salvia triloba l_antibacterial,cupressus sempervirens_antimicrobial,morus alba l_antidiabetic
+5,allium porrum,allium porrum,,hypericum,,,,ziziphora taurica subsp. cleonioides_antioxidant,eucalyptus saligna_antimicrobial,glycyrrhiza glabra l_inhibit adhesion ofhelicobacter pylori to human gastric mucosa
+6,laurus nobilis linn,laurus nobilis linn,,,,,,laurus nobilis linn_analgesic,potentilla_antioxidant,
+7,cupressus sempervirens,cupressus sempervirens,,,,,,morus alba l_antioxidant,datura stramonium l_antimicrobial,
+8,eucalyptus saligna,eucalyptus saligna,,,,,,rumex crispus l_antimicrobial,glycyrrhiza glabra l_anti-inflammatory,
+9,potentilla,potentilla,,,,,,rumex crispus l_antioxidant,tilia platyphyllos l_antioxidant,
+10,morus alba l,morus alba l,,,,,,rubus sanctus schreber_wound healing,,
+11,glycyrrhiza glabra l,glycyrrhiza glabra l,,,,,,,,
+12,tilia platyphyllos l,tilia platyphyllos l,,,,,,,,
+13,rumex crispus l,rumex crispus l,,,,,,,,
+14,rubus sanctus schreber,rubus sanctus schreber,,,,,,,,

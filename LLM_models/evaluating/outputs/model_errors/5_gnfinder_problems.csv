@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ginkgo biloba,ginkgo,salmonella typhimurium,andrographolideii,,,,,,taxus_anti-!| tumour
+1,ginkgo hiloba,ginkgo biloba,drosophila,,,,,,,t. bacata_anti-!| tumour
+2,a. paniculata,a. paniculata,salmonella typhimurium bacteria,,,,,,,t. brevifolia_anti-!| tumour
+3,taxus,taxus,,,,,,,,a. paniculata_antibacterial
+4,t. bacata,t. bacata,,,,,,,,
+5,t. brevifolia,t. brevifolia,,,,,,,,
+6,aspergillus flavus,a. paniculata should,,,,,,,,
+7,,aspergillus flavus,,,,,,,,

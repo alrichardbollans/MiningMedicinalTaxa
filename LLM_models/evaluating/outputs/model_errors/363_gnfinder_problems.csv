@@ -1,0 +1,19 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,scrophularia,scrophularia buergeriana,atha,scrophularianingpoensis,,,scrophularia variegata_breast cancer,,,s. lucida_inhibit metastasis in breast cancer
+1,scrophularia buergeriana,scrophularia scopolii,,scrophulariascopolii,,,scrophularia_tumor,,,scrophularia deserti_antidiabetic
+2,scrophularia buergeriana (miquel,scrophularia,,,,,,,,scrophularia deserti_antiinflammatory
+3,scrophularia scopolii [hoppe ex] pers. var. scopolii,s. lucida,,,,,,,,scrophularia auriculata_anti-inflammatory
+4,s. scopolii,scrophularia lucida,,,,,,,,scrophularia buergeriana_neuroprotective
+5,scrophularia deserti,scrophularia variegata,,,,,,,,scrophularianingpoensis_antimicrobial
+6,scrophularia variegata,scrophularia striata,,,,,,,,
+7,scrophularia auriculata,scrophularia koelzii,,,,,,,,
+8,scrophularia lucida,scrophularia nodosa,,,,,,,,
+9,scrophularia striata,saussurea medusa,,,,,,,,
+10,scrophularia koelzii,scrophularia auriculata,,,,,,,,
+11,scrophularia ilwensis,scrophularia orientalis,,,,,,,,
+12,scrophularia nodosa,scrophularia amplexicaulis,,,,,,,,
+13,scrophularia auriculata ssp.pseudoauriculata,,,,,,,,,
+14,scrophularia orientalis,,,,,,,,,
+15,scrophularia amplexicaulis benth,,,,,,,,,
+16,s. lucida,,,,,,,,,
+17,saussurea medusa,,,,,,,,,

@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,phaseolus vulgaris,phaseolus vulgaris l,,glaucium,centaurea depressa bieb_cancer,phaseolus vulgaris l_hypertension,,centaurea depressa bieb_antioxidant,phaseolus vulgaris l_weight loss,c. depressa_antipro-liferation
+1,phaseolus,phaseolus coccineus l,,alchemilla l,centaurea depressa bieb_adenocarcinoma,,,centaurea depressa bieb_antipyretic,phaseolus vulgaris l_glycemic control,glaucium_cytotoxicity
+2,phaseolus vulgaris l,centaurea depressa bieb,,pterocarpus santalinus,,,,centaurea depressa bieb_immunological,,alchemilla l_necrotic effects
+3,phaseolus coccineus l,,,phasolus vulgaris l.: ssp. nanus,,,,centaurea depressa bieb_cytotoxic,,alchemilla l_apoptotic
+4,centaurea depressa bieb,,,ssp. volubilis,,,,centaurea depressa bieb_apoptotic,,pterocarpus santalinus_apoptosis
+5,centaurea,,,,,,,centaurea depressa bieb_anti-inflammatory,,
+6,centaurea depressa,,,,,,,centaurea depressa bieb_antimicrobial,,
+7,c. depressa,,,,,,,,,

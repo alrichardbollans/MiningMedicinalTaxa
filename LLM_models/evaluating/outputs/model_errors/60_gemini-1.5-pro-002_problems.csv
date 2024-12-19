@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,pelargonium hortense cv. 'marthawashington,pelargonium hortense,cannabis sativa l. ssp. indica,cannabis sativa l. ssp. indica(lamarck) e. small & cronquist,,,,,,
+1,triticum,triticum,zea mays l. ssp. mays,zea mays l. ssp.mays,,,,,,
+2,secale,secale,x triticale,xtriticale,,,,,,
+3,musa x paradisiaca,musa x paradisiaca,acer negundo,acernegundo,,,,,,
+4,musa acuminata,musa acuminata,fagus,blighia,,,,,,
+5,m. balbisiana,m. balbisiana,,carnegia,,,,,,
+6,elymus smithii,elymus smithii,,ribes,,,,,,
+7,agrostis,agrostis,,xanthium,,,,,,
+8,penstemon,penstemon,,cepa,,,,,,
+9,sanguinaria,sanguinaria,,,,,,,,

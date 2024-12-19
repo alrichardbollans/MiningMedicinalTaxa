@@ -1,0 +1,7 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,bougainvillea,bougainvillea,,quinaquina condamine,,,,,,
+1,arbutus menziesii,arbutus menziesii,,banksia,,,,,,
+2,vancouveria,vancouveria,,blighia sapida,,,,,,
+3,darlingtonia californica,darlingtonia californica,,lewisiarediviva,,,,,,
+4,fremontodendron,fremontodendron,,wilkesiagymnoxiphium,,,,,,
+5,clarkia,clarkia,,,,,,,,

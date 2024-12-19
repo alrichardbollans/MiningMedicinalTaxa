@@ -1,0 +1,16 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,mentha,mentha,,m. spicata,mentha_stomach pain,rosa pendulina l_arthritis,,trigonella foenum graecum_antihyperlipidemic,,origanum vulgare l. ssp. hirtum (link) letsw_antioxidant
+1,mentha longifolia,trigonella foenum graecum,,m. x villoso-nervata,,rosa pendulina l_infectious and urinary diseases,,trigonella foenum graecum_hypoglycemic,,rosa pendulina l_antioxidant
+2,trigonella foenum graecum,origanum vulgare l. ssp. hirtum,,,,rosa pendulina l_rheumatism,,trigonella foenum graecum_antidepressant,,r. pendulina_antioxidant
+3,t. foenum graecum,micromeria hispida,,,,,,trigonella foenum graecum_psychotonic,,rosa canina_antioxidant
+4,origanum vulgare l. ssp. hirtum (link) letsw,teucrium alpestre,,,,,,,,
+5,micromeria hispida,thymbra calostachya,,,,,,,,
+6,m. hispida,rosa pendulina l,,,,,,,,
+7,teucrium alpestre,rosa canina l,,,,,,,,
+8,t. alpestre,,,,,,,,,
+9,thymbra calostachya,,,,,,,,,
+10,t. calostachya,,,,,,,,,
+11,rosa pendulina l,,,,,,,,,
+12,r. pendulina,,,,,,,,,
+13,rosa canina,,,,,,,,,
+14,rosa canina l,,,,,,,,,

@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,boswellia sacra,boswellia sacra,,,,boswellia sacra_inflammation,,boswellia sacra_antioxidant,boswellia sacra_anti-inflammatory,boswellia serrata_modulation of the immune system
+1,boswellia,boswellia serrata,,,,boswellia serrata_inflammation,,boswellia serrata_antioxidant,,boswellia sacra_antiglycation
+2,boswellia serrata,boswellia,,,,boswellia_inflammation,,boswellia serrata_anti-inflammatory,,
+3,,,,,,,,boswellia_antioxidant,,
+4,,,,,,,,boswellia_anti-inflammatory,,

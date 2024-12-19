@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,cassia l,cassia l,cinchona officinalis l,,,cinchona officinalis l_malaria,,,cassia l_laxative,chamaecrista moench_laxatives
+1,senna mill,senna mill,tulsi,,,shilajeet_stroke,,,senna mill_laxative,senna mill_laxatives
+2,senna,chamaecrista moench,triphala,,,karela_diabetes,,,chamaecrista moench_laxative,cassia l_laxatives
+3,chamaecrista moench,echinacea,shilajeet,,,,,,shilajeet_improve blood circulation,
+4,echinacea,aloe vera,karela,,,,,,,
+5,aloe vera,,ajwain,,,,,,,
+6,,,ginger,,,,,,,
+7,,,garlic,,,,,,,
+8,,,cinnamon,,,,,,,
+9,,,neem,,,,,,,

@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,,candida albicans,,,,,,
+1,,,,aspergillus brasiliensis,,,,,,
+2,,,,candida al-bicans,,,,,,
+3,,,,aspergillus brasil-iensis,,,,,,
+4,,,,aspergillus spizenii,,,,,,

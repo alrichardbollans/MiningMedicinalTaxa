@@ -1,0 +1,24 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ocimum tenuiflorum,ocimum tenuiflorum,,olea europaea,,ocimum tenuiflorum_fever,olea europaea_ear infections,ocimum tenuiflorum_antibacterial,ocimum tenuiflorum_anti-inflammatory,spinacia oleracea_blood
+1,ocimum,ocimum basilicum,,spinacia oleracea,,ocimum tenuiflorum_sore throat,olea europaea_arthritis,,ocimum basilicum_antimicrobial,spinacia oleracea_internal strength
+2,,ocimum gratissimum,,ficus religiosa,,ocimum tenuiflorum_cough,olea europaea_eczema,,ocimum basilicum_antioxidant,spinacia oleracea_source of iron
+3,,ocimum kilimandscharicum,,mentha arvensis,,ocimum basilicum_digestive issues,olea europaea_skin conditions,,ocimum gratissimum_antifungal,ficus religiosa_digestion
+4,,ocimum americanum,,annona reticulata,,ocimum basilicum_stress,ficus religiosa_diarrhoea,,ocimum gratissimum_antibacterial,ficus religiosa_liver health
+5,,,,brassica juncea,,ocimum gratissimum_headaches,ficus religiosa_wounds,,ocimum kilimandscharicum_antiviral,annona reticulata_immune boosting
+6,,,,foeniculum vulgare,,ocimum gratissimum_diarrhea,mentha arvensis_indigestion,,ocimum kilimandscharicum_anti-inflammatory,foeniculum vulgare_digestion
+7,,,,vitus vinifera,,ocimum kilimandscharicum_fever,annona reticulata_diarrhoea,,ocimum americanum_antioxidant,vitus vinifera_blood purifier
+8,,,,areca catechu,,ocimum kilimandscharicum_cough,annona reticulata_cancer,,ocimum americanum_anti-inflammatory,areca catechu_stimulant
+9,,,,laurus nobilis,,ocimum americanum_indigestion,brassica juncea_dry skin,,,laurus nobilis_digestion
+10,,,,sesamum indicum,,ocimum americanum_nausea,brassica juncea_pain,,,sesamum indicum_reduce urinary frequency
+11,,,,ajuga bracteosa,,,foeniculum vulgare_constipation,,,sesamum indicum_warms blood
+12,,,,coriandrum sativum,,,foeniculum vulgare_cough,,,sesamum indicum_improves circulation
+13,,,,piper betle,,,foeniculum vulgare_bloating,,,coriandrum sativum_digestion
+14,,,,pistaci vera,,,vitus vinifera_cough,,,piper betle_digestion
+15,,,,asparagus,,,laurus nobilis_diabetes,,,pistaci vera_cholesterol
+16,,,,,,,ajuga bracteosa_gout,,,pistaci vera_general health
+17,,,,,,,ajuga bracteosa_menstrual problems,,,
+18,,,,,,,coriandrum sativum_diabetes,,,
+19,,,,,,,ocimum tenuiflorum_coughs,,,
+20,,,,,,,ocimum tenuiflorum_asthma,,,
+21,,,,,,,ocimum tenuiflorum_diabetes,,,
+22,,,,,,,ocimum tenuiflorum_colds,,,

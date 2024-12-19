@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,vinca,vinca,digitalis lanata1930,digitalis lanata,,,vinca_leukemia,,,
+1,anacardium occidentale,anacardium occidentale,chondrodendron tomentosum1939,chondrodendron tomentosum,,,,,,
+2,mangifera indica,mangifera indica,,sorghum,,,,,,
+3,schinopsis spp,schinopsis,,pistacia vera,,,,,,
+4,spondias spp,spondias,,rhus spp,,,,,,
+5,toxicodendron spp,toxicodendron,,schinus spp,,,,,,
+6,landolphia spp,landolphia,,apocynumcannabinum,,,,,,
+7,catharanthus roseus,catharanthus,,carissagrandiflora,,,,,,
+8,funtumia elastica,funtumia elastica,,rauvolfia spp,,,,,,
+9,nerium spp,nerium,,strophanthus spp,,,,,,
+10,,,,thevetia spp,,,,,,

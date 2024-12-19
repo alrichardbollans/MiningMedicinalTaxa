@@ -1,0 +1,21 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,ccid,s. lucida,,sunitinib_renal cell carcinoma,scrophularia variegata_breast cancer,,ccid_methanolicextract,s. lucida_inhibit metastasis in breast cancer
+1,,,lymph endothelial wall,scrophularia deserti,,,scrophularia_tumor,,lymph endothelial wall_breast cancer,scrophularia deserti_antiinflammatory
+2,,,sunitinib,scrophularia variegata,,,,,sw620_colon cancer,scrophularia deserti_antidiabetic
+3,,,sw620,scrophularia,,,,,cell-cycle arrest_apoptosis,scrophularia auriculata_anti-inflammatory
+4,,,cell-cycle arrest,scrophularia auriculata,,,,,,scrophularia buergeriana_neuroprotective
+5,,,,scrophularia buergeriana,,,,,,scrophularianingpoensis_antimicrobial
+6,,,,scrophularianingpoensis,,,,,,
+7,,,,scrophularia lucida,,,,,,
+8,,,,scrophularia striata,,,,,,
+9,,,,scrophularia koelzii,,,,,,
+10,,,,scrophularia ilwensis,,,,,,
+11,,,,scrophularia nodosa,,,,,,
+12,,,,saussurea medusa,,,,,,
+13,,,,scrophularia buergeriana (miquel,,,,,,
+14,,,,scrophularia scopolii [hoppe ex] pers. var. scopolii,,,,,,
+15,,,,scrophulariascopolii,,,,,,
+16,,,,s. scopolii,,,,,,
+17,,,,scrophularia auriculata ssp.pseudoauriculata,,,,,,
+18,,,,scrophularia orientalis,,,,,,
+19,,,,scrophularia amplexicaulis benth,,,,,,

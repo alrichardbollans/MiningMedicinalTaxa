@@ -1,0 +1,16 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,b. crassifolia,bergenia crassifolia,hypericum perforatum l,valerianaofficinalis l,,bergenia crassifolia_loss of appetite,,,bergenia crassifolia_energy intake suppressant,b. crassifolia_appetite and energy intakesuppressants
+1,bergenia crassifolia,epilobium angustifolium l,vaccinium vitis-idaea l,carumcarvi l,,,,,,a. calamus l_digestives
+2,epilobium angustifolium l,bergenia spp,tilia platyphyllos scop,helichrysum arenarium (l.)moench,,,,,,valerianaofficinalis l_digestives
+3,e. angustifolium,ledum palustre l,taraxacum campylodes g.e. haglund,hypericumperforatum l,,,,,,inula helenium l_digestives
+4,bergenia spp,thymus serpyllum l,valeriana officinalis l,vacciniumvitis-idaea l,,,,,,juniperus communis l_digestives
+5,ledum palustre l,artemisia absinthium l,carum carvi l,t.platyphyllos scop,,,,,,carumcarvi l_digestives
+6,thymus serpyllum l,tilia cordata mill,helichrysum arenarium (l.) moench,taraxacumcampylodes g.e. haglund,,,,,,helichrysum arenarium (l.)moench_digestives
+7,artemisia,rosa canina l,persicaria bistorta (l.) samp,persicariabistorta (l.) samp,,,,,,artemisia_digestives
+8,artemisia absinthium l,acorus calamus l,,,,,,,,
+9,tilia cordata mill,inula helenium l,,,,,,,,
+10,r. canina l,juniperus communis l,,,,,,,,
+11,a. calamus l,viburnum opulus,,,,,,,,
+12,inula helenium l,,,,,,,,,
+13,juniperus communis l,,,,,,,,,
+14,viburnum opulus,,,,,,,,,

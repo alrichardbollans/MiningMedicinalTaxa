@@ -1,0 +1,4 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet,cistus creticus l,,alpinia galanga (l.) willd,,cistus creticus l_influenza,,,cistus creticus l_neuraminidase inhibition,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet_anti-influenza activity
+1,pistacia lentiscus,pistacia lentiscus,,santalum album l,,hypericum_wounds,,,hypericum_wound-healing,
+2,hypericum spp,hypericum,,guatteria recurvisepala r.e. fr,,,,,,

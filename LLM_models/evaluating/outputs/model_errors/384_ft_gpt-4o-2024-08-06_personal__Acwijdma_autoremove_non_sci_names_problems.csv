@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,citrullus colocynthis,citrullus colocynthis,,citrulluscolocynthis,citrullus colocynthis_type ii diabetes,citrullus colocynthis_cancer,,,citrullus colocynthis_tumor suppressive,citrulluscolocynthis_analgesic
+1,citrullus colocynthis (l.) schrad,citrullus colocynthis (l,,citrulluscolocynthis (l,,,,,citrullus colocynthis_anti-cancer,citrulluscolocynthis_anti-inflammatory
+2,citrullus colocynthis (l,citrullus colocynthis (l.) schrad,,,,,,,citrullus colocynthis_analgesic,
+3,,,,,,,,,citrullus colocynthis_anti-inflammatory,
+4,,,,,,,,,citrullus colocynthis (l_larvicidal,
+5,,,,,,,,,citrullus colocynthis (l_molluscicidal,
+6,,,,,,,,,citrullus colocynthis (l.) schrad_antioxidant,

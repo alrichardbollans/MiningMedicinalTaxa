@@ -1,0 +1,16 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ajuga bracteosa,ajuga bracteosa,,gmelina arborea,,,ajugadecumbens_arthritis,ajuga bracteosa_analgesic,ajuga reptans_antibacterial,gmelina arborea_antifungal
+1,ajuga iva,ajuga iva,,morus alba,,,ajugadecumbens_osteoporosis,ajuga bracteosa_antidepressant,ajuga reptans_antioxidant,morus alba_antioxidant
+2,ajuga turkestanica,ajuga turkestanica,,schisandra chinensis,,,,ajuga bracteosa_antioxidant,,schisandra chinensis_antimicrobial
+3,ajuga remota,ajuga remota,,ajugadecumbens,,,,ajuga bracteosa_anti-inflammatory,,schisandra chinensis_antioxidant
+4,ajuga chamaecistus subsp. scoparia (boiss.) rech.f,ajuga chamaecistus subsp. scoparia (boiss.) rech.f,,ajugareptans,,,,ajuga bracteosa_anticoagulant,,ajugareptans_antibacterial
+5,ajuga reptans,ajuga reptans,,harpagophytum procumbens,,,,ajuga iva_free radicalscavenging,,ajugareptans_antioxidant
+6,allium schoenoprasum,allium schoenoprasum l,,opuntia ficus-indica,,,,ajuga iva_antimicrobial,,
+7,allium,pseudosempervivum sempervivum,,rumexscutatus,,,,ajuga iva_antioxidant,,
+8,pseudosempervivum sempervivum,epilobium,,ajuga laxmannii,,,,ajuga turkestanica_antiproliferative,,
+9,epilobium,cotoneaster nummularia fisch. et mey,,,,,,ajuga turkestanica_antimicrobial,,
+10,cotoneaster nummularia fisch. et mey,,,,,,,ajuga turkestanica_antioxidant,,
+11,,,,,,,,ajuga chamaecistus subsp. scoparia (boiss.) rech.f_neuroprotective,,
+12,,,,,,,,ajuga chamaecistus subsp. scoparia (boiss.) rech.f_antidiabetic,,
+13,,,,,,,,ajuga chamaecistus subsp. scoparia (boiss.) rech.f_skin-care,,
+14,,,,,,,,allium schoenoprasum l_anti-inflammatory,,

@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,stachys tymphaea,stachys tymphaea,,morus alba,harrisonia perforata_diarrhoea,pistacia lentiscus l. var. chia_mild dyspeptic disorders,,stachys tymphaea_antioxidant,pistacia lentiscus l. var. chia_healing of minor wounds,
+1,paeonia mascula ssp hellenica,paeonia mascula ssp hellenica,,paeonia parnassica,,pistacia lentiscus l. var. chia_skin inflammation,,paeonia mascula ssp hellenica_anti-tyrosinase,,
+2,paeonia mascula,harrisonia perforata,,,,,,,,
+3,harrisonia perforata,pistacia lentiscus l. var. chia,,,,,,,,
+4,pistacia lentiscus,,,,,,,,,
+5,p. lentiscus l. var. chia,,,,,,,,,
+6,pistacia,,,,,,,,,

@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hypericum perforatum,hypericum perforatum,,hypericum perfo-ratum,hypericum perforatum_de-pression,,,hypericum perforatum_anti-inflammatory,,
+1,hypericum perforatum l,,,hyper-icum perforatum,hypericum perforatum_cuts,,,hypericum perforatum_antiviral,,
+2,hypericum,,,,hypericum perforatum_wounds,,,hypericum perforatum_gastro-protective,,
+3,,,,,hypericum perforatum_abrasions,,,hypericum perforatum_antiseptic,,
+4,,,,,hypericum perforatum_rheumatic pain,,,,,
+5,,,,,hypericum perforatum_bruises,,,,,
+6,,,,,hypericum perforatum_sunburns,,,,,
+7,,,,,hypericum perforatum_anxiety,,,,,

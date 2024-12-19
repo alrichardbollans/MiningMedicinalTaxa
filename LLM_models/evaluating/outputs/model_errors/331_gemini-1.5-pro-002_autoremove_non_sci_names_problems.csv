@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,sideritis sipylea boiss,sideritis sipylea boiss,,punicagranatum l,,,punicagranatum l_salmonella enterica,,,punicagranatum l_antimicrobial
+1,origanum sipyleuml,origanum sipyleuml,,punica granatum l,,,,,,
+2,thymus sipyleus boiss,thymus sipyleus boiss,,punicagranatum,,,,,,
+3,pistacia lentiscus l,pistacia lentiscus l,,punica granatum cv. 'mollar,,,,,,
+4,verbascum ikaricum murb,verbascum ikaricum murb,,punica granatum,,,,,,

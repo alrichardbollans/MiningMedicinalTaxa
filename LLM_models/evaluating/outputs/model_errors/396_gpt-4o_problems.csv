@@ -1,0 +1,7 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,veronica,veronica chamaedrys,,veronica alpina,,,,,,
+1,v. chamaedrys,veronica officinalis,,curcuma longa,,,,,,
+2,veronica chamaedrys l,,,rhodiola,,,,,,
+3,v. officinalis,,,,,,,,,
+4,veronica officinalis,,,,,,,,,
+5,veronica officinalis l,,,,,,,,,

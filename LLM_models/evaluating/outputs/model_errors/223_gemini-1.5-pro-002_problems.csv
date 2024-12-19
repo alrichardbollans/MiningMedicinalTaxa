@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,alpinia galanga (l.) willd,alpinia galanga (l.) willd,,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet,,,,,,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet_anti-influenza activity
+1,,,,hypericum spp,,,,,,
+2,,,,santalum album l,,,,,,
+3,,,,guatteria recurvisepala r.e. fr,,,,,,
+4,,,,pistacia lentiscus,,,,,,

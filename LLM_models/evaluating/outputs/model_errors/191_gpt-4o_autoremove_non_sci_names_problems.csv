@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aspergillus flavus,aspergillus flavus,,,,aspergillus flavus_liver cancer,,,aspergillus flavus_immunosuppressive,
+1,aspergillus parasiticus,aspergillus parasiticus,,,,aspergillus flavus_toxic hepatitis,,,aspergillus parasiticus_immunosuppressive,
+2,,,,,,aspergillus flavus_impaired blood coagulation,,,,
+3,,,,,,aspergillus flavus_aflatoxicosis,,,,
+4,,,,,,aspergillus flavus_impaired protein formation,,,,
+5,,,,,,aspergillus parasiticus_liver cancer,,,,
+6,,,,,,aspergillus parasiticus_toxic hepatitis,,,,
+7,,,,,,aspergillus parasiticus_impaired blood coagulation,,,,
+8,,,,,,aspergillus parasiticus_aflatoxicosis,,,,
+9,,,,,,aspergillus parasiticus_impaired protein formation,,,,

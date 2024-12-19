@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,salvia officinalis l,salvia officinalis l,,satureja montana l,,rosmarinus officinalis l_memory,,rosmarinus officinalis l_analgesic,salvia officinalis l_anti-inflammatory,satureja montana l_antimicrobial
+1,rosmarinus officinalis l,rosmarinus officinalis l,,satureja cuneifolia ten,,,,rosmarinus officinalis l_carminative,salvia officinalis l_stimulant,satureja cuneifolia ten_antimicrobial
+2,,,,satureja montana,,,,rosmarinus officinalis l_rubifacient,salvia officinalis l_antispasmodic,satureja montana_antifungal
+3,,,,satureja,,,,rosmarinus officinalis l_stimulant,salvia officinalis l_antioxidant,satureja_antioxidant
+4,,,,s. montana subsp. pisidica,,,,rosmarinus officinalis l_nervine,salvia officinalis l_antimicrobial,salvia officinalis l_healing of different diseases
+5,,,,satureja l,,,,rosmarinus officinalis l_emmenagogue,,rosmarinus officinalis l_improving memory
+6,,,,calamintha miller,,,,rosmarinus officinalis l_cholagogue,,rosmarinus officinalis l_antimicrobial
+7,,,,micromeriabentham,,,,rosmarinus officinalis l_digestive,,
+8,,,,acinos miller,,,,rosmarinus officinalis l_diuretic,,
+9,,,,clinopodium l,,,,,,
+10,,,,salvia offficinalis l,,,,,,

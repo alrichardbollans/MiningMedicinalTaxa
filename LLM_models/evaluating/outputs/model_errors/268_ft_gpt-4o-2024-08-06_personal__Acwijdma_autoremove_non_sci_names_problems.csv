@@ -1,0 +1,23 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,amphoricarpos autariatus,amphoricarpos autariatus,eringium spp,cen-taurium erythrea,,,,swertia chiriata_antidiabetic,centaurium erythrea_antidiabetic,centaurium erythrea_antidiabetics
+1,anthemis carpa-tica,anthemis carpa-tica,,gentianella,,,,teucrium polium_insulinotropic,,teucrium polium_antidiabetic
+2,seseli montanum ssp. tommasinii,seseli montanum ssp. tommasinii,,gentiana,,,,teucrium_insulinotropic,,cen-taurium erythrea_hepatoprotective
+3,swertia punctata,swertia punctata,,gentianopsis,,,,teucrium spp_hepatoprotective,,cen-taurium erythrea_antidiabetic
+4,swertia,achillea clypeolata,,anthemis carpatica,,,,teucrium spp_antidiabetic,,
+5,achillea clypeolata,centaurium erythrea,,saccharomices cerevi-siae,,,,vaccinium spp_hepatoprotective,,
+6,centaurium erythrea,swertia chiriata,,s.scardica,,,,vaccinium spp_antidiabetic,,
+7,centaurium,sideritis raeseri,,s.syriaca,,,,arctostaphylos uva ursi_hepatoprotective,,
+8,swertia chiriata,origanum vulgare,,vac-cinium spp,,,,arctostaphylos uva ursi_antidiabetic,,
+9,sideritis raeseri,salvia off,,,,,,,,
+10,origanum vulgare,papaver somniferum,,,,,,,,
+11,salvia,sideritis rae-seri,,,,,,,,
+12,salvia off,teucrium polium,,,,,,,,
+13,papaver somniferum,teucrium,,,,,,,,
+14,sideritis rae-seri,teucrium spp,,,,,,,,
+15,teucrium polium,vaccinium spp,,,,,,,,
+16,teucrium,arctostaphylos uva ursi,,,,,,,,
+17,teucrium spp,salvia,,,,,,,,
+18,vaccinium spp,sideritis spp,,,,,,,,
+19,arctostaphylos uva ursi,tribulus terrestris,,,,,,,,
+20,sideritis spp,,,,,,,,,
+21,tribulus terrestris,,,,,,,,,

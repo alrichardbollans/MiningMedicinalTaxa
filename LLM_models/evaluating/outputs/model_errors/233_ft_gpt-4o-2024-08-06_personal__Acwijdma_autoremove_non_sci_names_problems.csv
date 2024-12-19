@@ -1,0 +1,21 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,crocus l,crocus l,,,,,,,,pistacia lentiscus l_anti-inflammatory
+1,crocus,crocus olivieri j. gay,,,,,,,,pistacia lentiscus l_antiatherogenic
+2,c. olivieri,crocus nivalis bory and chaub,,,,,,,,pistacia lentiscus l_antimicrobial
+3,crocus nivalis bory and chaub,crocus veluchensis herb,,,,,,,,p. lentiscus_enzyme inhibition
+4,c. nivalis,crocus sativus l,,,,,,,,p. lentiscus_skin beneficial
+5,crocus veluchensis herb,c. sativus,,,,,,,,pistacia lentiscus var. chia_antioxidant
+6,c. veluchensis,c. nivalis,,,,,,,,psychotria zombamontana_anti-inflammatory
+7,crocus sativus l,pistacia lentiscus l,,,,,,,,psychotria zombamontana_antioxidant
+8,c. sativus,p. lentiscus,,,,,,,,
+9,pistacia lentiscus l,mandragora autumnalis,,,,,,,,
+10,p. lentiscus,mandragora spp,,,,,,,,
+11,pistacia lentiscus var. chia,mandragora,,,,,,,,
+12,mandragora autumnalis,populus nigra,,,,,,,,
+13,mandragora,psychotria zombamontana,,,,,,,,
+14,mandragora spp,fusarium,,,,,,,,
+15,populus nigra,aspergillus flavus,,,,,,,,
+16,psychotria zombamontana,fusarium verticilloides,,,,,,,,
+17,fusarium,,,,,,,,,
+18,fusarium verticilloides,,,,,,,,,
+19,aspergillus flavus,,,,,,,,,

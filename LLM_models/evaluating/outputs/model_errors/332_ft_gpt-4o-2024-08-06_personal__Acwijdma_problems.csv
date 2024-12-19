@@ -1,0 +1,31 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,sideritis sipylea boiss,sideritis sipylea boiss,salviafrontiers,anthemissp,sideritis sipylea boiss_urinary infections,origanum sipyleum l_infections of the respiratory and gastrointestinal tract,alkanna tinctoria_wound,sideritis sipylea boiss_anti-inflammatory,matricaria chamomilla l_antimicrobial,hypericum perforatum l_skin wound healing
+1,sideritis,verbascumikaricum murb,,eucalyptus camaldulensis dehn,verbascumikaricum murb_sun burns,thymussipyleus boiss_infections of the respiratory and gastrointestinal tract,sideritis sipylea boiss_infections of therespiratory and gastrointestinal,sideritis sipylea boiss_antimicrobial,lavandula stoechas l_antimicrobial,verbascumikaricum murb_skin wound healing
+2,verbascumikaricum murb,hypericum perforatum l,,myrtuscommunis l,verbascumikaricum murb_wounds,pistacia lentiscus l_ulcer,origanum sipyleum l_infections of therespiratory and gastrointestinal,alkanna tinctoria_antipruritic,cistus creticus l_expectorant,alkanna tinctoria_skin regeneration
+3,hypericum perforatum l,alkanna tinctoria,,cistus salvifolius l,hypericum perforatum l_sun burns,salviafrontiers_skin infections,thymussipyleus boiss_infections of therespiratory and gastrointestinal,alkanna tinctoria_antibacterial,,pistacia lentiscus l_ulcer healing
+4,hypericum perforatum,origanum sipyleum l,,fruticosa miller,hypericum perforatum l_wounds,salviafrontiers_stomach pain,anthemissp_stomach pain,pistacia lentiscus l_expectorant,,laurus nobilis_antibacterial
+5,alkanna tinctoria,thymussipyleus boiss,,salvia officinalis l,pistacia lentiscus l_diarrhea,salviafrontiers_burns,cistus creticus l_expectorant,laurus nobilis l_anti-inflammatory,,eucalyptus camaldulensis dehn_antibacterial
+6,origanum sipyleum l,pistacia lentiscus l,,lavandulastoechas l,anthyllis hermanniae l_kidney stones,,hypericum perforatum_gastric lesions,rosmarinus officinalis l_tonic,,myrtuscommunis l_antibacterial
+7,thymussipyleus boiss,anthyllis hermanniae l,,fumaria officinalis,rosa damascena mill_burns,,,raphanus raphanistrum l_diuretic,,origanumminutiflorum_antibacterial
+8,pistacia lentiscus l,matricaria chamomilla l,,salvia,rosa damascena mill_skin inflammations,,,sideritis_anti-inflammatory,,allium sativum_antifungal
+9,anthyllis hermanniae l,lavandula stoechas l,,,menthaspicata l_common cold,,,sideritis_antimicrobial,,allium ampeloprasum_antifungal
+10,matricaria chamomilla l,rosa damascena mill,,,,,,,,melissa officinalis_antioxidant
+11,lavandula stoechas l,laurus nobilis l,,,,,,,,
+12,rosa damascena mill,cistus creticus l,,,,,,,,
+13,laurus nobilis,menthaspicata l,,,,,,,,
+14,cistus creticus l,rosmarinus officinalis l,,,,,,,,
+15,menthaspicata l,raphanus raphanistrum l,,,,,,,,
+16,rosmarinus officinalis l,sideritis,,,,,,,,
+17,raphanus raphanistrum l,origanum vulgare l,,,,,,,,
+18,sideritis sipyleaboiss,paeonia mascula (l.)mill. subsp. mascula,,,,,,,,
+19,origanum vulgare l,sideritissipylea boiss,,,,,,,,
+20,paeonia mascula (l.)mill. subsp. mascula,thymus sipyleus boiss,,,,,,,,
+21,sideritissipylea boiss,origanumminutiflorum,,,,,,,,
+22,thymus sipyleus boiss,foeniculum vulgare,,,,,,,,
+23,origanumminutiflorum,silybummarianum,,,,,,,,
+24,foeniculum vulgare,malva sylvestris l,,,,,,,,
+25,silybummarianum,allium sativum,,,,,,,,
+26,malva sylvestris l,allium ampeloprasum,,,,,,,,
+27,allium sativum,melissa officinalis,,,,,,,,
+28,allium ampeloprasum,,,,,,,,,
+29,melissa officinalis,,,,,,,,,

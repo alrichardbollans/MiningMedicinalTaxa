@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ephedra spp,ephedra,,digitalis purpurea,,,ephedra spp_asthma,,,
+1,claviceps purpurea,claviceps purpurea,,ginkgo,,,,,,
+2,gibberella fugikuroi,gibberella,,citrus,,,,,,
+3,gossypium spp,gossypium,,,,,,,,

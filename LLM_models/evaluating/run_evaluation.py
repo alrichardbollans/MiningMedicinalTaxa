@@ -29,9 +29,6 @@ def _get_chunks_to_tweak_with():
     for i in train['id'].values:
         assert i not in test['id'].values
 
-    summarise_annotations(for_hparam_tuning['id'].unique().tolist(), os.path.join('outputs', 'tuning_data_summary.csv'))
-    summarise_annotations(for_testing['id'].unique().tolist(), os.path.join('outputs', 'testing_data_summary.csv'))
-
     for_hparam_tuning.to_csv(os.path.join('outputs', 'for_hparam_tuning.csv'), index=False)
     for_testing.to_csv(os.path.join('outputs', 'for_testing.csv'), index=False)
 
@@ -89,6 +86,7 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
 
     if '/' in model_name:
         model_name = model_name[model_name.rindex('/') + 1:]
+    model_name = model_name.replace(':', '_')
 
     def run(c_id, p_file):
         print(c_id)
@@ -235,10 +233,9 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
               'Precise MedEff': [preciseMedEffprecision, preciseMedEffrecall, preciseMedEfff1_score],
               'Approx. MedEff': [approximateMedEffprecision, approximateMedEffrecall, approximateMedEfff1_score]}
 
-    filename = "".join(i for i in model_tag if i not in "\/:*?<>|")
     out_df = pd.DataFrame(out_df, index=['precision', 'recall', 'f1'])
-    out_df.to_csv(os.path.join(out_dir, filename + '_results.csv'))
-    basic_plot_results(os.path.join(out_dir, filename + '_results.csv'), out_dir, filename)
+    out_df.to_csv(os.path.join(out_dir, model_tag + '_results.csv'))
+    basic_plot_results(os.path.join(out_dir, model_tag + '_results.csv'), out_dir, model_tag)
     return out_df
 
 

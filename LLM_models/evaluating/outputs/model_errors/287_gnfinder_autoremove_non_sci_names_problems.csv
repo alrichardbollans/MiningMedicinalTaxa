@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,centaurium erythrea l,centaurium erythrea,ruta,cen-taurium erythrea,,,,,,cen-taurium erythrea_antihyperglycemic
+1,salvia,salvia,,centaurimerythrea l,,,,,,salvia_antimicrobial
+2,salvia officinalis,s. officinalis folium,,s.spinosa,,,,,,salvia_anticancer
+3,salvia lanigera,s. triloba,,s.officinalis l,,,,,,salvia_antioxidant
+4,salvia officinalis l,s. triloba folium,,pinuspeuce griseb,,,,,,salvia_hypoglycemic
+5,s. officinalis,s. officinalis,,,,,,,,salvia_asantioxidant
+6,s. triloba,salvia officinalis,,,,,,,,salvia officinalis_antisepticand
+7,s. syriaca,salvia lanigera,,,,,,,,salvia officinalis_antibacterial
+8,s. brachyodon vandas,s. syriaca,,,,,,,,
+9,,s. brachyodon,,,,,,,,

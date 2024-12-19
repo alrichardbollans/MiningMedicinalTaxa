@@ -1,0 +1,4 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,punica granatum l,punica granatum l,,,,punica granatum l_hyperlipidemia,,,punica granatum l_antioxidant,
+1,,,,,,punica granatum l_atherosclerosis,,,punica granatum l_anti-inflammatory,
+2,,,,,,punica granatum l_hypercholesterolemia,,,punica granatum l_vasculoprotective,

@@ -1,0 +1,7 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,matricaria recutita l,matricaria recutita l,pisum sativum l. cv. azad,,,,,,matricaria recutita l_antioxidant,
+1,m. recutita,triticum aestivum l,raphanussativus,,,,,,,
+2,triticum aestivum l,phaseolus vulgaris l,,,,,,,,
+3,phaseolus vulgaris l,vicia faba l,,,,,,,,
+4,vicia faba l,matricaria chamomilla,,,,,,,,
+5,matricaria chamomilla,matricaria recutita,,,,,,,,

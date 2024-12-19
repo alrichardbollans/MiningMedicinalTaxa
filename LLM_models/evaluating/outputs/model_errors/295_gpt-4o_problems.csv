@@ -1,0 +1,14 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,centaurea ragusina l,centaurea ragusina l,,ajuga laxmannii (murray) benth,commiphora_chronic diseases,,syringa vulgaris_inflammation,punica granatum l_vasculoprotective effects,syringa vulgaris_anti-inflammatory,ajuga laxmannii (murray) benth_anti-inflammatory
+1,commiphora,commiphora,,ononis natrix subsp. hispanica,boswellia_chronic diseases,,scrophularia lucida_tumor,hypericum hircinum subsp. majus_antifungal activity,prunus spinosa l_anti-inflammatory,ajuga laxmannii (murray) benth_antioxidant
+2,boswellia,boswellia,,,,,,,prunus spinosa l_antimicrobial,ajuga laxmannii (murray) benth_antimicrobial
+3,rhodiola rosea l,rhodiola rosea l,,,,,,,prunus spinosa l_antioxidant,lavandula angustifolia_central nervous system
+4,punica granatum l,punica granatum l,,,,,,,,
+5,chelidonium majus,chelidonium majus,,,,,,,,
+6,hypericum hircinum subsp. majus,hypericum hircinum subsp. majus,,,,,,,,
+7,syringa vulgaris,syringa vulgaris,,,,,,,,
+8,scrophularia lucida,scrophularia lucida,,,,,,,,
+9,prunus spinosa l,prunus spinosa l,,,,,,,,
+10,veronica officinalis,veronica officinalis,,,,,,,,
+11,veronica chamaedrys,veronica chamaedrys,,,,,,,,
+12,lavandula angustifolia,lavandula angustifolia,,,,,,,,

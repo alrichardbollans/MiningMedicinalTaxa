@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ephedra spp,ephedra spp,,claviceps purpurea,ephedra spp_asthma,digitalis purpurea_liver disease,,,ephedra spp_enhance physical performance,
+1,digitalis purpurea,digitalis purpurea,,gibberella fugikuroi,,,,,ephedra spp_dilation of bronchial tubes,
+2,,,,gossypium spp,,,,,,
+3,,,,ginkgo,,,,,,
+4,,,,citrus,,,,,,

@@ -1,0 +1,7 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,a. laxmannii,a. laxmannii,staphylococcus aureus,aspergillus niger,,,,,,a. laxmannii_antifungal
+1,ajuga laxmannii,ajuga,"49444),listeria monocytogenes",candida parapsilosis,,,,,,ajuga laxmanniiin_anti-inflammatory
+2,ajuga laxmanniiin,aspergillus flavus,pseudomonas aeruginosa,penicillium funiculosum,,,,,,
+3,aspergillus flavus,candida albicans,escherichia coli,,,,,,,
+4,candida albicans,,"9643),aspergillus niger",,,,,,,
+5,,,"10231),candida parapsilosis",,,,,,,

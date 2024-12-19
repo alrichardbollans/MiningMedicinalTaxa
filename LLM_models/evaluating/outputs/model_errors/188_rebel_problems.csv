@@ -1,0 +1,15 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,analgesic,foeniculum vulgare,,analgesic_pain,foeniculum vulgare_climacterium,,consumed_ef-fects,foeniculum vulgare_facilitate birth
+1,,,du145,prunus cerasifera,,du145_prostate cancer,,,,foeniculum vulgare_stimulation of the lactic secretion
+2,,,lncap,prunus armeniaca,,lncap_prostate cancer,,,,foeniculum vulgare_stimulation of menstruation
+3,,,consumed,prunus domestica,,,,,,foeniculum vulgare_estrogenic
+4,,,,prunus ar-meniaca,,,,,,
+5,,,,prunus arme-niaca,,,,,,
+6,,,,prunus cera-sifera,,,,,,
+7,,,,prunus tomentosa,,,,,,
+8,,,,pimpinella anisum,,,,,,
+9,,,,foe-niculum vulgare,,,,,,
+10,,,,"foeniculum vulgare, miller",,,,,,
+11,,,,hypericum perforatum l,,,,,,
+12,,,,hypericum,,,,,,
+13,,,,hypericum perforatum,,,,,,

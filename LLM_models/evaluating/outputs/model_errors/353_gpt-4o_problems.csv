@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,matricaria recutita l,matricaria recutita l,anthemis nobilis l,anthemisnobilis l,,anthemis nobilis l_gastrointestinal complaints,,,anthemis nobilis l_smooth muscle relaxant,
+1,,,chamaemelum nobile l,chamaemelumnobile l,,chamaemelum nobile l_spasms in the stomach,,,chamaemelum nobile l_smooth muscle relaxant,
+2,,,,,,chamaemelum nobile l_large intestine spasms,,,,
+3,,,,,,chamaemelum nobile l_gastrointestinal problems,,,,

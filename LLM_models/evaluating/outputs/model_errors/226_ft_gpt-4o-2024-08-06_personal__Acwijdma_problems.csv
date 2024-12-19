@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,dendrobium tosaense,dendrobium tosaense,,candida albicans,harpagophytum procumbens dc. ex meisn_ibd,,,harpagophytum procumbens dc. ex meisn_antimicrobial,,thymbra capitata (l.) cav_antiviral
+1,bletilla formosana,bletilla formosana,,leucosidea sericea,,,,harpagophytum procumbens dc. ex meisn_protective effects against the burden of inflammation and oxidative stress,,salvia fruticosa mill_antiviral
+2,orthosiphon aristatus,orthosiphon aristatus,,c. tropicalis,,,,,,origanum dictamnus l_antiviral
+3,pteris multifda,pteris multifda,,,,,,,,
+4,litsea cubeba,litsea cubeba,,,,,,,,
+5,uncaria lanosa var. appendiculata,uncaria lanosa var. appendiculata,,,,,,,,
+6,thymbra capitata (l.) cav,thymbra capitata (l.) cav,,,,,,,,
+7,salvia fruticosa mill,salvia fruticosa mill,,,,,,,,
+8,origanum dictamnus l,origanum dictamnus l,,,,,,,,
+9,harpagophytum procumbens dc. ex meisn,harpagophytum procumbens dc. ex meisn,,,,,,,,
+10,h. procumbens,,,,,,,,,

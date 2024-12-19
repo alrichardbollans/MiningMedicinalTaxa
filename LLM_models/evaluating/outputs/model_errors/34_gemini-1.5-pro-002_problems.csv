@@ -1,0 +1,17 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,o. tenuiflorum l,ocimum tenuiflorum,neisseria gonorrhoea,,ocimum tenuiflorum_diabetes,ocimum tenuiflorum_glaucoma,o. sanctum l_fever,ocimum tenuiflorum_anti-inflammatory,ocimum tenuiflorum_anti-platelets,o. sanctum l_abortive effects
+1,o. tenuiflorum,ocimum bascilium l,,,ocimum tenuiflorum_eye disorders,ocimum tenuiflorum_snake bites,o. sanctum l_chronic conjunctivitis,ocimum tenuiflorum_antifungal,ocimum tenuiflorum_anticoagulants,o. sanctum l_anticancer
+2,ocimum tenuiflorum,o. sanctum l,,,ocimum tenuiflorum_gonorrhoea,ocimum tenuiflorum_insect bites,o. sanctum l_glaucoma,ocimum tenuiflorum_contraceptive,ocimum bascilium l_anaesthetic,o. sanctum l_analgesic
+3,ocimum,o. gratissimum,,,ocimum tenuiflorum_bronchitis,ocimum tenuiflorum_chronic conjunctivitis,o. sanctum l_skin diseases,ocimum tenuiflorum_abortive,ocimum bascilium l_antifungal,o. sanctum l_hepatoprotective
+4,o. bascilium l,,,,ocimum tenuiflorum_asthma,ocimum tenuiflorum_fever,o. sanctum l_bronchitis,ocimum tenuiflorum_antifertility,ocimum bascilium l_antioxidant,o. sanctum l_cardioprotective
+5,o. sanctum l,,,,ocimum tenuiflorum_diarrhoea,ocimum tenuiflorum_malaria,o. sanctum l_cataracts,ocimum tenuiflorum_analgesic,ocimum bascilium l_antiseptic,o. sanctum l_antidiabetic
+6,o. sanctum,,,,,ocimum tenuiflorum_skin diseases,o. sanctum l_eye disorders,ocimum tenuiflorum_anticancer,ocimum bascilium l_antibacterial,o. sanctum l_antiviral
+7,o. gratissimum,,,,,ocimum tenuiflorum_cataracts,o. sanctum l_diarrhoea,ocimum tenuiflorum_cardioprotective,,o. sanctum l_antifertility
+8,,,,,,,o. sanctum l_asthma,ocimum tenuiflorum_antidiabetic,,o. sanctum l_adaptogenic
+9,,,,,,,o. sanctum l_snake bites,ocimum tenuiflorum_hepatoprotective,,o. sanctum l_antibacterial
+10,,,,,,,o. sanctum l_insect bites,ocimum tenuiflorum_antibacterial,,o. sanctum l_antifungal
+11,,,,,,,o. sanctum l_diabetes,ocimum tenuiflorum_adaptogenic,,o. sanctum l_anti-inflammatory
+12,,,,,,,o. sanctum l_malaria,ocimum tenuiflorum_antiviral,,o. tenuiflorum_blood thinning
+13,,,,,,,o. tenuiflorum_sexually transmitted disease,,,o. tenuiflorum_antioxidant
+14,,,,,,,o. tenuiflorum_antifertility,,,o. tenuiflorum_anaesthetic
+15,,,,,,,o. tenuiflorum_antifertility effects,,,o. tenuiflorum_antiseptic

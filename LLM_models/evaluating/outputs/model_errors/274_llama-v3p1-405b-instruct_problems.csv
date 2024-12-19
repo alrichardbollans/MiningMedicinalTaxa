@@ -1,0 +1,15 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,heracleum verticillatum,heracleum verticillatum pancic,,c. acicularisbertol,,,,heracleum verticillatum pancic_antimicrobial,,seseli rigidum_andantioxidant
+1,h. verticillatum,seseli rigidum w. k,,c. tho-ermeri weinm,,,,seseli rigidum w. k_anti-aggregatory,,seseli rigidum_antimicrobial
+2,s. rigidum,carduus acanthoides l,,scutellaria baicalensis georgii,,,,seseli rigidum w. k_cytotoxic,,c. acicularisbertol_antioxidant
+3,seseli rigidum,carduus acicularis bertol,,scutellaria baicalensis,,,,seseli rigidum w. k_antibacterial,,c. tho-ermeri weinm_antioxidant
+4,seseli rigidum w. k,carduus crispus l,,heracleum l,,,,seseli rigidum w. k_anti-inflammatory,,
+5,carduus,carduus candicans waldst.& kit. ssp. globifer (vel.) kazmi,,heracleumverticillatum pancic,,,,carduus acanthoides l_antioxidant,,
+6,carduus acanthoides l,carduus nutans l,,h. spho-ndylium l,,,,carduus acicularis bertol_antioxidant,,
+7,c. crispus l,carduus kerneri simonkai ssp. austro-orientalis,,candida albicans,,,,carduus crispus l_antioxidant,,
+8,c. candicans waldst.& kit. ssp. globifer (vel. )kazmi,carduus thoermeri weinm,,heracleum orphanidis boiss,,,,carduus candicans waldst.& kit. ssp. globifer (vel.) kazmi_antioxidant,,
+9,c. nutans l,,,seselirigidum walst et kit. var. rigidum,,,,carduus nutans l_antioxidant,,
+10,carduus nutans,,,seseli rigidum waldst et kit,,,,carduus kerneri simonkai ssp. austro-orientalis_antioxidant,,
+11,c. kerneri simonkai ssp. austro-orientalis,,,carduus nigrescens,,,,carduus thoermeri weinm_antioxidant,,
+12,,,,carduus assoi,,,,,,
+13,,,,cirsium,,,,,,

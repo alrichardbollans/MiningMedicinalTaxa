@@ -1,0 +1,31 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,prunus spinosa l,prunus spinosa l,,prunusspinosa l,prunus spinosa l_cardiac neurosis,prunus spinosa_cardiovascular protection,p. spinosa_protein nitratio,prunus spinosa l_anti-hypertensive,prunus spinosa_antioxidants,prunusspinosa l_pro-inflammatory
+1,prunus spinosa,prunus spinosa,,,prunus spinosa l_cardiovascular diseases,prunus spinosa_inflammatory changes,p. spinosa_lipid peroxidation,prunus spinosa l_diuretic,,prunus spinosa l_cardiovascular protection
+2,p. spinosa,p. spinosa,,,prunus spinosa l_mild inflammation ofthe oral and pharyngeal mucosa,prunus spinosa_cardiovascular disorders,p. spinosa_ischemic/reperfusioninjuries,prunus spinosa l_anti-atherogenic,,prunus spinosa l_blood purifying
+3,,,,,prunus spinosa l_atherosclerosis,p. spinosa_cvd,p. spinosa_oxidative damage to dna,prunus spinosa l_spasmolytic,,p. spinosa_inhibitors of pro-inflammatory enzymes
+4,,,,,prunus spinosa l_inflammation,,p. spinosa_oxidative/nitrative stress,prunus spinosa l_astringent,,
+5,,,,,prunus spinosa l_cardiac complaints,,,prunus spinosa l_vasodilatory,,
+6,,,,,prunus spinosa l_urinary tract disorders,,,prunus spinosa l_antioxidant,,
+7,,,,,prunus spinosa l_myocarditis,,,prunus spinosa l_anti-inflammatory,,
+8,,,,,prunus spinosa l_intestinal andrespiratory tract disorders,,,prunus spinosa l_antithrombotic,,
+9,,,,,prunus spinosa_oxidative stress-related pathologies,,,prunus spinosa l_detoxifying,,
+10,,,,,prunus spinosa_circulatory system disorders,,,prunus spinosa l_vasoprotective,,
+11,,,,,,,,prunus spinosa l_anti-apoptotic,,
+12,,,,,,,,prunus spinosa l_heart-strengthening,,
+13,,,,,,,,prunus spinosa_anti-hypertensive,,
+14,,,,,,,,prunus spinosa_diuretic,,
+15,,,,,,,,prunus spinosa_anti-atherogenic,,
+16,,,,,,,,prunus spinosa_spasmolytic,,
+17,,,,,,,,prunus spinosa_astringent,,
+18,,,,,,,,prunus spinosa_vasodilatory,,
+19,,,,,,,,prunus spinosa_anti-inflammatory,,
+20,,,,,,,,prunus spinosa_antithrombotic,,
+21,,,,,,,,prunus spinosa_detoxifying,,
+22,,,,,,,,prunus spinosa_vasoprotective,,
+23,,,,,,,,prunus spinosa_anti-apoptotic,,
+24,,,,,,,,prunus spinosa_heart-strengthening,,
+25,,,,,,,,p. spinosa_vasodilatory,,
+26,,,,,,,,p. spinosa_antithrombotic,,
+27,,,,,,,,p. spinosa_anti-atherogenic,,
+28,,,,,,,,p. spinosa_vasoprotective,,
+29,,,,,,,,p. spinosa_anti-apoptotic,,

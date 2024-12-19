@@ -1,0 +1,35 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,crataegus,crataegus,spirulina platensis,symphtytum offi cinalis,crataegus_mild heart conditions,spirulina platensis_lack of nutrients,symphtytum offi cinalis_cuts,citrus aurantium_weight management,crataegus_treating cardiac weakness,boswellia_anti-infl ammatories
+1,citrus aurantium,citrus aurantium,,symphytum offi cinalis,echinacea purpurea_sore throat,spirulina platensis_malnutrition,symphtytum offi cinalis_bruises,annona muricata_health enhancement,,tagetes erecta_eye health
+2,echinacea purpurea,echinacea purpurea,,chrysanthemum,sabal serrulata_impotence,eucalyptus_sore throat,crataegus_cardiac weakness,annona muricata_immunity,,symphtytum offi cinalis_muscles
+3,echinacea,eucalyptus,,cordyceps sinensis,sabal serrulata_prostate problems,vaccinium myrtillus_night vision,eucalyptus_sore shoulders,,,symphtytum offi cinalis_joints
+4,eucalyptus,sabal serrulata,,acanthopanax senticosus,boswellia_arthrosis,hypericum perforatum_nappy rash,,,,psyllium_laxative
+5,sabal serrulata,boswellia,,senna,vaccinium myrtillus_eye diseases,arnica montana_nappy rash,,,,angelica archangelica_muscle relaxing
+6,boswellia,vaccinium myrtillus,,,tagetes erecta_night vision,,,,,eucalyptus_mouth wash
+7,vaccinium myrtillus,tagetes erecta,,,tagetes erecta_eye diseases,,,,,eucalyptus_fat-free muscle building
+8,tagetes erecta,annona muricata,,,psyllium ispaghula_stomach troubles,,,,,eucalyptus_antiseptic
+9,annona muricata,aloe vera,,,,,,,,eucalyptus_recovery
+10,aloe vera,psyllium ispaghula,,,,,,,,
+11,aloe,angelica archangelica,,,,,,,,
+12,psyllium ispaghula,kaempferia pafi fl ora,,,,,,,,
+13,psyllium,butea superba,,,,,,,,
+14,angelica archangelica,zingiber offi cinale,,,,,,,,
+15,kaempferia pafi fl ora,anamitra cocculus w & a,,,,,,,,
+16,butea superba,nelumbo nucifera gaertner,,,,,,,,
+17,zingiber offi cinale,piper nigrum,,,,,,,,
+18,anamitra cocculus w & a,polygonum multifl orum,,,,,,,,
+19,nelumbo nucifera gaertner,tinaspora sinensis mer,,,,,,,,
+20,piper nigrum,piper lolot c,,,,,,,,
+21,polygonum multifl orum,glychyrrhiza uralensis,,,,,,,,
+22,tinaspora sinensis,silybum marianum,,,,,,,,
+23,piper lolot,cordyseps sinensis,,,,,,,,
+24,glychyrrhiza uralensis,gingko biloba,,,,,,,,
+25,silybum marianum,valeriana offi cinalis,,,,,,,,
+26,cordyseps,eleutherococcus senticosus,,,,,,,,
+27,cordyseps sinensis,hypericum perforatum,,,,,,,,
+28,gingko biloba,arnica montana,,,,,,,,
+29,valeriana offi cinalis,cimicifuga rasemosa,,,,,,,,
+30,eleutherococcus senticosus,,,,,,,,,
+31,hypericum perforatum,,,,,,,,,
+32,arnica montana,,,,,,,,,
+33,cimicifuga rasemosa,,,,,,,,,

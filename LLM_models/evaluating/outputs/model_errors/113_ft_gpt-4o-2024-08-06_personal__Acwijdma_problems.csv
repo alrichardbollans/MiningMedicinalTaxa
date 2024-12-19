@@ -1,0 +1,55 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,banisteriopsis caapi,banisteriopsis caapi,aspergillus oryzae,spergillus oryzae,,,banisteriopsis caapi_pain,,,penicillium chrysogenum_antibiotic
+1,b.inebrians,b.inebrians,,,,,b.inebrians_pain,,,penicillium notatum_antibiotic
+2,b.rusbyana,b.rusbyana,,,,,b.rusbyana_pain,,,streptomyces spp_antibiotics
+3,datura inoxia,datura inoxia,,,,,,,,claviceps purpurea_psychoactive
+4,rivea corymbosa,rivea corymbosa,,,,,,,,claviceps purpurea_vasoconstrictor
+5,rivea,turbina corymbosa,,,,,,,,psilocybe spp_psychoactive
+6,turbina corymbosa,ipomoea violacea,,,,,,,,amanita muscaria_psychoactive
+7,ipomoea violacea,rivea,,,,,,,,conocybe spp_psychoactive
+8,agaricus bisporus,agaricus bisporus,,,,,,,,lycoperdon marginatum_psychoactive
+9,agaricus campestris,agaricus campestris,,,,,,,,lycoperdon mixtecorum_psychoactive
+10,agrobacterium tumifaciens,agrobacterium tumifaciens,,,,,,,,
+11,amanita muscaria,amanita muscaria,,,,,,,,
+12,aspergillus flavus,aspergillus flavus,,,,,,,,
+13,auricularia auricula-judae,auricularia auricula-judae,,,,,,,,
+14,boletus spp,boletus spp,,,,,,,,
+15,botrytis cinerea,botrytis cinerea,,,,,,,,
+16,candida albicans,candida albicans,,,,,,,,
+17,cantharellus cibarius,cantharellus cibarius,,,,,,,,
+18,claviceps purpurea,claviceps purpurea,,,,,,,,
+19,conocybe spp,conocybe spp,,,,,,,,
+20,cortinellus edodes,cortinellus edodes,,,,,,,,
+21,cryphonectaria parasitica,cryphonectaria parasitica,,,,,,,,
+22,drechslera oryzeae,drechslera oryzeae,,,,,,,,
+23,flammulina velutipes,flammulina velutipes,,,,,,,,
+24,fusarium oxysporum,fusarium oxysporum,,,,,,,,
+25,hemileia vastatrix,hemileia vastatrix,,,,,,,,
+26,lactarius deliciosus,lactarius deliciosus,,,,,,,,
+27,lentinus edodes,lentinus edodes,,,,,,,,
+28,lycoperdon marginatum,lycoperdon marginatum,,,,,,,,
+29,lycoperdon mixtecorum,lycoperdon mixtecorum,,,,,,,,
+30,lycoperdon spp,lycoperdon spp,,,,,,,,
+31,monilinia fructicola,monilinia fructicola,,,,,,,,
+32,morchella esculenta,morchella esculenta,,,,,,,,
+33,mycosphaerella spp,mycosphaerella spp,,,,,,,,
+34,ophiostoma ulmi,ophiostoma ulmi,,,,,,,,
+35,paneolus spp,paneolus spp,,,,,,,,
+36,penicillium camemberti,penicillium camemberti,,,,,,,,
+37,penicillium chrysogenum,penicillium chrysogenum,,,,,,,,
+38,penicillium notatum,penicillium notatum,,,,,,,,
+39,penicillium roquefortii,penicillium roquefortii,,,,,,,,
+40,phytophthora infestans,phytophthora infestans,,,,,,,,
+41,phytophthora palmivora,phytophthora palmivora,,,,,,,,
+42,plasmopara viticola,plasmopara viticola,,,,,,,,
+43,pleurotus spp,pleurotus spp,,,,,,,,
+44,psilocybe spp,psilocybe spp,,,,,,,,
+45,puccinia graminis,puccinia graminis,,,,,,,,
+46,rhizobium leguminosarum,rhizobium leguminosarum,,,,,,,,
+47,russula spp,russula spp,,,,,,,,
+48,saccharomyces carlsbergensis,saccharomyces carlsbergensis,,,,,,,,
+49,saccharomyces cervisieae,saccharomyces cervisieae,,,,,,,,
+50,saccharomyces ellipsoideus,saccharomyces ellipsoideus,,,,,,,,
+51,saccharomyces theobromae,saccharomyces theobromae,,,,,,,,
+52,streptomyces spp,streptomyces spp,,,,,,,,
+53,stropharia spp,stropharia spp,,,,,,,,

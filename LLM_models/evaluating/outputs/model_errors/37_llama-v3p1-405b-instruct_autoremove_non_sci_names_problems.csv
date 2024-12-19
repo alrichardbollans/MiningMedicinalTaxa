@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ocimum sanctum,ocimum sanctum,cinchona officinalis,,,ocimum sanctum_diabetes,,ocimum sanctum_antifertility,ocimum sanctum_antimicrobial,
+1,ocimum,nigella sativa,ricinus communis,,,nigella sativa_inflammation,,ocimum sanctum_hypoglycaemic,zingiber officinale_analgesic,
+2,nigella sativa,zingiber officinale,papaver somniferum,,,zingiber officinale_osteoarthritis,,nigella sativa_antipyretic,zingiber officinale_anti-inflammatory,
+3,zingiber officinale roscoe,curcuma longa,panax ginseng,,,cinchona officinalis_malaria,,nigella sativa_analgesic,curcuma longa_toxicity prediction,
+4,curcuma longa l,picrorhiza kurrooa,,,,papaver somniferum_hypertension,,nigella sativa_anti-inflammatory,ricinus communis_purgative,
+5,picrorhiza kurrooa,jatropha podagrica,,,,panax ginseng_tiredness,,hibiscus rosa-sinensis_antifertility,papaver somniferum_vasodilation,
+6,jatropha podagrica,trachyspermum ammi,,,,,,,papaver somniferum_pain relief,
+7,trachyspermum ammi,hibiscus rosa-sinensis,,,,,,,panax ginseng_enhancement of physical performance,
+8,hibiscus rosa-sinensis,,,,,,,,,

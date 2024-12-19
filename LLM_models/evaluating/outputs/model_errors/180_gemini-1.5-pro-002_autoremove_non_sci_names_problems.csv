@@ -1,0 +1,18 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,juniperus excelsa,juniperus excelsa,,juniperus commu-nis,,juniperus excelsa_hypoglycemic,,,juniperus excelsa_antimicrobial,juniperus oxycedrus_antioxidant
+1,j. excelsa,juniperus communis,,juniperus foetidissima,,juniperus excelsa_hypotensive,,,juniperus excelsa_anti-inflammatory,juniperus communis_antioxidant
+2,juniperus communis,juniperus oxycedrus,,j. foetidissima,,juniperus excelsa_analgesic,,,juniperus excelsa_diuretic,juniperus excelsa_antioxidant
+3,j. communis,,,juniper,,juniperus communis_hypoglycemic,,,juniperus communis_antimicrobial,juniperus commu-nis_antioxidant
+4,juniperus oxycedrus,,,j. excel-sa,,juniperus communis_hypotensive,,,juniperus communis_anti-inflammatory,juniperus foetidissima_antioxidant
+5,,,,j. commu-nis,,juniperus communis_analgesic,,,juniperus communis_diuretic,j. communis_antioxidants
+6,,,,,,juniperus oxycedrus_hypoglycemic,,,juniperus oxycedrus_antimicrobial,j. communis_antioxidant
+7,,,,,,juniperus oxycedrus_hypotensive,,,juniperus oxycedrus_anti-inflammatory,j. excelsa_antioxidants
+8,,,,,,juniperus oxycedrus_analgesic,,,juniperus oxycedrus_diuretic,j. excelsa_antioxidant
+9,,,,,,,,,,j. foetidissima_antioxidants
+10,,,,,,,,,,j. foetidissima_antioxidant
+11,,,,,,,,,,juniper_analgesic
+12,,,,,,,,,,juniper_diuretic
+13,,,,,,,,,,juniper_hypoglycemic
+14,,,,,,,,,,juniper_an-ti-inflammatory
+15,,,,,,,,,,juniper_antimicrobial
+16,,,,,,,,,,juniper_hypotensive

@@ -1,0 +1,7 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,cinchona officinalis l,chamaecrista moench,,cinchona officinalis l_fever,,,ricinus communis_purgative,chamaecrista moench_laxatives
+1,,,ricinus communis,senna mill,,cinchona officinalis l_malaria,,,panax ginseng c.a.mey_enhancement of physical performance,senna mill_laxatives
+2,,,panax ginseng c.a.mey,cassia l,,cinchona officinalis l_infectious-disease,,,papaver somniferum l_vasodilation,cassia l_laxatives
+3,,,papaver somniferum l,echinacea,,panax ginseng c.a.mey_tiredness,,,papaver somniferum l_pain relief,
+4,,,,senna,,papaver somniferum l_hypertension,,,,
+5,,,,aloe vera,,,,,,

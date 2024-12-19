@@ -1,0 +1,27 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,shorea roxburghii,shorea roxburghii,,calluna vulgaris (l.) hull,shorea roxburghii_cholera,,cladosporium_acute myeloid leukemia,shorea roxburghii_hypoglycemic,,calluna vulgaris (l.) hull_skin-protective
+1,s. roxburghii,,,c. vulgaris,shorea roxburghii_type 2 diabetes mellitus,,rauwolfia_acute myeloid leukemia,,,c. vulgaris_antioxidant
+2,,,,cladosporium,shorea roxburghii_diarrhea,,,,,c. vulgaris_moderate antimicrobial
+3,,,,rauwolfia,shorea roxburghii_dysentery,,,,,c. vulgaris_antiradical
+4,,,,dacrycarpus imbricatus,,,,,,c. vulgaris_skin anti-aging and protection
+5,,,,pinus dalatensis ferre,,,,,,s. roxburghii_antidiabetic potentials
+6,,,,oldenlandia pinifolia,,,,,,cladosporium_anti-microbial
+7,,,,ficus hirta,,,,,,cladosporium_anti-tumor
+8,,,,cladosporium spp,,,,,,
+9,,,,acer truncatum,,,,,,
+10,,,,warbrugia ugandensis sprague,,,,,,
+11,,,,erythrina abyssinica dc,,,,,,
+12,,,,cryptolepsis sanguinolenta (lindl.) schltr,,,,,,
+13,,,,albizia coriaria oliv,,,,,,
+14,,,,psorospermum febrifugium spach,,,,,,
+15,,,,gymnosporia senegalensis (lam.) loes,,,,,,
+16,,,,zanthoxylum chalybeum engl,,,,,,
+17,,,,securidaca longipendunculata fresen,,,,,,
+18,,,,acacia hockii de wild,,,,,,
+19,,,,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc,,,,,,
+20,,,,bridelia micrantha (hochst.) baill,,,,,,
+21,,,,a. coriria,,,,,,
+22,,,,w. ugandensis,,,,,,
+23,,,,c. sanguinolenta,,,,,,
+24,,,,p. febrifugium,,,,,,
+25,,,,s. longipendunculata,,,,,,

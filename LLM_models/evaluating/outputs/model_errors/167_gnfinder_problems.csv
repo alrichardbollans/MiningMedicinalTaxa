@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,candida albicans,candida albicans,dindica,,,,,,,
+1,aspergil-lus brasiliensis,aspergil-lus brasiliensis,lupo,,,,,,,
+2,aspergillus brasiliensis,aspergillus brasiliensis,escherichia,,,,,,,
+3,,,pseudomonas aeruginosa,,,,,,,
+4,,,bacillus spizizenii,,,,,,,
+5,,,staphylococcus aureus,,,,,,,
+6,,,escherichia coli,,,,,,,
+7,,,staphylococcus,,,,,,,
+8,,,escherich-ia coli,,,,,,,
+9,,,pseudomonas,,,,,,,

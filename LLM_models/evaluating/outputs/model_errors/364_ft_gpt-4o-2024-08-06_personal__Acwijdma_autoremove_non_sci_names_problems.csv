@@ -1,0 +1,22 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,scrophularia oxysepala,scrophularia,,scrophularianodosa,achillea_bruises,,scrophularia oxysepala_breast cancer,s. lucida_anti-intravasative,scrophularia_anti-metastatic,scrophularianodosa_wound healing
+1,scrophularia lucida,s. lucida,,salviaofficinalis,achillea_bleeding disorders,,achillea_wounds,,,salviaofficinalis_antioxidative
+2,scrophularia oxysepala boiss,achillea,,,,,,,,achillea_astringent
+3,scrophularia ningpoensis hemsley,achillea sp,,,,,,,,
+4,scrophularia canina l,a. millefolium,,,,,,,,
+5,scrophularia dentataroyle ex benth,cynara,,,,,,,,
+6,scrophularia,apium,,,,,,,,
+7,s. lucida,allium,,,,,,,,
+8,achillea,petroselinum,,,,,,,,
+9,achillea sp,punica,,,,,,,,
+10,a. millefolium,thymus,,,,,,,,
+11,cynara,solidago,,,,,,,,
+12,apium,chamaemelum,,,,,,,,
+13,allium,viola,,,,,,,,
+14,petroselinum,vitis,,,,,,,,
+15,punica,,,,,,,,,
+16,thymus,,,,,,,,,
+17,solidago,,,,,,,,,
+18,chamaemelum,,,,,,,,,
+19,viola,,,,,,,,,
+20,vitis,,,,,,,,,

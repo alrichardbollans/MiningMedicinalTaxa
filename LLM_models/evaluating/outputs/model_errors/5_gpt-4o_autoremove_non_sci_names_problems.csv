@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ginkgo biloba,ginkgo biloba,,a. paniculata,,,,,taxus bacata_anti-tumour,taxus_anti-!| tumour
+1,taxus,taxus bacata,,ginkgo hiloba,,,,,taxus brevifolia_anti-tumour,t. bacata_anti-!| tumour
+2,t. bacata,taxus brevifolia,,andrographolideii,,,,,,t. brevifolia_anti-!| tumour
+3,t. brevifolia,aspergillus flavus,,,,,,,,a. paniculata_antibacterial
+4,aspergillus flavus,,,,,,,,,

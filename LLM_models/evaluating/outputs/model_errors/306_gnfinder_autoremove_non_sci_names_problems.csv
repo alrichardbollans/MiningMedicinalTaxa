@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,berberis aristata dc,berberis,,c. fenestratum,,,,,,
+1,berberis aristata,,,c.fenestratum,,,,,,
+2,berberis aristata dcroot,,,tinospora cordifolia(willd,,,,,,
+3,berberis tinctoria,,,tribulusterrestris (l,,,,,,
+4,,,,emblicaofficinalis (gaertn,,,,,,
+5,,,,coptischinensis franch,,,,,,
+6,,,,hydrastiscanadensis l,,,,,,
+7,,,,mahonia manipurensis(takeda,,,,,,
+8,,,,coscinium fenestratum,,,,,,
+9,,,,argemone mexicana,,,,,,
+10,,,,tinospora cordifolia,,,,,,
+11,,,,coptis chinensisfranch,,,,,,

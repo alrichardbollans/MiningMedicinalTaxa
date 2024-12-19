@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,gypsophila species,gypsophila,europaea,capsicum,,,capsicum_diabetic neuropathy,,,capsicum_therapeutic
+1,gypsophila,g. paniculata,tirana,artemisia,,,capsicum_rheumatoid arthritis,,,
+2,gypsophila paniculata l,c. glomerata,isola tion,a. alba,,,capsicum_peripherial painful diseases,,,
+3,g. paniculata,g. elegans,sylvia,a. alba turra,,,capsicum_muscle pain,,,
+4,c. glomerata,g. scorzonerifolia,valentina,capsicum spp,,,,,,
+5,g. elegans,g. glomerata,,g.trichotoma,,,,,,
+6,g. scorzonerifolia,g. trichotoma,,g. viscosa,,,,,,
+7,g. glomerata,g. glomerata may,,g.paniculata,,,,,,
+8,g. trichotoma,gypsophila paniculata,,g.scorzonerifolia,,,,,,
+9,saponaria officinalis,saponaria officinalis,,g.elegans,,,,,,
+10,,,,gypsophilatrichotoma wend,,,,,,
+11,,,,gypsophilapaniculata,,,,,,

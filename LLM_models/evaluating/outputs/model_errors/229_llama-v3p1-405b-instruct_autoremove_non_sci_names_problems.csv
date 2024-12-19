@@ -1,0 +1,18 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,achillea moschata wulfen,achillea moschata wulfen,,candida,achillea moschata wulfen_intestinal swelling in bovine,achillea moschata wulfen_digestive purposes,achillea moschata wulfen_ulcers,achillea moschata wulfen_hypotensive,achillea moschata wulfen_ulcers healing in the lower limbs,achillea moschata wulfen_digestive
+1,malva sylvestris l,malva sylvestris l,,,achillea moschata wulfen_gynaecological infections caused by candida spp,malva sylvestris l_acne reactions,,achillea moschata wulfen_anti-inflammatory,achillea millefolium l_footbaths,malva sylvestris l_acne reactions
+2,thymus pulegioides l,thymus pulegioides l,,,malva sylvestris l_allergies,,,achillea moschata wulfen_analgesic,,
+3,achillea millefolium l,achillea millefolium l,,,thymus pulegioides l_sore throat,,,malva sylvestris l_relaxing,,
+4,mentha spicata l,mentha spicata l,,,thymus pulegioides l_cold,,,malva sylvestris l_emollient,,
+5,matricaria chamomilla l,matricaria chamomilla l,,,achillea millefolium l_menopause symptoms,,,malva sylvestris l_purifying,,
+6,tilia tomentosa moench,tilia tomentosa moench,,,mentha spicata l_diarrhoea,,,malva sylvestris l_soothing baths,,
+7,cucurbita pepo l,cucurbita pepo l,,,matricaria chamomilla l_colic,,,thymus pulegioides l_expectorant,,
+8,viola tricolor l,viola tricolor l,,,matricaria chamomilla l_skin infections,,,achillea millefolium l_disinfectant for wounds on bovine paws,,
+9,triticum aestivum l,triticum aestivum l,,,tilia tomentosa moench_anxiety and agitation,,,origanum dictamnus l_relaxing effect on rabbit intestine,,
+10,anethum graveolens l,anethum graveolens l,,,tilia tomentosa moench_acute respiratory diseases,,,,,
+11,chelidonium majus l,chelidonium majus l,,,cucurbita pepo l_intestinal worms,,,,,
+12,origanum dictamnus,origanum dictamnus l,,,viola tricolor l_hives,,,,,
+13,origanum dictamnus l,,,,triticum aestivum l_dermatitis,,,,,
+14,,,,,anethum graveolens l_colics,,,,,
+15,,,,,chelidonium majus l_skin verruca,,,,,
+16,,,,,chelidonium majus l_acute hepatitis,,,,,

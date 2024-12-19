@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aloe capensis,aloe capensis,solidaginis virgaureae herba,thy-mus,aloe capensis_diseases of the oral cavity,solidaginis virgaureae herba_inflammation of the oral mucosa,,,anisi fructus_removes the bad odor from the mouth,
+1,thymus spp,thymus,anisi fructus,thy-mus moesiacus,,capsici fructus_inflammation of the mouth and pharynx,,,capsici fructus_gargling,
+2,thymus,thymus tosevii,capsici fructus,,,myrrha_halitosis,,,myrrha_strengthen the teeth,
+3,thymus tosevii,thymus jankae,myrrha,,,,,,aetheroleum melaleucae_inflammatory processes,
+4,thymus jankae,thymus longicaulis,aetheroleum melaleucae,,,,,,thymus_antifungal,
+5,thymus longicaulis,thymus pulegioides,,,,,,,thymus_antimicrobial,
+6,thymus pulegioides,thymus moesiacus,,,,,,,,
+7,thymus to-sevii ssp. substriatus,thymus to-sevii ssp. substriatus,,,,,,,,
+8,thymus balcanus,thymus balcanus,,,,,,,,
+9,thymus pannonicus,thymus pannonicus,,,,,,,,
+10,t. jankae,t. balcanus,,,,,,,,
+11,t. balcanus,t. jankae,,,,,,,,

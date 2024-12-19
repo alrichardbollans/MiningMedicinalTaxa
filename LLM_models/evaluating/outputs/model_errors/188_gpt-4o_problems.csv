@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,prunus cerasifera,prunus cerasifera,armeniacae semen,prunus ar-meniaca,,,foeniculum vulgare_climacterium,foeniculum vulgare_estrogenic effects,armeniacae semen_anti-inflammatory,foeniculum vulgare_stimulation of menstruation
+1,prunus armeniaca,prunus armeniaca,,prunus arme-niaca,,,,,armeniacae semen_analgesic,foeniculum vulgare_stimulation of the lactic secretion
+2,prunus domestica,prunus domestica,,prunus cera-sifera,,,,,pimpinella anisum_estrogenic effects,foeniculum vulgare_facilitate birth
+3,pimpinella anisum,pimpinella anisum,,prunus tomentosa,,,,,,
+4,foeniculum vulgare,foeniculum vulgare,,foe-niculum vulgare,,,,,,
+5,"foeniculum vulgare, miller",hypericum perforatum l,,,,,,,,
+6,hypericum perforatum l,,,,,,,,,
+7,hypericum,,,,,,,,,
+8,hypericum perforatum,,,,,,,,,

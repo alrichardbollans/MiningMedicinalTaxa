@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,sophora secundiflora,sophora secundiflora,lophophora williamsii,d. meteloides,datura stramonium_asthma,,datura_bruises,datura stramonium_anesthetic,lophophora williamsii_hallucinations,d. inoxia_anaesthetic
+1,psilocybe mexicana,psilocybe mexicana,,stropharia,datura stramonium_inflammation,,datura_wounds,datura stramonium_aphrodisiac,sophora secundiflora_narcotic,d. meteloides_anaesthetic
+2,psilocybe,datura stramonium,,conocybe,,,d. inoxia_bruises,datura inoxia_anesthetic,psilocybe mexicana_hallucinations,
+3,datura,datura inoxia,,panaeolus,,,d. inoxia_wounds,,datura stramonium_narcotic,
+4,datura stramonium,virola calophylla,,,,,d. meteloides_bruises,,datura inoxia_narcotic,
+5,d. inoxia,virola calophylloidea,,,,,d. meteloides_wounds,,virola calophylla_hallucinogenic,
+6,virola calophylla,virola theiodora,,,,,,,virola calophylloidea_hallucinogenic,
+7,virola,anadenanthera peregrina,,,,,,,virola theiodora_hallucinogenic,
+8,v. calophylloidea,,,,,,,,anadenanthera peregrina_hallucinogenic,
+9,v. theiodora,,,,,,,,,
+10,anadenanthera peregrina,,,,,,,,,

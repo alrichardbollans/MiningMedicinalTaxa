@@ -1,0 +1,18 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,euclea natalensis a.dc,euclea natalensis a.dc,cutibacterium acnes,,euclea natalensis a.dc_chest related complaints,oldfieldia dactylophylla (welw. ex oliv_helminthiases,oldfieldia dactylophylla (welw. ex oliv_parasitic worm,euclea natalensis a.dc_antibacterial,oldfieldia dactylophylla (welw. ex oliv_anthelmintic,euclea natalensis a.dc_antifibrotic
+1,euclea natalensis,oldfieldia dactylophylla (welw. ex oliv,,,euclea natalensis a.dc_stomach problems,v. doniana_helminthiases,v. doniana sweet_parasitic worm,euclea natalensis a.dc_antimycobacterial,v. doniana_anthelmintic,euclea natalensis a.dc_hepatoprotective
+2,oldfieldia dactylophylla (welw. ex oliv,vitex congolensis,,,euclea natalensis a.dc_abdominal pain,v. fischeri_helminthiases,v. fischeri gurke_parasitic worm,euclea natalensis a.dc_hepatoprotectant,v. fischeri_anthelmintic,euclea natalensis_antifibrotic
+3,vitex,v. doniana,,,euclea natalensis a.dc_tuberculosis,v. madiensis subsp. milanjiensis_helminthiases,v. madiensis subsp. milanjiensis (britten) f.white_parasitic worm,vitex congolensis_anthelmintic,v. madiensis subsp. milanjiensis_anthelmintic,
+4,v. congolensis de wild and t. durand,v. fischeri,,,euclea natalensis a.dc_dysentery,v. mombassae_helminthiases,v. mombassae vatke_parasitic worm,entada africana guill. & perr_anti-inflammatory,v. mombassae_anthelmintic,
+5,v. doniana sweet,v. madiensis subsp. milanjiensis,,,euclea natalensis a.dc_drug-induced liver injury,persicaria senegalensis (meisn.) sojak_ageing skin,e. africana_pain-related conditions,entada africana guill. & perr_analgesic,cutibacterium acnes_antibacterial,
+6,v. fischeri gurke,v. mombassae,,,vitex congolensis_helminthiases,persicaria senegalensis (meisn.) sojak_skin troubles,persicaria senegalensis_chronic inflammation,persicaria senegalensis (meisn.) sojak_anti-ageing,,
+7,v. madiensis subsp. milanjiensis (britten) f.white,entada africana guill. & perr,,,entada africana guill. & perr_pain,cutibacterium acnes_acne vulgaris,,,,
+8,v. mombassae vatke,persicaria senegalensis (meisn.) sojak,,,entada africana guill. & perr_fractures,,,,,
+9,entada africana,poria cocos (schw.) wolf,,,entada africana guill. & perr_pain related-diseases,,,,,
+10,entada africana guill. & perr,,,,entada africana guill. & perr_sprains,,,,,
+11,e. africana,,,,,,,,,
+12,persicaria senegalensis (meisn.) sojak,,,,,,,,,
+13,persicaria senegalensis,,,,,,,,,
+14,p. senegalensis,,,,,,,,,
+15,poria cocos,,,,,,,,,
+16,poria cocos (schw.) wolf,,,,,,,,,

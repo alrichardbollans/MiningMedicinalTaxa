@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,helicteres hirsuta,helicteres hirsuta,,ficus carica,sphaeranthus africanus_sore throat,,ficus carica_wound,helicteres hirsuta_cytotoxicity,,sphaeranthus africanus_antiproliferative
+1,enhydra fluctuans,enhydra fluctuans,,,sphaeranthus africanus_pain,,ficus carica_bite symptoms,enhydra fluctuans_cytotoxicity,,
+2,stahlianthus involucratus,stahlianthus involucratus,,,sphaeranthus africanus_swelling,,,stahlianthus involucratus_cytotoxicity,,
+3,sphaeranthus africanus,sphaeranthus africanus,,,,,,sphaeranthus africanus_cytotoxicity,,
+4,sambucus williamsii hance,sambucus williamsii hance,,,,,,sphaeranthus africanus_anti-inflammatory,,
+5,leucosidea sericea,leucosidea sericea,,,,,,sambucus williamsii hance_mechanical strength of cortical bone,,
+6,,,,,,,,sambucus williamsii hance_protective effects on trabecular bone mass,,
+7,,,,,,,,leucosidea sericea_activity against haemonchus contortus,,

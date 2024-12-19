@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,stachys tymphaea,stachys tymphaea,arta,,,,harrisonia perforata_diarrhoea,,,paeonia mascula ssp hellenica_anti-tyrosinase
+1,paeonia mascula ssp hellenica,paeonia mascula ssp hellenica,crithmum,,,,,,,stachys tymphaea_antioxidant
+2,paeonia mascula,morus alba,olea,,,,,,,
+3,morus alba,paeonia mascula,,,,,,,,
+4,paeonia parnassica,paeonia parnassica,,,,,,,,
+5,harrisonia perforata,harrisonia perforata,,,,,,,,
+6,pistacia lentiscus,pistacia lentiscus,,,,,,,,
+7,p. lentiscus l. var. chia,p. lentiscus,,,,,,,,
+8,pistacia,pistacia,,,,,,,,

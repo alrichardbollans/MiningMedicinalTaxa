@@ -1,0 +1,28 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ocimum basilicum l,ocimum basilicum l,anethole,origanum vulgare l,ocimum basilicum l_inflammatory diseases,anethole_adenocarcinomas,"garcinia indi-ca_gastric, hepatic breast and lung cancer",ocimum basilicum l_sedative,anethole_anticancer,a. pannonica scheele_antioxidant
+1,"ocimum basilicum, l",achillea collina bekker ex heimerl,capsaicin,garcinia indi-ca,ocimum basilicum l_constipation,capsaicin_tongue cancer,,ocimum basilicum l_antioxidant,capsaicin_anticancer,achillea collina bekker ex heimerl s.l_antioxidant
+2,achillea collina bekker ex heimerl s.l,achillea pannonica scheele,curcumin,juniperus communis l. ssp. nana,ocimum basilicum l_cough,capsaicin_skin cancer,,ocimum basilicum l_anticonvulsant,curcumin_anticancer,origanum vulgare l_antioxidant
+3,a. pannonica scheele,,diosgenin,onosma aucheriana,ocimum basilicum l_insomnia,capsaicin_prostate cancer,,achillea collina bekker ex heimerl_antibacterial,diosgenin_anticancer,
+4,,,gambogic acid,,ocimum basilicum l_respiratory infections,capsaicin_colon cancer,,achillea pannonica scheele_antibacterial,gambogic acid_anticancer,
+5,,,gingerol,,ocimum basilicum l_headaches,capsaicin_multiple myeloma,,,gingerol_anticancer,
+6,,,resveratrol,,ocimum basilicum l_flu,capsaicin_lung cancer,,,resveratrol_anticancer,
+7,,,thymoquinone,,,diosgenin_osteosarcoma,,,thymoquinone_anticancer,
+8,,,ursolic acid,,,diosgenin_human colon cancer,,,ursolic acid_anticancer,
+9,,,zerumbone,,,diosgenin_leukemia,,,zerumbone_anticancer,
+10,,,,,,diosgenin_rheumatoid arthritis,,,,
+11,,,,,,gambogic acid_breast cancer,,,,
+12,,,,,,gambogic acid_gastric cancer,,,,
+13,,,,,,gambogic acid_hepatic cancer,,,,
+14,,,,,,gambogic acid_lung cancer,,,,
+15,,,,,,gingerol_breast cancer,,,,
+16,,,,,,gingerol_prostate cancer,,,,
+17,,,,,,gingerol_gastric cancer,,,,
+18,,,,,,thymoquinone_colorectal cancer,,,,
+19,,,,,,thymoquinone_osteosarcoma,,,,
+20,,,,,,thymoquinone_myeloblastic leukemia,,,,
+21,,,,,,thymoquinone_ovarian cancer,,,,
+22,,,,,,thymoquinone_breast cancer,,,,
+23,,,,,,thymoquinone_pancreatic cancer,,,,
+24,,,,,,zerumbone_breast cancer,,,,
+25,,,,,,zerumbone_colon cancer,,,,
+26,,,,,,zerumbone_skin cancer,,,,

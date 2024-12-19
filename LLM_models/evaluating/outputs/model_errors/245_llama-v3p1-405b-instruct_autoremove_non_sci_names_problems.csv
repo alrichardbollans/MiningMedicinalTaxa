@@ -1,0 +1,25 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,shorea roxburghii,shorea roxburghii,,cladosporium,shorea roxburghii_dysentery,,shorea roxburghii_type 2 diabetes mellitus (t2dm,shorea roxburghii_hypoglycemic,dacrycarpus imbricatus_anti-proliferative,c. vulgaris_antiradical
+1,s. roxburghii,dacrycarpus imbricatus,,rauwolfia,shorea roxburghii_diarrhea,,cladosporium_acute myeloid leukemia,calluna vulgaris_antimicrobial,pinus dalatensis_anti-proliferative,c. vulgaris_skin anti-aging and protection
+2,dacrycarpus imbricatus,pinus dalatensis,,cladosporium spp,shorea roxburghii_cholera,,rauwolfia_acute myeloid leukemia,calluna vulgaris_antioxidant,oldenlandia pinifolia_anti-proliferative,s. roxburghii_antidiabetic potentials
+3,pinus dalatensis ferre,oldenlandia pinifolia,,a. coriria,,,,calluna vulgaris_skin-protective,ficus hirta_anti-proliferative,cladosporium_anti-microbial
+4,oldenlandia pinifolia,ficus hirta,,,,,,,acer truncatum_ache inhibitory,cladosporium_anti-tumor
+5,ficus hirta,acer truncatum,,,,,,,acer truncatum_cytotoxic,
+6,acer truncatum,warbrugia ugandensis,,,,,,,warbrugia ugandensis_cytotoxic,
+7,warbrugia ugandensis sprague,erythrina abyssinica,,,,,,,erythrina abyssinica_cytotoxic,
+8,w. ugandensis,cryptolepsis sanguinolenta,,,,,,,cryptolepsis sanguinolenta_cytotoxic,
+9,erythrina abyssinica dc,albizia coriaria,,,,,,,albizia coriaria_cytotoxic,
+10,cryptolepsis sanguinolenta (lindl.) schltr,psorospermum febrifugium,,,,,,,psorospermum febrifugium_cytotoxic,
+11,c. sanguinolenta,gymnosporia senegalensis,,,,,,,gymnosporia senegalensis_cytotoxic,
+12,albizia coriaria oliv,zanthoxylum chalybeum,,,,,,,zanthoxylum chalybeum_cytotoxic,
+13,psorospermum febrifugium spach,securidaca longipendunculata,,,,,,,securidaca longipendunculata_cytotoxic,
+14,p. febrifugium,acacia hockii,,,,,,,acacia hockii_cytotoxic,
+15,gymnosporia senegalensis (lam.) loes,gardenia ternifolia,,,,,,,gardenia ternifolia_cytotoxic,
+16,zanthoxylum chalybeum engl,bridelia micrantha,,,,,,,bridelia micrantha_cytotoxic,
+17,securidaca longipendunculata fresen,calluna vulgaris,,,,,,,,
+18,s. longipendunculata,,,,,,,,,
+19,acacia hockii de wild,,,,,,,,,
+20,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc,,,,,,,,,
+21,bridelia micrantha (hochst.) baill,,,,,,,,,
+22,calluna vulgaris (l.) hull,,,,,,,,,
+23,c. vulgaris,,,,,,,,,

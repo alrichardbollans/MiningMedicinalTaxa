@@ -1,0 +1,15 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ononis,ononis natrix,,perillafrutescens,,ononis natrix_cancer,ononis natrix_s. aureus,ononis natrix_antimicrobial,ononis natrix subsp. hispanica_anticancer,ononis_dna protection activity
+1,ononis natrix,ononis natrix subsp. hispanica,,helichrysum,,,ononis natrix_s. epidermidis,ononis natrix_anticancer,ononis natrix subsp. hispanica_antioxidant,ononis natrix_cytotoxic
+2,ononis natrix subsp. hispanica,ononis natrix subp. hispanica,,ceratoniasiliqua l,,,ononis natrix_s. kentucky,ononis natrix_antioxidant,ononis_anticancer,ononis natrix_protectiveactivity for dna
+3,o. natrix subsp.hispanica,ononis,,ononisnatrix,,,ononis natrix_e. coli,ononis natrix subsp. hispanica_antimicrobial,ononis_antioxidant,ononis natrix subsp. hispanica_dna protectors
+4,o. natrix subsp. hispanica,potentilla reptans,,s. aureus,,,o. natrix subsp.hispanica_salmonella kentucky,ononis natrix subp. hispanica_anticancer,,perillafrutescens_scavenging of reactive oxygenradicals
+5,o. natrix subp. hispanica,p. speciosa,,,,,o. natrix subsp.hispanica_staphylococcusaureus,ononis natrix subp. hispanica_antimicrobial,,perillafrutescens_anti-carcinogenic
+6,potentilla reptans,ficus carica l,,,,,o. natrix subsp.hispanica_staphylococcus epidermidis,ononis natrix subp. hispanica_antioxidant,,o. natrix subsp.hispanica_antibacterial
+7,potentilla,quercus ilex l,,,,,,ononis_antimicrobial,,helichrysum_antimicrobial
+8,p. speciosa,,,,,,,potentilla reptans_cytotoxic,,helichrysum_antioxidant
+9,ficus carica l,,,,,,,p. speciosa_cytotoxic,,ficus carica l_anticalpain
+10,quercus ilex l,,,,,,,ficus carica l_anticancer,,ceratoniasiliqua l_anticancer
+11,,,,,,,,ficus carica l_antioxidant,,ceratoniasiliqua l_antioxidant
+12,,,,,,,,quercus ilex l_anticancer,,quercus ilex l_anticalpain
+13,,,,,,,,quercus ilex l_antioxidant,,

@@ -1,0 +1,14 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,s. baicalensis,scutellaria baicalensis georgii,ononis arvensis l,dicra-nostigma,,scutellaria baicalensis georgii_hypertension,,fagopyrum esculentum_hypotensive,scutellaria baicalensis georgii_sedatives,fagopyrum esculentum_antagonizes the in-crease of capillary fragility
+1,fagopyrum esculentum,fagopyrum esculentum,,scutellaria baicalensisgeorgii,,,,fagopyrum esculentum_antioxidant,scutellaria baicalensis georgii_antioxidant,eschscholzia_antioxidant
+2,glaucium,glaucium elegans,,,,,,,scutellaria baicalensis georgii_anticoagulants,dicra-nostigma_antioxidant
+3,g. squamigerum,glaucium squamigerum,,,,,,,scutellaria baicalensis georgii_antialergens,argemone_antioxidant
+4,d. leptopodum,dicranostigma leptopodum,,,,,,,scutellaria baicalensis georgii_cytostatics,glaucium_antioxidant
+5,eschscholzia,eschscholzia douglasii,,,,,,,scutellaria baicalensis georgii_anti-inflammatory,scutellaria baicalensisgeorgii_anticoagulants
+6,e. douglasii,eschscholzia pulchella,,,,,,,glaucium elegans_cholinesterases inhibition,scutellaria baicalensisgeorgii_cytostatics
+7,e. pulchella,argemone,,,,,,,glaucium squamigerum_cholinesterases inhibition,scutellaria baicalensisgeorgii_antioxi-dants
+8,argemone,satureja laxiflora c. koch,,,,,,,dicranostigma leptopodum_cholinesterases inhibition,scutellaria baicalensisgeorgii_sedatives
+9,satureja laxiflora c. koch,,,,,,,,eschscholzia douglasii_cholinesterases inhibition,scutellaria baicalensisgeorgii_anti-inflammatory
+10,,,,,,,,,eschscholzia pulchella_cholinesterases inhibition,scutellaria baicalensisgeorgii_antihypertensive
+11,,,,,,,,,argemone_cholinesterases inhibition,
+12,,,,,,,,,ononis arvensis l_cholinesterases inhibition,

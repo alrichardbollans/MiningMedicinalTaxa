@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,tinospora cordifolia,tinospora cordifolia (willd,cinchona officinalis l,c.fenestratum,,cinchona officinalis l_fever,,,,
+1,berberis aristata dc,berberis aristata dc,tribulus terrestris (l,tinospora cordifolia(willd,,cinchona officinalis l_malaria,,,,
+2,berberis aristata,berberis tinctoria,emblica officinalis (gaertn,tribulusterrestris (l,,cinchona officinalis l_infectious-disease,,,,
+3,berberis tinctoria,coscinium fenestratum,coptis chinensis franch,emblicaofficinalis (gaertn,,,,,,
+4,c. fenestratum,argemone mexicana,mahonia manipurensis (takeda,coptischinensis franch,,,,,,
+5,coscinium fenestratum,,hydrastis canadensis l,hydrastiscanadensis l,,,,,,
+6,argemone mexicana,,cortex phellodendri,berberis aristata dcroot,,,,,,
+7,,,cortex pellodendri amurensis,mahonia manipurensis(takeda,,,,,,
+8,,,,coptis chinensisfranch,,,,,,

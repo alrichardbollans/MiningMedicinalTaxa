@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,papaver somniferum l,echinacea purpurea,,papaver somniferum l_hypertension,,,papaver somniferum l_pain relief,
+1,,,ricinus communis,echinacea,,cinchona officinalis l_malaria,,,papaver somniferum l_vasodilation,
+2,,,cinchona officinalis l,,,cinchona officinalis l_fever,,,ricinus communis_purgative,
+3,,,panax ginseng c.a.mey,,,cinchona officinalis l_infectious-disease,,,panax ginseng c.a.mey_enhancement of physical performance,
+4,,,,,,panax ginseng c.a.mey_tiredness,,,,

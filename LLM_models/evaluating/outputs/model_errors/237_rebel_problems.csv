@@ -1,0 +1,16 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,chlorophyll,calendula officinalis,,,,,chlorophyll_fertilization,calendula officinalis_antioxidant
+1,,,fertilization,aloysia citrodora,,,,,fertilization_seed,aloysia citrodora_antioxidant
+2,,,biomass,melissa officinalis,,,,,biomass_yield,melissa officinalis_antioxidant
+3,,,,achillea millefolium,,,,,,achillea millefolium_antioxidant
+4,,,,althaea officinalis,,,,,,althaea officinalis_antioxidant
+5,,,,pyrus spinosa forskk,,,,,,pyrus spinosa forskk_antioxidant
+6,,,,c. maritimum,,,,,,
+7,,,,crithmum maritimum,,,,,,
+8,,,,calendula,,,,,,
+9,,,,achillea,,,,,,
+10,,,,althaea,,,,,,
+11,,,,pyrus spinosa,,,,,,
+12,,,,silybum marianum (l.) gaertn,,,,,,
+13,,,,rosmarinus officinalis l,,,,,,
+14,,,,rosmarinus officinalis,,,,,,

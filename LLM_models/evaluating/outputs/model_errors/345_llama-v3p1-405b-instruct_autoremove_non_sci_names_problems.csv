@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,c. majus,chelidonium majus,,,,,chelidonium majus_infections,,,c. majus_anti-warts
+1,chelidonium majus,,,,,,,,,c. majus_antiviral
+2,chelidonium,,,,,,,,,c. majus_antibacterial
+3,,,,,,,,,,c. majus_antimicrobial

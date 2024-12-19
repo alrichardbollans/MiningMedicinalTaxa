@@ -1,0 +1,15 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,syringa vulgaris,syringa vulgaris,,candida albicans,syringa vulgaris_skin wounds,,syringa vulgaris_inflammation,syringa afghanica c.k. schneid_antipyretics,syringa vulgaris_antipyretics,syringa vulgaris_pro-inflammatory functions of neutrophils
+1,s. vulgaris,syringa reticulata (blume)h. hara,,olea,syringa vulgaris_muscle/joint aches,,syringa_inflammation,s. vulgaris_anti-inflammatory,,
+2,syringa,syringa pinnatifoliahemsl,,forsythia,syringa vulgaris_gastrointestinaldisorders,,s. vulgaris l_antipyretics,s. vulgaris_anti-nociceptive,,
+3,s. vulgaris l,syringa vetulina kom,,fraxinus,syringa vulgaris_cold,,,s. vulgaris_antipyretic,,
+4,syringa vulgaris l,syringa afghanica c.k. schneid,,osmanthus,syringa vulgaris_cough,,,s. vulgaris_antioxidant,,
+5,syringa reticulata (blume)h. hara,s. vulgaris,,jasminum,syringa vulgaris_sore mouth,,,s. vulgaris l_antipyretic,,
+6,syringa pinnatifoliahemsl,s. vulgaris l,,chionanthus,syringa vulgaris_gout,,,,,
+7,syringa vetulina kom,,,ligustrum,syringa vulgaris_rheumatism,,,,,
+8,syringa afghanica c.k. schneid,,,fraxinus exelsior l,syringa vulgaris_toothaches,,,,,
+9,,,,ligustrumvulgare l,syringa reticulata (blume)h. hara_bronchial disease,,,,,
+10,,,,forsythia sp,syringa pinnatifoliahemsl_lung and heart diseases,,,,,
+11,,,,s.vulgaris,syringa vetulina kom_tooth pain,,,,,
+12,,,,s. josikaea,,,,,,
+13,,,,s. vulgarisl,,,,,,

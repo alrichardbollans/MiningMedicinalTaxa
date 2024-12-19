@@ -1,0 +1,20 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,plantago altissima l,plantago altissima l,,plantago l,,plantago altissima l_rheumatoid arthritis,,,plantago altissima l_antipsoriatic,tuber aestivum vittad_antioxidant
+1,plantago lanceolata l,plantago lanceolata l,,,,plantago lanceolata l_rheumatoid arthritis,,,plantago lanceolata l_antipsoriatic,tuber aestivum vittad_anti-inflammatory
+2,plantago reniformis g. beck,plantago reniformis g. beck,,,,plantago reniformis g. beck_rheumatoid arthritis,,,plantago reniformis g. beck_antipsoriatic,tuber aestivum vittad_cytotoxic
+3,tuber aestivum vittad,tuber aestivum vittad,,,,tuber aestivum vittad_rheumatoid arthritis,,,tuber aestivum vittad_antipsoriatic,tuber magnatum pico_antioxidant
+4,tuber magnatum pico,tuber magnatum pico,,,,tuber magnatum pico_rheumatoid arthritis,,,tuber magnatum pico_antipsoriatic,tuber magnatum pico_anti-inflammatory
+5,juniperus sibirica burgsdorf,juniperus sibirica burgsdorf,,,,juniperus sibirica burgsdorf_rheumatoid arthritis,,,juniperus sibirica burgsdorf_antipsoriatic,tuber magnatum pico_cytotoxic
+6,juniperus foetidissima willd,juniperus foetidissima willd,,,,juniperus foetidissima willd_rheumatoid arthritis,,,juniperus foetidissima willd_antipsoriatic,juniperus sibirica burgsdorf_anti-inflammatory
+7,"allium flavum l., subsp. flavum",allium flavum l,,,,allium flavum l_rheumatoid arthritis,,,allium flavum l_antipsoriatic,juniperus sibirica burgsdorf_antioxidant
+8,,,,,,,,,,"allium flavum l., subsp. flavum_antioxidant"
+9,,,,,,,,,,"allium flavum l., subsp. flavum_cytotoxic"
+10,,,,,,,,,,"allium flavum l., subsp. flavum_antiinflammatory"
+11,,,,,,,,,,plantago l_anti-inflammatory
+12,,,,,,,,,,plantago altissima l_antioxidant
+13,,,,,,,,,,plantago altissima l_cytotoxic
+14,,,,,,,,,,plantago lanceolata l_antioxidant
+15,,,,,,,,,,plantago lanceolata l_cytotoxic
+16,,,,,,,,,,plantago reniformis g. beck_antioxidant
+17,,,,,,,,,,plantago reniformis g. beck_anti-inflammatory
+18,,,,,,,,,,plantago reniformis g. beck_cytotoxic

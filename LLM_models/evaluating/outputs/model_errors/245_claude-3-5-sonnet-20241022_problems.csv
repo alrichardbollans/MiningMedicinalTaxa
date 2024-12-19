@@ -1,0 +1,20 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,shorea roxburghii,shorea roxburghii,,cladosporium,shorea roxburghii_dysentery,dacrycarpus imbricatus (blume) de laub_acute myeloid leukemia,cladosporium_acute myeloid leukemia,shorea roxburghii_hypoglycemic,dacrycarpus imbricatus (blume) de laub_anti-proliferative,calluna vulgaris (l.) hull_skin-protective
+1,s. roxburghii,dacrycarpus imbricatus (blume) de laub,,rauwolfia,shorea roxburghii_type 2 diabetes mellitus,pinus dalatensis ferre_acute myeloid leukemia,rauwolfia_acute myeloid leukemia,calluna vulgaris (l.) hull_antioxidant,pinus dalatensis ferre_inhibitory,c. vulgaris_antiradical
+2,dacrycarpus imbricatus,pinus dalatensis ferre,,cladosporium spp,shorea roxburghii_diarrhea,oldenlandia pinifolia_chronic myelogenous leukemia,,calluna vulgaris (l.) hull_skin anti-aging,oldenlandia pinifolia_anti-proliferative,s. roxburghii_antidiabetic potentials
+3,pinus dalatensis ferre,oldenlandia pinifolia,,warbrugia ugandensis sprague,shorea roxburghii_cholera,calluna vulgaris (l.) hull_urinary complaints,,calluna vulgaris (l.) hull_antimicrobial,ficus hirta_increase apoptosis,cladosporium_anti-microbial
+4,oldenlandia pinifolia,ficus hirta,,erythrina abyssinica dc,,,,,ficus hirta_inhibit cell cycle progression,cladosporium_anti-tumor
+5,ficus hirta,acer truncatum,,cryptolepsis sanguinolenta (lindl.) schltr,,,,,acer truncatum_cytotoxic,
+6,acer truncatum,calluna vulgaris (l.) hull,,albizia coriaria oliv,,,,,acer truncatum_ache inhibitory,
+7,calluna vulgaris (l.) hull,,,psorospermum febrifugium spach,,,,,calluna vulgaris (l.) hull_skin protection,
+8,c. vulgaris,,,gymnosporia senegalensis (lam.) loes,,,,,calluna vulgaris (l.) hull_photo-protective,
+9,,,,zanthoxylum chalybeum engl,,,,,,
+10,,,,securidaca longipendunculata fresen,,,,,,
+11,,,,acacia hockii de wild,,,,,,
+12,,,,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc,,,,,,
+13,,,,bridelia micrantha (hochst.) baill,,,,,,
+14,,,,a. coriria,,,,,,
+15,,,,w. ugandensis,,,,,,
+16,,,,c. sanguinolenta,,,,,,
+17,,,,p. febrifugium,,,,,,
+18,,,,s. longipendunculata,,,,,,

@@ -1,0 +1,17 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,candida albicans,candida albicans,staphylococcus aureus,melaleuca alternifolia,,,,,,pinus caribaea_antibacter-ial
+1,candidia sp,candidia,streptococcus pneumoniae,,,,,,,
+2,pinus caribaea,pinus caribaea,streptococcus,,,,,,,
+3,pinus densiflora,pinus densiflora,escherichia coli,,,,,,,
+4,salvia fruticosa,salvia fruticosa,salmonella enteriti-dis,,,,,,,
+5,salvia sp,salvia,klebsiella pneumoniae,,,,,,,
+6,arabidopsis,arabidopsis,pseudomonas,,,,,,,
+7,,,haemophylus influenzae,,,,,,,
+8,,,proteus mirabilis,,,,,,,
+9,,,staphylococ-cus epidermidis,,,,,,,
+10,,,streptococcus agalactiae,,,,,,,
+11,,,helicobacter pylori,,,,,,,
+12,,,chania,,,,,,,
+13,,,sali,,,,,,,
+14,,,saccharomyces,,,,,,,
+15,,,renata,,,,,,,

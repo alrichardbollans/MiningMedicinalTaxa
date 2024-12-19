@@ -1,0 +1,7 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,atropa belladonna,atropa belladonna,lathyrus spp,pyrethrum,,lathyrus spp_lathyrism,,papaver somniferum_pain-killing,amanita muscaria_hallucinations,
+1,amanita muscaria,amanita muscaria,lophophora williamsii,lathyrusspp,,,,carica papaya_aid digestion,lophophora williamsii_hallucinations,
+2,claviceps purpurea,claviceps purpurea,nicotiana tabacum,lophophorawilliamsii,,,,,,
+3,ipomoea violacea,ipomoea violacea,,citrus,,,,,,
+4,papaver somniferum,papaver somniferum,,nicotianatabacum,,,,,,
+5,carica papaya,carica papaya,,cyperus papyrus,,,,,,

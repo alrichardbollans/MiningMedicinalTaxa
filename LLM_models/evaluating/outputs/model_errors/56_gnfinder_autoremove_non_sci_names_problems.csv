@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,crataegus laevigata,crataegus laevigata,argan,,,,,,,stevia rebaudiana bertoni_reduce blood sugar levels
+1,crataegus monogyna,crataegus monogyna,,,,,,,,
+2,crataegus oxycantha,crataegus oxycantha,,,,,,,,
+3,crataegus pinnatifi da,crataegus pinnatifi,,,,,,,,
+4,lycium barbarum,lycium barbarum,,,,,,,,
+5,stevia rebaudiana bertoni,stevia rebaudiana,,,,,,,,
+6,stevia rebaudiana,argania spinosa,,,,,,,,
+7,stevia,canaria indicum,,,,,,,,
+8,argania spinosa l,stevia,,,,,,,,
+9,canaria indicum l,,,,,,,,,

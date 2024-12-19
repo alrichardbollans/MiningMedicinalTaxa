@@ -1,0 +1,28 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,commiphora and boswellia,commiphora,,berberis vulgaris l,commiphora_chronic diseases,commiphora_cancer,commiphoraand boswellia_chronic diseases,commiphora_anti-inflammatory,commiphora_analgesic,berberis vulgaris l_antioxidant
+1,commiphora,boswellia,,berberiscroatica horvat,,boswellia_chronic diseases,commiphora_liver dysfunction,commiphora_antiarthritic,,berberiscroatica horvat_antioxidant
+2,commiphora wightii,commiphora wightii,,commiphoraand boswellia,,boswellia_cancer,commiphora_edema,boswellia_anti-inflammatory,,commiphora_inhibit pro-inflammatory
+3,commiphora mukul,commiphora mukul,,commiphoragileadensis,,,commiphora_intestinal worms,boswellia_antiarthritic,,boswellia_inhibit pro-inflammatory
+4,boswellia,boswellia serrata,,boswelliaovalifoliolata,,,commiphora_obesity,boswellia_analgesic,,commiphoragileadensis_anti-inflammatory
+5,boswellia serata,boswellia carterii,,phellodendron lavallei,,,commiphora_leucoderma,commiphora wightii_anti-inflammatory,,boswelliaovalifoliolata_anti-inflammatory
+6,boswellia serrata,boswellia sacra,,berberis aristata,,,commiphora_sinus,commiphora mukul_anti-inflammatory,,
+7,boswellia carterii,boswellia dalzielii,,berberis koreana,,,commiphora_ulcers,boswellia serrata_anti-inflammatory,,
+8,boswellia sacra,boswellia frerean,,coptis teeta,,,commiphora_malignantsores,boswellia carterii_anti-inflammatory,,
+9,boswellia dalzielii,c. mukul,,,,,commiphora_diabetes,boswellia sacra_anti-inflammatory,,
+10,boswellia frerean,,,,,,commiphora_tumors,boswellia dalzielii_anti-inflammatory,,
+11,c. mukul,,,,,,commiphora_arthritis,boswellia frerean_anti-inflammatory,,
+12,,,,,,,commiphora_cardiovascular diseases (cvds,,,
+13,,,,,,,commiphora_inflammatory bowel disease (ibd,,,
+14,,,,,,,boswellia_liver dysfunction,,,
+15,,,,,,,boswellia_edema,,,
+16,,,,,,,boswellia_intestinal worms,,,
+17,,,,,,,boswellia_obesity,,,
+18,,,,,,,boswellia_leucoderma,,,
+19,,,,,,,boswellia_sinus,,,
+20,,,,,,,boswellia_ulcers,,,
+21,,,,,,,boswellia_malignantsores,,,
+22,,,,,,,boswellia_diabetes,,,
+23,,,,,,,boswellia_tumors,,,
+24,,,,,,,boswellia_arthritis,,,
+25,,,,,,,boswellia_cardiovascular diseases (cvds,,,
+26,,,,,,,boswellia_inflammatory bowel disease (ibd,,,

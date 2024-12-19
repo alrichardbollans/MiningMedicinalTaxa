@@ -1,0 +1,20 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,helleborus odorus subsp. cyclophyllus,helleborus odorus subsp. cyclophyllus,ranunculaceae,crithmum,,,helleborus odorus subsp. cyclophyllus_epilepsy,,,helleborus odorus subsp. cyclophyllus_antiseizure
+1,anchusa officinalis,anchusa officinalis,willdenowia,cannabis,,,cistus creticus_cancer,,,anchusa officinalis_antibacterial
+2,cistus creticus,cistus creticus,erwinia amylovora,,,,cistus creticus_pathogenic microorganisms,,,anchusa officinalis_antiviral
+3,cistus creticus l,galium aparine,hungarica,,,,,,,anchusa officinalis_diuretic
+4,galium aparine,origanum vulgare ssp. hirtum,polonica,,,,,,,anchusa officinalis_antioxidant
+5,galium aparine l,origanum,arta,,,,,,,galium aparine_immunomodulatory
+6,origanum vulgare ssp. hirtum,,thesprotia,,,,,,,galium aparine_antimicrobial
+7,,,lactobacillus plantarum,,,,,,,galium aparine_antioxidant
+8,,,lactobacillus rhamnosus,,,,,,,origanum vulgare ssp. hirtum_against carcinogenic cells
+9,,,enterococcus faecium,,,,,,,origanum vulgare ssp. hirtum_antibacterial
+10,,,enterococcus faecalis,,,,,,,origanum vulgare ssp. hirtum_against viruses
+11,,,escherichia coli,,,,,,,origanum vulgare ssp. hirtum_inhibitor against the growth of various fungi
+12,,,staphylococcus aureus,,,,,,,cistus creticus l_antimicrobial
+13,,,eimeria tenella sporozoites,,,,,,,galium aparine l_apoptotic
+14,,,oils,,,,,,,galium aparine l_antimicrobial
+15,,,microbiota,,,,,,,galium aparine l_cytotoxic
+16,,,,,,,,,,galium aparine l_antioxidant
+17,,,,,,,,,,crithmum_antibacterial
+18,,,,,,,,,,crithmum_antioxidant

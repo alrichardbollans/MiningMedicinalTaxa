@@ -1,0 +1,17 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,euclea natalensis a.dc,euclea natalensis a.dc,,v. congolensis de wild and t. durand,euclea natalensis a.dc_tuberculosis,entada africana guill. & perr_pain related-conditions,euclea natalensis_drug-induced liver injury,euclea natalensis a.dc_antibacterial,oldfieldia dactylophylla (welw. ex oliv_anthelmintic,euclea natalensis a.dc_antifibrotic
+1,euclea natalensis,oldfieldia dactylophylla (welw. ex oliv,,,euclea natalensis a.dc_dysentery,persicaria senegalensis (meisn.) sojak_skin troubles,oldfieldia dactylophylla (welw. ex oliv_parasitic worm,euclea natalensis a.dc_antimycobacterial,persicaria senegalensis (meisn.) sojak_anti-inflammatory,euclea natalensis a.dc_hepatoprotective
+2,oldfieldia dactylophylla (welw. ex oliv,vitex doniana sweet,,,euclea natalensis a.dc_stomach problems,,v. doniana sweet_parasitic worm,euclea natalensis a.dc_hepatoprotectant,persicaria senegalensis (meisn.) sojak_antioxidant,euclea natalensis_antifibrotic
+3,v. doniana sweet,vitex fischeri gurke,,,euclea natalensis a.dc_chest related complaints,,v. fischeri gurke_parasitic worm,vitex doniana sweet_anthelmintic,persicaria senegalensis (meisn.) sojak_elastase inhibition,entada africana guill. & perr_analgesic
+4,vitex,vitex madiensis subsp. milanjiensis (britten) f.white,,,euclea natalensis a.dc_abdominal pain,,v. madiensis subsp. milanjiensis (britten) f.white_parasitic worm,vitex fischeri gurke_anthelmintic,,
+5,v. fischeri gurke,vitex mombassae vatke,,,,,v. mombassae vatke_parasitic worm,vitex madiensis subsp. milanjiensis (britten) f.white_anthelmintic,,
+6,v. madiensis subsp. milanjiensis (britten) f.white,entada africana guill. & perr,,,,,vitex_helminthiases,vitex mombassae vatke_anthelmintic,,
+7,v. mombassae vatke,persicaria senegalensis (meisn.) sojak,,,,,entada africana guill. & perr_pain related-diseases,entada africana guill. & perr_anti-inflammatory,,
+8,entada africana,poria cocos (schw.) wolf,,,,,entada africana guill. & perr_fractures and sprains,persicaria senegalensis (meisn.) sojak_anti-ageing,,
+9,entada africana guill. & perr,,,,,,e. africana_pain-related conditions,,,
+10,e. africana,,,,,,persicaria senegalensis_chronic inflammation,,,
+11,persicaria senegalensis (meisn.) sojak,,,,,,,,,
+12,persicaria senegalensis,,,,,,,,,
+13,p. senegalensis,,,,,,,,,
+14,poria cocos,,,,,,,,,
+15,poria cocos (schw.) wolf,,,,,,,,,

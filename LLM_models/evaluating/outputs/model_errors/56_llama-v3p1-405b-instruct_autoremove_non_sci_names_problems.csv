@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,crataegus laevigata,crataegus laevigata,crataegus pinnatifida,crataegus pinnatifi da,,crataegus laevigata_heart conditions,,,,stevia rebaudiana bertoni_reduce blood sugar levels
+1,crataegus monogyna,crataegus monogyna,canarium indicum,canaria indicum l,,crataegus laevigata_diabetes,,,,
+2,crataegus oxycantha,crataegus oxycantha,morinda citrifolia,,,crataegus monogyna_heart conditions,,,,
+3,lycium barbarum,lycium barbarum,prunus domestica,,,crataegus monogyna_diabetes,,,,
+4,stevia rebaudiana bertoni,stevia rebaudiana,,,,crataegus oxycantha_heart conditions,,,,
+5,stevia rebaudiana,argania spinosa,,,,crataegus oxycantha_diabetes,,,,
+6,stevia,,,,,crataegus pinnatifida_heart conditions,,,,
+7,argania spinosa l,,,,,crataegus pinnatifida_diabetes,,,,
+8,,,,,,lycium barbarum_heart conditions,,,,
+9,,,,,,lycium barbarum_diabetes,,,,
+10,,,,,,stevia rebaudiana_diabetes,,,,

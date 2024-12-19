@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,o. natrix subsp. hispanica,ononis natrix subsp. hispanica,,ononis natrixsubsp. hispanica,ononis natrix subsp. hispanica_skin disorders,ononis natrix subsp. hispanica_urinary problems,ononis natrixsubsp. hispanica_staphylococcus epidermidis,ononis natrix subsp. hispanica_antioxidant,ononis natrix subsp. hispanica_wound healing,ononis natrixsubsp. hispanica_cytotoxic abilities
+1,ononis natrix subsp. hispanica,,,notopterygium incisum,ononis natrix subsp. hispanica_gout,,ononis natrixsubsp. hispanica_staphylococcus aureus,ononis natrix subsp. hispanica_analgesic,,ononis natrixsubsp. hispanica_enzyme inhibitory
+2,ononis,,,ononis natrix subsp.hispanica,,,ononis_diuretic,ononis natrix subsp. hispanica_antimicrobial,,ononis natrixsubsp. hispanica_dna protection
+3,,,,o. natrix subsp.hispanica,,,ononis_urinaryproblems,ononis natrix subsp. hispanica_cytotoxic,,ononis natrixsubsp. hispanica_antioxidant
+4,,,,,,,,,,ononis natrixsubsp. hispanica_antibacterial
+5,,,,,,,,,,ononis natrixsubsp. hispanica_antimicrobial
+6,,,,,,,,,,ononis natrix subsp. hispanica_anti-mutagenic

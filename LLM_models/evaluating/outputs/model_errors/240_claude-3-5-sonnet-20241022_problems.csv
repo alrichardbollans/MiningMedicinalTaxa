@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ganoderma lucidum,ganoderma lucidum (fr.) karst,,rosa,,,rosa_diarrhea,ganoderma lucidum (fr.) karst_immunomodulatory,,ocimum gratissimum_anti-inflammatory
+1,ganoderma lucidum (fr.) karst,,,ocimum gratissimum,,,rosa_diuretic,ganoderma lucidum (fr.) karst_hepatoprotective,,ocimum gratissimum l_anti-nociceptive
+2,g. lucidum,,,ocimum gratissimum l,,,rosa_colds,ganoderma lucidum (fr.) karst_anticancer,,onosma echioides_upregulating vegf gene
+3,,,,onosma echioides,,,rosa_dry cough,,,onosma echioides_upregulates the elastin and collagen gene in human dermal fibroblast
+4,,,,o.echioides,,,rosa_stomachache,,,onosma echioides_wound healing
+5,,,,o. echioides,,,ocimum gratissimum_inflammatory conditions,,,o.echioides_upregulation of collagen and elastin genes
+6,,,,alkanna tinctoria,,,onosma echioides_burn wound in rats,,,o.echioides_wound healing
+7,,,,alkanna tinctoria tausch,,,onosma echioides_wounds,,,o. echioides_wound healing

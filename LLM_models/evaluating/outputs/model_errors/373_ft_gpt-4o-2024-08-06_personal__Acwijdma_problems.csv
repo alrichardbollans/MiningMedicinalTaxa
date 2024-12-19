@@ -1,0 +1,30 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,thymusserpylluml,thymusserpylluml,asteraceae,vaccinium myrtillus l,,,schisandra chinensis(turcz.) bail_exhaustion,thymusserpylluml_expectorant,asteraceae_appetitestimulant,aralia elata (miq.)seem_tonic
+1,tiliacordatamill,tiliacordatamill,,viburnum opulus l,,,,tiliacordatamill_diaphoretic,viburnumopulusl_diaphoretic,aralia_tonic
+2,t.platyphyllosscop,t.platyphyllosscop,,,,,,tiliacordatamill_sudorific,viburnumopulusl_anti-inflammatory,schisandra chinensis(turcz.) bail_tonic
+3,tussilagofarfaral,tussilagofarfaral,,,,,,t.platyphyllosscop_diaphoretic,,schisandra chinensis(turcz.) bail_night vision
+4,urticadioical,urticadioical,,,,,,t.platyphyllosscop_sudorific,,"schisandra chinensis(turcz.) bail_reduce hunger, thirst"
+5,vacciniummyrtillusl,vacciniummyrtillusl,,,,,,tussilagofarfaral_expectorant,,
+6,vacciniumvitis-idaeal,vacciniumvitis-idaeal,,,,,,urticadioical_haemostatic,,
+7,valerianaofficinalisl,valerianaofficinalisl,,,,,,vacciniummyrtillusl_astringent,,
+8,viburnumopulusl,viburnumopulusl,,,,,,vacciniumvitis-idaeal_diuretic,,
+9,violatricolorl,violatricolorl,,,,,,valerianaofficinalisl_sedative,,
+10,v.arvensismurray,v.arvensismurray,,,,,,viburnumopulusl_hemostatic,,
+11,capsella bursa-pastoris (l.) medik,capsella bursa-pastoris (l.) medik,,,,,,violatricolorl_expectorant,,
+12,cyanus segetum hill,cyanus segetum hill,,,,,,v.arvensismurray_expectorant,,
+13,centaurea cyanus l,centaurea cyanus l,,,,,,,,
+14,plantago major l,plantago major l,,,,,,,,
+15,urtica dioical,urtica dioical,,,,,,,,
+16,aralia elata (miq.)seem,aralia elata (miq.)seem,,,,,,,,
+17,aralia,crataegusspp,,,,,,,,
+18,crataegusspp,rosa spp,,,,,,,,
+19,rosa spp,prunus padus l,,,,,,,,
+20,prunus padus l,sorbus aucuparia l,,,,,,,,
+21,sorbus aucuparia l,schisandra chinensis(turcz.) bail,,,,,,,,
+22,schisandra chinensis(turcz.) bail,achillea millefolium l,,,,,,,,
+23,achillea millefolium l,tanacetum vulgarel,,,,,,,,
+24,tanacetum vulgarel,origanum vulgare l,,,,,,,,
+25,origanum vulgare l,betula pendula roth,,,,,,,,
+26,betula pendula roth,b. pubescens ehrh,,,,,,,,
+27,b. pubescens ehrh,camelliasinensis (l.) kuntze,,,,,,,,
+28,camelliasinensis (l.) kuntze,,,,,,,,,

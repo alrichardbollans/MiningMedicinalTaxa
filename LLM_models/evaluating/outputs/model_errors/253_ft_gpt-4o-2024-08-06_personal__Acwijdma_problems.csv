@@ -1,0 +1,14 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,pinaropappus roseus less,pinaropappus roseus less,,s. rubriflora,pinaropappus roseus less_dermatological infections,,helleborus cyclophyllus boiss_cancer,pinaropappus roseus less_antimicobacterial,pinaropappus roseus less_antifungal,s. rubriflora_antioxidant
+1,pinaropappus roseus,schisandra chinensis (turcz.) baill,,candida albicans,ziziphus jujuba mill_ulcers,,h. cyclophyllus_cancer,schisandra chinensis (turcz.) baill_adaptogenic,,akebia quinata_antioxidant
+2,schisandra chinensis (turcz.) baill,akebia quinata (houtt.) decne,,schisandra rubriflora,ziziphus jujuba mill_dysentery,,h. cyclophyllus boiss_cancer,schisandra chinensis (turcz.) baill_hepatoprotective,,a. quinata_antioxidant
+3,schisandra,ziziphus jujuba mill,,schisandra rubriflora rehder & e.h.wilson,ziziphus jujuba mill_vomiting,,,schisandra chinensis (turcz.) baill_antitumour,,ziziphus jujuba mill_antiprotozoal
+4,akebia quinata,helleborus cyclophyllus boiss,,ziziphus mauritiana,ziziphus jujuba mill_fever,,,schisandra chinensis (turcz.) baill_antioxidant,,z. jujuba_cytotoxicity
+5,a. quinata,,,ginkgo biloba l,ziziphus jujuba mill_indigestion,,,akebia quinata (houtt.) decne_analgesic,,z. jujuba_antiprotozoal
+6,akebia quinata (houtt.) decne,,,,ziziphus jujuba mill_diarrhea,,,akebia quinata (houtt.) decne_antiphlogistic,,h. cyclophyllus_cytotoxic
+7,ziziphus jujuba mill,,,,ziziphus jujuba mill_pulmonary ailments,,,akebia quinata (houtt.) decne_diuretic,,
+8,z. jujuba,,,,,,,akebia quinata (houtt.) decne_promote the milk-secretion,,
+9,ziziphus jujuba,,,,,,,akebia quinata (houtt.) decne_stimulant of the menstrual flow,,
+10,helleborus cyclophyllus boiss,,,,,,,helleborus cyclophyllus boiss_apoptotic,,
+11,h. cyclophyllus,,,,,,,helleborus cyclophyllus boiss_anticancer,,
+12,h. cyclophyllus boiss,,,,,,,,,

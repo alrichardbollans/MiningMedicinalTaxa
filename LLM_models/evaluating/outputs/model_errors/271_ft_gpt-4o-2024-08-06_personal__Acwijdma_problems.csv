@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,salvia fruticosa,salvia fruticosa,,pinus caribaea,,,,,,pinus caribaea_antibacter-ial
+1,pinus densiflora,pinus densiflora s. and z,,candida albicans,,,,,,
+2,salvia sp,s. fruticosa,,melaleuca alternifolia,,,,,,
+3,,salvia sp,,candidia sp,,,,,,
+4,,,,arabidopsis,,,,,,

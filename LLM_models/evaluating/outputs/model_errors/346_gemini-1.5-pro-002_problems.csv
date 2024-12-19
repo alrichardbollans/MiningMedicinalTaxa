@@ -1,0 +1,20 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,c. majus,chelidonium majus,berberidaceae,aspergillus fumigatus,chelidonium majus_trichomoniasis,coptis_influenza,c. majus_pathogenic fungi,chelidonium majus_antiprotozoal,coptis_antiviral,c. majus_anticancer
+1,chelidonium,coptis,,cladosporium herbarum,chelidonium majus_warts,coptis_hiv-1,c. majus_infections,chelidonium majus_antifungal,berberidaceae_antiviral,c. majus_gastric
+2,chelidonium majus,,,cryptococcus neoformans,,coptis_acute fevelitis of the upper respiratory tract,c. majus_pathogenic bacteria,chelidonium majus_antibacterial,,c. majus_anti-inflammatory
+3,coptis,,,epidermophyton floccosum,,coptis_conjunctiva,c. majus_bacteria,chelidonium majus_antimicrobial,,c. majus_hepatic
+4,,,,penicillium notatum,,berberidaceae_hiv-1,c. majus_hiv-1,chelidonium majus_antiviral,,chelidonium_bactericidal
+5,,,,rhodotorula rubra,,,c. majus_wounds,,,
+6,,,,scopulariopsis brevicaulis,,,chelidonium majus_papilloma virus infection,,,
+7,,,,torlopsis utilis,,,,,,
+8,,,,a. niger,,,,,,
+9,,,,candida sp,,,,,,
+10,,,,fusarium sp,,,,,,
+11,,,,keratinomyces ajelloi,,,,,,
+12,,,,microsporum sp,,,,,,
+13,,,,trichophyton sp,,,,,,
+14,,,,sphaerulina juglandis,,,,,,
+15,,,,septoria microspora,,,,,,
+16,,,,fusariumoxysporum,,,,,,
+17,,,,curvularia lunata,,,,,,
+18,,,,c. albicans,,,,,,

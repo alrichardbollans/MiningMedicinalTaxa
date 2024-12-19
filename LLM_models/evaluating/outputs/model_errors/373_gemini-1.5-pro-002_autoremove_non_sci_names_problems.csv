@@ -1,0 +1,32 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,cichorium intybus l,thymusserpylluml,,,schisandra chinensis(turcz.) bail_exhaustion,,,thymusserpylluml_expectorant
+1,,,,tiliacordatamill,,,,,,tiliacordatamill_diaphoretic
+2,,,,t.platyphyllosscop,,,,,,tiliacordatamill_sudorific
+3,,,,tussilagofarfaral,,,,,,t.platyphyllosscop_diaphoretic
+4,,,,urticadioical,,,,,,t.platyphyllosscop_sudorific
+5,,,,vacciniummyrtillusl,,,,,,tussilagofarfaral_expectorant
+6,,,,vacciniumvitis-idaeal,,,,,,urticadioical_haemostatic
+7,,,,valerianaofficinalisl,,,,,,vacciniummyrtillusl_astringent
+8,,,,viburnumopulusl,,,,,,vacciniumvitis-idaeal_diuretic
+9,,,,violatricolorl,,,,,,valerianaofficinalisl_sedative
+10,,,,v.arvensismurray,,,,,,viburnumopulusl_hemostatic
+11,,,,aralia elata (miq.)seem,,,,,,violatricolorl_expectorant
+12,,,,aralia,,,,,,v.arvensismurray_expectorant
+13,,,,schisandra chinensis(turcz.) bail,,,,,,aralia elata (miq.)seem_tonic
+14,,,,capsella bursa-pastoris (l.) medik,,,,,,aralia_tonic
+15,,,,cyanus segetum hill,,,,,,"schisandra chinensis(turcz.) bail_reduce hunger, thirst"
+16,,,,centaurea cyanus l,,,,,,schisandra chinensis(turcz.) bail_tonic
+17,,,,plantago major l,,,,,,schisandra chinensis(turcz.) bail_night vision
+18,,,,urtica dioical,,,,,,
+19,,,,vaccinium myrtillus l,,,,,,
+20,,,,crataegusspp,,,,,,
+21,,,,rosa spp,,,,,,
+22,,,,viburnum opulus l,,,,,,
+23,,,,prunus padus l,,,,,,
+24,,,,sorbus aucuparia l,,,,,,
+25,,,,achillea millefolium l,,,,,,
+26,,,,tanacetum vulgarel,,,,,,
+27,,,,origanum vulgare l,,,,,,
+28,,,,betula pendula roth,,,,,,
+29,,,,b. pubescens ehrh,,,,,,
+30,,,,camelliasinensis (l.) kuntze,,,,,,

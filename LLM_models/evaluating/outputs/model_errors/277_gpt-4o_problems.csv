@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,camellia sinensis,camellia sinensis,hyperici herba,s. montana subsp. pisidica(wettst,,,,,hyperici herba_antioxidant,camellia sinensis_prevention of some of the chronic diseases
+1,satureja montana l,satureja montana l,tiliae flos,saturejamontana l,,,,,tiliae flos_antioxidant,
+2,s. montana,,urticae folium,s. montana subsp. montana,,,,,urticae folium_antioxidant,
+3,,,,,,,,,camellia sinensis_antioxidant,

@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,juniperus communis l,juniperus communis l,,sideritis javalambrensis,juniperus communis l_cystitis,juniperus communis l_chronic arthritis,juniperus communis l_chronicle arthritis,juniperus communis l_antiseptic,juniperus communis l_antireumatic,sideritis javalambrensis_antioxidant
+1,,,,sideritis raeseri,juniperus communis l_digestive disorders,,,juniperus communis l_stomachic,,sideritis raeseri_anti-inflammatory
+2,,,,sideritis,,,,juniperus communis l_diuretic,,sideritis_antioxidant
+3,,,,s. scardica,,,,juniperus communis l_digestive,,juniperus communis l_antireuma thic
+4,,,,s. raeseri,,,,,,
+5,,,,s.raeseri,,,,,,
+6,,,,j.communis l,,,,,,

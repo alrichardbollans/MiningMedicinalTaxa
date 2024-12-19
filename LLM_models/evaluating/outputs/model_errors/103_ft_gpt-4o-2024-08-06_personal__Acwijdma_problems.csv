@@ -1,0 +1,62 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,erythroxylum coca,erythroxylum coca,,eucalyptus,ephedra sinica_bronchial asthma,erythroxylum coca_anus,ephedra sinica_tumor,erythroxylum coca_heart/respiratory stimulant,ephedra sinica_dilates the pupils,ephedra sinica_stimulant
+1,ephedra sinica,ephedra sinica,,eucalyptus globulus,ephedra sinica_drug poisoning,erythroxylum coca_throat,ephedra sinica_low blood pressure,erythroxylum coca_local anesthetic,claviceps purpurea_constrict blood vessels,claviceps purpurea_constricting dilated cranial bloodvessels
+2,claviceps purpurea,claviceps purpurea,,podophyllum peltatum,claviceps purpurea_post-partumbleeding,erythroxylum coca_nose,ginkgo_cardiovascular disorders,ephedra sinica_spinal anesthetic,panax quinquefolia_prolong life,claviceps purpurea_uterine contractions
+3,panax quinquefolia,panax quinquefolia,,papaver somniferum,claviceps purpurea_migraine headaches,erythroxylum coca_eye,hypericum perforatum_depression,claviceps purpurea_stimulate the smooth muscle ofthe uterus,panax quinquefolia_complex tonic effects,rauvolfia serpentina_decreases blood pressureand pulse rate
+4,ginkgo,ginkgo biloba,,carica papaya,panax quinquefolia_anemia,claviceps purpurea_childbirth,rauvolfia serpentina_high blood pressure,panax quinquefolia_cns stimulant,panax quinquefolia_establishingthe soul,eucalyptus_antiseptic
+5,ginkgo biloba,hypericum perforatum,,plantago psyllium,panax quinquefolia_insomnia,rauvolfia serpentina_mentally ill,tanacetum parthenium_headache,hypericum perforatum_antidepressant,panax quinquefolia_allaying fear,eucalyptus globulus_antiseptic
+6,hypericum perforatum,rauvolfia serpentina,,cinchona pubescens,panax quinquefolia_impotency,catharanthus roseus_cancer ofthe lymphatic system,catharanthus roseus_cancer of the lymphatic system,hypericum perforatum_mild depressant,panax quinquefolia_quieting animal spirits,hyoscyamus niger_dilates pupils
+7,rauvolfia serpentina,echinacea purpurea,,ruta graveolens,panax quinquefolia_gastritis,,catharanthus roseus_tumor,hypericum perforatum_sedative,panax quinquefolia_expelling evil effluvia,plantago psyllium_intestinal lubricant
+8,rauvolfia,tanacetum parthenium,,urginea maritima,panax quinquefolia_diabetes,,taxus brevifolia_ovarian cancer,echinacea purpurea_blood purifier,panax quinquefolia_opening up the heart,plantago psyllium_laxative
+9,echinacea purpurea,valerianaofficinalis,,serenoa repens,ginkgo biloba_alzheimer's disease,,aloe vera_burn,valerianaofficinalis_sedative,panax quinquefolia_tonic tothe five viscera,ruta graveolens_induce menstruation
+10,echinacea,catharanthus roseus,,vinca,ginkgo biloba_strokes,,areca catechu_tapeworms,gelidium cartilagineum_bulk laxative,panax quinquefolia_invigorate the body,urginea maritima_heart stimulant
+11,tanacetum parthenium,taxus brevifolia,,senna,ginkgo biloba_reduced blood flow to thebrain,,areca catechu_urinary tract problems,aloe vera_skin-softening,panax quinquefolia_brightening the eye,urginea maritima_emetic
+12,valerianaofficinalis,gelidium cartilagineum,,,hypericum perforatum_hiv,,piper nigrum_gases,styrax benzoin_loosens phlegm in respiratory passages,panax quinquefolia_benefittingthe understanding,ricinus communis_irrigates intestine
+13,catharanthus roseus,aloe vera,,,hypericum perforatum_warts,,caulophyllum thalictroides_rheumatism,piper nigrum_stimulates heart,ginkgo biloba_treat cardiovascular disorders,
+14,taxus brevifolia,colchicum autumnale,,,hypericum perforatum_seasonal affectivesyndrome,,physostigma venenosum_glaucoma,caulophyllum thalictroides_promotes menstruation,ginkgo biloba_scavenger of free radicals,
+15,gelidium cartilagineum,myroxylon balsamum,,,hypericum perforatum_psoriasis,,cinnamomum camphora_pain,menyanthes trifoliata_lowers blood pressure,hypericum perforatum_dopamine,
+16,aloe vera,atropa belladonna,,,hypericum perforatum_influenza a & b,,cinnamomum camphora_itching,menyanthes trifoliata_pain-killer,hypericum perforatum_inhibitsthe uptake of serotonin,
+17,colchicum autumnale,styrax benzoin,,,hypericum perforatum_bacterial infections,,syzygium aromaticum_pain,physostigma venenosum_stimulates heart,hypericum perforatum_norepinephrine,
+18,myroxylon balsamum,areca catechu,,,hypericum perforatum_bruises,,duboisia myoporoides_pain,rhamnus purshiana_laxative,hypericum perforatum_treat depression,
+19,atropa belladonna,piper nigrum,,,hypericum perforatum_herpessimplex virus 1 & 2,,eucalyptus_bronchial congestion,syzygium aromaticum_antiseptic,rauvolfia serpentina_treat mental illness,
+20,styrax benzoin,caulophyllum thalictroides,,,hypericum perforatum_wounds,,eucalyptus_fever,duboisia myoporoides_anesthetic,rauvolfia serpentina_decreases blood pressure,
+21,areca catechu,menyanthes trifoliata,,,hypericum perforatum_hemorrhoids,,eucalyptus globulus_bronchial congestion,inula helenium_antibiotic,rauvolfia serpentina_decreases pulse rate,
+22,piper nigrum,physostigma venenosum,,,rauvolfia serpentina_mental illness,,eucalyptus globulus_fever,digitalis purpurea_regulates heart beat/contractions,rauvolfia serpentina_high blood pressure,
+23,caulophyllum thalictroides,cinnamomum camphora,,,rauvolfia serpentina_intestinal worms,,allium sativum_hypertension,allium sativum_antispasmodic,echinacea purpurea_enhanced resistance to disease,
+24,menyanthes trifoliata,rhamnus purshiana,,,rauvolfia serpentina_insect bites,,zingiber officinale_soreness,allium sativum_antiseptic,echinacea purpurea_stimulates our body's own ability to heal itself,
+25,physostigma venenosum,ricinus communis,,,rauvolfia serpentina_schizophrenia,,zingiber officinale_motion sickness,zingiber officinale_reduce gas,valerianaofficinalis_depress central nervous system activity,
+26,cinnamomum camphora,hydnocarpus wightiana,,,rauvolfia serpentina_hypertension,,ginkgo biloba_cardiovascular disorders,hydrastis canadensis_antiseptic,valerianaofficinalis_tranquilizing,
+27,rhamnus purshiana,rheum palmatum,,,echinacea purpurea_burns,,hydrastis canadensis_stomach aches,hyoscyamus niger_sedative,catharanthus roseus_arrest nuclear division,
+28,ricinus communis,syzygium aromaticum,,,echinacea purpurea_venereal disease,,hydrastis canadensis_bleeding,hyoscyamus niger_muscle relaxant,catharanthus roseus_inhibit tumor growth,
+29,hydnocarpus wightiana,symphytum officinale,,,echinacea purpurea_flu,,acacia senegal_coughs,pilocarpus jaborandi_diuretic,gelidium cartilagineum_emulsions,
+30,rheum palmatum,duboisia myoporoides,,,echinacea purpurea_colds,,acacia senegal_sore throats,picrasma excelsa_stimulates stomach/intestines,gelidium cartilagineum_lubricants,
+31,syzygium aromaticum,vaccinium macrocarpum,,,echinacea purpurea_wounds,,acacia senegal_diarrhea,sterculia urens_laxative,aloe vera_burn treatment,
+32,symphytum officinale,echinacea spp,,,tanacetum parthenium_vomiting,,marrubium vulgare_phlegm,piper methysticum_tranquilizer,myroxylon balsamum_skin ointments,
+33,duboisia myoporoides,inula helenium,,,tanacetum parthenium_migraine,,cephaelis ipecacuanha_vomiting,piper methysticum_stimulate appetite,myroxylon balsamum_flavor medicines,
+34,vaccinium macrocarpum,digitalis purpurea,,,tanacetum parthenium_nausea,,cephaelis ipecacuanha_persistent coughs,catha edulis_cns stimulant,atropa belladonna_dilate pupils for eye exams,
+35,echinacea spp,allium sativum,,,tanacetum parthenium_headaches,,pilocarpus jaborandi_glaucoma,guaiacum officinale_anti-inflammatory,areca catechu_treat urinary tract problems,
+36,inula helenium,zingiber officinale,,,catharanthus roseus_childhood leukemia,,podophyllum peltatum_testicular/ovarian cancer,guaiacum officinale_local stimulant,areca catechu_destroys tapeworms,
+37,digitalis purpurea,hydrastis canadensis,,,catharanthus roseus_hodgkin'sdisease,,papaver somniferum_treat intestinal/stomach spasms,cassia senna_laxative,piper nigrum_reduces gases,
+38,allium sativum,acacia senegal,,,catharanthus roseus_kaposi's sarcoma,,papaver somniferum_pain-killer,polygonatum officinale_lowers blood pressure,caulophyllum thalictroides_rheumatism,
+39,zingiber officinale,hyoscyamus niger,,,catharanthus roseus_cancer ofthe testicles,,carica papaya_blood clots,polygonatum officinale_anti-inflammatory,physostigma venenosum_treatment of glaucoma,
+40,hydrastis canadensis,marrubium vulgare,,,taxus brevifolia_ovarian and breastcancers,,cinchona pubescens_malaria,strophanthus gratus_heart stimulant,cinnamomum camphora_superficial pain/itching,
+41,acacia senegal,cephaelis ipecacuanha,,,colchicum autumnale_gout,,cinchona pubescens_muscle cramps,strychnos nux-vomica_antidote for depressants,ricinus communis_irrigates intestines,
+42,hyoscyamus niger,pilocarpus jaborandi,,,cinnamomum camphora_asthma,,cinchona pubescens_headaches,strychnos nux-vomica_increase muscle activity,syzygium aromaticum_pain-killer,
+43,marrubium vulgare,picrasma excelsa,,,hydnocarpus wightiana_leprosy,,ruta graveolens_abortion,tanacetum vulgare_induce menstruation,duboisia myoporoides_pain-killer,
+44,cephaelis ipecacuanha,sterculia urens,,,rheum palmatum_constipation,,acorus calamus_stomach cramps,tanacetum vulgare_antispasmodic,allium sativum_reduces hypertension,
+45,pilocarpus jaborandi,piper methysticum,,,rheum palmatum_diarrhea,,tanacetum vulgare_worms,curcuma longa_stimulates bile production,zingiber officinale_soreness,
+46,picrasma excelsa,catha edulis,,,symphytum officinale_psoriasis,,serenoa repens_enlarged prostate,curcuma longa_antibiotic properties,zingiber officinale_prevent motion sickness,
+47,sterculia urens,guaiacum officinale,,,symphytum officinale_other skin problems,,,valeriana officinalis_sleep aid,hydrastis canadensis_stops bleeding,
+48,piper methysticum,cassia senna,,,vaccinium macrocarpum_urinary tract infections,,,valeriana officinalis_tranquilizer,hydrastis canadensis_treat stomach aches,
+49,catha edulis,polygonatum officinale,,,echinacea spp_infections,,,,acacia senegal_coughs,
+50,guaiacum officinale,strophanthus gratus,,,inula helenium_chest colds,,,,acacia senegal_treat sore throats,
+51,cassia senna,strychnos nux-vomica,,,inula helenium_asthma,,,,acacia senegal_diarrhea,
+52,polygonatum officinale,acorus calamus,,,,,,,hyoscyamus niger_dilates pupil,
+53,strophanthus gratus,tanacetum vulgare,,,,,,,marrubium vulgare_bring up phlegm from respiratory passage,
+54,strophanthus,curcuma longa,,,,,,,cephaelis ipecacuanha_induce vomiting,
+55,strychnos nux-vomica,valeriana officinalis,,,,,,,cephaelis ipecacuanha_treat persistent coughs,
+56,acorus calamus,salix spp,,,,,,,pilocarpus jaborandi_treat glaucoma,
+57,tanacetum vulgare,,,,,,,,picrasma excelsa_pesticide,
+58,curcuma longa,,,,,,,,acorus calamus_treat stomach cramps,
+59,valeriana officinalis,,,,,,,,tanacetum vulgare_expel worms,
+60,salix spp,,,,,,,,,

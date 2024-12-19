@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,panax ginseng c.a.mey,candida albicans,,panax ginseng c.a.mey_tiredness,,,panax ginseng c.a.mey_enhancement of physical performance,
+1,,,papaver somniferum l,aspergil-lus brasiliensis,,papaver somniferum l_hypertension,,,papaver somniferum l_vasodilation,
+2,,,ricinus communis,aspergillus brasiliensis,,cinchona officinalis l_malaria,,,papaver somniferum l_pain relief,
+3,,,cinchona officinalis l,,,cinchona officinalis l_fever,,,ricinus communis_purgative,
+4,,,,,,cinchona officinalis l_infectious-disease,,,,

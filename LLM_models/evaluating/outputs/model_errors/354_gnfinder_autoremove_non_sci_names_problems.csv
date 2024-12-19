@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,chamaemelum nobile,chamaemelum nobile,tekel,equisetum arvense l,,,,,,matricaria recutita_anxiolytic
+1,chamaemelum nobile (l.)all,chamaemelum,l. andequisetum arvense,,,,,,,
+2,chamaemelum nobile(l.) all,anthemis nobilis,,,,,,,,
+3,anthemis nobilis,chamomilla recutita,,,,,,,,
+4,anthemis nobilis l,spergularia purpurea,,,,,,,,
+5,chamomilla recutita (l.) rauschert,achillea millefolium,,,,,,,,
+6,spergularia purpurea pers,ginkgo biloba,,,,,,,,
+7,achillea millefolium s.l,matricaria recutita,,,,,,,,
+8,ginkgo biloba l,chamaemelum nobile aqueous,,,,,,,,
+9,matricaria recutita,,,,,,,,,

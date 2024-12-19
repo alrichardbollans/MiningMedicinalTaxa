@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,arctostaphylos uva-ursi (l.) spreng,arctostaphylos uva-ursi (l.) spreng,,,arctostaphylos uva-ursi (l.) spreng_hydrops,,prunus_can-cer,arctostaphylos uva-ursi (l.) spreng_astringent,arctostaphylos uva-ursi (l.) spreng_protect from ear-ly stage of infections,prunus_anticancer
+1,arbutus unedo l,arbutus unedo l,,,arctostaphylos uva-ursi (l.) spreng_lithiasis,,,arctostaphylos uva-ursi (l.) spreng_di-uretic,,
+2,prunus,prunus,,,arctostaphylos uva-ursi (l.) spreng_gonorrhoea,,,arctostaphylos uva-ursi (l.) spreng_urinary tract antiseptic,,
+3,,,,,arctostaphylos uva-ursi (l.) spreng_diabetes,,,prunus_antitussive,,
+4,,,,,,,,prunus_antiasthmatic,,

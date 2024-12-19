@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,punica granatum l,punica granatum l,,punicagranatum,,punica granatum l_hypertension,punica granatum l_colon cancer,,punica granatum l_anti-inflammatory,punica granatum l_suppress inflammatory cell signaling
+1,punica granatum,,,,,punica granatum l_dyslipidemia,punica granatum_prostate cancer,,punica granatum l_antioxidant,
+2,,,,,,punica granatum l_cardiovascular diseases,,,punica granatum l_vasodilatory,
+3,,,,,,,,,punica granatum l_blood pressure lowering,

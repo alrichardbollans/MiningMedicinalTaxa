@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,,matricaria recutita,,,,,,matricaria recutita_anxiolytic
+1,,,,anthemis nobilis,,,,,,
+2,,,,chamaemelum nobile,,,,,,
+3,,,,chamaemelum nobile (l.)all,,,,,,
+4,,,,chamaemelum nobile(l.) all,,,,,,
+5,,,,anthemis nobilis l,,,,,,
+6,,,,chamomilla recutita (l.) rauschert,,,,,,
+7,,,,spergularia purpurea pers,,,,,,
+8,,,,achillea millefolium s.l,,,,,,
+9,,,,ginkgo biloba l,,,,,,
+10,,,,equisetum arvense l,,,,,,

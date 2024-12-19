@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,veronica,veronica,cheng,curcuma longa,,,,,,
+1,veronica officinalis,v. chamaedrys,scrophulariaceae,,,,,,,
+2,veronica officinalis l,v. officinalis,pentasepalae,,,,,,,
+3,veronica alpina,veronica officinalis,willdenowia,,,,,,,
+4,veronica chamaedrys l,veronica alpina,3255:420.bellia,,,,,,,
+5,v. chamaedrys,rhodiola,canae,,,,,,,
+6,v. officinalis,veronica chamaedrys,plantaginaceae,,,,,,,
+7,rhodiola,,otus,,,,,,,

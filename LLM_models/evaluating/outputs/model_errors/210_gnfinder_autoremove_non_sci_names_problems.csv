@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,valeriana officinalis,valeriana officinalis,,cannabis,,,cannabis_hypertension,,,
+1,helleborus niger,helleborus niger,,,,,cannabis_multiple sclerosis,,,
+2,peucedanum ostruthium,peucedanum ostruthium,,,,,cannabis_cancer,,,
+3,c. sativa,c. sativa,,,,,cannabis_aids,,,
+4,c. indica,c. indica,,,,,cannabis_glaucoma,,,
+5,c. ruderalis,c. ruderalis,,,,,cannabis_spinal cord injuries,,,
+6,,,,,,,cannabis_alzheim-er's disease,,,
+7,,,,,,,cannabis_ep-ilepsy,,,
+8,,,,,,,cannabis_tourette's syndrome,,,

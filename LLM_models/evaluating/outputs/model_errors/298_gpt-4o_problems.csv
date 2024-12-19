@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,c. ragusina l,centaurea ragusina l,,c. melitensis l,,,c. ragusina l_lung cancer,centaurea ragusina l_anti-inflammatory,centaurea ragusina l_cytotoxic,c. ragusina l_suppresses tumor growth
+1,centaurea,,,c. aspera l,,,c. ragusina l_thyroid cancer,centaurea ragusina l_antibacterial,,
+2,centaurea ragusina l,,,c. jacea l,,,c. ragusina l_livercancer,,,
+3,,,,,,,c. ragusina l_liver carcinoma,,,
+4,,,,,,,centaurea_livercancer,,,
+5,,,,,,,centaurea_liver carcinoma,,,
+6,,,,,,,c. melitensis l_livercancer,,,
+7,,,,,,,c. melitensis l_liver carcinoma,,,
+8,,,,,,,c. aspera l_livercancer,,,
+9,,,,,,,c. aspera l_liver carcinoma,,,
+10,,,,,,,c. jacea l_livercancer,,,
+11,,,,,,,c. jacea l_liver carcinoma,,,

@@ -1,0 +1,17 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,o. dictamnus,o. dictamnus,,thymus spp,o. dictamnus_relief of cough associated with cold,satureja montana_cough,c. creticus subsp. eriocephalus_cold symptoms,thymus thracicus velen_anti-inflammatory,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet_anti-influenza,o. dictamnus_relaxing effect
+1,satureja montana,satureja montana,,,o. dictamnus_wound healing of skin inflammations and bruises,stachys iva_cough,c. creticus subsp. eriocephalus_influenza a h1n1 strains,thymus thracicus velen_antioxidant,,artocarpus tonkinensis_decreases th17 cell function
+2,stachys iva,stachys iva,,,o. dictamnus_mild gastrointestinal disorders,sideritis sp_cough,c. creticus subsp. eriocephalus_flu,artocarpus tonkinensis_anti-inflammatory,,c. creticus subsp. eriocephalus_anti-influenza
+3,sideritis sp,sideritis sp,,,satureja montana_common flu,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet_cold symptoms,,,,c. creticus subsp. eriocephalus_inhibiting influenza virus
+4,achillea coarcata,achillea coarcata,,,stachys iva_common flu,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet_flu,,,,c. creticus subsp. eriocephalus_anti-neuraminidase
+5,teucrium,teucrium,,,sideritis sp_common flu,,,,,
+6,chamomilla recutita,chamomilla recutita,,,achillea coarcata_hypertension,,,,,
+7,salvia sclarea,salvia sclarea,,,teucrium_diabetes,,,,,
+8,thymus thracicus velen,thymus thracicus velen,,,artocarpus tonkinensis_arthritis,,,,,
+9,thymus thracicus,artocarpus tonkinensis,,,artocarpus tonkinensis_backache,,,,,
+10,artocarpus tonkinensis,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet,,,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet_respiratory infections,,,,,
+11,c. creticus,cistus incanus l,,,,,,,,
+12,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet,c. creticus,,,,,,,,
+13,cistus incanus l,,,,,,,,,
+14,c. creticus subsp. eriocephalus,,,,,,,,,
+15,c. creticus subsp,,,,,,,,,

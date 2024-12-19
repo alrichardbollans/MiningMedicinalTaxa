@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,juniperus communis l,juniperus communis,lamiaceae,j.communis l,,,sideri-tis scardica griseb_flu,,,sideritis_antioxidant
+1,sideritis raeseri boiss.&heldr,sideritis,,sideritisraeseri,,,sideri-tis scardica griseb_common cold,,,
+2,sideritis,sideri-tis scardica,,s.scardica,,,sideri-tis scardica griseb_pains,,,
+3,sideritis scardica,sideritis raeseri,,sideritisscardica griseb,,,sideri-tis scardica griseb_sinus conges-tion,,,
+4,sideritis raeseri,s. scardica,,,,,sideri-tis scardica griseb_aches,,,
+5,sideri-tis scardica griseb,s. raeseri,,,,,sideri-tis scardica griseb_viruses,,,
+6,s. scardica,sideritis scardica,,,,,sideritis raeseri boiss.&heldr_flu,,,
+7,s. raeseri,,,,,,sideritis raeseri boiss.&heldr_common cold,,,
+8,,,,,,,sideritis raeseri boiss.&heldr_pains,,,
+9,,,,,,,sideritis raeseri boiss.&heldr_sinus conges-tion,,,
+10,,,,,,,sideritis raeseri boiss.&heldr_aches,,,
+11,,,,,,,sideritis raeseri boiss.&heldr_viruses,,,

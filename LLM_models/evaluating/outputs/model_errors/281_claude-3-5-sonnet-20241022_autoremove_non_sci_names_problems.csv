@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,boerhaavia diffusa,boerhaavia diffusa,papaver somniferum,boerhaaviadiffusa,boerhaavia diffusa_jaundice,boerhaavia diffusa_liver disorders,boerhaavia diffusa_menstrualsyndrome,boerhaavia diffusa_laxative,asarum europaeum_diuretic,boerhaaviadiffusa_spasmolytic
+1,b. diffusa,colchicum autumnale,ricinus communis,arthemisia absinthium l,boerhaavia diffusa_kidney problems,boerhaavia diffusa_menstrual syndrome,boerhaavia diffusa_liverdisorders,boerhaavia diffusa_antioxidant,,
+2,boerhaavia diffusa l,claviceps purpurea,pulsatila vulgaris mill,conium,boerhaavia diffusa_stones,colchicum autumnale_gout,,boerhaavia diffusa_spasmolytic,,
+3,colchicum autumnale,bryonia dioica,,strychnos nux-vomica,boerhaavia diffusa_nephritis,asarum europaeum_sciatica,,,,
+4,claviceps purpurea,solanum dulcamara,,pulsatila vulgarismill,boerhaavia diffusa_cystitis,asarum europaeum_fever,,,,
+5,bryonia dioica,asarum europaeum,,,boerhaavia diffusa_hepatitis,,,,,
+6,solanum dulcamara,veratrum album,,,boerhaavia diffusa_anemia,,,,,
+7,asarum europaeum,aconitum sp,,,boerhaavia diffusa_gastro-intestinal,,,,,
+8,veratrum album,datura stramonium,,,,,,,,
+9,aconitum sp,,,,,,,,,
+10,datura stramonium,,,,,,,,,

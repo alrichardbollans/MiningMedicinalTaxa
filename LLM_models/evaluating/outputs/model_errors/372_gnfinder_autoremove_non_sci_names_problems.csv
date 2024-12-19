@@ -1,0 +1,25 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aspalathus linearis (burm.f.) r.dahlgren,aspalathus linearis,fructus rosae,hoodiagordonii (masson) sweet ex decne,,,crataegus_cardiovascular problems,,,hoodiagordonii (masson) sweet ex decne_regulate the appetite
+1,cyclopia sp,cyclopia,herba hyperici,l.cardiaca l,,,,,,malpighia glabra l_vitamin c
+2,malpighia glabra l,malpighia glabra,fructus alni,thymusserpyllum l,,,,,,viburnum opulus l_diaphoretic
+3,viburnum opulus l,viburnum opulus,l.(cortex viburni,q. petraea(matt.) liebl,,,,,,viburnum opulus l_diuretic
+4,crataegus,crataegus,fructus viburni,taraxacum officinale l,,,,,,viburnum opulus l_anti-inflammatory
+5,origanum vulgare l,origanum vulgare,asparagaceae(convallaria majalis,calendula officinalis l,,,,,,l.cardiaca l_antistress
+6,leonurus cardiaca l,leonurus cardiaca,ranunculaceae(adonis vernalis,pimpinellaanisum l,,,,,,
+7,quercus robur l,quercus robur,plantaginaceae(digitalis purpurea,convallaria majalis l,,,,,,
+8,acorus calamus l,acorus calamus,"polemoniaceae),rubia tinctorum",frangula alnus mill,,,,,,
+9,taraxacum campylodes g.e.haglund,taraxacum campylodes,,adonis vernalis l,,,,,,
+10,aralia elata (miq.) seem,aralia elata,,digitalis purpurea l,,,,,,
+11,equisetum arvense l,equisetum arvense,,digitalis grandifloramill,,,,,,
+12,eucalyptus viminalis labill,eucalyptus viminalis,,rubia tinctorum l,,,,,,
+13,zea mays l,zea mays,,alnus glutinosa (l.) gaertn,,,,,,
+14,atropa belladonnal,atropa,,,,,,,,
+15,datura stramonium l,datura stramonium,,,,,,,,
+16,hyoscyamus niger l,hyoscyamus niger,,,,,,,,
+17,convallaria keiskei miq,convallaria keiskei,,,,,,,,
+18,rhamnus cathartica l,rhamnus cathartica,,,,,,,,
+19,chelidonium majus l,chelidonium majus,,,,,,,,
+20,polemonium caeruleum l,polemonium caeruleum,,,,,,,,
+21,alnus incana (l.) moench,alnus incana,,,,,,,,
+22,gnaphalium uliginosum l,gnaphalium uliginosum,,,,,,,,
+23,bidens tripartita l,bidens tripartita,,,,,,,,

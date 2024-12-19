@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,gingko biloba,gingko,ginseng,ginkgo biloba,,,,,,
+1,gingko,gingko biloba,garlic,ginkgo,,,,,,
+2,echinacea,echinacea,cranberry,,,,,,,
+3,aloe vera,aloe vera,red yeast rice,,,,,,,
+4,,,black cohosh,,,,,,,
+5,,,epo/gla,,,,,,,
+6,,,saw palmetto,,,,,,,
+7,,,maca,,,,,,,
+8,,,liquorice,,,,,,,
+9,,,nettle,,,,,,,

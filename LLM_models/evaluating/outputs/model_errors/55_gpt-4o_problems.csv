@@ -1,0 +1,22 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aloe vera,aloe vera,spirulina platensis,symphtytum offi cinalis,psyllium ispaghula_stomach troubles,spirulina platensis_malnutrition,symphtytum offi cinalis_cuts,citrus aurantium_weight management,boswellia_anti-inflammatory,boswellia_anti-infl ammatories
+1,aloe,psyllium ispaghula,symphytum officinalis,angelica archangelica,echinacea purpurea_sore throat,spirulina platensis_lack of nutrients,symphtytum offi cinalis_bruises,annona muricata_immunity,silybum marianum_enhances liver tissue renewal,tagetes erecta_eye health
+2,psyllium ispaghula,citrus aurantium,valeriana officinalis,eucalyptus,sabal serrulata_impotence,vaccinium myrtillus_night vision,eucalyptus_sore shoulders,annona muricata_health enhancement,cordyceps sinensis_general well-being,symphtytum offi cinalis_muscles
+3,psyllium,echinacea purpurea,sennae folium,cimicifuga rasemosa,sabal serrulata_prostate problems,symphytum officinalis_bruises,,,,symphtytum offi cinalis_joints
+4,citrus aurantium,sabal serrulata,frangulae cortex,symphytum offi cinalis,boswellia_arthrosis,symphytum officinalis_muscles,,,,psyllium_laxative
+5,echinacea purpurea,boswellia,cimicifuga racemosa,chrysanthemum,vaccinium myrtillus_eye diseases,symphytum officinalis_joints,,,,angelica archangelica_muscle relaxing
+6,echinacea,vaccinium myrtillus,,kaempferia pafi fl ora,tagetes erecta_eye diseases,symphytum officinalis_cuts,,,,eucalyptus_mouth wash
+7,sabal serrulata,tagetes erecta,,zingiber offi cinale,tagetes erecta_night vision,silybum marianum_liver diseases,,,,eucalyptus_fat-free muscle building
+8,boswellia,annona muricata,,anamitra cocculus w & a,crataegus_cardiac weakness,,,,,eucalyptus_antiseptic
+9,vaccinium myrtillus,silybum marianum,,nelumbo nucifera gaertner,crataegus_mild heart conditions,,,,,eucalyptus_recovery
+10,tagetes erecta,cordyceps sinensis,,piper nigrum,,,,,,
+11,annona muricata,gingko biloba,,polygonum multifl orum,,,,,,
+12,silybum marianum,eleutherococcus senticosus,,piper lolot,,,,,,
+13,cordyceps sinensis,hypericum perforatum,,glychyrrhiza uralensis,,,,,,
+14,gingko biloba,arnica montana,,cordyseps,,,,,,
+15,eleutherococcus senticosus,crataegus,,cordyseps sinensis,,,,,,
+16,hypericum perforatum,,,valeriana offi cinalis,,,,,,
+17,arnica montana,,,acanthopanax senticosus,,,,,,
+18,crataegus,,,tinaspora sinensis,,,,,,
+19,,,,senna,,,,,,
+20,,,,butea superba,,,,,,

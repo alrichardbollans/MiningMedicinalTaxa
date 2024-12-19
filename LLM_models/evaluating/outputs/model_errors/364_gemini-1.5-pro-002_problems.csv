@@ -1,0 +1,25 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,achillea,achillea sp,salvia officinalis,scrophularianodosa,achillea sp_wounds,a. millefolium_wounds,scrophularia oxysepala_breast cancer,achillea sp_astringent,a. millefolium_astringent,scrophularianodosa_wound healing
+1,achillea sp,a. millefolium,,salviaofficinalis,achillea sp_bleeding disorders,a. millefolium_bleeding disorders,,achillea_astringent,scrophularia lucida_astringent,salviaofficinalis_antioxidative
+2,a. millefolium,achillea,,cynara,achillea sp_bruises,a. millefolium_bruises,,,scrophularia oxysepala_astringent,s. lucida_anti-intravasative
+3,s. lucida,scrophularia lucida,,apium,achillea_wounds,scrophularia lucida_wounds,,,scrophularia nodosa_astringent,
+4,scrophularia lucida,scrophularia oxysepala,,allium,achillea_bleeding disorders,scrophularia lucida_bleeding disorders,,,scrophularia ningpoensis_astringent,
+5,scrophularia,scrophularia nodosa,,petroselinum,achillea_bruises,scrophularia lucida_bruises,,,scrophularia canina_astringent,
+6,scrophularia oxysepala,scrophularia ningpoensis,,punica,,scrophularia oxysepala_wounds,,,scrophularia dentata_astringent,
+7,scrophularia oxysepala boiss,scrophularia canina,,thymus,,scrophularia oxysepala_bleeding disorders,,,salvia officinalis_astringent,
+8,scrophularia ningpoensis hemsley,scrophularia dentata,,solidago,,scrophularia oxysepala_bruises,,,,
+9,scrophularia canina l,,,chamaemelum,,scrophularia nodosa_wounds,,,,
+10,,,,viola,,scrophularia nodosa_bleeding disorders,,,,
+11,,,,vitis,,scrophularia nodosa_bruises,,,,
+12,,,,scrophularia dentataroyle ex benth,,scrophularia ningpoensis_wounds,,,,
+13,,,,,,scrophularia ningpoensis_bleeding disorders,,,,
+14,,,,,,scrophularia ningpoensis_bruises,,,,
+15,,,,,,scrophularia canina_wounds,,,,
+16,,,,,,scrophularia canina_bleeding disorders,,,,
+17,,,,,,scrophularia canina_bruises,,,,
+18,,,,,,scrophularia dentata_wounds,,,,
+19,,,,,,scrophularia dentata_bleeding disorders,,,,
+20,,,,,,scrophularia dentata_bruises,,,,
+21,,,,,,salvia officinalis_wounds,,,,
+22,,,,,,salvia officinalis_bleeding disorders,,,,
+23,,,,,,salvia officinalis_bruises,,,,

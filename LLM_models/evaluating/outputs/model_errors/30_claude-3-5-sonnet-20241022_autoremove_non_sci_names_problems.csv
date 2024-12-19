@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,tussilago farfara l,tussilago farfara l,,senna,gymnema sylvestre (retz.) r. br. ex sm_diabetes,gymnema sylvestre (retz.) r. br. ex sm_urinary frequency,senna_constipation,,,senna_stimulant laxative
+1,urtica diocia l,urtica diocia l,,aloe vera,,,senna_indigestion,,,gymnema sylvestre (retz.) r. br. ex sm_urinary frequency
+2,gymnema sylvestre (retz.) r. br. ex sm,gymnema sylvestre (retz.) r. br. ex sm,,aristolochia,,,aloe vera_diabetes,,,
+3,piper methysticum g.frost,piper methysticum g.frost,,hypericum,,,,,,
+4,,,,gingko,,,,,,

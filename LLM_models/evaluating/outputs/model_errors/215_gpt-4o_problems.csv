@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,linum usitatissimum,linum usitatissimum,,,linum usitatissimum_seborrhea sicca,linum usitatissimum_skin excoriations,linum usitatissimum_sebum-regulation,linum usitatissimum_anti-inflammatory,,linum usitatissimum_protective and nu-tritive for human skin
+1,linum usitatissimum l,,,,linum usitatissimum_ringworm,,linum usitatissimum_dry seb-orrhea,linum usitatissimum_antibacterial,,linum usitatissimum_skin excoriations
+2,,,,,linum usitatissimum_seborrhea oleossa,,linum usitatissimum_scarring,linum usitatissimum_skin hydration,,linum usitatissimum_estrogen-mimetic action
+3,,,,,linum usitatissimum_wound healing,,linum usitatissimum l_skin wounds,linum usitatissimum_sebum-reducing,,linum usitatissimum_anti-androgenic
+4,,,,,,,,,,linum usitatissimum_cutaneous ag-ing prevention
+5,,,,,,,,,,linum usitatissimum_es-trogen-mimetic
+6,,,,,,,,,,linum usitatissimum_restoring the cutaneous barrier
+7,,,,,,,,,,linum usitatissimum_reducing the appearance of scaly skin
+8,,,,,,,,,,linum usitatissimum_wound heal-ing

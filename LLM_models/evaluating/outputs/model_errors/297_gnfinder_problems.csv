@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,centaurea,centaurea,hela cells,,,,centaurea_microbial infections,,,centaurea ragusina l_antibacterial
+1,centaurea ragusina l,centaurea ragusina,asteraceae,,,,centaurea_urogenital ailments,,,centaurea ragusina l_anticancer
+2,c. ragusina l,c. ragusina,staphylococcus aureus,,,,centaurea_gastrointestinal disorders,,,
+3,,,acinetobacter baumannii,,,,,,,
+4,,,pharmacia,,,,,,,
+5,,,materialcentaurea ragusina,,,,,,,
+6,,,hela,,,,,,,

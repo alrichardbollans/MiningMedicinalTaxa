@@ -1,0 +1,17 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,p. spinosa,prunus spinosa l,,,prunus spinosa l_cvd,prunus spinosa l_myocardial infarction,p. spinosa_cardiovascular episodes,prunus spinosa l_vasoprotective,,p. spinosa_dpph scavengers
+1,prunus spinosa l,p. spinosa,,,p. spinosa_cvd,prunus spinosa l_cardiovascular events,prunus spinosa l_inflammation,prunus spinosa l_anti-atherothrombotic,,p. spinosa_modulate lipidmetabolism
+2,,,,,,prunus spinosa l_atherosclerosis,prunus spinosa l_oxidative stress,prunus spinosa l_antiplatelet,,p. spinosa_cardiovascular protection
+3,,,,,,prunus spinosa l_myocardialinfarction/reperfusion injury,,prunus spinosa l_antioxidant,,p. spinosa_improve capillarypermeability
+4,,,,,,prunus spinosa l_chronic heart failure,,prunus spinosa l_anti-inflammatory,,p. spinosa_reducedthe levels of well-known oxidative stress biomarkers
+5,,,,,,p. spinosa_myocardial infarction,,prunus spinosa l_anti-atherosclerotic,,p. spinosa_anti-radical
+6,,,,,,p. spinosa_cardiovascular events,,prunus spinosa l_vasodilatory,,p. spinosa_abilityto influence endothelium
+7,,,,,,p. spinosa_atherosclerosis,,prunus spinosa l_anticoagulant,,p. spinosa_increase nitric oxide release
+8,,,,,,p. spinosa_myocardialinfarction/reperfusion injury,,p. spinosa_vasoprotective,,p. spinosa_normalize ldl/hdl profile
+9,,,,,,p. spinosa_chronic heart failure,,p. spinosa_anti-atherothrombotic,,p. spinosa_endothelial function
+10,,,,,,,,p. spinosa_antiplatelet,,p. spinosa_decrease ldl oxidation
+11,,,,,,,,p. spinosa_antioxidant,,p. spinosa_anti-atherogenic
+12,,,,,,,,p. spinosa_anti-inflammatory,,p. spinosa_lipid peroxidation inhibitory activity
+13,,,,,,,,p. spinosa_anti-atherosclerotic,,p. spinosa_inhibitors oflipid peroxidation
+14,,,,,,,,p. spinosa_vasodilatory,,prunus spinosa l_antioxidants
+15,,,,,,,,p. spinosa_anticoagulant,,

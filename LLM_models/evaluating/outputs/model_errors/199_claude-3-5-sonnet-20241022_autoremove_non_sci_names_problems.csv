@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,c. botrys,chenopodium botrys,,zizyphus lo-tus,zizyphus lotus l_obesity,chenopodium botrys_diarrhea,,chenopodium botrys_diuretic,,c. botrys_antidiarrheal
+1,chenopodium,chenopodium album,,zizyphus lo-tus l,zizyphus lotus l_insomnia,,,chenopodium botrys_antispasmodic,,zizyphus lotus_antiradical
+2,chenopodium botrys l,zizyphus lotus l,,chenopodium linn,zizyphus lotus l_skin infections,,,chenopodium botrys_carminative,,zizyphus lo-tus_antioxidant
+3,chenopodium album l,,,che-nopodium,zizyphus lotus l_diabetes,,,zizyphus lotus l_immunomodulatory,,zizyphus lo-tus l_antioxidant
+4,c. album,,,c. al-bum,zizyphus lotus l_anxiety,,,zizyphus lotus l_anti-inflammatory,,
+5,zizyphus lotus l,,,,zizyphus lotus l_digestive disorders,,,zizyphus lotus l_antioxidant,,
+6,zizyphus lotus,,,,zizyphus lotus l_urinary troubles,,,zizyphus lotus l_analgesic,,
+7,,,,,,,,zizyphus lotus l_anti-ulcerogenic,,

@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ocimum basilicum l,ocimum basilicum l,,a. pannonica scheele,ocimum basilicum l_respiratory infections,,"garcinia indi-ca_gastric, hepatic breast and lung cancer",ocimum basilicum l_sedative,,ocimum basilicum l_antioxidant
+1,"ocimum basilicum, l",,,achillea collina bekker ex heimerl s.l,ocimum basilicum l_insomnia,,,ocimum basilicum l_anticonvulsant,,"ocimum basilicum, l_anti-oxidant"
+2,,,,origanum vulgare l,ocimum basilicum l_constipation,,,,,a. pannonica scheele_antioxidant
+3,,,,garcinia indi-ca,ocimum basilicum l_inflammatory diseases,,,,,a. pannonica scheele_antibacterial
+4,,,,juniperus communis l. ssp. nana,ocimum basilicum l_headaches,,,,,achillea collina bekker ex heimerl s.l_antioxidant
+5,,,,onosma aucheriana,ocimum basilicum l_flu,,,,,achillea collina bekker ex heimerl s.l_antibacterial
+6,,,,,ocimum basilicum l_cough,,,,,origanum vulgare l_antioxidant

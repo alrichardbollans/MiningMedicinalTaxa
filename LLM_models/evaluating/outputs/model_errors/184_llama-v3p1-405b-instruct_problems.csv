@@ -1,0 +1,24 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,betula pendula l,betula pendula l,robinia pseudoacacia l,rosmarinus offi-cinalis l,,,thoningias anguinea_liver injuries,betula pendula l_antioxidant,betula pendula l_antibacterial,melissa officinalis l_dpph radical scavenging activity
+1,tusilago farfara l,tusilago farfara l,,plan-tago major l,,,,tusilago farfara l_antioxidant,urtica dioica l_antibacterial,rosmarinus offi-cinalis l_antioxidant
+2,plantago major l,plantago major l,,gentiana kurrooroyle,,,,tusilago farfara l_antibacterial,,tusilago farfara l_antibacteria
+3,urtica dioica l,urtica dioica l,,plectranthus amboinicus,,,,plantago major l_antioxidant,,tusilago farfara l_dpph radical scavenging activity
+4,urtica dioica,rosmarinus officinalis l,,thoningias anguinea,,,,plantago major l_antibacterial,,betula pendula l_antimicrobial
+5,rosmarinus officinalis l,melissa officinalis l,,datura metel l,,,,urtica dioica l_antioxidant,,plantago major l_antimicrobial
+6,melissa officinalis l,taraxacum officinale,,machilus odoratissima,,,,rosmarinus officinalis l_antioxidant,,urtica dioica l_dpph radical scaveng-ing activity
+7,taraxacum officinale,matricaria recutita l,,betula pendu-la l,,,,rosmarinus officinalis l_antibacterial,,urtica dioica l_antimicrobial
+8,t. officinale,,,urtica dioi-ca l,,,,melissa officinalis l_antioxidant,,rosmarinus officinalis l_dpph radical scavenging activity
+9,matricaria recutita l,,,rosmarinus officina-lis l,,,,melissa officinalis l_antibacterial,,plan-tago major l_antioxidant
+10,,,,plantago ma-jor l,,,,,,gentiana kurrooroyle_antioxidant
+11,,,,robinia pseu-doacacia l,,,,,,gentiana kurrooroyle_antibacterial
+12,,,,lycopersicum esculentum,,,,,,plectranthus amboinicus_antioxidant
+13,,,,hibiscus rosa sinensis,,,,,,plectranthus amboinicus_antibacterial
+14,,,,phaseolus vulgaris l,,,,,,thoningias anguinea_free -radical scavenging
+15,,,,triticum aestivum l,,,,,,datura metel l_antioxidant
+16,,,,,,,,,,datura metel l_antimicrobial
+17,,,,,,,,,,machilus odoratissima_antioxidant
+18,,,,,,,,,,machilus odoratissima_antibacterial
+19,,,,,,,,,,betula pendu-la l_antibac-terial
+20,,,,,,,,,,betula pendu-la l_antioxidant
+21,,,,,,,,,,urtica dioi-ca l_antibac-terial
+22,,,,,,,,,,urtica dioi-ca l_antioxidant

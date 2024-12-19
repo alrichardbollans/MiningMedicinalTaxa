@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,s. vulgaris,s. vulgaris,s.reticulatamay,s.reticulata,,,,s. vulgaris_antioxidant,echinacea purpurea_anti-inflammatory,s.afghanica_antioxidant
+1,syringa vulgaris,s. pinnatifolia,,,,,,,,s. reticulata_antioxidant
+2,s. pinnatifolia,s.afghanica,,,,,,,,s.reticulata_antioxidant
+3,s.afghanica,syringa,,,,,,,,syringa reticulata_antioxidant
+4,syringa reticulata,syringa vulgaris,,,,,,,,syringa vulgaris_pro-inflammatory responses of human neutrophils
+5,syringa,syringa reticulata,,,,,,,,syringa_mediators of inflammation
+6,s. reticulata,echinacea purpurea,,,,,,,,
+7,echinacea purpurea,fraxinus excelsior,,,,,,,,
+8,fraxinus,fraxinus,,,,,,,,
+9,ligustrum japonicum,ligustrum japonicum,,,,,,,,
+10,aruncus dioicus (walter) fernald,aruncus dioicus (walter) fernald,,,,,,,,
+11,forsythia suspensa,forsythia suspensa,,,,,,,,

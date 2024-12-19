@@ -1,0 +1,25 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aloe vera,aloe vera,cinchona officinalis l,tagetes erecta,psyllium ispaghula_stomach troubles,cinchona officinalis l_fever,sabal serrulata_prostate problems,annona muricata_health enhancement,ricinus communis_purgative,boswellia_anti-infl ammatories
+1,aloe,psyllium ispaghula,ricinus communis,symphtytum offi cinalis,vaccinium myrtillus_eye diseases,cinchona officinalis l_malaria,sabal serrulata_impotence,annona muricata_immunity,papaver somniferum l_vasodilation,tagetes erecta_eye health
+2,psyllium ispaghula,echinacea,papaver somniferum l,angelica archangelica,boswellia_arthrosis,cinchona officinalis l_infectious-disease,echinacea purpurea_sore throat,,papaver somniferum l_pain relief,symphtytum offi cinalis_muscles
+3,psyllium,sabal serrulata,panax ginseng c.a.mey,eucalyptus,crataegus_cardiac weakness,papaver somniferum l_hypertension,tagetes erecta_eye diseases,,panax ginseng c.a.mey_enhancement of physical performance,symphtytum offi cinalis_joints
+4,echinacea purpurea,annona muricata,symphtytum officinalis,symphytum offi cinalis,,panax ginseng c.a.mey_tiredness,tagetes erecta_night vision,,,psyllium_laxative
+5,echinacea,vaccinium myrtillus,spirulina platensis,chrysanthemum,,symphtytum officinalis_cuts,symphtytum offi cinalis_cuts,,,angelica archangelica_muscle relaxing
+6,sabal serrulata,boswellia,ginkgo biloba,kaempferia pafi fl ora,,symphtytum officinalis_joints,symphtytum offi cinalis_bruises,,,eucalyptus_mouth wash
+7,annona muricata,citrus aurantium,valeriana officinalis,zingiber offi cinale,,symphtytum officinalis_bruises,crataegus_heart conditions,,,eucalyptus_fat-free muscle building
+8,vaccinium myrtillus,eleutherococcus senticosus,,anamitra cocculus w & a,,symphtytum officinalis_muscles,eucalyptus_sore shoulders,,,eucalyptus_antiseptic
+9,boswellia,hypericum perforatum,,nelumbo nucifera gaertner,,vaccinium myrtillus_night vision,,,,eucalyptus_recovery
+10,citrus aurantium,arnica montana,,piper nigrum,,spirulina platensis_malnutrition,,,,citrus aurantium_weight management
+11,eleutherococcus senticosus,cimicifuga rasemosa,,polygonum multifl orum,,spirulina platensis_lack of nutrients,,,,
+12,hypericum perforatum,crataegus,,piper lolot,,citrus aurantium_weight management,,,,
+13,arnica montana,,,glychyrrhiza uralensis,,,,,,
+14,cimicifuga rasemosa,,,silybum marianum,,,,,,
+15,crataegus,,,cordyseps,,,,,,
+16,,,,cordyseps sinensis,,,,,,
+17,,,,cordyceps sinensis,,,,,,
+18,,,,gingko biloba,,,,,,
+19,,,,valeriana offi cinalis,,,,,,
+20,,,,acanthopanax senticosus,,,,,,
+21,,,,tinaspora sinensis,,,,,,
+22,,,,senna,,,,,,
+23,,,,butea superba,,,,,,

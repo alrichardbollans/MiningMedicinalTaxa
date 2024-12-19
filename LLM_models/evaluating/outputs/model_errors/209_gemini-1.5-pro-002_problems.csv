@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,cannabis sativa l,cannabis sativa l,,pinus pinea,,,pinus pinea_chd risk,,,pinus pinea_lower the ldl cholesterol
+1,cannabis,,,pinus koraiensis,,,pinus koraiensis_chd risk,,,pinus koraiensis_lower the ldl cholesterol
+2,,,,pinus sybirica,,,pinus sybirica_chd risk,,,pinus sybirica_lower the ldl cholesterol
+3,,,,pinus gerardiana,,,pinus gerardiana_chd risk,,,pinus gerardiana_lower the ldl cholesterol
+4,,,,cannabis indica l,,,,,,
+5,,,,c. indica,,,,,,
+6,,,,papaver somniferum l,,,,,,
+7,,,,pinus peuce,,,,,,
+8,,,,pinus nigra,,,,,,

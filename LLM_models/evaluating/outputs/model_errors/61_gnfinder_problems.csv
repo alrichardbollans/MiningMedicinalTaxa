@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,canna edulis,canna edulis,palestine)9000,citrus,,,,,,
+1,,,palestine)3000,sorghum,,,,,,
+2,,,palestine,conium maculatum,,,,,,
+3,,,manchuria)1500,chrysanthemum,,,,,,
+4,,,conium maculatum)350,,,,,,,
+5,,,poppaea,,,,,,,
+6,,,medica,,,,,,,
+7,,,prospero,,,,,,,

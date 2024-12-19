@@ -1,0 +1,7 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ocimum,ocimum gratissimum,,o. africanum,,,,,,
+1,o. gratissimum,ocimum tenuiflorum,,o. citridorum,,,,,,
+2,ocimum gratissimum,ocimum basilicum,,o.kilimandscharicum,,,,,,
+3,o. tenuiflorum,veronica species,,o. selloi,,,,,,
+4,o. basilicum,,,o. americanum,,,,,,
+5,veronica,,,,,,,,,

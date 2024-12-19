@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,arctostaphylos uva-ursi,arctostaphylos uva-ursi (l.) spreng,,salvia,arctostaphylos uva-ursi (l.) spreng_hydrops,arctostaphylos uva-ursi (l.) spreng_urinary tract infections,,arctostaphylos uva-ursi (l.) spreng_diuretic,,arctostaphylos uva-ursi_antibacterial
+1,arctostaphylos uva-ursi (l.) spreng,,,arcto-staphylos uva-ursi,arctostaphylos uva-ursi (l.) spreng_diabetes,,,arctostaphylos uva-ursi (l.) spreng_urinary tract antiseptic,,
+2,a. uva-ursi,,,a. uva ursi,arctostaphylos uva-ursi (l.) spreng_gonorrhoea,,,arctostaphylos uva-ursi (l.) spreng_astringent,,
+3,,,,arctostaphylos uva-ursi l. sprengel,arctostaphylos uva-ursi (l.) spreng_lithiasis,,,,,
+4,,,,orthosiphon stamineus benth,,,,,,
+5,,,,hieracium pilosella l,,,,,,
+6,,,,sambucus nigra l,,,,,,
+7,,,,arctostaphylos uvaursi (l.) spreng,,,,,,
+8,,,,arbutus unedo l,,,,,,
+9,,,,arctostaphlos uva-ursi l. sprengel,,,,,,

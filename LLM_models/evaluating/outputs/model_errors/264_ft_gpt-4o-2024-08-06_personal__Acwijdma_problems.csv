@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,matricaria recutita,matricaria recutita l,,,,,,,,
+1,matricaria recutita l,pisum sativum l. cv. azad,,,,,,,,
+2,m. recutita,triticum aestivum l,,,,,,,,
+3,pisum sativum l. cv. azad,phaseolus vulgaris l,,,,,,,,
+4,triticum aestivum l,vicia faba l,,,,,,,,
+5,phaseolus vulgaris l,phaseolusvulgaris l,,,,,,,,
+6,vicia faba l,,,,,,,,,
+7,phaseolusvulgaris l,,,,,,,,,

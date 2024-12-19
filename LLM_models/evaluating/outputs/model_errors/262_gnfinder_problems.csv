@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aspergyllus flavus,aspergyllus flavus,dindica,,,,,,,
+1,aspergillus nominus,aspergillus nominus,odreduvanjetona aflatoksini,,,,,,,
+2,aspergillus flavus,aspergillus flavus,irena1,,,,,,,
+3,aspergillus tamaril,aspergillus,roberta1,,,,,,,

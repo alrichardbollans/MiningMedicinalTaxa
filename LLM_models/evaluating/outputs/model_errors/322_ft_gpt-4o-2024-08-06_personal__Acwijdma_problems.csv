@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,rhodiola rosea l,rhodiola rosea l,,b. serrata,rhodiola rosea l_weakness,,r. rosea_aging-induced mildcognitive disorders,rhodiola rosea l_learning,rhodiola rosea l_neuroprotective activity,rhodiola rosea l_adaptogenic
+1,r. rosea,r. rosea,,commiphoramukul,rhodiola rosea l_neurodegenerative disorders,,,rhodiola rosea l_stimulatingeffect on the cns,r. rosea_neuroprotective activity,r. rosea_stimulating
+2,rhodiola rosea,rhodiola,,commiphora wightii,rhodiola rosea l_fatigue,,,rhodiola rosea l_memory,rhodiola_neurotropic,
+3,rhodiola,r. sachalinensis,,rhodiolarosea l,rhodiola rosea l_stress- and age-related impairments of cognitivefunctions and mental disorders,,,rhodiola rosea l_attention,rhodiola_stress-protective,
+4,r. sachalinensis,,,sedum rhodiola - dc,rhodiola rosea l_alzheimer's disease,,,rhodiola rosea l_cognitive functions,rhodiola_stimulating,
+5,,,,sedumrosea - (l.) scop,,,,r. rosea_learning,,
+6,,,,,,,,r. rosea_stimulatingeffect on the cns,,
+7,,,,,,,,r. rosea_memory,,
+8,,,,,,,,r. rosea_attention,,
+9,,,,,,,,r. rosea_cognitive functions,,

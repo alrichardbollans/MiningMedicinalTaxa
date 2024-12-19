@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,capsicum annuum,capsicum annuum l,,capsicum chinense,trifolium pratense_menopause,capsicum annuum l_cancer,,trifolium pratense_estrogenic,capsicum annuum l_anti-metastatic,capsicum chinense_antioxidant
+1,"capsicum annuum l., ssp. microcar-pum longum conoides, convar. horgoshka",trifolium pratense,,,,,,,capsicum annuum l_apoptotic,
+2,capsicum,,,,,,,,capsicum annuum l_anti-proliferative,
+3,trifolium pratense,,,,,,,,capsicum annuum l_cytotoxic,
+4,trifolium pratense extractum siccum,,,,,,,,,

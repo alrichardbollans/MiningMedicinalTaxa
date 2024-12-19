@@ -1,0 +1,62 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,pulsatilla patens,pulsatilla,silesian,matricariachamomilla,,,pulsatilla patens_skin disorders,,,thymus serpyllum_gum strengthening
+1,centaurea cyanus,centaurea cyanus,petrova,piceaalba,,,centaurea cyanus_skin disorders,,,thymus serpyllum_wound healing
+2,ruta graveolens,ruta graveolens,comfrey root(symphytum officinale,beta vulgaris,,,ruta graveolens_skin disorders,,,thymus serpyllum_destroy thescurvy impurities
+3,vinca minor,vinca minor,fbranca ursina,pulsatillavulgaris,,,vinca minor_skin disorders,,,sedum acre_emetic
+4,sorbus aucuparia,sorbus aucuparia,tsibulia pora,schoenusnigricans,,,vinca minor_cataracts,,,sedum acre_relaxant
+5,thymus serpyllum,thymus serpyllum,,plantagomaior,,,vinca minor_skindisorders,,,sedum maximum_ulcers
+6,silybum marianum,silybum,,daphne mezereum,,,thymus serpyllum_osteomyelitis,,,sedum_wound healing
+7,anthemis arvensis,anthemis arvensis,,levisticumofficinale,,,artemisia absinthium_osteomyelitis,,,sorbus arranensis_antimicrobial
+8,artemisia absinthium,artemisia absinthium,,stachyspalustris,,,matricariachamomilla_osteomyelitis,,,achillea millefolium_wound healing
+9,populus tremula,populus,,matricaria chamomilla,,,anthemis arvensis_osteomyelitis,,,plantagomaior_wound healing
+10,papaver rhoeas,papaver rhoeas,,napellus,,,populus tremula_osteomyelitis,,,salvia officinalis_wound healing
+11,ocimum basilicum,ocimum basilicum,,calamus,,,populus tremula_skindisorders,,,
+12,alliaria petiolata,alliaria,,,,,silybum marianum_osteomyelitis,,,
+13,symphytum officinale,symphytum,,,,,piceaalba_osteomyelitis,,,
+14,achillea millefolium,achillea millefolium,,,,,picea abies_syphilis,,,
+15,achillea millefolium l,viscum album,,,,,allium cepa_abscess,,,
+16,viscum album,allium cepa,,,,,beta vulgaris_ringworm,,,
+17,allium cepa,picea abies,,,,,pulsatillavulgaris_polish plait,,,
+18,allium cepa l,gentiana,,,,,pulsatillavulgaris_plica polonica,,,
+19,allium,sedum acre,,,,,gentiana lutea_cholera,,,
+20,picea abies,sedum maximum,,,,,schoenusnigricans_burn wounds,,,
+21,gentiana lutea,sedum,,,,,sedum acre_urinary tract diseases,,,
+22,sedum acre,carlina acaulis,,,,,sedum acre_heel pain,,,
+23,sedum,viburnum opulus,,,,,sedum acre_ulcers,,,
+24,sedum maximum,sorbus arranensis,,,,,sedum acre_earache,,,
+25,carlina acaulis,allium sativum,,,,,sedum maximum_bruises,,,
+26,viburnum opulus,hypericum perforatum,,,,,sedum maximum_wounds,,,
+27,sorbus arranensis,juniperus communis,,,,,sedum maximum_edema,,,
+28,allium sativum,tussilago,,,,,carlina acaulis_colic,,,
+29,allium sativum l,salvia officinalis,,,,,carlina acaulis_ulcers,,,
+30,hypericum perforatum,senna alexandrina,,,,,carlina acaulis_kidney and bladder disease,,,
+31,juniperus communis,castanea sativa,,,,,carlina acaulis_stitching pain,,,
+32,tussilago farfara,frangula alnus,,,,,achillea millefolium_wounds,,,
+33,salvia officinalis,silybum marianum,,,,,achillea millefolium_cut wounds,,,
+34,senna alexandrina,acanthus mollis,,,,,plantagomaior_wounds,,,
+35,senna,acer pseudoplatanus,,,,,salvia officinalis_wounds,,,
+36,castanea sativa,aconitum lycoctonum,,,,,symphytum officinale_wounds,,,
+37,frangula alnus,acorus calamus,,,,,,,,
+38,acanthus mollis l,adiantum capillus-veneris,,,,,,,,
+39,acer pseudoplatanus l,agrimonia eupatoria,,,,,,,,
+40,aconitum lycoctonum l,agrostemma githago,,,,,,,,
+41,acorus,allium ampeloprasum,,,,,,,,
+42,acorus calamus l,cepa,,,,,,,,
+43,adiantum capillus-veneris l,althaea officinalis,,,,,,,,
+44,agrimonia,ammi majus,,,,,,,,
+45,agrimonia eupatoria l,ammi,,,,,,,,
+46,agrostemma githago l,anagallis arvensis,,,,,,,,
+47,allium ampeloprasum l,anchusa azurea,,,,,,,,
+48,cepa,anchusa,,,,,,,,
+49,althaea,anchusa officinalis,,,,,,,,
+50,althaea officinalis l,anethum,,,,,,,,
+51,ammi majus l,anethum graveolens,,,,,,,,
+52,anagallis arvensis l,anthemis cotula,,,,,,,,
+53,anchusa azurea p.mill,anthriscus cerefolium,,,,,,,,
+54,anchusa,anthriscus sylvestris,,,,,,,,
+55,anchusa officinalis l,,,,,,,,,
+56,anethum graveolens l,,,,,,,,,
+57,anethum,,,,,,,,,
+58,anthemis cotula l,,,,,,,,,
+59,anthriscus cerefolium hoff,,,,,,,,,
+60,anthriscus sylvestris hoff,,,,,,,,,

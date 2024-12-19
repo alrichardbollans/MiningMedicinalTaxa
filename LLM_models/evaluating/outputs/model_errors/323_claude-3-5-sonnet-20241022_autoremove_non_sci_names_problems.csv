@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,rhodiola,rhodiola rosea,,,rhodiola rosea_stress,,rhodiola_chronicfatigue,,rhodiola rosea_stimulating,rhodiola_antidepressant
+1,rhodiola rosea,,,,rhodiola rosea_fatigue,,,,rhodiola rosea_booster of mental activity,rhodiola rosea_antiviral
+2,rhodiola rosea l,,,,rhodiola rosea_major depressive disorder,,,,,rhodiola rosea_stimulants of the central nervous system
+3,r. rosea,,,,rhodiola rosea_mild depression,,,,,rhodiola rosea l_antidepressant
+4,,,,,rhodiola rosea_chronic fatigue,,,,,

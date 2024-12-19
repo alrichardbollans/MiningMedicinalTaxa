@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,cancer treatment,hunteria umbellata k. schum,,antibody-based approaches_non-hodgkin lymphoma,hunteria umbellata k. schum_acute and chronic inflammation,,cancer treatment_clinical benefit,hunteria umbellata k. schum_anti-inflammatory
+1,,,antibody-based approaches,,,111in-dtpa-human epidermal growth factor_breast cancer,,,inflammatory cells_inflammation,
+2,,,111in-dtpa-human epidermal growth factor,,,,,,irri-tation of the airway_dizziness,
+3,,,inflammatory cells,,,,,,organic solvent_inflammation,
+4,,,irri-tation of the airway,,,,,,organic solvent_skin irritants,
+5,,,organic solvent,,,,,,co recovery_toxicity,
+6,,,co recovery,,,,,,exposure to volatile organic compounds_airway inflammatory,
+7,,,exposure to volatile organic compounds,,,,,,free radicals_antioxidants,
+8,,,free radicals,,,,,,free radicals_cellular damage,
+9,,,biomolecules,,,,,,biomolecules_oxida-tive destruction,

@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,steviol,morinda citrifolia,,,morinda citrifolia_constipation,,steviol_developmental toxicity,
+1,,,allergenicity,stevia rebaudiana bertoni,,,morinda citrifolia_cuts,,allergenicity_allergy,
+2,,,member state opinion,canarium indicum linne,,,morinda citrifolia_diarrhoea,,member state opinion_fi nal outcome,
+3,,,,morinda citrifolia l,,,morinda citrifolia_fungal infections,,,
+4,,,,stevia rebaudiana beroni,,,morinda citrifolia_infl ammations,,,
+5,,,,stevia,,,,,,
+6,,,,morinda,,,,,,

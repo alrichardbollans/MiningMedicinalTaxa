@@ -1,0 +1,19 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,olea europaea,olea europaea,pistacia vera,vitus vinifera,olea europaea_arthritis,pistacia vera_cholesterol,olea europaea_eczema,piper betle_digestion,pistacia vera_general health,spinacia oleracea_blood
+1,piper betle,piper betle,vitis vinifera,pistaci vera,olea europaea_ear infections,,ficus religiosa_wounds,ficus religiosa_liver health,mentha arvensis_digestion,spinacia oleracea_internal strength
+2,spinacia oleracea,spinacia oleracea,,asparagus,olea europaea_skin conditions,,mentha arvensis_indigestion,ficus religiosa_digestion,mentha arvensis_indigestion,spinacia oleracea_source of iron
+3,ficus religiosa,ficus religiosa,,,ficus religiosa_diarrhoea,,vitus vinifera_cough,annona reticulata_immune boosting properties,vitis vinifera_blood purifier,vitus vinifera_blood purifier
+4,mentha arvensis,mentha arvensis,,,annona reticulata_cancer,,,foeniculum vulgare_digestion,vitis vinifera_cough,pistaci vera_cholesterol
+5,annona reticulata,annona reticulata,,,annona reticulata_diarrhoea,,,areca catechu_stimulant,areca catechu_digestion,pistaci vera_general health
+6,brassica juncea,brassica juncea,,,brassica juncea_pain,,,laurus nobilis_digestion,,
+7,foeniculum vulgare,foeniculum vulgare,,,brassica juncea_dry skin,,,sesamum indicum_warms blood,,
+8,areca catechu,areca catechu,,,foeniculum vulgare_constipation,,,sesamum indicum_reduce urinary frequency,,
+9,laurus nobilis,laurus nobilis,,,foeniculum vulgare_cough,,,sesamum indicum_improves circulation,,
+10,sesamum indicum,sesamum indicum,,,foeniculum vulgare_bloating,,,coriandrum sativum_digestion,,
+11,ajuga bracteosa,ajuga bracteosa,,,laurus nobilis_diabetes,,,ocimum tenuiflorum_antibacterial,,
+12,coriandrum sativum,coriandrum sativum,,,ajuga bracteosa_menstrual problems,,,,,
+13,ocimum tenuiflorum,ocimum tenuiflorum,,,ajuga bracteosa_gout,,,,,
+14,ocimum,,,,coriandrum sativum_diabetes,,,,,
+15,,,,,ocimum tenuiflorum_diabetes,,,,,
+16,,,,,ocimum tenuiflorum_coughs and colds,,,,,
+17,,,,,ocimum tenuiflorum_asthma,,,,,

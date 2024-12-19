@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,,cinchona spp,,,cinchona spp_malaria,,,
+1,,,,rauvolfia serpentina,,,rauvolfia serpentina_schizophrenia,,,
+2,,,,penicillium notatum,,,rauvolfia serpentina_hypertension,,,
+3,,,,physostigma venenosum,,,penicillium notatum_bacterial infections,,,
+4,,,,cassia,,,,,,
+5,,,,derrisspp,,,,,,
+6,,,,atropabelladonna,,,,,,
+7,,,,capsicum,,,,,,
+8,,,,solanum spp,,,,,,
+9,,,,strychnos nux-vomica,,,,,,
+10,,,,citrus,,,,,,
+11,,,,cannabis sativa,,,,,,

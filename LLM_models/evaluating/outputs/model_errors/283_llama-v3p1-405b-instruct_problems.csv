@@ -1,0 +1,26 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,sideritis,sideritis scardica,,sideritis l,,sideritis scardica_bronchitis,sideritis l_sore throat,sideritis scardica_antioxidant,sideritis scardica_anti-inflammatory,sideritis l_anti inflammatory
+1,s. scardica,sideritis raeseri,,sideritis javalambrensis,,sideritis scardica_sore throat,sideritis l_diuretic,sideritis raeseri_antioxidant,sideritis scardica_diuretic,sideritis l_anti-ulcer
+2,sideritis raeseri,sideritis taurica,,h. uniglandulosum,,sideritis scardica_common colds,sideritis l_bronchitis,sideritis taurica_antioxidant,sideritis scardica_anti-ulcer,sideritis javalambrensis_antioxidant
+3,s. raeseri,sideritis syriaca,,h. scabroides,,sideritis scardica_flu,sideritis l_common colds,sideritis syriaca_antioxidant,sideritis raeseri_anti-inflammatory,
+4,s. taurica,sideritis perfoliata,,h. kotschyanum,,sideritis scardica_gastrointestinal ailments,sideritis l_gastrointestinalailments,sideritis perfoliata_antioxidant,sideritis raeseri_diuretic,
+5,s. syriaca,,,h. salsugineum,,sideritis raeseri_bronchitis,sideritis l_flu,,sideritis raeseri_anti-ulcer,
+6,s. perfoliata,,,h. thymopsis,,sideritis raeseri_sore throat,,,sideritis taurica_anti-inflammatory,
+7,,,,hypericum,,sideritis raeseri_common colds,,,sideritis taurica_diuretic,
+8,,,,hypericum thymopsis boiss,,sideritis raeseri_flu,,,sideritis taurica_anti-ulcer,
+9,,,,h. fasciculatum lam.alliance,,sideritis raeseri_gastrointestinal ailments,,,sideritis syriaca_anti-inflammatory,
+10,,,,s. tau-rica,,sideritis taurica_bronchitis,,,sideritis syriaca_diuretic,
+11,,,,s.raeseri,,sideritis taurica_sore throat,,,sideritis syriaca_anti-ulcer,
+12,,,,,,sideritis taurica_common colds,,,sideritis perfoliata_anti-inflammatory,
+13,,,,,,sideritis taurica_flu,,,sideritis perfoliata_diuretic,
+14,,,,,,sideritis taurica_gastrointestinal ailments,,,sideritis perfoliata_anti-ulcer,
+15,,,,,,sideritis syriaca_bronchitis,,,,
+16,,,,,,sideritis syriaca_sore throat,,,,
+17,,,,,,sideritis syriaca_common colds,,,,
+18,,,,,,sideritis syriaca_flu,,,,
+19,,,,,,sideritis syriaca_gastrointestinal ailments,,,,
+20,,,,,,sideritis perfoliata_bronchitis,,,,
+21,,,,,,sideritis perfoliata_sore throat,,,,
+22,,,,,,sideritis perfoliata_common colds,,,,
+23,,,,,,sideritis perfoliata_flu,,,,
+24,,,,,,sideritis perfoliata_gastrointestinal ailments,,,,

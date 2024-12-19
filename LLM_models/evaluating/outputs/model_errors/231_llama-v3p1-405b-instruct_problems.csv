@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,h. empetrifolium,hypericum empetrifolium,allium hookeri,hypericum spp,hypericum empetrifolium_wounds,allium hookeri_metabolic syndrome,hypericum spp_wound-healing,,hypericum empetrifolium_wound-healing,hypericum spp_wound-healing
+1,laurus nobilis l,laurus nobilis l,rosmarinus officinalis,hypericum l,hypericum empetrifolium_skin inflammations,rosmarinus officinalis_neurodegenerative diseases,h. empetrifolium_wound-healing,,allium hookeri_regulation of glutathione biosynthesis,hypericum spp_wound healing
+2,,,vaccinium spp,h. amblycalyx,,,h. amblycalyx_wound-healing,,rosmarinus officinalis_antioxidant,hypericum l_antioxidant
+3,,,vitis spp,h. jovis,,,h. jovis_wound-healing,,rosmarinus officinalis_neuroprotective,hypericum l_antiangiogenetic
+4,,,,h. perforatum,,,h. perforatum_wound-healing,,rosmarinus officinalis_anti-inflammatory,hypericum l_gastroprotective
+5,,,,h. triquetrifolium,,,h. triquetrifolium_wound-healing,,vaccinium spp_antioxidant,h. empetrifolium_wound healing
+6,,,,,,,,,vaccinium spp_neuroprotective,
+7,,,,,,,,,vaccinium spp_anti-inflammatory,
+8,,,,,,,,,vitis spp_antioxidant,
+9,,,,,,,,,vitis spp_neuroprotective,
+10,,,,,,,,,vitis spp_anti-inflammatory,

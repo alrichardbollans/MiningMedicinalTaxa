@@ -1,0 +1,7 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,lavandula angustifolia mill,lavandula angustifolia mill,,,,lavandula angustifolia mill_anxiety,,melissa officinalis_sedative,lavandula angustifolia mill_antidepressant,citrus_anxiolytic-like
+1,cananga odorata,cananga odorata,,,,lavandula angustifolia mill_stress,,,lavandula angustifolia mill_nerve-calming,citrus aurantifolia_anxiolytic-like
+2,eugenia uniflora,eugenia uniflora,,,,lavandula angustifolia mill_sleep disorders,,,lavandula angustifolia mill_anti-agitation,
+3,melissa officinalis,melissa officinalis,,,,,,,cananga odorata_anxiolytic,
+4,citrus,citrus aurantifolia,,,,,,,eugenia uniflora_antidepressant,
+5,citrus aurantifolia,,,,,,,,citrus aurantifolia_anxiolytic,

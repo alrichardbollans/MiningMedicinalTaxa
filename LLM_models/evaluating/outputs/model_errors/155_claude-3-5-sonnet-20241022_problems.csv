@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hypericum perforatum,hypericum perforatum,,,hypericum perforatum_burns,,hypericum perforatum_illnesses of the imagination,hypericum perforatum_diuretic,,hypericum perforatum_curing demoniacs
+1,,,,,hypericum perforatum_anxiety,,hypericum perforatum_disturbances of understanding,,,
+2,,,,,hypericum perforatum_depression,,hypericum perforatum_phantasmata,,,
+3,,,,,hypericum perforatum_snakebites,,hypericum perforatum_parasites,,,
+4,,,,,hypericum perforatum_melancholia,,hypericum perforatum_wounds,,,

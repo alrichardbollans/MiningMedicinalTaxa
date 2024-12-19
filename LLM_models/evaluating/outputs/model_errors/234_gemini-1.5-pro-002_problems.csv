@@ -1,0 +1,15 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,linum usitatissimum,linum usitatissimum,staphylococcus aureus,p. zombamontana,,staphylococcus aureus_mastitic,syzygium legatii_mastitis,,staphylococcus aureus_anti-staphylococcal,p. zombamontana_anti-inflammatory
+1,cannabis sativa,cannabis sativa,cattle,eugenia,,staphylococcus aureus_mastitis,s. gerrardii_mastitis,,staphylococcus aureus_antibacterial,p. zombamontana_antioxidant
+2,cannabis,lupinus albus,,syzygium,,staphylococcus aureus_subclinical mastitis,,,cattle_antibacterial,p. zombamontana_cytotoxicity
+3,lupinus albus,,,syzygium legatii,,cattle_mastitic,,,linum usitatissimum_enrichment of the milk nutritional profile,p. zombamontana_protecting poultry against infection
+4,,,,s. gerrardii,,linum usitatissimum_chronic diseases,,,cannabis sativa_enrichment of the milk nutritional profile,eugenia_cytotoxicity
+5,,,,syzygium gerrardii,,linum usitatissimum_cardiovascular disease,,,lupinus albus_enrichment of the milk nutritional profile,eugenia_against staphylococcus aureus
+6,,,,,,linum usitatissimum_cancer,,,,eugenia_antibacterial
+7,,,,,,cannabis sativa_chronic diseases,,,,syzygium_against staphylococcus aureus
+8,,,,,,cannabis sativa_cardiovascular disease,,,,syzygium_antibacterial
+9,,,,,,cannabis sativa_cancer,,,,syzygium legatii_antibacterial
+10,,,,,,lupinus albus_chronic diseases,,,,syzygium legatii_anti-staphylococcal
+11,,,,,,lupinus albus_cardiovascular disease,,,,s. gerrardii_antibacterial
+12,,,,,,lupinus albus_cancer,,,,s. gerrardii_anti-staphylococcal
+13,,,,,,,,,,syzygium gerrardii_higher toxicity to bacteria

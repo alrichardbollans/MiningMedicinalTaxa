@@ -1,0 +1,28 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hypericum empetrifolium,hypericum,medica,mandragora,,,hypericum empetrifolium_psoriasis,,,hypericum empetrifolium_wound healing
+1,hypericum,hypericum empetrifolium,greecepaliurus spina-christi,solanum,,,paliurus spina-christi mill_gastrointestinal pain,,,hypericum empetrifolium_therapeutic
+2,lavandula stoechas,lavandula stoechas,,datura,,,p. spina-christi_type ii diabetes,,,hypericum empetrifolium_antioxidant
+3,micromeria juliana,micromeria juliana,,,,,satureia thymbra_hernias,,,momordica charantia l_wound healing
+4,mentha piperita,mentha piperita,,,,,satureia thymbra_griping,,,paliurus spina-christi mill_palliative
+5,m. piperita,mentha spicata,,,,,satureia thymbra_difficulty to digest,,,paliurus spina-christi mill_diuretic
+6,mentha spicata,salvia fruticosa,,,,,satureia thymbra_convulsions,,,paliurus spina-christi_antidiabetic
+7,m. spicata,satureja thymbra,,,,,satureia thymbra_movement of winds,,,
+8,salvia fruticosa,coridothymus capitatus,,,,,satureia thymbra_pains of the side,,,
+9,satureja thymbra,thymus vulgaris,,,,,thymus tragoriganum_hernias,,,
+10,coridothymus capitatus,mentha,,,,,thymus tragoriganum_griping,,,
+11,thymus vulgaris,m. spicata,,,,,thymus tragoriganum_difficulty to digest,,,
+12,matricaria chamomilla l,m. piperita,,,,,thymus tragoriganum_convulsions,,,
+13,momordica charantia l,matricaria chamomilla,,,,,thymus tragoriganum_movement of winds,,,
+14,paliurus spina-christi mill,momordica charantia,,,,,thymus tragoriganum_pains of the side,,,
+15,p. spina-christi,paliurus spina-christi,,,,,thymus graveolens_hernias,,,
+16,paliurus spina-christi,p. spina-christi,,,,,thymus graveolens_griping,,,
+17,paliurus aculeatus lamk,paliurus aculeatus,,,,,thymus graveolens_difficulty to digest,,,
+18,satureia thymbra,paliurus,,,,,thymus graveolens_convulsions,,,
+19,thymus tragoriganum,satureia thymbra,,,,,thymus graveolens_movement of winds,,,
+20,thymus graveolens,thymus tragoriganum,,,,,thymus graveolens_pains of the side,,,
+21,micromeria thymbra,thymus graveolens,,,,,micromeria thymbra_hernias,,,
+22,,micromeria thymbra,,,,,micromeria thymbra_griping,,,
+23,,s. thymbra,,,,,micromeria thymbra_difficulty to digest,,,
+24,,,,,,,micromeria thymbra_convulsions,,,
+25,,,,,,,micromeria thymbra_movement of winds,,,
+26,,,,,,,micromeria thymbra_pains of the side,,,

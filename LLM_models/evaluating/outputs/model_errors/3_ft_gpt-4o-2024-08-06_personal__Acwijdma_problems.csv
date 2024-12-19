@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,artemisia annua,artemisia annua,,,,,,artemisia annua_antimalarial,,
+1,camptothecaacuminata,camptothecaacuminata,,,,,,camptothecaacuminata_antineoplastic,,
+2,erythroxylum coca,erythroxylum coca,,,,,,erythroxylum coca_local anasthetic,,
+3,papaver somniferum,papaver somniferum,,,,,,papaver somniferum_analgesic,,
+4,digitalis spp,digitalis spp,,,,,,papaver somniferum_antitussive,,
+5,cinchona spp,cinchona spp,,,,,,digitalis spp_cardiotonic,,
+6,rauwolfia serpentina,rauwolfia serpentina,,,,,,cinchona spp_antimalarial,,
+7,cassia angustifolia,cassia angustifolia,,,,,,rauwolfia serpentina_antihypertensive,,
+8,taxus hrevifolia,taxus hrevifolia,,,,,,cassia angustifolia_laxative,,
+9,t. hacata,t. hacata,,,,,,taxus hrevifolia_antineoplastic,,
+10,catharanthus roseus,catharanthus roseus,,,,,,t. hacata_antineoplastic,,
+11,,,,,,,,catharanthus roseus_antineoplastic,,

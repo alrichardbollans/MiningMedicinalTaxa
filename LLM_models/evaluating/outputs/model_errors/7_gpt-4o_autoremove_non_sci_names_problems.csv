@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,teuchrium chamaedrys,teuchrium chamaedrys,,vicia faba,,,,andrographis paniculata_anti-hepatotoxic,,a. paniculata_hepatoprotective
+1,t. chamaedrys,helminthosporium dematioideum,,,,,,,,
+2,helminthosporium dematioideum,andrographis paniculata,,,,,,,,
+3,a. paniculata,,,,,,,,,

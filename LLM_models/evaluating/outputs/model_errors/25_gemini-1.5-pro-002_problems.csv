@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aloe vera,aloe vera,ajwain,,aloe vera_itchy skin,ajwain_flatulence,aloe vera_wounds,,ajwain_pain relief,
+1,,,triphala,,,ajwain_gastro-intestinal ailments,,,ajwain_anti-spasmodic,
+2,,,turmeric,,,ajwain_diarrhoea,,,ajwain_laxative,
+3,,,neem,,,ajwain_indigestion,,,ajwain_digestive aid,
+4,,,,,,triphala_indigestion,,,triphala_digestive aid,
+5,,,,,,turmeric_wounds,,,turmeric_anti-inflammatory,
+6,,,,,,neem_wounds,,,turmeric_antimicrobial,
+7,,,,,,,,,aloe vera_moisturise,
+8,,,,,,,,,neem_none,

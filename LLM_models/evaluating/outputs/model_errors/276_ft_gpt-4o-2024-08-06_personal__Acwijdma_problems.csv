@@ -1,0 +1,17 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,a. alba,a. alba,,artemisia,capsicum_muscle pain,,,,,capsicum_therapeutic
+1,a. alba turra,a. alba turra,,g.paniculata,capsicum_peripherial painful diseases,,,,,
+2,capsicum,capsicum,,g. trichotoma,capsicum_diabetic neuropathy,,,,,
+3,capsicum spp,gypsophila,,g. glomerata,capsicum_rheumatoid arthritis,,,,,
+4,gypsophila species,g. paniculata,,g.scorzonerifolia,,,,,,
+5,gypsophila,g.trichotoma,,g.elegans,,,,,,
+6,gypsophila paniculata l,c. glomerata,,,,,,,,
+7,g. paniculata,g. elegans,,,,,,,,
+8,g.trichotoma,g. scorzonerifolia,,,,,,,,
+9,c. glomerata,g. viscosa,,,,,,,,
+10,g. elegans,gypsophilatrichotoma wend,,,,,,,,
+11,g. scorzonerifolia,gypsophila pacifica kom,,,,,,,,
+12,g. viscosa,gypsophila paniculata l,,,,,,,,
+13,gypsophilatrichotoma wend,saponaria officinalis,,,,,,,,
+14,saponaria officinalis,gypsophilapaniculata,,,,,,,,
+15,gypsophilapaniculata,,,,,,,,,

@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,boerhaavia diffusa,boerhaavia diffusa,"bryonia dioica,solanum dulcamara",boerhaaviadiffusa,,,boerhaavia diffusa_nephritis,,,boerhaavia diffusa_laxative
+1,b. diffusa,b. diffusa,,solanum dulcamara,,,boerhaavia diffusa_cystitis,,,b. diffusa_spas-molytic
+2,boerhaavia diffusa l,arthemisia absinthium,,conium,,,boerhaavia diffusa_jaundice,,,b. diffusa_antioxidant
+3,arthemisia absinthium l,aconitum,,asarum europaeum,,,boerhaavia diffusa_gastro-intestinal,,,boerhaaviadiffusa_spasmolytic
+4,aconitum sp,strychnos nux-vomica,,pulsatila vulgarismill,,,boerhaavia diffusa_kidney problems,,,
+5,strychnos nux-vomica,colchicum autumnale,,,,,boerhaavia diffusa_anemia,,,
+6,colchicum autumnale,datura stramonium,,,,,boerhaavia diffusa_liverdisorders,,,
+7,datura stramonium,claviceps purpurea,,,,,boerhaavia diffusa_menstrualsyndrome,,,
+8,claviceps purpurea,veratrum album,,,,,boerhaavia diffusa_stones,,,
+9,veratrum album,bryonia dioica,,,,,boerhaavia diffusa_hepatitis,,,
+10,bryonia dioica,bryonia,,,,,b. diffusa_gastrointestinal diseases,,,
+11,,,,,,,b. diffusa_gastrointestinal disorders,,,

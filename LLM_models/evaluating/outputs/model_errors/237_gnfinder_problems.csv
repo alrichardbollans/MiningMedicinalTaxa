@@ -1,0 +1,16 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,c. maritimum,crithmum maritimum,apiaceae,,,,,,,calendula officinalis_antioxidant
+1,crithmum maritimum,c. maritimum,sparus aurata,,,,,,,aloysia citrodora_antioxidant
+2,calendula officinalis,calendula,alexandri1,,,,,,,melissa officinalis_antioxidant
+3,calendula,calendula officinalis,agia,,,,,,,achillea millefolium_antioxidant
+4,aloysia citrodora,aloysia citrodora,officinalis,,,,,,,althaea officinalis_antioxidant
+5,melissa officinalis,melissa officinalis,,,,,,,,pyrus spinosa forskk_antioxidant
+6,achillea millefolium,achillea,,,,,,,,
+7,achillea,achillea millefolium,,,,,,,,
+8,althaea officinalis,althaea,,,,,,,,
+9,althaea,althaea officinalis,,,,,,,,
+10,pyrus spinosa forskk,pyrus spinosa,,,,,,,,
+11,pyrus spinosa,silybum marianum,,,,,,,,
+12,silybum marianum (l.) gaertn,rosmarinus officinalis,,,,,,,,
+13,rosmarinus officinalis l,rosmarinus,,,,,,,,
+14,rosmarinus officinalis,,,,,,,,,

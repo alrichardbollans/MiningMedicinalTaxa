@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,echinacea angustifolia dc,echinacea angustifolia dc,ricinus communis,aloe vera,echinacea angustifolia dc_infections,cinchona officinalis l_fever,aloe vera_skin heath,boswellia serrate roxb. ex colebr_anti-inflammatory,ricinus communis_purgative,echinacea_maintain immune system
+1,echinacea,boswellia serrate roxb. ex colebr,cinchona officinalis l,mentha,echinacea angustifolia dc_common cold,cinchona officinalis l_malaria,aloe vera_wound,althaea officinalis l_demulcent,panax ginseng c.a.mey_enhancement of physical performance,mentha_calm nerves
+2,boswellia serrate roxb. ex colebr,althaea officinalis l,panax ginseng c.a.mey,ginkgo,,cinchona officinalis l_infectious-disease,aloe vera_eczema,,papaver somniferum l_vasodilation,mentha_eases digestion
+3,boswellia,,papaver somniferum l,agnus castus,,panax ginseng c.a.mey_tiredness,aloe vera_skin conditions,,papaver somniferum l_pain relief,ginkgo_circulatory problems
+4,althaea officinalis l,,,senna,,papaver somniferum l_hypertension,echinacea_sore throat,,,althaea officinalis l_cough
+5,,,,rhodiola,,boswellia serrate roxb. ex colebr_arthritis,echinacea_colds,,,
+6,,,,aspergillus,,althaea officinalis l_cough,echinacea_coughs,,,
+7,,,,trachyspermum ammi,,,agnus castus_pms symptoms,,,
+8,,,,eucalyptus,,,senna_constipation,,,

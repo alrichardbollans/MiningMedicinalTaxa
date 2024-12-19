@@ -1,0 +1,16 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,pinus peuce,pinus peuce,activityof pinus peuce,gingko,,,,,,gingko_antiaggregatory
+1,candida albicans,candida albicans,"stahylococcus epidermidis,streptococcus pneumoniae",melaleuca alternifolia,,,,,,pinus peuce_antimi-crobial
+2,candidia sp,candidia,streptococcus agalactiae,,,,,,,pinus peuce_antimicrobial
+3,pinus caribaea,pinus caribaea,streptococ-cus pyogenes,,,,,,,pinus densiflora s. and z_antibacterial
+4,pinus densiflora s. and z,pinus densiflora,escherichia coli,,,,,,,pinus caribaea_antibacter-ial
+5,,,salmonella,,,,,,,
+6,,,pseudomonas aeruginosa,,,,,,,
+7,,,haemophylus influenzae,,,,,,,
+8,,,proteus mirabilis,,,,,,,
+9,,,staphylococcus aureus,,,,,,,
+10,,,staphylococ-cus epidermidis,,,,,,,
+11,,,strepto-coccus pyogenes,,,,,,,
+12,,,helicobacter pylori,,,,,,,
+13,,,molika(pinus peuce griseb,,,,,,,
+14,,,svetlana,,,,,,,

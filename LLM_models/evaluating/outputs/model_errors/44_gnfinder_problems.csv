@@ -1,0 +1,24 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,olea europaea,olea europaea,pista,pistaci vera,,,olea europaea_arthritis,,,spinacia oleracea_internal strength
+1,piper betle,piper betle,saron,asparagus,,,olea europaea_ear infections,,,spinacia oleracea_blood
+2,spinacia oleracea,spinacia oleracea,thora,,,,olea europaea_eczema,,,spinacia oleracea_source of iron
+3,ficus religiosa,ficus religiosa,thunia,,,,olea europaea_skin conditions,,,ficus religiosa_liver health
+4,mentha arvensis,mentha arvensis,amrat dhara,,,,ficus religiosa_wounds,,,ficus religiosa_digestion
+5,annona reticulata,annona reticulata,ganga,,,,ficus religiosa_diarrhoea,,,annona reticulata_immune boosting
+6,brassica juncea,brassica juncea,katha,,,,mentha arvensis_indigestion,,,foeniculum vulgare_digestion
+7,foeniculum vulgare,foeniculum vulgare,vana,,,,annona reticulata_cancer,,,vitus vinifera_blood purifier
+8,vitus vinifera,vitus vinifera,,,,,annona reticulata_diarrhoea,,,areca catechu_stimulant
+9,areca catechu,areca catechu,,,,,brassica juncea_dry skin,,,laurus nobilis_digestion
+10,laurus nobilis,laurus nobilis,,,,,brassica juncea_pain,,,sesamum indicum_warms blood
+11,sesamum indicum,sesamum indicum,,,,,foeniculum vulgare_bloating,,,sesamum indicum_improves circulation
+12,ajuga bracteosa,ajuga bracteosa,,,,,foeniculum vulgare_constipation,,,sesamum indicum_reduce urinary frequency
+13,coriandrum sativum,coriandrum sativum,,,,,foeniculum vulgare_cough,,,coriandrum sativum_digestion
+14,ocimum tenuiflorum,ocimum tenuiflorum,,,,,vitus vinifera_cough,,,ocimum tenuiflorum_antibacterial
+15,ocimum,ocimum,,,,,laurus nobilis_diabetes,,,piper betle_digestion
+16,,,,,,,ajuga bracteosa_menstrual problems,,,pistaci vera_general health
+17,,,,,,,ajuga bracteosa_gout,,,pistaci vera_cholesterol
+18,,,,,,,coriandrum sativum_diabetes,,,
+19,,,,,,,ocimum tenuiflorum_asthma,,,
+20,,,,,,,ocimum tenuiflorum_diabetes,,,
+21,,,,,,,ocimum tenuiflorum_coughs,,,
+22,,,,,,,ocimum tenuiflorum_colds,,,

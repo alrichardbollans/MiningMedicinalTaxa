@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,humulus lupulus l,cornus sanguinea l,,humulus lupulus l_cancer,,,,cornus sanguinea l_anti-inflammatory
+1,,,,elaeagnus umbellata thunb,,,,,,cornus sanguinea l_antioxidant
+2,,,,salsola soda l,,,,,,elaeagnus umbellata thunb_anti-inflammatory
+3,,,,prunus avium l,,,,,,elaeagnus umbellata thunb_antioxidant
+4,,,,e. umbellata,,,,,,salsola soda l_anti-inflammatory
+5,,,,salvia officinalis,,,,,,salsola soda l_antioxidant
+6,,,,thyumus spp,,,,,,prunus avium l_anti-inflammatory
+7,,,,rosmarinus officinalis,,,,,,prunus avium l_antioxidant
+8,,,,origanum vulgare ssp. hirtum,,,,,,e. umbellata_protective agent against oxidative stress and inflammatory stimuli in gingival tissue

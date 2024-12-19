@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,,a. laxmannii,,,,,,a. laxmannii_antifungal
+1,,,,ajuga laxmanniiin,,,,,,ajuga laxmanniiin_anti-inflammatory
+2,,,,aspergillus flavus,,,,,,
+3,,,,candida albicans,,,,,,
+4,,,,ajuga laxmannii,,,,,,
+5,,,,aspergillus niger,,,,,,
+6,,,,candida parapsilosis,,,,,,
+7,,,,penicillium funiculosum,,,,,,

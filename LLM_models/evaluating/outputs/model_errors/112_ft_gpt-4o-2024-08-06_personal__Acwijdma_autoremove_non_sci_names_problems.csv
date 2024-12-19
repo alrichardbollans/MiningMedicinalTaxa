@@ -1,0 +1,16 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,psilocybe mexicana,psilocybe mexicana,brugmansia,,,,datura_wounds,,,datura_aphrodisiac
+1,psilocybe,sophora secundiflora,,,,,datura_inflammation,,,datura_anesthetic
+2,sophora secundiflora,psilocybe,,,,,datura_bruises,,,d. inoxia_anaesthetic
+3,stropharia,stropharia,,,,,datura_asthma,,,d. meteloides_anaesthetic
+4,conocybe,conocybe,,,,,d. inoxia_wounds,,,
+5,panaeolus,panaeolus,,,,,d. inoxia_bruises,,,
+6,datura,datura stramonium,,,,,d. meteloides_wounds,,,
+7,datura stramonium,d. inoxia,,,,,d. meteloides_bruises,,,
+8,d. inoxia,d. meteloides,,,,,,,,
+9,d. meteloides,virola calophylla,,,,,,,,
+10,virola calophylla,v. calophylloidea,,,,,,,,
+11,virola,v. theiodora,,,,,,,,
+12,v. calophylloidea,anadenanthera peregrina,,,,,,,,
+13,v. theiodora,,,,,,,,,
+14,anadenanthera peregrina,,,,,,,,,

@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,polygonum aviculare,polygonum aviculare,cinchona officinalis l,aspergillus carbonarius,,cinchona officinalis l_malaria,polygonum aviculare_human breast can-cer,polygonum aviculare_anticancer,ricinus communis_purgative,polygonum aviculare_cytotoxic
+1,teucrium chamaedrys,teucrium chamaedrys,ricinus communis,teu-crium chamaedrys,,cinchona officinalis l_fever,teucrium chamaedrys_human co-lon carcinoma,teucrium chamaedrys_cytotoxic,papaver somniferum l_vasodilation,polygonum aviculare_cytotoxicity
+2,teucrium,rhamnus fran-gula,papaver somniferum l,epilobi-um parviflorum,,cinchona officinalis l_infectious-disease,,,papaver somniferum l_pain relief,teucrium_anticancer
+3,rhamnus fran-gula,quercus pedunculata,panax ginseng c.a.mey,rhamnus frangu-la,,papaver somniferum l_hypertension,,,panax ginseng c.a.mey_enhancement of physical performance,
+4,quercus pedunculata,capsella bursa-pastoris,,vis-cum album,,panax ginseng c.a.mey_tiredness,,,,
+5,capsella bursa-pastoris,epilobium parviflo-rum,,,,,,,,
+6,epilobium parviflo-rum,hypericum perforatum,,,,,,,,
+7,hypericum perforatum,viscum album,,,,,,,,
+8,viscum album,galega officinalis,,,,,,,,
+9,galega officinalis,,,,,,,,,

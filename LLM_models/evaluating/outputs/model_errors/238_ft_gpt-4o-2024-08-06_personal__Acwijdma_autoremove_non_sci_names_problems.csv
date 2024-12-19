@@ -1,0 +1,20 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,satureja,satureja,,thymus spp,satureja_muscle pain,centaurea phyllocephala boiss_diabetes,,alkanna tinctoria_wound healing,centaurea phyllocephala boiss_anti-pyretic,thymus spp_antimicrobial
+1,satureja pilosa,alkanna tinctoria,,thymbra capitata,satureja_infectious diseases,,,centaurea phyllocephala boiss_antirheumatic,centaurea phyllocephala boiss_hypotensive,thymus spp_antioxidant
+2,alkanna tinctoria,centaurea phyllocephala boiss,,thymbra spp,satureja_gastrointestinal disorders,,,centaurea phyllocephala boiss_anti-dandruff,centaurea cyanoides_emmenagogue,thymbra capitata_antibacterial
+3,a. tinctoria,centaurea cyanoides,,t. longicaulis subsp. longicaulis,satureja_cramps,,,centaurea phyllocephala boiss_antioxidant,centaurea cyanoides_diuretic,thymbra capitata_antimicrobial
+4,centaurea,centaurea cyanus,,thymus boissieri,,,,centaurea phyllocephala boiss_anti-inflammatory,centaurea cyanoides_anti-diarrheic,thymbra capitata_antioxidant
+5,centaurea phyllocephala boiss,,,t. degenii,,,,centaurea phyllocephala boiss_antidiabetic,centaurea cyanus_emmenagogue,thymbra spp_antimicrobial
+6,centaurea cyanoides,,,t. thracicus,,,,centaurea phyllocephala boiss_antibacterial,centaurea cyanus_diuretic,thymbra spp_antioxidant
+7,centaurea cyanus,,,t. sibthorpii,,,,centaurea cyanoides_anti-inflammatory,centaurea cyanus_anti-diarrheic,t. longicaulis subsp. longicaulis_antibacterial
+8,c. cyanus,,,t. striatus,,,,centaurea cyanus_anti-inflammatory,,t. longicaulis subsp. longicaulis_antioxidant
+9,,,,s. pilosa,,,,,,thymus boissieri_antibacterial
+10,,,,t. longicaulis subsp. chaubardii,,,,,,thymus boissieri_antioxidant
+11,,,,t. holosericeus,,,,,,t. degenii_antibacterial
+12,,,,t. plasonii,,,,,,t. degenii_antioxidant
+13,,,,centaurea sp,,,,,,t. thracicus_antibacterial
+14,,,,,,,,,,t. thracicus_antioxidant
+15,,,,,,,,,,t. sibthorpii_antibacterial
+16,,,,,,,,,,t. sibthorpii_antioxidant
+17,,,,,,,,,,t. striatus_antibacterial
+18,,,,,,,,,,t. striatus_antioxidant

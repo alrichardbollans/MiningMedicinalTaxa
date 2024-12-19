@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,atropa belladonna,atropa belladonna,,digitalis,,atropa belladonna_arthritis pain,capsicum spp_arthritis pain,dioscorea spp_oral contraceptives,capsicum spp_treatment of arthritis pain,
+1,capsicum spp,capsicum spp,,,,,papaver somniferum_pain,,papaver somniferum_relieve pain,
+2,papaver somniferum,papaver somniferum,,,,,papaver somniferum_coughing,,papaver somniferum_control coughing,
+3,colchicum autumnale,colchicum autumnale,,,,,dioscorea spp_inflammations,,dioscorea spp_treatinflammations,
+4,dioscorea spp,dioscorea spp,,,,,,,,
+5,erythroxylum coca,erythroxylum coca,,,,,,,,
+6,quercus suber,quercus suber,,,,,,,,
+7,chondrodendron,chondrodendron,,,,,,,,
+8,strychnos,strychnos,,,,,,,,

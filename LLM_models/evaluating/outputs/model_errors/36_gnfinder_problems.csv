@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ocimum,ocimum,shyam tulsi,,,,,,,
+1,ocimum tenuiflorum l,o. tenuiflorum,raam tulsi,,,,,,,
+2,o. tenuiflorum,o. selloi,,,,,,,,
+3,o. selloi,o. gratissimum,,,,,,,,
+4,o. gratissimum,ocimum tenuiflorum,,,,,,,,

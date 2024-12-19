@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,digitalis purpurea,digitalis purpurea,,gibberella fugikuroi,ephedra spp_asthma,claviceps purpurea_ergotism,,,digitalis purpurea_powerful effects on the heart,
+1,ephedra spp,ephedra spp,,gossypium spp,,,,,ephedra spp_dilation of bronchial tubes,
+2,claviceps purpurea,claviceps purpurea,,ginkgo,,,,,ephedra spp_enhance physical performance,
+3,,,,citrus,,,,,,

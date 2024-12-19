@@ -1,0 +1,19 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,commiphora,commiphora molmol,,inula racemosa,commiphora molmol_fascioliasis,boswellia serrata_chronic kidney disease,commiphora_chronic diseases,,,b. serrata_increased kneeflexion
+1,commiphora molmol,boswellia serrata,,b.serrata,boswellia serrata_knee osteoarthritis,,commiphora_diabetes mellitusor type 2,,,"inula racemosa_reduced levelsof total cholesterol, triglyceride, and total blood lipids"
+2,boswellia,,,curcuma longa,boswellia serrata_diabetes mellitus,,boswellia_diabetes mellitusor type 2,,,
+3,b. serrata,,,,boswellia serrata_eczema,,boswellia_chronic diseases,,,
+4,,,,,boswellia serrata_psoriasis,,boswellia_erythema,,,
+5,,,,,boswellia serrata_bronchial asthma,,boswellia_breast fibroadenomas,,,
+6,,,,,,,boswellia_inflammatory disease of therespiratory tract,,,
+7,,,,,,,boswellia_fibroadenoma,,,
+8,,,,,,,b. serrata_itch,,,
+9,,,,,,,b. serrata_erythema,,,
+10,,,,,,,b. serrata_kneepain,,,
+11,,,,,,,b. serrata_swelling of the knee joint,,,
+12,,,,,,,b. serrata_scales,,,
+13,,,,,,,b.serrata_inflammation,,,
+14,,,,,,,b.serrata_ckd,,,
+15,,,,,,,curcuma longa_inflammation,,,
+16,,,,,,,curcuma longa_ckd,,,
+17,,,,,,,commiphora molmol_parasitic worm infection,,,

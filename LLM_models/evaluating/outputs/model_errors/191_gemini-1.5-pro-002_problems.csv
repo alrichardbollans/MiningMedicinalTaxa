@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aspergillus flavus,aspergillus flavus,,,,aspergillus flavus_toxic hepatitis,,,,
+1,aspergillus parasiticus,aspergillus parasiticus,,,,aspergillus flavus_liver cancer,,,,
+2,,,,,,aspergillus parasiticus_toxic hepatitis,,,,
+3,,,,,,aspergillus parasiticus_liver cancer,,,,

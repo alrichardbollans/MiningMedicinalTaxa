@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,artemisia annua,artemisia annua,taxus brevifolia,camptothecaacuminata,,artemisia annua_malaria,,artemisia annua_antimalarial,taxus brevifolia_antineoplastic,camptothecaacuminata_antineoplastic
+1,papaver somniferum,papaver somniferum,taxus bacata,taxus hrevifolia,,cinchona spp_malaria,,papaver somniferum_analgesic,taxus bacata_antineoplastic,taxus hrevifolia_antineoplastic
+2,cinchona spp,cinchona spp,camptotheca acuminata,t. hacata,,rauwolfia serpentina_hypertension,,papaver somniferum_antitussive,camptotheca acuminata_antineoplastic,t. hacata_antineoplastic
+3,rauwolfia serpentina,rauwolfia serpentina,,,,,,cinchona spp_antimalarial,erythroxylum coca_local anesthetic,erythroxylum coca_anasthetic
+4,cassia angustifolia,cassia angustifolia,,,,,,rauwolfia serpentina_antihypertensive,,
+5,catharanthus roseus,catharanthus roseus,,,,,,cassia angustifolia_laxative,,
+6,digitalis spp,digitalis spp,,,,,,catharanthus roseus_antineoplastic,,
+7,erythroxylum coca,erythroxylum coca,,,,,,digitalis spp_cardiotonic,,

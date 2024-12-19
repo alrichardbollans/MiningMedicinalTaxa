@@ -1,0 +1,3 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,nigella sativa l,nigella sativa l,,,,,,,,
+1,ocimum tenuiflorum l,ocimum tenuiflorum l,,,,,,,,

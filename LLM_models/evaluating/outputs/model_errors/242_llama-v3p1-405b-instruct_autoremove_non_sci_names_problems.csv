@@ -1,0 +1,20 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hypericum empetrifolium,hypericum empetrifolium,,thymus tragoriganum,hypericum empetrifolium_psoriasis,hypericum empetrifolium_wound healing,paliurus spina-christi mill_gastrointestinal pain,hypericum empetrifolium_antioxidant,solanum_psycho-activity,hypericum empetrifolium_wound healing
+1,hypericum,lavandula stoechas,,thymus graveolens,paliurus spina-christi_type ii diabetes,matricaria chamomilla_wound healing,thymus tragoriganum_griping,paliurus spina-christi_palliative against gastrointestinal pain,solanum_ophthalmology,hypericum empetrifolium_therapeutic
+2,lavandula stoechas,micromeria juliana,,micromeria thymbra,satureia thymbra_convulsions,momordica charantia_wound healing,thymus tragoriganum_convulsions,paliurus spina-christi_diuretic,,momordica charantia l_wound healing
+3,micromeria juliana,mentha piperita,,mandragora,satureia thymbra_pains of the side,,thymus tragoriganum_movement of winds,,,paliurus spina-christi_antidiabetic
+4,mentha piperita,mentha spicata,,datura,satureia thymbra_griping,,thymus tragoriganum_difficulty to digest,,,
+5,m. piperita,salvia fruticosa,,paliurus aculeatus lamk,satureia thymbra_difficulty to digest,,thymus tragoriganum_hernias,,,
+6,mentha spicata,satureja thymbra,,,satureia thymbra_movement of winds,,thymus tragoriganum_pains of the side,,,
+7,m. spicata,coridothymus capitatus,,,satureia thymbra_hernias,,thymus graveolens_griping,,,
+8,salvia fruticosa,thymus vulgaris,,,,,thymus graveolens_convulsions,,,
+9,satureja thymbra,matricaria chamomilla,,,,,thymus graveolens_movement of winds,,,
+10,coridothymus capitatus,momordica charantia,,,,,thymus graveolens_difficulty to digest,,,
+11,thymus vulgaris,solanum,,,,,thymus graveolens_hernias,,,
+12,matricaria chamomilla l,paliurus spina-christi,,,,,thymus graveolens_pains of the side,,,
+13,momordica charantia l,satureia thymbra,,,,,micromeria thymbra_griping,,,
+14,solanum,,,,,,micromeria thymbra_convulsions,,,
+15,paliurus spina-christi mill,,,,,,micromeria thymbra_movement of winds,,,
+16,p. spina-christi,,,,,,micromeria thymbra_difficulty to digest,,,
+17,paliurus spina-christi,,,,,,micromeria thymbra_hernias,,,
+18,satureia thymbra,,,,,,micromeria thymbra_pains of the side,,,

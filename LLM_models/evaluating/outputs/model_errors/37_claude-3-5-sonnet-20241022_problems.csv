@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ocimum sanctum,ocimum sanctum,,picrorhiza kurrooa,,ocimum sanctum_infertility,,nigella sativa_anti-inflammatory,,ocimum sanctum_antifertility
+1,ocimum,zingiber officinale roscoe,,,,ocimum sanctum_noninsulin-dependent diabetes mellitus,,nigella sativa_antipyretic,,ocimum sanctum_hypoglycaemic
+2,zingiber officinale roscoe,nigella sativa,,,,zingiber officinale roscoe_osteoarthritis,,nigella sativa_analgesic,,
+3,nigella sativa,curcuma longa l,,,,nigella sativa_inflammation,,hibiscus rosa-sinensis_antifertility,,
+4,curcuma longa l,trachyspermum ammi,,,,,,,,
+5,trachyspermum ammi,hibiscus rosa-sinensis,,,,,,,,
+6,hibiscus rosa-sinensis,jatropha podagrica,,,,,,,,
+7,jatropha podagrica,,,,,,,,,

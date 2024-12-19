@@ -1,0 +1,19 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,eleutherococcus nodiflorus (dunn) s.y. hu,eleutherococcus nodiflorus (dunn) s.y. hu,,"alkanna sfikasiana tan, vold and strid",c. sativa_autoimmune diseases,eleutherococcus nodiflorus (dunn) s.y. hu_adverse events,,,salvia officinalis l_antispasmodic,cynoglottis barrelieri_antidiabetic
+1,eleutherococcus gracilystylus,eleutherococcus gracilystylus (w.w.sm.) s.y. hu,,sp subsp. pomifera,c. sativa_multiple sclerosis,salvia officinalis l_inflammatory,,,salvia officinalis l_gastroprotective,cynoglottis barrelieri_antioxidant
+2,eleutherococcus gracilystylus (w.w.sm.) s.y. hu,periploca sepium bunge,,sp subsp. calycina,c. sativa_inflammatory,,,,,cynoglottis barrelieri_neuroprotective
+3,e. gracilystylus,e. senticosus,,cannabis,c. sativa_epilepsy,,,,,phyllocara aucheri_antidiabetic
+4,periploca sepium,e. gracilystylus,,,c. sativa_neurodegenerative diseases,,,,,phyllocara aucheri_antioxidant
+5,periploca sepium bunge,cynoglottis barrelieri,,,c. sativa_cancer,,,,,phyllocara aucheri_neuroprotective
+6,p. sepium,phyllocara aucheri,,,,,,,,symphytum anatolicum_antidiabetic
+7,e. senticosus,symphytum anatolicum,,,,,,,,symphytum anatolicum_antioxidant
+8,cynoglottis barrelieri,borago,,,,,,,,symphytum anatolicum_neuroprotective
+9,phyllocara aucheri,symphytum,,,,,,,,"alkanna sfikasiana tan, vold and strid_enzyme inhibitory"
+10,symphytum anatolicum,c. sativa,,,,,,,,salvia fruticosa mill_anti-glycation
+11,symphytum,salvia fruticosa mill,,,,,,,,salvia pomifera l_anti-glycation
+12,borago,salvia pomifera l,,,,,,,,sp subsp. pomifera_anti-glycation
+13,c. sativa,salvia officinalis l,,,,,,,,sp subsp. calycina_anti-glycation
+14,salvia fruticosa mill,,,,,,,,,
+15,salvia pomifera l,,,,,,,,,
+16,salvia officinalis,,,,,,,,,
+17,salvia officinalis l,,,,,,,,,

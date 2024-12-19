@@ -1,0 +1,7 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,capsicum annuum,capsicum annuum,tamara,,,,trifolium pratense_menopause,,,capsicum chinense_antioxidant
+1,"capsicum annuum l., ssp. microcar-pum longum conoides, convar. horgoshka",capsicum chinense,,,,,,,,trifolium pratense_estrogenic
+2,capsicum,trifolium pratense extractum,,,,,,,,
+3,capsicum chinense,trifolium pratense,,,,,,,,
+4,trifolium pratense,,,,,,,,,
+5,trifolium pratense extractum siccum,,,,,,,,,
