@@ -42,6 +42,11 @@ def ___get_train_test_papers():
     test = [c for c in ids if c not in train]
     return train, test
 
+def clean_model_name(model_name:str)->str:
+    if '/' in model_name:
+        model_name = model_name[model_name.rindex('/') + 1:]
+    model_name = model_name.replace(':', '_')
+    return model_name
 
 def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun: bool = True, autoremove_non_sci_names: bool = False,
                                model_query_function: Callable = None):
@@ -83,9 +88,7 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
         # Different models use different fields for model names for some reason
         model_name = model.model
 
-    if '/' in model_name:
-        model_name = model_name[model_name.rindex('/') + 1:]
-    model_name = model_name.replace(':', '_')
+    model_name = clean_model_name(model_name)
 
     def run(c_id, p_file):
         print(c_id)
@@ -235,7 +238,7 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
     out_df = pd.DataFrame(out_df, index=['precision', 'recall', 'f1'])
     out_df.to_csv(os.path.join(out_dir, model_tag + '_results.csv'))
     basic_plot_results(os.path.join(out_dir, model_tag + '_results.csv'), out_dir, model_tag)
-    return out_df
+    return out_df, all_approxMedCondtrue_positives_in_model_annotations
 
 
 def basic_plot_results(file_to_plot, out_dir, model_name):
