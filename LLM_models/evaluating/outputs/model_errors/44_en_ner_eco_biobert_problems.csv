@@ -1,0 +1,64 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,olea europaea,olea europaea,kaur,,,,olea europaea_arthritis,,,spinacia oleracea_internal strength
+1,piper betle,piper betle,bhamra olive,,,,olea europaea_skin conditions,,,spinacia oleracea_blood
+2,spinacia oleracea,spinacia oleracea,paan leaf,,,,olea europaea_eczema,,,spinacia oleracea_source of iron
+3,ficus religiosa,ficus religiosa,betel leaf,,,,olea europaea_ear infections,,,ficus religiosa_digestion
+4,pistaci vera,pistaci vera,paan,,,,ficus religiosa_wounds,,,ficus religiosa_liver health
+5,mentha arvensis,mentha arvensis,palak,,,,ficus religiosa_diarrhoea,,,annona reticulata_immune boosting
+6,annona reticulata,annona reticulata,spinach,,,,mentha arvensis_indigestion,,,foeniculum vulgare_digestion
+7,brassica juncea,brassica juncea,pipal,,,,annona reticulata_cancer,,,vitus vinifera_blood purifier
+8,foeniculum vulgare,foeniculum vulgare,sacred fig,,,,annona reticulata_diarrhoea,,,areca catechu_stimulant
+9,vitus vinifera,vitus vinifera,diarrhoea digestion,,,,brassica juncea_dry skin,,,laurus nobilis_digestion
+10,areca catechu,areca catechu,pista,,,,brassica juncea_pain,,,sesamum indicum_reduce urinary frequency
+11,laurus nobilis,laurus nobilis,pistachio,,,,foeniculum vulgare_cough,,,sesamum indicum_improves circulation
+12,sesamum indicum,sesamum indicum,garam,,,,foeniculum vulgare_bloating,,,sesamum indicum_warms blood
+13,ajuga bracteosa,ajuga bracteosa gout,puthna,,,,foeniculum vulgare_constipation,,,coriandrum sativum_digestion
+14,coriandrum sativum,coriandrum sativum,mint,,,,vitus vinifera_cough,,,ocimum tenuiflorum_antibacterial
+15,ocimum tenuiflorum,ocimum tenuiflorum,ramphal custard apple,,,,laurus nobilis_diabetes,,,piper betle_digestion
+16,ocimum,asparagus,saron,,,,ajuga bracteosa_menstrual problems,,,pistaci vera_general health
+17,asparagus,ocimum specimens,mustard,,,,ajuga bracteosa_gout,,,pistaci vera_cholesterol
+18,,,saunf,,,,coriandrum sativum_diabetes,,,
+19,,,sweet saunf,,,,ocimum tenuiflorum_asthma,,,
+20,,,fennel,,,,ocimum tenuiflorum_diabetes,,,
+21,,,bhye,,,,ocimum tenuiflorum_colds,,,
+22,,,soggi,,,,ocimum tenuiflorum_coughs,,,
+23,,,raisins,,,,,,,
+24,,,suphari,,,,,,,
+25,,,betel nut,,,,,,,
+26,,,tej patha,,,,,,,
+27,,,sesame,,,,,,,
+28,,,sukvinder kaur,,,,,,,
+29,,,bhamra,,,,,,,
+30,,,thora/ kori buti bugleweed,,,,,,,
+31,,,dhania,,,,,,,
+32,,,coriander,,,,,,,
+33,,,holy basil,,,,,,,
+34,,,diabetes,,,,,,,
+35,,,amrat dhara,,,,,,,
+36,,,ajwain,,,,,,,
+37,,,hajmola,,,,,,,
+38,,,black pepper,,,,,,,
+39,,,cumin,,,,,,,
+40,,,amla,,,,,,,
+41,,,ghee,,,,,,,
+42,,,cardamom,,,,,,,
+43,,,jal,,,,,,,
+44,,,ganga jal,,,,,,,
+45,,,kala loon,,,,,,,
+46,,,migraine,,,,,,,
+47,,,masala,,,,,,,
+48,,,garam masala,,,,,,,
+49,,,munaka,,,,,,,
+50,,,golden raisin,,,,,,,
+51,,,semian,,,,,,,
+52,,,shilajeet,,,,,,,
+53,,,sukvinder kaur bhamra,,,,,,,
+54,,,plants,,,,,,,
+55,,,sukvinder bhamra,,,,,,,
+56,,,sukvinder bhamra mpharm,,,,,,,
+57,,,tulsi,,,,,,,
+58,,,tulsi vivah,,,,,,,
+59,,,virinda tulsi,,,,,,,
+60,,,plant,,,,,,,
+61,,,sukvinder kaur bhamra appendix,,,,,,,
+62,,,species,,,,,,,

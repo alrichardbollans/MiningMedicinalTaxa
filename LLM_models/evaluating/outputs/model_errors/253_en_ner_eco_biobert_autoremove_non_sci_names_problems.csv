@@ -1,0 +1,22 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,pinaropappus roseus less,pinaropappus roseus less,staphylococcus aureus,,,,pinaropappus roseus less_dermatological infections,,,pinaropappus roseus less_antimicobacterial
+1,pinaropappus roseus,candida albicans,s. granica2,,,,z. jujuba_pulmonary ailments,,,pinaropappus roseus_antimicobacterial
+2,candida albicans,pinaropappus roseus,polandschisandra chinensis (turcz.) baill,,,,z. jujuba_vomiting,,,schisandra chinensis (turcz.) baill_adaptogenic
+3,s. rubriflora,schisandra rubriflora,polandakebia quinata (houtt.) decne,,,,z. jujuba_diarrhea,,,schisandra chinensis (turcz.) baill_antitumour
+4,schisandra rubriflora,schisandra,plasmodium falciparum,,,,z. jujuba_indigestion,,,schisandra chinensis (turcz.) baill_hepatoprotective
+5,schisandra,schisandra rubriflora rehder,l. donovani,,,,z. jujuba_ulcers,,,schisandra chinensis (turcz.) baill_antioxidant
+6,schisandra rubriflora rehder & e.h.wilson,s. rubriflora,,,,,z. jujuba_dysentery,,,s. rubriflora_antioxidant
+7,schisandra chinensis (turcz.) baill,akebia quinata,,,,,z. jujuba_fever,,,akebia quinata_antioxidant
+8,akebia quinata,a. quinata,,,,,helleborus cyclophyllus boiss_cancer,,,a. quinata_antiphlogistic
+9,a. quinata,ginkgo biloba l,,,,,h. cyclophyllus_cancer,,,a. quinata_promote the milk-secretion
+10,akebia quinata (houtt.) decne,ziziphus jujuba,,,,,h. cyclophyllus boiss_cancer,,,a. quinata_stimulant of the menstrual flow
+11,ginkgo biloba l,ziziphus jujuba mill,,,,,,,,a. quinata_analgesic
+12,ziziphus jujuba mill,z. jujuba,,,,,,,,a. quinata_antioxidant
+13,z. jujuba,ziziphus mauritiana,,,,,,,,a. quinata_diuretic
+14,ziziphus jujuba,helleborus cyclophyllus,,,,,,,,ziziphus jujuba mill_antiprotozoal
+15,ziziphus mauritiana,h. cyclophyllus,,,,,,,,z. jujuba_cytotoxicity
+16,helleborus cyclophyllus boiss,h. cyclophyllus boiss,,,,,,,,z. jujuba_antiprotozoal
+17,h. cyclophyllus,,,,,,,,,helleborus cyclophyllus boiss_anticancer
+18,h. cyclophyllus boiss,,,,,,,,,helleborus cyclophyllus boiss_apoptotic
+19,,,,,,,,,,h. cyclophyllus_cytotoxic
+20,,,,,,,,,,h. cyclophyllus boiss_apoptotic

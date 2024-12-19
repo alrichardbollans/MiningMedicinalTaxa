@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,sideritis raeseri,sideritis raeseri,mehmet musa ozcan,centaurim erythrea l,,,,,,centaurim erythrea l_antidiabetic
+1,sideritis raeseri boiss. & heldr,sideritis,sideri-tis scardica,s. rae-seri,,,,,,centaurim erythrea l_antilipidemic
+2,sideritis,sideritis scardica griseb,lamia,sideritisscardica griseb,,,,,,centaurium erythrea l_antidiabetic
+3,sideritis raeseri boiss. &heldr. subsp. raeseri,sideritis raeseri boiss,,,,,,,,centaurium erythrea l_antilipidemic
+4,sideritis scardica,sideritis intenzivno,,,,,,,,
+5,sideritis scardica griseb,sideritis scardica,,,,,,,,
+6,centaurium erythrea l,s. scardica,,,,,,,,
+7,,s. raeseri,,,,,,,,
+8,,sideritis epromenliva,,,,,,,,
+9,,sideritis species,,,,,,,,
+10,,centaurium erythrea l,,,,,,,,

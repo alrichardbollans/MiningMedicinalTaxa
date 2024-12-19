@@ -1,0 +1,18 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,chelidonium,chelidonium majusfigure,majus,,,,chelidonium majus_infections,,,c. majus_antiviral
+1,c. majus,c. majus,kaempferol,,,,,,,c. majus_antimicrobial
+2,chelidonium majus,chelidonium majusalkaloidsfirst,quercetin,,,,,,,c. majus_anti-warts
+3,,chelidonium alkaloids,isorhamnetin,,,,,,,c. majus_antibacterial
+4,,chelidonium majustable,phenanthridine,,,,,,,
+5,,chelidonium majus,chelidocystatin,,,,,,,
+6,,chelidonium majus2000,c. majuslatex,,,,,,,
+7,,,inthis species,,,,,,,
+8,,,opium poppy,,,,,,,
+9,,,pathogens,,,,,,,
+10,,,aporphine,,,,,,,
+11,,,triterpenoids,,,,,,,
+12,,,chelidonine,,,,,,,
+13,,,chelerythrine,,,,,,,
+14,,,protopine,,,,,,,
+15,,,rootschelidonine bugatti,,,,,,,
+16,,,ofalkaloids,,,,,,,

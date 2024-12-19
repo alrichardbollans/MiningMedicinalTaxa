@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,anthemisnobilis l,anthemisnobilis l,guinea pig,,,,,,,
+1,chamaemelumnobile l,chamaemelumnobile l,chamomile,,,,,,,
+2,matricaria recutita l,matricaria recutita l,eupafolin,,,,,,,
+3,,,apigenin,,,,,,,
+4,,,hispidulin,,,,,,,
+5,,,andluteolin,,,,,,,
+6,,,roman chamomile,,,,,,,
+7,,,ofthis,,,,,,,
+8,,,magyargyogynovenyek,,,,,,,
+9,,,germanchamomile,,,,,,,
+10,,,ofchamomile,,,,,,,

@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,atropa belladonna,atropa belladonna,muscaria,carica papaya,,,,,,papaver somniferum_pain-killing
+1,pyrethrum,pyrethrum,fungus(claviceps purpurea,amanita muscaria,,,,,,carica papaya_aid digestion
+2,papaver somniferum,papaver somniferum,ipomoea violacea).lysis,lathyrusspp,,,,,,
+3,citrus,citrus,protozoan(plasmodium vivax,claviceps purpurea,,,,,,
+4,,,cacao beans,ipomoea violacea,,,,,,
+5,,,papaya,lophophorawilliamsii,,,,,,
+6,,,"carica papaya),used",nicotianatabacum,,,,,,
+7,,,,cyperus papyrus,,,,,,

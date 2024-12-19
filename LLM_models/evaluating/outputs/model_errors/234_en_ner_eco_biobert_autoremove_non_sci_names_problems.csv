@@ -1,0 +1,15 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,syzygium,syzygium,staphylococcus aureus,p. zombamontana,,,syzygium legatii_mastitis,,,p. zombamontana_protecting poultry against infection
+1,syzygium legatii,eugenia,s. aureus,,,,s. gerrardii_mastitis,,,p. zombamontana_cytotoxicity
+2,syzygium gerrardii,syzygium legatii,s. vasilopoulos1,,,,,,,p. zombamontana_anti-inflammatory
+3,eugenia,syzygium gerrardii,,,,,,,,p. zombamontana_antioxidant
+4,s. gerrardii,s. gerrardii,,,,,,,,eugenia_against staphylococcus aureus
+5,linum usitatissimum,linum usitatissimum,,,,,,,,eugenia_cytotoxicity
+6,cannabis sativa,cannabis,,,,,,,,eugenia_antibacterial
+7,cannabis,cannabis sativa,,,,,,,,syzygium_against staphylococcus aureus
+8,lupinus albus,lupinus albus,,,,,,,,syzygium_antibacterial
+9,,,,,,,,,,syzygium legatii_antibacterial
+10,,,,,,,,,,syzygium legatii_anti-staphylococcal
+11,,,,,,,,,,s. gerrardii_antibacterial
+12,,,,,,,,,,s. gerrardii_anti-staphylococcal
+13,,,,,,,,,,syzygium gerrardii_higher toxicity to bacteria

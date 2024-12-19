@@ -1,0 +1,21 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,scrophularia,scrophularia buergeriana (miquel,buergeriside c1,,,,scrophularia variegata_breast cancer,,,s. lucida_inhibit metastasis in breast cancer
+1,scrophularia buergeriana,scrophularia scopolii [hoppe ex] pers,scropolioside b,,,,scrophularia_tumor,,,scrophularia deserti_antiinflammatory
+2,scrophularia buergeriana (miquel,scrophularia,scrovalentinoside,,,,,,,scrophularia deserti_antidiabetic
+3,scrophularia scopolii [hoppe ex] pers. var. scopolii,s. lucida,koelzioside,,,,,,,scrophularia auriculata_anti-inflammatory
+4,s. scopolii,scrophularia lucida,lucida,,,,,,,scrophularia buergeriana_neuroprotective
+5,scrophularia deserti,scrophularia variegata,s. lucidainhibitory,,,,,,,scrophularianingpoensis_antimicrobial
+6,scrophularia variegata,scrophularia striata,s. lucidato,,,,,,,
+7,scrophularia auriculata,scrophularia oxysepalaextract,scropolioside-d2,,,,,,,
+8,scrophularia lucida,scrophularia koelzii,harpagoside-b,,,,,,,
+9,scrophularia striata,scrophulariascopolii,fromscrophularia deserti,,,,,,,
+10,scrophularia koelzii,scrophularia ilwensis,turkiyede bitkiler ile tedavi,,,,,,,
+11,scrophularia ilwensis,scrophularia nodosa,karsosideand,,,,,,,
+12,scrophularia nodosa,saussurea medusa,scropolioside d,,,,,,,
+13,scrophularia auriculata ssp.pseudoauriculata,scrophularia auriculata ssp.pseudoauriculata,scopolii,,,,,,,
+14,scrophularia orientalis,scrophularia auriculata,glycoterpenoids,,,,,,,
+15,scrophularia amplexicaulis benth,scrophularia buergeriana,ofscrophularia striata,,,,,,,
+16,s. lucida,scrophularia orientalis,sw620,,,,,,,
+17,scrophulariascopolii,scrophularianingpoensis,,,,,,,,
+18,saussurea medusa,scrophularia amplexicaulis benth,,,,,,,,
+19,scrophularianingpoensis,,,,,,,,,

@@ -1,0 +1,34 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,crocus l,crocus l,s. varemenos1,,,,,,,pistacia lentiscus l_antimicrobial
+1,crocus,crocus,k. zeliou1,,,,,,,pistacia lentiscus l_antiatherogenic
+2,crocus veluchensis herb,crocus olivieri j,v. dimaki1,,,,,,,pistacia lentiscus l_anti-inflammatory
+3,crocus nivalis bory and chaub,crocus nivalis bory,a. zografidis2,,,,,,,p. lentiscus_enzyme inhibition
+4,crocus sativus l,crocus veluchensis,iridaceae,,,,,,,p. lentiscus_skin beneficial
+5,c. olivieri,crocus sativus l,kaempferol 3-sophoroside,,,,,,,pistacia lentiscus var. chia_antioxidant
+6,c. nivalis,crocus species,crocuses,,,,,,,psychotria zombamontana_anti-inflammatory
+7,c. veluchensis,c. sativus,a. cheilari1,,,,,,,psychotria zombamontana_antioxidant
+8,c. sativus,c. nivalis,panepistimioupolis zografou,,,,,,,
+9,pistacia lentiscus l,c. veluchensis,chios mastic gum growers,,,,,,,
+10,p. lentiscus,c. olivieri,mastichochoria,,,,,,,
+11,pistacia lentiscus var. chia,pistacia lentiscus l,leonidio,,,,,,,
+12,mandragora autumnalis,p. lentiscus,termentzi,,,,,,,
+13,mandragora,pistacia lentiscus var,fokialakis,,,,,,,
+14,mandragora spp,mandragora autumnalis,skaltsounis,,,,,,,
+15,populus nigra,mandragora spp,bampouli,,,,,,,
+16,psychotria zombamontana,mandragora,kyriakopoulou,,,,,,,
+17,fusarium,mandragora species,papaefstathiou,,,,,,,
+18,fusarium verticilloides,populus nigra,louli,,,,,,,
+19,aspergillus flavus,psychotria zombamontana,aligiannis,,,,,,,
+20,,fusarium,magoulas,,,,,,,
+21,,aspergillus flavus,chia,,,,,,,
+22,,fusarium verticilloides,telemachos vassilakis,,,,,,,
+23,,,solanaceae,,,,,,,
+24,,,sakavitsi1,,,,,,,
+25,,,m. halabalaki1,,,,,,,
+26,,,bertol,,,,,,,
+27,,,circe's root,,,,,,,
+28,,,spongia soporifera,,,,,,,
+29,,,plants,,,,,,,
+30,,,rubiaceae,,,,,,,
+31,,,salmonella enteritidis,,,,,,,
+32,,,salmonella gallinarum,,,,,,,

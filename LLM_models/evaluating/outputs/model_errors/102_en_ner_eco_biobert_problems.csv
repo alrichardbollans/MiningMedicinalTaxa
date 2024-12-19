@@ -1,0 +1,37 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,mandragora officinarum,mandragora officinarum,plants,digitalis purpurea,,,mandragora officinarum_sterility,,,mandragora officinarum_sedative
+1,cinchona,cinchona,scorpion,,,,cinchona_malaria,,,mandragora officinarum_aphrodisiacs
+2,remijiapedunculata,remijiapedunculata,yams,,,,remijiapedunculata_malaria,,,digitalis purpurea_blood pressure is increased
+3,atropa belladonna,atropa belladonna,medicinalherbs,,,,digitalis purpurea_dropsy,,,digitalis purpurea_kidney functioning improves
+4,papaver somniferum,papaver somniferum,curedisease,,,,digitalis purpurea_heart disease,,,atropa belladonna_stimulate the sympathetic nervoussystem
+5,,,mandrakemandrake,,,,atropa belladonna_motion sickness,,,atropa belladonna_dilate the pupils
+6,,,mandrake,,,,atropa belladonna_musclespasms,,,atropa belladonna_sedative
+7,,,mandrakedrink,,,,atropa belladonna_insomnia,,,
+8,,,mandrakes,,,,atropa belladonna_pain,,,
+9,,,plasmodium vivax,,,,,,,
+10,,,protozoanplasmodium,,,,,,,
+11,,,p. vivax,,,,,,,
+12,,,anophelesmosquito,,,,,,,
+13,,,plasmodium,,,,,,,
+14,,,quina,,,,,,,
+15,,,quinaquina,,,,,,,
+16,,,quechuan,,,,,,,
+17,,,ofbarks,,,,,,,
+18,,,quinine,,,,,,,
+19,,,rubiaceae,,,,,,,
+20,,,foxglove,,,,,,,
+21,,,snapdragon,,,,,,,
+22,,,foxglove(digitalis,,,,,,,
+23,,,foxgloveremains,,,,,,,
+24,,,digitoxin,,,,,,,
+25,,,digitalin,,,,,,,
+26,,,offoxglove,,,,,,,
+27,,,"belladonna""belladonna",,,,,,,
+28,,,deadly nightshade,,,,,,,
+29,,,belladonna,,,,,,,
+30,,,beautifulwoman,,,,,,,
+31,,,opium,,,,,,,
+32,,,"great pain killer""among",,,,,,,
+33,,,opium poppy,,,,,,,
+34,,,garden poppies,,,,,,,
+35,,,opiates,,,,,,,

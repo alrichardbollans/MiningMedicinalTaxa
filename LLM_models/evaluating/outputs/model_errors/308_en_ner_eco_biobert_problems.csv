@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,enantia polycarpa,enantia polycarpa,ofberberine,argemone mexicana l,,,,,,enantia polycarpa_antibacterial
+1,coscinium fenestratum,coscinium fenestratum,berberine,,,,,,,
+2,coscinium fenestratum (gaertn.) colebr,berberis asiaticaroxb,multiple sclerosis,,,,,,,
+3,berberis asiaticaroxb. ex. dc,berberis pseudumbellata,thecorticosteroid,,,,,,,
+4,berberis,berberis,containingberberine,,,,,,,
+5,berberis pseudumbellata,berberisvulgaris,"referencesabbasi, a",,,,,,,
+6,berberis waziristanica,berberis waziristanica,ofargemone mexicana l,,,,,,,
+7,berberisvulgaris,,gaira,,,,,,,
+8,,,himalayan berberis,,,,,,,
+9,,,incoscinium fenestratum (gaertn.) colebr,,,,,,,
+10,,,incoscinium fenestratum,,,,,,,

@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,amanita caesarea (scop.) pers,amanita caesarea (scop.) pers,,macrolepiotaprocera (scop. : fr.) sing,,,,,,
+1,agaricus bisporus (lge.) sing,agaricus bisporus (lge.) sing,,cantharellus cibarius fr,,,,,,
+2,agaricus,boletus edulis bull,,a. pantherina(dc. ex fr.) krombh,,,,,,
+3,boletus edulis bull,lactarius deliciosus (l. ex fr,,a.verna (bull. : fr.) lam,,,,,,
+4,boletus,amanita muscaria (l.: fr.) lam,,lactar-ius,,,,,,
+5,lactarius deliciosus (l. ex fr.) sfgray s,a. phalloides (vaill. ex fr,,,,,,,,
+6,lactarius,boletus,,,,,,,,
+7,amanita muscaria (l.: fr.) lam,morchella,,,,,,,,
+8,a. phalloides (vaill. ex fr.) link,lentinus,,,,,,,,
+9,morchella,pleurotus,,,,,,,,
+10,lentinus,agaricus,,,,,,,,
+11,pleurotus,lactarius,,,,,,,,

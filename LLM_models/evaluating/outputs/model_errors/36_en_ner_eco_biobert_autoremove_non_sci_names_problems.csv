@@ -1,0 +1,7 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ocimum,ocimum,,,,,,,,
+1,ocimum tenuiflorum l,ocimum species,,,,,,,,
+2,o. tenuiflorum,o. tenuiflorum,,,,,,,,
+3,o. selloi,o. selloi,,,,,,,,
+4,o. gratissimum,o. gratissimum,,,,,,,,
+5,,ocimum tenuiflorum l,,,,,,,,

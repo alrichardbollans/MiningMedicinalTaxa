@@ -1,0 +1,42 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,zizyphus lotus l,zizyphus lotus l,anti-helicobacter pylori,,,,,,,zizyphus lotus l_antidiabetic
+1,pinus nigra,pinus nigra arnold,wistar rats,,,,,,,zizyphus lotus l_anti-helicobacter pylori
+2,pinus nigra arnold,candida albicans atcc 10231,macedonian black pinemarija,,,,,,,zizyphus lotus l_gastro-protective
+3,pinus,pinus nigra,forest trees,,,,,,,zizyphus lotus l_antioxidant
+4,candida albicans,candida albicans,black pine,,,,,,,pinus peuce_antimicrobial
+5,pinus nigra arn,p. nigra j.f,conifer,,,,,,,pinus nigra_antimicrobial
+6,p. nigra j.f. arnold x p. sylvestris l,pinus peuce,pine species,,,,,,,juniperus communis l_antireumathic
+7,p. nigra j.f. arnold x p. densiflora siebold et zucc,pinus l,differ-ent pine species,,,,,,,juniperus communis l_stomachic
+8,p. nigra j.f. arnold x p. thunbergiana franco,pinus nigra arn,macedonian black pine,,,,,,,juniperus communis l_digestive
+9,pinus peuce,pinus species,staphylococcus aureus,,,,,,,juniperus communis l_diuretic
+10,pinus l,juniperus communis l,atcc 29213,,,,,,,juniperus communis l_antiseptic
+11,juniperus communis l,,staphylococcus epidermidis,,,,,,,
+12,,,strepto-coccus pneumoniae,,,,,,,
+13,,,streptococcus agalactiae,,,,,,,
+14,,,streptococ-s5 pp 240504maced,,,,,,,
+15,,,plantsposter presentationscus pyogenes,,,,,,,
+16,,,enterococcus,,,,,,,
+17,,,acinetobacter spp,,,,,,,
+18,,,escherichia coli atcc 25927,,,,,,,
+19,,,sal-monella enteritidis,,,,,,,
+20,,,klebsiella pneumoniae atcc 700603,,,,,,,
+21,,,pseudomonas aeruginosa atcc 27853,,,,,,,
+22,,,haemophilus in-fluenzae,,,,,,,
+23,,,proteus mirabilis,,,,,,,
+24,,,black pines,,,,,,,
+25,,,streptococcus pneumonia,,,,,,,
+26,,,croatian black pine,,,,,,,
+27,,,arnold,,,,,,,
+28,,,p. sylvestris l,,,,,,,
+29,,,p. densiflora siebold,,,,,,,
+30,,,p. thunbergiana franco,,,,,,,
+31,,,pinaceae,,,,,,,
+32,,,cupressaceae,,,,,,,
+33,,,maja simonoska crcarevska2,,,,,,,
+34,,,juniper,,,,,,,
+35,,,juniperi aetherolem,,,,,,,
+36,,,pelagonija re-gion,,,,,,,
+37,,,bitola,,,,,,,
+38,,,pelister,,,,,,,
+39,,,black drim,,,,,,,
+40,,,sabinene,,,,,,,

@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,pulsatila vulgaris mill,pulsatila vulgaris mill,mandragora,bryoniadioica,,,h. perforatum_hemorroid,,,
+1,coffea sp,coffea sp,nasa kniga,h.kotschyanum boiss,,,h. perforatum_diarrhoea,,,
+2,camellia sinensis,camellia sinensis,,h.scabroidesrobson & poulter,,,h. perforatum_wounds,,,
+3,hypericum,hypericum,,h.uniglandulosum hausskn. ex bornm,,,h. perforatum_ulcers,,,
+4,h. perforatum,h. perforatum,,h.salsugineum robson &hub.-mor,,,h. perforatum_burns,,,
+5,h. thymopsis,hypericum perforatum(st,,h.thymopsis boiss,,,hypericum_depression,,,
+6,,h. thymopsis,,,,,hypericum_neuralgia,,,
+7,,,,,,,hypericum_neurosis,,,
+8,,,,,,,hypericum_anxiety,,,

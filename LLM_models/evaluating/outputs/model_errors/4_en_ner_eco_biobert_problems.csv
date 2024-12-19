@@ -1,0 +1,24 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,chelidonium majus,chelidonium majus,plant speciescontamination,citrus paradisi,,,hypericum perforatum_depression,,,hypericum perforatum_antidepressant
+1,aristolochia fangchi,aristolochia fangchi,salmonella,andrographispaniculata,,,a. paniculata_upper respiratory tract infection,,,hypericum perforatum_antidepressants
+2,piper methysticum,piper methysticum,e.coli,,,,a. paniculata_upper tract infection,,,piper methysticum_anxiolytic
+3,hypericum perforatum,hypericum perforatum,animal,,,,andrographis paniculata_upper respiratory tract infections,,,a. paniculata_anti-cancer
+4,hypericum,hypericum,grapefruit,,,,hypericum_depression,,,a. paniculata_anti-diarrheal
+5,a. paniculata,andrographis paniculata,icitrus paradisi,,,,,,,a. paniculata_anti-venom
+6,andrographis paniculata,a. paniculata,bergamottin,,,,,,,a. paniculata_anti-inflammatory
+7,a.; paniculata,a,kava,,,,,,,a. paniculata_anti-viral
+8,andrographis paniculate,rhododendron sp,st. john's wort,,,,,,,a. paniculata_anti-bacterial
+9,rhododendron sp,,herbivory,,,,,,,a. paniculata_anti-pyretic
+10,,,herbivores,,,,,,,a. paniculata_immuno-stimulatory
+11,,,andrographis paniculateandrographis paniculata,,,,,,,
+12,,,hempedu bumi,,,,,,,
+13,,,akar cerita bidara,,,,,,,
+14,,,acanthaceae,,,,,,,
+15,,,sharifuddinchapter ifig,,,,,,,
+16,,,sharifuddinchapter ithe,,,,,,,
+17,,,andrographolide,,,,,,,
+18,,,andrographiside,,,,,,,
+19,,,deoxyandrographiside,,,,,,,
+20,,,andropanoside,,,,,,,
+21,,,paniculata,,,,,,,
+22,,,hemiterpenes (c5,,,,,,,

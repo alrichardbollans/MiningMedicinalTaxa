@@ -1,0 +1,14 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,laurocerasus officinalis roem,laurocerasus officinalis roem,maja jurhar,punicagranatum l,,,l. officinalis_hemorrhoids,,,laurocerasus officinalis roem_neuroprotective
+1,l. officinalis,l. officinalis,l. casei 01,,,,l. officinalis_oxida-tive stress,,,laurocerasus officinalis roem_renal toxicity
+2,laurocerasus officinalis,l. of-ficinalis,,,,,l. officinalis_pain,,,laurocerasus officinalis roem_antioxidant
+3,l. of-ficinalis,l. offici-nalis,,,,,l. officinalis_digestive sys-tem problems,,,l. officinalis_di-uretic
+4,l. offici-nalis,l. officina-lis,,,,,l. officinalis_kidney tissue damage,,,l. officinalis_neuropro-tective
+5,l. officina-lis,l. officinalis fruit,,,,,l. officinalis_oxi-dative damage,,,l. officinalis_antioxidant
+6,phoenix dactylifera l,phoenix dactylifera l,,,,,l. officinalis_oxidative stress,,,l. officinalis_analgesic
+7,,laurocerasus officinalis,,,,,l. officinalis_eczemas,,,l. officinalis_nephrotoxic
+8,,,,,,,l. officinalis_oxidative stress-induced kidney injury,,,l. officinalis_radi-cal scavenging
+9,,,,,,,l. officinalis_stomach ulcers,,,l. of-ficinalis_anti-inflammatory
+10,,,,,,,l. officinalis_bronchitis,,,laurocerasus officinalis_anti-diabetic
+11,,,,,,,l. officinalis_anti-diabetic,,,
+12,,,,,,,phoenix dactylifera l_oxidative stress,,,

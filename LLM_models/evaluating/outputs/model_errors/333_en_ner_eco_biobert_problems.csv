@@ -1,0 +1,28 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,rosa canina l,rosa canina l,ofchenopodium album,chenopodium album,,,,,,rosa canina l_anti-inflammatory
+1,salviaofficinalis l,salviaofficinalis l,ofmedicago sativa,morus alba l,,,,,,chenopodium album_antimicrobial
+2,salvia triloba l,salvia triloba l,"4panitsa, m",rubus sanctus schreber,,,,,,chenopodium album_anthelmintic
+3,ziziphora taurica subsp. cleonioides,ziziphora taurica subsp,white willow bark,medicago sativa,,,,,,chenopodium album_antioxidant
+4,allium porrum,allium porrum,mountain flora,cupressus sempervirens,,,,,,salvia triloba l_antibacterial
+5,laurus nobilis linn,laurus nobilis linn,flora hellenica,hypericum,,,,,,salviaofficinalis l_antibacterial
+6,salixalba,salixalba,ofrubus sanctus schreber,,,,,,,ziziphora taurica subsp. cleonioides_antioxidant
+7,menthaspicata,menthaspicata,rosaceae,,,,,,,laurus nobilis linn_analgesic
+8,daturastramonium l,daturastramonium l,cupressus sempervirensand,,,,,,,laurus nobilis linn_antinflammatory
+9,eucalyptus saligna,eucalyptus saligna,sitophilus zeamais motschulsky,,,,,,,menthaspicata_antifungal
+10,potentilla,potentilla,triboliumconfusum du val,,,,,,,sideritis_antioxidant
+11,sideritis,sideritis species,flora europaea,,,,,,,morus alba l_antidiabetic
+12,glycyrrhiza glabra l,glycyrrhiza glabra l,mulberry fruit,,,,,,,morus alba l_antioxidant
+13,tilia platyphyllos l,tilia platyphyllos l,morus alba l.)polyphenol,,,,,,,rumex crispus l_antimicrobial
+14,rumex crispus l,rumex crispus l,ofhelicobacter pylori,,,,,,,rumex crispus l_antioxidant
+15,,,thehypericum extract li,,,,,,,rubus sanctus schreber_wound healing
+16,,,linden,,,,,,,glycyrrhiza glabra l_inhibit adhesion ofhelicobacter pylori to human gastric mucosa
+17,,,axiotis,,,,,,,
+18,,,halabalaki,,,,,,,
+19,,,skaltsounis,,,,,,,
+20,,,lycopene,,,,,,,
+21,,,tomatoes,,,,,,,
+22,,,watermelon,,,,,,,
+23,,,papaya,,,,,,,
+24,,,red grapefruits,,,,,,,
+25,,,guava,,,,,,,
+26,,,includingtomatoes,,,,,,,

@@ -1,0 +1,14 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,trifolium pratense l,trifolium pratense l,staphylococ-cus aureus atcc 25923,,,,chenopodium botrys l_humoral asthma,,,trifolium pratense l_estrogenic
+1,chenopodium botrys l,chenopodium botrys l,staphylococcus epidermidis atcc 12228,,,,chenopodium botrys l_catarrh,,,chenopodium botrys l_antimicrobial
+2,c. botrys,chenopodium,pseudomonas aeruginosa atcc 9027,,,,,,,c. botrys_antidiarrheal
+3,chenopodium botrys,dys-phania botrys (l.) mosyakin,proteus mirabilis,,,,,,,c. botrys_diuretic
+4,chenopodium,chenopodium ambro-sioides,staphylococcus aureus,,,,,,,c. botrys_fungicidal
+5,chenopodium ambro-sioides,c. botrys,staphylococcus epidermidis,,,,,,,c. botrys_bactericidal
+6,dys-phania botrys (l.) mosyakin and clemants,c. botrys herba,pseudomonas aeruginosa,,,,,,,c. botrys_antimicrobial
+7,candida albicans,candida albicans atcc 10259,,,,,,,,c. botrys_antifungal
+8,aspergillus niger,candida albicans,,,,,,,,c. botrys_carminative
+9,candi-da albicans,aspergillus niger,,,,,,,,c. botrys_antibacterial
+10,,candi-da albicans,,,,,,,,c. botrys_antispasmodic
+11,,chenopodium botrys,,,,,,,,chenopodium botrys_antimi-crobia
+12,,,,,,,,,,chenopodium botrys_antifungal

@@ -1,0 +1,17 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,artemisia,artemisia ketone,india artemisia,g.trichotoma,,,capsicum_peripherial painful diseases,,,capsicum_therapeutic
+1,a. alba,artemisia,flora europaea,g. viscosa,,,capsicum_rheumatoid arthritis,,,
+2,a. alba turra,a. alba,ofgypsophila pacifica kom,g.paniculata,,,capsicum_diabetic neuropathy,,,
+3,capsicum,a. alba turra,,g.scorzonerifolia,,,capsicum_muscle pain,,,
+4,capsicum spp,capsicum,,g.elegans,,,,,,
+5,gypsophila,gypsophila speciesreneta gevrenovadepartment,,gypsophilatrichotoma wend,,,,,,
+6,gypsophila species,gypsophila,,gypsophilapaniculata,,,,,,
+7,gypsophila paniculata l,gypsophila mono,,,,,,,,
+8,g. paniculata,g. paniculata,,,,,,,,
+9,c. glomerata,c. glomerata,,,,,,,,
+10,g. elegans,g. elegans,,,,,,,,
+11,g. scorzonerifolia,g. scorzonerifolia,,,,,,,,
+12,g. glomerata,g. glomerata,,,,,,,,
+13,g. trichotoma,g. trichotoma,,,,,,,,
+14,saponaria officinalis,gypsophila paniculata l,,,,,,,,
+15,,saponaria officinalis,,,,,,,,

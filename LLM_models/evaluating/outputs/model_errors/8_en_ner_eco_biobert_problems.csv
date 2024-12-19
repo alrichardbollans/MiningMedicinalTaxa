@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,andrographis paniculata,andrographis paniculata,andrographolide,,,,,,,andrographis paniculata_anti-apoptotic
+1,,,sharifuddinchapter 6chapter 6,,,,,,,andrographis paniculata_anti/pro-apoptotic
+2,,,sharifuddinchapter 6apparatus,,,,,,,
+3,,,sharifuddinchapter 6than,,,,,,,
+4,,,ahh,,,,,,,
+5,,,toy,,,,,,,
+6,,,mcl-5,,,,,,,
+7,,,andrographolidei(li,,,,,,,
+8,,,chinese hamster,,,,,,,

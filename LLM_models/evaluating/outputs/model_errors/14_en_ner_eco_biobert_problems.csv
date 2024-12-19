@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,a. paniculata,andrographis paniculata,mutant cleansing phaseremoval,,,,,,,a. paniculata_anti-bacterial
+1,andrographis paniculata,a. paniculata,number.4andrographolide treatmenttreatment,,,,,,,
+2,,,h plating effeciencycells,,,,,,,
+3,,,andrographolide,,,,,,,
+4,,,hypoxanthine phosphoribosyl,,,,,,,
+5,,,methyl methane sulfonate,,,,,,,
+6,,,sharifuddinchapter 5cells ahh-1,,,,,,,
+7,,,methyl methane,,,,,,,
+8,,,herb!andrographis paniculata,,,,,,,
+9,,,salmonella typhimurium,,,,,,,
+10,,,ahh-1,,,,,,,
+11,,,sharifuddinchapter 5mcl-5,,,,,,,

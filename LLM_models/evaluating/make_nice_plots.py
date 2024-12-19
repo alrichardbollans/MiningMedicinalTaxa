@@ -9,10 +9,13 @@ def melt_all_results(metric,models,_measures):
                 'gemini-1.5-pro-002_autoremove_non_sci_names_results.csv': 'Gemini_NS', 'gemini-1.5-pro-002_results.csv': 'Gemini',
                 'gnfinder_autoremove_non_sci_names_results.csv': 'Gnfinder_NS', 'gnfinder_results.csv': 'Gnfinder',
                 'gpt-4o_autoremove_non_sci_names_results.csv': 'GPT_NS',
-                'gpt-4o_results.csv': 'GPT', 'llama-v3p1-405b-instruct_autoremove_non_sci_names_results.csv': 'Llama_NS',
+                'gpt-4o_results.csv': 'GPT',
+                'llama-v3p1-405b-instruct_autoremove_non_sci_names_results.csv': 'Llama_NS',
                 'llama-v3p1-405b-instruct_results.csv': 'Llama',
-                'ftgpt-4o-2024-08-06personalAcwijdma_results.csv': 'FTGPT',
-                'ftgpt-4o-2024-08-06personalAcwijdma_autoremove_non_sci_names_results.csv': 'FTGPT_NS'}
+                'en_ner_eco_biobert_autoremove_non_sci_names_results.csv': 'TaxoNERD_NS',
+                'en_ner_eco_biobert_results.csv': 'TaxoNERD',
+                'ft_gpt-4o-2024-08-06_personal__Acwijdma_results.csv': 'FTGPT',
+                'ft_gpt-4o-2024-08-06_personal__Acwijdma_autoremove_non_sci_names_results.csv': 'FTGPT_NS'}
     fileNames = os.listdir(os.path.join('outputs', 'full_eval'))
     all_results = pd.DataFrame()
     for f in fileNames:
@@ -73,10 +76,10 @@ def for_full_eval(models,_measures, file_tag:str):
 if __name__ == '__main__':
     metrics = ['f1', 'precision', 'recall']
     all_measures = ['Precise NER', 'Approx. NER', 'Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
-    all_models = ['Claude', 'Gemini', 'Gnfinder', 'GPT', 'FTGPT', 'Llama']
+    all_models = ['Claude', 'Gemini', 'Gnfinder', 'GPT', 'FTGPT', 'Llama', 'TaxoNERD']
 
     ## NER
-    _models = ['Claude', 'Gemini', 'Gnfinder', 'GPT', 'Llama']
+    _models = ['Claude', 'Gemini', 'Gnfinder', 'GPT', 'Llama', 'TaxoNERD']
     measures = ['Precise NER', 'Approx. NER']
     for_full_eval(_models,measures, 'NER')
 

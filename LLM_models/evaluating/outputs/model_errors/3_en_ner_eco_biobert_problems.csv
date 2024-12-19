@@ -1,0 +1,29 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,artemisia annua,artemisia annua,ginkgo,camptothecaacuminata,,,,,,artemisia annua_antimalarial
+1,erythroxylum coca,erythroxylum coca,artemisinin,t. hacata,,,,,,camptothecaacuminata_antineoplastic
+2,cinchona spp,cinchona spp,sesquiterpenelactoneantimalarialcamptothecin,catharanthus roseus,,,,,,cinchona spp_antimalarial
+3,rauwolfia serpentina,rauwolfia serpentina,camptothecaacuminataindol alkaloid,papaver somniferum,,,,,,rauwolfia serpentina_antihypertensive
+4,cassia angustifolia,cassia angustifolia,antineoplasticcocaine,digitalis spp,,,,,,cassia angustifolia_laxative
+5,taxus hrevifolia,taxus hrevifolia,cocaine alkaloid,,,,,,,taxus hrevifolia_antineoplastic
+6,,,local anastheticcodeine,,,,,,,t. hacata_antineoplastic
+7,,,morphinepapaver somniferum,,,,,,,catharanthus roseus_antineoplastic
+8,,,opium alkaloid,,,,,,,erythroxylum coca_anasthetic
+9,,,analgesic,,,,,,,papaver somniferum_analgesic
+10,,,antitussivedigitoxin,,,,,,,papaver somniferum_antitussive
+11,,,digoxindigitalis spp,,,,,,,digitalis spp_cardiotonic
+12,,,steroidal glycosides,,,,,,,
+13,,,cardiotonicquinine,,,,,,,
+14,,,quinoline alkaloid,,,,,,,
+15,,,antimalarialreserpine,,,,,,,
+16,,,indole alkaloid,,,,,,,
+17,,,antihypertensivesennosides a,,,,,,,
+18,,,hydroxy-anthraceneglycosideslaxativetaxol,,,,,,,
+19,,,t. hacataditerpenes,,,,,,,
+20,,,antineoplasticvinblastine,,,,,,,
+21,,,vincristinecatharanthus roseus,,,,,,,
+22,,,bis-indole alkaloid,,,,,,,
+23,,,antineoplastictable,,,,,,,
+24,,,betulinic,,,,,,,
+25,,,2004.cucurbitacin,,,,,,,
+26,,,2002.b-lacaphone,,,,,,,
+27,,,sharifuddinchapter 1novartis,,,,,,,

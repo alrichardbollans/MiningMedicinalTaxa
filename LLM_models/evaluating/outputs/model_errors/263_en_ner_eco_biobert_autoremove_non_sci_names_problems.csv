@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,matricaria recutita l,matricaria recutita l,pisum sativum l,,,,,,,
+1,m. recutita,m. recutita,hopia ai,,,,,,,
+2,triticum aestivum l,triticum aestivum l,,,,,,,,
+3,phaseolus vulgaris l,phaseolus vulgaris l,,,,,,,,
+4,matricaria chamomilla,matricaria chamomilla,,,,,,,,
+5,vicia faba l,vicia faba l,,,,,,,,
+6,,"matricaria recutita l.,asteraceae",,,,,,,,

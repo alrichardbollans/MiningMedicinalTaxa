@@ -1,0 +1,25 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,juniperus communis l. ssp. nana,juniperus communis l,"14.proenca da-cunhaa, a",,,,"ocimum basilicum, l_cough",,,ocimum basilicum l_antioxidant
+1,ocimum basilicum l,ocimum basilicum l,nana syme,,,,"ocimum basilicum, l_respiratory infections",,,"ocimum basilicum, l_sedative"
+2,"ocimum basilicum, l","ocimum basilicum, l",basil,,,,"ocimum basilicum, l_inflammatory diseases",,,"ocimum basilicum, l_anticonvulsant"
+3,achillea collina bekker ex heimerl s.l,achillea collina bekker,svetlana,,,,"ocimum basilicum, l_headaches",,,"ocimum basilicum, l_anti-oxidant"
+4,a. pannonica scheele,a. pannonica scheele,zorica,,,,"ocimum basilicum, l_flu",,,a. pannonica scheele_antibacterial
+5,origanum vulgare l,origanum vulgare l,aleksandar,,,,"ocimum basilicum, l_constipation",,,a. pannonica scheele_antioxidant
+6,onosma aucheriana,onosma aucheriana,lamiaceae,,,,"ocimum basilicum, l_insomnia",,,achillea collina bekker ex heimerl s.l_antibacterial
+7,garcinia indi-ca,garcinia indi-ca,sweet basil,,,,"garcinia indi-ca_gastric, hepatic breast and lung cancer",,,achillea collina bekker ex heimerl s.l_antioxidant
+8,,,diamanto,,,,,,,origanum vulgare l_antioxidant
+9,,,treatmentsnezana cupara,,,,,,,
+10,,,ana barjaktarevic,,,,,,,
+11,,,olivera milovanovicfaculty,,,,,,,
+12,,,ther-apy,,,,,,,
+13,,,anethole capsaicin,,,,,,,
+14,,,curcumin,,,,,,,
+15,,,diosgenin,,,,,,,
+16,,,plantsanethole,,,,,,,
+17,,,anise,,,,,,,
+18,,,multiple myeloma,,,,,,,
+19,,,polyphenol diferu-loylmethane,,,,,,,
+20,,,gingerol,,,,,,,
+21,,,black cumin,,,,,,,
+22,,,rosemary,,,,,,,
+23,,,ginger,,,,,,,

@@ -1,0 +1,27 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aronia melanocarpa (michx.) elliott,aronia melanocarpa (michx.) elliott,chokeberry,,,,combretum collinum fresen_inflammatory disorders,,,aronia melanocarpa (michx.) elliott_spasmolytic
+1,zingiber zerumbet,zingiber zerumbet,anthocyanins,,,,combretum collinum fresen_musculoskeletal disorders,,,aronia melanocarpa (michx.) elliott_relaxant
+2,combretum collinum fresen,combretum collinum fresen,sd rats,,,,piliostigma thonningii (schum.) milne-redh_inflammatory disorders,,,aronia melanocarpa (michx.) elliott_control of gut motility
+3,c. collinum,piliostigma thonningii (schum.) milne-redh,verbascoside,,,,piliostigma thonningii (schum.) milne-redh_musculoskeletal disorders,,,aronia melanocarpa (michx.) elliott_antispasmodic
+4,piliostigma thonningii (schum.) milne-redh,ficus natalensis hoechst,zerumbone,,,,ficus natalensis hoechst_inflammatory disorders,,,zingiber zerumbet_skin hydration
+5,p. thonningii,fadogia agrestis schweinf,zer,,,,ficus natalensis hoechst_musculoskeletal disorders,,,combretum collinum fresen_anti-inflammatory
+6,ficus natalensis hoechst,entada africana guill,ccl,,,,fadogia agrestis schweinf. ex hiern_musculoskeletal disorders,,,piliostigma thonningii (schum.) milne-redh_anti-inflammatory
+7,f. natalensis,chasmanthera dependens hoechst,c. kloukina1,,,,entada africana guill. & perr_musculoskeletal disorders,,,ficus natalensis hoechst_anti-inflammatory
+8,fadogia agrestis schweinf. ex hiern,c. collinum,k. lytra1,,,,chasmanthera dependens hoechst_musculoskeletal disorders,,,fadogia agrestis schweinf. ex hiern_anti-inflammatory
+9,entada africana guill. & perr,p. thonningii,h. skaltsa11,,,,c. collinum_inflammatory diseases,,,entada africana guill. & perr_anti-inflammatory
+10,chasmanthera dependens hoechst,f. natalensis,greecesideritis l,,,,p. thonningii_inflammatory diseases,,,chasmanthera dependens hoechst_anti-inflammatory
+11,p. thonningi,p. thonningi,greek mountain tea,,,,sideritis_mild gastrointestinal discomfort,,,c. collinum_anti-inflammatory
+12,sideritis,sideritis genus,mountain tea,,,,sideritis_mood,,,p. thonningii_anti-inflammatory
+13,sideritis l,sideritis,p. kubica1,,,,sideritis_cognitive function,,,f. natalensis_anti-inflammatory
+14,s. euboea heldr,s. euboea heldr,szopa a,,,,sideritis_common cold,,,schisandra rubriflora_antioxidant
+15,s. euboea,s. perfoliata l. subsp. perfoliata,physiologia plantarum,,,,,,,schisandra chinensis (turcz.) baill_antioxidant
+16,s. perfoliata l. subsp. perfoliata,s. cypria,saffron,,,,,,,s. rubriflora_antioxidant
+17,s. cypria post,s. euboea,m. monsefi1,,,,,,,s. rubriflora extracts_antioxidant
+18,s. cypria,s. perfoliata subsp. perfoliata,m. heydari11,,,,,,,crocus sativus l_wound healing
+19,s. perfoliata subsp. perfoliata,schisandra rubriflora,iransaffron,,,,,,,
+20,schisandra rubriflora,schisandra chinensis (turcz.) baill,,,,,,,,
+21,s. rubriflora,schisandra rubriflora rehder,,,,,,,,
+22,s. rubriflora extracts,s. rubriflora,,,,,,,,
+23,schisandra rubriflora rehder & e.h.wilson,crocus sativus l,,,,,,,,
+24,schisandra chinensis (turcz.) baill,,,,,,,,,
+25,crocus sativus l,,,,,,,,,

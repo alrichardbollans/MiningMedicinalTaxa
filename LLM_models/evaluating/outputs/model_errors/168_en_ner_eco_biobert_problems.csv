@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,candida albicans,candida albicans,escherichia coli,,,,,,,
+1,aspergillus brasiliensis,aspergillus brasiliensis,pseudomonas aeruginosa,,,,,,,
+2,candida al-bicans,candida al-bicans,staphylococcus aureus,,,,,,,
+3,aspergillus brasil-iensis,aspergillus brasil-iensis,bacillus spizizenii,,,,,,,
+4,aspergillus spizenii,aspergillus spizenii,staphy-lococcus aureus,,,,,,,
+5,,,bacillus spizizeniiis,,,,,,,
+6,,,ibuprofen,,,,,,,
+7,,,maja hadzieva gigovska1,,,,,,,
+8,,,marija grozdanoska1,,,,,,,
+9,,,ana petkovska1,,,,,,,
+10,,,aneta,,,,,,,

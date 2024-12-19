@@ -1,0 +1,23 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,curcuma longa l,curcuma longa l,,,,,curcuma longa l_cancer,,,curcuma longa l_anticancer
+1,allium sativum l,allium sativum l,,,,,allium sativum l_high cholesterol,,,curcuma longa l_anti-inflammatory
+2,eugenia caryophylatta thunb,eugenia caryophylatta thunb,,,,,allium sativum l_stroke,,,curcuma longa l_antioxidant
+3,azadirachta indica a.juss,azadirachta indica a.juss,,,,,allium sativum l_heart disease,,,curcuma longa l_antimicrobial
+4,,,,,,,allium sativum l_infections,,,curcuma longa l_kill tumour cells
+5,,,,,,,allium sativum l_dyslipidaemia,,,allium sativum l_anti-hypertensive
+6,,,,,,,eugenia caryophylatta thunb_toothaches,,,allium sativum l_reducing low density lipids and triglycerides
+7,,,,,,,,,,allium sativum l_anti-platelet
+8,,,,,,,,,,allium sativum l_antibacterial
+9,,,,,,,,,,eugenia caryophylatta thunb_aid digestion
+10,,,,,,,,,,eugenia caryophylatta thunb_anti-emetic
+11,,,,,,,,,,eugenia caryophylatta thunb_analgesic
+12,,,,,,,,,,eugenia caryophylatta thunb_antimicrobial
+13,,,,,,,,,,eugenia caryophylatta thunb_anaesthetic
+14,,,,,,,,,,eugenia caryophylatta thunb_antiseptic
+15,,,,,,,,,,azadirachta indica a.juss_anti-cancer
+16,,,,,,,,,,azadirachta indica a.juss_blood purifying
+17,,,,,,,,,,azadirachta indica a.juss_antipruritic
+18,,,,,,,,,,azadirachta indica a.juss_anti-inflammatory
+19,,,,,,,,,,azadirachta indica a.juss_antifungal
+20,,,,,,,,,,azadirachta indica a.juss_antibacterial
+21,,,,,,,,,,azadirachta indica a.juss_anti-diabetic

@@ -1,0 +1,27 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,satureja montana,s. montana subsp. pisidica,monografija rodova,calamintha miller,,,,,,satureja montana l_antimicrobial
+1,s. montana subsp. pisidica,satureja l,winter savory,micromeriabentham,,,,,,satureja cuneifolia ten_antimicrobial
+2,satureja,acinos miller,acta botanica croatica,,,,,,,satureja montana_antifungal
+3,satureja l,clinopodium l,fraternale,,,,,,,satureja_antioxidant
+4,acinos miller,satureja montana l,giamperi,,,,,,,salvia officinalis l_healing of different diseases
+5,clinopodium l,satureja cuneifolia ten,bucchini,,,,,,,rosmarinus officinalis l_stimulant
+6,satureja montana l,satureja montana,albania,,,,,,,rosmarinus officinalis l_rubifacient
+7,satureja cuneifolia ten,salvia officinalis l,sage,,,,,,,rosmarinus officinalis l_digestive
+8,salvia officinalis l,salvia offficinalis l,albanian sage,,,,,,,rosmarinus officinalis l_nervine
+9,salvia offficinalis l,salvia,camphor,,,,,,,rosmarinus officinalis l_emmenagogue
+10,rosmarinus officinalis l,rosmarinus officinalis l,kokkini st,,,,,,,rosmarinus officinalis l_analgesic
+11,,,1995.200makedonski farmatsevtski bilten,,,,,,,rosmarinus officinalis l_cholagogue
+12,,,aromatichni rastenija,,,,,,,rosmarinus officinalis l_carminative
+13,,,prezentatsiipetti kongres,,,,,,,rosmarinus officinalis l_improving memory
+14,,,albaniavilma papajani1,,,,,,,rosmarinus officinalis l_antimicrobial
+15,,,klodiola dylgjeri2,,,,,,,rosmarinus officinalis l_diuretic
+16,,,en-tela,,,,,,,
+17,,,officinalis l,,,,,,,
+18,,,lamiaceae,,,,,,,
+19,,,rosmarinus officinalis l.(rosemary,,,,,,,
+20,,,rosemary,,,,,,,
+21,,,flora,,,,,,,
+22,,,dorina shengjergji2,,,,,,,
+23,,,mirela miraci1,,,,,,,
+24,,,suela kellici1,,,,,,,
+25,,,erina hilaj31department,,,,,,,

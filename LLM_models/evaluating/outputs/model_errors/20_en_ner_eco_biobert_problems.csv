@@ -1,0 +1,36 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,phyllanthus emblica l,phyllanthus emblica l,bhamra diaspora,,,,phyllanthus emblica l_digestive problems,,,nigella sativa l_anti-cancer
+1,terminalia bellirica (gaertn.) roxb,terminalia bellirica (gaertn.) roxb bastard myrobalan,siddha,,,,phyllanthus emblica l_diabetes,,,nigella sativa l_hepatoprotective
+2,terminalia chebula retx,terminalia chebula retx,unani,,,,phyllanthus emblica l_hypercholesterolemia,,,nigella sativa l_anti-inflammatory
+3,nigella sativa l,nigella sativa l,ayurveda,,,,phyllanthus emblica l_hypertension,,,nigella sativa l_analgesic
+4,,,ibn sina,,,,phyllanthus emblica l_constipation,,,nigella sativa l_antifungal
+5,,,avicenna,,,,phyllanthus emblica l_cardiovascular disease,,,nigella sativa l_nephroprotective effects
+6,,,vedas,,,,terminalia bellirica (gaertn.) roxb_digestive problems,,,nigella sativa l_antibacterial
+7,,,rigveda,,,,terminalia bellirica (gaertn.) roxb_diabetes,,,nigella sativa l_healing
+8,,,yajurveda,,,,terminalia bellirica (gaertn.) roxb_hypercholesterolemia,,,
+9,,,samveda,,,,terminalia bellirica (gaertn.) roxb_hypertension,,,
+10,,,atharvaveda,,,,terminalia bellirica (gaertn.) roxb_constipation,,,
+11,,,pancha,,,,terminalia bellirica (gaertn.) roxb_cardiovascular disease,,,
+12,,,tridosha,,,,terminalia chebula retx_digestive problems,,,
+13,,,pitta,,,,terminalia chebula retx_diabetes,,,
+14,,,kapha,,,,terminalia chebula retx_hypercholesterolemia,,,
+15,,,curcumins,,,,terminalia chebula retx_hypertension,,,
+16,,,guggulsterone,,,,terminalia chebula retx_constipation,,,
+17,,,matria medica,,,,terminalia chebula retx_cardiovascular disease,,,
+18,,,rasayana,,,,nigella sativa l_asthma,,,
+19,,,chyawanprash,,,,nigella sativa l_cough,,,
+20,,,amla,,,,nigella sativa l_pain,,,
+21,,,indian gooseberry,,,,nigella sativa l_diabetes,,,
+22,,,asparagus,,,,nigella sativa l_headache,,,
+23,,,beetroot,,,,nigella sativa l_rheumatism,,,
+24,,,triphala,,,,,,,
+25,,,beleric,,,,,,,
+26,,,harad,,,,,,,
+27,,,black myrobalan,,,,,,,
+28,,,siddha siddha,,,,,,,
+29,,,siddhars,,,,,,,
+30,,,tm,,,,,,,
+31,,,unani unani,,,,,,,
+32,,,black cumin,,,,,,,
+33,,,kala jeera,,,,,,,
+34,,,habbatul barak,,,,,,,

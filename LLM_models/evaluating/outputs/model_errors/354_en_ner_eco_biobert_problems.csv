@@ -1,0 +1,17 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,chamaemelum nobile,chamaemelum nobile (l.)all,fungi,equisetum arvense l,,,,,,matricaria recutita_anxiolytic
+1,chamaemelum nobile (l.)all,chamaemelum nobile(l.) all,asteraceae,,,,,,,
+2,chamaemelum nobile(l.) all,anthemis nobilis l,roman chamomile,,,,,,,
+3,anthemis nobilis,anthemis nobilis,flavonoids,,,,,,,
+4,anthemis nobilis l,chamomilla recutita (l.) rauschert,romancamomile,,,,,,,
+5,chamomilla recutita (l.) rauschert,spergularia purpurea pers,spektrum akademischer verlag,,,,,,,
+6,spergularia purpurea pers,achillea millefolium s.l,albasini,,,,,,,
+7,achillea millefolium s.l,ginkgo biloba l,vampa,,,,,,,
+8,ginkgo biloba l,matricaria recutita flowers,andequisetum arvense l,,,,,,,
+9,matricaria recutita,chamaemelum nobile,gyogyito novenyek,,,,,,,
+10,,,medicina kiado,,,,,,,
+11,,,bianchi,,,,,,,
+12,,,variouschamomile,,,,,,,
+13,,,apigenin,,,,,,,
+14,,,human tongue squamous cellcarcinoma,,,,,,,
+15,,,propolis,,,,,,,

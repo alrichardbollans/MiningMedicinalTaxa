@@ -1,0 +1,52 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,psyllium ispaghula,psyllium ispaghula,melatonine,vaccinium myrtillus,,,psyllium ispaghula_stomach troubles,,,boswellia_anti-infl ammatories
+1,psyllium,aloe vera,classifi cations,tagetes erecta,,,sabal serrulata_impotence,,,tagetes erecta_eye health
+2,aloe vera,aloe,tiger balsam,symphtytum offi cinalis,,,sabal serrulata_prostate problems,,,symphtytum offi cinalis_muscles
+3,aloe,echinacea purpurea,horses,eucalyptus,,,echinacea purpurea_sore throat,,,symphtytum offi cinalis_joints
+4,echinacea purpurea,sabal serrulata,melon,citrus aurantium,,,boswellia_arthrosis,,,annona muricata_immunity
+5,echinacea,annona muricata,benzoyleperokside,arnica montana,,,vaccinium myrtillus_eye diseases,,,annona muricata_health enhancement
+6,sabal serrulata,psyllium,spirulina platensis,nelumbo nucifera gaertner,,,tagetes erecta_eye diseases,,,psyllium_laxative
+7,annona muricata,boswellia,hawthorn berry,silybum marianum,,,tagetes erecta_night vision,,,angelica archangelica_muscle relaxing
+8,boswellia,echinacea,colostrum,cordyseps sinensis,,,symphtytum offi cinalis_cuts,,,eucalyptus_recovery
+9,symphytum offi cinalis,symphytum offi cinalis,arthrosis1450vaccinium myrtillus,cordyceps sinensis,,,symphtytum offi cinalis_bruises,,,eucalyptus_fat-free muscle building
+10,chrysanthemum,chrysanthemum fl owerrefreshing,blueberry,gingko biloba,,,crataegus_heart conditions,,,eucalyptus_mouth wash
+11,angelica archangelica,angelica archangelica,tagetes erecta1451,eleutherococcus senticosus,,,crataegus_cardiac weakness,,,eucalyptus_antiseptic
+12,kaempferia pafi fl ora,kaempferia pafi fl ora,1453symphtytum offi cinalis,senna,,,eucalyptus_sore shoulders,,,citrus aurantium_weight management
+13,butea superba,butea superba,plantain,,,,,,,
+14,zingiber offi cinale,zingiber offi cinale,leukoderma,,,,,,,
+15,anamitra cocculus w & a,anamitra cocculus w,graviola,,,,,,,
+16,piper nigrum,piper nigrum,soursop,,,,,,,
+17,polygonum multifl orum,polygonum multifl orum,brazilian paw paw,,,,,,,
+18,tinaspora sinensis,tinaspora sinensis mer,guanabana,,,,,,,
+19,piper lolot,piper lolot c,cranberry,,,,,,,
+20,glychyrrhiza uralensis,glychyrrhiza uralensis,hawthorn,,,,,,,
+21,cordyseps,echinacea tea,barbary wolfberry,,,,,,,
+22,acanthopanax senticosus,echinacea radix,ginseng,,,,,,,
+23,hypericum perforatum,cordyseps mushroom,artichoke,,,,,,,
+24,valeriana offi cinalis,acanthopanax senticosus,mulberry,,,,,,,
+25,cimicifuga rasemosa,hypericum perforatum,angelica archangelica1456,,,,,,,
+26,crataegus,valeriana offi cinalis,nelumbo nucifera gaertner-leaf,,,,,,,
+27,,cimicifuga rasemosa,linnseed,,,,,,,
+28,,crataegus,cortex acantho panasis,,,,,,,
+29,,,rhizoma imperatae,,,,,,,
+30,,,guarana brasil,,,,,,,
+31,,,ginseng radix,,,,,,,
+32,,,tablet)silybum marianum,,,,,,,
+33,,,milk thistle,,,,,,,
+34,,,holy thistle)1458,,,,,,,
+35,,,extractcordyseps sinensis,,,,,,,
+36,,,caterpillar,,,,,,,
+37,,,75%cordyseps sinensis,,,,,,,
+38,,,nutritioncordyceps sinensis,,,,,,,
+39,,,gingko biloba1460,,,,,,,
+40,,,bag)valeriana offi cinalis,,,,,,,
+41,,,powdervaleriana offi cinalis,,,,,,,
+42,,,30%eleutherococcus senticosus,,,,,,,
+43,,,green ginseng)1464,,,,,,,
+44,,,mountain arnica)1466,,,,,,,
+45,,,black cohosh,,,,,,,
+46,,,black snakeroot)1467,,,,,,,
+47,,,paatsaman kuori.1464,,,,,,,
+48,,,makikuisma.1466,,,,,,,
+49,,,laki laakelain muuttamisesta,,,,,,,
+50,,,berrieshawthorn,,,,,,,

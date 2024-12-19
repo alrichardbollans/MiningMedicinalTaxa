@@ -1,0 +1,44 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,scutellaria baicalensis georgii,s. baicalensis,baicalin,,,,,,,heracleum verticillatum_antimicrobial
+1,scutellaria baicalensis,scutellaria baicalensis georgii,thescutellaria baicalensis georgii,,,,,,,s. rigidum_anti-aggre-gatory
+2,heracleum l,scutellaria baicalensis calluscultures,umbelliferae,,,,,,,s. rigidum_anti-inflammatory
+3,heracleumverticillatum pancic,heracleum l,stara planina,,,,,,,s. rigidum_antibacterial
+4,h. spho-ndylium l,heracleumverticillatum pancic,staphylococcus aureus,,,,,,,s. rigidum_cytotoxic
+5,heracleum verticillatum,h. spho-ndylium l,s. epidermidis,,,,,,,seseli rigidum_andantioxidant
+6,h. verticillatum,h. verticillatum,micrococcus luteus,,,,,,,seseli rigidum_antimicrobial
+7,candida albicans,candida albicans,enterococcus faecalis,,,,,,,carduus_antioxidant
+8,heracleum orphanidis boiss,candida albicans 10259,bacillussubtilis,,,,,,,carduus acanthoides l_antioxidant
+9,s. rigidum,heracleum orphanidis boiss,pseudomonas aeruginosa,,,,,,,c. acicularisbertol_antioxidant
+10,seseli rigidum,seseli rigidum rootmirjana,klebsiella pneu-moniae,,,,,,,c. crispus l_antioxidant
+11,seseli rigidum w. k,s. rigidum,escherichia coli,,,,,,,c. candicans waldst.& kit. ssp. globifer (vel. )kazmi_antioxidant
+12,seseli rigidum waldst et kit,seseli rigidum waldst,andagainst,,,,,,,c. nutans l_antioxidant
+13,seselirigidum walst et kit. var. rigidum,seselirigidum walst,againstbacillus subtilis,,,,,,,c. kerneri simonkai ssp. austro-orientalis_antioxidant
+14,carduus,seseli rigidum flower,asian umbelliferae biodiversitydatabase,,,,,,,c. tho-ermeri weinm_antioxidant
+15,carduus acanthoides l,carduus,asium,,,,,,,
+16,carduus nigrescens,carduus acanthoides l,apiaceae lindley,,,,,,,
+17,carduus assoi,c. acicularisbertol,branislava lakusic,,,,,,,
+18,carduus nutans,c. crispus l,apiaceae,,,,,,,
+19,c. acicularisbertol,c. candicans waldst,polyaceti-lene falcarinol,,,,,,,
+20,c. crispus l,c. nutans l,carrot,,,,,,,
+21,c. candicans waldst.& kit. ssp. globifer (vel. )kazmi,c. kerneri simonkai ssp,celery,,,,,,,
+22,c. nutans l,c. tho-ermeri weinm,andparsley,,,,,,,
+23,c. kerneri simonkai ssp. austro-orientalis,carduus species,referenceskuznjecova g,,,,,,,
+24,c. tho-ermeri weinm,carduus nigrescens,kolicina i kvalitativnisastav etarskog ulja raznih,,,,,,,
+25,cirsium,carduus assoi,izklisura reka grze,,,,,,,
+26,,carduus nutans,arhiv za farmaciju,,,,,,,
+27,,cirsium,2.192makedonski farmatsevtski,,,,,,,
+28,,,aromatichni rastenija,,,,,,,
+29,,,prezentatsiipetti kongres,,,,,,,
+30,,,dimitrina zheleva-dimitrova1,,,,,,,
+31,,,gerassim kitanov2,,,,,,,
+32,,,ssp,,,,,,,
+33,,,globifer (vel. )kazmi,,,,,,,
+34,,,asteraceae,,,,,,,
+35,,,cynareaeand,,,,,,,
+36,,,thistles,,,,,,,
+37,,,abdalla,,,,,,,
+38,,,madrigal,,,,,,,
+39,,,triterpenoids,,,,,,,
+40,,,"kaloshina, n",,,,,,,
+41,,,mazulin,,,,,,,
+42,,,"jordon-thaden, i",,,,,,,

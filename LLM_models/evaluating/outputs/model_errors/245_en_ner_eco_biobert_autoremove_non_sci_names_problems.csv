@@ -1,0 +1,31 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,shorea roxburghii,s. roxburghii,thailandshorea roxburghii,a. coriria,,,shorea roxburghii_type 2 diabetes mellitus (t2dm,,,calluna vulgaris (l.) hull_skin-protective
+1,s. roxburghii,shorea roxburghii,statesacer truncatum,,,,shorea roxburghii_diarrhea,,,c. vulgaris_skin anti-aging and protection
+2,dacrycarpus imbricatus,dacrycarpus imbricatus,acer truncatum.www.ethnopharmacology2021.org,,,,shorea roxburghii_dysentery,,,c. vulgaris_antiradical
+3,pinus dalatensis ferre,pinus dalatensis ferre,italycalluna vulgaris (l.) hull,,,,shorea roxburghii_cholera,,,c. vulgaris_antioxidant
+4,oldenlandia pinifolia,oldenlandia pinifolia,,,,,cladosporium_acute myeloid leukemia,,,c. vulgaris_moderate antimicrobial
+5,ficus hirta,ficus hirta,,,,,rauwolfia_acute myeloid leukemia,,,shorea roxburghii_hypoglycemic effect
+6,cladosporium,dacrycarpus imbricatus (blume) de laub,,,,,,,,s. roxburghii_antidiabetic potentials
+7,cladosporium spp,o. pinifolia,,,,,,,,cladosporium_anti-microbial
+8,rauwolfia,cladosporium spp,,,,,,,,cladosporium_anti-tumor
+9,acer truncatum,cladosporium,,,,,,,,
+10,warbrugia ugandensis sprague,rauwolfia,,,,,,,,
+11,w. ugandensis,acer truncatum,,,,,,,,
+12,erythrina abyssinica dc,acer,,,,,,,,
+13,cryptolepsis sanguinolenta (lindl.) schltr,a. truncatum,,,,,,,,
+14,c. sanguinolenta,warbrugia ugandensis sprague,,,,,,,,
+15,albizia coriaria oliv,erythrina abyssinica dc,,,,,,,,
+16,psorospermum febrifugium spach,cryptolepsis sanguinolenta (lindl.) schltr,,,,,,,,
+17,p. febrifugium,albizia coriaria oliv,,,,,,,,
+18,gymnosporia senegalensis (lam.) loes,psorospermum febrifugium spach,,,,,,,,
+19,zanthoxylum chalybeum engl,gymnosporia senegalensis (lam.) loes,,,,,,,,
+20,securidaca longipendunculata fresen,zanthoxylum chalybeum engl,,,,,,,,
+21,s. longipendunculata,securidaca longipendunculata fresen,,,,,,,,
+22,acacia hockii de wild,acacia hockii de wild,,,,,,,,
+23,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc,gardenia ternifolia subsp,,,,,,,,
+24,bridelia micrantha (hochst.) baill,bridelia micrantha (hochst.) baill,,,,,,,,
+25,calluna vulgaris (l.) hull,w. ugandensis,,,,,,,,
+26,c. vulgaris,c. sanguinolenta,,,,,,,,
+27,,s. longipendunculata,,,,,,,,
+28,,calluna vulgaris (l.) hull,,,,,,,,
+29,,c. vulgaris,,,,,,,,

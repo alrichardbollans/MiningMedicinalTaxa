@@ -1,0 +1,17 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,punicagranatum l,punicagranatum,pomegranate(punica,,,,punicagranatum l_salmonella enterica,,,punicagranatum l_antimicrobial
+1,punicagranatum,punica granatum,granatum l,,,,,,,
+2,punica granatum l,punica granatum l,pomegranateaccessions,,,,,,,
+3,punica granatum cv. 'mollar,punicagranatum l,pomegranate,,,,,,,
+4,punica granatum,sideritis sipylea boiss,ofanthocyanins,,,,,,,
+5,sideritis sipylea boiss,origanum sipyleuml,punicaceae)whole,,,,,,,
+6,origanum sipyleuml,thymus sipyleus boiss,punicicacid,,,,,,,
+7,thymus sipyleus boiss,pistacia lentiscus l,salmonella enterica,,,,,,,
+8,pistacia lentiscus l,verbascum ikaricum murb,serovars kentucky,,,,,,,
+9,verbascum ikaricum murb,,andenteritidis,,,,,,,
+10,,,axiotis e,,,,,,,
+11,,,regionevangelos axiotis,,,,,,,
+12,,,fourni,,,,,,,
+13,,,plant species,,,,,,,
+14,,,vascular plant species,,,,,,,
+15,,,plant,,,,,,,

@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,cannabis,cannabis,cannabinoids,,,,,,,
+1,cannabis sativa,canna-bis,9-tetrahydrocannabinol,,,,,,,
+2,canna-bis,cannabis plants,cannabinol,,,,,,,
+3,,cannabis sativa,cbn,,,,,,,
+4,,cannabis plant,cannabidiol,,,,,,,
+5,,cannabis sativa l,cbd,,,,,,,
+6,,,hemp,,,,,,,
+7,,,can-nabis plants,,,,,,,
+8,,,peach,,,,,,,
+9,,,tetrahydrocannabinolic acid,,,,,,,
+10,,,"sirikantaramas, s",,,,,,,

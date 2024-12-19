@@ -1,0 +1,23 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,t. jankae,t. jankae,macedo-nian,,,,cannabis_arthritis,,,cannabis_anti-inflammatory
+1,thymus jankae chel. var. jankae,t. longicaulis,ge-raniol,,,,cannabis_skin inflammations,,,cannabis_psychoactive
+2,t. jankae var. pantotrichus ronn,t. moesia-cus,brezovica,,,,cannabis_glaucoma,,,
+3,t. jankae var. patentipilus lyka,t. pannonicus,prvale,,,,cannabis_muscle pains,,,
+4,t. longicaulis,t. pulegioides,lamiaceae,,,,,,,
+5,t. moesia-cus,t. tosevii,pantotrichus ronn,,,,,,,
+6,t. pannonicus,thymus tosevii ssp. substriatus,reviewgordana geshtakovska,,,,,,,
+7,t. pulegioides,thy-mus species,can-nabis,,,,,,,
+8,t. tosevii,thymus,vaporizers,,,,,,,
+9,thymus tosevii ssp. substriatus,t. tosevii ssp. substriatus,dried marijuana,,,,,,,
+10,t. tosevii ssp. substriatus,t. moesiacus,cannabinoids,,,,,,,
+11,thymus,t. lon-gicaulis,canna-binoids,,,,,,,
+12,thy-mus,t. balcanus,applicationcannabis,,,,,,,
+13,thymus l,thymus l,cannabi-noids,,,,,,,
+14,thymus balcanus,thymus balcanus,flavonoids,,,,,,,
+15,t. moesiacus,t. ciliatopubescens,canna-binoid,,,,,,,
+16,t. lon-gicaulis,t. pseudo-atticus,marihuana,,,,,,,
+17,t. balcanus,thymus jankae chel,marijuana,,,,,,,
+18,t. ciliatopubescens,t. jankae var,105_marijuana,,,,,,,
+19,t. pseudo-atticus,c. sativa,,,,,,,,
+20,c. sativa,cannabis suppositories,,,,,,,,
+21,cannabis,cannabis,,,,,,,,

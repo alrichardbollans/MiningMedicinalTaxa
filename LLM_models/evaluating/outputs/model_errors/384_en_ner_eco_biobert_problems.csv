@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,citrullus colocynthis,citrullus colocynthis,propanamide,,,,citrullus colocynthis_type ii diabetes,,,citrulluscolocynthis_analgesic
+1,citrullus colocynthis (l.) schrad,citrullus colocynthis fruit,sayehmiri,,,,,,,citrulluscolocynthis_anti-inflammatory
+2,citrullus colocynthis (l,citrulluscolocynthis (l,molluscgalba truncatula,,,,,,,
+3,citrulluscolocynthis,citrullus colocynthis (l.) schrad,fasciola hepatica,,,,,,,
+4,citrulluscolocynthis (l,citrullus colocynthis (l,breast cancer-induced,,,,,,,
+5,,citrulluscolocynthis,breast cancer,,,,,,,
+6,,,bitter apple fruit,,,,,,,
+7,,,"ghosh-choudhury, t",,,,,,,
+8,,,yoneda,,,,,,,
+9,,,fish oil,,,,,,,
+10,,,breastcancer,,,,,,,

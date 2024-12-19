@@ -1,0 +1,18 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,vitis vinifera l,vitis vinifera l,maestro,,,,,,,vitis vinifera l_antiox-idant
+1,,,"studiauniversitatis""vasilegoldis",,,,,,,vitis vinifera l_antioxidant
+2,,,ribanca,,,,,,,
+3,,,"kakvoca kiselog kupusa""ribanca""iz",,,,,,,
+4,,,khigiena na khrana,,,,,,,
+5,,,meditsinski fakultet,,,,,,,
+6,,,rat,,,,,,,
+7,,,"karakashova, lj.,2003",,,,,,,
+8,,,solarno sushenje na kajsii,,,,,,,
+9,,,doktorska disertatsija,,,,,,,
+10,,,zemjodelski fakultet,,,,,,,
+11,,,kemija mediteranskog voca,,,,,,,
+12,,,tehnologija hrane,,,,,,,
+13,,,kalecik karasi,,,,,,,
+14,,,bogaz-kere,,,,,,,
+15,,,okuzgozu,,,,,,,
+16,,,papazkarasi,,,,,,,

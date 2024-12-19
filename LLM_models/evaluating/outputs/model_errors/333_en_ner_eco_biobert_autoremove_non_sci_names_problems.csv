@@ -1,0 +1,18 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,rosa canina l,rosa canina l,ofchenopodium album,chenopodium album,,,,,,rosa canina l_anti-inflammatory
+1,salvia triloba l,salvia triloba l,ofmedicago sativa,salviaofficinalis l,,,,,,chenopodium album_antimicrobial
+2,ziziphora taurica subsp. cleonioides,ziziphora taurica subsp,cupressus sempervirensand,menthaspicata,,,,,,chenopodium album_anthelmintic
+3,allium porrum,allium porrum,flora europaea,morus alba l,,,,,,chenopodium album_antioxidant
+4,laurus nobilis linn,laurus nobilis linn,morus alba l.)polyphenol,rubus sanctus schreber,,,,,,salvia triloba l_antibacterial
+5,eucalyptus saligna,eucalyptus saligna,papaya,medicago sativa,,,,,,salviaofficinalis l_antibacterial
+6,potentilla,potentilla,,salixalba,,,,,,ziziphora taurica subsp. cleonioides_antioxidant
+7,sideritis,sideritis species,,daturastramonium l,,,,,,laurus nobilis linn_analgesic
+8,glycyrrhiza glabra l,glycyrrhiza glabra l,,cupressus sempervirens,,,,,,laurus nobilis linn_antinflammatory
+9,tilia platyphyllos l,tilia platyphyllos l,,hypericum,,,,,,menthaspicata_antifungal
+10,rumex crispus l,rumex crispus l,,,,,,,,sideritis_antioxidant
+11,,,,,,,,,,morus alba l_antidiabetic
+12,,,,,,,,,,morus alba l_antioxidant
+13,,,,,,,,,,rumex crispus l_antimicrobial
+14,,,,,,,,,,rumex crispus l_antioxidant
+15,,,,,,,,,,rubus sanctus schreber_wound healing
+16,,,,,,,,,,glycyrrhiza glabra l_inhibit adhesion ofhelicobacter pylori to human gastric mucosa

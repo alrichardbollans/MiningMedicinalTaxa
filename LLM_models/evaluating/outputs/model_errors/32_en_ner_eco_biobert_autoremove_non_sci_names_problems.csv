@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aristolochia,aristolochia,belladonna,echinacea,,,aloe vera_skin conditions,,,agnus castus_pms/ cycle regulation
+1,aconitum,aconitum species,saw palmetto,,,,aloe vera_eczema,,,
+2,digitalis purpurea l,digitalis purpurea l,,,,,,,,
+3,papaver somniferum l,papaver somniferum l,,,,,,,,
+4,viscum album l,viscum album l,,,,,,,,
+5,atropa belladonna l,atropa belladonna l,,,,,,,,
+6,rhodiola,rhodiola,,,,,,,,
+7,aloe vera,aloe vera,,,,,,,,
+8,agnus castus,agnus castus,,,,,,,,

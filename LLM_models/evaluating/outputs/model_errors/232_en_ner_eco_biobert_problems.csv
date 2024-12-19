@@ -1,0 +1,28 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,eleutherococcus gracilystylus,eleutherococcus gracilystylus,gracilystylus,cannabis,,,c. sativa_inflammatory and neurodegenerative diseases,,,cynoglottis barrelieri_antidiabetic
+1,eleutherococcus gracilystylus (w.w.sm.) s.y. hu,periploca sepium,lavender,,,,c. sativa_epilepsy,,,cynoglottis barrelieri_neuroprotective
+2,e. gracilystylus,eleutherococcus nodiflorus (dunn,"c. zisi1,2",,,,c. sativa_cancer,,,cynoglottis barrelieri_antioxidant
+3,periploca sepium,eleutherococcus gracilystylus (w.w.sm,v. varsamis6,,,,c. sativa_multiple sclerosis,,,phyllocara aucheri_antidiabetic
+4,periploca sepium bunge,periploca sepium bunge,lavender essential,,,,c. sativa_autoimmune diseases,,,phyllocara aucheri_neuroprotective
+5,p. sepium,e. gracilystylus,research,,,,,,,phyllocara aucheri_antioxidant
+6,eleutherococcus nodiflorus (dunn) s.y. hu,p. sepium,,,,,,,,symphytum anatolicum_antidiabetic
+7,e. senticosus,e. senticosus,create,,,,,,,symphytum anatolicum_neuroprotective
+8,cynoglottis barrelieri,cynoglottis barrelieri,boraginaceae,,,,,,,symphytum anatolicum_antioxidant
+9,phyllocara aucheri,phyllocara aucheri,g. zengin2,,,,,,,"alkanna sfikasiana tan, vold and strid_enzyme inhibitory"
+10,symphytum anatolicum,symphytum anatolicum,k. graikou1,,,,,,,salvia fruticosa mill_anti-glycation
+11,symphytum,borago,c. ganos1,,,,,,,salvia pomifera l_anti-glycation
+12,borago,symphytum,polandboraginaceae,,,,,,,sp subsp. pomifera_anti-glycation
+13,"alkanna sfikasiana tan, vold and strid",alkanna sfikasiana tan,cordia,,,,,,,sp subsp. calycina_anti-glycation
+14,c. sativa,c. sativa,pyrrolizidine alkaloids,,,,,,,
+15,salvia fruticosa mill,salvia fruticosa mill,onosma kaheirei teppner,,,,,,,
+16,salvia pomifera l,salvia pomifera l,disodium rabdosiin,,,,,,,
+17,sp subsp. pomifera,sp subsp. pomifera,cannabinoids,,,,,,,
+18,sp subsp. calycina,sp subsp. calycina,cannabidiol,,,,,,,
+19,salvia officinalis,salvia officinalis,greecegreek sage,,,,,,,
+20,salvia officinalis l,,cretan sage,,,,,,,
+21,,,rodini achaia,,,,,,,
+22,,,fournoi ikaria,,,,,,,
+23,,,spsp,,,,,,,
+24,,,spsc,,,,,,,
+25,,,greecesalvia officinalis l,,,,,,,
+26,,,common sage,,,,,,,

@@ -1,0 +1,21 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,alyssum alyssoides,alyssum alyssoides,brassicaceae,,,,capparis orientalis veill_colds,,,sideritis_stomachic
+1,a. alyssoides,alyssum,astragalin,,,,capparis orientalis veill_atherosclerosis,,,sideritis_anti-inflammatory
+2,sideritis,a. alyssoides,narcissin,,,,capparis orientalis veill_atonia,,,sideritis_analgesic
+3,sideritis raeseri boiss. & heldr. subsp. raeseri,sideritis raeseri boiss,raeseri,,,,m. pudica_dysuria,,,sideritis_antitussive
+4,sideritis raeseri boiss & heldr. subsp. raeseri,sideritis,greecesideritis raeseri boiss & heldr,,,,,,,sideritis_antimicrobial
+5,capparis orientalis veill,capparis orientalis veill,s. raeseri ssp,,,,,,,sideritis_carminative
+6,primula veris,primula veris,capers,,,,,,,capparis orientalis veill_anti-diabetes
+7,primula veris l,primula,k. ghedira,,,,,,,capparis orientalis veill_anti-proliferative
+8,primula elatior (l.) hill,primula veris l,primevere officinale,,,,,,,capparis orientalis veill_anti-inflammatory
+9,tinospora sinensis,primula elatior (l.) hill,primulaceae,,,,,,,capparis orientalis veill_immunomodulatory
+10,chromolaena odorata,tinospora sinensis,plant species,,,,,,,capparis orientalis veill_antioxidant
+11,m. pudica,chromolaena odorata,medicinal plants,,,,,,,capparis orientalis veill_antimicrobial
+12,mimosa pudica,mimosa pudica,fabaceae,,,,,,,capparis orientalis veill_antifungal
+13,tadehagi triquetrum,tadehagi triquetrum,jevremovac,,,,,,,capparis orientalis veill_hiv-1 reverse transcriptase inhibitory
+14,alysicarpus vaginalis,alysicarpus vaginalis,,,,,,,,capparis orientalis veill_diuretic
+15,streptocaulon juventas,m. pudica,,,,,,,,
+16,tradescantia zebrina,streptocaulon juventas,,,,,,,,
+17,canscora lucidissima,tradescantia zebrina,,,,,,,,
+18,rosa,canscora lucidissima,,,,,,,,
+19,,rosa species,,,,,,,,

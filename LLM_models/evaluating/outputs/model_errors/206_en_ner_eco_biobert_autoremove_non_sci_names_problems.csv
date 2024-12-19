@@ -1,0 +1,18 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,phasolus vulgaris l.: ssp. nanus,phasolus vulgaris l,,ssp. volubilis,,,centaurea depressa bieb_colon colorectal adenocarcinoma,,,centaurea depressa bieb_apoptotic
+1,phaseolus coccineus l,phaseolus coccineus l,,,,,centaurea depressa_hu-man colorectal adenocarcinoma,,,centaurea depressa bieb_antioxidant
+2,phaseolus,phaseolus vulgaris,,,,,c. depressa_cancer,,,centaurea_cytotoxic
+3,phaseolus vulgaris,phaseolus beans,,,,,,,,centaurea_antipyretic
+4,phaseolus vulgaris l,phaseolus vulgaris l,,,,,,,,centaurea_antiinflam-matory
+5,centaurea depressa bieb,centaurea depressa bieb,,,,,,,,centaurea_antioxidant
+6,centaurea,centaurea,,,,,,,,centaurea_antimicrobial
+7,centaurea depressa,centaurea depressa,,,,,,,,centaurea_immuno-logical
+8,c. depressa,c. depressa methanol,,,,,,,,centaurea depressa_apoptotic
+9,glaucium,c. depressa,,,,,,,,centaurea depressa_antioxidant
+10,pterocarpus santalinus,glaucium,,,,,,,,c. depressa_antipro-liferation
+11,alchemilla l,pterocarpus santalinus,,,,,,,,c. depressa_apoptotic
+12,,alchemilla l,,,,,,,,c. depressa_antioxidant
+13,,,,,,,,,,glaucium_cytotoxicity
+14,,,,,,,,,,alchemilla l_apoptotic
+15,,,,,,,,,,alchemilla l_necrotic effects
+16,,,,,,,,,,pterocarpus santalinus_apoptosis

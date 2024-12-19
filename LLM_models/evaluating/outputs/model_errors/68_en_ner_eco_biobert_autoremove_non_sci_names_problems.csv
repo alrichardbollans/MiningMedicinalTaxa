@@ -1,0 +1,4 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,sorghum,sorghum,triticale,zea mays,,,,,,
+1,sorghum bicolor,sorghum bicolor)with,faba bean,zea diploperennis,,,,,,
+2,s. halepense,s. halepense,zea mays)with,,,,,,,

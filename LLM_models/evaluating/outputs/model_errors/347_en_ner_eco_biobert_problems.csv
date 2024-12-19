@@ -1,0 +1,42 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,entamoeba histolytica,entamoeba histolytica,chelidonium majusfractions,,,,c. majus_hepatobiliary disorders,,,c. majus_acceleration of sperm movement toward fallopian tube
+1,c. majus,c. majus,c. majusprimary,,,,c. majus_liver toxicity,,,c. majus_supporting artificial insemination or facilitating fertilization
+2,chelidonium majus,silybum marianum,cd,,,,c. majus_liver complaints,,,c. majus_hepatoprotective
+3,silybum marianum,,hct116,,,,,,,c. majus_antitumor
+4,,,sw480,,,,,,,c. majus_liver and biliary tract
+5,,,greenmonkey,,,,,,,c. majus_cholagogue
+6,,,chelidonium majustable,,,,,,,c. majus_choleretic
+7,,,referenceshacat,,,,,,,c. majus_antispasmodic
+8,,,human keratinocyte,,,,,,,silybum marianum_hepatoprotective
+9,,,1996whco5,,,,,,,
+10,,,hela,,,,,,,
+11,,,vero,,,,,,,
+12,,,293graham,,,,,,,
+13,,,hs-27,,,,,,,
+14,,,human foreskinfibroblastschelidonine,,,,,,,
+15,,,prostate carcinomafrom,,,,,,,
+16,,,mcf-7,,,,,,,
+17,,,human breastadenocarcinoma,,,,,,,
+18,,,a549,,,,,,,
+19,,,human lungcarcinoma,,,,,,,
+20,,,hepg2,,,,,,,
+21,,,humanhepatocellular carcinoma,,,,,,,
+22,,,ht-29human,,,,,,,
+23,,,rectosigmoid adenocarcinomachelidonine,,,,,,,
+24,,,ht-29,,,,,,,
+25,,,human lymphoma,,,,,,,
+26,,,plant species)and,,,,,,,
+27,,,2005murine nk/ly lymphoma,,,,,,,
+28,,,chelidonine,,,,,,,
+29,,,t cell lymphoblastic leukemia,,,,,,,
+30,,,human cervical,,,,,,,
+31,,,melanoma,,,,,,,
+32,,,"mcf-7-,3t3",,,,,,,
+33,,,mousemelanoma,,,,,,,
+34,,,"kulpand bragina,2013hela",,,,,,,
+35,,,caco2,,,,,,,
+36,,,human colonadenocarcinoma,,,,,,,
+37,,,human t cellleukemia,,,,,,,
+38,,,ccrf-cem,,,,,,,
+39,,,ch,,,,,,,
+40,,,susceptibleccrf-cem,,,,,,,

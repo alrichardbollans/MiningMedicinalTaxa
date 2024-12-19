@@ -1,0 +1,43 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,epilobium angustifolium l,epilobium angustifolium l,sinensis,thymus serpyllum l,,,,,,b. crassifolia_appetite and energy intakesuppressants
+1,e. angustifolium,bergenia spp,fireweed,r. canina l,,,,,,a. calamus l_digestives
+2,bergenia spp,b. crassifolia,e. angustifoliumwas,viburnum opulus,,,,,,valerianaofficinalis l_digestives
+3,b. crassifolia,ledum palustre l,marsh labrador tea,,,,,,,inula helenium l_digestives
+4,bergenia crassifolia,artemisia absinthium l,thyme(thymus serpyllum l,,,,,,,juniperus communis l_digestives
+5,ledum palustre l,hypericumperforatum l,wormwood,,,,,,,carumcarvi l_digestives
+6,artemisia,vacciniumvitis-idaea l,saint john's wort,,,,,,,helichrysum arenarium (l.)moench_digestives
+7,artemisia absinthium l,tilia cordata mill,lingonberry,,,,,,,artemisia_digestives
+8,hypericumperforatum l,t.platyphyllos scop,dandelion,,,,,,,
+9,vacciniumvitis-idaea l,taraxacumcampylodes g.e,hawthorn,,,,,,,
+10,tilia cordata mill,a. calamus l,r. canina l.as,,,,,,,
+11,t.platyphyllos scop,valerianaofficinalis l,valerian,,,,,,,
+12,taraxacumcampylodes g.e. haglund,inula helenium l,elecampane,,,,,,,
+13,a. calamus l,juniperus communis l,juniper,,,,,,,
+14,valerianaofficinalis l,carumcarvi l,caraway,,,,,,,
+15,inula helenium l,helichrysum arenarium (l.)moench,everlast,,,,,,,
+16,juniperus communis l,persicariabistorta (l,bergeniarhizomes,,,,,,,
+17,carumcarvi l,,bergeniais,,,,,,,
+18,helichrysum arenarium (l.)moench,,rose(viburnum opulus,,,,,,,
+19,persicariabistorta (l.) samp,,kulaga,,,,,,,
+20,,,kalinniki,,,,,,,
+21,,,kalina,,,,,,,
+22,,,dog rose,,,,,,,
+23,,,rose hips,,,,,,,
+24,,,guelderrose,,,,,,,
+25,,,rowan,,,,,,,
+26,,,bird cherry,,,,,,,
+27,,,bilberry,,,,,,,
+28,,,thyme,,,,,,,
+29,,,wildrussian species,,,,,,,
+30,,,podprawkite kato,,,,,,,
+31,,,chrana ilekarstwo,,,,,,,
+32,,,medizina i fiskultura,,,,,,,
+33,,,lycopodiaceae-ephedraceae,,,,,,,
+34,,,ofbergenia crassifolia,,,,,,,
+35,,,cornucopia,,,,,,,
+36,,,magnoliaceae-limoniaceae,,,,,,,
+37,,,medizina,,,,,,,
+38,,,vysheishaya shkola,,,,,,,
+39,,,forest samobranka,,,,,,,
+40,,,wild plants,,,,,,,
+41,,,artia,,,,,,,

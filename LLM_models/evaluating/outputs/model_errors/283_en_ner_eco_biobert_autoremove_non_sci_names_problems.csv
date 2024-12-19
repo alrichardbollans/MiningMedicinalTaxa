@@ -1,0 +1,23 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,h. uniglandulosum,h. uniglandulosum,myriandra,h. salsugineum,,,sideritis l_diuretic,,,sideritis l_anti inflammatory
+1,h. scabroides,h. scabroides,h. fasciculatum lam,h. fasciculatum lam.alliance,,,sideritis l_gastrointestinalailments,,,sideritis l_anti-ulcer
+2,h. kotschyanum,h. kotschyanum,,s.raeseri,,,sideritis l_flu,,,sideritis_antioxidant
+3,h. thymopsis,h. thymopsis,,,,,sideritis l_common colds,,,sideritis javalambrensis_antioxidant
+4,hypericum thymopsis boiss,hypericum,,,,,sideritis l_bronchitis,,,
+5,hypericum,hypericum perforatum,,,,,sideritis l_sore throat,,,
+6,sideritis l,hypericum l,,,,,,,,
+7,sideritis,sideritis,,,,,,,,
+8,sideritis javalambrensis,sideritis l,,,,,,,,
+9,sideritis raeseri,s. scardica,,,,,,,,
+10,s. scardica,s. raeseri,,,,,,,,
+11,s. raeseri,s. tau-rica,,,,,,,,
+12,s. tau-rica,s. syriaca,,,,,,,,
+13,s. syriaca,s. perfoliata,,,,,,,,
+14,s. perfoliata,sideritis species,,,,,,,,
+15,s. taurica,sideritis raeseri,,,,,,,,
+16,,sideritis javalambrensis,,,,,,,,
+17,,sideritis vidovikoi,,,,,,,,
+18,,sideritis pripagja,,,,,,,,
+19,,sideritis vidovite,,,,,,,,
+20,,sideritis i,,,,,,,,
+21,,s. taurica,,,,,,,,

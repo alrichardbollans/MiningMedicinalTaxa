@@ -1,0 +1,24 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,rhodiola rosea,rhodiola,commercialrhodiola rosea,punicagranatum l,,,rhodiola rosea_fatigue,,,rhodiola rosea_adaptogenic
+1,rhodiola,rhodiola rosea shr-5,pomegranate,,,,rhodiola rosea_stress,,,punicagranatum l_vasculoprotective
+2,rhodiolarosea,rhodiolarosea,punicagranatum l.).front,,,,punica granatum l_coronary artery disease,,,punica granatum l_vasculoprotectiveeffects
+3,punica granatum l,rhodiola rosea,ofpomegranate,,,,punica granatum l_atherosclerosis,,,punica granatum l_attenuate platelet aggregation
+4,punica l,punica granatum l,punica granatum l.)dongdong,,,,punica granatum l_tapeworm infestation,,,punica granatum l_blood pressure regulation
+5,,punica l,austriapomegranate,,,,punica granatum l_ultraviolet-inducedskin damage,,,punica granatum l_antioxidant
+6,,,punicaceae,,,,punica granatum l_diabetes,,,punica granatum l_antioxidative
+7,,,pomegranateplay,,,,punica granatum l_vascular diseases,,,punica granatum l_diminish lipid uptake by macrophages
+8,,,ebers papyrus,,,,punica granatum l_tapewormparasites,,,punica granatum l_fertility
+9,,,tapeworm,,,,punica granatum l_dental plaques,,,punica granatum l_anti-inflammatory
+10,,,pomegranatecan,,,,punica granatum l_oncological diseases,,,punica granatum l_improving vascularfunction
+11,,,pomegranatetree,,,,punica granatum l_hypertension,,,punica granatum l_anti-hypertensive
+12,,,thatpomegranate,,,,punica granatum l_peripheral arterydisease,,,punica granatum l_reduce oxidative stress and plateletaggregation
+13,,,pomegranatejuice,,,,punica granatum l_prostate cancer,,,punica granatum l_antimicrobial
+14,,,lymphocystis disease virus,,,,,,,punica granatum l_protective against toxicity
+15,,,lymphocystis,,,,,,,punica granatum l_antibacterial
+16,,,ellagicacid,,,,,,,punica granatum l_anticarcinogenic
+17,,,andterpenoids,,,,,,,punica granatum l_antiproliferative
+18,,,pomegranateflower,,,,,,,punica granatum l_vasculoprotective
+19,,,pomegranatecomprise,,,,,,,punica granatum l_antifungal
+20,,,pomegranate-derived,,,,,,,punica granatum l_influence endothelial cell function
+21,,,punica granatum l.(components,,,,,,,punica granatum l_influence endothelial cellfunction
+22,,,below).pomegranate juice,,,,,,,

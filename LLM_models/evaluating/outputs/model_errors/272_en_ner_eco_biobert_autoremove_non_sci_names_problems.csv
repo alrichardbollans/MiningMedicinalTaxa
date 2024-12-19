@@ -1,0 +1,17 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,azadirachta indica,azadirachta indica,renata slaveska,s.subspicata,,,s. montana_lymphatic system diseases,,,satureja_andantioxidant
+1,satureja,satureja montana l.and,ands. visianii silic,urticadioica l,,,s. montana_hodgkin syn-drome,,,satureja_an-tifungal
+2,s. montana,s. subspicata,ofsatureja montana,s.hortensis l,,,s.subspicata_lymphatic system diseases,,,satureja_antioxidant
+3,s. subspicata vis,satureja l,s. subspicatapopulations,s. visianii silic,,,s.subspicata_hodgkin syn-drome,,,satureja_antiviral
+4,s. subspicata,s. cuneifolia ten,,sa-tureja,,,,,,satureja_antimicro-bial
+5,satureja l,s. montana l,,,,,,,,
+6,s. cuneifolia ten,s. subspicata vis,,,,,,,,
+7,s. montana l,s. montana,,,,,,,,
+8,satureja montana l,satureja,,,,,,,,
+9,sat-ureja montana,sat-ureja montana,,,,,,,,
+10,satureja atropatana bung,satureja species,,,,,,,,
+11,satureja mutica fisch. et c.a. mey,satureja essentialoils,,,,,,,,
+12,,satureja montana l. subsp.montana,,,,,,,,
+13,,satureja atropatana bung,,,,,,,,
+14,,satureja mutica fisch,,,,,,,,
+15,,satureja subspicata vis,,,,,,,,

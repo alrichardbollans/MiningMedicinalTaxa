@@ -1,0 +1,25 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,s. lucida,scrophularia lucida,ofharpagoside,,,,scrophularia oxysepala_breast cancer,,,scrophularianodosa_wound healing
+1,scrophularia lucida,scrophularia oxysepala boiss,mcf-7 human,,,,achillea_bleeding disorders,,,salviaofficinalis_antioxidative
+2,scrophularia,scrophularianodosa,mcf-7 breast,,,,achillea_wounds,,,s. lucida_anti-intravasative
+3,scrophularia oxysepala,scrophularia ningpoensis hemsley,hispidulin,,,,achillea_bruises,,,achillea_astringent
+4,scrophularia oxysepala boiss,scrophularia oxysepalain,breast cancerspheroids,,,,,,,
+5,scrophularianodosa,scrophularia canina l,breastcancer spheroids,,,,,,,
+6,scrophularia ningpoensis hemsley,salviaofficinalis,"daniela milovanovic3,nicole",,,,,,,
+7,scrophularia canina l,scrophularia dentataroyle ex benth,sigurd krieger3,,,,,,,
+8,salviaofficinalis,scrophularia,aydin,,,,,,,
+9,scrophularia dentataroyle ex benth,s. lucida,turkeyflavonoids,,,,,,,
+10,achillea,achillea,apigenin,,,,,,,
+11,achillea sp,achillea sp,luteolin,,,,,,,
+12,a. millefolium,a. millefolium,breast cancer,,,,,,,
+13,cynara,cynara,mda-mb231 breast cancer,,,,,,,
+14,apium,apium,flavonoid,,,,,,,
+15,allium,allium,flavonoidsof,,,,,,,
+16,petroselinum,petroselinum,scrophulariaspecies,,,,,,,
+17,punica,punica,achilleios,,,,,,,
+18,thymus,thymus,materia medica,,,,,,,
+19,solidago,solidago,"dioscurides,1st",,,,,,,
+20,chamaemelum,chamaemelum,demateria medica,,,,,,,
+21,viola,viola,tnbc,,,,,,,
+22,vitis,vitis,mda-mb231,,,,,,,
+23,,,mmp1,,,,,,,

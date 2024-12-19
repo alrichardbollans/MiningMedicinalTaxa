@@ -1,0 +1,20 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,juniperus excelsa,juniperus excelsa,diazepam,,,,,,,juniperus oxycedrus_antioxidant
+1,j. excelsa,juniperus communis,lidocaine,,,,,,,juniperus communis_antioxidant
+2,juniperus communis,juniperus oxycedrus,pentobarbital,,,,,,,juniperus excelsa_antioxidant
+3,j. communis,juniper,li-docaine,,,,,,,juniperus commu-nis_antioxidant
+4,juniperus oxycedrus,juniperus commu-nis,metoclopramide,,,,,,,juniperus foetidissima_antioxidant
+5,juniper,juniperus foetidissima,lidocain-m-(desethyl,,,,,,,j. communis_antioxidants
+6,juniperus commu-nis,j. communis,pen-tobarbital,,,,,,,j. communis_antioxidant
+7,j. commu-nis,j. excel-sa (je,diaze-pam,,,,,,,j. excelsa_antioxidants
+8,juniperus foetidissima,j. foetidissima,me-dia,,,,,,,j. excelsa_antioxidant
+9,j. foetidissima,j. commu-nis,reglan,,,,,,,j. foetidissima_antioxidants
+10,j. excel-sa,j. excelsa,benzodiazepine,,,,,,,j. foetidissima_antioxidant
+11,,,opiates,,,,,,,juniper_hypotensive
+12,,,benzodiazepines,,,,,,,juniper_analgesic
+13,,,benzo-diazepines,,,,,,,juniper_antimicrobial
+14,,,barbiturate,,,,,,,juniper_hypoglycemic
+15,,,ariana,,,,,,,juniper_an-ti-inflammatory
+16,,,svetlana,,,,,,,juniper_diuretic
+17,,,jc,,,,,,,
+18,,,quercetin,,,,,,,

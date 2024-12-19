@@ -1,0 +1,24 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hibiscus sabdariffa,hibiscus sabdariffa,empedoclia rafin,,,,hibiscus sabdariffa_liver,,,physalis angulata l_inhibit the production of inflammatory cytokines
+1,lonicera japonica,lonicera japonica,,,,,hibiscus sabdariffa_skin cancer,,,antrodia salmonea_autophagic or apoptotic cell death
+2,eucommia ulmoides,eucommia ulmoides,,,,,hibiscus sabdariffa_breast,,,antrodia salmonea_autophagic- and apoptotic-cell death
+3,physalis angulata l,physalis angulata l,,,,,lonicera japonica_skin cancer,,,antrodia salmonea_autophagic and apoptotic cell death
+4,antrodia salmonea,antrodia salmonea,,,,,eucommia ulmoides_liver,,,mikania micrantha_anti-cancer
+5,mikania micrantha,mikania micrantha,,,,,eucommia ulmoides_skin cancer,,,mikania micrantha_inhibits melanogenesis
+6,cannabis sativa,cannabis sativa,,,,,eucommia ulmoides_breast,,,mikania micrantha_inhibit melanin production
+7,sideritis cypria,sideritis cypria,,,,,antrodia salmonea_glioblastoma,,,mikania micrantha_keratinocyte proliferation
+8,s. cypria,sideritis,,,,,cannabis sativa_anxiety,,,mikania micrantha_reducing tyrosinase
+9,sideritis,s. curvidens stapf,,,,,cannabis sativa_stress,,,mikania micrantha_anti-inflammatory
+10,s. curvidens stapf,s. perfoliata l,,,,,cannabis sativa_pain,,,mikania micrantha_wound healing
+11,s. perfoliata l,s. cypria post1,,,,,s. cypria_headache,,,mikania micrantha_antioxidant
+12,zingiber officinale roscoe,s. cypria,,,,,s. cypria_stomach disorders,,,mikania micrantha_prevent free radical diseases
+13,zingiber zerumbet smith,zingiber officinale roscoe,,,,,s. cypria_common cold,,,mikania micrantha_inhibits melanin production
+14,curcuma amada roxb,zingiber zerumbet smith,,,,,,,,mikania micrantha_increasing autophagy
+15,zingiber montanum koen,curcuma amada roxb,,,,,,,,mikania micrantha_anti-blood cancer
+16,z. montanum koen,z. montanum koen,,,,,,,,sideritis cypria_antioxidant
+17,,zingiber montanum koen,,,,,,,,s. cypria_diaphoretic
+18,,,,,,,,,,s. cypria_tonic
+19,,,,,,,,,,s. cypria_antioxidant
+20,,,,,,,,,,zingiber montanum koen_free radical scavenging
+21,,,,,,,,,,zingiber montanum koen_cytotoxicity
+22,,,,,,,,,,zingiber montanum koen_thrombolytic

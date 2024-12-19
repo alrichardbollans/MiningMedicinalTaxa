@@ -1,0 +1,20 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,plantago l,plantago l,autacoids,,,,,,,tuber aestivum vittad_antioxidant
+1,plantago altissima l,plantago altissima l,rheumatoid arthritis,,,,,,,tuber aestivum vittad_anti-inflammatory
+2,plantago lanceolata l,plantago lanceolata l,plantain,,,,,,,tuber aestivum vittad_cytotoxic
+3,plantago reniformis g. beck,plantago reniformis g,orcic,,,,,,,tuber magnatum pico_antioxidant
+4,tuber aestivum vittad,tuber aestivum vittad,cetojevic-simin,,,,,,,tuber magnatum pico_anti-inflammatory
+5,tuber magnatum pico,tuber magnatum pico,anackov,,,,,,,tuber magnatum pico_cytotoxic
+6,juniperus sibirica burgsdorf,juniperus sibirica burgsdorf,onion,,,,,,,juniperus sibirica burgsdorf_anti-inflammatory
+7,juniperus foetidissima willd,juniperus foetidissima willd,alliaceae,,,,,,,juniperus sibirica burgsdorf_antioxidant
+8,"allium flavum l., subsp. flavum",allium flavum l,assessmentdragana vujanovicdepartment,,,,,,,"allium flavum l., subsp. flavum_antiinflammatory"
+9,,,species,,,,,,,"allium flavum l., subsp. flavum_antioxidant"
+10,,,,,,,,,,"allium flavum l., subsp. flavum_cytotoxic"
+11,,,,,,,,,,plantago l_anti-inflammatory
+12,,,,,,,,,,plantago altissima l_cytotoxic
+13,,,,,,,,,,plantago altissima l_antioxidant
+14,,,,,,,,,,plantago lanceolata l_cytotoxic
+15,,,,,,,,,,plantago lanceolata l_antioxidant
+16,,,,,,,,,,plantago reniformis g. beck_antioxidant
+17,,,,,,,,,,plantago reniformis g. beck_anti-inflammatory
+18,,,,,,,,,,plantago reniformis g. beck_cytotoxic

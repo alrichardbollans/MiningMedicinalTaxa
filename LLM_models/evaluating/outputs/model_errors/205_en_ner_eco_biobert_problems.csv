@@ -1,0 +1,30 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,cannabis,cannabis sativa l,vesna kostic2,,,,cannabis_con-vulsions,,,cannabis_psychoactive
+1,cannabis sativa l,cannabis,svetlana cekovska3,,,,cannabis_insomnia,,,cannabis_painkiller
+2,can-nabis,can-nabis,hemp,,,,cannabis_tetanus,,,cannabis_analgesic
+3,canna-bis,canna-bis,cannabi-naceae,,,,cannabis_rheu-matic pains,,,cannabis_narcotic
+4,juniperus communis subsp. alpina (suter) celak,juniperus communis subsp,marijuana,,,,cannabis_rheumatism,,,cannabis_psychotropic
+5,juniperus,j. nana,med-ical marijuana,,,,cannabis_constipation,,,cannabis_healing
+6,juniperus communis,juniperus,cannabiscannabis,,,,cannabis_female problems,,,juniperus communis subsp. alpina (suter) celak_antioxidant
+7,j. communis,j. communis,atharva veda,,,,cannabis_cholera,,,juniperus communis subsp. alpina (suter) celak_hypoglycemic
+8,j. nana,j. oxycedrus,pent ts'ao ching,,,,cannabis_malaria,,,juniperus communis subsp. alpina (suter) celak_carminative
+9,juniperus nana,juniperus nana,kaneh bosm,,,,cannabis_rabies,,,juniperus communis subsp. alpina (suter) celak_antibacterial
+10,juniperus communis l,juniperus communis,hashish,,,,cannabis_delirium tremens,,,juniperus communis subsp. alpina (suter) celak_antiseptic
+11,juniperus sect. juniperus,juniperus communis l,in-dian hemp,,,,juniperus communis subsp. alpina (suter) celak_rheumatic complaints,,,
+12,j. oxycedrus,,canna-binoids,,,,,,,
+13,,,osnovi farmakognozije,,,,,,,
+14,,,"licno izdanje, beograd",,,,,,,
+15,,,cvetkovska bojadzievska,,,,,,,
+16,,,farmakognozija,,,,,,,
+17,,,naucna knjiga,,,,,,,
+18,,,celak,,,,,,,
+19,,,cupressaceae,,,,,,,
+20,,,cu-pressaceae,,,,,,,
+21,,,juniper cones,,,,,,,
+22,,,juniper cone,,,,,,,
+23,,,proenca da-cunhaa,,,,,,,
+24,,,juniper,,,,,,,
+25,,,sabinene,,,,,,,
+26,,,myrcene,,,,,,,
+27,,,a-pinene,,,,,,,
+28,,,dwarf juniper,,,,,,,

@@ -1,0 +1,25 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,syringa vulgaris,syringa vulgaris,candida albicans.msphere,candida albicans,,,syringa vulgaris_inflammation,,,syringa vulgaris_pro-inflammatory functions of neutrophils
+1,s. vulgaris,syringa,bas infante,,,,syringa reticulata (blume)h. hara_bronchial disease,,,s. vulgaris_antipyretic
+2,syringa,olea,wyszomierska j,,,,syringa pinnatifoliahemsl_lung and heart diseases,,,s. vulgaris_anti-inflammatory
+3,s. vulgaris l,forsythia,secoiridoids,,,,syringa vetulina kom_tooth pain,,,s. vulgaris_anti-nociceptive
+4,syringa vulgaris l,fraxinus,fromsyringa vulgaris,,,,syringa_inflammation,,,s. vulgaris_antioxidant
+5,syringa reticulata (blume)h. hara,osmanthus,isolatedsecoiridoids,,,,s. vulgaris l_cough,,,s. vulgaris l_antipyretic
+6,syringa pinnatifoliahemsl,jasminum,joanna wyszomierska,,,,s. vulgaris l_toothaches,,,syringa afghanica c.k. schneid_antipyretics
+7,syringa vetulina kom,chionanthus,common lilac,,,,s. vulgaris l_sore mouth,,,
+8,syringa afghanica c.k. schneid,ligustrum,followingsecoiridoids,,,,s. vulgaris l_muscle/joint aches,,,
+9,olea,fraxinus exelsior l,oleonuezhenide,,,,s. vulgaris l_gout,,,
+10,forsythia,ligustrumvulgare l,oleuropein,,,,s. vulgaris l_cold,,,
+11,forsythia sp,syringa vulgaris l,ligstroside,,,,s. vulgaris l_rheumatism,,,
+12,fraxinus,forsythia sp,neooleuropein,,,,s. vulgaris l_antipyretics,,,
+13,fraxinus exelsior l,s.vulgaris,hydroxyframoside,,,,s. vulgaris l_gastrointestinaldisorders,,,
+14,osmanthus,s. josikaea,framoside,,,,s. vulgaris l_skin wounds,,,
+15,jasminum,s. vulgaris l,especiallyneooleuropein,,,,,,,
+16,chionanthus,syringa reticulata (blume)h. hara,oleaceae,,,,,,,
+17,ligustrum,syringa pinnatifoliahemsl,trees,,,,,,,
+18,ligustrumvulgare l,syringa vetulina kom,theoleaceae,,,,,,,
+19,s.vulgaris,syringa afghanica c.k,commonlilac,,,,,,,
+20,s. josikaea,syringa secoiridoids,s. vulgarisare,,,,,,,
+21,s. vulgarisl,s. vulgarisl,andligstroside,,,,,,,
+22,,,oleacea,,,,,,,
+23,,,escherichia coli0111:b4,,,,,,,

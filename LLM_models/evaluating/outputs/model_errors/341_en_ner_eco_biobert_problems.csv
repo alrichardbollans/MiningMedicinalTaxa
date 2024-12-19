@@ -1,0 +1,31 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,s. pinnatifolia,s. pinnatifolia,vulgaris,s.reticulata,,,,,,s.afghanica_antioxidant
+1,syringa,syringa secoiridoids,syringin,,,,,,,s. reticulata_antioxidant
+2,s.afghanica,s.afghanica,forsythoside b(31,,,,,,,s.reticulata_antioxidant
+3,s. reticulata,s. reticulata,secoiridoids,,,,,,,s. vulgaris_antioxidant
+4,syringa reticulata,s. vulgaris,ligstroside,,,,,,,syringa reticulata_antioxidant
+5,s. vulgaris,echinacea purpurea,ligs,,,,,,,syringa vulgaris_pro-inflammatory responses of human neutrophils
+6,syringa vulgaris,syringa reticulataand,oleuropein,,,,,,,syringa_mediators of inflammation
+7,echinacea purpurea,fraxinus excelsior,oleu,,,,,,,
+8,fraxinus,syringa,human neutrophils,,,,,,,
+9,ligustrum japonicum,fraxinus,nol,,,,,,,
+10,aruncus dioicus (walter) fernald,syringa vulgaris,framoside (fr,,,,,,,
+11,forsythia suspensa,ligustrum japonicum,ole).secoiridoids,,,,,,,
+12,,aruncus dioicus (walter) fernald,safghanosides,,,,,,,
+13,,forsythia suspensa,syringapicroside,,,,,,,
+14,,,oleonuezhenide,,,,,,,
+15,,,neooleuropein,,,,,,,
+16,,,hydroxyframoside,,,,,,,
+17,,,framoside,,,,,,,
+18,,,oleaceae,,,,,,,
+19,,,dimericsecoiridoid,,,,,,,
+20,,,whileneooleuropein,,,,,,,
+21,,,ofoleuropein,,,,,,,
+22,,,common lilac,,,,,,,
+23,,,ros'linylecznicze,,,,,,,
+24,,,vonsyringa vulgaris,,,,,,,
+25,,,2011).secoiridoid glucosides,,,,,,,
+26,,,excelsioside,,,,,,,
+27,,,fitoterapia 121,,,,,,,
+28,,,buck'sbeard,,,,,,,
+29,,,rosaceae,,,,,,,

@@ -1,0 +1,14 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,sideritis scardica griseb,sideritis scardica,mountain tea,,,,sideritis scardica griseb_aches,,,s. scardica_antioxidant
+1,s. scardica,s. raeseri,griseb,,,,sideritis scardica griseb_pains,,,sideritis scardic_radical scavenging
+2,sideritis,sideritis raeseri boiss,plantsposter presentationsilent,,,,sideritis scardica griseb_flu,,,s. raeseri_radical scavenging
+3,sideritis scardica,sideritis scardica griseb,lavandulfolioside,,,,sideritis scardica griseb_common cold,,,sideritis spp_antimicrobial
+4,s. raeseri,s. scardica,forsythoside a,,,,sideritis scardica griseb_sinus con-gestion,,,sideritis_antioxidant
+5,sideritis raeseri boiss. & heldr,sideritis,leucoseptoside a,,,,,,,
+6,sideritis scardic,sideritis spp,isoscutella-rein 7-o-[6'''-o-acetyl]-allosyl(1,,,,,,,
+7,sideritis spp,capsicum annuum l,red hot pepper,,,,,,,
+8,capsicum annuum l,,capsa-icinoids,,,,,,,
+9,"capsicum annuum l., ssp. microcarpum longum conoides, convar. horgoshka",,carotenoids,,,,,,,
+10,,,hot pepper,,,,,,,
+11,,,capsaicinoids,,,,,,,
+12,,,horgoshka,,,,,,,

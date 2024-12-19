@@ -1,0 +1,60 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,helleborus odorus subsp. cyclophyllus,helleborus odorus subsp,s. thymbra.www.ethnopharmacology2021.org,cannabis,,,helleborus odorus subsp. cyclophyllus_epilepsy,,,helleborus odorus subsp. cyclophyllus_antiseizure
+1,anchusa officinalis,anchusa officinalis,cyclophyllus,,,,cistus creticus_cancer,,,anchusa officinalis_antiviral
+2,cistus creticus,cistus creticus,zebrafish epilepsy,,,,cistus creticus_pathogenic microorganisms,,,anchusa officinalis_diuretic
+3,cistus creticus l,galium aparine,"m. jacmin2,3",,,,,,,anchusa officinalis_antibacterial
+4,galium aparine,origanum vulgare,k. vougogiannopoulou4,,,,,,,anchusa officinalis_antioxidant
+5,galium aparine l,origanum vulgare ssp,ferreira queiroz1,,,,,,,galium aparine_antimicrobial
+6,origanum vulgare ssp. hirtum,cistus creticus l,black hellebore,,,,,,,galium aparine_immunomodulatory
+7,crithmum,galium aparine l,cyclophyllus (hoc,,,,,,,galium aparine_antioxidant
+8,,origanum,ranunculaceae,,,,,,,origanum vulgare ssp. hirtum_against carcinogenic cells
+9,,crithmum,hellebrin,,,,,,,origanum vulgare ssp. hirtum_inhibitor against the growth of various fungi
+10,,,deglucohellebrin,,,,,,,origanum vulgare ssp. hirtum_against viruses
+11,,,hellebrigenin,,,,,,,origanum vulgare ssp. hirtum_antibacterial
+12,,,bufadienolides,,,,,,,cistus creticus l_antimicrobial
+13,,,chortiatis mountains,,,,,,,galium aparine l_cytotoxic
+14,,,sarapis1,,,,,,,galium aparine l_apoptotic
+15,,,p.-r,,,,,,,galium aparine l_antimicrobial
+16,,,chortiatis,,,,,,,galium aparine l_antioxidant
+17,,,hirtum,,,,,,,crithmum_antibacterial
+18,,,acta chimica slovenica,,,,,,,crithmum_antioxidant
+19,,,demetzos,,,,,,,
+20,,,ent-3 beta-hydroxy-13-epi-manoyl oxide,,,,,,,
+21,,,ioannidis,,,,,,,
+22,,,dimas,,,,,,,
+23,,,papadaki,,,,,,,
+24,,,hatziantoniou,,,,,,,
+25,,,alevizopoulos,,,,,,,
+26,,,pantazis,,,,,,,
+27,,,"labd-14-ene-8,13-diol",,,,,,,
+28,,,loukis,,,,,,,
+29,,,spiliotis,,,,,,,
+30,,,stratigakis,,,,,,,
+31,,,katerinopoulos,,,,,,,
+32,,,spectrochimica acta,,,,,,,
+33,,,erwinia amylovora (burril) winslow,,,,,,,
+34,,,acta phytopathologica,,,,,,,
+35,,,c. geraci,,,,,,,
+36,,,g. ruberto,,,,,,,
+37,,,erwinia amylovora,,,,,,,
+38,,,acta hort,,,,,,,
+39,,,z. tynecka,,,,,,,
+40,,,glowniak,,,,,,,
+41,,,herba polonica,,,,,,,
+42,,,e. sidiropoulou1,,,,,,,
+43,,,k. kalaitsidis1,,,,,,,
+44,,,k. fotou3,,,,,,,
+45,,,k. grigoriadou4,,,,,,,
+46,,,i. giannenas1,,,,,,,
+47,,,d. lazari2,,,,,,,
+48,,,sage,,,,,,,
+49,,,oregano,,,,,,,
+50,,,lactobacillus plantarum,,,,,,,
+51,,,lactobacillus rhamnosus,,,,,,,
+52,,,enterococcus faecium,,,,,,,
+53,,,enterococcus faecalis,,,,,,,
+54,,,escherichia coli,,,,,,,
+55,,,staphylococcus aureus,,,,,,,
+56,,,eimeria tenella sporozoites,,,,,,,
+57,,,fecal oocyst,,,,,,,
+58,,,microbiota,,,,,,,

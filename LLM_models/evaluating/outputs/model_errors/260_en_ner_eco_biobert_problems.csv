@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,allium cepa,allium cepa,zloupotreba na,,,,,,,allium cepa_genotoxicity
+1,vicia faba,vicia faba,katerina jugreva,,,,,,,vicia faba_genotoxicity
+2,trifolium repens,trifolium repens,republika makedonija,,,,,,,trifolium repens_genotoxicity
+3,phaseolus vulgaris,phaseolus vulgaris,rabotnata sredina,,,,,,,phaseolus vulgaris_genotoxicity
+4,,,kanabinoidi,,,,,,,
+5,,,dizajnerski drogi,,,,,,,
+6,,,2006132makedonski farmatsevtski bilten,,,,,,,
+7,,,toksikologija,,,,,,,
+8,,,prezentatsiipetti,,,,,,,
+9,,,kongres na,,,,,,,

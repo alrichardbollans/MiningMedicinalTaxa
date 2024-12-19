@@ -1,0 +1,33 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,shorea roxburghii,s. roxburghii,thailandshorea roxburghii,,,,shorea roxburghii_type 2 diabetes mellitus (t2dm,,,calluna vulgaris (l.) hull_skin-protective
+1,s. roxburghii,shorea roxburghii,dipterocarpaceae,,,,shorea roxburghii_diarrhea,,,c. vulgaris_skin anti-aging and protection
+2,dacrycarpus imbricatus,dacrycarpus imbricatus,stilbenoids,,,,shorea roxburghii_dysentery,,,c. vulgaris_antiradical
+3,pinus dalatensis ferre,pinus dalatensis ferre,oligostilbenoids,,,,shorea roxburghii_cholera,,,c. vulgaris_antioxidant
+4,oldenlandia pinifolia,oldenlandia pinifolia,dihydroisocoumarins,,,,cladosporium_acute myeloid leukemia,,,c. vulgaris_moderate antimicrobial
+5,ficus hirta,ficus hirta,type 2 diabetes,,,,rauwolfia_acute myeloid leukemia,,,shorea roxburghii_hypoglycemic effect
+6,cladosporium,dacrycarpus imbricatus (blume) de laub,sprague dawley (sd,,,,,,,s. roxburghii_antidiabetic potentials
+7,cladosporium spp,o. pinifolia,thuoc nam,,,,,,,cladosporium_anti-microbial
+8,rauwolfia,cladosporium spp,tuoc bac,,,,,,,cladosporium_anti-tumor
+9,acer truncatum,cladosporium,fusarubin,,,,,,,
+10,warbrugia ugandensis sprague,rauwolfia,anhydrofusarubin,,,,,,,
+11,w. ugandensis,acer truncatum,afu,,,,,,,
+12,erythrina abyssinica dc,acer,statesacer truncatum,,,,,,,
+13,cryptolepsis sanguinolenta (lindl.) schltr,a. truncatum,sapindaceae,,,,,,,
+14,c. sanguinolenta,warbrugia ugandensis sprague,miscanthoside,,,,,,,
+15,albizia coriaria oliv,erythrina abyssinica dc,isovitexin/vitexine,,,,,,,
+16,psorospermum febrifugium spach,cryptolepsis sanguinolenta (lindl.) schltr,a-549,,,,,,,
+17,p. febrifugium,albizia coriaria oliv,mcf-7,,,,,,,
+18,gymnosporia senegalensis (lam.) loes,psorospermum febrifugium spach,sw-480,,,,,,,
+19,zanthoxylum chalybeum engl,gymnosporia senegalensis (lam.) loes,acer truncatum.www.ethnopharmacology2021.org,,,,,,,
+20,securidaca longipendunculata fresen,zanthoxylum chalybeum engl,e. kakudidi1,,,,,,,
+21,s. longipendunculata,securidaca longipendunculata fresen,jovis-tonantis (welw.) verdc,,,,,,,
+22,acacia hockii de wild,acacia hockii de wild,g. cappellucci1,,,,,,,
+23,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc,gardenia ternifolia subsp,italycalluna vulgaris (l.) hull,,,,,,,
+24,bridelia micrantha (hochst.) baill,bridelia micrantha (hochst.) baill,ericaceae,,,,,,,
+25,a. coriria,w. ugandensis,streptococcus pyogenes,,,,,,,
+26,calluna vulgaris (l.) hull,a. coriria,,,,,,,,
+27,c. vulgaris,c. sanguinolenta,,,,,,,,
+28,,p. febrifugium,,,,,,,,
+29,,s. longipendunculata,,,,,,,,
+30,,calluna vulgaris (l.) hull,,,,,,,,
+31,,c. vulgaris,,,,,,,,

@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ocimum,ocimum,sukvinder kaur bhamra,,,,,,,
+1,ocimum tenuiflorum l,ocimum species,plant,,,,,,,
+2,o. tenuiflorum,o. tenuiflorum,tulsi,,,,,,,
+3,o. selloi,o. selloi,species,,,,,,,
+4,o. gratissimum,o. gratissimum,bhamra,,,,,,,
+5,,ocimum tenuiflorum l,raam,,,,,,,
+6,,,shyam tulsi,,,,,,,
+7,,,raam tulsi,,,,,,,
+8,,,hms,,,,,,,

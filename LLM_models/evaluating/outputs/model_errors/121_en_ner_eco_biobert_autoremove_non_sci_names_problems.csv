@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,physostigma venenosum,physostigma venenosum,s -sago,rauvolfia serpentina,,,cinchona spp_malaria,,,
+1,cinchona spp,cinchona spp,belladonna,penicillium notatum,,,rauvolfia serpentina_schizophrenia,,,
+2,capsicum,capsicum peppers,cannabis sativa).tetraploid,cassia,,,rauvolfia serpentina_hypertension,,,
+3,,,,derrisspp,,,penicillium notatum_bacterial infections,,,
+4,,,,atropabelladonna,,,,,,
+5,,,,solanum spp,,,,,,
+6,,,,strychnos nux-vomica,,,,,,
+7,,,,citrus,,,,,,
+8,,,,cannabis sativa,,,,,,

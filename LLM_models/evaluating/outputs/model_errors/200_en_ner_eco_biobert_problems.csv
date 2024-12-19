@@ -1,0 +1,43 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,trifolium pratense l,trifolium pratense l,red clover,,,,chenopodium botrys l_humoral asthma,,,trifolium pratense l_estrogenic
+1,chenopodium botrys l,chenopodium botrys l,genistein,,,,chenopodium botrys l_catarrh,,,chenopodium botrys l_antimicrobial
+2,c. botrys,chenopodium,diadzein,,,,,,,c. botrys_antidiarrheal
+3,chenopodium botrys,dys-phania botrys (l.) mosyakin,formononetin,,,,,,,c. botrys_diuretic
+4,chenopodium,chenopodium ambro-sioides,fabaceae,,,,,,,c. botrys_fungicidal
+5,chenopodium ambro-sioides,c. botrys,promensil,,,,,,,c. botrys_bactericidal
+6,dys-phania botrys (l.) mosyakin and clemants,c. botrys herba,powdered red clover,,,,,,,c. botrys_antimicrobial
+7,candida albicans,candida albicans atcc 10259,amaranthaceae,,,,,,,c. botrys_antifungal
+8,aspergillus niger,candida albicans,ljubica adji andov1,,,,,,,c. botrys_carminative
+9,candi-da albicans,aspergillus niger,marija karapandzova1,,,,,,,c. botrys_antibacterial
+10,,candi-da albicans,ivana cvetkovikj1,,,,,,,c. botrys_antispasmodic
+11,,chenopodium botrys,ana kaftandzieva2,,,,,,,chenopodium botrys_antimi-crobia
+12,,,svetlana kulevanova1,,,,,,,chenopodium botrys_antifungal
+13,,,oak goosefoot,,,,,,,
+14,,,jaceosidin,,,,,,,
+15,,,staphylococ-cus aureus atcc 25923,,,,,,,
+16,,,escherichia coli atcc 25922,,,,,,,
+17,,,staphylococcus epidermidis atcc 12228,,,,,,,
+18,,,pseudomonas aeruginosa atcc 9027,,,,,,,
+19,,,enterococcus,,,,,,,
+20,,,strepto-coccus pyogenes,,,,,,,
+21,,,proteus mirabilis,,,,,,,
+22,,,salmonella enteriti-s5 pp 237498maced,,,,,,,
+23,,,plantsposter presentationsdis,,,,,,,
+24,,,staphylococcus aureus,,,,,,,
+25,,,staphylococcus epidermidis,,,,,,,
+26,,,streptococcus pyogenes,,,,,,,
+27,,,escherichia coli,,,,,,,
+28,,,salmonella en-teritidis,,,,,,,
+29,,,pseudomonas aeruginosa,,,,,,,
+30,,,ascaridole,,,,,,,
+31,,,cheno-podium,,,,,,,
+32,,,chenoalbuside,,,,,,,
+33,,,cinnam-ic,,,,,,,
+34,,,quercetin,,,,,,,
+35,,,salvi-genin,,,,,,,
+36,,,sinensetin,,,,,,,
+37,,,macedo-nian,,,,,,,
+38,,,elemol,,,,,,,
+39,,,eudesmol,,,,,,,
+40,,,apigenin,,,,,,,
+41,,,chenopodiaceae,,,,,,,

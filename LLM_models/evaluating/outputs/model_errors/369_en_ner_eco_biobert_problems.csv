@@ -1,0 +1,31 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,a. laxmannii,a. laxmannii,a. taiwanensis(israili,a. taiwanensis,,,ajuga_edema,,,ajuga_antipyretic
+1,ajuga laxmannii,ajuga laxmanniithe,ofiridoidsiridoids,aspergillus flavus,,,ajuga_ulcer,,,ajuga_astringent
+2,ajuga,a. laxmannii ce,aucubin,aspergillus niger,,,ajuga_intestinal and biliary disorders,,,ajuga_diuretic
+3,a. bracteosa,ajuga,catalpol,candida albicans,,,ajuga_hypertension,,,a. laxmannii_anti-inflammatory
+4,a. relicta,a. bracteosa,harpagide,candida parapsilosis,,,ajuga_fever,,,a. laxmannii_antioxidant
+5,ajugalaxmannii,a. relicta,harpagoside,penicillium funiculosum,,,,,,a. laxmannii_antimicrobial
+6,a. turkestanica,ajuga species,a. laxmanniiextracts,,,,,,,a. laxmannii_antifungal
+7,a. reptans,ajugalaxmannii,harpagide aucubin,,,,,,,a. laxmannii_antiradical
+8,a. chamaecistus subsp. scoparia (boiss.) rech.f,ajuga laxmanniitable,laxmannii,,,,,,,a. laxmannii_antibacterial
+9,,a. turkestanica,aeruginosa,,,,,,,a. turkestanica_antioxidant
+10,,a. reptans,1.2l,,,,,,,a. chamaecistus subsp. scoparia (boiss.) rech.f_antiradical
+11,,a. chamaecistus subsp,monocytogenes,,,,,,,
+12,,ajuga laxmanniiethanol,coli,,,,,,,
+13,,ajuga laxmanniifigure,1.2s,,,,,,,
+14,,,typhimurium,,,,,,,
+15,,,fluconazole,,,,,,,
+16,,,0.3aspergillus niger,,,,,,,
+17,,,0.3candida albicans,,,,,,,
+18,,,0.2candida parapsilosis,,,,,,,
+19,,,0.2penicillium funiculosum,,,,,,,
+20,,,a. laxmanniiethanol,,,,,,,
+21,,,a. laxmanniishowed,,,,,,,
+22,,,scoparia (boiss.) rech.f,,,,,,,
+23,,,chamaecistus subsp,,,,,,,
+24,,,pseudomonas aeruginosa,,,,,,,
+25,,,listeria monocytogenes,,,,,,,
+26,,,escherichia coli,,,,,,,
+27,,,salmonella typhimurium,,,,,,,
+28,,,s. aureus,,,,,,,
+29,,,escherichiacoli,,,,,,,

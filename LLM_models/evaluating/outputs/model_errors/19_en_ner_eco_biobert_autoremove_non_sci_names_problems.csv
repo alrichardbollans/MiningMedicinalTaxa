@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,sida cordifolia,sida cordifolia l,,,,,,,,
+1,sida cordifolia l,sida cordifolia,,,,,,,,
+2,sida,sida,,,,,,,,
+3,sida acuta burm.f,sida acuta burm.f,,,,,,,,
+4,hypericum perforatum l,hypericum perforatum l,,,,,,,,
+5,capsicum spp,capsicum spp,,,,,,,,
+6,aloe vera l,aloe vera l,,,,,,,,
+7,ocimum tenuiflorum l,ocimum tenuiflorum l,,,,,,,,

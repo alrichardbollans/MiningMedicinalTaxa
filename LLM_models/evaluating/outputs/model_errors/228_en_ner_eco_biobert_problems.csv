@@ -1,0 +1,20 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,stachys tymphaea,stachys tymphaea,aligiannis,,,,harrisonia perforata_diarrhoea,,,paeonia mascula ssp hellenica_anti-tyrosinase
+1,paeonia mascula ssp hellenica,paeonia mascula ssp hellenica,halabalaki,,,,,,,stachys tymphaea_antioxidant
+2,paeonia mascula,morus alba,gikas,,,,,,,
+3,morus alba,paeonia mascula,"michalea, r",,,,,,,
+4,paeonia parnassica,paeonia parnassica,"polychronopoulos, p",,,,,,,
+5,harrisonia perforata,harrisonia perforata,elephants,,,,,,,
+6,pistacia lentiscus,pistacia lentiscus resin,elephant,,,,,,,
+7,pistacia,p. lentiscus l. var,cattle,,,,,,,
+8,p. lentiscus l. var. chia,,goats,,,,,,,
+9,,,poultry,,,,,,,
+10,,,broiler chicken,,,,,,,
+11,,,broiler chicks,,,,,,,
+12,,,crithmum,,,,,,,
+13,,,chios mastic,,,,,,,
+14,,,greecechios mastic,,,,,,,
+15,,,mastic,,,,,,,
+16,,,olive secoiridoids,,,,,,,
+17,,,olive,,,,,,,
+18,,,secoiridoids oleu,,,,,,,

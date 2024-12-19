@@ -1,0 +1,29 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,mentha,mentha,plants,,,,mentha_stomach pain,,,trigonella foenum graecum_antidepressant
+1,mentha longifolia,mentha longifolia,eduosmos,,,,,,,trigonella foenum graecum_hypoglycemic
+2,m. spicata,m. spicata,duosmos,,,,,,,trigonella foenum graecum_antihyperlipidemic
+3,m. x villoso-nervata,m. x villoso-nervata,spicatae,,,,,,,trigonella foenum graecum_psychotonic
+4,trigonella foenum graecum,trigonella foenum graecum,spearmint,,,,,,,origanum vulgare l. ssp. hirtum (link) letsw_antioxidant
+5,t. foenum graecum,t. foenum graecum,diosmos,,,,,,,rosa pendulina l_antioxidant
+6,origanum vulgare l. ssp. hirtum (link) letsw,origanum vulgare l,labiatae,,,,,,,r. pendulina_antioxidant
+7,micromeria hispida,micromeria hispida,athenstrigonella foenum graecum,,,,,,,rosa canina_antioxidant
+8,m. hispida,teucrium alpestre,fenugreek,,,,,,,
+9,teucrium alpestre,thymbra calostachya,"bilalis, d",,,,,,,
+10,t. alpestre,m. hispida,karkanis,,,,,,,
+11,thymbra calostachya,t. alpestre,triantafyllidis,,,,,,,
+12,t. calostachya,t. calostachya,hela,,,,,,,
+13,rosa pendulina l,rosa pendulina l,organic quinoa,,,,,,,
+14,r. pendulina,rosa pendulina,chenopodium quinoa willd,,,,,,,
+15,rosa canina,r. pendulina,bot horti agrobo,,,,,,,
+16,rosa canina l,rosa canina l,oregano,,,,,,,
+17,,rosa canina pseudo,papadopoulos2,,,,,,,
+18,,,metaxa2,,,,,,,
+19,,,d. hadjipavlou-litina4,,,,,,,
+20,,,lamiaceae,,,,,,,
+21,,,d. lazari11,,,,,,,
+22,,,greecemicromeria hispida,,,,,,,
+23,,,rosaceae,,,,,,,
+24,,,jevremovac,,,,,,,
+25,,,rose hips,,,,,,,
+26,,,rosehips,,,,,,,
+27,,,rosehip,,,,,,,

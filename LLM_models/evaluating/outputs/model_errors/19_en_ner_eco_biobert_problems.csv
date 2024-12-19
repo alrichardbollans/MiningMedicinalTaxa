@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,sida cordifolia,sida cordifolia l,mallow,,,,,,,
+1,sida cordifolia l,sida cordifolia,bala,,,,,,,
+2,sida,sida,ayurveda,,,,,,,
+3,sida acuta burm.f,sida acuta burm.f,st john's wort,,,,,,,
+4,hypericum perforatum l,hypericum perforatum l,celery,,,,,,,
+5,capsicum spp,capsicum spp,fungi,,,,,,,
+6,aloe vera l,aloe vera l,sukvinder kaur bhamra,,,,,,,
+7,ocimum tenuiflorum l,ocimum tenuiflorum l,plant species,,,,,,,
+8,,,hms,,,,,,,
+9,,,tulsi,,,,,,,

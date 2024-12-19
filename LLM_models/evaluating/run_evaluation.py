@@ -9,7 +9,6 @@ from pydantic.v1 import BaseModel
 from LLM_models.evaluating import NER_evaluation, RE_evaluation, check_errors, abbreviated_approximate_match, \
     abbreviated_precise_match, get_metrics_from_tp_fp_fn, clean_model_annotations_using_taxonomy_knowledge
 from LLM_models.evaluating.gnfinder_baseline import gnfinder_query_function
-from LLM_models.evaluating.rebel_model import rebel_query_function
 from LLM_models.running_models import query_a_model, get_input_size_limit, setup_models
 from LLM_models.structured_output_schema import valid_chunk_annotation_info, get_all_human_annotations_for_chunk_id, get_chunk_filepath_from_chunk_id, \
     repo_path, summarise_annotations
@@ -315,7 +314,6 @@ def full_evaluation(rerun: bool = True):
     fileNames = os.listdir(os.path.join('outputs', 'full_eval'))
     for f in fileNames:
         if f.endswith(".csv") and not f.startswith('all_results'):
-
             model_results = pd.read_csv(os.path.join('outputs', 'full_eval', f), index_col=0)
             model_results = model_results.loc[['f1']]
             model_results = model_results.rename(index={'f1': f'{f}_f1'})
@@ -338,22 +336,6 @@ def full_eval_gnfinder(rerun: bool = True):
                                autoremove_non_sci_names=False, model_query_function=gnfinder_query_function)
     assess_model_on_chunk_list(test['id'].unique().tolist(), model, None, os.path.join('outputs', 'full_eval'), rerun=False,
                                autoremove_non_sci_names=True, model_query_function=gnfinder_query_function)
-
-def full_eval_rebel(rerun: bool = True):
-    class Mplaceholder(BaseModel):
-        """Extracted data about taxa."""
-
-        # Creates a model so that we can extract multiple entities.
-        model_name: str
-
-    test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
-    model = Mplaceholder(model_name='rebel')
-    assess_model_on_chunk_list(test['id'].unique().tolist(), model, None, os.path.join('outputs', 'full_eval'), rerun=rerun,
-                               autoremove_non_sci_names=False, model_query_function=rebel_query_function)
-    assess_model_on_chunk_list(test['id'].unique().tolist(), model, None, os.path.join('outputs', 'full_eval'), rerun=False,
-                               autoremove_non_sci_names=True, model_query_function=rebel_query_function)
-
-
 
 
 def main():

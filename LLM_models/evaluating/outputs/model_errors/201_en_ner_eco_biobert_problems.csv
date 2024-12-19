@@ -1,0 +1,21 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,capsicum annuum,capsicum annuum,soybean,,,,trifolium pratense_menopause,,,capsicum chinense_antioxidant
+1,"capsicum annuum l., ssp. microcar-pum longum conoides, convar. horgoshka",capsicum annuum l,capsaicinoids,,,,,,,trifolium pratense_estrogenic
+2,capsicum,capsicum chinense,capsaicin,,,,,,,
+3,capsicum chinense,capsicum fruit,red hot pepper,,,,,,,
+4,trifolium pratense,capsicum,microcar-pum longum conoides,,,,,,,
+5,trifolium pratense extractum siccum,trifolium pratense,horgoshka,,,,,,,
+6,,,habanero pepper,,,,,,,
+7,,,habanero peppers,,,,,,,
+8,,,dihydrocapsaicin,,,,,,,
+9,,,zorica arsova,,,,,,,
+10,,,cap-saicin,,,,,,,
+11,,,tumor necrosis factor,,,,,,,
+12,,,lucciarini,,,,,,,
+13,,,caprodossi,,,,,,,
+14,,,arcella,,,,,,,
+15,,,mcf-7,,,,,,,
+16,,,trpv1,,,,,,,
+17,,,receptor potential vaniloid subtype 1,,,,,,,
+18,,,red clover,,,,,,,
+19,,,formononetin,,,,,,,

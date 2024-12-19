@@ -1,0 +1,23 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,theobroma cacao,theobroma cacao,tetrahydrocannabinol,camellia sinensis,,,camellia sinensis_bronchial asthma,,,theobroma cacao_stimulant
+1,triticum,triticum,opium poppy,catharanthus roseus,,,vinca_childhood leukemia,,,theobroma cacao_dilate arteries
+2,vinca,vinca alkaloidsused,fromcacao,secale,,,vinca_hodgkin'sdisease,,,theobroma cacao_diuretic
+3,saccharomyces cervesieae,saccharomyces cervesieae,tea(camellia sinensis,chondrodendron,,,catharanthus roseus_childhood leukemia,,,camellia sinensis_heartstimulant
+4,,,orlaudanum,vincarosea,,,catharanthus roseus_hodgkin'sdisease,,,
+5,,,opium,vitisspp,,,,,,
+6,,,tobacco mosaic virus,,,,,,,
+7,,,bananas,,,,,,,
+8,,,genuschondrodendron,,,,,,,
+9,,,madagascar periwinkle(catharanthus,,,,,,,
+10,,,vincarosea.virus,,,,,,,
+11,,,sweet clover.weed,,,,,,,
+12,,,thecotton gin,,,,,,,
+13,,,introductionthe scope,,,,,,,
+14,,,thenew millenium,,,,,,,
+15,,,ediciones abya-yala,,,,,,,
+16,,,ofethnobotany,,,,,,,
+17,,,economic botany,,,,,,,
+18,,,la botanica economica,,,,,,,
+19,,,la etnobotanica,,,,,,,
+20,,,unadisciplina necessaria,,,,,,,
+21,,,aboriginal botany,,,,,,,

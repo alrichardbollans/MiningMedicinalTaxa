@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,garcinia mangostana,garcinia mangostana (mangosteen,luanratana,benincasa hispida (thunb.) cogn,,,garcinia mangostana_breastcancer,,,garcinia mangostana_antioxidation
+1,citrulluscolocynthis,citrulluscolocynthis,onartemia salina,,,,citrulluscolocynthis_human cancerous (mcf-7 and hepg-2)cells,,,garcinia mangostana_antiproliferation
+2,citrullus colocynthis,citrullus colocynthis,kundur[benincasa hispida (thunb.) cogn,,,,citrulluscolocynthis_hyperlipidemia,,,garcinia mangostana_induction ofapoptosis
+3,daucus carota l,citrullus colocynthis schrad,apiaceae,,,,citrulluscolocynthis_human breast cancer,,,citrullus colocynthis_antidiabetic
+4,apium graveolens l,daucus carota l,carrot,,,,,,,daucus carota l_enhancer of macrophagecholesterol efflux
+5,aegopodium podagraria l,apium graveolens l,celery,,,,,,,apium graveolens l_enhancer of macrophagecholesterol efflux
+6,notopterygium incisum k.c.ting ex h.t.chang,aegopodium podagraria l,"2005),notopterygium incisum k.c.ting",,,,,,,notopterygium incisum k.c.ting ex h.t.chang_enhancer of macrophagecholesterol efflux
+7,notopterygium incisum k.c.ting exh.t.chang,notopterygium incisum k.c.ting,pioglitazone,,,,,,,
+8,,,bisphenol adiglycidyl,,,,,,,
+9,,,falcarindiol,,,,,,,
+10,,,radix notopterygii,,,,,,,
+11,,,cathepsin b,,,,,,,

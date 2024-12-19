@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,valeriana officinalis,valeriana officinalis,fjola hadjihamza1,,,,,,,
+1,,,eleonora pandova2,,,,,,,
+2,,,violeta bozinova11medika,,,,,,,
+3,,,animal,,,,,,,
+4,,,plant,,,,,,,

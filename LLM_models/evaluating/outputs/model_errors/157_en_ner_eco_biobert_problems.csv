@@ -1,0 +1,16 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hypericum perforatum,hypericum perforatum,plants,,,,,,,hypericum perforatum_anti-depressant
+1,,,plant,,,,,,,
+2,,,plant species,,,,,,,
+3,,,st. john's wort,,,,,,,
+4,,,heantos,,,,,,,
+5,,,naphtodianthrone hypericin,,,,,,,
+6,,,hypericin,,,,,,,
+7,,,adhyperforin,,,,,,,
+8,,,quercetin,,,,,,,
+9,,,hyperoside,,,,,,,
+10,,,biapigenin,,,,,,,
+11,,,catechin,,,,,,,
+12,,,hyperforin,,,,,,,
+13,,,opium,,,,,,,
+14,,,cold turkey,,,,,,,

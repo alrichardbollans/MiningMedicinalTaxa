@@ -1,0 +1,22 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ginkgo hiloba,ginkgo hiloba,taxol,,,,,,,taxus_anti-!| tumour
+1,ginkgo biloba,ginkgo biloba,ginkgolide b,,,,,,,t. bacata_anti-!| tumour
+2,a. paniculata,a. paniculata,ginkgolides,,,,,,,t. brevifolia_anti-!| tumour
+3,taxus,taxus,ginkgolide,,,,,,,a. paniculata_antibacterial
+4,t. bacata,t. bacata,andrographolide,,,,,,,
+5,t. brevifolia,t. brevifolia,terpenoids,,,,,,,
+6,andrographolideii,andrographolideii,phenylpropanoids,,,,,,,
+7,aspergillus flavus,aspergillus flavus,paclitaxel,,,,,,,
+8,,,"ginkgolides a, b",,,,,,,
+9,,,androrapholide,,,,,,,
+10,,,salmonella typhimurium,,,,,,,
+11,,,ta98,,,,,,,
+12,,,ta100,,,,,,,
+13,,,sprague-dawley rats,,,,,,,
+14,,,y. sharifuddin,,,,,,,
+15,,,wistar albino rats,,,,,,,
+16,,,sharifuddinchapter 1chapter,,,,,,,
+17,,,fruit fly,,,,,,,
+18,,,drosophila,,,,,,,
+19,,,sharifuddinchapter 1food,,,,,,,
+20,,,mcl-5,,,,,,,

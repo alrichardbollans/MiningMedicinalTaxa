@@ -1,0 +1,32 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,euclea natalensis a.dc,euclea natalensis a.dc,harpagoside,,,,euclea natalensis_chest related complaints,,,euclea natalensis a.dc_antifibrotic
+1,euclea natalensis,vitex species,h. procumbens.www.ethnopharmacology2021.org5820th,,,,euclea natalensis_stomach problems,,,euclea natalensis a.dc_hepatoprotective
+2,vitex,oldfieldia dactylophylla (welw. ex oliv,africaeuclea natalensis,,,,euclea natalensis_abdominal pain,,,euclea natalensis_antimycobacterial
+3,oldfieldia dactylophylla (welw. ex oliv,v. congolensis de wild,palmatilobae,,,,euclea natalensis_tuberculosis,,,euclea natalensis_antifibrotic
+4,v. congolensis de wild and t. durand,v. doniana sweet,animal,,,,euclea natalensis_dysentery,,,euclea natalensis_hepatoprotectant
+5,v. doniana sweet,v. fischeri gurke,lamiaceae,,,,euclea natalensis_drug-induced liver injury,,,euclea natalensis_antibacterial
+6,v. fischeri gurke,v. madiensis,helminthiases,,,,oldfieldia dactylophylla (welw. ex oliv_parasitic worm,,,vitex_anthelmintic
+7,v. madiensis subsp. milanjiensis (britten) f.white,v. mombassae vatke,caenorhabditis elegans,,,,v. doniana sweet_parasitic worm,,,entada africana_anti-inflammatory
+8,v. mombassae vatke,entada africana,picrodendraceae,,,,v. fischeri gurke_parasitic worm,,,entada africana guill. & perr_analgesic
+9,entada africana,e. africana,t. durand,,,,v. madiensis subsp. milanjiensis (britten) f.white_parasitic worm,,,e. africana_anti-inflammatory
+10,entada africana guill. & perr,e. africana (ea,milanjiensis (britten) f.white,,,,v. mombassae vatke_parasitic worm,,,persicaria senegalensis (meisn.) sojak_anti-ageing
+11,e. africana,persicaria senegalensis (meisn,nematode,,,,vitex_helminthiases,,,persicaria senegalensis_anti-ageing
+12,persicaria senegalensis (meisn.) sojak,persicaria senegalensis,parasitic worm,,,,entada africana guill. & perr_pain related-diseases,,,p. senegalensis_anti-ageing
+13,persicaria senegalensis,p. senegalensis,v. spiegler2,,,,entada africana guill. & perr_fractures and sprains,,,
+14,p. senegalensis,poria cocos,v. ahyi1,,,,e. africana_pain-related conditions,,,
+15,poria cocos,poria,germanyentada africana guill,,,,persicaria senegalensis_chronic inflammation,,,
+16,poria cocos (schw.) wolf,,planta medicawww.ethnopharmacology2021.org,,,,,,,
+17,,,usapersicaria,,,,,,,
+18,,,polygonaceae,,,,,,,
+19,,,bifidobacterium,,,,,,,
+20,,,acne vulgaris,,,,,,,
+21,,,africaacne vulgaris,,,,,,,
+22,,,av,,,,,,,
+23,,,cutibacterium acnes,,,,,,,
+24,,,c. acnes,,,,,,,
+25,,,atcc 6919,,,,,,,
+26,,,acne vulgaris.www.ethnopharmacology2021.org,,,,,,,
+27,,,chinaporia cocos (schw.) wolf,,,,,,,
+28,,,poria cutis,,,,,,,
+29,,,white poria,,,,,,,
+30,,,radix pini,,,,,,,

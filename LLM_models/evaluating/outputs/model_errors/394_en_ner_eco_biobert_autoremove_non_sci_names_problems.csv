@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,senna,senna,saw palmetto herbaldietary,ginkgo,,,,,,
+1,cassia,cassia marketproducts,tov. chamaedrys,hypericum perforatum,,,,,,
+2,veronica officinalis,veronica officinalis,,,,,,,,
+3,v. officinalis,v. officinalis,,,,,,,,
+4,veronica,v. chamaedrys,,,,,,,,
+5,v. chamaedrys,veronica iridoids,,,,,,,,
+6,veronica iridoids,veronica officinalis productsr2,,,,,,,,

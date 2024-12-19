@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,scrophularia lucida,scrophularia lucida,l. ssp,s. auriculata l. ssp. pseudoauriculata (senn.) bolos et vigo,,,,,,
+1,s. lucida,s. lucida,,,,,,,,
+2,scrophularia,scrophularia ilwensis c,,,,,,,,
+3,scrophularia ilwensis c. koch,s. ningpoensis,,,,,,,,
+4,s. ningpoensis,s. striata,,,,,,,,
+5,s. striata,scrophularia,,,,,,,,
+6,scrophularia koelziil,s. nodosa l,,,,,,,,
+7,scrophularia deserti del,scrophularia koelziil,,,,,,,,
+8,s. nodosa l,scrophularia deserti del,,,,,,,,

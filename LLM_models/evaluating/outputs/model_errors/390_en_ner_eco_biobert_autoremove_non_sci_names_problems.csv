@@ -1,0 +1,27 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ononis,ononis,staphylococcus epidermidis,perillafrutescens,,,ononis natrix_s. aureus,,,ononis_dna protection activity
+1,ononis natrix,ononis natrix,s. epidermis,helichrysum,,,ononis natrix_s. kentucky,,,ononis natrix_antimicrobial
+2,ononis natrix subsp. hispanica,ononis natrix subsp,natrix subsp,ceratoniasiliqua l,,,ononis natrix_e. coli,,,ononis natrix_protectiveactivity for dna
+3,o. natrix subsp.hispanica,ofononis natrix,s. epidermidis,ononisnatrix,,,ononis natrix_s. epidermidis,,,ononis natrix_cytotoxic
+4,o. natrix subsp. hispanica,onononis natrix,s. aureuslead,,,,o. natrix subsp.hispanica_staphylococcusaureus,,,ononis natrix subsp. hispanica_antimicrobial
+5,o. natrix subp. hispanica,potentilla reptans,s. aureus(atcc,,,,o. natrix subsp.hispanica_staphylococcus epidermidis,,,ononis natrix subsp. hispanica_dna protectors
+6,potentilla reptans,p. speciosa,,,,,o. natrix subsp.hispanica_salmonella kentucky,,,perillafrutescens_scavenging of reactive oxygenradicals
+7,potentilla,o. natrix subsp.hispanica,,,,,,,,perillafrutescens_anti-carcinogenic
+8,p. speciosa,s. aureus atcc 25923,,,,,,,,potentilla reptans_cytotoxic activity against a549 andmcf-7
+9,s. aureus,staphylococcus aureus,,,,,,,,p. speciosa_cytotoxic activity against a549 andmcf-7
+10,ficus carica l,s. aureus,,,,,,,,o. natrix subsp.hispanica_antimicrobial
+11,quercus ilex l,o. natrix subp,,,,,,,,o. natrix subsp.hispanica_antibacterial
+12,,ficus carica l,,,,,,,,o. natrix subsp. hispanica_antimicrobial
+13,,quercus ilex l,,,,,,,,o. natrix subp. hispanica_anticancer
+14,,,,,,,,,,o. natrix subp. hispanica_antimicrobial
+15,,,,,,,,,,o. natrix subp. hispanica_antioxidant
+16,,,,,,,,,,helichrysum_antimicrobial
+17,,,,,,,,,,helichrysum_antioxidant
+18,,,,,,,,,,ficus carica l_anticancer
+19,,,,,,,,,,ficus carica l_anticalpain
+20,,,,,,,,,,ficus carica l_antioxidant
+21,,,,,,,,,,ceratoniasiliqua l_anticancer
+22,,,,,,,,,,ceratoniasiliqua l_antioxidant
+23,,,,,,,,,,quercus ilex l_anticancer
+24,,,,,,,,,,quercus ilex l_anticalpain
+25,,,,,,,,,,quercus ilex l_antioxidant

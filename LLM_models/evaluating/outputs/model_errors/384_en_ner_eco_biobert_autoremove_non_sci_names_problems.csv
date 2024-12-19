@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,citrullus colocynthis,citrullus colocynthis,molluscgalba truncatula,citrulluscolocynthis,,,citrullus colocynthis_type ii diabetes,,,citrulluscolocynthis_analgesic
+1,citrullus colocynthis (l.) schrad,citrullus colocynthis fruit,fasciola hepatica,citrulluscolocynthis (l,,,,,,citrulluscolocynthis_anti-inflammatory
+2,citrullus colocynthis (l,citrullus colocynthis (l.) schrad,,,,,,,,
+3,,citrullus colocynthis (l,,,,,,,,

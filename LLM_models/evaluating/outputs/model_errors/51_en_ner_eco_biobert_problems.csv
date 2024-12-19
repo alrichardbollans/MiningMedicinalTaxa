@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,panax ginseng,panax ginseng,fungi,oenothera biennis,,,,,,
+1,ginkgo biloba,ginkgo,ginseng,hypericum perforatum,,,,,,
+2,echinacea,echinacea sp.895,evening primrose,echinacea sp,,,,,,
+3,allium sativum,allium sativum,oenothera biennis892,,,,,,,
+4,,,st. john's wort,,,,,,,
+5,,,hypericum perforatum893,,,,,,,
+6,,,ginkgo biloba894,,,,,,,
+7,,,purple echinacea,,,,,,,
+8,,,makikuisma.894,,,,,,,
+9,,,homeopathy,,,,,,,

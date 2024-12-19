@@ -1,0 +1,16 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aspergillus carbonarius,aspergillus carbonarius,ochratoxin a,,,,polygonum aviculare_human breast can-cer,,,polygonum aviculare_anticancer
+1,rhamnus fran-gula,rhamnus fran-gula,maaroufi,,,,teucrium chamaedrys_human co-lon carcinoma,,,polygonum aviculare_cytotoxicity
+2,quercus pedunculata,quercus pedunculata,sultanas,,,,,,,polygonum aviculare_cytotoxic
+3,capsella bursa-pastoris,capsella bursa-pastoris,galega officinalis).these,,,,,,,teucrium chamaedrys_cytotoxic
+4,epilobium parviflo-rum,epilobium parviflo-rum,artemia salina nauplii,,,,,,,teucrium_anticancer
+5,hypericum perforatum,hypericum perforatum,nauplii,,,,,,,
+6,polygonum aviculare,polygonum aviculare,artemia salina,,,,,,,
+7,teu-crium chamaedrys,teu-crium chamaedrys,brine shrimps,,,,,,,
+8,viscum album,viscum album,brine shrimp,,,,,,,
+9,epilobi-um parviflorum,epilobi-um parviflorum,"matsabisa, m",,,,,,,
+10,galega officinalis,galega officinalis,mohammadi roushandeh,,,,,,,
+11,rhamnus frangu-la,rhamnus frangu-la,mcf-7,,,,,,,
+12,vis-cum album,vis-cum album,planta medica,,,,,,,
+13,teucrium chamaedrys,teucrium chamaedrys,gliomas,,,,,,,
+14,teucrium,teucrium plant species,acute myeloid,,,,,,,

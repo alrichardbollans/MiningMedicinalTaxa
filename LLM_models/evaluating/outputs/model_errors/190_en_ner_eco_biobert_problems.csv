@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,a. flavus,a. flavus,aflatoxin b1,,,,,,,
+1,aspergillus flavus,aspergillus flavus,aflatoxin m1,,,,,,,
+2,,,aflatoxins,,,,,,,
+3,,,aflatoxin,,,,,,,
+4,,,af-latoxin,,,,,,,
+5,,,aflatoxico-sis,,,,,,,
+6,,,rosana bozhinovska,,,,,,,
+7,,,renata slaveska raickifaculty,,,,,,,
+8,,,chamomile,,,,,,,

@@ -1,0 +1,26 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,syzygium,syzygium,p. zombamontana.www.ethnopharmacology2021.org,p. zombamontana,,,syzygium legatii_mastitis,,,p. zombamontana_protecting poultry against infection
+1,syzygium legatii,eugenia,south african eugenia,,,,s. gerrardii_mastitis,,,p. zombamontana_cytotoxicity
+2,syzygium gerrardii,syzygium legatii,myrtaceae,,,,,,,p. zombamontana_anti-inflammatory
+3,eugenia,syzygium gerrardii,staphylococcus aureus,,,,,,,p. zombamontana_antioxidant
+4,s. gerrardii,s. gerrardii,staphylococcus,,,,,,,eugenia_against staphylococcus aureus
+5,linum usitatissimum,linum usitatissimum,anti-staphylococcal,,,,,,,eugenia_cytotoxicity
+6,cannabis sativa,cannabis,s. aureus,,,,,,,eugenia_antibacterial
+7,cannabis,cannabis sativa,"k. grigoriadou2,3",,,,,,,syzygium_against staphylococcus aureus
+8,lupinus albus,lupinus albus,s. vasilopoulos1,,,,,,,syzygium_antibacterial
+9,,,oregano,,,,,,,syzygium legatii_antibacterial
+10,,,thyme,,,,,,,syzygium legatii_anti-staphylococcal
+11,,,mountain tea,,,,,,,s. gerrardii_antibacterial
+12,,,chamomile,,,,,,,s. gerrardii_anti-staphylococcal
+13,,,lohmann laying hens,,,,,,,syzygium gerrardii_higher toxicity to bacteria
+14,,,maize-soybean,,,,,,,
+15,,,broiler chickens,,,,,,,
+16,,,green poultry,,,,,,,
+17,,,flaxseed,,,,,,,
+18,,,lupin,,,,,,,
+19,,,dairy cows,,,,,,,
+20,,,giannenas1,,,,,,,
+21,,,k. kalaitsidis1,,,,,,,
+22,,,sidiropoulou1,,,,,,,
+23,,,lupines,,,,,,,
+24,,,white lupine,,,,,,,

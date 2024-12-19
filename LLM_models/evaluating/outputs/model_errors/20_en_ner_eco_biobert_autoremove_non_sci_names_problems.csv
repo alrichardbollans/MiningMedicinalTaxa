@@ -1,0 +1,25 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,phyllanthus emblica l,phyllanthus emblica l,matria medica,,,,phyllanthus emblica l_digestive problems,,,nigella sativa l_anti-cancer
+1,terminalia bellirica (gaertn.) roxb,terminalia bellirica (gaertn.) roxb bastard myrobalan,asparagus,,,,phyllanthus emblica l_diabetes,,,nigella sativa l_hepatoprotective
+2,terminalia chebula retx,terminalia chebula retx,,,,,phyllanthus emblica l_hypercholesterolemia,,,nigella sativa l_anti-inflammatory
+3,nigella sativa l,nigella sativa l,,,,,phyllanthus emblica l_hypertension,,,nigella sativa l_analgesic
+4,,,,,,,phyllanthus emblica l_constipation,,,nigella sativa l_antifungal
+5,,,,,,,phyllanthus emblica l_cardiovascular disease,,,nigella sativa l_nephroprotective effects
+6,,,,,,,terminalia bellirica (gaertn.) roxb_digestive problems,,,nigella sativa l_antibacterial
+7,,,,,,,terminalia bellirica (gaertn.) roxb_diabetes,,,nigella sativa l_healing
+8,,,,,,,terminalia bellirica (gaertn.) roxb_hypercholesterolemia,,,
+9,,,,,,,terminalia bellirica (gaertn.) roxb_hypertension,,,
+10,,,,,,,terminalia bellirica (gaertn.) roxb_constipation,,,
+11,,,,,,,terminalia bellirica (gaertn.) roxb_cardiovascular disease,,,
+12,,,,,,,terminalia chebula retx_digestive problems,,,
+13,,,,,,,terminalia chebula retx_diabetes,,,
+14,,,,,,,terminalia chebula retx_hypercholesterolemia,,,
+15,,,,,,,terminalia chebula retx_hypertension,,,
+16,,,,,,,terminalia chebula retx_constipation,,,
+17,,,,,,,terminalia chebula retx_cardiovascular disease,,,
+18,,,,,,,nigella sativa l_asthma,,,
+19,,,,,,,nigella sativa l_cough,,,
+20,,,,,,,nigella sativa l_pain,,,
+21,,,,,,,nigella sativa l_diabetes,,,
+22,,,,,,,nigella sativa l_headache,,,
+23,,,,,,,nigella sativa l_rheumatism,,,

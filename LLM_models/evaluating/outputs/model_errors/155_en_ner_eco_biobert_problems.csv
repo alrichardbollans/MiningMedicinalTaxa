@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hypericum perforatum,hypericum perforatum,opium,,,,hypericum perforatum_illnesses of the imagination,,,hypericum perforatum_curing demoniacs
+1,,,heantos,,,,hypericum perforatum_phantasmata,,,hypericum perforatum_diuretic
+2,,,dioscordes,,,,hypericum perforatum_parasites,,,
+3,,,arnica,,,,hypericum perforatum_mild depression,,,
+4,,,phantasmata,,,,hypericum perforatum_disturbances of understanding,,,
+5,,,fuga daemonum,,,,hypericum perforatum_depression,,,
+6,,,st. john's wort,,,,hypericum perforatum_snakebites,,,
+7,,,,,,,hypericum perforatum_anxiety,,,
+8,,,,,,,hypericum perforatum_wounds,,,
+9,,,,,,,hypericum perforatum_burns,,,
+10,,,,,,,hypericum perforatum_melancholia,,,

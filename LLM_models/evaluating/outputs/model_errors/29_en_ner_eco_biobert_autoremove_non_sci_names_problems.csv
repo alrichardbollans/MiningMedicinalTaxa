@@ -1,0 +1,15 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,echinacea angustifolia dc,echinacea,bromelain echinacea cinnamon,,,,aloe vera_skin heath,,,echinacea_maintain immune system
+1,echinacea,agnus castus,commiphora jeevan,,,,aloe vera_skin conditions,,,mentha_calm nerves
+2,agnus castus,echinacea angustifolia dc,,,,,aloe vera_wound,,,mentha_eases digestion
+3,rhodiola,rhodiola,,,,,aloe vera_eczema,,,ginkgo_circulatory problems
+4,aloe vera,aloe vera,,,,,echinacea angustifolia dc_infections,,,boswellia serrate roxb. ex colebr_anti-inflammatory
+5,aspergillus,aspergillus,,,,,echinacea angustifolia dc_cold,,,althaea officinalis l_demulcent
+6,ginkgo,ginkgo,,,,,echinacea_colds,,,althaea officinalis l_cough
+7,senna,senna,,,,,echinacea_coughs,,,
+8,mentha,mentha,,,,,echinacea_sore throat,,,
+9,trachyspermum ammi,trachyspermum ammi,,,,,agnus castus_pms symptoms,,,
+10,boswellia serrate roxb. ex colebr,boswellia,,,,,senna_constipation,,,
+11,boswellia,eucalyptus oil honey,,,,,,,,
+12,eucalyptus,boswellia serrate roxb. ex colebr,,,,,,,,
+13,althaea officinalis l,althaea officinalis l,,,,,,,,

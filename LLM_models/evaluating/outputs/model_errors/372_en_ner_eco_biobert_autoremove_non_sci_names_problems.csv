@@ -1,0 +1,26 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aspalathus linearis (burm.f.) r.dahlgren,aspalathus linearis (burm.f,fructus rosae,hoodiagordonii (masson) sweet ex decne,,,crataegus_cardiovascular problems,,,hoodiagordonii (masson) sweet ex decne_regulate the appetite
+1,cyclopia sp,cyclopia sp,fructus crataegi,l.cardiaca l,,,,,,malpighia glabra l_vitamin c
+2,malpighia glabra l,malpighia glabra l,herba hyperici,thymusserpyllum l,,,,,,viburnum opulus l_diaphoretic
+3,crataegus,crataegus,fructus alni,q. petraea(matt.) liebl,,,,,,viburnum opulus l_diuretic
+4,origanum vulgare l,origanum vulgare l,viburnum opulus l.(cortex,calendula officinalis l,,,,,,viburnum opulus l_anti-inflammatory
+5,leonurus cardiaca l,leonurus cardiaca l,fructus viburni,pimpinellaanisum l,,,,,,l.cardiaca l_antistress
+6,quercus robur l,quercus robur l,includingcalendula officinalis l,convallaria majalis l,,,,,,
+7,viburnum opulus l,viburnum opulus l,asparagaceae(convallaria majalis l,frangula alnus mill,,,,,,
+8,acorus calamus l,acorus calamus l,andalnus glutinosa (l.) gaertn,adonis vernalis l,,,,,,
+9,taraxacum campylodes g.e.haglund,taraxacum campylodes g.e.haglund,gnaphalium uliginosum l.and,digitalis purpurea l,,,,,,
+10,taraxacum officinale l,taraxacum officinale l,,rubia tinctorum l,,,,,,
+11,aralia elata (miq.) seem,aralia elata (miq.) seem,,alnus glutinosa (l.) gaertn,,,,,,
+12,equisetum arvense l,equisetum arvense l,,gnaphalium uliginosum l,,,,,,
+13,eucalyptus viminalis labill,eucalyptus viminalis labill,,,,,,,,
+14,zea mays l,zea mays l,,,,,,,,
+15,atropa belladonnal,atropa belladonnal,,,,,,,,
+16,datura stramonium l,datura stramonium l,,,,,,,,
+17,hyoscyamus niger l,hyoscyamus niger l,,,,,,,,
+18,convallaria keiskei miq,convallaria keiskei miq,,,,,,,,
+19,rhamnus cathartica l,rhamnus cathartica l,,,,,,,,
+20,chelidonium majus l,chelidonium majus l,,,,,,,,
+21,digitalis grandifloramill,digitalis grandifloramill,,,,,,,,
+22,polemonium caeruleum l,polemonium caeruleum l,,,,,,,,
+23,alnus incana (l.) moench,alnus incana (l.) moench,,,,,,,,
+24,bidens tripartita l,bidens tripartita l,,,,,,,,

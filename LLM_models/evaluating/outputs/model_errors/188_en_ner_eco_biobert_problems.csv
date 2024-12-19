@@ -1,0 +1,31 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,prunus cerasifera,prunus cerasifera,armeniacae,,,,foeniculum vulgare_climacterium,,,foeniculum vulgare_facilitate birth
+1,prunus armeniaca,prunus armeniaca,amygdalin,,,,,,,foeniculum vulgare_stimulation of the lactic secretion
+2,prunus domestica,prunus domestica,lncap,,,,,,,foeniculum vulgare_estrogenic
+3,prunus ar-meniaca,prunus ar-meniaca,armeniacae semen,,,,,,,foeniculum vulgare_stimulation of menstruation
+4,prunus arme-niaca,prunus arme-niaca,mandelonitrile beta-glucuronide,,,,,,,
+5,prunus cera-sifera,prunus cera-sifera,apricot-kernel,,,,,,,
+6,prunus tomentosa,prunus,tomentosa thunb,,,,,,,
+7,foe-niculum vulgare,foe-niculum vulgare,apiaceae,,,,,,,
+8,foeniculum vulgare,foeniculum vulgare,aniseed,,,,,,,
+9,"foeniculum vulgare, miller",pimpinella anisum,sweet fennel,,,,,,,
+10,pimpinella anisum,"foeniculum vulgare, miller",ouzo,,,,,,,
+11,hypericum,hypericum perforatum l.)veronika,mastika,,,,,,,
+12,hypericum perforatum,hypericum,yeni raki,,,,,,,
+13,hypericum perforatum l,hypericum perforatum,climacterium,,,,,,,
+14,,,dianethol,,,,,,,
+15,,,trans-anethole,,,,,,,
+16,,,anethole,,,,,,,
+17,,,anise,,,,,,,
+18,,,farmakognozija,,,,,,,
+19,,,st. john's wort,,,,,,,
+20,,,naphthodian-thrones,,,,,,,
+21,,,hypericin,,,,,,,
+22,,,pseudohypericin,,,,,,,
+23,,,hyperforin,,,,,,,
+24,,,adhy-perforin,,,,,,,
+25,,,biflavonoids,,,,,,,
+26,,,hyperoside,,,,,,,
+27,,,querci-trin,,,,,,,
+28,,,isoquercitrin,,,,,,,
+29,,,biapigenin,,,,,,,

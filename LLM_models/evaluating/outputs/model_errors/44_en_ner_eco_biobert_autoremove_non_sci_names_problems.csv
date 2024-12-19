@@ -1,0 +1,24 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,olea europaea,olea europaea,thora/ kori buti bugleweed,,,,olea europaea_arthritis,,,spinacia oleracea_internal strength
+1,piper betle,piper betle,,,,,olea europaea_skin conditions,,,spinacia oleracea_blood
+2,spinacia oleracea,spinacia oleracea,,,,,olea europaea_eczema,,,spinacia oleracea_source of iron
+3,ficus religiosa,ficus religiosa,,,,,olea europaea_ear infections,,,ficus religiosa_digestion
+4,pistaci vera,pistaci vera,,,,,ficus religiosa_wounds,,,ficus religiosa_liver health
+5,mentha arvensis,mentha arvensis,,,,,ficus religiosa_diarrhoea,,,annona reticulata_immune boosting
+6,annona reticulata,annona reticulata,,,,,mentha arvensis_indigestion,,,foeniculum vulgare_digestion
+7,brassica juncea,brassica juncea,,,,,annona reticulata_cancer,,,vitus vinifera_blood purifier
+8,foeniculum vulgare,foeniculum vulgare,,,,,annona reticulata_diarrhoea,,,areca catechu_stimulant
+9,vitus vinifera,vitus vinifera,,,,,brassica juncea_dry skin,,,laurus nobilis_digestion
+10,areca catechu,areca catechu,,,,,brassica juncea_pain,,,sesamum indicum_reduce urinary frequency
+11,laurus nobilis,laurus nobilis,,,,,foeniculum vulgare_cough,,,sesamum indicum_improves circulation
+12,sesamum indicum,sesamum indicum,,,,,foeniculum vulgare_bloating,,,sesamum indicum_warms blood
+13,ajuga bracteosa,ajuga bracteosa gout,,,,,foeniculum vulgare_constipation,,,coriandrum sativum_digestion
+14,coriandrum sativum,coriandrum sativum,,,,,vitus vinifera_cough,,,ocimum tenuiflorum_antibacterial
+15,ocimum tenuiflorum,ocimum tenuiflorum,,,,,laurus nobilis_diabetes,,,piper betle_digestion
+16,ocimum,asparagus,,,,,ajuga bracteosa_menstrual problems,,,pistaci vera_general health
+17,asparagus,ocimum specimens,,,,,ajuga bracteosa_gout,,,pistaci vera_cholesterol
+18,,,,,,,coriandrum sativum_diabetes,,,
+19,,,,,,,ocimum tenuiflorum_asthma,,,
+20,,,,,,,ocimum tenuiflorum_diabetes,,,
+21,,,,,,,ocimum tenuiflorum_colds,,,
+22,,,,,,,ocimum tenuiflorum_coughs,,,

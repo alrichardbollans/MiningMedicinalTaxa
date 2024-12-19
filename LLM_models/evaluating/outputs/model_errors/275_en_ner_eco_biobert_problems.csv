@@ -1,0 +1,31 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,carduus crispus,carduus crispus,cano,,,,artemisia_high blood pressure,,,artemisia_mycolytic
+1,arnicamontana l,arnicamontana l,marinebacteria,,,,artemisia_diabetes,,,artemisia_poison antidote
+2,arnicamontana,gypsophila trichotoma wend,asteraceae,,,,artemisia_gastric insufficiency,,,artemisia_anti-bacterial
+3,gypsophila trichotoma wend,arnica,caryophyllaceae,,,,,,,artemisia_blood circulation
+4,gypsophila,gypsophila trichotoma,v. toska1,,,,,,,artemisia_anti-fungal
+5,gypsophila trichotoma,arnica montana,e. hoti1,,,,,,,artemisia_stomachic
+6,arnica,gypsophila trichotomashow,p. sinibaldi,,,,,,,artemisia_digestive
+7,arnica montana,arnica montana - faktenblatt,betulae,,,,,,,artemisia_anti-helminicproperties
+8,artemisia,arnicamontana,sambuci flos,,,,,,,artemisia_anti-helmintic
+9,artemisia alba turra,artemisia,betulaefolium,,,,,,,artemisia_lipolytic
+10,artemisiaalba turra,artemisiaalba turra,hel-vetica pharmacopoeia,,,,,,,artemisia_anti-migraine
+11,a. camphorata,a. camphorata,betulae folium,,,,,,,artemisia_anti-malaric
+12,a. alba,a. alba,humanmelanoma,,,,,,,artemisia_anti-diabetic
+13,,artemisia ketone,triziate-thymidineas,,,,,,,
+14,,"artemisia ketone15.2%,g-muurolene",referencesbradley p,,,,,,,
+15,,,melanoma,,,,,,,
+16,,,sinibaldi vallebona p,,,,,,,
+17,,,spagnoli l.g,,,,,,,
+18,,,nathalie sphyris,,,,,,,
+19,,,2004.194makedonski farmatsevtski,,,,,,,
+20,,,aromatichni rastenija,,,,,,,
+21,,,prezentatsiipetti kongres,,,,,,,
+22,,,ofartemisia alba turra,,,,,,,
+23,,,dragana,,,,,,,
+24,,,mihailo ristic2,,,,,,,
+25,,,dragan velickovic1,,,,,,,
+26,,,novica randelovic31college,,,,,,,
+27,,,tadeusakoscuska,,,,,,,
+28,,,anthemideae,,,,,,,
+29,,,ofthis,,,,,,,

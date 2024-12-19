@@ -1,0 +1,32 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,satureja laxiflora c. koch,satureja laxiflora c,sonboli a,d. leptopodum,,,,,,fagopyrum esculentum_antagonizes the in-crease of capillary fragility
+1,fagopyrum esculentum,fagopyrum esculentum,trichomes,e. pulchella,,,,,,fagopyrum esculentum_hypotensive
+2,eschscholzia,eschscholzia,inlabiateae,,,,,,,fagopyrum esculentum_antioxidant
+3,dicra-nostigma,dicra-nostigma,833.188makedonski farmatsevtski,,,,,,,eschscholzia_antioxidant
+4,argemone,argemone,prezentatsiipetti kongres,,,,,,,dicra-nostigma_antioxidant
+5,glaucium,glaucium,parkajola mesiti1,,,,,,,argemone_antioxidant
+6,g. squamigerum,g. squamigerum,anthrotopotoleranca,,,,,,,glaucium_antioxidant
+7,e. douglasii,e. douglasii,arbuto-quercetum ilicis,,,,,,,scutellaria baicalensisgeorgii_sedatives
+8,scutellaria baicalensisgeorgii,scutellaria baicalensisgeorgii,demiri m,,,,,,,scutellaria baicalensisgeorgii_anti-inflammatory
+9,s. baicalensis,s. baicalensis,dinga l,,,,,,,scutellaria baicalensisgeorgii_antioxi-dants
+10,,,florikultura,,,,,,,scutellaria baicalensisgeorgii_anticoagulants
+11,,,luletaria,,,,,,,scutellaria baicalensisgeorgii_antihypertensive
+12,,,gjeografia fizike,,,,,,,scutellaria baicalensisgeorgii_cytostatics
+13,,,abiotic elicitationtumova l,,,,,,,
+14,,,common buckwheat,,,,,,,
+15,,,buckwheat,,,,,,,
+16,,,tumova l,,,,,,,
+17,,,ononis arvensis l,,,,,,,
+18,,,herba polonica,,,,,,,
+19,,,rustove a produkcni charakteristiky,,,,,,,
+20,,,papaveraceae,,,,,,,
+21,,,katerina,,,,,,,
+22,,,galanthamine,,,,,,,
+23,,,butyrylcholi ne ste,,,,,,,
+24,,,g. elegans,,,,,,,
+25,,,leptopodum,,,,,,,
+26,,,moderately190makedonski farmatsevtski bilten,,,,,,,
+27,,,aromatichni rastenija,,,,,,,
+28,,,prezentatsiipetti kongres na farmatsijata so megjunarodno uchestvo(r2,,,,,,,
+29,,,baicalin,,,,,,,
+30,,,baicalein,,,,,,,

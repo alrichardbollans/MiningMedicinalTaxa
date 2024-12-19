@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,panax ginseng,panax ginseng,ginseng,oenothera biennis,,,,,,
+1,ginkgo biloba,ginkgo,oenothera biennis892,hypericum perforatum,,,,,,
+2,echinacea,echinacea sp.895,hypericum perforatum893,echinacea sp,,,,,,
+3,allium sativum,allium sativum,ginkgo biloba894,,,,,,,

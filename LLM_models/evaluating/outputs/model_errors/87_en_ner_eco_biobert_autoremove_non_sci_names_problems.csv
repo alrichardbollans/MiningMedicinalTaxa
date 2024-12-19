@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,juniperus spp,juniperus spp,angostura bitterscontains quinine,artemisiaabsinthium,,,artemisiaabsinthium_motion sickness,,,
+1,cannabis sativa,cannabis sativa,angostura,prunus spinosa,,,,,,
+2,cyperus papyrus,cyperus papyrus,,agavespp,,,,,,
+3,,,,agave,,,,,,
+4,,,,a. tequileana,,,,,,
+5,,,,galipea,,,,,,
+6,,,,citrus,,,,,,
+7,,,,linumusitatissimum,,,,,,

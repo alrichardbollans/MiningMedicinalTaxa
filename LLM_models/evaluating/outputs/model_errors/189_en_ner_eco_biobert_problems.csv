@@ -1,0 +1,17 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,arctostaphylos uva-ursi (l.) spreng,arctostaphylos uva-ursi (l,dietary supple-ments,,,,arctostaphylos uva-ursi (l.) spreng_hydrops,,,arctostaphylos uva-ursi (l.) spreng_di-uretic
+1,arbutus unedo l,arbutus unedo l,ericaceaeelena,,,,arctostaphylos uva-ursi (l.) spreng_diabetes,,,arctostaphylos uva-ursi (l.) spreng_astringent
+2,prunus,prunus,ericaceae,,,,arctostaphylos uva-ursi (l.) spreng_lithiasis,,,arctostaphylos uva-ursi (l.) spreng_urinary tract antiseptic
+3,,,red bearberry,,,,arctostaphylos uva-ursi (l.) spreng_gonorrhoea,,,prunus_antitussive
+4,,,bearberry,,,,prunus_can-cer,,,prunus_anticancer
+5,,,bear's ear,,,,,,,prunus_antiasthmatic
+6,,,bear-berry,,,,,,,
+7,,,strawberry tree,,,,,,,
+8,,,amygdalin,,,,,,,
+9,,,laetrile,,,,,,,
+10,,,laevorotato-ry,,,,,,,
+11,,,mandelonitrile,,,,,,,
+12,,,rosaceae,,,,,,,
+13,,,bitter almond,,,,,,,
+14,,,plums,,,,,,,
+15,,,can-cer,,,,,,,
