@@ -276,17 +276,20 @@ def check_all_human_annotations():
 
 
 def summarise_annotations(chunk_ids: list, out_path: str):
+    from LLM_models.loading_files import get_txt_from_file
+
     number_of_chunks = len(chunk_ids)
     number_of_taxa = 0
     number_of_lone_taxa = 0
     number_of_medical_conditions = 0
     number_of_medicinal_effects = 0
+    number_of_words = 0
 
     for chunk_id in chunk_ids:
         human_annotations = get_all_human_annotations_for_chunk_id(chunk_id, check=True)
         taxa = human_annotations.taxa
         number_of_taxa += len(taxa)
-
+        number_of_words += len([i for i in get_txt_from_file(get_chunk_filepath_from_chunk_id(chunk_id)).split() if i.isalnum()])
         for t in taxa:
             if t.medicinal_effects is None and t.medical_conditions is None:
                 number_of_lone_taxa += 1
@@ -294,8 +297,11 @@ def summarise_annotations(chunk_ids: list, out_path: str):
                 number_of_medical_conditions += 1
             for m in t.medicinal_effects or []:
                 number_of_medicinal_effects += 1
-    out_df = pd.DataFrame([[number_of_chunks, number_of_taxa, number_of_lone_taxa, number_of_medical_conditions, number_of_medicinal_effects]],
-                          columns=['Number of Chunks', 'Taxa', 'Lone Taxa', 'Medical Conditions', 'Medicinal Effects'])
+
+    raw = [number_of_chunks, number_of_taxa, number_of_lone_taxa, number_of_medical_conditions, number_of_medicinal_effects, number_of_words]
+    mean = [x/number_of_chunks for x in raw]
+    out_df = pd.DataFrame([raw, mean],
+                          columns=['Number of Chunks', 'Taxa', 'Lone Taxa', 'Medical Conditions', 'Medicinal Effects','Number of Words'], index=['Total', 'Mean'])
     out_df.to_csv(out_path)
 
 
