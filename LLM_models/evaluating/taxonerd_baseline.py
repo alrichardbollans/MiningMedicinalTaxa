@@ -46,9 +46,9 @@ def query_taxonerd(model, text_file: str, context_window: int, pkl_dump: str = N
     return deduplicated_extractions
 
 
-def full_evaluation(model):
+def full_evaluation(model, rerun:bool=True):
     test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
-    assess_model_on_chunk_list(test['id'].unique().tolist(), model, None, os.path.join('outputs', 'full_eval'), rerun=True,
+    assess_model_on_chunk_list(test['id'].unique().tolist(), model, None, os.path.join('outputs', 'full_eval'), rerun=rerun,
                                model_query_function=query_taxonerd, autoremove_non_sci_names=False)
 
     assess_model_on_chunk_list(test['id'].unique().tolist(), model, None, os.path.join('outputs', 'full_eval'), rerun=False,

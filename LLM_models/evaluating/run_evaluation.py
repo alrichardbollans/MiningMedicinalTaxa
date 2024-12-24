@@ -42,11 +42,13 @@ def ___get_train_test_papers():
     test = [c for c in ids if c not in train]
     return train, test
 
-def clean_model_name(model_name:str)->str:
+
+def clean_model_name(model_name: str) -> str:
     if '/' in model_name:
         model_name = model_name[model_name.rindex('/') + 1:]
     model_name = model_name.replace(':', '_')
     return model_name
+
 
 def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun: bool = True, autoremove_non_sci_names: bool = False,
                                model_query_function: Callable = None):
@@ -302,8 +304,14 @@ def full_evaluation(rerun: bool = True):
 
     load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'LLM_models', '.env'))
 
-    all_models = setup_models()
     test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
+
+    all_models = setup_models()
+    # all_models = {'gpt4o': [Mplaceholder(model_name='gpt-4o'), None],
+    #               'gemini': [Mplaceholder(model_name='gemini-1.5-pro-002'), None],
+    #               'claude': [Mplaceholder(model_name='claude-3-5-sonnet-20241022'), None],
+    #               'llama': [Mplaceholder(model_name='llama-v3p1-405b-instruct'), None]}
+
     for m in all_models:
         print(m)
         assess_model_on_chunk_list(test['id'].unique().tolist(), all_models[m][0], all_models[m][1], os.path.join('outputs', 'full_eval'),
@@ -327,12 +335,6 @@ def full_evaluation(rerun: bool = True):
 
 
 def full_eval_gnfinder(rerun: bool = True):
-    class Mplaceholder(BaseModel):
-        """Extracted data about taxa."""
-
-        # Creates a model so that we can extract multiple entities.
-        model_name: str
-
     test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
     model = Mplaceholder(model_name='gnfinder')
     assess_model_on_chunk_list(test['id'].unique().tolist(), model, None, os.path.join('outputs', 'full_eval'), rerun=rerun,
@@ -342,12 +344,19 @@ def full_eval_gnfinder(rerun: bool = True):
 
 
 def main():
-    # assessing_hparams(rerun=True)
-    full_eval_gnfinder()
+    # assessing_hparams(rerun=False)
     full_evaluation(rerun=False)
+    full_eval_gnfinder(rerun=False)
 
 
 if __name__ == '__main__':
     # _get_chunks_to_tweak_with()
+    class Mplaceholder(BaseModel):
+        """Extracted data about taxa."""
+
+        # Creates a model so that we can extract multiple entities.
+        model_name: str
+
+
     df_for_hparam_tuning = pd.read_csv(os.path.join('outputs', 'for_hparam_tuning.csv'))
     main()

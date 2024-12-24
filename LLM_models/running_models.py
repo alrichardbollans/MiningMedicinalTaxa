@@ -86,7 +86,7 @@ def get_input_size_limit(total_context_window_k: int):
 def setup_models():
     from langchain_anthropic import ChatAnthropic
     from langchain_google_vertexai import ChatVertexAI
-    from langchain_mistralai import ChatMistralAI
+    # from langchain_mistralai import ChatMistralAI
     from langchain_openai import ChatOpenAI
     # from langchain_groq import ChatGroq
 

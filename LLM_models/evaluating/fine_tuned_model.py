@@ -56,5 +56,5 @@ def full_evaluation(rerun: bool = True):
 if __name__ == '__main__':
     df_for_hparam_tuning = pd.read_csv(os.path.join('outputs', 'for_hparam_tuning.csv'))
     # assessing_hparams()
-    full_evaluation()
+    full_evaluation(rerun=False)
     # main()
