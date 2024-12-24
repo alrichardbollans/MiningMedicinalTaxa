@@ -4,10 +4,10 @@ import pandas as pd
 import seaborn as sns
 
 
-def melt_all_results(metric,models,_measures):
+def melt_all_results(metric, models, _measures):
     renaming = {'claude-3-5-sonnet-20241022_autoremove_non_sci_names_results.csv': 'Claude_NS', 'claude-3-5-sonnet-20241022_results.csv': 'Claude',
                 'gemini-1.5-pro-002_autoremove_non_sci_names_results.csv': 'Gemini_NS', 'gemini-1.5-pro-002_results.csv': 'Gemini',
-                'gnfinder_autoremove_non_sci_names_results.csv': 'Gnfinder_NS', 'gnfinder_results.csv': 'Gnfinder',
+                'gnfinder_autoremove_non_sci_names_results.csv': 'GNfinder_NS', 'gnfinder_results.csv': 'GNfinder',
                 'gpt-4o_autoremove_non_sci_names_results.csv': 'GPT_NS',
                 'gpt-4o_results.csv': 'GPT',
                 'llama-v3p1-405b-instruct_autoremove_non_sci_names_results.csv': 'Llama_NS',
@@ -38,24 +38,24 @@ def melt_all_results(metric,models,_measures):
     model_sort_order = [c for c in all_models if c in models]
     measure_sort_order = [c for c in all_measures if c in _measures]
     all_results['Model'] = pd.Categorical(all_results['Model'], ordered=True,
-                              categories=model_sort_order)
+                                          categories=model_sort_order)
     all_results['class'] = pd.Categorical(all_results['class'], ordered=True,
                                           categories=measure_sort_order)
 
     all_results = all_results.sort_values(by=['Model', 'NS', 'class'])
     return all_results
 
-def for_full_eval(models,_measures, file_tag:str):
 
+def for_full_eval(models, _measures, file_tag: str):
     for metric in metrics:
-        all_results = melt_all_results(metric,models, _measures)
+        all_results = melt_all_results(metric, models, _measures)
         all_results = all_results[all_results['Model'].isin(models)]
         all_results = all_results[all_results['class'].isin(_measures)]
         import matplotlib.pyplot as plt
         sns.set_theme(style="whitegrid", palette="colorblind")
         g = sns.catplot(
-            data=all_results, x="Model", y=metric, col="class",hue='NS',
-            kind="bar", height=4, aspect=.6#, palette=["b", "m"]
+            data=all_results, x="Model", y=metric, col="class", hue='NS',
+            kind="bar", height=4, aspect=.6  # , palette=["b", "m"]
         )
         g.set_axis_labels("", metric)
 
@@ -72,16 +72,15 @@ def for_full_eval(models,_measures, file_tag:str):
         all_results.to_csv(os.path.join(os.path.join('outputs', 'full_eval', 'compiled_results', f'{file_tag}_{metric}_results.csv')))
 
 
-
 if __name__ == '__main__':
     metrics = ['f1', 'precision', 'recall']
     all_measures = ['Precise NER', 'Approx. NER', 'Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
-    all_models = ['Claude', 'Gemini', 'Gnfinder', 'GPT', 'FTGPT', 'Llama', 'TaxoNERD']
+    all_models = ['Claude', 'Gemini', 'GNfinder', 'GPT', 'FTGPT', 'Llama', 'TaxoNERD']
 
     ## NER
-    _models = ['Claude', 'Gemini', 'Gnfinder', 'GPT', 'Llama', 'TaxoNERD']
+    _models = ['Claude', 'Gemini', 'GNfinder', 'GPT', 'Llama', 'TaxoNERD']
     measures = ['Precise NER', 'Approx. NER']
-    for_full_eval(_models,measures, 'NER')
+    for_full_eval(_models, measures, 'NER')
 
     ## RE
     _models = ['Claude', 'Gemini', 'GPT', 'Llama']
