@@ -90,12 +90,13 @@ if __name__ == '__main__':
     medicinal_query = CQuery('en_medic_toxic_keywords_final.zip', os.path.join(core_download_path, 'medicinals'),
                              'medicinals.csv',
                              medicine_sort_order,
-                             10000)
+                             None)
     medicinal_query.name = 'Medicinal Query'
+    medicinal_query.extract_query_zip()
     plot_all_info(medicinal_query)
 
-    toxic_query = CQuery('en_medic_toxic_keywords_final.zip', os.path.join(core_download_path, 'toxics'),
-                         'toxics.csv',
-                         toxic_sort_order, 10000)
-    toxic_query.name = 'Toxic Query'
-    plot_all_info(toxic_query)
+    # toxic_query = CQuery('en_medic_toxic_keywords_final.zip', os.path.join(core_download_path, 'toxics'),
+    #                      'toxics.csv',
+    #                      toxic_sort_order, None)
+    # toxic_query.name = 'Toxic Query'
+    # plot_all_info(toxic_query)

@@ -120,8 +120,12 @@ class CQuery:
         # Only return papers with mentions from sort order
         df = self.get_papers_with_value_greater_than_zero(df, self.sort_order)
         # Sort by sort order and then kingdom order and then get top
+        if self.capacity is None:
+            capacity = len(df.index)
+        else:
+            capacity = self.capacity
         df = df.sort_values(by=self.sort_order + KINGDOM_SORT_ORDER, ascending=False).reset_index(drop=True).head(
-            self.capacity)
+            capacity)
         return df
 
     def extract_query_zip(self):
@@ -152,7 +156,8 @@ class CQuery:
 
     def summarise_papers(self):
         paper_df = pd.read_csv(self.extracted_paper_csv)
-        assert len(paper_df.index) == self.capacity
+        if self.capacity is not None:
+            assert len(paper_df.index) == self.capacity
         print('summarising')
         paper_df[['corpusid', 'DOI', 'year', 'language', 'tar_archive_name', 'fungi_family_names_counts', 'plant_family_names_counts']].describe(
             include='all').to_csv(self.extracted_paper_summary_csv)
