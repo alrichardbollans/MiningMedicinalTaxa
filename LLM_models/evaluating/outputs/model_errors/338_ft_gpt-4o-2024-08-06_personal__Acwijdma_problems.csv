@@ -1,11 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,h. hircinum,h. hircinum subsp. majus,,h. hircinumsubsp. majus,h. hircinum subsp. majus_chronic catarrhal affections,,h. hircinum_fungal pathogens of the respiratory tract,h. hircinum subsp. majus_antifungal,,h. hircinumsubsp. majus_antifungal
-1,h. hircinum subsp. majus,h. montanum,,hypericum,h. hircinum subsp. majus_cough,,h. hircinum subsp. majus_fungal-associated pathologies,h. hircinum subsp. majus_antiseptic,,h. montanum_anticancer
-2,h. montanum,h. maculatum,,aspergillus glaucus,h. hircinum subsp. majus_sorethroats,,h. hircinum subsp. majus_respiratory tract affections,h. montanum_antifungal,,h. montanum_anti-inflammatory
-3,h. maculatum,h. hirsutum,,penicillium paneum,h. hircinum subsp. majus_asthma,,,h. maculatum_antifungal,,h. hircinum subsp. majus_anticancer
-4,h. hirsutum,h. perforatum,,candida,,,,h. hirsutum_antifungal,,h. hircinum subsp. majus_fungal growth inhibition
-5,h. perforatum,h. hircinum,,c. parapsilosis,,,,h. perforatum_antifungal,,h. hircinum subsp. majus_anti-inflammatory
-6,h. hircinum subsp.majus,,,c. tropicalis,,,,h. hircinum_antifungal,,h. hircinum subsp. majus_antimicrobial
+1,h. hircinum subsp. majus,h. montanum,,hypericum,h. hircinum subsp. majus_cough,,h. hircinum subsp. majus_respiratory tract affections,h. hircinum subsp. majus_antiseptic,,h. montanum_anti-inflammatory
+2,h. montanum,h. maculatum,,aspergillus glaucus,h. hircinum subsp. majus_sorethroats,,h. hircinum subsp. majus_fungal-associated pathologies,h. montanum_antifungal,,h. montanum_anticancer
+3,h. maculatum,h. hirsutum,,penicillium paneum,h. hircinum subsp. majus_asthma,,,h. maculatum_antifungal,,h. hircinum subsp. majus_antimicrobial
+4,h. hirsutum,h. perforatum,,candida,,,,h. hirsutum_antifungal,,h. hircinum subsp. majus_anti-inflammatory
+5,h. perforatum,h. hircinum,,c. parapsilosis,,,,h. perforatum_antifungal,,h. hircinum subsp. majus_anticancer
+6,h. hircinum subsp.majus,,,c. tropicalis,,,,h. hircinum_antifungal,,h. hircinum subsp. majus_fungal growth inhibition
 7,,,,h. hircinumsusbps. majus,,,,,,hypericum_antifungal
 8,,,,punicagranatum,,,,,,hypericum_antimycotic
 9,,,,candida glabrata,,,,,,

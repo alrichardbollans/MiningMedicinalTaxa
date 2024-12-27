@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,echinacea,echinacea,sukvinder kaur bhamra,,,,o. tenuiflorum l_skin ailments,,,
+0,echinacea,echinacea,sukvinder kaur bhamra,,,,o. tenuiflorum l_asthma,,,
 1,gingko,gingko,healthcare professionals,,,,o. tenuiflorum l_diabetes,,,
-2,o. tenuiflorum l,o. tenuiflorum l,turmeric,,,,o. tenuiflorum l_asthma,,,
+2,o. tenuiflorum l,o. tenuiflorum l,turmeric,,,,o. tenuiflorum l_skin ailments,,,
 3,o. tenuiflorum,zingiber officinale roscoe,ginger,,,,,,,
 4,zingiber officinale roscoe,curcuma longa l,ajwain,,,,,,,
 5,curcuma longa l,o. tenuiflorum,tulsi,,,,,,,

@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,curcuma longa,curcuma longa,zingib-eraceae,,,,,,,curcuma longa_anti-infectious
+0,curcuma longa,curcuma longa,zingib-eraceae,,,,,,,curcuma longa_hepatoprotective
 1,,,curcumin,,,,,,,curcuma longa_pleiotropic antineoplastic
-2,,,cur-cumin,,,,,,,curcuma longa_anti-inflam-matory
-3,,,diclofenac sodium,,,,,,,curcuma longa_hepatoprotective
+2,,,cur-cumin,,,,,,,curcuma longa_anti-infectious
+3,,,diclofenac sodium,,,,,,,curcuma longa_anti-inflam-matory
 4,,,andjela,,,,,,,
 5,,,ivana aleksic,,,,,,,
 6,,,diclofenac,,,,,,,

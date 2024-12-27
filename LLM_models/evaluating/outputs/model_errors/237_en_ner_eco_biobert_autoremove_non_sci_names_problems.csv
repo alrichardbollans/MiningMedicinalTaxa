@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,c. maritimum,crithmum maritimum,sparus aurata,,,,,,,calendula officinalis_antioxidant
-1,crithmum maritimum,c. maritimum,silybum marianum (l.) gaertn).v,,,,,,,aloysia citrodora_antioxidant
+0,c. maritimum,crithmum maritimum,silybum marianum (l.) gaertn).v,,,,,,,calendula officinalis_antioxidant
+1,crithmum maritimum,c. maritimum,,,,,,,,aloysia citrodora_antioxidant
 2,calendula officinalis,calendula,,,,,,,,melissa officinalis_antioxidant
 3,calendula,calendula officinalis,,,,,,,,achillea millefolium_antioxidant
 4,aloysia citrodora,aloysia citrodora,,,,,,,,althaea officinalis_antioxidant

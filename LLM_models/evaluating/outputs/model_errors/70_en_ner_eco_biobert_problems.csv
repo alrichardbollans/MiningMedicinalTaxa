@@ -1,15 +1,15 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,tacca leontopetaloides,tacca leontopetaloides tahiti a,taro,zamia pumila,,,maranta arundinacea_wounds,,,daucus carota var. sativa_stimulant
-1,tacca,curcuma angustifolia,aroid,a. schoenoprasum,,,maranta arundinacea_ulcers,,,daucus carota var. sativa_diuretic
-2,curcuma angustifolia,canna indica,arrowrootsthere,a. chinense,,,maranta arundinacea_insect bites,,,apium graveolens_diuretic
+1,tacca,curcuma angustifolia,aroid,a. schoenoprasum,,,maranta arundinacea_insect bites,,,daucus carota var. sativa_diuretic
+2,curcuma angustifolia,canna indica,arrowrootsthere,a. chinense,,,maranta arundinacea_ulcers,,,apium graveolens_diuretic
 3,canna indica,maranta arundinacea,arrowroots,,,,maranta arundinacea_snake bites,,,eruca sativa_aphrodisiac
 4,canna,beta vulgaris,"arrowrootsmaranta arundinacea arrowroot, w",,,,helianthus tuberosus_diabetics,,,l.serriola_soporific
-5,maranta arundinacea,b. maritima,bombay arrowrootzamia,,,,a. sativum_eczema,,,
-6,beta vulgaris,brassica root cropsseveral,florida arrowrootmanihot,,,,a. sativum_toothaches,,,
+5,maranta arundinacea,b. maritima,bombay arrowrootzamia,,,,a. sativum_toothaches,,,
+6,beta vulgaris,brassica root cropsseveral,florida arrowrootmanihot,,,,a. sativum_eczema,,,
 7,b. maritima,brassica,brazilian arrowroot,,,,a. sativum_snake bites,,,
-8,brassica,oxalis tuberosa,queensland arrowrootarrowroot,,,,apium graveolens_impotence,,,
+8,brassica,oxalis tuberosa,queensland arrowrootarrowroot,,,,apium graveolens_constipation,,,
 9,brassica oleracea,tropaeolumtuberosum,tahiti arrowroot,,,,apium graveolens_hangovers,,,
-10,brassica napus,ullucus tuberosus,chard,,,,apium graveolens_constipation,,,
+10,brassica napus,ullucus tuberosus,chard,,,,apium graveolens_impotence,,,
 11,brassica rapa,tropaeolum tuberosum,mangelwurzel,,,,,,,
 12,oxalis tuberosa,nasturtium,sugar beet,,,,,,,
 13,oxalis,arracacia xanthorrhiza,sugar beets,,,,,,,

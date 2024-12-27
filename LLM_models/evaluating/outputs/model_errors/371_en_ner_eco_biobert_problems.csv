@@ -1,22 +1,22 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,gmelina arborea,gmelina arborea,rutin,harpagophytum procumbens,,,ajugadecumbens_arthritis,,,gmelina arborea_antifungal
 1,ajuga bracteosa,ajuga bracteosa,quercetin glycoside,ajuga laxmannii,,,ajugadecumbens_osteoporosis,,,ajuga bracteosa_anticoagulant
-2,morus alba,morus alba l,ofharpagophytum procumbens,cotoneaster nummularia fisch. et mey,,,,,,ajuga bracteosa_anti-inflammatory
-3,ajuga iva,ajuga iva,scoparia (boiss,,,,,,,ajuga bracteosa_antioxidant
-4,ajuga turkestanica,ajuga turkestanica,kikuyus,,,,,,,ajuga bracteosa_analgesic
-5,ajuga remota,ajuga remota,fromajuga bracteosa,,,,,,,ajuga bracteosa_antidepressant
+2,morus alba,morus alba l,ofharpagophytum procumbens,cotoneaster nummularia fisch. et mey,,,,,,ajuga bracteosa_antidepressant
+3,ajuga iva,ajuga iva,scoparia (boiss,,,,,,,ajuga bracteosa_anti-inflammatory
+4,ajuga turkestanica,ajuga turkestanica,kikuyus,,,,,,,ajuga bracteosa_antioxidant
+5,ajuga remota,ajuga remota,fromajuga bracteosa,,,,,,,ajuga bracteosa_analgesic
 6,schisandra chinensis,schisandra chinensis,ambigaipalan,,,,,,,morus alba_antioxidant
 7,opuntia ficus-indica,opuntia ficus-indica,ajuga laxmanniioccurring,,,,,,,ajuga iva_free radicalscavenging
 8,ajuga chamaecistus subsp. scoparia (boiss.) rech.f,ajuga chamaecistus subsp,plant(cotoneaster nummularia fisch,,,,,,,ajuga iva_antimicrobial
 9,ajuga reptans,ajuga reptans,pecan,,,,,,,ajuga iva_antioxidant
-10,ajugadecumbens,ajugadecumbens,wild plantslisted,,,,,,,ajuga turkestanica_antimicrobial
-11,allium schoenoprasum,allium schoenoprasum l,ofwild plants,,,,,,,ajuga turkestanica_antiproliferative
+10,ajugadecumbens,ajugadecumbens,wild plantslisted,,,,,,,ajuga turkestanica_antiproliferative
+11,allium schoenoprasum,allium schoenoprasum l,ofwild plants,,,,,,,ajuga turkestanica_antimicrobial
 12,allium,rumexscutatus,aromatic plants(vilar,,,,,,,ajuga turkestanica_antioxidant
 13,rumexscutatus,pseudosempervivum sempervivum,plant species,,,,,,,schisandra chinensis_antimicrobial
 14,pseudosempervivum sempervivum,epilobium,wild plants,,,,,,,schisandra chinensis_antioxidant
-15,epilobium,ajugareptans,,,,,,,,ajuga chamaecistus subsp. scoparia (boiss.) rech.f_antidiabetic
+15,epilobium,ajugareptans,,,,,,,,ajuga chamaecistus subsp. scoparia (boiss.) rech.f_neuroprotective
 16,ajugareptans,allium,,,,,,,,ajuga chamaecistus subsp. scoparia (boiss.) rech.f_skin-care
-17,,,,,,,,,,ajuga chamaecistus subsp. scoparia (boiss.) rech.f_neuroprotective
+17,,,,,,,,,,ajuga chamaecistus subsp. scoparia (boiss.) rech.f_antidiabetic
 18,,,,,,,,,,allium schoenoprasum_anti-inflammatory
 19,,,,,,,,,,ajugareptans_antibacterial
 20,,,,,,,,,,ajugareptans_antioxidant

@@ -1,12 +1,4 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,lycium barbarum,lycium barbarum,fructus crataegi,,,fructus crataegi_cardiovascular diseases,lycium barbarum_diabetes,lycium barbarum_hypoglycemic activity,fructus crataegi_reduce ldl cholesterol,lycium barbarum_lower blood pressure and blood sugar
-1,,,fructus lycii,,,fructus crataegi_hypertension,lycium barbarum_dyslipidaemia,,fructus crataegi_increase serum hdl cholesterol,lycium barbarum_reduce blood sugar
-2,,,radix scrophulariae,,,fructus crataegi_hyperlipidemia,lycium barbarum_metabolic syndrome,,fructus crataegi_release blood stasis,lycium barbarum_lower blood pressure
-3,,,,,,fructus crataegi_coronary heart disease,,,fructus crataegi_increase blood fl ow in coronary blood vessels,
-4,,,,,,fructus lycii_diabetes mellitus with endogenous heat due to defi ciency of yin,,,fructus crataegi_prevent atherosclerosis,
-5,,,,,,radix scrophulariae_diabetes mellitus with endogenous heat due to defi ciency of yin,,,fructus crataegi_promote blood circulation,
-6,,,,,,,,,fructus crataegi_lower blood pressure,
-7,,,,,,,,,fructus lycii_reduce blood sugar,
-8,,,,,,,,,fructus lycii_lower blood pressure,
-9,,,,,,,,,lycium barbarum_antioxidant activity,
-10,,,,,,,,,lycium barbarum_hypolipidemic activity,
+0,lycium barbarum,lycium barbarum,,,,,lycium barbarum_dyslipidaemia,lycium barbarum_hypoglycemic activity,lycium barbarum_antioxidant activity,lycium barbarum_lower blood pressure
+1,,,,,,,lycium barbarum_metabolic syndrome,,lycium barbarum_hypolipidemic activity,lycium barbarum_lower blood pressure and blood sugar
+2,,,,,,,lycium barbarum_diabetes,,,lycium barbarum_reduce blood sugar

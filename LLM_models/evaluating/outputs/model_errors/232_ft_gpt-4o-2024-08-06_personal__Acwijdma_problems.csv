@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,eleutherococcus gracilystylus,eleutherococcus gracilystylus,onosma kaheirei teppner,c. sativa,,,c. sativa_epilepsy,,,cynoglottis barrelieri_neuroprotective
-1,eleutherococcus gracilystylus (w.w.sm.) s.y. hu,periploca sepium,,sp subsp. pomifera,,,c. sativa_cancer,,,cynoglottis barrelieri_antidiabetic
+0,eleutherococcus gracilystylus,eleutherococcus gracilystylus,onosma kaheirei teppner,c. sativa,,,c. sativa_cancer,,,cynoglottis barrelieri_neuroprotective
+1,eleutherococcus gracilystylus (w.w.sm.) s.y. hu,periploca sepium,,sp subsp. pomifera,,,c. sativa_autoimmune diseases,,,cynoglottis barrelieri_antidiabetic
 2,e. gracilystylus,eleutherococcus nodiflorus (dunn) s.y. hu,,sp subsp. calycina,,,c. sativa_multiple sclerosis,,,cynoglottis barrelieri_antioxidant
-3,periploca sepium,eleutherococcus gracilystylus (w.w.sm.) s.y. hu,,cannabis,,,c. sativa_inflammatory and neurodegenerative diseases,,,phyllocara aucheri_neuroprotective
-4,periploca sepium bunge,periploca sepium bunge,,,,,c. sativa_autoimmune diseases,,,phyllocara aucheri_antidiabetic
+3,periploca sepium,eleutherococcus gracilystylus (w.w.sm.) s.y. hu,,cannabis,,,c. sativa_epilepsy,,,phyllocara aucheri_neuroprotective
+4,periploca sepium bunge,periploca sepium bunge,,,,,c. sativa_inflammatory and neurodegenerative diseases,,,phyllocara aucheri_antidiabetic
 5,p. sepium,e. gracilystylus,,,,,,,,phyllocara aucheri_antioxidant
 6,eleutherococcus nodiflorus (dunn) s.y. hu,p. sepium,,,,,,,,symphytum anatolicum_neuroprotective
 7,e. senticosus,e. senticosus,,,,,,,,symphytum anatolicum_antidiabetic

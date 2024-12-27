@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,capsella bursa-pastoris (l.) medik,capsella bursa-pastoris (l.) medik,,thymusserpylluml,,,schisandra chinensis(turcz.) bail_exhaustion,,,thymusserpylluml_expectorant
-1,cyanus segetum hill,cyanus segetum hill,,tiliacordatamill,,,,,,tiliacordatamill_diaphoretic
-2,centaurea cyanus l,centaurea cyanus l,,t.platyphyllosscop,,,,,,tiliacordatamill_sudorific
-3,plantago major l,plantago major l,,tussilagofarfaral,,,,,,t.platyphyllosscop_diaphoretic
-4,urtica dioical,urtica dioical,,urticadioical,,,,,,t.platyphyllosscop_sudorific
+1,cyanus segetum hill,cyanus segetum hill,,tiliacordatamill,,,,,,tiliacordatamill_sudorific
+2,centaurea cyanus l,centaurea cyanus l,,t.platyphyllosscop,,,,,,tiliacordatamill_diaphoretic
+3,plantago major l,plantago major l,,tussilagofarfaral,,,,,,t.platyphyllosscop_sudorific
+4,urtica dioical,urtica dioical,,urticadioical,,,,,,t.platyphyllosscop_diaphoretic
 5,aralia elata (miq.)seem,aralia elata (miq.)seem,,vacciniummyrtillusl,,,,,,tussilagofarfaral_expectorant
 6,aralia,rosa spp,,vacciniumvitis-idaeal,,,,,,urticadioical_haemostatic
 7,rosa spp,prunus padus l,,valerianaofficinalisl,,,,,,vacciniummyrtillusl_astringent

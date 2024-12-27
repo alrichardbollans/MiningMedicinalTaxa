@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,stevia rebaudiana bertoni,stevia rebaudiana bertoni,stevioside,,,,morinda citrifolia_infl ammations,,,
-1,stevia,stevia rebaudiana beroni,steviol,,,,morinda citrifolia_diarrhoea,,,
+0,stevia rebaudiana bertoni,stevia rebaudiana bertoni,stevioside,,,,morinda citrifolia_fungal infections,,,
+1,stevia,stevia rebaudiana beroni,steviol,,,,morinda citrifolia_infl ammations,,,
 2,stevia rebaudiana beroni,stevia,casenangai nuts1501,,,,morinda citrifolia_constipation,,,
 3,canarium indicum linne,canarium indicum linne,kenari nuts1502,,,,morinda citrifolia_cuts,,,
-4,morinda citrifolia,morinda citrifolia l,ngali nuts,,,,morinda citrifolia_fungal infections,,,
+4,morinda citrifolia,morinda citrifolia l,ngali nuts,,,,morinda citrifolia_diarrhoea,,,
 5,morinda citrifolia l,morinda citrifolia,galip nuts,,,,,,,
 6,morinda,,java almonds,,,,,,,
 7,,,nangai nuts,,,,,,,

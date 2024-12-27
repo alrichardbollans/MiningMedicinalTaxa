@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,cannabis sativa l. ssp. indica(lamarck) e. small & cronquist,cannabis sativa l. ssp,martha washington,xtriticale,,,,,,
 1,zea mays l. ssp.mays,zea mays l. ssp.mays,a. robustus,secale,,,,,,
-2,pelargonium hortense cv. 'marthawashington,pelargonium hortense,homo erectus,acernegundo,,,,,,
+2,pelargonium hortense cv. 'marthawashington,pelargonium hortense,,acernegundo,,,,,,
 3,triticum,triticum,,blighia,,,,,,
 4,musa x paradisiaca,musa x paradisiaca,,carnegia,,,,,,
 5,musa acuminata,musa acuminata,,penstemon,,,,,,

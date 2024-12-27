@@ -1,11 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,ajuga,ajuga laxmanniifigure,bwa. laxmannii,a. iva,,,ajuga remota benth_malaria,,,a. laxmannii_anti-inflammatory
-1,a. laxmannii,a. laxmannii,andpenicillium funiculosum,ajugaiva l,,,,,,a. laxmannii_antioxidant
-2,ajuga laxmannii,candida albicans,andcandida albicans,ajugachamaepitys (l.) schreb. subsp. chamaepitys,,,,,,a. laxmannii_anti-nitro-oxidative stress
+0,ajuga,ajuga laxmanniifigure,,a. iva,,,ajuga remota benth_malaria,,,a. laxmannii_anti-inflammatory
+1,a. laxmannii,a. laxmannii,,ajugaiva l,,,,,,a. laxmannii_antioxidant
+2,ajuga laxmannii,candida albicans,,ajugachamaepitys (l.) schreb. subsp. chamaepitys,,,,,,a. laxmannii_anti-nitro-oxidative stress
 3,candida albicans,candida parapsilosis,,,,,,,,a. laxmannii_anti-oxidative stress
-4,c. albicans,ajuga laxmanniianti-inflammatory,,,,,,,,a. laxmannii_antimicrobial
+4,c. albicans,ajuga laxmanniianti-inflammatory,,,,,,,,a. laxmannii_antibacterial
 5,candida parapsilosis,c. albicans,,,,,,,,a. laxmannii_antifungal
-6,penicillium funiculosum,p. funiculosum,,,,,,,,a. laxmannii_antibacterial
+6,penicillium funiculosum,p. funiculosum,,,,,,,,a. laxmannii_antimicrobial
 7,p. funiculosum,artabotrys hildebrandtii o,,,,,,,,a. iva_antifungal
 8,artabotrys hildebrandtii o. hffm,"ajuga laxmanniiatay, i",,,,,,,,ajuga laxmannii_anti-inflammatory
 9,ajuga remota benth,ajuga laxmannii,,,,,,,,ajuga laxmannii_antiprotozoal

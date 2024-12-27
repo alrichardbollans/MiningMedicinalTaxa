@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,phyllanthus emblica l,phyllanthus emblica l,,,phyllanthus emblica l_digestive problems,,,nigella sativa l_analgesic,,nigella sativa l_nephroprotective effects
-1,terminalia bellirica (gaertn.) roxb,terminalia bellirica (gaertn.) roxb,,,phyllanthus emblica l_cardiovascular disease,,,nigella sativa l_anti-cancer,,nigella sativa l_healing
+0,phyllanthus emblica l,phyllanthus emblica l,,,phyllanthus emblica l_digestive problems,,,nigella sativa l_analgesic,,nigella sativa l_healing
+1,terminalia bellirica (gaertn.) roxb,terminalia bellirica (gaertn.) roxb,,,phyllanthus emblica l_cardiovascular disease,,,nigella sativa l_anti-cancer,,nigella sativa l_nephroprotective effects
 2,terminalia chebula retx,terminalia chebula retx,,,phyllanthus emblica l_hypercholesterolemia,,,nigella sativa l_antifungal,,nigella sativa l_hepatoprotective
 3,nigella sativa l,nigella sativa l,,,phyllanthus emblica l_diabetes,,,nigella sativa l_anti-inflammatory,,
 4,,,,,phyllanthus emblica l_constipation,,,nigella sativa l_antibacterial,,

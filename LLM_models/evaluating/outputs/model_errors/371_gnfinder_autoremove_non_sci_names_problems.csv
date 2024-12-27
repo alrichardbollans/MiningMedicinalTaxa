@@ -1,19 +1,19 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,gmelina arborea,gmelina arborea,,ajugadecumbens,,,ajugadecumbens_arthritis,,,gmelina arborea_antifungal
-1,ajuga bracteosa,ajuga bracteosa,,ajugareptans,,,ajugadecumbens_osteoporosis,,,ajuga bracteosa_anti-inflammatory
+1,ajuga bracteosa,ajuga bracteosa,,ajugareptans,,,ajugadecumbens_osteoporosis,,,ajuga bracteosa_anticoagulant
 2,morus alba,morus alba,,epilobium,,,,,,ajuga bracteosa_antidepressant
-3,ajuga iva,ajuga iva,,harpagophytum procumbens,,,,,,ajuga bracteosa_antioxidant
-4,ajuga turkestanica,ajuga turkestanica,,rumexscutatus,,,,,,ajuga bracteosa_anticoagulant
-5,ajuga remota,ajuga remota,,cotoneaster nummularia fisch. et mey,,,,,,ajuga bracteosa_analgesic
+3,ajuga iva,ajuga iva,,harpagophytum procumbens,,,,,,ajuga bracteosa_analgesic
+4,ajuga turkestanica,ajuga turkestanica,,rumexscutatus,,,,,,ajuga bracteosa_anti-inflammatory
+5,ajuga remota,ajuga remota,,cotoneaster nummularia fisch. et mey,,,,,,ajuga bracteosa_antioxidant
 6,schisandra chinensis,ajuga remota aerial,,,,,,,,morus alba_antioxidant
-7,opuntia ficus-indica,schisandra chinensis,,,,,,,,ajuga iva_antimicrobial
-8,ajuga chamaecistus subsp. scoparia (boiss.) rech.f,opuntia ficus-indica,,,,,,,,ajuga iva_antioxidant
+7,opuntia ficus-indica,schisandra chinensis,,,,,,,,ajuga iva_antioxidant
+8,ajuga chamaecistus subsp. scoparia (boiss.) rech.f,opuntia ficus-indica,,,,,,,,ajuga iva_antimicrobial
 9,ajuga reptans,ajuga chamaecistus subsp. scoparia,,,,,,,,ajuga iva_free radicalscavenging
-10,allium schoenoprasum,ajuga reptans,,,,,,,,ajuga turkestanica_antimicrobial
-11,allium,allium schoenoprasum,,,,,,,,ajuga turkestanica_antiproliferative
+10,allium schoenoprasum,ajuga reptans,,,,,,,,ajuga turkestanica_antiproliferative
+11,allium,allium schoenoprasum,,,,,,,,ajuga turkestanica_antimicrobial
 12,pseudosempervivum sempervivum,pseudosempervivum sempervivum,,,,,,,,ajuga turkestanica_antioxidant
-13,ajuga laxmannii,ajuga,,,,,,,,schisandra chinensis_antimicrobial
-14,,allium,,,,,,,,schisandra chinensis_antioxidant
+13,ajuga laxmannii,ajuga,,,,,,,,schisandra chinensis_antioxidant
+14,,allium,,,,,,,,schisandra chinensis_antimicrobial
 15,,,,,,,,,,ajuga chamaecistus subsp. scoparia (boiss.) rech.f_antidiabetic
 16,,,,,,,,,,ajuga chamaecistus subsp. scoparia (boiss.) rech.f_neuroprotective
 17,,,,,,,,,,ajuga chamaecistus subsp. scoparia (boiss.) rech.f_skin-care

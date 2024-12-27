@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,scutellaria baicalensis georgii,s. baicalensis,thescutellaria baicalensis georgii,c. acicularisbertol,,,,,,heracleum verticillatum_antimicrobial
-1,scutellaria baicalensis,scutellaria baicalensis georgii,staphylococcus aureus,c. tho-ermeri weinm,,,,,,s. rigidum_anti-aggre-gatory
-2,heracleum l,scutellaria baicalensis calluscultures,s. epidermidis,heracleumverticillatum pancic,,,,,,s. rigidum_anti-inflammatory
-3,heracleum verticillatum,heracleum l,micrococcus luteus,h. spho-ndylium l,,,,,,s. rigidum_antibacterial
-4,h. verticillatum,h. verticillatum,enterococcus faecalis,seselirigidum walst et kit. var. rigidum,,,,,,s. rigidum_cytotoxic
-5,candida albicans,candida albicans,pseudomonas aeruginosa,,,,,,,seseli rigidum_andantioxidant
-6,heracleum orphanidis boiss,candida albicans 10259,againstbacillus subtilis,,,,,,,seseli rigidum_antimicrobial
-7,s. rigidum,heracleum orphanidis boiss,arhiv za farmaciju,,,,,,,carduus_antioxidant
+0,scutellaria baicalensis georgii,s. baicalensis,s. epidermidis,c. acicularisbertol,,,,,,heracleum verticillatum_antimicrobial
+1,scutellaria baicalensis,scutellaria baicalensis georgii,micrococcus luteus,c. tho-ermeri weinm,,,,,,s. rigidum_anti-inflammatory
+2,heracleum l,scutellaria baicalensis calluscultures,,heracleumverticillatum pancic,,,,,,s. rigidum_anti-aggre-gatory
+3,heracleum verticillatum,heracleum l,,h. spho-ndylium l,,,,,,s. rigidum_cytotoxic
+4,h. verticillatum,h. verticillatum,,seselirigidum walst et kit. var. rigidum,,,,,,s. rigidum_antibacterial
+5,candida albicans,candida albicans,,,,,,,,seseli rigidum_antimicrobial
+6,heracleum orphanidis boiss,candida albicans 10259,,,,,,,,seseli rigidum_andantioxidant
+7,s. rigidum,heracleum orphanidis boiss,,,,,,,,carduus_antioxidant
 8,seseli rigidum,seseli rigidum rootmirjana,,,,,,,,carduus acanthoides l_antioxidant
 9,seseli rigidum w. k,s. rigidum,,,,,,,,c. acicularisbertol_antioxidant
 10,seseli rigidum waldst et kit,seseli rigidum waldst,,,,,,,,c. crispus l_antioxidant

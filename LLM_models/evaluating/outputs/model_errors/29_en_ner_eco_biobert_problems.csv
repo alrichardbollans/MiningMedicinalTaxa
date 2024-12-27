@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,echinacea angustifolia dc,echinacea,cardamom,,,,aloe vera_skin heath,,,echinacea_maintain immune system
-1,echinacea,agnus castus,cumin,,,,aloe vera_skin conditions,,,mentha_calm nerves
-2,agnus castus,echinacea angustifolia dc,ginger,,,,aloe vera_wound,,,mentha_eases digestion
-3,rhodiola,rhodiola,sorrel,,,,aloe vera_eczema,,,ginkgo_circulatory problems
+0,echinacea angustifolia dc,echinacea,cardamom,,,,aloe vera_skin conditions,,,echinacea_maintain immune system
+1,echinacea,agnus castus,cumin,,,,aloe vera_skin heath,,,mentha_eases digestion
+2,agnus castus,echinacea angustifolia dc,ginger,,,,aloe vera_eczema,,,mentha_calm nerves
+3,rhodiola,rhodiola,sorrel,,,,aloe vera_wound,,,ginkgo_circulatory problems
 4,aloe vera,aloe vera,sukvinder kaur bhamra,,,,echinacea angustifolia dc_infections,,,boswellia serrate roxb. ex colebr_anti-inflammatory
-5,aspergillus,aspergillus,ajwain,,,,echinacea angustifolia dc_cold,,,althaea officinalis l_demulcent
-6,ginkgo,ginkgo,tulsi,,,,echinacea_colds,,,althaea officinalis l_cough
-7,senna,senna,camomile,,,,echinacea_coughs,,,
+5,aspergillus,aspergillus,ajwain,,,,echinacea angustifolia dc_cold,,,althaea officinalis l_cough
+6,ginkgo,ginkgo,tulsi,,,,echinacea_coughs,,,althaea officinalis l_demulcent
+7,senna,senna,camomile,,,,echinacea_colds,,,
 8,mentha,mentha,nettles,,,,echinacea_sore throat,,,
 9,trachyspermum ammi,trachyspermum ammi,valerian,,,,agnus castus_pms symptoms,,,
 10,boswellia serrate roxb. ex colebr,boswellia,nettle tea,,,,senna_constipation,,,

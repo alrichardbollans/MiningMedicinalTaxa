@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,gypsophila trichotoma wend,gypsophila trichotoma wend,,carduus crispus,artemisia_gastric insufficiency,artemisia species_migraine,,artemisia_anti-malaric,artemisia_anti-helminic,artemisia_anti-helminicproperties
+0,gypsophila trichotoma wend,gypsophila trichotoma wend,,carduus crispus,artemisia_gastric insufficiency,artemisia species_migraine,,artemisia_anti-malaric,artemisia_anti-helminic,artemisia_blood circulation
 1,gypsophila,arnica montana,,arnicamontana l,artemisia species_diabetes,,,artemisia_poison antidote,,artemisia_anti-migraine
-2,gypsophila trichotoma,gypsophila trichotoma,,arnicamontana,artemisia species_high blood pressure,,,artemisia species_stomachic,,artemisia_blood circulation
+2,gypsophila trichotoma,gypsophila trichotoma,,arnicamontana,artemisia species_high blood pressure,,,artemisia species_stomachic,,artemisia_anti-helminicproperties
 3,arnica,artemisia,,artemisiaalba turra,,,,artemisia species_anti-diabetic,,
 4,arnica montana,artemisia species,,,,,,artemisia species_digestive,,
 5,artemisia,a. camphorata,,,,,,artemisia species_anti-fungal,,

@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,prunus spinosa l,prunus spinosa l,,prunusspinosa l,prunus spinosa l_cardiac neurosis,prunus spinosa_cardiovascular protection,p. spinosa_lipid peroxidation,prunus spinosa l_anti-hypertensive,prunus spinosa_antioxidants,prunusspinosa l_pro-inflammatory
-1,prunus spinosa,prunus spinosa,,,prunus spinosa l_cardiovascular diseases,prunus spinosa_inflammatory changes,p. spinosa_ischemic/reperfusioninjuries,prunus spinosa l_diuretic,,prunus spinosa l_cardiovascular protection
-2,p. spinosa,p. spinosa,,,prunus spinosa l_mild inflammation ofthe oral and pharyngeal mucosa,prunus spinosa_cardiovascular disorders,p. spinosa_oxidative/nitrative stress,prunus spinosa l_anti-atherogenic,,prunus spinosa l_blood purifying
-3,,,,,prunus spinosa l_atherosclerosis,p. spinosa_cvd,p. spinosa_oxidative damage to dna,prunus spinosa l_spasmolytic,,p. spinosa_inhibitors of pro-inflammatory enzymes
-4,,,,,prunus spinosa l_inflammation,,p. spinosa_protein nitratio,prunus spinosa l_astringent,,
+1,prunus spinosa,prunus spinosa,,,prunus spinosa l_cardiovascular diseases,prunus spinosa_inflammatory changes,p. spinosa_protein nitratio,prunus spinosa l_diuretic,,prunus spinosa l_cardiovascular protection
+2,p. spinosa,p. spinosa,,,prunus spinosa l_mild inflammation ofthe oral and pharyngeal mucosa,prunus spinosa_cardiovascular disorders,p. spinosa_oxidative damage to dna,prunus spinosa l_anti-atherogenic,,prunus spinosa l_blood purifying
+3,,,,,prunus spinosa l_atherosclerosis,p. spinosa_cvd,p. spinosa_ischemic/reperfusioninjuries,prunus spinosa l_spasmolytic,,p. spinosa_inhibitors of pro-inflammatory enzymes
+4,,,,,prunus spinosa l_inflammation,,p. spinosa_oxidative/nitrative stress,prunus spinosa l_astringent,,
 5,,,,,prunus spinosa l_cardiac complaints,,,prunus spinosa l_vasodilatory,,
 6,,,,,prunus spinosa l_urinary tract disorders,,,prunus spinosa l_antioxidant,,
 7,,,,,prunus spinosa l_myocarditis,,,prunus spinosa l_anti-inflammatory,,

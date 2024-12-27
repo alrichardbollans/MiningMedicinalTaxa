@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,crocus l,crocus l,salmonella enteritidis,,,,,,,pistacia lentiscus l_antiatherogenic
-1,crocus,crocus olivieri j. gay,salmonella gallinarum,,,,,,,pistacia lentiscus l_antimicrobial
+0,crocus l,crocus l,salmonella enteritidis,,,,,,,pistacia lentiscus l_antimicrobial
+1,crocus,crocus olivieri j. gay,salmonella gallinarum,,,,,,,pistacia lentiscus l_antiatherogenic
 2,c. olivieri,crocus nivalis bory and chaub,,,,,,,,pistacia lentiscus l_anti-inflammatory
-3,crocus nivalis bory and chaub,crocus veluchensis herb,,,,,,,,p. lentiscus_enzyme inhibition
-4,c. nivalis,crocus sativus l,,,,,,,,p. lentiscus_skin beneficial
+3,crocus nivalis bory and chaub,crocus veluchensis herb,,,,,,,,p. lentiscus_skin beneficial
+4,c. nivalis,crocus sativus l,,,,,,,,p. lentiscus_enzyme inhibition
 5,crocus veluchensis herb,c. sativus,,,,,,,,pistacia lentiscus var. chia_antioxidant
-6,c. veluchensis,c. nivalis,,,,,,,,psychotria zombamontana_antioxidant
-7,crocus sativus l,pistacia lentiscus l,,,,,,,,psychotria zombamontana_anti-inflammatory
+6,c. veluchensis,c. nivalis,,,,,,,,psychotria zombamontana_anti-inflammatory
+7,crocus sativus l,pistacia lentiscus l,,,,,,,,psychotria zombamontana_antioxidant
 8,c. sativus,p. lentiscus,,,,,,,,
 9,pistacia lentiscus l,mandragora autumnalis,,,,,,,,
 10,p. lentiscus,mandragora spp,,,,,,,,

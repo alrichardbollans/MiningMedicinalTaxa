@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,maranta arundinacea,maranta arundinacea,panax ginseng c.a.mey,daucus carota var. sativa,maranta arundinacea_ulcers,,helianthus tuberosus_diabetics,eruca sativa_aphrodisiac,lactuca sativa_soporific,daucus carota var. sativa_diuretic
-1,a. sativum,allium sativum,papaver somniferum l,helianthus tuberosus,maranta arundinacea_wounds,,,apium graveolens_diuretic,,daucus carota var. sativa_stimulant
+0,maranta arundinacea,maranta arundinacea,panax ginseng c.a.mey,daucus carota var. sativa,maranta arundinacea_ulcers,,helianthus tuberosus_diabetics,eruca sativa_aphrodisiac,lactuca sativa_soporific,daucus carota var. sativa_stimulant
+1,a. sativum,allium sativum,papaver somniferum l,helianthus tuberosus,maranta arundinacea_wounds,,,apium graveolens_diuretic,,daucus carota var. sativa_diuretic
 2,allium sativum,eruca sativa,ricinus communis,l.serriola,maranta arundinacea_insect bites,,,,,l.serriola_soporific
 3,eruca sativa,lactuca sativa,cinchona officinalis l,tacca leontopetaloides,maranta arundinacea_snake bites,,,,,
 4,lactuca sativa,apium graveolens,,curcuma angustifolia,allium sativum_toothaches,,,,,

@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,,,triphala,aloe vera,,,aloe vera_itchy skin,,,
-1,,,amla,,,,aloe vera_wounds,,,
+0,,,triphala,aloe vera,,,aloe vera_wounds,,,
+1,,,amla,,,,aloe vera_itchy skin,,,
 2,,,harad,,,,,,,
 3,,,ajwain,,,,,,,
 4,,,cardamom,,,,,,,

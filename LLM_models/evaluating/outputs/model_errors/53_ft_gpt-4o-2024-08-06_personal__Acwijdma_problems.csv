@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,lycium barbarum,lycium barbarum,fructus crataegi,,,fructus crataegi_cardiovascular diseases,lycium barbarum_dyslipidaemia,lycium barbarum_hypoglycemic activity,fructus crataegi_reduce ldl cholesterol,lycium barbarum_lower blood pressure and blood sugar
-1,,,fructus lycii,,,fructus crataegi_hypertension,lycium barbarum_diabetes,,fructus crataegi_increase serum hdl cholesterol,lycium barbarum_reduce blood sugar
-2,,,radix scrophulariae,,,fructus crataegi_hyperlipidemia,lycium barbarum_metabolic syndrome,,fructus crataegi_release blood stasis,lycium barbarum_lower blood pressure
+0,lycium barbarum,lycium barbarum,fructus crataegi,,,fructus crataegi_cardiovascular diseases,lycium barbarum_dyslipidaemia,lycium barbarum_hypoglycemic activity,fructus crataegi_reduce ldl cholesterol,lycium barbarum_lower blood pressure
+1,,,fructus lycii,,,fructus crataegi_hypertension,lycium barbarum_metabolic syndrome,,fructus crataegi_increase serum hdl cholesterol,lycium barbarum_lower blood pressure and blood sugar
+2,,,radix scrophulariae,,,fructus crataegi_hyperlipidemia,lycium barbarum_diabetes,,fructus crataegi_release blood stasis,lycium barbarum_reduce blood sugar
 3,,,fructus schisandrae,,,fructus crataegi_coronary heart disease,,,fructus crataegi_increase blood fl ow in coronary blood vessels,
 4,,,cai,,,fructus lycii_diabetes mellitus with endogenous heat due to defi ciency of yin,,,fructus crataegi_prevent atherosclerosis,
 5,,,zhao,,,radix scrophulariae_diabetes mellitus with endogenous heat due to defi ciency of yin,,,fructus crataegi_promote blood circulation,

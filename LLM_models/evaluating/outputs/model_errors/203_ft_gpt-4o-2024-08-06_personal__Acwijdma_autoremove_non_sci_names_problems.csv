@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,sorbus intermedia (ehrh.) pers,sorbus,,s. aucuparia,sorbus_anemia,,,s. intermedia_antioxidant,,sideritis scardica_radical scavenging
 1,sorbus,s. intermedia,,s. domestica,sorbus_rheumatism,,,tuber aestivum vittad_anti-inflammatory,,s. raeseri_radical scavenging
-2,sorbus intermedia,sideritis scardica,,s. inter-media,sorbus_dyspepsia,,,tuber aestivum vittad_cytotoxic,,s. intermedia_antiradical
-3,s. intermedia,s. scardica,,,sorbus_digestive disorders,,,tuber aestivum vittad_antioxidant,,s. intermedia_scavenger
+2,sorbus intermedia,sideritis scardica,,s. inter-media,sorbus_dyspepsia,,,tuber aestivum vittad_cytotoxic,,s. intermedia_scavenger
+3,s. intermedia,s. scardica,,,sorbus_digestive disorders,,,tuber aestivum vittad_antioxidant,,s. intermedia_antiradical
 4,sideritis scardica,tuber aestivum vittad,,,,,,tuber magnatum pico_anti-inflammatory,,
 5,s. scardica,tuber magnatum pico,,,,,,tuber magnatum pico_cytotoxic,,
 6,sideritis,urtica dioica,,,,,,tuber magnatum pico_antioxidant,,

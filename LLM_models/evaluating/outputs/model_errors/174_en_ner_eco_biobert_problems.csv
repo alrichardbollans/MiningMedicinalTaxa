@@ -1,16 +1,16 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,laurocerasus officinalis roem,laurocerasus officinalis roem,metals,,,,l. officinalis_hemorrhoids,,,laurocerasus officinalis roem_neuroprotective
-1,l. officinalis,l. officinalis,cherry laurel,,,,l. officinalis_oxida-tive stress,,,laurocerasus officinalis roem_renal toxicity
-2,laurocerasus officinalis,l. of-ficinalis,2011).laurocerasus officinalis roem,,,,l. officinalis_pain,,,laurocerasus officinalis roem_antioxidant
-3,l. of-ficinalis,l. offici-nalis,laurel,,,,l. officinalis_digestive sys-tem problems,,,l. officinalis_di-uretic
-4,l. offici-nalis,l. officina-lis,taflan,,,,l. officinalis_kidney tissue damage,,,l. officinalis_neuropro-tective
-5,l. officina-lis,l. officinalis fruit,lazkirazi,,,,l. officinalis_oxi-dative damage,,,l. officinalis_antioxidant
-6,punicagranatum l,punicagranatum l,"karayemis""on",,,,l. officinalis_oxidative stress,,,l. officinalis_analgesic
-7,phoenix dactylifera l,phoenix dactylifera l,wistar albino rats,,,,l. officinalis_eczemas,,,l. officinalis_nephrotoxic
-8,,laurocerasus officinalis,dimethoate,,,,l. officinalis_oxidative stress-induced kidney injury,,,l. officinalis_radi-cal scavenging
-9,,,pomegranate,,,,l. officinalis_stomach ulcers,,,l. of-ficinalis_anti-inflammatory
-10,,,date palm,,,,l. officinalis_bronchitis,,,laurocerasus officinalis_anti-diabetic
-11,,,maja jurhar,,,,l. officinalis_anti-diabetic,,,
+0,laurocerasus officinalis roem,laurocerasus officinalis roem,metals,,,,l. officinalis_digestive sys-tem problems,,,laurocerasus officinalis roem_renal toxicity
+1,l. officinalis,l. officinalis,cherry laurel,,,,l. officinalis_oxi-dative damage,,,laurocerasus officinalis roem_neuroprotective
+2,laurocerasus officinalis,l. of-ficinalis,2011).laurocerasus officinalis roem,,,,l. officinalis_hemorrhoids,,,laurocerasus officinalis roem_antioxidant
+3,l. of-ficinalis,l. offici-nalis,laurel,,,,l. officinalis_oxidative stress-induced kidney injury,,,l. officinalis_di-uretic
+4,l. offici-nalis,l. officina-lis,taflan,,,,l. officinalis_kidney tissue damage,,,l. officinalis_nephrotoxic
+5,l. officina-lis,l. officinalis fruit,lazkirazi,,,,l. officinalis_oxidative stress,,,l. officinalis_antioxidant
+6,punicagranatum l,punicagranatum l,"karayemis""on",,,,l. officinalis_stomach ulcers,,,l. officinalis_neuropro-tective
+7,phoenix dactylifera l,phoenix dactylifera l,wistar albino rats,,,,l. officinalis_anti-diabetic,,,l. officinalis_radi-cal scavenging
+8,,laurocerasus officinalis,dimethoate,,,,l. officinalis_oxida-tive stress,,,l. officinalis_analgesic
+9,,,pomegranate,,,,l. officinalis_pain,,,l. of-ficinalis_anti-inflammatory
+10,,,date palm,,,,l. officinalis_eczemas,,,laurocerasus officinalis_anti-diabetic
+11,,,maja jurhar,,,,l. officinalis_bronchitis,,,
 12,,,ivica gjurovski3,,,,phoenix dactylifera l_oxidative stress,,,
 13,,,trpe ristoski3,,,,,,,
 14,,,kristina mladenovska1,,,,,,,

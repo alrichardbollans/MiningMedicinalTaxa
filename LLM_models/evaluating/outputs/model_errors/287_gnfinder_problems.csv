@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,cen-taurium erythrea,cen-taurium erythrea,svetlana,centaurimerythrea l,,,,,,cen-taurium erythrea_antihyperglycemic
-1,centaurium erythrea l,centaurium erythrea,chania,s.spinosa,,,,,,salvia_antioxidant
+1,centaurium erythrea l,centaurium erythrea,chania,s.spinosa,,,,,,salvia_hypoglycemic
 2,salvia,salvia,lamiaceae,s.officinalis l,,,,,,salvia_asantioxidant
-3,salvia officinalis,s. officinalis folium,officinalis,pinuspeuce griseb,,,,,,salvia_antimicrobial
-4,salvia lanigera,s. triloba,ruta,,,,,,,salvia_anticancer
-5,salvia officinalis l,s. triloba folium,pinaceae,,,,,,,salvia_hypoglycemic
-6,s. officinalis,s. officinalis,katerina,,,,,,,salvia officinalis_antisepticand
-7,s. triloba,salvia officinalis,,,,,,,,salvia officinalis_antibacterial
+3,salvia officinalis,s. officinalis folium,officinalis,pinuspeuce griseb,,,,,,salvia_antioxidant
+4,salvia lanigera,s. triloba,ruta,,,,,,,salvia_antimicrobial
+5,salvia officinalis l,s. triloba folium,pinaceae,,,,,,,salvia_anticancer
+6,s. officinalis,s. officinalis,katerina,,,,,,,salvia officinalis_antibacterial
+7,s. triloba,salvia officinalis,,,,,,,,salvia officinalis_antisepticand
 8,s. syriaca,salvia lanigera,,,,,,,,
 9,s. brachyodon vandas,s. syriaca,,,,,,,,
 10,,s. brachyodon,,,,,,,,

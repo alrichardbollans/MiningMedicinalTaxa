@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,punica granatum l,punica granatum l,,rhodiola rosea,punica granatum l_vascular diseases,punica granatum l_neonatal hypoxic-ischemic brain injurymodel,rhodiola rosea_fatigue,punica granatum l_influence endothelial cell function,punica granatum l_improved sperm quality,rhodiola rosea_adaptogenic
 1,,,,punicagranatum l,punica granatum l_dental plaques,punica granatum l_alzheimer's disease,rhodiola rosea_stress,punica granatum l_antifungal,punica granatum l_diminish hypertension,punicagranatum l_vasculoprotective
-2,,,,rhodiola,punica granatum l_oncological diseases,punica granatum l_lymphocystis infection,punica granatum l_peripheral arterydisease,punica granatum l_anticarcinogenic,punica granatum l_stimulatedinnate immune response,punica granatum l_anti-inflammatory
-3,,,,rhodiolarosea,punica granatum l_tapeworm infestation,punica granatum l_peripheral artery disease,,punica granatum l_antibacterial activity,punica granatum l_lipidperoxidation,punica granatum l_fertility
+2,,,,rhodiola,punica granatum l_oncological diseases,punica granatum l_lymphocystis infection,punica granatum l_peripheral arterydisease,punica granatum l_anticarcinogenic,punica granatum l_stimulatedinnate immune response,punica granatum l_fertility
+3,,,,rhodiolarosea,punica granatum l_tapeworm infestation,punica granatum l_peripheral artery disease,,punica granatum l_antibacterial activity,punica granatum l_lipidperoxidation,punica granatum l_anti-inflammatory
 4,,,,punica l,punica granatum l_atherosclerosis,,,punica granatum l_antibacterial,punica granatum l_lessened neuronaldamage,
 5,,,,,punica granatum l_tapewormparasites,,,punica granatum l_anti-hypertensive,punica granatum l_lowered amyloid deposition,
 6,,,,,punica granatum l_prostate cancer,,,punica granatum l_attenuate platelet aggregation,punica granatum l_generation of foam cells,

@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,maranta arundinacea,maranta arundinacea,basella,l.serriola,,,maranta arundinacea_snake bites,,,daucus carota var. sativa_diuretic
-1,beta vulgaris,beta vulgaris,vidalia,rheum rhabarbaratum,,,maranta arundinacea_ulcers,,,daucus carota var. sativa_stimulant
+0,maranta arundinacea,maranta arundinacea,basella,l.serriola,,,maranta arundinacea_ulcers,,,daucus carota var. sativa_diuretic
+1,beta vulgaris,beta vulgaris,vidalia,rheum rhabarbaratum,,,maranta arundinacea_insect bites,,,daucus carota var. sativa_stimulant
 2,b. maritima,b. maritima,,zamia pumila,,,maranta arundinacea_wounds,,,apium graveolens_diuretic
-3,brassica oleracea,brassica,,tropaeolumtuberosum,,,maranta arundinacea_insect bites,,,eruca sativa_aphrodisiac
+3,brassica oleracea,brassica,,tropaeolumtuberosum,,,maranta arundinacea_snake bites,,,eruca sativa_aphrodisiac
 4,brassica,oxalis tuberosa,,nasturtium,,,helianthus tuberosus_diabetics,,,l.serriola_soporific
 5,brassica napus,ullucus tuberosus,,philodendron,,,a. sativum_eczema,,,
 6,brassica rapa,tropaeolum tuberosum,,cucurma zedoria,,,a. sativum_snake bites,,,

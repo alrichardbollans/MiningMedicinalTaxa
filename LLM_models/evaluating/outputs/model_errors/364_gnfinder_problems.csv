@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,s. lucida,scrophularia lucida,medica,scrophularianodosa,,,scrophularia oxysepala_breast cancer,,,scrophularianodosa_wound healing
-1,scrophularia lucida,scrophularia oxysepala,,salviaofficinalis,,,achillea_wounds,,,salviaofficinalis_antioxidative
-2,scrophularia,scrophularia ningpoensis,,allium,,,achillea_bleeding disorders,,,s. lucida_anti-intravasative
-3,scrophularia oxysepala,scrophularia,,punica,,,achillea_bruises,,,achillea_astringent
+1,scrophularia lucida,scrophularia oxysepala,,salviaofficinalis,,,achillea_bruises,,,salviaofficinalis_antioxidative
+2,scrophularia,scrophularia ningpoensis,,allium,,,achillea_wounds,,,s. lucida_anti-intravasative
+3,scrophularia oxysepala,scrophularia,,punica,,,achillea_bleeding disorders,,,achillea_astringent
 4,scrophularia oxysepala boiss,scrophularia canina,,thymus,,,,,,
 5,scrophularia ningpoensis hemsley,s. lucida,,solidago,,,,,,
 6,scrophularia canina l,achillea,,viola,,,,,,

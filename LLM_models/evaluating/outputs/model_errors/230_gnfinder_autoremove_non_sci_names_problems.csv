@@ -2,17 +2,17 @@
 0,o. dictamnus,o. dictamnus herb,,,,,satureja montana_common flu,,,o. dictamnus_relaxing effect
 1,satureja montana,o. dictamnus,,,,,achillea coarcata_hypertension,,,thymus thracicus velen_anti-inflammatory
 2,stachys iva,satureja montana,,,,,teucrium_diabetes,,,thymus thracicus velen_antioxidant
-3,sideritis sp,stachys iva,,,,,o. dictamnus_bruises,,,artocarpus tonkinensis_anti-inflammatory
-4,achillea coarcata,sideritis,,,,,o. dictamnus_mild gastrointestinal disorders,,,artocarpus tonkinensis_decreases th17 cell function
-5,teucrium,achillea coarcata,,,,,o. dictamnus_wound healing,,,c. creticus subsp. eriocephalus_anti-influenza
-6,chamomilla recutita,teucrium,,,,,o. dictamnus_skin inflammations,,,c. creticus subsp. eriocephalus_anti-neuraminidase
-7,salvia sclarea,chamomilla recutita,,,,,o. dictamnus_cough associated with cold,,,c. creticus subsp. eriocephalus_inhibiting influenza virus
+3,sideritis sp,stachys iva,,,,,o. dictamnus_wound healing,,,artocarpus tonkinensis_decreases th17 cell function
+4,achillea coarcata,sideritis,,,,,o. dictamnus_mild gastrointestinal disorders,,,artocarpus tonkinensis_anti-inflammatory
+5,teucrium,achillea coarcata,,,,,o. dictamnus_cough associated with cold,,,c. creticus subsp. eriocephalus_anti-neuraminidase
+6,chamomilla recutita,teucrium,,,,,o. dictamnus_bruises,,,c. creticus subsp. eriocephalus_anti-influenza
+7,salvia sclarea,chamomilla recutita,,,,,o. dictamnus_skin inflammations,,,c. creticus subsp. eriocephalus_inhibiting influenza virus
 8,thymus thracicus velen,salvia sclarea,,,,,stachys iva_common flu,,,
 9,thymus spp,thymus,,,,,sideritis sp_common flu,,,
 10,thymus thracicus,thymus thracicus,,,,,artocarpus tonkinensis_backache,,,
 11,artocarpus tonkinensis,artocarpus tonkinensis,,,,,artocarpus tonkinensis_arthritis,,,
 12,c. creticus,cistus creticus,,,,,c. creticus_respiratory infections,,,
-13,c. creticus subsp. eriocephalus,cistus incanus,,,,,c. creticus subsp. eriocephalus_flu,,,
-14,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet,c. creticus,,,,,c. creticus subsp. eriocephalus_cold symptoms,,,
-15,c. creticus subsp,c. creticus subsp. eriocephalus,,,,,c. creticus subsp. eriocephalus_influenza a h1n1 strains,,,
+13,c. creticus subsp. eriocephalus,cistus incanus,,,,,c. creticus subsp. eriocephalus_influenza a h1n1 strains,,,
+14,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet,c. creticus,,,,,c. creticus subsp. eriocephalus_flu,,,
+15,c. creticus subsp,c. creticus subsp. eriocephalus,,,,,c. creticus subsp. eriocephalus_cold symptoms,,,
 16,cistus incanus l,,,,,,,,,

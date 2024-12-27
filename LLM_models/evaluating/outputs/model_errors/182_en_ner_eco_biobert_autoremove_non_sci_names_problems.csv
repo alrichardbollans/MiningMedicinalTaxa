@@ -1,16 +1,13 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,aspergillus carbonarius,aspergillus carbonarius,galega officinalis).these,,,,polygonum aviculare_human breast can-cer,,,polygonum aviculare_anticancer
-1,rhamnus fran-gula,rhamnus fran-gula,artemia salina nauplii,,,,teucrium chamaedrys_human co-lon carcinoma,,,polygonum aviculare_cytotoxicity
-2,quercus pedunculata,quercus pedunculata,artemia salina,,,,,,,polygonum aviculare_cytotoxic
-3,capsella bursa-pastoris,capsella bursa-pastoris,planta medica,,,,,,,teucrium chamaedrys_cytotoxic
+0,aspergillus carbonarius,aspergillus carbonarius,galega officinalis).these,teu-crium chamaedrys,,,polygonum aviculare_human breast can-cer,,,polygonum aviculare_anticancer
+1,rhamnus fran-gula,rhamnus fran-gula,,epilobi-um parviflorum,,,teucrium chamaedrys_human co-lon carcinoma,,,polygonum aviculare_cytotoxic
+2,quercus pedunculata,quercus pedunculata,,vis-cum album,,,,,,polygonum aviculare_cytotoxicity
+3,capsella bursa-pastoris,capsella bursa-pastoris,,,,,,,,teucrium chamaedrys_cytotoxic
 4,epilobium parviflo-rum,epilobium parviflo-rum,,,,,,,,teucrium_anticancer
 5,hypericum perforatum,hypericum perforatum,,,,,,,,
 6,polygonum aviculare,polygonum aviculare,,,,,,,,
-7,teu-crium chamaedrys,teu-crium chamaedrys,,,,,,,,
-8,viscum album,viscum album,,,,,,,,
-9,epilobi-um parviflorum,epilobi-um parviflorum,,,,,,,,
-10,galega officinalis,galega officinalis,,,,,,,,
-11,rhamnus frangu-la,rhamnus frangu-la,,,,,,,,
-12,vis-cum album,vis-cum album,,,,,,,,
-13,teucrium chamaedrys,teucrium chamaedrys,,,,,,,,
-14,teucrium,teucrium plant species,,,,,,,,
+7,viscum album,viscum album,,,,,,,,
+8,galega officinalis,galega officinalis,,,,,,,,
+9,rhamnus frangu-la,rhamnus frangu-la,,,,,,,,
+10,teucrium chamaedrys,teucrium chamaedrys,,,,,,,,
+11,teucrium,teucrium plant species,,,,,,,,

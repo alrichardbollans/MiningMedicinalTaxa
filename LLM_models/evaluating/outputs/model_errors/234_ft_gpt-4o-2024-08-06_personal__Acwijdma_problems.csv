@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,p. zombamontana,p. zombamontana,,,,,syzygium legatii_mastitis,p. zombamontana_anti-inflammatory,,p. zombamontana_protecting poultry against infection
-1,eugenia,eugenia,,,,,s. gerrardii_mastitis,p. zombamontana_antioxidant,,p. zombamontana_cytotoxicity
+0,p. zombamontana,p. zombamontana,,,,,syzygium legatii_mastitis,p. zombamontana_anti-inflammatory,,p. zombamontana_cytotoxicity
+1,eugenia,eugenia,,,,,s. gerrardii_mastitis,p. zombamontana_antioxidant,,p. zombamontana_protecting poultry against infection
 2,syzygium,syzygium,,,,,,eugenia_antibacterial,,eugenia_cytotoxicity
 3,syzygium legatii,syzygium legatii,,,,,,syzygium_antibacterial,,eugenia_against staphylococcus aureus
 4,syzygium gerrardii,syzygium gerrardii,,,,,,syzygium legatii_antibacterial,,syzygium_against staphylococcus aureus

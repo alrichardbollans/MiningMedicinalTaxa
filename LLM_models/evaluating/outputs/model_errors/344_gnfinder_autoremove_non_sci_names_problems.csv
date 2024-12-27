@@ -1,59 +1,59 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,rumex hydrolapathum,rumex hydrolapathum,medica,,,,c. majus_blisters,,,rumex hydrolapathum_diaphoretic
-1,c. majus,c. majus,,,,,c. majus_skineruptions,,,rumex hydrolapathum_sweating
-2,chelidonium majus,chelidonium,,,,,c. majus_rashes,,,c. majus_lighten the freckles
-3,,,,,,,c. majus_dermatologic conditions,,,c. majus_lighten freckles
-4,,,,,,,c. majus_hyperpigmentation,,,c. majus_relaxant
-5,,,,,,,c. majus_roundworms,,,c. majus_cholagogue
-6,,,,,,,c. majus_jaundice,,,c. majus_to regulate actionof the digestive tract
-7,,,,,,,"c. majus_inflammation of the gallbladder, bile duct",,,chelidonium majus_stimulant of cardiac functions
-8,,,,,,,c. majus_eye conditions,,,chelidonium majus_increasing bloodpressure
-9,,,,,,,c. majus_wounds,,,chelidonium majus_tonic
-10,,,,,,,c. majus_gallstones,,,chelidonium majus_diuretic
-11,,,,,,,c. majus_skin disease,,,chelidonium majus_depurative
-12,,,,,,,c. majus_ulcers,,,
-13,,,,,,,c. majus_liver complaints,,,
-14,,,,,,,c. majus_liver conditions,,,
-15,,,,,,,c. majus_inflammation,,,
-16,,,,,,,c. majus_eczema,,,
-17,,,,,,,c. majus_pustules,,,
-18,,,,,,,c. majus_inflammatory eye infections,,,
-19,,,,,,,c. majus_skin irritation,,,
-20,,,,,,,c. majus_eye diseases,,,
-21,,,,,,,c. majus_wound,,,
-22,,,,,,,c. majus_specks,,,
-23,,,,,,,c. majus_dropsies,,,
-24,,,,,,,c. majus_skin diseases,,,
-25,,,,,,,c. majus_warts,,,
-26,,,,,,,c. majus_dermatitis,,,
-27,,,,,,,c. majus_boils,,,
-28,,,,,,,c. majus_liver diseases,,,
-29,,,,,,,c. majus_syphilitic affliction,,,
-30,,,,,,,c. majus_colicattacks,,,
-31,,,,,,,c. majus_scabies,,,
-32,,,,,,,c. majus_liver disorders,,,
-33,,,,,,,c. majus_ophtalmia,,,
-34,,,,,,,c. majus_gout,,,
-35,,,,,,,c. majus_visceral obstructions,,,
-36,,,,,,,c. majus_cuts,,,
-37,,,,,,,c. majus_cancer,,,
-38,,,,,,,c. majus_psoriasis,,,
-39,,,,,,,c. majus_dermatologicconditions,,,
-40,,,,,,,c. majus_fevers,,,
-41,,,,,,,c. majus_hepatitis,,,
-42,,,,,,,c. majus_skin wounds,,,
-43,,,,,,,c. majus_sight loss,,,
-44,,,,,,,c. majus_corns,,,
-45,,,,,,,c. majus_scrofula,,,
-46,,,,,,,c. majus_cataract,,,
-47,,,,,,,c. majus_spasticconditions,,,
-48,,,,,,,c. majus_digestive tract parasites,,,
-49,,,,,,,c. majus_gastrointestinal parasites,,,
-50,,,,,,,c. majus_allergic rashes,,,
-51,,,,,,,c. majus_eye infections,,,
+0,rumex hydrolapathum,rumex hydrolapathum,medica,,,,c. majus_spasticconditions,,,rumex hydrolapathum_sweating
+1,c. majus,c. majus,,,,,c. majus_inflammation,,,rumex hydrolapathum_diaphoretic
+2,chelidonium majus,chelidonium,,,,,c. majus_digestive tract parasites,,,c. majus_lighten the freckles
+3,,,,,,,c. majus_gout,,,c. majus_to regulate actionof the digestive tract
+4,,,,,,,c. majus_skin irritation,,,c. majus_lighten freckles
+5,,,,,,,c. majus_cancer,,,c. majus_relaxant
+6,,,,,,,c. majus_dropsies,,,c. majus_cholagogue
+7,,,,,,,c. majus_specks,,,chelidonium majus_depurative
+8,,,,,,,c. majus_sight loss,,,chelidonium majus_diuretic
+9,,,,,,,c. majus_corns,,,chelidonium majus_increasing bloodpressure
+10,,,,,,,c. majus_colicattacks,,,chelidonium majus_stimulant of cardiac functions
+11,,,,,,,c. majus_hyperpigmentation,,,chelidonium majus_tonic
+12,,,,,,,c. majus_gastrointestinal parasites,,,
+13,,,,,,,c. majus_wounds,,,
+14,,,,,,,c. majus_scrofula,,,
+15,,,,,,,c. majus_pustules,,,
+16,,,,,,,c. majus_ulcers,,,
+17,,,,,,,c. majus_gallstones,,,
+18,,,,,,,c. majus_eye diseases,,,
+19,,,,,,,c. majus_visceral obstructions,,,
+20,,,,,,,c. majus_liver conditions,,,
+21,,,,,,,c. majus_cataract,,,
+22,,,,,,,c. majus_rashes,,,
+23,,,,,,,c. majus_fevers,,,
+24,,,,,,,c. majus_dermatologicconditions,,,
+25,,,,,,,"c. majus_inflammation of the gallbladder, bile duct",,,
+26,,,,,,,c. majus_liver diseases,,,
+27,,,,,,,c. majus_eye conditions,,,
+28,,,,,,,c. majus_hepatitis,,,
+29,,,,,,,c. majus_psoriasis,,,
+30,,,,,,,c. majus_skin diseases,,,
+31,,,,,,,c. majus_jaundice,,,
+32,,,,,,,c. majus_ophtalmia,,,
+33,,,,,,,c. majus_skin disease,,,
+34,,,,,,,c. majus_roundworms,,,
+35,,,,,,,c. majus_scabies,,,
+36,,,,,,,c. majus_wound,,,
+37,,,,,,,c. majus_syphilitic affliction,,,
+38,,,,,,,c. majus_skineruptions,,,
+39,,,,,,,c. majus_liver disorders,,,
+40,,,,,,,c. majus_cuts,,,
+41,,,,,,,c. majus_eczema,,,
+42,,,,,,,c. majus_dermatologic conditions,,,
+43,,,,,,,c. majus_liver complaints,,,
+44,,,,,,,c. majus_dermatitis,,,
+45,,,,,,,c. majus_warts,,,
+46,,,,,,,c. majus_allergic rashes,,,
+47,,,,,,,c. majus_blisters,,,
+48,,,,,,,c. majus_eye infections,,,
+49,,,,,,,c. majus_boils,,,
+50,,,,,,,c. majus_skin wounds,,,
+51,,,,,,,c. majus_inflammatory eye infections,,,
 52,,,,,,,chelidonium majus_gout,,,
-53,,,,,,,chelidonium majus_hydropsy,,,
-54,,,,,,,chelidonium majus_aching teeth,,,
-55,,,,,,,chelidonium majus_cancer,,,
-56,,,,,,,chelidonium majus_cancer of lungs,,,
+53,,,,,,,chelidonium majus_cancer,,,
+54,,,,,,,chelidonium majus_hydropsy,,,
+55,,,,,,,chelidonium majus_cancer of lungs,,,
+56,,,,,,,chelidonium majus_aching teeth,,,
 57,,,,,,,chelidonium majus_snake venom,,,

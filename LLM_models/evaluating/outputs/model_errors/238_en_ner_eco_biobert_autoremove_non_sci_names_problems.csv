@@ -1,27 +1,27 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,satureja,satureja pilosa,enterococcus faecalis,,,,satureja_muscle pain,,,alkanna tinctoria_wound healing
-1,satureja pilosa,satureja,bacillus subtilis,,,,satureja_cramps,,,thymus spp_antimicrobial
-2,s. pilosa,s. pilosa,staphylococcus aureus,,,,satureja_infectious diseases,,,thymus spp_antioxidant
-3,a. tinctoria,satureja taxa,pseudomonas aeruginosa,,,,satureja_gastrointestinal disorders,,,thymbra capitata_antimicrobial
-4,alkanna tinctoria,alkana tinctoria,,,,,,,,thymbra capitata_antibacterial
-5,thymus spp,alkanna tinctoria,,,,,,,,thymbra capitata_antioxidant
-6,thymbra capitata,a. tinctoria,,,,,,,,thymbra spp_antimicrobial
-7,thymbra spp,thymus spp,,,,,,,,thymbra spp_antioxidant
-8,t. longicaulis subsp. longicaulis,thymbra capitata,,,,,,,,t. longicaulis subsp. longicaulis_antibacterial
-9,t. longicaulis subsp. chaubardii,thymbra spp,,,,,,,,t. longicaulis subsp. longicaulis_antioxidant
-10,thymus boissieri,t. longicaulis subsp,,,,,,,,thymus boissieri_antibacterial
-11,t. degenii,thymus boissieri,,,,,,,,thymus boissieri_antioxidant
-12,t. thracicus,t. degenii,,,,,,,,t. degenii_antibacterial
-13,t. sibthorpii,t. thracicus,,,,,,,,t. degenii_antioxidant
-14,t. striatus,t. sibthorpii,,,,,,,,t. thracicus_antibacterial
-15,t. holosericeus,t. striatus,,,,,,,,t. thracicus_antioxidant
-16,t. plasonii,t. holosericeus,,,,,,,,t. sibthorpii_antibacterial
-17,centaurea,t. plasonii,,,,,,,,t. sibthorpii_antioxidant
-18,centaurea phyllocephala boiss,centaurea phyllocephala boiss,,,,,,,,t. striatus_antibacterial
-19,centaurea cyanoides,centaurea,,,,,,,,t. striatus_antioxidant
-20,centaurea cyanus,centaurea cyanoides,,,,,,,,centaurea_antidiabetic
-21,centaurea sp,centaurea cyanus,,,,,,,,centaurea_antirheumatic
-22,c. cyanus,centaurea sp,,,,,,,,centaurea_anti-inflammatory
-23,,c. cyanus,,,,,,,,centaurea_antioxidant
-24,,,,,,,,,,centaurea_anti-dandruff
+0,satureja,satureja pilosa,,,,,satureja_infectious diseases,,,alkanna tinctoria_wound healing
+1,satureja pilosa,satureja,,,,,satureja_muscle pain,,,thymus spp_antimicrobial
+2,s. pilosa,s. pilosa,,,,,satureja_gastrointestinal disorders,,,thymus spp_antioxidant
+3,alkanna tinctoria,satureja taxa,,,,,satureja_cramps,,,thymbra capitata_antibacterial
+4,a. tinctoria,alkanna tinctoria,,,,,,,,thymbra capitata_antimicrobial
+5,thymus spp,a. tinctoria,,,,,,,,thymbra capitata_antioxidant
+6,thymbra capitata,thymus spp,,,,,,,,thymbra spp_antimicrobial
+7,thymbra spp,thymbra capitata,,,,,,,,thymbra spp_antioxidant
+8,t. longicaulis subsp. longicaulis,thymbra spp,,,,,,,,t. longicaulis subsp. longicaulis_antibacterial
+9,t. longicaulis subsp. chaubardii,t. longicaulis subsp,,,,,,,,t. longicaulis subsp. longicaulis_antioxidant
+10,thymus boissieri,thymus boissieri,,,,,,,,thymus boissieri_antibacterial
+11,t. degenii,t. degenii,,,,,,,,thymus boissieri_antioxidant
+12,t. thracicus,t. thracicus,,,,,,,,t. degenii_antibacterial
+13,t. sibthorpii,t. sibthorpii,,,,,,,,t. degenii_antioxidant
+14,t. striatus,t. striatus,,,,,,,,t. thracicus_antibacterial
+15,t. holosericeus,t. holosericeus,,,,,,,,t. thracicus_antioxidant
+16,t. plasonii,t. plasonii,,,,,,,,t. sibthorpii_antibacterial
+17,centaurea,centaurea phyllocephala boiss,,,,,,,,t. sibthorpii_antioxidant
+18,centaurea phyllocephala boiss,centaurea,,,,,,,,t. striatus_antibacterial
+19,centaurea cyanoides,centaurea cyanoides,,,,,,,,t. striatus_antioxidant
+20,centaurea cyanus,centaurea cyanus,,,,,,,,centaurea_anti-inflammatory
+21,centaurea sp,centaurea sp,,,,,,,,centaurea_anti-dandruff
+22,c. cyanus,c. cyanus,,,,,,,,centaurea_antioxidant
+23,,,,,,,,,,centaurea_antidiabetic
+24,,,,,,,,,,centaurea_antirheumatic
 25,,,,,,,,,,centaurea_antibacterial

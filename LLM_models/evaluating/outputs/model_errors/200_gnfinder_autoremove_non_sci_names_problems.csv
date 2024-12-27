@@ -1,14 +1,14 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,trifolium pratense l,trifolium pratense,,candi-da albicans,,,chenopodium botrys l_humoral asthma,,,trifolium pratense l_estrogenic
-1,chenopodium botrys l,chenopodium botrys,,dys-phania botrys (l.) mosyakin and clemants,,,chenopodium botrys l_catarrh,,,chenopodium botrys l_antimicrobial
-2,c. botrys,chenopodium,,,,,,,,c. botrys_antimicrobial
+0,trifolium pratense l,trifolium pratense,,candi-da albicans,,,chenopodium botrys l_catarrh,,,trifolium pratense l_estrogenic
+1,chenopodium botrys l,chenopodium botrys,,dys-phania botrys (l.) mosyakin and clemants,,,chenopodium botrys l_humoral asthma,,,chenopodium botrys l_antimicrobial
+2,c. botrys,chenopodium,,,,,,,,c. botrys_bactericidal
 3,chenopodium botrys,chenopodium ambro-sioides,,,,,,,,c. botrys_antidiarrheal
-4,chenopodium,c. botrys,,,,,,,,c. botrys_antifungal
+4,chenopodium,c. botrys,,,,,,,,c. botrys_diuretic
 5,chenopodium ambro-sioides,c. botrys herba,,,,,,,,c. botrys_fungicidal
-6,candida albicans,candida albicans,,,,,,,,c. botrys_antibacterial
-7,aspergillus niger,aspergillus niger,,,,,,,,c. botrys_carminative
-8,,,,,,,,,,c. botrys_antispasmodic
-9,,,,,,,,,,c. botrys_diuretic
-10,,,,,,,,,,c. botrys_bactericidal
+6,candida albicans,candida albicans,,,,,,,,c. botrys_antispasmodic
+7,aspergillus niger,aspergillus niger,,,,,,,,c. botrys_antimicrobial
+8,,,,,,,,,,c. botrys_carminative
+9,,,,,,,,,,c. botrys_antifungal
+10,,,,,,,,,,c. botrys_antibacterial
 11,,,,,,,,,,chenopodium botrys_antimi-crobia
 12,,,,,,,,,,chenopodium botrys_antifungal

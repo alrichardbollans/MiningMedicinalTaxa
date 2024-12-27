@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,cannabis,cannabis sativa l,,can-nabis,cannabis sativa l_insomnia,,cannabis_rheu-matic pains,cannabis sativa l_analgesic,,cannabis_narcotic
-1,cannabis sativa l,juniperus communis subsp. alpina (suter) celak,,juniperus sect. juniperus,cannabis sativa l_cholera,,cannabis_malaria,cannabis sativa l_painkiller,,cannabis_psychotropic
-2,juniperus communis subsp. alpina (suter) celak,j. nana,,canna-bis,cannabis sativa l_tetanus,,cannabis_constipation,juniperus communis subsp. alpina (suter) celak_antiseptic,,cannabis_healing
-3,juniperus,j. communis,,,cannabis sativa l_rheumatism,,,juniperus communis subsp. alpina (suter) celak_antioxidant,,cannabis_psychoactive
+0,cannabis,cannabis sativa l,,can-nabis,cannabis sativa l_insomnia,,cannabis_malaria,cannabis sativa l_analgesic,,cannabis_healing
+1,cannabis sativa l,juniperus communis subsp. alpina (suter) celak,,juniperus sect. juniperus,cannabis sativa l_cholera,,cannabis_rheu-matic pains,cannabis sativa l_painkiller,,cannabis_psychotropic
+2,juniperus communis subsp. alpina (suter) celak,j. nana,,canna-bis,cannabis sativa l_tetanus,,cannabis_constipation,juniperus communis subsp. alpina (suter) celak_antiseptic,,cannabis_psychoactive
+3,juniperus,j. communis,,,cannabis sativa l_rheumatism,,,juniperus communis subsp. alpina (suter) celak_antioxidant,,cannabis_narcotic
 4,juniperus communis,j. oxycedrus,,,cannabis sativa l_female problems,,,juniperus communis subsp. alpina (suter) celak_carminative,,
 5,j. communis,juniperus nana,,,cannabis sativa l_con-vulsions,,,juniperus communis subsp. alpina (suter) celak_hypoglycemic,,
 6,j. nana,,,,cannabis sativa l_delirium tremens,,,juniperus communis subsp. alpina (suter) celak_antibacterial,,

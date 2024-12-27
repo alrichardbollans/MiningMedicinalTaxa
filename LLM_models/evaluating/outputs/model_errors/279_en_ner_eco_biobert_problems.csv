@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,hypericumperforatum l,hypericumperforatum l,liliaceae,hederahelix,,,cercis siliquastruml_respiratory system disorders,,,paliurus aculeatus l_antidiarrheal
-1,salvia officinalis l,salvia officinalis l,lamiaceae,,,,ecballium elaterium rich_liverdiseases,,,hedera helix_antibacterial
-2,cichorium intybus l,cichorium intybus l,asteraceae,,,,ecballium elaterium rich_jaundice,,,
+1,salvia officinalis l,salvia officinalis l,lamiaceae,,,,ecballium elaterium rich_jaundice,,,hedera helix_antibacterial
+2,cichorium intybus l,cichorium intybus l,asteraceae,,,,ecballium elaterium rich_liverdiseases,,,
 3,allium sativuml,allium sativuml,solanaceae,,,,alopecurus myosuroides huds_urinary apparatus diseases,,,
 4,origanum vulgare l,origanum vulgare l,rosaceae,,,,juncus acutusl_urinary apparatus diseases,,,
 5,crataegus spp,crataegus spp,flora,,,,physalis alkekengi l_skin diseases,,,

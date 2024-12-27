@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,scrophularia,scrophularia buergeriana,,scrophularianingpoensis,,,scrophularia variegata_breast cancer,,,s. lucida_inhibit metastasis in breast cancer
-1,scrophularia buergeriana,scrophularia scopolii,,scrophulariascopolii,,,scrophularia_tumor,,,scrophularia deserti_antidiabetic
-2,scrophularia buergeriana (miquel,scrophularia,,,,,,,,scrophularia deserti_antiinflammatory
+1,scrophularia buergeriana,scrophularia scopolii,,scrophulariascopolii,,,scrophularia_tumor,,,scrophularia deserti_antiinflammatory
+2,scrophularia buergeriana (miquel,scrophularia,,,,,,,,scrophularia deserti_antidiabetic
 3,scrophularia scopolii [hoppe ex] pers. var. scopolii,s. lucida,,,,,,,,scrophularia auriculata_anti-inflammatory
 4,s. scopolii,scrophularia lucida,,,,,,,,scrophularia buergeriana_neuroprotective
 5,scrophularia deserti,scrophularia variegata,,,,,,,,scrophularianingpoensis_antimicrobial

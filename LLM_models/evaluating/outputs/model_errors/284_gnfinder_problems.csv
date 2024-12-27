@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,sideritis javalambrensis,sideritis,suva,s.raeseri,,,juniperus communis l_chronicle arthritis,,,sideritis javalambrensis_antioxidant
+0,sideritis javalambrensis,sideritis,suva,s.raeseri,,,juniperus communis l_cystitis,,,sideritis javalambrensis_antioxidant
 1,sideritis raeseri,s. scardica,heras,j.communis l,,,juniperus communis l_digestive disorders,,,sideritis raeseri_anti-inflammatory
-2,sideritis,s. raeseri,communis,,,,juniperus communis l_cystitis,,,sideritis_antioxidant
+2,sideritis,s. raeseri,communis,,,,juniperus communis l_chronicle arthritis,,,sideritis_antioxidant
 3,s. scardica,sideritis raeseri,svetlana,,,,,,,juniperus communis l_diuretic
 4,s. raeseri,sideritis javalambrensis,cupressaceae,,,,,,,juniperus communis l_antireuma thic
 5,juniperus communis l,juniperus,juniperi fructus,,,,,,,juniperus communis l_stomachic
-6,,juniperus communis,pharma copo,,,,,,,juniperus communis l_digestive
-7,,,baccae juniperi,,,,,,,juniperus communis l_antiseptic
+6,,juniperus communis,pharma copo,,,,,,,juniperus communis l_antiseptic
+7,,,baccae juniperi,,,,,,,juniperus communis l_digestive

@@ -1,13 +1,13 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,cannabis,cannabis sativa,,can-nabis,,,cannabis_insomnia,,,cannabis_narcotic
-1,cannabis sativa l,cannabis,,canna-bis,,,cannabis_rabies,,,cannabis_painkiller
-2,juniperus communis subsp. alpina (suter) celak,juniperus communis subsp. alpina,,,,,cannabis_rheumatism,,,cannabis_psychoactive
-3,juniperus,j. nana,,,,,cannabis_malaria,,,cannabis_healing
-4,juniperus communis,juniperus,,,,,cannabis_rheu-matic pains,,,cannabis_analgesic
-5,j. communis,j. communis,,,,,cannabis_constipation,,,cannabis_psychotropic
-6,j. nana,j. oxycedrus,,,,,cannabis_con-vulsions,,,juniperus communis subsp. alpina (suter) celak_antioxidant
-7,juniperus nana,juniperus nana,,,,,cannabis_cholera,,,juniperus communis subsp. alpina (suter) celak_antibacterial
-8,juniperus communis l,juniperus communis,,,,,cannabis_tetanus,,,juniperus communis subsp. alpina (suter) celak_carminative
-9,juniperus sect. juniperus,,,,,,cannabis_delirium tremens,,,juniperus communis subsp. alpina (suter) celak_antiseptic
-10,j. oxycedrus,,,,,,cannabis_female problems,,,juniperus communis subsp. alpina (suter) celak_hypoglycemic
+0,cannabis,cannabis sativa,,can-nabis,,,cannabis_rabies,,,cannabis_painkiller
+1,cannabis sativa l,cannabis,,canna-bis,,,cannabis_malaria,,,cannabis_psychotropic
+2,juniperus communis subsp. alpina (suter) celak,juniperus communis subsp. alpina,,,,,cannabis_cholera,,,cannabis_healing
+3,juniperus,j. nana,,,,,cannabis_con-vulsions,,,cannabis_analgesic
+4,juniperus communis,juniperus,,,,,cannabis_rheumatism,,,cannabis_narcotic
+5,j. communis,j. communis,,,,,cannabis_rheu-matic pains,,,cannabis_psychoactive
+6,j. nana,j. oxycedrus,,,,,cannabis_delirium tremens,,,juniperus communis subsp. alpina (suter) celak_hypoglycemic
+7,juniperus nana,juniperus nana,,,,,cannabis_female problems,,,juniperus communis subsp. alpina (suter) celak_antiseptic
+8,juniperus communis l,juniperus communis,,,,,cannabis_insomnia,,,juniperus communis subsp. alpina (suter) celak_carminative
+9,juniperus sect. juniperus,,,,,,cannabis_tetanus,,,juniperus communis subsp. alpina (suter) celak_antibacterial
+10,j. oxycedrus,,,,,,cannabis_constipation,,,juniperus communis subsp. alpina (suter) celak_antioxidant
 11,,,,,,,juniperus communis subsp. alpina (suter) celak_rheumatic complaints,,,

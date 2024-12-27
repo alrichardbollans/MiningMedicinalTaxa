@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,epilobium angustifolium l,epilobium angustifolium l,thyme(thymus serpyllum l,valerianaofficinalis l,,,,,,b. crassifolia_appetite and energy intakesuppressants
-1,e. angustifolium,bergenia spp,r. canina l.as,carumcarvi l,,,,,,a. calamus l_digestives
-2,bergenia spp,b. crassifolia,ofbergenia crassifolia,thymus serpyllum l,,,,,,valerianaofficinalis l_digestives
-3,b. crassifolia,ledum palustre l,artia,hypericumperforatum l,,,,,,inula helenium l_digestives
+0,epilobium angustifolium l,epilobium angustifolium l,r. canina l.as,valerianaofficinalis l,,,,,,b. crassifolia_appetite and energy intakesuppressants
+1,e. angustifolium,bergenia spp,artia,carumcarvi l,,,,,,a. calamus l_digestives
+2,bergenia spp,b. crassifolia,,thymus serpyllum l,,,,,,valerianaofficinalis l_digestives
+3,b. crassifolia,ledum palustre l,,hypericumperforatum l,,,,,,inula helenium l_digestives
 4,bergenia crassifolia,artemisia absinthium l,,vacciniumvitis-idaea l,,,,,,juniperus communis l_digestives
 5,ledum palustre l,tilia cordata mill,,t.platyphyllos scop,,,,,,carumcarvi l_digestives
 6,artemisia,a. calamus l,,taraxacumcampylodes g.e. haglund,,,,,,helichrysum arenarium (l.)moench_digestives

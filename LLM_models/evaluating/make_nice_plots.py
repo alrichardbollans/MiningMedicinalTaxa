@@ -3,6 +3,19 @@ import os
 import pandas as pd
 import seaborn as sns
 
+def collect_main_results():
+    all_results = pd.DataFrame()
+    fileNames = os.listdir(os.path.join('outputs', 'full_eval'))
+    for f in fileNames:
+        if f.endswith(".csv") and not f.startswith('all_results'):
+            model_results = pd.read_csv(os.path.join('outputs', 'full_eval', f), index_col=0)
+            model_results = model_results.loc[['f1']]
+            model_results = model_results.rename(index={'f1': f'{f}_f1'})
+            all_results = pd.concat([all_results, model_results])
+    all_results.loc['model_means'] = all_results.fillna(0).mean(numeric_only=True)
+    all_results = all_results.sort_values(by='Precise NER', ascending=False)
+    all_results.to_csv(os.path.join(os.path.join('outputs', 'full_eval', 'all_results.csv')))
+
 
 def melt_all_results(metric, models, _measures):
     renaming = {'claude-3-5-sonnet-20241022_autoremove_non_sci_names_results.csv': 'Claude_NS', 'claude-3-5-sonnet-20241022_results.csv': 'Claude',
@@ -73,6 +86,7 @@ def for_full_eval(models, _measures, file_tag: str):
 
 
 if __name__ == '__main__':
+    collect_main_results()
     metrics = ['f1', 'precision', 'recall']
     all_measures = ['Precise NER', 'Approx. NER', 'Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
     all_models = ['Claude', 'Gemini', 'GNfinder', 'GPT', 'FTGPT', 'Llama', 'TaxoNERD']

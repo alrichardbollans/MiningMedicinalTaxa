@@ -1,14 +1,14 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,boerhaavia diffusa,boerhaavia diffusa,di farmacia,asarum europaeum,,,boerhaavia diffusa_menstrualsyndrome,,,boerhaavia diffusa_laxative
-1,b. diffusa,b. diffusa,ofnyctaginaceae,,,,boerhaavia diffusa_cystitis,,,b. diffusa_spas-molytic
+0,boerhaavia diffusa,boerhaavia diffusa,di farmacia,asarum europaeum,,,boerhaavia diffusa_gastro-intestinal,,,boerhaavia diffusa_laxative
+1,b. diffusa,b. diffusa,ofnyctaginaceae,,,,boerhaavia diffusa_stones,,,b. diffusa_spas-molytic
 2,boerhaavia diffusa l,boerhaaviadiffusa l,"punarnavine),rotenoids",,,,boerhaavia diffusa_nephritis,,,b. diffusa_antioxidant
-3,boerhaaviadiffusa,arthemisia absinthium l,diffusa,,,,boerhaavia diffusa_gastro-intestinal,,,boerhaaviadiffusa_spasmolytic
+3,boerhaaviadiffusa,arthemisia absinthium l,diffusa,,,,boerhaavia diffusa_hepatitis,,,boerhaaviadiffusa_spasmolytic
 4,arthemisia absinthium l,boerhaaviadiffusa roots,aromatichni rastenija,,,,boerhaavia diffusa_jaundice,,,
 5,conium,conium,punarnava(boerhaavia,,,,boerhaavia diffusa_anemia,,,
-6,bryonia dioica,bryonia dioica,ofboerhaavia diffusa l,,,,boerhaavia diffusa_liverdisorders,,,
-7,solanum dulcamara,solanum dulcamara,rotenoids,,,,boerhaavia diffusa_kidney problems,,,
-8,aconitum sp,aconitum sp,wormwood,,,,boerhaavia diffusa_stones,,,
-9,strychnos nux-vomica,strychnos nux-vomica,ofboerhaavia diffusa,,,,boerhaavia diffusa_hepatitis,,,
+6,bryonia dioica,bryonia dioica,ofboerhaavia diffusa l,,,,boerhaavia diffusa_kidney problems,,,
+7,solanum dulcamara,solanum dulcamara,rotenoids,,,,boerhaavia diffusa_cystitis,,,
+8,aconitum sp,aconitum sp,wormwood,,,,boerhaavia diffusa_liverdisorders,,,
+9,strychnos nux-vomica,strychnos nux-vomica,ofboerhaavia diffusa,,,,boerhaavia diffusa_menstrualsyndrome,,,
 10,colchicum autumnale,colchicum autumnale,"radicali liberiin biologia, medicina e nutrizione",,,,b. diffusa_gastrointestinal disorders,,,
 11,datura stramonium,datura stramonium,farmacognosia,,,,b. diffusa_gastrointestinal diseases,,,
 12,claviceps purpurea,claviceps purpurea,ephedra,,,,,,,

@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,veronica,veronica,,veronic,,,veronica_stomach ulcer,,,
-1,veronica officinalis,v. officinalis,,v. krumovii (peev) peev,,,veronica_respiratory ailments,,,
-2,v. officinalis,v. chamaedrys,,,,,veronica_inflammatory diseases,,,
-3,v. chamaedrys,v. micrantha,,,,,veronica_rheumatism,,,
+0,veronica,veronica,,veronic,,,veronica_rheumatism,,,
+1,veronica officinalis,v. officinalis,,v. krumovii (peev) peev,,,veronica_inflammatory diseases,,,
+2,v. officinalis,v. chamaedrys,,,,,veronica_stomach ulcer,,,
+3,v. chamaedrys,v. micrantha,,,,,veronica_respiratory ailments,,,
 4,v. micrantha,chamaedrys,,,,,,,,
 5,chamaedrys,veronica officinalis,,,,,,,,
 6,v. bombycina boiss.& kotschy,v. bombycina,,,,,,,,

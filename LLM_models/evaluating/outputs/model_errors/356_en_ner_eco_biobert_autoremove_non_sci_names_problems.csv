@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,asa foetida,asa foetida,cumnominibus herbarum germanis,anacardium occidentale,,,,,,
-1,cnicus benedictus,cnicus benedictus,polonis rubro adscriptis,styrax,,,,,,
-2,pimpinella saxifraga,pimpinella saxifraga,antidotarium parvum,carlina acaulis,,,,,,
-3,,,antidotarium magnum,plantagomajor,,,,,,
-4,,,"anacardium occidentale),asa",archangelicaofficinalis,,,,,,
-5,,,storacis(styrax liquidum,,,,,,,
+0,cnicus benedictus,cnicus benedictus,"anacardium occidentale),asa",anacardium occidentale,,,,,,
+1,pimpinella saxifraga,pimpinella saxifraga,,asa foetida,,,,,,
+2,,,,styrax,,,,,,
+3,,,,carlina acaulis,,,,,,
+4,,,,plantagomajor,,,,,,
+5,,,,archangelicaofficinalis,,,,,,

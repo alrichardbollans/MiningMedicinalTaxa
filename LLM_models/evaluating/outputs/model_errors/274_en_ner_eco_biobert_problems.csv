@@ -1,11 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,scutellaria baicalensis georgii,s. baicalensis,baicalin,,,,,,,heracleum verticillatum_antimicrobial
-1,scutellaria baicalensis,scutellaria baicalensis georgii,thescutellaria baicalensis georgii,,,,,,,s. rigidum_anti-aggre-gatory
-2,heracleum l,scutellaria baicalensis calluscultures,umbelliferae,,,,,,,s. rigidum_anti-inflammatory
-3,heracleumverticillatum pancic,heracleum l,stara planina,,,,,,,s. rigidum_antibacterial
-4,h. spho-ndylium l,heracleumverticillatum pancic,staphylococcus aureus,,,,,,,s. rigidum_cytotoxic
-5,heracleum verticillatum,h. spho-ndylium l,s. epidermidis,,,,,,,seseli rigidum_andantioxidant
-6,h. verticillatum,h. verticillatum,micrococcus luteus,,,,,,,seseli rigidum_antimicrobial
+1,scutellaria baicalensis,scutellaria baicalensis georgii,thescutellaria baicalensis georgii,,,,,,,s. rigidum_anti-inflammatory
+2,heracleum l,scutellaria baicalensis calluscultures,umbelliferae,,,,,,,s. rigidum_anti-aggre-gatory
+3,heracleumverticillatum pancic,heracleum l,stara planina,,,,,,,s. rigidum_cytotoxic
+4,h. spho-ndylium l,heracleumverticillatum pancic,staphylococcus aureus,,,,,,,s. rigidum_antibacterial
+5,heracleum verticillatum,h. spho-ndylium l,s. epidermidis,,,,,,,seseli rigidum_antimicrobial
+6,h. verticillatum,h. verticillatum,micrococcus luteus,,,,,,,seseli rigidum_andantioxidant
 7,candida albicans,candida albicans,enterococcus faecalis,,,,,,,carduus_antioxidant
 8,heracleum orphanidis boiss,candida albicans 10259,bacillussubtilis,,,,,,,carduus acanthoides l_antioxidant
 9,s. rigidum,heracleum orphanidis boiss,pseudomonas aeruginosa,,,,,,,c. acicularisbertol_antioxidant

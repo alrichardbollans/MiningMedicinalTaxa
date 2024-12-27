@@ -1,5 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,lycium barbarum,lycium barbarum,anila,,,,lycium barbarum_dyslipidaemia,,,lycium barbarum_reduce blood sugar
-1,,,,,,,lycium barbarum_diabetes,,,lycium barbarum_lower blood pressure
-2,,,,,,,lycium barbarum_metabolic syndrome,,,lycium barbarum_hypoglycemic
-3,,,,,,,,,,lycium barbarum_lower blood pressure and blood sugar
+0,lycium barbarum,lycium barbarum,anila,,,,lycium barbarum_dyslipidaemia,,,lycium barbarum_lower blood pressure and blood sugar
+1,,,,,,,lycium barbarum_metabolic syndrome,,,lycium barbarum_lower blood pressure
+2,,,,,,,lycium barbarum_diabetes,,,lycium barbarum_hypoglycemic
+3,,,,,,,,,,lycium barbarum_reduce blood sugar

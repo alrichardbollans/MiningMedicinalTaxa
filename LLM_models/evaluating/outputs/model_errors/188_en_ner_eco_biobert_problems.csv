@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,prunus cerasifera,prunus cerasifera,armeniacae,,,,foeniculum vulgare_climacterium,,,foeniculum vulgare_facilitate birth
 1,prunus armeniaca,prunus armeniaca,amygdalin,,,,,,,foeniculum vulgare_stimulation of the lactic secretion
-2,prunus domestica,prunus domestica,lncap,,,,,,,foeniculum vulgare_estrogenic
-3,prunus ar-meniaca,prunus ar-meniaca,armeniacae semen,,,,,,,foeniculum vulgare_stimulation of menstruation
+2,prunus domestica,prunus domestica,lncap,,,,,,,foeniculum vulgare_stimulation of menstruation
+3,prunus ar-meniaca,prunus ar-meniaca,armeniacae semen,,,,,,,foeniculum vulgare_estrogenic
 4,prunus arme-niaca,prunus arme-niaca,mandelonitrile beta-glucuronide,,,,,,,
 5,prunus cera-sifera,prunus cera-sifera,apricot-kernel,,,,,,,
 6,prunus tomentosa,prunus,tomentosa thunb,,,,,,,

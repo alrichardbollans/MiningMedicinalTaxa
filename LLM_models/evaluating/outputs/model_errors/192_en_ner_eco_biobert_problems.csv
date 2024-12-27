@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,salvia,salvia species,ericace-ae,,,,arctostaphylos uva-ursi (l.) spreng_hydrops,,,arctostaphylos uva-ursi_antibacterial
 1,arctostaphylos uva-ursi,arctostaphylos uva-ursi (l.) spreng,bearberry,,,,arctostaphylos uva-ursi (l.) spreng_diabetes,,,arctostaphylos uva-ursi (l.) spreng_diuret-ic
-2,arctostaphylos uva-ursi (l.) spreng,arcto-staphylos uva-ursi,bear's ear,,,,arctostaphylos uva-ursi (l.) spreng_lithia-sis,,,arctostaphylos uva-ursi (l.) spreng_astringent
-3,a. uva-ursi,arctostaphylos uva-ursi,bearberries,,,,arctostaphylos uva-ursi (l.) spreng_gonorrhoea,,,arctostaphylos uva-ursi (l.) spreng_urinary tract antiseptic
+2,arctostaphylos uva-ursi (l.) spreng,arcto-staphylos uva-ursi,bear's ear,,,,arctostaphylos uva-ursi (l.) spreng_lithia-sis,,,arctostaphylos uva-ursi (l.) spreng_urinary tract antiseptic
+3,a. uva-ursi,arctostaphylos uva-ursi,bearberries,,,,arctostaphylos uva-ursi (l.) spreng_gonorrhoea,,,arctostaphylos uva-ursi (l.) spreng_astringent
 4,arcto-staphylos uva-ursi,a. uva-ursi,opsenica,,,,,,,
 5,arctostaphylos uva-ursi l. sprengel,a. uva ursi,strawberry tree,,,,,,,
 6,arctostaphlos uva-ursi l. sprengel,arctostaphylos uva-ursi l,ericaceae,,,,,,,

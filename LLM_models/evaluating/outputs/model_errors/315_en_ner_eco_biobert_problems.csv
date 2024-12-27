@@ -1,29 +1,29 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,phellodendron lavallei,phellodendron lavallei,berberine,commiphoraand boswellia,,,commiphora and boswellia_chronic diseases,,,berberis vulgaris l_antioxidant
 1,berberis aristata,berberis aristata,type 2diabetes mellitus,,,,commiphoraand boswellia_chronic diseases,,,berberiscroatica horvat_antioxidant
-2,berberis koreana,berberis koreana,raghavendra,,,,commiphora_cardiovascular diseases (cvds,,,commiphora_inhibit pro-inflammatory
-3,coptis teeta,coptis teeta,berberineon,,,,commiphora_tumors,,,commiphora_anti-inflammatory
-4,berberis vulgaris l,berberis vulgaris l,echeverria,,,,commiphora_edema,,,commiphora_antiarthritic
-5,berberiscroatica horvat,berberiscroatica horvat,guggul,,,,commiphora_intestinal worms,,,boswellia_inhibit pro-inflammatory
-6,boswellia,boswellia,devivasha bordoloi,,,,commiphora_diabetes,,,boswellia_anti-inflammatory
-7,boswellia serata,commiphora,choudhary harsha,,,,commiphora_inflammatory bowel disease (ibd,,,boswellia_antiarthritic
-8,boswellia serrata,boswellia serata,ganesan padmavathi,,,,commiphora_liver dysfunction,,,boswellia serata_analgesic
-9,boswellia carterii,commiphora mukul,google,,,,commiphora_arthritis,,,commiphora wightii_anti-inflammatory
-10,boswellia sacra,commiphoragileadensis,guggulsterone,,,,commiphora_leucoderma,,,commiphora mukul_anti-inflammatory
-11,boswellia dalzielii,boswellia serrata,boswellic,,,,commiphora_sinus,,,commiphoragileadensis_anti-inflammatory
-12,boswellia frerean,boswellia carterii,ayurveda,,,,commiphora_malignantsores,,,boswellia serrata_anti-inflammatory
-13,commiphora and boswellia,boswellia sacra,unani,,,,commiphora_ulcers,,,boswellia carterii_anti-inflammatory
-14,commiphora,boswelliaovalifoliolata,siddha,,,,commiphora_obesity,,,boswellia sacra_anti-inflammatory
-15,commiphora wightii,boswellia dalzielii,"is""guggul",,,,boswellia_cardiovascular diseases (cvds,,,boswelliaovalifoliolata_anti-inflammatory
-16,commiphora mukul,boswellia frerean,includecommiphora wightii (guggul,,,,boswellia_tumors,,,boswellia dalzielii_anti-inflammatory
-17,c. mukul,c. mukul,salai guggul,,,,boswellia_edema,,,boswellia frerean_anti-inflammatory
-18,commiphoragileadensis,,andgum guggul,,,,boswellia_intestinal worms,,,
-19,boswelliaovalifoliolata,,salai guggul.thurifera,,,,boswellia_diabetes,,,
-20,,,andboswellia,,,,boswellia_inflammatory bowel disease (ibd,,,
-21,,,guggul tree,,,,boswellia_liver dysfunction,,,
-22,,,burseraceae,,,,boswellia_arthritis,,,
-23,,,guggulipid,,,,boswellia_leucoderma,,,
-24,,,diterpenoids,,,,boswellia_sinus,,,
-25,,,triterpenoids,,,,boswellia_malignantsores,,,
-26,,,boswellia.and,,,,boswellia_ulcers,,,
-27,,,,,,,boswellia_obesity,,,
+2,berberis koreana,berberis koreana,raghavendra,,,,commiphora_sinus,,,commiphora_anti-inflammatory
+3,coptis teeta,coptis teeta,berberineon,,,,commiphora_inflammatory bowel disease (ibd,,,commiphora_inhibit pro-inflammatory
+4,berberis vulgaris l,berberis vulgaris l,echeverria,,,,commiphora_ulcers,,,commiphora_antiarthritic
+5,berberiscroatica horvat,berberiscroatica horvat,guggul,,,,commiphora_arthritis,,,boswellia_anti-inflammatory
+6,boswellia,boswellia,devivasha bordoloi,,,,commiphora_leucoderma,,,boswellia_inhibit pro-inflammatory
+7,boswellia serata,commiphora,choudhary harsha,,,,commiphora_edema,,,boswellia_antiarthritic
+8,boswellia serrata,boswellia serata,ganesan padmavathi,,,,commiphora_intestinal worms,,,boswellia serata_analgesic
+9,boswellia carterii,commiphora mukul,google,,,,commiphora_obesity,,,commiphora wightii_anti-inflammatory
+10,boswellia sacra,commiphoragileadensis,guggulsterone,,,,commiphora_tumors,,,commiphora mukul_anti-inflammatory
+11,boswellia dalzielii,boswellia serrata,boswellic,,,,commiphora_diabetes,,,commiphoragileadensis_anti-inflammatory
+12,boswellia frerean,boswellia carterii,ayurveda,,,,commiphora_liver dysfunction,,,boswellia serrata_anti-inflammatory
+13,commiphora and boswellia,boswellia sacra,unani,,,,commiphora_cardiovascular diseases (cvds,,,boswellia carterii_anti-inflammatory
+14,commiphora,boswelliaovalifoliolata,siddha,,,,commiphora_malignantsores,,,boswellia sacra_anti-inflammatory
+15,commiphora wightii,boswellia dalzielii,"is""guggul",,,,boswellia_sinus,,,boswelliaovalifoliolata_anti-inflammatory
+16,commiphora mukul,boswellia frerean,includecommiphora wightii (guggul,,,,boswellia_inflammatory bowel disease (ibd,,,boswellia dalzielii_anti-inflammatory
+17,c. mukul,c. mukul,salai guggul,,,,boswellia_ulcers,,,boswellia frerean_anti-inflammatory
+18,commiphoragileadensis,,andgum guggul,,,,boswellia_arthritis,,,
+19,boswelliaovalifoliolata,,salai guggul.thurifera,,,,boswellia_leucoderma,,,
+20,,,andboswellia,,,,boswellia_edema,,,
+21,,,guggul tree,,,,boswellia_intestinal worms,,,
+22,,,burseraceae,,,,boswellia_obesity,,,
+23,,,guggulipid,,,,boswellia_tumors,,,
+24,,,diterpenoids,,,,boswellia_diabetes,,,
+25,,,triterpenoids,,,,boswellia_liver dysfunction,,,
+26,,,boswellia.and,,,,boswellia_cardiovascular diseases (cvds,,,
+27,,,,,,,boswellia_malignantsores,,,

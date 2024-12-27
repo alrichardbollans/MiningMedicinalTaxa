@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,artemisia annua,artemisia annua,ginkgo,camptothecaacuminata,,,,,,artemisia annua_antimalarial
-1,erythroxylum coca,erythroxylum coca,vincristinecatharanthus roseus,t. hacata,,,,,,camptothecaacuminata_antineoplastic
+1,erythroxylum coca,erythroxylum coca,,t. hacata,,,,,,camptothecaacuminata_antineoplastic
 2,cinchona spp,cinchona spp,,catharanthus roseus,,,,,,cinchona spp_antimalarial
 3,rauwolfia serpentina,rauwolfia serpentina,,papaver somniferum,,,,,,rauwolfia serpentina_antihypertensive
 4,cassia angustifolia,cassia angustifolia,,digitalis spp,,,,,,cassia angustifolia_laxative
@@ -8,6 +8,6 @@
 6,,,,,,,,,,t. hacata_antineoplastic
 7,,,,,,,,,,catharanthus roseus_antineoplastic
 8,,,,,,,,,,erythroxylum coca_anasthetic
-9,,,,,,,,,,papaver somniferum_analgesic
-10,,,,,,,,,,papaver somniferum_antitussive
+9,,,,,,,,,,papaver somniferum_antitussive
+10,,,,,,,,,,papaver somniferum_analgesic
 11,,,,,,,,,,digitalis spp_cardiotonic

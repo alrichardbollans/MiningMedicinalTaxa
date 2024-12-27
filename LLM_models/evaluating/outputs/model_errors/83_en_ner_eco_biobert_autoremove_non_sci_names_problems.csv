@@ -1,5 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,bixa orellana,bixa orellana,ofbeta vulgaris var. altissima,cassia,,,,,,
+0,bixa orellana,bixa orellana,,cassia,,,,,,
 1,pimenta dioica,pimenta dioica,,cinnamon,,,,,,
 2,angelica,angelica archangelica,,,,,,,,
 3,angelica archangelica,galipea officinalis,,,,,,,,

@@ -1,32 +1,32 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,betula pendu-la l,betula pendu-la l,plant species,rosmarinus offi-cinalis l,,,thoningias anguinea_liver injuries,,,melissa officinalis l_antibac-terial
-1,tusilago farfara l,tusilago farfara l,activityeljona chilku1,plantago ma-jor l,,,,,,melissa officinalis l_dpph radical scavenging activity
-2,plantago major l,plantago major l,blagica jovanova3,,,,,,,melissa officinalis l_antibacterial
+0,betula pendu-la l,betula pendu-la l,plant species,rosmarinus offi-cinalis l,,,thoningias anguinea_liver injuries,,,melissa officinalis l_dpph radical scavenging activity
+1,tusilago farfara l,tusilago farfara l,activityeljona chilku1,plantago ma-jor l,,,,,,melissa officinalis l_antibacterial
+2,plantago major l,plantago major l,blagica jovanova3,,,,,,,melissa officinalis l_antibac-terial
 3,urtica dioi-ca l,urtica dioi-ca l,melissa officinalis l.materials,,,,,,,melissa officinalis l_antioxidant
 4,rosmarinus officinalis l,rosmarinus officinalis l,melissa officinalis l.(181.98,,,,,,,rosmarinus offi-cinalis l_antioxidant
 5,betula pendula l,betula pendula l,farfara l.(169.59,,,,,,,tusilago farfara l_dpph radical scavenging activity
-6,urtica dioica l,urtica dioica l,pendula l,,,,,,,tusilago farfara l_antibac-terial
-7,urtica dioica,rosmarinus officina-lis l,ma-jor l,,,,,,,tusilago farfara l_antioxidant
+6,urtica dioica l,urtica dioica l,pendula l,,,,,,,tusilago farfara l_antioxidant
+7,urtica dioica,rosmarinus officina-lis l,ma-jor l,,,,,,,tusilago farfara l_antibacteria
 8,rosmarinus officina-lis l,melissa officinalis l,dioica l,,,,,,,tusilago farfara l_antibacterial
-9,melissa officinalis l,plan-tago major l,offi-cinalis l,,,,,,,tusilago farfara l_antibacteria
+9,melissa officinalis l,plan-tago major l,offi-cinalis l,,,,,,,tusilago farfara l_antibac-terial
 10,plan-tago major l,gentiana kurrooroyle,farfara l,,,,,,,betula pendula l_antimicrobial
 11,gentiana kurrooroyle,plectranthus amboinicus,pseudomonas aeruginosa atcc 9027>entero-coccus faecalis atcc 19433>escherichia,,,,,,,betula pendula l_anti-oxidant
 12,plectranthus amboinicus,thoningias anguinea,coli atcc 25922,,,,,,,betula pendula l_antioxidant
-13,thoningias anguinea,datura metel l,escherichia coli atcc 8739,,,,,,,plantago major l_antimicrobial
-14,datura metel l,machilus odoratissima,klebsiella pneu-moniae atcc 700603>staphylococcus,,,,,,,plantago major l_antibac-terial
+13,thoningias anguinea,datura metel l,escherichia coli atcc 8739,,,,,,,plantago major l_antibac-terial
+14,datura metel l,machilus odoratissima,klebsiella pneu-moniae atcc 700603>staphylococcus,,,,,,,plantago major l_antimicrobial
 15,machilus odoratissima,taraxacum officinale,atcc 25923.melissa,,,,,,,plantago major l_antioxidant
 16,taraxacum officinale,matricaria recutita l,officinalis l,,,,,,,urtica dioica l_dpph radical scaveng-ing activity
 17,t. officinale,robinia pseu-doacacia l,klebsiella pneumoniae atcc 700603,,,,,,,urtica dioica l_antimicrobial
 18,matricaria recutita l,urtica dioica,entero-coccus faecalis atcc 19433,,,,,,,urtica dioica l_antioxidant
-19,robinia pseu-doacacia l,t. officinale,pseudomonus aerugino-sa atcc 9027,,,,,,,rosmarinus officinalis l_antibac-terial
-20,lycopersicum esculentum,lycopersicum esculentum,pseudomonas aeruginosa atcc 9027,,,,,,,rosmarinus officinalis l_dpph radical scavenging activity
-21,hibiscus rosa sinensis,hibiscus rosa sinensis,klebsiella pneumonia atcc 700603,,,,,,,rosmarinus officinalis l_antibacterial
-22,phaseolus vulgaris l,phaseolus vulgaris l,indian borage,,,,,,,rosmarinus officinalis l_antioxidant
+19,robinia pseu-doacacia l,t. officinale,pseudomonus aerugino-sa atcc 9027,,,,,,,rosmarinus officinalis l_dpph radical scavenging activity
+20,lycopersicum esculentum,lycopersicum esculentum,pseudomonas aeruginosa atcc 9027,,,,,,,rosmarinus officinalis l_antibac-terial
+21,hibiscus rosa sinensis,hibiscus rosa sinensis,klebsiella pneumonia atcc 700603,,,,,,,rosmarinus officinalis l_antioxidant
+22,phaseolus vulgaris l,phaseolus vulgaris l,indian borage,,,,,,,rosmarinus officinalis l_antibacterial
 23,triticum aestivum l,triticum aestivum l,acta biologiae,,,,,,,plan-tago major l_antioxidant
 24,,,tatjana kadifkova,,,,,,,gentiana kurrooroyle_antibacterial
 25,,,astera-ceae,,,,,,,gentiana kurrooroyle_antioxidant
-26,,,asteraceae,,,,,,,plectranthus amboinicus_antibacterial
-27,,,fabaceae,,,,,,,plectranthus amboinicus_antioxidant
+26,,,asteraceae,,,,,,,plectranthus amboinicus_antioxidant
+27,,,fabaceae,,,,,,,plectranthus amboinicus_antibacterial
 28,,,urticaceae,,,,,,,thoningias anguinea_free -radical scavenging
 29,,,okra seedlings,,,,,,,datura metel l_antimicrobial
 30,,,tomato,,,,,,,datura metel l_antioxidant

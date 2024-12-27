@@ -1,14 +1,14 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,rosa,rosa genus,roses,,,,rosa_colds,,,ocimum gratissimum_anti-inflammatory
-1,ocimum gratissimum,ocimum gratissimum,lamiaceae,,,,rosa_diarrhea,,,ocimum gratissimum l_anti-nociceptive
-2,ocimum gratissimum l,ocimum gratissimum l,tchiayo,,,,rosa_stomachache,,,onosma echioides_wound healing
-3,alkanna tinctoria,alkanna tinctoria,og,,,,rosa_dry cough,,,onosma echioides_upregulates the elastin and collagen gene in human dermal fibroblast
-4,alkanna tinctoria tausch,alkanna tinctoria tausch,alkannins,,,,rosa_diuretic,,,onosma echioides_upregulating vegf gene
+0,rosa,rosa genus,roses,,,,rosa_diarrhea,,,ocimum gratissimum_anti-inflammatory
+1,ocimum gratissimum,ocimum gratissimum,lamiaceae,,,,rosa_colds,,,ocimum gratissimum l_anti-nociceptive
+2,ocimum gratissimum l,ocimum gratissimum l,tchiayo,,,,rosa_dry cough,,,onosma echioides_upregulating vegf gene
+3,alkanna tinctoria,alkanna tinctoria,og,,,,rosa_diuretic,,,onosma echioides_wound healing
+4,alkanna tinctoria tausch,alkanna tinctoria tausch,alkannins,,,,rosa_stomachache,,,onosma echioides_upregulates the elastin and collagen gene in human dermal fibroblast
 5,onosma echioides,onosma echioides,shikonins,,,,ocimum gratissimum_inflammatory conditions,,,o.echioides_upregulation of collagen and elastin genes
 6,o. echioides,o.echioides,k. tsioptsias1,,,,onosma echioides_wounds,,,o.echioides_wound healing
 7,o.echioides,o. echioides,boraginaceous,,,,onosma echioides_burn wound in rats,,,o. echioides_wound healing
-8,ganoderma lucidum,ganoderma lucidum (fr.) karst,dioscorides,,,,,,,ganoderma lucidum_anticancer
-9,ganoderma lucidum (fr.) karst,greeceganoderma lucidum,tsafantakis,,,,,,,ganoderma lucidum_hepatoprotective
+8,ganoderma lucidum,ganoderma lucidum (fr.) karst,dioscorides,,,,,,,ganoderma lucidum_hepatoprotective
+9,ganoderma lucidum (fr.) karst,greeceganoderma lucidum,tsafantakis,,,,,,,ganoderma lucidum_anticancer
 10,g. lucidum,g. lucidum,n. aligiannis,,,,,,,ganoderma lucidum_immunomodulatory
 11,,,boraginaceae,,,,,,,
 12,,,saraswathi,,,,,,,

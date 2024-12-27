@@ -1,9 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,candida albicans,candida albicans,staphylococcus aureus atcc 29213,melaleuca alternifolia,,,,,,pinus caribaea_antibacter-ial
-1,pinus caribaea,pinus caribaea,proteus mirabilis,candidia sp,,,,,,
-2,pinus densiflora,pinus densiflora s. and z,staphylococcus aureus,,,,,,,
-3,salvia fruticosa,salvia fruticosa,staphylococ-cus epidermidis,,,,,,,
-4,salvia sp,salvia sp,particularmelaleuca alternifolia,,,,,,,
-5,arabidopsis,arabidopsis plantsoverexpressing,s. cere-visiae,,,,,,,
-6,,,saccharomyces cerevisiae,,,,,,,
-7,,,"renata slaveska raichki2,vesna",,,,,,,
+0,candida albicans,candida albicans,s. cere-visiae,melaleuca alternifolia,,,,,,pinus caribaea_antibacter-ial
+1,pinus caribaea,pinus caribaea,saccharomyces cerevisiae,candidia sp,,,,,,
+2,pinus densiflora,pinus densiflora s. and z,"renata slaveska raichki2,vesna",,,,,,,
+3,salvia fruticosa,salvia fruticosa,,,,,,,,
+4,salvia sp,salvia sp,,,,,,,,
+5,arabidopsis,arabidopsis plantsoverexpressing,,,,,,,,

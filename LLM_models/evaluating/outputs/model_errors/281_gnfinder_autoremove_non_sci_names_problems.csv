@@ -1,13 +1,13 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,boerhaavia diffusa,boerhaavia diffusa,"bryonia dioica,solanum dulcamara",boerhaaviadiffusa,,,boerhaavia diffusa_liverdisorders,,,boerhaavia diffusa_laxative
-1,b. diffusa,b. diffusa,,arthemisia absinthium l,,,boerhaavia diffusa_kidney problems,,,b. diffusa_spas-molytic
-2,boerhaavia diffusa l,aconitum,,solanum dulcamara,,,boerhaavia diffusa_stones,,,b. diffusa_antioxidant
-3,aconitum sp,strychnos nux-vomica,,conium,,,boerhaavia diffusa_anemia,,,boerhaaviadiffusa_spasmolytic
-4,strychnos nux-vomica,colchicum autumnale,,asarum europaeum,,,boerhaavia diffusa_cystitis,,,
-5,colchicum autumnale,datura stramonium,,pulsatila vulgarismill,,,boerhaavia diffusa_nephritis,,,
-6,datura stramonium,claviceps purpurea,,,,,boerhaavia diffusa_jaundice,,,
-7,claviceps purpurea,veratrum album,,,,,boerhaavia diffusa_menstrualsyndrome,,,
-8,veratrum album,bryonia dioica,,,,,boerhaavia diffusa_gastro-intestinal,,,
-9,bryonia dioica,bryonia,,,,,boerhaavia diffusa_hepatitis,,,
-10,,,,,,,b. diffusa_gastrointestinal disorders,,,
-11,,,,,,,b. diffusa_gastrointestinal diseases,,,
+0,boerhaavia diffusa,boerhaavia diffusa,"bryonia dioica,solanum dulcamara",boerhaaviadiffusa,,,boerhaavia diffusa_jaundice,,,boerhaavia diffusa_laxative
+1,b. diffusa,b. diffusa,,arthemisia absinthium l,,,boerhaavia diffusa_cystitis,,,b. diffusa_spas-molytic
+2,boerhaavia diffusa l,aconitum,,solanum dulcamara,,,boerhaavia diffusa_kidney problems,,,b. diffusa_antioxidant
+3,aconitum sp,strychnos nux-vomica,,conium,,,boerhaavia diffusa_gastro-intestinal,,,boerhaaviadiffusa_spasmolytic
+4,strychnos nux-vomica,colchicum autumnale,,asarum europaeum,,,boerhaavia diffusa_liverdisorders,,,
+5,colchicum autumnale,datura stramonium,,pulsatila vulgarismill,,,boerhaavia diffusa_anemia,,,
+6,datura stramonium,claviceps purpurea,,,,,boerhaavia diffusa_stones,,,
+7,claviceps purpurea,veratrum album,,,,,boerhaavia diffusa_hepatitis,,,
+8,veratrum album,bryonia dioica,,,,,boerhaavia diffusa_menstrualsyndrome,,,
+9,bryonia dioica,bryonia,,,,,boerhaavia diffusa_nephritis,,,
+10,,,,,,,b. diffusa_gastrointestinal diseases,,,
+11,,,,,,,b. diffusa_gastrointestinal disorders,,,

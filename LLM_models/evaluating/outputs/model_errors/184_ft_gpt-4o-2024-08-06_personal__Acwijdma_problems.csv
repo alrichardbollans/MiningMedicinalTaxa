@@ -7,12 +7,12 @@
 5,melissa officinalis l,melissa officinalis l,,datura metel l,,,,plantago major l_antioxidant,,urtica dioica l_dpph radical scaveng-ing activity
 6,betula pendula l,betula pendula l,,machilus odoratissima,,,,urtica dioi-ca l_antibacterial,,rosmarinus officinalis l_dpph radical scavenging activity
 7,urtica dioica l,urtica dioica l,,rosmarinus officina-lis l,,,,urtica dioi-ca l_antioxidant,,plan-tago major l_antioxidant
-8,urtica dioica,taraxacum officinale,,plantago ma-jor l,,,,rosmarinus officinalis l_antibacterial,,gentiana kurrooroyle_antioxidant
-9,taraxacum officinale,matricaria recutita l,,lycopersicum esculentum,,,,rosmarinus officinalis l_antioxidant,,gentiana kurrooroyle_antibacterial
-10,t. officinale,robinia pseu-doacacia l,,hibiscus rosa sinensis,,,,melissa officinalis l_antibacterial,,plectranthus amboinicus_antioxidant
-11,matricaria recutita l,phaseolus vulgaris l,,,,,,melissa officinalis l_antioxidant,,plectranthus amboinicus_antibacterial
+8,urtica dioica,taraxacum officinale,,plantago ma-jor l,,,,rosmarinus officinalis l_antibacterial,,gentiana kurrooroyle_antibacterial
+9,taraxacum officinale,matricaria recutita l,,lycopersicum esculentum,,,,rosmarinus officinalis l_antioxidant,,gentiana kurrooroyle_antioxidant
+10,t. officinale,robinia pseu-doacacia l,,hibiscus rosa sinensis,,,,melissa officinalis l_antibacterial,,plectranthus amboinicus_antibacterial
+11,matricaria recutita l,phaseolus vulgaris l,,,,,,melissa officinalis l_antioxidant,,plectranthus amboinicus_antioxidant
 12,robinia pseu-doacacia l,triticum aestivum l,,,,,,betula pendula l_antimicrobial,,thoningias anguinea_free -radical scavenging
-13,phaseolus vulgaris l,,,,,,,betula pendula l_antioxidant,,datura metel l_antioxidant
-14,triticum aestivum l,,,,,,,urtica dioica l_antimicrobial,,datura metel l_antimicrobial
-15,,,,,,,,urtica dioica l_antioxidant,,machilus odoratissima_antioxidant
-16,,,,,,,,,,machilus odoratissima_antibacterial
+13,phaseolus vulgaris l,,,,,,,betula pendula l_antioxidant,,datura metel l_antimicrobial
+14,triticum aestivum l,,,,,,,urtica dioica l_antimicrobial,,datura metel l_antioxidant
+15,,,,,,,,urtica dioica l_antioxidant,,machilus odoratissima_antibacterial
+16,,,,,,,,,,machilus odoratissima_antioxidant

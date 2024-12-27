@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,sophora secundiflora,sophora secundiflora,peyotl cactus,,,,datura_asthma,,,datura_aphrodisiac
-1,stropharia,stropharia,ingestedpsilocybe mexicana,,,,datura_wounds,,,datura_anesthetic
-2,conocybe,conocybe,belladonna,,,,datura_bruises,,,d. inoxia_anaesthetic
-3,panaeolus,panaeolus,sacred datura,,,,datura_inflammation,,,d. meteloides_anaesthetic
+0,sophora secundiflora,sophora secundiflora,peyotl cactus,,,,datura_inflammation,,,datura_anesthetic
+1,stropharia,stropharia,belladonna,,,,datura_wounds,,,datura_aphrodisiac
+2,conocybe,conocybe,,,,,datura_asthma,,,d. inoxia_anaesthetic
+3,panaeolus,panaeolus,,,,,datura_bruises,,,d. meteloides_anaesthetic
 4,psilocybe mexicana,psilocybe mexicana,,,,,d. inoxia_wounds,,,
 5,psilocybe,datura,,,,,d. inoxia_bruises,,,
 6,datura,datura stramonium,,,,,d. meteloides_wounds,,,

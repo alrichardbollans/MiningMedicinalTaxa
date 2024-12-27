@@ -1,16 +1,16 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,notopterygium incisum,notopterygium incisum,human macrophages,,,,ononis natrixsubsp. hispanica_staphylococcus aureus,,,ononis natrixsubsp. hispanica_antioxidant
-1,o. natrix subsp. hispanica,onononis natrix subsp,cysteinecathepsins,,,,ononis natrixsubsp. hispanica_staphylococcus epidermidis,,,ononis natrixsubsp. hispanica_antimicrobial
-2,ononis,ononis natrix subsp.hispanicaserife,apiaceae,,,,ononis_urinaryproblems,,,ononis natrixsubsp. hispanica_dna protection
-3,ononis natrixsubsp. hispanica,ononis,carrot,,,,ononis_gout,,,ononis natrixsubsp. hispanica_cytotoxic abilities
-4,ononis natrix subsp. hispanica,ononis natrixsubsp,celery,,,,ononis_diuretic,,,ononis natrixsubsp. hispanica_enzyme inhibitory
-5,ononis natrix subsp.hispanica,o. natrix subsp,qianghuo,,,,ononis_skin disorders,,,ononis natrixsubsp. hispanica_antibacterial
+1,o. natrix subsp. hispanica,onononis natrix subsp,cysteinecathepsins,,,,ononis natrixsubsp. hispanica_staphylococcus epidermidis,,,ononis natrixsubsp. hispanica_cytotoxic abilities
+2,ononis,ononis natrix subsp.hispanicaserife,apiaceae,,,,ononis_gout,,,ononis natrixsubsp. hispanica_dna protection
+3,ononis natrixsubsp. hispanica,ononis,carrot,,,,ononis_skin disorders,,,ononis natrixsubsp. hispanica_enzyme inhibitory
+4,ononis natrix subsp. hispanica,ononis natrixsubsp,celery,,,,ononis_diuretic,,,ononis natrixsubsp. hispanica_antibacterial
+5,ononis natrix subsp.hispanica,o. natrix subsp,qianghuo,,,,ononis_urinaryproblems,,,ononis natrixsubsp. hispanica_antimicrobial
 6,o. natrix subsp.hispanica,ononis natrix subsp,yerlikaya s,,,,,,,o. natrix subsp. hispanica_cytotoxic
 7,,o. natrix subsp.hispanica,yerlikaya,,,,,,,ononis natrix subsp. hispanica_anti-mutagenic
-8,,,gokhan zengin,,,,,,,ononis_analgesic
-9,,,adriano mollica,,,,,,,ononis_cytotoxic
-10,,,apigenin,,,,,,,ononis_antimicrobial
-11,,,staphylococcus aureus,,,,,,,ononis_antioxidant
+8,,,gokhan zengin,,,,,,,ononis_cytotoxic
+9,,,adriano mollica,,,,,,,ononis_antimicrobial
+10,,,apigenin,,,,,,,ononis_antioxidant
+11,,,staphylococcus aureus,,,,,,,ononis_analgesic
 12,,,staphylococcus epidermidis,,,,,,,
 13,,,plant,,,,,,,
 14,,,fabaceae,,,,,,,

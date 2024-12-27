@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,aspergillus carbonarius,aspergillus carbonarius,ochratoxin a,,,,polygonum aviculare_human breast can-cer,,,polygonum aviculare_anticancer
-1,rhamnus fran-gula,rhamnus fran-gula,maaroufi,,,,teucrium chamaedrys_human co-lon carcinoma,,,polygonum aviculare_cytotoxicity
-2,quercus pedunculata,quercus pedunculata,sultanas,,,,,,,polygonum aviculare_cytotoxic
+1,rhamnus fran-gula,rhamnus fran-gula,maaroufi,,,,teucrium chamaedrys_human co-lon carcinoma,,,polygonum aviculare_cytotoxic
+2,quercus pedunculata,quercus pedunculata,sultanas,,,,,,,polygonum aviculare_cytotoxicity
 3,capsella bursa-pastoris,capsella bursa-pastoris,galega officinalis).these,,,,,,,teucrium chamaedrys_cytotoxic
 4,epilobium parviflo-rum,epilobium parviflo-rum,artemia salina nauplii,,,,,,,teucrium_anticancer
 5,hypericum perforatum,hypericum perforatum,nauplii,,,,,,,

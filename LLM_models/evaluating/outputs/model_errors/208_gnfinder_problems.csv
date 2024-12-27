@@ -1,15 +1,15 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,salvia officinalis,salvia officinalis,lamiaceae,p. peu-ce,,,,,,salvia l_antimicrobial
 1,salvia,rosmarinus offici-nalis,staphylococcus aureus,ab-ies alba mill,,,,,,stachys sylvatica l_antioxidant
-2,rosmarinus offici-nalis,salvia,staphylococcus epidermidis,th. to-sevii velen,,,,,,p. mugo_antioxidant
-3,salvia l,juniperus communis,clos-tridium sporogenes,a.millefolium l,,,,,,p. mugo_antimi-crobial
+2,rosmarinus offici-nalis,salvia,staphylococcus epidermidis,th. to-sevii velen,,,,,,p. mugo_antimi-crobial
+3,salvia l,juniperus communis,clos-tridium sporogenes,a.millefolium l,,,,,,p. mugo_antioxidant
 4,j. communis,j. communis subsp. alpina,escherichia coli,a. alba turra,,,,,,p. peu-ce_antioxidant
-5,juniperus communis l,j. oxycedrus,klebsiella pneumoniae,h. perfora-tum,,,,,,p. heldreichii_antioxidant
-6,j. communis subsp. alpina (suter) celak,a. borisii-regis,listeria monocytogenes,a. alba,,,,,,p. heldreichii_antimi-crobial
-7,j. oxycedrus l,pinus mugo,salmonel-la enteritidis,,,,,,,p. sylvestris_antioxidant
-8,j. oxycedrus,p. peuce,s. epidermidis,,,,,,,p. sylvestris_antimi-crobial
-9,juniperus oxycedrus l,p. heldreichii,l. monocytogenes,,,,,,,p. nigra_antioxidant
-10,a. borisii-regis mattf,p. sylvestris,e. coli,,,,,,,p. nigra_antimi-crobial
+5,juniperus communis l,j. oxycedrus,klebsiella pneumoniae,h. perfora-tum,,,,,,p. heldreichii_antimi-crobial
+6,j. communis subsp. alpina (suter) celak,a. borisii-regis,listeria monocytogenes,a. alba,,,,,,p. heldreichii_antioxidant
+7,j. oxycedrus l,pinus mugo,salmonel-la enteritidis,,,,,,,p. sylvestris_antimi-crobial
+8,j. oxycedrus,p. peuce,s. epidermidis,,,,,,,p. sylvestris_antioxidant
+9,juniperus oxycedrus l,p. heldreichii,l. monocytogenes,,,,,,,p. nigra_antimi-crobial
+10,a. borisii-regis mattf,p. sylvestris,e. coli,,,,,,,p. nigra_antioxidant
 11,p. mugo,p. nigra,oils,,,,,,,j. communis_antimi-crobial
 12,pinus mugo turra,picea abies,cupressaceae,,,,,,,p. peuce_antimi-crobial
 13,pinus mugo,betonica officinalis,pinaceae,,,,,,,t.s longicaulis_antimi-crobial

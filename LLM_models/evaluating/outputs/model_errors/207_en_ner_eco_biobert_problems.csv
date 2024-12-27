@@ -1,19 +1,19 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,cannabis,cannabis,nebojsa pavlovic1,,,,cannabis_epi-lepsy,,,cannabis_euphoria
-1,can-nabis,can-nabis,maja danic2,,,,cannabis_nausea,,,cannabis_decreased anxiety
-2,phaseolus vulgaris l,phaseolus vulgaris l,ganja,,,,cannabis_cancer,,,cannabis_relaxation
-3,,,pot,,,,cannabis_vomiting,,,cannabis_in-toxication
-4,,,grass,,,,cannabis_glaucoma,,,cannabis_analgesics
-5,,,hemp,,,,cannabis_chronic pain,,,phaseolus vulgaris l_reducing the ldl cholesterol and systolic blood pressure
-6,,,dagga,,,,cannabis_alzheimer's disease,,,phaseolus vulgaris l_antioxidants
-7,,,kiff,,,,cannabis_aids,,,phaseolus vulgaris l_reduce the risk of colon cancer
-8,,,weed,,,,cannabis_multiple sclerosis,,,
+0,cannabis,cannabis,nebojsa pavlovic1,,,,cannabis_chronic pain,,,cannabis_euphoria
+1,can-nabis,can-nabis,maja danic2,,,,cannabis_multiple sclerosis,,,cannabis_in-toxication
+2,phaseolus vulgaris l,phaseolus vulgaris l,ganja,,,,cannabis_epi-lepsy,,,cannabis_decreased anxiety
+3,,,pot,,,,cannabis_chronic diseases,,,cannabis_relaxation
+4,,,grass,,,,cannabis_cancer,,,cannabis_analgesics
+5,,,hemp,,,,cannabis_alzheimer's disease,,,phaseolus vulgaris l_reducing the ldl cholesterol and systolic blood pressure
+6,,,dagga,,,,cannabis_glaucoma,,,phaseolus vulgaris l_antioxidants
+7,,,kiff,,,,cannabis_vomiting,,,phaseolus vulgaris l_reduce the risk of colon cancer
+8,,,weed,,,,cannabis_nausea,,,
 9,,,hash,,,,cannabis_hypertension,,,
-10,,,cannabinoids,,,,cannabis_chronic diseases,,,
-11,,,multiple sclerosis,,,,phaseolus vulgaris l_metabolic syndrome,,,
-12,,,tetrahydrocannabinol,,,,phaseolus vulgaris l_overweight,,,
-13,,,mar-ijuana,,,,phaseolus vulgaris l_diabetics,,,
-14,,,marujuana,,,,phaseolus vulgaris l_heart disease,,,
-15,,,marijuana,,,,phaseolus vulgaris l_obesity,,,
+10,,,cannabinoids,,,,cannabis_aids,,,
+11,,,multiple sclerosis,,,,phaseolus vulgaris l_diabetics,,,
+12,,,tetrahydrocannabinol,,,,phaseolus vulgaris l_obesity,,,
+13,,,mar-ijuana,,,,phaseolus vulgaris l_heart disease,,,
+14,,,marujuana,,,,phaseolus vulgaris l_overweight,,,
+15,,,marijuana,,,,phaseolus vulgaris l_metabolic syndrome,,,
 16,,,cooked bean,,,,,,,
 17,,,bean,,,,,,,

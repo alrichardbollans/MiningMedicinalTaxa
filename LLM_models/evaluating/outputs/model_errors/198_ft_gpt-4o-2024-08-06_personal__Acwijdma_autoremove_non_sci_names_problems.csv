@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,zizyphus lotus l,zizyphus lotus l,,candida albicans,,,,zizyphus lotus l_antidiabetic,pinus nigra arnold_emmenagogue,zizyphus lotus l_anti-helicobacter pylori
-1,pinus nigra,pinus nigra arnold,,pinus l,,,,zizyphus lotus l_antioxidant,pinus nigra arnold_rubefacient,zizyphus lotus l_gastro-protective
+0,zizyphus lotus l,zizyphus lotus l,,candida albicans,,,,zizyphus lotus l_antidiabetic,pinus nigra arnold_emmenagogue,zizyphus lotus l_gastro-protective
+1,pinus nigra,pinus nigra arnold,,pinus l,,,,zizyphus lotus l_antioxidant,pinus nigra arnold_rubefacient,zizyphus lotus l_anti-helicobacter pylori
 2,pinus nigra arnold,pinus nigra,,,,,,pinus nigra arnold_antimicrobi-al,pinus nigra arnold_antifungal,
 3,pinus,pinus peuce,,,,,,pinus nigra_antimicrobial,pinus nigra arnold_antioxidant,
 4,pinus nigra arn,juniperus communis l,,,,,,pinus peuce_antimicrobial,pinus nigra arnold_carminative,

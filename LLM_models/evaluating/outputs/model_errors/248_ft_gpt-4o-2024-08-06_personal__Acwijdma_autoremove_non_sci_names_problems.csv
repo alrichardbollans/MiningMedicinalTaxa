@@ -1,23 +1,21 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,corydalis hendersonii hemsl,corydalis hendersonii hemsl,,citrullus colocynthis l,corydalis hendersonii hemsl_acute myocardial ischemia,,citrullus colocynthis l_diabetic rats,corydalis hendersonii hemsl_anti-inflammatory,phytosia crocifolia (boiss. & heldr.) kamari & greuter_anti-inflammatory,c. colocynthis_hypoglycemic
-1,senecio candicans dc,senecio candicans dc,,citrullus colocynthis,corydalis hendersonii hemsl_vasculitis,,citrullus colocynthis l_peripheral neuropathy,corydalis hendersonii hemsl_lowering blood pressure,phytosia crocifolia (boiss. & heldr.) kamari & greuter_antioxidant,c. colocynthis_antioxidant
-2,s. candicans,c. dioscoridis l,,c. colocynthis,corydalis hendersonii hemsl_high altitude polycythemia,,citrullus colocynthis l_nerve originated pain,corydalis hendersonii hemsl_anti-acute myocardial ischemia,cantharellus cibarius_antioxidant,m. bellicosus_anti-spasmodic
-3,c. dioscoridis l,c commutata (spreng.) greuter,,macrotermes bellicosus,senecio candicans dc_gastric ulcer,,citrullus colocynthis_diabetic rats,senecio candicans dc_gastroprotective,cantharellus cinereus_antioxidant,m. bellicosus_spasmolytic
-4,c commutata (spreng.) greuter,c. incana sm,,m. bellicosus,,,citrullus colocynthis_peripheral neuropathy,c. dioscoridis l_anti-inflammatory,craterellus cornucopioides_antioxidant,m. bellicosus_suppression of induced contractions
-5,c. incana sm,c. heldreichiana (kuntze) greuter,,crepis,,,c. colocynthis_diabetic neuropathy,c. dioscoridis l_antioxidant,hydnum repandum_antioxidant,m. bellicosus_relaxation of basal tone
-6,c. heldreichiana (kuntze) greuter,c. crocifolia boiss. & heldr,,chios mastic,,,c. colocynthis_oxidative stress,c commutata (spreng.) greuter_anti-inflammatory,,m. bellicosus_anti-inflammatory
-7,c. crocifolia boiss. & heldr,phytosia crocifolia (boiss. & heldr.) kamari & greuter,,crepis l,,,macrotermes bellicosus_infectious,c commutata (spreng.) greuter_antioxidant,,m. bellicosus_antimicrobial
-8,phytosia crocifolia (boiss. & heldr.) kamari & greuter,cantharellus cibarius,,,,,macrotermes bellicosus_dysentery,c. incana sm_anti-inflammatory,,s. candicans_antioxidant
-9,cantharellus cibarius,cantharellus cinereus,,,,,macrotermes bellicosus_inflammatory diseases,c. incana sm_antioxidant,,crepis_anti-inflammatory
-10,cantharellus cinereus,craterellus cornucopioides,,,,,macrotermes bellicosus_diarrhea,c. heldreichiana (kuntze) greuter_anti-inflammatory,,crepis_antioxidant
-11,craterellus cornucopioides,hydnum repandum,,,,,chios mastic_arterial hypertension,c. heldreichiana (kuntze) greuter_antioxidant,,chios mastic_improves blood pressure haemodynamics
-12,hydnum repandum,,,,,,,c. crocifolia boiss. & heldr_anti-inflammatory,,
-13,,,,,,,,c. crocifolia boiss. & heldr_antioxidant,,
-14,,,,,,,,cantharellus cibarius_cytotoxicity,,
-15,,,,,,,,cantharellus cibarius_apoptotic cell death,,
-16,,,,,,,,cantharellus cinereus_cytotoxicity,,
-17,,,,,,,,cantharellus cinereus_apoptotic cell death,,
-18,,,,,,,,craterellus cornucopioides_cytotoxicity,,
-19,,,,,,,,craterellus cornucopioides_apoptotic cell death,,
-20,,,,,,,,hydnum repandum_cytotoxicity,,
-21,,,,,,,,hydnum repandum_apoptotic cell death,,
+0,corydalis hendersonii hemsl,corydalis hendersonii hemsl,,citrullus colocynthis l,corydalis hendersonii hemsl_acute myocardial ischemia,,citrullus colocynthis l_peripheral neuropathy,corydalis hendersonii hemsl_anti-inflammatory,cantharellus cibarius_antioxidant,c. colocynthis_hypoglycemic
+1,senecio candicans dc,senecio candicans dc,,citrullus colocynthis,corydalis hendersonii hemsl_vasculitis,,citrullus colocynthis l_nerve originated pain,corydalis hendersonii hemsl_lowering blood pressure,cantharellus cinereus_antioxidant,c. colocynthis_antioxidant
+2,s. candicans,c. dioscoridis l,,c. colocynthis,corydalis hendersonii hemsl_high altitude polycythemia,,citrullus colocynthis l_diabetic rats,corydalis hendersonii hemsl_anti-acute myocardial ischemia,craterellus cornucopioides_antioxidant,m. bellicosus_antimicrobial
+3,c. dioscoridis l,c. incana sm,,macrotermes bellicosus,senecio candicans dc_gastric ulcer,,citrullus colocynthis_peripheral neuropathy,senecio candicans dc_gastroprotective,hydnum repandum_antioxidant,m. bellicosus_anti-spasmodic
+4,c. incana sm,c. heldreichiana (kuntze) greuter,,m. bellicosus,,,citrullus colocynthis_diabetic rats,c. dioscoridis l_anti-inflammatory,,m. bellicosus_anti-inflammatory
+5,c. heldreichiana (kuntze) greuter,c. crocifolia boiss. & heldr,,crepis,,,c. colocynthis_oxidative stress,c. dioscoridis l_antioxidant,,m. bellicosus_relaxation of basal tone
+6,c. crocifolia boiss. & heldr,cantharellus cibarius,,c commutata (spreng.) greuter,,,c. colocynthis_diabetic neuropathy,c. incana sm_anti-inflammatory,,m. bellicosus_spasmolytic
+7,cantharellus cibarius,cantharellus cinereus,,chios mastic,,,macrotermes bellicosus_infectious,c. incana sm_antioxidant,,m. bellicosus_suppression of induced contractions
+8,cantharellus cinereus,craterellus cornucopioides,,crepis l,,,macrotermes bellicosus_inflammatory diseases,c. heldreichiana (kuntze) greuter_anti-inflammatory,,s. candicans_antioxidant
+9,craterellus cornucopioides,hydnum repandum,,phytosia crocifolia (boiss. & heldr.) kamari & greuter,,,macrotermes bellicosus_diarrhea,c. heldreichiana (kuntze) greuter_antioxidant,,crepis_anti-inflammatory
+10,hydnum repandum,,,,,,macrotermes bellicosus_dysentery,c. crocifolia boiss. & heldr_anti-inflammatory,,crepis_antioxidant
+11,,,,,,,chios mastic_arterial hypertension,c. crocifolia boiss. & heldr_antioxidant,,c commutata (spreng.) greuter_anti-inflammatory
+12,,,,,,,,cantharellus cibarius_cytotoxicity,,c commutata (spreng.) greuter_antioxidant
+13,,,,,,,,cantharellus cibarius_apoptotic cell death,,chios mastic_improves blood pressure haemodynamics
+14,,,,,,,,cantharellus cinereus_cytotoxicity,,
+15,,,,,,,,cantharellus cinereus_apoptotic cell death,,
+16,,,,,,,,craterellus cornucopioides_cytotoxicity,,
+17,,,,,,,,craterellus cornucopioides_apoptotic cell death,,
+18,,,,,,,,hydnum repandum_cytotoxicity,,
+19,,,,,,,,hydnum repandum_apoptotic cell death,,

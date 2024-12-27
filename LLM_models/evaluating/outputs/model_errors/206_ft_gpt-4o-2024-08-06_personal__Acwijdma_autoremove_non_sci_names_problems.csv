@@ -1,11 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,centaurea depressa bieb,centaurea depressa bieb,cinchona officinalis l,glaucium,centaurea depressa bieb_colorectal adenocarcinoma,cinchona officinalis l_malaria,,centaurea depressa bieb_apoptotic,panax ginseng c.a.mey_enhancement of physical performance,centaurea_cytotoxic
+0,centaurea depressa bieb,centaurea depressa bieb,cinchona officinalis l,glaucium,centaurea depressa bieb_colorectal adenocarcinoma,cinchona officinalis l_malaria,,centaurea depressa bieb_apoptotic,panax ginseng c.a.mey_enhancement of physical performance,centaurea_antimicrobial
 1,centaurea,c. depressa,panax ginseng c.a.mey,alchemilla l,c. depressa_caco-2 cancer,cinchona officinalis l_fever,,centaurea depressa bieb_antioxidant,papaver somniferum l_vasodilation,centaurea_antipyretic
-2,centaurea depressa,,papaver somniferum l,pterocarpus santalinus,,cinchona officinalis l_infectious-disease,,c. depressa_apoptotic,papaver somniferum l_pain relief,centaurea_antiinflam-matory
+2,centaurea depressa,,papaver somniferum l,pterocarpus santalinus,,cinchona officinalis l_infectious-disease,,c. depressa_apoptotic,papaver somniferum l_pain relief,centaurea_cytotoxic
 3,c. depressa,,ricinus communis,phasolus vulgaris l.: ssp. nanus,,panax ginseng c.a.mey_tiredness,,,ricinus communis_purgative,centaurea_immuno-logical
-4,,,,ssp. volubilis,,papaver somniferum l_hypertension,,,,centaurea_antimicrobial
+4,,,,ssp. volubilis,,papaver somniferum l_hypertension,,,,centaurea_antiinflam-matory
 5,,,,phaseolus coccineus l,,,,,,c. depressa_antipro-liferation
 6,,,,phaseolus vulgaris,,,,,,glaucium_cytotoxicity
-7,,,,phaseolus,,,,,,alchemilla l_necrotic effects
-8,,,,phaseolus vulgaris l,,,,,,alchemilla l_apoptotic
+7,,,,phaseolus,,,,,,alchemilla l_apoptotic
+8,,,,phaseolus vulgaris l,,,,,,alchemilla l_necrotic effects
 9,,,,,,,,,,pterocarpus santalinus_apoptosis

@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,rhodiola,rhodiola alt-x,forsideritis,,,,rhodiola_stress,,,rhodiola_antidepressant
-1,rhodiola rosea,rhodiola,r. roseaextracts,,,,rhodiola_depressive disorder,,,rhodiola rosea_antiviral
-2,rhodiola rosea l,r. rosea,rosavins,,,,rhodiola_chronicfatigue,,,rhodiola rosea_stimulants of the central nervous system
-3,r. rosea,rhodiola shr-5,rosavin,,,,rhodiola_fatigue,,,rhodiola rosea l_antidepressant
-4,,r. rosea shr-5,rhodiolaepr-7 extract,,,,rhodiola_stress-induced mild depression,,,
+0,rhodiola,rhodiola alt-x,forsideritis,,,,rhodiola_chronicfatigue,,,rhodiola_antidepressant
+1,rhodiola rosea,rhodiola,r. roseaextracts,,,,rhodiola_stress-induced mild depression,,,rhodiola rosea_antiviral
+2,rhodiola rosea l,r. rosea,rosavins,,,,rhodiola_depressive disorder,,,rhodiola rosea_stimulants of the central nervous system
+3,r. rosea,rhodiola shr-5,rosavin,,,,rhodiola_stress,,,rhodiola rosea l_antidepressant
+4,,r. rosea shr-5,rhodiolaepr-7 extract,,,,rhodiola_fatigue,,,
 5,,rhodiola epr-7,ofsalidroside,,,,,,,
 6,,rhodiola rosea,salidroside,,,,,,,
 7,,rhodiola rosea l,rhodiolaextract,,,,,,,

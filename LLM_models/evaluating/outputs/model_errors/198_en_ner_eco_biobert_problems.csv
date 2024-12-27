@@ -1,14 +1,14 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,zizyphus lotus l,zizyphus lotus l,anti-helicobacter pylori,,,,,,,zizyphus lotus l_antidiabetic
-1,pinus nigra,pinus nigra arnold,wistar rats,,,,,,,zizyphus lotus l_anti-helicobacter pylori
-2,pinus nigra arnold,candida albicans atcc 10231,macedonian black pinemarija,,,,,,,zizyphus lotus l_gastro-protective
-3,pinus,pinus nigra,forest trees,,,,,,,zizyphus lotus l_antioxidant
+0,zizyphus lotus l,zizyphus lotus l,anti-helicobacter pylori,,,,,,,zizyphus lotus l_anti-helicobacter pylori
+1,pinus nigra,pinus nigra arnold,wistar rats,,,,,,,zizyphus lotus l_gastro-protective
+2,pinus nigra arnold,candida albicans atcc 10231,macedonian black pinemarija,,,,,,,zizyphus lotus l_antioxidant
+3,pinus,pinus nigra,forest trees,,,,,,,zizyphus lotus l_antidiabetic
 4,candida albicans,candida albicans,black pine,,,,,,,pinus peuce_antimicrobial
 5,pinus nigra arn,p. nigra j.f,conifer,,,,,,,pinus nigra_antimicrobial
-6,p. nigra j.f. arnold x p. sylvestris l,pinus peuce,pine species,,,,,,,juniperus communis l_antireumathic
-7,p. nigra j.f. arnold x p. densiflora siebold et zucc,pinus l,differ-ent pine species,,,,,,,juniperus communis l_stomachic
-8,p. nigra j.f. arnold x p. thunbergiana franco,pinus nigra arn,macedonian black pine,,,,,,,juniperus communis l_digestive
-9,pinus peuce,pinus species,staphylococcus aureus,,,,,,,juniperus communis l_diuretic
+6,p. nigra j.f. arnold x p. sylvestris l,pinus peuce,pine species,,,,,,,juniperus communis l_diuretic
+7,p. nigra j.f. arnold x p. densiflora siebold et zucc,pinus l,differ-ent pine species,,,,,,,juniperus communis l_antireumathic
+8,p. nigra j.f. arnold x p. thunbergiana franco,pinus nigra arn,macedonian black pine,,,,,,,juniperus communis l_stomachic
+9,pinus peuce,pinus species,staphylococcus aureus,,,,,,,juniperus communis l_digestive
 10,pinus l,juniperus communis l,atcc 29213,,,,,,,juniperus communis l_antiseptic
 11,juniperus communis l,,staphylococcus epidermidis,,,,,,,
 12,,,strepto-coccus pneumoniae,,,,,,,

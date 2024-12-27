@@ -1,18 +1,18 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,candida albicans,candida,fromsyringa vulgaris,forsythia,,,syringa vulgaris_inflammation,,,syringa vulgaris_pro-inflammatory functions of neutrophils
-1,syringa vulgaris,syringa vulgaris,marta,ligustrum,,,syringa reticulata (blume)h. hara_bronchial disease,,,s. vulgaris_antioxidant
+1,syringa vulgaris,syringa vulgaris,marta,ligustrum,,,syringa reticulata (blume)h. hara_bronchial disease,,,s. vulgaris_anti-nociceptive
 2,s. vulgaris,syringa,elisa,ligustrumvulgare l,,,syringa pinnatifoliahemsl_lung and heart diseases,,,s. vulgaris_anti-inflammatory
-3,syringa,olea,oleaceae,forsythia sp,,,syringa vetulina kom_tooth pain,,,s. vulgaris_antipyretic
-4,s. vulgaris l,fraxinus,hara,s.vulgaris,,,syringa_inflammation,,,s. vulgaris_anti-nociceptive
-5,syringa vulgaris l,osmanthus,escherichia,s. vulgarisl,,,s. vulgaris l_cold,,,s. vulgaris l_antipyretic
-6,syringa reticulata (blume)h. hara,jasminum,europaea,,,,s. vulgaris l_cough,,,syringa afghanica c.k. schneid_antipyretics
-7,syringa pinnatifoliahemsl,chionanthus,,,,,s. vulgaris l_muscle/joint aches,,,
-8,syringa vetulina kom,fraxinus exelsior,,,,,s. vulgaris l_sore mouth,,,
-9,syringa afghanica c.k. schneid,s. josikaea,,,,,s. vulgaris l_rheumatism,,,
-10,olea,s. vulgaris,,,,,s. vulgaris l_toothaches,,,
-11,fraxinus,syringa reticulata,,,,,s. vulgaris l_skin wounds,,,
-12,fraxinus exelsior l,syringa vetulina,,,,,s. vulgaris l_antipyretics,,,
-13,osmanthus,syringa afghanica,,,,,s. vulgaris l_gout,,,
-14,jasminum,,,,,,s. vulgaris l_gastrointestinaldisorders,,,
+3,syringa,olea,oleaceae,forsythia sp,,,syringa vetulina kom_tooth pain,,,s. vulgaris_antioxidant
+4,s. vulgaris l,fraxinus,hara,s.vulgaris,,,syringa_inflammation,,,s. vulgaris_antipyretic
+5,syringa vulgaris l,osmanthus,escherichia,s. vulgarisl,,,s. vulgaris l_gastrointestinaldisorders,,,s. vulgaris l_antipyretic
+6,syringa reticulata (blume)h. hara,jasminum,europaea,,,,s. vulgaris l_skin wounds,,,syringa afghanica c.k. schneid_antipyretics
+7,syringa pinnatifoliahemsl,chionanthus,,,,,s. vulgaris l_gout,,,
+8,syringa vetulina kom,fraxinus exelsior,,,,,s. vulgaris l_rheumatism,,,
+9,syringa afghanica c.k. schneid,s. josikaea,,,,,s. vulgaris l_antipyretics,,,
+10,olea,s. vulgaris,,,,,s. vulgaris l_cold,,,
+11,fraxinus,syringa reticulata,,,,,s. vulgaris l_toothaches,,,
+12,fraxinus exelsior l,syringa vetulina,,,,,s. vulgaris l_sore mouth,,,
+13,osmanthus,syringa afghanica,,,,,s. vulgaris l_muscle/joint aches,,,
+14,jasminum,,,,,,s. vulgaris l_cough,,,
 15,chionanthus,,,,,,,,,
 16,s. josikaea,,,,,,,,,

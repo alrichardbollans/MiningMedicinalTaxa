@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,theobroma cacao,theobroma cacao,ciba,camellia sinensis,,,camellia sinensis_bronchial asthma,,,theobroma cacao_dilate arteries
-1,triticum,triticum,158-170.chandra,vinca,,,vinca_hodgkin'sdisease,,,theobroma cacao_diuretic
-2,saccharomyces cervesieae,saccharomyces,columbiana,catharanthus roseus,,,vinca_childhood leukemia,,,theobroma cacao_stimulant
+0,theobroma cacao,theobroma cacao,ciba,camellia sinensis,,,camellia sinensis_bronchial asthma,,,theobroma cacao_diuretic
+1,triticum,triticum,158-170.chandra,vinca,,,vinca_hodgkin'sdisease,,,theobroma cacao_stimulant
+2,saccharomyces cervesieae,saccharomyces,columbiana,catharanthus roseus,,,vinca_childhood leukemia,,,theobroma cacao_dilate arteries
 3,,,,secale,,,catharanthus roseus_hodgkin'sdisease,,,camellia sinensis_heartstimulant
 4,,,,chondrodendron,,,catharanthus roseus_childhood leukemia,,,
 5,,,,vincarosea,,,,,,

@@ -1,5 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,dioscoreophyllum cumminsii,dioscoreophyllum cumminsii,cocoa=theobroma cacao,ilex vomitoria,,,,,,
+0,dioscoreophyllum cumminsii,dioscoreophyllum cumminsii,,ilex vomitoria,,,,,,
 1,stevia rebaudiana,stevia rebaudiana,,theobroma cacao,,,,,,
 2,lippia dulcis,lippia dulcis,,coffea arabica,,,,,,
 3,camellia sinensis,camellia sinensis,,paullinia cupana,,,,,,

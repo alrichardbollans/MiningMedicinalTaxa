@@ -1,15 +1,15 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,zizyphus lotus l,zizyphus lotus,anti-helicobacter pylori,,,,,,,zizyphus lotus l_anti-helicobacter pylori
-1,pinus nigra,pinus nigra,elena,,,,,,,zizyphus lotus l_antidiabetic
-2,pinus nigra arnold,candida albicans,svetlana,,,,,,,zizyphus lotus l_antioxidant
-3,pinus nigra arn,p. nigra,staphylococcus aureus,,,,,,,zizyphus lotus l_gastro-protective
+1,pinus nigra,pinus nigra,elena,,,,,,,zizyphus lotus l_gastro-protective
+2,pinus nigra arnold,candida albicans,svetlana,,,,,,,zizyphus lotus l_antidiabetic
+3,pinus nigra arn,p. nigra,staphylococcus aureus,,,,,,,zizyphus lotus l_antioxidant
 4,pinus,pinus peuce,staphylococcus epidermidis,,,,,,,pinus peuce_antimicrobial
 5,p. nigra j.f. arnold x p. sylvestris l,pinus,strepto-coccus pneumoniae,,,,,,,pinus nigra_antimicrobial
 6,p. nigra j.f. arnold x p. densiflora siebold et zucc,juniperus communis,streptococcus agalactiae,,,,,,,juniperus communis l_diuretic
 7,p. nigra j.f. arnold x p. thunbergiana franco,,acinetobacter,,,,,,,juniperus communis l_stomachic
-8,candida albicans,,escherichia coli,,,,,,,juniperus communis l_digestive
-9,pinus peuce,,sal-monella enteritidis,,,,,,,juniperus communis l_antireumathic
-10,pinus l,,klebsiella pneumoniae,,,,,,,juniperus communis l_antiseptic
+8,candida albicans,,escherichia coli,,,,,,,juniperus communis l_antiseptic
+9,pinus peuce,,sal-monella enteritidis,,,,,,,juniperus communis l_digestive
+10,pinus l,,klebsiella pneumoniae,,,,,,,juniperus communis l_antireumathic
 11,juniperus communis l,,pseudomonas aeruginosa,,,,,,,
 12,,,haemophilus,,,,,,,
 13,,,proteus mirabilis,,,,,,,

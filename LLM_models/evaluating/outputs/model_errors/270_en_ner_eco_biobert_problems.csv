@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,pinus peuce,pinus peuce,litsentsiranikherbalni lekovi,gingko,,,,,,gingko_antiaggregatory
-1,candida albicans,candida albicans atcc 10231,dobraproizvodstvena praksa,melaleuca alternifolia,,,,,,pinus peuce_antimicrobial
-2,candidia sp,candida albicans,kongres na,,,,,,,pinus peuce_antimi-crobial
+1,candida albicans,candida albicans atcc 10231,dobraproizvodstvena praksa,melaleuca alternifolia,,,,,,pinus peuce_antimi-crobial
+2,candidia sp,candida albicans,kongres na,,,,,,,pinus peuce_antimicrobial
 3,pinus caribaea,candidia sp,uchestvomakedonski farmatsevtski,,,,,,,pinus densiflora s. and z_antibacterial
 4,pinus densiflora s. and z,pinus caribaea,aromatichni rastenija oralni prezentatsii(n,,,,,,,pinus caribaea_antibacter-ial
 5,,pinus densiflora s. and z,offlavonoid,,,,,,,

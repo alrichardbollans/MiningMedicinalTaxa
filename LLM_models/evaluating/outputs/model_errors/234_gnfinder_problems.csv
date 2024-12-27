@@ -1,11 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,eugenia,eugenia,myrtaceae,p. zombamontana,,,syzygium legatii_mastitis,,,p. zombamontana_anti-inflammatory
-1,syzygium,syzygium,staphylococcus aureus,,,,s. gerrardii_mastitis,,,p. zombamontana_protecting poultry against infection
+0,eugenia,eugenia,myrtaceae,p. zombamontana,,,syzygium legatii_mastitis,,,p. zombamontana_protecting poultry against infection
+1,syzygium,syzygium,staphylococcus aureus,,,,s. gerrardii_mastitis,,,p. zombamontana_anti-inflammatory
 2,syzygium legatii,syzygium legatii,staphylococcus,,,,,,,p. zombamontana_antioxidant
 3,syzygium gerrardii,syzygium gerrardii,artas,,,,,,,p. zombamontana_cytotoxicity
 4,s. gerrardii,s. gerrardii,arta,,,,,,,eugenia_antibacterial
-5,linum usitatissimum,linum usitatissimum,amphilochia,,,,,,,eugenia_against staphylococcus aureus
-6,cannabis sativa,cannabis sativa,,,,,,,,eugenia_cytotoxicity
+5,linum usitatissimum,linum usitatissimum,amphilochia,,,,,,,eugenia_cytotoxicity
+6,cannabis sativa,cannabis sativa,,,,,,,,eugenia_against staphylococcus aureus
 7,cannabis,lupinus albus,,,,,,,,syzygium_antibacterial
 8,lupinus albus,cannabis,,,,,,,,syzygium_against staphylococcus aureus
 9,,,,,,,,,,syzygium legatii_anti-staphylococcal

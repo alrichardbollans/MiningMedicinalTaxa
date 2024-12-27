@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,ephedra,ephedra,gnidia krausii,physostigma vene-nosum,,,physostigma vene-nosum_alzheimer's disease,,,
-1,adenium obesum,adenium obesum,,krausii,,,physostigma vene-nosum_glaucoma,,,
-2,akokanthera venetata,akokanthera venetata,,cerbera spp,,,physostigma vene-nosum_chronic constipation,,,
+1,adenium obesum,adenium obesum,,krausii,,,physostigma vene-nosum_chronic constipation,,,
+2,akokanthera venetata,akokanthera venetata,,cerbera spp,,,physostigma vene-nosum_glaucoma,,,
 3,cerbera vinenifera,cerbera vinenifera,,aloe,,,,,,
 4,combretum confertum,combretum confertum,,cassia,,,,,,
 5,detarium senegalense,detarium senegalense,,senna,,,,,,

@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,hypericum spp,hypericum spp,eriocephalus (viv.) greuter & burdet,pistacia lentiscus,,,,,,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet_anti-influenza activity
-1,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet,cistus creticus l,materia medica,,,,,,,
-2,alpinia galanga (l.) willd,alpinia galanga (l.) willd,plasmodium falciparum,,,,,,,
+1,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet,cistus creticus l,plasmodium falciparum,,,,,,,
+2,alpinia galanga (l.) willd,alpinia galanga (l.) willd,,,,,,,,
 3,santalum album l,santalum album l,,,,,,,,
 4,guatteria recurvisepala r.e. fr,guatteria recurvisepala r.e,,,,,,,,

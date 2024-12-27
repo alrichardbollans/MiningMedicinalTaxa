@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,dioscorea communis (l.) caddick & wilkin,dioscorea communis (l.) caddick & wilkin,horta,,,,,,,
-1,echium italicum l,echium italicum l,greeceoriganum vulgare l,,,,,,,
+1,echium italicum l,echium italicum l,,,,,,,,
 2,erodium cicutarium,erodium cicutarium (l.) l'her,,,,,,,,
 3,erodium cicutarium (l.) l'her,glebionis segetum (l.) fourr,,,,,,,,
 4,glebionis segetum (l.) fourr,plantago lagopus l,,,,,,,,

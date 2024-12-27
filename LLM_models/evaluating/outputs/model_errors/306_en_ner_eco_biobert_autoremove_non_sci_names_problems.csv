@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,,,berberis aristataherb,c. fenestratum,,,,,,
-1,,,stirringberberis aristata,c.fenestratum,,,,,,
-2,,,berberis tinctoria(800,tinospora cordifolia(willd,,,,,,
+1,,,berberis tinctoria(800,c.fenestratum,,,,,,
+2,,,,tinospora cordifolia(willd,,,,,,
 3,,,,tribulusterrestris (l,,,,,,
 4,,,,emblicaofficinalis (gaertn,,,,,,
 5,,,,coptischinensis franch,,,,,,

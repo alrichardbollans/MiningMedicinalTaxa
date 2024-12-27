@@ -1,15 +1,15 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,tacca leontopetaloides,tacca leontopetaloides tahiti a,"arrowrootsmaranta arundinacea arrowroot, w",l.serriola,,,maranta arundinacea_wounds,,,daucus carota var. sativa_stimulant
-1,tacca,curcuma angustifolia,carrotdaucus carota var,zamia pumila,,,maranta arundinacea_ulcers,,,daucus carota var. sativa_diuretic
-2,curcuma angustifolia,canna indica,parsnippastinaca sativa,tropaeolumtuberosum,,,maranta arundinacea_insect bites,,,apium graveolens_diuretic
-3,canna indica,maranta arundinacea,artichokehelianthus tuberosus,cucurma zedoria,,,maranta arundinacea_snake bites,,,eruca sativa_aphrodisiac
-4,canna,beta vulgaris,lotus rhizomes,a. schoenoprasum,,,helianthus tuberosus_diabetics,,,l.serriola_soporific
-5,maranta arundinacea,b. maritima,vidalia onion,a. tuberosumkurrats,,,a. sativum_eczema,,,
-6,beta vulgaris,brassica root cropsseveral,priapus,a. chinense,,,a. sativum_toothaches,,,
-7,b. maritima,brassica,,,,,a. sativum_snake bites,,,
-8,brassica,oxalis tuberosa,,,,,apium graveolens_impotence,,,
+0,tacca leontopetaloides,tacca leontopetaloides tahiti a,lotus rhizomes,l.serriola,,,maranta arundinacea_wounds,,,daucus carota var. sativa_stimulant
+1,tacca,curcuma angustifolia,vidalia onion,zamia pumila,,,maranta arundinacea_insect bites,,,daucus carota var. sativa_diuretic
+2,curcuma angustifolia,canna indica,priapus,tropaeolumtuberosum,,,maranta arundinacea_ulcers,,,apium graveolens_diuretic
+3,canna indica,maranta arundinacea,,cucurma zedoria,,,maranta arundinacea_snake bites,,,eruca sativa_aphrodisiac
+4,canna,beta vulgaris,,diosocrea rotunda,,,helianthus tuberosus_diabetics,,,l.serriola_soporific
+5,maranta arundinacea,b. maritima,,a. schoenoprasum,,,a. sativum_toothaches,,,
+6,beta vulgaris,brassica root cropsseveral,,a. tuberosumkurrats,,,a. sativum_eczema,,,
+7,b. maritima,brassica,,a. chinense,,,a. sativum_snake bites,,,
+8,brassica,oxalis tuberosa,,,,,apium graveolens_constipation,,,
 9,brassica oleracea,ullucus tuberosus,,,,,apium graveolens_hangovers,,,
-10,brassica napus,tropaeolum tuberosum,,,,,apium graveolens_constipation,,,
+10,brassica napus,tropaeolum tuberosum,,,,,apium graveolens_impotence,,,
 11,brassica rapa,nasturtium,,,,,,,,
 12,oxalis tuberosa,arracacia xanthorrhiza,,,,,,,,
 13,oxalis,tacca leotopetaloides,,,,,,,,
@@ -64,14 +64,13 @@
 62,calathea allouia,dioscorea trifida,,,,,,,,
 63,chaerophyllum bulbosum,amorphophallus campanulatus,,,,,,,,
 64,eleocharis dulcis,philodendron tubers,,,,,,,,
-65,dioscorea alata,diosocrea rotunda,,,,,,,,
-66,dioscorea esculenta,dioscorea cayenensis,,,,,,,,
-67,dioscorea trifida,sphenostylis stenocarpa,,,,,,,,
-68,amorphophallus campanulatus,philodendron pantropical food plantysano,,,,,,,,
-69,diosocrea rotunda,allium spp,,,,,,,,
-70,dioscorea cayenensis,a. cepa var,,,,,,,,
-71,sphenostylis stenocarpa,eruca sativa,,,,,,,,
-72,allium spp,lactuca sativa,,,,,,,,
-73,eruca sativa,rheum rhabarbaratum,,,,,,,,
-74,lactuca sativa,,,,,,,,,
-75,rheum rhabarbaratum,,,,,,,,,
+65,dioscorea alata,dioscorea cayenensis,,,,,,,,
+66,dioscorea esculenta,sphenostylis stenocarpa,,,,,,,,
+67,dioscorea trifida,philodendron pantropical food plantysano,,,,,,,,
+68,amorphophallus campanulatus,allium spp,,,,,,,,
+69,dioscorea cayenensis,a. cepa var,,,,,,,,
+70,sphenostylis stenocarpa,eruca sativa,,,,,,,,
+71,allium spp,lactuca sativa,,,,,,,,
+72,eruca sativa,rheum rhabarbaratum,,,,,,,,
+73,lactuca sativa,,,,,,,,,
+74,rheum rhabarbaratum,,,,,,,,,

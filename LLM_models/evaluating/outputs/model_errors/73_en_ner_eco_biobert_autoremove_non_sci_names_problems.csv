@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,tripsacum spp,tripsacum spp,gama grass,helminthosporium maydis,,,,,,
 1,tripsacum,euchlaena,gama grasses,a. brevis,,,,,,
-2,euchlaena,zea,fungus(helminthosporium maydis,a. strigosa,,,,,,
-3,zea,tripsacum,s. ryebread,a. nuda,,,,,,
-4,neurospora,neurospora,ofsorghum bicolor,a. barbata,,,,,,
+2,euchlaena,zea,s. ryebread,a. strigosa,,,,,,
+3,zea,tripsacum,,a. nuda,,,,,,
+4,neurospora,neurospora,,a. barbata,,,,,,
 5,hordeum vulgare,hordeum vulgare,,a. abyssinica,,,,,,
 6,secale cereale,secale cereale,,,,,,,,
 7,claviceps purpurea,claviceps purpurea,,,,,,,,

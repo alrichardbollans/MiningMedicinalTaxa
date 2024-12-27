@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,satureja,satureja pilosa,a. karioti1,,,,satureja_muscle pain,,,alkanna tinctoria_wound healing
-1,satureja pilosa,satureja,g. tsoktouridis2,,,,satureja_cramps,,,thymus spp_antimicrobial
-2,s. pilosa,s. pilosa,lamiaceae,,,,satureja_infectious diseases,,,thymus spp_antioxidant
-3,a. tinctoria,satureja taxa,cvetanovic a,,,,satureja_gastrointestinal disorders,,,thymbra capitata_antimicrobial
-4,alkanna tinctoria,alkana tinctoria,boraginaceae).k,,,,,,,thymbra capitata_antibacterial
+0,satureja,satureja pilosa,a. karioti1,,,,satureja_infectious diseases,,,alkanna tinctoria_wound healing
+1,satureja pilosa,satureja,g. tsoktouridis2,,,,satureja_muscle pain,,,thymus spp_antimicrobial
+2,s. pilosa,s. pilosa,lamiaceae,,,,satureja_gastrointestinal disorders,,,thymus spp_antioxidant
+3,a. tinctoria,satureja taxa,cvetanovic a,,,,satureja_cramps,,,thymbra capitata_antibacterial
+4,alkanna tinctoria,alkana tinctoria,boraginaceae).k,,,,,,,thymbra capitata_antimicrobial
 5,thymus spp,alkanna tinctoria,grigoriadou1,,,,,,,thymbra capitata_antioxidant
 6,thymbra capitata,a. tinctoria,sarropoulou1,,,,,,,thymbra spp_antimicrobial
 7,thymbra spp,thymus spp,n. krigas1,,,,,,,thymbra spp_antioxidant
@@ -19,11 +19,11 @@
 17,centaurea,t. plasonii,salmonella typhimurium,,,,,,,t. sibthorpii_antioxidant
 18,centaurea phyllocephala boiss,centaurea phyllocephala boiss,escherichia coli,,,,,,,t. striatus_antibacterial
 19,centaurea cyanoides,centaurea,klebsiella pneumoniae,,,,,,,t. striatus_antioxidant
-20,centaurea cyanus,centaurea cyanoides,m. dimitriadis1,,,,,,,centaurea_antidiabetic
-21,centaurea sp,centaurea cyanus,c. tsioumela1,,,,,,,centaurea_antirheumatic
-22,c. cyanus,centaurea sp,o. tsiftsoglou1,,,,,,,centaurea_anti-inflammatory
-23,,c. cyanus,m. arfan2,,,,,,,centaurea_antioxidant
-24,,,h. skaltsa3,,,,,,,centaurea_anti-dandruff
+20,centaurea cyanus,centaurea cyanoides,m. dimitriadis1,,,,,,,centaurea_anti-inflammatory
+21,centaurea sp,centaurea cyanus,c. tsioumela1,,,,,,,centaurea_anti-dandruff
+22,c. cyanus,centaurea sp,o. tsiftsoglou1,,,,,,,centaurea_antioxidant
+23,,c. cyanus,m. arfan2,,,,,,,centaurea_antidiabetic
+24,,,h. skaltsa3,,,,,,,centaurea_antirheumatic
 25,,,asteraceae,,,,,,,centaurea_antibacterial
 26,,,cornflower,,,,,,,
 27,,,syrian cornflower,,,,,,,

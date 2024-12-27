@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,o. natrix,o. natrix,,,,,,,,o. natrix_anticancer
-1,ononis natrix subsp. hispanica,ononis,,,,,,,,o. natrix_antimicrobial
-2,ononis natrix,ononis natrix subsp,,,,,,,,o. natrix_enzymeinhibitory
+1,ononis natrix subsp. hispanica,ononis,,,,,,,,o. natrix_enzymeinhibitory
+2,ononis natrix,ononis natrix subsp,,,,,,,,o. natrix_antimicrobial
 3,ononis natrix subsp. hispanicasubsp. hispanica,ononis extractsagainst,,,,,,,,o. natrix_antioxidant
 4,ononis,ononis natrixtable 6,,,,,,,,ononis_enzyme inhibitory
 5,,ononis natrix,,,,,,,,ononis natrix subsp. hispanica_inhibitors of tyrosinase
-6,,,,,,,,,,ononis natrix subsp. hispanica_anti-diabetic
-7,,,,,,,,,,ononis natrix subsp. hispanica_anti-tyrosinase
+6,,,,,,,,,,ononis natrix subsp. hispanica_anti-tyrosinase
+7,,,,,,,,,,ononis natrix subsp. hispanica_anti-diabetic

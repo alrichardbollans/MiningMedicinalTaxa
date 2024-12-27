@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,artemisia,artemisia ketone,karhayomba i b,g. viscosa,,,capsicum_peripherial painful diseases,,,capsicum_therapeutic
-1,a. alba,artemisia,mazloum ardakani,,,,capsicum_rheumatoid arthritis,,,
-2,a. alba turra,a. alba,india artemisia,,,,capsicum_diabetic neuropathy,,,
-3,capsicum,a. alba turra,"tutin, t",,,,capsicum_muscle pain,,,
+0,artemisia,artemisia ketone,karhayomba i b,g. viscosa,,,capsicum_rheumatoid arthritis,,,capsicum_therapeutic
+1,a. alba,artemisia,mazloum ardakani,,,,capsicum_muscle pain,,,
+2,a. alba turra,a. alba,india artemisia,,,,capsicum_peripherial painful diseases,,,
+3,capsicum,a. alba turra,"tutin, t",,,,capsicum_diabetic neuropathy,,,
 4,capsicum spp,capsicum,flora europaea,,,,,,,
 5,gypsophila,gypsophila speciesreneta gevrenovadepartment,pharmacopea jugoslavica,,,,,,,
 6,gypsophila species,gypsophila,editio quarta,,,,,,,

@@ -1,4 +1,4 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,valeriana officinalis,valeriana officinalis,,,valeriana officinalis_nervous tension,,,valeriana officinalis_sedative,,valeriana officinalis_reduces motility
-1,valeriana officinalis l,valeriana officinalis l,,,valeriana officinalis_stress,,,valeriana officinalis_hypnotic activity,,valeriana officinalis_improves coordination
-2,,,,,valeriana officinalis_insomnia,,,valeriana officinalis l_sedative,,valeriana officinalis_offset-ting the effect of caffeine
+0,valeriana officinalis,valeriana officinalis,,,valeriana officinalis_nervous tension,,,valeriana officinalis_sedative,,valeriana officinalis_offset-ting the effect of caffeine
+1,valeriana officinalis l,valeriana officinalis l,,,valeriana officinalis_stress,,,valeriana officinalis_hypnotic activity,,valeriana officinalis_reduces motility
+2,,,,,valeriana officinalis_insomnia,,,valeriana officinalis l_sedative,,valeriana officinalis_improves coordination

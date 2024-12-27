@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,trifolium pratense l,trifolium pratense l,,candida albicans,chenopodium botrys l_catarrh,,,trifolium pratense l_estrogenic activity,,c. botrys_fungicidal
-1,chenopodium botrys l,chenopodium botrys l,,aspergillus niger,chenopodium botrys l_humoral asthma,,,chenopodium botrys l_diuretic,,c. botrys_bactericidal
+0,trifolium pratense l,trifolium pratense l,,candida albicans,chenopodium botrys l_catarrh,,,trifolium pratense l_estrogenic activity,,c. botrys_bactericidal
+1,chenopodium botrys l,chenopodium botrys l,,aspergillus niger,chenopodium botrys l_humoral asthma,,,chenopodium botrys l_diuretic,,c. botrys_fungicidal
 2,c. botrys,c. botrys,,candi-da albicans,,,,chenopodium botrys l_antifungal,,chenopodium botrys_antimi-crobia
 3,chenopodium botrys,chenopodium,,dys-phania botrys (l.) mosyakin and clemants,,,,chenopodium botrys l_antidiarrheal,,
 4,chenopodium,chenopodium ambro-sioides,,,,,,chenopodium botrys l_antispasmodic,,

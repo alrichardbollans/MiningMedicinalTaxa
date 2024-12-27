@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,cannabis sativa l,cannabis sativa l,venlafaxine,,,,cannabis sativa l_asthma,,,cannabis sativa l_antiemetic
-1,cannabis sati-va l,cannabis sati-va l,nada popstefanova,,,,cannabis sativa l_glaucoma,,,cannabis sativa l_psychoac-tive
-2,,,darko atanasoski,,,,cannabis sativa l_chronic pain,,,cannabis sativa l_pharmacological
-3,,,dragica doneva1,,,,cannabis sativa l_multiple sclerosis,,,cannabis sativa l_psychoactive
+0,cannabis sativa l,cannabis sativa l,venlafaxine,,,,cannabis sativa l_chronic pain,,,cannabis sativa l_pharmacological
+1,cannabis sati-va l,cannabis sati-va l,nada popstefanova,,,,cannabis sativa l_multiple sclerosis,,,cannabis sativa l_antiemetic
+2,,,darko atanasoski,,,,cannabis sativa l_glaucoma,,,cannabis sativa l_psychoactive
+3,,,dragica doneva1,,,,cannabis sativa l_asthma,,,cannabis sativa l_psychoac-tive
 4,,,"zorica arsova-sarafinovska1,2",,,,cannabis sativa l_cardiovascular condi-tions,,,
 5,,,katerina starkoska1,,,,,,,
 6,,,divizija,,,,,,,

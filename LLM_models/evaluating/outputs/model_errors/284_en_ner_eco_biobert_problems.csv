@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,sideritis,sideritis vidovite beaokarakterizirani kako,najdeni,j.communis l,,,juniperus communis l_cystitis,,,sideritis javalambrensis_antioxidant
+0,sideritis,sideritis vidovite beaokarakterizirani kako,najdeni,j.communis l,,,juniperus communis l_digestive disorders,,,sideritis javalambrensis_antioxidant
 1,s. scardica,s. scardica,samo,,,,juniperus communis l_chronicle arthritis,,,sideritis raeseri_anti-inflammatory
-2,sideritis raeseri,s. raeseri,2)glukozidi sedvizheshe,,,,juniperus communis l_digestive disorders,,,sideritis_antioxidant
-3,s. raeseri,s.raeseri,jablanitsa,,,,,,,juniperus communis l_stomachic
-4,s.raeseri,sideritis vidovi,dominantna grupa nakomponenti,,,,,,,juniperus communis l_digestive
-5,sideritis javalambrensis,s. scardica primerotsi,atsetilglukozidi sonajvisoka,,,,,,,juniperus communis l_antireuma thic
-6,juniperus communis l,sideritis raeseri,sodrzhina,,,,,,,juniperus communis l_diuretic
-7,,sideritis javalambrensis,s. raeseri(galichitsa,,,,,,,juniperus communis l_antiseptic
+2,sideritis raeseri,s. raeseri,2)glukozidi sedvizheshe,,,,juniperus communis l_cystitis,,,sideritis_antioxidant
+3,s. raeseri,s.raeseri,jablanitsa,,,,,,,juniperus communis l_diuretic
+4,s.raeseri,sideritis vidovi,dominantna grupa nakomponenti,,,,,,,juniperus communis l_stomachic
+5,sideritis javalambrensis,s. scardica primerotsi,atsetilglukozidi sonajvisoka,,,,,,,juniperus communis l_digestive
+6,juniperus communis l,sideritis raeseri,sodrzhina,,,,,,,juniperus communis l_antiseptic
+7,,sideritis javalambrensis,s. raeseri(galichitsa,,,,,,,juniperus communis l_antireuma thic
 8,,sideritis species,razlichnite,,,,,,,
 9,,juniperus communis l,sodrzhinata naflavonoidi,,,,,,,
 10,,,albanija,,,,,,,

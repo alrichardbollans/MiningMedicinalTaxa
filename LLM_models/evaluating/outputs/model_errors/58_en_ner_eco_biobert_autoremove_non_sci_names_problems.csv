@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,rubus arcticus l,rubus arcticus l,lactobacillus brevis,fusarium,,,,,,
-1,rubus stellatus,rubus stellatus smjukka kaitaranta,fragaria x ananassa duch,,,,,,,
-2,anethum graveolens l,anethum graveolens l,microbiota,,,,,,,
+0,rubus arcticus l,rubus arcticus l,fragaria x ananassa duch,fusarium,,,,,,
+1,rubus stellatus,rubus stellatus smjukka kaitaranta,microbiota,,,,,,,
+2,anethum graveolens l,anethum graveolens l,,,,,,,,
 3,hippophae rhamnoides,hippophae rhamnoides,,,,,,,,
 4,hippophae rhamnoides l,hippophae rhamnoides l,,,,,,,,

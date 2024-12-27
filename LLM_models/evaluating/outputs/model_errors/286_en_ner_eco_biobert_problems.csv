@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,sideritis raeseri,sideritis raeseri,mehmet musa ozcan,centaurim erythrea l,,,,,,centaurim erythrea l_antidiabetic
-1,sideritis raeseri boiss. & heldr,sideritis,111.sodrzhina na,s. rae-seri,,,,,,centaurim erythrea l_antilipidemic
-2,sideritis,sideritis scardica griseb,planinski chaj,,,,,,,centaurium erythrea l_antidiabetic
-3,sideritis raeseri boiss. &heldr. subsp. raeseri,sideritis raeseri boiss,sideri-tis scardica,,,,,,,centaurium erythrea l_antilipidemic
+0,sideritis raeseri,sideritis raeseri,mehmet musa ozcan,centaurim erythrea l,,,,,,centaurim erythrea l_antilipidemic
+1,sideritis raeseri boiss. & heldr,sideritis,111.sodrzhina na,s. rae-seri,,,,,,centaurim erythrea l_antidiabetic
+2,sideritis,sideritis scardica griseb,planinski chaj,,,,,,,centaurium erythrea l_antilipidemic
+3,sideritis raeseri boiss. &heldr. subsp. raeseri,sideritis raeseri boiss,sideri-tis scardica,,,,,,,centaurium erythrea l_antidiabetic
 4,sideritis scardica,sideritis intenzivno,makedonija2prirodno-matematichki fakultet,,,,,,,
 5,sideritis scardica griseb,sideritis scardica,shtose,,,,,,,
 6,sideritisscardica griseb,s. scardica,lamia,,,,,,,

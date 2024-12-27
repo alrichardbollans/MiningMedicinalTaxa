@@ -6,13 +6,13 @@
 4,laurus nobilis linn,laurus nobilis,,medicago sativa,,,,,,salvia triloba l_antibacterial
 5,cupressus sempervirens,cupressus,,salixalba,,,,,,salviaofficinalis l_antibacterial
 6,eucalyptus saligna,eucalyptus saligna,,daturastramonium l,,,,,,ziziphora taurica subsp. cleonioides_antioxidant
-7,sideritis,sideritis,,potentilla,,,,,,laurus nobilis linn_antinflammatory
-8,morus alba l,morus alba,,hypericum,,,,,,laurus nobilis linn_analgesic
+7,sideritis,sideritis,,potentilla,,,,,,laurus nobilis linn_analgesic
+8,morus alba l,morus alba,,hypericum,,,,,,laurus nobilis linn_antinflammatory
 9,glycyrrhiza glabra l,glycyrrhiza glabra,,,,,,,,menthaspicata_antifungal
 10,tilia platyphyllos l,tilia platyphyllos,,,,,,,,sideritis_antioxidant
 11,rumex crispus l,rumex crispus,,,,,,,,morus alba l_antidiabetic
 12,,,,,,,,,,morus alba l_antioxidant
-13,,,,,,,,,,rumex crispus l_antimicrobial
-14,,,,,,,,,,rumex crispus l_antioxidant
+13,,,,,,,,,,rumex crispus l_antioxidant
+14,,,,,,,,,,rumex crispus l_antimicrobial
 15,,,,,,,,,,rubus sanctus schreber_wound healing
 16,,,,,,,,,,glycyrrhiza glabra l_inhibit adhesion ofhelicobacter pylori to human gastric mucosa

@@ -1,23 +1,23 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,curcuma longa l,curcuma longa l,turmeric,,,,curcuma longa l_cancer,,,curcuma longa l_anticancer
-1,allium sativum l,allium sativum l,haldi,,,,allium sativum l_high cholesterol,,,curcuma longa l_anti-inflammatory
-2,eugenia caryophylatta thunb,eugenia caryophylatta thunb,garlic,,,,allium sativum l_stroke,,,curcuma longa l_antioxidant
-3,azadirachta indica a.juss,azadirachta indica a.juss,lasan,,,,allium sativum l_heart disease,,,curcuma longa l_antimicrobial
-4,,,allicin,,,,allium sativum l_infections,,,curcuma longa l_kill tumour cells
-5,,,alliin,,,,allium sativum l_dyslipidaemia,,,allium sativum l_anti-hypertensive
-6,,,cloves,,,,eugenia caryophylatta thunb_toothaches,,,allium sativum l_reducing low density lipids and triglycerides
-7,,,neem,,,,,,,allium sativum l_anti-platelet
-8,,,hms,,,,,,,allium sativum l_antibacterial
-9,,,plants,,,,,,,eugenia caryophylatta thunb_aid digestion
-10,,,asian hms,,,,,,,eugenia caryophylatta thunb_anti-emetic
-11,,,cinnamon,,,,,,,eugenia caryophylatta thunb_analgesic
+0,curcuma longa l,curcuma longa l,turmeric,,,,curcuma longa l_cancer,,,curcuma longa l_kill tumour cells
+1,allium sativum l,allium sativum l,haldi,,,,allium sativum l_infections,,,curcuma longa l_anti-inflammatory
+2,eugenia caryophylatta thunb,eugenia caryophylatta thunb,garlic,,,,allium sativum l_dyslipidaemia,,,curcuma longa l_antioxidant
+3,azadirachta indica a.juss,azadirachta indica a.juss,lasan,,,,allium sativum l_heart disease,,,curcuma longa l_anticancer
+4,,,allicin,,,,allium sativum l_high cholesterol,,,curcuma longa l_antimicrobial
+5,,,alliin,,,,allium sativum l_stroke,,,allium sativum l_anti-hypertensive
+6,,,cloves,,,,eugenia caryophylatta thunb_toothaches,,,allium sativum l_anti-platelet
+7,,,neem,,,,,,,allium sativum l_antibacterial
+8,,,hms,,,,,,,allium sativum l_reducing low density lipids and triglycerides
+9,,,plants,,,,,,,eugenia caryophylatta thunb_anaesthetic
+10,,,asian hms,,,,,,,eugenia caryophylatta thunb_aid digestion
+11,,,cinnamon,,,,,,,eugenia caryophylatta thunb_anti-emetic
 12,,,sukvinder kaur,,,,,,,eugenia caryophylatta thunb_antimicrobial
-13,,,bhamra ginger,,,,,,,eugenia caryophylatta thunb_anaesthetic
-14,,,mint,,,,,,,eugenia caryophylatta thunb_antiseptic
-15,,,,,,,,,,azadirachta indica a.juss_anti-cancer
-16,,,,,,,,,,azadirachta indica a.juss_blood purifying
-17,,,,,,,,,,azadirachta indica a.juss_antipruritic
-18,,,,,,,,,,azadirachta indica a.juss_anti-inflammatory
-19,,,,,,,,,,azadirachta indica a.juss_antifungal
+13,,,bhamra ginger,,,,,,,eugenia caryophylatta thunb_antiseptic
+14,,,mint,,,,,,,eugenia caryophylatta thunb_analgesic
+15,,,,,,,,,,azadirachta indica a.juss_blood purifying
+16,,,,,,,,,,azadirachta indica a.juss_anti-inflammatory
+17,,,,,,,,,,azadirachta indica a.juss_anti-cancer
+18,,,,,,,,,,azadirachta indica a.juss_antipruritic
+19,,,,,,,,,,azadirachta indica a.juss_anti-diabetic
 20,,,,,,,,,,azadirachta indica a.juss_antibacterial
-21,,,,,,,,,,azadirachta indica a.juss_anti-diabetic
+21,,,,,,,,,,azadirachta indica a.juss_antifungal

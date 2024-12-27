@@ -1,15 +1,15 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,salvia officinalis,salvia officinalis,listeria monocytogenes,p. peu-ce,,,,,,salvia l_antimicrobial
 1,salvia,rosmarinus offici-nalis,s. epidermidis,t.s longicaulis,,,,,,stachys sylvatica l_antioxidant
-2,rosmarinus offici-nalis,salvia,l. monocytogenes,ab-ies alba mill,,,,,,p. mugo_antioxidant
-3,salvia l,juniperus communis,,th. pulegioides l. subsp. montanus,,,,,,p. mugo_antimi-crobial
+2,rosmarinus offici-nalis,salvia,l. monocytogenes,ab-ies alba mill,,,,,,p. mugo_antimi-crobial
+3,salvia l,juniperus communis,,th. pulegioides l. subsp. montanus,,,,,,p. mugo_antioxidant
 4,j. communis,j. communis subsp. alpina,,th. to-sevii velen,,,,,,p. peu-ce_antioxidant
-5,juniperus communis l,j. oxycedrus,,th. longicaulis presl,,,,,,p. heldreichii_antioxidant
-6,j. communis subsp. alpina (suter) celak,a. borisii-regis,,hyper-icum perforatum l,,,,,,p. heldreichii_antimi-crobial
-7,j. oxycedrus l,pinus mugo,,a.millefolium l,,,,,,p. sylvestris_antioxidant
-8,j. oxycedrus,p. peuce,,a. alba turra,,,,,,p. sylvestris_antimi-crobial
-9,juniperus oxycedrus l,p. heldreichii,,h. perfora-tum,,,,,,p. nigra_antioxidant
-10,a. borisii-regis mattf,p. sylvestris,,a. alba,,,,,,p. nigra_antimi-crobial
+5,juniperus communis l,j. oxycedrus,,th. longicaulis presl,,,,,,p. heldreichii_antimi-crobial
+6,j. communis subsp. alpina (suter) celak,a. borisii-regis,,hyper-icum perforatum l,,,,,,p. heldreichii_antioxidant
+7,j. oxycedrus l,pinus mugo,,a.millefolium l,,,,,,p. sylvestris_antimi-crobial
+8,j. oxycedrus,p. peuce,,a. alba turra,,,,,,p. sylvestris_antioxidant
+9,juniperus oxycedrus l,p. heldreichii,,h. perfora-tum,,,,,,p. nigra_antimi-crobial
+10,a. borisii-regis mattf,p. sylvestris,,a. alba,,,,,,p. nigra_antioxidant
 11,p. mugo,p. nigra,,,,,,,,j. communis_antimi-crobial
 12,pinus mugo turra,picea abies,,,,,,,,p. peuce_antimi-crobial
 13,pinus mugo,betonica officinalis,,,,,,,,t.s longicaulis_antimi-crobial

@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,stahlianthus thorelii,stahlianthus thorelii gagnep,,p. odora,stahlianthus thorelii gagnep_osteoarthritis,,,pulicaria gaertn_cicatrizant,,stahlianthus thorelii_cytotoxicity
-1,s. thorelii,euphorbia neriifolia,,p. dysenterica,stahlianthus thorelii gagnep_inflammation,,,pulicaria gaertn_antiinflammatory,,stahlianthus thorelii_anti-proliferative
-2,euphorbia neriifolia,pulicaria gaertn,,,stahlianthus thorelii gagnep_cancer,,,pulicaria wightiana_antiinflammatory,,stahlianthus thorelii_anticancer
+0,stahlianthus thorelii,stahlianthus thorelii gagnep,,p. odora,stahlianthus thorelii gagnep_osteoarthritis,,,pulicaria gaertn_cicatrizant,,stahlianthus thorelii_anti-proliferative
+1,s. thorelii,euphorbia neriifolia,,p. dysenterica,stahlianthus thorelii gagnep_inflammation,,,pulicaria gaertn_antiinflammatory,,stahlianthus thorelii_anticancer
+2,euphorbia neriifolia,pulicaria gaertn,,,stahlianthus thorelii gagnep_cancer,,,pulicaria wightiana_antiinflammatory,,stahlianthus thorelii_cytotoxicity
 3,euphorbia neriifolia l,pulicaria wightiana,,,euphorbia neriifolia_inflammation,,,,,s. thorelii_antiproliferative
 4,pulicaria,,,,euphorbia neriifolia_cancer,,,,,euphorbia neriifolia_anti-proliferative
 5,pulicaria gaertn,,,,euphorbia neriifolia_diabetes mellitus,,,,,euphorbia neriifolia_anticancer

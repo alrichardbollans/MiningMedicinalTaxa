@@ -1,15 +1,15 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,chenopodium,chenopodium,,che-nopodium,,,zizyphus lotus l_skin infections,,,c. botrys_antidiarrheal
-1,chenopodium botrys l,chenopodium botrys l,,c. al-bum,,,zizyphus lotus l_digestive disorders,,,c. botrys_car-minative
-2,chenopodium linn,chenopodium linn,,,,,zizyphus lotus l_diabetes,,,c. botrys_diuretic
-3,chenopodium album l,chenopodium album l,,,,,zizyphus lotus l_urinary troubles,,,c. botrys_antispasmodic
-4,c. botrys,chenopodium spp,,,,,zizyphus lotus l_anxiety,,,zizyphus lotus l_anti-ulcerogenic
+0,chenopodium,chenopodium,,che-nopodium,,,zizyphus lotus l_urinary troubles,,,c. botrys_car-minative
+1,chenopodium botrys l,chenopodium botrys l,,c. al-bum,,,zizyphus lotus l_digestive disorders,,,c. botrys_antidiarrheal
+2,chenopodium linn,chenopodium linn,,,,,zizyphus lotus l_obesity,,,c. botrys_diuretic
+3,chenopodium album l,chenopodium album l,,,,,zizyphus lotus l_skin infections,,,c. botrys_antispasmodic
+4,c. botrys,chenopodium spp,,,,,zizyphus lotus l_diabetes,,,zizyphus lotus l_immunomodulatory
 5,c. album,c. botrys,,,,,zizyphus lotus l_insomnia,,,zizyphus lotus l_anti-inflammatory
-6,zizyphus lotus l,c. album,,,,,zizyphus lotus l_obesity,,,zizyphus lotus l_immunomodulatory
-7,zizyphus lotus,chenopodium species,,,,,,,,zizyphus lotus l_analgesic
-8,zizyphus lo-tus,zizyphus lotus l,,,,,,,,zizyphus lotus l_antioxidant
-9,zizyphus lo-tus l,zizyphus lotus,,,,,,,,zizyphus lotus_analgesic
-10,,zizyphus lo-tus,,,,,,,,zizyphus lotus_antiradical
-11,,zizyphus lo-tus l,,,,,,,,zizyphus lotus_anti-inflammatory
+6,zizyphus lotus l,c. album,,,,,zizyphus lotus l_anxiety,,,zizyphus lotus l_antioxidant
+7,zizyphus lotus,chenopodium species,,,,,,,,zizyphus lotus l_anti-ulcerogenic
+8,zizyphus lo-tus,zizyphus lotus l,,,,,,,,zizyphus lotus l_analgesic
+9,zizyphus lo-tus l,zizyphus lotus,,,,,,,,zizyphus lotus_anti-inflammatory
+10,,zizyphus lo-tus,,,,,,,,zizyphus lotus_analgesic
+11,,zizyphus lo-tus l,,,,,,,,zizyphus lotus_antiradical
 12,,,,,,,,,,zizyphus lo-tus_antioxidant
 13,,,,,,,,,,zizyphus lo-tus l_antioxidant

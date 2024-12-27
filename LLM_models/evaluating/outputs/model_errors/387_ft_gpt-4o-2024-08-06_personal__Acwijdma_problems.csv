@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,o. natrix subsp. hispanica,ononis natrix subsp. hispanica,,notopterygium incisum,ononis_urinaryproblems,,ononis natrixsubsp. hispanica_staphylococcus epidermidis,ononis natrix subsp. hispanica_cytotoxic,ononis natrix subsp. hispanica_initiation of apoptosis,ononis natrixsubsp. hispanica_dna protection
-1,ononis natrix subsp. hispanica,ononis,,,ononis_gout,,ononis natrixsubsp. hispanica_staphylococcus aureus,ononis natrix subsp. hispanica_antioxidant,ononis natrix subsp. hispanica_dna protection,ononis natrixsubsp. hispanica_enzyme inhibitory
-2,ononis,ononis natrixsubsp. hispanica,,,ononis_skin disorders,,ononis_diuretic,ononis natrix subsp. hispanica_antimicrobial,ononis natrix subsp. hispanica_antibacterialeffect,ononis natrixsubsp. hispanica_antibacterial
+0,o. natrix subsp. hispanica,ononis natrix subsp. hispanica,,notopterygium incisum,ononis_urinaryproblems,,ononis natrixsubsp. hispanica_staphylococcus epidermidis,ononis natrix subsp. hispanica_cytotoxic,ononis natrix subsp. hispanica_initiation of apoptosis,ononis natrixsubsp. hispanica_antibacterial
+1,ononis natrix subsp. hispanica,ononis,,,ononis_gout,,ononis natrixsubsp. hispanica_staphylococcus aureus,ononis natrix subsp. hispanica_antioxidant,ononis natrix subsp. hispanica_dna protection,ononis natrixsubsp. hispanica_dna protection
+2,ononis,ononis natrixsubsp. hispanica,,,ononis_skin disorders,,ononis_diuretic,ononis natrix subsp. hispanica_antimicrobial,ononis natrix subsp. hispanica_antibacterialeffect,ononis natrixsubsp. hispanica_enzyme inhibitory
 3,ononis natrixsubsp. hispanica,o. natrix subsp. hispanica,,,,,,ononis_analgesic,ononis natrix subsp. hispanica_enzyme inhibitory,ononis natrix subsp. hispanica_anti-mutagenic
 4,ononis natrix subsp.hispanica,ononis natrix subsp.hispanica,,,,,,ononis_cytotoxic,ononis_antimicrobialeffect,
 5,o. natrix subsp.hispanica,o. natrix subsp.hispanica,,,,,,ononis_antioxidant,ononis_wound healing,

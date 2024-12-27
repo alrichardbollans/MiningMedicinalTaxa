@@ -1,56 +1,56 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,catalpa bignonioides,catalpa,rhizome]podophyllum peltatum,lobelia tupa,,,chenopodium quinoa_intestinal worms,,,lobelia tupa_emetic
-1,catalpa,alkanna,medicinealnus oregana,chenopodium quinoa,,,solidago spp_hepatitis,,,carthamus tinctorius_vermifuge
-2,catalpa speciosa,terminalia family)anogeissus,timberbetula lenta,carthamus tinctorius,,,tanacetum vulgare_migraine,,,carthamus tinctorius_diuretic
-3,alkanna lehmannii,terminalia,timberbetula pendula,solidago spp,,,tanacetum vulgare_fever,,,dichondra spp_purgative
-4,alkanna,dichondra lawn grass,timbercarpinus caroliniana,tanacetum vulgare,,,nyssa aquatica_leukemia,,,dichondra_purgative
-5,terminalia,,timbercorylus americana,dichondra spp,,,nyssa aquatica_throat cancer,,,ipomoea pandurata_purgative
-6,terminalia chebula,,bignonia family)catalpa,ipomoea pandurata,,,,,,ipomoea purga_cathartic
-7,terminalia catappa,,timbercatalpa speciosa,ipomoea purga,,,,,,ipomoea tricolor_purgative
-8,terminalia superba,,timberkigelia pinnata,ipomoea tricolor,,,,,,citrullus lanatus_purgative
-9,terminalia spp,,bark]tabebuia donnell-smithii,nyssa aquatica,,,,,,casuarina equisetifolia_laxative
-10,dichondra,,timbertabebuia serratifolia,citrullus lanatus,,,,,,
-11,,,bixa family)bixa,casuarina equisetifolia,,,,,,
-12,,,baobabbombax ceiba,podophyllum peltatum,,,,,,
-13,,,itemspachira aquatica,alnus glutinosa,,,,,,
-14,,,carvings)cordia subcordata,alnus oregana,,,,,,
-15,,,carving)pulmonaria officinalis,alnus rubra,,,,,,
-16,,,leaf]symphytum officinale,betula allaghaniensis,,,,,,
-17,,,stem]hylocereus undatus,betula lenta,,,,,,
-18,,,fruit]lophophora williamsii,betula papyrifera,,,,,,
-19,,,peyotl cactus,betula pendula,,,,,,
-20,,,tupa,carpinus caroliniana,,,,,,
-21,,,papaya family)carica,corylus americana,,,,,,
-22,,,papaya,corylus avellana,,,,,,
-23,,,flower]saponaria officinalis,corylus chinensis,,,,,,
-24,,,leaf]cercidophyllaceaecercidiphyllum japonicum,corylus cornuta,,,,,,
-25,,,taproot]chenopodium ambrosioides,ostrya spp,,,,,,
-26,,,leaf]spinacia oleracea,crescentia cujete,,,,,,
-27,,,timberterminalia chebula,kigelia pinnata,,,,,,
-28,,,pyrethrum,tabebuia donnell-smithii,,,,,,
-29,,,cluster]echinacea angustifolia,tabebuia serratifolia,,,,,,
-30,,,leaf]guizotia abyssinica,bixa orellana,,,,,,
-31,,,latexscorzonera hispanica,adansonia digitata,,,,,,
-32,,,latextaraxacum officinale,bombax ceiba,,,,,,
-33,,,substituteipomoea aquatica,ceiba pentandra,,,,,,
-34,,,root]ipomoea tricolor,chorisia speciosa,,,,,,
-35,,,tupelo,durio zibethinus,,,,,,
-36,,,timbernyssa sylvatica,ochroma pyramindale,,,,,,
-37,,,root]barbarea verna,pachira aquatica,,,,,,
-38,,,leaf]nasturtium officinale,cordia sebestena,,,,,,
-39,,,fruit]cucurbita maxima,cordia subcordata,,,,,,
-40,,,seed]cucurbita moschata,pulmonaria officinalis,,,,,,
-41,,,leaf]telfairia pedata,symphytum officinale,,,,,,
-42,,,pith]eleocharis dulcis,aechemea magdalanae,,,,,,
-43,,,stem]scirpus californicus,ananas comosus,,,,,,
-44,,,dillenia family)dillenia,tillandsia usneoides,,,,,,
-45,,,tuber]dioscorea bulbifera,bursera,,,,,,
-46,,,tuber]dioscorea hispida,boswellia carteri,,,,,,
-47,,,tuber]dioscorea rotundata,bursera spp,,,,,,
-48,,,tuber]dioscorea trifida,canarium spp,,,,,,
-49,,,tuber]dioscorea villosa,commiphora gileadensis,,,,,,
-50,,,stem]dipterocarpus tuberculatus,commiphora myrrha,,,,,,
-51,,,fruit]diospyros discolor,carnegia gigantea,,,,,,
+0,catalpa bignonioides,catalpa,bignonia family)catalpa,lobelia tupa,,,chenopodium quinoa_intestinal worms,,,lobelia tupa_emetic
+1,catalpa,alkanna,bixa family)bixa,chenopodium quinoa,,,solidago spp_hepatitis,,,carthamus tinctorius_vermifuge
+2,catalpa speciosa,terminalia family)anogeissus,peyotl cactus,carthamus tinctorius,,,tanacetum vulgare_fever,,,carthamus tinctorius_diuretic
+3,alkanna lehmannii,terminalia,tupa,solidago spp,,,tanacetum vulgare_migraine,,,dichondra spp_purgative
+4,alkanna,dichondra lawn grass,papaya family)carica,tanacetum vulgare,,,nyssa aquatica_leukemia,,,dichondra_purgative
+5,terminalia,,papaya,dichondra spp,,,nyssa aquatica_throat cancer,,,ipomoea pandurata_purgative
+6,terminalia chebula,,pyrethrum,ipomoea pandurata,,,,,,ipomoea purga_cathartic
+7,terminalia catappa,,tupelo,ipomoea purga,,,,,,ipomoea tricolor_purgative
+8,terminalia superba,,dillenia family)dillenia,ipomoea tricolor,,,,,,citrullus lanatus_purgative
+9,terminalia spp,,,nyssa aquatica,,,,,,casuarina equisetifolia_laxative
+10,dichondra,,,citrullus lanatus,,,,,,
+11,,,,casuarina equisetifolia,,,,,,
+12,,,,podophyllum peltatum,,,,,,
+13,,,,alnus glutinosa,,,,,,
+14,,,,alnus oregana,,,,,,
+15,,,,alnus rubra,,,,,,
+16,,,,betula allaghaniensis,,,,,,
+17,,,,betula lenta,,,,,,
+18,,,,betula papyrifera,,,,,,
+19,,,,betula pendula,,,,,,
+20,,,,carpinus caroliniana,,,,,,
+21,,,,corylus americana,,,,,,
+22,,,,corylus avellana,,,,,,
+23,,,,corylus chinensis,,,,,,
+24,,,,corylus cornuta,,,,,,
+25,,,,ostrya spp,,,,,,
+26,,,,crescentia cujete,,,,,,
+27,,,,kigelia pinnata,,,,,,
+28,,,,tabebuia donnell-smithii,,,,,,
+29,,,,tabebuia serratifolia,,,,,,
+30,,,,bixa orellana,,,,,,
+31,,,,adansonia digitata,,,,,,
+32,,,,bombax ceiba,,,,,,
+33,,,,ceiba pentandra,,,,,,
+34,,,,chorisia speciosa,,,,,,
+35,,,,durio zibethinus,,,,,,
+36,,,,ochroma pyramindale,,,,,,
+37,,,,pachira aquatica,,,,,,
+38,,,,cordia sebestena,,,,,,
+39,,,,cordia subcordata,,,,,,
+40,,,,pulmonaria officinalis,,,,,,
+41,,,,symphytum officinale,,,,,,
+42,,,,aechemea magdalanae,,,,,,
+43,,,,ananas comosus,,,,,,
+44,,,,tillandsia usneoides,,,,,,
+45,,,,bursera,,,,,,
+46,,,,boswellia carteri,,,,,,
+47,,,,bursera spp,,,,,,
+48,,,,canarium spp,,,,,,
+49,,,,commiphora gileadensis,,,,,,
+50,,,,commiphora myrrha,,,,,,
+51,,,,carnegia gigantea,,,,,,
 52,,,,coryphanthus palmeri,,,,,,
 53,,,,echinopsis pachanoi,,,,,,
 54,,,,hylocereus undatus,,,,,,

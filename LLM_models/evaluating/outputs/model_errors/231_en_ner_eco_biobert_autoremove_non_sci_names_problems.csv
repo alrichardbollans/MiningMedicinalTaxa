@@ -1,11 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,hypericum spp,hypericum spp,eriocephalus,hypericum l,,,hypericum spp_wound-healing,,,hypericum spp_wound-healing
-1,h. perforatum,h. perforatum (hp,allium hookeri,h. amblycalyx,,,h. empetrifolium_wounds,,,hypericum spp_wound healing
-2,h. empetrifolium,h. empetrifolium,pseudomonas aeruginosa,,,,h. empetrifolium_wound-healing,,,hypericum l_gastroprotective
-3,h. triquetrifolium,h. triquetrifolium (ht,staphylococcus aureus,,,,h. empetrifolium_skin inflammations,,,hypericum l_antiangiogenetic
-4,h. jovis,h. jovis,rosmarinus officinalis,,,,h. amblycalyx_wound-healing,,,hypericum l_antioxidant
-5,laurus nobilis l,laurus nobilis l,vaccinium,,,,h. jovis_wound-healing,,,h. empetrifolium_wound healing
-6,,,vitis,,,,h. perforatum_wound-healing,,,
-7,,,rosmarinus officinalis l,,,,h. triquetrifolium_wound-healing,,,
-8,,,eucalyptus,,,,,,,
-9,,,melissa,,,,,,,
+1,h. perforatum,h. perforatum (hp,allium hookeri,h. amblycalyx,,,h. empetrifolium_wound-healing,,,hypericum spp_wound healing
+2,h. empetrifolium,h. empetrifolium,rosmarinus officinalis,,,,h. empetrifolium_wounds,,,hypericum l_antiangiogenetic
+3,h. triquetrifolium,h. triquetrifolium (ht,vaccinium,,,,h. empetrifolium_skin inflammations,,,hypericum l_gastroprotective
+4,h. jovis,h. jovis,vitis,,,,h. amblycalyx_wound-healing,,,hypericum l_antioxidant
+5,laurus nobilis l,laurus nobilis l,rosmarinus officinalis l,,,,h. jovis_wound-healing,,,h. empetrifolium_wound healing
+6,,,eucalyptus,,,,h. perforatum_wound-healing,,,
+7,,,melissa,,,,h. triquetrifolium_wound-healing,,,

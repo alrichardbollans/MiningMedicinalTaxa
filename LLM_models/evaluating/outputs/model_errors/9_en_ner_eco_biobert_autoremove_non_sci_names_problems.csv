@@ -1,6 +1,4 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,aristolochia fangchi,aristolochia fangchi,,,,,,,,
-1,piper methysticum,piper methysticum,,,,,,,,
-2,teuchrium chamaedrys,teuchrium chamaedrys,,,,,,,,
-3,andrographis paniculata,andrographis paniculata,,,,,,,,
-4,chelidortium majus,chelidortium majus,,,,,,,,
+0,aristolochia fangchi,aristolochia fangchi,,teuchrium chamaedrys,,,,,,
+1,piper methysticum,piper methysticum,,chelidortium majus,,,,,,
+2,andrographis paniculata,andrographis paniculata,,,,,,,,

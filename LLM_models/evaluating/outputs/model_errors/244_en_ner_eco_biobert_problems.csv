@@ -1,13 +1,13 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,arbutus unedo l,arbutus unedo l,cannabidiol,cannabis,,,cannabis_chronic pain,,,cannabis_mood alteration
-1,salvia fruticosa mill,salvia fruticosa mill,cbd,,,,cannabis_inflammation,,,cannabis_substitutive cannabis use
-2,s. fruticosa mill,s. fruticosa mill,carvacrol,,,,cannabis_epilepsy,,,cannabis_pain-relief
+0,arbutus unedo l,arbutus unedo l,cannabidiol,cannabis,,,cannabis_inflammation,,,cannabis_pain-relief
+1,salvia fruticosa mill,salvia fruticosa mill,cbd,,,,cannabis_epilepsy,,,cannabis_substitutive cannabis use
+2,s. fruticosa mill,s. fruticosa mill,carvacrol,,,,cannabis_chronic pain,,,cannabis_mood alteration
 3,tapinanthus globiferus,tapinanthus globiferus,p-cymene,,,,salvia fruticosa mill_guttate psoriasis,,,arbutus unedo l_antioxidant
 4,t. globiferus,t. globiferus,g-terpinene,,,,salvia fruticosa mill_seborrheic dermatitis,,,tapinanthus globiferus_anticonvulsant
 5,shorea roxburghii,shorea roxburghii,thymol,,,,s. fruticosa mill_guttate psoriasis,,,t. globiferus_antiseizure
-6,,,strawberry tree,,,,tapinanthus globiferus_stroke,,,shorea roxburghii_antihyperglycemic
-7,,,croatiastrawberry tree,,,,tapinanthus globiferus_seizures,,,shorea roxburghii_antihyperlipidemic
-8,,,kallimanis1,,,,tapinanthus globiferus_epilepsy,,,
+6,,,strawberry tree,,,,tapinanthus globiferus_epilepsy,,,shorea roxburghii_antihyperglycemic
+7,,,croatiastrawberry tree,,,,tapinanthus globiferus_stroke,,,shorea roxburghii_antihyperlipidemic
+8,,,kallimanis1,,,,tapinanthus globiferus_seizures,,,
 9,,,s. prodromidis21,,,,t. globiferus_seizure,,,
 10,,,dessinioti c,,,,,,,
 11,,,katsambas a,,,,,,,

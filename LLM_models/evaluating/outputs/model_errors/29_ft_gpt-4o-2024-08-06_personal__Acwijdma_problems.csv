@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,echinacea angustifolia dc,echinacea angustifolia dc,,aloe vera,echinacea angustifolia dc_common cold,,aloe vera_skin heath,boswellia serrate roxb. ex colebr_anti-inflammatory,,echinacea_maintain immune system
+0,echinacea angustifolia dc,echinacea angustifolia dc,,aloe vera,echinacea angustifolia dc_common cold,,aloe vera_wound,boswellia serrate roxb. ex colebr_anti-inflammatory,,echinacea_maintain immune system
 1,echinacea,boswellia serrate roxb. ex colebr,,mentha,echinacea angustifolia dc_infections,,aloe vera_skin conditions,althaea officinalis l_demulcent,,mentha_calm nerves
-2,boswellia serrate roxb. ex colebr,althaea officinalis l,,ginkgo,,,aloe vera_eczema,,,mentha_eases digestion
-3,boswellia,,,agnus castus,,,aloe vera_wound,,,ginkgo_circulatory problems
+2,boswellia serrate roxb. ex colebr,althaea officinalis l,,ginkgo,,,aloe vera_skin heath,,,mentha_eases digestion
+3,boswellia,,,agnus castus,,,aloe vera_eczema,,,ginkgo_circulatory problems
 4,althaea officinalis l,,,senna,,,echinacea_sore throat,,,althaea officinalis l_cough
 5,,,,rhodiola,,,echinacea_colds,,,
 6,,,,aspergillus,,,echinacea_coughs,,,

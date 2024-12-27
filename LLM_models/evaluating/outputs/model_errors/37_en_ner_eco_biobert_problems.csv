@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,ocimum,ocimum species,plant species,,,,,,,nigella sativa_analgesic
+0,ocimum,ocimum species,plant species,,,,,,,nigella sativa_anti-inflammatory
 1,ocimum sanctum,ocimum sanctum,quinine,,,,,,,nigella sativa_antipyretic
-2,picrorhiza kurrooa,picrorhiza kurrooa,kutki,,,,,,,nigella sativa_anti-inflammatory
-3,nigella sativa,nigella sativa,ginger,,,,,,,ocimum sanctum_hypoglycaemic
-4,zingiber officinale roscoe,zingiber officinale roscoe,cartilage,,,,,,,ocimum sanctum_antifertility
+2,picrorhiza kurrooa,picrorhiza kurrooa,kutki,,,,,,,nigella sativa_analgesic
+3,nigella sativa,nigella sativa,ginger,,,,,,,ocimum sanctum_antifertility
+4,zingiber officinale roscoe,zingiber officinale roscoe,cartilage,,,,,,,ocimum sanctum_hypoglycaemic
 5,trachyspermum ammi,ocimum sp,punjabi asians,,,,,,,hibiscus rosa-sinensis_antifertility
 6,curcuma longa l,trachyspermum ammi,bhamra blumenthal,,,,,,,
 7,hibiscus rosa-sinensis,curcuma longa l,azadirachtin a,,,,,,,

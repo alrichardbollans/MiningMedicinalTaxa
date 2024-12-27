@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,euclea natalensis a.dc,euclea natalensis,africaeuclea natalensis,,,,euclea natalensis_drug-induced liver injury,,,euclea natalensis a.dc_hepatoprotective
-1,euclea natalensis,vitex,lamiaceae,,,,euclea natalensis_tuberculosis,,,euclea natalensis a.dc_antifibrotic
-2,vitex,oldfieldia dactylophylla,caenorhabditis elegans,,,,euclea natalensis_stomach problems,,,euclea natalensis_antifibrotic
-3,oldfieldia dactylophylla (welw. ex oliv,v. congolensis,picrodendraceae,,,,euclea natalensis_abdominal pain,,,euclea natalensis_antibacterial
-4,v. congolensis de wild and t. durand,v. doniana,germanyentada africana,,,,euclea natalensis_dysentery,,,euclea natalensis_antimycobacterial
-5,v. doniana sweet,v. fischeri,polygonaceae,,,,euclea natalensis_chest related complaints,,,euclea natalensis_hepatoprotectant
+0,euclea natalensis a.dc,euclea natalensis,africaeuclea natalensis,,,,euclea natalensis_chest related complaints,,,euclea natalensis a.dc_hepatoprotective
+1,euclea natalensis,vitex,lamiaceae,,,,euclea natalensis_dysentery,,,euclea natalensis a.dc_antifibrotic
+2,vitex,oldfieldia dactylophylla,caenorhabditis elegans,,,,euclea natalensis_drug-induced liver injury,,,euclea natalensis_hepatoprotectant
+3,oldfieldia dactylophylla (welw. ex oliv,v. congolensis,picrodendraceae,,,,euclea natalensis_abdominal pain,,,euclea natalensis_antimycobacterial
+4,v. congolensis de wild and t. durand,v. doniana,germanyentada africana,,,,euclea natalensis_tuberculosis,,,euclea natalensis_antibacterial
+5,v. doniana sweet,v. fischeri,polygonaceae,,,,euclea natalensis_stomach problems,,,euclea natalensis_antifibrotic
 6,v. fischeri gurke,v. madiensis,bifidobacterium,,,,oldfieldia dactylophylla (welw. ex oliv_parasitic worm,,,vitex_anthelmintic
 7,v. madiensis subsp. milanjiensis (britten) f.white,v. mombassae,africaacne vulgaris,,,,v. doniana sweet_parasitic worm,,,entada africana_anti-inflammatory
 8,v. mombassae vatke,entada africana,cutibacterium acnes,,,,v. fischeri gurke_parasitic worm,,,entada africana guill. & perr_analgesic

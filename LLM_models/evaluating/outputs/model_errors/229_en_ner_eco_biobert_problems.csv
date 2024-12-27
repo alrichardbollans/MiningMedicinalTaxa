@@ -1,14 +1,14 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,achillea moschata wulfen,achillea moschata wulfen,bernina,,,,achillea moschata wulfen_gynaecological infections,,,achillea moschata wulfen_analgesic
+0,achillea moschata wulfen,achillea moschata wulfen,bernina,,,,achillea moschata wulfen_gynaecological infections,,,achillea moschata wulfen_anti-inflammatory
 1,candida,candida spp,terra glacialis,,,,achillea moschata wulfen_intestinal swelling in bovine,,,achillea moschata wulfen_digestive
-2,malva sylvestris l,malva sylvestris l,grigore alexandrescu,,,,achillea moschata wulfen_ulcers,,,achillea moschata wulfen_anti-inflammatory
-3,thymus pulegioides l,thymus pulegioides l,mint,,,,malva sylvestris l_allergies,,,achillea moschata wulfen_hypotensive
-4,achillea millefolium l,achillea millefolium l,chamomille,,,,thymus pulegioides l_cold,,,malva sylvestris l_relaxing
-5,mentha spicata l,mentha spicata l,silver linden,,,,thymus pulegioides l_sore throat,,,malva sylvestris l_acne reactions
-6,matricaria chamomilla l,matricaria chamomilla l,garlic,,,,achillea millefolium l_menopause symptoms,,,malva sylvestris l_emollient
+2,malva sylvestris l,malva sylvestris l,grigore alexandrescu,,,,achillea moschata wulfen_ulcers,,,achillea moschata wulfen_hypotensive
+3,thymus pulegioides l,thymus pulegioides l,mint,,,,malva sylvestris l_allergies,,,achillea moschata wulfen_analgesic
+4,achillea millefolium l,achillea millefolium l,chamomille,,,,thymus pulegioides l_cold,,,malva sylvestris l_soothing
+5,mentha spicata l,mentha spicata l,silver linden,,,,thymus pulegioides l_sore throat,,,malva sylvestris l_emollient
+6,matricaria chamomilla l,matricaria chamomilla l,garlic,,,,achillea millefolium l_menopause symptoms,,,malva sylvestris l_acne reactions
 7,tilia tomentosa moench,tilia tomentosa moench,pumpkin,,,,mentha spicata l_diarrhoea,,,malva sylvestris l_purifying
-8,cucurbita pepo l,cucurbita pepo l,heartsease,,,,matricaria chamomilla l_skin infections,,,malva sylvestris l_soothing
-9,viola tricolor l,viola tricolor l,wheat bran,,,,matricaria chamomilla l_colic,,,thymus pulegioides l_expectorant
+8,cucurbita pepo l,cucurbita pepo l,heartsease,,,,matricaria chamomilla l_colic,,,malva sylvestris l_relaxing
+9,viola tricolor l,viola tricolor l,wheat bran,,,,matricaria chamomilla l_skin infections,,,thymus pulegioides l_expectorant
 10,triticum aestivum l,triticum aestivum l,dill,,,,tilia tomentosa moench_acute respiratory diseases,,,achillea millefolium l_disinfectant for wounds on bovine paws
 11,anethum graveolens l,anethum graveolens l,greater celandine,,,,tilia tomentosa moench_agitation,,,origanum dictamnus_relaxing effect on rabbit intestine
 12,chelidonium majus l,chelidonium majus l,oxyuriasis,,,,tilia tomentosa moench_anxiety,,,

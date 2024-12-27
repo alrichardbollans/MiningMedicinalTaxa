@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,scutellaria baicalensis georgii,s. baicalensis,umbelliferae,c. acicularisbertol,,,,,,heracleum verticillatum_antimicrobial
-1,scutellaria baicalensis,scutellaria baicalensis,stara planina,c. tho-ermeri weinm,,,,,,s. rigidum_anti-inflammatory
-2,heracleum verticillatum,heracleum,micrococcus luteus,heracleumverticillatum pancic,,,,,,s. rigidum_cytotoxic
+1,scutellaria baicalensis,scutellaria baicalensis,stara planina,c. tho-ermeri weinm,,,,,,s. rigidum_anti-aggre-gatory
+2,heracleum verticillatum,heracleum,micrococcus luteus,heracleumverticillatum pancic,,,,,,s. rigidum_anti-inflammatory
 3,heracleum l,h. verticillatum,enterococcus faecalis,h. spho-ndylium l,,,,,,s. rigidum_antibacterial
-4,heracleum orphanidis boiss,candida,pseudomonas aeruginosa,seselirigidum walst et kit. var. rigidum,,,,,,s. rigidum_anti-aggre-gatory
+4,heracleum orphanidis boiss,candida,pseudomonas aeruginosa,seselirigidum walst et kit. var. rigidum,,,,,,s. rigidum_cytotoxic
 5,h. verticillatum,candida albicans,escherichia coli,,,,,,,seseli rigidum_antimicrobial
 6,candida albicans,heracleum orphanidis,apiaceae,,,,,,,seseli rigidum_andantioxidant
 7,seseli rigidum,seseli,lakusic,,,,,,,carduus_antioxidant

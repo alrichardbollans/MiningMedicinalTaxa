@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,lycium barbarum,lycium barbarum,metabolic syndrome,,,,lycium barbarum_diabetes,,,lycium barbarum_reduce blood sugar
-1,,,metmorfi,,,,lycium barbarum_metabolic syndrome,,,lycium barbarum_lower blood pressure
-2,,,thiazolidinediones,,,,lycium barbarum_dyslipidaemia,,,lycium barbarum_hypoglycemic
-3,,,hypercholesterolemia,,,,,,,lycium barbarum_lower blood pressure and blood sugar
+0,lycium barbarum,lycium barbarum,metabolic syndrome,,,,lycium barbarum_dyslipidaemia,,,lycium barbarum_lower blood pressure
+1,,,metmorfi,,,,lycium barbarum_diabetes,,,lycium barbarum_hypoglycemic
+2,,,thiazolidinediones,,,,lycium barbarum_metabolic syndrome,,,lycium barbarum_lower blood pressure and blood sugar
+3,,,hypercholesterolemia,,,,,,,lycium barbarum_reduce blood sugar
 4,,,hawthorn,,,,,,,
 5,,,hawthorn fruit,,,,,,,
 6,,,fructus crataegi,,,,,,,

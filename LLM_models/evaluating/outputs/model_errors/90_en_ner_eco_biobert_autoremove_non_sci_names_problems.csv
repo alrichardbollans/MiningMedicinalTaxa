@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,cyperus papyrus,cyperus papyrus,paper-mulberry(broussonetia papyrifera,broussonetia papyrifera,,,,,,
-1,fatsia papyrifera,fatsia papyrifera,pinus sylvestris(pinaceae,pinus sylvestris,,,,,,
+0,cyperus papyrus,cyperus papyrus,pinus sylvestris(pinaceae,broussonetia papyrifera,,,,,,
+1,fatsia papyrifera,fatsia papyrifera,,pinus sylvestris,,,,,,
 2,cannabis sativa,cannabis sativa,,,,,,,,
 3,hibiscus cannabinus,hibiscus cannabinus,,,,,,,,
 4,crotalaria juncea,crotalaria juncea,,,,,,,,

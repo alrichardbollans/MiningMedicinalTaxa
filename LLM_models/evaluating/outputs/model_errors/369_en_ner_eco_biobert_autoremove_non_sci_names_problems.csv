@@ -1,13 +1,13 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,a. laxmannii,a. laxmannii,scoparia (boiss.) rech.f,a. taiwanensis,,,ajuga_edema,,,ajuga_antipyretic
-1,ajuga laxmannii,ajuga laxmanniithe,chamaecistus subsp,ajugalaxmannii,,,ajuga_ulcer,,,ajuga_astringent
-2,ajuga,a. laxmannii ce,pseudomonas aeruginosa,aspergillus flavus,,,ajuga_intestinal and biliary disorders,,,ajuga_diuretic
-3,a. bracteosa,ajuga,listeria monocytogenes,aspergillus niger,,,ajuga_hypertension,,,a. laxmannii_anti-inflammatory
-4,a. relicta,a. bracteosa,s. aureus,candida albicans,,,ajuga_fever,,,a. laxmannii_antioxidant
-5,a. turkestanica,a. relicta,,candida parapsilosis,,,,,,a. laxmannii_antimicrobial
-6,a. reptans,ajuga species,,penicillium funiculosum,,,,,,a. laxmannii_antifungal
-7,a. chamaecistus subsp. scoparia (boiss.) rech.f,ajuga laxmanniitable,,,,,,,,a. laxmannii_antiradical
-8,,a. turkestanica,,,,,,,,a. laxmannii_antibacterial
+0,a. laxmannii,a. laxmannii,scoparia (boiss.) rech.f,a. taiwanensis,,,ajuga_ulcer,,,ajuga_astringent
+1,ajuga laxmannii,ajuga laxmanniithe,chamaecistus subsp,ajugalaxmannii,,,ajuga_edema,,,ajuga_diuretic
+2,ajuga,a. laxmannii ce,listeria monocytogenes,aspergillus flavus,,,ajuga_intestinal and biliary disorders,,,ajuga_antipyretic
+3,a. bracteosa,ajuga,s. aureus,aspergillus niger,,,ajuga_fever,,,a. laxmannii_anti-inflammatory
+4,a. relicta,a. bracteosa,,candida albicans,,,ajuga_hypertension,,,a. laxmannii_antioxidant
+5,a. turkestanica,a. relicta,,candida parapsilosis,,,,,,a. laxmannii_antibacterial
+6,a. reptans,ajuga species,,penicillium funiculosum,,,,,,a. laxmannii_antiradical
+7,a. chamaecistus subsp. scoparia (boiss.) rech.f,ajuga laxmanniitable,,,,,,,,a. laxmannii_antifungal
+8,,a. turkestanica,,,,,,,,a. laxmannii_antimicrobial
 9,,a. reptans,,,,,,,,a. turkestanica_antioxidant
 10,,a. chamaecistus subsp,,,,,,,,a. chamaecistus subsp. scoparia (boiss.) rech.f_antiradical
 11,,ajuga laxmanniiethanol,,,,,,,,

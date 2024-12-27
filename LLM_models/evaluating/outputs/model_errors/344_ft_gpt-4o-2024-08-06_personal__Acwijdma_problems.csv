@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,rumex hydrolapathum,rumex hydrolapathum,,,c. majus_skin wounds,c. majus_bloat,c. majus_wound,rumex hydrolapathum_diaphoretic,rumex hydrolapathum_diuretic,rumex hydrolapathum_sweating
-1,c. majus,c. majus,,,c. majus_cataract,c. majus_plague,c. majus_eye diseases,c. majus_depurative,c. majus_diaphoretic,c. majus_lighten the freckles
-2,chelidonium majus,chelidonium majus,,,c. majus_sight loss,c. majus_epidemics,c. majus_cuts,c. majus_diuretic,,c. majus_to regulate actionof the digestive tract
-3,,,,,c. majus_warts,c. majus_freckles,c. majus_dermatologic conditions,c. majus_increasing bloodpressure,,c. majus_lighten freckles
-4,,,,,c. majus_eye infections,,c. majus_hyperpigmentation,c. majus_stimulant of cardiac functions,,
-5,,,,,c. majus_inflammation,,c. majus_skin disease,c. majus_relaxant,,
+0,rumex hydrolapathum,rumex hydrolapathum,,,c. majus_skin wounds,c. majus_bloat,c. majus_skin disease,rumex hydrolapathum_diaphoretic,rumex hydrolapathum_diuretic,rumex hydrolapathum_sweating
+1,c. majus,c. majus,,,c. majus_cataract,c. majus_plague,c. majus_dermatologic conditions,c. majus_depurative,c. majus_diaphoretic,c. majus_to regulate actionof the digestive tract
+2,chelidonium majus,chelidonium majus,,,c. majus_sight loss,c. majus_epidemics,c. majus_eye diseases,c. majus_diuretic,,c. majus_lighten freckles
+3,,,,,c. majus_warts,c. majus_freckles,c. majus_hyperpigmentation,c. majus_increasing bloodpressure,,c. majus_lighten the freckles
+4,,,,,c. majus_eye infections,,c. majus_cuts,c. majus_stimulant of cardiac functions,,
+5,,,,,c. majus_inflammation,,c. majus_wound,c. majus_relaxant,,
 6,,,,,c. majus_skin diseases,,,c. majus_tonic,,
 7,,,,,c. majus_gout,,,c. majus_cholagogue,,
 8,,,,,c. majus_ophtalmia,,,,,

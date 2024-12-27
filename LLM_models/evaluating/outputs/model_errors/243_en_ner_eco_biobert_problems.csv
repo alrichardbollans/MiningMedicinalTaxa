@@ -1,19 +1,19 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,helleborus odorus subsp. cyclophyllus,helleborus odorus subsp,s. thymbra.www.ethnopharmacology2021.org,cannabis,,,helleborus odorus subsp. cyclophyllus_epilepsy,,,helleborus odorus subsp. cyclophyllus_antiseizure
-1,anchusa officinalis,anchusa officinalis,cyclophyllus,,,,cistus creticus_cancer,,,anchusa officinalis_antiviral
-2,cistus creticus,cistus creticus,zebrafish epilepsy,,,,cistus creticus_pathogenic microorganisms,,,anchusa officinalis_diuretic
-3,cistus creticus l,galium aparine,"m. jacmin2,3",,,,,,,anchusa officinalis_antibacterial
-4,galium aparine,origanum vulgare,k. vougogiannopoulou4,,,,,,,anchusa officinalis_antioxidant
-5,galium aparine l,origanum vulgare ssp,ferreira queiroz1,,,,,,,galium aparine_antimicrobial
-6,origanum vulgare ssp. hirtum,cistus creticus l,black hellebore,,,,,,,galium aparine_immunomodulatory
+1,anchusa officinalis,anchusa officinalis,cyclophyllus,,,,cistus creticus_pathogenic microorganisms,,,anchusa officinalis_antibacterial
+2,cistus creticus,cistus creticus,zebrafish epilepsy,,,,cistus creticus_cancer,,,anchusa officinalis_antiviral
+3,cistus creticus l,galium aparine,"m. jacmin2,3",,,,,,,anchusa officinalis_antioxidant
+4,galium aparine,origanum vulgare,k. vougogiannopoulou4,,,,,,,anchusa officinalis_diuretic
+5,galium aparine l,origanum vulgare ssp,ferreira queiroz1,,,,,,,galium aparine_immunomodulatory
+6,origanum vulgare ssp. hirtum,cistus creticus l,black hellebore,,,,,,,galium aparine_antimicrobial
 7,crithmum,galium aparine l,cyclophyllus (hoc,,,,,,,galium aparine_antioxidant
-8,,origanum,ranunculaceae,,,,,,,origanum vulgare ssp. hirtum_against carcinogenic cells
-9,,crithmum,hellebrin,,,,,,,origanum vulgare ssp. hirtum_inhibitor against the growth of various fungi
+8,,origanum,ranunculaceae,,,,,,,origanum vulgare ssp. hirtum_inhibitor against the growth of various fungi
+9,,crithmum,hellebrin,,,,,,,origanum vulgare ssp. hirtum_against carcinogenic cells
 10,,,deglucohellebrin,,,,,,,origanum vulgare ssp. hirtum_against viruses
 11,,,hellebrigenin,,,,,,,origanum vulgare ssp. hirtum_antibacterial
 12,,,bufadienolides,,,,,,,cistus creticus l_antimicrobial
-13,,,chortiatis mountains,,,,,,,galium aparine l_cytotoxic
-14,,,sarapis1,,,,,,,galium aparine l_apoptotic
+13,,,chortiatis mountains,,,,,,,galium aparine l_apoptotic
+14,,,sarapis1,,,,,,,galium aparine l_cytotoxic
 15,,,p.-r,,,,,,,galium aparine l_antimicrobial
 16,,,chortiatis,,,,,,,galium aparine l_antioxidant
 17,,,hirtum,,,,,,,crithmum_antibacterial
