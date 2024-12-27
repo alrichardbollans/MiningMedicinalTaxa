@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,linum usitatissimum,linum usitatissimum,,p. zombamontana,,,syzygium legatii_mastitis,,,p. zombamontana_anti-inflammatory
-1,lupinus albus,lupinus albus,,eugenia,,,s. gerrardii_mastitis,,,p. zombamontana_antioxidant
+0,linum usitatissimum,linum usitatissimum,,p. zombamontana,,,syzygium legatii_mastitis,,,p. zombamontana_antioxidant
+1,lupinus albus,lupinus albus,,eugenia,,,s. gerrardii_mastitis,,,p. zombamontana_anti-inflammatory
 2,cannabis sativa,cannabis sativa,,syzygium,,,,,,p. zombamontana_cytotoxicity
 3,cannabis,,,syzygium legatii,,,,,,p. zombamontana_protecting poultry against infection
 4,,,,s. gerrardii,,,,,,eugenia_cytotoxicity

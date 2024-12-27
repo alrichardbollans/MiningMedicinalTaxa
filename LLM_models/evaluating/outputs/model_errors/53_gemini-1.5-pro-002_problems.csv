@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,lycium barbarum,lycium barbarum,crataegus,,lycium barbarum_diabetes,crataegus_hypertension,lycium barbarum_metabolic syndrome,lycium barbarum_lower blood pressure,crataegus_disperse blood stasis,lycium barbarum_reduce blood sugar
-1,,,emblic leafflower,,,crataegus_coronary heart disease,lycium barbarum_dyslipidaemia,,crataegus_lower blood lipids,lycium barbarum_hypoglycemic
+0,lycium barbarum,lycium barbarum,crataegus,,lycium barbarum_diabetes,crataegus_hypertension,lycium barbarum_dyslipidaemia,lycium barbarum_lower blood pressure,crataegus_disperse blood stasis,lycium barbarum_hypoglycemic
+1,,,emblic leafflower,,,crataegus_coronary heart disease,lycium barbarum_metabolic syndrome,,crataegus_lower blood lipids,lycium barbarum_reduce blood sugar
 2,,,,,,crataegus_hyperlipidemia,,,crataegus_promote blood circulation,
 3,,,,,,crataegus_obesity,,,crataegus_lower blood pressure,
 4,,,,,,lycium barbarum_high cholesterol,,,crataegus_lower blood cholesterol,

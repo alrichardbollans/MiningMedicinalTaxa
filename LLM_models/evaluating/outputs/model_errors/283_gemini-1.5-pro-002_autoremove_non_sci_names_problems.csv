@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,sideritis,sideritis scardica,,sideritis l,,sideritis scardica_gastrointestinal ailments,sideritis l_sore throat,,sideritis scardica_diuretic,sideritis l_anti inflammatory
-1,s. scardica,sideritis raeseri,,sideritis javalambrensis,,sideritis scardica_flu,sideritis l_diuretic,,sideritis raeseri_diuretic,sideritis l_anti-ulcer
-2,sideritis raeseri,sideritis taurica,,h. fasciculatum lam.alliance,,sideritis scardica_bronchitis,sideritis l_bronchitis,,sideritis taurica_diuretic,sideritis_antioxidant
-3,s. raeseri,sideritis syriaca,,s. tau-rica,,sideritis scardica_sore throat,sideritis l_common colds,,sideritis syriaca_diuretic,sideritis javalambrensis_antioxidant
-4,s. taurica,sideritis perfoliata,,s.raeseri,,sideritis scardica_common colds,sideritis l_gastrointestinalailments,,sideritis perfoliata_diuretic,
-5,s. syriaca,hypericum thymopsis,,,,sideritis raeseri_gastrointestinal ailments,sideritis l_flu,,hypericum thymopsis_anti-ulcer,
+0,sideritis,sideritis scardica,,sideritis l,,sideritis scardica_gastrointestinal ailments,sideritis l_sore throat,,sideritis scardica_diuretic,sideritis l_anti-ulcer
+1,s. scardica,sideritis raeseri,,sideritis javalambrensis,,sideritis scardica_flu,sideritis l_diuretic,,sideritis raeseri_diuretic,sideritis l_anti inflammatory
+2,sideritis raeseri,sideritis taurica,,h. fasciculatum lam.alliance,,sideritis scardica_bronchitis,sideritis l_common colds,,sideritis taurica_diuretic,sideritis_antioxidant
+3,s. raeseri,sideritis syriaca,,s. tau-rica,,sideritis scardica_sore throat,sideritis l_bronchitis,,sideritis syriaca_diuretic,sideritis javalambrensis_antioxidant
+4,s. taurica,sideritis perfoliata,,s.raeseri,,sideritis scardica_common colds,sideritis l_flu,,sideritis perfoliata_diuretic,
+5,s. syriaca,hypericum thymopsis,,,,sideritis raeseri_gastrointestinal ailments,sideritis l_gastrointestinalailments,,hypericum thymopsis_anti-ulcer,
 6,s. perfoliata,hypericum uniglandulosum,,,,sideritis raeseri_flu,,,hypericum thymopsis_anti-inflammatory,
 7,h. thymopsis,hypericum kotschyanum,,,,sideritis raeseri_bronchitis,,,hypericum thymopsis_diuretic,
 8,hypericum,hypericum scabroides,,,,sideritis raeseri_sore throat,,,hypericum thymopsis_antioxidant,

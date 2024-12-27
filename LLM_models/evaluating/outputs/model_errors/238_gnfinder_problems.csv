@@ -2,9 +2,9 @@
 0,satureja,satureja pilosa,lamiaceae,,,,satureja_cramps,,,alkanna tinctoria_wound healing
 1,satureja pilosa,satureja,willdenowia,,,,satureja_muscle pain,,,thymus spp_antimicrobial
 2,s. pilosa,s. pilosa,dina2,,,,satureja_infectious diseases,,,thymus spp_antioxidant
-3,a. tinctoria,s. pilosa aerial,boraginaceae,,,,satureja_gastrointestinal disorders,,,thymbra capitata_antibacterial
-4,alkanna tinctoria,alkana tinctoria,dina1,,,,,,,thymbra capitata_antimicrobial
-5,thymus spp,alkanna tinctoria,bilia4,,,,,,,thymbra capitata_antioxidant
+3,a. tinctoria,s. pilosa aerial,boraginaceae,,,,satureja_gastrointestinal disorders,,,thymbra capitata_antimicrobial
+4,alkanna tinctoria,alkana tinctoria,dina1,,,,,,,thymbra capitata_antioxidant
+5,thymus spp,alkanna tinctoria,bilia4,,,,,,,thymbra capitata_antibacterial
 6,thymus boissieri,a. tinctoria,enterococcus faecalis,,,,,,,thymbra spp_antimicrobial
 7,thymbra capitata,thymus,bacillus subtilis,,,,,,,thymbra spp_antioxidant
 8,thymbra spp,thymbra capitata,staphylococcus aureus,,,,,,,t. longicaulis subsp. longicaulis_antibacterial
@@ -20,8 +20,8 @@
 18,centaurea phyllocephala boiss,t. plasonii,,,,,,,,t. striatus_antibacterial
 19,centaurea cyanoides,centaurea phyllocephala,,,,,,,,t. striatus_antioxidant
 20,centaurea cyanus,centaurea,,,,,,,,centaurea_anti-inflammatory
-21,centaurea sp,centaurea cyanoides,,,,,,,,centaurea_antioxidant
-22,c. cyanus,centaurea cyanus,,,,,,,,centaurea_antirheumatic
-23,,c. cyanus,,,,,,,,centaurea_anti-dandruff
+21,centaurea sp,centaurea cyanoides,,,,,,,,centaurea_antirheumatic
+22,c. cyanus,centaurea cyanus,,,,,,,,centaurea_antioxidant
+23,,c. cyanus,,,,,,,,centaurea_antibacterial
 24,,,,,,,,,,centaurea_antidiabetic
-25,,,,,,,,,,centaurea_antibacterial
+25,,,,,,,,,,centaurea_anti-dandruff

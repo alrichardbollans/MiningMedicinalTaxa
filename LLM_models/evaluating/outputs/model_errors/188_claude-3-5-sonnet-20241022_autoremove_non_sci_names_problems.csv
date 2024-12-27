@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,hypericum perforatum l,hypericum perforatum l,,prunus ar-meniaca,foeniculum vulgare_climacterium,pimpinella anisum_climacterium,,foeniculum vulgare_stimulation of menstruation,prunus cerasifera_analgesic,foeniculum vulgare_stimulation of the lactic secretion
-1,hypericum,prunus cerasifera,,prunus arme-niaca,,,,,prunus cerasifera_anti-inflammatory,foeniculum vulgare_facilitate birth
-2,hypericum perforatum,prunus armeniaca,,prunus cera-sifera,,,,,prunus armeniaca_analgesic,foeniculum vulgare_estrogenic
+1,hypericum,prunus cerasifera,,prunus arme-niaca,,,,,prunus cerasifera_anti-inflammatory,foeniculum vulgare_estrogenic
+2,hypericum perforatum,prunus armeniaca,,prunus cera-sifera,,,,,prunus armeniaca_analgesic,foeniculum vulgare_facilitate birth
 3,prunus cerasifera,prunus domestica,,prunus tomentosa,,,,,prunus armeniaca_anti-inflammatory,
 4,prunus armeniaca,pimpinella anisum,,foe-niculum vulgare,,,,,pimpinella anisum_stimulation of menstruation,
 5,prunus domestica,foeniculum vulgare,,,,,,,pimpinella anisum_stimulation of lactic secretion,

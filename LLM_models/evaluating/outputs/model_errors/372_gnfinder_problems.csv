@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,aspalathus linearis (burm.f.) r.dahlgren,aspalathus linearis,kovaleva,hoodiagordonii (masson) sweet ex decne,,,crataegus_cardiovascular problems,,,hoodiagordonii (masson) sweet ex decne_regulate the appetite
 1,cyclopia sp,cyclopia,"rosaceae,12",l.cardiaca l,,,,,,malpighia glabra l_vitamin c
-2,malpighia glabra l,malpighia glabra,compositae,thymusserpyllum l,,,,,,viburnum opulus l_diaphoretic
-3,viburnum opulus l,viburnum opulus,asteraceae,q. petraea(matt.) liebl,,,,,,viburnum opulus l_diuretic
-4,crataegus,crataegus,lamiaceae,taraxacum officinale l,,,,,,viburnum opulus l_anti-inflammatory
+2,malpighia glabra l,malpighia glabra,compositae,thymusserpyllum l,,,,,,viburnum opulus l_anti-inflammatory
+3,viburnum opulus l,viburnum opulus,asteraceae,q. petraea(matt.) liebl,,,,,,viburnum opulus l_diaphoretic
+4,crataegus,crataegus,lamiaceae,taraxacum officinale l,,,,,,viburnum opulus l_diuretic
 5,origanum vulgare l,origanum vulgare,apiaceae,calendula officinalis l,,,,,,l.cardiaca l_antistress
 6,leonurus cardiaca l,leonurus cardiaca,betulaceae,pimpinellaanisum l,,,,,,
 7,quercus robur l,quercus robur,malvaceae,convallaria majalis l,,,,,,

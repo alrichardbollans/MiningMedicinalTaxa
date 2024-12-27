@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,sideritis,sideritis scardica griseb,,juniperus communis l,sideritis raeseri boiss.&heldr_pains,sideritis scardica griseb_pains,sideri-tis scardica griseb_pains,sideritis_antioxidant,,
-1,sideritis scardica,sideritis raeseri boiss.&heldr,,j.communis l,sideritis raeseri boiss.&heldr_sinus conges-tion,sideritis scardica griseb_sinus conges-tion,sideri-tis scardica griseb_sinus conges-tion,,,
-2,s. scardica,sideritis,,sideritisraeseri,sideritis raeseri boiss.&heldr_flu,sideritis scardica griseb_flu,sideri-tis scardica griseb_flu,,,
+0,sideritis,sideritis scardica griseb,,juniperus communis l,sideritis raeseri boiss.&heldr_pains,sideritis scardica griseb_pains,sideri-tis scardica griseb_sinus conges-tion,sideritis_antioxidant,,
+1,sideritis scardica,sideritis raeseri boiss.&heldr,,j.communis l,sideritis raeseri boiss.&heldr_sinus conges-tion,sideritis scardica griseb_sinus conges-tion,sideri-tis scardica griseb_flu,,,
+2,s. scardica,sideritis,,sideritisraeseri,sideritis raeseri boiss.&heldr_flu,sideritis scardica griseb_flu,sideri-tis scardica griseb_viruses,,,
 3,sideritis raeseri boiss.&heldr,sideritis scardica,,s.scardica,sideritis raeseri boiss.&heldr_common cold,sideritis scardica griseb_common cold,sideri-tis scardica griseb_common cold,,,
 4,sideritis raeseri,s. scardica,,sideritisscardica griseb,sideritis raeseri boiss.&heldr_aches,sideritis scardica griseb_aches,sideri-tis scardica griseb_aches,,,
-5,s. raeseri,s. raeseri,,,sideritis raeseri boiss.&heldr_viruses,sideritis scardica griseb_viruses,sideri-tis scardica griseb_viruses,,,
+5,s. raeseri,s. raeseri,,,sideritis raeseri boiss.&heldr_viruses,sideritis scardica griseb_viruses,sideri-tis scardica griseb_pains,,,
 6,sideri-tis scardica griseb,sideritis raeseri,,,,,,,,

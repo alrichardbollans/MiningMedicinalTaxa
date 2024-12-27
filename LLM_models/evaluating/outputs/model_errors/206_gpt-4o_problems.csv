@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,phaseolus vulgaris,phaseolus vulgaris l,,glaucium,centaurea depressa bieb_colorectal adenocarcinoma,phaseolus vulgaris l_weight loss,c. depressa_cancer,centaurea depressa bieb_antioxidant,,centaurea_antiinflam-matory
-1,phaseolus,phaseolus coccineus l,,alchemilla l,,phaseolus vulgaris l_glycemic control,,centaurea depressa bieb_apoptotic,,centaurea_antipyretic
-2,phaseolus vulgaris l,centaurea depressa bieb,,pterocarpus santalinus,,phaseolus vulgaris l_chronic disease risk,,,,centaurea_immuno-logical
-3,phaseolus coccineus l,,,phasolus vulgaris l.: ssp. nanus,,,,,,centaurea_antimicrobial
+0,phaseolus vulgaris,phaseolus vulgaris l,,glaucium,centaurea depressa bieb_colorectal adenocarcinoma,phaseolus vulgaris l_weight loss,c. depressa_cancer,centaurea depressa bieb_antioxidant,,centaurea_antipyretic
+1,phaseolus,phaseolus coccineus l,,alchemilla l,,phaseolus vulgaris l_glycemic control,,centaurea depressa bieb_apoptotic,,centaurea_antiinflam-matory
+2,phaseolus vulgaris l,centaurea depressa bieb,,pterocarpus santalinus,,phaseolus vulgaris l_chronic disease risk,,,,centaurea_antimicrobial
+3,phaseolus coccineus l,,,phasolus vulgaris l.: ssp. nanus,,,,,,centaurea_immuno-logical
 4,centaurea depressa bieb,,,ssp. volubilis,,,,,,centaurea_cytotoxic
 5,centaurea,,,,,,,,,c. depressa_antipro-liferation
 6,centaurea depressa,,,,,,,,,glaucium_cytotoxicity

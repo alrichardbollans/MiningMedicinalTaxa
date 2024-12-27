@@ -1,22 +1,22 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,scutellaria baicalensis georgii,s. baicalensis,micrococcus luteus,c. acicularisbertol,,,,,,heracleum verticillatum_antimicrobial
-1,scutellaria baicalensis,scutellaria baicalensis,enterococcus faecalis,c. tho-ermeri weinm,,,,,,s. rigidum_antibacterial
-2,heracleum verticillatum,heracleum,pseudomonas aeruginosa,heracleumverticillatum pancic,,,,,,s. rigidum_cytotoxic
-3,heracleum l,h. verticillatum,,h. spho-ndylium l,,,,,,s. rigidum_anti-aggre-gatory
-4,heracleum orphanidis boiss,candida,,seselirigidum walst et kit. var. rigidum,,,,,,s. rigidum_anti-inflammatory
-5,h. verticillatum,candida albicans,,,,,,,,seseli rigidum_andantioxidant
-6,candida albicans,heracleum orphanidis,,,,,,,,seseli rigidum_antimicrobial
+1,scutellaria baicalensis,scutellaria baicalensis,,c. tho-ermeri weinm,,,,,,s. rigidum_anti-inflammatory
+2,heracleum verticillatum,heracleum,,heracleumverticillatum pancic,,,,,,s. rigidum_anti-aggre-gatory
+3,heracleum l,h. verticillatum,,h. spho-ndylium l,,,,,,s. rigidum_antibacterial
+4,heracleum orphanidis boiss,candida,,seselirigidum walst et kit. var. rigidum,,,,,,s. rigidum_cytotoxic
+5,h. verticillatum,candida albicans,,,,,,,,seseli rigidum_antimicrobial
+6,candida albicans,heracleum orphanidis,,,,,,,,seseli rigidum_andantioxidant
 7,seseli rigidum,seseli,,,,,,,,carduus_antioxidant
-8,seseli rigidum w. k,serbiaseseli rigidum,,,,,,,,carduus acanthoides l_antioxidant
-9,seseli rigidum waldst et kit,s. rigidum,,,,,,,,c. acicularisbertol_antioxidant
-10,s. rigidum,seseli rigidum,,,,,,,,c. crispus l_antioxidant
-11,carduus,carduus,,,,,,,,c. candicans waldst.& kit. ssp. globifer (vel. )kazmi_antioxidant
-12,carduus acanthoides l,carduus acanthoides,,,,,,,,c. nutans l_antioxidant
-13,carduus nigrescens,c. crispus,,,,,,,,c. kerneri simonkai ssp. austro-orientalis_antioxidant
-14,carduus assoi,c. candicans,,,,,,,,c. tho-ermeri weinm_antioxidant
-15,carduus nutans,c. nutans,,,,,,,,
-16,c. crispus l,c. kerneri,,,,,,,,
-17,c. candicans waldst.& kit. ssp. globifer (vel. )kazmi,carduus nigrescens,,,,,,,,
-18,c. nutans l,carduus nutans,,,,,,,,
-19,c. kerneri simonkai ssp. austro-orientalis,cirsium,,,,,,,,
+8,seseli rigidum w. k,s. rigidum,,,,,,,,carduus acanthoides l_antioxidant
+9,seseli rigidum waldst et kit,seseli rigidum,,,,,,,,c. acicularisbertol_antioxidant
+10,s. rigidum,carduus,,,,,,,,c. crispus l_antioxidant
+11,carduus,carduus acanthoides,,,,,,,,c. candicans waldst.& kit. ssp. globifer (vel. )kazmi_antioxidant
+12,carduus acanthoides l,c. crispus,,,,,,,,c. nutans l_antioxidant
+13,carduus nigrescens,c. candicans,,,,,,,,c. kerneri simonkai ssp. austro-orientalis_antioxidant
+14,carduus assoi,c. nutans,,,,,,,,c. tho-ermeri weinm_antioxidant
+15,carduus nutans,c. kerneri,,,,,,,,
+16,c. crispus l,carduus nigrescens,,,,,,,,
+17,c. candicans waldst.& kit. ssp. globifer (vel. )kazmi,carduus nutans,,,,,,,,
+18,c. nutans l,cirsium,,,,,,,,
+19,c. kerneri simonkai ssp. austro-orientalis,,,,,,,,,
 20,cirsium,,,,,,,,,

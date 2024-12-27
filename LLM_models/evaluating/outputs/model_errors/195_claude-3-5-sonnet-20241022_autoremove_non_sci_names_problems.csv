@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,cannabis,cannabis sativa,,t. moesia-cus,cannabis sativa_glaucoma,,cannabis_muscle pains,,,cannabis_psychoactive
-1,c. sativa,thymus jankae,,thy-mus,,,cannabis_skin inflammations,,,cannabis_anti-inflammatory
-2,t. jankae,thymus longicaulis,,t. lon-gicaulis,,,cannabis_arthritis,,,
+0,cannabis,cannabis sativa,,t. moesia-cus,cannabis sativa_glaucoma,,cannabis_arthritis,,,cannabis_anti-inflammatory
+1,c. sativa,thymus jankae,,thy-mus,,,cannabis_skin inflammations,,,cannabis_psychoactive
+2,t. jankae,thymus longicaulis,,t. lon-gicaulis,,,cannabis_muscle pains,,,
 3,thymus,thymus moesiacus,,thymus l,,,,,,
 4,thymus jankae chel. var. jankae,thymus pannonicus,,t. ciliatopubescens,,,,,,
 5,t. jankae var. pantotrichus ronn,thymus pulegioides,,t. pseudo-atticus,,,,,,

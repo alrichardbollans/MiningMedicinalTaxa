@@ -1,5 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,a. paniculata,a. paniculata,echinacea,dioscorea sp,,,artemisia annua_malaria,,,berheris fremontii_anti-microbial
-1,salix alba,salix alba,,digitalis sp,,,,,,
-2,berheris fremontii,berheris fremontii,,hypericumperforatum,,,,,,
-3,artemisia annua,artemisia annua,,,,,,,,
+0,a. paniculata,a. paniculata,echinacea,berheris fremontii,,,artemisia annua_malaria,,,berheris fremontii_anti-microbial
+1,salix alba,salix alba,,dioscorea sp,,,,,,
+2,artemisia annua,artemisia annua,,digitalis sp,,,,,,
+3,,,,hypericumperforatum,,,,,,

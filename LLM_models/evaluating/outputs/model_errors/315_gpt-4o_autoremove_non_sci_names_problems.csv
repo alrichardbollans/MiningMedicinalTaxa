@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,phellodendron lavallei,phellodendron lavallei,berberis croatica horvat,berberiscroatica horvat,commiphora_arthritis,commiphora_malignant sores,commiphora and boswellia_chronic diseases,berberis vulgaris l_antioxidant,berberis aristata_anti-osteoporotic,berberiscroatica horvat_antioxidant
-1,berberis aristata,berberis aristata,,commiphoraand boswellia,commiphora_diabetes,boswellia_malignant sores,commiphoraand boswellia_chronic diseases,commiphora wightii_anti-inflammatory,berberis croatica horvat_antioxidant,commiphora_antiarthritic
-2,berberis koreana,berberis koreana,,commiphoragileadensis,commiphora_ulcers,,commiphora_malignantsores,commiphora mukul_anti-inflammatory,,commiphora_inhibit pro-inflammatory
-3,berberis vulgaris l,berberis vulgaris l,,boswelliaovalifoliolata,commiphora_internal tumors,,boswellia_malignantsores,commiphora gileadensis_anti-inflammatory,,boswellia_antiarthritic
-4,coptis teeta,coptis teeta,,,commiphora_cardiovascular diseases,,,boswellia serrata_anti-inflammatory,,boswellia_inhibit pro-inflammatory
+1,berberis aristata,berberis aristata,,commiphoraand boswellia,commiphora_diabetes,boswellia_malignant sores,commiphoraand boswellia_chronic diseases,commiphora wightii_anti-inflammatory,berberis croatica horvat_antioxidant,commiphora_inhibit pro-inflammatory
+2,berberis koreana,berberis koreana,,commiphoragileadensis,commiphora_ulcers,,commiphora_malignantsores,commiphora mukul_anti-inflammatory,,commiphora_antiarthritic
+3,berberis vulgaris l,berberis vulgaris l,,boswelliaovalifoliolata,commiphora_internal tumors,,boswellia_malignantsores,commiphora gileadensis_anti-inflammatory,,boswellia_inhibit pro-inflammatory
+4,coptis teeta,coptis teeta,,,commiphora_cardiovascular diseases,,,boswellia serrata_anti-inflammatory,,boswellia_antiarthritic
 5,commiphora and boswellia,commiphora,,,commiphora_leucoderma,,,boswellia carterii_anti-inflammatory,,boswellia serata_analgesic
 6,commiphora,boswellia,,,commiphora_edema,,,boswellia sacra_anti-inflammatory,,commiphoragileadensis_anti-inflammatory
 7,commiphora wightii,commiphora wightii,,,commiphora_liver dysfunction,,,boswellia ovalifoliolata_anti-inflammatory,,boswelliaovalifoliolata_anti-inflammatory

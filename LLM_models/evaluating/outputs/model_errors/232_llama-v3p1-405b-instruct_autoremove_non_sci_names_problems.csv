@@ -1,13 +1,13 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,eleutherococcus gracilystylus,eleutherococcus gracilystylus,,"alkanna sfikasiana tan, vold and strid",,,c. sativa_autoimmune diseases,,,cynoglottis barrelieri_antidiabetic
-1,eleutherococcus gracilystylus (w.w.sm.) s.y. hu,periploca sepium,,c. sativa,,,c. sativa_inflammatory and neurodegenerative diseases,,,cynoglottis barrelieri_antioxidant
-2,e. gracilystylus,cynoglottis barrelieri,,sp subsp. pomifera,,,c. sativa_cancer,,,cynoglottis barrelieri_neuroprotective
-3,periploca sepium,phyllocara aucheri,,sp subsp. calycina,,,c. sativa_epilepsy,,,phyllocara aucheri_antidiabetic
-4,periploca sepium bunge,symphytum anatolicum,,eleutherococcus nodiflorus (dunn) s.y. hu,,,c. sativa_multiple sclerosis,,,phyllocara aucheri_antioxidant
-5,p. sepium,salvia fruticosa,,e. senticosus,,,,,,phyllocara aucheri_neuroprotective
-6,cynoglottis barrelieri,salvia pomifera,,borago,,,,,,symphytum anatolicum_antidiabetic
+0,eleutherococcus gracilystylus,eleutherococcus gracilystylus,,"alkanna sfikasiana tan, vold and strid",,,c. sativa_inflammatory and neurodegenerative diseases,,,cynoglottis barrelieri_neuroprotective
+1,eleutherococcus gracilystylus (w.w.sm.) s.y. hu,periploca sepium,,c. sativa,,,c. sativa_autoimmune diseases,,,cynoglottis barrelieri_antioxidant
+2,e. gracilystylus,cynoglottis barrelieri,,sp subsp. pomifera,,,c. sativa_epilepsy,,,cynoglottis barrelieri_antidiabetic
+3,periploca sepium,phyllocara aucheri,,sp subsp. calycina,,,c. sativa_multiple sclerosis,,,phyllocara aucheri_neuroprotective
+4,periploca sepium bunge,symphytum anatolicum,,eleutherococcus nodiflorus (dunn) s.y. hu,,,c. sativa_cancer,,,phyllocara aucheri_antioxidant
+5,p. sepium,salvia fruticosa,,e. senticosus,,,,,,phyllocara aucheri_antidiabetic
+6,cynoglottis barrelieri,salvia pomifera,,borago,,,,,,symphytum anatolicum_neuroprotective
 7,phyllocara aucheri,salvia officinalis,,cannabis,,,,,,symphytum anatolicum_antioxidant
-8,symphytum anatolicum,,,,,,,,,symphytum anatolicum_neuroprotective
+8,symphytum anatolicum,,,,,,,,,symphytum anatolicum_antidiabetic
 9,symphytum,,,,,,,,,"alkanna sfikasiana tan, vold and strid_enzyme inhibitory"
 10,salvia fruticosa mill,,,,,,,,,salvia fruticosa mill_anti-glycation
 11,salvia pomifera l,,,,,,,,,salvia pomifera l_anti-glycation

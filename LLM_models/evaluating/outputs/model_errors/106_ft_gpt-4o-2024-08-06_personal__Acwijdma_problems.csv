@@ -1,42 +1,42 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,hypericum perforatum,hypericum perforatum,,solanum tuberosum,curcuma longa_strokes,hypericum perforatum_sciatica,salix spp_strokes,chenopodium ambrosioides_vebrmifuges,quercus spp_astringent,diospyros virginiana_astringents
-1,azadiracta indica,azadiracta indica,,solanum nigrum,curcuma longa_worms,azadiracta indica_sciatica,zingiber officinale_swelling,medicago sativa_analgesic,diospyros virginiana_astringent,myroxylon pereirae_asepsis
-2,curcuma longa,curcuma longa,,solanum melongena,melaleuca spp_vaginitis,curcuma longa_sciatica,zingiber officinale_toothache,erythroxylum coca_anesthetics,silphium spp_toothache,liriodendron tulipifera_dentistry
-3,allium cepa,allium cepa,,arnica,juglans spp_skin problems,allium cepa_tonsillitis,sesamum indicum_tinnitus,myroxylon pereirae_antiseptic,psoralea argophylla_febrifuges,asarum canadense_contraceptives
-4,hedeoma pulegioides,hedeoma pulegioides,,arnica montana,aloe spp_sunburn,allium cepa_sciatica,sesamum indicum_ringing in ears,myrica cerifera_astringent,erigeron philadelphicus_fumigation and smoke therapy,cephalanthus occidentalis_dentistry
-5,pycnanthemum muticum,pycnanthemum muticum,,uncaria spp,aloe spp_skin problems,hedeoma pulegioides_sciatica,sesamum indicum_sciatica,rhamnus purshiana_cathartics,solidago ulmifolia_fumigation and smoke therapy,silphium spp_clean teeth
+1,azadiracta indica,azadiracta indica,,solanum nigrum,curcuma longa_worms,azadiracta indica_sciatica,zingiber officinale_toothache,medicago sativa_analgesic,diospyros virginiana_astringent,myroxylon pereirae_asepsis
+2,curcuma longa,curcuma longa,,solanum melongena,melaleuca spp_vaginitis,curcuma longa_sciatica,zingiber officinale_swelling,erythroxylum coca_anesthetics,silphium spp_toothache,liriodendron tulipifera_dentistry
+3,allium cepa,allium cepa,,arnica,juglans spp_skin problems,allium cepa_tonsillitis,sesamum indicum_ringing in ears,myroxylon pereirae_antiseptic,psoralea argophylla_febrifuges,asarum canadense_contraceptives
+4,hedeoma pulegioides,hedeoma pulegioides,,arnica montana,aloe spp_sunburn,allium cepa_sciatica,sesamum indicum_sciatica,myrica cerifera_astringent,erigeron philadelphicus_fumigation and smoke therapy,cephalanthus occidentalis_dentistry
+5,pycnanthemum muticum,pycnanthemum muticum,,uncaria spp,aloe spp_skin problems,hedeoma pulegioides_sciatica,sesamum indicum_tinnitus,rhamnus purshiana_cathartics,solidago ulmifolia_fumigation and smoke therapy,silphium spp_clean teeth
 6,avena sativa,avena sativa,,zea mays,aloe spp_swelling,pycnanthemum muticum_sciatica,glycyrrhiza glabra_shingles,podophyllum peltatum_cathartics,anaphalis margaritacea_fumigation and smoke therapy,silphium spp_dentistry
 7,illicium verum,illicium verum,,vinca minor,urtica dioica_strokes,avena sativa_sciatica,glycyrrhiza glabra_yeast infections,amorpha canescens_cautery and moxa,echinacea angustifolia_fumigation and smoke therapy,cornus paniculata_dentistry
 8,melaleuca spp,melaleuca spp,,salvia officinalis,urtica dioica_sciatica,illicium verum_sciatica,portulaca oleracea_wrinkles,eriogonum jamesii_contraceptives,,xanthoxylum americanum_dentistry
 9,juglans spp,juglans spp,,citrus spp,salix spp_warts,melaleuca spp_sciatica,allium sativum_sties,apocynum androsaemifolium_contraceptives,,myrica asplenifolium_dentistry
-10,aloe,aloe spp,,rubus spp,salix spp_toothache,juglans spp_sciatica,allium cepa_varicose veins,frasera speciosa_contraceptives,,solidago ulmifolia_revive people
-11,aloe spp,vitex negundo,,sambucus nigra,salix spp_sciatica,aloe spp_sciatica,allium cepa_sinus inflammation,arisaema triphylla_contraceptives,,tephrosia virginiana_vebrmifuges
-12,vitex negundo,mentha piperita,,ceanothus americanus,gaultheria procumbens_sore throat,vitex negundo_sciatica,allium cepa_tuberculosis,asclepias hallii_contraceptives,,ostrya virginiana_diuretic
-13,mentha piperita,tanacetum vulgare,,laurus nobilis,gaultheria procumbens_sciatica,mentha piperita_sciatica,hydrastis canadensis_eye problems,asclepias syriaca_contraceptives,,pinus virginiana_kidney ailments
-14,tanacetum vulgare,urtica dioica,,sanguinaria officinalis,angelica chinense_shingles,tanacetum vulgare_sciatica,hydrastis canadensis_tinnitus,lithospermum ruderale_contraceptives,,myrica cerifera_astringents
-15,urtica dioica,salix spp,,stevia rebaudiana,angelica chinense_sciatica,sesamum indicum_shingles,hydrastis canadensis_ringing in ears,cephaelis ipecachuanha_emetics,,quercus spp_astringents
-16,salix spp,gaultheria procumbens,,monarda fistulosa,sida cordifolia_sores,sesamum indicum_tinnitus(ringing in ears,hydrastis canadensis_sties,cinchona spp_febrifuges,,
+10,aloe,aloe spp,,rubus spp,salix spp_toothache,juglans spp_sciatica,allium cepa_sinus inflammation,frasera speciosa_contraceptives,,solidago ulmifolia_revive people
+11,aloe spp,vitex negundo,,sambucus nigra,salix spp_sciatica,aloe spp_sciatica,allium cepa_tuberculosis,arisaema triphylla_contraceptives,,tephrosia virginiana_vebrmifuges
+12,vitex negundo,mentha piperita,,ceanothus americanus,gaultheria procumbens_sore throat,vitex negundo_sciatica,allium cepa_varicose veins,asclepias hallii_contraceptives,,ostrya virginiana_diuretic
+13,mentha piperita,tanacetum vulgare,,laurus nobilis,gaultheria procumbens_sciatica,mentha piperita_sciatica,hydrastis canadensis_ringing in ears,asclepias syriaca_contraceptives,,pinus virginiana_kidney ailments
+14,tanacetum vulgare,urtica dioica,,sanguinaria officinalis,angelica chinense_shingles,tanacetum vulgare_sciatica,hydrastis canadensis_sties,lithospermum ruderale_contraceptives,,myrica cerifera_astringents
+15,urtica dioica,salix spp,,stevia rebaudiana,angelica chinense_sciatica,sesamum indicum_shingles,hydrastis canadensis_tinnitus,cephaelis ipecachuanha_emetics,,quercus spp_astringents
+16,salix spp,gaultheria procumbens,,monarda fistulosa,sida cordifolia_sores,sesamum indicum_tinnitus(ringing in ears,hydrastis canadensis_eye problems,cinchona spp_febrifuges,,
 17,gaultheria procumbens,angelica chinense,,larrea divaricata,sida cordifolia_sciatica,allium sativum_stiese,echinacea_sties,zizia aurea_febrifuges,,
 18,angelica chinense,sida cordifolia,,elettaria cardamomum,brassica nigra_sciatica,hydrastis canadensis_tonsillitis,echinacea spp_sties,astragalus caroliniana_febrifuges,,
-19,sida cordifolia,brassica nigra,,lavandula spp,sinapis alba_sciatica,echinacea spp_stiese,ginkgo_sores,verbesina virginica_febrifuges,,
-20,brassica nigra,sinapis alba,,rumex crispus,lepdium spp_sciatica,ginkgo biloba_tinnitus(ringing in ears,ginkgo_tinnitus,monarda mollis_vebrmifuges,,
-21,sinapis alba,lepdium spp,,lentinus edodes,zingiber officinale_sore throat,matricaria recutita_stiese,ginkgo_ringing in ears,spigelia marilandica_vebrmifuges,,
-22,lepdium spp,zingiber officinale,,,zingiber officinale_ulcers,zanthoxylum americanum_sore throat,ginkgo biloba_sores,prunus americana_vebrmifuges,,
-23,zingiber officinale,sesamum indicum,,,zingiber officinale_strokes,thymus vulgaris_stiese,ginkgo biloba_tinnitus,,,
-24,sesamum indicum,melissa officinalis,,,zingiber officinale_worms,spinacia oleracea_tinnitus(ringing in ears,ginkgo biloba_ringing in ears,,,
+19,sida cordifolia,brassica nigra,,lavandula spp,sinapis alba_sciatica,echinacea spp_stiese,ginkgo_ringing in ears,verbesina virginica_febrifuges,,
+20,brassica nigra,sinapis alba,,rumex crispus,lepdium spp_sciatica,ginkgo biloba_tinnitus(ringing in ears,ginkgo_sores,monarda mollis_vebrmifuges,,
+21,sinapis alba,lepdium spp,,lentinus edodes,zingiber officinale_sore throat,matricaria recutita_stiese,ginkgo_tinnitus,spigelia marilandica_vebrmifuges,,
+22,lepdium spp,zingiber officinale,,,zingiber officinale_ulcers,zanthoxylum americanum_sore throat,ginkgo biloba_ringing in ears,prunus americana_vebrmifuges,,
+23,zingiber officinale,sesamum indicum,,,zingiber officinale_strokes,thymus vulgaris_stiese,ginkgo biloba_sores,,,
+24,sesamum indicum,melissa officinalis,,,zingiber officinale_worms,spinacia oleracea_tinnitus(ringing in ears,ginkgo biloba_tinnitus,,,
 25,melissa officinalis,capsicum spp,,,zingiber officinale_sciatica,cimicifuga racemosa_tinnitus(ringing in ears,ananas comosus_skin problems,,,
-26,capsicum spp,scutellaria baicalensis,,,sesamum indicum_toothache,lindera benzoin_yeast infections,ananas comosus_swelling,,,
-27,scutellaria baicalensis,passiflora incarnata,,,melissa officinalis_shingles,asarum canadense_contraceptives,ananas comosus_worms,,,
+26,capsicum spp,scutellaria baicalensis,,,sesamum indicum_toothache,lindera benzoin_yeast infections,ananas comosus_worms,,,
+27,scutellaria baicalensis,passiflora incarnata,,,melissa officinalis_shingles,asarum canadense_contraceptives,ananas comosus_swelling,,,
 28,passiflora incarnata,citrus bergamotia,,,melissa officinalis_viral infection,tephrosia virginiana_vebrmifuges,aloe_wrinkles,,,
 29,citrus bergamotia,pyrus spp,,,capsicum spp_shingles,,aloe spp_wrinkles,,,
 30,citrus,portulaca oleracea,,,capsicum spp_ulcers,,matricaria recutita_sties,,,
 31,pyrus spp,glycine max,,,capsicum spp_toothache,,melaleuca spp_sores,,,
 32,portulaca oleracea,nasturtium officinale,,,capsicum spp_eye problems,,solanum tuberosum_sties,,,
 33,glycine max,allium sativum,,,scutellaria baicalensis_shingles,,thymus vulgaris_sties,,,
-34,nasturtium officinale,hydrastis canadensis,,,passiflora incarnata_shingles,,spinacia oleracea_tinnitus,,,
-35,allium sativum,echinacea spp,,,citrus bergamotia_shingles,,spinacia oleracea_ringing in ears,,,
-36,hydrastis canadensis,eucalyptus spp,,,pyrus spp_shingles,,curcuma longa_ulcers,,,
-37,echinacea,origanum vulgare,,,portulaca oleracea_shingles,,curcuma longa_swelling,,,
+34,nasturtium officinale,hydrastis canadensis,,,passiflora incarnata_shingles,,spinacia oleracea_ringing in ears,,,
+35,allium sativum,echinacea spp,,,citrus bergamotia_shingles,,spinacia oleracea_tinnitus,,,
+36,hydrastis canadensis,eucalyptus spp,,,pyrus spp_shingles,,curcuma longa_swelling,,,
+37,echinacea,origanum vulgare,,,portulaca oleracea_shingles,,curcuma longa_ulcers,,,
 38,echinacea spp,ginkgo biloba,,,portulaca oleracea_skin problems,,solanum nigrum_sunburn,,,
 39,eucalyptus,armoracia rusticana,,,portulaca oleracea_yeast infections,,solanum melongena_sunburn,,,
 40,eucalyptus spp,ananas comosus,,,glycine max_shingles,,arnica_swelling,,,
@@ -45,10 +45,10 @@
 43,ginkgo biloba,calendula officinalis,,,allium sativum_tonsillitis,,zea mays_swelling,,,
 44,armoracia rusticana,matricaria recutita,,,allium sativum_sore throat,,taraxacum officinale_tonsillitis,,,
 45,ananas comosus,cucumis sativus,,,allium sativum_viral infection,,taraxacum officinale_swelling,,,
-46,oenothera biennis,centella asiatica,,,allium sativum_vaginitis,,cimicifuga racemosa_tinnitus,,,
-47,persea americana,viola tricolor,,,allium sativum_ulcers,,cimicifuga racemosa_ringing in ears,,,
-48,calendula,hamamelis virginiana,,,allium sativum_sinus inflammation,,vinca minor_tinnitus,,,
-49,calendula officinalis,daucus carota,,,allium sativum_yeast infections,,vinca minor_ringing in ears,,,
+46,oenothera biennis,centella asiatica,,,allium sativum_vaginitis,,cimicifuga racemosa_ringing in ears,,,
+47,persea americana,viola tricolor,,,allium sativum_ulcers,,cimicifuga racemosa_tinnitus,,,
+48,calendula,hamamelis virginiana,,,allium sativum_sinus inflammation,,vinca minor_ringing in ears,,,
+49,calendula officinalis,daucus carota,,,allium sativum_yeast infections,,vinca minor_tinnitus,,,
 50,matricaria recutita,plantago lanceolata,,,allium sativum_strokes,,salvia officinalis_tonsillitis,,,
 51,cucumis sativus,hedera helix,,,allium sativum_worms,,salvia officinalis_yeast infections,,,
 52,centella asiatica,althaea officinalis,,,allium sativum_tuberculosis,,salvia officinalis_wrinkles,,,

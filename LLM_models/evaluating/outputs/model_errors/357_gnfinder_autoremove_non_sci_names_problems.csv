@@ -1,16 +1,16 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,pulsatilla patens,pulsatilla,fbranca ursina,matricariachamomilla,,,pulsatilla patens_skin disorders,,,thymus serpyllum_gum strengthening
-1,centaurea cyanus,centaurea cyanus,,piceaalba,,,centaurea cyanus_skin disorders,,,thymus serpyllum_wound healing
-2,ruta graveolens,ruta graveolens,,beta vulgaris,,,ruta graveolens_skin disorders,,,thymus serpyllum_destroy thescurvy impurities
-3,vinca minor,vinca minor,,pulsatillavulgaris,,,vinca minor_skin disorders,,,sedum acre_emetic
-4,sorbus aucuparia,sorbus aucuparia,,schoenusnigricans,,,vinca minor_cataracts,,,sedum acre_relaxant
-5,thymus serpyllum,thymus serpyllum,,plantagomaior,,,vinca minor_skindisorders,,,sedum maximum_ulcers
+0,pulsatilla patens,pulsatilla,,matricariachamomilla,,,pulsatilla patens_skin disorders,,,thymus serpyllum_gum strengthening
+1,centaurea cyanus,centaurea cyanus,,piceaalba,,,centaurea cyanus_skin disorders,,,thymus serpyllum_destroy thescurvy impurities
+2,ruta graveolens,ruta graveolens,,beta vulgaris,,,ruta graveolens_skin disorders,,,thymus serpyllum_wound healing
+3,vinca minor,vinca minor,,pulsatillavulgaris,,,vinca minor_skindisorders,,,sedum acre_emetic
+4,sorbus aucuparia,sorbus aucuparia,,schoenusnigricans,,,vinca minor_skin disorders,,,sedum acre_relaxant
+5,thymus serpyllum,thymus serpyllum,,plantagomaior,,,vinca minor_cataracts,,,sedum maximum_ulcers
 6,silybum marianum,silybum,,daphne mezereum,,,thymus serpyllum_osteomyelitis,,,sedum_wound healing
 7,anthemis arvensis,anthemis arvensis,,levisticumofficinale,,,artemisia absinthium_osteomyelitis,,,sorbus arranensis_antimicrobial
 8,artemisia absinthium,artemisia absinthium,,stachyspalustris,,,matricariachamomilla_osteomyelitis,,,achillea millefolium_wound healing
 9,populus tremula,populus,,matricaria chamomilla,,,anthemis arvensis_osteomyelitis,,,plantagomaior_wound healing
-10,papaver rhoeas,papaver rhoeas,,napellus,,,populus tremula_osteomyelitis,,,salvia officinalis_wound healing
-11,ocimum basilicum,ocimum basilicum,,calamus,,,populus tremula_skindisorders,,,
+10,papaver rhoeas,papaver rhoeas,,napellus,,,populus tremula_skindisorders,,,salvia officinalis_wound healing
+11,ocimum basilicum,ocimum basilicum,,calamus,,,populus tremula_osteomyelitis,,,
 12,alliaria petiolata,alliaria,,,,,silybum marianum_osteomyelitis,,,
 13,symphytum officinale,symphytum,,,,,piceaalba_osteomyelitis,,,
 14,achillea millefolium,achillea millefolium,,,,,picea abies_syphilis,,,
@@ -20,17 +20,17 @@
 18,allium cepa l,gentiana,,,,,pulsatillavulgaris_plica polonica,,,
 19,allium,sedum acre,,,,,gentiana lutea_cholera,,,
 20,picea abies,sedum maximum,,,,,schoenusnigricans_burn wounds,,,
-21,gentiana lutea,sedum,,,,,sedum acre_urinary tract diseases,,,
-22,sedum acre,carlina acaulis,,,,,sedum acre_heel pain,,,
+21,gentiana lutea,sedum,,,,,sedum acre_earache,,,
+22,sedum acre,carlina acaulis,,,,,sedum acre_urinary tract diseases,,,
 23,sedum,viburnum opulus,,,,,sedum acre_ulcers,,,
-24,sedum maximum,sorbus arranensis,,,,,sedum acre_earache,,,
-25,carlina acaulis,allium sativum,,,,,sedum maximum_bruises,,,
-26,viburnum opulus,hypericum perforatum,,,,,sedum maximum_wounds,,,
-27,sorbus arranensis,juniperus communis,,,,,sedum maximum_edema,,,
-28,allium sativum,tussilago,,,,,carlina acaulis_colic,,,
+24,sedum maximum,sorbus arranensis,,,,,sedum acre_heel pain,,,
+25,carlina acaulis,allium sativum,,,,,sedum maximum_edema,,,
+26,viburnum opulus,hypericum perforatum,,,,,sedum maximum_bruises,,,
+27,sorbus arranensis,juniperus communis,,,,,sedum maximum_wounds,,,
+28,allium sativum,tussilago,,,,,carlina acaulis_kidney and bladder disease,,,
 29,allium sativum l,salvia officinalis,,,,,carlina acaulis_ulcers,,,
-30,hypericum perforatum,senna alexandrina,,,,,carlina acaulis_kidney and bladder disease,,,
-31,juniperus communis,castanea sativa,,,,,carlina acaulis_stitching pain,,,
+30,hypericum perforatum,senna alexandrina,,,,,carlina acaulis_stitching pain,,,
+31,juniperus communis,castanea sativa,,,,,carlina acaulis_colic,,,
 32,tussilago farfara,frangula alnus,,,,,achillea millefolium_wounds,,,
 33,salvia officinalis,silybum marianum,,,,,achillea millefolium_cut wounds,,,
 34,senna alexandrina,acanthus mollis,,,,,plantagomaior_wounds,,,

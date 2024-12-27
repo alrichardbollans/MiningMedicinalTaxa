@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,boswellia,boswellia serrata,,,boswellia serrata_multiple sclerosis,boswellia serrata_crohn's disease,boswellia_inflammatory conditions,,boswellia serrata_anti-inflammatory,
-1,boswellia serrata,,,,boswellia serrata_rheumatoid arthritis,,boswellia_chronicinflammatory disorders,,,
-2,,,,,boswellia serrata_obesity,,boswellia_infectious diseases,,,
-3,,,,,boswellia serrata_peritumoralbrain edema,,boswellia_crohn'sdisease,,,
+0,boswellia,boswellia serrata,,,boswellia serrata_multiple sclerosis,boswellia serrata_crohn's disease,boswellia_chronicinflammatory disorders,,boswellia serrata_anti-inflammatory,
+1,boswellia serrata,,,,boswellia serrata_rheumatoid arthritis,,boswellia_crohn'sdisease,,,
+2,,,,,boswellia serrata_obesity,,boswellia_inflammatory conditions,,,
+3,,,,,boswellia serrata_peritumoralbrain edema,,boswellia_infectious diseases,,,
 4,,,,,boswellia serrata_bronchial asthma,,boswellia_chronic inflammatory conditions,,,
 5,,,,,boswellia serrata_ulcerative colitis,,,,,
 6,,,,,boswellia serrata_hyperlipidemia,,,,,

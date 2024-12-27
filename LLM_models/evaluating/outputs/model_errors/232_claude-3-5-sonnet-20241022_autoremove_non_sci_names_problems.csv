@@ -1,13 +1,13 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,salvia officinalis,salvia officinalis l,,cynoglottis barrelieri,,salvia officinalis l_inflammation,c. sativa_autoimmune diseases,,salvia officinalis l_antispasmodic,cynoglottis barrelieri_antidiabetic
-1,salvia officinalis l,,,phyllocara aucheri,,,c. sativa_inflammatory and neurodegenerative diseases,,salvia officinalis l_gastroprotective,cynoglottis barrelieri_antioxidant
-2,,,,symphytum anatolicum,,,c. sativa_cancer,,,cynoglottis barrelieri_neuroprotective
-3,,,,"alkanna sfikasiana tan, vold and strid",,,c. sativa_epilepsy,,,phyllocara aucheri_antidiabetic
-4,,,,c. sativa,,,c. sativa_multiple sclerosis,,,phyllocara aucheri_antioxidant
-5,,,,salvia fruticosa mill,,,,,,phyllocara aucheri_neuroprotective
-6,,,,salvia pomifera l,,,,,,symphytum anatolicum_antidiabetic
+0,salvia officinalis,salvia officinalis l,,cynoglottis barrelieri,,salvia officinalis l_inflammation,c. sativa_inflammatory and neurodegenerative diseases,,salvia officinalis l_antispasmodic,cynoglottis barrelieri_neuroprotective
+1,salvia officinalis l,,,phyllocara aucheri,,,c. sativa_autoimmune diseases,,salvia officinalis l_gastroprotective,cynoglottis barrelieri_antioxidant
+2,,,,symphytum anatolicum,,,c. sativa_epilepsy,,,cynoglottis barrelieri_antidiabetic
+3,,,,"alkanna sfikasiana tan, vold and strid",,,c. sativa_multiple sclerosis,,,phyllocara aucheri_neuroprotective
+4,,,,c. sativa,,,c. sativa_cancer,,,phyllocara aucheri_antioxidant
+5,,,,salvia fruticosa mill,,,,,,phyllocara aucheri_antidiabetic
+6,,,,salvia pomifera l,,,,,,symphytum anatolicum_neuroprotective
 7,,,,sp subsp. pomifera,,,,,,symphytum anatolicum_antioxidant
-8,,,,sp subsp. calycina,,,,,,symphytum anatolicum_neuroprotective
+8,,,,sp subsp. calycina,,,,,,symphytum anatolicum_antidiabetic
 9,,,,eleutherococcus gracilystylus,,,,,,"alkanna sfikasiana tan, vold and strid_enzyme inhibitory"
 10,,,,periploca sepium,,,,,,salvia fruticosa mill_anti-glycation
 11,,,,eleutherococcus nodiflorus (dunn) s.y. hu,,,,,,salvia pomifera l_anti-glycation

@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,h. perforatum,hypericum perforatum,allium hookeri,hypericum spp,hypericum empetrifolium_wounds,hypericum perforatum_wounds,hypericum spp_wound-healing,hypericum empetrifolium_wound healing,hypericum triquetrifolium_wound healing,hypericum spp_wound-healing
-1,h. empetrifolium,hypericum empetrifolium,rosmarinus officinalis,hypericum l,hypericum empetrifolium_skin inflammations,hypericum perforatum_skin inflammations,h. empetrifolium_wound-healing,,rosmarinus officinalis_antioxidant,hypericum spp_wound healing
-2,h. triquetrifolium,hypericum triquetrifolium,,,,hypericum triquetrifolium_wounds,h. amblycalyx_wound-healing,,rosmarinus officinalis_anti-inflammatory,hypericum l_antioxidant
-3,h. amblycalyx,hypericum amblycalyx,,,,allium hookeri_type 2 diabetes,h. jovis_wound-healing,,rosmarinus officinalis_neuroprotective,hypericum l_antiangiogenetic
-4,h. jovis,hypericum jovis,,,,,h. perforatum_wound-healing,,,hypericum l_gastroprotective
+0,h. perforatum,hypericum perforatum,allium hookeri,hypericum spp,hypericum empetrifolium_wounds,hypericum perforatum_wounds,hypericum spp_wound-healing,hypericum empetrifolium_wound healing,hypericum triquetrifolium_wound healing,hypericum spp_wound healing
+1,h. empetrifolium,hypericum empetrifolium,rosmarinus officinalis,hypericum l,hypericum empetrifolium_skin inflammations,hypericum perforatum_skin inflammations,h. empetrifolium_wound-healing,,rosmarinus officinalis_antioxidant,hypericum spp_wound-healing
+2,h. triquetrifolium,hypericum triquetrifolium,,,,hypericum triquetrifolium_wounds,h. amblycalyx_wound-healing,,rosmarinus officinalis_anti-inflammatory,hypericum l_gastroprotective
+3,h. amblycalyx,hypericum amblycalyx,,,,allium hookeri_type 2 diabetes,h. jovis_wound-healing,,rosmarinus officinalis_neuroprotective,hypericum l_antioxidant
+4,h. jovis,hypericum jovis,,,,,h. perforatum_wound-healing,,,hypericum l_antiangiogenetic
 5,laurus nobilis l,laurus nobilis l,,,,,h. triquetrifolium_wound-healing,,,

@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,ajuga bracteosa,ajuga bracteosa,ajuga decumbens,gmelina arborea,,ajuga chamaecistus subsp. scoparia_diabetes,ajugadecumbens_osteoporosis,ajuga bracteosa_anti-inflammatory,ajuga iva_free radical scavenging,gmelina arborea_antifungal
-1,ajuga iva,ajuga iva,rumex scutatus,morus alba,,ajuga decumbens_osteoporosis,ajugadecumbens_arthritis,ajuga bracteosa_antidepressant,ajuga reptans_antioxidant,morus alba_antioxidant
+0,ajuga bracteosa,ajuga bracteosa,ajuga decumbens,gmelina arborea,,ajuga chamaecistus subsp. scoparia_diabetes,ajugadecumbens_arthritis,ajuga bracteosa_anti-inflammatory,ajuga iva_free radical scavenging,gmelina arborea_antifungal
+1,ajuga iva,ajuga iva,rumex scutatus,morus alba,,ajuga decumbens_osteoporosis,ajugadecumbens_osteoporosis,ajuga bracteosa_antidepressant,ajuga reptans_antioxidant,morus alba_antioxidant
 2,ajuga turkestanica,ajuga turkestanica,,ajugadecumbens,,ajuga decumbens_arthritis,,ajuga bracteosa_anticoagulant,ajuga reptans_antibacterial,ajuga iva_free radicalscavenging
-3,ajuga remota,ajuga remota,,ajugareptans,,,,ajuga bracteosa_analgesic,,ajuga chamaecistus subsp. scoparia (boiss.) rech.f_skin-care
-4,ajuga chamaecistus subsp. scoparia (boiss.) rech.f,ajuga chamaecistus subsp. scoparia,,epilobium,,,,ajuga bracteosa_antioxidant,,ajuga chamaecistus subsp. scoparia (boiss.) rech.f_antidiabetic
+3,ajuga remota,ajuga remota,,ajugareptans,,,,ajuga bracteosa_analgesic,,ajuga chamaecistus subsp. scoparia (boiss.) rech.f_antidiabetic
+4,ajuga chamaecistus subsp. scoparia (boiss.) rech.f,ajuga chamaecistus subsp. scoparia,,epilobium,,,,ajuga bracteosa_antioxidant,,ajuga chamaecistus subsp. scoparia (boiss.) rech.f_skin-care
 5,ajuga reptans,ajuga reptans,,harpagophytum procumbens,,,,ajuga iva_antioxidant,,ajugareptans_antioxidant
 6,allium schoenoprasum,allium schoenoprasum l,,rumexscutatus,,,,ajuga iva_antimicrobial,,ajugareptans_antibacterial
 7,allium,schisandra chinensis,,pseudosempervivum sempervivum,,,,ajuga turkestanica_antioxidant,,

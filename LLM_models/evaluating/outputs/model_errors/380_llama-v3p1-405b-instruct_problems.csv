@@ -1,17 +1,17 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,p. spinosa,prunus spinosa l,,,,prunus spinosa l_cardiovascular disease,p. spinosa_cvd,prunus spinosa l_antioxidant,prunus spinosa l_nitric oxide release increaser,p. spinosa_lipid peroxidation inhibitory activity
+0,p. spinosa,prunus spinosa l,,,,prunus spinosa l_cardiovascular disease,p. spinosa_cvd,prunus spinosa l_antioxidant,prunus spinosa l_nitric oxide release increaser,p. spinosa_anticoagulant
 1,prunus spinosa l,,,,,,p. spinosa_cardiovascular episodes,prunus spinosa l_anti-atherosclerotic,prunus spinosa l_lipid metabolism modulator,p. spinosa_decrease ldl oxidation
-2,,,,,,,prunus spinosa l_inflammation,prunus spinosa l_anti-inflammatory,,p. spinosa_anticoagulant
-3,,,,,,,prunus spinosa l_oxidative stress,prunus spinosa l_vasoprotective,,p. spinosa_modulate lipidmetabolism
+2,,,,,,,prunus spinosa l_oxidative stress,prunus spinosa l_anti-inflammatory,,p. spinosa_increase nitric oxide release
+3,,,,,,,prunus spinosa l_inflammation,prunus spinosa l_vasoprotective,,p. spinosa_normalize ldl/hdl profile
 4,,,,,,,,prunus spinosa l_endothelial function improver,,p. spinosa_dpph scavengers
-5,,,,,,,,prunus spinosa l_anti-atherothrombotic,,p. spinosa_anti-atherogenic
+5,,,,,,,,prunus spinosa l_anti-atherothrombotic,,p. spinosa_abilityto influence endothelium
 6,,,,,,,,prunus spinosa l_vasodilatory,,p. spinosa_cardiovascular protection
 7,,,,,,,,,,p. spinosa_antiplatelet
-8,,,,,,,,,,p. spinosa_inhibitors oflipid peroxidation
-9,,,,,,,,,,p. spinosa_abilityto influence endothelium
-10,,,,,,,,,,p. spinosa_reducedthe levels of well-known oxidative stress biomarkers
-11,,,,,,,,,,p. spinosa_normalize ldl/hdl profile
-12,,,,,,,,,,p. spinosa_improve capillarypermeability
-13,,,,,,,,,,p. spinosa_increase nitric oxide release
-14,,,,,,,,,,p. spinosa_anti-radical
+8,,,,,,,,,,p. spinosa_improve capillarypermeability
+9,,,,,,,,,,p. spinosa_inhibitors oflipid peroxidation
+10,,,,,,,,,,p. spinosa_modulate lipidmetabolism
+11,,,,,,,,,,p. spinosa_anti-radical
+12,,,,,,,,,,p. spinosa_lipid peroxidation inhibitory activity
+13,,,,,,,,,,p. spinosa_anti-atherogenic
+14,,,,,,,,,,p. spinosa_reducedthe levels of well-known oxidative stress biomarkers
 15,,,,,,,,,,prunus spinosa l_antioxidants

@@ -1,15 +1,14 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,prunus cerasifera,prunus cerasifera,,,,,foeniculum vulgare_climacterium,,,foeniculum vulgare_stimulation of menstruation
-1,prunus armeniaca,prunus armeniaca,,,,,,,,foeniculum vulgare_facilitate birth
-2,prunus domestica,prunus domestica,,,,,,,,foeniculum vulgare_estrogenic
-3,prunus ar-meniaca,prunus,,,,,,,,foeniculum vulgare_stimulation of the lactic secretion
+0,prunus cerasifera,prunus cerasifera,,foe-niculum vulgare,,,foeniculum vulgare_climacterium,,,foeniculum vulgare_estrogenic
+1,prunus armeniaca,prunus armeniaca,,,,,,,,foeniculum vulgare_stimulation of the lactic secretion
+2,prunus domestica,prunus domestica,,,,,,,,foeniculum vulgare_stimulation of menstruation
+3,prunus ar-meniaca,prunus,,,,,,,,foeniculum vulgare_facilitate birth
 4,prunus arme-niaca,prunus cera-sifera,,,,,,,,
-5,prunus cera-sifera,foe-niculum vulgare,,,,,,,,
-6,prunus tomentosa,foeniculum vulgare,,,,,,,,
-7,foe-niculum vulgare,pimpinella anisum,,,,,,,,
-8,foeniculum vulgare,hypericum perforatum,,,,,,,,
-9,"foeniculum vulgare, miller",hypericum,,,,,,,,
-10,pimpinella anisum,,,,,,,,,
-11,hypericum perforatum l,,,,,,,,,
-12,hypericum,,,,,,,,,
-13,hypericum perforatum,,,,,,,,,
+5,prunus cera-sifera,foeniculum vulgare,,,,,,,,
+6,prunus tomentosa,pimpinella anisum,,,,,,,,
+7,foeniculum vulgare,hypericum perforatum,,,,,,,,
+8,"foeniculum vulgare, miller",hypericum,,,,,,,,
+9,pimpinella anisum,,,,,,,,,
+10,hypericum perforatum l,,,,,,,,,
+11,hypericum,,,,,,,,,
+12,hypericum perforatum,,,,,,,,,

@@ -1,17 +1,17 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,chelidonium majus,chelidonium,trichodina,chelidoniummajus l,,,chelidonium majus_atopic dermatitis-like skin lesions,,,chamaemelum nobile (l.) all_carminative
-1,chelidonium majusl,chelidonium majus,lymantria dispar,chelidoniummajus,,,"chamaemelum nobile (l.) all_mild, spasmodic gastrointestinalcomplaints",,,chamaemelum nobile (l.) all_antimicrobial
-2,chelidonium majus l,chamaemelum nobile,staphylococcus aureus,matricaria recutita l,,,chamaemelum nobile (l.) all_flatulence,,,chamaemelum nobile (l.) all_anti-inflammatory
-3,chelidonium majus linn,,montani,,,,chamaemelum nobile (l.) all_dyspepsia,,,chamaemelum nobile (l.) all_smooth muscle-relaxanteffect
-4,chamaemelum nobile (l.) all,,asteraceae,,,,chamaemelum nobile (l.) all_gastrointestinal problems,,,chamaemelum nobile (l.) all_smoothmuscle-relaxant
-5,chamaemelum nobile,,chamomileintroductionchamaemelum nobile,,,,chamaemelum nobile (l.) all_vomiting of pregnancy,,,chamaemelum nobile (l.) all_improveappetite
-6,,,,,,,chamaemelum nobile (l.) all_gastrointestinal cramps,,,chamaemelum nobile (l.) all_anti-emetic
-7,,,,,,,chamaemelum nobile (l.) all_bloating,,,chamaemelum nobile (l.) all_prevent indigestion
-8,,,,,,,chamaemelum nobile (l.) all_gastrointestinal disorders,,,chamaemelum nobile (l.) all_painkiller
-9,,,,,,,chamaemelum nobile (l.) all_spasm of the gastrointestinal system,,,chamaemelum nobile (l.) all_antispasmodic
-10,,,,,,,chamaemelum nobile (l.) all_vomiting,,,chamaemelum nobile (l.) all_sedative
-11,,,,,,,chamaemelum nobile (l.) all_dysmenorrhoea,,,chamaemelum nobile (l.) all_diuretic
-12,,,,,,,chamaemelum nobile (l.) all_anorexia,,,chamaemelum nobile (l.) all_antifungal
-13,,,,,,,chamaemelum nobile (l.) all_bacterial and fungal strains,,,chamaemelum nobile (l.) all_digestive aid
-14,,,,,,,chamaemelum nobile (l.) all_flatulent dyspepsia,,,
-15,,,,,,,chamaemelum nobile (l.) all_nausea,,,
+0,chelidonium majus,chelidonium,trichodina,chelidoniummajus l,,,chelidonium majus_atopic dermatitis-like skin lesions,,,chamaemelum nobile (l.) all_smoothmuscle-relaxant
+1,chelidonium majusl,chelidonium majus,lymantria dispar,chelidoniummajus,,,chamaemelum nobile (l.) all_dyspepsia,,,chamaemelum nobile (l.) all_painkiller
+2,chelidonium majus l,chamaemelum nobile,staphylococcus aureus,matricaria recutita l,,,chamaemelum nobile (l.) all_dysmenorrhoea,,,chamaemelum nobile (l.) all_carminative
+3,chelidonium majus linn,,montani,,,,"chamaemelum nobile (l.) all_mild, spasmodic gastrointestinalcomplaints",,,chamaemelum nobile (l.) all_anti-emetic
+4,chamaemelum nobile (l.) all,,asteraceae,,,,chamaemelum nobile (l.) all_nausea,,,chamaemelum nobile (l.) all_diuretic
+5,chamaemelum nobile,,chamomileintroductionchamaemelum nobile,,,,chamaemelum nobile (l.) all_vomiting,,,chamaemelum nobile (l.) all_prevent indigestion
+6,,,,,,,chamaemelum nobile (l.) all_anorexia,,,chamaemelum nobile (l.) all_digestive aid
+7,,,,,,,chamaemelum nobile (l.) all_flatulent dyspepsia,,,chamaemelum nobile (l.) all_antimicrobial
+8,,,,,,,chamaemelum nobile (l.) all_bacterial and fungal strains,,,chamaemelum nobile (l.) all_antifungal
+9,,,,,,,chamaemelum nobile (l.) all_gastrointestinal problems,,,chamaemelum nobile (l.) all_sedative
+10,,,,,,,chamaemelum nobile (l.) all_flatulence,,,chamaemelum nobile (l.) all_anti-inflammatory
+11,,,,,,,chamaemelum nobile (l.) all_gastrointestinal disorders,,,chamaemelum nobile (l.) all_antispasmodic
+12,,,,,,,chamaemelum nobile (l.) all_gastrointestinal cramps,,,chamaemelum nobile (l.) all_improveappetite
+13,,,,,,,chamaemelum nobile (l.) all_spasm of the gastrointestinal system,,,chamaemelum nobile (l.) all_smooth muscle-relaxanteffect
+14,,,,,,,chamaemelum nobile (l.) all_bloating,,,
+15,,,,,,,chamaemelum nobile (l.) all_vomiting of pregnancy,,,

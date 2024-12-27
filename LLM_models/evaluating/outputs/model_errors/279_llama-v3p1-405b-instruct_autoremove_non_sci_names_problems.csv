@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,hypericum perforatum,hypericum perforatum,,paliurus aculeatus l,,hypericum perforatum_ulcers,cercis siliquastruml_respiratory system disorders,,hedera helix_expectorant,paliurus aculeatus l_antidiarrheal
-1,hedera helix,hedera helix,,cercis siliquastruml,,hypericum perforatum_stomach diseases,ecballium elaterium rich_liverdiseases,,,hedera helix_antibacterial
-2,hedera,gymnospermium altaicum subsp. scipetarum,,ecballium elaterium rich,,,ecballium elaterium rich_jaundice,,,
+1,hedera helix,hedera helix,,cercis siliquastruml,,hypericum perforatum_stomach diseases,ecballium elaterium rich_jaundice,,,hedera helix_antibacterial
+2,hedera,gymnospermium altaicum subsp. scipetarum,,ecballium elaterium rich,,,ecballium elaterium rich_liverdiseases,,,
 3,gymnospermium,,,alopecurus myosuroides huds,,,alopecurus myosuroides huds_urinary apparatus diseases,,,
 4,gymnospermium altaicum,,,juncus acutusl,,,juncus acutusl_urinary apparatus diseases,,,
 5,,,,physalis alkekengi l,,,physalis alkekengi l_skin diseases,,,

@@ -1,21 +1,21 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,hypericum,hypericum perforatum l,,hypericum hircinumsubsp. majus,hypericum perforatum l_infections of the respiratory tract,h. maculatum crantz subsp. maculatum_infections of the respiratory tract,hypericum_fungi,hypericum perforatum l_antiseptic,h. maculatum crantz subsp. maculatum_antiseptic,hypericum hircinumsubsp. majus_antifungal
-1,h. perforatum l,h. maculatum crantz subsp. maculatum,,h. montanuml,hypericum perforatum l_skin inflammations,h. maculatum crantz subsp. maculatum_skin inflammations,h. hircinum_respiratory tract infections,h. hircinum subsp. majus_antifungal,h. hircinum l. s. lat_antiseptic,hypericum_antimycotic
-2,h. perforatum,h. hircinum l. s. lat,,h. maculatumcrantz subsp. maculatum,hypericum perforatum l_wounds,h. maculatum crantz subsp. maculatum_wounds,h. hircinum_fungi,,h. hirsutum l_antiseptic,hypericum_antifungal
+1,h. perforatum l,h. maculatum crantz subsp. maculatum,,h. montanuml,hypericum perforatum l_skin inflammations,h. maculatum crantz subsp. maculatum_skin inflammations,h. hircinum_respiratory tract infections,h. hircinum subsp. majus_antifungal,h. hircinum l. s. lat_antiseptic,hypericum_antifungal
+2,h. perforatum,h. hircinum l. s. lat,,h. maculatumcrantz subsp. maculatum,hypericum perforatum l_wounds,h. maculatum crantz subsp. maculatum_wounds,h. hircinum_fungi,,h. hirsutum l_antiseptic,hypericum_antimycotic
 3,h. maculatum crantz subsp. maculatum,h. hirsutum l,,h. hircinum l. s.lat,hypericum perforatum l_burns,h. maculatum crantz subsp. maculatum_burns,h. perforatum l_neurologicaldisorders,,h. montanum l_antiseptic,h. hircinum subsp. majus_antifungals
-4,h. maculatum,h. montanum l,,hypericum spp,hypericum perforatum l_infections of the urinary tract,h. maculatum crantz subsp. maculatum_infections of the urinary tract,h. perforatum_diarrhea,,,h. perforatum l_antimycotic
-5,h. hircinum,h. hircinum subsp. majus,,aspergillus glaucus,h. hircinum subsp. majus_respiratory tract disorders,h. hircinum l. s. lat_infections of the respiratory tract,h. perforatum_hemorrhoids,,,h. perforatum l_antifungal
+4,h. maculatum,h. montanum l,,hypericum spp,hypericum perforatum l_infections of the urinary tract,h. maculatum crantz subsp. maculatum_infections of the urinary tract,h. perforatum_cuts,,,h. perforatum l_antifungal
+5,h. hircinum,h. hircinum subsp. majus,,aspergillus glaucus,h. hircinum subsp. majus_respiratory tract disorders,h. hircinum l. s. lat_infections of the respiratory tract,h. perforatum_dyspeptic complaints,,,h. perforatum l_antimycotic
 6,h. hircinum l. s. lat,,,penicillium,,h. hircinum l. s. lat_skin inflammations,h. perforatum_liver and stomach complaints,,,h. perforatum_antifungal
-7,h. hirsutum l,,,aspergillus,,h. hircinum l. s. lat_wounds,h. perforatum_dyspeptic complaints,,,h. maculatumcrantz subsp. maculatum_antimycotic
-8,h. hirsutum,,,candida,,h. hircinum l. s. lat_burns,h. perforatum_gastric ulcers,,,h. maculatumcrantz subsp. maculatum_antifungal
-9,h. montanum l,,,h. hircinumsubsp. majus,,h. hircinum l. s. lat_infections of the urinary tract,h. perforatum_myalgia,,,h. hircinum l. s.lat_antimycotic
-10,h. montanum,,,candida spp,,h. hirsutum l_infections of the respiratory tract,h. perforatum_cuts,,,h. hircinum l. s.lat_antifungal
-11,h. hircinum subsp. majus,,,h. carinatum,,h. hirsutum l_skin inflammations,h. perforatum_acute and contused injuries,,,h. hirsutum l_antimycotic
-12,h. hircinum subsp,,,h. myrianthum,,h. hirsutum l_wounds,h. montanuml_skin inflammations,,,h. hirsutum l_antifungal
-13,,,,h.linoides,,h. hirsutum l_burns,h. montanuml_burns,,,h. montanum l_antimycotic
-14,,,,h. garciae,,h. hirsutum l_infections of the urinary tract,h. montanuml_urinary tract,,,h. montanum l_antifungal
-15,,,,candidaspp,,h. montanum l_infections of the respiratory tract,h. montanuml_infections of therespiratory,,,hypericum spp_antifungal
-16,,,,cryptococcus neoformans,,h. montanum l_skin inflammations,h. montanuml_wounds,,,
+7,h. hirsutum l,,,aspergillus,,h. hircinum l. s. lat_wounds,h. perforatum_gastric ulcers,,,h. maculatumcrantz subsp. maculatum_antifungal
+8,h. hirsutum,,,candida,,h. hircinum l. s. lat_burns,h. perforatum_myalgia,,,h. maculatumcrantz subsp. maculatum_antimycotic
+9,h. montanum l,,,h. hircinumsubsp. majus,,h. hircinum l. s. lat_infections of the urinary tract,h. perforatum_acute and contused injuries,,,h. hircinum l. s.lat_antifungal
+10,h. montanum,,,candida spp,,h. hirsutum l_infections of the respiratory tract,h. perforatum_diarrhea,,,h. hircinum l. s.lat_antimycotic
+11,h. hircinum subsp. majus,,,h. carinatum,,h. hirsutum l_skin inflammations,h. perforatum_hemorrhoids,,,h. hirsutum l_antifungal
+12,h. hircinum subsp,,,h. myrianthum,,h. hirsutum l_wounds,h. montanuml_wounds,,,h. hirsutum l_antimycotic
+13,,,,h.linoides,,h. hirsutum l_burns,h. montanuml_infections of therespiratory,,,h. montanum l_antifungal
+14,,,,h. garciae,,h. hirsutum l_infections of the urinary tract,h. montanuml_skin inflammations,,,h. montanum l_antimycotic
+15,,,,candidaspp,,h. montanum l_infections of the respiratory tract,h. montanuml_urinary tract,,,hypericum spp_antifungal
+16,,,,cryptococcus neoformans,,h. montanum l_skin inflammations,h. montanuml_burns,,,
 17,,,,rhodotorula mucilaginosa,,h. montanum l_wounds,,,,
 18,,,,h. hirsutum subsp. hirsutum,,h. montanum l_burns,,,,
 19,,,,h. hircinum subsp.majus,,h. montanum l_infections of the urinary tract,,,,

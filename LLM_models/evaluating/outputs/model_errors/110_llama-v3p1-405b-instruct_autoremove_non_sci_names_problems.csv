@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,cannabis,cannabis,duboisia hopwoodii,douboisia hopwoodii,cannabis_severe nausea,cannabis_violence,cannabis_ringing inthe ears,piper methysticum_localized anesthetic effects,amanita muscaria_anxiety,
-1,amanita muscaria,amanita muscaria,nicotiana tabacum,,cannabis_scleroderma,cannabis_side effects of cancer chemotherapy,cannabis_adult attention deficitsyndrome,piper methysticum_reduced irritability,amanita muscaria_carcinogenic,
+0,cannabis,cannabis,duboisia hopwoodii,douboisia hopwoodii,cannabis_severe nausea,cannabis_violence,cannabis_adult attention deficitsyndrome,piper methysticum_localized anesthetic effects,amanita muscaria_anxiety,
+1,amanita muscaria,amanita muscaria,nicotiana tabacum,,cannabis_scleroderma,cannabis_side effects of cancer chemotherapy,cannabis_ringing inthe ears,piper methysticum_reduced irritability,amanita muscaria_carcinogenic,
 2,myristica fragrans,myristica fragrans,,,cannabis_terminal illnesses,cannabis_ringing in the ears,areca catechu_germs,,amanita muscaria_dilation of air passages,
-3,catha edulis,catha edulis,,,cannabis_crohn's disease,cannabis_adult attention deficit syndrome,areca catechu_phlegm,,amanita muscaria_euphoria,
-4,piper methysticum,piper methysticum,,,cannabis_post-traumatic stress syndrome,,areca catechu_wind,,amanita muscaria_confusion,
+3,catha edulis,catha edulis,,,cannabis_crohn's disease,cannabis_adult attention deficit syndrome,areca catechu_wind,,amanita muscaria_euphoria,
+4,piper methysticum,piper methysticum,,,cannabis_post-traumatic stress syndrome,,areca catechu_phlegm,,amanita muscaria_confusion,
 5,areca catechu,areca catechu,,,cannabis_depression,,,,amanita muscaria_suppresses the immune system,
 6,,,,,cannabis_migraine headaches,,,,"amanita muscaria_initially blood pressure, then lowers blood pressure",
 7,,,,,cannabis_premenstrual syndrome,,,,amanita muscaria_increased heart rate,

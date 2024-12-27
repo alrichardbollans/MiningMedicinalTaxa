@@ -1,18 +1,18 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,ajuga laxmannii (murray) benth,ajuga laxmannii (murray) benth,,ajugalaxmannii (murray) benth,,,ajuga_fever,ajuga laxmannii (murray) benth_anti-inflammatory,,ajugalaxmannii (murray) benth_inflammatory
+0,ajuga laxmannii (murray) benth,ajuga laxmannii (murray) benth,,ajugalaxmannii (murray) benth,,,ajuga_malaria,ajuga laxmannii (murray) benth_anti-inflammatory,,ajugalaxmannii (murray) benth_inflammatory
 1,ajuga laxmannii,,,a. laxmannii(murray) benth,,,ajuga_inflammation,ajuga laxmannii (murray) benth_antimicrobial,,ajuga laxmannii (murray) benth_galactogogue
 2,a. laxmannii,,,c. albicans,,,ajuga_pain,ajuga laxmannii (murray) benth_antioxidant,,ajuga laxmannii_galactagogue
-3,ajuga,,,p. funiculosum,,,ajuga_high blood pressure,,,a. laxmannii_antiradical
-4,,,,,,,ajuga_diabetes,,,a. laxmannii_antifungal
-5,,,,,,,ajuga_malaria,,,a. laxmannii_anti-oxidative stress
-6,,,,,,,,,,ajuga_anabolic
-7,,,,,,,,,,ajuga_cardiotonic
-8,,,,,,,,,,ajuga_antipyretic
-9,,,,,,,,,,ajuga_hepatoprotective
-10,,,,,,,,,,ajuga_hypoglycemic
-11,,,,,,,,,,ajuga_antimalarial
-12,,,,,,,,,,ajuga_antihelmintic
-13,,,,,,,,,,ajuga_antibacterial
-14,,,,,,,,,,ajuga_antifungal
-15,,,,,,,,,,ajuga_anti-arthritis
+3,ajuga,,,p. funiculosum,,,ajuga_fever,,,a. laxmannii_antifungal
+4,,,,,,,ajuga_high blood pressure,,,a. laxmannii_antiradical
+5,,,,,,,ajuga_diabetes,,,a. laxmannii_anti-oxidative stress
+6,,,,,,,,,,ajuga_cardiotonic
+7,,,,,,,,,,ajuga_anti-arthritis
+8,,,,,,,,,,ajuga_antibacterial
+9,,,,,,,,,,ajuga_anabolic
+10,,,,,,,,,,ajuga_antifungal
+11,,,,,,,,,,ajuga_hepatoprotective
+12,,,,,,,,,,ajuga_hypoglycemic
+13,,,,,,,,,,ajuga_antimalarial
+14,,,,,,,,,,ajuga_antihelmintic
+15,,,,,,,,,,ajuga_antipyretic
 16,,,,,,,,,,a. laxmannii(murray) benth_antiprotozoal

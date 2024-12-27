@@ -1,14 +1,14 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,laurocerasus officinalis roem,laurocerasus officinalis,l. casei,l. of-ficinalis,,,l. officinalis_pain,,,laurocerasus officinalis roem_antioxidant
+0,laurocerasus officinalis roem,laurocerasus officinalis,l. casei,l. of-ficinalis,,,l. officinalis_bronchitis,,,laurocerasus officinalis roem_renal toxicity
 1,l. officinalis,l. officinalis,,l. offici-nalis,,,l. officinalis_oxida-tive stress,,,laurocerasus officinalis roem_neuroprotective
-2,laurocerasus officinalis,l. officinalis fruit,,l. officina-lis,,,l. officinalis_oxidative stress,,,laurocerasus officinalis roem_renal toxicity
-3,phoenix dactylifera l,phoenix dactylifera,,punicagranatum l,,,l. officinalis_hemorrhoids,,,l. officinalis_analgesic
-4,,,,,,,l. officinalis_bronchitis,,,l. officinalis_antioxidant
-5,,,,,,,l. officinalis_stomach ulcers,,,l. officinalis_nephrotoxic
+2,laurocerasus officinalis,l. officinalis fruit,,l. officina-lis,,,l. officinalis_digestive sys-tem problems,,,laurocerasus officinalis roem_antioxidant
+3,phoenix dactylifera l,phoenix dactylifera,,punicagranatum l,,,l. officinalis_pain,,,l. officinalis_neuropro-tective
+4,,,,,,,l. officinalis_oxidative stress-induced kidney injury,,,l. officinalis_antioxidant
+5,,,,,,,l. officinalis_kidney tissue damage,,,l. officinalis_nephrotoxic
 6,,,,,,,l. officinalis_oxi-dative damage,,,l. officinalis_di-uretic
-7,,,,,,,l. officinalis_oxidative stress-induced kidney injury,,,l. officinalis_radi-cal scavenging
-8,,,,,,,l. officinalis_digestive sys-tem problems,,,l. officinalis_neuropro-tective
-9,,,,,,,l. officinalis_eczemas,,,l. of-ficinalis_anti-inflammatory
-10,,,,,,,l. officinalis_anti-diabetic,,,laurocerasus officinalis_anti-diabetic
-11,,,,,,,l. officinalis_kidney tissue damage,,,
+7,,,,,,,l. officinalis_stomach ulcers,,,l. officinalis_radi-cal scavenging
+8,,,,,,,l. officinalis_eczemas,,,l. officinalis_analgesic
+9,,,,,,,l. officinalis_anti-diabetic,,,l. of-ficinalis_anti-inflammatory
+10,,,,,,,l. officinalis_hemorrhoids,,,laurocerasus officinalis_anti-diabetic
+11,,,,,,,l. officinalis_oxidative stress,,,
 12,,,,,,,phoenix dactylifera l_oxidative stress,,,

@@ -1,22 +1,22 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,pinaropappus roseus less,pinaropappus roseus,hela cells,,,,pinaropappus roseus less_dermatological infections,,,pinaropappus roseus less_antimicobacterial
-1,pinaropappus roseus,candida albicans,hela,,,,z. jujuba_diarrhea,,,pinaropappus roseus_antimicobacterial
-2,candida albicans,schisandra rubriflora,asteraceae,,,,z. jujuba_ulcers,,,schisandra chinensis (turcz.) baill_hepatoprotective
-3,s. rubriflora,schisandra,staphylococcus aureus,,,,z. jujuba_indigestion,,,schisandra chinensis (turcz.) baill_antitumour
-4,schisandra rubriflora,s. rubriflora,polandschisandra chinensis,,,,z. jujuba_vomiting,,,schisandra chinensis (turcz.) baill_adaptogenic
-5,schisandra,akebia quinata,polandakebia quinata,,,,z. jujuba_fever,,,schisandra chinensis (turcz.) baill_antioxidant
-6,schisandra rubriflora rehder & e.h.wilson,a. quinata,akebia stem,,,,z. jujuba_dysentery,,,s. rubriflora_antioxidant
-7,schisandra chinensis (turcz.) baill,ginkgo biloba,trypanosoma cruzi,,,,z. jujuba_pulmonary ailments,,,akebia quinata_antioxidant
-8,akebia quinata,ziziphus,leishmania donovani,,,,helleborus cyclophyllus boiss_cancer,,,a. quinata_promote the milk-secretion
-9,a. quinata,ziziphus jujuba,plasmodium falciparum,,,,h. cyclophyllus_cancer,,,a. quinata_analgesic
-10,akebia quinata (houtt.) decne,z. jujuba,trypanosoma brucei rhodesiense,,,,h. cyclophyllus boiss_cancer,,,a. quinata_antioxidant
-11,ginkgo biloba l,ziziphus mauritiana,p. falciparum,,,,,,,a. quinata_antiphlogistic
-12,ziziphus jujuba mill,helleborus cyclophyllus,l. donovani,,,,,,,a. quinata_diuretic
+1,pinaropappus roseus,candida albicans,hela,,,,z. jujuba_indigestion,,,pinaropappus roseus_antimicobacterial
+2,candida albicans,schisandra rubriflora,asteraceae,,,,z. jujuba_vomiting,,,schisandra chinensis (turcz.) baill_hepatoprotective
+3,s. rubriflora,schisandra,staphylococcus aureus,,,,z. jujuba_dysentery,,,schisandra chinensis (turcz.) baill_antioxidant
+4,schisandra rubriflora,s. rubriflora,polandschisandra chinensis,,,,z. jujuba_pulmonary ailments,,,schisandra chinensis (turcz.) baill_antitumour
+5,schisandra,akebia quinata,polandakebia quinata,,,,z. jujuba_fever,,,schisandra chinensis (turcz.) baill_adaptogenic
+6,schisandra rubriflora rehder & e.h.wilson,a. quinata,akebia stem,,,,z. jujuba_diarrhea,,,s. rubriflora_antioxidant
+7,schisandra chinensis (turcz.) baill,ginkgo biloba,trypanosoma cruzi,,,,z. jujuba_ulcers,,,akebia quinata_antioxidant
+8,akebia quinata,ziziphus,leishmania donovani,,,,helleborus cyclophyllus boiss_cancer,,,a. quinata_antioxidant
+9,a. quinata,ziziphus jujuba,plasmodium falciparum,,,,h. cyclophyllus_cancer,,,a. quinata_diuretic
+10,akebia quinata (houtt.) decne,z. jujuba,trypanosoma brucei rhodesiense,,,,h. cyclophyllus boiss_cancer,,,a. quinata_analgesic
+11,ginkgo biloba l,ziziphus mauritiana,p. falciparum,,,,,,,a. quinata_promote the milk-secretion
+12,ziziphus jujuba mill,helleborus cyclophyllus,l. donovani,,,,,,,a. quinata_antiphlogistic
 13,ziziphus jujuba,h. cyclophyllus,greecehelleborus cyclophyllus,,,,,,,a. quinata_stimulant of the menstrual flow
 14,ziziphus mauritiana,,davila,,,,,,,ziziphus jujuba mill_antiprotozoal
-15,z. jujuba,,,,,,,,,z. jujuba_cytotoxicity
-16,helleborus cyclophyllus boiss,,,,,,,,,z. jujuba_antiprotozoal
-17,h. cyclophyllus,,,,,,,,,helleborus cyclophyllus boiss_apoptotic
-18,h. cyclophyllus boiss,,,,,,,,,helleborus cyclophyllus boiss_anticancer
+15,z. jujuba,,,,,,,,,z. jujuba_antiprotozoal
+16,helleborus cyclophyllus boiss,,,,,,,,,z. jujuba_cytotoxicity
+17,h. cyclophyllus,,,,,,,,,helleborus cyclophyllus boiss_anticancer
+18,h. cyclophyllus boiss,,,,,,,,,helleborus cyclophyllus boiss_apoptotic
 19,,,,,,,,,,h. cyclophyllus_cytotoxic
 20,,,,,,,,,,h. cyclophyllus boiss_apoptotic

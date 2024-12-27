@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,sideritis,sideritis scardica,,sideritis l,,,sideritis l_sore throat,sideritis scardica_antioxidant,sideritis scardica_diuretic,sideritis l_anti inflammatory
-1,s. scardica,sideritis raeseri,,sideritis javalambrensis,,,sideritis l_diuretic,sideritis raeseri_antioxidant,sideritis scardica_anti-ulcer,sideritis l_anti-ulcer
-2,sideritis raeseri,sideritis taurica,,h. fasciculatum lam.alliance,,,sideritis l_bronchitis,sideritis taurica_antioxidant,sideritis scardica_anti-inflammatory,sideritis javalambrensis_antioxidant
-3,s. raeseri,sideritis syriaca,,s. tau-rica,,,sideritis l_common colds,sideritis syriaca_antioxidant,sideritis raeseri_diuretic,
-4,s. taurica,sideritis perfoliata,,s.raeseri,,,sideritis l_gastrointestinalailments,sideritis perfoliata_antioxidant,sideritis raeseri_anti-ulcer,
-5,s. syriaca,hypericum uniglandulosum,,,,,sideritis l_flu,,sideritis raeseri_anti-inflammatory,
+0,sideritis,sideritis scardica,,sideritis l,,,sideritis l_sore throat,sideritis scardica_antioxidant,sideritis scardica_diuretic,sideritis l_anti-ulcer
+1,s. scardica,sideritis raeseri,,sideritis javalambrensis,,,sideritis l_diuretic,sideritis raeseri_antioxidant,sideritis scardica_anti-ulcer,sideritis l_anti inflammatory
+2,sideritis raeseri,sideritis taurica,,h. fasciculatum lam.alliance,,,sideritis l_common colds,sideritis taurica_antioxidant,sideritis scardica_anti-inflammatory,sideritis javalambrensis_antioxidant
+3,s. raeseri,sideritis syriaca,,s. tau-rica,,,sideritis l_bronchitis,sideritis syriaca_antioxidant,sideritis raeseri_diuretic,
+4,s. taurica,sideritis perfoliata,,s.raeseri,,,sideritis l_flu,sideritis perfoliata_antioxidant,sideritis raeseri_anti-ulcer,
+5,s. syriaca,hypericum uniglandulosum,,,,,sideritis l_gastrointestinalailments,,sideritis raeseri_anti-inflammatory,
 6,s. perfoliata,hypericum scabroides,,,,,,,sideritis taurica_diuretic,
 7,h. uniglandulosum,hypericum kotschyanum,,,,,,,sideritis taurica_anti-ulcer,
 8,hypericum,hypericum salsugineum,,,,,,,sideritis taurica_anti-inflammatory,

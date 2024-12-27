@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,pinus,pinus peuce,,pinuspeuce,pinus peuce_digestive system diseases,,pinus_bronchitis,pinus peuce_antioxidant,pinus peuce_analgesic,pinus_expectorants
+0,pinus,pinus peuce,,pinuspeuce,pinus peuce_digestive system diseases,,pinus_bronchitis,pinus peuce_antioxidant,pinus peuce_analgesic,pinus_antisep-tics
 1,pinus peuce,pinus sylvestris,,pinus l,pinus peuce_skin diseases,,pinus_asthma,pinus peuce_cholesterol lowering,pinus peuce_expectorant,pinus_analgesics
-2,pinus sylvestris,pinus nigra,,pinus peucegriseb,pinus peuce_respiratory system disorders,,pinus_common cold,pinus peuce_antiseptic,pinus peuce_tonic,pinus_antisep-tics
-3,pinus nigra,pinus mugo,,,pinus peuce_urinary system disorders,,,pinus peuce_antimicrobial,pinus sylvestris_analgesic,pinus_tonics
+2,pinus sylvestris,pinus nigra,,pinus peucegriseb,pinus peuce_respiratory system disorders,,pinus_common cold,pinus peuce_antiseptic,pinus peuce_tonic,pinus_tonics
+3,pinus nigra,pinus mugo,,,pinus peuce_urinary system disorders,,,pinus peuce_antimicrobial,pinus sylvestris_analgesic,pinus_expectorants
 4,pinus mugo,,,,pinus sylvestris_digestive system diseases,,,pinus peuce_antibacterial,pinus sylvestris_expectorant,
 5,,,,,pinus sylvestris_skin diseases,,,pinus peuce_antitumorial,pinus sylvestris_tonic,
 6,,,,,pinus sylvestris_respiratory system disorders,,,pinus sylvestris_antioxidant,pinus nigra_analgesic,

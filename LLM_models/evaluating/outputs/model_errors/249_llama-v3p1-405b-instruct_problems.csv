@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,cannabis sativa l,cannabis sativa l,,,vernonia amygdalina_malaria,andrographis paniculata_inflammation,,cannabis sativa l_anxiolytic-like,salvia haenkei_anti-inflammatory,cannabis sativa l_anti-iflammatory
-1,cannabis,canavalia ensiformis,,,,andrographis paniculata_tumor,,cannabis sativa l_anti-inflammatory,salvia haenkei_antioxidant,cannabis sativa l_antioxidant
+0,cannabis sativa l,cannabis sativa l,,,vernonia amygdalina_malaria,andrographis paniculata_inflammation,,cannabis sativa l_anxiolytic-like,salvia haenkei_anti-inflammatory,cannabis sativa l_antioxidant
+1,cannabis,canavalia ensiformis,,,,andrographis paniculata_tumor,,cannabis sativa l_anti-inflammatory,salvia haenkei_antioxidant,cannabis sativa l_anti-iflammatory
 2,canavalia ensiformis,salvia haenkei,,,,andrographis paniculata_bacterial infection,,cannabis sativa l_immunomodulatory,achillea millefolium_antioxidant,salvia haenkei_anti-senescence
 3,salvia haenkei,althaea officinalis,,,,andrographis paniculata_diabetes,,salvia haenkei_anti-ageing,,salvia haenkei_anti-aging
 4,althaea officinalis,achillea millefolium,,,,andrographis paniculata_parasitic infection,,althaea officinalis_antioxidant,,melissa officinalis_antimicrobial

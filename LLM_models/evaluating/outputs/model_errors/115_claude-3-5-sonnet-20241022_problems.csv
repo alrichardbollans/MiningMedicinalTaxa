@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,podophyllum peltatum,podophyllum peltatum,,lobelia tupa,,pulmonaria officinalis_respiratory,chenopodium quinoa_intestinal worms,,boswellia carteri_medicine,lobelia tupa_emetic
-1,pulmonaria officinalis,pulmonaria officinalis,,chenopodium quinoa,,chenopodium anthelminthicum_intestinal worms,solidago spp_hepatitis,,commiphora gileadensis_medicine,carthamus tinctorius_diuretic
-2,symphytum officinale,symphytum officinale,,carthamus tinctorius,,inula helenium_respiratory,tanacetum vulgare_fever,,commiphora myrrha_medicinal,carthamus tinctorius_vermifuge
-3,boswellia carteri,boswellia carteri,,solidago spp,,silybum marianum_hepatitis,tanacetum vulgare_migraine,,lobelia inflata_emetic,dichondra spp_purgative
+1,pulmonaria officinalis,pulmonaria officinalis,,chenopodium quinoa,,chenopodium anthelminthicum_intestinal worms,solidago spp_hepatitis,,commiphora gileadensis_medicine,carthamus tinctorius_vermifuge
+2,symphytum officinale,symphytum officinale,,carthamus tinctorius,,inula helenium_respiratory,tanacetum vulgare_migraine,,commiphora myrrha_medicinal,carthamus tinctorius_diuretic
+3,boswellia carteri,boswellia carteri,,solidago spp,,silybum marianum_hepatitis,tanacetum vulgare_fever,,lobelia inflata_emetic,dichondra spp_purgative
 4,commiphora gileadensis,commiphora gileadensis,,tanacetum vulgare,,tanacetum parthenium_migraine,nyssa aquatica_leukemia,,saponaria officinalis_laxative,dichondra_purgative
 5,commiphora myrrha,commiphora myrrha,,dichondra spp,,camptotheca acuminata_leukemia,nyssa aquatica_throat cancer,,artemisia dracunculus_diuretic,ipomoea pandurata_purgative
 6,lobelia inflata,lobelia inflata,,dichondra,,camptotheca acuminata_throat cancer,,,artemisia dracunculus_vermifuge,ipomoea purga_cathartic

@@ -1,22 +1,22 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,opopanax chironium,opopanax,family)cola acuminata,urtica spp,,,xanthorrhoea spp_scurvy,,,urtica spp_diuretic
-1,opopanax,,family)tamarix gallica,viscum album,,,,,,viscum album_abortifacient
-2,,,family)camellia sinensis,cissus javana,,,,,,cissus javana_immuno-stimulatory
-3,,,timbertilia cordata,xanthorrhoea spp,,,,,,
-4,,,timbertriumfetta lappula,capsicum baccatum,,,,,,
-5,,,family)trapa bicornis,capsicum chinense,,,,,,
-6,,,family)ulmus alata,capsicum frutescens,,,,,,
-7,,,woodulmus americana,capsicum pubescens,,,,,,
-8,,,woodulmus procera,cyphomandra betacea,,,,,,
-9,,,woodulmus rubra,datura innoxia,,,,,,
-10,,,family)anethum graveolens,datura stramonium,,,,,,
-11,,,arracacha,duboisia hopwoodii,,,,,,
-12,,,family)boehmeria nivea,duboisia myoporoides,,,,,,
-13,,,family)nardostachys grandiflora,hyoscyamus niger,,,,,,
-14,,,family)tectona grandis,latua pubiflora,,,,,,
-15,,,family)viola odorata,lycium spp,,,,,,
-16,,,family)phoradendron flavescens,lycopersicon esculentum,,,,,,
-17,,,family)guaiacum officinale,lycopersicon pimpinellifolium,,,,,,
+0,opopanax chironium,opopanax,arracacha,urtica spp,,,xanthorrhoea spp_scurvy,,,urtica spp_diuretic
+1,opopanax,,,viscum album,,,,,,viscum album_abortifacient
+2,,,,cissus javana,,,,,,cissus javana_immuno-stimulatory
+3,,,,xanthorrhoea spp,,,,,,
+4,,,,capsicum baccatum,,,,,,
+5,,,,capsicum chinense,,,,,,
+6,,,,capsicum frutescens,,,,,,
+7,,,,capsicum pubescens,,,,,,
+8,,,,cyphomandra betacea,,,,,,
+9,,,,datura innoxia,,,,,,
+10,,,,datura stramonium,,,,,,
+11,,,,duboisia hopwoodii,,,,,,
+12,,,,duboisia myoporoides,,,,,,
+13,,,,hyoscyamus niger,,,,,,
+14,,,,latua pubiflora,,,,,,
+15,,,,lycium spp,,,,,,
+16,,,,lycopersicon esculentum,,,,,,
+17,,,,lycopersicon pimpinellifolium,,,,,,
 18,,,,mandragora officinarum,,,,,,
 19,,,,nicotiana rustica,,,,,,
 20,,,,nicotiana tabacum,,,,,,

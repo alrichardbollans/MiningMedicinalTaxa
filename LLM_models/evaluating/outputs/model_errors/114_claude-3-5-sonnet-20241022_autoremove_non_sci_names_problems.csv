@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,tolypocladium inflatum,tolypocladium inflatum,,pistacia lentiscus,,aristolochia spp_menstruation,urechites suberecta_hemorrhoids,dryopteris filix-mas_vermifuge,tolypocladium inflatum_cyclosporin,pistacia lentiscus_purgative
-1,cetraria islandica,cetraria islandica,,apocynum venetum,,asclepias curassavica_toothache,asclepias curassavica_menstruation,,cetraria islandica_medicine,apocynum venetum_cardiac stimulant
-2,dryopteris dilatata,dryopteris dilatata,,urechites suberecta,,cryptolepis sanguinolenta_malaria,asclepias spp_toothache,,dryopteris dilatata_vermifuge,apocynum venetum_emetic
+1,cetraria islandica,cetraria islandica,,apocynum venetum,,asclepias curassavica_toothache,asclepias curassavica_menstruation,,cetraria islandica_medicine,apocynum venetum_emetic
+2,dryopteris dilatata,dryopteris dilatata,,urechites suberecta,,cryptolepis sanguinolenta_malaria,asclepias spp_toothache,,dryopteris dilatata_vermifuge,apocynum venetum_cardiac stimulant
 3,dryopteris filix-mas,dryopteris filix-mas,,asclepias spp,,,cryptostegia grandiflora_malaria,,ephedra sinica_ephedrine,asclepias curassavica_abortifacient
 4,ephedra sinica,ephedra sinica,,cryptostegia grandiflora,,,,,ephedra trifurca_ephedrine,asclepias spp_tooth extraction
 5,ephedra trifurca,ephedra trifurca,,taphrina deformans,,,,,ginkgo biloba_vascular,

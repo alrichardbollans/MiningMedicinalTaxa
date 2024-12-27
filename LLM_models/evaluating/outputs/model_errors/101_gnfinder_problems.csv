@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,cerbera vinenifera,cerbera,nyassa,krausii,,,physostigma vene-nosum_alzheimer's disease,,,
-1,cerbera spp,physostigma vene-nosum,indian/pacific coastscombretum confertum,combretum confertum,,,physostigma vene-nosum_glaucoma,,,
-2,physostigma vene-nosum,adenium obesum,africasecuridaca longipedunculata,securidaca longipedunculata,,,physostigma vene-nosum_chronic constipation,,,
+0,cerbera vinenifera,cerbera,nyassa,krausii,,,physostigma vene-nosum_glaucoma,,,
+1,cerbera spp,physostigma vene-nosum,indian/pacific coastscombretum confertum,combretum confertum,,,physostigma vene-nosum_chronic constipation,,,
+2,physostigma vene-nosum,adenium obesum,africasecuridaca longipedunculata,securidaca longipedunculata,,,physostigma vene-nosum_alzheimer's disease,,,
 3,adenium obesum,akokanthera venetata,africastrychnos icaja,strychnos icaja,,,,,,
 4,akokanthera venetata,cerbera vinenifera,africastrychnos kipapa,strychnos kipapa,,,,,,
 5,detarium senegalense,detarium senegalense,indomalaysiagnidia krausii,rourea glabra,,,,,,

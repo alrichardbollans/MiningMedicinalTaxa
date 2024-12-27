@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,echinacea angustifolia dc,echinacea angustifolia dc,,aloe vera,echinacea angustifolia dc_common cold,trachyspermum ammi_headaches,aloe vera_skin heath,boswellia_anti-inflammatory,boswellia serrata roxb. ex colebr_anti-inflammatory,echinacea_maintain immune system
-1,echinacea,trachyspermum ammi,,mentha,echinacea angustifolia dc_infections,trachyspermum ammi_indigestion,aloe vera_wound,althaea officinalis l_demulcent,,mentha_calm nerves
-2,trachyspermum ammi,boswellia,,ginkgo,,boswellia_arthritis,aloe vera_eczema,,,mentha_eases digestion
+1,echinacea,trachyspermum ammi,,mentha,echinacea angustifolia dc_infections,trachyspermum ammi_indigestion,aloe vera_eczema,althaea officinalis l_demulcent,,mentha_eases digestion
+2,trachyspermum ammi,boswellia,,ginkgo,,boswellia_arthritis,aloe vera_wound,,,mentha_calm nerves
 3,boswellia serrate roxb. ex colebr,boswellia serrata roxb. ex colebr,,agnus castus,,althaea officinalis l_cough,aloe vera_skin conditions,,,ginkgo_circulatory problems
 4,boswellia,althaea officinalis l,,senna,,,echinacea_sore throat,,,althaea officinalis l_cough
 5,althaea officinalis l,,,rhodiola,,,echinacea_colds,,,

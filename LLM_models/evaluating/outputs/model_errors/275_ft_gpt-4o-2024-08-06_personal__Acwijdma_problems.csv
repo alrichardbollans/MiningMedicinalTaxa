@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,arnicamontana l,arnicamontana l,sambuci flos,carduus crispus,artemisia_gastric insufficiency,sambuci flos_flu symptoms,,artemisia_anti-malaric,betulae folium_diuretic,artemisia_anti-helminicproperties
-1,arnicamontana,gypsophila trichotoma wend,betulae folium,,artemisia species_diabetes,sambuci flos_common cold,,artemisia_poison antidote,artemisia_anti-helminic,artemisia_anti-migraine
-2,gypsophila trichotoma wend,arnica montana,,,artemisia species_high blood pressure,betulae folium_bacterialinflammatory diseases associated with spastic phenomena,,artemisia species_stomachic,,artemisia_blood circulation
+0,arnicamontana l,arnicamontana l,sambuci flos,carduus crispus,artemisia_gastric insufficiency,sambuci flos_flu symptoms,,artemisia_anti-malaric,betulae folium_diuretic,artemisia_anti-migraine
+1,arnicamontana,gypsophila trichotoma wend,betulae folium,,artemisia species_diabetes,sambuci flos_common cold,,artemisia_poison antidote,artemisia_anti-helminic,artemisia_blood circulation
+2,gypsophila trichotoma wend,arnica montana,,,artemisia species_high blood pressure,betulae folium_bacterialinflammatory diseases associated with spastic phenomena,,artemisia species_stomachic,,artemisia_anti-helminicproperties
 3,gypsophila,gypsophila trichotoma,,,,artemisia species_migraine,,artemisia species_anti-diabetic,,
 4,gypsophila trichotoma,artemisia,,,,,,artemisia species_digestive,,
 5,arnica,artemisia species,,,,,,artemisia species_anti-fungal,,

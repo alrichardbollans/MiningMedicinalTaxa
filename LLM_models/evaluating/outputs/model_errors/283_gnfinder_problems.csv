@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,h. uniglandulosum,h. uniglandulosum,composition ofhypericum thymopsis,h. salsugineum,,,sideritis l_flu,,,sideritis l_anti-ulcer
-1,h. scabroides,h. scabroides,clusiaceae,s. tau-rica,,,sideritis l_sore throat,,,sideritis l_anti inflammatory
+0,h. uniglandulosum,h. uniglandulosum,composition ofhypericum thymopsis,h. salsugineum,,,sideritis l_sore throat,,,sideritis l_anti-ulcer
+1,h. scabroides,h. scabroides,clusiaceae,s. tau-rica,,,sideritis l_diuretic,,,sideritis l_anti inflammatory
 2,h. kotschyanum,h. kotschyanum,myriandra,s.raeseri,,,sideritis l_common colds,,,sideritis_antioxidant
-3,h. thymopsis,h. thymopsis,svetlana,,,,sideritis l_gastrointestinalailments,,,sideritis javalambrensis_antioxidant
-4,hypericum thymopsis boiss,hypericum,lamiaceae,,,,sideritis l_bronchitis,,,
-5,hypericum,hypericum perforatum,suva,,,,sideritis l_diuretic,,,
+3,h. thymopsis,h. thymopsis,svetlana,,,,sideritis l_bronchitis,,,sideritis javalambrensis_antioxidant
+4,hypericum thymopsis boiss,hypericum,lamiaceae,,,,sideritis l_flu,,,
+5,hypericum,hypericum perforatum,suva,,,,sideritis l_gastrointestinalailments,,,
 6,h. fasciculatum lam.alliance,h. fasciculatum,heras,,,,,,,
 7,sideritis l,sideritis,bakhamskite ostrovi,,,,,,,
 8,sideritis,s. scardica,kanarskite ostrovi,,,,,,,

@@ -1,20 +1,20 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,plantago l,plantago,,,,,,,,tuber aestivum vittad_anti-inflammatory
-1,plantago altissima l,plantago altissima,,,,,,,,tuber aestivum vittad_cytotoxic
-2,plantago lanceolata l,plantago lanceolata,,,,,,,,tuber aestivum vittad_antioxidant
+1,plantago altissima l,plantago altissima,,,,,,,,tuber aestivum vittad_antioxidant
+2,plantago lanceolata l,plantago lanceolata,,,,,,,,tuber aestivum vittad_cytotoxic
 3,plantago reniformis g. beck,plantago reniformis,,,,,,,,tuber magnatum pico_anti-inflammatory
-4,tuber aestivum vittad,tuber aestivum,,,,,,,,tuber magnatum pico_cytotoxic
-5,tuber magnatum pico,tuber magnatum,,,,,,,,tuber magnatum pico_antioxidant
+4,tuber aestivum vittad,tuber aestivum,,,,,,,,tuber magnatum pico_antioxidant
+5,tuber magnatum pico,tuber magnatum,,,,,,,,tuber magnatum pico_cytotoxic
 6,juniperus sibirica burgsdorf,juniperus sibirica,,,,,,,,juniperus sibirica burgsdorf_anti-inflammatory
 7,juniperus foetidissima willd,juniperus foetidissima,,,,,,,,juniperus sibirica burgsdorf_antioxidant
-8,"allium flavum l., subsp. flavum",allium flavum,,,,,,,,"allium flavum l., subsp. flavum_antiinflammatory"
+8,"allium flavum l., subsp. flavum",allium flavum,,,,,,,,"allium flavum l., subsp. flavum_antioxidant"
 9,,,,,,,,,,"allium flavum l., subsp. flavum_cytotoxic"
-10,,,,,,,,,,"allium flavum l., subsp. flavum_antioxidant"
+10,,,,,,,,,,"allium flavum l., subsp. flavum_antiinflammatory"
 11,,,,,,,,,,plantago l_anti-inflammatory
-12,,,,,,,,,,plantago altissima l_cytotoxic
-13,,,,,,,,,,plantago altissima l_antioxidant
-14,,,,,,,,,,plantago lanceolata l_cytotoxic
-15,,,,,,,,,,plantago lanceolata l_antioxidant
+12,,,,,,,,,,plantago altissima l_antioxidant
+13,,,,,,,,,,plantago altissima l_cytotoxic
+14,,,,,,,,,,plantago lanceolata l_antioxidant
+15,,,,,,,,,,plantago lanceolata l_cytotoxic
 16,,,,,,,,,,plantago reniformis g. beck_anti-inflammatory
-17,,,,,,,,,,plantago reniformis g. beck_cytotoxic
-18,,,,,,,,,,plantago reniformis g. beck_antioxidant
+17,,,,,,,,,,plantago reniformis g. beck_antioxidant
+18,,,,,,,,,,plantago reniformis g. beck_cytotoxic

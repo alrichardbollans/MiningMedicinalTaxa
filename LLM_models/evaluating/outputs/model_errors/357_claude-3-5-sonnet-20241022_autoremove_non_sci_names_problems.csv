@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,pulsatilla patens,pulsatilla patens,picea alba,matricariachamomilla,pulsatilla patens_skin disorders,populus tremula_skin disorders,vinca minor_skindisorders,sedum acre_relaxant,,thymus serpyllum_destroy thescurvy impurities
+0,pulsatilla patens,pulsatilla patens,picea alba,matricariachamomilla,pulsatilla patens_skin disorders,populus tremula_skin disorders,vinca minor_skindisorders,sedum acre_relaxant,,thymus serpyllum_wound healing
 1,centaurea cyanus,centaurea cyanus,levisticum officinale,piceaalba,centaurea cyanus_skin disorders,pulsatilla vulgaris_plica polonica,thymus serpyllum_osteomyelitis,sedum acre_emetic,,thymus serpyllum_gum strengthening
-2,ruta graveolens,ruta graveolens,stachys palustris,allium cepa,ruta graveolens_skin disorders,schoenus nigricans_burn wounds,artemisia absinthium_osteomyelitis,,,thymus serpyllum_wound healing
+2,ruta graveolens,ruta graveolens,stachys palustris,allium cepa,ruta graveolens_skin disorders,schoenus nigricans_burn wounds,artemisia absinthium_osteomyelitis,,,thymus serpyllum_destroy thescurvy impurities
 3,vinca minor,vinca minor,pulsatilla vulgaris,pulsatillavulgaris,vinca minor_skin disorders,sedum acre_food poisoning,matricariachamomilla_osteomyelitis,,,sedum maximum_ulcers
 4,sorbus aucuparia,sorbus aucuparia,schoenus nigricans,schoenusnigricans,vinca minor_cataracts,sedum acre_flu,anthemis arvensis_osteomyelitis,,,sedum_wound healing
 5,daphne mezereum,daphne mezereum,,sorbus arranensis,populus tremula_osteomyelitis,sedum maximum_ulcers,populus tremula_skindisorders,,,sorbus arranensis_antimicrobial

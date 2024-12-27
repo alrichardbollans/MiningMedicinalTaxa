@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,linum usitatissimum,linum usitatissimum,,,linum usitatissimum_seborrhea sicca,linum usitatissimum_seboreea oleossa,linum usitatissimum_ringworm,linum usitatissimum_anti-inflamma-tory,,linum usitatissimum_cutaneous ag-ing prevention
-1,linum usitatissimum l,linum usitatissimum l,,,linum usitatissimum_seborrhea,linum usitatissimum_seboreea sicca,linum usitatissimum_sebum-regulation,linum usitatissimum_sebum-reducing,,linum usitatissimum_skin excoriations
-2,,,,,linum usitatissimum l_skin wounds,,linum usitatissimum_surgical wound healing,linum usitatissimum_antibacterial,,linum usitatissimum_increased skin hydration
-3,,,,,,,linum usitatissimum_scarring,,,linum usitatissimum_restoring the cutaneous barrier
+0,linum usitatissimum,linum usitatissimum,,,linum usitatissimum_seborrhea sicca,linum usitatissimum_seboreea oleossa,linum usitatissimum_sebum-regulation,linum usitatissimum_anti-inflamma-tory,,linum usitatissimum_anti-androgenic
+1,linum usitatissimum l,linum usitatissimum l,,,linum usitatissimum_seborrhea,linum usitatissimum_seboreea sicca,linum usitatissimum_surgical wound healing,linum usitatissimum_sebum-reducing,,linum usitatissimum_skin hydration
+2,,,,,linum usitatissimum l_skin wounds,,linum usitatissimum_scarring,linum usitatissimum_antibacterial,,linum usitatissimum_es-trogen-mimetic
+3,,,,,,,linum usitatissimum_ringworm,,,linum usitatissimum_estrogen-mimetic action
 4,,,,,,,,,,linum usitatissimum_reducing the appearance of scaly skin
-5,,,,,,,,,,linum usitatissimum_es-trogen-mimetic
-6,,,,,,,,,,linum usitatissimum_estrogen-mimetic action
-7,,,,,,,,,,linum usitatissimum_anti-androgenic
-8,,,,,,,,,,linum usitatissimum_wound heal-ing
-9,,,,,,,,,,linum usitatissimum_skin hydration
-10,,,,,,,,,,linum usitatissimum_protective and nu-tritive for human skin
+5,,,,,,,,,,linum usitatissimum_protective and nu-tritive for human skin
+6,,,,,,,,,,linum usitatissimum_cutaneous ag-ing prevention
+7,,,,,,,,,,linum usitatissimum_wound heal-ing
+8,,,,,,,,,,linum usitatissimum_restoring the cutaneous barrier
+9,,,,,,,,,,linum usitatissimum_increased skin hydration
+10,,,,,,,,,,linum usitatissimum_skin excoriations

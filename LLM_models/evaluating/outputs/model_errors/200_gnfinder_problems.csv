@@ -2,13 +2,13 @@
 0,trifolium pratense l,trifolium pratense,fabaceae,,,,chenopodium botrys l_humoral asthma,,,trifolium pratense l_estrogenic
 1,chenopodium botrys l,chenopodium botrys,amaranthaceae,,,,chenopodium botrys l_catarrh,,,chenopodium botrys l_antimicrobial
 2,c. botrys,chenopodium,svetlana,,,,,,,c. botrys_carminative
-3,chenopodium botrys,dys-phania botrys,escherichia coli,,,,,,,c. botrys_antimicrobial
-4,chenopodium,chenopodium ambro-sioides,staphylococcus epidermidis,,,,,,,c. botrys_fungicidal
+3,chenopodium botrys,dys-phania botrys,escherichia coli,,,,,,,c. botrys_diuretic
+4,chenopodium,chenopodium ambro-sioides,staphylococcus epidermidis,,,,,,,c. botrys_antibacterial
 5,chenopodium ambro-sioides,c. botrys,pseudomonas aeruginosa,,,,,,,c. botrys_antifungal
-6,dys-phania botrys (l.) mosyakin and clemants,c. botrys herba,strepto-coccus pyogenes,,,,,,,c. botrys_antidiarrheal
-7,candida albicans,candida albicans,proteus mirabilis,,,,,,,c. botrys_diuretic
-8,aspergillus niger,aspergillus niger,salmonella,,,,,,,c. botrys_antispasmodic
-9,candi-da albicans,candi-da albicans,staphylococcus aureus,,,,,,,c. botrys_antibacterial
+6,dys-phania botrys (l.) mosyakin and clemants,c. botrys herba,strepto-coccus pyogenes,,,,,,,c. botrys_antimicrobial
+7,candida albicans,candida albicans,proteus mirabilis,,,,,,,c. botrys_fungicidal
+8,aspergillus niger,aspergillus niger,salmonella,,,,,,,c. botrys_antidiarrheal
+9,candi-da albicans,candi-da albicans,staphylococcus aureus,,,,,,,c. botrys_antispasmodic
 10,,,streptococcus pyogenes,,,,,,,c. botrys_bactericidal
 11,,,salmonella en-teritidis,,,,,,,chenopodium botrys_antifungal
 12,,,chenopodiaceae,,,,,,,chenopodium botrys_antimi-crobia

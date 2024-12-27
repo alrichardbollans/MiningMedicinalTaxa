@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,adenium obesum,adenium obesum,gnidia krausii,physostigma vene-nosum,,adenium obesum_ordeal rituals,physostigma vene-nosum_alzheimer's disease,,,
-1,cerbera vinenifera,cerbera vinenifera,,akokanthera venetata,,cerbera vinenifera_suicide,physostigma vene-nosum_glaucoma,,,
-2,combretum confertum,combretum confertum,,krausii,,cerbera vinenifera_ordeal rituals,physostigma vene-nosum_chronic constipation,,,
+0,adenium obesum,adenium obesum,gnidia krausii,physostigma vene-nosum,,adenium obesum_ordeal rituals,physostigma vene-nosum_glaucoma,,,
+1,cerbera vinenifera,cerbera vinenifera,,akokanthera venetata,,cerbera vinenifera_suicide,physostigma vene-nosum_chronic constipation,,,
+2,combretum confertum,combretum confertum,,krausii,,cerbera vinenifera_ordeal rituals,physostigma vene-nosum_alzheimer's disease,,,
 3,detarium senegalense,detarium senegalense,,cerbera spp,,combretum confertum_ordeal rituals,,,,
 4,erythrophleum suaveolens,erythrophleum suaveolens,,aloe,,detarium senegalense_ordeal rituals,,,,
 5,mimusops djave,mimusops djave,,cassia,,erythrophleum suaveolens_ordeal rituals,,,,

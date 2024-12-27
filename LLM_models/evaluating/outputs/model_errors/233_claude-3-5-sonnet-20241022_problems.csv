@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,psychotria zombamontana,psychotria zombamontana,,pistacia lentiscus l,,,,psychotria zombamontana_antioxidant,psychotria zombamontana_antibacterial,pistacia lentiscus l_anti-inflammatory
-1,,,,p. lentiscus,,,,psychotria zombamontana_anti-inflammatory,psychotria zombamontana_antifungal,pistacia lentiscus l_antiatherogenic
-2,,,,pistacia lentiscus var. chia,,,,,,pistacia lentiscus l_antimicrobial
+0,psychotria zombamontana,psychotria zombamontana,,pistacia lentiscus l,,,,psychotria zombamontana_antioxidant,psychotria zombamontana_antibacterial,pistacia lentiscus l_antimicrobial
+1,,,,p. lentiscus,,,,psychotria zombamontana_anti-inflammatory,psychotria zombamontana_antifungal,pistacia lentiscus l_anti-inflammatory
+2,,,,pistacia lentiscus var. chia,,,,,,pistacia lentiscus l_antiatherogenic
 3,,,,crocus veluchensis herb,,,,,,p. lentiscus_enzyme inhibition
 4,,,,crocus l,,,,,,p. lentiscus_skin beneficial
 5,,,,crocus,,,,,,pistacia lentiscus var. chia_antioxidant

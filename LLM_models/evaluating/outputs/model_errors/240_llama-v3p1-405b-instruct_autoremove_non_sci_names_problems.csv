@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,rosa,rosa,,o.echioides,rosa_diarrhea,,rosa_diuretic,ocimum gratissimum_anti-inflammatory,rosa_diuretic,ocimum gratissimum l_anti-nociceptive
-1,ocimum gratissimum,ocimum gratissimum,,,rosa_stomachache,,onosma echioides_burn wound in rats,onosma echioides_wound healing,,onosma echioides_upregulating vegf gene
-2,ocimum gratissimum l,alkanna tinctoria,,,rosa_dry cough,,,ganoderma lucidum_immunomodulatory,,onosma echioides_upregulates the elastin and collagen gene in human dermal fibroblast
-3,alkanna tinctoria,onosma echioides,,,rosa_colds,,,ganoderma lucidum_anticancer,,o.echioides_upregulation of collagen and elastin genes
-4,alkanna tinctoria tausch,ganoderma lucidum,,,ocimum gratissimum_inflammatory conditions,,,ganoderma lucidum_hepatoprotective,,o.echioides_wound healing
+1,ocimum gratissimum,ocimum gratissimum,,,rosa_stomachache,,onosma echioides_burn wound in rats,onosma echioides_wound healing,,onosma echioides_upregulates the elastin and collagen gene in human dermal fibroblast
+2,ocimum gratissimum l,alkanna tinctoria,,,rosa_dry cough,,,ganoderma lucidum_immunomodulatory,,onosma echioides_upregulating vegf gene
+3,alkanna tinctoria,onosma echioides,,,rosa_colds,,,ganoderma lucidum_anticancer,,o.echioides_wound healing
+4,alkanna tinctoria tausch,ganoderma lucidum,,,ocimum gratissimum_inflammatory conditions,,,ganoderma lucidum_hepatoprotective,,o.echioides_upregulation of collagen and elastin genes
 5,onosma echioides,,,,onosma echioides_wounds,,,,,
 6,o. echioides,,,,,,,,,
 7,ganoderma lucidum,,,,,,,,,

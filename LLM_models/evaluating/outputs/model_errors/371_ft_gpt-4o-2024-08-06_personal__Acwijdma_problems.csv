@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,ajuga bracteosa,ajuga bracteosa,,gmelina arborea,ajugadecumbens_arthritis,,,ajuga bracteosa_analgesic,ajuga reptans_antibacterial,gmelina arborea_antifungal
 1,ajuga iva,ajuga iva,,morus alba,ajugadecumbens_osteoporosis,,,ajuga bracteosa_antidepressant,ajuga reptans_antioxidant,morus alba_antioxidant
-2,ajuga turkestanica,ajuga turkestanica,,schisandra chinensis,,,,ajuga bracteosa_antioxidant,,schisandra chinensis_antimicrobial
-3,ajuga remota,ajuga remota,,ajugareptans,,,,ajuga bracteosa_anti-inflammatory,,schisandra chinensis_antioxidant
-4,ajuga chamaecistus subsp. scoparia (boiss.) rech.f,ajuga chamaecistus subsp. scoparia (boiss.) rech.f,,harpagophytum procumbens,,,,ajuga bracteosa_anticoagulant,,ajugareptans_antibacterial
-5,ajuga reptans,ajuga reptans,,opuntia ficus-indica,,,,ajuga iva_free radicalscavenging,,ajugareptans_antioxidant
+2,ajuga turkestanica,ajuga turkestanica,,schisandra chinensis,,,,ajuga bracteosa_antioxidant,,schisandra chinensis_antioxidant
+3,ajuga remota,ajuga remota,,ajugareptans,,,,ajuga bracteosa_anti-inflammatory,,schisandra chinensis_antimicrobial
+4,ajuga chamaecistus subsp. scoparia (boiss.) rech.f,ajuga chamaecistus subsp. scoparia (boiss.) rech.f,,harpagophytum procumbens,,,,ajuga bracteosa_anticoagulant,,ajugareptans_antioxidant
+5,ajuga reptans,ajuga reptans,,opuntia ficus-indica,,,,ajuga iva_free radicalscavenging,,ajugareptans_antibacterial
 6,ajugadecumbens,ajugadecumbens,,ajuga laxmannii,,,,ajuga iva_antimicrobial,,
 7,allium schoenoprasum,allium schoenoprasum l,,,,,,ajuga iva_antioxidant,,
 8,allium,rumexscutatus,,,,,,ajuga turkestanica_antiproliferative,,

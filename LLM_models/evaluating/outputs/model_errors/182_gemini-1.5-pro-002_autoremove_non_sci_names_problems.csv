@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,quercus pedunculata,quercus pedunculata,rhamnus frangula,aspergillus carbonarius,polygonum aviculare_cancer,teucrium_cancer,teucrium chamaedrys_human co-lon carcinoma,polygonum aviculare_anti-cancer,,polygonum aviculare_cytotoxicity
-1,capsella bursa-pastoris,capsella bursa-pastoris,epilobium parviflorum,rhamnus fran-gula,,,,teucrium_anticancer,,polygonum aviculare_cytotoxic
+0,quercus pedunculata,quercus pedunculata,rhamnus frangula,aspergillus carbonarius,polygonum aviculare_cancer,teucrium_cancer,teucrium chamaedrys_human co-lon carcinoma,polygonum aviculare_anti-cancer,,polygonum aviculare_cytotoxic
+1,capsella bursa-pastoris,capsella bursa-pastoris,epilobium parviflorum,rhamnus fran-gula,,,,teucrium_anticancer,,polygonum aviculare_cytotoxicity
 2,hypericum perforatum,hypericum perforatum,,epilobium parviflo-rum,,,,,,teucrium chamaedrys_cytotoxic
 3,polygonum aviculare,polygonum aviculare,,teu-crium chamaedrys,,,,,,
 4,teucrium chamaedrys,teucrium chamaedrys,,epilobi-um parviflorum,,,,,,

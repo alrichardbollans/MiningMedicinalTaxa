@@ -1,5 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,humulus lupulus,humulus lupulus,phylloxera vastatrix,saccharomycescerevisiae,,,,,humulus lupulus_clarification,
+0,humulus lupulus,humulus lupulus,,saccharomycescerevisiae,,,,,humulus lupulus_clarification,
 1,saccharomyces,saccharomyces cerevisiae,,vitisvinifera,,,,,,
 2,aspergillus oryzae,aspergillus oryzae,,saccharomyces ellipsoideus,,,,,,
 3,botrytis cinerea,botrytis cinerea,,,,,,,,

@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,eleutherococcus nodiflorus (dunn) s.y. hu,eleutherococcus nodiflorus (dunn) s.y. hu,,"alkanna sfikasiana tan, vold and strid",,,c. sativa_autoimmune diseases,cynoglottis barrelieri_antioxidant,periploca sepium bunge_cardiac glycosides,"alkanna sfikasiana tan, vold and strid_enzyme inhibitory"
-1,eleutherococcus gracilystylus,eleutherococcus gracilystylus (w.w.sm.) s.y. hu,,c. sativa,,,c. sativa_inflammatory and neurodegenerative diseases,cynoglottis barrelieri_neuroprotective,salvia officinalis l_anti-inflammatory,sp subsp. pomifera_anti-glycation
-2,eleutherococcus gracilystylus (w.w.sm.) s.y. hu,periploca sepium bunge,,sp subsp. pomifera,,,c. sativa_cancer,cynoglottis barrelieri_antidiabetic,salvia officinalis l_antispasmodic,sp subsp. calycina_anti-glycation
-3,e. gracilystylus,eleutherococcus senticosus,,sp subsp. calycina,,,c. sativa_epilepsy,phyllocara aucheri_antioxidant,salvia officinalis l_gastroprotective,
-4,periploca sepium,cynoglottis barrelieri,,borago,,,c. sativa_multiple sclerosis,phyllocara aucheri_neuroprotective,,
+0,eleutherococcus nodiflorus (dunn) s.y. hu,eleutherococcus nodiflorus (dunn) s.y. hu,,"alkanna sfikasiana tan, vold and strid",,,c. sativa_inflammatory and neurodegenerative diseases,cynoglottis barrelieri_antioxidant,periploca sepium bunge_cardiac glycosides,"alkanna sfikasiana tan, vold and strid_enzyme inhibitory"
+1,eleutherococcus gracilystylus,eleutherococcus gracilystylus (w.w.sm.) s.y. hu,,c. sativa,,,c. sativa_autoimmune diseases,cynoglottis barrelieri_neuroprotective,salvia officinalis l_anti-inflammatory,sp subsp. pomifera_anti-glycation
+2,eleutherococcus gracilystylus (w.w.sm.) s.y. hu,periploca sepium bunge,,sp subsp. pomifera,,,c. sativa_epilepsy,cynoglottis barrelieri_antidiabetic,salvia officinalis l_antispasmodic,sp subsp. calycina_anti-glycation
+3,e. gracilystylus,eleutherococcus senticosus,,sp subsp. calycina,,,c. sativa_multiple sclerosis,phyllocara aucheri_antioxidant,salvia officinalis l_gastroprotective,
+4,periploca sepium,cynoglottis barrelieri,,borago,,,c. sativa_cancer,phyllocara aucheri_neuroprotective,,
 5,periploca sepium bunge,phyllocara aucheri,,cannabis,,,,phyllocara aucheri_antidiabetic,,
 6,p. sepium,symphytum anatolicum,,,,,,symphytum anatolicum_antioxidant,,
 7,e. senticosus,salvia fruticosa mill,,,,,,symphytum anatolicum_neuroprotective,,

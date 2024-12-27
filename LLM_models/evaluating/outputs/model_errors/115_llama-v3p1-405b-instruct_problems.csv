@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,podophyllum peltatum,podophyllum peltatum,dioscorea alata,diosocrea alata,,kigelia pinnata_lesions,chenopodium quinoa_intestinal worms,,podophyllum peltatum_medicinal,lobelia tupa_emetic
-1,alnus glutinosa,alnus glutinosa,,,,pulmonaria officinalis_respiratory,solidago spp_hepatitis,,alnus glutinosa_tannin,carthamus tinctorius_diuretic
-2,alnus oregana,alnus oregana,,,,chenopodium anthelminthicum_intestinal worms,tanacetum vulgare_fever,,alnus glutinosa_medicine,carthamus tinctorius_vermifuge
-3,alnus rubra,alnus rubra,,,,silybum marianum_hepatitis,tanacetum vulgare_migraine,,betula lenta_flavoring,dichondra spp_purgative
+1,alnus glutinosa,alnus glutinosa,,,,pulmonaria officinalis_respiratory,solidago spp_hepatitis,,alnus glutinosa_tannin,carthamus tinctorius_vermifuge
+2,alnus oregana,alnus oregana,,,,chenopodium anthelminthicum_intestinal worms,tanacetum vulgare_migraine,,alnus glutinosa_medicine,carthamus tinctorius_diuretic
+3,alnus rubra,alnus rubra,,,,silybum marianum_hepatitis,tanacetum vulgare_fever,,betula lenta_flavoring,dichondra spp_purgative
 4,betula allaghaniensis,betula allaghaniensis,,,,tanacetum parthenium_migraine,nyssa aquatica_leukemia,,cordia sebestena_medicine,dichondra_purgative
 5,betula lenta,betula lenta,,,,camptotheca acuminata_leukemia,nyssa aquatica_throat cancer,,symphytum officinale_medicine,ipomoea pandurata_purgative
 6,betula papyrifera,betula papyrifera,,,,camptotheca acuminata_throat cancer,,,ananas comosus_proteolytic enzyme,ipomoea purga_cathartic

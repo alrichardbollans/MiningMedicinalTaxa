@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,physostigma venenosum,physostigma venenosum,derris spp,rauvolfia serpentina,cinchona spp_malaria,,rauvolfia serpentina_schizophrenia,,physostigma venenosum_toxic,
-1,cinchona spp,cinchona spp,atropa belladonna,penicillium notatum,,,rauvolfia serpentina_hypertension,,derris spp_insecticide,
+0,physostigma venenosum,physostigma venenosum,derris spp,rauvolfia serpentina,cinchona spp_malaria,,rauvolfia serpentina_hypertension,,physostigma venenosum_toxic,
+1,cinchona spp,cinchona spp,atropa belladonna,penicillium notatum,,,rauvolfia serpentina_schizophrenia,,derris spp_insecticide,
 2,strychnos nux-vomica,strychnos nux-vomica,,cassia,,,penicillium notatum_bacterial infections,,atropa belladonna_induces twilight sleep,
 3,cannabis sativa,cannabis sativa,,derrisspp,,,,,strychnos nux-vomica_toxic,
 4,,,,atropabelladonna,,,,,strychnos nux-vomica_stimulates central nervous system,

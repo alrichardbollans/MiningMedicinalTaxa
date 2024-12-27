@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,boerhaavia diffusa,boerhaavia diffusa,pulsatila vulgaris mill,boerhaaviadiffusa,boerhaavia diffusa_nephritis,boerhaavia diffusa_menstrual syndrome,boerhaavia diffusa_menstrualsyndrome,boerhaavia diffusa_laxative,,b. diffusa_antioxidant
 1,b. diffusa,colchicum autumnale,,arthemisia absinthium l,boerhaavia diffusa_cystitis,colchicum autumnale_gout,boerhaavia diffusa_kidney problems,,,b. diffusa_spas-molytic
-2,boerhaavia diffusa l,aconitum sp,,conium,boerhaavia diffusa_jaundice,,boerhaavia diffusa_liverdisorders,,,boerhaaviadiffusa_spasmolytic
-3,colchicum autumnale,datura stramonium,,strychnos nux-vomica,boerhaavia diffusa_hepatitis,,boerhaavia diffusa_gastro-intestinal,,,
-4,aconitum sp,claviceps purpurea,,pulsatila vulgarismill,boerhaavia diffusa_anemia,,b. diffusa_gastrointestinal diseases,,,
-5,datura stramonium,veratrum album,,,boerhaavia diffusa_kidney stones,,b. diffusa_gastrointestinal disorders,,,
+2,boerhaavia diffusa l,aconitum sp,,conium,boerhaavia diffusa_jaundice,,boerhaavia diffusa_gastro-intestinal,,,boerhaaviadiffusa_spasmolytic
+3,colchicum autumnale,datura stramonium,,strychnos nux-vomica,boerhaavia diffusa_hepatitis,,boerhaavia diffusa_liverdisorders,,,
+4,aconitum sp,claviceps purpurea,,pulsatila vulgarismill,boerhaavia diffusa_anemia,,b. diffusa_gastrointestinal disorders,,,
+5,datura stramonium,veratrum album,,,boerhaavia diffusa_kidney stones,,b. diffusa_gastrointestinal diseases,,,
 6,claviceps purpurea,asarum europaeum,,,,,,,,
 7,veratrum album,bryonia dioica,,,,,,,,
 8,asarum europaeum,solanum dulcamara,,,,,,,,

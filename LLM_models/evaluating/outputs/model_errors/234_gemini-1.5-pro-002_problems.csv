@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,linum usitatissimum,linum usitatissimum,staphylococcus aureus,p. zombamontana,,staphylococcus aureus_mastitic,syzygium legatii_mastitis,,staphylococcus aureus_anti-staphylococcal,p. zombamontana_anti-inflammatory
-1,cannabis sativa,cannabis sativa,cattle,eugenia,,staphylococcus aureus_mastitis,s. gerrardii_mastitis,,staphylococcus aureus_antibacterial,p. zombamontana_antioxidant
+0,linum usitatissimum,linum usitatissimum,staphylococcus aureus,p. zombamontana,,staphylococcus aureus_mastitic,syzygium legatii_mastitis,,staphylococcus aureus_anti-staphylococcal,p. zombamontana_antioxidant
+1,cannabis sativa,cannabis sativa,cattle,eugenia,,staphylococcus aureus_mastitis,s. gerrardii_mastitis,,staphylococcus aureus_antibacterial,p. zombamontana_anti-inflammatory
 2,cannabis,lupinus albus,,syzygium,,staphylococcus aureus_subclinical mastitis,,,cattle_antibacterial,p. zombamontana_cytotoxicity
 3,lupinus albus,,,syzygium legatii,,cattle_mastitic,,,linum usitatissimum_enrichment of the milk nutritional profile,p. zombamontana_protecting poultry against infection
 4,,,,s. gerrardii,,linum usitatissimum_chronic diseases,,,cannabis sativa_enrichment of the milk nutritional profile,eugenia_cytotoxicity

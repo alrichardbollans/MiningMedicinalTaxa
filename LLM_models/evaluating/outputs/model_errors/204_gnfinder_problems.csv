@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,juniperus communis l. ssp. nana,juniperus communis,roquea,,,,"ocimum basilicum, l_inflammatory diseases",,,ocimum basilicum l_antioxidant
-1,ocimum basilicum l,ocimum basilicum,svetlana,,,,"ocimum basilicum, l_constipation",,,"ocimum basilicum, l_anti-oxidant"
-2,"ocimum basilicum, l",achillea collina,lamiaceae,,,,"ocimum basilicum, l_flu",,,"ocimum basilicum, l_sedative"
-3,achillea collina bekker ex heimerl s.l,a. pannonica,olivera,,,,"ocimum basilicum, l_cough",,,"ocimum basilicum, l_anticonvulsant"
-4,a. pannonica scheele,origanum vulgare,,,,,"ocimum basilicum, l_respiratory infections",,,a. pannonica scheele_antibacterial
-5,origanum vulgare l,onosma aucheriana,,,,,"ocimum basilicum, l_insomnia",,,a. pannonica scheele_antioxidant
-6,onosma aucheriana,garcinia,,,,,"ocimum basilicum, l_headaches",,,achillea collina bekker ex heimerl s.l_antibacterial
-7,garcinia indi-ca,,,,,,"garcinia indi-ca_gastric, hepatic breast and lung cancer",,,achillea collina bekker ex heimerl s.l_antioxidant
+0,juniperus communis l. ssp. nana,juniperus communis,roquea,,,,"ocimum basilicum, l_cough",,,ocimum basilicum l_antioxidant
+1,ocimum basilicum l,ocimum basilicum,svetlana,,,,"ocimum basilicum, l_headaches",,,"ocimum basilicum, l_anti-oxidant"
+2,"ocimum basilicum, l",achillea collina,lamiaceae,,,,"ocimum basilicum, l_constipation",,,"ocimum basilicum, l_sedative"
+3,achillea collina bekker ex heimerl s.l,a. pannonica,olivera,,,,"ocimum basilicum, l_insomnia",,,"ocimum basilicum, l_anticonvulsant"
+4,a. pannonica scheele,origanum vulgare,,,,,"ocimum basilicum, l_flu",,,a. pannonica scheele_antioxidant
+5,origanum vulgare l,onosma aucheriana,,,,,"ocimum basilicum, l_respiratory infections",,,a. pannonica scheele_antibacterial
+6,onosma aucheriana,garcinia,,,,,"ocimum basilicum, l_inflammatory diseases",,,achillea collina bekker ex heimerl s.l_antioxidant
+7,garcinia indi-ca,,,,,,"garcinia indi-ca_gastric, hepatic breast and lung cancer",,,achillea collina bekker ex heimerl s.l_antibacterial
 8,,,,,,,,,,origanum vulgare l_antioxidant

@@ -1,29 +1,27 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,shorea roxburghii,s. roxburghii,thailandshorea roxburghii,rauwolfia,,,shorea roxburghii_diarrhea,,,calluna vulgaris (l.) hull_skin-protective
-1,s. roxburghii,shorea roxburghii,ficus hirta.dacrycarpus imbricatus,a. coriria,,,shorea roxburghii_type 2 diabetes mellitus (t2dm,,,c. vulgaris_antiradical
-2,dacrycarpus imbricatus,dacrycarpus imbricatus,statesacer truncatum,,,,shorea roxburghii_cholera,,,c. vulgaris_skin anti-aging and protection
-3,pinus dalatensis ferre,pinus dalatensis,acer prior,,,,shorea roxburghii_dysentery,,,c. vulgaris_moderate antimicrobial
-4,oldenlandia pinifolia,oldenlandia pinifolia,italycalluna vulgaris,,,,cladosporium_acute myeloid leukemia,,,c. vulgaris_antioxidant
+0,shorea roxburghii,s. roxburghii,ficus hirta.dacrycarpus imbricatus,rauwolfia,,,shorea roxburghii_cholera,,,calluna vulgaris (l.) hull_skin-protective
+1,s. roxburghii,shorea roxburghii,acer prior,a. coriria,,,shorea roxburghii_dysentery,,,c. vulgaris_skin anti-aging and protection
+2,dacrycarpus imbricatus,dacrycarpus imbricatus,,,,,shorea roxburghii_diarrhea,,,c. vulgaris_antioxidant
+3,pinus dalatensis ferre,pinus dalatensis,,,,,shorea roxburghii_type 2 diabetes mellitus (t2dm,,,c. vulgaris_antiradical
+4,oldenlandia pinifolia,oldenlandia pinifolia,,,,,cladosporium_acute myeloid leukemia,,,c. vulgaris_moderate antimicrobial
 5,ficus hirta,o. pinifolia,,,,,rauwolfia_acute myeloid leukemia,,,shorea roxburghii_hypoglycemic effect
 6,cladosporium,ficus hirta,,,,,,,,s. roxburghii_antidiabetic potentials
-7,cladosporium spp,cladosporium,,,,,,,,cladosporium_anti-tumor
-8,acer truncatum,acer truncatum,,,,,,,,cladosporium_anti-microbial
-9,warbrugia ugandensis sprague,a. truncatum,,,,,,,,
-10,w. ugandensis,acer,,,,,,,,
-11,erythrina abyssinica dc,warbrugia ugandensis,,,,,,,,
-12,cryptolepsis sanguinolenta (lindl.) schltr,erythrina abyssinica,,,,,,,,
-13,c. sanguinolenta,cryptolepsis sanguinolenta,,,,,,,,
-14,albizia coriaria oliv,albizia coriaria,,,,,,,,
-15,psorospermum febrifugium spach,psorospermum febrifugium,,,,,,,,
-16,p. febrifugium,gymnosporia senegalensis,,,,,,,,
-17,gymnosporia senegalensis (lam.) loes,zanthoxylum chalybeum,,,,,,,,
-18,zanthoxylum chalybeum engl,securidaca longipendunculata,,,,,,,,
-19,securidaca longipendunculata fresen,acacia hockii,,,,,,,,
-20,s. longipendunculata,gardenia ternifolia,,,,,,,,
-21,acacia hockii de wild,bridelia micrantha,,,,,,,,
-22,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc,w. ugandensis,,,,,,,,
-23,bridelia micrantha (hochst.) baill,c. sanguinolenta,,,,,,,,
-24,calluna vulgaris (l.) hull,s. longipendunculata,,,,,,,,
-25,c. vulgaris,calluna vulgaris,,,,,,,,
-26,,c. vulgaris aerial,,,,,,,,
-27,,c. vulgaris,,,,,,,,
+7,cladosporium spp,cladosporium,,,,,,,,cladosporium_anti-microbial
+8,acer truncatum,acer truncatum,,,,,,,,cladosporium_anti-tumor
+9,erythrina abyssinica dc,a. truncatum,,,,,,,,
+10,albizia coriaria oliv,acer,,,,,,,,
+11,psorospermum febrifugium spach,erythrina abyssinica,,,,,,,,
+12,p. febrifugium,albizia coriaria,,,,,,,,
+13,gymnosporia senegalensis (lam.) loes,psorospermum febrifugium,,,,,,,,
+14,zanthoxylum chalybeum engl,gymnosporia senegalensis,,,,,,,,
+15,securidaca longipendunculata fresen,zanthoxylum chalybeum,,,,,,,,
+16,s. longipendunculata,securidaca longipendunculata,,,,,,,,
+17,acacia hockii de wild,acacia hockii,,,,,,,,
+18,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc,gardenia ternifolia,,,,,,,,
+19,bridelia micrantha (hochst.) baill,bridelia micrantha,,,,,,,,
+20,warbrugia ugandensis sprague,w. ugandensis,,,,,,,,
+21,w. ugandensis,c. sanguinolenta,,,,,,,,
+22,cryptolepsis sanguinolenta (lindl.) schltr,s. longipendunculata,,,,,,,,
+23,c. sanguinolenta,calluna vulgaris,,,,,,,,
+24,calluna vulgaris (l.) hull,c. vulgaris aerial,,,,,,,,
+25,c. vulgaris,c. vulgaris,,,,,,,,

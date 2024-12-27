@@ -1,6 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,berheris fremontii,berheris fremontii,,a. paniculata,artemisia annua_malaria,berheris fremontii_adverse drug reactions,,berheris fremontii_anti-microbial,berheris fremontii_anti- pathogenic,
-1,artemisia annua,artemisia annua,,hypericumperforatum,,,,,artemisia annua_anti- pathogenic,
-2,salix alba,salix alba,,,,,,,,
-3,digitalis sp,digitalis sp,,,,,,,,
-4,dioscorea sp,dioscorea sp,,,,,,,,
+0,artemisia annua,artemisia annua,,berheris fremontii,artemisia annua_malaria,,,,artemisia annua_anti- pathogenic,berheris fremontii_anti-microbial
+1,salix alba,salix alba,,a. paniculata,,,,,,
+2,digitalis sp,digitalis sp,,hypericumperforatum,,,,,,
+3,dioscorea sp,dioscorea sp,,,,,,,,

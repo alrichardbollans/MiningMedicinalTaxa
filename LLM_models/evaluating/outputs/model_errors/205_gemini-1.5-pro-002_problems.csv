@@ -1,11 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,cannabis,cannabis sativa l,,can-nabis,cannabis sativa l_rheumatic pains,,cannabis_delirium tremens,cannabis sativa l_analgesic,,cannabis_healing
-1,cannabis sativa l,juniperus communis subsp. alpina,,juniperus sect. juniperus,cannabis sativa l_insomnia,,cannabis_con-vulsions,cannabis sativa l_painkiller,,cannabis_psychoactive
-2,juniperus communis subsp. alpina (suter) celak,juniperus communis,,canna-bis,cannabis sativa l_constipation,,cannabis_tetanus,juniperus communis subsp. alpina_antioxidant,,cannabis_narcotic
-3,juniperus,juniperus oxycedrus,,,cannabis sativa l_malaria,,cannabis_rheumatism,juniperus communis subsp. alpina_hypoglycemic,,cannabis_psychotropic
-4,juniperus communis,juniperus nana,,,juniperus communis subsp. alpina_rheumatic complaints,,cannabis_cholera,juniperus communis subsp. alpina_antiseptic,,
-5,j. communis,,,,,,cannabis_rabies,juniperus communis subsp. alpina_antibacterial,,
-6,juniperus communis l,,,,,,cannabis_female problems,juniperus communis subsp. alpina_carminative,,
+0,cannabis,cannabis sativa l,,can-nabis,cannabis sativa l_rheumatic pains,,cannabis_female problems,cannabis sativa l_analgesic,,cannabis_psychotropic
+1,cannabis sativa l,juniperus communis subsp. alpina,,juniperus sect. juniperus,cannabis sativa l_insomnia,,cannabis_delirium tremens,cannabis sativa l_painkiller,,cannabis_narcotic
+2,juniperus communis subsp. alpina (suter) celak,juniperus communis,,canna-bis,cannabis sativa l_constipation,,cannabis_con-vulsions,juniperus communis subsp. alpina_antioxidant,,cannabis_healing
+3,juniperus,juniperus oxycedrus,,,cannabis sativa l_malaria,,cannabis_rheumatism,juniperus communis subsp. alpina_hypoglycemic,,cannabis_psychoactive
+4,juniperus communis,juniperus nana,,,juniperus communis subsp. alpina_rheumatic complaints,,cannabis_tetanus,juniperus communis subsp. alpina_antiseptic,,
+5,j. communis,,,,,,cannabis_cholera,juniperus communis subsp. alpina_antibacterial,,
+6,juniperus communis l,,,,,,cannabis_rabies,juniperus communis subsp. alpina_carminative,,
 7,j. oxycedrus,,,,,,,,,
 8,j. nana,,,,,,,,,
 9,juniperus nana,,,,,,,,,

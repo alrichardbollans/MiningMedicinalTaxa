@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,a. laxmannii,a. laxmannii,3.92a. laxmannii,a. taiwanensis,,,ajuga_hypertension,,,ajuga_astringent
-1,ajuga laxmannii,ajuga,0.038p. aeruginosa,ajugalaxmannii,,,ajuga_ulcer,,,ajuga_antipyretic
-2,ajuga,a. laxmannii aerial,1.2l. monocytogenes,aspergillus flavus,,,ajuga_intestinal and biliary disorders,,,ajuga_diuretic
-3,a. bracteosa,a. bracteosa,0.076e. coli,aspergillus niger,,,ajuga_edema,,,a. laxmannii_antimicrobial
-4,a. relicta,a. relicta,1.2s. typhimurium,candida albicans,,,ajuga_fever,,,a. laxmannii_anti-inflammatory
-5,a. turkestanica,a. turkestanica,0.3aspergillus niger,candida parapsilosis,,,,,,a. laxmannii_antioxidant
-6,a. reptans,a. reptans,0.3candida albicans,penicillium funiculosum,,,,,,a. laxmannii_antifungal
-7,a. chamaecistus subsp. scoparia (boiss.) rech.f,a. chamaecistus subsp. scoparia,0.2candida parapsilosis,,,,,,,a. laxmannii_antibacterial
+0,a. laxmannii,a. laxmannii,3.92a. laxmannii,a. taiwanensis,,,ajuga_edema,,,ajuga_diuretic
+1,ajuga laxmannii,ajuga,0.038p. aeruginosa,ajugalaxmannii,,,ajuga_intestinal and biliary disorders,,,ajuga_astringent
+2,ajuga,a. laxmannii aerial,1.2l. monocytogenes,aspergillus flavus,,,ajuga_hypertension,,,ajuga_antipyretic
+3,a. bracteosa,a. bracteosa,0.076e. coli,aspergillus niger,,,ajuga_fever,,,a. laxmannii_antioxidant
+4,a. relicta,a. relicta,1.2s. typhimurium,candida albicans,,,ajuga_ulcer,,,a. laxmannii_antibacterial
+5,a. turkestanica,a. turkestanica,0.3aspergillus niger,candida parapsilosis,,,,,,a. laxmannii_antifungal
+6,a. reptans,a. reptans,0.3candida albicans,penicillium funiculosum,,,,,,a. laxmannii_antimicrobial
+7,a. chamaecistus subsp. scoparia (boiss.) rech.f,a. chamaecistus subsp. scoparia,0.2candida parapsilosis,,,,,,,a. laxmannii_anti-inflammatory
 8,,,0.2penicillium funiculosum,,,,,,,a. laxmannii_antiradical
 9,,,cheng,,,,,,,a. turkestanica_antioxidant
 10,,,pseudomonas aeruginosa,,,,,,,a. chamaecistus subsp. scoparia (boiss.) rech.f_antiradical

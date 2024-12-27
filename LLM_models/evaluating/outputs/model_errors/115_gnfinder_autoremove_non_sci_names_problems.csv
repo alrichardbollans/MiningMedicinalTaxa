@@ -1,36 +1,36 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,bombax ceiba,bombax,family)alnus glutinosa,lobelia tupa,,,chenopodium quinoa_intestinal worms,,,lobelia tupa_emetic
-1,alkanna lehmannii,alkanna,timberbetula lenta,chenopodium quinoa,,,solidago spp_hepatitis,,,carthamus tinctorius_vermifuge
-2,alkanna,dichondra,timberbetula pendula,carthamus tinctorius,,,tanacetum vulgare_migraine,,,carthamus tinctorius_diuretic
-3,dichondra spp,coriaria,timbercarpinus caroliniana,solidago spp,,,tanacetum vulgare_fever,,,dichondra spp_purgative
-4,dichondra,dillenia,timbercorylus americana,tanacetum vulgare,,,nyssa aquatica_throat cancer,,,dichondra_purgative
-5,coriaria,,timbercatalpa speciosa,ipomoea pandurata,,,nyssa aquatica_leukemia,,,ipomoea pandurata_purgative
-6,coriaria myrtifolia,,timbertabebuia serratifolia,ipomoea purga,,,,,,ipomoea purga_cathartic
-7,dillenia indica,,family)adansonia digitata,ipomoea tricolor,,,,,,ipomoea tricolor_purgative
-8,,,family)alkanna lehmannii,nyssa aquatica,,,,,,citrullus lanatus_purgative
-9,,,family)boswellia carteri,citrullus lanatus,,,,,,casuarina equisetifolia_laxative
-10,,,family)carnegia gigantea,casuarina equisetifolia,,,,,,
-11,,,family)lobelia inflata,podophyllum peltatum,,,,,,
-12,,,tupa,alnus glutinosa,,,,,,
-13,,,family)cannabis sativa,alnus oregana,,,,,,
-14,,,family)canna edulis,alnus rubra,,,,,,
-15,,,family)capparis spinosa,betula allaghaniensis,,,,,,
-16,,,family)casuarina equisetifolia,betula lenta,,,,,,
-17,,,family)catha edulis,betula papyrifera,,,,,,
-18,,,family)anogeissus latifolia,betula pendula,,,,,,
-19,,,family)anthemis nobilis,carpinus caroliniana,,,,,,
-20,,,latexscorzonera hispanica,corylus americana,,,,,,
-21,,,latextaraxacum officinale,corylus avellana,,,,,,
-22,,,family)coriaria myrtifolia,corylus chinensis,,,,,,
-23,,,family)camptotheca acuminata,corylus cornuta,,,,,,
-24,,,timbernyssa sylvatica,ostrya spp,,,,,,
-25,,,family)armoracia lapathifolia,catalpa bignonioides,,,,,,
-26,,,family)benincasa hispida,catalpa,,,,,,
-27,,,family)carludovica palmata,catalpa speciosa,,,,,,
-28,,,family)dillenia indica,crescentia cujete,,,,,,
-29,,,family)diosocrea alata,kigelia pinnata,,,,,,
-30,,,family)dipsacus sylvestris,tabebuia donnell-smithii,,,,,,
-31,,,family)diospyros digyna,tabebuia serratifolia,,,,,,
+0,bombax ceiba,bombax,tupa,lobelia tupa,,,chenopodium quinoa_intestinal worms,,,lobelia tupa_emetic
+1,alkanna lehmannii,alkanna,,chenopodium quinoa,,,solidago spp_hepatitis,,,carthamus tinctorius_diuretic
+2,alkanna,dichondra,,carthamus tinctorius,,,tanacetum vulgare_fever,,,carthamus tinctorius_vermifuge
+3,dichondra spp,coriaria,,solidago spp,,,tanacetum vulgare_migraine,,,dichondra spp_purgative
+4,dichondra,dillenia,,tanacetum vulgare,,,nyssa aquatica_throat cancer,,,dichondra_purgative
+5,coriaria,,,ipomoea pandurata,,,nyssa aquatica_leukemia,,,ipomoea pandurata_purgative
+6,coriaria myrtifolia,,,ipomoea purga,,,,,,ipomoea purga_cathartic
+7,dillenia indica,,,ipomoea tricolor,,,,,,ipomoea tricolor_purgative
+8,,,,nyssa aquatica,,,,,,citrullus lanatus_purgative
+9,,,,citrullus lanatus,,,,,,casuarina equisetifolia_laxative
+10,,,,casuarina equisetifolia,,,,,,
+11,,,,podophyllum peltatum,,,,,,
+12,,,,alnus glutinosa,,,,,,
+13,,,,alnus oregana,,,,,,
+14,,,,alnus rubra,,,,,,
+15,,,,betula allaghaniensis,,,,,,
+16,,,,betula lenta,,,,,,
+17,,,,betula papyrifera,,,,,,
+18,,,,betula pendula,,,,,,
+19,,,,carpinus caroliniana,,,,,,
+20,,,,corylus americana,,,,,,
+21,,,,corylus avellana,,,,,,
+22,,,,corylus chinensis,,,,,,
+23,,,,corylus cornuta,,,,,,
+24,,,,ostrya spp,,,,,,
+25,,,,catalpa bignonioides,,,,,,
+26,,,,catalpa,,,,,,
+27,,,,catalpa speciosa,,,,,,
+28,,,,crescentia cujete,,,,,,
+29,,,,kigelia pinnata,,,,,,
+30,,,,tabebuia donnell-smithii,,,,,,
+31,,,,tabebuia serratifolia,,,,,,
 32,,,,bixa orellana,,,,,,
 33,,,,adansonia digitata,,,,,,
 34,,,,ceiba pentandra,,,,,,

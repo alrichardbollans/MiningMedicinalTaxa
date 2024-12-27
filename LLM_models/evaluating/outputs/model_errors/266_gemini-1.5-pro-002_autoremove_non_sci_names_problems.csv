@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,b. edulis (bull. : fr,b. edulis (bull. : fr,p ostreatus (jacq. : fr) kummer,p ostreatus(jacq. : fr,,,,,,
-1,boletus edulis (bull fr,l. edodes (berk.) sing,macrolepiota procera (scop. : fr.) sing,l. edodes(berk.) sing,,,,,,
-2,boletus edulis bull,a. bisporus (lge.) sing,a. pantherina (dc. ex fr.) krombh,pleurotusostreatus,,,,,,
+0,b. edulis (bull. : fr,b. edulis (bull. : fr,macrolepiota procera (scop. : fr.) sing,p ostreatus(jacq. : fr,,,,,,
+1,boletus edulis (bull fr,l. edodes (berk.) sing,a. pantherina (dc. ex fr.) krombh,l. edodes(berk.) sing,,,,,,
+2,boletus edulis bull,a. bisporus (lge.) sing,,pleurotusostreatus,,,,,,
 3,b. edulis (bull. :fr,pleurotus ostreatus (jack. :fr,,lentinula,,,,,,
 4,l. edodes (berk,agaricus bisporus (lge. )sing,,agaricus bisporus (lge.)sing,,,,,,
 5,l. edodes (berk.) sing,boletus edulis (bull fr,,macrolepiota procera(scop. : fr.) sing,,,,,,

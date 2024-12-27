@@ -1,5 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,boswellia serrata,boswellia serrata,,boswellia sacra,,boswellia serrata_liver function impairment,,boswellia serrata_anti-inflammatory,boswellia serrata_hepatoprotective,boswellia serrata_antioxidant
 1,boswellia,,,,,boswellia serrata_inflammatory conditions,,,boswellia serrata_anti-oxidative,boswellia serrata_modulation of the immune system
-2,,,,,,boswellia serrata_systemic inflammation,,,,boswellia sacra_antiglycation
-3,,,,,,,,,,boswellia sacra_antioxidant
+2,,,,,,boswellia serrata_systemic inflammation,,,,boswellia sacra_antioxidant
+3,,,,,,,,,,boswellia sacra_antiglycation

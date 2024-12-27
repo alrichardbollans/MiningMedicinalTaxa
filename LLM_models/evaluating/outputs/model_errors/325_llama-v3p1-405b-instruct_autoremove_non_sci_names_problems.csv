@@ -1,14 +1,14 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,punica granatum l,punica granatum l,,rhodiola rosea,punica granatum l_coronary artery disease,punica granatum l_peripheral artery disease,rhodiola rosea_stress,punica granatum l_anticarcinogenic,punica granatum l_antiviral,rhodiola rosea_adaptogenic
-1,,,,punicagranatum l,punica granatum l_tapeworm infestation,,rhodiola rosea_fatigue,punica granatum l_antioxidative,,punicagranatum l_vasculoprotective
-2,,,,rhodiola,punica granatum l_hypertension,,punica granatum l_peripheral arterydisease,punica granatum l_antibacterial,,punica granatum l_fertility
-3,,,,rhodiolarosea,punica granatum l_atherosclerosis,,punica granatum l_tapewormparasites,punica granatum l_vasculoprotective,,punica granatum l_improving vascularfunction
-4,,,,punica l,punica granatum l_diabetes,,punica granatum l_dental plaques,punica granatum l_antiproliferative,,punica granatum l_influence endothelial cell function
-5,,,,,,,punica granatum l_prostate cancer,punica granatum l_anti-hypertensive,,punica granatum l_reduce oxidative stress and plateletaggregation
-6,,,,,,,punica granatum l_ultraviolet-inducedskin damage,punica granatum l_antifungal,,punica granatum l_diminish lipid uptake by macrophages
-7,,,,,,,punica granatum l_oncological diseases,punica granatum l_anti-inflammatory,,punica granatum l_blood pressure regulation
-8,,,,,,,punica granatum l_vascular diseases,punica granatum l_antimicrobial,,punica granatum l_vasculoprotectiveeffects
-9,,,,,,,,,,punica granatum l_attenuate platelet aggregation
+0,punica granatum l,punica granatum l,,rhodiola rosea,punica granatum l_coronary artery disease,punica granatum l_peripheral artery disease,rhodiola rosea_fatigue,punica granatum l_anticarcinogenic,punica granatum l_antiviral,rhodiola rosea_adaptogenic
+1,,,,punicagranatum l,punica granatum l_tapeworm infestation,,rhodiola rosea_stress,punica granatum l_antioxidative,,punicagranatum l_vasculoprotective
+2,,,,rhodiola,punica granatum l_hypertension,,punica granatum l_peripheral arterydisease,punica granatum l_antibacterial,,punica granatum l_reduce oxidative stress and plateletaggregation
+3,,,,rhodiolarosea,punica granatum l_atherosclerosis,,punica granatum l_dental plaques,punica granatum l_vasculoprotective,,punica granatum l_fertility
+4,,,,punica l,punica granatum l_diabetes,,punica granatum l_tapewormparasites,punica granatum l_antiproliferative,,punica granatum l_blood pressure regulation
+5,,,,,,,punica granatum l_oncological diseases,punica granatum l_anti-hypertensive,,punica granatum l_vasculoprotectiveeffects
+6,,,,,,,punica granatum l_ultraviolet-inducedskin damage,punica granatum l_antifungal,,punica granatum l_influence endothelial cell function
+7,,,,,,,punica granatum l_prostate cancer,punica granatum l_anti-inflammatory,,punica granatum l_diminish lipid uptake by macrophages
+8,,,,,,,punica granatum l_vascular diseases,punica granatum l_antimicrobial,,punica granatum l_antioxidant
+9,,,,,,,,,,punica granatum l_improving vascularfunction
 10,,,,,,,,,,punica granatum l_influence endothelial cellfunction
-11,,,,,,,,,,punica granatum l_antioxidant
-12,,,,,,,,,,punica granatum l_protective against toxicity
+11,,,,,,,,,,punica granatum l_protective against toxicity
+12,,,,,,,,,,punica granatum l_attenuate platelet aggregation

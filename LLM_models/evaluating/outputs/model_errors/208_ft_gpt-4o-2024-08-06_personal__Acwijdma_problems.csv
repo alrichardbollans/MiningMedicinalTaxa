@@ -1,15 +1,15 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,salvia officinalis,salvia officinalis,,salvia l,,,,salvia officinalis_antimicrobial,,salvia l_antimicrobial
 1,salvia,rosmarinus offici-nalis,,p. peu-ce,,,,salvia officinalis_antioxidant,,stachys sylvatica l_antioxidant
-2,rosmarinus offici-nalis,juniperus communis l,,hypericum perforatum l,,,,rosmarinus offici-nalis_antimicrobial,,p. mugo_antimi-crobial
-3,j. communis,j. communis subsp. alpina (suter) celak,,,,,,rosmarinus offici-nalis_antioxidant,,p. mugo_antioxidant
+2,rosmarinus offici-nalis,juniperus communis l,,hypericum perforatum l,,,,rosmarinus offici-nalis_antimicrobial,,p. mugo_antioxidant
+3,j. communis,j. communis subsp. alpina (suter) celak,,,,,,rosmarinus offici-nalis_antioxidant,,p. mugo_antimi-crobial
 4,juniperus communis l,j. oxycedrus l,,,,,,juniperus communis l_antimicrobial,,p. peu-ce_antioxidant
-5,j. communis subsp. alpina (suter) celak,ab-ies alba mill,,,,,,,,p. heldreichii_antimi-crobial
-6,j. oxycedrus l,a. borisii-regis mattf,,,,,,,,p. heldreichii_antioxidant
-7,j. oxycedrus,pinus mugo turra,,,,,,,,p. sylvestris_antimi-crobial
-8,juniperus oxycedrus l,p. peuce griseb,,,,,,,,p. sylvestris_antioxidant
-9,ab-ies alba mill,p. heldreichii h. christ,,,,,,,,p. nigra_antimi-crobial
-10,a. alba,p. sylvestris l,,,,,,,,p. nigra_antioxidant
+5,j. communis subsp. alpina (suter) celak,ab-ies alba mill,,,,,,,,p. heldreichii_antioxidant
+6,j. oxycedrus l,a. borisii-regis mattf,,,,,,,,p. heldreichii_antimi-crobial
+7,j. oxycedrus,pinus mugo turra,,,,,,,,p. sylvestris_antioxidant
+8,juniperus oxycedrus l,p. peuce griseb,,,,,,,,p. sylvestris_antimi-crobial
+9,ab-ies alba mill,p. heldreichii h. christ,,,,,,,,p. nigra_antioxidant
+10,a. alba,p. sylvestris l,,,,,,,,p. nigra_antimi-crobial
 11,a. borisii-regis mattf,p. nigra j. f. arnold,,,,,,,,p. peuce_antimi-crobial
 12,p. mugo,picea abies (l.) h. krasr,,,,,,,,t.s longicaulis_antimi-crobial
 13,pinus mugo turra,betonica officinalis l,,,,,,,,m. albanica_antimi-crobial

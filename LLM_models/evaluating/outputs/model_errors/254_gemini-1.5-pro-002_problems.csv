@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,stahlianthus thorelii,stahlianthus thorelii gagnep,,pulicaria,stahlianthus thorelii gagnep_inflammation,,pulicaria_flatulent colic,,,stahlianthus thorelii_anti-proliferative
-1,s. thorelii,euphorbia neriifolia,,pulicaria wightiana,stahlianthus thorelii gagnep_osteoarthritis,,pulicaria_muscular- skeletal diseases,,,stahlianthus thorelii_anticancer
-2,euphorbia neriifolia,,,p. odora,stahlianthus thorelii gagnep_cancer,,pulicaria_skin diseases,,,stahlianthus thorelii_cytotoxicity
-3,euphorbia neriifolia l,,,p. dysenterica,euphorbia neriifolia_inflammation,,pulicaria_bronchitis,,,s. thorelii_antiproliferative
-4,,,,pulicaria gaertn,euphorbia neriifolia_diabetes mellitus,,pulicaria_abdominal pain,,,euphorbia neriifolia_anti-proliferative
-5,,,,,euphorbia neriifolia_cancer,,pulicaria_headache,,,euphorbia neriifolia_anticancer
-6,,,,,,,pulicaria_inflamed wound,,,pulicaria_cicatrizant
-7,,,,,,,pulicaria_cold,,,pulicaria_antiinflammatory
-8,,,,,,,pulicaria_diabetes,,,pulicaria_antimicrobial
-9,,,,,,,pulicaria_ankle sprain,,,
+0,stahlianthus thorelii,stahlianthus thorelii gagnep,,pulicaria,stahlianthus thorelii gagnep_inflammation,,pulicaria_cold,,,stahlianthus thorelii_anticancer
+1,s. thorelii,euphorbia neriifolia,,pulicaria wightiana,stahlianthus thorelii gagnep_osteoarthritis,,pulicaria_abdominal pain,,,stahlianthus thorelii_anti-proliferative
+2,euphorbia neriifolia,,,p. odora,stahlianthus thorelii gagnep_cancer,,pulicaria_inflamed wound,,,stahlianthus thorelii_cytotoxicity
+3,euphorbia neriifolia l,,,p. dysenterica,euphorbia neriifolia_inflammation,,pulicaria_headache,,,s. thorelii_antiproliferative
+4,,,,pulicaria gaertn,euphorbia neriifolia_diabetes mellitus,,pulicaria_ankle sprain,,,euphorbia neriifolia_anticancer
+5,,,,,euphorbia neriifolia_cancer,,pulicaria_bronchitis,,,euphorbia neriifolia_anti-proliferative
+6,,,,,,,pulicaria_skin diseases,,,pulicaria_cicatrizant
+7,,,,,,,pulicaria_flatulent colic,,,pulicaria_antimicrobial
+8,,,,,,,pulicaria_muscular- skeletal diseases,,,pulicaria_antiinflammatory
+9,,,,,,,pulicaria_diabetes,,,
 10,,,,,,,pulicaria wightiana_inflammation,,,

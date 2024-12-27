@@ -1,17 +1,17 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,phaseolus vulgaris l,phaseolus vulgaris l,panax ginseng c.a.mey,cannabis,,,cannabis_vomiting,,,cannabis_in-toxication
-1,,,papaver somniferum l,can-nabis,,,cannabis_hypertension,,,cannabis_decreased anxiety
-2,,,ricinus communis,,,,cannabis_epi-lepsy,,,cannabis_relaxation
-3,,,cinchona officinalis l,,,,cannabis_alzheimer's disease,,,cannabis_euphoria
-4,,,,,,,cannabis_glaucoma,,,cannabis_analgesics
-5,,,,,,,cannabis_cancer,,,phaseolus vulgaris l_reduce the risk of colon cancer
-6,,,,,,,cannabis_chronic diseases,,,phaseolus vulgaris l_reducing the ldl cholesterol and systolic blood pressure
-7,,,,,,,cannabis_aids,,,phaseolus vulgaris l_antioxidants
-8,,,,,,,cannabis_chronic pain,,,
-9,,,,,,,cannabis_nausea,,,
-10,,,,,,,cannabis_multiple sclerosis,,,
+0,phaseolus vulgaris l,phaseolus vulgaris l,panax ginseng c.a.mey,cannabis,,,cannabis_aids,,,cannabis_decreased anxiety
+1,,,papaver somniferum l,can-nabis,,,cannabis_hypertension,,,cannabis_analgesics
+2,,,ricinus communis,,,,cannabis_vomiting,,,cannabis_relaxation
+3,,,cinchona officinalis l,,,,cannabis_chronic pain,,,cannabis_in-toxication
+4,,,,,,,cannabis_multiple sclerosis,,,cannabis_euphoria
+5,,,,,,,cannabis_glaucoma,,,phaseolus vulgaris l_reduce the risk of colon cancer
+6,,,,,,,cannabis_alzheimer's disease,,,phaseolus vulgaris l_reducing the ldl cholesterol and systolic blood pressure
+7,,,,,,,cannabis_chronic diseases,,,phaseolus vulgaris l_antioxidants
+8,,,,,,,cannabis_nausea,,,
+9,,,,,,,cannabis_cancer,,,
+10,,,,,,,cannabis_epi-lepsy,,,
 11,,,,,,,phaseolus vulgaris l_overweight,,,
 12,,,,,,,phaseolus vulgaris l_heart disease,,,
-13,,,,,,,phaseolus vulgaris l_obesity,,,
+13,,,,,,,phaseolus vulgaris l_diabetics,,,
 14,,,,,,,phaseolus vulgaris l_metabolic syndrome,,,
-15,,,,,,,phaseolus vulgaris l_diabetics,,,
+15,,,,,,,phaseolus vulgaris l_obesity,,,

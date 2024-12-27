@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,taphrina deformans,taphrina deformans,yucca mohavensis,pinus spp,,ginkgo biloba_vascular,urechites suberecta_hemorrhoids,dryopteris filix-mas_vermifuge,tolypocladium inflatum_cyclosporin,pistacia lentiscus_purgative
-1,tolypocladium inflatum,tolypocladium inflatum,amaranthus caudatus,oregon balsam,,,asclepias curassavica_menstruation,,evernia sp_arrow poison,apocynum venetum_cardiac stimulant
-2,torulaspora delbrueckii,torulaspora delbrueckii,schinus lorentzii,acanthus,,,asclepias spp_toothache,,dryopteris dilatata_vermifuge,apocynum venetum_emetic
+1,tolypocladium inflatum,tolypocladium inflatum,amaranthus caudatus,oregon balsam,,,asclepias curassavica_menstruation,,evernia sp_arrow poison,apocynum venetum_emetic
+2,torulaspora delbrueckii,torulaspora delbrueckii,schinus lorentzii,acanthus,,,asclepias spp_toothache,,dryopteris dilatata_vermifuge,apocynum venetum_cardiac stimulant
 3,torulaspora holmii,torulaspora holmii,schinus molle,yucca mohavensi,,,cryptostegia grandiflora_malaria,,ephedra sinica_ephedrine,asclepias curassavica_abortifacient
 4,tuber spp,tuber spp,sclerocarya birrea ssp. caffra,amaranthus caudatu,,,,,ephedra trifurca_ephedrine,asclepias spp_tooth extraction
 5,ustilago maydis,ustilago maydis,semecarpus anacardium,,,,,,ginkgo biloba_vascular,

@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,physostigma venenosum,physostigma venenosum,cinchona officinalis l,rauvolfia serpentina,cinchona spp_malaria,cinchona officinalis l_fever,rauvolfia serpentina_schizophrenia,,,
-1,cinchona spp,cinchona spp,atropa belladonna,penicillium notatum,,cinchona officinalis l_infectious-disease,rauvolfia serpentina_hypertension,,,
+0,physostigma venenosum,physostigma venenosum,cinchona officinalis l,rauvolfia serpentina,cinchona spp_malaria,cinchona officinalis l_fever,rauvolfia serpentina_hypertension,,,
+1,cinchona spp,cinchona spp,atropa belladonna,penicillium notatum,,cinchona officinalis l_infectious-disease,rauvolfia serpentina_schizophrenia,,,
 2,strychnos nux-vomica,strychnos nux-vomica,,cassia,,cinchona officinalis l_malaria,penicillium notatum_bacterial infections,,,
 3,cannabis sativa,cannabis sativa,,derrisspp,,,,,,
 4,,,,atropabelladonna,,,,,,

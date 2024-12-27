@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,shorea roxburghii,shorea roxburghii,,cladosporium,shorea roxburghii_dysentery,dacrycarpus imbricatus_acute myeloid leukemia,cladosporium_acute myeloid leukemia,shorea roxburghii_hypoglycemic,shorea roxburghii_ameliorative potentials in altered biochemical and hematological parameters,calluna vulgaris (l.) hull_skin-protective
-1,s. roxburghii,dacrycarpus imbricatus,,rauwolfia,shorea roxburghii_diarrhea,pinus dalatensis_acute myeloid leukemia,rauwolfia_acute myeloid leukemia,calluna vulgaris_antimicrobial,dacrycarpus imbricatus_anti-proliferative,c. vulgaris_antioxidant
-2,dacrycarpus imbricatus,pinus dalatensis,,cladosporium spp,shorea roxburghii_type 2 diabetes mellitus,oldenlandia pinifolia_chronic myelogenous leukemia,,,pinus dalatensis_inhibitory effects on the growth,c. vulgaris_antiradical
+1,s. roxburghii,dacrycarpus imbricatus,,rauwolfia,shorea roxburghii_diarrhea,pinus dalatensis_acute myeloid leukemia,rauwolfia_acute myeloid leukemia,calluna vulgaris_antimicrobial,dacrycarpus imbricatus_anti-proliferative,c. vulgaris_antiradical
+2,dacrycarpus imbricatus,pinus dalatensis,,cladosporium spp,shorea roxburghii_type 2 diabetes mellitus,oldenlandia pinifolia_chronic myelogenous leukemia,,,pinus dalatensis_inhibitory effects on the growth,c. vulgaris_antioxidant
 3,pinus dalatensis ferre,oldenlandia pinifolia,,warbrugia ugandensis sprague,shorea roxburghii_cholera,warburgia ugandensis_hiv,,,oldenlandia pinifolia_activated caspase-3,c. vulgaris_skin anti-aging and protection
 4,oldenlandia pinifolia,ficus hirta,,cryptolepsis sanguinolenta (lindl.) schltr,,erythrina abyssinica_hiv,,,oldenlandia pinifolia_inhibited the proliferation,s. roxburghii_antidiabetic potentials
 5,ficus hirta,acer truncatum,,a. coriria,,cryptolepis sanguinolenta_hiv,,,oldenlandia pinifolia_induced apoptosis,cladosporium_anti-microbial

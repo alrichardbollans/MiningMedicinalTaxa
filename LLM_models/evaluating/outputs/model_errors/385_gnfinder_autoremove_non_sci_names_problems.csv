@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,garcinia mangostana,garcinia mangostana,kundur[benincasa hispida,citrulluscolocynthis,,,garcinia mangostana_breastcancer,,,garcinia mangostana_induction ofapoptosis
-1,citrullus colocynthis,citrullus colocynthis,verena,benincasa hispida (thunb.) cogn,,,citrulluscolocynthis_hyperlipidemia,,,garcinia mangostana_antioxidation
+0,garcinia mangostana,garcinia mangostana,verena,citrulluscolocynthis,,,garcinia mangostana_breastcancer,,,garcinia mangostana_antioxidation
+1,citrullus colocynthis,citrullus colocynthis,,benincasa hispida (thunb.) cogn,,,citrulluscolocynthis_hyperlipidemia,,,garcinia mangostana_induction ofapoptosis
 2,daucus carota l,daucus carota,,,,,citrulluscolocynthis_human breast cancer,,,garcinia mangostana_antiproliferation
 3,apium graveolens l,apium graveolens,,,,,citrulluscolocynthis_human cancerous (mcf-7 and hepg-2)cells,,,citrullus colocynthis_antidiabetic
 4,aegopodium podagraria l,aegopodium podagraria,,,,,,,,daucus carota l_enhancer of macrophagecholesterol efflux

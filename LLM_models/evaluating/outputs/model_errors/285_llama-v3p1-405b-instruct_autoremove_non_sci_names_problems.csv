@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,juniperus communis l,juniperus communis,,sideri-tis scardica griseb,sideritis raeseri_viruses,juniperus communis_chronic arthritis,sideri-tis scardica griseb_viruses,,juniperus communis_antimicrobial,sideritis_antioxidant
-1,sideritis,sideritis scardica,,j.communis l,sideritis raeseri_sinus congestion,juniperus communis_cystitis,sideri-tis scardica griseb_sinus conges-tion,,juniperus communis_antifungal,
-2,sideritis scardica,sideritis raeseri,,sideritisraeseri,sideritis raeseri_flu,juniperus communis_digestive problems,sideri-tis scardica griseb_pains,,juniperus communis_anti-inflammatory,
-3,s. scardica,,,s.scardica,sideritis raeseri_pains,sideritis scardica_viruses,sideri-tis scardica griseb_common cold,,,
-4,sideritis raeseri boiss.&heldr,,,sideritisscardica griseb,sideritis raeseri_common cold,sideritis scardica_sinus congestion,sideri-tis scardica griseb_aches,,,
-5,sideritis raeseri,,,,sideritis raeseri_aches,sideritis scardica_flu,sideri-tis scardica griseb_flu,,,
+0,juniperus communis l,juniperus communis,,sideri-tis scardica griseb,sideritis raeseri_viruses,juniperus communis_chronic arthritis,sideri-tis scardica griseb_common cold,,juniperus communis_antimicrobial,sideritis_antioxidant
+1,sideritis,sideritis scardica,,j.communis l,sideritis raeseri_sinus congestion,juniperus communis_cystitis,sideri-tis scardica griseb_pains,,juniperus communis_antifungal,
+2,sideritis scardica,sideritis raeseri,,sideritisraeseri,sideritis raeseri_flu,juniperus communis_digestive problems,sideri-tis scardica griseb_sinus conges-tion,,juniperus communis_anti-inflammatory,
+3,s. scardica,,,s.scardica,sideritis raeseri_pains,sideritis scardica_viruses,sideri-tis scardica griseb_viruses,,,
+4,sideritis raeseri boiss.&heldr,,,sideritisscardica griseb,sideritis raeseri_common cold,sideritis scardica_sinus congestion,sideri-tis scardica griseb_flu,,,
+5,sideritis raeseri,,,,sideritis raeseri_aches,sideritis scardica_flu,sideri-tis scardica griseb_aches,,,
 6,s. raeseri,,,,,sideritis scardica_pains,,,,
 7,,,,,,sideritis scardica_common cold,,,,
 8,,,,,,sideritis scardica_aches,,,,

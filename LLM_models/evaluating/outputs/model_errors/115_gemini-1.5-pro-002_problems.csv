@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,podophyllum peltatum,podophyllum peltatum,,,,kigelia pinnata_lesions,chenopodium quinoa_intestinal worms,,alnus glutinosa_medicine,lobelia tupa_emetic
-1,alnus glutinosa,alnus glutinosa,,,,pulmonaria officinalis_respiratory,solidago spp_hepatitis,,alnus glutinosa_tannin,carthamus tinctorius_diuretic
-2,alnus oregana,alnus oregana,,,,chenopodium anthelminthicum_intestinal worms,tanacetum vulgare_fever,,betula lenta_flavoring,carthamus tinctorius_vermifuge
-3,alnus rubra,alnus rubra,,,,echinacea angustifolia_immune system,tanacetum vulgare_migraine,,bixa orellana_body paint,dichondra spp_purgative
+1,alnus glutinosa,alnus glutinosa,,,,pulmonaria officinalis_respiratory,solidago spp_hepatitis,,alnus glutinosa_tannin,carthamus tinctorius_vermifuge
+2,alnus oregana,alnus oregana,,,,chenopodium anthelminthicum_intestinal worms,tanacetum vulgare_migraine,,betula lenta_flavoring,carthamus tinctorius_diuretic
+3,alnus rubra,alnus rubra,,,,echinacea angustifolia_immune system,tanacetum vulgare_fever,,bixa orellana_body paint,dichondra spp_purgative
 4,betula allaghaniensis,betula allaghaniensis,,,,echinacea purpurea_immune system,nyssa aquatica_leukemia,,bixa orellana_food coloring,dichondra_purgative
 5,betula lenta,betula lenta,,,,silybum marianum_hepatitis,nyssa aquatica_throat cancer,,ceiba pentandra_fixed oil,ipomoea pandurata_purgative
 6,betula papyrifera,betula papyrifera,,,,tanacetum parthenium_many ailments,,,alkanna lehmannii_dye,ipomoea purga_cathartic

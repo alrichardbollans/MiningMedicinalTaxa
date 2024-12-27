@@ -1,15 +1,15 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,momordica charantia l,momordica charantia l,,aloe vera,momordica charantia l_diabetes,trigonella foenum-graecum l_arthritis,aloe vera_burns,momordica charantia l_hypoglycaemic,viola odorata l_pain relief,aloe vera_anti-inflammatory
-1,viola odorata l,viola odorata l,,eucalyptus,viola odorata l_fever,trigonella foenum-graecum l_diabetes,aloe vera_mouth ulcers,,trigonella foenum-graecum l_insulin secretion,aloe vera_immune boosting effects
-2,trigonella foenum-graecum l,trigonella foenum-graecum l,,,viola odorata l_cough,,aloe vera_itchy skin,,trigonella foenum-graecum l_glucose uptake,aloe vera_wound healing
-3,,,,,viola odorata l_catarrh,,aloe vera_arthritis,,,momordica charantia l_glucose absorption
-4,,,,,viola odorata l_headache,,aloe vera_stomach and duodenal ulcers,,,momordica charantia l_increase glucose uptake in liver cells
-5,,,,,,,aloe vera_irritable bowel syndrome,,,momordica charantia l_improve insulin secretion
-6,,,,,,,aloe vera_skin conditions,,,trigonella foenum-graecum l_improving insulin response in diabetics
-7,,,,,,,aloe vera_diabetes,,,trigonella foenum-graecum l_anti-diabetic
-8,,,,,,,aloe vera_skin irritation,,,trigonella foenum-graecum l_reduce bg levels
-9,,,,,,,aloe vera_eczema,,,
-10,,,,,,,aloe vera_tooth aches,,,
+0,momordica charantia l,momordica charantia l,,aloe vera,momordica charantia l_diabetes,trigonella foenum-graecum l_arthritis,aloe vera_arthritis,momordica charantia l_hypoglycaemic,viola odorata l_pain relief,aloe vera_wound healing
+1,viola odorata l,viola odorata l,,eucalyptus,viola odorata l_fever,trigonella foenum-graecum l_diabetes,aloe vera_stomach and duodenal ulcers,,trigonella foenum-graecum l_insulin secretion,aloe vera_anti-inflammatory
+2,trigonella foenum-graecum l,trigonella foenum-graecum l,,,viola odorata l_cough,,aloe vera_tooth aches,,trigonella foenum-graecum l_glucose uptake,aloe vera_immune boosting effects
+3,,,,,viola odorata l_catarrh,,aloe vera_irritable bowel syndrome,,,momordica charantia l_glucose absorption
+4,,,,,viola odorata l_headache,,aloe vera_skin irritation,,,momordica charantia l_improve insulin secretion
+5,,,,,,,aloe vera_skin conditions,,,momordica charantia l_increase glucose uptake in liver cells
+6,,,,,,,aloe vera_itchy skin,,,trigonella foenum-graecum l_reduce bg levels
+7,,,,,,,aloe vera_eczema,,,trigonella foenum-graecum l_anti-diabetic
+8,,,,,,,aloe vera_burns,,,trigonella foenum-graecum l_improving insulin response in diabetics
+9,,,,,,,aloe vera_mouth ulcers,,,
+10,,,,,,,aloe vera_diabetes,,,
 11,,,,,,,viola odorata l_coughs,,,
 12,,,,,,,viola odorata l_pain,,,
 13,,,,,,,viola odorata l_colds,,,

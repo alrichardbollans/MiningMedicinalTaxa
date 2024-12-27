@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,citrullus colocynthis,citrullus colocynthis schrad,,garcinia mangostana,,citrullus colocynthis schrad_diabetes,garcinia mangostana_breastcancer,,,garcinia mangostana_induction ofapoptosis
-1,benincasa hispida (thunb.) cogn,benincasa hispida (thunb.) cogn,,citrulluscolocynthis,,,citrulluscolocynthis_human cancerous (mcf-7 and hepg-2)cells,,,garcinia mangostana_antiproliferation
-2,daucus carota l,daucus carota l,,notopterygium incisum k.c.ting exh.t.chang,,,citrulluscolocynthis_human breast cancer,,,garcinia mangostana_antioxidation
-3,apium graveolens l,apium graveolens l,,,,,citrulluscolocynthis_hyperlipidemia,,,citrullus colocynthis_antidiabetic
+0,citrullus colocynthis,citrullus colocynthis schrad,,garcinia mangostana,,citrullus colocynthis schrad_diabetes,garcinia mangostana_breastcancer,,,garcinia mangostana_antioxidation
+1,benincasa hispida (thunb.) cogn,benincasa hispida (thunb.) cogn,,citrulluscolocynthis,,,citrulluscolocynthis_hyperlipidemia,,,garcinia mangostana_induction ofapoptosis
+2,daucus carota l,daucus carota l,,notopterygium incisum k.c.ting exh.t.chang,,,citrulluscolocynthis_human breast cancer,,,garcinia mangostana_antiproliferation
+3,apium graveolens l,apium graveolens l,,,,,citrulluscolocynthis_human cancerous (mcf-7 and hepg-2)cells,,,citrullus colocynthis_antidiabetic
 4,notopterygium incisum k.c.ting ex h.t.chang,notopterygium incisum k.c.ting ex h.t.chang,,,,,,,,daucus carota l_enhancer of macrophagecholesterol efflux
 5,aegopodium podagraria l,aegopodium podagraria l,,,,,,,,apium graveolens l_enhancer of macrophagecholesterol efflux
 6,,,,,,,,,,notopterygium incisum k.c.ting ex h.t.chang_enhancer of macrophagecholesterol efflux

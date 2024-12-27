@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,heracleum verticillatum,heracleum verticillatum pancic,,c. acicularisbertol,,,,heracleum verticillatum pancic_antimicrobial,,seseli rigidum_andantioxidant
-1,h. verticillatum,seseli rigidum w. k,,c. tho-ermeri weinm,,,,seseli rigidum w. k_anti-aggregatory,,seseli rigidum_antimicrobial
+0,heracleum verticillatum,heracleum verticillatum pancic,,c. acicularisbertol,,,,heracleum verticillatum pancic_antimicrobial,,seseli rigidum_antimicrobial
+1,h. verticillatum,seseli rigidum w. k,,c. tho-ermeri weinm,,,,seseli rigidum w. k_anti-aggregatory,,seseli rigidum_andantioxidant
 2,s. rigidum,carduus acanthoides l,,scutellaria baicalensis georgii,,,,seseli rigidum w. k_cytotoxic,,c. acicularisbertol_antioxidant
 3,seseli rigidum,carduus acicularis bertol,,scutellaria baicalensis,,,,seseli rigidum w. k_antibacterial,,c. tho-ermeri weinm_antioxidant
 4,seseli rigidum w. k,carduus crispus l,,heracleum l,,,,seseli rigidum w. k_anti-inflammatory,,

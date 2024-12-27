@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,rosa canina l,rosa canina l,,ziziphora taurica subsp. cleonioides,,,,rosa canina l_anti-inflammatory,,ziziphora taurica subsp. cleonioides_antioxidant
-1,chenopodium album,chenopodium album,,laurus nobilis linn,,,,chenopodium album_anthelmintic,,laurus nobilis linn_analgesic
-2,salviaofficinalis l,salviaofficinalis l,,menthaspicata,,,,chenopodium album_antimicrobial,,laurus nobilis linn_antinflammatory
+1,chenopodium album,chenopodium album,,laurus nobilis linn,,,,chenopodium album_anthelmintic,,laurus nobilis linn_antinflammatory
+2,salviaofficinalis l,salviaofficinalis l,,menthaspicata,,,,chenopodium album_antimicrobial,,laurus nobilis linn_analgesic
 3,salvia triloba l,salvia triloba l,,sideritis,,,,chenopodium album_antioxidant,,menthaspicata_antifungal
 4,medicago sativa,medicago sativa,,salixalba,,,,salviaofficinalis l_antibacterial,,sideritis_antioxidant
 5,allium porrum,allium porrum,,potentilla,,,,salvia triloba l_antibacterial,,rubus sanctus schreber_wound healing

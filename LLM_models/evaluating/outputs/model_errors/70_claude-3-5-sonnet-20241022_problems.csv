@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,daucus carota var. sativa,daucus carota var. sativa,,maranta arundinacea,apium graveolens_constipation,,maranta arundinacea_snake bites,daucus carota var. sativa_stimulant,lactuca sativa_soporific,eruca sativa_aphrodisiac
-1,daucus carota,apium graveolens,,helianthus tuberosus,apium graveolens_hangovers,,maranta arundinacea_ulcers,daucus carota var. sativa_diuretic,,l.serriola_soporific
-2,apium graveolens,lactuca sativa,,a. sativum,apium graveolens_impotence,,maranta arundinacea_insect bites,apium graveolens_diuretic,,
-3,lactuca sativa,,,eruca sativa,,,maranta arundinacea_wounds,,,
+0,daucus carota var. sativa,daucus carota var. sativa,,maranta arundinacea,apium graveolens_constipation,,maranta arundinacea_wounds,daucus carota var. sativa_stimulant,lactuca sativa_soporific,eruca sativa_aphrodisiac
+1,daucus carota,apium graveolens,,helianthus tuberosus,apium graveolens_hangovers,,maranta arundinacea_insect bites,daucus carota var. sativa_diuretic,,l.serriola_soporific
+2,apium graveolens,lactuca sativa,,a. sativum,apium graveolens_impotence,,maranta arundinacea_snake bites,apium graveolens_diuretic,,
+3,lactuca sativa,,,eruca sativa,,,maranta arundinacea_ulcers,,,
 4,,,,l.serriola,,,helianthus tuberosus_diabetics,,,
-5,,,,tacca leontopetaloides,,,a. sativum_snake bites,,,
-6,,,,curcuma angustifolia,,,a. sativum_toothaches,,,
-7,,,,canna indica,,,a. sativum_eczema,,,
+5,,,,tacca leontopetaloides,,,a. sativum_eczema,,,
+6,,,,curcuma angustifolia,,,a. sativum_snake bites,,,
+7,,,,canna indica,,,a. sativum_toothaches,,,
 8,,,,beta vulgaris,,,,,,
 9,,,,manihot esculenta,,,,,,
 10,,,,brassica oleracea,,,,,,

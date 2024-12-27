@@ -1,7 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,lophophora williamsii,lophophora williamsii,erythrox-ylum coca,erythrox-ylumcoca,,erythrox-ylum coca_disease,,,erythrox-ylum coca_stimulation,
-1,,,peyotl,e. novogranatense,,erythrox-ylum coca_malnutrition,,,erythrox-ylum coca_suppress hunger pangs,
-2,,,echinocactus williamsii,erythroxylon,,peyotl_thirst,,,peyotl_protects from all dangers,
-3,,,,,,peyotl_hunger,,,peyotl_courage,
-4,,,,,,echinocactus williamsii_none,,,echinocactus williamsii_visions,
-5,,,,,,lophophora williamsii_none,,,lophophora williamsii_visions,
+0,lophophora williamsii,lophophora williamsii,peyotl,erythrox-ylumcoca,,peyotl_thirst,,,peyotl_protects from all dangers,
+1,,,echinocactus williamsii,e. novogranatense,,peyotl_hunger,,,peyotl_courage,
+2,,,,erythroxylon,,echinocactus williamsii_none,,,echinocactus williamsii_visions,
+3,,,,,,lophophora williamsii_none,,,lophophora williamsii_visions,

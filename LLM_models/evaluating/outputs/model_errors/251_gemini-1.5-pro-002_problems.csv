@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,eryngium cymosum f. delaroche,eryngium cymosum f. delaroche,e. coli,c. sativa var. felina 32,eryngium cymosum f. delaroche_diabetes,eryngium cymosum f. delaroche_hyperglycemia,,eryngium cymosum f. delaroche_hypoglycemic,streptomyces sp_anti-tyrosinase,streptomyces sp. ca-129531_skin-whitening
-1,streptomyces sp. ca-129531,streptomyces sp,olea europaea,,,streptomyces sp_skin-whitening,,,e. coli_inhibition of a-synuclein fibrilization,streptomyces sp. ca-129531_tyrosinase inhibitors
+0,eryngium cymosum f. delaroche,eryngium cymosum f. delaroche,e. coli,c. sativa var. felina 32,eryngium cymosum f. delaroche_diabetes,eryngium cymosum f. delaroche_hyperglycemia,,eryngium cymosum f. delaroche_hypoglycemic,streptomyces sp_anti-tyrosinase,streptomyces sp. ca-129531_tyrosinase inhibitors
+1,streptomyces sp. ca-129531,streptomyces sp,olea europaea,,,streptomyces sp_skin-whitening,,,e. coli_inhibition of a-synuclein fibrilization,streptomyces sp. ca-129531_skin-whitening
 2,cannabis sativa l,cannabis sativa l,a2058,,,e. coli_parkinson's disease,,,cannabis sativa l_antiproliferative,cannabis sativa l_anticancer
-3,,,,,,cannabis sativa l_cancer,,,olea europaea_chemopreventive,c. sativa var. felina 32_cytotoxic
-4,,,,,,olea europaea_breast cancer,,,a2058_antiproliferative,c. sativa var. felina 32_antiproliferative
+3,,,,,,cannabis sativa l_cancer,,,olea europaea_chemopreventive,c. sativa var. felina 32_antiproliferative
+4,,,,,,olea europaea_breast cancer,,,a2058_antiproliferative,c. sativa var. felina 32_cytotoxic
 5,,,,,,a2058_melanoma,,,,

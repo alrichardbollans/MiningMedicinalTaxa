@@ -1,16 +1,16 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,boswellia,boswellia,saraswati,b.serrata,,,b. serrata_chronic colitis,,,commiphora opobalsamum_hepatoprotective
-1,boswellia serrata l,b. serrata,,b. serrate,,,b. serrata_crohn's disease,,,c. mukul_anti-inflammatory
+0,boswellia,boswellia,saraswati,b.serrata,,,b. serrata_crohn's disease,,,commiphora opobalsamum_hepatoprotective
+1,boswellia serrata l,b. serrata,,b. serrate,,,b. serrata_chronic colitis,,,c. mukul_anti-inflammatory
 2,b. serrata,commiphora,,c.mukul,,,b. serrata_leukemia,,,
 3,commiphora,boswellia serrata,,,,,b.serrata_grade ii and iii ulcerative colitis,,,
-4,commiphora opobalsamum,cyperus scariosus,,,,,commiphora_hyperlipidemia,,,
-5,cyperus scariosus l,c. mukul,,,,,commiphora_chronic diseases,,,
-6,c. mukul,,,,,,commiphora_inflammation,,,
-7,,,,,,,commiphora_arthritis,,,
-8,,,,,,,commiphora_obesity,,,
-9,,,,,,,boswellia_hyperlipidemia,,,
-10,,,,,,,boswellia_chronic diseases,,,
-11,,,,,,,boswellia_inflammation,,,
+4,commiphora opobalsamum,cyperus scariosus,,,,,commiphora_inflammation,,,
+5,cyperus scariosus l,c. mukul,,,,,commiphora_hyperlipidemia,,,
+6,c. mukul,,,,,,commiphora_chronic diseases,,,
+7,,,,,,,commiphora_obesity,,,
+8,,,,,,,commiphora_arthritis,,,
+9,,,,,,,boswellia_inflammation,,,
+10,,,,,,,boswellia_hyperlipidemia,,,
+11,,,,,,,boswellia_chronic diseases,,,
 12,,,,,,,b. serrate_type2 diabetic,,,
 13,,,,,,,cyperus scariosus l_stress incontinence,,,
 14,,,,,,,c.mukul_atherosclerosis,,,

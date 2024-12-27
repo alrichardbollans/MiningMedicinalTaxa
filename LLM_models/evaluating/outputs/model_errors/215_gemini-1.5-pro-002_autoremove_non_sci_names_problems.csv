@@ -1,11 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,linum usitatissimum,linum usitatissimum,,,linum usitatissimum_ringworm,linum usitatissimum_skin excoriations,linum usitatissimum_seborrhea sicca,linum usitatissimum_anti-inflammatory,,linum usitatissimum_sebum-reducing
-1,linum usitatissimum l,,,,,,linum usitatissimum_seborrhea,linum usitatissimum_increased skin hydration,,linum usitatissimum_protective and nu-tritive for human skin
-2,,,,,,,linum usitatissimum_sebum-regulation,linum usitatissimum_antibacterial,,linum usitatissimum_skin excoriations
-3,,,,,,,linum usitatissimum_dry seb-orrhea,linum usitatissimum_wound healing,,linum usitatissimum_estrogen-mimetic action
-4,,,,,,,linum usitatissimum_surgical wound healing,,,linum usitatissimum_anti-androgenic
-5,,,,,,,linum usitatissimum_seborrhea oleossa and the sicca,,,linum usitatissimum_cutaneous ag-ing prevention
-6,,,,,,,linum usitatissimum_scarring,,,linum usitatissimum_es-trogen-mimetic
-7,,,,,,,linum usitatissimum l_skin wounds,,,linum usitatissimum_restoring the cutaneous barrier
-8,,,,,,,,,,linum usitatissimum_reducing the appearance of scaly skin
-9,,,,,,,,,,linum usitatissimum_sebum-reducing effect
+0,linum usitatissimum,linum usitatissimum,,,linum usitatissimum_ringworm,linum usitatissimum_skin excoriations,linum usitatissimum_seborrhea,linum usitatissimum_anti-inflammatory,,linum usitatissimum_cutaneous ag-ing prevention
+1,linum usitatissimum l,,,,,,linum usitatissimum_scarring,linum usitatissimum_increased skin hydration,,linum usitatissimum_sebum-reducing effect
+2,,,,,,,linum usitatissimum_dry seb-orrhea,linum usitatissimum_antibacterial,,linum usitatissimum_skin excoriations
+3,,,,,,,linum usitatissimum_seborrhea sicca,linum usitatissimum_wound healing,,linum usitatissimum_es-trogen-mimetic
+4,,,,,,,linum usitatissimum_sebum-regulation,,,linum usitatissimum_anti-androgenic
+5,,,,,,,linum usitatissimum_surgical wound healing,,,linum usitatissimum_sebum-reducing
+6,,,,,,,linum usitatissimum_seborrhea oleossa and the sicca,,,linum usitatissimum_protective and nu-tritive for human skin
+7,,,,,,,linum usitatissimum l_skin wounds,,,linum usitatissimum_reducing the appearance of scaly skin
+8,,,,,,,,,,linum usitatissimum_restoring the cutaneous barrier
+9,,,,,,,,,,linum usitatissimum_estrogen-mimetic action

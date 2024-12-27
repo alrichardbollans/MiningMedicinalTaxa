@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,solanum tuberosum,solanum tuberosum,acosta,dioscorea spp,,,,,,
 1,phytophthora infestans,phytophthora infestans,solanum tuberosum1756,sorghum,,,,,,
-2,colocasia esculenta,colocasia esculenta,potatoipomoea batatas,solanumtuberosum,,,,,,
+2,colocasia esculenta,colocasia esculenta,,solanumtuberosum,,,,,,
 3,,,,solanumtuberosum esculentum,,,,,,
 4,,,,ipomoea batatas,,,,,,
 5,,,,manihot esculenta,,,,,,

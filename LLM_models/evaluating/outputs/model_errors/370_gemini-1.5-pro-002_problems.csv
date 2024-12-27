@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,a. laxmannii,ajuga laxmannii,harpagophytum,artabotrys hildebrandtii o. hffm,ajuga remota benth_malaria,ajuga laxmannii_candida parapsilosis,,ajuga laxmannii_anti-inflammatory,ajuga iva_anti-inflammatory,a. laxmannii_antioxidant
-1,ajuga laxmannii,ajuga iva,,candida albicans,,ajuga laxmannii_penicillium funiculosum,,ajuga laxmannii_antibacterial,ajuga remota benth_anti-inflammatory,a. laxmannii_anti-nitro-oxidative stress
-2,ajuga,ajuga remota benth,,candida parapsilosis,,ajuga laxmannii_candida albicans,,ajuga laxmannii_antifungal,harpagophytum_anti-inflammatory,a. laxmannii_antimicrobial
+1,ajuga laxmannii,ajuga iva,,candida albicans,,ajuga laxmannii_penicillium funiculosum,,ajuga laxmannii_antibacterial,ajuga remota benth_anti-inflammatory,a. laxmannii_antimicrobial
+2,ajuga,ajuga remota benth,,candida parapsilosis,,ajuga laxmannii_candida albicans,,ajuga laxmannii_antifungal,harpagophytum_anti-inflammatory,a. laxmannii_anti-nitro-oxidative stress
 3,a. iva,ajuga bracteosa wall ex benth,,penicillium funiculosum,,ajuga laxmannii_inflammation,,ajuga bracteosa wall ex benth_anti-inflammatory,,a. laxmannii_anti-oxidative stress
 4,ajuga remota benth,,,c. albicans,,ajuga iva_inflammation,,,,a. iva_antifungal
 5,ajuga bracteosa wall ex benth,,,p. funiculosum,,ajuga bracteosa wall ex benth_inflammation,,,,ajuga laxmannii_antiprotozoal
-6,,,,ajugaiva l,,harpagophytum_inflammation,,,,artabotrys hildebrandtii o. hffm_antioxidant
-7,,,,ajugachamaepitys (l.) schreb. subsp. chamaepitys,,,,,,artabotrys hildebrandtii o. hffm_antimicrobial
+6,,,,ajugaiva l,,harpagophytum_inflammation,,,,artabotrys hildebrandtii o. hffm_antimicrobial
+7,,,,ajugachamaepitys (l.) schreb. subsp. chamaepitys,,,,,,artabotrys hildebrandtii o. hffm_antioxidant

@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,achillea moschata wulfen,achillea moschata wulfen,,candida,achillea moschata wulfen_gynaecological infections,achillea moschata wulfen_digestive purposes,achillea moschata wulfen_ulcers,achillea moschata wulfen_anti-inflammatory,,achillea moschata wulfen_digestive
-1,malva sylvestris l,malva sylvestris l,,,malva sylvestris l_allergies,malva sylvestris l_acne,achillea moschata wulfen_intestinal swelling in bovine,achillea moschata wulfen_analgesic,,malva sylvestris l_soothing
-2,thymus pulegioides l,thymus pulegioides l,,,thymus pulegioides l_cold,,,achillea moschata wulfen_hypotensive,,malva sylvestris l_acne reactions
+0,achillea moschata wulfen,achillea moschata wulfen,,candida,achillea moschata wulfen_gynaecological infections,achillea moschata wulfen_digestive purposes,achillea moschata wulfen_intestinal swelling in bovine,achillea moschata wulfen_anti-inflammatory,,achillea moschata wulfen_digestive
+1,malva sylvestris l,malva sylvestris l,,,malva sylvestris l_allergies,malva sylvestris l_acne,achillea moschata wulfen_ulcers,achillea moschata wulfen_analgesic,,malva sylvestris l_acne reactions
+2,thymus pulegioides l,thymus pulegioides l,,,thymus pulegioides l_cold,,,achillea moschata wulfen_hypotensive,,malva sylvestris l_soothing
 3,achillea millefolium l,achillea millefolium l,,,thymus pulegioides l_sore throat,,,malva sylvestris l_relaxing,,origanum dictamnus_relaxing effect on rabbit intestine
 4,mentha spicata l,mentha spicata l,,,achillea millefolium l_menopause symptoms,,,malva sylvestris l_purifying,,
 5,matricaria chamomilla l,matricaria chamomilla l,,,mentha spicata l_diarrhoea,,,malva sylvestris l_emollient,,

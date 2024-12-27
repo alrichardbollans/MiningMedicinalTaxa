@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,taphrina deformans,taphrina deformans,yucca mohavensis,oregon balsam,,,urechites suberecta_hemorrhoids,,,dryopteris filix-mas_vermifuge
 1,tolypocladium inflatum,tolypocladium inflatum,amaranthus caudatus,acanthus,,,asclepias curassavica_menstruation,,,pistacia lentiscus_purgative
-2,torulaspora delbrueckii,torulaspora delbrueckii,schinus lorentzii,yucca mohavensi,,,asclepias spp_toothache,,,apocynum venetum_cardiac stimulant
-3,torulaspora holmii,torulaspora holmii,schinus molle,amaranthus caudatu,,,cryptostegia grandiflora_malaria,,,apocynum venetum_emetic
+2,torulaspora delbrueckii,torulaspora delbrueckii,schinus lorentzii,yucca mohavensi,,,asclepias spp_toothache,,,apocynum venetum_emetic
+3,torulaspora holmii,torulaspora holmii,schinus molle,amaranthus caudatu,,,cryptostegia grandiflora_malaria,,,apocynum venetum_cardiac stimulant
 4,tuber spp,tuber spp,sclerocarya birrea ssp. caffra,,,,,,,asclepias curassavica_abortifacient
 5,ustilago maydis,ustilago maydis,semecarpus anacardium,,,,,,,asclepias spp_tooth extraction
 6,volvariella volvacea,volvariella volvacea,hancornia speciosa,,,,,,,

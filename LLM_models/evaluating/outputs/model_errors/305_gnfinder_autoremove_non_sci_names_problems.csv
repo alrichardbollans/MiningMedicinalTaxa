@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,coptis chinensis franch,coptis chinensis,referencesargemone ochroleuca,argemone hybrida r.otto & verloove,,,,,,
-1,coptis chinensis,evodia meliaefolia,referencesphellodendron chinense,argemone mexicana l,,,,,,
-2,evodia meliaefolia (hance ex walp. )benth,c. fenestratum,cortex phellodendri,argemone ochroleuca sweet,,,,,,
+0,coptis chinensis franch,coptis chinensis,,argemone hybrida r.otto & verloove,,,,,,
+1,coptis chinensis,evodia meliaefolia,,argemone mexicana l,,,,,,
+2,evodia meliaefolia (hance ex walp. )benth,c. fenestratum,,argemone ochroleuca sweet,,,,,,
 3,c. fenestratum,berberis aristata,,argemone platyceras l,,,,,,
 4,berberis aristata,b. tinctoria,,argemone subintegrifolia ownbey,,,,,,
 5,b. tinctoria,phellodendron bark,,argemone squarrosa greene,,,,,,

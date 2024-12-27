@@ -1,54 +1,50 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,salvia officinalis,salvia officinalis,staphylococcus aureus,p. peu-ce,,,,,,salvia l_antimicrobial
-1,salvia,rosmarinus offici-nalis,staphylococcus epidermidis,ab-ies alba mill,,,,,,stachys sylvatica l_antioxidant
-2,rosmarinus offici-nalis,salvia,listeria monocytogenes,th. to-sevii velen,,,,,,p. mugo_antimi-crobial
-3,salvia l,juniperus communis,s. epidermidis,a.millefolium l,,,,,,p. mugo_antioxidant
-4,j. communis,j. communis subsp. alpina,l. monocytogenes,a. alba turra,,,,,,p. peu-ce_antioxidant
-5,juniperus communis l,j. oxycedrus,,h. perfora-tum,,,,,,p. heldreichii_antimi-crobial
-6,j. communis subsp. alpina (suter) celak,a. borisii-regis,,a. alba,,,,,,p. heldreichii_antioxidant
-7,j. oxycedrus l,pinus mugo,,,,,,,,p. sylvestris_antimi-crobial
-8,j. oxycedrus,p. peuce,,,,,,,,p. sylvestris_antioxidant
-9,juniperus oxycedrus l,p. heldreichii,,,,,,,,p. nigra_antimi-crobial
-10,a. borisii-regis mattf,p. sylvestris,,,,,,,,p. nigra_antioxidant
+0,salvia officinalis,salvia officinalis,listeria monocytogenes,p. peu-ce,,,,,,salvia l_antimicrobial
+1,salvia,rosmarinus offici-nalis,s. epidermidis,t.s longicaulis,,,,,,stachys sylvatica l_antioxidant
+2,rosmarinus offici-nalis,salvia,l. monocytogenes,ab-ies alba mill,,,,,,p. mugo_antioxidant
+3,salvia l,juniperus communis,,th. pulegioides l. subsp. montanus,,,,,,p. mugo_antimi-crobial
+4,j. communis,j. communis subsp. alpina,,th. to-sevii velen,,,,,,p. peu-ce_antioxidant
+5,juniperus communis l,j. oxycedrus,,th. longicaulis presl,,,,,,p. heldreichii_antioxidant
+6,j. communis subsp. alpina (suter) celak,a. borisii-regis,,hyper-icum perforatum l,,,,,,p. heldreichii_antimi-crobial
+7,j. oxycedrus l,pinus mugo,,a.millefolium l,,,,,,p. sylvestris_antioxidant
+8,j. oxycedrus,p. peuce,,a. alba turra,,,,,,p. sylvestris_antimi-crobial
+9,juniperus oxycedrus l,p. heldreichii,,h. perfora-tum,,,,,,p. nigra_antioxidant
+10,a. borisii-regis mattf,p. sylvestris,,a. alba,,,,,,p. nigra_antimi-crobial
 11,p. mugo,p. nigra,,,,,,,,j. communis_antimi-crobial
 12,pinus mugo turra,picea abies,,,,,,,,p. peuce_antimi-crobial
 13,pinus mugo,betonica officinalis,,,,,,,,t.s longicaulis_antimi-crobial
 14,p. peuce,hyssopus officinalis,,,,,,,,m. albanica_antimi-crobial
-15,p. peuce griseb,micro-meria albanica,,,,,,,,p. terebinthus_antimi-crobial
-16,p. heldreichii,origanum,,,,,,,,salvia officinalis_antimicrobial
-17,p. heldreichii h. christ,satureja montana,,,,,,,,salvia officinalis_antioxidant
-18,p. sylvestris,stachys sylvatica,,,,,,,,rosmarinus offici-nalis_antimicrobial
-19,p. sylvestris l,thymus jankae,,,,,,,,rosmarinus offici-nalis_antioxidant
-20,p. nigra,th. pulegioides,,,,,,,,
-21,p. nigra j. f. arnold,th. longicaulis,,,,,,,,
-22,picea abies (l.) h. krasr,hyper-icum perforatum,,,,,,,,
-23,betonica officinalis l,pistacia terebinthus,,,,,,,,
-24,b. officinalis,achillea alexandri-regis,,,,,,,,
-25,betonica officinalis,a. chrysocoma,,,,,,,,
-26,hyssopus officinalis l,a. holosericea,,,,,,,,
-27,m. albanica,a. lingulata,,,,,,,,
-28,micro-meria albanica (griceb. ex k. mal) silic,artemisia absinthium,,,,,,,,
-29,origanum vul-gare l,a. vulgaris,,,,,,,,
-30,satureja montana l,tanacetum larcatum,,,,,,,,
-31,s. montana,betula pendula,,,,,,,,
-32,stachys sylvatica l,til-ia cordata,,,,,,,,
-33,s. sylvatica,j. communis,,,,,,,,
-34,thymus jankae celak,b. officinalis,,,,,,,,
-35,th. pulegioides l. subsp. montanus,s. sylvatica,,,,,,,,
-36,th. longicaulis presl,p. terebinthus,,,,,,,,
-37,hyper-icum perforatum l,p. mugo,,,,,,,,
-38,p. terebinthus,t.s longicaulis,,,,,,,,
-39,pistacia terebinthus l,m. albanica,,,,,,,,
-40,achillea alexandri-regis bornm. & rud-sky,a. alexandri-regis,,,,,,,,
-41,a. alexandri-regis,t. cordata,,,,,,,,
-42,a. chrysocoma friv,juniperus oxycedrus,,,,,,,,
-43,a. holosericea sm,hypericum perforatum,,,,,,,,
-44,a. lingulata waldst. & kit,,,,,,,,,
-45,artemisia absinthium l,,,,,,,,,
-46,a. vulgaris l,,,,,,,,,
-47,tanacetum larcatum (gris.) kanitz,,,,,,,,,
-48,betula pendula roth,,,,,,,,,
-49,til-ia cordata mill,,,,,,,,,
-50,t. cordata,,,,,,,,,
-51,t.s longicaulis,,,,,,,,,
-52,hypericum perforatum l,,,,,,,,,
+15,p. peuce griseb,origanum,,,,,,,,p. terebinthus_antimi-crobial
+16,p. heldreichii,satureja montana,,,,,,,,salvia officinalis_antimicrobial
+17,p. heldreichii h. christ,stachys sylvatica,,,,,,,,salvia officinalis_antioxidant
+18,p. sylvestris,thymus jankae,,,,,,,,rosmarinus offici-nalis_antimicrobial
+19,p. sylvestris l,pistacia terebinthus,,,,,,,,rosmarinus offici-nalis_antioxidant
+20,p. nigra,achillea alexandri-regis,,,,,,,,
+21,p. nigra j. f. arnold,a. chrysocoma,,,,,,,,
+22,picea abies (l.) h. krasr,a. holosericea,,,,,,,,
+23,betonica officinalis l,a. lingulata,,,,,,,,
+24,b. officinalis,artemisia absinthium,,,,,,,,
+25,betonica officinalis,a. vulgaris,,,,,,,,
+26,hyssopus officinalis l,tanacetum larcatum,,,,,,,,
+27,origanum vul-gare l,betula pendula,,,,,,,,
+28,satureja montana l,j. communis,,,,,,,,
+29,s. montana,b. officinalis,,,,,,,,
+30,stachys sylvatica l,s. sylvatica,,,,,,,,
+31,s. sylvatica,p. terebinthus,,,,,,,,
+32,thymus jankae celak,p. mugo,,,,,,,,
+33,p. terebinthus,m. albanica,,,,,,,,
+34,pistacia terebinthus l,a. alexandri-regis,,,,,,,,
+35,achillea alexandri-regis bornm. & rud-sky,t. cordata,,,,,,,,
+36,a. alexandri-regis,juniperus oxycedrus,,,,,,,,
+37,a. chrysocoma friv,hypericum perforatum,,,,,,,,
+38,a. holosericea sm,,,,,,,,,
+39,a. lingulata waldst. & kit,,,,,,,,,
+40,artemisia absinthium l,,,,,,,,,
+41,a. vulgaris l,,,,,,,,,
+42,tanacetum larcatum (gris.) kanitz,,,,,,,,,
+43,betula pendula roth,,,,,,,,,
+44,m. albanica,,,,,,,,,
+45,micro-meria albanica (griceb. ex k. mal) silic,,,,,,,,,
+46,til-ia cordata mill,,,,,,,,,
+47,t. cordata,,,,,,,,,
+48,hypericum perforatum l,,,,,,,,,

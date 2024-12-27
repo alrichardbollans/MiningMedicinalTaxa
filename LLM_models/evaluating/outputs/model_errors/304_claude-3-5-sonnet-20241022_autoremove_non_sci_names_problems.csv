@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,phellodendron amurense,phellodendron amurense,zanthoxylum monophyllum tul,zanthoxylum monophyllumtul,,zanthoxylum monophyllum tul_dark vomitus,zanthoxylum monophyllumtul_eye infections,,,
-1,p. chinense,phellodendron chinense,xanthorhiza simplicissima,xanthorhizasimplicissima,,zanthoxylum monophyllum tul_eye infections,zanthoxylum monophyllumtul_dark vomitus,,,
+0,phellodendron amurense,phellodendron amurense,zanthoxylum monophyllum tul,zanthoxylum monophyllumtul,,zanthoxylum monophyllum tul_dark vomitus,zanthoxylum monophyllumtul_dark vomitus,,,
+1,p. chinense,phellodendron chinense,xanthorhiza simplicissima,xanthorhizasimplicissima,,zanthoxylum monophyllum tul_eye infections,zanthoxylum monophyllumtul_eye infections,,,
 2,tinospora cordifolia,tinospora cordifolia,chelidonium majus,chelidoniummajus,,,,,,
 3,tinospora cordifolia) (willd.) miers,berberis aristata,,c. fenestratum,,,,,,
 4,tinospora,berberis aquifolium,,annickia chlorantha (oliv.) setten &maas,,,,,,

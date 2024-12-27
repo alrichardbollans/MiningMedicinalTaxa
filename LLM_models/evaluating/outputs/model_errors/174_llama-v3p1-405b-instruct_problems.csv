@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,laurocerasus officinalis roem,laurocerasus officinalis roem,punica granatum l,l. of-ficinalis,laurocerasus officinalis roem_bronchitis,laurocerasus officinalis roem_diabetes,l. officinalis_kidney tissue damage,laurocerasus officinalis roem_antioxidant,laurocerasus officinalis roem_anti-inflammatory,laurocerasus officinalis roem_renal toxicity
-1,l. officinalis,phoenix dactylifera l,,l. offici-nalis,laurocerasus officinalis roem_hemorrhoids,,l. officinalis_pain,laurocerasus officinalis roem_neuroprotective,punica granatum l_antioxidant,l. officinalis_radi-cal scavenging
+0,laurocerasus officinalis roem,laurocerasus officinalis roem,punica granatum l,l. of-ficinalis,laurocerasus officinalis roem_bronchitis,laurocerasus officinalis roem_diabetes,l. officinalis_anti-diabetic,laurocerasus officinalis roem_antioxidant,laurocerasus officinalis roem_anti-inflammatory,laurocerasus officinalis roem_renal toxicity
+1,l. officinalis,phoenix dactylifera l,,l. offici-nalis,laurocerasus officinalis roem_hemorrhoids,,l. officinalis_oxidative stress-induced kidney injury,laurocerasus officinalis roem_neuroprotective,punica granatum l_antioxidant,l. officinalis_radi-cal scavenging
 2,laurocerasus officinalis,,,l. officina-lis,laurocerasus officinalis roem_eczemas,,l. officinalis_oxidative stress,laurocerasus officinalis roem_analgesic,phoenix dactylifera l_antioxidant,l. officinalis_nephrotoxic
-3,phoenix dactylifera l,,,punicagranatum l,laurocerasus officinalis roem_digestive system problems,,l. officinalis_oxi-dative damage,laurocerasus officinalis roem_diuretic,,l. of-ficinalis_anti-inflammatory
-4,,,,,laurocerasus officinalis roem_stomach ulcers,,l. officinalis_anti-diabetic,,,laurocerasus officinalis_anti-diabetic
-5,,,,,,,l. officinalis_oxidative stress-induced kidney injury,,,
-6,,,,,,,l. officinalis_oxida-tive stress,,,
+3,phoenix dactylifera l,,,punicagranatum l,laurocerasus officinalis roem_digestive system problems,,l. officinalis_kidney tissue damage,laurocerasus officinalis roem_diuretic,,l. of-ficinalis_anti-inflammatory
+4,,,,,laurocerasus officinalis roem_stomach ulcers,,l. officinalis_pain,,,laurocerasus officinalis_anti-diabetic
+5,,,,,,,l. officinalis_oxida-tive stress,,,
+6,,,,,,,l. officinalis_oxi-dative damage,,,
 7,,,,,,,phoenix dactylifera l_oxidative stress,,,

@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,o. dictamnus,origanum dictamnus,,c. creticus subsp. eriocephalus,origanum dictamnus_wound healing of skin inflammations and bruises,cistus creticus l. subsp. eriocephalus_flu,c. creticus subsp. eriocephalus_cold symptoms,,,o. dictamnus_relaxing effect
-1,satureja montana,satureja montana,,thymus spp,origanum dictamnus_mild gastrointestinal disorders,cistus creticus l. subsp. eriocephalus_cold symptoms,c. creticus subsp. eriocephalus_influenza a h1n1 strains,,,thymus thracicus velen_anti-inflammatory
-2,stachys iva,stachys iva,,cistus incanus l,origanum dictamnus_relief of cough associated with cold,,c. creticus subsp. eriocephalus_flu,,,thymus thracicus velen_antioxidant
+0,o. dictamnus,origanum dictamnus,,c. creticus subsp. eriocephalus,origanum dictamnus_wound healing of skin inflammations and bruises,cistus creticus l. subsp. eriocephalus_flu,c. creticus subsp. eriocephalus_influenza a h1n1 strains,,,o. dictamnus_relaxing effect
+1,satureja montana,satureja montana,,thymus spp,origanum dictamnus_mild gastrointestinal disorders,cistus creticus l. subsp. eriocephalus_cold symptoms,c. creticus subsp. eriocephalus_cold symptoms,,,thymus thracicus velen_antioxidant
+2,stachys iva,stachys iva,,cistus incanus l,origanum dictamnus_relief of cough associated with cold,,c. creticus subsp. eriocephalus_flu,,,thymus thracicus velen_anti-inflammatory
 3,sideritis sp,sideritis sp,,c. creticus subsp,satureja montana_common flu and cough,,,,,artocarpus tonkinensis_decreases th17 cell function
 4,achillea coarcata,achillea coarcata,,,stachys iva_common flu and cough,,,,,artocarpus tonkinensis_anti-inflammatory
-5,teucrium,teucrium,,,sideritis sp_common flu and cough,,,,,c. creticus subsp. eriocephalus_inhibiting influenza virus
+5,teucrium,teucrium,,,sideritis sp_common flu and cough,,,,,c. creticus subsp. eriocephalus_anti-neuraminidase
 6,chamomilla recutita,chamomilla recutita,,,achillea coarcata_hypertension,,,,,c. creticus subsp. eriocephalus_anti-influenza
-7,salvia sclarea,salvia sclarea,,,teucrium_diabetes,,,,,c. creticus subsp. eriocephalus_anti-neuraminidase
+7,salvia sclarea,salvia sclarea,,,teucrium_diabetes,,,,,c. creticus subsp. eriocephalus_inhibiting influenza virus
 8,thymus thracicus velen,thymus thracicus,,,artocarpus tonkinensis_arthritis,,,,,
 9,thymus thracicus,artocarpus tonkinensis,,,artocarpus tonkinensis_backache,,,,,
 10,artocarpus tonkinensis,cistus creticus l. subsp. eriocephalus,,,cistus creticus l. subsp. eriocephalus_respiratory infections,,,,,

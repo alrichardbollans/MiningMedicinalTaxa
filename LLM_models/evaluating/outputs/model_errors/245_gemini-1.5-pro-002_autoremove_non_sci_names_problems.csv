@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,shorea roxburghii,shorea roxburghii,,calluna vulgaris (l.) hull,shorea roxburghii_cholera,,cladosporium_acute myeloid leukemia,shorea roxburghii_hypoglycemic,,calluna vulgaris (l.) hull_skin-protective
-1,s. roxburghii,,,c. vulgaris,shorea roxburghii_type 2 diabetes mellitus,,rauwolfia_acute myeloid leukemia,,,c. vulgaris_antioxidant
-2,,,,cladosporium,shorea roxburghii_diarrhea,,,,,c. vulgaris_moderate antimicrobial
-3,,,,rauwolfia,shorea roxburghii_dysentery,,,,,c. vulgaris_antiradical
+1,s. roxburghii,,,c. vulgaris,shorea roxburghii_type 2 diabetes mellitus,,rauwolfia_acute myeloid leukemia,,,c. vulgaris_moderate antimicrobial
+2,,,,cladosporium,shorea roxburghii_diarrhea,,,,,c. vulgaris_antiradical
+3,,,,rauwolfia,shorea roxburghii_dysentery,,,,,c. vulgaris_antioxidant
 4,,,,dacrycarpus imbricatus,,,,,,c. vulgaris_skin anti-aging and protection
 5,,,,pinus dalatensis ferre,,,,,,s. roxburghii_antidiabetic potentials
 6,,,,oldenlandia pinifolia,,,,,,cladosporium_anti-microbial

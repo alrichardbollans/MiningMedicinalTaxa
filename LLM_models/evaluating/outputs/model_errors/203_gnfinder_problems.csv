@@ -1,14 +1,14 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,sorbus intermedia (ehrh.) pers,sorbus intermedia,beara,s. inter-media,,,sorbus_digestive disorders,,,sorbus intermedia (ehrh.) pers_antioxidant
-1,sorbus,sorbus,svetlana,,,,sorbus_dyspepsia rheumatism,,,tuber aestivum vittad_cytotoxic
+1,sorbus,sorbus,svetlana,,,,sorbus_dyspepsia rheumatism,,,tuber aestivum vittad_antioxidant
 2,s. intermedia,s. aucuparia,suva,,,,sorbus_anemia,,,tuber aestivum vittad_anti-inflammatory
-3,sorbus intermedia,s. domestica,labiatae,,,,,,,tuber aestivum vittad_antioxidant
-4,s. aucuparia,s. intermedia,,,,,,,,tuber magnatum pico_cytotoxic
+3,sorbus intermedia,s. domestica,labiatae,,,,,,,tuber aestivum vittad_cytotoxic
+4,s. aucuparia,s. intermedia,,,,,,,,tuber magnatum pico_antioxidant
 5,s. domestica,s. intermedia fruit,,,,,,,,tuber magnatum pico_anti-inflammatory
-6,tuber aestivum vittad,tuber aestivum,,,,,,,,tuber magnatum pico_antioxidant
+6,tuber aestivum vittad,tuber aestivum,,,,,,,,tuber magnatum pico_cytotoxic
 7,tuber magnatum pico,tuber magnatum,,,,,,,,sideritis scardica_radical scavenging
 8,urtica dioica,urtica dioica,,,,,,,,s. raeseri_radical scavenging
-9,sideritis scardica,sideritis scardica,,,,,,,,s. intermedia_antiradical
-10,s. scardica,s. scardica,,,,,,,,s. intermedia_antioxi-dant
-11,sideritis,s. raeseri,,,,,,,,s. intermedia_scavenger
-12,s. raeseri,sideritis,,,,,,,,s. intermedia_antioxidant
+9,sideritis scardica,sideritis scardica,,,,,,,,s. intermedia_antioxidant
+10,s. scardica,s. scardica,,,,,,,,s. intermedia_antiradical
+11,sideritis,s. raeseri,,,,,,,,s. intermedia_antioxi-dant
+12,s. raeseri,sideritis,,,,,,,,s. intermedia_scavenger

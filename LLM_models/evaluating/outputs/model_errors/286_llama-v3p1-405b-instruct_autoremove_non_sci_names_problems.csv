@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,sideritis scardica,sideritis scardica griseb,,centaurim erythrea l,,sideritis scardica griseb_virozi,,centaurium erythrea l_antidiabetic,,centaurim erythrea l_antidiabetic
-1,sideritis scardica griseb,sideritis raeseri boiss. & heldr,,s. rae-seri,,sideritis scardica griseb_nastinka,,centaurium erythrea l_antilipidemic,,centaurim erythrea l_antilipidemic
+0,sideritis scardica,sideritis scardica griseb,,centaurim erythrea l,,sideritis scardica griseb_virozi,,centaurium erythrea l_antidiabetic,,centaurim erythrea l_antilipidemic
+1,sideritis scardica griseb,sideritis raeseri boiss. & heldr,,s. rae-seri,,sideritis scardica griseb_nastinka,,centaurium erythrea l_antilipidemic,,centaurim erythrea l_antidiabetic
 2,sideritis,centaurium erythrea l,,sideritisscardica griseb,,sideritis scardica griseb_bolka,,,,
 3,sideritis raeseri,,,,,sideritis scardica griseb_kongestiven sinuzit,,,,
 4,sideritis raeseri boiss. & heldr,,,,,sideritis scardica griseb_grip,,,,

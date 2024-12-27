@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,artemisia,artemisia alba turra,,carduus crispus,artemisia alba turra_high blood pressure,artemisia alba turra_migraine,artemisia_gastric insufficiency,artemisia alba turra_stomachic,,artemisia_anti-migraine
+0,artemisia,artemisia alba turra,,carduus crispus,artemisia alba turra_high blood pressure,artemisia alba turra_migraine,artemisia_gastric insufficiency,artemisia alba turra_stomachic,,artemisia_anti-malaric
 1,artemisia alba turra,,,arnicamontana l,artemisia alba turra_diabetes,,,artemisia alba turra_lipolytic,,artemisia_anti-diabetic
-2,a. alba,,,gypsophila trichotoma wend,,,,artemisia alba turra_anti-fungal,,artemisia_anti-malaric
-3,,,,arnica,,,,artemisia alba turra_anti-helmintic,,artemisia_blood circulation
-4,,,,gypsophila,,,,artemisia alba turra_mycolytic,,artemisia_poison antidote
-5,,,,arnica montana,,,,artemisia alba turra_anti-bacterial,,artemisia_anti-helminicproperties
+2,a. alba,,,gypsophila trichotoma wend,,,,artemisia alba turra_anti-fungal,,artemisia_blood circulation
+3,,,,arnica,,,,artemisia alba turra_anti-helmintic,,artemisia_anti-helminicproperties
+4,,,,gypsophila,,,,artemisia alba turra_mycolytic,,artemisia_anti-migraine
+5,,,,arnica montana,,,,artemisia alba turra_anti-bacterial,,artemisia_poison antidote
 6,,,,gypsophila trichotoma,,,,artemisia alba turra_digestive,,
 7,,,,arnicamontana,,,,,,
 8,,,,artemisiaalba turra,,,,,,

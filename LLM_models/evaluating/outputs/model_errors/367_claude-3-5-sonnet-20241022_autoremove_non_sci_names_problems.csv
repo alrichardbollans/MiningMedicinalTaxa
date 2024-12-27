@@ -1,17 +1,17 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,ajuga laxmannii (murray) benth,ajuga laxmannii (murray) benth,,ajugalaxmannii (murray) benth,ajuga laxmannii (murray) benth_inflammation,,ajuga_fever,ajuga laxmannii (murray) benth_anti-inflammatory,,ajugalaxmannii (murray) benth_inflammatory
+0,ajuga laxmannii (murray) benth,ajuga laxmannii (murray) benth,,ajugalaxmannii (murray) benth,ajuga laxmannii (murray) benth_inflammation,,ajuga_malaria,ajuga laxmannii (murray) benth_anti-inflammatory,,ajugalaxmannii (murray) benth_inflammatory
 1,ajuga laxmannii,,,a. laxmannii(murray) benth,,,ajuga_pain,ajuga laxmannii (murray) benth_antimicrobial,,ajuga laxmannii (murray) benth_galactogogue
-2,a. laxmannii,,,c. albicans,,,ajuga_high blood pressure,ajuga laxmannii (murray) benth_galactagogue,,a. laxmannii_antiradical
-3,ajuga,,,p. funiculosum,,,ajuga_diabetes,ajuga laxmannii (murray) benth_antioxidant,,a. laxmannii_antifungal
-4,,,,,,,ajuga_malaria,,,a. laxmannii_anti-oxidative stress
-5,,,,,,,,,,ajuga_anabolic
-6,,,,,,,,,,ajuga_cardiotonic
-7,,,,,,,,,,ajuga_antipyretic
-8,,,,,,,,,,ajuga_hepatoprotective
-9,,,,,,,,,,ajuga_hypoglycemic
-10,,,,,,,,,,ajuga_antimalarial
-11,,,,,,,,,,ajuga_antihelmintic
-12,,,,,,,,,,ajuga_antibacterial
-13,,,,,,,,,,ajuga_antifungal
-14,,,,,,,,,,ajuga_anti-arthritis
+2,a. laxmannii,,,c. albicans,,,ajuga_fever,ajuga laxmannii (murray) benth_galactagogue,,a. laxmannii_antifungal
+3,ajuga,,,p. funiculosum,,,ajuga_high blood pressure,ajuga laxmannii (murray) benth_antioxidant,,a. laxmannii_antiradical
+4,,,,,,,ajuga_diabetes,,,a. laxmannii_anti-oxidative stress
+5,,,,,,,,,,ajuga_cardiotonic
+6,,,,,,,,,,ajuga_anti-arthritis
+7,,,,,,,,,,ajuga_antibacterial
+8,,,,,,,,,,ajuga_anabolic
+9,,,,,,,,,,ajuga_antifungal
+10,,,,,,,,,,ajuga_hepatoprotective
+11,,,,,,,,,,ajuga_hypoglycemic
+12,,,,,,,,,,ajuga_antimalarial
+13,,,,,,,,,,ajuga_antihelmintic
+14,,,,,,,,,,ajuga_antipyretic
 15,,,,,,,,,,a. laxmannii(murray) benth_antiprotozoal

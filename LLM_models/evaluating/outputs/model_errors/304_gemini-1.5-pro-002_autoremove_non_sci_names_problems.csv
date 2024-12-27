@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,,,zanthoxylum monophyllum tul,zanthoxylum monophyllumtul,,,zanthoxylum monophyllumtul_eye infections,,,
-1,,,,phellodendron amurense,,,zanthoxylum monophyllumtul_dark vomitus,,,
+0,,,zanthoxylum monophyllum tul,zanthoxylum monophyllumtul,,,zanthoxylum monophyllumtul_dark vomitus,,,
+1,,,,phellodendron amurense,,,zanthoxylum monophyllumtul_eye infections,,,
 2,,,,berberis aristata,,,,,,
 3,,,,p. chinense,,,,,,
 4,,,,tinospora cordifolia,,,,,,

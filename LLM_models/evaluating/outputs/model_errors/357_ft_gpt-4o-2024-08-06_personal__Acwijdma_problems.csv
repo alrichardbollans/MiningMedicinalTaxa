@@ -1,11 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,pulsatilla patens,pulsatilla patens,,matricaria chamomilla,pulsatilla patens_skin disorders,populus tremula_abscesses,vinca minor_skindisorders,sedum acre_relaxant,sorbus aucuparia_love magic,thymus serpyllum_destroy thescurvy impurities
-1,centaurea cyanus,centaurea cyanus,,napellus,centaurea cyanus_skin disorders,sedum maximum_ulcers,vinca minor_cataracts,sedum acre_emetic,daphne mezereum_love magic,thymus serpyllum_gum strengthening
-2,ruta graveolens,ruta graveolens,,calamus,ruta graveolens_skin disorders,,pulsatillavulgaris_polish plait,sorbus arranensis_antimicrobial,alliaria petiolata_protection,thymus serpyllum_wound healing
+0,pulsatilla patens,pulsatilla patens,,matricaria chamomilla,pulsatilla patens_skin disorders,populus tremula_abscesses,vinca minor_cataracts,sedum acre_relaxant,sorbus aucuparia_love magic,thymus serpyllum_destroy thescurvy impurities
+1,centaurea cyanus,centaurea cyanus,,napellus,centaurea cyanus_skin disorders,sedum maximum_ulcers,vinca minor_skindisorders,sedum acre_emetic,daphne mezereum_love magic,thymus serpyllum_wound healing
+2,ruta graveolens,ruta graveolens,,calamus,ruta graveolens_skin disorders,,pulsatillavulgaris_polish plait,sorbus arranensis_antimicrobial,alliaria petiolata_protection,thymus serpyllum_gum strengthening
 3,vinca minor,vinca minor,,cepa,vinca minor_skin disorders,,gentiana lutea_cholera,plantagomaior_wound healing,alliaria petiolata_magic,sedum maximum_ulcers
 4,sorbus aucuparia,sorbus aucuparia,,,thymus serpyllum_osteomyelitis,,schoenusnigricans_burn wounds,salvia officinalis_wound healing,symphytum officinale_protection,sedum_wound healing
-5,daphne mezereum,daphne mezereum,,,silybum marianum_osteomyelitis,,achillea millefolium_wounds,achillea millefolium l_wound healing,symphytum officinale_magic,
-6,thymus serpyllum,thymus serpyllum,,,anthemis arvensis_osteomyelitis,,achillea millefolium_cut wounds,,achillea millefolium_protection,
+5,daphne mezereum,daphne mezereum,,,silybum marianum_osteomyelitis,,achillea millefolium_cut wounds,achillea millefolium l_wound healing,symphytum officinale_magic,
+6,thymus serpyllum,thymus serpyllum,,,anthemis arvensis_osteomyelitis,,achillea millefolium_wounds,,achillea millefolium_protection,
 7,silybum marianum,silybum marianum,,,matricariachamomilla_osteomyelitis,,plantagomaior_wounds,,achillea millefolium_magic,
 8,anthemis arvensis,anthemis arvensis,,,artemisia absinthium_osteomyelitis,,salvia officinalis_wounds,,stachyspalustris_protection,
 9,matricariachamomilla,matricariachamomilla,,,piceaalba_osteomyelitis,,symphytum officinale_wounds,,stachyspalustris_magic,

@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,o. dictamnus,o. dictamnus,,c. creticus subsp. eriocephalus,o. dictamnus_mild gastrointestinal disorders,satureja montana_cough,o. dictamnus_wound healing,,o. dictamnus_wound healing,o. dictamnus_relaxing effect
-1,satureja montana,satureja montana,,thymus spp,o. dictamnus_bruises,stachys iva_cough,c. creticus subsp. eriocephalus_cold symptoms,,,thymus thracicus velen_anti-inflammatory
-2,stachys iva,stachys iva,,c. creticus subsp,o. dictamnus_skin inflammations,sideritis sp_cough,c. creticus subsp. eriocephalus_influenza a h1n1 strains,,,thymus thracicus velen_antioxidant
+1,satureja montana,satureja montana,,thymus spp,o. dictamnus_bruises,stachys iva_cough,c. creticus subsp. eriocephalus_influenza a h1n1 strains,,,thymus thracicus velen_antioxidant
+2,stachys iva,stachys iva,,c. creticus subsp,o. dictamnus_skin inflammations,sideritis sp_cough,c. creticus subsp. eriocephalus_cold symptoms,,,thymus thracicus velen_anti-inflammatory
 3,sideritis sp,sideritis sp,,,o. dictamnus_cough,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet_cold symptoms,c. creticus subsp. eriocephalus_flu,,,artocarpus tonkinensis_decreases th17 cell function
 4,achillea coarcata,achillea coarcata,,,satureja montana_common flu,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet_flu,,,,artocarpus tonkinensis_anti-inflammatory
-5,teucrium,teucrium,,,stachys iva_common flu,,,,,c. creticus subsp. eriocephalus_inhibiting influenza virus
+5,teucrium,teucrium,,,stachys iva_common flu,,,,,c. creticus subsp. eriocephalus_anti-neuraminidase
 6,chamomilla recutita,chamomilla recutita,,,sideritis sp_common flu,,,,,c. creticus subsp. eriocephalus_anti-influenza
-7,salvia sclarea,salvia sclarea,,,achillea coarcata_hypertension,,,,,c. creticus subsp. eriocephalus_anti-neuraminidase
+7,salvia sclarea,salvia sclarea,,,achillea coarcata_hypertension,,,,,c. creticus subsp. eriocephalus_inhibiting influenza virus
 8,artocarpus tonkinensis,artocarpus tonkinensis,,,teucrium_diabetes,,,,,
 9,c. creticus,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet,,,artocarpus tonkinensis_arthritis,,,,,
 10,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet,cistus incanus l,,,artocarpus tonkinensis_backache,,,,,

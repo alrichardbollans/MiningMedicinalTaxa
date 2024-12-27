@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,crocus veluchensis herb,crocus,,,,,,,,pistacia lentiscus l_antiatherogenic
+0,crocus veluchensis herb,crocus,,,,,,,,pistacia lentiscus l_anti-inflammatory
 1,crocus l,crocus olivieri,,,,,,,,pistacia lentiscus l_antimicrobial
-2,crocus,crocus nivalis,,,,,,,,pistacia lentiscus l_anti-inflammatory
+2,crocus,crocus nivalis,,,,,,,,pistacia lentiscus l_antiatherogenic
 3,crocus nivalis bory and chaub,crocus veluchensis,,,,,,,,p. lentiscus_enzyme inhibition
 4,crocus sativus l,crocus sativus,,,,,,,,p. lentiscus_skin beneficial
 5,c. olivieri,c. sativus,,,,,,,,pistacia lentiscus var. chia_antioxidant

@@ -1,17 +1,17 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,c. majus,c. majus,ranunculaceae,epidermophyton floccosum,,,c. majus_bacteria,,,c. majus_antimicrobial
-1,chelidonium majus,chelidonium majuspotassium,bacillus anthracis,scopulariopsis brevicaulis,,,c. majus_pathogenic fungi,,,c. majus_anti-inflammatory
-2,chelidonium,coptis,bacillus cereus,a. niger,,,c. majus_wounds,,,c. majus_hepatic
-3,coptis,c. albicans,e. coli,candida sp,,,c. majus_infections,,,c. majus_anticancer
-4,c. albicans,chelidonium,pseudomonas aeruginosa,microsporum sp,,,c. majus_hiv-1,,,c. majus_antifungal
-5,aspergillus fumigatus,c. majus aerial,bacillus subtilis,fusariumoxysporum,,,c. majus_pathogenic bacteria,,,c. majus_gastric
-6,cladosporium herbarum,aspergillus fumigatus,sarcinia lutea,,,,c. majus_trichomoniasis,,,c. majus_antibacterial
-7,cryptococcus neoformans,cladosporium herbarum,proteus mirabilis,,,,chelidonium majus_papilloma virus infection,,,c. majus_antiprotozoal
+0,c. majus,c. majus,ranunculaceae,epidermophyton floccosum,,,c. majus_wounds,,,c. majus_antiprotozoal
+1,chelidonium majus,chelidonium majuspotassium,bacillus anthracis,scopulariopsis brevicaulis,,,c. majus_infections,,,c. majus_gastric
+2,chelidonium,coptis,bacillus cereus,a. niger,,,c. majus_trichomoniasis,,,c. majus_antibacterial
+3,coptis,c. albicans,e. coli,candida sp,,,c. majus_bacteria,,,c. majus_anticancer
+4,c. albicans,chelidonium,pseudomonas aeruginosa,microsporum sp,,,c. majus_pathogenic bacteria,,,c. majus_antimicrobial
+5,aspergillus fumigatus,c. majus aerial,bacillus subtilis,fusariumoxysporum,,,c. majus_pathogenic fungi,,,c. majus_antifungal
+6,cladosporium herbarum,aspergillus fumigatus,sarcinia lutea,,,,c. majus_hiv-1,,,c. majus_anti-inflammatory
+7,cryptococcus neoformans,cladosporium herbarum,proteus mirabilis,,,,chelidonium majus_papilloma virus infection,,,c. majus_hepatic
 8,fusarium sp,cryptococcus,salmonella enteritidis,,,,chelidonium majus_warts,,,c. majus_antiviral
 9,keratinomyces ajelloi,fusarium,a. tumefaciens,,,,,,,chelidonium_bactericidal
 10,penicillium notatum,keratinomyces,s. enteritidis,,,,,,,chelidonium majus_antifungal
-11,rhodotorula rubra,penicillium notatum,b. subtilis,,,,,,,chelidonium majus_antiviral
-12,torlopsis utilis,rhodotorula,b. anthracis,,,,,,,chelidonium majus_antimicrobial
+11,rhodotorula rubra,penicillium notatum,b. subtilis,,,,,,,chelidonium majus_antimicrobial
+12,torlopsis utilis,rhodotorula,b. anthracis,,,,,,,chelidonium majus_antiviral
 13,trichophyton sp,torlopsis utilis,"e. coli,klebsiella pneumoniae",,,,,,,
 14,sphaerulina juglandis,trichophyton,salmonella,,,,,,,
 15,septoria microspora,sphaerulina juglandis,s. paratyphi,,,,,,,

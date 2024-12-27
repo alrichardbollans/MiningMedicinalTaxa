@@ -1,16 +1,16 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,linum usitatissimum,linum usitatissimum,ersilia,,,,linum usitatissimum_dry seb-orrhea,,,linum usitatissimum_anti-androgenic
-1,linum usitatissimum l,,alexa2,,,,linum usitatissimum_seborrhea,,,linum usitatissimum_increased skin hydration
-2,,,felicia,,,,linum usitatissimum_ringworm,,,linum usitatissimum_wound heal-ing
-3,,,calea,,,,linum usitatissimum_seborrhea oleossa and the sicca,,,linum usitatissimum_estrogen-mimetic action
-4,,,,,,,linum usitatissimum_seborrhea sicca,,,linum usitatissimum_es-trogen-mimetic
-5,,,,,,,linum usitatissimum_sebum-regulation,,,linum usitatissimum_skin excoriations
-6,,,,,,,linum usitatissimum_surgical wound healing,,,linum usitatissimum_skin hydration
-7,,,,,,,linum usitatissimum_scarring,,,linum usitatissimum_cutaneous ag-ing prevention
-8,,,,,,,linum usitatissimum l_skin wounds,,,linum usitatissimum_antibacterial
+0,linum usitatissimum,linum usitatissimum,ersilia,,,,linum usitatissimum_seborrhea sicca,,,linum usitatissimum_wound heal-ing
+1,linum usitatissimum l,,alexa2,,,,linum usitatissimum_surgical wound healing,,,linum usitatissimum_anti-inflamma-tory
+2,,,felicia,,,,linum usitatissimum_seborrhea,,,linum usitatissimum_anti-androgenic
+3,,,calea,,,,linum usitatissimum_dry seb-orrhea,,,linum usitatissimum_cutaneous ag-ing prevention
+4,,,,,,,linum usitatissimum_sebum-regulation,,,linum usitatissimum_skin excoriations
+5,,,,,,,linum usitatissimum_seborrhea oleossa and the sicca,,,linum usitatissimum_antibacterial
+6,,,,,,,linum usitatissimum_ringworm,,,linum usitatissimum_es-trogen-mimetic
+7,,,,,,,linum usitatissimum_scarring,,,linum usitatissimum_reducing the appearance of scaly skin
+8,,,,,,,linum usitatissimum l_skin wounds,,,linum usitatissimum_increased skin hydration
 9,,,,,,,,,,linum usitatissimum_protective and nu-tritive for human skin
-10,,,,,,,,,,linum usitatissimum_sebum-reducing effect
-11,,,,,,,,,,linum usitatissimum_restoring the cutaneous barrier
-12,,,,,,,,,,linum usitatissimum_sebum-reducing
-13,,,,,,,,,,linum usitatissimum_reducing the appearance of scaly skin
-14,,,,,,,,,,linum usitatissimum_anti-inflamma-tory
+10,,,,,,,,,,linum usitatissimum_restoring the cutaneous barrier
+11,,,,,,,,,,linum usitatissimum_sebum-reducing
+12,,,,,,,,,,linum usitatissimum_estrogen-mimetic action
+13,,,,,,,,,,linum usitatissimum_skin hydration
+14,,,,,,,,,,linum usitatissimum_sebum-reducing effect

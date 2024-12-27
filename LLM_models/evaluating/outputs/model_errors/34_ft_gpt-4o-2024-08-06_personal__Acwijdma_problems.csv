@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,o. tenuiflorum l,ocimum tenuiflorum,,,ocimum tenuiflorum_diarrhoea,ocimum tenuiflorum_cataracts,o. tenuiflorum_sexually transmitted disease,ocimum tenuiflorum_analgesic,ocimum tenuiflorum_improve libido,o. sanctum l_abortive effects
-1,o. tenuiflorum,o. tenuiflorum,,,ocimum tenuiflorum_bronchitis,ocimum tenuiflorum_chronic conjunctivitis,o. tenuiflorum_antifertility effects,ocimum tenuiflorum_adaptogenic,o. tenuiflorum_improve libido,o. tenuiflorum l_abortive effects
+0,o. tenuiflorum l,ocimum tenuiflorum,,,ocimum tenuiflorum_diarrhoea,ocimum tenuiflorum_cataracts,o. tenuiflorum_antifertility effects,ocimum tenuiflorum_analgesic,ocimum tenuiflorum_improve libido,o. sanctum l_abortive effects
+1,o. tenuiflorum,o. tenuiflorum,,,ocimum tenuiflorum_bronchitis,ocimum tenuiflorum_chronic conjunctivitis,o. tenuiflorum_sexually transmitted disease,ocimum tenuiflorum_adaptogenic,o. tenuiflorum_improve libido,o. tenuiflorum l_abortive effects
 2,ocimum tenuiflorum,o. tenuiflorum l,,,ocimum tenuiflorum_gonorrhoea,ocimum tenuiflorum_snake bites,o. tenuiflorum_antifertility,ocimum tenuiflorum_antiviral,o. tenuiflorum l_improve libido,o. tenuiflorum_blood thinning
 3,ocimum,o. sanctum l,,,ocimum tenuiflorum_diabetes,ocimum tenuiflorum_skin diseases,,ocimum tenuiflorum_antifungal,o. sanctum l_antiseptic,
 4,o. sanctum l,o. sanctum,,,ocimum tenuiflorum_asthma,ocimum tenuiflorum_insect bites,,ocimum tenuiflorum_antifertility,o. sanctum l_antioxidant,

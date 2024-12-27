@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,shorea roxburghii,shorea roxburghii,,a. coriria,shorea roxburghii_t2dm,dacrycarpus imbricatus_acute myeloid leukemia,cladosporium_acute myeloid leukemia,shorea roxburghii_hypoglycemic,dacrycarpus imbricatus_anti-proliferative,calluna vulgaris (l.) hull_skin-protective
-1,s. roxburghii,dacrycarpus imbricatus,,,shorea roxburghii_cholera,pinus dalatensis ferre_oci-aml,rauwolfia_acute myeloid leukemia,shorea roxburghii_antidiabetic,pinus dalatensis ferre_inhibitory effects on the growth,c. vulgaris_skin anti-aging and protection
+1,s. roxburghii,dacrycarpus imbricatus,,,shorea roxburghii_cholera,pinus dalatensis ferre_oci-aml,rauwolfia_acute myeloid leukemia,shorea roxburghii_antidiabetic,pinus dalatensis ferre_inhibitory effects on the growth,c. vulgaris_moderate antimicrobial
 2,dacrycarpus imbricatus,pinus dalatensis ferre,,,shorea roxburghii_dysentery,oldenlandia pinifolia_chronic myelogenous leukemia,,,oldenlandia pinifolia_inhibited the proliferation,c. vulgaris_antioxidant
-3,pinus dalatensis ferre,oldenlandia pinifolia,,,shorea roxburghii_diarrhea,warbrugia ugandensis sprague_hiv,,,oldenlandia pinifolia_activated caspase-3,c. vulgaris_moderate antimicrobial
-4,oldenlandia pinifolia,ficus hirta,,,shorea roxburghii_type 2 diabetes mellitus,erythrina abyssinica dc_hiv,,,oldenlandia pinifolia_induced apoptosis,c. vulgaris_antiradical
+3,pinus dalatensis ferre,oldenlandia pinifolia,,,shorea roxburghii_diarrhea,warbrugia ugandensis sprague_hiv,,,oldenlandia pinifolia_activated caspase-3,c. vulgaris_antiradical
+4,oldenlandia pinifolia,ficus hirta,,,shorea roxburghii_type 2 diabetes mellitus,erythrina abyssinica dc_hiv,,,oldenlandia pinifolia_induced apoptosis,c. vulgaris_skin anti-aging and protection
 5,ficus hirta,cladosporium spp,,,,cryptolepsis sanguinolenta (lindl.) schltr_hiv,,,,cladosporium_anti-microbial
 6,cladosporium,rauwolfia,,,,albizia coriaria oliv_hiv,,,,cladosporium_anti-tumor
 7,cladosporium spp,acer truncatum,,,,psorospermum febrifugium spach_hiv,,,,

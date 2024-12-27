@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,phellodendron amurense,phellodendron amurense,maas(ex-enantia pilosa,zanthoxylum monophyllumtul,,,zanthoxylum monophyllumtul_dark vomitus,,,
-1,berberis aristata,berberis aristata,referencesberberis horrida,p. chinense,,,zanthoxylum monophyllumtul_eye infections,,,
-2,berberis,b. aquifolium,referencesberberis trifolia,tinospora cordifolia,,,,,,
-3,b. aristata,b. thunbergii,"ahmad,1992caulophyllum thalictroides",xanthorhizasimplicissima,,,,,,
+0,phellodendron amurense,phellodendron amurense,,zanthoxylum monophyllumtul,,,zanthoxylum monophyllumtul_dark vomitus,,,
+1,berberis aristata,berberis aristata,,p. chinense,,,zanthoxylum monophyllumtul_eye infections,,,
+2,berberis,b. aquifolium,,tinospora cordifolia,,,,,,
+3,b. aristata,b. thunbergii,,xanthorhizasimplicissima,,,,,,
 4,berberis aristata dc,b. vulgaris,,chelidoniummajus,,,,,,
 5,b. aquifolium,berberis,,b. croatica,,,,,,
 6,berberis aquifolium pursh,b. asiatica,,enantia chlorantha oliv,,,,,,

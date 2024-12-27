@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,h. hircinum,hypericum hircinum subsp. majus,,h. hircinumsubsp. majus,hypericum hircinum subsp. majus_asthma,hypericum hircinum subsp. majus_sore throats,h. hircinum_sorethroats,hypericum hircinum subsp. majus_antifungal,,h. hircinumsubsp. majus_antifungal
-1,h. hircinum subsp. majus,hypericum montanum,,aspergillus glaucus,hypericum hircinum subsp. majus_chronic catarrhal affections,,h. hircinum_fungal pathogens of the respiratory tract,hypericum hircinum subsp. majus_antiseptic,,h. montanum_anti-inflammatory
-2,hypericum,hypericum maculatum,,penicillium paneum,hypericum hircinum subsp. majus_cough,,h. hircinum subsp. majus_respiratory tract affections,hypericum montanum_antifungal,,h. montanum_anticancer
-3,h. montanum,hypericum hirsutum,,candida,,,h. hircinum subsp. majus_fungal-associated pathologies,hypericum maculatum_antifungal,,h. hircinum subsp. majus_anticancer
+0,h. hircinum,hypericum hircinum subsp. majus,,h. hircinumsubsp. majus,hypericum hircinum subsp. majus_asthma,hypericum hircinum subsp. majus_sore throats,h. hircinum_fungal pathogens of the respiratory tract,hypericum hircinum subsp. majus_antifungal,,h. hircinumsubsp. majus_antifungal
+1,h. hircinum subsp. majus,hypericum montanum,,aspergillus glaucus,hypericum hircinum subsp. majus_chronic catarrhal affections,,h. hircinum_sorethroats,hypericum hircinum subsp. majus_antiseptic,,h. montanum_anticancer
+2,hypericum,hypericum maculatum,,penicillium paneum,hypericum hircinum subsp. majus_cough,,h. hircinum subsp. majus_fungal-associated pathologies,hypericum montanum_antifungal,,h. montanum_anti-inflammatory
+3,h. montanum,hypericum hirsutum,,candida,,,h. hircinum subsp. majus_respiratory tract affections,hypericum maculatum_antifungal,,h. hircinum subsp. majus_anticancer
 4,h. maculatum,hypericum perforatum,,c. parapsilosis,,,,hypericum hirsutum_antifungal,,h. hircinum subsp. majus_antimicrobial
 5,h. hirsutum,,,c. tropicalis,,,,hypericum perforatum_antifungal,,h. hircinum subsp. majus_anti-inflammatory
 6,h. perforatum,,,h. hircinum subsp.majus,,,,,,h. hircinum subsp. majus_fungal growth inhibition

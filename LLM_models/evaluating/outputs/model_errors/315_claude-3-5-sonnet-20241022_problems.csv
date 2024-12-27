@@ -1,18 +1,18 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,commiphora,commiphora wightii,,berberis vulgaris l,commiphora wightii_cardiovascular diseases,commiphora wightii_malignant sores,commiphora and boswellia_chronic diseases,commiphora wightii_anti-inflammatory,boswellia serrata_analgesic,berberis vulgaris l_antioxidant
 1,commiphora wightii,commiphora mukul,,berberiscroatica horvat,commiphora wightii_edema,,commiphoraand boswellia_chronic diseases,commiphora mukul_anti-inflammatory,,berberiscroatica horvat_antioxidant
-2,commiphora mukul,commiphora gileadensis,,commiphora and boswellia,commiphora wightii_obesity,,commiphora_malignantsores,commiphora gileadensis_anti-inflammatory,,commiphora_antiarthritic
-3,c. mukul,boswellia serrata,,commiphoraand boswellia,commiphora wightii_ulcers,,commiphora_intestinal worms,boswellia serrata_anti-inflammatory,,commiphora_inhibit pro-inflammatory
-4,boswellia,boswellia carterii,,boswellia serata,commiphora wightii_arthritis,,boswellia_edema,boswellia carterii_anti-inflammatory,,boswellia_antiarthritic
-5,boswellia serrata,boswellia sacra,,commiphoragileadensis,commiphora wightii_inflammatory bowel disease,,boswellia_malignantsores,boswellia sacra_anti-inflammatory,,boswellia_inhibit pro-inflammatory
-6,boswellia carterii,boswellia ovalifoliolata,,boswelliaovalifoliolata,commiphora wightii_diabetes,,boswellia_intestinal worms,boswellia ovalifoliolata_anti-inflammatory,,boswellia serata_analgesic
-7,boswellia sacra,boswellia dalzielii,,phellodendron lavallei,commiphora wightii_sinus,,boswellia_tumors,boswellia dalzielii_anti-inflammatory,,commiphoragileadensis_anti-inflammatory
-8,boswellia dalzielii,boswellia frerean,,berberis aristata,commiphora wightii_liver dysfunction,,boswellia_obesity,boswellia frerean_anti-inflammatory,,boswelliaovalifoliolata_anti-inflammatory
-9,boswellia frerean,boswellia thurifera,,berberis koreana,commiphora wightii_leucoderma,,boswellia_arthritis,boswellia thurifera_anti-inflammatory,,
-10,,,,coptis teeta,commiphora wightii_internal tumors,,boswellia_leucoderma,,,
-11,,,,,,,boswellia_liver dysfunction,,,
-12,,,,,,,boswellia_cardiovascular diseases (cvds,,,
-13,,,,,,,boswellia_inflammatory bowel disease (ibd,,,
-14,,,,,,,boswellia_diabetes,,,
+2,commiphora mukul,commiphora gileadensis,,commiphora and boswellia,commiphora wightii_obesity,,commiphora_malignantsores,commiphora gileadensis_anti-inflammatory,,commiphora_inhibit pro-inflammatory
+3,c. mukul,boswellia serrata,,commiphoraand boswellia,commiphora wightii_ulcers,,commiphora_intestinal worms,boswellia serrata_anti-inflammatory,,commiphora_antiarthritic
+4,boswellia,boswellia carterii,,boswellia serata,commiphora wightii_arthritis,,boswellia_edema,boswellia carterii_anti-inflammatory,,boswellia_inhibit pro-inflammatory
+5,boswellia serrata,boswellia sacra,,commiphoragileadensis,commiphora wightii_inflammatory bowel disease,,boswellia_arthritis,boswellia sacra_anti-inflammatory,,boswellia_antiarthritic
+6,boswellia carterii,boswellia ovalifoliolata,,boswelliaovalifoliolata,commiphora wightii_diabetes,,boswellia_liver dysfunction,boswellia ovalifoliolata_anti-inflammatory,,boswellia serata_analgesic
+7,boswellia sacra,boswellia dalzielii,,phellodendron lavallei,commiphora wightii_sinus,,boswellia_inflammatory bowel disease (ibd,boswellia dalzielii_anti-inflammatory,,commiphoragileadensis_anti-inflammatory
+8,boswellia dalzielii,boswellia frerean,,berberis aristata,commiphora wightii_liver dysfunction,,boswellia_diabetes,boswellia frerean_anti-inflammatory,,boswelliaovalifoliolata_anti-inflammatory
+9,boswellia frerean,boswellia thurifera,,berberis koreana,commiphora wightii_leucoderma,,boswellia_malignantsores,boswellia thurifera_anti-inflammatory,,
+10,,,,coptis teeta,commiphora wightii_internal tumors,,boswellia_sinus,,,
+11,,,,,,,boswellia_tumors,,,
+12,,,,,,,boswellia_intestinal worms,,,
+13,,,,,,,boswellia_cardiovascular diseases (cvds,,,
+14,,,,,,,boswellia_leucoderma,,,
 15,,,,,,,boswellia_ulcers,,,
-16,,,,,,,boswellia_sinus,,,
+16,,,,,,,boswellia_obesity,,,

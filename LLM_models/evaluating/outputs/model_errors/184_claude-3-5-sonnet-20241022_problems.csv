@@ -1,15 +1,15 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,betula pendula l,betula pendula l,tussilago farfara l,rosmarinus offi-cinalis l,,,thoningias anguinea_liver injuries,betula pendula l_antioxidant,betula pendula l_antibacterial,melissa officinalis l_dpph radical scavenging activity
 1,plantago major l,plantago major l,,tusilago farfara l,,,,plantago major l_antioxidant,tussilago farfara l_antioxidant,rosmarinus offi-cinalis l_antioxidant
-2,urtica dioica l,urtica dioica l,,plan-tago major l,,,,plantago major l_antibacterial,tussilago farfara l_antibacterial,tusilago farfara l_antibacteria
-3,urtica dioica,rosmarinus officinalis l,,gentiana kurrooroyle,,,,urtica dioica l_antioxidant,urtica dioica l_antibacterial,tusilago farfara l_antioxidant
-4,rosmarinus officinalis l,melissa officinalis l,,plectranthus amboinicus,,,,rosmarinus officinalis l_antioxidant,,tusilago farfara l_antibac-terial
-5,melissa officinalis l,,,thoningias anguinea,,,,rosmarinus officinalis l_antibacterial,,tusilago farfara l_dpph radical scavenging activity
-6,,,,datura metel l,,,,melissa officinalis l_antioxidant,,tusilago farfara l_antibacterial
+2,urtica dioica l,urtica dioica l,,plan-tago major l,,,,plantago major l_antibacterial,tussilago farfara l_antibacterial,tusilago farfara l_antioxidant
+3,urtica dioica,rosmarinus officinalis l,,gentiana kurrooroyle,,,,urtica dioica l_antioxidant,urtica dioica l_antibacterial,tusilago farfara l_antibacterial
+4,rosmarinus officinalis l,melissa officinalis l,,plectranthus amboinicus,,,,rosmarinus officinalis l_antioxidant,,tusilago farfara l_dpph radical scavenging activity
+5,melissa officinalis l,,,thoningias anguinea,,,,rosmarinus officinalis l_antibacterial,,tusilago farfara l_antibac-terial
+6,,,,datura metel l,,,,melissa officinalis l_antioxidant,,tusilago farfara l_antibacteria
 7,,,,machilus odoratissima,,,,melissa officinalis l_antibacterial,,betula pendula l_antimicrobial
 8,,,,betula pendu-la l,,,,,,plantago major l_antimicrobial
-9,,,,urtica dioi-ca l,,,,,,urtica dioica l_dpph radical scaveng-ing activity
-10,,,,rosmarinus officina-lis l,,,,,,urtica dioica l_antimicrobial
+9,,,,urtica dioi-ca l,,,,,,urtica dioica l_antimicrobial
+10,,,,rosmarinus officina-lis l,,,,,,urtica dioica l_dpph radical scaveng-ing activity
 11,,,,plantago ma-jor l,,,,,,rosmarinus officinalis l_dpph radical scavenging activity
 12,,,,taraxacum officinale,,,,,,plan-tago major l_antioxidant
 13,,,,matricaria recutita l,,,,,,gentiana kurrooroyle_antioxidant
@@ -17,11 +17,11 @@
 15,,,,t. officinale,,,,,,plectranthus amboinicus_antioxidant
 16,,,,lycopersicum esculentum,,,,,,plectranthus amboinicus_antibacterial
 17,,,,hibiscus rosa sinensis,,,,,,thoningias anguinea_free -radical scavenging
-18,,,,phaseolus vulgaris l,,,,,,datura metel l_antioxidant
-19,,,,triticum aestivum l,,,,,,datura metel l_antimicrobial
+18,,,,phaseolus vulgaris l,,,,,,datura metel l_antimicrobial
+19,,,,triticum aestivum l,,,,,,datura metel l_antioxidant
 20,,,,,,,,,,machilus odoratissima_antioxidant
 21,,,,,,,,,,machilus odoratissima_antibacterial
-22,,,,,,,,,,betula pendu-la l_antibac-terial
-23,,,,,,,,,,betula pendu-la l_antioxidant
-24,,,,,,,,,,urtica dioi-ca l_antibac-terial
-25,,,,,,,,,,urtica dioi-ca l_antioxidant
+22,,,,,,,,,,betula pendu-la l_antioxidant
+23,,,,,,,,,,betula pendu-la l_antibac-terial
+24,,,,,,,,,,urtica dioi-ca l_antioxidant
+25,,,,,,,,,,urtica dioi-ca l_antibac-terial

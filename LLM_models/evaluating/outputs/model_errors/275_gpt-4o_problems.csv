@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,arnica,arnica montana l,sambuci flos,carduus crispus,artemisia alba turra_diabetes,sambuci flos_common cold,artemisia_gastric insufficiency,artemisia alba turra_digestive,betulae folium_diuretic,artemisia_anti-helmintic
-1,arnica montana,gypsophila trichotoma wend,betulae folium,arnicamontana l,artemisia alba turra_high blood pressure,sambuci flos_flu symptoms,,artemisia alba turra_anti-bacterial,artemisia alba turra_anti-helminic,artemisia_anti-migraine
-2,gypsophila trichotoma wend,artemisia alba turra,,arnicamontana,,betulae folium_bacterial inflammatory diseases associated with spastic phenomena,,artemisia alba turra_stomachic,,artemisia_anti-diabetic
-3,gypsophila,,,artemisiaalba turra,,artemisia alba turra_migraine,,artemisia alba turra_mycolytic,,artemisia_blood circulation
-4,gypsophila trichotoma,,,a. camphorata,,,,artemisia alba turra_lipolytic,,artemisia_poison antidote
-5,artemisia,,,,,,,artemisia alba turra_anti-malaric,,artemisia_anti-helminicproperties
+0,arnica,arnica montana l,sambuci flos,carduus crispus,artemisia alba turra_diabetes,sambuci flos_common cold,artemisia_gastric insufficiency,artemisia alba turra_digestive,betulae folium_diuretic,artemisia_anti-diabetic
+1,arnica montana,gypsophila trichotoma wend,betulae folium,arnicamontana l,artemisia alba turra_high blood pressure,sambuci flos_flu symptoms,,artemisia alba turra_anti-bacterial,artemisia alba turra_anti-helminic,artemisia_blood circulation
+2,gypsophila trichotoma wend,artemisia alba turra,,arnicamontana,,betulae folium_bacterial inflammatory diseases associated with spastic phenomena,,artemisia alba turra_stomachic,,artemisia_anti-helminicproperties
+3,gypsophila,,,artemisiaalba turra,,artemisia alba turra_migraine,,artemisia alba turra_mycolytic,,artemisia_anti-migraine
+4,gypsophila trichotoma,,,a. camphorata,,,,artemisia alba turra_lipolytic,,artemisia_anti-helmintic
+5,artemisia,,,,,,,artemisia alba turra_anti-malaric,,artemisia_poison antidote
 6,artemisia alba turra,,,,,,,artemisia alba turra_anti-fungal,,
 7,a. alba,,,,,,,,,

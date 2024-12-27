@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,,,,rosa canina l,,,,,,rosa canina l_anti-inflammatory
-1,,,,chenopodium album,,,,,,chenopodium album_antioxidant
-2,,,,salvia triloba l,,,,,,chenopodium album_anthelmintic
-3,,,,salviaofficinalis l,,,,,,chenopodium album_antimicrobial
+1,,,,chenopodium album,,,,,,chenopodium album_antimicrobial
+2,,,,salvia triloba l,,,,,,chenopodium album_antioxidant
+3,,,,salviaofficinalis l,,,,,,chenopodium album_anthelmintic
 4,,,,ziziphora taurica subsp. cleonioides,,,,,,salvia triloba l_antibacterial
 5,,,,laurus nobilis linn,,,,,,salviaofficinalis l_antibacterial
 6,,,,menthaspicata,,,,,,ziziphora taurica subsp. cleonioides_antioxidant
@@ -10,10 +10,10 @@
 8,,,,morus alba l,,,,,,laurus nobilis linn_antinflammatory
 9,,,,rumex crispus l,,,,,,menthaspicata_antifungal
 10,,,,rubus sanctus schreber,,,,,,sideritis_antioxidant
-11,,,,glycyrrhiza glabra l,,,,,,morus alba l_antidiabetic
-12,,,,allium porrum,,,,,,morus alba l_antioxidant
-13,,,,tilia platyphyllos l,,,,,,rumex crispus l_antioxidant
-14,,,,medicago sativa,,,,,,rumex crispus l_antimicrobial
+11,,,,glycyrrhiza glabra l,,,,,,morus alba l_antioxidant
+12,,,,allium porrum,,,,,,morus alba l_antidiabetic
+13,,,,tilia platyphyllos l,,,,,,rumex crispus l_antimicrobial
+14,,,,medicago sativa,,,,,,rumex crispus l_antioxidant
 15,,,,salixalba,,,,,,rubus sanctus schreber_wound healing
 16,,,,daturastramonium l,,,,,,glycyrrhiza glabra l_inhibit adhesion ofhelicobacter pylori to human gastric mucosa
 17,,,,cupressus sempervirens,,,,,,

@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,satureja,satureja pilosa,,thymus spp,satureja pilosa_muscle pain,centaurea phyllocephala boiss_diabetes,,alkanna tinctoria_wound healing,thymus boissieri_antimicrobial,thymus spp_antioxidant
-1,satureja pilosa,alkanna tinctoria,,thymbra spp,satureja pilosa_cramps,,,thymbra capitata_antimicrobial,thymus degenii_antimicrobial,thymus spp_antimicrobial
+0,satureja,satureja pilosa,,thymus spp,satureja pilosa_muscle pain,centaurea phyllocephala boiss_diabetes,,alkanna tinctoria_wound healing,thymus boissieri_antimicrobial,thymus spp_antimicrobial
+1,satureja pilosa,alkanna tinctoria,,thymbra spp,satureja pilosa_cramps,,,thymbra capitata_antimicrobial,thymus degenii_antimicrobial,thymus spp_antioxidant
 2,s. pilosa,thymbra capitata,,centaurea cyanus,satureja pilosa_infectious diseases,,,thymbra capitata_antioxidant,thymus thracicus_antimicrobial,thymbra capitata_antibacterial
-3,alkanna tinctoria,thymus boissieri,,centaurea sp,satureja pilosa_gastrointestinal disorders,,,thymus boissieri_antioxidant,thymus sibthorpii_antimicrobial,thymbra spp_antioxidant
-4,a. tinctoria,thymus degenii,,c. cyanus,,,,thymus degenii_antioxidant,thymus striatus_antimicrobial,thymbra spp_antimicrobial
+3,alkanna tinctoria,thymus boissieri,,centaurea sp,satureja pilosa_gastrointestinal disorders,,,thymus boissieri_antioxidant,thymus sibthorpii_antimicrobial,thymbra spp_antimicrobial
+4,a. tinctoria,thymus degenii,,c. cyanus,,,,thymus degenii_antioxidant,thymus striatus_antimicrobial,thymbra spp_antioxidant
 5,thymbra capitata,thymus thracicus,,,,,,thymus thracicus_antioxidant,thymus longicaulis_antimicrobial,t. longicaulis subsp. longicaulis_antibacterial
 6,thymus boissieri,thymus sibthorpii,,,,,,thymus sibthorpii_antioxidant,thymus holosericeus_antimicrobial,thymus boissieri_antibacterial
 7,t. degenii,thymus striatus,,,,,,thymus striatus_antioxidant,thymus holosericeus_antioxidant,t. degenii_antibacterial

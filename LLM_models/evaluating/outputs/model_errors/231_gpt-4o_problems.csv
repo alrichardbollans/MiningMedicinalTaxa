@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,hypericum l,hypericum l,eriocephalus,hypericum spp,hypericum empetrifolium_wounds,hypericum l_wounds,hypericum spp_wound-healing,hypericum l_antioxidant,eriocephalus_anti-influenza,hypericum spp_wound-healing
-1,h. empetrifolium,hypericum empetrifolium,allium hookeri,h. amblycalyx,hypericum empetrifolium_skin inflammations,hypericum l_skin inflammations,h. empetrifolium_wound-healing,hypericum l_antiangiogenetic,hypericum l_antimicrobial,hypericum spp_wound healing
+0,hypericum l,hypericum l,eriocephalus,hypericum spp,hypericum empetrifolium_wounds,hypericum l_wounds,hypericum spp_wound-healing,hypericum l_antioxidant,eriocephalus_anti-influenza,hypericum spp_wound healing
+1,h. empetrifolium,hypericum empetrifolium,allium hookeri,h. amblycalyx,hypericum empetrifolium_skin inflammations,hypericum l_skin inflammations,h. empetrifolium_wound-healing,hypericum l_antiangiogenetic,hypericum l_antimicrobial,hypericum spp_wound-healing
 2,,,rosmarinus officinalis,h. jovis,,allium hookeri_metabolic syndrome,h. amblycalyx_wound-healing,hypericum l_gastroprotective,rosmarinus officinalis_anti-inflammatory,
 3,,,vaccinium,h. perforatum,,,h. jovis_wound-healing,hypericum empetrifolium_wound healing,rosmarinus officinalis_antioxidant,
 4,,,vitis,h. triquetrifolium,,,h. perforatum_wound-healing,,rosmarinus officinalis_neuroprotective,

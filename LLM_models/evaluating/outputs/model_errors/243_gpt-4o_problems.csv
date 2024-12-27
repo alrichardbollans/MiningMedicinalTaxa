@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,helleborus odorus subsp. cyclophyllus,helleborus odorus subsp. cyclophyllus,,crithmum,helleborus odorus subsp. cyclophyllus_epilepsy,galium aparine_breast cancer,cistus creticus_pathogenic microorganisms,helleborus odorus subsp. cyclophyllus_antiseizure,origanum vulgare ssp. hirtum_antifungal,origanum vulgare ssp. hirtum_inhibitor against the growth of various fungi
-1,anchusa officinalis,anchusa officinalis,,cannabis,cistus creticus_cancer,galium aparine_colon cancer,,anchusa officinalis_antibacterial,origanum vulgare ssp. hirtum_antiviral,origanum vulgare ssp. hirtum_against viruses
+0,helleborus odorus subsp. cyclophyllus,helleborus odorus subsp. cyclophyllus,,crithmum,helleborus odorus subsp. cyclophyllus_epilepsy,galium aparine_breast cancer,cistus creticus_pathogenic microorganisms,helleborus odorus subsp. cyclophyllus_antiseizure,origanum vulgare ssp. hirtum_antifungal,origanum vulgare ssp. hirtum_against viruses
+1,anchusa officinalis,anchusa officinalis,,cannabis,cistus creticus_cancer,galium aparine_colon cancer,,anchusa officinalis_antibacterial,origanum vulgare ssp. hirtum_antiviral,origanum vulgare ssp. hirtum_inhibitor against the growth of various fungi
 2,cistus creticus,cistus creticus,,,,,,anchusa officinalis_antioxidant,,galium aparine l_cytotoxic
 3,cistus creticus l,galium aparine,,,,,,anchusa officinalis_antiviral,,crithmum_antioxidant
 4,galium aparine,origanum vulgare ssp. hirtum,,,,,,anchusa officinalis_diuretic,,crithmum_antibacterial
