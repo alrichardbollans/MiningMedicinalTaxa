@@ -47,6 +47,15 @@ def plot_all_info(query: CQuery):
     df = pd.read_csv(query.extracted_paper_csv)
     if not os.path.exists(os.path.join(query.output_dir, 'plots')):
         os.mkdir(os.path.join(query.output_dir, 'plots'))
+
+    medicinal_counts = get_counts_from_list_column(df, 'medicinal_counts')
+    generic_category_plot(query, medicinal_counts, 'Medicinal Words', sort_var=True)
+    generic_category_plot(query, medicinal_counts, 'Medicinal Words', figsize=None, sort_var=True, head=30)
+
+    medicinal_counts = get_counts_from_list_column(df, 'medicinal entity_counts')
+    generic_category_plot(query, medicinal_counts, 'Medicinal Entities', sort_var=True)
+    generic_category_plot(query, medicinal_counts, 'Medicinal Entities', figsize=None, sort_var=True, head=30)
+
     ## Count and plot familiesw
     family_counts = get_counts_from_list_column(df, 'plant_family_names_counts')
     generic_category_plot(query, family_counts, 'Plant Families', sort_var=True)
@@ -92,7 +101,7 @@ if __name__ == '__main__':
                              medicine_sort_order,
                              None)
     medicinal_query.name = 'Medicinal Query'
-    medicinal_query.extract_query_zip()
+    # medicinal_query.extract_query_zip()
     plot_all_info(medicinal_query)
 
     # toxic_query = CQuery('en_medic_toxic_keywords_final.zip', os.path.join(core_download_path, 'toxics'),
