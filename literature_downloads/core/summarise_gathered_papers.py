@@ -96,13 +96,22 @@ def plot_all_info(query: CQuery):
 if __name__ == '__main__':
     # from wcvp_download import get_all_taxa, wcvp_accepted_columns
     # all_taxa = get_all_taxa(accepted=True, ranks=['Species'])
+    # medicinal_query = CQuery('en_medic_toxic_keywords_final.zip', os.path.join(core_download_path, 'medicinals'),
+    #                          'medicinals.csv',
+    #                          medicine_sort_order,
+    #                          None)
+    # medicinal_query.name = 'Medicinal Query'
+    # medicinal_query.extract_query_zip()
+    # plot_all_info(medicinal_query)
+
     medicinal_query = CQuery('en_medic_toxic_keywords_final.zip', os.path.join(core_download_path, 'medicinals'),
                              'medicinals.csv',
                              medicine_sort_order,
-                             None)
+                             10)
     medicinal_query.name = 'Medicinal Query'
-    # medicinal_query.extract_query_zip()
+    medicinal_query.extract_query_zip()
     plot_all_info(medicinal_query)
+
 
     # toxic_query = CQuery('en_medic_toxic_keywords_final.zip', os.path.join(core_download_path, 'toxics'),
     #                      'toxics.csv',

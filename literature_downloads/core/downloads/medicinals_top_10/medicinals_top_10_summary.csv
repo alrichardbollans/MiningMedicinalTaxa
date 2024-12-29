@@ -1,0 +1,12 @@
+,corpusid,DOI,year,language,tar_archive_name,fungi_family_names_counts,plant_family_names_counts
+count,10.0,1,10.0,5,10,2,7
+unique,,1,,1,9,2,7
+top,,10.3389/978-2-88945-890-5,,en,888.tar.xz,['hymenochaetaceae'],"['betulaceae', 'asteraceae', 'apiaceae', 'ericaceae', 'hypericaceae', 'urticaceae', 'rosaceae', 'alliaceae', 'tiliaceae', 'fabaceae', 'pinaceae', 'anacardiaceae', 'cupressaceae', 'amaranthaceae', 'labiatae', 'lamiaceae', 'cannabaceae', 'papaveraceae', 'chenopodiaceae']"
+freq,,1,,5,2,1,1
+mean,210519223.0,,2013.2,,,,
+std,148307732.91710362,,5.865151319446072,,,,
+min,4187756.0,,2006.0,,,,
+25%,101083647.5,,2008.25,,,,
+50%,213093221.5,,2013.5,,,,
+75%,281912025.25,,2018.25,,,,
+max,481470282.0,,2021.0,,,,
