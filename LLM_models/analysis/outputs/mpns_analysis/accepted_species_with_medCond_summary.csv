@@ -1,0 +1,5 @@
+,name,accepted_ipni_id,accepted_name,accepted_name_w_author,accepted_family,accepted_rank,accepted_species,accepted_species_w_author,accepted_species_ipni_id,accepted_parent,plant_name_id,taxon_status,matched_by,matched_name
+count,396,395,396,396,396,396,396,396,395,396,396,396,396,396
+unique,396,395,396,396,109,3,396,396,395,311,396,4,7,396
+top,oenothera biennis,172755-2,Oenothera biennis,Oenothera biennis L.,Lamiaceae,Species,Oenothera biennis,Oenothera biennis L.,172755-2,Berberis,2399189,Accepted,direct_wcvp_unique,Oenothera biennis
+freq,1,1,1,1,37,387,1,1,1,20,1,339,250,1
