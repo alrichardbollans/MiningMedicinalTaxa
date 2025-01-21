@@ -23,7 +23,7 @@ def get_kword_dict():
 
     # Get list of txt files in folder
     folder = os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists')
-    txt_files = [f for f in os.listdir(folder) if f.endswith('.txt')]
+    txt_files = [f for f in os.listdir(folder) if f.endswith('_keywords.txt')]
 
     for f in txt_files:
         # Open each text file
@@ -42,12 +42,11 @@ def summarise_keywords(keyword_dict: dict, name: str):
     for query in keyword_dict:
         out_dict[query] = [len(keyword_dict[query])]
     out_df = pd.DataFrame.from_dict(out_dict, orient='index')
+    out_df.loc['total'] = out_df.sum()
     out_df.to_csv(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', 'summaries',
                                name + '_keywords_summary.csv'))
 
-
-
-if __name__ == '__main__':
+def _generate_keywords():
     # to install see: https://github.com/alrichardbollans/wcvpy
     from wcvpy.wcvp_download import get_all_taxa, wcvp_columns
 
@@ -103,7 +102,6 @@ if __name__ == '__main__':
                 _lifeforms.append(_w)
     _lifeforms = list(set(_lifeforms))
 
-
     def _tidy_list(l, _words_to_exclude=None) -> List:
         """
         Tidy a list by converting all elements to lowercase, removing leading and trailing whitespace,
@@ -122,11 +120,9 @@ if __name__ == '__main__':
             _words_to_exclude = []
         return list(sorted(set([x.lower().strip() for x in l if x.lower() not in _words_to_exclude])))
 
-
     import inflect
 
     inflect_p = inflect.engine()
-
 
     ### Products and plants
     def get_varied_form_of_word(given_word: str) -> List:
@@ -158,14 +154,12 @@ if __name__ == '__main__':
 
         return forms
 
-
     def get_varied_forms(list_of_words) -> List:
         forms = []
         for w in list_of_words:
             forms += get_varied_form_of_word(w)
         out = [x.lower() for x in forms]
         return _tidy_list(out, _words_to_exclude=words_to_exclude)
-
 
     def _get_keywords_from_df(df: pd.DataFrame):
         d = {}
@@ -176,7 +170,6 @@ if __name__ == '__main__':
                 lambda xl: xl.lower().strip()).unique().tolist())
 
         return d
-
 
     _product_keywords_df = pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'list_keywords.xlsx'),
                                          sheet_name='Product related')
@@ -206,5 +199,7 @@ if __name__ == '__main__':
                   'w') as f:
             for line in out_keyword_dict[_fk]:
                 f.write(f"{line}\n")
+if __name__ == '__main__':
+    # _generate_keywords()
 
     summarise_keywords(get_kword_dict(), 'en_medic_toxic_keywords')
