@@ -7,7 +7,7 @@ from typing import List
 query_name = 'en_medic_toxic_keywords'
 scratch_path = os.environ.get('KEWSCRATCHPATH')
 
-
+_keyword_file_tag = '_keywords.txt'
 def get_kword_dict():
     """
     Get the keyword dictionary.
@@ -23,7 +23,7 @@ def get_kword_dict():
 
     # Get list of txt files in folder
     folder = os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists')
-    txt_files = [f for f in os.listdir(folder) if f.endswith('_keywords.txt')]
+    txt_files = [f for f in os.listdir(folder) if f.endswith(_keyword_file_tag)]
 
     for f in txt_files:
         # Open each text file
@@ -32,7 +32,7 @@ def get_kword_dict():
             words = file.read().splitlines()
 
         # Add to dictionary with filename as key
-        word_dict[f.replace('_keywords.txt', '')] = set(words)
+        word_dict[f.replace(_keyword_file_tag, '')] = set(words)
 
     return word_dict
 
@@ -195,11 +195,11 @@ def _generate_keywords():
     out_keyword_dict.update(dual_product_keywords_dict)
 
     for _fk in out_keyword_dict:
-        with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', _fk + '_keywords.txt'),
+        with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', _fk + _keyword_file_tag),
                   'w') as f:
             for line in out_keyword_dict[_fk]:
                 f.write(f"{line}\n")
 if __name__ == '__main__':
-    # _generate_keywords()
+    _generate_keywords()
 
     summarise_keywords(get_kword_dict(), 'en_medic_toxic_keywords')
