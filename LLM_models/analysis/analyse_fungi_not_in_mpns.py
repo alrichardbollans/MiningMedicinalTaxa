@@ -34,21 +34,21 @@ def your_function():
 
     tp_fungi = resolve_list_to_clean_fungi_df(true_positives)
 
-    with open(os.path.join('outputs', 'mpns_analysis', 'tp_fungi.csv'),
+    with open(os.path.join('outputs', 'mpns_analysis', 'fungi','tp_fungi.csv'),
               'w') as f:
         for line in tp_fungi:
             f.write(f"{line}\n")
 
     fn_fungi = resolve_list_to_clean_fungi_df(false_negatives)
 
-    with open(os.path.join('outputs', 'mpns_analysis', 'fn_fungi.csv'),
+    with open(os.path.join('outputs', 'mpns_analysis', 'fungi','fn_fungi.csv'),
               'w') as f:
         for line in fn_fungi:
             f.write(f"{line}\n")
 
     all_fungi = resolve_list_to_clean_fungi_df(true_positives + false_negatives)
 
-    with open(os.path.join('outputs', 'mpns_analysis', 'all_fungi_in_data.csv'),
+    with open(os.path.join('outputs', 'mpns_analysis', 'fungi','all_fungi_in_data.csv'),
               'w') as f:
         for line in all_fungi:
             f.write(f"{line}\n")

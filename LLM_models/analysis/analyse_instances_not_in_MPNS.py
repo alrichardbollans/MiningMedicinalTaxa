@@ -47,15 +47,15 @@ def main():
         return acc_name_df
 
     tp_acc_name_df = resolve_list_to_clean_df(true_positives)
-    tp_acc_name_df.to_csv(os.path.join('outputs', 'mpns_analysis', 'accepted_species_with_medCond.csv'))
-    tp_acc_name_df.describe(include='all').to_csv(os.path.join('outputs', 'mpns_analysis', 'accepted_species_with_medCond_summary.csv'))
+    tp_acc_name_df.to_csv(os.path.join('outputs', 'mpns_analysis', 'tp_accepted_species_with_medCond.csv'))
+    tp_acc_name_df.describe(include='all').to_csv(os.path.join('outputs', 'mpns_analysis', 'tp_accepted_species_with_medCond_summary.csv'))
 
     plot_native_number_accepted_taxa_in_regions(tp_acc_name_df, 'accepted_species', os.path.join('outputs', 'mpns_analysis'),
-                                                'accepted_species_with_medCond.jpg', wcvp_version=_WCVP_VERSION, colormap='inferno')
+                                                'tp_accepted_species_with_medCond.jpg', wcvp_version=_WCVP_VERSION, colormap='inferno')
 
-    fnmatch_acc_name_df = resolve_list_to_clean_df(false_negatives)
-    fnmatch_acc_name_df.to_csv(os.path.join('outputs', 'mpns_analysis', 'fn_accepted_species_with_medCond.csv'))
-    fnmatch_acc_name_df.describe(include='all').to_csv(os.path.join('outputs', 'mpns_analysis', 'fn_accepted_species_with_medCond_summary.csv'))
+    fn_match_acc_name_df = resolve_list_to_clean_df(false_negatives)
+    fn_match_acc_name_df.to_csv(os.path.join('outputs', 'mpns_analysis', 'fn_accepted_species_with_medCond.csv'))
+    fn_match_acc_name_df.describe(include='all').to_csv(os.path.join('outputs', 'mpns_analysis', 'fn_accepted_species_with_medCond_summary.csv'))
 
     all_acc_name_df = resolve_list_to_clean_df(true_positives+false_negatives)
     all_acc_name_df.to_csv(os.path.join('outputs', 'mpns_analysis', 'all_accepted_species_with_medCond.csv'))
@@ -68,11 +68,11 @@ def main():
     ## Check against MPNS
     mpns_df = pd.read_csv(os.path.join('inputs', 'MPNS_v12_acc_sp_names.csv'))
     species_not_in_mpns = tp_acc_name_df[~tp_acc_name_df['accepted_species'].isin(mpns_df['accepted_species'].values)]
-    species_not_in_mpns.to_csv(os.path.join('outputs', 'mpns_analysis', 'species_not_in_mpns.csv'))
-    species_not_in_mpns.describe(include='all').to_csv(os.path.join('outputs', 'mpns_analysis', 'species_not_in_mpns_summary.csv'))
+    species_not_in_mpns.to_csv(os.path.join('outputs', 'mpns_analysis', 'tp_species_not_in_mpns.csv'))
+    species_not_in_mpns.describe(include='all').to_csv(os.path.join('outputs', 'mpns_analysis', 'tp_species_not_in_mpns_summary.csv'))
 
     plot_native_number_accepted_taxa_in_regions(species_not_in_mpns, 'accepted_species', os.path.join('outputs', 'mpns_analysis'),
-                                                'species_not_in_mpns.jpg', wcvp_version=_WCVP_VERSION, colormap='inferno')
+                                                'tp_species_not_in_mpns.jpg', wcvp_version=_WCVP_VERSION, colormap='inferno')
 
 
 if __name__ == '__main__':
