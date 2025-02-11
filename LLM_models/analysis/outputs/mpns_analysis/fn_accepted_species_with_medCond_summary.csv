@@ -1,0 +1,5 @@
+,name,accepted_ipni_id,accepted_name,accepted_name_w_author,accepted_family,accepted_rank,accepted_species,accepted_species_w_author,accepted_species_ipni_id,accepted_parent,plant_name_id,taxon_status,matched_by,matched_name
+count,193,193,193,193,193,193,193,193,193,193,193,193,193,193
+unique,193,193,193,193,72,3,193,193,193,168,193,2,7,193
+top,scutellaria baicalensis,458155-1,Scutellaria baicalensis,Scutellaria baicalensis Georgi,Lamiaceae,Species,Scutellaria baicalensis,Scutellaria baicalensis Georgi,458155-1,Pinus,188938,Accepted,direct_wcvp_unique,Scutellaria baicalensis
+freq,1,1,1,1,18,189,1,1,1,4,1,172,124,1
