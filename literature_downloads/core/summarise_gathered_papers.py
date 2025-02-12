@@ -42,6 +42,18 @@ def get_counts_from_list_column(df, col, capitalize=True):
             family_counts[k.capitalize()] = family_counts.pop(k)
     return family_counts
 
+def make_wordcloud(word_freq,query, title):
+    from wordcloud import WordCloud
+
+    # word_freq = {word: count for word, count in zip(counts['word'], df['count'])}
+    wordcloud = WordCloud(width=1000, height=500, background_color='white').generate_from_frequencies(word_freq)
+
+    plt.figure(figsize=(10, 5))
+    plt.imshow(wordcloud, interpolation='bilinear')
+    plt.axis('off')
+    plt.tight_layout()
+    plt.savefig(os.path.join(query.output_dir, 'plots', title + '.jpg'), dpi=600)
+
 
 def plot_all_info(query: CQuery):
     df = pd.read_csv(query.extracted_paper_csv)
@@ -56,14 +68,18 @@ def plot_all_info(query: CQuery):
     generic_category_plot(query, medicinal_counts, 'Medicinal Entities', sort_var=True)
     generic_category_plot(query, medicinal_counts, 'Medicinal Entities', figsize=None, sort_var=True, head=30)
 
-    ## Count and plot familiesw
-    family_counts = get_counts_from_list_column(df, 'plant_family_names_counts')
-    generic_category_plot(query, family_counts, 'Plant Families', sort_var=True)
-    generic_category_plot(query, family_counts, 'Plant Families', figsize=None, sort_var=True, head=30)
+    ## Count and plot families
+    plant_family_counts = get_counts_from_list_column(df, 'plant_family_names_counts')
+    generic_category_plot(query, plant_family_counts, 'Plant Families', sort_var=True)
+    generic_category_plot(query, plant_family_counts, 'Plant Families', figsize=None, sort_var=True, head=30)
 
-    family_counts = get_counts_from_list_column(df, 'fungi_family_names_counts')
-    generic_category_plot(query, family_counts, 'Fungi Families', sort_var=True)
-    generic_category_plot(query, family_counts, 'Fungi Families', figsize=None, sort_var=True, head=30)
+    fungi_family_counts = get_counts_from_list_column(df, 'fungi_family_names_counts')
+    generic_category_plot(query, fungi_family_counts, 'Fungi Families', sort_var=True)
+    generic_category_plot(query, fungi_family_counts, 'Fungi Families', figsize=None, sort_var=True, head=30)
+    all_family_counts = plant_family_counts.copy()
+    all_family_counts.update(fungi_family_counts)
+    make_wordcloud(all_family_counts, query, 'Families')
+
 
     family_counts = get_counts_from_list_column(df, 'lifeform_counts')
     generic_category_plot(query, family_counts, 'Lifeforms', sort_var=True)
@@ -73,9 +89,9 @@ def plot_all_info(query: CQuery):
     generic_category_plot(query, family_counts, 'Plant Genera', sort_var=True)
     generic_category_plot(query, family_counts, 'Plant Genera', figsize=None, sort_var=True, head=30)
 
-    family_counts = get_counts_from_list_column(df, 'fungi_genus_names_counts')
-    generic_category_plot(query, family_counts, 'Fungi Genera', sort_var=True)
-    generic_category_plot(query, family_counts, 'Fungi Genera', figsize=None, sort_var=True, head=30)
+    fungi_genera_counts = get_counts_from_list_column(df, 'fungi_genus_names_counts')
+    generic_category_plot(query, fungi_genera_counts, 'Fungi Genera', sort_var=True)
+    generic_category_plot(query, fungi_genera_counts, 'Fungi Genera', figsize=None, sort_var=True, head=30)
 
     family_counts = get_counts_from_list_column(df, 'plant_species_binomials_counts')
     generic_category_plot(query, family_counts, 'Plant Species', sort_var=True)
@@ -109,7 +125,7 @@ if __name__ == '__main__':
                              medicine_sort_order,
                              10)
     medicinal_query.name = 'Medicinal Query'
-    medicinal_query.extract_query_zip()
+    # medicinal_query.extract_query_zip()
     plot_all_info(medicinal_query)
 
 

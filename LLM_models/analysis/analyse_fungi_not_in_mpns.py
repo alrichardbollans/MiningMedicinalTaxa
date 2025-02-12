@@ -1,7 +1,7 @@
 import os
 import string
 
-from LLM_models.analysis.analyse_instances_not_in_MPNS import get_tp_fn_from_annotated_test_data
+from LLM_models.analysis.analyse_plants_not_in_MPNS import get_tp_fn_from_annotated_test_data
 
 
 def make_clean_binomial(given_string):
@@ -18,12 +18,8 @@ def make_clean_binomial(given_string):
 
 ## Resolve to species
 def resolve_list_to_clean_fungi_df(name_list):
-    # Check no duplicate underscores as these are used to seprate names and conditions.
-    issues = [print(x) for x in name_list if x.count('_') > 1]
-    assert len(issues) == 0
 
-    names_with_medcond = list(set([c.split('_')[0] for c in name_list]))
-    clean_names_with_medcond = [make_clean_binomial(name) for name in names_with_medcond]
+    clean_names_with_medcond = [make_clean_binomial(name) for name in name_list]
 
     overlaps = set(clean_known_fungi_names).intersection(set(clean_names_with_medcond))
     return overlaps
@@ -34,21 +30,21 @@ def your_function():
 
     tp_fungi = resolve_list_to_clean_fungi_df(true_positives)
 
-    with open(os.path.join('outputs', 'mpns_analysis', 'fungi','tp_fungi.csv'),
+    with open(os.path.join('outputs', 'mpns_analysis', 'fungi', 'tp_fungi.csv'),
               'w') as f:
         for line in tp_fungi:
             f.write(f"{line}\n")
 
     fn_fungi = resolve_list_to_clean_fungi_df(false_negatives)
 
-    with open(os.path.join('outputs', 'mpns_analysis', 'fungi','fn_fungi.csv'),
+    with open(os.path.join('outputs', 'mpns_analysis', 'fungi', 'fn_fungi.csv'),
               'w') as f:
         for line in fn_fungi:
             f.write(f"{line}\n")
 
     all_fungi = resolve_list_to_clean_fungi_df(true_positives + false_negatives)
 
-    with open(os.path.join('outputs', 'mpns_analysis', 'fungi','all_fungi_in_data.csv'),
+    with open(os.path.join('outputs', 'mpns_analysis', 'fungi', 'all_fungi_in_data.csv'),
               'w') as f:
         for line in all_fungi:
             f.write(f"{line}\n")
