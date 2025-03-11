@@ -1,11 +1,12 @@
 import itertools
 import os.path
+import pickle
 import string
 from typing import Callable
 import numpy as np
 import pandas as pd
 
-from LLM_models.structured_output_schema import TaxaData
+from LLM_models.structured_output_schema import TaxaData, get_all_human_annotations_for_chunk_id
 from useful_string_methods import filter_name_list_using_sci_names, abbreviate_sci_name
 
 
@@ -266,6 +267,8 @@ def RE_evaluation(model_annotations: TaxaData, ground_truth_annotations: TaxaDat
 
 
 def check_errors(model_annotations: TaxaData, ground_truth_annotations: TaxaData, out_dir: str, chunk_id: int, model_tag: str):
+    ## This gives errors in the relaxed cases.
+
     true_positives_in_ground_truths, true_positives_in_model_annotations, false_positives, false_negatives = NER_evaluation(model_annotations,
                                                                                                                             ground_truth_annotations,
                                                                                                                             abbreviated_approximate_match)
@@ -286,6 +289,65 @@ def check_errors(model_annotations: TaxaData, ground_truth_annotations: TaxaData
                             columns=['NER_tp_in_ground', 'NER_tp_in_model', 'NER_fp', 'NER_fn', 'MedCond_tp', 'MedCond_fp', 'MedCond_fn', 'MedEff_tp',
                                      'MedEff_fp', 'MedEff_fn'])
     problems.to_csv(os.path.join(out_dir, f'{str(chunk_id)}_{model_tag}_problems.csv'))
+
+
+def compare_errors(model_name: str, chunk_id, out_dir: str):
+    ground_truth_annotations = get_all_human_annotations_for_chunk_id(chunk_id, check=True)
+    pkl_file = os.path.join('outputs', 'model_pkls', f'{str(chunk_id)}_{model_name}_outputs.pickle')
+    model_annotations = pickle.load(open(pkl_file, "rb", -1))
+
+    true_positives_in_ground_truths, true_positives_in_model_annotations, false_positives, false_negatives = NER_evaluation(model_annotations,
+                                                                                                                            ground_truth_annotations,
+                                                                                                                            abbreviated_approximate_match)
+    retrue_positives_in_ground_truths, retrue_positives_in_model_annotations, refalse_positives, refalse_negatives = RE_evaluation(model_annotations,
+                                                                                                                                   ground_truth_annotations,
+                                                                                                                                   'approximate',
+                                                                                                                                   'medical_conditions')
+    meretrue_positives_in_ground_truths, meretrue_positives_in_model_annotations, merefalse_positives, merefalse_negatives = RE_evaluation(
+        model_annotations,
+        ground_truth_annotations,
+        'approximate',
+        'medicinal_effects')
+    all = [true_positives_in_ground_truths, true_positives_in_model_annotations, false_positives, false_negatives,
+           retrue_positives_in_model_annotations, refalse_positives,
+           refalse_negatives, meretrue_positives_in_model_annotations, merefalse_positives, merefalse_negatives]
+    padded = list(zip(*itertools.zip_longest(*all, fillvalue='')))
+    problems = pd.DataFrame(zip(*padded),
+                            columns=['NER_tp_in_ground', 'NER_tp_in_model', 'NER_fp', 'NER_fn', 'MedCond_tp', 'MedCond_fp', 'MedCond_fn', 'MedEff_tp',
+                                     'MedEff_fp', 'MedEff_fn'])
+
+
+
+    ### compare with
+    precise_NER_true_positives_in_ground_truths, precise_NER_true_positives_in_model_annotations, precise_NER_false_positives, precise_NER_false_negatives = NER_evaluation(
+        model_annotations,
+        ground_truth_annotations,
+        abbreviated_precise_match)
+
+    NER_fps = [c for c in precise_NER_false_positives if c not in false_positives]
+    NER_fns = [c for c in precise_NER_false_negatives if c not in false_negatives]
+
+    (preciseMedCondtrue_positives_in_ground_truths, preciseMedCondtrue_positives_in_model_annotations, preciseMedCondfalse_positives,
+     preciseMedCondfalse_negatives) = RE_evaluation(model_annotations,
+                                                    ground_truth_annotations,
+                                                    'precise',
+                                                    'medical_conditions')
+
+    MC_fps = [c for c in preciseMedCondfalse_positives if c not in refalse_positives]
+    MC_fns = [c for c in preciseMedCondfalse_negatives if c not in refalse_negatives]
+
+    (preciseMedEfftrue_positives_in_ground_truths, preciseMedEfftrue_positives_in_model_annotations, preciseMedEfffalse_positives,
+         preciseMedEfffalse_negatives) = RE_evaluation(model_annotations,
+                                                       ground_truth_annotations,
+                                                       'precise',
+                                                       'medicinal_effects')
+    ME_fps = [c for c in preciseMedEfffalse_positives if c not in merefalse_positives]
+    ME_fns = [c for c in preciseMedEfffalse_negatives if c not in merefalse_negatives]
+    important_cases = [MC_fps,MC_fns, ME_fps, ME_fns]
+    if any(len(x)>0 for x in important_cases):
+        print(f'chunk: {chunk_id}')
+        print(f'model: {model_name}')
+        print(MC_fps)
 
 
 def clean_model_annotations_using_taxonomy_knowledge(model_annotations: TaxaData):

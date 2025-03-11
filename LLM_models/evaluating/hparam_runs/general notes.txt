@@ -1,5 +1,8 @@
-Used gpt3.5 to initially set up pipeline. Then used all models while configuring prompts and examples and selecting configuration based on mean f1 scores for RE, using 10% of all chunks.
-Models selected based on SOTA performance in text benchmarks as well as ease of integration with langchain framework (tool calling, structured outputs, example prompts etc..).
+Used gpt3.5 to initially set up pipeline.
+Then used all models while configuring prompts and examples and selecting configuration based
+on mean f1 scores for RE, using 10% of all chunks.
+Models selected based on SOTA performance in text benchmarks
+as well as ease of integration with langchain framework (tool calling, structured outputs, example prompts etc..).
 
 
 Very good at NER

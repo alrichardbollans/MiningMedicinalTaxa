@@ -115,6 +115,7 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
             try:
                 model_outputs = pickle.load(open(pkl_file, "rb", -1))
             except FileNotFoundError:
+                print(f'With rerun=False, cant find associated pkl file: {pkl_file}. Rerunning')
                 model_outputs = run(chunk_id, pkl_file)
 
         if autoremove_non_sci_names:
@@ -248,7 +249,12 @@ def basic_plot_results(file_to_plot, out_dir, model_name):
     import seaborn as sns
 
     out_df = pd.read_csv(file_to_plot, index_col=0)
-    sns.heatmap(out_df, annot=True, cmap='viridis')
+    rename_dict = {}
+    for c in out_df.columns:
+        rename_dict[c] = c.replace('NER', 'SNER').replace('Precise', 'Exact').replace('Approx.', 'Relaxed')
+    out_df.rename(columns=rename_dict, inplace=True)
+
+    sns.heatmap(out_df, annot=True, cmap='inferno')
     plt.xticks(rotation=45, ha='right', rotation_mode='anchor')
     plt.tight_layout()
     plt.savefig(os.path.join(out_dir, model_name + '_results.png'), dpi=300)
@@ -266,7 +272,7 @@ def plot_results(file_info, out_dir):
             out_df = pd.read_csv(file_info[model_name][0], index_col=0)[[p]]
             out_df = out_df.rename(columns={p: model_name})
             df = pd.concat([df, out_df], axis=1)
-        sns.heatmap(df, annot=True, cmap='viridis')
+        sns.heatmap(df, annot=True, cmap='inferno')
         plt.title(p)
 
         plt.tight_layout()
@@ -333,9 +339,8 @@ def full_eval_gnfinder(rerun: bool = True):
 
 def main():
     # assessing_hparams(rerun=False)
-    # full_evaluation(rerun=False)
-    full_eval_gnfinder(rerun=False)
-
+    full_evaluation(rerun=False)
+    # full_eval_gnfinder(rerun=False)
 
 if __name__ == '__main__':
     # _get_chunks_to_tweak_with()

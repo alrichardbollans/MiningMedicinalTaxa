@@ -3,6 +3,10 @@ import os
 import pandas as pd
 import seaborn as sns
 
+from LLM_models.evaluating import compare_errors
+from LLM_models.evaluating.run_evaluation import basic_plot_results
+
+
 def collect_main_results():
     all_results = pd.DataFrame()
     fileNames = os.listdir(os.path.join('outputs', 'full_eval'))
@@ -59,48 +63,79 @@ def melt_all_results(metric, models, _measures):
     return all_results
 
 
-def for_full_eval(models, _measures, file_tag: str):
+def for_full_eval(models, _measures, file_tag: str, inc_legend: bool = True):
     for metric in metrics:
         all_results = melt_all_results(metric, models, _measures)
         all_results = all_results[all_results['Model'].isin(models)]
         all_results = all_results[all_results['class'].isin(_measures)]
+
+        all_results['class'] = all_results['class'].apply(lambda x: x.replace('NER', 'SNER').replace('Precise', 'Exact').replace('Approx.', 'Relaxed'))
+
         import matplotlib.pyplot as plt
-        sns.set_theme(style="whitegrid", palette="colorblind")
+
+        if file_tag=='RE':
+            col_wrap = 2
+        else:
+            col_wrap=None
+
+        sns.set_theme(style="whitegrid")
         g = sns.catplot(
-            data=all_results, x="Model", y=metric, col="class", hue='NS',
-            kind="bar", height=4, aspect=.6  # , palette=["b", "m"]
+            data=all_results, x="Model", y=metric, col="class", hue='NS', col_wrap=col_wrap,
+            kind="bar", height=4, aspect=.6, palette=["#E98F66","#53B68B"]
         )
         g.set_axis_labels("", metric)
 
-        g.axes.flat[0].yaxis.label.set(rotation='horizontal', ha='right')
+        for i in g.axes.flat:
+            i.yaxis.label.set(rotation='horizontal', ha='right')
         g.set_titles("{col_name}")
-        g.set_xticklabels(rotation=45, ha='right', rotation_mode='anchor')
+        if col_wrap is None:
+            g.set_xticklabels(rotation=45, ha='right', rotation_mode='anchor')
+        else:
+            g.set_xticklabels(g.axes.flat[-1].get_xticklabels(),rotation=45, ha='right', rotation_mode='anchor')
         g.set(ylim=(0, 1))
         g.despine(left=True)
-        g.legend.remove()
-        # g.legend.set_title("AutoRemove")
         plt.tight_layout()
-        plt.savefig(os.path.join('outputs', 'full_eval', 'compiled_results', f'{file_tag}_{metric}_results.png'), dpi=300)
+
+        if inc_legend:
+            print('inc legend')
+            sns.move_legend(g,loc="center left", ncol=1, bbox_to_anchor=(1, 0.5), title='Cleaned\n Names')
+        else:
+            g.legend.remove()
+
+        plt.savefig(os.path.join('outputs', 'full_eval', 'compiled_results', f'{file_tag}_{metric}_results.png'), dpi=300, bbox_inches="tight")
         plt.close()
         all_results.to_csv(os.path.join(os.path.join('outputs', 'full_eval', 'compiled_results', f'{file_tag}_{metric}_results.csv')))
+def plots():
+    basic_plot_results(os.path.join('outputs', 'full_eval', 'gpt-4o_results.csv'), os.path.join('outputs', 'full_eval'), 'gpt-4o')
+    basic_plot_results(os.path.join('outputs', 'full_eval', 'ft_gpt-4o-2024-08-06_personal__Acwijdma_results.csv'), os.path.join('outputs', 'full_eval'), 'ft_gpt-4o-2024-08-06_personal__Acwijdma')
 
-
-if __name__ == '__main__':
     collect_main_results()
     metrics = ['f1', 'precision', 'recall']
     all_measures = ['Precise NER', 'Approx. NER', 'Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
     all_models = ['Claude', 'Gemini', 'GNfinder', 'GPT', 'FTGPT', 'Llama', 'TaxoNERD']
-
+    #
     ## NER
     _models = ['Claude', 'Gemini', 'GNfinder', 'GPT', 'Llama', 'TaxoNERD']
     measures = ['Precise NER', 'Approx. NER']
     for_full_eval(_models, measures, 'NER')
 
-    ## RE
+    # ## RE
     _models = ['Claude', 'Gemini', 'GPT', 'Llama']
     measures = ['Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
     for_full_eval(_models, measures, 'RE')
+    for_full_eval(_models, ['Precise MedCond', 'Approx. MedCond'], 'MedCond')
+    for_full_eval(_models, ['Precise MedEff', 'Approx. MedEff'], 'MedEff', inc_legend=False)
 
     ## Finetuning
     _models = ['GPT', 'FTGPT']
     for_full_eval(_models, all_measures, 'FT')
+
+def compare_outputs():
+    test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
+    for chunk in test['id'].unique().tolist():
+        compare_errors('gpt-4o', chunk, os.path.join('outputs', 'full_eval', 'comparing exact and relaxed'))
+
+if __name__ == '__main__':
+    # plots()
+    compare_outputs()
+
