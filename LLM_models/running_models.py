@@ -85,10 +85,7 @@ def get_input_size_limit(total_context_window_k: int):
 
 def setup_models():
     from langchain_anthropic import ChatAnthropic
-    from langchain_google_vertexai import ChatVertexAI
-    # from langchain_mistralai import ChatMistralAI
     from langchain_openai import ChatOpenAI
-    # from langchain_groq import ChatGroq
 
     # Get API keys
     from dotenv import load_dotenv
@@ -122,8 +119,8 @@ def setup_models():
     # vertexai.init(project=PROJECT_ID, location=REGION)
     # https://ai.google.dev/gemini-api/docs/models/gemini
     # Note gemini doesn't like nested pydantic models: https://github.com/langchain-ai/langchain-google/issues/659#issuecomment-2568319643
-    model2 = ChatVertexAI(model="gemini-1.5-pro-002", max_tokens=8192, **hparams)
-    out['gemini'] = [model2, get_input_size_limit(128)]
+    # model2 = ChatVertexAI(model="gemini-1.5-pro-002", max_tokens=8192, **hparams)
+    # out['gemini'] = [model2, get_input_size_limit(128)]
 
     # Max tokens 200k
     # Input: $3 / MTok
