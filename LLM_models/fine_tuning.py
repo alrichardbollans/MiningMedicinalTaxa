@@ -9,7 +9,6 @@ import tiktoken
 from langchain_openai import ChatOpenAI
 
 from LLM_models.loading_files import read_file_and_chunk
-from LLM_models.making_examples import example_messages
 from LLM_models.rag_prompting import standard_medicinal_prompt
 from LLM_models.running_models import get_input_size_limit
 from LLM_models.structured_output_schema import get_chunk_filepath_from_chunk_id, TaxaData, get_all_human_annotations_for_chunk_id
@@ -24,7 +23,7 @@ def run_example():
     for id in issues:
         text_chunks = read_file_and_chunk(get_chunk_filepath_from_chunk_id(id), get_input_size_limit(16))
         extractor = standard_medicinal_prompt | model1.with_structured_output(schema=TaxaData, include_raw=True)
-        chunk_output = extractor.invoke({"text": text_chunks[0], "examples": example_messages})
+        chunk_output = extractor.invoke({"text": text_chunks[0]})
         print(chunk_output)
         relevant_example = chunk_output['raw'].additional_kwargs['tool_calls'][0]['function']['arguments']
         print(relevant_example)

@@ -18,7 +18,7 @@ standard_medicinal_prompt = ChatPromptTemplate.from_messages(
             "If you do not know the value of an attribute asked to extract, return null for the attribute's value. "
         ),
         # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
-        MessagesPlaceholder("examples"),  # <-- EXAMPLES!
+        # MessagesPlaceholder("examples"),  # <-- EXAMPLES!
         # ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
         ("human", "{text}"),
     ]
