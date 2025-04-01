@@ -1,11 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,,,,capsicum spp,,,capsicum spp_arthritis pain,,,dioscorea spp_contraceptives
-1,,,,papaver somniferum,,,papaver somniferum_pain,,,
-2,,,,dioscorea spp,,,papaver somniferum_coughing,,,
-3,,,,atropa belladonna,,,dioscorea spp_inflammations,,,
-4,,,,erythroxylum coca,,,,,,
-5,,,,colchicum autumnale,,,,,,
-6,,,,quercus suber,,,,,,
-7,,,,chondrodendron,,,,,,
-8,,,,strychnos,,,,,,
-9,,,,digitalis,,,,,,
+0,atropa belladonna,atropa belladonna,,capsicum spp,papaver somniferum_coughing,atropa belladonna_inflammation of the nerves,capsicum spp_arthritis pain,,atropa belladonna_carminative,dioscorea spp_contraceptives
+1,erythroxylum coca,erythroxylum coca,,quercus suber,papaver somniferum_pain,erythroxylum coca_pain,dioscorea spp_inflammations,,erythroxylum coca_anesthetic,
+2,papaver somniferum,papaver somniferum,,digitalis,,colchicum autumnale_gout,,,papaver somniferum_analgesic,
+3,colchicum autumnale,colchicum autumnale,,,,dioscorea spp_inflammation,,,papaver somniferum_antitussive,
+4,dioscorea spp,dioscorea spp,,,,chondrodendron spp_muscle paralysis,,,colchicum autumnale_anti-inflammatory,
+5,chondrodendron,chondrodendron spp,,,,strychnos spp_muscle paralysis,,,dioscorea spp_anti-inflammatory,
+6,strychnos,strychnos spp,,,,,,,chondrodendron spp_muscle relaxant,
+7,,,,,,,,,strychnos spp_muscle relaxant,

@@ -1,6 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,atropa belladonna,atropa belladonna,,capsicum spp,dioscorea spp_inflammations,,capsicum spp_arthritis pain,,,dioscorea spp_contraceptives
-1,erythroxylum coca,erythroxylum coca,,quercus suber,,,papaver somniferum_pain,,,
-2,papaver somniferum,papaver somniferum,,chondrodendron,,,papaver somniferum_coughing,,,
-3,colchicum autumnale,colchicum autumnale,,strychnos,,,,,,
-4,dioscorea spp,dioscorea spp,,digitalis,,,,,,
+0,atropa belladonna,atropa belladonna,,digitalis,capsicum spp_arthritis pain,,papaver somniferum_coughing,,,dioscorea spp_contraceptives
+1,capsicum spp,capsicum spp,,,,,papaver somniferum_pain,,,
+2,erythroxylum coca,erythroxylum coca,,,,,dioscorea spp_inflammations,,,
+3,papaver somniferum,papaver somniferum,,,,,,,,
+4,colchicum autumnale,colchicum autumnale,,,,,,,,
+5,dioscorea spp,dioscorea spp,,,,,,,,
+6,quercus suber,quercus suber,,,,,,,,
+7,chondrodendron,chondrodendron,,,,,,,,
+8,strychnos,strychnos,,,,,,,,

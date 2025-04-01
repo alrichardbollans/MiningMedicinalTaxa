@@ -1,3 +1,4 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,phyllanthus emblica,phyllanthus emblica,crataegus pinnatifida,crataegus pinnatifi da,phyllanthus emblica_metabolic syndrome,crataegus pinnatifida_metabolic syndrome,crataegus pinnatifi da_metabolic syndrome,,,
-1,lycium barbarum l,lycium barbarum l,,,lycium barbarum l_metabolic syndrome,,,,,
+0,phyllanthus emblica,phyllanthus emblica,crataegus pinnatifida,crataegus pinnatifi da,phyllanthus emblica_metabolic syndrome,crataegus pinnatifida_metabolic syndrome,crataegus pinnatifi da_metabolic syndrome,,crataegus pinnatifida_antioxidant,
+1,lycium barbarum l,lycium barbarum l,,,lycium barbarum l_metabolic syndrome,,,,phyllanthus emblica_antioxidant,
+2,,,,,,,,,lycium barbarum l_antioxidant,

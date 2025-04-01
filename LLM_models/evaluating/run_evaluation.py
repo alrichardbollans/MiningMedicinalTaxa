@@ -338,7 +338,7 @@ def full_eval_gnfinder(rerun: bool = True):
 
 
 def main():
-    assessing_hparams(rerun=False)
+    assessing_hparams(rerun=True)
     # full_evaluation(rerun=True)
     # full_eval_gnfinder(rerun=True)
 

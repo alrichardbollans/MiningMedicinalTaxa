@@ -1,5 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,b. edulis (bull. : fr,boletus edulis bull,macrolepiota procera (scop. : fr.) sing,p ostreatus(jacq. : fr,,,,,,
+0,b. edulis (bull. : fr,boletus edulis bull. : fr,macrolepiota procera (scop. : fr.) sing,p ostreatus(jacq. : fr,,,,,,
 1,boletus,lentinus edodes (berk.) sing,amanita pantherina (dc. ex fr.) krombh,l. edodes(berk.) sing,,,,,,
 2,boletus edulis (bull fr,pleurotus ostreatus (jacq. : fr) kummer,amanita verna (bull. : fr.) lam,pleurotus ostreatus (jack. :fr,,,,,,
 3,boletus edulis bull,agaricus bisporus (lge.) sing,,morchella delicios (l.)pers,,,,,,
