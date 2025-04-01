@@ -29,7 +29,10 @@ def get_corpus_id_from_chunk_name(chunk_name: str) -> str:
 annotation_info['corpus_id'] = annotation_info['name'].apply(get_corpus_id_from_chunk_name)
 
 assert annotation_info['reference_only'].unique().tolist() == ['no', 'yes']
+assert annotation_info['mixed_chunks'].unique().tolist() == ['no', 'yes']
 valid_chunk_annotation_info = annotation_info[annotation_info['reference_only'] != 'yes']
+valid_chunk_annotation_info.describe(include='all').to_csv(os.path.join(annotation_folder,'valid_chunk_annotation_info_summary.csv'))
+# valid_chunk_annotation_info = annotation_info[annotation_info['reference_only'] != 'yes']
 
 
 class Taxon(BaseModel):
