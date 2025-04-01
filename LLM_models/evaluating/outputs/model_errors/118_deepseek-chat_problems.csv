@@ -1,8 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,atropa belladonna,atropa belladonna,,quercus suber,papaver somniferum_pain,,papaver somniferum_coughing,,atropa belladonna_tropane alkaloids,dioscorea spp_contraceptives
-1,erythroxylum coca,erythroxylum coca,,chondrodendron,dioscorea spp_inflammations,,,,erythroxylum coca_local anesthetic,
-2,papaver somniferum,papaver somniferum,,strychnos,capsicum spp_arthritis pain,,,,papaver somniferum_cough control,
-3,colchicum autumnale,colchicum autumnale,,digitalis,,,,,papaver somniferum_pain relief,
-4,dioscorea spp,dioscorea spp,,,,,,,colchicum autumnale_mitotic poisoner,
-5,capsicum spp,capsicum spp,,,,,,,dioscorea spp_steroidal hormone,
-6,,,,,,,,,capsicum spp_heat and pain sensation,
+0,atropa belladonna,atropa belladonna,,quercus suber,dioscorea spp_inflammations,,papaver somniferum_pain,,atropa belladonna_scopolamine,dioscorea spp_contraceptives
+1,erythroxylum coca,erythroxylum coca,,digitalis,capsicum spp_arthritis pain,,papaver somniferum_coughing,,atropa belladonna_atropine,
+2,papaver somniferum,papaver somniferum,,,,,,,atropa belladonna_hyoscyamine,
+3,colchicum autumnale,colchicum autumnale,,,,,,,erythroxylum coca_cocaine,
+4,dioscorea spp,dioscorea spp,,,,,,,papaver somniferum_codeine,
+5,capsicum spp,capsicum spp,,,,,,,colchicum autumnale_colchicine,
+6,chondrodendron,chondrodendron,,,,,,,dioscorea spp_cortisone,
+7,strychnos,strychnos,,,,,,,capsicum spp_capsaicin,
+8,,,,,,,,,chondrodendron_curare,
+9,,,,,,,,,strychnos_curare,

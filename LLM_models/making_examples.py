@@ -71,20 +71,22 @@ _examples = [
     (
         "Panax ginseng C.A.Mey has many benefits; it has been used for tiredness and enhancement of physical performance.",
         TaxaData(taxa=[Taxon(scientific_name='Panax ginseng C.A.Mey', medical_conditions=['tiredness'],
-              medicinal_effects=['enhancement of physical performance'])]),
+                             medicinal_effects=['enhancement of physical performance'])]),
     ),
     (
-        "The opium poppy (Papaver somniferum L.) is grown in many places around the world. It is commonly used to treat hypertension. It is also used for pain relief as well as vasodilation.",
-        TaxaData(taxa=[Taxon(scientific_name='Papaver somniferum L.', medical_conditions=['hypertension'], medicinal_effects=['vasodilation', 'pain relief'])]),
+        "The opium poppy (Papaver somniferum L.) is grown in many places around the world. It is commonly used to treat hypertension. It is also used for pain relief as well as vasodilation. Valeriana officinalis is a perennial flowering plant native to Eurasia, which is often used for treating insomnia.",
+        TaxaData(taxa=[
+            Taxon(scientific_name='Papaver somniferum L.', medical_conditions=['hypertension'], medicinal_effects=['vasodilation', 'pain relief']),
+            Taxon(scientific_name='Valeriana officinalis', medical_conditions=['insomnia'], medicinal_effects=None)]),
     ),
     (
-        "There are many oils to choose from. Castor oil from Ricinus communis is a very effective purgative.",
+        "The perennial flowering plant Ricinus communis is a very effective purgative. ",
         TaxaData(taxa=[Taxon(scientific_name='Ricinus communis', medical_conditions=None, medicinal_effects=['purgative'])]),
     ),
     (
-        "Quinine was isolated from the bark of the cinchona tree (Cinchona officinalis L.) which was used to treat malaria. The traditionaluse of quinine for treating fever and infectious-disease dates back to the 1600s",
-        TaxaData(taxa=[Taxon(scientific_name='Cinchona officinalis L.', medical_conditions=['malaria', 'fever', 'infectious-disease'],
-              medicinal_effects=None)]),
+        "Quinine is isolated from the bark of the cinchona tree (Cinchona officinalis L.), and this plant is used to treat malaria. The cinchona tree has been known to be used traditionally for fever, for its antifebrile effects.",
+        TaxaData(taxa=[Taxon(scientific_name='Cinchona officinalis L.', medical_conditions=['malaria', 'fever'],
+                             medicinal_effects=['antifebrile'])]),
     ),
     (
         "During the tanning process, the animal skin is soaked in a tannin extraction for a period of time ranging from just a few hours to several months.",
