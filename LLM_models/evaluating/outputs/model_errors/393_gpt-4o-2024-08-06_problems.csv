@@ -1,0 +1,29 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,veronica,veronica officinalis l,,v. thymoidesp.h.davis subsp. pseudocinerea m.a.fisch,veronica officinalis l_rheumatism,veronica officinalis l_cardiovascular system disorders,veronica_respiratory affections,veronica persica poir_cytostatic,veronica thymoides p.h.davis subsp. pseudocinerea m.a.fisch_cytostatic,veronica_diuretic
+1,v. officinalis,veronica chamaedrys l,,v. bellidioidesl,veronica officinalis l_respiratory ailments,veronica officinalis l_nervous system disorders,veronica officinalis_asthma,veronica cymbalaria bodard_cytotoxic,veronica cymbalaria bodard_radical scavenging,veronica_antiscorbutic
+2,veronica officinalis,veronica anagallis-aquatica l,,veronicaofficinalis,veronica officinalis l_metabolism system disorders,,veronica officinalis_tonsillitisi,veronica cymbalaria bodard_anti-inflammatory,veronica hederifolia l_radical scavenging,veronica_wound healing
+3,veronica officinalis l,veronica persica poir,,veronica l,veronica officinalis l_inflammatory conditions,,veronica officinalis_cough,veronica hederifolia l_cytotoxic,veronica pectinata l. var. glandulosa_radical scavenging,veronica_expectorant
+4,veronica chamaedrys,veronica thymoides p.h.davis subsp. pseudocinerea m.a.fisch,,,veronica officinalis l_stomach ulcers,,veronica officinalis_skin diseases,veronica hederifolia l_anti-inflammatory,veronica polita fr_radical scavenging,v. anagallis-aquatica_cytostatic
+5,v. chamaedrys l,veronica cymbalaria bodard,,,veronica anagallis-aquatica l_hernia,,veronica officinalis_kidney diseases,veronica pectinata l. var. glandulosa_cytotoxic,veronica bellidioides l_antioxidant,v. officinalis_anti-inflammatory
+6,v. chamaedrys,veronica hederifolia l,,,veronica anagallis-aquatica l_laryngopharyngitis,,veronica officinalis_wounds,veronica pectinata l. var. glandulosa_anti-inflammatory,,v. thymoidesp.h.davis subsp. pseudocinerea m.a.fisch_cytostatic
+7,veronica anagallis-aquatica l,veronica pectinata l. var. glandulosa,,,veronica anagallis-aquatica l_hemoptysis,,veronica officinalis_pharyngitis,veronica polita fr_cytotoxic,,veronica officinalis_respiratory tract
+8,v. anagallis-aquatica,veronica polita fr,,,veronica anagallis-aquatica l_influenza,,veronica officinalis_catarrh,veronica polita fr_anti-inflammatory,,veronica officinalis_metabolism
+9,v. persica poir,veronica bellidioides l,,,veronica anagallis-aquatica l_abdominal pain,,veronica officinalis_anemia,veronica kellereri degen & urum_antioxidant,,veronica officinalis_hypocholesterolemic effect
+10,v. persica,veronica kellereri degen & urum,,,veronica anagallis-aquatica l_rheumatic pain,,veronica officinalis_rheumatic complaints,veronica vindobonensis (m.a.fisch.) m.a.fisch_antioxidant,,veronica officinalis_expectorant
+11,v. cymbalaria bodard,veronica vindobonensis (m.a.fisch.) m.a.fisch,,,,,veronica officinalis_bronchitis,veronica beccabunga l_antioxidant,,veronica officinalis_nervous system
+12,v. hederifolia l,veronica beccabunga l,,,,,veronica officinalis_coughs,veronica rhodopea degen ex stoj. & stef_antioxidant,,veronica officinalis_anti-inflammatory
+13,v. pectinata l. var. glandulosa,veronica rhodopea degen ex stoj. & stef,,,,,veronica officinalis_lung diseases,veronica austriaca l_antioxidant,,veronica officinalis_hepatoprotective activity
+14,v. polita fr,veronica austriaca l,,,,,,,,veronica officinalis_wound healing
+15,v. kellereri degen & urum,,,,,,,,,veronica officinalis_hypolipemic
+16,v. vindobonensis (m.a.fisch. )m.a.fisch,,,,,,,,,veronica officinalis_cardiovascular system
+17,v. beccabunga l,,,,,,,,,veronica officinalis_antitussive
+18,v. rhodopea degen ex stoj.& stef,,,,,,,,,veronica officinalis_cytotoxic
+19,v. austriaca l,,,,,,,,,veronica officinalis_antiulcerous
+20,,,,,,,,,,v. cymbalaria bodard_radicalscavenging
+21,,,,,,,,,,v. hederifolia l_radicalscavenging
+22,,,,,,,,,,v. pectinata l. var. glandulosa_radicalscavenging
+23,,,,,,,,,,v. persica_cytotoxic
+24,,,,,,,,,,v. persica_radicalscavenging
+25,,,,,,,,,,v. persica_anti-inflammatory
+26,,,,,,,,,,v. polita fr_radicalscavenging
+27,,,,,,,,,,v. bellidioidesl_antioxidant

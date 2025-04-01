@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,phyllanthus emblica,phyllanthus emblica,crataegus pinnatifida,crataegus pinnatifi da,phyllanthus emblica_metabolic syndrome,crataegus pinnatifida_cardiovascular disease,crataegus pinnatifi da_metabolic syndrome,,,
+1,lycium barbarum l,lycium barbarum l,,,lycium barbarum l_metabolic syndrome,crataegus pinnatifida_obesity,,,,
+2,,,,,,crataegus pinnatifida_diabetes,,,,
+3,,,,,,crataegus pinnatifida_metabolic syndrome,,,,
+4,,,,,,phyllanthus emblica_cardiovascular disease,,,,
+5,,,,,,phyllanthus emblica_obesity,,,,
+6,,,,,,phyllanthus emblica_diabetes,,,,
+7,,,,,,lycium barbarum l_cardiovascular disease,,,,
+8,,,,,,lycium barbarum l_obesity,,,,
+9,,,,,,lycium barbarum l_diabetes,,,,

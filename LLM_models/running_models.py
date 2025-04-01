@@ -17,7 +17,7 @@ def sanitize_text(s: str):
     return out
 
 
-def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = None, single_chunk: bool = True, examples = example_messages) -> TaxaData:
+def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = None, single_chunk: bool = True, examples=example_messages) -> TaxaData:
     text_chunks = read_file_and_chunk(text_file, context_window)
     if single_chunk:
         # For most of analysis, will be testing on single chunks as this is how we've annotated them.
@@ -95,7 +95,7 @@ def setup_models():
 
     load_dotenv()
     out = {}
-    # A selection of models that support .with_structured_output https://python.langchain.com/v0.2/docs/integrations/chat/
+    # A selection of models that support .with_structured_output https://python.langchain.com/v0.3/docs/integrations/chat/
     # Try to use the best from each company, and use a specified stable version.
     # If any work particularly well then also test cheaper versions e.g. gpt-mini, claude haiku
 
@@ -121,7 +121,8 @@ def setup_models():
     # # # Initialize Vertex AI SDK
     # vertexai.init(project=PROJECT_ID, location=REGION)
     # https://ai.google.dev/gemini-api/docs/models/gemini
-    model2 = ChatVertexAI(model="gemini-1.5-pro-002", max_tokens=8192,**hparams)
+    # Note gemini doesn't like nested pydantic models: https://github.com/langchain-ai/langchain-google/issues/659#issuecomment-2568319643
+    model2 = ChatVertexAI(model="gemini-1.5-pro-002", max_tokens=8192, **hparams)
     out['gemini'] = [model2, get_input_size_limit(128)]
 
     # Max tokens 200k
@@ -153,16 +154,28 @@ def setup_models():
         model="accounts/fireworks/models/llama-v3p1-405b-instruct", **hparams)
     out['llama'] = [model5, get_input_size_limit(131)]
 
+    # DeepSeek V3
+    # Created 30/12/2024
+    # Max tokens 128k
+    # Input/Output: $0.07/1.10/1M tokens
+
+    from langchain_deepseek import ChatDeepSeek
+    model6 = ChatDeepSeek(
+        model="deepseek-chat", **hparams)
+    out['deepseek'] = [model6, get_input_size_limit(128)]
+
     return out
 
 
 if __name__ == '__main__':
     models = setup_models()
 
-    example_model_name = 'llama'
+    example_model_name = 'deepseek'
     repo_path = os.environ.get('KEWSCRATCHPATH')
     base_text_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'text_files')
+    base_chunk_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'chunks', 'selected_chunks')
 
-    example_model_outputs = query_a_model(models[example_model_name][0], os.path.join(base_text_path, '4187756.txt'), models[example_model_name][1],
-                                          single_chunk=False)
+    example_model_outputs = query_a_model(models[example_model_name][0], os.path.join(base_chunk_path, '4187756.txt_chunk_15.txt'),
+                                          models[example_model_name][1],
+                                          single_chunk=True)
     print(example_model_outputs)

@@ -1,0 +1,47 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,angelica archangelica,angelica archangelica,,amanita muscaria,angelica archangelica_colds,arctostaphylos uva-ursi_bladder infection,glycyrrhiza glabra_cough,angelica archangelica_diuresis,barosma betulina_tonic,arctostaphylos uva-ursi_relieves bladder inf
+1,angelica,pimpinella anisum,,conocybe spp,angelica archangelica_bronchitis,salix pentandra_malaria,,pimpinella anisum_carminative,nepeta cataria_aromatic,symphytum officinale_wound healing
+2,pimpinella anisum,arctostaphylos uva-ursi,,panaeolus sphinctrinus,angelica archangelica_colic,salix pentandra_pain,,arctostaphylos uva-ursi_diuretic,anthemis nobilis_poultice,symphytum officinale_reduces swelling
+3,arctostaphylos uva-ursi,salix pentandra,,boletus spp,angelica archangelica_indigestion,salix pentandra_fever,,arctostaphylos uva-ursi_astringent,anthemis nobilis_aromatic,barosma betulina_gastric remedy
+4,salix pentandra,vaccinium myrtillus,,claviceps purpurea,pimpinella anisum_colds,vaccinium myrtillus_diarrhea,,arctostaphylos uva-ursi_topical antiseptic,anthemis nobilis_bitter,taraxacum officinale_relieves gastric stress
+5,vaccinium myrtillus,symphytum officinale,,lycoperdon mixtecorum,pimpinella anisum_asthma,symphytum officinale_wound healing,,salix pentandra_antipyretic,elymus repens_nutrient drink,hydrastis canadensis_antiinflamatory
+6,symphytum officinale,barosma betulina,,lycoperdon marginatum,symphytum officinale_swelling of broken bones,barosma betulina_gastric issues,,salix pentandra_analgesic,turnera aphrodisiaca_tonic,mentha piperita_prevents flatulence/colic
+7,barosma betulina,rhamnus frangula,,psilocybe spp,symphytum officinale_colds,taraxacum officinale_gastric stress,,salix pentandra_antimalarial,eucalyptus globosus_aromatic,mentha viridis_relieves vomiting
+8,rhamnus frangula,nepeta cataria,,stropharia cubensis,symphytum officinale_diarrhea,mentha piperita_flatulence,,vaccinium myrtillus_diuretic,foeniculum vulgare_aromatic,
+9,nepeta cataria,anthemis nobilis,,datura,anthemis nobilis_inflammations,mentha piperita_colic,,vaccinium myrtillus_antidiarrheal,panax quinquefolium_adaptogen,
+10,anthemis nobilis,elymus repens,,justicia pectoralis,elymus repens_cystitis,mentha viridis_vomiting,,barosma betulina_diuretic,hydrastis canadensis_anti-inflammatory,
+11,elymus repens,turnera aphrodisiaca,,acorus calamus,eucalyptus globosus_colds,,,barosma betulina_antiseptic,hydrastis canadensis_tonic,
+12,turnera aphrodisiaca,taraxacum officinale,,mesembryanthemum spp,trigonella foenugraecum_colds,,,rhamnus frangula_laxative,juniperus communis_flavoring,
+13,taraxacum officinale,eucalyptus globosus,,sceletium tortuosum,trigonella foenugraecum_fevers,,,nepeta cataria_antipyretic,glycyrrhiza glabra_flavoring,
+14,eucalyptus globosus,foeniculum vulgare,,tabernanthe iboga,humulus lupulus_sleeplessness,,,nepeta cataria_calmative,glycyrrhiza glabra_cough suppressant,
+15,eucalyptus,trigonella foenugraecum,,voacanga spp,humulus lupulus_indigestion,,,elymus repens_diuretic,tilia europaea_fragrant tea,
+16,foeniculum vulgare,panax quinquefolium,,,equisetum arvense_dyspepsia,,,elymus repens_antirheumatic,viscum album_narcotic tea,
+17,trigonella foenugraecum,hydrastis canadensis,,,tilia europaea_dyspepsia,,,turnera aphrodisiaca_diuretic,rosa spp_perfume,
+18,panax quinquefolium,humulus lupulus,,,tilia europaea_indigestion,,,turnera aphrodisiaca_aphrodisiac,sassafras officinale_aromatic,
+19,hydrastis canadensis,equisetum arvense,,,carica papaya_back pain,,,taraxacum officinale_diuretic,eriodictyon californicum_bitter tonic,
+20,humulus lupulus,juniperus communis,,,rosa spp_colds,,,taraxacum officinale_cholagogic,,
+21,equisetum arvense,glycyrrhiza glabra,,,mentha viridis_flatulence,,,eucalyptus globosus_antiseptic,,
+22,juniperus communis,tilia europaea,,,fragaria spp_rheumatic gout,,,eucalyptus globosus_expectorant,,
+23,glycyrrhiza glabra,ilex paraguariensis,,,achillea millefolium_colds,,,foeniculum vulgare_carminative,,
+24,tilia europaea,viscum album,,,achillea millefolium_hemorrhoids,,,foeniculum vulgare_laxative,,
+25,ilex paraguariensis,avena sativa,,,eriodictyon californicum_bronchiolar congestion,,,trigonella foenugraecum_antidiarrheal,,
+26,viscum album,carica papaya,,,eriodictyon californicum_hay fever,,,panax quinquefolium_aphrodisiac,,
+27,avena sativa,mentha piperita,,,eriodictyon californicum_hemorrhoids,,,hydrastis canadensis_laxative,,
+28,carica papaya,rosa spp,,,,,,equisetum arvense_diuretic,,
+29,mentha piperita,sassafras officinale,,,,,,juniperus communis_diuretic,,
+30,rosa spp,mentha viridis,,,,,,juniperus communis_laxative,,
+31,sassafras officinale,fragaria spp,,,,,,glycyrrhiza glabra_laxative,,
+32,sassafras,achillea millefolium,,,,,,ilex paraguariensis_cns stimulant,,
+33,mentha viridis,eriodictyon californicum,,,,,,viscum album_tonic,,
+34,fragaria spp,,,,,,,viscum album_calmative,,
+35,achillea millefolium,,,,,,,avena sativa_antispasmodic,,
+36,eriodictyon californicum,,,,,,,avena sativa_nerve stimulant,,
+37,,,,,,,,carica papaya_protein digestant,,
+38,,,,,,,,mentha piperita_digestive aid,,
+39,,,,,,,,sassafras officinale_antirheumatic,,
+40,,,,,,,,mentha viridis_diuretic,,
+41,,,,,,,,fragaria spp_diuretic,,
+42,,,,,,,,fragaria spp_antidiarrheal,,
+43,,,,,,,,fragaria spp_astringent,,
+44,,,,,,,,achillea millefolium_hair and scalp care,,
+45,,,,,,,,eriodictyon californicum_expectorant,,

@@ -1,19 +1,19 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,eugenia caryophylatta thunb,eugenia caryophylatta thunb,,,eugenia caryophylatta thunb_toothaches,azadirachta indica a.juss_diabetes,allium sativum l_infections,eugenia caryophylatta thunb_anaesthetic,,curcuma longa l_kill tumour cells
-1,azadirachta indica a.juss,azadirachta indica a.juss,,,curcuma longa l_cancer,,allium sativum l_heart disease,eugenia caryophylatta thunb_analgesic,,allium sativum l_reducing low density lipids and triglycerides
-2,curcuma longa l,curcuma longa l,,,allium sativum l_high cholesterol,,allium sativum l_stroke,eugenia caryophylatta thunb_anti-emetic,,eugenia caryophylatta thunb_aid digestion
-3,allium sativum l,allium sativum l,,,allium sativum l_dyslipidaemia,,,eugenia caryophylatta thunb_antiseptic,,azadirachta indica a.juss_anti-diabetic
-4,,,,,,,,eugenia caryophylatta thunb_antimicrobial,,
-5,,,,,,,,azadirachta indica a.juss_anti-inflammatory,,
-6,,,,,,,,azadirachta indica a.juss_antifungal,,
-7,,,,,,,,azadirachta indica a.juss_blood purifying,,
-8,,,,,,,,azadirachta indica a.juss_antipruritic,,
-9,,,,,,,,azadirachta indica a.juss_antibacterial,,
-10,,,,,,,,azadirachta indica a.juss_anti-cancer,,
-11,,,,,,,,curcuma longa l_anti-inflammatory,,
-12,,,,,,,,curcuma longa l_antimicrobial,,
-13,,,,,,,,curcuma longa l_antioxidant,,
-14,,,,,,,,curcuma longa l_anticancer,,
+1,azadirachta indica a.juss,azadirachta indica a.juss,,,curcuma longa l_cancer,,,eugenia caryophylatta thunb_analgesic,,allium sativum l_reducing low density lipids and triglycerides
+2,curcuma longa l,curcuma longa l,,,allium sativum l_stroke,,,eugenia caryophylatta thunb_antiseptic,,eugenia caryophylatta thunb_aid digestion
+3,allium sativum l,allium sativum l,,,allium sativum l_heart disease,,,eugenia caryophylatta thunb_anti-emetic,,azadirachta indica a.juss_anti-diabetic
+4,,,,,allium sativum l_dyslipidaemia,,,eugenia caryophylatta thunb_antimicrobial,,
+5,,,,,allium sativum l_high cholesterol,,,azadirachta indica a.juss_blood purifying,,
+6,,,,,,,,azadirachta indica a.juss_antibacterial,,
+7,,,,,,,,azadirachta indica a.juss_anti-cancer,,
+8,,,,,,,,azadirachta indica a.juss_anti-inflammatory,,
+9,,,,,,,,azadirachta indica a.juss_antifungal,,
+10,,,,,,,,azadirachta indica a.juss_antipruritic,,
+11,,,,,,,,curcuma longa l_antioxidant,,
+12,,,,,,,,curcuma longa l_anticancer,,
+13,,,,,,,,curcuma longa l_antimicrobial,,
+14,,,,,,,,curcuma longa l_anti-inflammatory,,
 15,,,,,,,,allium sativum l_antibacterial,,
-16,,,,,,,,allium sativum l_anti-hypertensive,,
-17,,,,,,,,allium sativum l_anti-platelet,,
+16,,,,,,,,allium sativum l_anti-platelet,,
+17,,,,,,,,allium sativum l_anti-hypertensive,,

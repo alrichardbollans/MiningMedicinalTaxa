@@ -10,7 +10,6 @@ standard_medicinal_prompt = ChatPromptTemplate.from_messages(
             "system",
             "You are an expert extraction algorithm tasked with extracting information about plants and fungi from scientific articles. "
             "Only extract relevant direct quotes from the text. Do not alter the extracted text by correcting spellings, expanding abbreviations or summarising the text. "
-            "Do not extract text contained in bibliography or reference sections.  "
             "You should extract all scientific plant and fungal names mentioned in the text. "
             "You should include scientific authorities in the plant and fungal names if they appear in the text. "
             "Only extract scientific names. Do not extract common or vernacular names. "

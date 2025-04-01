@@ -1,0 +1,4 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,brassica oleracea var. capitata,brassica oleracea var. capitata,papaver somniferum,papa-ver somniferum,,brassica oleracea var. capitata_anemia,,,brassica oleracea var. capitata_antioxidant,
+1,,,,,,brassica oleracea var. capitata_rheumatism,,,,
+2,,,,,,brassica oleracea var. capitata_stomach ulcer,,,,

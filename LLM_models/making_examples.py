@@ -11,7 +11,7 @@ from langchain_core.messages import (
 )
 from pydantic import BaseModel
 
-from LLM_models.structured_output_schema import Taxon
+from LLM_models.structured_output_schema import Taxon, TaxaData
 
 
 class Example(TypedDict):
@@ -70,25 +70,25 @@ def tool_example_to_messages(example: Example) -> List[BaseMessage]:
 _examples = [
     (
         "Panax ginseng C.A.Mey has many benefits; it has been used for tiredness and enhancement of physical performance.",
-        Taxon(scientific_name='Panax ginseng C.A.Mey', medical_conditions=['tiredness'],
-              medicinal_effects=['enhancement of physical performance']),
+        TaxaData(taxa=[Taxon(scientific_name='Panax ginseng C.A.Mey', medical_conditions=['tiredness'],
+              medicinal_effects=['enhancement of physical performance'])]),
     ),
     (
         "The opium poppy (Papaver somniferum L.) is grown in many places around the world. It is commonly used to treat hypertension. It is also used for pain relief as well as vasodilation.",
-        Taxon(scientific_name='Papaver somniferum L.', medical_conditions=['hypertension'], medicinal_effects=['vasodilation', 'pain relief']),
+        TaxaData(taxa=[Taxon(scientific_name='Papaver somniferum L.', medical_conditions=['hypertension'], medicinal_effects=['vasodilation', 'pain relief'])]),
     ),
     (
         "There are many oils to choose from. Castor oil from Ricinus communis is a very effective purgative.",
-        Taxon(scientific_name='Ricinus communis', medical_conditions=None, medicinal_effects=['purgative']),
+        TaxaData(taxa=[Taxon(scientific_name='Ricinus communis', medical_conditions=None, medicinal_effects=['purgative'])]),
     ),
     (
         "Quinine was isolated from the bark of the cinchona tree (Cinchona officinalis L.) which was used to treat malaria. The traditionaluse of quinine for treating fever and infectious-disease dates back to the 1600s",
-        Taxon(scientific_name='Cinchona officinalis L.', medical_conditions=['malaria', 'fever', 'infectious-disease'],
-              medicinal_effects=None),
+        TaxaData(taxa=[Taxon(scientific_name='Cinchona officinalis L.', medical_conditions=['malaria', 'fever', 'infectious-disease'],
+              medicinal_effects=None)]),
     ),
     (
         "During the tanning process, the animal skin is soaked in a tannin extraction for a period of time ranging from just a few hours to several months.",
-        Taxon(scientific_name=None, medical_conditions=None, medicinal_effects=None),
+        TaxaData(taxa=[Taxon(scientific_name=None, medical_conditions=None, medicinal_effects=None)]),
     )
 ]
 

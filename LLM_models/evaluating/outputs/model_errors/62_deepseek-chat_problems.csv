@@ -1,0 +1,4 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,physostigma venenosum,physostigma venenosum,,penicillium,,,,,,
+1,hevea brasiliensis,hevea brasiliensis,,,,,,,,
+2,ephedra sinica,ephedra sinica,,,,,,,,

@@ -1,0 +1,50 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,banisteriopsis caapi,banisteriopsis caapi,banisteriopsis inebrians,b.inebrians,,,banisteriopsis caapi_pain,,banisteriopsis caapi_hallucinations,penicillium chrysogenum_antibiotic
+1,datura inoxia,datura inoxia,banisteriopsis rusbyana,b.rusbyana,,,b.inebrians_pain,,banisteriopsis inebrians_hallucinations,penicillium notatum_antibiotic
+2,rivea corymbosa,rivea corymbosa,,penicillium chrysogenum,,,b.rusbyana_pain,,banisteriopsis rusbyana_hallucinations,streptomyces spp_antibiotics
+3,rivea,turbina corymbosa,,penicillium notatum,,,,,datura inoxia_hallucinations,claviceps purpurea_psychoactive
+4,turbina corymbosa,ipomoea violacea,,streptomyces spp,,,,,rivea corymbosa_hallucinations,claviceps purpurea_vasoconstrictor
+5,ipomoea violacea,,,claviceps purpurea,,,,,turbina corymbosa_hallucinations,psilocybe spp_psychoactive
+6,,,,psilocybe spp,,,,,ipomoea violacea_hallucinations,amanita muscaria_psychoactive
+7,,,,amanita muscaria,,,,,,conocybe spp_psychoactive
+8,,,,conocybe spp,,,,,,lycoperdon marginatum_psychoactive
+9,,,,lycoperdon marginatum,,,,,,lycoperdon mixtecorum_psychoactive
+10,,,,lycoperdon mixtecorum,,,,,,
+11,,,,agaricus bisporus,,,,,,
+12,,,,agaricus campestris,,,,,,
+13,,,,agrobacterium tumifaciens,,,,,,
+14,,,,aspergillus flavus,,,,,,
+15,,,,spergillus oryzae,,,,,,
+16,,,,auricularia auricula-judae,,,,,,
+17,,,,boletus spp,,,,,,
+18,,,,botrytis cinerea,,,,,,
+19,,,,candida albicans,,,,,,
+20,,,,cantharellus cibarius,,,,,,
+21,,,,cortinellus edodes,,,,,,
+22,,,,cryphonectaria parasitica,,,,,,
+23,,,,drechslera oryzeae,,,,,,
+24,,,,flammulina velutipes,,,,,,
+25,,,,fusarium oxysporum,,,,,,
+26,,,,hemileia vastatrix,,,,,,
+27,,,,lactarius deliciosus,,,,,,
+28,,,,lentinus edodes,,,,,,
+29,,,,lycoperdon spp,,,,,,
+30,,,,monilinia fructicola,,,,,,
+31,,,,morchella esculenta,,,,,,
+32,,,,mycosphaerella spp,,,,,,
+33,,,,ophiostoma ulmi,,,,,,
+34,,,,paneolus spp,,,,,,
+35,,,,penicillium camemberti,,,,,,
+36,,,,penicillium roquefortii,,,,,,
+37,,,,phytophthora infestans,,,,,,
+38,,,,phytophthora palmivora,,,,,,
+39,,,,plasmopara viticola,,,,,,
+40,,,,pleurotus spp,,,,,,
+41,,,,puccinia graminis,,,,,,
+42,,,,rhizobium leguminosarum,,,,,,
+43,,,,russula spp,,,,,,
+44,,,,saccharomyces carlsbergensis,,,,,,
+45,,,,saccharomyces cervisieae,,,,,,
+46,,,,saccharomyces ellipsoideus,,,,,,
+47,,,,saccharomyces theobromae,,,,,,
+48,,,,stropharia spp,,,,,,

@@ -25,8 +25,8 @@ def _get_chunks_to_tweak_with():
 
     assert len(for_testing) > len(for_hparam_tuning)
 
-    for i in train['id'].values:
-        assert i not in test['id'].values
+    for i in for_hparam_tuning['id'].values:
+        assert i not in for_testing['id'].values
 
     for_hparam_tuning.to_csv(os.path.join('outputs', 'for_hparam_tuning.csv'), index=False)
     for_testing.to_csv(os.path.join('outputs', 'for_testing.csv'), index=False)
@@ -296,7 +296,7 @@ def assessing_hparams(rerun: bool = True):
         assess_model_on_chunk_list(df_for_hparam_tuning['id'].unique().tolist(), all_models[m][0], all_models[m][1], 'hparam_runs', rerun=rerun,
                                    autoremove_non_sci_names=False)
         model_results = assess_model_on_chunk_list(df_for_hparam_tuning['id'].unique().tolist(), all_models[m][0], all_models[m][1],
-                                                   'hparam_runs', rerun=False, autoremove_non_sci_names=True)
+                                                   'hparam_runs', rerun=False, autoremove_non_sci_names=True)[0]
         model_results = model_results.loc[['f1']]
         model_results = model_results.rename(index={'f1': f'{m}_f1'})
         all_results = pd.concat([all_results, model_results])
@@ -338,9 +338,9 @@ def full_eval_gnfinder(rerun: bool = True):
 
 
 def main():
-    # assessing_hparams(rerun=False)
-    full_evaluation(rerun=False)
-    # full_eval_gnfinder(rerun=False)
+    assessing_hparams(rerun=False)
+    # full_evaluation(rerun=True)
+    # full_eval_gnfinder(rerun=True)
 
 if __name__ == '__main__':
     # _get_chunks_to_tweak_with()

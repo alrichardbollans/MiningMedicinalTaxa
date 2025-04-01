@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,crataegus pinnatifi da,crataegus pinnatifi da,,,crataegus pinnatifi da_metabolic syndrome,,,,crataegus pinnatifi da_prevent cardiovascular disease,
+1,phyllanthus emblica,phyllanthus emblica,,,phyllanthus emblica_metabolic syndrome,,,,crataegus pinnatifi da_prevent type 2 diabetes,
+2,lycium barbarum l,lycium barbarum l,,,lycium barbarum l_metabolic syndrome,,,,crataegus pinnatifi da_lower cholesterol,
+3,,,,,,,,,phyllanthus emblica_prevent cardiovascular disease,
+4,,,,,,,,,phyllanthus emblica_prevent type 2 diabetes,
+5,,,,,,,,,phyllanthus emblica_lower cholesterol,
+6,,,,,,,,,lycium barbarum l_prevent cardiovascular disease,
+7,,,,,,,,,lycium barbarum l_prevent type 2 diabetes,
+8,,,,,,,,,lycium barbarum l_lower cholesterol,

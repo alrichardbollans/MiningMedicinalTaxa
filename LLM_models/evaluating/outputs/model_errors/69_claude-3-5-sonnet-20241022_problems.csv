@@ -1,5 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,solanum tuberosum,solanum tuberosum,,phytophthora infestans,,,,,,
+0,solanum tuberosum,solanum tuberosum,,phytophthora infestans,,,,,dioscorea hispida_intoxicating,
 1,ipomoea batatas,ipomoea batatas,,dioscorea spp,,,,,,
 2,manihot esculenta,manihot esculenta,,sorghum,,,,,,
 3,dioscorea,dioscorea trifida,,solanumtuberosum,,,,,,

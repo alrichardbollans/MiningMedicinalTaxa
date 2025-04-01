@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hypericum,hypericum hircinum subsp. majus,rhodiola rosea l,h. hircinum subsp.majus,centaurea ragusina l_urogenital disorders,rhodiola rosea l_memory impairment,centaurea ragusina l_tumor,hypericum hircinum subsp. majus_antifungal,,h. hircinum subsp.majus_antifungal
+1,chelidonium majus l,chelidonium majus l,,prunus spinosa l,,rhodiola rosea l_dementia,centaurea ragusina l_cancer,centaurea ragusina l_antibacterial,,syringa vulgaris l_pro-inflammatory
+2,syringa vulgaris l,syringa vulgaris l,,ononis natrix subsp. hispanica,,centaurea ragusina l_gastrointestinal disorders,prunus spinosa l_cardiovascular disease,ajuga laxmannii (murray) benth_antioxidant,,
+3,centaurea ragusina l,centaurea ragusina l,,penicillium,,,ononis natrix subsp. hispanica_atherosclerosis,ajuga laxmannii (murray) benth_antimicrobial,,
+4,centaurea,ajuga laxmannii (murray) benth,,candida,,,centaurea_tumor,ajuga laxmannii (murray) benth_anti-inflammatory,,
+5,ajuga laxmannii (murray) benth,veronica officinalis l,,commiphora,,,,,,
+6,veronica officinalis l,scrophularia lucida l,,boswellia,,,,,,
+7,scrophularia lucida l,,,aspergillus,,,,,,
+8,,,,rhodiola roseal,,,,,,
+9,,,,ononis natrix,,,,,,
