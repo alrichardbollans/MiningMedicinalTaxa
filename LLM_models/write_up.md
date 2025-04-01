@@ -24,6 +24,15 @@ evolutionary literature." Methods in Ecology and Evolution 13.3 (2022): 625-641.
 
 
 ### Costs
+For a single hparam run (01/04/25):
+Claude - $0.59
+LLama via Fireworks - $0.49
+
+[//]: # (Gemini via vertex ai api - £1.82)
+gpt via openai - $0.45
+deepseek via deepseek api - $0.07
+
+
 For evaluation (approx 9 papers), these were the following incurred costs:
 Claude - $6.62
 LLama via Fireworks - $4.51
