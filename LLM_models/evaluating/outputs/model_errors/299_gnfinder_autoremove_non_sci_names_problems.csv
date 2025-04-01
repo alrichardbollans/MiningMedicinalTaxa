@@ -1,0 +1,4 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,centaurea ragusina l,centaurea ragusina,a. baumannii,hemisteptia lyrata bunge,,,,,,centaurea ragusina l_antibacterial
+1,c. ragusina l,c. ragusina,,centaureasolstitialis l. ssp. solstitialis,,,,,,hemisteptia lyrata bunge_antibacterial
+2,arnica montana,arnica montana,,,,,,,,centaureasolstitialis l. ssp. solstitialis_inhibitory activity againststandard s. aureus

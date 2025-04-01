@@ -1,0 +1,19 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,o. tenuiflorum l,ocimum tenuiflorum l,,o. bascilium l,ocimum tenuiflorum l_asthma,ocimum tenuiflorum l_malaria,o. sanctum l_diabetes,ocimum tenuiflorum l_adaptogenic,,o. sanctum l_anti-inflammatory
+1,o. tenuiflorum,ocimum sanctum l,,,ocimum tenuiflorum l_bronchitis,ocimum tenuiflorum l_snake bites,o. sanctum l_glaucoma,ocimum tenuiflorum l_antibacterial,,o. sanctum l_antifertility
+2,ocimum tenuiflorum,ocimum gratissimum,,,ocimum tenuiflorum l_diabetes,ocimum tenuiflorum l_fever,o. sanctum l_bronchitis,ocimum tenuiflorum l_antifertility,,o. sanctum l_hepatoprotective
+3,ocimum,,,,ocimum tenuiflorum l_eye disorders,ocimum tenuiflorum l_skin diseases,o. sanctum l_diarrhoea,ocimum tenuiflorum l_antifungal,,o. sanctum l_antibacterial
+4,o. sanctum l,,,,ocimum tenuiflorum l_gonorrhoea,ocimum tenuiflorum l_insect bites,o. sanctum l_asthma,ocimum tenuiflorum l_antiviral,,o. sanctum l_antiviral
+5,o. sanctum,,,,ocimum tenuiflorum l_diarrhoea,,o. sanctum l_snake bites,ocimum tenuiflorum l_analgesic,,o. sanctum l_analgesic
+6,o. gratissimum,,,,,,o. sanctum l_fever,ocimum tenuiflorum l_hepatoprotective,,o. sanctum l_abortive effects
+7,,,,,,,o. sanctum l_skin diseases,ocimum tenuiflorum l_anticancer,,o. sanctum l_antidiabetic
+8,,,,,,,o. sanctum l_insect bites,ocimum tenuiflorum l_cardioprotective,,o. sanctum l_anticancer
+9,,,,,,,o. sanctum l_eye disorders,ocimum tenuiflorum l_anti-inflammatory,,o. sanctum l_cardioprotective
+10,,,,,,,o. sanctum l_malaria,ocimum tenuiflorum l_antidiabetic,,o. sanctum l_adaptogenic
+11,,,,,,,o. sanctum l_chronic conjunctivitis,,,o. sanctum l_antifungal
+12,,,,,,,o. sanctum l_cataracts,,,o. tenuiflorum l_abortive effects
+13,,,,,,,o. tenuiflorum_sexually transmitted disease,,,o. tenuiflorum_antiseptic
+14,,,,,,,o. tenuiflorum_antifertility effects,,,o. tenuiflorum_blood thinning
+15,,,,,,,o. tenuiflorum_antifertility,,,o. tenuiflorum_antioxidant
+16,,,,,,,,,,o. tenuiflorum_anaesthetic
+17,,,,,,,,,,o. tenuiflorum_male contraceptive

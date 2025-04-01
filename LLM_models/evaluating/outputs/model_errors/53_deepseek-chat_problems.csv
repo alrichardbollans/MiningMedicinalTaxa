@@ -1,0 +1,14 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,lycium barbarum,lycium barbarum,fructus crataegi,,lycium barbarum_diabetes mellitus,fructus crataegi_hyperlipidemia,lycium barbarum_dyslipidaemia,lycium barbarum_lower blood pressure,fructus crataegi_increase blood flow in coronary blood vessels,lycium barbarum_hypoglycemic
+1,,,emblic leafflower,,,fructus crataegi_obesity,lycium barbarum_metabolic syndrome,lycium barbarum_reduce blood sugar,fructus crataegi_antioxidant activity,
+2,,,,,,fructus crataegi_coronary heart disease,,,fructus crataegi_increase serum hdl cholesterol,
+3,,,,,,fructus crataegi_hypertension,,,fructus crataegi_prevent atherosclerosis,
+4,,,,,,lycium barbarum_high blood pressure,,,fructus crataegi_lower blood pressure,
+5,,,,,,lycium barbarum_high cholesterol,,,fructus crataegi_reduce ldl cholesterol,
+6,,,,,,emblic leafflower_high blood pressure,,,fructus crataegi_promote blood circulation,
+7,,,,,,,,,fructus crataegi_release blood stasis,
+8,,,,,,,,,lycium barbarum_antioxidant activity,
+9,,,,,,,,,emblic leafflower_hypoglycemic activity,
+10,,,,,,,,,emblic leafflower_antioxidant activity,
+11,,,,,,,,,emblic leafflower_cardioprotective effects,
+12,,,,,,,,,emblic leafflower_hypolipidemic activity,

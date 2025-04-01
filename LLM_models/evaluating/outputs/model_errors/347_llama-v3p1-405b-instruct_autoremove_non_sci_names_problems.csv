@@ -1,22 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,c. majus,chelidonium majus,,silybum marianum,chelidonium majus_liver complaints,chelidonium majus_biliary tract disorders,c. majus_liver toxicity,chelidonium majus_cholagogue,chelidonium majus_metabolism related genes modulation,c. majus_acceleration of sperm movement toward fallopian tube
-1,chelidonium majus,,,entamoeba histolytica,,chelidonium majus_oesophageal squamous carcinoma,c. majus_hepatobiliary disorders,chelidonium majus_choleretic,chelidonium majus_apoptosis induction,c. majus_antitumor
-2,,,,,,chelidonium majus_hypertension,,chelidonium majus_antispasmodic,chelidonium majus_cytoprotective,c. majus_supporting artificial insemination or facilitating fertilization
-3,,,,,,chelidonium majus_breast cancer,,chelidonium majus_hepatoprotective,chelidonium majus_stimulant,c. majus_liver and biliary tract
-4,,,,,,chelidonium majus_pancreatic cancer,,,chelidonium majus_efflux pumps,silybum marianum_hepatoprotective
-5,,,,,,chelidonium majus_liver cancer,,,chelidonium majus_cell cycle arrest,
-6,,,,,,chelidonium majus_fever,,,chelidonium majus_senescence,
-7,,,,,,chelidonium majus_malaria,,,chelidonium majus_purgative,
-8,,,,,,chelidonium majus_vulvar squamous cell carcinoma,,,chelidonium majus_intercalate dna,
-9,,,,,,chelidonium majus_infectious-disease,,,chelidonium majus_telomerase activity inhibition,
-10,,,,,,chelidonium majus_gastric cancer,,,chelidonium majus_cell death,
-11,,,,,,chelidonium majus_colon carcinomas,,,chelidonium majus_antiproliferative,
-12,,,,,,chelidonium majus_cancer,,,chelidonium majus_pro-apoptotic,
-13,,,,,,chelidonium majus_cervical cancer,,,chelidonium majus_diuretic,
-14,,,,,,chelidonium majus_prostate cancer,,,chelidonium majus_vasodilation,
-15,,,,,,chelidonium majus_ovarian carcinoma,,,chelidonium majus_cytotoxicity,
-16,,,,,,chelidonium majus_tiredness,,,chelidonium majus_necrosis,
-17,,,,,,chelidonium majus_hepaticabscess,,,chelidonium majus_autophagy,
-18,,,,,,chelidonium majus_leukemias,,,chelidonium majus_anti-inflammatory,
-19,,,,,,chelidonium majus_lung cancer,,,chelidonium majus_antibiotic,
-20,,,,,,chelidonium majus_melanoma,,,,
+0,c. majus,chelidonium majus,,entamoeba histolytica,chelidonium majus_hepatobiliary disorders,chelidonium majus_cancer,c. majus_liver toxicity,chelidonium majus_choleretic,chelidonium majus_cytotoxicity,c. majus_supporting artificial insemination or facilitating fertilization
+1,chelidonium majus,silybum marianum,,,chelidonium majus_liver complaints,,,chelidonium majus_hepatoprotective,chelidonium majus_pro-apoptotic,c. majus_liver and biliary tract
+2,silybum marianum,,,,,,,chelidonium majus_cholagogue,chelidonium majus_cytoprotective,c. majus_antitumor
+3,,,,,,,,chelidonium majus_antispasmodic,chelidonium majus_antiproliferative,c. majus_acceleration of sperm movement toward fallopian tube
+4,,,,,,,,silybum marianum_hepatoprotective,,

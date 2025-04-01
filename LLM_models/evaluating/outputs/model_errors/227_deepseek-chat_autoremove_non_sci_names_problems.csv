@@ -1,0 +1,18 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,h. procumbens,euclea natalensis a.dc,,,euclea natalensis_dysentery,,,euclea natalensis a.dc_antifibrotic
+1,,,,euclea natalensis,,,euclea natalensis_tuberculosis,,,euclea natalensis a.dc_hepatoprotective
+2,,,,oldfieldia dactylophylla (welw. ex oliv,,,euclea natalensis_drug-induced liver injury,,,euclea natalensis_hepatoprotectant
+3,,,,v. doniana sweet,,,euclea natalensis_abdominal pain,,,euclea natalensis_antibacterial
+4,,,,v. fischeri gurke,,,euclea natalensis_stomach problems,,,euclea natalensis_antimycobacterial
+5,,,,v. madiensis subsp. milanjiensis (britten) f.white,,,euclea natalensis_chest related complaints,,,euclea natalensis_antifibrotic
+6,,,,v. mombassae vatke,,,oldfieldia dactylophylla (welw. ex oliv_parasitic worm,,,vitex_anthelmintic
+7,,,,vitex,,,v. doniana sweet_parasitic worm,,,entada africana_anti-inflammatory
+8,,,,entada africana,,,v. fischeri gurke_parasitic worm,,,entada africana guill. & perr_analgesic
+9,,,,entada africana guill. & perr,,,v. madiensis subsp. milanjiensis (britten) f.white_parasitic worm,,,e. africana_anti-inflammatory
+10,,,,e. africana,,,v. mombassae vatke_parasitic worm,,,persicaria senegalensis (meisn.) sojak_anti-ageing
+11,,,,persicaria senegalensis (meisn.) sojak,,,vitex_helminthiases,,,persicaria senegalensis_anti-ageing
+12,,,,persicaria senegalensis,,,entada africana guill. & perr_fractures and sprains,,,p. senegalensis_anti-ageing
+13,,,,p. senegalensis,,,entada africana guill. & perr_pain related-diseases,,,
+14,,,,poria cocos,,,e. africana_pain-related conditions,,,
+15,,,,v. congolensis de wild and t. durand,,,persicaria senegalensis_chronic inflammation,,,
+16,,,,poria cocos (schw.) wolf,,,,,,

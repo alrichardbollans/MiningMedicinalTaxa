@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,aloe capensis,aloe capensis,myrrha,thymus spp,aloe capensis_diseases of the oral cavity,myrrha_halitosis,,,aloe capensis_anthracene derivatives,
-1,thymus,thymus tosevii,,thy-mus,,,,,myrrha_essential oil,
-2,thymus tosevii,thymus jankae,,thy-mus moesiacus,,,,,myrrha_eugenol,
+1,thymus,thymus tosevii,,thy-mus,,,,,myrrha_eugenol,
+2,thymus tosevii,thymus jankae,,thy-mus moesiacus,,,,,myrrha_m-cresol,
 3,thymus jankae,thymus longicaulis,,thymus to-sevii ssp. substriatus,,,,,myrrha_alcohols,
-4,t. jankae,thymus pulegioides,,,,,,,myrrha_m-cresol,
+4,t. jankae,thymus pulegioides,,,,,,,myrrha_essential oil,
 5,thymus longicaulis,thymus moesiacus,,,,,,,,
 6,thymus pulegioides,thymus tosevii ssp. substriatus,,,,,,,,
 7,thymus balcanus,thymus balcanus,,,,,,,,

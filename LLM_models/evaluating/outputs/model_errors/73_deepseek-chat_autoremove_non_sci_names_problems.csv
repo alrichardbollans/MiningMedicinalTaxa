@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hordeum vulgare,hordeum vulgare,,tripsacum spp,,claviceps purpurea_poisoning in both cattle and humans,,,,
+1,secale cereale,secale cereale,,euchlaena,,,,,,
+2,claviceps purpurea,claviceps purpurea,,zea,,,,,,
+3,sorghum,sorghum bicolor,,tripsacum,,,,,,
+4,sorghum bicolor,avena sativa,,helminthosporium maydis,,,,,,
+5,avena sativa,avena brevis,,neurospora,,,,,,
+6,a. brevis,avena strigosa,,,,,,,,
+7,a. strigosa,avena nuda,,,,,,,,
+8,a. nuda,avena barbata,,,,,,,,
+9,a. barbata,avena abyssinica,,,,,,,,
+10,a. abyssinica,,,,,,,,,

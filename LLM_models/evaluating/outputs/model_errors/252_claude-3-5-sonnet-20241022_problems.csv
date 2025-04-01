@@ -1,0 +1,34 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,pinaropappus roseus less,pinaropappus roseus less,,,zaleya decandra_ovarian cancer,pinaropappus roseus less_cancer,ageratina petiolaris_insulin resistance,aquilaria sinensis_memory promotion,pinaropappus roseus less_antiproliferative,aquilaria sinensis_anti-cerebral ischemia
+1,dovyalis caffra l,dovyalis caffra l,,,ageratina petiolaris_diabetes,pinaropappus roseus less_gastrointestinal infections,ageratina petiolaris_t2d,aquilaria sinensis_spatial learning promotion,aquilaria sinensis_resuscitation,aquilaria sinensis_anti-myocardial ischemia
+2,aquilaria sinensis,aquilaria sinensis,,,cecropia obtusifolia_diabetes,pinaropappus roseus less_skin infections,cecropia obtusifolia_insulin resistance,myristica fragrans_memory promotion,aquilaria sinensis_tranquilizing,myristica fragrans_anti-cerebral ischemia
+3,myristica fragrans,myristica fragrans,,,equisetum myriochaetum_diabetes,pinaropappus roseus less_inflammatory events,cecropia obtusifolia_t2d,myristica fragrans_spatial learning promotion,myristica fragrans_resuscitation,myristica fragrans_anti-myocardial ischemia
+4,choerospondias axillaris,choerospondias axillaris,,,,aquilaria sinensis_myocardial ischemia,equisetum myriochaetum_insulin resistance,zaleya decandra_anti-proliferative,myristica fragrans_tranquilizing,zaleya decandra_anti-ovarian cancer
+5,boswellia carterii,boswellia carterii,,,,aquilaria sinensis_cerebral ischemia,equisetum myriochaetum_t2d,eryngium cymosum f. delaroche_anti-hyperglycemic,choerospondias axillaris_memory promotion,
+6,b. bhaw-dajiana,boswellia bhaw-dajiana,,,,aquilaria sinensis_heart heat,zaleya decandra_ovarian teratocarcinoma,eryngium cymosum f. delaroche_hypoglycemic,choerospondias axillaris_resuscitation,
+7,aucklandia lappa,aucklandia lappa,,,,myristica fragrans_myocardial ischemia,zaleya decandra_asthma,ageratina petiolaris_hypoglycemic,choerospondias axillaris_spatial learning promotion,
+8,terminalia chebula,terminalia chebula,,,,myristica fragrans_cerebral ischemia,,cecropia obtusifolia_hypoglycemic,choerospondias axillaris_tranquilizing,
+9,gossampinus malabarica,gossampinus malabarica,,,,myristica fragrans_heart heat,,equisetum myriochaetum_hypoglycemic,boswellia carterii_memory promotion,
+10,zaleya decandra,zaleya decandra,,,,choerospondias axillaris_myocardial ischemia,,,boswellia carterii_resuscitation,
+11,z. decandra,eryngium cymosum f. delaroche,,,,choerospondias axillaris_cerebral ischemia,,,boswellia carterii_spatial learning promotion,
+12,eryngium cymosum f. delaroche,ageratina petiolaris,,,,choerospondias axillaris_heart heat,,,boswellia carterii_tranquilizing,
+13,e. cymosum,cecropia obtusifolia,,,,boswellia carterii_myocardial ischemia,,,boswellia bhaw-dajiana_memory promotion,
+14,ageratina petiolaris,equisetum myriochaetum,,,,boswellia carterii_cerebral ischemia,,,boswellia bhaw-dajiana_resuscitation,
+15,cecropia obtusifolia,,,,,boswellia carterii_heart heat,,,boswellia bhaw-dajiana_spatial learning promotion,
+16,equisetum myriochaetum,,,,,boswellia bhaw-dajiana_myocardial ischemia,,,boswellia bhaw-dajiana_tranquilizing,
+17,,,,,,boswellia bhaw-dajiana_cerebral ischemia,,,aucklandia lappa_memory promotion,
+18,,,,,,boswellia bhaw-dajiana_heart heat,,,aucklandia lappa_resuscitation,
+19,,,,,,aucklandia lappa_myocardial ischemia,,,aucklandia lappa_spatial learning promotion,
+20,,,,,,aucklandia lappa_cerebral ischemia,,,aucklandia lappa_tranquilizing,
+21,,,,,,aucklandia lappa_heart heat,,,terminalia chebula_memory promotion,
+22,,,,,,terminalia chebula_myocardial ischemia,,,terminalia chebula_resuscitation,
+23,,,,,,terminalia chebula_cerebral ischemia,,,terminalia chebula_spatial learning promotion,
+24,,,,,,terminalia chebula_heart heat,,,terminalia chebula_tranquilizing,
+25,,,,,,gossampinus malabarica_myocardial ischemia,,,gossampinus malabarica_memory promotion,
+26,,,,,,gossampinus malabarica_cerebral ischemia,,,gossampinus malabarica_resuscitation,
+27,,,,,,gossampinus malabarica_heart heat,,,gossampinus malabarica_spatial learning promotion,
+28,,,,,,eryngium cymosum f. delaroche_diabetes,,,gossampinus malabarica_tranquilizing,
+29,,,,,,eryngium cymosum f. delaroche_hyperglycemia,,,,
+30,,,,,,ageratina petiolaris_hyperglycemia,,,,
+31,,,,,,cecropia obtusifolia_hyperglycemia,,,,
+32,,,,,,equisetum myriochaetum_hyperglycemia,,,,

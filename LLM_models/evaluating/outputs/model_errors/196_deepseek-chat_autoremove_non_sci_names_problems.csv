@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aloe capensis,aloe capensis,myrrha,thymus spp,aloe capensis_diseases of the oral cavity,myrrha_halitosis,,,myrrha_strengthen the teeth,
+1,thymus,thymus tosevii,,thy-mus,,,,,,
+2,thymus tosevii,thymus jankae,,thy-mus moesiacus,,,,,,
+3,thymus jankae,thymus longicaulis,,thymus to-sevii ssp. substriatus,,,,,,
+4,t. jankae,thymus pulegioides,,,,,,,,
+5,thymus longicaulis,thymus moesiacus,,,,,,,,
+6,thymus pulegioides,thymus tosevii ssp. substriatus,,,,,,,,
+7,thymus balcanus,thymus balcanus,,,,,,,,
+8,t. balcanus,thymus pannonicus,,,,,,,,
+9,thymus pannonicus,,,,,,,,,

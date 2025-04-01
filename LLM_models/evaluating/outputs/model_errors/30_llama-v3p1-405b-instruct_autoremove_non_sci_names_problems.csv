@@ -1,7 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,gymnema sylvestre (retz.) r. br. ex sm,gymnema sylvestre (retz.) r. br. ex sm,,senna,gymnema sylvestre (retz.) r. br. ex sm_diabetes,gymnema sylvestre (retz.) r. br. ex sm_urinary frequency,senna_constipation,,,senna_stimulant laxative
-1,tussilago farfara l,tussilago farfara l,,aloe vera,,,senna_indigestion,,,gymnema sylvestre (retz.) r. br. ex sm_urinary frequency
-2,urtica diocia l,urtica diocia l,,gingko,,,aloe vera_diabetes,,,
-3,piper methysticum g.frost,piper methysticum g.frost,,,,,,,,
-4,hypericum,hypericum,,,,,,,,
-5,aristolochia,aristolochia,,,,,,,,
+0,tussilago farfara l,tussilago farfara l,ginkgo,senna,gymnema sylvestre (retz.) r. br. ex sm_diabetes,tussilago farfara l_cough,senna_indigestion,,tussilago farfara l_anti-inflammatory,senna_stimulant laxative
+1,urtica diocia l,urtica diocia l,,aloe vera,,urtica diocia l_indigestion,senna_constipation,,urtica diocia l_diuretic,gymnema sylvestre (retz.) r. br. ex sm_urinary frequency
+2,gymnema sylvestre (retz.) r. br. ex sm,gymnema sylvestre (retz.) r. br. ex sm,,gingko,,piper methysticum g.frost_anxiety,aloe vera_diabetes,,gymnema sylvestre (retz.) r. br. ex sm_stimulant,
+3,piper methysticum g.frost,piper methysticum g.frost,,,,aristolochia_cancer,,,piper methysticum g.frost_sedative,
+4,aristolochia,aristolochia,,,,hypericum_depression,,,aristolochia_carcinogenic,
+5,hypericum,hypericum,,,,ginkgo_memory loss,,,hypericum_antidepressant,
+6,,,,,,,,,ginkgo_cognitive enhancer,

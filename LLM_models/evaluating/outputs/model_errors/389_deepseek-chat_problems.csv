@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,o. natrix,ononis natrix,apigenin,,,ononis natrix_alzheimer's diseases,,ononis natrix_enzyme inhibitory,apigenin_inhibitory effect on a-amylase and a-glucosidase,o. natrix_enzymeinhibitory
+1,ononis,,luteolin,,,ononis natrix_diabetes mellitus,,ononis natrix_antioxidant,apigenin_inhibitory effect on ache and bche,ononis natrix subsp. hispanica_anti-diabetic
+2,ononis natrix subsp. hispanica,,quercetin,,,,,ononis natrix_anticancer,luteolin_inhibitory effect on tyrosinase,ononis natrix subsp. hispanica_inhibitors of tyrosinase
+3,ononis natrix,,,,,,,ononis natrix_antimicrobial,quercetin_inhibitory effect on tyrosinase,ononis natrix subsp. hispanica_anti-tyrosinase
+4,ononis natrix subsp. hispanicasubsp. hispanica,,,,,,,,,

@@ -1,6 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,a. paniculata,andrographis paniculata,berberis fremontii,berheris fremontii,artemisia annua_malaria,,,,,berheris fremontii_anti-microbial
-1,salix alba,salix alba,,hypericumperforatum,,,,,,
-2,digitalis sp,digitalis sp,,,,,,,,
-3,dioscorea sp,dioscorea sp,,,,,,,,
-4,artemisia annua,artemisia annua,,,,,,,,
+0,a. paniculata,andrographis paniculata,berberis fremontii,berheris fremontii,artemisia annua_malaria,andrographis paniculata_inflammation,,,andrographis paniculata_anti-inflammatory,berheris fremontii_anti-microbial
+1,salix alba,salix alba,hypericum perforatum,hypericumperforatum,,salix alba_pain,,,andrographis paniculata_antibiotic,
+2,digitalis sp,digitalis sp,echinacea sp,,,digitalis sp_heart conditions,,,salix alba_analgesic,
+3,dioscorea sp,dioscorea sp,allium sativum,,,dioscorea sp_hormonal imbalance,,,digitalis sp_cardiotonic,
+4,artemisia annua,artemisia annua,,,,berberis fremontii_infections,,,dioscorea sp_hormonal regulation,
+5,,,,,,hypericum perforatum_depression,,,berberis fremontii_antimicrobial,
+6,,,,,,echinacea sp_immune system support,,,artemisia annua_antimalarial,
+7,,,,,,allium sativum_cardiovascular health,,,hypericum perforatum_antidepressant,
+8,,,,,,,,,echinacea sp_immunomodulatory,
+9,,,,,,,,,allium sativum_cardioprotective,

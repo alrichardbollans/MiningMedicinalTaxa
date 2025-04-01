@@ -1,11 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,echinacea angustifolia dc,echinacea angustifolia dc,,aloe vera,echinacea angustifolia dc_infections,boswellia serrata roxb. ex colebr_inflammation,aloe vera_skin heath,althaea officinalis l_demulcent,boswellia serrata roxb. ex colebr_anti-inflammatory,echinacea_maintain immune system
-1,echinacea,boswellia serrata roxb. ex colebr,,mentha,echinacea angustifolia dc_common cold,althaea officinalis l_cough,aloe vera_eczema,,,mentha_eases digestion
-2,boswellia,althaea officinalis l,,ginkgo,,,aloe vera_wound,,,mentha_calm nerves
-3,althaea officinalis l,,,agnus castus,,,aloe vera_skin conditions,,,ginkgo_circulatory problems
-4,,,,senna,,,echinacea_sore throat,,,boswellia serrate roxb. ex colebr_anti-inflammatory
-5,,,,boswellia serrate roxb. ex colebr,,,echinacea_colds,,,althaea officinalis l_cough
-6,,,,rhodiola,,,echinacea_coughs,,,
-7,,,,aspergillus,,,agnus castus_pms symptoms,,,
-8,,,,trachyspermum ammi,,,senna_constipation,,,
-9,,,,eucalyptus,,,,,,
+0,echinacea angustifolia dc,echinacea angustifolia dc,,aloe vera,echinacea angustifolia dc_infections,boswellia serrata roxb. ex colebr_arthritis,aloe vera_wound,althaea officinalis l_demulcent,echinacea angustifolia dc_immune boosting,echinacea_maintain immune system
+1,echinacea,boswellia serrata roxb. ex colebr,,agnus castus,echinacea angustifolia dc_common cold,althaea officinalis l_cough,aloe vera_eczema,mentha_calm nerves,boswellia serrata roxb. ex colebr_anti-inflammatory,mentha_eases digestion
+2,boswellia,althaea officinalis l,,senna,echinacea angustifolia dc_sore throat,trachyspermum ammi_indigestion,aloe vera_skin conditions,,,ginkgo_circulatory problems
+3,althaea officinalis l,trachyspermum ammi,,boswellia serrate roxb. ex colebr,,trachyspermum ammi_headaches,aloe vera_skin heath,,,boswellia serrate roxb. ex colebr_anti-inflammatory
+4,trachyspermum ammi,aspergillus,,rhodiola,,aspergillus_cough,echinacea_coughs,,,althaea officinalis l_cough
+5,aspergillus,mentha,,eucalyptus,,aspergillus_infection,echinacea_colds,,,
+6,mentha,ginkgo,,,,mentha_upset tummy,agnus castus_pms symptoms,,,
+7,ginkgo,,,,,mentha_digestion,senna_constipation,,,
+8,,,,,,ginkgo_circulatory problems,,,,

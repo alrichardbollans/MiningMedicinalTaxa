@@ -1,0 +1,27 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,chios mastic (cm,cannabis sativa l,,chios mastic (cm_hypertension,vernonia amygdalina del_malaria,,,cannabis sativa l_anxiolytic-like
+1,,,,salvia haenkei,,,,,,cannabis sativa l_immunomodulatory benefits
+2,,,,melissa officinalis,,,,,,cannabis sativa l_antioxidant
+3,,,,althaea officinalis,,,,,,cannabis sativa l_anti-iflammatory
+4,,,,aloysia citrodora,,,,,,cannabis sativa l_anti-inflammatory
+5,,,,calendula officinalis,,,,,,salvia haenkei_anti-senescence
+6,,,,andrographis paniculata (burm.f.) nees,,,,,,salvia haenkei_anti-ageing
+7,,,,vernonia amygdalina del,,,,,,salvia haenkei_anti-aging
+8,,,,achillea millefolium,,,,,,melissa officinalis_antioxidant
+9,,,,andrographis paniculata,,,,,,melissa officinalis_antimicrobial
+10,,,,cannabis,,,,,,althaea officinalis_antioxidant
+11,,,,canavalia ensiformis,,,,,,althaea officinalis_antimicrobial
+12,,,,,,,,,,aloysia citrodora_antioxidant
+13,,,,,,,,,,aloysia citrodora_antimicrobial
+14,,,,,,,,,,calendula officinalis_antioxidant
+15,,,,,,,,,,calendula officinalis_antimicrobial
+16,,,,,,,,,,andrographis paniculata (burm.f.) nees_antibacterial
+17,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-parasitic
+18,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-malarial
+19,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-tumor
+20,,,,,,,,,,andrographis paniculata (burm.f.) nees_antiviral
+21,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-hsv-1
+22,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-diabetic
+23,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-viral
+24,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-inflammatory
+25,,,,,,,,,,vernonia amygdalina del_antimalarial

@@ -1,3 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,pinus nigra,pinus nigra,,,,,,,,
-1,pinus peuce,pinus peuce,,,,,,,,
+0,pinus nigra,pinus nigra,,,,pinus nigra_sudden cardiac death,,,,
+1,pinus peuce,pinus peuce,,,,pinus nigra_coronary heart disease,,,,
+2,,,,,,pinus peuce_sudden cardiac death,,,,
+3,,,,,,pinus peuce_coronary heart disease,,,,

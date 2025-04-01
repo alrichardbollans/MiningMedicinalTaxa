@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,salix alba,salix alba,berberis fremontii,berheris fremontii,artemisia annua_malaria,,,,berberis fremontii_anti-microbial,berheris fremontii_anti-microbial
+1,digitalis sp,digitalis sp,hypericum perforatum,a. paniculata,,,,,,
+2,dioscorea sp,dioscorea sp,,hypericumperforatum,,,,,,
+3,artemisia annua,artemisia annua,,,,,,,,

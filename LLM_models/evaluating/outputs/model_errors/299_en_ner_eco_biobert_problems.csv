@@ -1,0 +1,17 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,centaurea ragusina l,centaurea ragusina l,5-fluorouracil,hemisteptia lyrata bunge,,,,,,centaurea ragusina l_antibacterial
+1,c. ragusina l,c. ragusina l,hela,,,,,,,hemisteptia lyrata bunge_antibacterial
+2,centaureasolstitialis l. ssp. solstitialis,centaureasolstitialis l. ssp,ragusinin,,,,,,,centaureasolstitialis l. ssp. solstitialis_inhibitory activity againststandard s. aureus
+3,arnica montana,arnica montana,ofhela,,,,,,,
+4,,,ofxenobiotics,,,,,,,
+5,,,cynaropicrin,,,,,,,
+6,,,guajanolides ragusinin,,,,,,,
+7,,,ofhemisteptia lyrata bunge,,,,,,,
+8,,,a. baumannii,,,,,,,
+9,,,s. aureus attc 25923(mic,,,,,,,
+10,,,s. aureus,,,,,,,
+11,,,flavonoids,,,,,,,
+12,,,ofragusinin,,,,,,,
+13,,,ashelenalin,,,,,,,
+14,,,neoambrosin,,,,,,,
+15,,,damsin,,,,,,,

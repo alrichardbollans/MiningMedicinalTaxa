@@ -1,7 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,,,,candida pelliculosa,,,,,,
-1,,,,candidaspp,,,,,,
-2,,,,c. albicans,,,,,,
-3,,,,saccharomyces cerevisiae,,,,,,
-4,,,,candida spp,,,,,,
-5,,,,c.albicans,,,,,,
+0,candida pelliculosa,candida pelliculosa,lactobacillus spp,candidaspp,,,,,,
+1,candida spp,candida spp,leuconostoc mesenteroides,c. albicans,,,,,,
+2,saccharomyces cerevisiae,saccharomyces cerevisiae,streptococcus spp,c.albicans,,,,,,
+3,,,pantoea agglomerans,,,,,,,

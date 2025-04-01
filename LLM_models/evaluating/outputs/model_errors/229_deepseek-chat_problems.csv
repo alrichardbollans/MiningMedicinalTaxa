@@ -1,0 +1,19 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,achillea moschata wulfen,achillea moschata wulfen,,candida,achillea moschata wulfen_gynaecological infections caused by candida spp,achillea moschata wulfen_digestive purposes,,achillea moschata wulfen_analgesic,,achillea moschata wulfen_digestive
+1,malva sylvestris l,malva sylvestris l,,,achillea moschata wulfen_intestinal swelling in bovine,malva sylvestris l_acne reactions,,achillea moschata wulfen_anti-inflammatory,,malva sylvestris l_soothing
+2,thymus pulegioides l,thymus pulegioides l,,,achillea moschata wulfen_ulcers healing in the lower limbs,achillea millefolium l_wounds on bovine paws,,achillea moschata wulfen_hypotensive,,malva sylvestris l_acne reactions
+3,achillea millefolium l,achillea millefolium l,,,malva sylvestris l_allergies,,,malva sylvestris l_emollient,,
+4,mentha spicata l,mentha spicata l,,,thymus pulegioides l_sore throat,,,malva sylvestris l_relaxing,,
+5,matricaria chamomilla l,matricaria chamomilla l,,,thymus pulegioides l_cold,,,malva sylvestris l_purifying,,
+6,tilia tomentosa moench,tilia tomentosa moench,,,achillea millefolium l_menopause symptoms,,,thymus pulegioides l_expectorant,,
+7,cucurbita pepo l,cucurbita pepo l,,,mentha spicata l_diarrhoea,,,achillea millefolium l_disinfectant,,
+8,viola tricolor l,viola tricolor l,,,matricaria chamomilla l_skin infections,,,origanum dictamnus l_relaxing effect on rabbit intestine,,
+9,triticum aestivum l,triticum aestivum l,,,matricaria chamomilla l_colic,,,,,
+10,anethum graveolens l,anethum graveolens l,,,tilia tomentosa moench_anxiety and agitation,,,,,
+11,chelidonium majus l,chelidonium majus l,,,tilia tomentosa moench_acute respiratory diseases,,,,,
+12,origanum dictamnus,origanum dictamnus l,,,cucurbita pepo l_intestinal worms,,,,,
+13,origanum dictamnus l,,,,viola tricolor l_hives,,,,,
+14,,,,,triticum aestivum l_dermatitis,,,,,
+15,,,,,anethum graveolens l_colics,,,,,
+16,,,,,chelidonium majus l_skin verruca,,,,,
+17,,,,,chelidonium majus l_acute hepatitis,,,,,

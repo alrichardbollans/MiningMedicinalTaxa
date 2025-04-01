@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,mentha,mentha,spicatae,m. x villoso-nervata,,,mentha_stomach pain,,,trigonella foenum graecum_psychotonic
-1,mentha longifolia,mentha longifolia,balta,,,,,,,trigonella foenum graecum_antidepressant
-2,m. spicata,m. spicata,labiatae,,,,,,,trigonella foenum graecum_hypoglycemic
-3,trigonella foenum graecum,trigonella,folina2,,,,,,,trigonella foenum graecum_antihyperlipidemic
+0,mentha,mentha,spicatae,m. x villoso-nervata,,,mentha_stomach pain,,,trigonella foenum graecum_antihyperlipidemic
+1,mentha longifolia,mentha longifolia,balta,,,,,,,trigonella foenum graecum_hypoglycemic
+2,m. spicata,m. spicata,labiatae,,,,,,,trigonella foenum graecum_antidepressant
+3,trigonella foenum graecum,trigonella,folina2,,,,,,,trigonella foenum graecum_psychotonic
 4,t. foenum graecum,t. foenum graecum,athenstrigonella foenum graecum,,,,,,,origanum vulgare l. ssp. hirtum (link) letsw_antioxidant
 5,origanum vulgare l. ssp. hirtum (link) letsw,origanum vulgare,hela,,,,,,,rosa pendulina l_antioxidant
 6,micromeria hispida,micromeria hispida,chenopodium quinoa,,,,,,,r. pendulina_antioxidant

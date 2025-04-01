@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ocimum,ocimum citriodorum,,ocimum citridorium,,,,,,
+1,o. basilicum,ocimum basilicum,,o. ammericanum,,,,,,
+2,o. americanum,ocimum americanum,,o.kilimandscharicum,,,,,,
+3,ocimum gratissimum,ocimum gratissimum,,,,,,,,
+4,o. tenuiflorum,ocimum tenuiflorum,,,,,,,,
+5,ocimum tenuiflorum,ocimum kilimandscharicum,,,,,,,,
+6,ocimum kilimandscharicum,ocimum canum,,,,,,,,
+7,o. canum,ocimum camphora,,,,,,,,
+8,o. camphora,ocimum micranthum,,,,,,,,
+9,o. micranthum,,,,,,,,,

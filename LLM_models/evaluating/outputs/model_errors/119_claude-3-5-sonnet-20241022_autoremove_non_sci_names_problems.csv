@@ -1,5 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,digitalis purpurea,digitalis purpurea,,gibberella fugikuroi,ephedra_asthma,claviceps purpurea_affects central nervous system,,,digitalis purpurea_effects on the heart,
-1,ephedra spp,ephedra,,gossypium spp,,claviceps purpurea_constricts blood vessels,,,ephedra_enhancement of physical performance,
-2,claviceps purpurea,claviceps purpurea,,ginkgo,,,,,ephedra_dilation of bronchial tubes,
-3,,,,citrus,,,,,,
+0,digitalis purpurea,digitalis purpurea,,gossypium spp,ephedra_asthma,digitalis purpurea_heart conditions,,,ephedra_bronchial dilation,
+1,ephedra spp,ephedra,,ginkgo,,claviceps purpurea_affects central nervous system,,,gibberella fugikuroi_stimulates growth in shoots and leaves,
+2,claviceps purpurea,claviceps purpurea,,citrus,,claviceps purpurea_causes convulsions,,,,
+3,gibberella fugikuroi,gibberella fugikuroi,,,,claviceps purpurea_leads to loss of extremities,,,,
+4,,,,,,claviceps purpurea_constricts blood vessels,,,,
+5,,,,,,gibberella fugikuroi_foolish seedling disease in rice,,,,

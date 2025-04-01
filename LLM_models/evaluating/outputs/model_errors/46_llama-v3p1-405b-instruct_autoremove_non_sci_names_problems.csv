@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ocimum citridorium,ocimum citridorium,,o. basilicum,,ocimum citridorium_diabetes,,,ocimum citridorium_diuretic,
+1,ocimum,ocimum gratissimum,,o. americanum,,ocimum citridorium_high blood pressure,,,ocimum citridorium_anti-inflammatory,
+2,ocimum gratissimum,ocimum kilimandscharicum,,o. ammericanum,,ocimum citridorium_cancer,,,ocimum citridorium_antibiotic,
+3,ocimum kilimandscharicum,ocimum tenuiflorum,,o. canum,,ocimum gratissimum_fever,,,ocimum gratissimum_antibiotic,
+4,o. tenuiflorum,,,o. camphora,,ocimum gratissimum_inflammation,,,ocimum gratissimum_stimulant,
+5,ocimum tenuiflorum,,,o.kilimandscharicum,,ocimum kilimandscharicum_cancer,,,ocimum kilimandscharicum_anti-inflammatory,
+6,,,,o. micranthum,,ocimum kilimandscharicum_fever,,,ocimum kilimandscharicum_antibiotic,
+7,,,,,,ocimum tenuiflorum_diabetes,,,ocimum tenuiflorum_diuretic,
+8,,,,,,ocimum tenuiflorum_high blood pressure,,,ocimum tenuiflorum_stimulant,

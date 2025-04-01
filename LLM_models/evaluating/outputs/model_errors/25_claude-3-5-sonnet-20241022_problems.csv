@@ -1,7 +1,3 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,aloe vera,aloe vera,trachyspermum ammi,,aloe vera_itchy skin,trachyspermum ammi_flatulence,aloe vera_wounds,,trachyspermum ammi_digestive aid,
-1,,,azadirachta indica,,,trachyspermum ammi_indigestion,,,trachyspermum ammi_pain relief,
-2,,,curcuma longa,,,trachyspermum ammi_diarrhoea,,,trachyspermum ammi_laxative,
-3,,,,,,azadirachta indica_itchy skin,,,trachyspermum ammi_anti-spasmodic,
-4,,,,,,curcuma longa_wounds,,,curcuma longa_anti-inflammatory,
-5,,,,,,,,,curcuma longa_antimicrobial,
+0,aloe vera,aloe vera,,,aloe vera_itchy skin,,,,,
+1,,,,,aloe vera_wounds,,,,,

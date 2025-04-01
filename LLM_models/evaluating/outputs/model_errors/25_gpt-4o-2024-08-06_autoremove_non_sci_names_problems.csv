@@ -1,0 +1,4 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aloe vera,aloe vera,curcuma longa,,aloe vera_itchy skin,curcuma longa_wounds,aloe vera_wounds,,curcuma longa_antimicrobial,
+1,,,azadirachta indica,,,azadirachta indica_itchy skin,,,curcuma longa_anti-inflammatory,
+2,,,,,,azadirachta indica_wounds,,,,

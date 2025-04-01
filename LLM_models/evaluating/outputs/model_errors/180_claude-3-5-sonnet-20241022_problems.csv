@@ -1,19 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,juniperus excelsa,juniperus excelsa,,juniperus commu-nis,,,,juniperus excelsa_antioxidant,juniperus excelsa_hypoglycemic,juniperus commu-nis_antioxidant
-1,j. excelsa,juniperus communis,,juniperus foetidissima,,,,juniperus communis_antioxidant,juniperus excelsa_anti-inflammatory,juniperus foetidissima_antioxidant
-2,juniperus communis,juniperus oxycedrus,,j. foetidissima,,,,juniperus oxycedrus_antioxidant,juniperus excelsa_diuretic,j. communis_antioxidants
-3,j. communis,,,juniper,,,,,juniperus excelsa_analgesic,j. excelsa_antioxidants
-4,juniperus oxycedrus,,,j. excel-sa,,,,,juniperus excelsa_antimicrobial,j. foetidissima_antioxidant
-5,,,,j. commu-nis,,,,,juniperus excelsa_hypotensive,j. foetidissima_antioxidants
-6,,,,,,,,,juniperus communis_hypoglycemic,juniper_hypotensive
-7,,,,,,,,,juniperus communis_anti-inflammatory,juniper_diuretic
-8,,,,,,,,,juniperus communis_diuretic,juniper_antimicrobial
-9,,,,,,,,,juniperus communis_analgesic,juniper_analgesic
-10,,,,,,,,,juniperus communis_antimicrobial,juniper_hypoglycemic
-11,,,,,,,,,juniperus communis_hypotensive,juniper_an-ti-inflammatory
-12,,,,,,,,,juniperus oxycedrus_hypoglycemic,
-13,,,,,,,,,juniperus oxycedrus_anti-inflammatory,
-14,,,,,,,,,juniperus oxycedrus_diuretic,
-15,,,,,,,,,juniperus oxycedrus_analgesic,
-16,,,,,,,,,juniperus oxycedrus_antimicrobial,
-17,,,,,,,,,juniperus oxycedrus_hypotensive,
+0,juniperus excelsa,juniperus excelsa,,juniperus commu-nis,,,,juniperus excelsa_antioxidant,juniperus communis_diuretic,juniperus commu-nis_antioxidant
+1,j. excelsa,juniperus communis,,juniper,,,,juniperus communis_antioxidant,juniperus communis_hypotensive,j. communis_antioxidants
+2,juniperus communis,juniperus oxycedrus,,j. excel-sa,,,,juniperus oxycedrus_antioxidant,juniperus communis_hypoglycemic,j. excelsa_antioxidants
+3,j. communis,juniperus foetidissima,,j. commu-nis,,,,juniperus foetidissima_antioxidant,juniperus communis_analgesic,j. foetidissima_antioxidants
+4,juniperus oxycedrus,,,,,,,,juniperus communis_antimicrobial,juniper_diuretic
+5,juniperus foetidissima,,,,,,,,juniperus communis_anti-inflammatory,juniper_hypotensive
+6,j. foetidissima,,,,,,,,,juniper_an-ti-inflammatory
+7,,,,,,,,,,juniper_hypoglycemic
+8,,,,,,,,,,juniper_analgesic
+9,,,,,,,,,,juniper_antimicrobial

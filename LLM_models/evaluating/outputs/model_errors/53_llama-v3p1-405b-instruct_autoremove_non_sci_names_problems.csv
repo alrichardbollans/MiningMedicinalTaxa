@@ -1,10 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,lycium barbarum,lycium barbarum,crataegus,,lycium barbarum_diabetes,crataegus_cardiovascular disease,lycium barbarum_dyslipidaemia,lycium barbarum_hypoglycemic,crataegus_antioxidant,lycium barbarum_lower blood pressure and blood sugar
-1,,,emblica officinalis,,,crataegus_diabetes,lycium barbarum_metabolic syndrome,,crataegus_hypolipidemic,lycium barbarum_reduce blood sugar
-2,,,,,,lycium barbarum_cardiovascular disease,,,crataegus_hypotensive,lycium barbarum_lower blood pressure
-3,,,,,,emblica officinalis_cardiovascular disease,,,lycium barbarum_antioxidant,
-4,,,,,,emblica officinalis_diabetes,,,lycium barbarum_hypolipidemic,
-5,,,,,,,,,emblica officinalis_cardioprotective,
+0,lycium barbarum,lycium barbarum,crataegus,,lycium barbarum_diabetes,crataegus_diabetes,lycium barbarum_dyslipidaemia,lycium barbarum_hypoglycemic,crataegus_hypoglycemic,lycium barbarum_lower blood pressure
+1,,,emblica officinalis,,,crataegus_cardiovascular disease,lycium barbarum_metabolic syndrome,,crataegus_antioxidant,lycium barbarum_reduce blood sugar
+2,,,,,,lycium barbarum_cardiovascular disease,,,crataegus_hypolipidemic,lycium barbarum_lower blood pressure and blood sugar
+3,,,,,,emblica officinalis_diabetes,,,lycium barbarum_antioxidant,
+4,,,,,,emblica officinalis_cardiovascular disease,,,lycium barbarum_hypolipidemic,
+5,,,,,,,,,emblica officinalis_hypoglycemic,
 6,,,,,,,,,emblica officinalis_antioxidant,
 7,,,,,,,,,emblica officinalis_hypolipidemic,
-8,,,,,,,,,emblica officinalis_hypoglycemic,

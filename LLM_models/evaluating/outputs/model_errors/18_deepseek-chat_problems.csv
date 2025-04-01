@@ -1,0 +1,20 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,salix spp,salix spp,,jatropha podagrica hook,digitalis lanata ehrh_cardiac disease,salix spp_pain relief,,salix spp_anti-platelet effects,papaver somniferum l_opioid analgesics,salix spp_pain relief
+1,digitalis lanata ehrh,digitalis lanata ehrh,,,papaver somniferum l_hypertension,galega officinalis l_type 2 diabetes,,papaver somniferum l_vasodilator,aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang_carcinogenic,galega officinalis l_anti-diabetic
+2,galega officinalis l,galega officinalis l,,,cinchona officinalis l_malaria,papaver somniferum l_pain relief,,rumex rupestris le gall_astringent,aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang_mutagenic,papaver somniferum l_pain relief
+3,papaver somniferum l,papaver somniferum l,,,cinchona officinalis l_fever,aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang_renal damage,,panax ginseng c.a.mey_enhancement of mental and physical performance,aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang_nephrotoxic,cinchona officinalis l_anti-malarial
+4,cinchona officinalis l,cinchona officinalis l,,,cinchona officinalis l_infectious disease,,,panax ginseng c.a.mey_male stimulant,,
+5,catharanthus roseus l,catharanthus roseus l,,,catharanthus roseus l_cancer,,,,,
+6,panax quinquefolius l,panax quinquefolius l,,,panax ginseng c.a.mey_fatigue,,,,,
+7,panax,rumex rupestris le gall,,,,,,,,
+8,rumex rupestris le gall,saxifraga hirculus l,,,,,,,,
+9,saxifraga hirculus l,panax ginseng c.a.mey,,,,,,,,
+10,panax ginseng c.a.mey,codonopsis pilosula nannf,,,,,,,,
+11,codonopsis pilosula nannf,rumex madaio makino,,,,,,,,
+12,rumex madaio makino,talinum paniculatum (jacq.) gaertn,,,,,,,,
+13,talinum paniculatum (jacq.) gaertn,stephania tetrandra s.moore,,,,,,,,
+14,stephania tetrandra s.moore,aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang,,,,,,,,
+15,stephania tetrandra,,,,,,,,,
+16,aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang,,,,,,,,,
+17,aristolochia fangchi,,,,,,,,,
+18,aristolochia,,,,,,,,,

@@ -1,5 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,curcuma longa,curcuma longa,,,,curcuma longa_anti-infectious,,,,curcuma longa_hepatoprotective
-1,,,,,,curcuma longa_hepatoprotective,,,,curcuma longa_pleiotropic antineoplastic
-2,,,,,,curcuma longa_anti-inflammatory,,,,curcuma longa_anti-infectious
-3,,,,,,,,,,curcuma longa_anti-inflam-matory
+0,curcuma longa,curcuma longa,,,,curcuma longa_diabetes,,curcuma longa_anti-infectious,,
+1,,,,,,curcuma longa_high blood pressure,,curcuma longa_antineoplastic,,
+2,,,,,,curcuma longa_cancer,,curcuma longa_anti-inflammatory,,
+3,,,,,,curcuma longa_inflammation,,curcuma longa_hepatoprotective,,

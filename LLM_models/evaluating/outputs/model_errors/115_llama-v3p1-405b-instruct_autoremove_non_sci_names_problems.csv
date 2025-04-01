@@ -1,50 +1,50 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,podophyllum peltatum,podophyllum peltatum,dioscorea alata,aechemea magdalanae,,kigelia pinnata_lesions,chenopodium quinoa_intestinal worms,,podophyllum peltatum_medicinal,lobelia tupa_emetic
-1,alnus glutinosa,alnus glutinosa,,coryphanthus palmeri,,pulmonaria officinalis_respiratory,solidago spp_hepatitis,,alnus glutinosa_tannin,carthamus tinctorius_vermifuge
-2,alnus oregana,alnus oregana,,caryocarya amygdaliferum,,chenopodium anthelminthicum_intestinal worms,tanacetum vulgare_migraine,,alnus glutinosa_medicine,carthamus tinctorius_diuretic
-3,alnus rubra,alnus rubra,,sirartia grosvenorii,,silybum marianum_hepatitis,tanacetum vulgare_fever,,betula lenta_flavoring,dichondra spp_purgative
-4,betula allaghaniensis,betula allaghaniensis,,diosocrea alata,,tanacetum parthenium_migraine,nyssa aquatica_leukemia,,cordia sebestena_medicine,dichondra_purgative
-5,betula lenta,betula lenta,,,,camptotheca acuminata_leukemia,nyssa aquatica_throat cancer,,symphytum officinale_medicine,ipomoea pandurata_purgative
-6,betula papyrifera,betula papyrifera,,,,camptotheca acuminata_throat cancer,,,ananas comosus_proteolytic enzyme,ipomoea purga_cathartic
-7,betula pendula,betula pendula,,,,,,,ananas comosus_fibers,ipomoea tricolor_purgative
-8,carpinus caroliniana,carpinus caroliniana,,,,,,,boswellia carteri_medicine,citrullus lanatus_purgative
-9,corylus americana,corylus americana,,,,,,,commiphora gileadensis_incense,casuarina equisetifolia_laxative
-10,corylus avellana,corylus avellana,,,,,,,commiphora gileadensis_medicine,
-11,corylus chinensis,corylus chinensis,,,,,,,commiphora myrrha_incense,
-12,corylus cornuta,corylus cornuta,,,,,,,commiphora myrrha_medicine,
-13,ostrya spp,ostrya spp,,,,,,,echinopsis pachanoi_psychoactive alkaloids,
-14,catalpa bignonioides,catalpa bignonioides,,,,,,,lophophora williamsii_psychoactive alkaloids,
-15,catalpa,catalpa speciosa,,,,,,,lobelia inflata_medicine,
-16,catalpa speciosa,crescentia cujete,,,,,,,lobelia inflata_fumatory,
-17,crescentia cujete,kigelia pinnata,,,,,,,lobelia inflata_emetic,
-18,kigelia pinnata,tabebuia donnell-smithii,,,,,,,lobelia tupa_psychoactive,
-19,tabebuia donnell-smithii,tabebuia serratifolia,,,,,,,cannabis sativa_psychoactive,
-20,tabebuia serratifolia,bixa orellana,,,,,,,cannabis sativa_fiber,
-21,bixa orellana,adansonia digitata,,,,,,,cannabis sativa_fixed oil,
-22,adansonia digitata,bombax ceiba,,,,,,,cannabis sativa_medicine,
-23,bombax ceiba,ceiba pentandra,,,,,,,cannabis sativa_food,
-24,ceiba pentandra,chorisia speciosa,,,,,,,humulus lupulus_flavoring,
-25,chorisia speciosa,durio zibethinus,,,,,,,canna edulis_edible starch,
-26,durio zibethinus,ochroma pyramindale,,,,,,,carica papaya_meat tenderizer,
-27,ochroma pyramindale,pachira aquatica,,,,,,,saponaria officinalis_laxative,
-28,pachira aquatica,alkanna lehmannii,,,,,,,catha edulis_caffeinated beverage,
-29,alkanna lehmannii,cordia sebestena,,,,,,,chenopodium ambrosioides_wormseed,
-30,alkanna,cordia subcordata,,,,,,,cistus ladaniferus_labdanum,
-31,cordia sebestena,pulmonaria officinalis,,,,,,,terminalia chebula_tannin,
-32,cordia subcordata,symphytum officinale,,,,,,,artemisia absinthium_absinthe,
-33,pulmonaria officinalis,ananas comosus,,,,,,,artemisia dracunculus_vermifuge,
-34,symphytum officinale,tillandsia usneoides,,,,,,,artemisia dracunculus_diuretic,
-35,ananas comosus,boswellia carteri,,,,,,,chrysanthemum cinerariifolium_pyrethrum,
-36,tillandsia usneoides,bursera spp,,,,,,,echinacea angustifolia_immune system,
-37,boswellia carteri,canarium spp,,,,,,,echinacea purpurea_immune system,
-38,bursera,commiphora gileadensis,,,,,,,inula helenium_respiratory,
-39,bursera spp,commiphora myrrha,,,,,,,convolvulus scammonia_purgative,
-40,canarium spp,carnegia gigantea,,,,,,,ipomoea orizabensis_purgative,
-41,commiphora gileadensis,echinopsis pachanoi,,,,,,,ipomoea pes-caprae_cathartic,
-42,commiphora myrrha,hylocereus undatus,,,,,,,ipomoea purga_purgative,
-43,carnegia gigantea,lophophora williamsii,,,,,,,citrullus colocynthis_purgative,
-44,echinopsis pachanoi,opuntia ficus-indica,,,,,,,dioscorea alata_cortical steroids,
-45,hylocereus undatus,stenocereus stellatus,,,,,,,dioscorea villosa_diosgenin,
+0,podophyllum peltatum,podophyllum peltatum,dioscorea alata,aechemea magdalanae,,kigelia pinnata_lesions,chenopodium quinoa_intestinal worms,,lobelia inflata_emetic,lobelia tupa_emetic
+1,alnus glutinosa,alnus glutinosa,,coryphanthus palmeri,,pulmonaria officinalis_respiratory,solidago spp_hepatitis,,lobelia tupa_psychoactive,carthamus tinctorius_diuretic
+2,alnus oregana,alnus oregana,,caryocarya amygdaliferum,,chenopodium anthelminthicum_intestinal worms,tanacetum vulgare_migraine,,cannabis sativa_psychoactive,carthamus tinctorius_vermifuge
+3,alnus rubra,alnus rubra,,sirartia grosvenorii,,echinacea angustifolia_immune system,tanacetum vulgare_fever,,carica papaya_papain,dichondra spp_purgative
+4,betula allaghaniensis,betula allaghaniensis,,diosocrea alata,,echinacea purpurea_immune system,nyssa aquatica_leukemia,,carica papaya_meat tenderizer,dichondra_purgative
+5,betula lenta,betula lenta,,,,inula helenium_respiratory,nyssa aquatica_throat cancer,,saponaria officinalis_laxative,ipomoea pandurata_purgative
+6,betula papyrifera,betula papyrifera,,,,silybum marianum_hepatitis,,,catha edulis_caffeinated,ipomoea purga_cathartic
+7,betula pendula,betula pendula,,,,tanacetum parthenium_migraine,,,chenopodium ambrosioides_wormseed,ipomoea tricolor_purgative
+8,carpinus caroliniana,carpinus caroliniana,,,,camptotheca acuminata_leukemia,,,cistus ladaniferus_labdanum,citrullus lanatus_purgative
+9,corylus americana,corylus americana,,,,camptotheca acuminata_throat cancer,,,cochlospermum religiosum_karaya,casuarina equisetifolia_laxative
+10,corylus avellana,corylus avellana,,,,,,,anogeissus latifolia_ghatti,
+11,corylus chinensis,corylus chinensis,,,,,,,anogeissus latifolia_dye (black,
+12,corylus cornuta,corylus cornuta,,,,,,,terminalia chebula_tannin,
+13,ostrya spp,ostrya spp,,,,,,,artemisia absinthium_absinthe,
+14,catalpa bignonioides,catalpa bignonioides,,,,,,,artemisia dracunculus_diuretic,
+15,catalpa,catalpa speciosa,,,,,,,artemisia dracunculus_vermifuge,
+16,catalpa speciosa,crescentia cujete,,,,,,,chrysanthemum cinerariifolium_pyrethrum,
+17,crescentia cujete,kigelia pinnata,,,,,,,echinacea angustifolia_immune system,
+18,kigelia pinnata,tabebuia donnell-smithii,,,,,,,echinacea purpurea_immune system,
+19,tabebuia donnell-smithii,tabebuia serratifolia,,,,,,,convolvulus scammonia_purgative,
+20,tabebuia serratifolia,bixa orellana,,,,,,,ipomoea orizabensis_purgative,
+21,bixa orellana,adansonia digitata,,,,,,,ipomoea pes-caprae_cathartic,
+22,adansonia digitata,bombax ceiba,,,,,,,ipomoea purga_purgative,
+23,bombax ceiba,ceiba pentandra,,,,,,,,
+24,ceiba pentandra,chorisia speciosa,,,,,,,,
+25,chorisia speciosa,durio zibethinus,,,,,,,,
+26,durio zibethinus,ochroma pyramindale,,,,,,,,
+27,ochroma pyramindale,pachira aquatica,,,,,,,,
+28,pachira aquatica,alkanna lehmannii,,,,,,,,
+29,alkanna lehmannii,cordia sebestena,,,,,,,,
+30,alkanna,cordia subcordata,,,,,,,,
+31,cordia sebestena,pulmonaria officinalis,,,,,,,,
+32,cordia subcordata,symphytum officinale,,,,,,,,
+33,pulmonaria officinalis,ananas comosus,,,,,,,,
+34,symphytum officinale,tillandsia usneoides,,,,,,,,
+35,ananas comosus,boswellia carteri,,,,,,,,
+36,tillandsia usneoides,bursera spp,,,,,,,,
+37,boswellia carteri,canarium spp,,,,,,,,
+38,bursera,commiphora gileadensis,,,,,,,,
+39,bursera spp,commiphora myrrha,,,,,,,,
+40,canarium spp,carnegia gigantea,,,,,,,,
+41,commiphora gileadensis,echinopsis pachanoi,,,,,,,,
+42,commiphora myrrha,hylocereus undatus,,,,,,,,
+43,carnegia gigantea,lophophora williamsii,,,,,,,,
+44,echinopsis pachanoi,opuntia ficus-indica,,,,,,,,
+45,hylocereus undatus,stenocereus stellatus,,,,,,,,
 46,lophophora williamsii,lobelia inflata,,,,,,,,
 47,opuntia ficus-indica,lobelia tupa,,,,,,,,
 48,stenocereus stellatus,cannabis sativa,,,,,,,,

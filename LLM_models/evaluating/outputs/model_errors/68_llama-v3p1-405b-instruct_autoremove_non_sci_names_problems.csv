@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,,,,sorghum,,,,,,
-1,,,,sorghum bicolor,,,,,,
-2,,,,s. halepense,,,,,,
-3,,,,zea mays,,,,,,
-4,,,,zea diploperennis,,,,,,
+0,sorghum,sorghum bicolor,,,,sorghum bicolor_diabetes,,,sorghum bicolor_antibiotic,
+1,sorghum bicolor,zea mays,,,,zea mays_cancer,,,zea mays_anti-inflammatory,
+2,zea mays,sorghum halepense,,,,sorghum halepense_high blood pressure,,,sorghum halepense_diuretic,
+3,s. halepense,zea diploperennis,,,,zea diploperennis_inflammation,,,zea diploperennis_stimulant,
+4,zea diploperennis,,,,,,,,,

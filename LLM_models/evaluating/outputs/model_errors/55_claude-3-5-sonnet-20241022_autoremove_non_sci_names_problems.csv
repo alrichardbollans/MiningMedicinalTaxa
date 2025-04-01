@@ -1,28 +1,24 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,citrus aurantium,citrus aurantium,symphytum officinalis,psyllium ispaghula,echinacea purpurea_sore throat,symphytum officinalis_muscle problems,psyllium ispaghula_stomach troubles,citrus aurantium_weight management,boswellia_anti-inflammatory,boswellia_anti-infl ammatories
-1,echinacea purpurea,echinacea purpurea,valeriana officinalis,symphtytum offi cinalis,sabal serrulata_prostate problems,symphytum officinalis_joint problems,tagetes erecta_night vision,annona muricata_immunity,,tagetes erecta_eye health
-2,echinacea,sabal serrulata,cimicifuga racemosa,psyllium,sabal serrulata_impotence,symphytum officinalis_bruises,symphtytum offi cinalis_cuts,annona muricata_health enhancement,,symphtytum offi cinalis_muscles
-3,sabal serrulata,boswellia,,eucalyptus,boswellia_arthrosis,symphytum officinalis_cuts,symphtytum offi cinalis_bruises,angelica archangelica_muscle relaxing,,symphtytum offi cinalis_joints
-4,boswellia,vaccinium myrtillus,,aloe vera,vaccinium myrtillus_eye diseases,silybum marianum_liver diseases,eucalyptus_sore shoulders,,,psyllium_laxative
-5,vaccinium myrtillus,tagetes erecta,,cimicifuga rasemosa,tagetes erecta_eye diseases,hypericum perforatum_nappy rash,,,,eucalyptus_mouth wash
-6,tagetes erecta,annona muricata,,aloe,crataegus_cardiac weakness,hypericum perforatum_anxiety,,,,eucalyptus_antiseptic
-7,annona muricata,angelica archangelica,,symphytum offi cinalis,crataegus_mild heart conditions,hypericum perforatum_depression,,,,eucalyptus_fat-free muscle building
-8,angelica archangelica,silybum marianum,,chrysanthemum,,arnica montana_nappy rash,,,,eucalyptus_recovery
-9,silybum marianum,hypericum perforatum,,kaempferia pafi fl ora,,,,,,
-10,hypericum perforatum,arnica montana,,zingiber offi cinale,,,,,,
-11,arnica montana,crataegus,,anamitra cocculus w & a,,,,,,
-12,crataegus,,,nelumbo nucifera gaertner,,,,,,
-13,,,,piper nigrum,,,,,,
-14,,,,polygonum multifl orum,,,,,,
-15,,,,piper lolot,,,,,,
-16,,,,glychyrrhiza uralensis,,,,,,
-17,,,,cordyseps,,,,,,
-18,,,,cordyseps sinensis,,,,,,
-19,,,,cordyceps sinensis,,,,,,
-20,,,,gingko biloba,,,,,,
-21,,,,valeriana offi cinalis,,,,,,
-22,,,,eleutherococcus senticosus,,,,,,
-23,,,,acanthopanax senticosus,,,,,,
-24,,,,tinaspora sinensis,,,,,,
-25,,,,senna,,,,,,
-26,,,,butea superba,,,,,,
+0,citrus aurantium,citrus aurantium,kaempferia pafiflora,psyllium ispaghula,echinacea purpurea_sore throat,citrus aurantium_weight management,psyllium ispaghula_stomach troubles,annona muricata_immunity enhancement,boswellia_anti-inflammatory,boswellia_anti-infl ammatories
+1,echinacea purpurea,echinacea purpurea,zingiber officinale,symphtytum offi cinalis,sabal serrulata_impotence,vaccinium myrtillus_night vision,symphtytum offi cinalis_cuts,angelica archangelica_muscle relaxing,,tagetes erecta_eye health
+2,echinacea,sabal serrulata,polygonum multiflorum,psyllium,sabal serrulata_prostate problems,silybum marianum_liver diseases,symphtytum offi cinalis_bruises,,,symphtytum offi cinalis_muscles
+3,sabal serrulata,boswellia,valeriana officinalis,eucalyptus,boswellia_arthrosis,hypericum perforatum_nappy rash,eucalyptus_sore shoulders,,,symphtytum offi cinalis_joints
+4,boswellia,vaccinium myrtillus,,aloe vera,vaccinium myrtillus_eye diseases,hypericum perforatum_anxiety,,,,annona muricata_health enhancement
+5,vaccinium myrtillus,tagetes erecta,,aloe,tagetes erecta_night vision,hypericum perforatum_depression,,,,psyllium_laxative
+6,tagetes erecta,annona muricata,,symphytum offi cinalis,tagetes erecta_eye diseases,arnica montana_nappy rash,,,,eucalyptus_recovery
+7,annona muricata,angelica archangelica,,chrysanthemum,crataegus_mild heart conditions,,,,,eucalyptus_fat-free muscle building
+8,angelica archangelica,butea superba,,kaempferia pafi fl ora,crataegus_cardiac weakness,,,,,eucalyptus_mouth wash
+9,butea superba,nelumbo nucifera gaertner,,zingiber offi cinale,,,,,,eucalyptus_antiseptic
+10,nelumbo nucifera gaertner,silybum marianum,,anamitra cocculus w & a,,,,,,citrus aurantium_weight management
+11,silybum marianum,gingko biloba,,piper nigrum,,,,,,
+12,gingko biloba,hypericum perforatum,,polygonum multifl orum,,,,,,
+13,hypericum perforatum,arnica montana,,piper lolot,,,,,,
+14,arnica montana,cimicifuga rasemosa,,glychyrrhiza uralensis,,,,,,
+15,cimicifuga rasemosa,crataegus,,cordyseps,,,,,,
+16,crataegus,,,cordyseps sinensis,,,,,,
+17,,,,cordyceps sinensis,,,,,,
+18,,,,valeriana offi cinalis,,,,,,
+19,,,,eleutherococcus senticosus,,,,,,
+20,,,,acanthopanax senticosus,,,,,,
+21,,,,tinaspora sinensis,,,,,,
+22,,,,senna,,,,,,

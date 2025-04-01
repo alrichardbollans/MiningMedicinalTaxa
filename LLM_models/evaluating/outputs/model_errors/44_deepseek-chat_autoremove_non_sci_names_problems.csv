@@ -1,0 +1,20 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,olea europaea,olea europaea,pistacia vera,vitus vinifera,olea europaea_ear infections and wax,piper betle_digestion,ficus religiosa_wounds,spinacia oleracea_good for the blood and internal strength,pistacia vera_general health,ficus religiosa_liver health
+1,piper betle,piper betle,vitis vinifera,pistaci vera,olea europaea_arthritis,ficus religiosa_liver health,vitus vinifera_cough,spinacia oleracea_source of iron,vitis vinifera_blood purifier,ficus religiosa_digestion
+2,spinacia oleracea,spinacia oleracea,,asparagus,olea europaea_skin conditions e.g. eczema,ficus religiosa_digestion,,annona reticulata_immune boosting properties,,foeniculum vulgare_digestion
+3,ficus religiosa,ficus religiosa,,,ficus religiosa_diarrhoea,pistacia vera_cholesterol,,areca catechu_stimulant,,vitus vinifera_blood purifier
+4,mentha arvensis,mentha arvensis,,,mentha arvensis_indigestion,mentha arvensis_digestion,,sesamum indicum_improves circulation,,laurus nobilis_digestion
+5,annona reticulata,annona reticulata,,,annona reticulata_diarrhoea,foeniculum vulgare_digestion,,sesamum indicum_warms blood,,sesamum indicum_reduce urinary frequency
+6,brassica juncea,brassica juncea,,,annona reticulata_cancer,vitis vinifera_cough,,ocimum tenuiflorum_antibacterial,,coriandrum sativum_digestion
+7,foeniculum vulgare,foeniculum vulgare,,,brassica juncea_pain,areca catechu_digestion,,,,piper betle_digestion
+8,areca catechu,areca catechu,,,brassica juncea_dry skin,laurus nobilis_digestion,,,,pistaci vera_general health
+9,laurus nobilis,laurus nobilis,,,foeniculum vulgare_bloating,sesamum indicum_reduce urinary frequency,,,,pistaci vera_cholesterol
+10,sesamum indicum,sesamum indicum,,,foeniculum vulgare_cough,coriandrum sativum_digestion,,,,
+11,ajuga bracteosa,ajuga bracteosa,,,foeniculum vulgare_constipation,,,,,
+12,coriandrum sativum,coriandrum sativum,,,laurus nobilis_diabetes,,,,,
+13,ocimum tenuiflorum,ocimum tenuiflorum,,,ajuga bracteosa_menstrual problems,,,,,
+14,ocimum,,,,ajuga bracteosa_gout,,,,,
+15,,,,,coriandrum sativum_diabetes,,,,,
+16,,,,,ocimum tenuiflorum_diabetes,,,,,
+17,,,,,ocimum tenuiflorum_coughs and colds,,,,,
+18,,,,,ocimum tenuiflorum_asthma,,,,,

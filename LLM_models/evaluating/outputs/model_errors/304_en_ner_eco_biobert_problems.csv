@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,phellodendron amurense,"phellodendron amurense, p","trichomonas vaginalis),acute",zanthoxylum monophyllumtul,,,zanthoxylum monophyllumtul_eye infections,,,
-1,tinospora cordifolia,tinospora cordifolia,1996zanthoxylum monophyllumtul,p. chinense,,,zanthoxylum monophyllumtul_dark vomitus,,,
+0,phellodendron amurense,"phellodendron amurense, p","trichomonas vaginalis),acute",zanthoxylum monophyllumtul,,,zanthoxylum monophyllumtul_dark vomitus,,,
+1,tinospora cordifolia,tinospora cordifolia,1996zanthoxylum monophyllumtul,p. chinense,,,zanthoxylum monophyllumtul_eye infections,,,
 2,tinospora cordifolia) (willd.) miers,xanthorhizasimplicissima,papaveraceae,b. croatica,,,,,,
 3,tinospora,chelidoniummajus,coptidis rhizoma,enantia chlorantha oliv,,,,,,
 4,xanthorhizasimplicissima,berberis aristata,barberry,annickia pilosa (exell) setten & maas,,,,,,

@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,papaver somniferum,papaver somniferum,,,papaver somniferum_anxiety,cannabis sativa_glaucoma,,,papaver somniferum_analgesic,
+1,cannabis sativa,cannabis sativa,,,papaver somniferum_pain,cannabis sativa_nausea,,,papaver somniferum_pain-killing,
+2,c. sativa,cannabis indica,,,,,,,papaver somniferum_narcotic,
+3,cannabis,cannabis ruderalis,,,,,,,papaver somniferum_hypnotic,
+4,cannabis indica,humulus lupulus,,,,,,,cannabis sativa_euphoric,
+5,c. indica,,,,,,,,cannabis indica_euphoric,
+6,c. ruderalis,,,,,,,,,
+7,humulus lupulus,,,,,,,,,

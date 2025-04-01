@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,centaurea ragusina l,centaurea ragusina l,helipterum maryonii s. moore,centaureasolstitialis l. ssp. solstitialis,,centaurea ragusina l_cancer,,centaurea ragusina l_antibacterial,centaurea ragusina l_cytotoxic,hemisteptia lyrata bunge_antibacterial
+1,c. ragusina l,hemisteptia lyrata bunge,,,,,,,arnica montana_induces atypical form of cell death,centaureasolstitialis l. ssp. solstitialis_inhibitory activity againststandard s. aureus
+2,hemisteptia lyrata bunge,arnica montana,,,,,,,,
+3,arnica montana,,,,,,,,,

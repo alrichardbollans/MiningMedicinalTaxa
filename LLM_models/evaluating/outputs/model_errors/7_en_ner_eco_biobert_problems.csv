@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,teuchrium chamaedrys,teuchrium chamaedrys (germander,andrographolide,,,,,,,a. paniculata_hepatoprotective
-1,t. chamaedrys,t. chamaedrys,teucrin,,,,,,,a. paniculata_anti-hepatotoxic
+0,teuchrium chamaedrys,teuchrium chamaedrys (germander,andrographolide,,,,,,,a. paniculata_anti-hepatotoxic
+1,t. chamaedrys,t. chamaedrys,teucrin,,,,,,,a. paniculata_hepatoprotective
 2,a. paniculata,a. paniculata,teuchamaedryn a.the,,,,,,,
 3,vicia faba,vicia faba,mammals,,,,,,,
 4,helminthosporium dematioideum,helminthosporium dematioideum,cytokinesis block micronucleus assay3.1,,,,,,,

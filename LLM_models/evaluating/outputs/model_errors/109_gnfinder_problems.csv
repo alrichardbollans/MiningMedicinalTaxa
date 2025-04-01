@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,papaver somniferum,papaver somniferum,india-chinaopium tradeprocessingopium,c. indica,,,papaver somniferum_anxiety,,,
+1,cannabis,cannabis sativa1783,c. ruderalis1924,,,,papaver somniferum_pain,,,
+2,cannabis sativa,cannabis indica1798,urticaceae,,,,,,,
+3,c. sativa,cannabis sativa,cannabaceae,,,,,,,
+4,c. ruderalis,c. sativa,,,,,,,,
+5,humulus lupulus,c. ruderalis,,,,,,,,
+6,cannabis indica,humulus,,,,,,,,
+7,,cannabis,,,,,,,,

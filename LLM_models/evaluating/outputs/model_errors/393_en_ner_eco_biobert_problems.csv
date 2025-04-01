@@ -1,0 +1,43 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,veronica,veronica chamaedrysancuta c,popa mo,v. hederifolia l,,,veronica_respiratory affections,,,veronica_antiscorbutic
+1,v. officinalis,veronica officinalis l,withveronica chamaedrys,v. polita fr,,,veronica anagallis-aquatica l_rheumatic pain,,,veronica_diuretic
+2,veronica officinalis,v. chamaedrys l,"common speedwell),a",veronicaofficinalis,,,veronica anagallis-aquatica l_abdominal pain,,,veronica_wound healing
+3,veronica officinalis l,v. chamaedrys,plantaginaceae,,,,v. anagallis-aquatica_laryngopharyngitis,,,veronica_expectorant
+4,veronica chamaedrys,veronica species,officinalis,,,,v. anagallis-aquatica_hernia,,,v. anagallis-aquatica_cytostatic
+5,v. chamaedrys l,veronica chamaedrys,plant species,,,,v. anagallis-aquatica_influenza,,,v. officinalis_anti-inflammatory
+6,v. chamaedrys,veronica officinalis,otherveronica species,,,,v. anagallis-aquatica_hemoptysis,,,v. persica poir_cytostatic
+7,veronica l,veronica l,officinalis l,,,,"v. officinalis_nervous, cardiovascular and metabolism system disorders",,,v. thymoidesp.h.davis subsp. pseudocinerea m.a.fisch_cytostatic
+8,veronica anagallis-aquatica l,v. anagallis-aquatica,common speedwell,,,,v. officinalis_respiratory ailments,,,veronica officinalis_hepatoprotective activity
+9,v. anagallis-aquatica,v. officinalis,ofveronica speciesseveral,,,,v. officinalis_rheumatism,,,veronica officinalis_antiulcerous
+10,v. persica poir,v. persica poir,ofveronica anagallis-aquatica l,,,,v. officinalis_inflammatory conditions,,,veronica officinalis_wound healing
+11,v. persica,v. thymoidesp.h.davis,veronicaspecies,,,,v. officinalis_stomach ulcers,,,veronica officinalis_cytotoxic
+12,v. thymoidesp.h.davis subsp. pseudocinerea m.a.fisch,v. cymbalaria bodard,v. officinalisare,,,,veronica officinalis_coughs,,,veronica officinalis_expectorant
+13,v. cymbalaria bodard,v. pectinata l. var,2015montenegro bronchitis menkovic,,,,veronica officinalis_pharyngitis,,,veronica officinalis_cardiovascular system
+14,v. pectinata l. var. glandulosa,v. persica,hederifolia l,,,,veronica officinalis_bronchitis,,,veronica officinalis_metabolism
+15,v. bellidioidesl,v. bellidioidesl,ofveronica,,,,veronica officinalis_wounds,,,veronica officinalis_antitussive
+16,v. kellereri degen & urum,v. kellereri degen & urum,plants,,,,veronica officinalis_lung diseases,,,veronica officinalis_hypocholesterolemic effect
+17,v. vindobonensis (m.a.fisch. )m.a.fisch,v. vindobonensis (m.a.fisch,plantspecies,,,,veronica officinalis_rheumatic complaints,,,veronica officinalis_respiratory tract
+18,v. beccabunga l,v. beccabunga l,,,,,veronica officinalis_asthma,,,veronica officinalis_anti-inflammatory
+19,v. rhodopea degen ex stoj.& stef,v. rhodopea degen ex stoj,,,,,veronica officinalis_skin diseases,,,veronica officinalis_hypolipemic
+20,v. austriaca l,v. austriaca l,,,,,veronica officinalis_cough,,,veronica officinalis_nervous system
+21,,veronica officinalisherbal,,,,,veronica officinalis_catarrh,,,v. cymbalaria bodard_anti-inflammatory
+22,,,,,,,veronica officinalis_kidney diseases,,,v. cymbalaria bodard_cytotoxic
+23,,,,,,,veronica officinalis_tonsillitisi,,,v. cymbalaria bodard_radicalscavenging
+24,,,,,,,veronica officinalis_anemia,,,v. hederifolia l_anti-inflammatory
+25,,,,,,,,,,v. hederifolia l_cytotoxic
+26,,,,,,,,,,v. hederifolia l_radicalscavenging
+27,,,,,,,,,,v. pectinata l. var. glandulosa_anti-inflammatory
+28,,,,,,,,,,v. pectinata l. var. glandulosa_cytotoxic
+29,,,,,,,,,,v. pectinata l. var. glandulosa_radicalscavenging
+30,,,,,,,,,,v. persica_anti-inflammatory
+31,,,,,,,,,,v. persica_cytotoxic
+32,,,,,,,,,,v. persica_radicalscavenging
+33,,,,,,,,,,v. polita fr_anti-inflammatory
+34,,,,,,,,,,v. polita fr_cytotoxic
+35,,,,,,,,,,v. polita fr_radicalscavenging
+36,,,,,,,,,,v. bellidioidesl_antioxidant
+37,,,,,,,,,,v. kellereri degen & urum_antioxidant
+38,,,,,,,,,,v. vindobonensis (m.a.fisch. )m.a.fisch_antioxidant
+39,,,,,,,,,,v. beccabunga l_antioxidant
+40,,,,,,,,,,v. rhodopea degen ex stoj.& stef_antioxidant
+41,,,,,,,,,,v. austriaca l_antioxidant

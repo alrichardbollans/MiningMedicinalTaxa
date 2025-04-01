@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aloe vera,aloe vera,ginseng,gingko biloba,,,,,ginseng_impair platelet aggregation,
+1,echinacea,echinacea,,ginkgo biloba,,,,,aloe vera_reduce drug absorption,
+2,,,,gingko,,,,,,
+3,,,,ginkgo,,,,,,

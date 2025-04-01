@@ -1,8 +1,0 @@
-,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,panax ginseng,panax ginseng,,,,panax ginseng_severe pain,,,,
-1,oenothera biennis,oenothera biennis,,,,,,,,
-2,hypericum perforatum,hypericum perforatum,,,,,,,,
-3,ginkgo biloba,ginkgo biloba,,,,,,,,
-4,echinacea sp,echinacea sp,,,,,,,,
-5,echinacea,allium sativum,,,,,,,,
-6,allium sativum,,,,,,,,,

@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,p. zombamontana,p. zombamontana,,eugenia,syzygium legatii_mastitis,linum usitatissimum_cancer,,p. zombamontana_antioxidant,,p. zombamontana_protecting poultry against infection
+1,syzygium,syzygium legatii,,,syzygium gerrardii_mastitis,linum usitatissimum_cardiovascular disease,,p. zombamontana_anti-inflammatory,,p. zombamontana_cytotoxicity
+2,syzygium legatii,syzygium gerrardii,,,,,,syzygium legatii_antibacterial,,eugenia_cytotoxicity
+3,s. gerrardii,linum usitatissimum,,,,,,syzygium gerrardii_antibacterial,,eugenia_against staphylococcus aureus
+4,syzygium gerrardii,cannabis sativa,,,,,,,,eugenia_antibacterial
+5,linum usitatissimum,lupinus albus,,,,,,,,syzygium_against staphylococcus aureus
+6,cannabis sativa,,,,,,,,,syzygium legatii_anti-staphylococcal
+7,cannabis,,,,,,,,,s. gerrardii_anti-staphylococcal
+8,lupinus albus,,,,,,,,,syzygium gerrardii_higher toxicity to bacteria

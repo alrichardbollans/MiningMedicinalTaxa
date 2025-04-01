@@ -1,18 +1,18 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,stahlianthus thorelii,stahlianthus thorelii,ataxia telangiectasia mutated-p53,,,,stahlianthus thorelii_inflammation,,,stahlianthus thorelii_anticancer
+0,stahlianthus thorelii,stahlianthus thorelii,ataxia telangiectasia mutated-p53,,,,stahlianthus thorelii_inflammation,,,stahlianthus thorelii_anti-proliferative
 1,s. thorelii,s. thorelii,,,,,stahlianthus thorelii_osteoarthritis,,,stahlianthus thorelii_cytotoxicity
-2,euphorbia neriifolia,euphorbia neriifolia,,,,,stahlianthus thorelii_cancer,,,stahlianthus thorelii_anti-proliferative
+2,euphorbia neriifolia,euphorbia neriifolia,,,,,stahlianthus thorelii_cancer,,,stahlianthus thorelii_anticancer
 3,euphorbia neriifolia l,e. neriifolia,,,,,euphorbia neriifolia_inflammation,,,s. thorelii_antiproliferative
-4,pulicaria,euphorbia neriifolia l,,,,,euphorbia neriifolia_cancer,,,euphorbia neriifolia_anticancer
-5,pulicaria gaertn,pulicaria species,,,,,euphorbia neriifolia_diabetes mellitus,,,euphorbia neriifolia_anti-proliferative
-6,pulicaria wightiana,pulicaria gaertn,,,,,pulicaria_inflamed wound,,,pulicaria_antiinflammatory
-7,p. odora,pulicaria,,,,,pulicaria_cold,,,pulicaria_antimicrobial
-8,p. dysenterica,p. odora,,,,,pulicaria_muscular- skeletal diseases,,,pulicaria_cicatrizant
-9,,p. dysenterica,,,,,pulicaria_skin diseases,,,
-10,,pulicaria wightiana,,,,,pulicaria_flatulent colic,,,
-11,,,,,,,pulicaria_diabetes,,,
-12,,,,,,,pulicaria_headache,,,
-13,,,,,,,pulicaria_ankle sprain,,,
-14,,,,,,,pulicaria_bronchitis,,,
-15,,,,,,,pulicaria_abdominal pain,,,
+4,pulicaria,euphorbia neriifolia l,,,,,euphorbia neriifolia_diabetes mellitus,,,euphorbia neriifolia_anti-proliferative
+5,pulicaria gaertn,pulicaria species,,,,,euphorbia neriifolia_cancer,,,euphorbia neriifolia_anticancer
+6,pulicaria wightiana,pulicaria gaertn,,,,,pulicaria_muscular- skeletal diseases,,,pulicaria_antiinflammatory
+7,p. odora,pulicaria,,,,,pulicaria_bronchitis,,,pulicaria_antimicrobial
+8,p. dysenterica,p. odora,,,,,pulicaria_abdominal pain,,,pulicaria_cicatrizant
+9,,p. dysenterica,,,,,pulicaria_diabetes,,,
+10,,pulicaria wightiana,,,,,pulicaria_skin diseases,,,
+11,,,,,,,pulicaria_headache,,,
+12,,,,,,,pulicaria_ankle sprain,,,
+13,,,,,,,pulicaria_flatulent colic,,,
+14,,,,,,,pulicaria_inflamed wound,,,
+15,,,,,,,pulicaria_cold,,,
 16,,,,,,,pulicaria wightiana_inflammation,,,

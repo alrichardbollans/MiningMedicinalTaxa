@@ -1,0 +1,115 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,berberis,berberis vulgaris,coscinium fenestratum,coptischinensis,berberis asiatica_swelling,berberis vulgaris_digestive diseases,berberis_common cold,mahonia aquifolium_antimicrobial,berberis vulgaris_antioxidative,berberis_astringent
+1,berberis vulgaris,berberis asiatica,,enantiachlorantha oliv,berberis asiatica_toothache,berberis vulgaris_tumors,berberis_viruses,berberis aquifolium_anti-inflammatory,berberis vulgaris_hepatoprotective,berberis_antimicrobial
+2,b. vulgaris,berberis aristata,,enantia pilosa exell,berberis asiatica_ulcers,berberis vulgaris_inflammatory disorders,berberis_mountain sickness,,berberis vulgaris_immunomodulatory,berberis vulgaris_blood purifying
+3,berberis asiatica,berberis chitria,,enantia polycarpa (dc.)engl. & diels,berberis asiatica_eye sores,berberis vulgaris_skin diseases,berberis_obesity,,berberis vulgaris_renoprotective,berberis aristata_antimicrobial
+4,berberis asiatica roxb. ex dc,berberis lycium,,coelocline,berberis asiatica_skin pigmentation,berberis vulgaris_wound healing,berberis_uterine and vaginal disorders,,berberis vulgaris_cardioprotective,berberis aristata_antiprotozoal
+5,berberis aristata,mahonia aquifolium,,caulophyllum,berberis asiatica_jaundice,berberis vulgaris_affections of eyes,"berberis_infections of the ear, eye, and mouth",,,b. chitria_antimicrobial
+6,berberis aristata dc,coptis chinensis,,jeffersonia,berberis asiatica_asthma,berberis vulgaris_respiratory diseases,berberis_respiratory infections,,,b. chitria_antiprotozoal
+7,b. chitria,argemone mexicana,,nandina,berberis asiatica_inflammation,berberis vulgaris_microbial pathologies,berberis_wounds,,,b. lycium_antiprotozoal
+8,b. lycium,berberis heterophylla,,sinopodophyllum,berberis aristata_ophthalmic diseases,berberis vulgaris_fevers,berberis_protozoa,,,coptischinensis_elimination of toxins
+9,m. aquifolium,berberis beaniana,,tinospora,berberis aristata_skin diseases,berberis aristata_enlarged liver and spleen,berberis_snakebite,,,annickia chlorantha (oliv. )setten & maas_antipyretic
+10,mahonia,coptis japonica,,bocconia,berberis aristata_hemorrhages,berberis chitria_hemorrhages,berberis_infectious diseases,,,annickia chlorantha (oliv. )setten & maas_hemostatic
+11,coptis,annickia chlorantha,,chelidonium,berberis aristata_ulcers,berberis chitria_enlarged liver and spleen,berberis_influenza,,,annickia chlorantha (oliv. )setten & maas_promote conception
+12,c. chinensis,annickia pilosa,,corydalis,berberis aristata_jaundice,berberis chitria_ulcers,berberis_scorpion sting,,,enantiachlorantha oliv_antipyretic
+13,argemone,annickia polycarpa,,eschscholzia,berberis aristata_conjunctivitis,berberis lycium_hemorrhages,berberis_diabetes,,,enantiachlorantha oliv_hemostatic
+14,argemone mexicana,rollinia mucosa,,glaucium,berberis chitria_ophthalmic diseases,berberis lycium_enlarged liver and spleen,berberis_indigestion,,,enantiachlorantha oliv_promote conception
+15,b. heterophylla,xylopia polycarpa,,hunnemannia,berberis chitria_skin diseases,coptis chinensis_damp-heat syndromes,berberis_fungi,,,annickia polycarpa (dc. )setten & maas ex i.m.turner_antiseptic
+16,b. beaniana,berberis actinacantha,,macleaya,berberis chitria_jaundice,coptis chinensis_toxins,berberis_helminthes,,,annickia polycarpa (dc. )setten & maas ex i.m.turner_wound healing
+17,c. japonica,berberis aquifolium,,papaver,berberis chitria_conjunctivitis,coptis chinensis_liver heat,berberis_bacteria,,,enantia polycarpa (dc.)engl. & diels_antiseptic
+18,annickia chlorantha (oliv. )setten & maas,,,sanguinaria,berberis lycium_ophthalmic diseases,annickia chlorantha_typhoid fever,berberis_hemorrhoids,,,enantia polycarpa (dc.)engl. & diels_wound healing
+19,annickia,,,hydrastis,berberis lycium_skin diseases,annickia polycarpa_stomach ulcers,berberis aristata_diabetes,,,xylopia polycarpa (dc.) oliv_conception
+20,annickia pilosa (exell) setten &maas,,,xanthorhiza,berberis lycium_ulcers,annickia polycarpa_wound healing,berberis aristata_intestinal parasites,,,berberis actinacantha mart_antipyretic
+21,annickia polycarpa (dc. )setten & maas ex i.m.turner,,,evodia,berberis lycium_jaundice,xylopia polycarpa_eye diseases,berberis aristata_diarrhea,,,berberis aquifolium pursh_menstruation
+22,rollinia mucosa (jacq.) baill,,,phellodendron,berberis lycium_conjunctivitis,xylopia polycarpa_stomach problems,berberis aristata_urinary disorders,,,berberis aquifolium pursh_blood flow to the liver
+23,rollinia,,,zanthoxyllum,mahonia aquifolium_skin conditions,berberis aquifolium_gall bladder disease,berberis aristata_painful micturition,,,berberis aquifolium pursh_intestinal secretions and bile flow
+24,xylopia polycarpa (dc.) oliv,,,berberisaristata,"annickia chlorantha_hepatitis a, b, c, and d",berberis aquifolium_stomach problems,berberis aristata_enlarged liverand spleen,,,berberis aristata dc_anti-osteoporosis
+25,xylopia,,,cosciniumfenestratum,annickia chlorantha_yellow fever,,b. chitria_diabetes,,,berberis aristata dc_laxative
+26,berberis actinacantha mart,,,c. rhizome,annickia chlorantha_rheumatism,,b. chitria_intestinal parasites,,,berberis aristata dc_analgesic
+27,berberis aquifolium pursh,,,hydratis canadensis,annickia chlorantha_urinary tract infections,,b. chitria_diarrhea,,,berberis aristata dc_anti-pyretic
+28,b. aquifolium,,,,annickia chlorantha_yellow bitter,,b. chitria_urinary disorders,,,berberis aristata dc_anti-hepatopathic
+29,,,,,annickia chlorantha_sexual asthenia,,b. chitria_painful micturition,,,berberis aristata dc_anti-bacterial
+30,,,,,annickia chlorantha_boils,,b. chitria_enlarged liverand spleen,,,berberis aristata dc_anti-diabetic
+31,,,,,annickia chlorantha_leishmaniasis,,b. lycium_diabetes,,,berberis aristata dc_anti-fungal
+32,,,,,annickia chlorantha_spleen in children,,b. lycium_intestinal parasites,,,berberis aristata dc_anti-inflammatory
+33,,,,,annickia chlorantha_aches,,b. lycium_diarrhea,,,berberis aristata dc_anti-scorbutic
+34,,,,,annickia chlorantha_sore,,b. lycium_urinary disorders,,,
+35,,,,,annickia chlorantha_prostate cancer,,b. lycium_painful micturition,,,
+36,,,,,annickia chlorantha_tuberculosis,,b. lycium_enlarged liverand spleen,,,
+37,,,,,annickia chlorantha_body pains,,annickia chlorantha (oliv. )setten & maas_typhoidfever,,,
+38,,,,,annickia chlorantha_sores,,annickia chlorantha (oliv. )setten & maas_treat malariasymptoms,,,
+39,,,,,annickia chlorantha_intestinal spasms,,annickia chlorantha (oliv. )setten & maas_infectious diseases,,,
+40,,,,,annickia chlorantha_poliomyelitis,,"enantiachlorantha oliv_hepatitis a, b, c, and d",,,
+41,,,,,annickia chlorantha_hypertension,,enantiachlorantha oliv_yellow fever,,,
+42,,,,,annickia chlorantha_ulcers,,enantiachlorantha oliv_rheumatism,,,
+43,,,,,annickia chlorantha_infected wounds,,enantiachlorantha oliv_urinary tract infections,,,
+44,,,,,annickia chlorantha_dysentery,,enantiachlorantha oliv_yellow bitter,,,
+45,,,,,annickia chlorantha_sleeping sickness,,enantiachlorantha oliv_sexual asthenia,,,
+46,,,,,annickia chlorantha_wounds,,enantiachlorantha oliv_boils,,,
+47,,,,,annickia chlorantha_skin ailments,,enantiachlorantha oliv_leishmaniasis,,,
+48,,,,,annickia chlorantha_coughs,,enantiachlorantha oliv_spleen in children,,,
+49,,,,,annickia chlorantha_intercostal pain,,enantiachlorantha oliv_aches,,,
+50,,,,,annickia chlorantha_rickettsia fever,,enantiachlorantha oliv_sore,,,
+51,,,,,annickia chlorantha_syphilis,,enantiachlorantha oliv_prostate cancer,,,
+52,,,,,annickia chlorantha_hiv,,enantiachlorantha oliv_tuberculosis,,,
+53,,,,,annickia chlorantha_malaria symptoms,,enantiachlorantha oliv_body pains,,,
+54,,,,,annickia chlorantha_fevers,,enantiachlorantha oliv_typhoidfever,,,
+55,,,,,annickia chlorantha_cuts,,enantiachlorantha oliv_sores,,,
+56,,,,,annickia chlorantha_malaria,,enantiachlorantha oliv_rickettsia,,,
+57,,,,,annickia chlorantha_diabetes,,enantiachlorantha oliv_intestinal spasms,,,
+58,,,,,annickia chlorantha_intestinal worms,,enantiachlorantha oliv_poliomyelitis,,,
+59,,,,,annickia chlorantha_vomiting,,enantiachlorantha oliv_hypertension,,,
+60,,,,,annickia chlorantha_vomiting of blood,,enantiachlorantha oliv_ulcers,,,
+61,,,,,annickia chlorantha_chills,,enantiachlorantha oliv_infected wounds,,,
+62,,,,,annickia chlorantha_fatigue,,enantiachlorantha oliv_dysentery,,,
+63,,,,,annickia chlorantha_jaundice,,enantiachlorantha oliv_sleeping sickness,,,
+64,,,,,annickia chlorantha_conjunctivitis,,enantiachlorantha oliv_treat malariasymptoms,,,
+65,,,,,annickia pilosa_cuts,,enantiachlorantha oliv_wounds,,,
+66,,,,,annickia polycarpa_fever,,enantiachlorantha oliv_skin ailments,,,
+67,,,,,annickia polycarpa_ophthalmia,,enantiachlorantha oliv_coughs,,,
+68,,,,,annickia polycarpa_sores,,enantiachlorantha oliv_intercostal pain,,,
+69,,,,,annickia polycarpa_leprosy,,enantiachlorantha oliv_rickettsia fever,,,
+70,,,,,annickia polycarpa_jaundice,,enantiachlorantha oliv_syphilis,,,
+71,,,,,annickia polycarpa_skin infections,,enantiachlorantha oliv_treatment of fatigue,,,
+72,,,,,annickia polycarpa_malaria,,enantiachlorantha oliv_hiv,,,
+73,,,,,annickia polycarpa_intestinal problems,,enantiachlorantha oliv_infectious diseases,,,
+74,,,,,annickia polycarpa_cuts,,enantiachlorantha oliv_fevers,,,
+75,,,,,rollinia mucosa_tumors,,enantiachlorantha oliv_cuts,,,
+76,,,,,xylopia polycarpa_rheumatism,,enantiachlorantha oliv_malaria,,,
+77,,,,,xylopia polycarpa_diarrhea,,enantiachlorantha oliv_diabetes,,,
+78,,,,,xylopia polycarpa_wounds,,enantiachlorantha oliv_intestinal worms,,,
+79,,,,,xylopia polycarpa_fevers,,enantiachlorantha oliv_vomiting,,,
+80,,,,,xylopia polycarpa_sleeping disorders,,enantiachlorantha oliv_vomiting of blood,,,
+81,,,,,xylopia polycarpa_leprosy,,enantiachlorantha oliv_chills,,,
+82,,,,,xylopia polycarpa_ulcers,,enantiachlorantha oliv_jaundice,,,
+83,,,,,xylopia polycarpa_malaria,,enantiachlorantha oliv_conjunctivitis,,,
+84,,,,,xylopia polycarpa_gall-bladder problems,,enantia pilosa exell_cuts,,,
+85,,,,,berberis actinacantha_fever,,annickia polycarpa (dc. )setten & maas ex i.m.turner_stomachulcers,,,
+86,,,,,berberis aquifolium_sore womb,,enantia polycarpa (dc.)engl. & diels_fever,,,
+87,,,,,berberis aquifolium_digestive problems,,enantia polycarpa (dc.)engl. & diels_stomachulcers,,,
+88,,,,,berberis aquifolium_cirrhosis,,enantia polycarpa (dc.)engl. & diels_ophthalmia,,,
+89,,,,,berberis aquifolium_dysentery,,enantia polycarpa (dc.)engl. & diels_sores,,,
+90,,,,,berberis aquifolium_diarrhea,,enantia polycarpa (dc.)engl. & diels_leprosy,,,
+91,,,,,berberis aquifolium_fungal infections,,enantia polycarpa (dc.)engl. & diels_jaundice,,,
+92,,,,,berberis aquifolium_hemorrhages,,enantia polycarpa (dc.)engl. & diels_skin infections,,,
+93,,,,,berberis aquifolium_constipation,,enantia polycarpa (dc.)engl. & diels_malaria,,,
+94,,,,,berberis aquifolium_cancer,,enantia polycarpa (dc.)engl. & diels_intestinal problems,,,
+95,,,,,berberis aquifolium_hepatitis,,enantia polycarpa (dc.)engl. & diels_cuts,,,
+96,,,,,berberis aquifolium_herpes,,xylopia polycarpa (dc.) oliv_eyediseases,,,
+97,,,,,berberis aquifolium_jaundice,,berberis aquifolium pursh_stomachproblems,,,
+98,,,,,berberis aquifolium_eczema,,berberis aquifolium pursh_gall bladderdisease,,,
+99,,,,,berberis aquifolium_acne,,berberis aquifolium pursh_skin conditions,,,
+100,,,,,berberis aquifolium_conjunctivitis,,berberis aristata dc_fever,,,
+101,,,,,berberis aquifolium_psoriasis,,berberis aristata dc_dysentery,,,
+102,,,,,,,berberis aristata dc_piles,,,
+103,,,,,,,berberis aristata dc_diarrhea,,,
+104,,,,,,,berberis aristata dc_ear and urinarytract infections,,,
+105,,,,,,,berberis aristata dc_ophthalmia,,,
+106,,,,,,,berberis aristata dc_cholera,,,
+107,,,,,,,berberis aristata dc_bleeding piles,,,
+108,,,,,,,berberis aristata dc_skindiseases,,,
+109,,,,,,,berberis aristata dc_menorrhagia,,,
+110,,,,,,,berberis aristata dc_malaria,,,
+111,,,,,,,berberis aristata dc_eye diseases,,,
+112,,,,,,,berberis aristata dc_metabolic disorders,,,
+113,,,,,,,berberis aristata dc_allergies,,,

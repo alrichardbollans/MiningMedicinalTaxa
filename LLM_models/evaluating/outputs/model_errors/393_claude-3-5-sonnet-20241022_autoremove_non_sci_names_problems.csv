@@ -1,0 +1,27 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,veronica,veronica officinalis l,,v. thymoidesp.h.davis subsp. pseudocinerea m.a.fisch,veronica officinalis l_stomach ulcers,veronica officinalis l_cardiovascular disorders,veronica_respiratory affections,veronica officinalis l_diuretic,veronica officinalis l_appetizer,v. persica poir_cytostatic
+1,v. officinalis,veronica anagallis-aquatica l,,v. bellidioidesl,veronica officinalis l_rheumatism,veronica officinalis l_nervous disorders,"v. officinalis_nervous, cardiovascular and metabolism system disorders",veronica officinalis l_hypocholesterolemic,veronica anagallis-aquatica l_cytotoxic,v. thymoidesp.h.davis subsp. pseudocinerea m.a.fisch_cytostatic
+2,veronica officinalis,veronica persica poir,,veronicaofficinalis,veronica officinalis l_anemia,veronica officinalis l_metabolism disorders,veronica officinalis_tonsillitisi,veronica officinalis l_antiscorbutic,veronica persica poir_radical scavenging,veronica officinalis_respiratory tract
+3,veronica officinalis l,veronica thymoides p.h.davis subsp. pseudocinerea m.a.fisch,,veronica l,veronica officinalis l_wounds,,veronica officinalis_coughs,veronica officinalis l_wound healing,veronica thymoides p.h.davis subsp. pseudocinerea m.a.fisch_cytostatic,veronica officinalis_nervous system
+4,veronica anagallis-aquatica l,veronica cymbalaria bodard,,,veronica officinalis l_skin diseases,,veronica officinalis_cough,veronica officinalis l_hepatoprotective,veronica thymoides p.h.davis subsp. pseudocinerea m.a.fisch_cytotoxic,veronica officinalis_metabolism
+5,v. anagallis-aquatica,veronica hederifolia l,,,veronica officinalis l_bronchitis,,veronica officinalis_pharyngitis,veronica officinalis l_hypolipemic,veronica cymbalaria bodard_radical scavenging,veronica officinalis_cardiovascular system
+6,v. persica poir,veronica pectinata l,,,veronica officinalis l_kidney diseases,,veronica officinalis_catarrh,veronica officinalis l_antitussive,veronica hederifolia l_radical scavenging,veronica officinalis_cytotoxic
+7,v. persica,veronica polita fr,,,veronica officinalis l_lung diseases,,veronica officinalis_rheumatic complaints,veronica officinalis l_expectorant,veronica pectinata l_radical scavenging,v. cymbalaria bodard_radicalscavenging
+8,v. cymbalaria bodard,veronica bellidioides l,,,veronica officinalis l_respiratory ailments,,veronica officinalis_asthma,veronica officinalis l_anti-inflammatory,veronica polita fr_radical scavenging,v. hederifolia l_radicalscavenging
+9,v. hederifolia l,veronica kellereri degen & urum,,,veronica officinalis l_inflammatory conditions,,,veronica officinalis l_antiulcerous,veronica bellidioides l_antioxidant,v. pectinata l. var. glandulosa_radicalscavenging
+10,v. pectinata l. var. glandulosa,veronica vindobonensis (m.a.fisch.) m.a.fisch,,,veronica anagallis-aquatica l_rheumatic pain,,,veronica anagallis-aquatica l_cytostatic,,v. persica_radicalscavenging
+11,v. polita fr,veronica beccabunga l,,,veronica anagallis-aquatica l_hernia,,,veronica persica poir_anti-inflammatory,,v. polita fr_radicalscavenging
+12,v. kellereri degen & urum,veronica rhodopea degen ex stoj. & stef,,,veronica anagallis-aquatica l_abdominal pain,,,veronica persica poir_cytotoxic,,v. bellidioidesl_antioxidant
+13,v. vindobonensis (m.a.fisch. )m.a.fisch,veronica austriaca l,,,veronica anagallis-aquatica l_influenza,,,veronica cymbalaria bodard_anti-inflammatory,,
+14,v. beccabunga l,veronica chamaedrys l,,,veronica anagallis-aquatica l_laryngopharyngitis,,,veronica cymbalaria bodard_cytotoxic,,
+15,v. rhodopea degen ex stoj.& stef,,,,veronica anagallis-aquatica l_hemoptysis,,,veronica hederifolia l_anti-inflammatory,,
+16,v. austriaca l,,,,,,,veronica hederifolia l_cytotoxic,,
+17,veronica chamaedrys,,,,,,,veronica pectinata l_anti-inflammatory,,
+18,v. chamaedrys l,,,,,,,veronica pectinata l_cytotoxic,,
+19,v. chamaedrys,,,,,,,veronica polita fr_anti-inflammatory,,
+20,,,,,,,,veronica polita fr_cytotoxic,,
+21,,,,,,,,veronica kellereri degen & urum_antioxidant,,
+22,,,,,,,,veronica vindobonensis (m.a.fisch.) m.a.fisch_antioxidant,,
+23,,,,,,,,veronica beccabunga l_antioxidant,,
+24,,,,,,,,veronica rhodopea degen ex stoj. & stef_antioxidant,,
+25,,,,,,,,veronica austriaca l_antioxidant,,

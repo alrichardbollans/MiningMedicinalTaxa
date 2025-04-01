@@ -1,0 +1,25 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,shorea roxburghii,shorea roxburghii,,rauwolfia,shorea roxburghii_cholera,dacrycarpus imbricatus (blume) de laub_acute myeloid leukemia,rauwolfia_acute myeloid leukemia,shorea roxburghii_antidiabetic,dacrycarpus imbricatus (blume) de laub_anti-proliferative,calluna vulgaris (l.) hull_skin-protective
+1,s. roxburghii,dacrycarpus imbricatus (blume) de laub,,warbrugia ugandensis sprague,shorea roxburghii_dysentery,pinus dalatensis ferre_acute myeloid leukemia,,shorea roxburghii_hypoglycemic,pinus dalatensis ferre_inhibitory effects on cell growth,c. vulgaris_antioxidant
+2,dacrycarpus imbricatus,pinus dalatensis ferre,,cryptolepsis sanguinolenta (lindl.) schltr,shorea roxburghii_diarrhea,oldenlandia pinifolia_chronic myelogenous leukemia,,cladosporium spp_anti-tumor,oldenlandia pinifolia_anti-proliferative,c. vulgaris_skin anti-aging and protection
+3,pinus dalatensis ferre,oldenlandia pinifolia,,a. coriria,shorea roxburghii_type 2 diabetes mellitus,warburgia ugandensis sprague_hiv/aids,,calluna vulgaris (l.) hull_antimicrobial,oldenlandia pinifolia_apoptosis induction,c. vulgaris_antiradical
+4,oldenlandia pinifolia,ficus hirta,,,cladosporium spp_acute myeloid leukemia,erythrina abyssinica dc_hiv/aids,,,acer truncatum_cytotoxic,cladosporium_anti-microbial
+5,ficus hirta,cladosporium spp,,,,cryptolepis sanguinolenta (lindl.) schltr_hiv/aids,,,acer truncatum_ache inhibitory,
+6,cladosporium,acer truncatum,,,,albizia coriaria oliv_hiv/aids,,,calluna vulgaris (l.) hull_photo-protective,
+7,cladosporium spp,warburgia ugandensis sprague,,,,psorospermum febrifugium spach_hiv/aids,,,calluna vulgaris (l.) hull_stimulates pro-collagen i synthesis,
+8,acer truncatum,erythrina abyssinica dc,,,,gymnosporia senegalensis (lam.) loes_hiv/aids,,,,
+9,w. ugandensis,cryptolepis sanguinolenta (lindl.) schltr,,,,zanthoxylum chalybeum engl_hiv/aids,,,,
+10,erythrina abyssinica dc,albizia coriaria oliv,,,,securidaca longipendunculata fresen_hiv/aids,,,,
+11,c. sanguinolenta,psorospermum febrifugium spach,,,,acacia hockii de wild_hiv/aids,,,,
+12,albizia coriaria oliv,gymnosporia senegalensis (lam.) loes,,,,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc_hiv/aids,,,,
+13,psorospermum febrifugium spach,zanthoxylum chalybeum engl,,,,bridelia micrantha (hochst.) baill_hiv/aids,,,,
+14,p. febrifugium,securidaca longipendunculata fresen,,,,calluna vulgaris (l.) hull_urinary complaints,,,,
+15,gymnosporia senegalensis (lam.) loes,acacia hockii de wild,,,,,,,,
+16,zanthoxylum chalybeum engl,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc,,,,,,,,
+17,securidaca longipendunculata fresen,bridelia micrantha (hochst.) baill,,,,,,,,
+18,s. longipendunculata,calluna vulgaris (l.) hull,,,,,,,,
+19,acacia hockii de wild,,,,,,,,,
+20,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc,,,,,,,,,
+21,bridelia micrantha (hochst.) baill,,,,,,,,,
+22,calluna vulgaris (l.) hull,,,,,,,,,
+23,c. vulgaris,,,,,,,,,

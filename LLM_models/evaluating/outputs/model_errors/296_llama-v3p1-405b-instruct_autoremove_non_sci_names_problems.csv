@@ -1,0 +1,15 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hypericum,hypericum hircinum subsp. majus,rhodiola rosea l,h. hircinum subsp.majus,prunus spinosa l_cardiovascular disease,hypericum hircinum subsp. majus_antifungal,centaurea ragusina l_cancer,hypericum hircinum subsp. majus_antifungal,boswellia_hepatoprotective,h. hircinum subsp.majus_antifungal
+1,aspergillus,aspergillus,centaurium ragusina l,centaurea ragusina l,,rhodiola rosea l_dementia,centaurea ragusina l_gastrointestinal and urogenital disorders,ajuga laxmannii_antioxidant,boswellia_anti-inflammatory,syringa vulgaris l_pro-inflammatory
+2,penicillium,penicillium,berberis,centaurea,,rhodiola rosea l_memory impairment,centaurea ragusina l_tumor,ajuga laxmannii_anti-inflammatory,boswellia_anti-oxidant,centaurea ragusina l_antibacterial
+3,candida,candida,punica granatum,rhodiola roseal,,boswellia_inflammation,ononis natrix subsp. hispanica_atherosclerosis,ajuga laxmannii_antimicrobial,syringa vulgaris l_anti-inflammatory,centaurea_antibacterial
+4,boswellia,boswellia,solanum lycopersicum,,,centaurium ragusina l_cancer,centaurea_tumor,,centaurium ragusina l_anticancer,
+5,chelidonium majus l,chelidonium majus l,apium graveolens,,,berberis_cardiovascular disease,centaurea_gastrointestinal and urogenital disorders,,punica granatum_vasculoprotective,
+6,syringa vulgaris l,syringa vulgaris l,lavandula angustifolia,,,berberis_renal disorders,,,solanum lycopersicum_antioxidant,
+7,commiphora,commiphora,citrullus colocynthis,,,berberis_hepatic disorders,,,lavandula angustifolia_anxiolytic,
+8,ononis natrix subsp. hispanica,ononis natrix,,,,berberis_metabolic disorders,,,lavandula angustifolia_anti-depressive,
+9,ononis natrix,veronica officinalis l,,,,punica granatum_vascular disease,,,scrophularia lucida l_anticancer,
+10,veronica officinalis l,scrophularia lucida l,,,,lavandula angustifolia_anxiety,,,citrullus colocynthis_anti-proliferative,
+11,scrophularia lucida l,prunus spinosa l,,,,lavandula angustifolia_depression,,,citrullus colocynthis_anti-metastatic,
+12,prunus spinosa l,ajuga laxmannii,,,,scrophularia lucida l_cancer,,,,
+13,ajuga laxmannii (murray) benth,,,,,citrullus colocynthis_cancer,,,,

@@ -1,0 +1,16 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,c. majus,chelidonium majus,berberine,entamoeba histolytica,chelidonium majus_hepatobiliary disorders,chelidonium majus_hepatotoxicity,c. majus_liver toxicity,chelidonium majus_choleretic,chelidonium majus_pro-apoptotic,c. majus_acceleration of sperm movement toward fallopian tube
+1,chelidonium majus,silybum marianum,chelidonine,,chelidonium majus_liver complaints,chelidonium majus_cancer,,chelidonium majus_hepatoprotective,chelidonium majus_cytotoxic,c. majus_supporting artificial insemination or facilitating fertilization
+2,silybum marianum,,stylopine,,,berberine_cancer,,chelidonium majus_antispasmodic,chelidonium majus_cholecystokinetic,c. majus_cholagogue
+3,,,coptisine,,,chelidonine_cancer,,silybum marianum_hepatoprotective,chelidonium majus_cytoprotective,c. majus_antitumor
+4,,,sanguinarine,,,chelidonine_hepatotoxicity,,,chelidonium majus_antiproliferative,c. majus_liver and biliary tract
+5,,,chelerythrine,,,sanguinarine_cancer,,,berberine_cytotoxic,
+6,,,,,,chelerythrine_cancer,,,berberine_cholecystokinetic,
+7,,,,,,,,,chelidonine_cytotoxic,
+8,,,,,,,,,chelidonine_relaxant,
+9,,,,,,,,,chelidonine_cytoprotective,
+10,,,,,,,,,stylopine_cytotoxic,
+11,,,,,,,,,stylopine_relaxant,
+12,,,,,,,,,coptisine_relaxant,
+13,,,,,,,,,sanguinarine_cytotoxic,
+14,,,,,,,,,chelerythrine_cytotoxic,

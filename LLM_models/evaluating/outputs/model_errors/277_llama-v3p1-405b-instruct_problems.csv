@@ -1,5 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,camellia sinensis,camellia sinensis,balm leaf,s. montana subsp. pisidica(wettst,,,,,,camellia sinensis_prevention of some of the chronic diseases
-1,satureja montana l,satureja montana l,hyperici herba,saturejamontana l,,,,,,
-2,s. montana,,tiliae flos,s. montana subsp. montana,,,,,,
-3,,,urticae folium,,,,,,,
+0,camellia sinensis,camellia sinensis,balm leaf,saturejamontana l,,camellia sinensis_high oxidative stress,,,camellia sinensis_antioxidant,camellia sinensis_prevention of some of the chronic diseases
+1,satureja montana l,satureja montana,hyperici herba,,,,,,balm leaf_antioxidant,
+2,s. montana,,tiliae flos,,,,,,hyperici herba_antioxidant,
+3,s. montana subsp. pisidica(wettst,,urticae folium,,,,,,tiliae flos_antioxidant,
+4,s. montana subsp. montana,,,,,,,,urticae folium_antioxidant,
+5,,,,,,,,,satureja montana_pharmacological activities,

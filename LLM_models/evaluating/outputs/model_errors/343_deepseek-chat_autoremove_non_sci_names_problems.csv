@@ -1,0 +1,29 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,chelidonium,chelidonium majus,,chelidonium majusl,chelidonium majus_toothache,chelidonium majus_skin protuberances,chelidonium_cholagogue,chelidonium majus_spasmolytic,chelidonium majus_anti-jaundice,c. majus_enhance sight
+1,c. majus,,,chelidonium l,chelidonium majus_skin ulcers,chelidonium majus_visual impairment,chelidonium_ophthalmological problems,chelidonium majus_anti-infectious,chelidonium majus_cholagogue,c. majus_diuretic
+2,chelidonium majus,,,c. asiaticum (hara)krahulcova,chelidonium majus_cataract,chelidonium majus_warts,chelidonium_anti-jaundice,chelidonium majus_antiviral,chelidonium majus_anti-inflammatory,c. majus_anti-edema
+3,c. majus l,,,c. asiaticum,chelidonium majus_herpes,chelidonium majus_gastrointestinal disorders,chelidonium majusl_skin protuberances,chelidonium majus_antimicrobial,chelidonium majus_cytotoxic,c. majus_antitussive
+4,c. majus l.sensu lato,,,chelidonium majussubsp. grandiflorum (dc.) printz,chelidonium majus_cancer,chelidonium majus_infections,chelidonium majusl_cancer,chelidonium majus_pain-relieving,,c. majus_expectorant
+5,c. majus l.subsp. majus,,,,chelidonium majus_stomach ache,,chelidonium majusl_gastrointestinal disorders,chelidonium majus_gastric and hepatic,,
+6,,,,,chelidonium majus_eye diseases,,chelidonium majusl_warts,chelidonium majus_anticancer,,
+7,,,,,chelidonium majus_jaundice,,chelidonium majusl_infections,,,
+8,,,,,chelidonium majus_dermatologic disorders,,c. majus_aphrodisiacum,,,
+9,,,,,chelidonium majus_colic,,c. majus_aching tooth,,,
+10,,,,,,,c. majus_bodyulcers,,,
+11,,,,,,,c. majus_hair overgrowth,,,
+12,,,,,,,c. majus_sightimpairment,,,
+13,,,,,,,c. majus_liver conditions,,,
+14,,,,,,,c. majus_skin eczema,,,
+15,,,,,,,c. majus_liver diseases,,,
+16,,,,,,,c. majus_eyediseases,,,
+17,,,,,,,c. majus_skin ulcer,,,
+18,,,,,,,c. majus_pain,,,
+19,,,,,,,c. majus_scabs,,,
+20,,,,,,,c. majus_wounds,,,
+21,,,,,,,c. majus_leprosy,,,
+22,,,,,,,c. majus_ophthalmologicaldiseases,,,
+23,,,,,,,c. majus_throat cleansing,,,
+24,,,,,,,c. majus_eye and skin conditions,,,
+25,,,,,,,c. majus_visualimpairment,,,
+26,,,,,,,c. majus_dermatologic diseases,,,
+27,,,,,,,c. majus_pulmonary,,,

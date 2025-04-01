@@ -1,18 +1,18 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,citrullus colocynthis l,citrullus colocynthis l,s. hafez ghoran,macrotermes bellicosus,,,citrullus colocynthis l_diabetic rats,,,c. colocynthis_hypoglycemic
-1,citrullus colocynthis,c. colocynthis,,m. bellicosus,,,citrullus colocynthis l_nerve originated pain,,,c. colocynthis_antioxidant
-2,c. colocynthis,citrullus colocynthis,,c commutata (spreng.) greuter,,,citrullus colocynthis l_peripheral neuropathy,,,m. bellicosus_antimicrobial
-3,corydalis hendersonii hemsl,corydalis hendersonii hemsl,,chios mastic,,,citrullus colocynthis_diabetic rats,,,m. bellicosus_anti-inflammatory
-4,senecio candicans dc,senecio candicans dc,,phytosia crocifolia (boiss. & heldr.) kamari & greuter,,,citrullus colocynthis_peripheral neuropathy,,,m. bellicosus_suppression of induced contractions
-5,s. candicans,s. candicans,,,,,c. colocynthis_oxidative stress,,,m. bellicosus_relaxation of basal tone
-6,crepis,crepis,,,,,c. colocynthis_diabetic neuropathy,,,m. bellicosus_anti-spasmodic
-7,crepis l,crepis l,,,,,macrotermes bellicosus_diarrhea,,,m. bellicosus_spasmolytic
-8,c. dioscoridis l,c. dioscoridis l,,,,,macrotermes bellicosus_infectious,,,corydalis hendersonii hemsl_lowering blood pressure
-9,c. incana sm,c. incana sm,,,,,macrotermes bellicosus_inflammatory diseases,,,corydalis hendersonii hemsl_anti-acute myocardial ischemia
-10,c. heldreichiana (kuntze) greuter,c. heldreichiana (kuntze) greuter,,,,,macrotermes bellicosus_dysentery,,,corydalis hendersonii hemsl_anti-inflammatory
-11,c. crocifolia boiss. & heldr,c. crocifolia boiss,,,,,corydalis hendersonii hemsl_high altitude polycythemia,,,senecio candicans dc_gastroprotective
-12,cantharellus cibarius,cantharellus cibarius,,,,,corydalis hendersonii hemsl_acute myocardial ischemia,,,s. candicans_gastroprotective
-13,cantharellus cinereus,cantharellus cinereus,,,,,corydalis hendersonii hemsl_vasculitis,,,s. candicans_antioxidant
+0,citrullus colocynthis l,citrullus colocynthis l,s. hafez ghoran,macrotermes bellicosus,,,citrullus colocynthis l_peripheral neuropathy,,,c. colocynthis_antioxidant
+1,citrullus colocynthis,c. colocynthis,,m. bellicosus,,,citrullus colocynthis l_diabetic rats,,,c. colocynthis_hypoglycemic
+2,c. colocynthis,citrullus colocynthis,,c commutata (spreng.) greuter,,,citrullus colocynthis l_nerve originated pain,,,m. bellicosus_spasmolytic
+3,corydalis hendersonii hemsl,corydalis hendersonii hemsl,,chios mastic,,,citrullus colocynthis_peripheral neuropathy,,,m. bellicosus_relaxation of basal tone
+4,senecio candicans dc,senecio candicans dc,,phytosia crocifolia (boiss. & heldr.) kamari & greuter,,,citrullus colocynthis_diabetic rats,,,m. bellicosus_antimicrobial
+5,s. candicans,s. candicans,,,,,c. colocynthis_oxidative stress,,,m. bellicosus_suppression of induced contractions
+6,crepis,crepis,,,,,c. colocynthis_diabetic neuropathy,,,m. bellicosus_anti-inflammatory
+7,crepis l,crepis l,,,,,macrotermes bellicosus_inflammatory diseases,,,m. bellicosus_anti-spasmodic
+8,c. dioscoridis l,c. dioscoridis l,,,,,macrotermes bellicosus_infectious,,,corydalis hendersonii hemsl_anti-inflammatory
+9,c. incana sm,c. incana sm,,,,,macrotermes bellicosus_diarrhea,,,corydalis hendersonii hemsl_anti-acute myocardial ischemia
+10,c. heldreichiana (kuntze) greuter,c. heldreichiana (kuntze) greuter,,,,,macrotermes bellicosus_dysentery,,,corydalis hendersonii hemsl_lowering blood pressure
+11,c. crocifolia boiss. & heldr,c. crocifolia boiss,,,,,corydalis hendersonii hemsl_vasculitis,,,senecio candicans dc_gastroprotective
+12,cantharellus cibarius,cantharellus cibarius,,,,,corydalis hendersonii hemsl_high altitude polycythemia,,,s. candicans_antioxidant
+13,cantharellus cinereus,cantharellus cinereus,,,,,corydalis hendersonii hemsl_acute myocardial ischemia,,,s. candicans_gastroprotective
 14,craterellus cornucopioides,craterellus cornucopioides,,,,,s. candicans_gastric ulcer,,,crepis_anti-inflammatory
 15,hydnum repandum,hydnum repandum,,,,,chios mastic_arterial hypertension,,,crepis_antioxidant
 16,,,,,,,,,,c. dioscoridis l_anti-inflammatory

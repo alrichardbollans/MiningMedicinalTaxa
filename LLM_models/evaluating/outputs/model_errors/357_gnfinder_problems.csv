@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,pulsatilla patens,pulsatilla,silesian,matricariachamomilla,,,pulsatilla patens_skin disorders,,,thymus serpyllum_destroy thescurvy impurities
-1,centaurea cyanus,centaurea cyanus,petrova,piceaalba,,,centaurea cyanus_skin disorders,,,thymus serpyllum_wound healing
-2,ruta graveolens,ruta graveolens,comfrey root(symphytum officinale,beta vulgaris,,,ruta graveolens_skin disorders,,,thymus serpyllum_gum strengthening
+0,pulsatilla patens,pulsatilla,silesian,matricariachamomilla,,,pulsatilla patens_skin disorders,,,thymus serpyllum_gum strengthening
+1,centaurea cyanus,centaurea cyanus,petrova,piceaalba,,,centaurea cyanus_skin disorders,,,thymus serpyllum_destroy thescurvy impurities
+2,ruta graveolens,ruta graveolens,comfrey root(symphytum officinale,beta vulgaris,,,ruta graveolens_skin disorders,,,thymus serpyllum_wound healing
 3,vinca minor,vinca minor,fbranca ursina,pulsatillavulgaris,,,vinca minor_cataracts,,,sedum acre_relaxant
 4,sorbus aucuparia,sorbus aucuparia,tsibulia pora,schoenusnigricans,,,vinca minor_skindisorders,,,sedum acre_emetic
 5,thymus serpyllum,thymus serpyllum,,plantagomaior,,,vinca minor_skin disorders,,,sedum maximum_ulcers
@@ -16,21 +16,21 @@
 14,achillea millefolium,achillea millefolium,,,,,picea abies_syphilis,,,
 15,achillea millefolium l,viscum album,,,,,allium cepa_abscess,,,
 16,viscum album,allium cepa,,,,,beta vulgaris_ringworm,,,
-17,allium cepa,picea abies,,,,,pulsatillavulgaris_polish plait,,,
-18,allium cepa l,gentiana,,,,,pulsatillavulgaris_plica polonica,,,
+17,allium cepa,picea abies,,,,,pulsatillavulgaris_plica polonica,,,
+18,allium cepa l,gentiana,,,,,pulsatillavulgaris_polish plait,,,
 19,allium,sedum acre,,,,,gentiana lutea_cholera,,,
 20,picea abies,sedum maximum,,,,,schoenusnigricans_burn wounds,,,
-21,gentiana lutea,sedum,,,,,sedum acre_ulcers,,,
-22,sedum acre,carlina acaulis,,,,,sedum acre_earache,,,
-23,sedum,viburnum opulus,,,,,sedum acre_heel pain,,,
-24,sedum maximum,sorbus arranensis,,,,,sedum acre_urinary tract diseases,,,
-25,carlina acaulis,allium sativum,,,,,sedum maximum_wounds,,,
-26,viburnum opulus,hypericum perforatum,,,,,sedum maximum_bruises,,,
+21,gentiana lutea,sedum,,,,,sedum acre_urinary tract diseases,,,
+22,sedum acre,carlina acaulis,,,,,sedum acre_heel pain,,,
+23,sedum,viburnum opulus,,,,,sedum acre_ulcers,,,
+24,sedum maximum,sorbus arranensis,,,,,sedum acre_earache,,,
+25,carlina acaulis,allium sativum,,,,,sedum maximum_bruises,,,
+26,viburnum opulus,hypericum perforatum,,,,,sedum maximum_wounds,,,
 27,sorbus arranensis,juniperus communis,,,,,sedum maximum_edema,,,
-28,allium sativum,tussilago,,,,,carlina acaulis_kidney and bladder disease,,,
-29,allium sativum l,salvia officinalis,,,,,carlina acaulis_ulcers,,,
-30,hypericum perforatum,senna alexandrina,,,,,carlina acaulis_stitching pain,,,
-31,juniperus communis,castanea sativa,,,,,carlina acaulis_colic,,,
+28,allium sativum,tussilago,,,,,carlina acaulis_colic,,,
+29,allium sativum l,salvia officinalis,,,,,carlina acaulis_stitching pain,,,
+30,hypericum perforatum,senna alexandrina,,,,,carlina acaulis_kidney and bladder disease,,,
+31,juniperus communis,castanea sativa,,,,,carlina acaulis_ulcers,,,
 32,tussilago farfara,frangula alnus,,,,,achillea millefolium_wounds,,,
 33,salvia officinalis,silybum marianum,,,,,achillea millefolium_cut wounds,,,
 34,senna alexandrina,acanthus mollis,,,,,plantagomaior_wounds,,,

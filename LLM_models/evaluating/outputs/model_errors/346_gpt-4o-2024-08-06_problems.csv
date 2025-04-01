@@ -1,0 +1,21 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,c. majus,chelidonium majus,chelerythrine,coptis,chelidonium majus_viral infections,chelerythrine_viral infections,c. majus_pathogenic bacteria,chelidonium majus_antiprotozoal,chelerythrine_antimicrobial,c. majus_hepatic
+1,chelidonium,,sanguinarine,aspergillus fumigatus,chelidonium majus_trichomoniasis,chelerythrine_fungal infections,c. majus_wounds,chelidonium majus_antifungal,chelerythrine_antiviral,c. majus_antibacterial
+2,chelidonium majus,,berberine,cladosporium herbarum,chelidonium majus_fungal infections,chelerythrine_bacterial infections,c. majus_pathogenic fungi,chelidonium majus_antiviral,chelerythrine_antifungal,c. majus_gastric
+3,,,coptisine,cryptococcus neoformans,chelidonium majus_bacterial infections,sanguinarine_viral infections,c. majus_bacteria,chelidonium majus_anticancer,sanguinarine_antimicrobial,chelidonium_bactericidal
+4,,,chelidonine,epidermophyton floccosum,,sanguinarine_trichomoniasis,c. majus_hiv-1,chelidonium majus_antimicrobial,sanguinarine_antiviral,
+5,,,,penicillium notatum,,sanguinarine_fungal infections,chelidonium majus_papilloma virus infection,chelidonium majus_anti-inflammatory,sanguinarine_antiprotozoal,
+6,,,,rhodotorula rubra,,sanguinarine_bacterial infections,chelidonium majus_warts,,sanguinarine_antifungal,
+7,,,,scopulariopsis brevicaulis,,berberine_viral infections,,,berberine_antimicrobial,
+8,,,,torlopsis utilis,,berberine_bacterial infections,,,berberine_antiviral,
+9,,,,a. niger,,coptisine_viral infections,,,coptisine_antiviral,
+10,,,,candida sp,,chelidonine_viral infections,,,chelidonine_antimicrobial,
+11,,,,fusarium sp,,chelidonine_bacterial infections,,,chelidonine_antiviral,
+12,,,,keratinomyces ajelloi,,,,,,
+13,,,,microsporum sp,,,,,,
+14,,,,trichophyton sp,,,,,,
+15,,,,sphaerulina juglandis,,,,,,
+16,,,,septoria microspora,,,,,,
+17,,,,fusariumoxysporum,,,,,,
+18,,,,curvularia lunata,,,,,,
+19,,,,c. albicans,,,,,,

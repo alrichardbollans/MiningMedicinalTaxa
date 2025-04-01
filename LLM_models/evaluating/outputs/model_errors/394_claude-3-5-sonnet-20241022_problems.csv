@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,veronica officinalis,veronica officinalis,,ginkgo,,,,,,
-1,v. officinalis,veronica chamaedrys,,senna,,,,,,
-2,veronica,hypericum perforatum,,cassia,,,,,,
-3,v. chamaedrys,,,veronica iridoids,,,,,,
-4,hypericum perforatum,,,,,,,,,
+0,hypericum perforatum,hypericum perforatum,,ginkgo,,,,,veronica officinalis_therapeutic activity,
+1,veronica officinalis,veronica officinalis,,senna,,,,,,
+2,v. officinalis,veronica chamaedrys,,cassia,,,,,,
+3,veronica,,,veronica iridoids,,,,,,
+4,v. chamaedrys,,,,,,,,,

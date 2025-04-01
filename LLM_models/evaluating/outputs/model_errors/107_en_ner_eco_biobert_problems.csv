@@ -1,0 +1,99 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,sassafras officinale,sassafras,relieves(pimpinella anisum,angelica archangelica,,,angelica archangelica_colds,,,angelica archangelica_diuresis
+1,sassafras,amanita muscaria,arbutin,pimpinella anisum,,,angelica archangelica_indigestion,,,pimpinella anisum_carminative
+2,amanita muscaria,conocybe spp,black willow,arctostaphylos uva-ursi,,,angelica archangelica_bronchitis,,,arctostaphylos uva-ursi_diuretic
+3,conocybe spp,panaeolus sphinctrinus,salicin,salix pentandra,,,angelica archangelica_colic,,,arctostaphylos uva-ursi_astringent
+4,panaeolus sphinctrinus,boletus spp,pentandra)blueberry,vaccinium myrtillus,,,pimpinella anisum_colds,,,arctostaphylos uva-ursi_relieves bladder inf
+5,boletus spp,claviceps purpurea,allantoin,symphytum officinale,,,pimpinella anisum_asthma,,,arctostaphylos uva-ursi_antiseptic
+6,claviceps purpurea,lycoperdon mixtecorum,swelling(symphytum officinale,barosma betulina,,,symphytum officinale_colds,,,salix pentandra_antimalarial
+7,lycoperdon mixtecorum,lycoperdon marginatum,diosphenol,rhamnus frangula,,,symphytum officinale_broken bones,,,salix pentandra_analgesic
+8,lycoperdon marginatum,psilocybe spp,remedybuckthorn,nepeta cataria,,,symphytum officinale_diarrhea,,,salix pentandra_antipyretic
+9,psilocybe spp,stropharia cubensis,anthroquinone glycosides,anthemis nobilis,,,anthemis nobilis_inflammations,,,vaccinium myrtillus_diuretic
+10,stropharia cubensis,justicia pectoralis (masha-hari,laxative(rhamnus frangula)catnip,taraxacum officinale,,,eucalyptus globosus_colds,,,vaccinium myrtillus_antidiarrheal
+11,justicia pectoralis,acorus calamus,calmative(nepeta cataria,eucalyptus globosus,,,trigonella foenugraecum_colds,,,symphytum officinale_wound healing
+12,acorus calamus,mesembryanthemum spp,anthemide,foeniculum vulgare,,,trigonella foenugraecum_fevers,,,symphytum officinale_reduces swelling
+13,mesembryanthemum spp,sceletium tortuosum,poultice(anthemis nobilis,trigonella foenugraecum,,,humulus lupulus_indigestion,,,barosma betulina_diuretic
+14,sceletium tortuosum,tabernanthe iboga (iboga,"dextrose, levulose",panax quinquefolium,,,humulus lupulus_sleeplessness,,,barosma betulina_gastric remedy
+15,tabernanthe iboga,voacanga spp,taraxacin,hydrastis canadensis,,,equisetum arvense_dyspepsia,,,barosma betulina_antiseptic
+16,voacanga spp,,stress(taraxacum officinale,humulus lupulus,,,glycyrrhiza glabra_cough,,,rhamnus frangula_laxative
+17,,,"flavor,(trigonella foenugraecum",equisetum arvense,,,tilia europaea_dyspepsia,,,nepeta cataria_calmative
+18,,,feversginseng,juniperus communis,,,tilia europaea_indigestion,,,nepeta cataria_antipyretic
+19,,,panaxoside glycosides,glycyrrhiza glabra,,,carica papaya_back pain,,,taraxacum officinale_diuretic
+20,,,adaptogen,tilia europaea,,,mentha viridis_flatulence,,,taraxacum officinale_cholagogic
+21,,,hydrastine,ilex paraguariensis,,,fragaria spp_rheumatic gout,,,taraxacum officinale_relieves gastric stress
+22,,,berberine,viscum album,,,achillea millefolium_colds,,,eucalyptus globosus_expectorant
+23,,,sleeplessness(humulus lupulus,avena sativa,,,achillea millefolium_hemorrhoids,,,eucalyptus globosus_antiseptic
+24,,,flavoring(juniperus communis,carica papaya,,,eriodictyon californicum_hay fever,,,foeniculum vulgare_carminative
+25,,,flavoring(glycyrrhiza glabra,mentha piperita,,,eriodictyon californicum_hemorrhoids,,,foeniculum vulgare_laxative
+26,,,tonic(viscum album,mentha viridis,,,eriodictyon californicum_bronchiolar congestion,,,trigonella foenugraecum_antidiarrheal
+27,,,sativa)papaya,fragaria spp,,,rosa spp_colds,,,panax quinquefolium_aphrodisiac
+28,,,papain,achillea millefolium,,,elymus repens_cystitis,,,hydrastis canadensis_laxative
+29,,,pain(carica papaya)peppermint,eriodictyon californicum,,,,,,hydrastis canadensis_antiinflamatory
+30,,,rose hips,rosa spp,,,,,,equisetum arvense_diuretic
+31,,,aromatic(sassafras officinale,turnera aphrodisiaca,,,,,,juniperus communis_diuretic
+32,,,strawberry,elymus repens,,,,,,juniperus communis_laxative
+33,,,catechins,angelica,,,,,,glycyrrhiza glabra_laxative
+34,,,"colds,(achillea millefolium",eucalyptus,,,,,,ilex paraguariensis_cns stimulant
+35,,,relieves(eriodictyon californicum,datura,,,,,,viscum album_tonic
+36,,,nutmeg,,,,,,,viscum album_calmative
+37,,,cacao,,,,,,,avena sativa_antispasmodic
+38,,,coca,,,,,,,avena sativa_nerve stimulant
+39,,,marijuana,,,,,,,carica papaya_protein digestant
+40,,,opium,,,,,,,mentha piperita_digestive aid
+41,,,tobacco,,,,,,,mentha piperita_prevents flatulence/colic
+42,,,deliriants,,,,,,,mentha viridis_diuretic
+43,,,delusionegens,,,,,,,mentha viridis_relieves vomiting
+44,,,eidetics,,,,,,,fragaria spp_diuretic
+45,,,entheogens,,,,,,,fragaria spp_antidiarrheal
+46,,,genussmittel,,,,,,,fragaria spp_astringent
+47,,,hallucinogens,,,,,,,achillea millefolium_hair and scalp care
+48,,,misperceptinogens,,,,,,,eriodictyon californicum_expectorant
+49,,,mysticomimetics,,,,,,,sassafras officinale_antirheumatic
+50,,,phanerothymes,,,,,,,turnera aphrodisiaca_diuretic
+51,,,phantastica,,,,,,,turnera aphrodisiaca_aphrodisiac
+52,,,psychotica,,,,,,,elymus repens_diuretic
+53,,,excitantia,,,,,,,elymus repens_antirheumatic
+54,,,beveragesinebriantia,,,,,,,
+55,,,kavaeuphorica,,,,,,,
+56,,,opiumphantastica,,,,,,,
+57,,,fly agaric,,,,,,,
+58,,,sacred mush-rooms,,,,,,,
+59,,,jimson weed,,,,,,,
+60,,,inebriantiahave,,,,,,,
+61,,,kava,,,,,,,
+62,,,methysticin,,,,,,,
+63,,,euphorica,,,,,,,
+64,,,whichcocaine,,,,,,,
+65,,,groupexcitantia,,,,,,,
+66,,,tobacco alkaloids,,,,,,,
+67,,,d-norpseudoephedrine)inebriantia,,,,,,,
+68,,,ethanol)hypnotica,,,,,,,
+69,,,kava kava,,,,,,,
+70,,,dihydro-a-pyroneseuphorica,,,,,,,
+71,,,coca leaf,,,,,,,
+72,,,alkaloids,,,,,,,
+73,,,nut,,,,,,,
+74,,,arecoline)phantastica,,,,,,,
+75,,,hallucinogens):ayahusaca,,,,,,,
+76,,,tropane)datura,,,,,,,
+77,,,agaric,,,,,,,
+78,,,muscimol)marijuana,,,,,,,
+79,,,phenylpropenes,,,,,,,
+80,,,myristicin)ololiuqui,,,,,,,
+81,,,ergoline)peyote,,,,,,,
+82,,,tryptamine)snuffs,,,,,,,
+83,,,type)fungiagaricaceae,,,,,,,
+84,,,sporocarp eurasia,,,,,,,
+85,,,h)agaricaceae,,,,,,,
+86,,,sacred mushroom,,,,,,,
+87,,,sporocarp mexico,,,,,,,
+88,,,kuma mushroom,,,,,,,
+89,,,sporocarp new,,,,,,,
+90,,,h)clavicepitaceae,,,,,,,
+91,,,sclerotium (beak,,,,,,,
+92,,,h)lycoperdaceae,,,,,,,
+93,,,h)strophariaceae,,,,,,,
+94,,,sacred mushrooms,,,,,,,
+95,,,plantsacanthaceae,,,,,,,
+96,,,sweet flag,,,,,,,
+97,,,h)apocynaceae,,,,,,,

@@ -1,0 +1,22 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,satureja,satureja pilosa,,thymus spp,satureja pilosa_cramps,centaurea phyllocephala boiss_antidiabetic,,alkanna tinctoria_wound healing,centaurea phyllocephala boiss_hypotensive,thymus spp_antioxidant
+1,satureja pilosa,alkanna tinctoria,,thymbra capitata,satureja pilosa_infectious diseases,,,centaurea phyllocephala boiss_antibacterial,centaurea phyllocephala boiss_anti-pyretic,thymus spp_antimicrobial
+2,s. pilosa,centaurea phyllocephala boiss,,thymbra spp,satureja pilosa_gastrointestinal disorders,,,centaurea phyllocephala boiss_antioxidant,centaurea cyanoides_emmenagogue,thymbra capitata_antioxidant
+3,alkanna tinctoria,centaurea cyanoides,,t. longicaulis subsp. longicaulis,satureja pilosa_muscle pain,,,centaurea phyllocephala boiss_antirheumatic,centaurea cyanoides_diuretic,thymbra capitata_antimicrobial
+4,a. tinctoria,,,thymus boissieri,,,,centaurea phyllocephala boiss_anti-inflammatory,centaurea cyanoides_anti-diarrheic,thymbra capitata_antibacterial
+5,centaurea,,,t. degenii,,,,centaurea cyanoides_anti-inflammatory,,thymbra spp_antioxidant
+6,centaurea phyllocephala boiss,,,t. thracicus,,,,,,thymbra spp_antimicrobial
+7,centaurea cyanoides,,,t. sibthorpii,,,,,,t. longicaulis subsp. longicaulis_antioxidant
+8,,,,t. striatus,,,,,,t. longicaulis subsp. longicaulis_antibacterial
+9,,,,t. longicaulis subsp. chaubardii,,,,,,thymus boissieri_antioxidant
+10,,,,t. holosericeus,,,,,,thymus boissieri_antibacterial
+11,,,,t. plasonii,,,,,,t. degenii_antioxidant
+12,,,,centaurea cyanus,,,,,,t. degenii_antibacterial
+13,,,,centaurea sp,,,,,,t. thracicus_antioxidant
+14,,,,c. cyanus,,,,,,t. thracicus_antibacterial
+15,,,,,,,,,,t. sibthorpii_antioxidant
+16,,,,,,,,,,t. sibthorpii_antibacterial
+17,,,,,,,,,,t. striatus_antioxidant
+18,,,,,,,,,,t. striatus_antibacterial
+19,,,,,,,,,,centaurea_antidiabetic
+20,,,,,,,,,,centaurea_anti-dandruff

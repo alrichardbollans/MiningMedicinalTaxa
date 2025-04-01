@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,psilocybe mexicana,psilocybe mexicana,,d. meteloides,datura stramonium_asthma,,d. meteloides_wounds,datura stramonium_aphrodisiac,psilocybe mexicana_hallucinogenic,d. inoxia_anaesthetic
-1,psilocybe,datura stramonium,,stropharia,datura stramonium_inflammation,,d. meteloides_bruises,datura stramonium_anesthetic,datura inoxia_narcotic,d. meteloides_anaesthetic
-2,datura,datura inoxia,,conocybe,datura stramonium_bruises,,,datura inoxia_anesthetic,virola calophylla_hallucinogenic,
-3,datura stramonium,virola calophylla,,panaeolus,datura stramonium_wounds,,,,virola calophylloidea_hallucinogenic,
-4,d. inoxia,virola calophylloidea,,,datura inoxia_bruises,,,,virola theiodora_hallucinogenic,
-5,virola calophylla,virola theiodora,,,datura inoxia_wounds,,,,anadenanthera peregrina_hallucinogenic,
-6,virola,anadenanthera peregrina,,,,,,,sophora secundiflora_narcotic,
-7,v. calophylloidea,sophora secundiflora,,,,,,,,
-8,v. theiodora,,,,,,,,,
-9,anadenanthera peregrina,,,,,,,,,
-10,sophora secundiflora,,,,,,,,,
+0,psilocybe mexicana,psilocybe mexicana,brugmansia,d. meteloides,datura stramonium_inflammation,,d. meteloides_bruises,datura stramonium_anesthetic,sophora secundiflora_narcotic,datura_aphrodisiac
+1,psilocybe,sophora secundiflora,,stropharia,datura stramonium_bruises,,d. meteloides_wounds,datura inoxia_anesthetic,datura stramonium_narcotic,d. inoxia_anaesthetic
+2,sophora secundiflora,datura stramonium,,conocybe,datura stramonium_asthma,,,,datura inoxia_narcotic,d. meteloides_anaesthetic
+3,datura,datura inoxia,,panaeolus,datura stramonium_wounds,,,,,
+4,datura stramonium,virola calophylla,,,datura inoxia_bruises,,,,,
+5,d. inoxia,virola calophylloidea,,,datura inoxia_wounds,,,,,
+6,virola calophylla,virola theiodora,,,,,,,,
+7,virola,anadenanthera peregrina,,,,,,,,
+8,v. calophylloidea,,,,,,,,,
+9,v. theiodora,,,,,,,,,
+10,anadenanthera peregrina,,,,,,,,,

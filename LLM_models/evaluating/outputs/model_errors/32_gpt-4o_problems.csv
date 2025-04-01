@@ -1,6 +1,0 @@
-,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,aconitum,aconitum species,,aloe vera,,,aloe vera_eczema,,,agnus castus_pms/ cycle regulation
-1,digitalis purpurea l,digitalis purpurea l,,agnus castus,,,aloe vera_skin conditions,,,
-2,papaver somniferum l,papaver somniferum l,,aristolochia,,,,,,
-3,viscum album l,viscum album l,,rhodiola,,,,,,
-4,atropa belladonna l,atropa belladonna l,,echinacea,,,,,,

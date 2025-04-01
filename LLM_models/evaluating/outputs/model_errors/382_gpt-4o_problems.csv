@@ -1,8 +1,0 @@
-,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,citrullus colocynthis,citrullus colocynthis,,,citrullus colocynthis_breast cancer,,,citrullus colocynthis_anticancer,citrullus colocynthis_inducing cytotoxicity,citrullus colocynthis_prevention of emt of metastaticmda-mb-231 cells
-1,,,,,citrullus colocynthis_cervical cancer,,,,citrullus colocynthis_apoptotic,
-2,,,,,,,,,citrullus colocynthis_inhibitory effect on cancer cell migration,
-3,,,,,,,,,citrullus colocynthis_inhibiting cell proliferation,
-4,,,,,,,,,citrullus colocynthis_inhibitory effect on emt,
-5,,,,,,,,,citrullus colocynthis_inhibitory effect on cancer stemness,
-6,,,,,,,,,citrullus colocynthis_cytotoxic,

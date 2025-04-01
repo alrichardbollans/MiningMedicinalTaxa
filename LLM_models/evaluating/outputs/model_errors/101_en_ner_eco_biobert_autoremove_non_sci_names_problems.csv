@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,cerbera spp,cerbera spp,"carolus linnaeus]""within",akokanthera venetata,,,physostigma vene-nosum_chronic constipation,,,
-1,physostigma vene-nosum,physostigma vene-nosum,papyrus,krausii,,,physostigma vene-nosum_glaucoma,,,
-2,adenium obesum,adenium obesum,,combretum confertum,,,physostigma vene-nosum_alzheimer's disease,,,
+0,cerbera spp,cerbera spp,"carolus linnaeus]""within",akokanthera venetata,,,physostigma vene-nosum_glaucoma,,,
+1,physostigma vene-nosum,physostigma vene-nosum,papyrus,krausii,,,physostigma vene-nosum_alzheimer's disease,,,
+2,adenium obesum,adenium obesum,,combretum confertum,,,physostigma vene-nosum_chronic constipation,,,
 3,cerbera vinenifera,cerbera vinenifera,,securidaca longipedunculata,,,,,,
 4,detarium senegalense,detarium senegalense,,strychnos icaja,,,,,,
 5,erythrophleum suaveolens,erythrophleum suaveolens,,strychnos kipapa,,,,,,

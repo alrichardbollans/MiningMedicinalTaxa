@@ -1,7 +1,0 @@
-,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,pinus peuce,pinus peuce griseb,,gingko,,,,pinus peuce griseb_antimicrobial,pinus peuce griseb_antibacterial,gingko_antiaggregatory
-1,,,,pinus densiflora s. and z,,,,,pinus peuce griseb_antifungal,pinus densiflora s. and z_antibacterial
-2,,,,pinus caribaea,,,,,pinus peuce griseb_antiviral,pinus caribaea_antibacter-ial
-3,,,,candida albicans,,,,,,
-4,,,,melaleuca alternifolia,,,,,,
-5,,,,candidia sp,,,,,,

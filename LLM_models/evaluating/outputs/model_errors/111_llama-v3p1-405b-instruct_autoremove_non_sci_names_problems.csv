@@ -1,7 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,lophophora williamsii,lophophora williamsii,erythroxylum coca,erythrox-ylumcoca,,erythroxylum coca_morphine addiction,,,erythroxylum coca_euphoria,
-1,,,,e. novogranatense,,,,,erythroxylum coca_stimulant,
-2,,,,erythroxylon,,,,,erythroxylum coca_anesthetic,
-3,,,,,,,,,lophophora williamsii_therapeutic properties,
-4,,,,,,,,,lophophora williamsii_vision-inducing,
-5,,,,,,,,,lophophora williamsii_hallucinogenic,
+0,e. novogranatense,erythroxylum novogranatense,erythroxylum coca,erythrox-ylumcoca,,erythroxylum coca_disease,,,erythroxylum coca_anesthetic,
+1,lophophora williamsii,lophophora williamsii,,erythroxylon,,erythroxylum coca_malnutrition,,,erythroxylum coca_stimulant,
+2,,,,,,,,,lophophora williamsii_therapeutic,
+3,,,,,,,,,lophophora williamsii_hallucinogenic,

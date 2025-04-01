@@ -338,9 +338,10 @@ def full_eval_gnfinder(rerun: bool = True):
 
 
 def main():
-    assessing_hparams(rerun=True)
-    # full_evaluation(rerun=True)
+    # assessing_hparams(rerun=True)
+    full_evaluation(rerun=True)
     # full_eval_gnfinder(rerun=True)
+
 
 if __name__ == '__main__':
     # _get_chunks_to_tweak_with()

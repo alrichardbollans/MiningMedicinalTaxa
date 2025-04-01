@@ -1,0 +1,4 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,piper excelsum,piper excelsum,,,,,piper excelsum_diarrhoea,,,
+1,leptospermum scoparium,leptospermum scoparium,,,,,leptospermum scoparium_diarrhoea,,,
+2,hebe salicifolia,hebe salicifolia,,,,,hebe salicifolia_diarrhoea,,,

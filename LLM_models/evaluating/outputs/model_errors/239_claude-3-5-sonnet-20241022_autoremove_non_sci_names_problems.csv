@@ -1,14 +1,18 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,sideritis,sideritis raeseri boiss. & heldr. subsp. raeseri,,m. pudica,capparis orientalis veill_colds,sideritis raeseri boiss. & heldr. subsp. raeseri_inflammation,m. pudica_dysuria,sideritis raeseri boiss. & heldr. subsp. raeseri_carminative,,sideritis_anti-inflammatory
-1,sideritis raeseri boiss. & heldr. subsp. raeseri,capparis orientalis veill,,alyssum alyssoides,capparis orientalis veill_atherosclerosis,capparis orientalis veill_diabetes,,sideritis raeseri boiss. & heldr. subsp. raeseri_stomachic,,capparis orientalis veill_anti-diabetes
-2,sideritis raeseri boiss & heldr. subsp. raeseri,primula veris l,,tinospora sinensis,capparis orientalis veill_atonia,,,sideritis raeseri boiss. & heldr. subsp. raeseri_antimicrobial,,capparis orientalis veill_hiv-1 reverse transcriptase inhibitory
-3,capparis orientalis veill,,,chromolaena odorata,,,,sideritis raeseri boiss. & heldr. subsp. raeseri_analgesic,,
-4,primula veris,,,mimosa pudica,,,,sideritis raeseri boiss. & heldr. subsp. raeseri_antitussive,,
-5,primula veris l,,,tadehagi triquetrum,,,,capparis orientalis veill_anti-inflammatory,,
-6,,,,alysicarpus vaginalis,,,,capparis orientalis veill_immunomodulatory,,
-7,,,,streptocaulon juventas,,,,capparis orientalis veill_antimicrobial,,
-8,,,,tradescantia zebrina,,,,capparis orientalis veill_diuretic,,
-9,,,,canscora lucidissima,,,,capparis orientalis veill_antioxidant,,
-10,,,,a. alyssoides,,,,capparis orientalis veill_antifungal,,
-11,,,,primula elatior (l.) hill,,,,capparis orientalis veill_anti-proliferative,,
-12,,,,rosa,,,,,,
+0,sideritis,sideritis raeseri boiss & heldr. subsp. raeseri,,primula elatior (l.) hill,capparis orientalis veill_colds,sideritis raeseri boiss & heldr. subsp. raeseri_inflammation,,sideritis raeseri boiss & heldr. subsp. raeseri_analgesic,,capparis orientalis veill_hiv-1 reverse transcriptase inhibitory
+1,sideritis raeseri boiss. & heldr. subsp. raeseri,capparis orientalis veill,,rosa,capparis orientalis veill_atonia,capparis orientalis veill_diabetes,,sideritis raeseri boiss & heldr. subsp. raeseri_antimicrobial,,capparis orientalis veill_anti-diabetes
+2,sideritis raeseri boiss & heldr. subsp. raeseri,primula veris l,,,capparis orientalis veill_atherosclerosis,,,sideritis raeseri boiss & heldr. subsp. raeseri_carminative,,
+3,capparis orientalis veill,tinospora sinensis,,,mimosa pudica_dysuria,,,sideritis raeseri boiss & heldr. subsp. raeseri_stomachic,,
+4,primula veris,chromolaena odorata,,,,,,sideritis raeseri boiss & heldr. subsp. raeseri_antitussive,,
+5,primula veris l,mimosa pudica,,,,,,sideritis raeseri boiss & heldr. subsp. raeseri_anti-inflammatory,,
+6,tinospora sinensis,tadehagi triquetrum,,,,,,capparis orientalis veill_diuretic,,
+7,chromolaena odorata,alysicarpus vaginalis,,,,,,capparis orientalis veill_antioxidant,,
+8,m. pudica,streptocaulon juventas,,,,,,capparis orientalis veill_anti-proliferative,,
+9,mimosa pudica,tradescantia zebrina,,,,,,capparis orientalis veill_antimicrobial,,
+10,tadehagi triquetrum,canscora lucidissima,,,,,,capparis orientalis veill_antifungal,,
+11,alysicarpus vaginalis,alyssum alyssoides,,,,,,capparis orientalis veill_anti-inflammatory,,
+12,streptocaulon juventas,,,,,,,capparis orientalis veill_immunomodulatory,,
+13,tradescantia zebrina,,,,,,,,,
+14,canscora lucidissima,,,,,,,,,
+15,alyssum alyssoides,,,,,,,,,
+16,a. alyssoides,,,,,,,,,

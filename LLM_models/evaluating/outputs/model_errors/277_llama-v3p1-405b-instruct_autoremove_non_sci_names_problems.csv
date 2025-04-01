@@ -1,4 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,camellia sinensis,camellia sinensis,,s. montana subsp. pisidica(wettst,,,,,,camellia sinensis_prevention of some of the chronic diseases
-1,satureja montana l,satureja montana l,,saturejamontana l,,,,,,
-2,s. montana,,,s. montana subsp. montana,,,,,,
+0,camellia sinensis,camellia sinensis,,saturejamontana l,,camellia sinensis_high oxidative stress,,,camellia sinensis_antioxidant,camellia sinensis_prevention of some of the chronic diseases
+1,satureja montana l,satureja montana,,,,,,,satureja montana_pharmacological activities,
+2,s. montana,,,,,,,,,
+3,s. montana subsp. pisidica(wettst,,,,,,,,,
+4,s. montana subsp. montana,,,,,,,,,
