@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aloe vera,aloe vera,triphala,,aloe vera_itchy skin,triphala_headache,aloe vera_wounds,,triphala_digestive aid,
+1,,,ajwain,,,ajwain_diarrhoea,,,ajwain_pain relief,
+2,,,curcuma longa,,,ajwain_gastro-intestinal ailments,,,ajwain_laxative,
+3,,,azadirachta indica,,,ajwain_flatulence,,,ajwain_anti-spasmodic,
+4,,,,,,ajwain_indigestion,,,ajwain_digestive aid,
+5,,,,,,curcuma longa_wounds,,,curcuma longa_antimicrobial,
+6,,,,,,azadirachta indica_itchy skin,,,curcuma longa_anti-inflammatory,
+7,,,,,,azadirachta indica_wounds,,,,

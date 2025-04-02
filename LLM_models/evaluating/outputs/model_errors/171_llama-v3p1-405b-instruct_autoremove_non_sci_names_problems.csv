@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,cannabis sativa l,cannabis sativa l,,cannabis sati-va l,cannabis sativa l_multiple sclerosis,,,cannabis sativa l_antiemetic,,cannabis sativa l_psychoac-tive
+0,cannabis sativa l,cannabis sativa l,,cannabis sati-va l,cannabis sativa l_chronic pain,,,cannabis sativa l_antiemetic,,cannabis sativa l_psychoac-tive
 1,,,,,cannabis sativa l_glaucoma,,,,,cannabis sativa l_psychoactive
-2,,,,,cannabis sativa l_asthma,,,,,cannabis sativa l_pharmacological
-3,,,,,cannabis sativa l_chronic pain,,,,,
-4,,,,,cannabis sativa l_cardiovascular conditions,,,,,
+2,,,,,cannabis sativa l_cardiovascular conditions,,,,,cannabis sativa l_pharmacological
+3,,,,,cannabis sativa l_multiple sclerosis,,,,,
+4,,,,,cannabis sativa l_asthma,,,,,

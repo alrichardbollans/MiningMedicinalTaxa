@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,ephedra sinica,ephedra,,dryopteris filix-mas,,,urechites suberecta_hemorrhoids,,,dryopteris filix-mas_vermifuge
 1,ephedra trifurca,landolphia rubber,,pistacia lentiscus,,,asclepias curassavica_menstruation,,,pistacia lentiscus_purgative
-2,landolphia,plumeria,,apocynum venetum,,,asclepias spp_toothache,,,apocynum venetum_cardiac stimulant
-3,plumeria spp,aponogeton,,urechites suberecta,,,cryptostegia grandiflora_malaria,,,apocynum venetum_emetic
+2,landolphia,plumeria,,apocynum venetum,,,asclepias spp_toothache,,,apocynum venetum_emetic
+3,plumeria spp,aponogeton,,urechites suberecta,,,cryptostegia grandiflora_malaria,,,apocynum venetum_cardiac stimulant
 4,plumeria,basella,,asclepias curassavica,,,,,,asclepias curassavica_abortifacient
 5,aponogeton dystachyon,,,asclepias spp,,,,,,asclepias spp_tooth extraction
 6,aponogeton,,,cryptostegia grandiflora,,,,,,

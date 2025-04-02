@@ -1,11 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,hypericum perforatum,hypericum perforatum,,,hypericum perforatum_anxiety,hypericum perforatum_demoniacs,,hypericum perforatum_diuretic,hypericum perforatum_wound healing,hypericum perforatum_curing demoniacs
-1,,,,,hypericum perforatum_illnesses of the imagination,hypericum perforatum_madness,,,hypericum perforatum_antiparasitic,
-2,,,,,hypericum perforatum_burns,hypericum perforatum_witchcraft,,,hypericum perforatum_anti-anxiety,
-3,,,,,hypericum perforatum_snakebites,,,,hypericum perforatum_antidepressant,
-4,,,,,hypericum perforatum_wounds,,,,,
-5,,,,,hypericum perforatum_disturbances of understanding,,,,,
-6,,,,,hypericum perforatum_melancholia,,,,,
-7,,,,,hypericum perforatum_phantasmata,,,,,
-8,,,,,hypericum perforatum_parasites,,,,,
-9,,,,,hypericum perforatum_depression,,,,,
+0,hypericum perforatum,hypericum perforatum,null,,hypericum perforatum_melancholia,null_diarrhea,hypericum perforatum_burns,hypericum perforatum_diuretic,null_anti-influenza,hypericum perforatum_curing demoniacs
+1,,,heantos,,hypericum perforatum_disturbances of understanding,null_hormonal imbalance,hypericum perforatum_parasites,,null_anti-dysenteric,
+2,,,,,hypericum perforatum_anxiety,null_colitis,hypericum perforatum_wounds,,null_anti-tussive,
+3,,,,,hypericum perforatum_depression,null_whooping cough,hypericum perforatum_illnesses of the imagination,,null_anti-diarrhoeic,
+4,,,,,,null_allergies,hypericum perforatum_phantasmata,,null_anti-rheumatic,
+5,,,,,,heantos_addiction,hypericum perforatum_snakebites,,null_emmenagogic,
+6,,,,,,heantos_opium dependency,,,null_anti-inflammatory,
+7,,,,,,,,,hypericum perforatum_antidepressant,
+8,,,,,,,,,hypericum perforatum_anti-anxiety,
+9,,,,,,,,,heantos_withdrawal symptoms relief,
+10,,,,,,,,,heantos_anti-addictive,

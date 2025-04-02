@@ -1,0 +1,32 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,rumex hydrolapathum,rumex hydrolapathum,,,chelidonium majus_skin diseases,chelidonium majus_colic attacks,c. majus_blisters,chelidonium majus_diuretic,rumex hydrolapathum_diuretic,rumex hydrolapathum_diaphoretic
+1,c. majus,chelidonium majus,,,chelidonium majus_warts,,c. majus_skin irritation,chelidonium majus_tonic,chelidonium majus_antibiotic,rumex hydrolapathum_sweating
+2,chelidonium majus,,,,chelidonium majus_bile duct,,c. majus_roundworms,chelidonium majus_stimulant of cardiac functions,chelidonium majus_diaphoretic,c. majus_lighten the freckles
+3,,,,,chelidonium majus_visceral obstructions,,c. majus_wound,chelidonium majus_relaxant,chelidonium majus_anti-inflammatory,c. majus_to regulate actionof the digestive tract
+4,,,,,chelidonium majus_cataract,,c. majus_boils,chelidonium majus_depurative,,c. majus_lighten freckles
+5,,,,,chelidonium majus_inflammation of the gallbladder,,c. majus_spasticconditions,chelidonium majus_cholagogue,,chelidonium majus_increasing bloodpressure
+6,,,,,chelidonium majus_inflammation of the udder,,c. majus_skineruptions,,,
+7,,,,,chelidonium majus_scrofula,,c. majus_skin wounds,,,
+8,,,,,chelidonium majus_cancer,,c. majus_liver conditions,,,
+9,,,,,chelidonium majus_ulcers,,c. majus_liver diseases,,,
+10,,,,,chelidonium majus_hepatitis,,c. majus_colicattacks,,,
+11,,,,,chelidonium majus_eczema,,c. majus_eye diseases,,,
+12,,,,,chelidonium majus_gout,,c. majus_specks,,,
+13,,,,,chelidonium majus_dropsies,,c. majus_sight loss,,,
+14,,,,,chelidonium majus_eye infections,,c. majus_skin disease,,,
+15,,,,,chelidonium majus_syphilitic affliction,,c. majus_liver disorders,,,
+16,,,,,chelidonium majus_inflammatory eye infections,,c. majus_allergic rashes,,,
+17,,,,,chelidonium majus_cancer of lungs,,c. majus_scabies,,,
+18,,,,,chelidonium majus_liver complaints,,c. majus_wounds,,,
+19,,,,,chelidonium majus_digestive tract parasites,,c. majus_dermatologicconditions,,,
+20,,,,,chelidonium majus_hydropsy,,c. majus_eye conditions,,,
+21,,,,,chelidonium majus_fevers,,c. majus_cuts,,,
+22,,,,,chelidonium majus_ophtalmia,,c. majus_psoriasis,,,
+23,,,,,chelidonium majus_jaundice,,c. majus_gallstones,,,
+24,,,,,chelidonium majus_gastrointestinal parasites,,c. majus_dermatitis,,,
+25,,,,,chelidonium majus_dermatologic conditions,,c. majus_corns,,,
+26,,,,,,,c. majus_rashes,,,
+27,,,,,,,c. majus_hyperpigmentation,,,
+28,,,,,,,c. majus_pustules,,,
+29,,,,,,,chelidonium majus_aching teeth,,,
+30,,,,,,,chelidonium majus_snake venom,,,

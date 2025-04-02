@@ -1,0 +1,47 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,chelidonium,chelidonium majus,pharmacologysylwia zielin'ska,,,,chelidonium_ophthalmological problems,,,chelidonium_pain-relieving
+1,c. majus,chelidonium,dioscorides,,,,chelidonium_cholagogue,,,chelidonium_antimicrobial
+2,chelidonium majus,c. majus,signatura rerum,,,,chelidonium_anti-jaundice,,,chelidonium_antiviral
+3,c. majus l,"chelidonium majusintroduction""no",slavoniclanguages,,,,chelidonium majusl_skin protuberances,,,chelidonium_anticancer
+4,c. majus l.sensu lato,chelidonium majusl,chelidon,,,,chelidonium majusl_infections,,,c. majus_spasmolytic
+5,c. majus l.subsp. majus,chelidonium l.was,swallow,,,,chelidonium majusl_warts,,,c. majus_diuretic
+6,chelidonium majusl,c. majus l,papaveroidae,,,,chelidonium majusl_gastrointestinal disorders,,,c. majus_anti-edema
+7,chelidonium l,c. majus l.sensu,berberine,,,,chelidonium majusl_cancer,,,c. majus_enhance sight
+8,chelidonium majussubsp. grandiflorum (dc.) printz,c. asiaticum (hara)krahulcova,c. majusspreads,,,,c. majus_skin eczema,,,c. majus_expectorant
+9,c. asiaticum (hara)krahulcova,c. asiaticum,isoquinoline alkaloids,,,,c. majus_aching tooth,,,c. majus_antitussive
+10,c. asiaticum,c. majus l.subsp,chelidonine,,,,c. majus_colic,,,c. majus_anti-infectious
+11,,chelidonium majussubsp,chelerythrine,,,,c. majus_eyediseases,,,c. majus_gastric
+12,,chelidonium majuspowdered,celandine;which,,,,c. majus_ulcers,,,c. majus_anticancer
+13,,,chamomile,,,,c. majus_herpes,,,c. majus_hepatic
+14,,,valerian,,,,c. majus_cataract,,,
+15,,,st. john's wort,,,,c. majus_pulmonary,,,
+16,,,ginseng,,,,c. majus_pain,,,
+17,,,"chelidonium""or",,,,c. majus_liver conditions,,,
+18,,,celandine,,,,c. majus_toothache,,,
+19,,,majus l,,,,c. majus_leprosy,,,
+20,,,papaveraceae1,,,,c. majus_wounds,,,
+21,,,1982krahulcowa,,,,c. majus_ophthalmologicaldiseases,,,
+22,,,c. majus.1the,,,,c. majus_dermatologic disorders,,,
+23,,,grandiflorum (dc.) printz,,,,c. majus_scabs,,,
+24,,,epithetmajus,,,,c. majus_aphrodisiacum,,,
+25,,,greater celandine,,,,c. majus_eye diseases,,,
+26,,,wordcelidonia,,,,c. majus_visualimpairment,,,
+27,,,chelidonia,,,,c. majus_eye and skin conditions,,,
+28,,,schollkraut,,,,c. majus_cancer,,,
+29,,,barodaunik,,,,c. majus_dermatologic diseases,,,
+30,,,wart herb,,,,c. majus_sightimpairment,,,
+31,,,dravnicovina,,,,c. majus_jaundice,,,
+32,,,golondrinera,,,,c. majus_skin ulcer,,,
+33,,,wart herb).chelidonium,,,,c. majus_throat cleansing,,,
+34,,,dioscurides celandine,,,,c. majus_bodyulcers,,,
+35,,,de viribus herbarum,,,,c. majus_liver diseases,,,
+36,,,macer floridus,,,,c. majus_stomach ache,,,
+37,,,workliber subtilitatum diversarum,,,,c. majus_hair overgrowth,,,
+38,,,naturarum creaturarum,,,,chelidonium majus_ulcers,,,
+39,,,joannes minoritanus,,,,,,,
+40,,,marcello vergili,,,,,,,
+41,,,hieronymus bock,,,,,,,
+42,,,fumaria officinalis,,,,,,,
+43,,,herbarz polski,,,,,,,
+44,,,herbal,,,,,,,
+45,,,eyediseases,,,,,,,

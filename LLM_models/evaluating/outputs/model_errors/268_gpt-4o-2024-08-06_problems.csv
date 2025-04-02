@@ -1,0 +1,17 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,amphoricarpos autariatus,amphoricarpos autariatus,,teucrium polium,,centaurium erythrea_antidiabetic,,,,centaurium erythrea_antidiabetics
+1,anthemis carpatica,anthemis carpatica,,teucrium spp,,,,,,swertia chiriata_antidiabetic
+2,seseli montanum ssp. tommasinii,seseli montanum ssp. tommasinii,,vaccinium spp,,,,,,teucrium polium_antidiabetic
+3,swertia punctata,swertia punctata,,cen-taurium erythrea,,,,,,teucrium polium_insulinotropic
+4,swertia,gentiana,,teucrium,,,,,,teucrium spp_hepatoprotective
+5,gentiana,gentianella,,anthemis carpa-tica,,,,,,teucrium spp_antidiabetic
+6,gentianella,swertia,,gentianopsis,,,,,,vaccinium spp_hepatoprotective
+7,swertia chiriata,centaurium erythrea,,tribulus terrestris,,,,,,vaccinium spp_antidiabetic
+8,centaurium erythrea,arctostaphylos uva ursi,,achillea clypeolata,,,,,,cen-taurium erythrea_hepatoprotective
+9,centaurium,origanum vulgare,,saccharomices cerevi-siae,,,,,,cen-taurium erythrea_antidiabetic
+10,arctostaphylos uva ursi,salvia,,sideritis raeseri,,,,,,arctostaphylos uva ursi_hepatoprotective
+11,origanum vulgare,papaver somniferum,,s.scardica,,,,,,arctostaphylos uva ursi_antidiabetic
+12,salvia,,,s.syriaca,,,,,,teucrium_insulinotropic
+13,salvia off,,,vac-cinium spp,,,,,,
+14,papaver somniferum,,,sideritis spp,,,,,,
+15,,,,sideritis rae-seri,,,,,,

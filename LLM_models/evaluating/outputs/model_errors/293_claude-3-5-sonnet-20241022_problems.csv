@@ -1,2 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,,,,candida albicans,,,,,,
+0,candida albicans,candida albicans,staphylococcus aureus,,,,,,staphylococcus aureus_antimicrobial,
+1,,,staphylococcus epidermidis,,,,,,staphylococcus epidermidis_antimicrobial,
+2,,,micrococcus luteus,,,,,,micrococcus luteus_antimicrobial,
+3,,,micrococcus flavus,,,,,,micrococcus flavus_antimicrobial,
+4,,,enterococcus faecalis,,,,,,enterococcus faecalis_antimicrobial,
+5,,,bacillus subtilis,,,,,,bacillus subtilis_antimicrobial,
+6,,,escherichia coli,,,,,,escherichia coli_antimicrobial,
+7,,,klebsiella pneumoniae,,,,,,klebsiella pneumoniae_antimicrobial,
+8,,,pseudomonas aeruginosa,,,,,,pseudomonas aeruginosa_antimicrobial,
+9,,,,,,,,,candida albicans_antimicrobial,

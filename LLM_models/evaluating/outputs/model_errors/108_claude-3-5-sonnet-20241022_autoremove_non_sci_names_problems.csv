@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,papaver somniferum,papaver somniferum l,,papaversomniferum,,papaver somniferum l_gout,papaversomniferum_gout,,papaver somniferum l_narcotic,
-1,,,,cannabis sativa,,papaver somniferum l_diarrhea,papaversomniferum_diarrhea,,,
-2,,,,catha edulis,,,,,,
+0,papaver somniferum,papaver somniferum,,papaversomniferum,,papaver somniferum_rheumatic pains,papaversomniferum_diarrhea,,papaver somniferum_pain relief,
+1,,,,cannabis sativa,,papaver somniferum_diarrhea,papaversomniferum_gout,,papaver somniferum_narcotic,
+2,,,,catha edulis,,papaver somniferum_gout,,,,
 3,,,,tagetes lucida,,,,,,
 4,,,,ipomoea violacea,,,,,,
 5,,,,turbina corymbosa,,,,,,

@@ -1,2 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,,,,aloe vera,,,aloe vera_eczema,,,
+0,aloe vera,aloe vera,tulsi,,aloe vera_eczema,tulsi_diabetes,,,turmeric_antiseptic,
+1,,,neem,,,turmeric_coughs,,,turmeric_anti-inflammatory,
+2,,,turmeric,,,turmeric_colds,,,turmeric_immune boosting,
+3,,,karela,,,turmeric_wounds,,,,
+4,,,eucalyptus,,,karela_diabetes,,,,
+5,,,tea tree,,,eucalyptus_blocked sinuses,,,,
+6,,,menthol,,,tea tree_scars,,,,
+7,,,garlic,,,tea tree_spots,,,,
+8,,,cinnamon,,,menthol_blocked sinuses,,,,
+9,,,,,,garlic_high blood pressure,,,,
+10,,,,,,cinnamon_high cholesterol,,,,

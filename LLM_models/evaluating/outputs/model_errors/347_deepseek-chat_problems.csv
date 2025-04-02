@@ -1,0 +1,15 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,c. majus,chelidonium majus,sanguinarine,entamoeba histolytica,chelidonium majus_liver complaints,chelidonium majus_hepatic abscess,c. majus_liver toxicity,chelidonium majus_choleretic,chelidonium majus_pro-apoptotic,c. majus_supporting artificial insemination or facilitating fertilization
+1,chelidonium majus,silybum marianum,berberine,,chelidonium majus_hepatobiliary disorders,chelidonium majus_hepatotoxicity,,chelidonium majus_hepatoprotective,chelidonium majus_cytotoxic,c. majus_liver and biliary tract
+2,silybum marianum,,chelerythrine,,,chelidonium majus_cancer,,chelidonium majus_cholagogue,chelidonium majus_antiproliferative,c. majus_antitumor
+3,,,coptisine,,,sanguinarine_cancer,,chelidonium majus_antispasmodic,sanguinarine_pro-apoptotic,c. majus_acceleration of sperm movement toward fallopian tube
+4,,,stylopine,,,sanguinarine_hepatic abscess,,silybum marianum_hepatoprotective,sanguinarine_cytotoxic,
+5,,,allocryptopine,,,berberine_cancer,,,sanguinarine_antiproliferative,
+6,,,protopine,,,chelerythrine_cancer,,,berberine_cytotoxic,
+7,,,,,,silybum marianum_hepatotoxicity,,,berberine_antiproliferative,
+8,,,,,,,,,chelerythrine_cytotoxic,
+9,,,,,,,,,chelerythrine_antiproliferative,
+10,,,,,,,,,coptisine_relaxant activity on ileum smooth muscles,
+11,,,,,,,,,stylopine_relaxant activity on ileum smooth muscles,
+12,,,,,,,,,allocryptopine_cytotoxic,
+13,,,,,,,,,protopine_cytotoxic,

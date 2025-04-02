@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,papaver somniferum,papaver somniferum,,humulus lupulus,,cannabis sativa_nausea associated with cancer chemotherapy,papaver somniferum_anxiety,,papaver somniferum_pain-killing,
+1,cannabis sativa,cannabis sativa,,,,,papaver somniferum_pain,,papaver somniferum_narcotic,
+2,c. sativa,cannabis indica,,,,,,,papaver somniferum_hypnotic,
+3,cannabis,cannabis ruderalis,,,,,,,cannabis sativa_euphoria,
+4,cannabis indica,,,,,,,,,
+5,c. indica,,,,,,,,,
+6,c. ruderalis,,,,,,,,,

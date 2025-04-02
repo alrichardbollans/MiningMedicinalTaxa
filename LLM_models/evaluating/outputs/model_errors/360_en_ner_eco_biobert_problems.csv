@@ -1,0 +1,49 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,scrophularia lucida,scrophularia lucida,zhyttya-buttya,,,,scrophularia lucida_tumor,,,scrophularia oldhamii oliv_anti-inflammatory
+1,scrophularia lucida l,scrophularia lucida l,obychai girskogo narodu,,,,scrophularia lucida l_leukemia,,,scrophularia oldhamii oliv_antipyretic
+2,scrophularia,s. lucida,etnografichne doslidzhennya boykivschyny,,,,scrophularia lucida l_cancer,,,scrophularia grossheimii schischkin_diuretic
+3,s. lucida l,scrophularia,naukovadumka,,,,scrophularia ningpoensis hemsl_conjunctivits,,,scrophularianodosa l_diuretic
+4,s. lucida,scrophularia ningpoensis hemsl,pro narodni zabobony,,,,scrophularia ningpoensis hemsl_febrile diseases,,,scrophularianodosa l_wound healing
+5,scrophularia ningpoensis hemsl,scrophularia auriculata l,nakladem autora,,,,scrophularia ningpoensis hemsl_eruptions,,,scrophularia depauperata boiss_diuretic
+6,scrophularia auriculata l,scrophularia variegata m. bieb,perspektyvy rozvytku likarskogo roslynnyctva,,,,scrophularia ningpoensis hemsl_coughdue to exhaustion,,,scrophularia cryptophilaboiss. et. heldr. boiss_diuretic
+7,scrophularia canina l,scrophularia striata boiss.in,mova ukrajinskogo travnyka,,,,scrophularia ningpoensis hemsl_constipation,,,scrophularia floribunda boiss. et. bal_diuretic
+8,scrophularia variegata m. bieb,scrophularia oldhamii oliv,sposoby yikh zastosuvannia,,,,scrophularia ningpoensis hemsl_skin disorders,,,s. oxysepala_anti-tumor
+9,scrophularia striata boiss,scrophularianodosa l,zdorovya,,,,scrophularia ningpoensis hemsl_inflammatory diseases,,,
+10,scrophularia oldhamii oliv,scrophularia depauperata boiss,rozvytok zovnishnoi torgivli likaskoyu roslynnoyusyrovynoyu,,,,scrophularia auriculata l_wound healing,,,
+11,scrophularia grossheimii schischkin,scrophularia cryptophilaboiss,narodnogo zdravija,,,,scrophularia auriculata l_inflammatory disorders,,,
+12,scrophularia depauperata boiss,scrophularia floribunda boiss,organizacii vrachebnojpomoschi v rosii,,,,scrophularia auriculata l_skinailments,,,
+13,scrophularia cryptophilaboiss. et. heldr. boiss,s. striatavia,vyrobnychi galuzi spozhyvchoi,,,,scrophularia canina l_wound healing,,,
+14,scrophularia floribunda boiss. et. bal,scrophulariaorientalis l,monografia historyczna,,,,scrophularia canina l_inflammatory disorders,,,
+15,s. variegata,s. variegata,naukova dumka,,,,scrophularia canina l_skinailments,,,
+16,scrophularianodosa l,scrophularia oxysepalacaused,polska akademia,,,,scrophularia variegata m. bieb_wound healing,,,
+17,s. floribunda,s. oxysepala,szymon syreniusz,,,,scrophularia variegata m. bieb_inflammatory disorders,,,
+18,s. striatavia,s. lucida l,wiadomosci bot.41,,,,scrophularia variegata m. bieb_skinailments,,,
+19,scrophulariaorientalis l,,z zycia gorali nadlomnickich,,,,scrophularia striata boiss_wound healing,,,
+20,s. oxysepala,,storocia,,,,scrophularia striata boiss_inflammatory disorders,,,
+21,,,slovenske pedagogicke nakladatelstvo,,,,scrophularia striata boiss_skinailments,,,
+22,,,otryvok malorusskogo prostonarodnogo lechebnogo travnika idva zagovora,,,,scrophularianodosa l_hemorrhoids,,,
+23,,,zarys lecznictwa ludowego,,,,scrophularianodosa l_eruptive skin diseases,,,
+24,,,medycyna ludowa,,,,scrophularianodosa l_pruritus,,,
+25,,,tradycja iwspolczesnos'c,,,,scrophularianodosa l_eczema,,,
+26,,,russkie vrachebniki,,,,scrophularianodosa l_psoriasis,,,
+27,,,pammiatniki drevniejpismennosti,,,,scrophularia depauperata boiss_hemorrhoids,,,
+28,,,ofscrophularia lucida,,,,scrophularia depauperata boiss_eruptive skin diseases,,,
+29,,,iridoids,,,,scrophularia depauperata boiss_pruritus,,,
+30,,,scrovalentinoside,,,,scrophularia depauperata boiss_eczema,,,
+31,,,koelzioside,,,,scrophularia depauperata boiss_psoriasis,,,
+32,,,nepitrin,,,,scrophularia cryptophilaboiss. et. heldr. boiss_hemorrhoids,,,
+33,,,orscrophularia canina l,,,,scrophularia cryptophilaboiss. et. heldr. boiss_eruptive skin diseases,,,
+34,,,forscrophularia grossheimii schischkin,,,,scrophularia cryptophilaboiss. et. heldr. boiss_pruritus,,,
+35,,,severalscrophularia,,,,scrophularia cryptophilaboiss. et. heldr. boiss_eczema,,,
+36,,,jurkat human leukemia,,,,scrophularia cryptophilaboiss. et. heldr. boiss_psoriasis,,,
+37,,,inwehi 164,,,,scrophularia floribunda boiss. et. bal_hemorrhoids,,,
+38,,,mammary carcinoma4t1,,,,scrophularia floribunda boiss. et. bal_eruptive skin diseases,,,
+39,,,floribunda,,,,scrophularia floribunda boiss. et. bal_pruritus,,,
+40,,,hl-60 promyeloic leukemia,,,,scrophularia floribunda boiss. et. bal_eczema,,,
+41,,,mcf-7 breast,,,,scrophularia floribunda boiss. et. bal_psoriasis,,,
+42,,,,,,,scrophularia_leukemia,,,
+43,,,,,,,scrophularia_cancer,,,
+44,,,,,,,s. striatavia_leukemia,,,
+45,,,,,,,s. variegata_cancer,,,
+46,,,,,,,s. oxysepala_breast cancer,,,
+47,,,,,,,s. floribunda_leukemia,,,

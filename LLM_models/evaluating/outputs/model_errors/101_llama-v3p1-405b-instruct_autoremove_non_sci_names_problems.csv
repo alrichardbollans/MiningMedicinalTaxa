@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,cerbera spp,cerbera spp,gnidia krausii,physostigma vene-nosum,,physostigma venenosum_glaucoma,physostigma vene-nosum_glaucoma,,cerbera spp_cardiac glycoside,
-1,physostigma venenosum,physostigma venenosum,,akokanthera venetata,,physostigma venenosum_alzheimer's disease,physostigma vene-nosum_chronic constipation,,,
-2,adenium obesum,adenium obesum,,cerbera vinenifera,,physostigma venenosum_chronic constipation,physostigma vene-nosum_alzheimer's disease,,,
-3,combretum confertum,combretum confertum,,krausii,,,,,,
+0,cerbera spp,cerbera spp,gnidia krausii,physostigma vene-nosum,,cerbera spp_guilt,physostigma vene-nosum_glaucoma,,cerbera spp_cardiac glycoside,
+1,physostigma venenosum,physostigma venenosum,,akokanthera venetata,,physostigma venenosum_glaucoma,physostigma vene-nosum_alzheimer's disease,,physostigma venenosum_physostigmine,
+2,adenium obesum,adenium obesum,,cerbera vinenifera,,physostigma venenosum_alzheimer's disease,physostigma vene-nosum_chronic constipation,,,
+3,combretum confertum,combretum confertum,,krausii,,physostigma venenosum_chronic constipation,,,,
 4,detarium senegalense,detarium senegalense,,ephedra,,,,,,
 5,erythrophleum suaveolens,erythrophleum suaveolens,,aloe,,,,,,
 6,mimusops djave,mimusops djave,,cassia,,,,,,

@@ -1,0 +1,15 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,cassia l,cassia l,triphala,,,cassia l_laxatives,,,,chamaecrista moench_laxatives
+1,senna mill,senna mill,shilajeet,,,senna mill_laxatives,,,,senna mill_laxatives
+2,senna,chamaecrista moench,tulsi,,,chamaecrista moench_laxatives,,,,cassia l_laxatives
+3,chamaecrista moench,echinacea,neem,,,triphala_digestion,,,,
+4,echinacea,aloe vera,karela,,,shilajeet_improve blood circulation,,,,
+5,aloe vera,,turmeric,,,shilajeet_good for people who have had a stroke,,,,
+6,,,ginger,,,karela_diabetes,,,,
+7,,,black seed,,,ginger powder (ganthora_cramps,,,,
+8,,,ajwain,,,,,,,
+9,,,mustard oil,,,,,,,
+10,,,honey,,,,,,,
+11,,,cinnamon,,,,,,,
+12,,,garlic,,,,,,,
+13,,,ginger powder (ganthora,,,,,,,

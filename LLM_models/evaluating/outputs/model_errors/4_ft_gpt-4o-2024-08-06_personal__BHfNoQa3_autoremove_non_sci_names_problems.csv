@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,chelidonium majus,chelidonium majus,,andrographispaniculata,andrographis paniculata_upper tract infection,chelidonium majus_hepatitis,hypericum perforatum_depression,a. paniculata_anti-cancer,,hypericum perforatum_antidepressants
+1,aristolochia fangchi,aristolochia fangchi,,andrographis paniculate,andrographis paniculata_upper respiratory tract infection,,hypericum_depression,a. paniculata_anti-pyretic,,hypericum perforatum_antidepressant
+2,piper methysticum,piper methysticum,,,andrographis paniculata_upper respiratory tract infections,,,a. paniculata_immuno-stimulatory,,piper methysticum_anxiolytic
+3,hypericum perforatum,hypericum perforatum,,,,,,a. paniculata_anti-bacterial,,
+4,hypericum,citrus paradisi,,,,,,a. paniculata_anti-inflammatory,,
+5,citrus paradisi,a. paniculata,,,,,,a. paniculata_anti-viral,,
+6,a. paniculata,andrographis paniculata,,,,,,a. paniculata_anti-venom,,
+7,andrographis paniculata,rhododendron sp,,,,,,a. paniculata_anti-diarrheal,,
+8,a.; paniculata,,,,,,,,,
+9,rhododendron sp,,,,,,,,,

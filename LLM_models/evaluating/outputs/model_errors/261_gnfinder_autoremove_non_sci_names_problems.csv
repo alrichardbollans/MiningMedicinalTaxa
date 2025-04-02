@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,allium cepa,allium,,phaseolus vulgaris l,,,,,,
+1,vicia faba,allium cepa,,,,,,,,
+2,trifolium repens,vicia faba,,,,,,,,
+3,phaseolus vul-garis,trifolium repens,,,,,,,,
+4,,phaseolus vul-garis,,,,,,,,

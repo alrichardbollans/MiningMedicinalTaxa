@@ -1,0 +1,23 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,salix spp,salix spp,ginseng,,,,digitalis lanata ehrh_cardiac disease,,,salix spp_pain relief
+1,digitalis lanata ehrh,digitalis lanata ehrh,,,,,papaver somniferum l_hypertension,,,salix spp_anti-platelet effects
+2,galega officinalis l,galega officinalis l,,,,,cinchona officinalis l_malaria,,,galega officinalis l_anti-diabetic
+3,papaver somniferum l,papaver somniferum l,,,,,cinchona officinalis l_fever,,,papaver somniferum l_vasodilator
+4,cinchona officinalis l,cinchona,,,,,cinchona officinalis l_infectious disease,,,papaver somniferum l_pain relief
+5,catharanthus roseus l,cinchona officinalis l,,,,,catharanthus roseus l_cancer,,,cinchona officinalis l_anti-malarial
+6,panax quinquefolius l,catharanthus roseus l,,,,,panax ginseng c.a.mey_fatigue,,,rumex rupestris le gall_astringent
+7,panax,panax quinquefolius l,,,,,,,,panax ginseng c.a.mey_male stimulant
+8,rumex rupestris le gall,rumex rupestris le gall,,,,,,,,panax ginseng c.a.mey_enhancement of mental and physical performance
+9,saxifraga hirculus l,saxifraga hirculus l,,,,,,,,
+10,panax ginseng c.a.mey,panax,,,,,,,,
+11,jatropha podagrica hook,jatropha podagrica hook,,,,,,,,
+12,codonopsis pilosula nannf,panax ginseng c.a.mey,,,,,,,,
+13,rumex madaio makino,codonopsis pilosula nannf,,,,,,,,
+14,talinum paniculatum (jacq.) gaertn,rumex madaio makino,,,,,,,,
+15,stephania tetrandra s.moore,talinum paniculatum (jacq.) gaertn,,,,,,,,
+16,stephania tetrandra,stephania tetrandra s.moore,,,,,,,,
+17,aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang,aristolochia fangchi y.c.wu,,,,,,,,
+18,aristolochia fangchi,stephania tetrandra,,,,,,,,
+19,aristolochia,aristolochia fangchi,,,,,,,,
+20,,aristolochia,,,,,,,,
+21,,aristolochia species,,,,,,,,

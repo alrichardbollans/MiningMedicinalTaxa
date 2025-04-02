@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,dioscoreophyllum cumminsii,dioscoreophyllum cumminsii,thaumatococcus daniellii,ilex vomitoria,,camellia sinensis_growth of tumors,,,camellia sinensis_stimulant,
+1,stevia rebaudiana,stevia rebaudiana,,theobroma cacao,,,,,coffea arabica_stimulant,
+2,lippia dulcis,lippia dulcis,,paullinia cupana,,,,,coffea canephora_stimulant,
+3,camellia sinensis,camellia sinensis,,paullinia yoco,,,,,coffea liberica_stimulant,
+4,coffea arabica,coffea arabica,,thaumatococcusdaniellii,,,,,coffea excelsa_stimulant,
+5,coffea canephora,coffea canephora,,verbena,,,,,,
+6,c. canephora,coffea liberica,,catha edulis,,,,,,
+7,coffea liberica,coffea excelsa,,cola nitida,,,,,,
+8,c. liberica,,,ilex paraguariensis,,,,,,
+9,c. excelsa,,,thea sinensis,,,,,,
+10,,,,coffeaarabica,,,,,,

@@ -23,16 +23,16 @@ def collect_main_results():
 
 def melt_all_results(metric, models, _measures):
     renaming = {'claude-3-5-sonnet-20241022_autoremove_non_sci_names_results.csv': 'Claude_NS', 'claude-3-5-sonnet-20241022_results.csv': 'Claude',
-                'gemini-1.5-pro-002_autoremove_non_sci_names_results.csv': 'Gemini_NS', 'gemini-1.5-pro-002_results.csv': 'Gemini',
+                'deepseek-chat_autoremove_non_sci_names_results.csv': 'DeepSeek_NS', 'deepseek-chat_results.csv': 'DeepSeek',
                 'gnfinder_autoremove_non_sci_names_results.csv': 'GNfinder_NS', 'gnfinder_results.csv': 'GNfinder',
-                'gpt-4o_autoremove_non_sci_names_results.csv': 'GPT_NS',
-                'gpt-4o_results.csv': 'GPT',
+                'gpt-4o-2024-08-06_autoremove_non_sci_names_results.csv': 'GPT_NS',
+                'gpt-4o-2024-08-06_results.csv': 'GPT',
                 'llama-v3p1-405b-instruct_autoremove_non_sci_names_results.csv': 'Llama_NS',
                 'llama-v3p1-405b-instruct_results.csv': 'Llama',
                 'en_ner_eco_biobert_autoremove_non_sci_names_results.csv': 'TaxoNERD_NS',
                 'en_ner_eco_biobert_results.csv': 'TaxoNERD',
-                'ft_gpt-4o-2024-08-06_personal__Acwijdma_results.csv': 'FTGPT',
-                'ft_gpt-4o-2024-08-06_personal__Acwijdma_autoremove_non_sci_names_results.csv': 'FTGPT_NS'}
+                'ft_gpt-4o-2024-08-06_personal__BHfNoQa3_results.csv': 'FTGPT',
+                'ft_gpt-4o-2024-08-06_personal__BHfNoQa3_autoremove_non_sci_names_results.csv': 'FTGPT_NS'}
     fileNames = os.listdir(os.path.join('outputs', 'full_eval'))
     all_results = pd.DataFrame()
     for f in fileNames:
@@ -106,21 +106,19 @@ def for_full_eval(models, _measures, file_tag: str, inc_legend: bool = True):
         plt.close()
         all_results.to_csv(os.path.join(os.path.join('outputs', 'full_eval', 'compiled_results', f'{file_tag}_{metric}_results.csv')))
 def plots():
-    basic_plot_results(os.path.join('outputs', 'full_eval', 'gpt-4o_results.csv'), os.path.join('outputs', 'full_eval'), 'gpt-4o')
-    basic_plot_results(os.path.join('outputs', 'full_eval', 'ft_gpt-4o-2024-08-06_personal__Acwijdma_results.csv'), os.path.join('outputs', 'full_eval'), 'ft_gpt-4o-2024-08-06_personal__Acwijdma')
+    # basic_plot_results(os.path.join('outputs', 'full_eval', 'gpt-4o_results.csv'), os.path.join('outputs', 'full_eval'), 'gpt-4o')
+    # basic_plot_results(os.path.join('outputs', 'full_eval', 'ft:gpt-4o-2024-08-06:personal::BHfNoQa3_results.csv'), os.path.join('outputs', 'full_eval'), 'ft_gpt-4o-2024-08-06_personal__Acwijdma')
 
     collect_main_results()
-    metrics = ['f1', 'precision', 'recall']
-    all_measures = ['Precise NER', 'Approx. NER', 'Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
-    all_models = ['Claude', 'Gemini', 'GNfinder', 'GPT', 'FTGPT', 'Llama', 'TaxoNERD']
+
     #
     ## NER
-    _models = ['Claude', 'Gemini', 'GNfinder', 'GPT', 'Llama', 'TaxoNERD']
+    _models = ['Claude', 'DeepSeek', 'GNfinder', 'GPT', 'Llama', 'TaxoNERD']
     measures = ['Precise NER', 'Approx. NER']
     for_full_eval(_models, measures, 'NER')
 
     # ## RE
-    _models = ['Claude', 'Gemini', 'GPT', 'Llama']
+    _models = ['Claude', 'DeepSeek', 'GPT', 'Llama']
     measures = ['Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
     for_full_eval(_models, measures, 'RE')
     for_full_eval(_models, ['Precise MedCond', 'Approx. MedCond'], 'MedCond')
@@ -133,9 +131,13 @@ def plots():
 def compare_outputs():
     test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
     for chunk in test['id'].unique().tolist():
-        compare_errors('gpt-4o', chunk, os.path.join('outputs', 'full_eval', 'comparing exact and relaxed'))
+        compare_errors('gpt-4o-2024-08-06', chunk, os.path.join('outputs', 'full_eval', 'comparing exact and relaxed'))
 
 if __name__ == '__main__':
-    # plots()
+    all_measures = ['Precise NER', 'Approx. NER', 'Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
+    all_models = ['Claude', 'DeepSeek', 'GNfinder', 'GPT', 'FTGPT', 'Llama', 'TaxoNERD']
+    metrics = ['f1', 'precision', 'recall']
+
+    plots()
     compare_outputs()
 

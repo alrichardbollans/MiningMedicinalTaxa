@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,artemisia annua,artemisia annua,taxus brevifolia,camptothecaacuminata,,artemisia annua_malaria,,artemisia annua_antimalarial,taxus brevifolia_antineoplastic,camptothecaacuminata_antineoplastic
-1,papaver somniferum,papaver somniferum,taxus bacata,taxus hrevifolia,,cinchona spp_malaria,,papaver somniferum_analgesic,taxus bacata_antineoplastic,taxus hrevifolia_antineoplastic
-2,cinchona spp,cinchona spp,camptotheca acuminata,t. hacata,,rauwolfia serpentina_hypertension,,papaver somniferum_antitussive,camptotheca acuminata_antineoplastic,t. hacata_antineoplastic
-3,rauwolfia serpentina,rauwolfia serpentina,,,,,,cinchona spp_antimalarial,erythroxylum coca_local anesthetic,erythroxylum coca_anasthetic
-4,cassia angustifolia,cassia angustifolia,,,,,,rauwolfia serpentina_antihypertensive,,
-5,catharanthus roseus,catharanthus roseus,,,,,,cassia angustifolia_laxative,,
-6,digitalis spp,digitalis spp,,,,,,catharanthus roseus_antineoplastic,,
-7,erythroxylum coca,erythroxylum coca,,,,,,digitalis spp_cardiotonic,,
+0,artemisia annua,artemisia annua,camptotheca acuminata,camptothecaacuminata,,,,artemisia annua_antimalarial,camptotheca acuminata_antineoplastic,camptothecaacuminata_antineoplastic
+1,erythroxylum coca,erythroxylum coca,taxus brevifolia,taxus hrevifolia,,,,papaver somniferum_analgesic,erythroxylum coca_local anesthetic,taxus hrevifolia_antineoplastic
+2,papaver somniferum,papaver somniferum,taxus bacata,t. hacata,,,,papaver somniferum_antitussive,taxus brevifolia_antineoplastic,t. hacata_antineoplastic
+3,digitalis spp,digitalis spp,,,,,,digitalis spp_cardiotonic,taxus bacata_antineoplastic,erythroxylum coca_anasthetic
+4,cinchona spp,cinchona spp,,,,,,cinchona spp_antimalarial,,
+5,rauwolfia serpentina,rauwolfia serpentina,,,,,,rauwolfia serpentina_antihypertensive,,
+6,cassia angustifolia,cassia angustifolia,,,,,,cassia angustifolia_laxative,,
+7,catharanthus roseus,catharanthus roseus,,,,,,catharanthus roseus_antineoplastic,,

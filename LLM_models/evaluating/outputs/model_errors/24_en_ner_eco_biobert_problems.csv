@@ -1,23 +1,23 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,aloe vera,aloe vera,masala tea,eucalyptus,,,aloe vera_skin conditions,,,aloe vera_anti-inflammatory
-1,viola odorata l,viola odorata l,garam,,,,aloe vera_burns,,,aloe vera_immune boosting effects
-2,momordica charantia l,momordica charantia l,karela,,,,aloe vera_mouth ulcers,,,aloe vera_wound healing
-3,trigonella foenum-graecum l,trigonella foenum-graecum l,masalas,,,,aloe vera_stomach and duodenal ulcers,,,momordica charantia l_improve insulin secretion
-4,,,ginger,,,,aloe vera_skin irritation,,,momordica charantia l_hypoglycaemic
-5,,,ajwain,,,,aloe vera_arthritis,,,momordica charantia l_glucose absorption
-6,,,fennel,,,,aloe vera_tooth aches,,,momordica charantia l_increase glucose uptake in liver cells
-7,,,black pepper,,,,aloe vera_diabetes,,,trigonella foenum-graecum l_anti-diabetic
-8,,,almonds,,,,aloe vera_irritable bowel syndrome,,,trigonella foenum-graecum l_improving insulin response in diabetics
-9,,,olive,,,,aloe vera_eczema,,,trigonella foenum-graecum l_reduce bg levels
-10,,,mustard,,,,aloe vera_itchy skin,,,
+0,aloe vera,aloe vera,masala tea,eucalyptus,,,aloe vera_arthritis,,,aloe vera_anti-inflammatory
+1,viola odorata l,viola odorata l,garam,,,,aloe vera_burns,,,aloe vera_wound healing
+2,momordica charantia l,momordica charantia l,karela,,,,aloe vera_diabetes,,,aloe vera_immune boosting effects
+3,trigonella foenum-graecum l,trigonella foenum-graecum l,masalas,,,,aloe vera_skin conditions,,,momordica charantia l_glucose absorption
+4,,,ginger,,,,aloe vera_stomach and duodenal ulcers,,,momordica charantia l_hypoglycaemic
+5,,,ajwain,,,,aloe vera_tooth aches,,,momordica charantia l_increase glucose uptake in liver cells
+6,,,fennel,,,,aloe vera_eczema,,,momordica charantia l_improve insulin secretion
+7,,,black pepper,,,,aloe vera_irritable bowel syndrome,,,trigonella foenum-graecum l_reduce bg levels
+8,,,almonds,,,,aloe vera_mouth ulcers,,,trigonella foenum-graecum l_anti-diabetic
+9,,,olive,,,,aloe vera_itchy skin,,,trigonella foenum-graecum l_improving insulin response in diabetics
+10,,,mustard,,,,aloe vera_skin irritation,,,
 11,,,sesame,,,,momordica charantia l_diabetes,,,
-12,,,castor,,,,viola odorata l_catarrh,,,
+12,,,castor,,,,viola odorata l_coughs,,,
 13,,,sunflower,,,,viola odorata l_colds,,,
-14,,,mint,,,,viola odorata l_coughs,,,
+14,,,mint,,,,viola odorata l_fever,,,
 15,,,tulsi,,,,viola odorata l_pain,,,
-16,,,amla,,,,viola odorata l_headache,,,
-17,,,cranberry,,,,viola odorata l_cough,,,
-18,,,dates,,,,viola odorata l_fever,,,
+16,,,amla,,,,viola odorata l_cough,,,
+17,,,cranberry,,,,viola odorata l_catarrh,,,
+18,,,dates,,,,viola odorata l_headache,,,
 19,,,broccoli,,,,,,,
 20,,,carrots,,,,,,,
 21,,,basil,,,,,,,

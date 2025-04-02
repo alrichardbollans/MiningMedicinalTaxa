@@ -1,2 +1,4 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,,,,candida albicans,,,,,,
+0,candida albicans,candida albicans,micrococcus luteus,,,,,,micrococcus luteus_antimicrobial,
+1,,,micrococcus flavus,,,,,,micrococcus flavus_antimicrobial,
+2,,,,,,,,,candida albicans_antimicrobial,

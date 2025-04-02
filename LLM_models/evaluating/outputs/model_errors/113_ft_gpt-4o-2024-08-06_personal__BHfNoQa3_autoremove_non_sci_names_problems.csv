@@ -1,0 +1,56 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,,,,banisteriopsis caapi,,,banisteriopsis caapi_pain,,,penicillium chrysogenum_antibiotic
+1,,,,b.inebrians,,,b.inebrians_pain,,,penicillium notatum_antibiotic
+2,,,,b.rusbyana,,,b.rusbyana_pain,,,streptomyces spp_antibiotics
+3,,,,penicillium chrysogenum,,,,,,claviceps purpurea_psychoactive
+4,,,,penicillium notatum,,,,,,claviceps purpurea_vasoconstrictor
+5,,,,streptomyces spp,,,,,,psilocybe spp_psychoactive
+6,,,,claviceps purpurea,,,,,,amanita muscaria_psychoactive
+7,,,,psilocybe spp,,,,,,conocybe spp_psychoactive
+8,,,,amanita muscaria,,,,,,lycoperdon marginatum_psychoactive
+9,,,,conocybe spp,,,,,,lycoperdon mixtecorum_psychoactive
+10,,,,lycoperdon marginatum,,,,,,
+11,,,,lycoperdon mixtecorum,,,,,,
+12,,,,turbina corymbosa,,,,,,
+13,,,,datura inoxia,,,,,,
+14,,,,rivea corymbosa,,,,,,
+15,,,,ipomoea violacea,,,,,,
+16,,,,rivea,,,,,,
+17,,,,agaricus bisporus,,,,,,
+18,,,,agaricus campestris,,,,,,
+19,,,,agrobacterium tumifaciens,,,,,,
+20,,,,aspergillus flavus,,,,,,
+21,,,,spergillus oryzae,,,,,,
+22,,,,auricularia auricula-judae,,,,,,
+23,,,,boletus spp,,,,,,
+24,,,,botrytis cinerea,,,,,,
+25,,,,candida albicans,,,,,,
+26,,,,cantharellus cibarius,,,,,,
+27,,,,cortinellus edodes,,,,,,
+28,,,,cryphonectaria parasitica,,,,,,
+29,,,,drechslera oryzeae,,,,,,
+30,,,,flammulina velutipes,,,,,,
+31,,,,fusarium oxysporum,,,,,,
+32,,,,hemileia vastatrix,,,,,,
+33,,,,lactarius deliciosus,,,,,,
+34,,,,lentinus edodes,,,,,,
+35,,,,lycoperdon spp,,,,,,
+36,,,,monilinia fructicola,,,,,,
+37,,,,morchella esculenta,,,,,,
+38,,,,mycosphaerella spp,,,,,,
+39,,,,ophiostoma ulmi,,,,,,
+40,,,,paneolus spp,,,,,,
+41,,,,penicillium camemberti,,,,,,
+42,,,,penicillium roquefortii,,,,,,
+43,,,,phytophthora infestans,,,,,,
+44,,,,phytophthora palmivora,,,,,,
+45,,,,plasmopara viticola,,,,,,
+46,,,,pleurotus spp,,,,,,
+47,,,,puccinia graminis,,,,,,
+48,,,,rhizobium leguminosarum,,,,,,
+49,,,,russula spp,,,,,,
+50,,,,saccharomyces carlsbergensis,,,,,,
+51,,,,saccharomyces cervisieae,,,,,,
+52,,,,saccharomyces ellipsoideus,,,,,,
+53,,,,saccharomyces theobromae,,,,,,
+54,,,,stropharia spp,,,,,,

@@ -1,5 +1,0 @@
-,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,andrographis paniculata,andrographis paniculata,,chelidortium majus,,,,,andrographis paniculata_genotoxicity,
-1,aristolochia fangchi,aristolochia fangchi,,,,,,,andrographis paniculata_cytotoxicity,
-2,piper methysticum,piper methysticum,,,,,,,,
-3,teuchrium chamaedrys,teuchrium chamaedrys,,,,,,,,

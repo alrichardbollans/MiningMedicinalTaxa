@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,o. tenuiflorum l,o. tenuiflorum l,,echinacea,o. tenuiflorum l_diabetes,,o. tenuiflorum l_skin ailments,,,
+1,o. tenuiflorum,zingiber officinale roscoe,,gingko,o. tenuiflorum l_asthma,,,,,
+2,zingiber officinale roscoe,curcuma longa l,,,,,,,,
+3,curcuma longa l,o. gratissimum l,,,,,,,,
+4,o. gratissimum l,,,,,,,,,

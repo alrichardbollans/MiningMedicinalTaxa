@@ -1,0 +1,20 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,olea europaea,olea europaea,,asparagus,olea europaea_arthritis,piper betle_digestion,olea europaea_eczema,annona reticulata_immune boosting properties,vitus vinifera_cough,spinacia oleracea_internal strength
+1,piper betle,piper betle,,,olea europaea_ear infections,ficus religiosa_liver health,ficus religiosa_wounds,vitus vinifera_blood purifier,,spinacia oleracea_source of iron
+2,spinacia oleracea,spinacia oleracea,,,olea europaea_skin conditions,ficus religiosa_digestion,vitus vinifera_cough,areca catechu_stimulant,,spinacia oleracea_blood
+3,ficus religiosa,ficus religiosa,,,ficus religiosa_diarrhoea,pistaci vera_cholesterol,,sesamum indicum_warms blood,,ficus religiosa_liver health
+4,pistaci vera,pistaci vera,,,mentha arvensis_indigestion,pistaci vera_general health,,sesamum indicum_reduce urinary frequency,,ficus religiosa_digestion
+5,mentha arvensis,mentha arvensis,,,annona reticulata_diarrhoea,mentha arvensis_digestion,,sesamum indicum_improves circulation,,foeniculum vulgare_digestion
+6,annona reticulata,annona reticulata,,,annona reticulata_cancer,foeniculum vulgare_digestion,,ocimum tenuiflorum_antibacterial,,laurus nobilis_digestion
+7,brassica juncea,brassica juncea,,,brassica juncea_pain,areca catechu_digestion,,,,coriandrum sativum_digestion
+8,foeniculum vulgare,foeniculum vulgare,,,brassica juncea_dry skin,laurus nobilis_digestion,,,,piper betle_digestion
+9,vitus vinifera,vitus vinifera,,,foeniculum vulgare_bloating,coriandrum sativum_digestion,,,,pistaci vera_cholesterol
+10,areca catechu,areca catechu,,,foeniculum vulgare_cough,,,,,pistaci vera_general health
+11,laurus nobilis,laurus nobilis,,,foeniculum vulgare_constipation,,,,,
+12,sesamum indicum,sesamum indicum,,,laurus nobilis_diabetes,,,,,
+13,ajuga bracteosa,ajuga bracteosa,,,ajuga bracteosa_menstrual problems,,,,,
+14,coriandrum sativum,coriandrum sativum,,,ajuga bracteosa_gout,,,,,
+15,ocimum tenuiflorum,ocimum tenuiflorum,,,coriandrum sativum_diabetes,,,,,
+16,ocimum,,,,ocimum tenuiflorum_diabetes,,,,,
+17,,,,,ocimum tenuiflorum_asthma,,,,,
+18,,,,,ocimum tenuiflorum_coughs and colds,,,,,

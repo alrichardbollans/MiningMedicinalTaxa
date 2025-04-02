@@ -1,5 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,allium sativum l,allium sativum l,,candida albicans,allium sativum l_stroke,,,,allium sativum l_antimicrobial,allium sativum l_against the most gram-positive and gram-negative bacteria
-1,,,,aspergillus niger,allium sativum l_coronary thrombosis,,,,,
-2,,,,,allium sativum l_cancer,,,,,
+0,allium sativum l,allium sativum l,aspergillus brazilica atcc 16404,,allium sativum l_cancer,,,,allium sativum l_inhibition of platelet aggregation,allium sativum l_against the most gram-positive and gram-negative bacteria
+1,candida albicans,candida albicans atcc 10231,,,allium sativum l_coronary thrombosis,,,,allium sativum l_antimicrobial,
+2,aspergillus niger,aspergillus niger,,,allium sativum l_stroke,,,,allium sativum l_antifungal,
 3,,,,,allium sativum l_hypertension,,,,,

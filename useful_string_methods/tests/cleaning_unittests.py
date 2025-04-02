@@ -154,6 +154,7 @@ class TestPostProcessingMethods(unittest.TestCase):
         self.assertEqual(clean_strings("!AI_Assistant!? ."), "ai_assistant")
         self.assertEqual(clean_strings("!AI_Assistant!? "), "ai_assistant")
         self.assertEqual(clean_strings("× !AI_Assistant!? "), "× !ai_assistant")
+        self.assertEqual(clean_strings("× !AI_Assistant!? \n a."), "× !ai_assistant!? a")
 
 
 

@@ -1,7 +1,18 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,,,cinchona officinalis l,chamaecrista moench,,cinchona officinalis l_fever,,,ricinus communis_purgative,chamaecrista moench_laxatives
-1,,,ricinus communis,senna mill,,cinchona officinalis l_malaria,,,panax ginseng c.a.mey_enhancement of physical performance,senna mill_laxatives
-2,,,panax ginseng c.a.mey,cassia l,,cinchona officinalis l_infectious-disease,,,papaver somniferum l_vasodilation,cassia l_laxatives
-3,,,papaver somniferum l,echinacea,,panax ginseng c.a.mey_tiredness,,,papaver somniferum l_pain relief,
-4,,,,senna,,papaver somniferum l_hypertension,,,,
-5,,,,aloe vera,,,,,,
+0,cassia l,cassia l,ginseng,aloe vera,,cassia l_constipation,,,cassia l_laxative,chamaecrista moench_laxatives
+1,senna mill,senna mill,papaya,,,senna mill_constipation,,,senna mill_laxative,senna mill_laxatives
+2,senna,chamaecrista moench,curcuma longa,,,chamaecrista moench_constipation,,,chamaecrista moench_laxative,cassia l_laxatives
+3,chamaecrista moench,echinacea,brassica juncea,,,echinacea_coughs,,,echinacea_antibiotic,
+4,echinacea,,azadirachta indica,,,echinacea_colds,,,echinacea_anti-inflammatory,
+5,,,trigonella foenum-graecum,,,ginseng_diabetes,,,ginseng_anti-inflammatory,
+6,,,zingiber officinale,,,ginseng_weight loss,,,ginseng_stimulant,
+7,,,aloe barbadensis,,,papaya_diabetes,,,papaya_antibiotic,
+8,,,cinnamomum verum,,,papaya_arthritis,,,papaya_anti-inflammatory,
+9,,,,,,curcuma longa_sore throat,,,curcuma longa_painful burning sensation,
+10,,,,,,brassica juncea_allergy,,,trigonella foenum-graecum_strong,
+11,,,,,,brassica juncea_sickness,,,trigonella foenum-graecum_liver damage,
+12,,,,,,azadirachta indica_dizziness,,,zingiber officinale_hot flushes,
+13,,,,,,trigonella foenum-graecum_diabetes,,,zingiber officinale_irritation to the throat,
+14,,,,,,zingiber officinale_blood pressure,,,,
+15,,,,,,aloe barbadensis_diarrhea,,,,
+16,,,,,,cinnamomum verum_body temperature,,,,

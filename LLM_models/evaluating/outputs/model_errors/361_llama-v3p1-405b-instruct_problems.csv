@@ -1,3 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,scrophularia lucida,scrophularia lucida,,,,,,,,
-1,s. lucida,,,,,,,,,
+0,scrophularia lucida,scrophularia lucida,astragalin,,,,,,,
+1,s. lucida,,homoplantaginin,,,,,,,
+2,,,2''-o-acetyl-homoplantaginin,,,,,,,
+3,,,nepitrin,,,,,,,
+4,,,verbascoside,,,,,,,
+5,,,kaempferol-3-o-rutinoside,,,,,,,
+6,,,rutin,,,,,,,
+7,,,luteolin-7-o-glucoside,,,,,,,

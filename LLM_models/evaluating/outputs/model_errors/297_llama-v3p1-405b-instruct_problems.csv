@@ -1,10 +1,4 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,centaurea,centaurea ragusina l,cinchona officinalis l,,,centaurea ragusina l_fever,centaurea_gastrointestinal disorders,centaurea ragusina l_anticancer,centaurea ragusina l_antiviral,
-1,centaurea ragusina l,,ricinus communis,,,centaurea ragusina l_malaria,centaurea_urogenital ailments,centaurea ragusina l_antibacterial,cinchona officinalis l_antiviral,
-2,c. ragusina l,,papaver somniferum l,,,centaurea ragusina l_infectious-disease,centaurea_microbial infections,,cinchona officinalis l_anticancer,
-3,,,panax ginseng c.a.mey,,,cinchona officinalis l_fever,,,cinchona officinalis l_antibacterial,
-4,,,,,,cinchona officinalis l_malaria,,,ricinus communis_purgative,
-5,,,,,,cinchona officinalis l_infectious-disease,,,papaver somniferum l_vasodilation,
-6,,,,,,ricinus communis_constipation,,,papaver somniferum l_pain relief,
-7,,,,,,papaver somniferum l_hypertension,,,panax ginseng c.a.mey_enhancement of physical performance,
-8,,,,,,panax ginseng c.a.mey_tiredness,,,,
+0,centaurea,centaurea ragusina l,staphylococcus aureus,,centaurea ragusina l_urogenital ailments,,,centaurea ragusina l_antibacterial,,
+1,centaurea ragusina l,,acinetobacter baumannii,,centaurea ragusina l_gastrointestinal disorders,,,centaurea ragusina l_anticancer,,
+2,c. ragusina l,,,,centaurea ragusina l_microbial infections,,,,,

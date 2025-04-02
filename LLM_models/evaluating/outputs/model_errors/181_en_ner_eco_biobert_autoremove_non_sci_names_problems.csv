@@ -1,13 +1,13 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,pinus,pinus species,xenopus em-bryos,pinuspeuce,,,pinus_urinary system disorders,,,pinus_cholesterol low-ering
-1,pinus peuce,pinus trees,,,,,pinus_common cold,,,pinus_antitumorial
-2,pinus sylvestris,pinus peuce,,,,,pinus_digestive system diseases,,,pinus_antiseptic
-3,pinus nigra,pinus sylvestris,,,,,pinus_skin diseases (wounds,,,pinus_antisep-tics
-4,pinus mugo,pinus nigra,,,,,pinus_asthma,,,pinus_antioxidant
-5,pinus peucegriseb,pinus mugo,,,,,pinus_respiratory,,,pinus_antibacterial
-6,pinus l,pinus peuce (pelister)>pinus,,,,,pinus_bronchitis,,,pinus_tonics
-7,,pinus sylvestris (nidze,,,,,,,,pinus_expectorants
-8,,pinus sylvestris (berovo,,,,,,,,pinus_antimicrobial
-9,,pinus needles,,,,,,,,pinus_analgesics
+0,pinus,pinus species,xenopus em-bryos,pinuspeuce,,,pinus_common cold,,,pinus_antioxidant
+1,pinus peuce,pinus trees,,,,,pinus_bronchitis,,,pinus_antimicrobial
+2,pinus sylvestris,pinus peuce,,,,,pinus_skin diseases (wounds,,,pinus_cholesterol low-ering
+3,pinus nigra,pinus sylvestris,,,,,pinus_digestive system diseases,,,pinus_antiseptic
+4,pinus mugo,pinus nigra,,,,,pinus_urinary system disorders,,,pinus_expectorants
+5,pinus peucegriseb,pinus mugo,,,,,pinus_asthma,,,pinus_antisep-tics
+6,pinus l,pinus peuce (pelister)>pinus,,,,,pinus_respiratory,,,pinus_antitumorial
+7,,pinus sylvestris (nidze,,,,,,,,pinus_analgesics
+8,,pinus sylvestris (berovo,,,,,,,,pinus_tonics
+9,,pinus needles,,,,,,,,pinus_antibacterial
 10,,pinus peucegriseb,,,,,,,,
 11,,pinus l,,,,,,,,

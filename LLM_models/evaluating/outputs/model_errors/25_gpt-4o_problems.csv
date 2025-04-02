@@ -1,7 +1,0 @@
-,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,aloe vera,aloe vera,triphala,,aloe vera_itchy skin,triphala_headache,aloe vera_wounds,,triphala_digestive aid,
-1,,,neem,,,neem_itchy skin,,,aloe vera_reduce dryness,
-2,,,turmeric,,,neem_wounds,,,aloe vera_moisturise the skin,
-3,,,,,,turmeric_wounds,,,neem_antimicrobial,
-4,,,,,,,,,turmeric_anti-inflammatory,
-5,,,,,,,,,turmeric_antimicrobial,

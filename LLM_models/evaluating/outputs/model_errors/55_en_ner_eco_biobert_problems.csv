@@ -1,16 +1,16 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,psyllium ispaghula,psyllium ispaghula,melatonine,vaccinium myrtillus,,,psyllium ispaghula_stomach troubles,,,boswellia_anti-infl ammatories
-1,psyllium,aloe vera,classifi cations,tagetes erecta,,,sabal serrulata_prostate problems,,,tagetes erecta_eye health
-2,aloe vera,aloe,tiger balsam,symphtytum offi cinalis,,,sabal serrulata_impotence,,,symphtytum offi cinalis_muscles
+1,psyllium,aloe vera,classifi cations,tagetes erecta,,,sabal serrulata_impotence,,,tagetes erecta_eye health
+2,aloe vera,aloe,tiger balsam,symphtytum offi cinalis,,,sabal serrulata_prostate problems,,,symphtytum offi cinalis_muscles
 3,aloe,echinacea purpurea,horses,eucalyptus,,,echinacea purpurea_sore throat,,,symphtytum offi cinalis_joints
-4,echinacea purpurea,sabal serrulata,melon,citrus aurantium,,,boswellia_arthrosis,,,annona muricata_immunity
-5,echinacea,annona muricata,benzoyleperokside,arnica montana,,,vaccinium myrtillus_eye diseases,,,annona muricata_health enhancement
-6,sabal serrulata,psyllium,spirulina platensis,nelumbo nucifera gaertner,,,tagetes erecta_night vision,,,psyllium_laxative
-7,annona muricata,boswellia,hawthorn berry,silybum marianum,,,tagetes erecta_eye diseases,,,angelica archangelica_muscle relaxing
-8,boswellia,echinacea,colostrum,cordyseps sinensis,,,symphtytum offi cinalis_cuts,,,eucalyptus_mouth wash
-9,symphytum offi cinalis,symphytum offi cinalis,arthrosis1450vaccinium myrtillus,cordyceps sinensis,,,symphtytum offi cinalis_bruises,,,eucalyptus_recovery
-10,chrysanthemum,chrysanthemum fl owerrefreshing,blueberry,gingko biloba,,,crataegus_cardiac weakness,,,eucalyptus_fat-free muscle building
-11,angelica archangelica,angelica archangelica,tagetes erecta1451,eleutherococcus senticosus,,,crataegus_heart conditions,,,eucalyptus_antiseptic
+4,echinacea purpurea,sabal serrulata,melon,citrus aurantium,,,boswellia_arthrosis,,,annona muricata_health enhancement
+5,echinacea,annona muricata,benzoyleperokside,arnica montana,,,vaccinium myrtillus_eye diseases,,,annona muricata_immunity
+6,sabal serrulata,psyllium,spirulina platensis,nelumbo nucifera gaertner,,,tagetes erecta_eye diseases,,,psyllium_laxative
+7,annona muricata,boswellia,hawthorn berry,silybum marianum,,,tagetes erecta_night vision,,,angelica archangelica_muscle relaxing
+8,boswellia,echinacea,colostrum,cordyseps sinensis,,,symphtytum offi cinalis_bruises,,,eucalyptus_recovery
+9,symphytum offi cinalis,symphytum offi cinalis,arthrosis1450vaccinium myrtillus,cordyceps sinensis,,,symphtytum offi cinalis_cuts,,,eucalyptus_mouth wash
+10,chrysanthemum,chrysanthemum fl owerrefreshing,blueberry,gingko biloba,,,crataegus_heart conditions,,,eucalyptus_antiseptic
+11,angelica archangelica,angelica archangelica,tagetes erecta1451,eleutherococcus senticosus,,,crataegus_cardiac weakness,,,eucalyptus_fat-free muscle building
 12,kaempferia pafi fl ora,kaempferia pafi fl ora,1453symphtytum offi cinalis,senna,,,eucalyptus_sore shoulders,,,citrus aurantium_weight management
 13,butea superba,butea superba,plantain,,,,,,,
 14,zingiber offi cinale,zingiber offi cinale,leukoderma,,,,,,,

@@ -1,0 +1,30 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,chelidonium,chelidonium majus l,,chelidonium majusl,chelidonium majus l_eye diseases,chelidonium majus l_visual impairment,chelidonium_anti-jaundice,chelidonium majus l_anticancer,chelidonium majus l_cholagogue,c. majus_antitussive
+1,c. majus,,,chelidonium l,chelidonium majus l_scabs on the head skin,chelidonium majus l_skin protuberances,chelidonium_cholagogue,chelidonium majus l_pain-relieving,chelidonium majus l_anti-jaundice,c. majus_anti-edema
+2,chelidonium majus,,,c. majus l.sensu lato,chelidonium majus l_toothache,chelidonium majus l_gastrointestinal disorders,chelidonium majusl_cancer,chelidonium majus l_spasmolytic,,c. majus_diuretic
+3,c. majus l,,,c. asiaticum (hara)krahulcova,chelidonium majus l_ophthalmological problems,chelidonium majus l_infections,chelidonium majusl_gastrointestinal disorders,chelidonium majus l_antimicrobial,,c. majus_enhance sight
+4,,,,c. asiaticum,chelidonium majus l_jaundice,chelidonium majus l_warts,chelidonium majusl_infections,chelidonium majus l_anti-infectious,,c. majus_expectorant
+5,,,,c. majus l.subsp. majus,chelidonium majus l_colic,,chelidonium majusl_warts,chelidonium majus l_antiviral,,
+6,,,,chelidonium majussubsp. grandiflorum (dc.) printz,chelidonium majus l_stomach ache,,chelidonium majusl_skin protuberances,chelidonium majus l_gastric,,
+7,,,,,chelidonium majus l_body ulcers,,c. majus_wounds,chelidonium majus l_hepatic,,
+8,,,,,chelidonium majus l_cancer,,c. majus_eyediseases,,,
+9,,,,,,,c. majus_sightimpairment,,,
+10,,,,,,,c. majus_hair overgrowth,,,
+11,,,,,,,c. majus_eye and skin conditions,,,
+12,,,,,,,c. majus_liver diseases,,,
+13,,,,,,,c. majus_visualimpairment,,,
+14,,,,,,,c. majus_bodyulcers,,,
+15,,,,,,,c. majus_herpes,,,
+16,,,,,,,c. majus_throat cleansing,,,
+17,,,,,,,c. majus_skin ulcer,,,
+18,,,,,,,c. majus_skin eczema,,,
+19,,,,,,,c. majus_pain,,,
+20,,,,,,,c. majus_dermatologic diseases,,,
+21,,,,,,,c. majus_pulmonary,,,
+22,,,,,,,c. majus_ophthalmologicaldiseases,,,
+23,,,,,,,c. majus_dermatologic disorders,,,
+24,,,,,,,c. majus_aphrodisiacum,,,
+25,,,,,,,c. majus_liver conditions,,,
+26,,,,,,,c. majus_aching tooth,,,
+27,,,,,,,c. majus_leprosy,,,
+28,,,,,,,c. majus_cataract,,,

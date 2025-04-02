@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,o. natrix,ononis natrix subsp. hispanica,,ononis natrix subsp. hispanicasubsp. hispanica,,ononis natrix subsp. hispanica_hyperpigmentation,,ononis natrix subsp. hispanica_anticancer,,o. natrix_enzymeinhibitory
+1,ononis,,,,,ononis natrix subsp. hispanica_alzheimer's disease,,ononis natrix subsp. hispanica_antioxidant,,ononis natrix subsp. hispanica_inhibitors of tyrosinase
+2,ononis natrix subsp. hispanica,,,,,ononis natrix subsp. hispanica_diabetes mellitus,,ononis natrix subsp. hispanica_enzyme inhibitory,,ononis natrix subsp. hispanica_anti-tyrosinase
+3,ononis natrix,,,,,,,ononis natrix subsp. hispanica_antimicrobial,,ononis natrix subsp. hispanica_anti-diabetic

@@ -1,0 +1,16 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hypericum,hypericum,,candida,,,centaurea ragusina l_gastrointestinal and urogenital disorders,,,hypericum_antifungal
+1,h. hircinum subsp.majus,h. hircinum subsp.majus,,commiphora,,,centaurea ragusina l_tumor,,,h. hircinum subsp.majus_antifungal
+2,aspergillus,aspergillus,,boswellia,,,centaurea ragusina l_cancer,,,syringa vulgaris l_pro-inflammatory
+3,penicillium,penicillium,,,,,prunus spinosa l_cardiovascular disease,,,centaurea ragusina l_antibacterial
+4,rhodiola roseal,rhodiola roseal,,,,,ononis natrix subsp. hispanica_atherosclerosis,,,ajuga laxmannii (murray) benth_antioxidant
+5,chelidonium majus l,chelidonium majus l,,,,,centaurea_tumor,,,ajuga laxmannii (murray) benth_antimicrobial
+6,syringa vulgaris l,syringa vulgaris l,,,,,centaurea_gastrointestinal and urogenital disorders,,,ajuga laxmannii (murray) benth_anti-inflammatory
+7,centaurea ragusina l,centaurea ragusina l,,,,,,,,centaurea_antibacterial
+8,centaurea,ajuga laxmannii (murray) benth,,,,,,,,
+9,ajuga laxmannii (murray) benth,prunus spinosa l,,,,,,,,
+10,prunus spinosa l,ononis natrix,,,,,,,,
+11,ononis natrix subsp. hispanica,ononis natrix subsp. hispanica,,,,,,,,
+12,ononis natrix,veronica officinalis l,,,,,,,,
+13,veronica officinalis l,scrophularia lucida l,,,,,,,,
+14,scrophularia lucida l,,,,,,,,,

@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,satureja,satureja pilosa,lamiaceae,,,,satureja_muscle pain,,,alkanna tinctoria_wound healing
-1,satureja pilosa,satureja,willdenowia,,,,satureja_cramps,,,thymus spp_antioxidant
-2,s. pilosa,s. pilosa,dina2,,,,satureja_infectious diseases,,,thymus spp_antimicrobial
-3,a. tinctoria,s. pilosa aerial,boraginaceae,,,,satureja_gastrointestinal disorders,,,thymbra capitata_antibacterial
-4,alkanna tinctoria,alkana tinctoria,dina1,,,,,,,thymbra capitata_antioxidant
-5,thymus spp,alkanna tinctoria,bilia4,,,,,,,thymbra capitata_antimicrobial
-6,thymus boissieri,a. tinctoria,enterococcus faecalis,,,,,,,thymbra spp_antioxidant
-7,thymbra capitata,thymus,bacillus subtilis,,,,,,,thymbra spp_antimicrobial
+0,satureja,satureja pilosa,lamiaceae,,,,satureja_cramps,,,alkanna tinctoria_wound healing
+1,satureja pilosa,satureja,willdenowia,,,,satureja_muscle pain,,,thymus spp_antimicrobial
+2,s. pilosa,s. pilosa,dina2,,,,satureja_gastrointestinal disorders,,,thymus spp_antioxidant
+3,a. tinctoria,s. pilosa aerial,boraginaceae,,,,satureja_infectious diseases,,,thymbra capitata_antibacterial
+4,alkanna tinctoria,alkana tinctoria,dina1,,,,,,,thymbra capitata_antimicrobial
+5,thymus spp,alkanna tinctoria,bilia4,,,,,,,thymbra capitata_antioxidant
+6,thymus boissieri,a. tinctoria,enterococcus faecalis,,,,,,,thymbra spp_antimicrobial
+7,thymbra capitata,thymus,bacillus subtilis,,,,,,,thymbra spp_antioxidant
 8,thymbra spp,thymbra capitata,staphylococcus aureus,,,,,,,t. longicaulis subsp. longicaulis_antibacterial
 9,t. longicaulis subsp. longicaulis,thymbra,pseudomonas aeruginosa,,,,,,,t. longicaulis subsp. longicaulis_antioxidant
 10,t. degenii,t. longicaulis subsp. longicaulis,salmonella typhimurium,,,,,,,thymus boissieri_antibacterial
@@ -19,9 +19,9 @@
 17,centaurea,t. holosericeus,,,,,,,,t. sibthorpii_antioxidant
 18,centaurea phyllocephala boiss,t. plasonii,,,,,,,,t. striatus_antibacterial
 19,centaurea cyanoides,centaurea phyllocephala,,,,,,,,t. striatus_antioxidant
-20,centaurea cyanus,centaurea,,,,,,,,centaurea_anti-dandruff
-21,centaurea sp,centaurea cyanoides,,,,,,,,centaurea_antidiabetic
-22,c. cyanus,centaurea cyanus,,,,,,,,centaurea_anti-inflammatory
-23,,c. cyanus,,,,,,,,centaurea_antibacterial
-24,,,,,,,,,,centaurea_antioxidant
-25,,,,,,,,,,centaurea_antirheumatic
+20,centaurea cyanus,centaurea,,,,,,,,centaurea_antidiabetic
+21,centaurea sp,centaurea cyanoides,,,,,,,,centaurea_antioxidant
+22,c. cyanus,centaurea cyanus,,,,,,,,centaurea_antibacterial
+23,,c. cyanus,,,,,,,,centaurea_antirheumatic
+24,,,,,,,,,,centaurea_anti-inflammatory
+25,,,,,,,,,,centaurea_anti-dandruff

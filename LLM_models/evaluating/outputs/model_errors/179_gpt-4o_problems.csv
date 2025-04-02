@@ -1,7 +1,0 @@
-,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,juniperus communis l,juniperus communis l,,,,,,juniperus communis l_antimicrobial,,
-1,juniperus communis l. var. communis,juniperus communis l. var. communis,,,,,,juniperus communis l_antioxidant,,
-2,juniperus communis l. var. saxatilis pall,juniperus communis l. var. saxatilis pall,,,,,,juniperus communis l. var. communis_antimicrobial,,
-3,juniperus oxycedrus l. subsp. macrocarpa (sm.) ball,juniperus oxycedrus l. subsp. macrocarpa (sm.) ball,,,,,,juniperus communis l. var. communis_antioxidant,,
-4,,,,,,,,juniperus communis l. var. saxatilis pall_antimicrobial,,
-5,,,,,,,,juniperus communis l. var. saxatilis pall_antioxidant,,

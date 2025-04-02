@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,arctostaphylos uva-ursi (l.) spreng,arctostaphylos uva-ursi (l.) spreng. fam. ericaceae,,arbutus unedo l,arctostaphylos uva-ursi (l.) spreng. fam. ericaceae_diabetes,arctostaphylos uva-ursi (l.) spreng. fam. ericaceae_urinary tract infections,,arctostaphylos uva-ursi (l.) spreng. fam. ericaceae_urinary tract antiseptic,,prunus_anticancer
+1,prunus,prunus,,,arctostaphylos uva-ursi (l.) spreng. fam. ericaceae_hydrops,arctostaphylos uva-ursi (l.) spreng. fam. ericaceae_bladder diseases,,arctostaphylos uva-ursi (l.) spreng. fam. ericaceae_diuretic,,
+2,,,,,arctostaphylos uva-ursi (l.) spreng. fam. ericaceae_gonorrhoea,arctostaphylos uva-ursi (l.) spreng. fam. ericaceae_kidney diseases,,arctostaphylos uva-ursi (l.) spreng. fam. ericaceae_astringent,,
+3,,,,,arctostaphylos uva-ursi (l.) spreng. fam. ericaceae_lithiasis,,,prunus_antiasthmatic,,
+4,,,,,prunus_cancer,,,prunus_antitussive,,

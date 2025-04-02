@@ -1,0 +1,25 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,shorea roxburghii,shorea roxburghii,,rauwolfia,shorea roxburghii_diarrhea,dacrycarpus imbricatus (blume) de laub_acute myeloid leukemia,rauwolfia_acute myeloid leukemia,shorea roxburghii_hypoglycemic,dacrycarpus imbricatus (blume) de laub_anti-proliferative,calluna vulgaris (l.) hull_skin-protective
+1,s. roxburghii,dacrycarpus imbricatus (blume) de laub,,warbrugia ugandensis sprague,shorea roxburghii_type 2 diabetes mellitus,pinus dalatensis ferre_acute myeloid leukemia,,shorea roxburghii_antidiabetic,pinus dalatensis ferre_inhibitory effects on growth,c. vulgaris_antioxidant
+2,dacrycarpus imbricatus,pinus dalatensis ferre,,cryptolepsis sanguinolenta (lindl.) schltr,shorea roxburghii_dysentery,oldenlandia pinifolia_chronic myelogenous leukemia,,cladosporium spp_anti-tumor,oldenlandia pinifolia_induced apoptosis,c. vulgaris_skin anti-aging and protection
+3,pinus dalatensis ferre,oldenlandia pinifolia,,a. coriria,shorea roxburghii_cholera,,,cladosporium spp_anti-microbial,oldenlandia pinifolia_inhibited proliferation,c. vulgaris_antiradical
+4,oldenlandia pinifolia,ficus hirta,,,cladosporium spp_acute myeloid leukemia,,,calluna vulgaris (l.) hull_antimicrobial,acer truncatum_cytotoxic,
+5,ficus hirta,cladosporium spp,,,,,,,acer truncatum_ache inhibitory,
+6,cladosporium,acer truncatum,,,,,,,warburgia ugandensis sprague_cytotoxic,
+7,cladosporium spp,warburgia ugandensis sprague,,,,,,,albizia coriaria oliv_cytotoxic,
+8,acer truncatum,erythrina abyssinica dc,,,,,,,calluna vulgaris (l.) hull_photo-protective,
+9,w. ugandensis,cryptolepis sanguinolenta (lindl.) schltr,,,,,,,calluna vulgaris (l.) hull_stimulated pro-collagen i synthesis,
+10,erythrina abyssinica dc,albizia coriaria oliv,,,,,,,,
+11,c. sanguinolenta,psorospermum febrifugium spach,,,,,,,,
+12,albizia coriaria oliv,gymnosporia senegalensis (lam.) loes,,,,,,,,
+13,psorospermum febrifugium spach,zanthoxylum chalybeum engl,,,,,,,,
+14,p. febrifugium,securidaca longipendunculata fresen,,,,,,,,
+15,gymnosporia senegalensis (lam.) loes,acacia hockii de wild,,,,,,,,
+16,zanthoxylum chalybeum engl,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc,,,,,,,,
+17,securidaca longipendunculata fresen,bridelia micrantha (hochst.) baill,,,,,,,,
+18,s. longipendunculata,calluna vulgaris (l.) hull,,,,,,,,
+19,acacia hockii de wild,,,,,,,,,
+20,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc,,,,,,,,,
+21,bridelia micrantha (hochst.) baill,,,,,,,,,
+22,calluna vulgaris (l.) hull,,,,,,,,,
+23,c. vulgaris,,,,,,,,,

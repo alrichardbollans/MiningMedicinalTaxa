@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,catalpa bignonioides,catalpa,podophyllin,lobelia tupa,,,chenopodium quinoa_intestinal worms,,,lobelia tupa_emetic
-1,catalpa,alkanna,rhizome]podophyllum peltatum,chenopodium quinoa,,,solidago spp_hepatitis,,,carthamus tinctorius_vermifuge
-2,catalpa speciosa,terminalia family)anogeissus,american mandrake,carthamus tinctorius,,,tanacetum vulgare_fever,,,carthamus tinctorius_diuretic
-3,alkanna lehmannii,terminalia,mayapple,solidago spp,,,tanacetum vulgare_migraine,,,dichondra spp_purgative
+1,catalpa,alkanna,rhizome]podophyllum peltatum,chenopodium quinoa,,,solidago spp_hepatitis,,,carthamus tinctorius_diuretic
+2,catalpa speciosa,terminalia family)anogeissus,american mandrake,carthamus tinctorius,,,tanacetum vulgare_migraine,,,carthamus tinctorius_vermifuge
+3,alkanna lehmannii,terminalia,mayapple,solidago spp,,,tanacetum vulgare_fever,,,dichondra spp_purgative
 4,alkanna,dichondra lawn grass,rhizome]betulaceae,tanacetum vulgare,,,nyssa aquatica_leukemia,,,dichondra_purgative
 5,terminalia,,black alder wood,dichondra spp,,,nyssa aquatica_throat cancer,,,ipomoea pandurata_purgative
 6,terminalia chebula,,stradivarius violin,ipomoea pandurata,,,,,,ipomoea purga_cathartic

@@ -1,0 +1,21 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,salix spp,salix spp,,,digitalis lanata ehrh_cardiac disease,salix spp_anti-platelet effects,cinchona officinalis l_fever,galega officinalis l_oral anti-diabetic,salix spp_anti-inflammatory,salix spp_anti-platelet effects
+1,digitalis lanata ehrh,digitalis lanata ehrh,,,papaver somniferum l_hypertension,salix spp_pain relief,cinchona officinalis l_infectious disease,papaver somniferum l_vasodilator,digitalis lanata ehrh_cardiac glycoside,salix spp_pain relief
+2,galega officinalis l,galega officinalis l,,,cinchona officinalis l_malaria,galega officinalis l_type 2 diabetes,,cinchona officinalis l_anti-malarial,papaver somniferum l_opioid analgesic,papaver somniferum l_pain relief
+3,papaver somniferum l,papaver somniferum l,,,catharanthus roseus l_cancer,papaver somniferum l_pain relief,,rumex rupestris le gall_astringent,catharanthus roseus l_anti-cancer,panax ginseng c.a.mey_enhancement of mental and physical performance
+4,cinchona officinalis l,cinchona officinalis l,,,panax ginseng c.a.mey_fatigue,,,panax ginseng c.a.mey_male stimulant,jatropha podagrica hook_male aphrodisiac,
+5,catharanthus roseus l,catharanthus roseus l,,,,,,,panax ginseng c.a.mey_mental and physical performance enhancement,
+6,panax quinquefolius l,panax quinquefolius l,,,,,,,aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang_carcinogenic,
+7,panax,rumex rupestris le gall,,,,,,,aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang_mutagenic,
+8,rumex rupestris le gall,saxifraga hirculus l,,,,,,,aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang_nephrotoxic,
+9,saxifraga hirculus l,jatropha podagrica hook,,,,,,,,
+10,jatropha podagrica hook,panax ginseng c.a.mey,,,,,,,,
+11,panax ginseng c.a.mey,codonopsis pilosula nannf,,,,,,,,
+12,codonopsis pilosula nannf,rumex madaio makino,,,,,,,,
+13,rumex madaio makino,talinum paniculatum (jacq.) gaertn,,,,,,,,
+14,talinum paniculatum (jacq.) gaertn,stephania tetrandra s.moore,,,,,,,,
+15,stephania tetrandra s.moore,aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang,,,,,,,,
+16,stephania tetrandra,,,,,,,,,
+17,aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang,,,,,,,,,
+18,aristolochia fangchi,,,,,,,,,
+19,aristolochia,,,,,,,,,

@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ginkgo biloba,ginkgo biloba l,hypericum perforatum l,gingko biloba,,hypericum perforatum l_stomach ulcers,,,hypericum perforatum l_enzyme inducing effect,
+1,ginkgo,aloe vera (l.) burm.f,panax ginseng c.a.mey,gingko,,hypericum perforatum l_gastritis,,,hypericum perforatum l_aid local wound healing,
+2,aloe vera,echinacea purpurea (l.) moench,allium sativum l,,,hypericum perforatum l_mild depression,,,panax ginseng c.a.mey_impaired coagulation,
+3,echinacea,,vaccinium macrocarpon aiton,,,hypericum perforatum l_anxiety,,,ginkgo biloba l_impaired coagulation,
+4,,,lepidium meyenii walp,,,hypericum perforatum l_toothache,,,allium sativum l_impaired coagulation,
+5,,,monascus purpureus went,,,hypericum perforatum l_sleep disorder,,,aloe vera (l.) burm.f_reduces drug absorption,
+6,,,cimicifuga racemosa (l.) nutt,,,hypericum perforatum l_seasonal affective disorder,,,lepidium meyenii walp_enzyme inducer,
+7,,,serenoa repens (w.bartram) small,,,hypericum perforatum l_pain,,,,
+8,,,,,,panax ginseng c.a.mey_blood pressure,,,,

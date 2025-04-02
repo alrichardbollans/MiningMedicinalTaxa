@@ -1,0 +1,51 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,banisteriopsis caapi,banisteriopsis,malpighiaceae,b.inebrians,,,banisteriopsis caapi_pain,,,penicillium chrysogenum_antibiotic
+1,datura inoxia,banisteriopsis caapi,part]bacteriaacetobacter aceti,b.rusbyana,,,b.inebrians_pain,,,penicillium notatum_antibiotic
+2,rivea corymbosa,datura inoxia,arame,penicillium chrysogenum,,,b.rusbyana_pain,,,streptomyces spp_antibiotics
+3,rivea,rivea,gracilaria,penicillium notatum,,,,,,claviceps purpurea_psychoactive
+4,turbina corymbosa,turbina corymbosa,spirulina,streptomyces spp,,,,,,claviceps purpurea_vasoconstrictor
+5,,,,claviceps purpurea,,,,,,psilocybe spp_psychoactive
+6,,,,psilocybe spp,,,,,,amanita muscaria_psychoactive
+7,,,,amanita muscaria,,,,,,conocybe spp_psychoactive
+8,,,,conocybe spp,,,,,,lycoperdon marginatum_psychoactive
+9,,,,lycoperdon marginatum,,,,,,lycoperdon mixtecorum_psychoactive
+10,,,,lycoperdon mixtecorum,,,,,,
+11,,,,ipomoea violacea,,,,,,
+12,,,,agaricus bisporus,,,,,,
+13,,,,agaricus campestris,,,,,,
+14,,,,agrobacterium tumifaciens,,,,,,
+15,,,,aspergillus flavus,,,,,,
+16,,,,spergillus oryzae,,,,,,
+17,,,,auricularia auricula-judae,,,,,,
+18,,,,boletus spp,,,,,,
+19,,,,botrytis cinerea,,,,,,
+20,,,,candida albicans,,,,,,
+21,,,,cantharellus cibarius,,,,,,
+22,,,,cortinellus edodes,,,,,,
+23,,,,cryphonectaria parasitica,,,,,,
+24,,,,drechslera oryzeae,,,,,,
+25,,,,flammulina velutipes,,,,,,
+26,,,,fusarium oxysporum,,,,,,
+27,,,,hemileia vastatrix,,,,,,
+28,,,,lactarius deliciosus,,,,,,
+29,,,,lentinus edodes,,,,,,
+30,,,,lycoperdon spp,,,,,,
+31,,,,monilinia fructicola,,,,,,
+32,,,,morchella esculenta,,,,,,
+33,,,,mycosphaerella spp,,,,,,
+34,,,,ophiostoma ulmi,,,,,,
+35,,,,paneolus spp,,,,,,
+36,,,,penicillium camemberti,,,,,,
+37,,,,penicillium roquefortii,,,,,,
+38,,,,phytophthora infestans,,,,,,
+39,,,,phytophthora palmivora,,,,,,
+40,,,,plasmopara viticola,,,,,,
+41,,,,pleurotus spp,,,,,,
+42,,,,puccinia graminis,,,,,,
+43,,,,rhizobium leguminosarum,,,,,,
+44,,,,russula spp,,,,,,
+45,,,,saccharomyces carlsbergensis,,,,,,
+46,,,,saccharomyces cervisieae,,,,,,
+47,,,,saccharomyces ellipsoideus,,,,,,
+48,,,,saccharomyces theobromae,,,,,,
+49,,,,stropharia spp,,,,,,

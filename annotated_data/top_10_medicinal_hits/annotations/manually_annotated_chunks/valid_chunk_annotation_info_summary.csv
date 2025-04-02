@@ -1,0 +1,12 @@
+,id,name,reference_only,mixed_chunks,notes,corpus_id
+count,222.0,222,222,222,7,222
+unique,,222,1,1,6,10
+top,,task_for_labelstudio_161880242_chunk_0.json,no,no,No labels,268329601
+freq,,1,222,222,2,69
+mean,171.69819819819818,,,,,
+std,117.54688636657448,,,,,
+min,1.0,,,,,
+25%,73.25,,,,,
+50%,154.5,,,,,
+75%,260.75,,,,,
+max,399.0,,,,,

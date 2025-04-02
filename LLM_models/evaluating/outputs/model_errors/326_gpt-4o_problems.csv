@@ -1,8 +1,0 @@
-,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,punica granatum l,punica granatum l,,,,punica granatum l_hyperlipidemia,,,punica granatum l_vasculoprotective,
-1,,,,,,punica granatum l_atherosclerosis,,,punica granatum l_inhibited cyclooxygenase,
-2,,,,,,,,,punica granatum l_inhibited oxidized ldl uptake,
-3,,,,,,,,,punica granatum l_attenuated platelet aggregation,
-4,,,,,,,,,punica granatum l_enhanced paraoxonase activity,
-5,,,,,,,,,punica granatum l_increased nitric oxide bioavailability,
-6,,,,,,,,,punica granatum l_attenuated oxidative stress,

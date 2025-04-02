@@ -1,17 +1,37 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,cannabis sativa l,cannabis sativa l,,,vernonia amygdalina_malaria,andrographis paniculata_inflammation,,cannabis sativa l_anxiolytic-like,salvia haenkei_anti-inflammatory,cannabis sativa l_antioxidant
-1,cannabis,canavalia ensiformis,,,,andrographis paniculata_tumor,,cannabis sativa l_anti-inflammatory,salvia haenkei_antioxidant,cannabis sativa l_anti-iflammatory
-2,canavalia ensiformis,salvia haenkei,,,,andrographis paniculata_bacterial infection,,cannabis sativa l_immunomodulatory,achillea millefolium_antioxidant,salvia haenkei_anti-senescence
-3,salvia haenkei,althaea officinalis,,,,andrographis paniculata_diabetes,,salvia haenkei_anti-ageing,,salvia haenkei_anti-aging
-4,althaea officinalis,achillea millefolium,,,,andrographis paniculata_parasitic infection,,althaea officinalis_antioxidant,,melissa officinalis_antimicrobial
-5,achillea millefolium,calendula officinalis,,,,andrographis paniculata_viral infection,,calendula officinalis_antioxidant,,althaea officinalis_antimicrobial
-6,calendula officinalis,aloysia citrodora,,,,andrographis paniculata_malaria,,aloysia citrodora_antioxidant,,aloysia citrodora_antimicrobial
-7,aloysia citrodora,melissa officinalis,,,,,,melissa officinalis_antioxidant,,calendula officinalis_antimicrobial
-8,melissa officinalis,andrographis paniculata,,,,,,andrographis paniculata_anti-viral,,andrographis paniculata (burm.f.) nees_anti-hsv-1
-9,andrographis paniculata (burm.f.) nees,vernonia amygdalina,,,,,,andrographis paniculata_anti-diabetic,,
-10,andrographis paniculata,,,,,,,andrographis paniculata_anti-parasitic,,
-11,vernonia amygdalina del,,,,,,,andrographis paniculata_anti-malarial,,
-12,,,,,,,,andrographis paniculata_anti-tumor,,
-13,,,,,,,,andrographis paniculata_antibacterial,,
-14,,,,,,,,andrographis paniculata_anti-inflammatory,,
-15,,,,,,,,vernonia amygdalina_antimalarial,,
+0,cannabis sativa l,cannabis sativa l,,canavalia ensiformis,,cannabis sativa l_diabetes,vernonia amygdalina del_malaria,cannabis sativa l_anti-inflammatory,cannabis sativa l_diuretic,cannabis sativa l_anxiolytic-like
+1,cannabis,salvia haenkei,,,,cannabis sativa l_high blood pressure,,andrographis paniculata_anti-inflammatory,cannabis sativa l_antibiotic,cannabis sativa l_immunomodulatory benefits
+2,salvia haenkei,althaea officinalis,,,,cannabis sativa l_cancer,,,cannabis sativa l_stimulant,cannabis sativa l_antioxidant
+3,althaea officinalis,achillea millefolium,,,,cannabis sativa l_inflammation,,,salvia haenkei_diuretic,cannabis sativa l_anti-iflammatory
+4,achillea millefolium,calendula officinalis,,,,salvia haenkei_diabetes,,,salvia haenkei_anti-inflammatory,salvia haenkei_anti-senescence
+5,calendula officinalis,aloysia citrodora,,,,salvia haenkei_high blood pressure,,,salvia haenkei_antibiotic,salvia haenkei_anti-ageing
+6,aloysia citrodora,melissa officinalis,,,,salvia haenkei_cancer,,,salvia haenkei_stimulant,salvia haenkei_anti-aging
+7,melissa officinalis,andrographis paniculata,,,,salvia haenkei_inflammation,,,althaea officinalis_diuretic,melissa officinalis_antioxidant
+8,andrographis paniculata (burm.f.) nees,vernonia amygdalina del,,,,althaea officinalis_diabetes,,,althaea officinalis_anti-inflammatory,melissa officinalis_antimicrobial
+9,andrographis paniculata,,,,,althaea officinalis_high blood pressure,,,althaea officinalis_antibiotic,althaea officinalis_antioxidant
+10,vernonia amygdalina del,,,,,althaea officinalis_cancer,,,althaea officinalis_stimulant,althaea officinalis_antimicrobial
+11,,,,,,althaea officinalis_inflammation,,,achillea millefolium_diuretic,aloysia citrodora_antioxidant
+12,,,,,,achillea millefolium_diabetes,,,achillea millefolium_anti-inflammatory,aloysia citrodora_antimicrobial
+13,,,,,,achillea millefolium_high blood pressure,,,achillea millefolium_antibiotic,calendula officinalis_antioxidant
+14,,,,,,achillea millefolium_cancer,,,achillea millefolium_stimulant,calendula officinalis_antimicrobial
+15,,,,,,achillea millefolium_inflammation,,,calendula officinalis_diuretic,andrographis paniculata (burm.f.) nees_antibacterial
+16,,,,,,calendula officinalis_diabetes,,,calendula officinalis_anti-inflammatory,andrographis paniculata (burm.f.) nees_anti-parasitic
+17,,,,,,calendula officinalis_high blood pressure,,,calendula officinalis_antibiotic,andrographis paniculata (burm.f.) nees_anti-malarial
+18,,,,,,calendula officinalis_cancer,,,calendula officinalis_stimulant,andrographis paniculata (burm.f.) nees_anti-tumor
+19,,,,,,calendula officinalis_inflammation,,,aloysia citrodora_diuretic,andrographis paniculata (burm.f.) nees_antiviral
+20,,,,,,aloysia citrodora_diabetes,,,aloysia citrodora_anti-inflammatory,andrographis paniculata (burm.f.) nees_anti-hsv-1
+21,,,,,,aloysia citrodora_high blood pressure,,,aloysia citrodora_antibiotic,andrographis paniculata (burm.f.) nees_anti-diabetic
+22,,,,,,aloysia citrodora_cancer,,,aloysia citrodora_stimulant,andrographis paniculata (burm.f.) nees_anti-viral
+23,,,,,,aloysia citrodora_inflammation,,,melissa officinalis_diuretic,vernonia amygdalina del_antimalarial
+24,,,,,,melissa officinalis_diabetes,,,melissa officinalis_anti-inflammatory,
+25,,,,,,melissa officinalis_high blood pressure,,,melissa officinalis_antibiotic,
+26,,,,,,melissa officinalis_cancer,,,melissa officinalis_stimulant,
+27,,,,,,melissa officinalis_inflammation,,,andrographis paniculata_diuretic,
+28,,,,,,andrographis paniculata_diabetes,,,andrographis paniculata_antibiotic,
+29,,,,,,andrographis paniculata_high blood pressure,,,andrographis paniculata_stimulant,
+30,,,,,,andrographis paniculata_cancer,,,vernonia amygdalina del_diuretic,
+31,,,,,,andrographis paniculata_inflammation,,,vernonia amygdalina del_anti-inflammatory,
+32,,,,,,vernonia amygdalina del_diabetes,,,vernonia amygdalina del_antibiotic,
+33,,,,,,vernonia amygdalina del_high blood pressure,,,vernonia amygdalina del_stimulant,
+34,,,,,,vernonia amygdalina del_cancer,,,,
+35,,,,,,vernonia amygdalina del_inflammation,,,,

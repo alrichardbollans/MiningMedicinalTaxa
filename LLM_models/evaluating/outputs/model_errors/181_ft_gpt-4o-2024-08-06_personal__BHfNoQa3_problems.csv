@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,pinus,pinus,,pinuspeuce,pinus_skin diseases,,pinus_common cold,pinus_antiseptic,pinus_analgesic,pinus_antisep-tics
+1,pinus peuce,pinus peuce,,,pinus_respiratory,,pinus_asthma,pinus_cholesterol lowering,pinus_tonic,pinus_tonics
+2,pinus sylvestris,pinus sylvestris,,,pinus_digestive system diseases,,pinus_bronchitis,pinus_antibacterial,pinus_expectorant,pinus_expectorants
+3,pinus nigra,pinus nigra,,,pinus_urinary system disorders,,,pinus_antitumorial,,pinus_analgesics
+4,pinus mugo,pinus mugo,,,,,,pinus_antioxidant,,
+5,pinus l,,,,,,,pinus_antimicrobial,,
+6,pinus peucegriseb,,,,,,,,,

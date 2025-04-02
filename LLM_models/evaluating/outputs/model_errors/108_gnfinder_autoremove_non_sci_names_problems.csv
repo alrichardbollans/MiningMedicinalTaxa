@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,ilex paraguariensis,ilex paraguariensis,,papaversomniferum,,,papaversomniferum_diarrhea,,,
-1,ilex vomitoria,ilex vomitoria,,pandanus spp,,,papaversomniferum_gout,,,
+0,ilex paraguariensis,ilex paraguariensis,,papaversomniferum,,,papaversomniferum_gout,,,
+1,ilex vomitoria,ilex vomitoria,,pandanus spp,,,papaversomniferum_diarrhea,,,
 2,homalomena spp,homalomena,,cola spp,,,,,,
 3,tanaecium nocturnum,tanaecium nocturnum,,echinocereus spp,,,,,,
 4,ariocarpus fissuratus,ariocarpus fissuratus,,pagmea macrophylla,,,,,,

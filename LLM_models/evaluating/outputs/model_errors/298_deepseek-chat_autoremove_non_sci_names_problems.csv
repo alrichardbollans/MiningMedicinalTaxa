@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,c. ragusina l,centaurea ragusina l,oroxylum indicum,,centaurea ragusina l_human lung cancer a-549 cells,centaurea ragusina l_fibrosarcoma (fsar,c. ragusina l_livercancer,centaurea ragusina l_anti-inflammatory,centaurea ragusina l_cytotoxic activity,c. ragusina l_antibacterial
+1,centaurea,centaurea melitensis l,,,centaurea ragusina l_liver carcinoma,centaurea ragusina l_murine melanoma (b16f10,centaurea_livercancer,,centaurea ragusina l_tumor cell growth arrest,c. ragusina l_suppresses tumor growth
+2,centaurea ragusina l,centaurea aspera l,,,centaurea ragusina l_anaplastic thyroid cancer atc cells,centaurea ragusina l_human liver cancer hepg2 cells,c. melitensis l_liver carcinoma,,centaurea ragusina l_apoptotic effect,
+3,c. melitensis l,centaurea jacea l,,,,centaurea ragusina l_human colon carcinoma hct-116 cells,c. melitensis l_livercancer,,centaurea ragusina l_anti-proliferative effect,
+4,c. aspera l,,,,,centaurea ragusina l_squamous cell carcinoma (sccvii,c. aspera l_liver carcinoma,,,
+5,c. jacea l,,,,,,c. aspera l_livercancer,,,
+6,,,,,,,c. jacea l_liver carcinoma,,,
+7,,,,,,,c. jacea l_livercancer,,,

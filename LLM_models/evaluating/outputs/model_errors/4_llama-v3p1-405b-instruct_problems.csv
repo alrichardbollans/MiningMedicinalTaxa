@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,chelidonium majus,chelidonium majus,,rhododendron sp,andrographis paniculata_upper respiratory tract infections,chelidonium majus_hepatitis,hypericum perforatum_depression,andrographis paniculata_anti-diarrheal,hypericum perforatum_clinically-significant effect on the pharmacokinetic of chemotherapeutic drugs,hypericum perforatum_antidepressant
-1,aristolochia fangchi,aristolochia fangchi,,andrographispaniculata,,aristolochia fangchi_urothelial carcinoma,a. paniculata_upper tract infection,andrographis paniculata_anti-viral,citrus paradisi_reduction in etoposide bioavailability,hypericum perforatum_antidepressants
-2,piper methysticum,piper methysticum,,andrographis paniculate,,aristolochia fangchi_nephrotoxicity,a. paniculata_upper respiratory tract infection,andrographis paniculata_anti-venom,,piper methysticum_anxiolytic
-3,hypericum perforatum,hypericum perforatum,,,,piper methysticum_hepatotoxicity,hypericum_depression,andrographis paniculata_immuno-stimulatory,,
-4,hypericum,citrus paradisi,,,,andrographis paniculata_venom,,andrographis paniculata_anti-cancer,,
-5,citrus paradisi,andrographis paniculata,,,,andrographis paniculata_pyretic,,andrographis paniculata_anti-inflammatory,,
-6,a. paniculata,,,,,andrographis paniculata_diarrhea,,andrographis paniculata_anti-bacterial,,
-7,andrographis paniculata,,,,,andrographis paniculata_viral infections,,andrographis paniculata_anti-pyretic,,
-8,a.; paniculata,,,,,andrographis paniculata_cancer,,,,
-9,,,,,,andrographis paniculata_inflammation,,,,
-10,,,,,,andrographis paniculata_bacterial infections,,,,
+0,chelidonium majus,chelidonium majus,,rhododendron sp,hypericum perforatum_depression,chelidonium majus_hepatitis,a. paniculata_upper tract infection,andrographis paniculata_anti-cancer,,hypericum perforatum_antidepressant
+1,aristolochia fangchi,aristolochia fangchi,,andrographispaniculata,andrographis paniculata_upper respiratory tract infections,aristolochia fangchi_urothelial carcinoma,a. paniculata_upper respiratory tract infection,andrographis paniculata_anti-diarrheal,,hypericum perforatum_antidepressants
+2,piper methysticum,piper methysticum,,andrographis paniculate,,aristolochia fangchi_nephrotoxicity,,andrographis paniculata_anti-pyretic,,piper methysticum_anxiolytic
+3,hypericum perforatum,hypericum perforatum,,,,piper methysticum_hepatotoxicity,,andrographis paniculata_anti-bacterial,,
+4,hypericum,citrus paradisi,,,,andrographis paniculata_pyretic,,andrographis paniculata_immuno-stimulatory,,
+5,citrus paradisi,andrographis paniculata,,,,andrographis paniculata_diarrhea,,andrographis paniculata_anti-viral,,
+6,a. paniculata,,,,,andrographis paniculata_cancer,,andrographis paniculata_anti-inflammatory,,
+7,andrographis paniculata,,,,,andrographis paniculata_venom,,andrographis paniculata_anti-venom,,
+8,a.; paniculata,,,,,andrographis paniculata_bacterial infections,,,,
+9,,,,,,andrographis paniculata_viral infections,,,,
+10,,,,,,andrographis paniculata_inflammation,,,,

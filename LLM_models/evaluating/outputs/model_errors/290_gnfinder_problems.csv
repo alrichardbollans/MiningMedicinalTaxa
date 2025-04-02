@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,allium sativum l,allium sativum,escherichia coli,aspergillus niger,,,allium sativum l_hypertension,,,allium sativum l_against the most gram-positive and gram-negative bacteria
-1,candida albicans,candida albicans,"25922,pseudomonas aeruginosa",,,,allium sativum l_cancer,,,
-2,,,enterococus faecalis,,,,allium sativum l_coronary thrombosis,,,
+0,allium sativum l,allium sativum,escherichia coli,aspergillus niger,,,allium sativum l_cancer,,,allium sativum l_against the most gram-positive and gram-negative bacteria
+1,candida albicans,candida albicans,"25922,pseudomonas aeruginosa",,,,allium sativum l_coronary thrombosis,,,
+2,,,enterococus faecalis,,,,allium sativum l_hypertension,,,
 3,,,salmonella,,,,allium sativum l_stroke,,,
 4,,,escherichia,,,,,,,
 5,,,suma,,,,,,,

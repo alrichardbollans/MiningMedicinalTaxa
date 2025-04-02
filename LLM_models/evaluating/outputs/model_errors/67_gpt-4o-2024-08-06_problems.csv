@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,quinaquina condamine,quinaquina condamine,lewisia rediviva,banksia,,quinaquina condamine_fever,,,,
+1,blighia sapida,blighia sapida,wilkesia gymnoxiphium,lewisiarediviva,,,,,,
+2,clarkia,clarkia,,wilkesiagymnoxiphium,,,,,,
+3,arbutus menziesii,arbutus menziesii,,bougainvillea,,,,,,
+4,vancouveria,vancouveria,,,,,,,,
+5,darlingtonia californica,darlingtonia californica,,,,,,,,
+6,fremontodendron,fremontodendron,,,,,,,,

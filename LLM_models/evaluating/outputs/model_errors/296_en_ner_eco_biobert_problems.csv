@@ -1,0 +1,35 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hypericum,hypericum,againstaspergillus,commiphora,,,centaurea ragusina l_tumor,,,hypericum_antifungal
+1,h. hircinum subsp.majus,h. hircinum subsp.majus,ethnobotany,aspergillus,,,centaurea ragusina l_gastrointestinal and urogenital disorders,,,h. hircinum subsp.majus_antifungal
+2,penicillium,penicillium,salidroside,chelidonium majus l,,,centaurea ragusina l_cancer,,,syringa vulgaris l_pro-inflammatory
+3,candida,candida,rosavin,,,,prunus spinosa l_cardiovascular disease,,,centaurea ragusina l_antibacterial
+4,rhodiola roseal,rhodiola roseal,casperome r(c,,,,ononis natrix subsp. hispanica_atherosclerosis,,,ajuga laxmannii (murray) benth_anti-inflammatory
+5,syringa vulgaris l,syringa vulgaris l,chelidonium majus l.along,,,,centaurea_tumor,,,ajuga laxmannii (murray) benth_antioxidant
+6,centaurea ragusina l,centaurea ragusina l,common lilac,,,,centaurea_gastrointestinal and urogenital disorders,,,ajuga laxmannii (murray) benth_antimicrobial
+7,centaurea,boswellia,neooleuropein,,,,,,,centaurea_antibacterial
+8,boswellia,ajuga laxmannii (murray) benth,thatneooleuropein,,,,,,,
+9,ajuga laxmannii (murray) benth,prunus spinosa l,roman chamomile,,,,,,,
+10,prunus spinosa l,ononis natrix,tonguesquamous cell carcinoma,,,,,,,
+11,ononis natrix subsp. hispanica,veronica officinalis l,identifiedragusinin,,,,,,,
+12,ononis natrix,scrophularia lucida l,ragusinin,,,,,,,
+13,veronica officinalis l,centaurea,"guggul""from",,,,,,,
+14,scrophularia lucida l,,berberine,,,,,,,
+15,,,"work""berberine",,,,,,,
+16,,,pomegranate,,,,,,,
+17,,,diversepomegranate,,,,,,,
+18,,,tomatoes,,,,,,,
+19,,,grapefruit,,,,,,,
+20,,,watermelon,,,,,,,
+21,,,apigenin,,,,,,,
+22,,,luteolin,,,,,,,
+23,,,fabaceae,,,,,,,
+24,,,ofononis natrix subsp,,,,,,,
+25,,,productfalcarindiol,,,,,,,
+26,,,scrovalentinoside,,,,,,,
+27,,,koelzioside,,,,,,,
+28,,,aging neurosci,,,,,,,
+29,,,flavonoidsand,,,,,,,
+30,,,flavonoids,,,,,,,
+31,,,genuscentaurea,,,,,,,
+32,,,sccvii,,,,,,,
+33,,,ragusininwas,,,,,,,

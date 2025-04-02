@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,senna,senna,,gingko,senna_constipation,aristolochia species_renal failure,senna_indigestion,senna_stimulant laxative,,gymnema sylvestre (retz.) r. br. ex sm_urinary frequency
+1,aloe vera,aloe vera,,,aloe vera_diabetes,aristolochia species_cancer,,,,
+2,gymnema sylvestre (retz.) r. br. ex sm,gymnema sylvestre (retz.) r. br. ex sm,,,gymnema sylvestre (retz.) r. br. ex sm_diabetes,,,,,
+3,tussilago farfara l,tussilago farfara l,,,,,,,,
+4,urtica diocia l,urtica diocia l,,,,,,,,
+5,piper methysticum g.frost,piper methysticum g.frost,,,,,,,,
+6,aristolochia,aristolochia species,,,,,,,,
+7,hypericum,hypericum,,,,,,,,

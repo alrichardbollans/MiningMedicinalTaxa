@@ -1,36 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,viola odorata l,viola odorata l,ricinus communis,aloe vera,viola odorata l_headache,ricinus communis_constipation,aloe vera_arthritis,momordica charantia l_hypoglycaemic,ricinus communis_purgative,aloe vera_wound healing
-1,momordica charantia l,momordica charantia l,zingiber officinale,,viola odorata l_catarrh,trigonella foenum-graecum l_arthritis,aloe vera_stomach and duodenal ulcers,trigonella foenum-graecum l_anti-diabetic,trigonella foenum-graecum l_anti-inflammatory,aloe vera_anti-inflammatory
-2,trigonella foenum-graecum l,trigonella foenum-graecum l,olea europaea,,viola odorata l_fever,trigonella foenum-graecum l_diabetes,aloe vera_tooth aches,,zingiber officinale_antioxidant,aloe vera_immune boosting effects
-3,eucalyptus,eucalyptus globulus,cinnamomum verum,,viola odorata l_pain,zingiber officinale_headache,aloe vera_irritable bowel syndrome,,zingiber officinale_antibacterial,momordica charantia l_glucose absorption
-4,,,syzygium aromaticum,,viola odorata l_cough,zingiber officinale_itchy skin,aloe vera_skin irritation,,zingiber officinale_anti-inflammatory,momordica charantia l_improve insulin secretion
-5,,,curcuma longa,,momordica charantia l_diabetes,zingiber officinale_wounds,aloe vera_skin conditions,,syzygium aromaticum_anti-inflammatory,momordica charantia l_increase glucose uptake in liver cells
-6,,,foeniculum vulgare,,,zingiber officinale_indigestion,aloe vera_itchy skin,,syzygium aromaticum_antioxidant,trigonella foenum-graecum l_reduce bg levels
-7,,,mentha arvensis,,,zingiber officinale_diabetes,aloe vera_eczema,,syzygium aromaticum_antibacterial,trigonella foenum-graecum l_improving insulin response in diabetics
-8,,,ocimum tenuiflorum,,,zingiber officinale_arthritis,aloe vera_burns,,syzygium aromaticum_analgesic,
-9,,,nigella sativa,,,zingiber officinale_cough,aloe vera_mouth ulcers,,curcuma longa_antioxidant,
-10,,,aloe barbadensis,,,olea europaea_diabetes,aloe vera_diabetes,,curcuma longa_antibacterial,
-11,,,coriandrum sativum,,,cinnamomum verum_diabetes,viola odorata l_coughs,,curcuma longa_anti-inflammatory,
-12,,,vitis vinifera,,,cinnamomum verum_cough,viola odorata l_colds,,aloe barbadensis_wound healing,
-13,,,citrus limon,,,syzygium aromaticum_toothache,,,aloe barbadensis_anti-inflammatory,
-14,,,allium sativum,,,syzygium aromaticum_headache,,,,
-15,,,cannabis sativa,,,curcuma longa_diabetes,,,,
-16,,,azadirachta indica,,,curcuma longa_cough,,,,
-17,,,sesamum indicum,,,foeniculum vulgare_cough,,,,
-18,,,helianthus annuus,,,mentha arvensis_headache,,,,
-19,,,carthamus tinctorius,,,mentha arvensis_cough,,,,
-20,,,prunus dulcis,,,ocimum tenuiflorum_diabetes,,,,
-21,,,juglans regia,,,ocimum tenuiflorum_cough,,,,
-22,,,camellia sinensis,,,nigella sativa_cough,,,,
-23,,,urtica dioica,,,aloe barbadensis_arthritis,,,,
-24,,,rosmarinus officinalis,,,aloe barbadensis_wounds,,,,
-25,,,petroselinum crispum,,,aloe barbadensis_diabetes,,,,
-26,,,abelmoschus esculentus,,,aloe barbadensis_itchy skin,,,,
-27,,,emblica officinalis,,,allium sativum_arthritis,,,,
-28,,,ficus carica,,,azadirachta indica_diabetes,,,,
-29,,,cicer arietinum,,,abelmoschus esculentus_diabetes,,,,
-30,,,vaccinium macrocarpon,,,emblica officinalis_diabetes,,,,
-31,,,phoenix dactylifera,,,ficus carica_diabetes,,,,
-32,,,brassica oleracea,,,cicer arietinum_diabetes,,,,
-33,,,daucus carota,,,,,,,
-34,,,citrus sinensis,,,,,,,
+0,aloe vera,aloe vera,zingiber officinale,eucalyptus,aloe vera_diabetes,trigonella foenum-graecum l_diabetes,aloe vera_burns,aloe vera_anti-inflammatory,trigonella foenum-graecum l_anti-inflammatory,aloe vera_immune boosting effects
+1,momordica charantia l,momordica charantia l,,,aloe vera_arthritis,trigonella foenum-graecum l_arthritis,aloe vera_tooth aches,aloe vera_wound healing,viola odorata l_anti-bacterial,momordica charantia l_improve insulin secretion
+2,trigonella foenum-graecum l,trigonella foenum-graecum l,,,aloe vera_skin conditions,zingiber officinale_indigestion,aloe vera_stomach and duodenal ulcers,momordica charantia l_hypoglycaemic,viola odorata l_antioxidant,momordica charantia l_glucose absorption
+3,viola odorata l,viola odorata l,,,momordica charantia l_diabetes,zingiber officinale_cough,aloe vera_skin irritation,trigonella foenum-graecum l_anti-diabetic,viola odorata l_anti-inflammatory,momordica charantia l_increase glucose uptake in liver cells
+4,,,,,viola odorata l_fever,zingiber officinale_arthritis,aloe vera_irritable bowel syndrome,,zingiber officinale_anti-bacterial,trigonella foenum-graecum l_reduce bg levels
+5,,,,,viola odorata l_cough,,aloe vera_itchy skin,,zingiber officinale_antioxidant,trigonella foenum-graecum l_improving insulin response in diabetics
+6,,,,,viola odorata l_headache,,aloe vera_mouth ulcers,,zingiber officinale_anti-inflammatory,
+7,,,,,viola odorata l_catarrh,,aloe vera_eczema,,,
+8,,,,,viola odorata l_pain,,viola odorata l_coughs,,,
+9,,,,,,,viola odorata l_colds,,,

@@ -1,6 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,a. paniculata,andrographis paniculata,,vicia faba,,andrographis paniculata_hepatotoxicity,,andrographis paniculata_anti-hepatotoxic,andrographis paniculata_diuretic,
-1,teuchrium chamaedrys,teuchrium chamaedrys,,,,andrographis paniculata_fever,,andrographis paniculata_hepatoprotective,andrographis paniculata_anti-inflammatory,
-2,t. chamaedrys,helminthosporium dematioideum,,,,andrographis paniculata_malaria,,,andrographis paniculata_antibiotic,
-3,helminthosporium dematioideum,,,,,andrographis paniculata_infectious-disease,,,andrographis paniculata_stimulant,
-4,,,,,,teuchrium chamaedrys_hepatotoxicity,,,,
+0,a. paniculata,andrographis paniculata,,vicia faba,,andrographis paniculata_hepatotoxicity,,andrographis paniculata_hepatoprotective,teuchrium chamaedrys_slimming,a. paniculata_anti-hepatotoxic
+1,teuchrium chamaedrys,teuchrium chamaedrys,,,,teuchrium chamaedrys_hepatotoxicity,,,,
+2,t. chamaedrys,helminthosporium dematioideum,,,,,,,,
+3,helminthosporium dematioideum,,,,,,,,,

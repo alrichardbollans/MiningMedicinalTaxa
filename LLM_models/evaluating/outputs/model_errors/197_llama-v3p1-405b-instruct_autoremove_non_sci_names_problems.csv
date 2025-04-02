@@ -1,9 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,salvia,salvia fruticosa mill,,salvia tomentosa miller,salvia fruticosa mill_inflammations,,salvia_epilepsy,salvia fruticosa mill_antioxidant,salvia fruticosa mill_antimicrobial,salvia tomentosa miller_antioxidant
-1,salvia fruticosa mill,salvia officinalis l,,juniperus l,salvia fruticosa mill_hemorrhage,,salvia_bronchitis,salvia fruticosa mill_antifungal,salvia fruticosa mill_anti-inflammatory,
-2,salvia fruticosa,juniperus communis l,,salvia fruticosa mill-er,salvia fruticosa mill_tuberculosis,,salvia_colds,salvia fruticosa mill_hypoglycemic,,
-3,s. fruticosa,juniperus polycarpos,,,salvia fruticosa mill_hepatitis,,salvia_aches,,,
-4,salvia officinalis l,,,,salvia fruticosa mill_menstrual disorders,,"s. fruticosa_skin, blood, and infectious ailments",,,
-5,juniperus communis,,,,,,,,,
-6,juniperus communis l,,,,,,,,,
-7,juniperus polycarpos,,,,,,,,,
+0,juniperus communis,juniperus communis l,,salvia tomentosa miller,,juniperus communis l_diabetes,salvia_epilepsy,,juniperus communis l_diuretic,salvia_antioxidant
+1,juniperus communis l,salvia fruticosa mill,,juniperus l,,juniperus communis l_high blood pressure,salvia_menstrual disorders,,juniperus communis l_anti-inflammatory,salvia tomentosa miller_antioxidant
+2,salvia,,,juniperus polycarpos,,juniperus communis l_cancer,salvia_bronchitis,,juniperus communis l_antibiotic,salvia fruticosa mill_antifungal
+3,salvia fruticosa mill,,,salvia officinalis l,,juniperus communis l_inflammation,salvia_tuberculo-sis,,juniperus communis l_stimulant,salvia fruticosa_antifungal
+4,salvia fruticosa,,,salvia fruticosa mill-er,,salvia fruticosa mill_diabetes,salvia_hemorrhage,,salvia fruticosa mill_diuretic,s. fruticosa_hy-poglycemic
+5,s. fruticosa,,,,,salvia fruticosa mill_high blood pressure,salvia_colds,,salvia fruticosa mill_anti-inflammatory,s. fruticosa_antifungal
+6,,,,,,salvia fruticosa mill_cancer,salvia_aches,,salvia fruticosa mill_antibiotic,
+7,,,,,,salvia fruticosa mill_inflammation,"s. fruticosa_skin, blood, and infectious ailments",,salvia fruticosa mill_stimulant,
+8,,,,,,,s. fruticosa_tuberculosis,,,
+9,,,,,,,s. fruticosa_hepatitis,,,
+10,,,,,,,s. fruticosa_inflammations,,,

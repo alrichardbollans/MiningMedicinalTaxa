@@ -1,10 +1,35 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,echinacea angustifolia dc,echinacea angustifolia dc,ricinus communis,aloe vera,echinacea angustifolia dc_infections,cinchona officinalis l_fever,aloe vera_skin heath,boswellia serrate roxb. ex colebr_anti-inflammatory,ricinus communis_purgative,echinacea_maintain immune system
-1,echinacea,boswellia serrate roxb. ex colebr,cinchona officinalis l,mentha,echinacea angustifolia dc_common cold,cinchona officinalis l_malaria,aloe vera_eczema,althaea officinalis l_demulcent,panax ginseng c.a.mey_enhancement of physical performance,mentha_eases digestion
-2,boswellia serrate roxb. ex colebr,althaea officinalis l,panax ginseng c.a.mey,ginkgo,,cinchona officinalis l_infectious-disease,aloe vera_wound,,papaver somniferum l_vasodilation,mentha_calm nerves
-3,boswellia,,papaver somniferum l,agnus castus,,panax ginseng c.a.mey_tiredness,aloe vera_skin conditions,,papaver somniferum l_pain relief,ginkgo_circulatory problems
-4,althaea officinalis l,,,senna,,papaver somniferum l_hypertension,echinacea_sore throat,,,althaea officinalis l_cough
-5,,,,rhodiola,,boswellia serrate roxb. ex colebr_arthritis,echinacea_colds,,,
-6,,,,aspergillus,,althaea officinalis l_cough,echinacea_coughs,,,
-7,,,,trachyspermum ammi,,,agnus castus_pms symptoms,,,
-8,,,,eucalyptus,,,senna_constipation,,,
+0,echinacea angustifolia dc,echinacea angustifolia dc,curcuma longa,agnus castus,echinacea angustifolia dc_infections,althaea officinalis l_cough,aloe vera_wound,althaea officinalis l_demulcent,echinacea angustifolia dc_anti-inflammatory,echinacea_maintain immune system
+1,echinacea,althaea officinalis l,zingiber officinale,,echinacea angustifolia dc_common cold,boswellia serrate roxb. ex colebr_arthritis,aloe vera_skin heath,boswellia serrate roxb. ex colebr_anti-inflammatory,echinacea angustifolia dc_antibiotic,mentha_calm nerves
+2,althaea officinalis l,boswellia serrate roxb. ex colebr,ocimum tenuiflorum,,aloe vera_eczema,trachyspermum ammi_indigestion,echinacea_coughs,boswellia_anti-inflammatory,trachyspermum ammi_carminative,mentha_eases digestion
+3,boswellia serrate roxb. ex colebr,trachyspermum ammi,cinnamomum verum,,aloe vera_skin conditions,curcuma longa_coughs,echinacea_sore throat,,aloe vera_anti-inflammatory,ginkgo_circulatory problems
+4,boswellia,aloe vera,syzygium aromaticum,,senna alexandrina_constipation,curcuma longa_wound healing,echinacea_colds,,aloe vera_soothing,althaea officinalis l_cough
+5,trachyspermum ammi,eucalyptus globulus,crataegus monogyna,,,curcuma longa_arthritis,agnus castus_pms symptoms,,curcuma longa_antiseptic,
+6,aloe vera,mentha piperita,valeriana officinalis,,,curcuma longa_skin infections,,,curcuma longa_anti-inflammatory,
+7,eucalyptus,ginkgo biloba,passiflora incarnata,,,curcuma longa_colds,,,curcuma longa_antibiotic,
+8,mentha,senna alexandrina,camellia sinensis,,,zingiber officinale_nausea,,,zingiber officinale_anti-inflammatory,
+9,ginkgo,aspergillus,hamamelis virginiana,,,zingiber officinale_coughs,,,zingiber officinale_digestive aid,
+10,senna,rhodiola rosea,,,,zingiber officinale_colds,,,ocimum tenuiflorum_antibacterial,
+11,aspergillus,boswellia,,,,zingiber officinale_indigestion,,,ocimum tenuiflorum_anti-inflammatory,
+12,rhodiola,,,,,ocimum tenuiflorum_coughs,,,cinnamomum verum_antibacterial,
+13,,,,,,ocimum tenuiflorum_colds,,,cinnamomum verum_anti-inflammatory,
+14,,,,,,ocimum tenuiflorum_indigestion,,,syzygium aromaticum_analgesic,
+15,,,,,,cinnamomum verum_coughs,,,syzygium aromaticum_antibacterial,
+16,,,,,,cinnamomum verum_colds,,,eucalyptus globulus_expectorant,
+17,,,,,,cinnamomum verum_indigestion,,,eucalyptus globulus_anti-inflammatory,
+18,,,,,,syzygium aromaticum_toothache,,,mentha piperita_anti-inflammatory,
+19,,,,,,eucalyptus globulus_coughs,,,mentha piperita_digestive aid,
+20,,,,,,eucalyptus globulus_colds,,,ginkgo biloba_vasodilator,
+21,,,,,,mentha piperita_indigestion,,,ginkgo biloba_anti-inflammatory,
+22,,,,,,ginkgo biloba_circulatory problems,,,crataegus monogyna_cardiotonic,
+23,,,,,,crataegus monogyna_circulatory problems,,,crataegus monogyna_anti-inflammatory,
+24,,,,,,valeriana officinalis_sleep disorders,,,valeriana officinalis_anxiolytic,
+25,,,,,,valeriana officinalis_anxiety,,,valeriana officinalis_sedative,
+26,,,,,,passiflora incarnata_sleep disorders,,,passiflora incarnata_anxiolytic,
+27,,,,,,passiflora incarnata_anxiety,,,passiflora incarnata_sedative,
+28,,,,,,camellia sinensis_relaxation,,,camellia sinensis_anxiolytic,
+29,,,,,,hamamelis virginiana_skin conditions,,,camellia sinensis_antioxidant,
+30,,,,,,rhodiola rosea_energy,,,hamamelis virginiana_astringent,
+31,,,,,,boswellia_arthritis,,,hamamelis virginiana_anti-inflammatory,
+32,,,,,,,,,senna alexandrina_laxative,
+33,,,,,,,,,rhodiola rosea_adaptogen,

@@ -1,3 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,,,,echinacea purpurea,,,,,,
-1,,,,echinacea,,,,,,
+0,echinacea purpurea,echinacea purpurea,allium sativum,,,echinacea purpurea_inflammation,,,echinacea purpurea_anti-inflammatory,
+1,echinacea,,,,,allium sativum_diabetes,,,echinacea purpurea_antibiotic,
+2,,,,,,allium sativum_heart disease,,,allium sativum_anti-inflammatory,
+3,,,,,,,,,allium sativum_antibiotic,

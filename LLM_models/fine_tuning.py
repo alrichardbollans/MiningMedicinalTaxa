@@ -9,7 +9,6 @@ import tiktoken
 from langchain_openai import ChatOpenAI
 
 from LLM_models.loading_files import read_file_and_chunk
-from LLM_models.making_examples import example_messages
 from LLM_models.rag_prompting import standard_medicinal_prompt
 from LLM_models.running_models import get_input_size_limit
 from LLM_models.structured_output_schema import get_chunk_filepath_from_chunk_id, TaxaData, get_all_human_annotations_for_chunk_id
@@ -24,7 +23,7 @@ def run_example():
     for id in issues:
         text_chunks = read_file_and_chunk(get_chunk_filepath_from_chunk_id(id), get_input_size_limit(16))
         extractor = standard_medicinal_prompt | model1.with_structured_output(schema=TaxaData, include_raw=True)
-        chunk_output = extractor.invoke({"text": text_chunks[0], "examples": example_messages})
+        chunk_output = extractor.invoke({"text": text_chunks[0]})
         print(chunk_output)
         relevant_example = chunk_output['raw'].additional_kwargs['tool_calls'][0]['function']['arguments']
         print(relevant_example)
@@ -196,13 +195,12 @@ def finetune_model():
     )
 
 
-def check_jobs():
+def check_jobs(job_id):
     from openai import OpenAI
     client = OpenAI()
 
     # List 10 fine-tuning jobs
     print(client.fine_tuning.jobs.list(limit=10))
-    job_id = "ftjob-5LFmDazZTCselWl0K96Ofk0z"
     api_key = os.getenv('OPENAI_API_KEY')
     return_code = subprocess.call(f'curl https://api.openai.com/v1/fine_tuning/jobs/{job_id} -H "Authorization: Bearer {api_key}"', shell=True)
 
@@ -225,13 +223,13 @@ def check_jobs():
 def main():
     # run_example()
     # get_finetuning_data()
-    # # Load the dataset
+    # # # Load the dataset
     # with open(fine_tuning_data_file, 'r', encoding='utf-8') as f:
     #     dataset = [json.loads(line) for line in f]
     #     check_data_format_errors(dataset)
     #
     # finetune_model()
-    check_jobs()
+    check_jobs("ftjob-1gIVvOZRaMdsU6Z8QRJQk3vM")
 
 
 if __name__ == '__main__':

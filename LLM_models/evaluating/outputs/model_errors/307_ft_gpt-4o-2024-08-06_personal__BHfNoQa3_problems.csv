@@ -1,0 +1,4 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,berberis aristata,berberis aristata,rhizoma coptidis,,,,,,,
+1,b. tinctoria,b. tinctoria,,,,,,,,
+2,a. mexicana l,a. mexicana l,,,,,,,,

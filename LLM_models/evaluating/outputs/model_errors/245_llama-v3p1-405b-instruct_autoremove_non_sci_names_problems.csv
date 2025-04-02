@@ -1,21 +1,23 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,shorea roxburghii,shorea roxburghii,,cladosporium,shorea roxburghii_dysentery,,shorea roxburghii_type 2 diabetes mellitus (t2dm,shorea roxburghii_hypoglycemic,dacrycarpus imbricatus_anti-proliferative,c. vulgaris_antiradical
-1,s. roxburghii,dacrycarpus imbricatus,,rauwolfia,shorea roxburghii_diarrhea,,cladosporium_acute myeloid leukemia,calluna vulgaris_antimicrobial,pinus dalatensis_anti-proliferative,c. vulgaris_skin anti-aging and protection
-2,dacrycarpus imbricatus,pinus dalatensis,,cladosporium spp,shorea roxburghii_cholera,,rauwolfia_acute myeloid leukemia,calluna vulgaris_antioxidant,oldenlandia pinifolia_anti-proliferative,s. roxburghii_antidiabetic potentials
-3,pinus dalatensis ferre,oldenlandia pinifolia,,warbrugia ugandensis sprague,,,,calluna vulgaris_skin-protective,ficus hirta_anti-proliferative,cladosporium_anti-microbial
-4,oldenlandia pinifolia,ficus hirta,,cryptolepsis sanguinolenta (lindl.) schltr,,,,,acer truncatum_ache inhibitory,cladosporium_anti-tumor
-5,ficus hirta,acer truncatum,,a. coriria,,,,,acer truncatum_cytotoxic,
-6,acer truncatum,erythrina abyssinica,,w. ugandensis,,,,,erythrina abyssinica_cytotoxic,
-7,erythrina abyssinica dc,albizia coriaria,,c. sanguinolenta,,,,,albizia coriaria_cytotoxic,
-8,albizia coriaria oliv,psorospermum febrifugium,,,,,,,psorospermum febrifugium_cytotoxic,
-9,psorospermum febrifugium spach,gymnosporia senegalensis,,,,,,,gymnosporia senegalensis_cytotoxic,
-10,p. febrifugium,zanthoxylum chalybeum,,,,,,,zanthoxylum chalybeum_cytotoxic,
-11,gymnosporia senegalensis (lam.) loes,securidaca longipendunculata,,,,,,,securidaca longipendunculata_cytotoxic,
-12,zanthoxylum chalybeum engl,acacia hockii,,,,,,,acacia hockii_cytotoxic,
-13,securidaca longipendunculata fresen,gardenia ternifolia,,,,,,,gardenia ternifolia_cytotoxic,
-14,s. longipendunculata,bridelia micrantha,,,,,,,bridelia micrantha_cytotoxic,
-15,acacia hockii de wild,calluna vulgaris,,,,,,,,
-16,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc,,,,,,,,,
-17,bridelia micrantha (hochst.) baill,,,,,,,,,
-18,calluna vulgaris (l.) hull,,,,,,,,,
-19,c. vulgaris,,,,,,,,,
+0,shorea roxburghii,shorea roxburghii,,rauwolfia,shorea roxburghii_cholera,dacrycarpus imbricatus_acute myeloid leukemia,shorea roxburghii_type 2 diabetes mellitus (t2dm,shorea roxburghii_antidiabetic,dacrycarpus imbricatus_anti-proliferative,calluna vulgaris (l.) hull_skin-protective
+1,s. roxburghii,dacrycarpus imbricatus,,warbrugia ugandensis sprague,shorea roxburghii_dysentery,pinus dalatensis ferre_acute myeloid leukemia,rauwolfia_acute myeloid leukemia,cladosporium spp_anti-tumor,pinus dalatensis ferre_inhibitory effects on the growth of oci-aml,c. vulgaris_antioxidant
+2,dacrycarpus imbricatus,pinus dalatensis ferre,,cryptolepsis sanguinolenta (lindl.) schltr,shorea roxburghii_diarrhea,oldenlandia pinifolia_chronic myelogenous leukemia,,cladosporium spp_anti-microbial,oldenlandia pinifolia_inhibited the proliferation of chronic myelogenous leukemia cells,c. vulgaris_skin anti-aging and protection
+3,pinus dalatensis ferre,oldenlandia pinifolia,,a. coriria,cladosporium spp_acute myeloid leukemia,,,calluna vulgaris (l.) hull_antiradical capacity,ficus hirta_inhibit cell cycle progression,c. vulgaris_moderate antimicrobial
+4,oldenlandia pinifolia,ficus hirta,,w. ugandensis,,,,,ficus hirta_increase apoptosis,shorea roxburghii_hypoglycemic effect
+5,ficus hirta,cladosporium spp,,c. sanguinolenta,,,,,acer truncatum_cytotoxic activities against four human tumor cell lines,
+6,cladosporium,acer truncatum,,,,,,,acer truncatum_ache inhibitory activity,
+7,cladosporium spp,erythrina abyssinica dc,,,,,,,erythrina abyssinica dc_cytotoxicity,
+8,acer truncatum,albizia coriaria oliv,,,,,,,albizia coriaria oliv_cytotoxicity,
+9,erythrina abyssinica dc,psorospermum febrifugium spach,,,,,,,psorospermum febrifugium spach_cytotoxicity,
+10,albizia coriaria oliv,gymnosporia senegalensis (lam.) loes,,,,,,,gymnosporia senegalensis (lam.) loes_cytotoxicity,
+11,psorospermum febrifugium spach,zanthoxylum chalybeum engl,,,,,,,zanthoxylum chalybeum engl_cytotoxicity,
+12,p. febrifugium,securidaca longipendunculata fresen,,,,,,,securidaca longipendunculata fresen_cytotoxicity,
+13,gymnosporia senegalensis (lam.) loes,acacia hockii de wild,,,,,,,acacia hockii de wild_cytotoxicity,
+14,zanthoxylum chalybeum engl,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc,,,,,,,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc_cytotoxicity,
+15,securidaca longipendunculata fresen,bridelia micrantha (hochst.) baill,,,,,,,bridelia micrantha (hochst.) baill_cytotoxicity,
+16,s. longipendunculata,calluna vulgaris (l.) hull,,,,,,,calluna vulgaris (l.) hull_antimicrobial activity,
+17,acacia hockii de wild,,,,,,,,calluna vulgaris (l.) hull_modulating collagen synthesis in human fibroblasts,
+18,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc,,,,,,,,calluna vulgaris (l.) hull_photo-protective activity,
+19,bridelia micrantha (hochst.) baill,,,,,,,,,
+20,calluna vulgaris (l.) hull,,,,,,,,,
+21,c. vulgaris,,,,,,,,,

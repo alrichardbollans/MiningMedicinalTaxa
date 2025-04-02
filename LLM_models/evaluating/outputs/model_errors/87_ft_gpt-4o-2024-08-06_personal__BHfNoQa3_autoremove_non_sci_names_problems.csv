@@ -1,0 +1,7 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,juniperus spp,juniperus spp,artemisia absinthium,artemisiaabsinthium,,,artemisiaabsinthium_motion sickness,,,
+1,prunus spinosa,prunus spinosa,,agavespp,,,,,,
+2,agave,agave spp,,a. tequileana,,,,,,
+3,galipea,galipea,,citrus,,,,,,
+4,cannabis sativa,cannabis sativa,,linumusitatissimum,,,,,,
+5,cyperus papyrus,cyperus papyrus,,,,,,,,

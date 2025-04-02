@@ -1,0 +1,4 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,a. paniculata,andrographis paniculata,,teuchrium chamaedrys,,"andrographis paniculata_liver cells toxicity induced by carbon-tetrachloride, galactosamine and acetaminophen",,andrographis paniculata_anti-hepatotoxic,,
+1,helminthosporium dematioideum,helminthosporium dematioideum,,t. chamaedrys,,andrographis paniculata_hepatotoxicity,,andrographis paniculata_hepatoprotective,,
+2,,,,vicia faba,,,,,,

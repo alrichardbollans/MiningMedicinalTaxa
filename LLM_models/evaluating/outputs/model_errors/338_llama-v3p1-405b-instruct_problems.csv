@@ -1,23 +1,22 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,h. hircinum,h. hircinum subsp. majus,,h. hircinumsubsp. majus,,h. hircinum subsp. majus_candida,h. hircinum_cough,h. hircinum subsp. majus_antimicrobial,h. hircinum subsp. majus_antimycotic,h. hircinumsubsp. majus_antifungal
-1,h. hircinum subsp. majus,h. montanum,,hypericum,,h. hircinum subsp. majus_c. tropicalis,h. hircinum_fungal pathogens of the respiratory tract,h. hircinum subsp. majus_antifungal,,h. hircinum_antiseptic
-2,h. montanum,h. maculatum,,aspergillus glaucus,,h. hircinum subsp. majus_fluconazole resistant c. parapsilosis,h. hircinum_chronic catarrhal affections,h. montanum_antifungal,,h. montanum_anticancer
-3,h. maculatum,h. hirsutum,,penicillium paneum,,h. montanum_c. albicans,h. hircinum_asthma,h. maculatum_antifungal,,h. montanum_anti-inflammatory
-4,h. hirsutum,h. perforatum,,candida,,h. maculatum_c. albicans,h. hircinum_sorethroats,h. hirsutum_antifungal,,h. hircinum subsp. majus_anticancer
-5,h. perforatum,,,c. parapsilosis,,h. hirsutum_c. albicans,h. hircinum subsp. majus_fungal-associated pathologies,h. perforatum_antifungal,,h. hircinum subsp. majus_anti-inflammatory
-6,,,,c. tropicalis,,h. perforatum_c. albicans,h. hircinum subsp. majus_respiratory tract affections,,,h. hircinum subsp. majus_fungal growth inhibition
-7,,,,h. hircinum subsp.majus,,,,,,hypericum_antifungal
-8,,,,h. hircinumsusbps. majus,,,,,,hypericum_antimycotic
-9,,,,punicagranatum,,,,,,
-10,,,,candida glabrata,,,,,,
-11,,,,cryptococcusneoformans,,,,,,
-12,,,,candida spp,,,,,,
-13,,,,c. albicans,,,,,,
-14,,,,c. lusitaniae,,,,,,
-15,,,,c. glabrata,,,,,,
-16,,,,c. albica,,,,,,
-17,,,,c. krusei,,,,,,
-18,,,,bjerkandera,,,,,,
-19,,,,aspergillus,,,,,,
-20,,,,saccharomyces,,,,,,
-21,,,,penicillium,,,,,,
+0,h. hircinum,h. hircinum subsp. majus,,h. hircinumsubsp. majus,h. hircinum subsp. majus_chronic catarrhal affections,h. hircinum subsp. majus_sore throats,h. hircinum_sorethroats,h. hircinum subsp. majus_anti-inflammatory,,h. perforatum_antifungal
+1,h. hircinum subsp. majus,candida spp,,hypericum,h. hircinum subsp. majus_cough,,h. hircinum_fungal pathogens of the respiratory tract,h. hircinum subsp. majus_anticancer,,h. hirsutum_antifungal
+2,candida,aspergillus glaucus,,h. hircinum subsp.majus,h. hircinum subsp. majus_asthma,,h. hircinum subsp. majus_respiratory tract affections,h. hircinum subsp. majus_antimicrobial,,h. maculatum_antifungal
+3,candida spp,penicillium paneum,,h. hircinumsusbps. majus,,,h. hircinum subsp. majus_fungal-associated pathologies,h. hircinum subsp. majus_antifungal,,h. hircinumsubsp. majus_antifungal
+4,aspergillus glaucus,h. montanum,,punicagranatum,,,,,,h. hircinum_antiseptic
+5,aspergillus,h. maculatum,,cryptococcusneoformans,,,,,,h. montanum_anticancer
+6,penicillium paneum,h. hirsutum,,c. albica,,,,,,h. montanum_anti-inflammatory
+7,penicillium,h. perforatum,,,,,,,,h. montanum_antifungal
+8,h. montanum,c. albicans,,,,,,,,h. hircinum subsp. majus_fungal growth inhibition
+9,h. maculatum,c. lusitaniae,,,,,,,,hypericum_antimycotic
+10,h. hirsutum,c. parapsilosis,,,,,,,,hypericum_antifungal
+11,h. perforatum,c. tropicalis,,,,,,,,
+12,c. albicans,c. glabrata,,,,,,,,
+13,c. lusitaniae,c. krusei,,,,,,,,
+14,c. parapsilosis,bjerkandera,,,,,,,,
+15,c. tropicalis,saccharomyces,,,,,,,,
+16,candida glabrata,,,,,,,,,
+17,c. glabrata,,,,,,,,,
+18,c. krusei,,,,,,,,,
+19,bjerkandera,,,,,,,,,
+20,saccharomyces,,,,,,,,,

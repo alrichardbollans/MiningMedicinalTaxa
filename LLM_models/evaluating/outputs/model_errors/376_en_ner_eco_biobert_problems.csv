@@ -1,20 +1,20 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,prunusspinosa l,prunusspinosa l,aleksandra,,,,prunus spinosa l_cardiac complaints,,,prunusspinosa l_pro-inflammatory
-1,prunus spinosa l,prunus spinosa l,nowak,,,,prunus spinosa l_atherosclerosis,,,prunus spinosa l_cardiovascular protection
-2,prunus spinosa,prunus spinosa,monika,,,,prunus spinosa l_cardiac neurosis,,,prunus spinosa l_blood purifying
-3,p. spinosa,p. spinosa,blackthornor sloe)--a,,,,prunus spinosa l_myocarditis,,,prunus spinosa l_diuretic
-4,,,p. spinosareported,,,,prunus spinosa l_oxidative stress-related pathologies,,,prunus spinosa l_anti-inflammatory
-5,,,blackthorn,,,,prunus spinosa l_inflammation,,,prunus spinosa l_astringent
-6,,,theblackthorn,,,,prunus spinosa l_urinary tract disorders,,,prunus spinosa l_heart-strengthening
-7,,,blackthornpolyphenols,,,,prunus spinosa l_intestinal andrespiratory tract disorders,,,prunus spinosa l_anti-hypertensive
-8,,,flavonoids,,,,prunus spinosa l_mild inflammation,,,prunus spinosa l_antioxidant
-9,,,polyphenols,,,,prunus spinosa l_cardiovascular diseases,,,prunus spinosa l_vasoprotective
-10,,,,,,,prunus spinosa_circulatory system disorders,,,prunus spinosa l_detoxifying
-11,,,,,,,p. spinosa_ischemic/reperfusioninjuries,,,prunus spinosa l_spasmolytic
-12,,,,,,,p. spinosa_oxidative damage to dna,,,p. spinosa_antithrombotic
-13,,,,,,,p. spinosa_protein nitratio,,,p. spinosa_antioxidant
-14,,,,,,,p. spinosa_oxidative/nitrative stress,,,p. spinosa_inhibitors of pro-inflammatory enzymes
-15,,,,,,,p. spinosa_inflammation,,,p. spinosa_vasodilatory
-16,,,,,,,p. spinosa_lipid peroxidation,,,p. spinosa_vasoprotective
-17,,,,,,,,,,p. spinosa_anti-apoptotic
-18,,,,,,,,,,p. spinosa_anti-atherogenic
+0,prunusspinosa l,prunusspinosa l,aleksandra,,,,prunus spinosa l_cardiac neurosis,,,prunusspinosa l_pro-inflammatory
+1,prunus spinosa l,prunus spinosa l,nowak,,,,prunus spinosa l_myocarditis,,,prunus spinosa l_diuretic
+2,prunus spinosa,prunus spinosa,monika,,,,prunus spinosa l_mild inflammation,,,prunus spinosa l_spasmolytic
+3,p. spinosa,p. spinosa,blackthornor sloe)--a,,,,prunus spinosa l_inflammation,,,prunus spinosa l_anti-hypertensive
+4,,,p. spinosareported,,,,prunus spinosa l_cardiac complaints,,,prunus spinosa l_vasoprotective
+5,,,blackthorn,,,,prunus spinosa l_intestinal andrespiratory tract disorders,,,prunus spinosa l_antioxidant
+6,,,theblackthorn,,,,prunus spinosa l_cardiovascular diseases,,,prunus spinosa l_heart-strengthening
+7,,,blackthornpolyphenols,,,,prunus spinosa l_atherosclerosis,,,prunus spinosa l_detoxifying
+8,,,flavonoids,,,,prunus spinosa l_urinary tract disorders,,,prunus spinosa l_cardiovascular protection
+9,,,polyphenols,,,,prunus spinosa l_oxidative stress-related pathologies,,,prunus spinosa l_astringent
+10,,,,,,,prunus spinosa_circulatory system disorders,,,prunus spinosa l_anti-inflammatory
+11,,,,,,,p. spinosa_lipid peroxidation,,,prunus spinosa l_blood purifying
+12,,,,,,,p. spinosa_inflammation,,,p. spinosa_antithrombotic
+13,,,,,,,p. spinosa_oxidative/nitrative stress,,,p. spinosa_anti-atherogenic
+14,,,,,,,p. spinosa_oxidative damage to dna,,,p. spinosa_inhibitors of pro-inflammatory enzymes
+15,,,,,,,p. spinosa_ischemic/reperfusioninjuries,,,p. spinosa_vasoprotective
+16,,,,,,,p. spinosa_protein nitratio,,,p. spinosa_antioxidant
+17,,,,,,,,,,p. spinosa_vasodilatory
+18,,,,,,,,,,p. spinosa_anti-apoptotic

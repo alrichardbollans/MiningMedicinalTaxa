@@ -1,5 +1,5 @@
 ,name,accepted_ipni_id,accepted_name,accepted_name_w_author,accepted_family,accepted_rank,accepted_species,accepted_species_w_author,accepted_species_ipni_id,accepted_parent,plant_name_id,taxon_status,matched_by,matched_name
-count,459,458,459,459,459,459,459,459,458,459,459,459,459,459
-unique,459,458,459,459,113,3,459,459,458,354,459,4,7,459
-top,scutellaria baicalensis,458155-1,Scutellaria baicalensis,Scutellaria baicalensis Georgi,Lamiaceae,Species,Scutellaria baicalensis,Scutellaria baicalensis Georgi,458155-1,Berberis,188938,Accepted,direct_wcvp_unique,Scutellaria baicalensis
-freq,1,1,1,1,45,448,1,1,1,20,1,391,283,1
+count,380,379,380,380,380,380,380,380,379,380,380,380,380,380
+unique,380,379,380,380,97,3,380,380,379,288,380,4,6,380
+top,berberis oblonga (regel) c. k.schneid,106944-1,Berberis oblonga,Berberis oblonga (Regel) C.K.Schneid.,Lamiaceae,Species,Berberis oblonga,Berberis oblonga (Regel) C.K.Schneid.,106944-1,Berberis,2674217,Accepted,direct_wcvp_unique,Berberis oblonga (Regel) C.K.Schneid.
+freq,1,1,1,1,35,370,1,1,1,20,1,332,247,1

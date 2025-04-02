@@ -1,24 +1,24 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,hibiscus sabdariffa,hibiscus sabdariffa,honeysuckle,,,,hibiscus sabdariffa_skin cancer,,,physalis angulata l_inhibit the production of inflammatory cytokines
-1,lonicera japonica,lonicera japonica,raw 264.7,,,,hibiscus sabdariffa_liver,,,antrodia salmonea_autophagic or apoptotic cell death
-2,eucommia ulmoides,eucommia ulmoides,as,,,,hibiscus sabdariffa_breast,,,antrodia salmonea_autophagic- and apoptotic-cell death
-3,physalis angulata l,physalis angulata l,human glioblastoma,,,,lonicera japonica_skin cancer,,,antrodia salmonea_autophagic and apoptotic cell death
-4,antrodia salmonea,antrodia salmonea,gbm8401,,,,eucommia ulmoides_skin cancer,,,mikania micrantha_increasing autophagy
-5,mikania micrantha,mikania micrantha,cannabidiol,,,,eucommia ulmoides_liver,,,mikania micrantha_wound healing
-6,cannabis sativa,cannabis sativa,cbd,,,,eucommia ulmoides_breast,,,mikania micrantha_anti-inflammatory
-7,sideritis cypria,sideritis cypria,hemp,,,,antrodia salmonea_glioblastoma,,,mikania micrantha_anti-cancer
-8,s. cypria,sideritis,chrysargyris2,,,,cannabis sativa_pain,,,mikania micrantha_anti-blood cancer
-9,sideritis,s. curvidens stapf,cyprussideritis species,,,,cannabis sativa_anxiety,,,mikania micrantha_prevent free radical diseases
-10,s. curvidens stapf,s. perfoliata l,lamiaceae,,,,cannabis sativa_stress,,,mikania micrantha_antioxidant
-11,s. perfoliata l,s. cypria post1,empedoclia rafin,,,,s. cypria_stomach disorders,,,mikania micrantha_reducing tyrosinase
-12,zingiber officinale roscoe,s. cypria,ginger rhizomes,,,,s. cypria_common cold,,,mikania micrantha_inhibits melanogenesis
-13,zingiber zerumbet smith,zingiber officinale roscoe,"aslam hossain1, s.c",,,,s. cypria_headache,,,mikania micrantha_inhibit melanin production
-14,curcuma amada roxb,zingiber zerumbet smith,streptokinase,,,,,,,mikania micrantha_keratinocyte proliferation
-15,zingiber montanum koen,curcuma amada roxb,ginger,,,,,,,mikania micrantha_inhibits melanin production
+0,hibiscus sabdariffa,hibiscus sabdariffa,honeysuckle,,,,hibiscus sabdariffa_breast,,,physalis angulata l_inhibit the production of inflammatory cytokines
+1,lonicera japonica,lonicera japonica,raw 264.7,,,,hibiscus sabdariffa_skin cancer,,,antrodia salmonea_autophagic- and apoptotic-cell death
+2,eucommia ulmoides,eucommia ulmoides,as,,,,hibiscus sabdariffa_liver,,,antrodia salmonea_autophagic and apoptotic cell death
+3,physalis angulata l,physalis angulata l,human glioblastoma,,,,lonicera japonica_skin cancer,,,antrodia salmonea_autophagic or apoptotic cell death
+4,antrodia salmonea,antrodia salmonea,gbm8401,,,,eucommia ulmoides_breast,,,mikania micrantha_inhibit melanin production
+5,mikania micrantha,mikania micrantha,cannabidiol,,,,eucommia ulmoides_skin cancer,,,mikania micrantha_antioxidant
+6,cannabis sativa,cannabis sativa,cbd,,,,eucommia ulmoides_liver,,,mikania micrantha_wound healing
+7,sideritis cypria,sideritis cypria,hemp,,,,antrodia salmonea_glioblastoma,,,mikania micrantha_anti-blood cancer
+8,s. cypria,sideritis,chrysargyris2,,,,cannabis sativa_anxiety,,,mikania micrantha_inhibits melanin production
+9,sideritis,s. curvidens stapf,cyprussideritis species,,,,cannabis sativa_stress,,,mikania micrantha_keratinocyte proliferation
+10,s. curvidens stapf,s. perfoliata l,lamiaceae,,,,cannabis sativa_pain,,,mikania micrantha_prevent free radical diseases
+11,s. perfoliata l,s. cypria post1,empedoclia rafin,,,,s. cypria_common cold,,,mikania micrantha_inhibits melanogenesis
+12,zingiber officinale roscoe,s. cypria,ginger rhizomes,,,,s. cypria_headache,,,mikania micrantha_anti-inflammatory
+13,zingiber zerumbet smith,zingiber officinale roscoe,"aslam hossain1, s.c",,,,s. cypria_stomach disorders,,,mikania micrantha_anti-cancer
+14,curcuma amada roxb,zingiber zerumbet smith,streptokinase,,,,,,,mikania micrantha_increasing autophagy
+15,zingiber montanum koen,curcuma amada roxb,ginger,,,,,,,mikania micrantha_reducing tyrosinase
 16,z. montanum koen,z. montanum koen,chokeberry fruit,,,,,,,sideritis cypria_antioxidant
-17,,zingiber montanum koen,,,,,,,,s. cypria_diaphoretic
-18,,,,,,,,,,s. cypria_antioxidant
-19,,,,,,,,,,s. cypria_tonic
-20,,,,,,,,,,zingiber montanum koen_free radical scavenging
-21,,,,,,,,,,zingiber montanum koen_cytotoxicity
+17,,zingiber montanum koen,,,,,,,,s. cypria_antioxidant
+18,,,,,,,,,,s. cypria_tonic
+19,,,,,,,,,,s. cypria_diaphoretic
+20,,,,,,,,,,zingiber montanum koen_cytotoxicity
+21,,,,,,,,,,zingiber montanum koen_free radical scavenging
 22,,,,,,,,,,zingiber montanum koen_thrombolytic

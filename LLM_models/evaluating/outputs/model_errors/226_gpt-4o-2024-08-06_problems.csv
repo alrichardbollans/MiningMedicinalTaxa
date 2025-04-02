@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,leucosidea sericea,leucosidea sericea,apis mellifera,candida albicans,,thymbra capitata (l.) cav_viral-induced infections,harpagophytum procumbens dc. ex meisn_ibd,thymbra capitata (l.) cav_antiviral,apis mellifera_immunomodulatory,harpagophytum procumbens dc. ex meisn_protective effects against the burden of inflammation and oxidative stress
+1,dendrobium tosaense,dendrobium tosaense,,c. tropicalis,,thymbra capitata (l.) cav_upper respiratory tract infections,,salvia fruticosa mill_antiviral,apis mellifera_anti-oxidative,
+2,bletilla formosana,bletilla formosana,,,,salvia fruticosa mill_viral-induced infections,,origanum dictamnus l_antiviral,apis mellifera_antimicrobial,
+3,orthosiphon aristatus,orthosiphon aristatus,,,,salvia fruticosa mill_upper respiratory tract infections,,harpagophytum procumbens dc. ex meisn_antimicrobial,harpagophytum procumbens dc. ex meisn_protective effects against oxidative stress and inflammation,
+4,pteris multifda,pteris multifda,,,,origanum dictamnus l_viral-induced infections,,,,
+5,litsea cubeba,litsea cubeba,,,,origanum dictamnus l_upper respiratory tract infections,,,,
+6,uncaria lanosa var. appendiculata,uncaria lanosa var. appendiculata,,,,harpagophytum procumbens dc. ex meisn_inflammatory bowel diseases,,,,
+7,thymbra capitata (l.) cav,thymbra capitata (l.) cav,,,,,,,,
+8,salvia fruticosa mill,salvia fruticosa mill,,,,,,,,
+9,origanum dictamnus l,origanum dictamnus l,,,,,,,,
+10,harpagophytum procumbens dc. ex meisn,harpagophytum procumbens dc. ex meisn,,,,,,,,
+11,h. procumbens,,,,,,,,,

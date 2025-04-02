@@ -1,11 +1,15 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,stahlianthus thorelii,stahlianthus thorelii,,pulicaria gaertn,stahlianthus thorelii_inflammation,,pulicaria_abdominal pain,stahlianthus thorelii_anticancer,euphorbia neriifolia_anti-no,stahlianthus thorelii_anti-proliferative
-1,s. thorelii,euphorbia neriifolia,,,stahlianthus thorelii_osteoarthritis,,pulicaria_headache,euphorbia neriifolia_anticancer,euphorbia neriifolia_anti-inflammatory,stahlianthus thorelii_cytotoxicity
-2,euphorbia neriifolia,pulicaria dysenterica,,,stahlianthus thorelii_cancer,,pulicaria_ankle sprain,pulicaria dysenterica_antimicrobial,,s. thorelii_antiproliferative
-3,euphorbia neriifolia l,pulicaria odora,,,euphorbia neriifolia_inflammation,,pulicaria_skin diseases,pulicaria dysenterica_anti-inflammatory,,euphorbia neriifolia_anti-proliferative
-4,pulicaria,pulicaria wightiana,,,euphorbia neriifolia_cancer,,pulicaria_flatulent colic,pulicaria wightiana_anti-inflammatory,,pulicaria_cicatrizant
-5,p. dysenterica,,,,euphorbia neriifolia_diabetes mellitus,,pulicaria_muscular- skeletal diseases,,,
-6,p. odora,,,,pulicaria dysenterica_bronchitis,,pulicaria_diabetes,,,
-7,pulicaria wightiana,,,,pulicaria dysenterica_inflamed wound,,,,,
-8,,,,,pulicaria dysenterica_cold,,,,,
-9,,,,,pulicaria wightiana_inflammation,,,,,
+0,stahlianthus thorelii,stahlianthus thorelii gagnep,,pulicaria wightiana,stahlianthus thorelii gagnep_cancer,,pulicaria_skin diseases,stahlianthus thorelii gagnep_anti-cancer,stahlianthus thorelii gagnep_anti-inflammatory,stahlianthus thorelii_cytotoxicity
+1,s. thorelii,euphorbia neriifolia,,p. odora,stahlianthus thorelii gagnep_osteoarthritis,,pulicaria_muscular- skeletal diseases,euphorbia neriifolia_anti-cancer,euphorbia neriifolia_anti-inflammatory,stahlianthus thorelii_anti-proliferative
+2,euphorbia neriifolia,pulicaria species,,p. dysenterica,stahlianthus thorelii gagnep_inflammation,,pulicaria wightiana_inflammation,pulicaria species_anti-inflammatory,euphorbia neriifolia_anti-diabetic,s. thorelii_antiproliferative
+3,euphorbia neriifolia l,,,pulicaria gaertn,euphorbia neriifolia_cancer,,,,pulicaria species_antiparasitic,euphorbia neriifolia_anti-proliferative
+4,pulicaria,,,,euphorbia neriifolia_diabetes mellitus,,,,pulicaria species_repellent,pulicaria_cicatrizant
+5,,,,,euphorbia neriifolia_inflammation,,,,pulicaria species_anti-diabetic,pulicaria_antimicrobial
+6,,,,,pulicaria species_diabetes,,,,,
+7,,,,,pulicaria species_ankle sprain,,,,,
+8,,,,,pulicaria species_inflamed wound,,,,,
+9,,,,,pulicaria species_bronchitis,,,,,
+10,,,,,pulicaria species_headache,,,,,
+11,,,,,pulicaria species_cold,,,,,
+12,,,,,pulicaria species_flatulent colic,,,,,
+13,,,,,pulicaria species_abdominal pain,,,,,

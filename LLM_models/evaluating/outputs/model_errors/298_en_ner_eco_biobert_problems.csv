@@ -1,16 +1,16 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,c. ragusina l,centaurea ragusina l,hela,c. aspera l,,,c. ragusina l_liver carcinoma,,,c. ragusina l_anti-inflammatory
-1,centaurea,c. ragusina l,ethanolc. ragusina l,,,,c. ragusina l_livercancer,,,c. ragusina l_suppresses tumor growth
-2,centaurea ragusina l,c. melitensis l,s. aureus,,,,c. ragusina l_thyroid cancer,,,c. ragusina l_antibacterial
-3,c. melitensis l,c. jacea l,a. baumanniiwith,,,,c. ragusina l_lung cancer,,,centaurea_anti-inflammatory
-4,c. jacea l,,murine melanoma(b16f10,,,,centaurea_liver carcinoma,,,
-5,,,squamous cell carcinoma,,,,centaurea_livercancer,,,
-6,,,hamster fibroblasts,,,,c. melitensis l_liver carcinoma,,,
-7,,,b16f10,,,,c. melitensis l_livercancer,,,
-8,,,ragusinin,,,,c. aspera l_liver carcinoma,,,
-9,,,ofguajanolides,,,,c. aspera l_livercancer,,,
-10,,,c6 glioma,,,,c. jacea l_liver carcinoma,,,
-11,,,atc,,,,c. jacea l_livercancer,,,
+0,c. ragusina l,centaurea ragusina l,hela,c. aspera l,,,c. ragusina l_livercancer,,,c. ragusina l_anti-inflammatory
+1,centaurea,c. ragusina l,ethanolc. ragusina l,,,,c. ragusina l_liver carcinoma,,,c. ragusina l_suppresses tumor growth
+2,centaurea ragusina l,c. melitensis l,s. aureus,,,,c. ragusina l_lung cancer,,,c. ragusina l_antibacterial
+3,c. melitensis l,c. jacea l,a. baumanniiwith,,,,c. ragusina l_thyroid cancer,,,centaurea_anti-inflammatory
+4,c. jacea l,,murine melanoma(b16f10,,,,centaurea_livercancer,,,
+5,,,squamous cell carcinoma,,,,centaurea_liver carcinoma,,,
+6,,,hamster fibroblasts,,,,c. melitensis l_livercancer,,,
+7,,,b16f10,,,,c. melitensis l_liver carcinoma,,,
+8,,,ragusinin,,,,c. aspera l_livercancer,,,
+9,,,ofguajanolides,,,,c. aspera l_liver carcinoma,,,
+10,,,c6 glioma,,,,c. jacea l_livercancer,,,
+11,,,atc,,,,c. jacea l_liver carcinoma,,,
 12,,,oroxylum indicum,,,,,,,
 13,,,centaureaspecies,,,,,,,
 14,,,c. aspera l.(ferreres,,,,,,,

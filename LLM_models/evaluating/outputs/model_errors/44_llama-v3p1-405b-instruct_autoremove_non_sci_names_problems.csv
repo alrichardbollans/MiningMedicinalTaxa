@@ -1,24 +1,20 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,ocimum tenuiflorum,ocimum tenuiflorum,,olea europaea,,ocimum tenuiflorum_fever,olea europaea_arthritis,ocimum tenuiflorum_antibacterial,ocimum tenuiflorum_anti-inflammatory,spinacia oleracea_source of iron
-1,ocimum,ocimum basilicum,,spinacia oleracea,,ocimum tenuiflorum_sore throat,olea europaea_eczema,,ocimum basilicum_antimicrobial,spinacia oleracea_internal strength
-2,,ocimum gratissimum,,ficus religiosa,,ocimum tenuiflorum_cough,olea europaea_ear infections,,ocimum basilicum_antioxidant,spinacia oleracea_blood
-3,,ocimum kilimandscharicum,,mentha arvensis,,ocimum basilicum_digestive issues,olea europaea_skin conditions,,ocimum gratissimum_antifungal,ficus religiosa_liver health
-4,,ocimum americanum,,annona reticulata,,ocimum basilicum_stress,ficus religiosa_wounds,,ocimum gratissimum_antibacterial,ficus religiosa_digestion
-5,,,,brassica juncea,,ocimum gratissimum_headaches,ficus religiosa_diarrhoea,,ocimum kilimandscharicum_antiviral,annona reticulata_immune boosting
-6,,,,foeniculum vulgare,,ocimum gratissimum_diarrhea,mentha arvensis_indigestion,,ocimum kilimandscharicum_anti-inflammatory,foeniculum vulgare_digestion
-7,,,,vitus vinifera,,ocimum kilimandscharicum_fever,annona reticulata_cancer,,ocimum americanum_antioxidant,vitus vinifera_blood purifier
-8,,,,areca catechu,,ocimum kilimandscharicum_cough,annona reticulata_diarrhoea,,ocimum americanum_anti-inflammatory,areca catechu_stimulant
-9,,,,laurus nobilis,,ocimum americanum_indigestion,brassica juncea_pain,,,laurus nobilis_digestion
-10,,,,sesamum indicum,,ocimum americanum_nausea,brassica juncea_dry skin,,,sesamum indicum_warms blood
-11,,,,ajuga bracteosa,,,foeniculum vulgare_cough,,,sesamum indicum_improves circulation
-12,,,,coriandrum sativum,,,foeniculum vulgare_constipation,,,sesamum indicum_reduce urinary frequency
-13,,,,piper betle,,,foeniculum vulgare_bloating,,,coriandrum sativum_digestion
-14,,,,pistaci vera,,,vitus vinifera_cough,,,piper betle_digestion
-15,,,,asparagus,,,laurus nobilis_diabetes,,,pistaci vera_general health
-16,,,,,,,ajuga bracteosa_gout,,,pistaci vera_cholesterol
-17,,,,,,,ajuga bracteosa_menstrual problems,,,
-18,,,,,,,coriandrum sativum_diabetes,,,
-19,,,,,,,ocimum tenuiflorum_colds,,,
-20,,,,,,,ocimum tenuiflorum_asthma,,,
-21,,,,,,,ocimum tenuiflorum_coughs,,,
-22,,,,,,,ocimum tenuiflorum_diabetes,,,
+0,olea europaea,olea europaea,,vitus vinifera,olea europaea_ear infections,piper betle_digestion,olea europaea_eczema,,olea europaea_anti-inflammatory,spinacia oleracea_blood
+1,piper betle,piper betle,,pistaci vera,olea europaea_arthritis,spinacia oleracea_good for the blood and internal strength,ficus religiosa_wounds,,olea europaea_antibiotic,spinacia oleracea_source of iron
+2,spinacia oleracea,spinacia oleracea,,asparagus,olea europaea_skin conditions,spinacia oleracea_source of iron,vitus vinifera_cough,,,spinacia oleracea_internal strength
+3,ficus religiosa,ficus religiosa,,,ficus religiosa_diarrhoea,ficus religiosa_liver health,,,,ficus religiosa_liver health
+4,mentha arvensis,mentha arvensis,,,mentha arvensis_indigestion,ficus religiosa_digestion,,,,ficus religiosa_digestion
+5,annona reticulata,annona reticulata,,,annona reticulata_diarrhoea,mentha arvensis_digestion,,,,annona reticulata_immune boosting
+6,brassica juncea,brassica juncea,,,annona reticulata_cancer,annona reticulata_immune boosting properties,,,,foeniculum vulgare_digestion
+7,foeniculum vulgare,foeniculum vulgare,,,brassica juncea_pain,foeniculum vulgare_digestion,,,,vitus vinifera_blood purifier
+8,areca catechu,areca catechu,,,brassica juncea_dry skin,areca catechu_digestion,,,,areca catechu_stimulant
+9,laurus nobilis,laurus nobilis,,,foeniculum vulgare_bloating,areca catechu_stimulant,,,,laurus nobilis_digestion
+10,sesamum indicum,sesamum indicum,,,foeniculum vulgare_cough,laurus nobilis_digestion,,,,sesamum indicum_improves circulation
+11,ajuga bracteosa,ajuga bracteosa,,,foeniculum vulgare_constipation,sesamum indicum_improves circulation,,,,sesamum indicum_warms blood
+12,coriandrum sativum,coriandrum sativum,,,laurus nobilis_diabetes,sesamum indicum_warms blood,,,,sesamum indicum_reduce urinary frequency
+13,ocimum tenuiflorum,ocimum tenuiflorum,,,ajuga bracteosa_menstrual problems,sesamum indicum_reduce urinary frequency,,,,coriandrum sativum_digestion
+14,ocimum,,,,ajuga bracteosa_gout,coriandrum sativum_digestion,,,,ocimum tenuiflorum_antibacterial
+15,,,,,coriandrum sativum_diabetes,ocimum tenuiflorum_antibacterial,,,,piper betle_digestion
+16,,,,,ocimum tenuiflorum_diabetes,,,,,pistaci vera_general health
+17,,,,,ocimum tenuiflorum_coughs and colds,,,,,pistaci vera_cholesterol
+18,,,,,ocimum tenuiflorum_asthma,,,,,

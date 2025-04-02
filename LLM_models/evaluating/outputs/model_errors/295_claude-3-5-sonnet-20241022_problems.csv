@@ -1,9 +1,17 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,lavandula angustifolia,lavandula angustifolia,,commiphora,syringa vulgaris_inflammation,ajuga laxmannii_inflammation,commiphora_chronic diseases,lavandula angustifolia_effects on central nervous system,prunus spinosa_antioxidant,punica granatum l_vasculoprotective
-1,hypericum hircinum subsp. majus,hypericum hircinum subsp. majus,,boswellia,,,boswellia_chronic diseases,hypericum hircinum subsp. majus_antifungal,prunus spinosa_anti-inflammatory,ajuga laxmannii (murray) benth_anti-inflammatory
-2,syringa vulgaris,syringa vulgaris,,punica granatum l,,,scrophularia lucida_tumor,ajuga laxmannii_antioxidant,,
-3,chelidonium majus,chelidonium majus,,scrophularia lucida,,,,ajuga laxmannii_antimicrobial,,
-4,ajuga laxmannii (murray) benth,ajuga laxmannii,,centaurea ragusina l,,,,,,
-5,prunus spinosa l,prunus spinosa,,rhodiola rosea l,,,,,,
-6,veronica officinalis,veronica officinalis,,ononis natrix subsp. hispanica,,,,,,
-7,veronica chamaedrys,veronica chamaedrys,,,,,,,,
+0,centaurea ragusina l,centaurea ragusina l,,,commiphora_chronic diseases,ajuga laxmannii_inflammation,scrophularia lucida_tumor,punica granatum l_vasculoprotective,prunus spinosa_antioxidant,lavandula angustifolia_central nervous system
+1,commiphora,commiphora,,,boswellia_chronic diseases,prunus spinosa_inflammation,,hypericum hircinum subsp. majus_antifungal,,
+2,boswellia,boswellia,,,syringa vulgaris_inflammation,,,ajuga laxmannii_antioxidant,,
+3,rhodiola rosea l,rhodiola rosea l,,,,,,ajuga laxmannii_anti-inflammatory,,
+4,punica granatum l,punica granatum l,,,,,,ajuga laxmannii_antimicrobial,,
+5,hypericum hircinum subsp. majus,hypericum hircinum subsp. majus,,,,,,,,
+6,syringa vulgaris,syringa vulgaris,,,,,,,,
+7,chelidonium majus,chelidonium majus,,,,,,,,
+8,scrophularia lucida,scrophularia lucida,,,,,,,,
+9,ajuga laxmannii (murray) benth,ajuga laxmannii,,,,,,,,
+10,prunus spinosa l,prunus spinosa,,,,,,,,
+11,ononis natrix subsp. hispanica,ononis natrix subsp. hispanica,,,,,,,,
+12,veronica officinalis,veronica officinalis,,,,,,,,
+13,veronica chamaedrys,veronica chamaedrys,,,,,,,,
+14,lavandula angustifolia,lavandula angustifolia,,,,,,,,
+15,,hypericum,,,,,,,,

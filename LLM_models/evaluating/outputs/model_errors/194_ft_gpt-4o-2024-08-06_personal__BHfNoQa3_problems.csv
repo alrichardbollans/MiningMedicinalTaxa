@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hypericum perforatum linn,h. perforatum,,h. per-foratum,h. perforatum_bruises,,,,,
+1,,,,,h. perforatum_swellings,,,,,
+2,,,,,h. perforatum_burn wounds,,,,,
+3,,,,,h. perforatum_dyspep-sia,,,,,
+4,,,,,h. perforatum_wounds,,,,,

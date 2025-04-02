@@ -1,0 +1,55 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,amanita muscaria,amanita muscaria,sclerotium,angelica archangelica,,,angelica archangelica_indigestion,,,angelica archangelica_diuresis
+1,conocybe spp,conocybe,,pimpinella anisum,,,angelica archangelica_colic,,,pimpinella anisum_carminative
+2,panaeolus sphinctrinus,panaeolus sphinctrinus,,arctostaphylos uva-ursi,,,angelica archangelica_colds,,,arctostaphylos uva-ursi_diuretic
+3,claviceps purpurea,claviceps purpurea,,salix pentandra,,,angelica archangelica_bronchitis,,,arctostaphylos uva-ursi_astringent
+4,lycoperdon mixtecorum,lycoperdon mixtecorum,,vaccinium myrtillus,,,pimpinella anisum_colds,,,arctostaphylos uva-ursi_antiseptic
+5,lycoperdon marginatum,lycoperdon marginatum,,symphytum officinale,,,pimpinella anisum_asthma,,,arctostaphylos uva-ursi_relieves bladder inf
+6,psilocybe spp,psilocybe,,barosma betulina,,,symphytum officinale_broken bones,,,salix pentandra_antipyretic
+7,stropharia cubensis,stropharia cubensis,,rhamnus frangula,,,symphytum officinale_diarrhea,,,salix pentandra_antimalarial
+8,justicia pectoralis,justicia pectoralis,,nepeta cataria,,,symphytum officinale_colds,,,salix pentandra_analgesic
+9,acorus calamus,acorus calamus,,anthemis nobilis,,,anthemis nobilis_inflammations,,,vaccinium myrtillus_diuretic
+10,mesembryanthemum spp,mesembryanthemum,,taraxacum officinale,,,eucalyptus globosus_colds,,,vaccinium myrtillus_antidiarrheal
+11,sceletium tortuosum,sceletium tortuosum,,eucalyptus globosus,,,trigonella foenugraecum_colds,,,symphytum officinale_reduces swelling
+12,tabernanthe iboga,tabernanthe iboga,,foeniculum vulgare,,,trigonella foenugraecum_fevers,,,symphytum officinale_wound healing
+13,voacanga spp,voacanga,,trigonella foenugraecum,,,humulus lupulus_indigestion,,,barosma betulina_diuretic
+14,,,,panax quinquefolium,,,humulus lupulus_sleeplessness,,,barosma betulina_antiseptic
+15,,,,hydrastis canadensis,,,equisetum arvense_dyspepsia,,,barosma betulina_gastric remedy
+16,,,,humulus lupulus,,,glycyrrhiza glabra_cough,,,rhamnus frangula_laxative
+17,,,,equisetum arvense,,,tilia europaea_indigestion,,,nepeta cataria_antipyretic
+18,,,,juniperus communis,,,tilia europaea_dyspepsia,,,nepeta cataria_calmative
+19,,,,glycyrrhiza glabra,,,carica papaya_back pain,,,taraxacum officinale_diuretic
+20,,,,tilia europaea,,,mentha viridis_flatulence,,,taraxacum officinale_cholagogic
+21,,,,ilex paraguariensis,,,fragaria spp_rheumatic gout,,,taraxacum officinale_relieves gastric stress
+22,,,,viscum album,,,achillea millefolium_colds,,,eucalyptus globosus_antiseptic
+23,,,,avena sativa,,,achillea millefolium_hemorrhoids,,,eucalyptus globosus_expectorant
+24,,,,carica papaya,,,eriodictyon californicum_hemorrhoids,,,foeniculum vulgare_carminative
+25,,,,mentha piperita,,,eriodictyon californicum_bronchiolar congestion,,,foeniculum vulgare_laxative
+26,,,,mentha viridis,,,eriodictyon californicum_hay fever,,,trigonella foenugraecum_antidiarrheal
+27,,,,fragaria spp,,,rosa spp_colds,,,panax quinquefolium_aphrodisiac
+28,,,,achillea millefolium,,,elymus repens_cystitis,,,hydrastis canadensis_antiinflamatory
+29,,,,eriodictyon californicum,,,,,,hydrastis canadensis_laxative
+30,,,,sassafras officinale,,,,,,equisetum arvense_diuretic
+31,,,,rosa spp,,,,,,juniperus communis_diuretic
+32,,,,turnera aphrodisiaca,,,,,,juniperus communis_laxative
+33,,,,elymus repens,,,,,,glycyrrhiza glabra_laxative
+34,,,,boletus spp,,,,,,ilex paraguariensis_cns stimulant
+35,,,,angelica,,,,,,viscum album_calmative
+36,,,,eucalyptus,,,,,,viscum album_tonic
+37,,,,datura,,,,,,avena sativa_antispasmodic
+38,,,,sassafras,,,,,,avena sativa_nerve stimulant
+39,,,,,,,,,,carica papaya_protein digestant
+40,,,,,,,,,,mentha piperita_digestive aid
+41,,,,,,,,,,mentha piperita_prevents flatulence/colic
+42,,,,,,,,,,mentha viridis_diuretic
+43,,,,,,,,,,mentha viridis_relieves vomiting
+44,,,,,,,,,,fragaria spp_diuretic
+45,,,,,,,,,,fragaria spp_antidiarrheal
+46,,,,,,,,,,fragaria spp_astringent
+47,,,,,,,,,,achillea millefolium_hair and scalp care
+48,,,,,,,,,,eriodictyon californicum_expectorant
+49,,,,,,,,,,sassafras officinale_antirheumatic
+50,,,,,,,,,,turnera aphrodisiaca_diuretic
+51,,,,,,,,,,turnera aphrodisiaca_aphrodisiac
+52,,,,,,,,,,elymus repens_diuretic
+53,,,,,,,,,,elymus repens_antirheumatic

@@ -1,0 +1,23 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,salix spp,salix spp,de materia medica,,,,digitalis lanata ehrh_cardiac disease,,,salix spp_pain relief
+1,digitalis lanata ehrh,digitalis lanata ehrh,plant,,,,papaver somniferum l_hypertension,,,salix spp_anti-platelet effects
+2,galega officinalis l,galega officinalis l,animal,,,,cinchona officinalis l_malaria,,,galega officinalis l_anti-diabetic
+3,papaver somniferum l,papaver somniferum l,foxglove plant,,,,cinchona officinalis l_fever,,,papaver somniferum l_vasodilator
+4,cinchona officinalis l,cinchona,goat's rue,,,,cinchona officinalis l_infectious disease,,,papaver somniferum l_pain relief
+5,catharanthus roseus l,cinchona officinalis l,opium poppy,,,,catharanthus roseus l_cancer,,,cinchona officinalis l_anti-malarial
+6,panax quinquefolius l,catharanthus roseus l,madagascar periwinkle,,,,panax ginseng c.a.mey_fatigue,,,rumex rupestris le gall_astringent
+7,panax,panax quinquefolius l,basmati,,,,,,,panax ginseng c.a.mey_male stimulant
+8,rumex rupestris le gall,rumex rupestris le gall,sukvinder kaur,,,,,,,panax ginseng c.a.mey_enhancement of mental and physical performance
+9,saxifraga hirculus l,saxifraga hirculus l,species,,,,,,,
+10,panax ginseng c.a.mey,panax,plant species,,,,,,,
+11,jatropha podagrica hook,jatropha podagrica hook,american ginseng,,,,,,,
+12,codonopsis pilosula nannf,panax ginseng c.a.mey,shore dock,,,,,,,
+13,rumex madaio makino,codonopsis pilosula nannf,marsh saxifrage,,,,,,,
+14,talinum paniculatum (jacq.) gaertn,rumex madaio makino,sukvinder kaur bhamra,,,,,,,
+15,stephania tetrandra s.moore,talinum paniculatum (jacq.) gaertn,ginseng,,,,,,,
+16,stephania tetrandra,stephania tetrandra s.moore,buddha belly plant,,,,,,,
+17,aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang,aristolochia fangchi y.c.wu,poor mans' ginseng,,,,,,,
+18,aristolochia fangchi,stephania tetrandra,fangchi,,,,,,,
+19,aristolochia,aristolochia fangchi,fangji,,,,,,,
+20,,aristolochia,mu fangchi,,,,,,,
+21,,aristolochia species,mu fangji,,,,,,,

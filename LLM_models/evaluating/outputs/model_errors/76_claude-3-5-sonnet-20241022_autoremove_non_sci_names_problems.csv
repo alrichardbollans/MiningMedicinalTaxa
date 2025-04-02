@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,sechium edule,sechium edule,,pastadendron italica,,solanum melongena_hemorrhoids,,,,
-1,sicana odorifera,sicana odorifera,,solanum macrocarpum,,solanum melongena_cancer,,,,
-2,cucumis melo,cucumis melo,,momordica charantia,,solanum melongena_leprosie,,,,
+0,sechium edule,sechium edule,,pastadendron italica,,solanum melongena_melancholy,,,,
+1,sicana odorifera,sicana odorifera,,solanum macrocarpum,,solanum melongena_leprosy,,,,
+2,cucumis melo,cucumis melo,,momordica charantia,,solanum melongena_cancer,,,,
 3,cucumis,lycopersicon esculentum,,cucurbita moschata,,solanum melongena_insanity,,,,
-4,lycopersicon esculentum,solanum melongena,,zea mays,,solanum melongena_melancholy,,,,
+4,lycopersicon esculentum,solanum melongena,,zea mays,,solanum melongena_hemorrhoids,,,,
 5,solanum melongena,artocarpus altilis,,cucurbita pepo,,solanum melongena_pustules,,,,
 6,artocarpus altilis,artocarpus heterophyllus,,cucumis sativus,,,,,,
 7,artocarpus heterophyllus,artocarpus odoratissima,,cucurbita maxima,,,,,,

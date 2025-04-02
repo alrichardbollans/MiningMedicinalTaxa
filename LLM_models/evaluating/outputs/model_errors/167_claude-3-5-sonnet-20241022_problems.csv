@@ -1,4 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,,,,candida albicans,,,,,,
-1,,,,aspergil-lus brasiliensis,,,,,,
-2,,,,aspergillus brasiliensis,,,,,,
+0,candida albicans,candida albicans atcc 10231,escherichia coli atcc 8739,aspergil-lus brasiliensis,,,,,,
+1,aspergillus brasiliensis,aspergillus brasiliensis atcc 16404,pseudomonas aeruginosa atcc 9027,,,,,,,
+2,,,bacillus spizizenii atcc 6633,,,,,,,
+3,,,staphylococcus aureus atcc 6538,,,,,,,
