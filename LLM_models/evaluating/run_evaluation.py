@@ -244,7 +244,7 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
     return out_df, all_approxMedCondtrue_positives_in_model_annotations
 
 
-def basic_plot_results(file_to_plot, out_dir, model_name):
+def basic_plot_results(file_to_plot, out_dir, model_name, measures=None, tag=None):
     import matplotlib.pyplot as plt
     import seaborn as sns
 
@@ -254,10 +254,24 @@ def basic_plot_results(file_to_plot, out_dir, model_name):
         rename_dict[c] = c.replace('NER', 'SNER').replace('Precise', 'Exact').replace('Approx.', 'Relaxed')
     out_df.rename(columns=rename_dict, inplace=True)
 
-    sns.heatmap(out_df, annot=True, cmap='inferno')
+    if measures is not None:
+        out_df = out_df[measures]
+    if tag is None:
+        tag = ''
+
+    np_df = out_df.to_numpy().reshape(-1)
+    data_min = np_df.min()
+    data_max = np_df.max()
+
+    global_min = 0.18
+    global_max = 0.98
+
+    if data_min < global_min or data_max > global_max:
+        raise ValueError
+    sns.heatmap(out_df, annot=True, cmap='inferno', vmin=global_min, vmax=global_max)
     plt.xticks(rotation=45, ha='right', rotation_mode='anchor')
     plt.tight_layout()
-    plt.savefig(os.path.join(out_dir, model_name + '_results.png'), dpi=300)
+    plt.savefig(os.path.join(out_dir, model_name + tag + '_results.png'), dpi=300)
     plt.close()
 
 
@@ -341,6 +355,7 @@ def main():
     # assessing_hparams(rerun=False)
     full_evaluation(rerun=False)
     # full_eval_gnfinder(rerun=False)
+
 
 if __name__ == '__main__':
     # _get_chunks_to_tweak_with()
