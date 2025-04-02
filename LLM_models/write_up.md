@@ -39,8 +39,12 @@ For evaluation (approx 9 papers), these were the following incurred costs:
 
 Note that these are only approximate and extra costs may have been incurred from retrying chunks by splitting multiple times.
 
-For finetuning gpt4o - $?
-
-Evaluation of gpt4o_FT - $?
+For finetuning gpt4o - $ 12.06?
+("hyperparameters": {
+    "n_epochs": 4,
+    "batch_size": 1,
+    "learning_rate_multiplier": 2
+  }:)
+Evaluation of gpt4o_FT - $5.33?
 
 104 is a big chunk!

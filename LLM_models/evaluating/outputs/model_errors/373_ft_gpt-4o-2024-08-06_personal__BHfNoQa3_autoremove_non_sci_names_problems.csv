@@ -1,0 +1,19 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,vaccinium myrtillus l,vaccinium myrtillus l,thymus serpyllum l,thymusserpylluml,,,schisandra chinensis(turcz.) bail_exhaustion,,thymus serpyllum l_expectorant,thymusserpylluml_expectorant
+1,viburnum opulus l,viburnum opulus l,tilia cordata mill,tiliacordatamill,,,,,tilia cordata mill_diaphoretic,tiliacordatamill_diaphoretic
+2,capsella bursa-pastoris (l.) medik,capsella bursa-pastoris (l.) medik,tussilago farfara l,t.platyphyllosscop,,,,,tussilago farfara l_expectorant,tiliacordatamill_sudorific
+3,cyanus segetum hill,cyanus segetum hill,urtica dioica l,tussilagofarfaral,,,,,urtica dioica l_haemostatic,t.platyphyllosscop_diaphoretic
+4,centaurea cyanus l,centaurea cyanus l,vaccinium vitis-idaea l,urticadioical,,,,,vaccinium myrtillus l_astringent,t.platyphyllosscop_sudorific
+5,plantago major l,plantago major l,valeriana officinalis l,vacciniummyrtillusl,,,,,vaccinium vitis-idaea l_diuretic,tussilagofarfaral_expectorant
+6,urtica dioical,urtica dioical,viola tricolor l,vacciniumvitis-idaeal,,,,,valeriana officinalis l_sedative,urticadioical_haemostatic
+7,aralia,aralia elata (miq.) seem,crataegus spp,valerianaofficinalisl,,,,,viburnum opulus l_hemostatic,vacciniummyrtillusl_astringent
+8,rosa spp,rosa spp,schisandra chinensis (turcz.) bail,viburnumopulusl,,,,,viburnum opulus l_diaphoretic,vacciniumvitis-idaeal_diuretic
+9,prunus padus l,prunus padus l,tanacetum vulgare l,violatricolorl,,,,,viburnum opulus l_anti-inflammatory,valerianaofficinalisl_sedative
+10,sorbus aucuparia l,sorbus aucuparia l,camellia sinensis (l.) kuntze,v.arvensismurray,,,,,viola tricolor l_expectorant,viburnumopulusl_hemostatic
+11,achillea millefolium l,achillea millefolium l,,aralia elata (miq.)seem,,,,,,violatricolorl_expectorant
+12,origanum vulgare l,origanum vulgare l,,schisandra chinensis(turcz.) bail,,,,,,v.arvensismurray_expectorant
+13,betula pendula roth,betula pendula roth,,crataegusspp,,,,,,aralia elata (miq.)seem_tonic
+14,b. pubescens ehrh,b. pubescens ehrh,,tanacetum vulgarel,,,,,,aralia_tonic
+15,,,,camelliasinensis (l.) kuntze,,,,,,schisandra chinensis(turcz.) bail_tonic
+16,,,,,,,,,,schisandra chinensis(turcz.) bail_night vision
+17,,,,,,,,,,"schisandra chinensis(turcz.) bail_reduce hunger, thirst"

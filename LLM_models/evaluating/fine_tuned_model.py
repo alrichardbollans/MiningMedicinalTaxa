@@ -21,7 +21,7 @@ def get_fine_tuned_model():
     # Max tokens 128k
     # Input: $3.750 /1M tokens
     # Output $15.00 /1M tokens
-    model1 = ChatOpenAI(model="ft:gpt-4o-2024-08-06:personal::Acwijdma", **hparams)
+    model1 = ChatOpenAI(model="ft:gpt-4o-2024-08-06:personal::BHfNoQa3", **hparams)
     out['gpt4o_FT'] = [model1, get_input_size_limit(128)]
     return out
 
@@ -54,7 +54,6 @@ def full_evaluation(rerun: bool = True):
                                    autoremove_non_sci_names=True)
 
 if __name__ == '__main__':
-    df_for_hparam_tuning = pd.read_csv(os.path.join('outputs', 'for_hparam_tuning.csv'))
+    # df_for_hparam_tuning = pd.read_csv(os.path.join('outputs', 'for_hparam_tuning.csv'))
     # assessing_hparams()
     full_evaluation(rerun=False)
-    # main()

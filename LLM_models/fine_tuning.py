@@ -195,13 +195,12 @@ def finetune_model():
     )
 
 
-def check_jobs():
+def check_jobs(job_id):
     from openai import OpenAI
     client = OpenAI()
 
     # List 10 fine-tuning jobs
     print(client.fine_tuning.jobs.list(limit=10))
-    job_id = "ftjob-5LFmDazZTCselWl0K96Ofk0z"
     api_key = os.getenv('OPENAI_API_KEY')
     return_code = subprocess.call(f'curl https://api.openai.com/v1/fine_tuning/jobs/{job_id} -H "Authorization: Bearer {api_key}"', shell=True)
 
@@ -224,13 +223,13 @@ def check_jobs():
 def main():
     # run_example()
     # get_finetuning_data()
-    # # Load the dataset
+    # # # Load the dataset
     # with open(fine_tuning_data_file, 'r', encoding='utf-8') as f:
     #     dataset = [json.loads(line) for line in f]
     #     check_data_format_errors(dataset)
     #
     # finetune_model()
-    check_jobs()
+    check_jobs("ftjob-1gIVvOZRaMdsU6Z8QRJQk3vM")
 
 
 if __name__ == '__main__':

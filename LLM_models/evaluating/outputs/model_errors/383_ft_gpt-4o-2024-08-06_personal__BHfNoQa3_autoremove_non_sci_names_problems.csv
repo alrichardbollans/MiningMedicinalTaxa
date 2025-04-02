@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,citrullus colocynth,citrullus colocynth,,,citrullus colocynth_diabetes,,citrullus colocynth_breast cancer,,,citrullus colocynth_anti-cancer
+1,citrullus colocynthis,citrullus colocynthis,,,,,citrullus colocynth_cervical cancer,,,citrullus colocynth_anti-metastatic
+2,,,,,,,,,,citrullus colocynth_anticancerpotential presumably by promoting apoptosis
+3,,,,,,,,,,citrullus colocynth_induction of cell apoptosis
+4,,,,,,,,,,citrullus colocynth_reduction of emt
+5,,,,,,,,,,citrullus colocynth_prevention of cellmigration
+6,,,,,,,,,,citrullus colocynth_block emt
+7,,,,,,,,,,citrullus colocynth_prevention of cellproliferation
+8,,,,,,,,,,citrullus colocynth_inhibition of cancer stemnessproperty in breast cancer cells

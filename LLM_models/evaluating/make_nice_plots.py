@@ -31,8 +31,8 @@ def melt_all_results(metric, models, _measures):
                 'llama-v3p1-405b-instruct_results.csv': 'Llama',
                 'en_ner_eco_biobert_autoremove_non_sci_names_results.csv': 'TaxoNERD_NS',
                 'en_ner_eco_biobert_results.csv': 'TaxoNERD',
-                'ft_gpt-4o-2024-08-06_personal__Acwijdma_results.csv': 'FTGPT',
-                'ft_gpt-4o-2024-08-06_personal__Acwijdma_autoremove_non_sci_names_results.csv': 'FTGPT_NS'}
+                'ft_gpt-4o-2024-08-06_personal__BHfNoQa3_results.csv': 'FTGPT',
+                'ft_gpt-4o-2024-08-06_personal__BHfNoQa3_autoremove_non_sci_names_results.csv': 'FTGPT_NS'}
     fileNames = os.listdir(os.path.join('outputs', 'full_eval'))
     all_results = pd.DataFrame()
     for f in fileNames:
@@ -107,7 +107,7 @@ def for_full_eval(models, _measures, file_tag: str, inc_legend: bool = True):
         all_results.to_csv(os.path.join(os.path.join('outputs', 'full_eval', 'compiled_results', f'{file_tag}_{metric}_results.csv')))
 def plots():
     # basic_plot_results(os.path.join('outputs', 'full_eval', 'gpt-4o_results.csv'), os.path.join('outputs', 'full_eval'), 'gpt-4o')
-    # basic_plot_results(os.path.join('outputs', 'full_eval', 'ft_gpt-4o-2024-08-06_personal__Acwijdma_results.csv'), os.path.join('outputs', 'full_eval'), 'ft_gpt-4o-2024-08-06_personal__Acwijdma')
+    # basic_plot_results(os.path.join('outputs', 'full_eval', 'ft:gpt-4o-2024-08-06:personal::BHfNoQa3_results.csv'), os.path.join('outputs', 'full_eval'), 'ft_gpt-4o-2024-08-06_personal__Acwijdma')
 
     collect_main_results()
 

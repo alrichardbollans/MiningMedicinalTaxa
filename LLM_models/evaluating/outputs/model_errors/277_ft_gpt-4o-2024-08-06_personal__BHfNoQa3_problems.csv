@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,camellia sinensis,camellia sinensis,hyperici herba,saturejamontana l,,,,,,camellia sinensis_prevention of some of the chronic diseases
+1,satureja montana l,satureja montana l,tiliae flos,,,,,,,
+2,s. montana,s. montana,urticae folium,,,,,,,
+3,s. montana subsp. pisidica(wettst,s. montana subsp. montana,,,,,,,,
+4,s. montana subsp. montana,s. montana subsp. pisidica (wettst.) silic,,,,,,,,

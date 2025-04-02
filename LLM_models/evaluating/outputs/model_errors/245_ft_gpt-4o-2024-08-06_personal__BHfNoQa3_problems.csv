@@ -1,0 +1,27 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,shorea roxburghii,shorea roxburghii,,rauwolfia,shorea roxburghii_type 2 diabetes mellitus,,cladosporium_acute myeloid leukemia,shorea roxburghii_antidiabetic,,calluna vulgaris (l.) hull_skin-protective
+1,s. roxburghii,s. roxburghii,,a. coriria,shorea roxburghii_dysentery,,rauwolfia_acute myeloid leukemia,shorea roxburghii_hypoglycemic,,c. vulgaris_antiradical
+2,dacrycarpus imbricatus,dacrycarpus imbricatus,,,shorea roxburghii_cholera,,,,,c. vulgaris_moderate antimicrobial
+3,pinus dalatensis ferre,pinus dalatensis ferre,,,shorea roxburghii_diarrhea,,,,,c. vulgaris_antioxidant
+4,oldenlandia pinifolia,oldenlandia pinifolia,,,,,,,,c. vulgaris_skin anti-aging and protection
+5,ficus hirta,ficus hirta,,,,,,,,cladosporium_anti-microbial
+6,cladosporium,cladosporium spp,,,,,,,,cladosporium_anti-tumor
+7,cladosporium spp,acer truncatum,,,,,,,,
+8,acer truncatum,a. truncatum,,,,,,,,
+9,warbrugia ugandensis sprague,warbrugia ugandensis sprague,,,,,,,,
+10,w. ugandensis,erythrina abyssinica dc,,,,,,,,
+11,erythrina abyssinica dc,cryptolepsis sanguinolenta (lindl.) schltr,,,,,,,,
+12,cryptolepsis sanguinolenta (lindl.) schltr,albizia coriaria oliv,,,,,,,,
+13,c. sanguinolenta,psorospermum febrifugium spach,,,,,,,,
+14,albizia coriaria oliv,gymnosporia senegalensis (lam.) loes,,,,,,,,
+15,psorospermum febrifugium spach,zanthoxylum chalybeum engl,,,,,,,,
+16,p. febrifugium,securidaca longipendunculata fresen,,,,,,,,
+17,gymnosporia senegalensis (lam.) loes,acacia hockii de wild,,,,,,,,
+18,zanthoxylum chalybeum engl,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc,,,,,,,,
+19,securidaca longipendunculata fresen,bridelia micrantha (hochst.) baill,,,,,,,,
+20,s. longipendunculata,c. sanguinolenta,,,,,,,,
+21,acacia hockii de wild,p. febrifugium,,,,,,,,
+22,gardenia ternifolia subsp. jovis-tonantis (welw.) verdc,s. longipendunculata,,,,,,,,
+23,bridelia micrantha (hochst.) baill,calluna vulgaris (l.) hull,,,,,,,,
+24,calluna vulgaris (l.) hull,c. vulgaris,,,,,,,,
+25,c. vulgaris,,,,,,,,,
