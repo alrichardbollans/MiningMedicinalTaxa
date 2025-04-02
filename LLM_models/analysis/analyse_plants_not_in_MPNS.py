@@ -23,7 +23,7 @@ def get_tp_fn_from_annotated_test_data():
     ner_true_positives = []
     med_eff_true_positives = []
     for f in fileNames:
-        if f.endswith("ft:gpt-4o-2024-08-06:personal::BHfNoQa3_problems.csv"):
+        if f.endswith("ft_gpt-4o-2024-08-06_personal__BHfNoQa3_problems.csv"):
             if any(f.startswith(f'{str(t)}_') for t in test['id'].unique().tolist()):
                 model_results = pd.read_csv(os.path.join('..', 'evaluating', 'outputs', 'model_errors', f), index_col=0)
                 medcond_true_positives += model_results['MedCond_tp'].dropna().tolist()
@@ -93,5 +93,5 @@ def main():
 
 if __name__ == '__main__':
     # get_mpns_df()
-    get_tp_fn_from_annotated_test_data()
-    # main()
+    # get_tp_fn_from_annotated_test_data()
+    main()
