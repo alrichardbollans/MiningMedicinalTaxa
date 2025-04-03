@@ -26,7 +26,7 @@ def resolve_list_to_clean_fungi_df(name_list):
 
 
 def your_function():
-    true_positives, false_negatives = get_tp_fn_from_annotated_test_data()
+    true_positives, false_negatives, tp_med_eff = get_tp_fn_from_annotated_test_data()
 
     tp_fungi = resolve_list_to_clean_fungi_df(true_positives)
 
@@ -47,6 +47,13 @@ def your_function():
     with open(os.path.join('outputs', 'mpns_analysis', 'fungi', 'all_fungi_in_data.csv'),
               'w') as f:
         for line in all_fungi:
+            f.write(f"{line}\n")
+
+    tp_med_eff_fungi = resolve_list_to_clean_fungi_df(tp_med_eff)
+
+    with open(os.path.join('outputs', 'mpns_analysis', 'fungi', 'tp_med_eff_fungi.csv'),
+              'w') as f:
+        for line in tp_med_eff_fungi:
             f.write(f"{line}\n")
 
 
