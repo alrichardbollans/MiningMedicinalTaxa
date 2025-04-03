@@ -44,12 +44,12 @@ def get_tp_fn_from_annotated_test_data():
     out_df = pd.DataFrame([[len(tp_names), len(tp_names_with_medcond), len(fn_names_with_medcond), len(tp_med_eff)]],
                           columns=['NER TP', 'Med Cond TP', 'Med Cond FN', 'Med Eff TP'])
     out_df.to_csv(os.path.join('outputs', 'mpns_analysis', 'summary.csv'))
-    return tp_names_with_medcond, fn_names_with_medcond
+    return tp_names_with_medcond, fn_names_with_medcond, tp_med_eff
 
 
 def main():
     out_folder = os.path.join('outputs', 'mpns_analysis', 'vascular plants')
-    true_positives, false_negatives = get_tp_fn_from_annotated_test_data()
+    true_positives, false_negatives, tp_med_eff = get_tp_fn_from_annotated_test_data()
 
     ## Resolve to species
     def resolve_list_to_clean_df(name_list):
@@ -66,6 +66,14 @@ def main():
 
     plot_native_number_accepted_taxa_in_regions(tp_acc_name_df, 'accepted_species', os.path.join(out_folder),
                                                 'tp_accepted_species_with_medCond.jpg', wcvp_version=_WCVP_VERSION, colormap='inferno')
+
+    tp_med_eff_acc_name_df = resolve_list_to_clean_df(tp_med_eff)
+    tp_med_eff_acc_name_df.to_csv(os.path.join(out_folder, 'tp_accepted_species_with_medEff.csv'))
+    tp_med_eff_acc_name_df.describe(include='all').to_csv(
+        os.path.join(out_folder, 'tp_accepted_species_with_medEff_summary.csv'))
+
+    plot_native_number_accepted_taxa_in_regions(tp_med_eff_acc_name_df, 'accepted_species', os.path.join(out_folder),
+                                                'tp_accepted_species_with_medEff.jpg', wcvp_version=_WCVP_VERSION, colormap='inferno')
 
     fn_match_acc_name_df = resolve_list_to_clean_df(false_negatives)
     fn_match_acc_name_df.to_csv(os.path.join(out_folder, 'fn_accepted_species_with_medCond.csv'))

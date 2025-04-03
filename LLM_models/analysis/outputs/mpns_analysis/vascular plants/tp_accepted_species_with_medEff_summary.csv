@@ -1,0 +1,5 @@
+,name,accepted_ipni_id,accepted_name,accepted_name_w_author,accepted_family,accepted_rank,accepted_species,accepted_species_w_author,accepted_species_ipni_id,accepted_parent,plant_name_id,taxon_status,matched_by,matched_name
+count,122,121,122,122,122,122,122,122,121,122,122,122,122,122
+unique,122,121,122,122,50,3,122,122,121,95,122,2,6,122
+top,papaver hybridum l,106944-1,Roemeria sicula,"Roemeria sicula (Guss.) Galasso, Banfi, L.Sáez & Bartolucci",Berberidaceae,Species,Roemeria sicula,"Roemeria sicula (Guss.) Galasso, Banfi, L.Sáez & Bartolucci",106944-1,Berberis,2560734,Accepted,direct_wcvp_unique,Papaver hybridum L.
+freq,1,1,1,1,21,113,1,1,1,17,1,103,48,1
