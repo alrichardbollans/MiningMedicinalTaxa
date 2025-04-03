@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,carlina acaulis,carlina acaulis,plantago major,anacardium occidentale,,carlina acaulis_evil enchantments,,,carlina acaulis_apotropaic,
-1,cnicus benedictus,cnicus benedictus,archangelica officinalis,asa foetida,,,,,carlina acaulis_love magic,
-2,pimpinella saxifraga,pimpinella saxifraga,,styrax,,,,,,
-3,,,,plantagomajor,,,,,,
-4,,,,archangelicaofficinalis,,,,,,
+0,carlina acaulis,carlina acaulis,,anacardium occidentale,,carlina acaulis_evil enchantments,,,carlina acaulis_apotropaic,
+1,plantagomajor,plantago major,,asa foetida,,,,,carlina acaulis_love magic,
+2,cnicus benedictus,cnicus benedictus,,styrax,,,,,,
+3,archangelicaofficinalis,archangelica officinalis,,,,,,,,
+4,pimpinella saxifraga,pimpinella saxifraga,,,,,,,,

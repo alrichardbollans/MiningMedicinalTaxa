@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,gaultheria procumbens,gaultheria procumbens,hedeoma pulgioides,calophyllum inophyllum,,aesculus hippocastanum_cardiovascular,calophyllum inophyllum_skin disease,cassia fistula_laxative,gaultheria procumbens_methyl salicylate,aesculus hippocastanum_cardiovascular
-1,kalmia latifolia,kalmia latifolia,,diospyros kaki,,astragalus membranaceus_immune system,calophyllum inophyllum_neuralgia,,,
+0,gaultheria procumbens,gaultheria procumbens,hedeoma pulgioides,calophyllum inophyllum,,aesculus hippocastanum_cardiovascular,calophyllum inophyllum_neuralgia,cassia fistula_laxative,gaultheria procumbens_methyl salicylate,aesculus hippocastanum_cardiovascular
+1,kalmia latifolia,kalmia latifolia,,diospyros kaki,,astragalus membranaceus_immune system,calophyllum inophyllum_skin disease,,,
 2,cnidoscolus chayamansa,cnidoscolus chayamansa,,diospyros marmorata,,,,,,
 3,euphorbia antisyphilitica,euphorbia antisyphilitica,,diospyros mollis,,,,,,
 4,aesculus hippocastanum,aesculus hippocastanum,,diospyros virginiana,,,,,,

@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,h. perforatum,hypericum perforatum,allium hookeri,hypericum spp,hypericum empetrifolium_skin inflammations,hypericum perforatum_skin inflammations,hypericum spp_wound-healing,,hypericum perforatum_antioxidant,hypericum spp_wound-healing
-1,h. empetrifolium,hypericum empetrifolium,rosmarinus officinalis,hypericum l,hypericum empetrifolium_wounds,hypericum perforatum_wounds,h. empetrifolium_wound-healing,,hypericum perforatum_gastroprotective,hypericum spp_wound healing
-2,h. triquetrifolium,hypericum triquetrifolium,vaccinium,,,hypericum triquetrifolium_inflammation,h. amblycalyx_wound-healing,,hypericum perforatum_antimicrobial,hypericum l_antioxidant
+0,h. perforatum,hypericum perforatum,allium hookeri,hypericum spp,hypericum empetrifolium_skin inflammations,hypericum perforatum_skin inflammations,hypericum spp_wound-healing,,hypericum perforatum_antioxidant,hypericum spp_wound healing
+1,h. empetrifolium,hypericum empetrifolium,rosmarinus officinalis,hypericum l,hypericum empetrifolium_wounds,hypericum perforatum_wounds,h. empetrifolium_wound-healing,,hypericum perforatum_gastroprotective,hypericum spp_wound-healing
+2,h. triquetrifolium,hypericum triquetrifolium,vaccinium,,,hypericum triquetrifolium_inflammation,h. amblycalyx_wound-healing,,hypericum perforatum_antimicrobial,hypericum l_antiangiogenetic
 3,h. amblycalyx,hypericum amblycalyx,vitis,,,hypericum triquetrifolium_wounds,h. jovis_wound-healing,,hypericum perforatum_antiangiogenetic,hypericum l_gastroprotective
-4,h. jovis,hypericum jovis,,,,allium hookeri_type 2 diabetes,h. perforatum_wound-healing,,rosmarinus officinalis_antioxidant,hypericum l_antiangiogenetic
+4,h. jovis,hypericum jovis,,,,allium hookeri_type 2 diabetes,h. perforatum_wound-healing,,rosmarinus officinalis_antioxidant,hypericum l_antioxidant
 5,laurus nobilis l,laurus nobilis,,,,,h. triquetrifolium_wound-healing,,rosmarinus officinalis_anti-inflammatory,h. empetrifolium_wound healing
 6,,,,,,,,,rosmarinus officinalis_neuroprotective,
 7,,,,,,,,,vaccinium_antioxidant,

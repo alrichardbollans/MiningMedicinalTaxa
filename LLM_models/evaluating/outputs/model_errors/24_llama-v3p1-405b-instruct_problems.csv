@@ -1,11 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,aloe vera,aloe vera,zingiber officinale,eucalyptus,aloe vera_diabetes,trigonella foenum-graecum l_diabetes,aloe vera_burns,aloe vera_anti-inflammatory,trigonella foenum-graecum l_anti-inflammatory,aloe vera_immune boosting effects
-1,momordica charantia l,momordica charantia l,,,aloe vera_arthritis,trigonella foenum-graecum l_arthritis,aloe vera_tooth aches,aloe vera_wound healing,viola odorata l_anti-bacterial,momordica charantia l_improve insulin secretion
-2,trigonella foenum-graecum l,trigonella foenum-graecum l,,,aloe vera_skin conditions,zingiber officinale_indigestion,aloe vera_stomach and duodenal ulcers,momordica charantia l_hypoglycaemic,viola odorata l_antioxidant,momordica charantia l_glucose absorption
-3,viola odorata l,viola odorata l,,,momordica charantia l_diabetes,zingiber officinale_cough,aloe vera_skin irritation,trigonella foenum-graecum l_anti-diabetic,viola odorata l_anti-inflammatory,momordica charantia l_increase glucose uptake in liver cells
-4,,,,,viola odorata l_fever,zingiber officinale_arthritis,aloe vera_irritable bowel syndrome,,zingiber officinale_anti-bacterial,trigonella foenum-graecum l_reduce bg levels
-5,,,,,viola odorata l_cough,,aloe vera_itchy skin,,zingiber officinale_antioxidant,trigonella foenum-graecum l_improving insulin response in diabetics
+0,aloe vera,aloe vera,zingiber officinale,eucalyptus,aloe vera_diabetes,trigonella foenum-graecum l_diabetes,aloe vera_skin irritation,aloe vera_anti-inflammatory,trigonella foenum-graecum l_anti-inflammatory,aloe vera_immune boosting effects
+1,momordica charantia l,momordica charantia l,,,aloe vera_arthritis,trigonella foenum-graecum l_arthritis,aloe vera_tooth aches,aloe vera_wound healing,viola odorata l_anti-bacterial,momordica charantia l_glucose absorption
+2,trigonella foenum-graecum l,trigonella foenum-graecum l,,,aloe vera_skin conditions,zingiber officinale_indigestion,aloe vera_itchy skin,momordica charantia l_hypoglycaemic,viola odorata l_antioxidant,momordica charantia l_improve insulin secretion
+3,viola odorata l,viola odorata l,,,momordica charantia l_diabetes,zingiber officinale_cough,aloe vera_irritable bowel syndrome,trigonella foenum-graecum l_anti-diabetic,viola odorata l_anti-inflammatory,momordica charantia l_increase glucose uptake in liver cells
+4,,,,,viola odorata l_fever,zingiber officinale_arthritis,aloe vera_eczema,,zingiber officinale_anti-bacterial,trigonella foenum-graecum l_reduce bg levels
+5,,,,,viola odorata l_cough,,aloe vera_stomach and duodenal ulcers,,zingiber officinale_antioxidant,trigonella foenum-graecum l_improving insulin response in diabetics
 6,,,,,viola odorata l_headache,,aloe vera_mouth ulcers,,zingiber officinale_anti-inflammatory,
-7,,,,,viola odorata l_catarrh,,aloe vera_eczema,,,
-8,,,,,viola odorata l_pain,,viola odorata l_coughs,,,
-9,,,,,,,viola odorata l_colds,,,
+7,,,,,viola odorata l_catarrh,,aloe vera_burns,,,
+8,,,,,viola odorata l_pain,,viola odorata l_colds,,,
+9,,,,,,,viola odorata l_coughs,,,

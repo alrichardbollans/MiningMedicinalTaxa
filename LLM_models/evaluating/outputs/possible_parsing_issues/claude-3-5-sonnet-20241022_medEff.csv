@@ -1,0 +1,26 @@
+,ground truth,model output
+0,camellia sinensis_heartstimulant,camellia sinensis_stimulant
+1,taxus hrevifolia_antineoplastic,taxus brevifolia_antineoplastic
+2,valeriana officinalis_tranquilizer,valeriana officinalis_tranquilizing
+3,mandragora officinarum_aphrodisiacs,mandragora officinarum_aphrodisiac
+4,atropa belladonna_dilate the pupils,atropa belladonna_dilates pupils
+5,atropa belladonna_stimulate the sympathetic nervoussystem,atropa belladonna_stimulates sympathetic nervous system
+6,coptis chinensis franch_locallyanaesthetic,coptis chinensis franch_anaesthetic
+7,ajuga laxmanniiin_anti-inflammatory,ajuga laxmannii_anti-inflammatory
+8,chamaecrista moench_laxatives,chamaecrista moench_laxative
+9,senna mill_laxatives,senna mill_laxative
+10,cassia l_laxatives,cassia l_laxative
+11,boswellia serrate roxb. ex colebr_anti-inflammatory,boswellia serrata roxb. ex colebr_anti-inflammatory
+12,angelica archangelica_diuresis,angelica archangelica_diuretic
+13,hydrastis canadensis_antiinflamatory,hydrastis canadensis_antiinflammatory
+14,berheris fremontii_anti-microbial,berberis fremontii_antimicrobial
+15,viburnumopulusl_hemostatic,viburnum opulus l_haemostatic
+16,lavandulaangustifolia_antidepressant-like,lavandula angustifolia_antidepressant
+17,streptomyces sp. ca-129531_tyrosinase inhibitors,streptomyces sp. ca-129531_tyrosinase inhibitory
+18,syringa vulgaris l_pro-inflammatory,syringa vulgaris l_anti-inflammatory
+19,cantharellus cibarius_cytotoxicity,cantharellus cibarius_cytotoxic
+20,cantharellus cinereus_cytotoxicity,cantharellus cinereus_cytotoxic
+21,craterellus cornucopioides_cytotoxicity,craterellus cornucopioides_cytotoxic
+22,hydnum repandum_cytotoxicity,hydnum repandum_cytotoxic
+23,boswellia_anti-infl ammatories,boswellia_anti-inflammatory
+24,cannabis sativa l_anxiolytic-like,cannabis sativa l_anxiolytic

@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,liriodendron tulipifera,liriodendron tulipifera,,terminalia spp,,,,,,
-1,tectona grandis,tectona grandis,,c.elastica,,,,,,
-2,swietenia mahogani,swietenia mahogani,,siphonia brasiliensis,,,,,,
-3,swietenia,dalbergia nigra,,hancornia speciosa,,,,,,
+1,tectona grandis,tectona grandis,,siphonia brasiliensis,,,,,,
+2,swietenia mahogani,swietenia mahogani,,hancornia speciosa,,,,,,
+3,swietenia,dalbergia nigra,,,,,,,,
 4,dalbergia,diospyros spp,,,,,,,,
 5,d. nigra,terminalia superba,,,,,,,,
 6,dalbergia nigra,afzelia spp,,,,,,,,
@@ -164,4 +164,5 @@
 162,microberlinia brazzivillensis,,,,,,,,,
 163,quercus suber,,,,,,,,,
 164,castilla,,,,,,,,,
-165,ipomoea alba,,,,,,,,,
+165,c.elastica,,,,,,,,,
+166,ipomoea alba,,,,,,,,,

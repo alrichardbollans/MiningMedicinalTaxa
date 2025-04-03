@@ -1,5 +1,5 @@
 ,name,accepted_ipni_id,accepted_name,accepted_name_w_author,accepted_family,accepted_rank,accepted_species,accepted_species_w_author,accepted_species_ipni_id,accepted_parent,plant_name_id,taxon_status,matched_by,matched_name
-count,214,213,214,214,214,214,214,214,213,214,214,214,214,214
-unique,214,213,214,214,65,3,214,214,213,165,214,3,6,214
-top,berberis oblonga (regel) c. k.schneid,106944-1,Berberis oblonga,Berberis oblonga (Regel) C.K.Schneid.,Berberidaceae,Species,Berberis oblonga,Berberis oblonga (Regel) C.K.Schneid.,106944-1,Berberis,2674217,Accepted,direct_wcvp_unique,Berberis oblonga (Regel) C.K.Schneid.
-freq,1,1,1,1,23,207,1,1,1,19,1,188,120,1
+count,217,216,217,217,217,217,217,217,216,217,217,217,217,217
+unique,217,216,217,217,66,3,217,217,216,167,217,3,6,217
+top,berberis tinctoria lesch,107137-1,Berberis tinctoria,Berberis tinctoria Lesch.,Berberidaceae,Species,Berberis tinctoria,Berberis tinctoria Lesch.,107137-1,Berberis,2674529,Accepted,direct_wcvp_unique,Berberis tinctoria Lesch.
+freq,1,1,1,1,23,211,1,1,1,19,1,192,118,1

@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,areca catechu,areca catechu,pausinystalia yohimbe,sanguinaria canadensis,,serenoa repens_prostate,,harpagophytum procumbens_anti-inflammatory,areca catechu_psychoactive,sanguinaria canadensis_expectorant
-1,daemonorops spp,daemonorops spp,,plantago afra,,polygala senega_snakebite,,harpagophytum procumbens_analgesic,pausinystalia yohimbe_aphrodisiatic,sanguinaria canadensis_emetic
+0,areca catechu,areca catechu,pausinystalia yohimbe,sanguinaria canadensis,,serenoa repens_prostate,,harpagophytum procumbens_anti-inflammatory,areca catechu_psychoactive,sanguinaria canadensis_emetic
+1,daemonorops spp,daemonorops spp,,plantago afra,,polygala senega_snakebite,,harpagophytum procumbens_analgesic,pausinystalia yohimbe_aphrodisiatic,sanguinaria canadensis_expectorant
 2,serenoa repens,serenoa repens,,rhamnus cathartica,,prunus africana_bph,,psychotria ipecacuanha_induce vomiting,quassia cedron_vermifuge,plantago afra_laxative
 3,harpagophytum procumbens,harpagophytum procumbens,,rhamnus purshiana,,brunfelsia uniflora_syphilis,,dictamnus albus_uterine stimulant,quassia simarouba_vermifuge,rhamnus cathartica_laxative
 4,polygala senega,polygala senega,,angraecum fragrans,,,,quassia amara_vermifuge,,rhamnus purshiana_laxative

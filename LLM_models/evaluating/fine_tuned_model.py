@@ -1,6 +1,7 @@
 import os
 
 import pandas as pd
+from pydantic import BaseModel
 
 from LLM_models.evaluating.run_evaluation import assess_model_on_chunk_list
 from LLM_models.running_models import get_input_size_limit
@@ -41,8 +42,16 @@ def assessing_hparams(rerun: bool = True):
 
 
 def full_evaluation(rerun: bool = True):
+    if rerun:
+        all_models = get_fine_tuned_model()
+    else:
+        class Mplaceholder(BaseModel):
+            """Extracted data about taxa."""
 
-    all_models = get_fine_tuned_model()
+            # Creates a model so that we can extract multiple entities.
+            model_name: str
+
+        all_models = {'gpt4o_FT': [Mplaceholder(model_name='ft_gpt-4o-2024-08-06_personal__BHfNoQa3'), None]}
     test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
     for m in all_models:
         print(m)

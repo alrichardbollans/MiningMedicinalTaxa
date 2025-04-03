@@ -1,41 +1,40 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,pulsatilla patens,pulsatilla patens,picea alba,matricariachamomilla,pulsatilla patens_skin disorders,matricaria chamomilla_osteomyelitis,vinca minor_skindisorders,sedum acre_emetic,,thymus serpyllum_gum strengthening
-1,centaurea cyanus,centaurea cyanus,levisticum officinale,piceaalba,centaurea cyanus_skin disorders,picea alba_osteomyelitis,vinca minor_cataracts,sedum acre_relaxant,,thymus serpyllum_destroy thescurvy impurities
-2,ruta graveolens,ruta graveolens,stachys palustris,pulsatillavulgaris,ruta graveolens_skin disorders,pulsatilla vulgaris_polish plait,matricariachamomilla_osteomyelitis,sorbus arranensis_antimicrobial,,thymus serpyllum_wound healing
-3,vinca minor,vinca minor,pulsatilla vulgaris,schoenusnigricans,vinca minor_skin disorders,sedum maximum_ulcers,populus tremula_skindisorders,,,sedum maximum_ulcers
-4,sorbus aucuparia,sorbus aucuparia,schoenus nigricans,plantagomaior,thymus serpyllum_osteomyelitis,carlina acaulis_kidney disease,piceaalba_osteomyelitis,,,sedum_wound healing
-5,daphne mezereum,daphne mezereum,plantago major,senna alexandrina,silybum marianum_osteomyelitis,,pulsatillavulgaris_polish plait,,,achillea millefolium_wound healing
-6,thymus serpyllum,thymus serpyllum,,castanea sativa,anthemis arvensis_osteomyelitis,,pulsatillavulgaris_plica polonica,,,plantagomaior_wound healing
-7,silybum marianum,silybum marianum,,frangula alnus,artemisia absinthium_osteomyelitis,,gentiana lutea_cholera,,,salvia officinalis_wound healing
-8,anthemis arvensis,anthemis arvensis,,levisticumofficinale,populus tremula_osteomyelitis,,schoenusnigricans_burn wounds,,,
-9,matricaria chamomilla,matricaria chamomilla,,stachyspalustris,allium cepa_abscess,,sedum acre_earache,,,
-10,artemisia absinthium,artemisia absinthium,,allium sativum,picea abies_syphilis,,sedum acre_heel pain,,,
-11,populus tremula,populus tremula,,hypericum perforatum,beta vulgaris_ringworm,,sedum maximum_wounds,,,
-12,papaver rhoeas,papaver rhoeas,,juniperus communis,sedum acre_ulcers,,achillea millefolium_cut wounds,,,
-13,ocimum basilicum,ocimum basilicum,,senna,sedum acre_urinary tract diseases,,achillea millefolium_wounds,,,
-14,alliaria petiolata,alliaria petiolata,,acanthus mollis l,sedum maximum_bruises,,plantagomaior_wounds,,,
-15,symphytum officinale,symphytum officinale,,acer pseudoplatanus l,sedum maximum_edema,,salvia officinalis_wounds,,,
-16,achillea millefolium,achillea millefolium,,aconitum lycoctonum l,carlina acaulis_ulcers,,symphytum officinale_wounds,,,
-17,achillea millefolium l,viscum album,,acorus,carlina acaulis_bladder disease,,,,,
-18,viscum album,gentiana lutea,,acorus calamus l,carlina acaulis_colic,,,,,
-19,gentiana lutea,allium cepa,,napellus,carlina acaulis_stitching pain,,,,,
-20,allium cepa,picea abies,,calamus,,,,,,
-21,allium cepa l,beta vulgaris,,adiantum capillus-veneris l,,,,,,
-22,allium,sedum acre,,agrimonia,,,,,,
-23,picea abies,sedum maximum,,agrimonia eupatoria l,,,,,,
-24,beta vulgaris,carlina acaulis,,agrostemma githago l,,,,,,
-25,sedum acre,viburnum opulus,,allium ampeloprasum l,,,,,,
-26,sedum,sorbus arranensis,,allium sativum l,,,,,,
-27,sedum maximum,tussilago farfara,,althaea,,,,,,
-28,carlina acaulis,salvia officinalis,,althaea officinalis l,,,,,,
-29,viburnum opulus,,,ammi majus l,,,,,,
-30,sorbus arranensis,,,cepa,,,,,,
-31,tussilago farfara,,,anagallis arvensis l,,,,,,
-32,salvia officinalis,,,anchusa azurea p.mill,,,,,,
-33,,,,anchusa,,,,,,
-34,,,,anchusa officinalis l,,,,,,
-35,,,,anethum graveolens l,,,,,,
-36,,,,anethum,,,,,,
-37,,,,anthemis cotula l,,,,,,
-38,,,,anthriscus cerefolium hoff,,,,,,
-39,,,,anthriscus sylvestris hoff,,,,,,
+0,pulsatilla patens,pulsatilla patens,plantago major,plantagomaior,pulsatilla patens_skin disorders,sedum maximum_ulcers,vinca minor_cataracts,sedum acre_emetic,,thymus serpyllum_wound healing
+1,centaurea cyanus,centaurea cyanus,,senna alexandrina,centaurea cyanus_skin disorders,carlina acaulis_kidney disease,populus tremula_skindisorders,sedum acre_relaxant,,thymus serpyllum_gum strengthening
+2,ruta graveolens,ruta graveolens,,castanea sativa,ruta graveolens_skin disorders,,pulsatillavulgaris_plica polonica,sorbus arranensis_antimicrobial,,thymus serpyllum_destroy thescurvy impurities
+3,vinca minor,vinca minor,,frangula alnus,vinca minor_skin disorders,,gentiana lutea_cholera,,,sedum maximum_ulcers
+4,sorbus aucuparia,sorbus aucuparia,,allium sativum,thymus serpyllum_osteomyelitis,,schoenusnigricans_burn wounds,,,sedum_wound healing
+5,daphne mezereum,daphne mezereum,,hypericum perforatum,silybum marianum_osteomyelitis,,sedum acre_heel pain,,,achillea millefolium_wound healing
+6,thymus serpyllum,thymus serpyllum,,juniperus communis,anthemis arvensis_osteomyelitis,,sedum acre_earache,,,plantagomaior_wound healing
+7,silybum marianum,silybum marianum,,senna,matricaria chamomilla_osteomyelitis,,sedum maximum_wounds,,,salvia officinalis_wound healing
+8,anthemis arvensis,anthemis arvensis,,acanthus mollis l,artemisia absinthium_osteomyelitis,,achillea millefolium_wounds,,,
+9,matricariachamomilla,matricaria chamomilla,,acer pseudoplatanus l,picea alba_osteomyelitis,,achillea millefolium_cut wounds,,,
+10,matricaria chamomilla,artemisia absinthium,,aconitum lycoctonum l,populus tremula_osteomyelitis,,plantagomaior_wounds,,,
+11,artemisia absinthium,picea alba,,acorus,allium cepa_abscess,,salvia officinalis_wounds,,,
+12,piceaalba,populus tremula,,acorus calamus l,picea abies_syphilis,,symphytum officinale_wounds,,,
+13,populus tremula,papaver rhoeas,,napellus,beta vulgaris_ringworm,,,,,
+14,papaver rhoeas,levisticum officinale,,calamus,pulsatilla vulgaris_polish plait,,,,,
+15,levisticumofficinale,ocimum basilicum,,adiantum capillus-veneris l,sedum acre_ulcers,,,,,
+16,ocimum basilicum,alliaria petiolata,,agrimonia,sedum acre_urinary tract diseases,,,,,
+17,alliaria petiolata,symphytum officinale,,agrimonia eupatoria l,sedum maximum_bruises,,,,,
+18,symphytum officinale,achillea millefolium,,agrostemma githago l,sedum maximum_edema,,,,,
+19,achillea millefolium,stachys palustris,,allium ampeloprasum l,carlina acaulis_ulcers,,,,,
+20,achillea millefolium l,viscum album,,allium sativum l,carlina acaulis_bladder disease,,,,,
+21,stachyspalustris,gentiana lutea,,althaea,carlina acaulis_colic,,,,,
+22,viscum album,allium cepa,,althaea officinalis l,carlina acaulis_stitching pain,,,,,
+23,gentiana lutea,picea abies,,ammi majus l,,,,,,
+24,allium cepa,beta vulgaris,,cepa,,,,,,
+25,allium cepa l,pulsatilla vulgaris,,anagallis arvensis l,,,,,,
+26,allium,schoenus nigricans,,anchusa azurea p.mill,,,,,,
+27,picea abies,sedum acre,,anchusa,,,,,,
+28,beta vulgaris,sedum maximum,,anchusa officinalis l,,,,,,
+29,pulsatillavulgaris,carlina acaulis,,anethum graveolens l,,,,,,
+30,schoenusnigricans,viburnum opulus,,anethum,,,,,,
+31,sedum acre,sorbus arranensis,,anthemis cotula l,,,,,,
+32,sedum,tussilago farfara,,anthriscus cerefolium hoff,,,,,,
+33,sedum maximum,salvia officinalis,,anthriscus sylvestris hoff,,,,,,
+34,carlina acaulis,,,,,,,,,
+35,viburnum opulus,,,,,,,,,
+36,sorbus arranensis,,,,,,,,,
+37,tussilago farfara,,,,,,,,,
+38,salvia officinalis,,,,,,,,,

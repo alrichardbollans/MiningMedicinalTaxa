@@ -1,24 +1,22 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,citrus aurantium,citrus aurantium,kaempferia pafiflora,psyllium ispaghula,echinacea purpurea_sore throat,citrus aurantium_weight management,psyllium ispaghula_stomach troubles,annona muricata_immunity enhancement,boswellia_anti-inflammatory,boswellia_anti-infl ammatories
-1,echinacea purpurea,echinacea purpurea,zingiber officinale,symphtytum offi cinalis,sabal serrulata_impotence,vaccinium myrtillus_night vision,symphtytum offi cinalis_cuts,angelica archangelica_muscle relaxing,,tagetes erecta_eye health
-2,echinacea,sabal serrulata,polygonum multiflorum,psyllium,sabal serrulata_prostate problems,silybum marianum_liver diseases,symphtytum offi cinalis_bruises,,,symphtytum offi cinalis_muscles
-3,sabal serrulata,boswellia,valeriana officinalis,eucalyptus,boswellia_arthrosis,hypericum perforatum_nappy rash,eucalyptus_sore shoulders,,,symphtytum offi cinalis_joints
+0,citrus aurantium,citrus aurantium,,psyllium ispaghula,echinacea purpurea_sore throat,citrus aurantium_weight management,psyllium ispaghula_stomach troubles,annona muricata_immunity enhancement,boswellia_anti-inflammatory,boswellia_anti-infl ammatories
+1,echinacea purpurea,echinacea purpurea,,symphtytum offi cinalis,sabal serrulata_impotence,vaccinium myrtillus_night vision,symphtytum offi cinalis_cuts,angelica archangelica_muscle relaxing,,tagetes erecta_eye health
+2,echinacea,sabal serrulata,,psyllium,sabal serrulata_prostate problems,silybum marianum_liver diseases,symphtytum offi cinalis_bruises,,,symphtytum offi cinalis_joints
+3,sabal serrulata,boswellia,,eucalyptus,boswellia_arthrosis,hypericum perforatum_nappy rash,eucalyptus_sore shoulders,,,symphtytum offi cinalis_muscles
 4,boswellia,vaccinium myrtillus,,aloe vera,vaccinium myrtillus_eye diseases,hypericum perforatum_anxiety,,,,annona muricata_health enhancement
 5,vaccinium myrtillus,tagetes erecta,,aloe,tagetes erecta_night vision,hypericum perforatum_depression,,,,psyllium_laxative
-6,tagetes erecta,annona muricata,,symphytum offi cinalis,tagetes erecta_eye diseases,arnica montana_nappy rash,,,,eucalyptus_recovery
+6,tagetes erecta,annona muricata,,symphytum offi cinalis,tagetes erecta_eye diseases,arnica montana_nappy rash,,,,eucalyptus_mouth wash
 7,annona muricata,angelica archangelica,,chrysanthemum,crataegus_mild heart conditions,,,,,eucalyptus_fat-free muscle building
-8,angelica archangelica,butea superba,,kaempferia pafi fl ora,crataegus_cardiac weakness,,,,,eucalyptus_mouth wash
-9,butea superba,nelumbo nucifera gaertner,,zingiber offi cinale,,,,,,eucalyptus_antiseptic
-10,nelumbo nucifera gaertner,silybum marianum,,anamitra cocculus w & a,,,,,,citrus aurantium_weight management
-11,silybum marianum,gingko biloba,,piper nigrum,,,,,,
-12,gingko biloba,hypericum perforatum,,polygonum multifl orum,,,,,,
-13,hypericum perforatum,arnica montana,,piper lolot,,,,,,
-14,arnica montana,cimicifuga rasemosa,,glychyrrhiza uralensis,,,,,,
-15,cimicifuga rasemosa,crataegus,,cordyseps,,,,,,
-16,crataegus,,,cordyseps sinensis,,,,,,
-17,,,,cordyceps sinensis,,,,,,
-18,,,,valeriana offi cinalis,,,,,,
-19,,,,eleutherococcus senticosus,,,,,,
-20,,,,acanthopanax senticosus,,,,,,
-21,,,,tinaspora sinensis,,,,,,
-22,,,,senna,,,,,,
+8,angelica archangelica,kaempferia pafiflora,,anamitra cocculus w & a,crataegus_cardiac weakness,,,,,eucalyptus_recovery
+9,kaempferia pafi fl ora,butea superba,,piper nigrum,,,,,,eucalyptus_antiseptic
+10,butea superba,zingiber officinale,,piper lolot,,,,,,citrus aurantium_weight management
+11,zingiber offi cinale,nelumbo nucifera gaertner,,glychyrrhiza uralensis,,,,,,
+12,nelumbo nucifera gaertner,polygonum multiflorum,,cordyseps,,,,,,
+13,polygonum multifl orum,silybum marianum,,cordyseps sinensis,,,,,,
+14,silybum marianum,gingko biloba,,cordyceps sinensis,,,,,,
+15,gingko biloba,valeriana officinalis,,eleutherococcus senticosus,,,,,,
+16,valeriana offi cinalis,hypericum perforatum,,acanthopanax senticosus,,,,,,
+17,hypericum perforatum,arnica montana,,tinaspora sinensis,,,,,,
+18,arnica montana,cimicifuga rasemosa,,senna,,,,,,
+19,cimicifuga rasemosa,crataegus,,,,,,,,
+20,crataegus,,,,,,,,,

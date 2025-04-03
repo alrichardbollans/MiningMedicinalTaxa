@@ -1,24 +1,24 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,hibiscus sabdariffa,hibiscus sabdariffa,,,,,hibiscus sabdariffa_breast,,,physalis angulata l_inhibit the production of inflammatory cytokines
-1,lonicera japonica,lonicera japonica,,,,,hibiscus sabdariffa_skin cancer,,,antrodia salmonea_autophagic or apoptotic cell death
-2,eucommia ulmoides,eucommia ulmoides,,,,,hibiscus sabdariffa_liver,,,antrodia salmonea_autophagic- and apoptotic-cell death
-3,physalis angulata l,physalis angulata l,,,,,lonicera japonica_skin cancer,,,antrodia salmonea_autophagic and apoptotic cell death
-4,antrodia salmonea,antrodia salmonea,,,,,eucommia ulmoides_breast,,,mikania micrantha_inhibit melanin production
-5,mikania micrantha,mikania micrantha,,,,,eucommia ulmoides_skin cancer,,,mikania micrantha_increasing autophagy
-6,cannabis sativa,cannabis sativa,,,,,eucommia ulmoides_liver,,,mikania micrantha_anti-blood cancer
+0,hibiscus sabdariffa,hibiscus sabdariffa,,,,,hibiscus sabdariffa_skin cancer,,,physalis angulata l_inhibit the production of inflammatory cytokines
+1,lonicera japonica,lonicera japonica,,,,,hibiscus sabdariffa_liver,,,antrodia salmonea_autophagic and apoptotic cell death
+2,eucommia ulmoides,eucommia ulmoides,,,,,hibiscus sabdariffa_breast,,,antrodia salmonea_autophagic or apoptotic cell death
+3,physalis angulata l,physalis angulata l,,,,,lonicera japonica_skin cancer,,,antrodia salmonea_autophagic- and apoptotic-cell death
+4,antrodia salmonea,antrodia salmonea,,,,,eucommia ulmoides_skin cancer,,,mikania micrantha_inhibits melanogenesis
+5,mikania micrantha,mikania micrantha,,,,,eucommia ulmoides_liver,,,mikania micrantha_anti-blood cancer
+6,cannabis sativa,cannabis sativa,,,,,eucommia ulmoides_breast,,,mikania micrantha_inhibits melanin production
 7,sideritis cypria,sideritis cypria post,,,,,antrodia salmonea_glioblastoma,,,mikania micrantha_anti-cancer
-8,s. cypria,s. curvidens stapf,,,,,cannabis sativa_pain,,,mikania micrantha_inhibits melanogenesis
-9,sideritis,s. perfoliata l,,,,,cannabis sativa_stress,,,mikania micrantha_anti-inflammatory
-10,s. curvidens stapf,s. cypria,,,,,cannabis sativa_anxiety,,,mikania micrantha_inhibits melanin production
-11,s. perfoliata l,zingiber officinale roscoe,,,,,s. cypria_common cold,,,mikania micrantha_wound healing
-12,zingiber officinale roscoe,zingiber zerumbet smith,,,,,s. cypria_stomach disorders,,,mikania micrantha_prevent free radical diseases
-13,zingiber zerumbet smith,curcuma amada roxb,,,,,s. cypria_headache,,,mikania micrantha_antioxidant
-14,curcuma amada roxb,z. montanum koen,,,,,,,,mikania micrantha_reducing tyrosinase
-15,zingiber montanum koen,,,,,,,,,mikania micrantha_keratinocyte proliferation
+8,s. cypria,s. curvidens stapf,,,,,cannabis sativa_pain,,,mikania micrantha_inhibit melanin production
+9,sideritis,s. perfoliata l,,,,,cannabis sativa_stress,,,mikania micrantha_antioxidant
+10,s. curvidens stapf,s. cypria,,,,,cannabis sativa_anxiety,,,mikania micrantha_anti-inflammatory
+11,s. perfoliata l,zingiber officinale roscoe,,,,,s. cypria_common cold,,,mikania micrantha_keratinocyte proliferation
+12,zingiber officinale roscoe,zingiber zerumbet smith,,,,,s. cypria_stomach disorders,,,mikania micrantha_wound healing
+13,zingiber zerumbet smith,curcuma amada roxb,,,,,s. cypria_headache,,,mikania micrantha_prevent free radical diseases
+14,curcuma amada roxb,z. montanum koen,,,,,,,,mikania micrantha_increasing autophagy
+15,zingiber montanum koen,,,,,,,,,mikania micrantha_reducing tyrosinase
 16,z. montanum koen,,,,,,,,,sideritis cypria_antioxidant
-17,,,,,,,,,,s. cypria_tonic
-18,,,,,,,,,,s. cypria_diaphoretic
-19,,,,,,,,,,s. cypria_antioxidant
-20,,,,,,,,,,zingiber montanum koen_free radical scavenging
-21,,,,,,,,,,zingiber montanum koen_cytotoxicity
-22,,,,,,,,,,zingiber montanum koen_thrombolytic
+17,,,,,,,,,,s. cypria_diaphoretic
+18,,,,,,,,,,s. cypria_antioxidant
+19,,,,,,,,,,s. cypria_tonic
+20,,,,,,,,,,zingiber montanum koen_cytotoxicity
+21,,,,,,,,,,zingiber montanum koen_thrombolytic
+22,,,,,,,,,,zingiber montanum koen_free radical scavenging

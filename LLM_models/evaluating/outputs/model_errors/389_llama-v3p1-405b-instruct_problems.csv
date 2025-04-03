@@ -1,5 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,o. natrix,ononis natrix subsp. hispanica,apigenin,ononis natrix subsp. hispanicasubsp. hispanica,,ononis natrix subsp. hispanica_alzheimer,,ononis natrix subsp. hispanica_enzyme inhibitory,apigenin_moderate inhibitory effect on a-amylase and a-glucosidase,o. natrix_enzymeinhibitory
-1,ononis,,luteolin,,,ononis natrix subsp. hispanica_diabetes mellitus,,ononis natrix subsp. hispanica_antioxidant,apigenin_inhibitory action on ache and bche,ononis natrix subsp. hispanica_anti-diabetic
-2,ononis natrix subsp. hispanica,,quercetin,,,,,ononis natrix subsp. hispanica_anticancer,luteolin_inhibitory effect on tyrosinase,ononis natrix subsp. hispanica_inhibitors of tyrosinase
-3,ononis natrix,,,,,,,ononis natrix subsp. hispanica_antimicrobial,quercetin_inhibitory effect on tyrosinase,ononis natrix subsp. hispanica_anti-tyrosinase
+0,o. natrix,ononis natrix subsp. hispanica,apigenin,ononis natrix subsp. hispanicasubsp. hispanica,,ononis natrix subsp. hispanica_alzheimer,,ononis natrix subsp. hispanica_enzyme inhibitory,apigenin_moderate inhibitory effect on a-amylase and a-glucosidase,ononis natrix subsp. hispanica_anti-tyrosinase
+1,ononis,,luteolin,,,ononis natrix subsp. hispanica_diabetes mellitus,,ononis natrix subsp. hispanica_antioxidant,apigenin_inhibitory action on ache and bche,ononis natrix subsp. hispanica_inhibitors of tyrosinase
+2,ononis natrix subsp. hispanica,,quercetin,,,,,ononis natrix subsp. hispanica_anticancer,luteolin_inhibitory effect on tyrosinase,ononis natrix subsp. hispanica_anti-diabetic
+3,ononis natrix,,,,,,,ononis natrix subsp. hispanica_antimicrobial,quercetin_inhibitory effect on tyrosinase,

@@ -5,22 +5,23 @@ from difflib import SequenceMatcher
 
 import pandas as pd
 
-from LLM_models.evaluating import abbreviated_precise_match, RE_evaluation, NER_evaluation, abbreviated_approximate_match
+from LLM_models.evaluating import abbreviated_precise_match, RE_evaluation, NER_evaluation, abbreviated_approximate_match, fuzzy_match_ratio
+from LLM_models.evaluating.make_nice_plots import get_filenames
 from LLM_models.structured_output_schema import get_all_human_annotations_for_chunk_id
 
-def get_re_fp_fn(model_name: str, chunk_id):
+def get_re_fp_fn(model_name: str, chunk_id, match_method):
     ground_truth_annotations = get_all_human_annotations_for_chunk_id(chunk_id, check=True)
     pkl_file = os.path.join('outputs', 'model_pkls', f'{str(chunk_id)}_{model_name}_outputs.pickle')
     model_annotations = pickle.load(open(pkl_file, "rb", -1))
 
     retrue_positives_in_ground_truths, retrue_positives_in_model_annotations, refalse_positives, refalse_negatives = RE_evaluation(model_annotations,
                                                                                                                                    ground_truth_annotations,
-                                                                                                                                   'approximate',
+                                                                                                                                   match_method,
                                                                                                                                    'medical_conditions')
     meretrue_positives_in_ground_truths, meretrue_positives_in_model_annotations, merefalse_positives, merefalse_negatives = RE_evaluation(
         model_annotations,
         ground_truth_annotations,
-        'approximate',
+        match_method,
         'medicinal_effects')
     return merefalse_positives, merefalse_negatives, refalse_positives, refalse_negatives, model_annotations, ground_truth_annotations
 
@@ -86,34 +87,39 @@ def manually_compare_errors(model_name: str, chunk_id, out_dir: str):
         print(MC_fps)
 
 
-def check_for_spelling(model):
-    med_eff_cases = []
-    medCond_cases = []
-    for chunk in test['id'].unique().tolist():
-        medEff_false_positives, medEff_false_negatives, medCond_false_positives, medCond_false_negatives, model_annotations, ground_truth_annotations =get_re_fp_fn(model, chunk)
-        for a in medCond_false_negatives:
-            for b in medCond_false_positives:
-                ratio = SequenceMatcher(None, a, b).ratio()
-                if ratio > 0.8:
-                    medCond_cases.append((a, b))
-        for a in medEff_false_negatives:
-            for b in medEff_false_positives:
-                ratio = SequenceMatcher(None, a, b).ratio()
-                if ratio > 0.8:
-                    med_eff_cases.append((a, b))
-    medcond_df = pd.DataFrame(medCond_cases, columns=['ground truth', 'model output'])
-    medcond_df.to_csv(os.path.join('outputs', 'possible_spelling_mistakes', f'{model}_medcond.csv'))
+def check_for_spelling():
+    fileNames, renaming, model_names = get_filenames()
+    for model in model_names:
 
-    medEff_df = pd.DataFrame(med_eff_cases, columns=['ground truth', 'model output'])
-    medEff_df.to_csv(os.path.join('outputs', 'possible_spelling_mistakes', f'{model}_medEff.csv'))
+        med_eff_cases = []
+        medCond_cases = []
+        for chunk in test['id'].unique().tolist():
+            medEff_false_positives, medEff_false_negatives, medCond_false_positives, medCond_false_negatives, model_annotations, ground_truth_annotations =get_re_fp_fn(model, chunk, 'approximate')
+            # fuzzy_medEff_false_positives, fuzzy_medEff_false_negatives, fuzzy_medCond_false_positives, fuzzy_medCond_false_negatives, model_annotations, ground_truth_annotations =get_re_fp_fn(model, chunk, 'fuzzy')
+            # print(f'chunk: {chunk}')
+            for a in medCond_false_negatives:
+                for b in medCond_false_positives:
+                    ratio = SequenceMatcher(None, a, b).ratio()
+                    if ratio > fuzzy_match_ratio:
+                        medCond_cases.append((a, b))
+            for a in medEff_false_negatives:
+                for b in medEff_false_positives:
+                    ratio = SequenceMatcher(None, a, b).ratio()
+                    if ratio > fuzzy_match_ratio:
+                        med_eff_cases.append((a, b))
+        medcond_df = pd.DataFrame(medCond_cases, columns=['ground truth', 'model output'])
+        medcond_df.to_csv(os.path.join('outputs', 'possible_parsing_issues', f'{model}_medcond.csv'))
+
+        medEff_df = pd.DataFrame(med_eff_cases, columns=['ground truth', 'model output'])
+        medEff_df.to_csv(os.path.join('outputs', 'possible_parsing_issues', f'{model}_medEff.csv'))
 
 
 def compare_outputs():
     for chunk in test['id'].unique().tolist():
         manually_compare_errors('gpt-4o-2024-08-06', chunk, os.path.join('outputs', 'full_eval', 'comparing exact and relaxed'))
 
-
 if __name__ == '__main__':
     test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
     # compare_outputs()
-    check_for_spelling('gpt-4o-2024-08-06')
+
+    check_for_spelling()

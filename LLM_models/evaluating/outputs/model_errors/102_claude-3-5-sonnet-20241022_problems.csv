@@ -1,8 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,mandragora officinarum,mandragora officinarum,remijia pedunculata,remijiapedunculata,mandragora officinarum_sterility,cinchona_fever,remijiapedunculata_malaria,mandragora officinarum_sedative,mandragora officinarum_aphrodisiac,mandragora officinarum_aphrodisiacs
-1,cinchona,cinchona,,,cinchona_malaria,remijia pedunculata_malaria,atropa belladonna_musclespasms,atropa belladonna_sedative,digitalis purpurea_increases blood pressure,digitalis purpurea_kidney functioning improves
-2,digitalis purpurea,digitalis purpurea,,,digitalis purpurea_dropsy,remijia pedunculata_fever,,,digitalis purpurea_improves kidney function,digitalis purpurea_blood pressure is increased
-3,atropa belladonna,atropa belladonna,,,digitalis purpurea_heart disease,atropa belladonna_muscle spasms,,,atropa belladonna_stimulates sympathetic nervous system,atropa belladonna_dilate the pupils
-4,papaver somniferum,papaver somniferum,,,atropa belladonna_insomnia,papaver somniferum_suffering,,,atropa belladonna_dilates pupils,atropa belladonna_stimulate the sympathetic nervoussystem
-5,,,,,atropa belladonna_motion sickness,papaver somniferum_pain,,,,
-6,,,,,atropa belladonna_pain,,,,,
+0,mandragora officinarum,mandragora officinarum,,,mandragora officinarum_sterility,cinchona_fever,,mandragora officinarum_sedative,mandragora officinarum_aphrodisiac,mandragora officinarum_aphrodisiacs
+1,cinchona,cinchona,,,cinchona_malaria,remijia pedunculata_fever,,atropa belladonna_sedative,digitalis purpurea_increases blood pressure,digitalis purpurea_kidney functioning improves
+2,remijiapedunculata,remijia pedunculata,,,remijia pedunculata_malaria,papaver somniferum_suffering,,,digitalis purpurea_improves kidney function,digitalis purpurea_blood pressure is increased
+3,digitalis purpurea,digitalis purpurea,,,digitalis purpurea_dropsy,papaver somniferum_pain,,,atropa belladonna_stimulates sympathetic nervous system,atropa belladonna_dilate the pupils
+4,atropa belladonna,atropa belladonna,,,digitalis purpurea_heart disease,,,,atropa belladonna_dilates pupils,atropa belladonna_stimulate the sympathetic nervoussystem
+5,papaver somniferum,papaver somniferum,,,atropa belladonna_insomnia,,,,,
+6,,,,,atropa belladonna_muscle spasms,,,,,
+7,,,,,atropa belladonna_motion sickness,,,,,
+8,,,,,atropa belladonna_pain,,,,,

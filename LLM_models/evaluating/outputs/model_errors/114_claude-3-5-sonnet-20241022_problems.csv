@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,tolypocladium inflatum,tolypocladium inflatum,aralia racemosa,pistacia lentiscus,,ginkgo biloba_vascular,urechites suberecta_hemorrhoids,dryopteris filix-mas_vermifuge,tolypocladium inflatum_immunosuppressant,pistacia lentiscus_purgative
-1,cetraria islandica,cetraria islandica,,apocynum venetum,,thevetia spp_hemorrhoids,asclepias curassavica_menstruation,,dryopteris dilatata_vermifuge,apocynum venetum_emetic
-2,dryopteris dilatata,dryopteris dilatata,,urechites suberecta,,thevetia spp_heart,asclepias spp_toothache,,metopium toxiferum_purgative,apocynum venetum_cardiac stimulant
+1,cetraria islandica,cetraria islandica,,apocynum venetum,,thevetia spp_hemorrhoids,asclepias curassavica_menstruation,,dryopteris dilatata_vermifuge,apocynum venetum_cardiac stimulant
+2,dryopteris dilatata,dryopteris dilatata,,urechites suberecta,,thevetia spp_heart,asclepias spp_toothache,,metopium toxiferum_purgative,apocynum venetum_emetic
 3,dryopteris filix-mas,dryopteris filix-mas,,asclepias spp,,aristolochia spp_menstruation,cryptostegia grandiflora_malaria,,alstonia scholaris_vermifuge,asclepias curassavica_abortifacient
 4,ephedra sinica,ephedra sinica,,cryptostegia grandiflora,,asclepias curassavica_toothache,,,apocynum cannabinum_emetic,asclepias spp_tooth extraction
 5,ephedra trifurca,ephedra trifurca,,taphrina deformans,,cryptolepis sanguinolenta_malaria,,,apocynum cannabinum_cardiac stimulant,

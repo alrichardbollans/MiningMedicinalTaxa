@@ -1,11 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,mandragora officinarum,mandragora officinarum,remijia pedunculata,remijiapedunculata,mandragora officinarum_sterility,remijia pedunculata_malaria,remijiapedunculata_malaria,mandragora officinarum_sedative,mandragora officinarum_aphrodisiac,mandragora officinarum_aphrodisiacs
-1,cinchona,cinchona,,,cinchona_malaria,,atropa belladonna_motion sickness,atropa belladonna_dilate the pupils,cinchona_antimalarial,digitalis purpurea_kidney functioning improves
-2,digitalis purpurea,digitalis purpurea,,,digitalis purpurea_heart disease,,atropa belladonna_musclespasms,atropa belladonna_sedative,remijia pedunculata_antimalarial,digitalis purpurea_blood pressure is increased
-3,atropa belladonna,atropa belladonna,,,digitalis purpurea_dropsy,,atropa belladonna_pain,,digitalis purpurea_cardiac glycosides,atropa belladonna_stimulate the sympathetic nervoussystem
-4,papaver somniferum,papaver somniferum,,,,,atropa belladonna_insomnia,,atropa belladonna_treatment of insomnia,
-5,,,,,,,,,atropa belladonna_stimulate the sympathetic nervous system,
-6,,,,,,,,,atropa belladonna_reduce symptoms of motion sickness,
-7,,,,,,,,,atropa belladonna_reduce muscle spasms,
-8,,,,,,,,,atropa belladonna_relieve pain,
-9,,,,,,,,,papaver somniferum_pain relief,
+0,mandragora officinarum,mandragora officinarum,,,mandragora officinarum_sterility,,atropa belladonna_musclespasms,mandragora officinarum_sedative,mandragora officinarum_aphrodisiac,mandragora officinarum_aphrodisiacs
+1,cinchona,cinchona,,,cinchona_malaria,,atropa belladonna_insomnia,atropa belladonna_dilate the pupils,cinchona_antimalarial,digitalis purpurea_kidney functioning improves
+2,remijiapedunculata,remijia pedunculata,,,remijia pedunculata_malaria,,atropa belladonna_motion sickness,atropa belladonna_sedative,remijia pedunculata_antimalarial,digitalis purpurea_blood pressure is increased
+3,digitalis purpurea,digitalis purpurea,,,digitalis purpurea_heart disease,,atropa belladonna_pain,atropa belladonna_stimulate the sympathetic nervous system,digitalis purpurea_cardiac glycosides,
+4,atropa belladonna,atropa belladonna,,,digitalis purpurea_dropsy,,,,atropa belladonna_treatment of insomnia,
+5,papaver somniferum,papaver somniferum,,,,,,,atropa belladonna_reduce symptoms of motion sickness,
+6,,,,,,,,,atropa belladonna_reduce muscle spasms,
+7,,,,,,,,,atropa belladonna_relieve pain,
+8,,,,,,,,,papaver somniferum_pain relief,

@@ -1,10 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,ajuga,ajuga laxmannii,,ajugalaxmannii,ajuga laxmannii_fever,ajuga laxmannii_oedema,ajuga_edema,ajuga laxmannii_diuretic,ajuga laxmannii_antibiotic,a. laxmannii_antibacterial
-1,a. laxmannii,ajuga bracteosa,,aspergillus flavus,ajuga laxmannii_ulcer,,,ajuga laxmannii_antipyretic,,a. laxmannii_antioxidant
-2,ajuga laxmannii,ajuga relicta,,aspergillus niger,ajuga laxmannii_hypertension,,,ajuga laxmannii_astringent,,a. laxmannii_antimicrobial
-3,a. bracteosa,ajuga taiwanensis,,candida albicans,ajuga laxmannii_intestinal and biliary disorders,,,ajuga laxmannii_anti-inflammatory,,a. laxmannii_antiradical
-4,a. relicta,ajuga turkestanica,,candida parapsilosis,,,,,,a. laxmannii_antifungal
-5,a. taiwanensis,ajuga reptans,,penicillium funiculosum,,,,,,a. turkestanica_antioxidant
-6,a. turkestanica,ajuga chamaecistus subsp. scoparia (boiss.) rech.f,,,,,,,,a. chamaecistus subsp. scoparia (boiss.) rech.f_antiradical
-7,a. reptans,,,,,,,,,
-8,a. chamaecistus subsp. scoparia (boiss.) rech.f,,,,,,,,,
+0,ajuga,ajuga laxmannii,,aspergillus flavus,ajuga laxmannii_fever,ajuga laxmannii_oedema,ajuga_edema,ajuga laxmannii_diuretic,ajuga laxmannii_antibiotic,a. laxmannii_antioxidant
+1,a. laxmannii,ajuga bracteosa,,aspergillus niger,ajuga laxmannii_ulcer,,,ajuga laxmannii_antipyretic,,a. laxmannii_antiradical
+2,ajuga laxmannii,ajuga relicta,,candida albicans,ajuga laxmannii_hypertension,,,ajuga laxmannii_astringent,,a. laxmannii_antimicrobial
+3,ajugalaxmannii,ajuga taiwanensis,,candida parapsilosis,ajuga laxmannii_intestinal and biliary disorders,,,ajuga laxmannii_anti-inflammatory,,a. laxmannii_antifungal
+4,a. bracteosa,ajuga turkestanica,,penicillium funiculosum,,,,,,a. laxmannii_antibacterial
+5,a. relicta,ajuga reptans,,,,,,,,a. turkestanica_antioxidant
+6,a. taiwanensis,ajuga chamaecistus subsp. scoparia (boiss.) rech.f,,,,,,,,a. chamaecistus subsp. scoparia (boiss.) rech.f_antiradical
+7,a. turkestanica,,,,,,,,,
+8,a. reptans,,,,,,,,,
+9,a. chamaecistus subsp. scoparia (boiss.) rech.f,,,,,,,,,

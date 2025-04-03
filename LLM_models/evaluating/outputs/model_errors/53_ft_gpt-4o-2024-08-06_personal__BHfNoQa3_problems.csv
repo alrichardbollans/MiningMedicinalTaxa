@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,lycium barbarum,lycium barbarum,crataegi,,lycium barbarum_diabetes,crataegi_hypertension,lycium barbarum_metabolic syndrome,lycium barbarum_hypoglycemic,crataegi_hypolipidemic,lycium barbarum_lower blood pressure and blood sugar
-1,,,,,,crataegi_hyperlipidemia,lycium barbarum_dyslipidaemia,,crataegi_antioxidant,lycium barbarum_reduce blood sugar
+0,lycium barbarum,lycium barbarum,crataegi,,lycium barbarum_diabetes,crataegi_hypertension,lycium barbarum_metabolic syndrome,lycium barbarum_hypoglycemic,crataegi_hypolipidemic,lycium barbarum_reduce blood sugar
+1,,,,,,crataegi_hyperlipidemia,lycium barbarum_dyslipidaemia,,crataegi_antioxidant,lycium barbarum_lower blood pressure and blood sugar
 2,,,,,,crataegi_coronary heart disease,,,lycium barbarum_hypolipidemic,lycium barbarum_lower blood pressure
 3,,,,,,crataegi_obesity,,,lycium barbarum_antioxidant,
 4,,,,,,lycium barbarum_high cholesterol,,,,

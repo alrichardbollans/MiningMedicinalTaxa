@@ -1,17 +1,17 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,o. tenuiflorum l,ocimum tenuiflorum,,o. bascilium l,ocimum tenuiflorum_diabetes,ocimum tenuiflorum_insect bites,o. sanctum l_diabetes,ocimum tenuiflorum_antibacterial,,o. sanctum l_antibacterial
-1,o. tenuiflorum,ocimum sanctum,,,ocimum tenuiflorum_diarrhoea,ocimum tenuiflorum_fever,o. sanctum l_insect bites,ocimum tenuiflorum_cardioprotective,,o. sanctum l_cardioprotective
-2,ocimum tenuiflorum,ocimum gratissimum,,,ocimum tenuiflorum_eye disorders,ocimum tenuiflorum_snake bites,o. sanctum l_fever,ocimum tenuiflorum_antiviral,,o. sanctum l_antiviral
-3,ocimum,,,,ocimum tenuiflorum_bronchitis,ocimum tenuiflorum_skin diseases,o. sanctum l_chronic conjunctivitis,ocimum tenuiflorum_antidiabetic,,o. sanctum l_antidiabetic
-4,o. sanctum l,,,,ocimum tenuiflorum_gonorrhoea,ocimum tenuiflorum_malaria,o. sanctum l_diarrhoea,ocimum tenuiflorum_analgesic,,o. sanctum l_analgesic
-5,o. sanctum,,,,ocimum tenuiflorum_asthma,,o. sanctum l_cataracts,ocimum tenuiflorum_antioxidant,,o. sanctum l_hepatoprotective
-6,o. gratissimum,,,,,,o. sanctum l_snake bites,ocimum tenuiflorum_anaesthetic,,o. sanctum l_abortive effects
-7,,,,,,,o. sanctum l_glaucoma,ocimum tenuiflorum_hepatoprotective,,o. sanctum l_antifertility
-8,,,,,,,o. sanctum l_skin diseases,ocimum tenuiflorum_antifertility,,o. sanctum l_antifungal
-9,,,,,,,o. sanctum l_eye disorders,ocimum tenuiflorum_antifungal,,o. sanctum l_anticancer
-10,,,,,,,o. sanctum l_bronchitis,ocimum tenuiflorum_antiseptic,,o. sanctum l_anti-inflammatory
-11,,,,,,,o. sanctum l_malaria,ocimum tenuiflorum_anticancer,,o. sanctum l_adaptogenic
-12,,,,,,,o. sanctum l_asthma,ocimum tenuiflorum_anti-inflammatory,,o. tenuiflorum l_abortive effects
-13,,,,,,,o. tenuiflorum_sexually transmitted disease,ocimum tenuiflorum_adaptogenic,,o. tenuiflorum_male contraceptive
-14,,,,,,,o. tenuiflorum_antifertility effects,,,o. tenuiflorum_blood thinning
+0,o. tenuiflorum l,ocimum tenuiflorum,,o. bascilium l,ocimum tenuiflorum_diabetes,ocimum tenuiflorum_insect bites,o. sanctum l_eye disorders,ocimum tenuiflorum_antibacterial,,o. sanctum l_adaptogenic
+1,o. tenuiflorum,ocimum sanctum,,,ocimum tenuiflorum_diarrhoea,ocimum tenuiflorum_fever,o. sanctum l_snake bites,ocimum tenuiflorum_cardioprotective,,o. sanctum l_anti-inflammatory
+2,ocimum tenuiflorum,ocimum gratissimum,,,ocimum tenuiflorum_eye disorders,ocimum tenuiflorum_snake bites,o. sanctum l_chronic conjunctivitis,ocimum tenuiflorum_antiviral,,o. sanctum l_antidiabetic
+3,ocimum,,,,ocimum tenuiflorum_bronchitis,ocimum tenuiflorum_skin diseases,o. sanctum l_bronchitis,ocimum tenuiflorum_antidiabetic,,o. sanctum l_hepatoprotective
+4,o. sanctum l,,,,ocimum tenuiflorum_gonorrhoea,ocimum tenuiflorum_malaria,o. sanctum l_skin diseases,ocimum tenuiflorum_analgesic,,o. sanctum l_analgesic
+5,o. sanctum,,,,ocimum tenuiflorum_asthma,,o. sanctum l_fever,ocimum tenuiflorum_antioxidant,,o. sanctum l_antifungal
+6,o. gratissimum,,,,,,o. sanctum l_insect bites,ocimum tenuiflorum_anaesthetic,,o. sanctum l_anticancer
+7,,,,,,,o. sanctum l_cataracts,ocimum tenuiflorum_hepatoprotective,,o. sanctum l_abortive effects
+8,,,,,,,o. sanctum l_asthma,ocimum tenuiflorum_antifertility,,o. sanctum l_antibacterial
+9,,,,,,,o. sanctum l_glaucoma,ocimum tenuiflorum_antifungal,,o. sanctum l_antifertility
+10,,,,,,,o. sanctum l_diabetes,ocimum tenuiflorum_antiseptic,,o. sanctum l_antiviral
+11,,,,,,,o. sanctum l_malaria,ocimum tenuiflorum_anticancer,,o. sanctum l_cardioprotective
+12,,,,,,,o. sanctum l_diarrhoea,ocimum tenuiflorum_anti-inflammatory,,o. tenuiflorum l_abortive effects
+13,,,,,,,o. tenuiflorum_antifertility effects,ocimum tenuiflorum_adaptogenic,,o. tenuiflorum_male contraceptive
+14,,,,,,,o. tenuiflorum_sexually transmitted disease,,,o. tenuiflorum_blood thinning
 15,,,,,,,o. tenuiflorum_antifertility,,,

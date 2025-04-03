@@ -1,11 +1,13 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,hypericum,hypericum hircinum subsp. majus,rhodiola rosea l,h. hircinum subsp.majus,centaurea ragusina l_urogenital disorders,rhodiola rosea l_dementia,centaurea ragusina l_cancer,hypericum hircinum subsp. majus_antifungal,syringa vulgaris l_anti-inflammatory,h. hircinum subsp.majus_antifungal
-1,chelidonium majus l,chelidonium majus l,,ajuga laxmannii (murray) benth,prunus spinosa l_cardiovascular disease,rhodiola rosea l_memory impairment,centaurea ragusina l_tumor,centaurea ragusina l_antibacterial,,syringa vulgaris l_pro-inflammatory
-2,syringa vulgaris l,syringa vulgaris l,,penicillium,,centaurea ragusina l_gastrointestinal disorders,ononis natrix subsp. hispanica_atherosclerosis,,,ajuga laxmannii (murray) benth_antioxidant
-3,centaurea ragusina l,centaurea ragusina l,,candida,,,centaurea_tumor,,,ajuga laxmannii (murray) benth_anti-inflammatory
-4,centaurea,prunus spinosa l,,commiphora,,,,,,ajuga laxmannii (murray) benth_antimicrobial
-5,prunus spinosa l,ononis natrix subsp. hispanica,,boswellia,,,,,,
-6,ononis natrix subsp. hispanica,veronica officinalis l,,aspergillus,,,,,,
-7,ononis natrix,scrophularia lucida l,,rhodiola roseal,,,,,,
-8,veronica officinalis l,,,,,,,,,
-9,scrophularia lucida l,,,,,,,,,
+0,hypericum,hypericum hircinum subsp. majus,,ajuga laxmannii (murray) benth,centaurea ragusina l_urogenital disorders,rhodiola rosea l_dementia,centaurea ragusina l_tumor,hypericum hircinum subsp. majus_antifungal,syringa vulgaris l_anti-inflammatory,syringa vulgaris l_pro-inflammatory
+1,h. hircinum subsp.majus,rhodiola rosea l,,penicillium,prunus spinosa l_cardiovascular disease,rhodiola rosea l_memory impairment,centaurea ragusina l_cancer,centaurea ragusina l_antibacterial,,ajuga laxmannii (murray) benth_anti-inflammatory
+2,rhodiola roseal,chelidonium majus l,,candida,,centaurea ragusina l_gastrointestinal disorders,ononis natrix subsp. hispanica_atherosclerosis,,,ajuga laxmannii (murray) benth_antimicrobial
+3,chelidonium majus l,syringa vulgaris l,,commiphora,,,centaurea_tumor,,,ajuga laxmannii (murray) benth_antioxidant
+4,syringa vulgaris l,centaurea ragusina l,,boswellia,,,,,,
+5,centaurea ragusina l,prunus spinosa l,,aspergillus,,,,,,
+6,centaurea,ononis natrix subsp. hispanica,,,,,,,,
+7,prunus spinosa l,veronica officinalis l,,,,,,,,
+8,ononis natrix subsp. hispanica,scrophularia lucida l,,,,,,,,
+9,ononis natrix,,,,,,,,,
+10,veronica officinalis l,,,,,,,,,
+11,scrophularia lucida l,,,,,,,,,

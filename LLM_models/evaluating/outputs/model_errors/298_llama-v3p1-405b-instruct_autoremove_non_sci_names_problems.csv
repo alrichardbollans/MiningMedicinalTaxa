@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,c. ragusina l,centaurea ragusina l,oroxylum indicum,,centaurea ragusina l_cancer,centaurea ragusina l_inflammation,c. ragusina l_liver carcinoma,centaurea ragusina l_anti-inflammatory,centaurea ragusina l_antibiotic,c. ragusina l_antibacterial
-1,centaurea,centaurea melitensis l,,,,,c. ragusina l_livercancer,,,c. ragusina l_suppresses tumor growth
+0,c. ragusina l,centaurea ragusina l,oroxylum indicum,,centaurea ragusina l_cancer,centaurea ragusina l_inflammation,c. ragusina l_liver carcinoma,centaurea ragusina l_anti-inflammatory,centaurea ragusina l_antibiotic,c. ragusina l_suppresses tumor growth
+1,centaurea,centaurea melitensis l,,,,,c. ragusina l_livercancer,,,c. ragusina l_antibacterial
 2,centaurea ragusina l,centaurea aspera l,,,,,centaurea_liver carcinoma,,,
 3,c. melitensis l,centaurea jacea l,,,,,centaurea_livercancer,,,
 4,c. aspera l,,,,,,c. melitensis l_liver carcinoma,,,

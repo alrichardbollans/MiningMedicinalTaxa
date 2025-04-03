@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,arbutus unedo l,arbutus unedo l,,cannabis,salvia fruticosa mill_guttate psoriasis,arbutus unedo l_cytogenetic damage,cannabis_chronic pain,arbutus unedo l_antioxidant,salvia fruticosa mill_antioxidant,cannabis_mood alteration
-1,salvia fruticosa mill,salvia fruticosa mill,,,salvia fruticosa mill_seborrheic dermatitis,salvia fruticosa mill_plaque psoriasis,cannabis_inflammation,tapinanthus globiferus_anticonvulsant,,cannabis_pain-relief
-2,s. fruticosa mill,tapinanthus globiferus,,,tapinanthus globiferus_stroke,shorea roxburghii_diabetes,cannabis_epilepsy,shorea roxburghii_antihyperlipidemic,,cannabis_substitutive cannabis use
+0,arbutus unedo l,arbutus unedo l,,cannabis,salvia fruticosa mill_guttate psoriasis,arbutus unedo l_cytogenetic damage,cannabis_inflammation,arbutus unedo l_antioxidant,salvia fruticosa mill_antioxidant,cannabis_substitutive cannabis use
+1,salvia fruticosa mill,salvia fruticosa mill,,,salvia fruticosa mill_seborrheic dermatitis,salvia fruticosa mill_plaque psoriasis,cannabis_epilepsy,tapinanthus globiferus_anticonvulsant,,cannabis_mood alteration
+2,s. fruticosa mill,tapinanthus globiferus,,,tapinanthus globiferus_stroke,shorea roxburghii_diabetes,cannabis_chronic pain,shorea roxburghii_antihyperlipidemic,,cannabis_pain-relief
 3,tapinanthus globiferus,shorea roxburghii,,,tapinanthus globiferus_epilepsy,,tapinanthus globiferus_seizures,shorea roxburghii_antihyperglycemic,,t. globiferus_antiseizure
 4,t. globiferus,,,,,,t. globiferus_seizure,,,
 5,shorea roxburghii,,,,,,,,,

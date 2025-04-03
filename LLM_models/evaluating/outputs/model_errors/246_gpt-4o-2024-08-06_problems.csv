@@ -1,15 +1,15 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,hibiscus sabdariffa,hibiscus sabdariffa,,s. perfoliata l,hibiscus sabdariffa_liver cancer,lonicera japonica_liver cancer,,antrodia salmonea_apoptotic cell death,physalis angulata l_anti-inflammatory,physalis angulata l_inhibit the production of inflammatory cytokines
 1,lonicera japonica,lonicera japonica,,s. curvidens stapf,hibiscus sabdariffa_breast cancer,lonicera japonica_breast cancer,,mikania micrantha_antioxidant,antrodia salmonea_autophagic cell death,antrodia salmonea_autophagic- and apoptotic-cell death
-2,eucommia ulmoides,eucommia ulmoides,,,hibiscus sabdariffa_skin cancer,cannabis sativa_epilepsy,,mikania micrantha_anti-blood cancer,zingiber officinale roscoe_cytotoxic,mikania micrantha_inhibits melanogenesis
-3,physalis angulata l,physalis angulata l,,,lonicera japonica_skin cancer,cannabis sativa_arthritis,,mikania micrantha_anti-inflammatory,zingiber officinale roscoe_antioxidant,mikania micrantha_keratinocyte proliferation
-4,antrodia salmonea,antrodia salmonea,,,eucommia ulmoides_liver cancer,,,sideritis cypria post_diaphoretic,zingiber officinale roscoe_thrombolytic,mikania micrantha_wound healing
-5,mikania micrantha,mikania micrantha,,,eucommia ulmoides_breast cancer,,,sideritis cypria post_tonic,zingiber zerumbet smith_cytotoxic,mikania micrantha_prevent free radical diseases
-6,cannabis sativa,cannabis sativa,,,eucommia ulmoides_skin cancer,,,zingiber montanum koen_thrombolytic,zingiber zerumbet smith_antioxidant,mikania micrantha_anti-cancer
-7,sideritis cypria,sideritis cypria post,,,antrodia salmonea_glioblastoma,,,,zingiber zerumbet smith_thrombolytic,mikania micrantha_increasing autophagy
-8,s. cypria,zingiber officinale roscoe,,,cannabis sativa_stress,,,,curcuma amada roxb_cytotoxic,mikania micrantha_inhibit melanin production
-9,sideritis,zingiber zerumbet smith,,,cannabis sativa_anxiety,,,,curcuma amada roxb_antioxidant,mikania micrantha_reducing tyrosinase
-10,zingiber officinale roscoe,curcuma amada roxb,,,cannabis sativa_pain,,,,curcuma amada roxb_thrombolytic,mikania micrantha_inhibits melanin production
+2,eucommia ulmoides,eucommia ulmoides,,,hibiscus sabdariffa_skin cancer,cannabis sativa_epilepsy,,mikania micrantha_anti-blood cancer,zingiber officinale roscoe_cytotoxic,mikania micrantha_reducing tyrosinase
+3,physalis angulata l,physalis angulata l,,,lonicera japonica_skin cancer,cannabis sativa_arthritis,,mikania micrantha_anti-inflammatory,zingiber officinale roscoe_antioxidant,mikania micrantha_anti-cancer
+4,antrodia salmonea,antrodia salmonea,,,eucommia ulmoides_liver cancer,,,sideritis cypria post_diaphoretic,zingiber officinale roscoe_thrombolytic,mikania micrantha_inhibit melanin production
+5,mikania micrantha,mikania micrantha,,,eucommia ulmoides_breast cancer,,,sideritis cypria post_tonic,zingiber zerumbet smith_cytotoxic,mikania micrantha_keratinocyte proliferation
+6,cannabis sativa,cannabis sativa,,,eucommia ulmoides_skin cancer,,,zingiber montanum koen_thrombolytic,zingiber zerumbet smith_antioxidant,mikania micrantha_inhibits melanin production
+7,sideritis cypria,sideritis cypria post,,,antrodia salmonea_glioblastoma,,,,zingiber zerumbet smith_thrombolytic,mikania micrantha_wound healing
+8,s. cypria,zingiber officinale roscoe,,,cannabis sativa_stress,,,,curcuma amada roxb_cytotoxic,mikania micrantha_prevent free radical diseases
+9,sideritis,zingiber zerumbet smith,,,cannabis sativa_anxiety,,,,curcuma amada roxb_antioxidant,mikania micrantha_increasing autophagy
+10,zingiber officinale roscoe,curcuma amada roxb,,,cannabis sativa_pain,,,,curcuma amada roxb_thrombolytic,mikania micrantha_inhibits melanogenesis
 11,zingiber zerumbet smith,zingiber montanum koen,,,sideritis cypria post_stomach disorders,,,,zingiber montanum koen_cytotoxic,sideritis cypria_antioxidant
 12,curcuma amada roxb,,,,sideritis cypria post_common cold,,,,zingiber montanum koen_antioxidant,s. cypria_antioxidant
 13,zingiber montanum koen,,,,sideritis cypria post_headache,,,,,zingiber montanum koen_cytotoxicity

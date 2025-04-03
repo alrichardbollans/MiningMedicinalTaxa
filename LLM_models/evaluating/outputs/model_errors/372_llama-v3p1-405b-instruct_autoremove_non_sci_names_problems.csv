@@ -1,22 +1,21 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,aspalathus linearis (burm.f.) r.dahlgren,aspalathus linearis (burm.f.) r.dahlgren,hoodia gordonii (masson) sweet ex decne,hoodiagordonii (masson) sweet ex decne,crataegus sp_cardiovascular problems,aspalathus linearis (burm.f.) r.dahlgren_diabetes,,viburnum opulus l_diuretic,aspalathus linearis (burm.f.) r.dahlgren_antibiotic,hoodiagordonii (masson) sweet ex decne_regulate the appetite
-1,cyclopia sp,cyclopia sp,thymus serpyllum l,l.cardiaca l,,cyclopia sp_cancer,,viburnum opulus l_anti-inflammatory,cyclopia sp_anti-inflammatory,malpighia glabra l_vitamin c
-2,malpighia glabra l,malpighia glabra l,,quercus robur l,,hoodia gordonii (masson) sweet ex decne_high blood pressure,,,hoodia gordonii (masson) sweet ex decne_diuretic,viburnum opulus l_diaphoretic
-3,origanum vulgare l,origanum vulgare l,,eucalyptus viminalis labill,,malpighia glabra l_inflammation,,,malpighia glabra l_stimulant,l.cardiaca l_antistress
-4,leonurus cardiaca l,leonurus cardiaca l,,zea mays l,,origanum vulgare l_tracheitis,,,origanum vulgare l_expectorant,
-5,viburnum opulus l,viburnum opulus l,,datura stramonium l,,origanum vulgare l_bronchitis,,,thymus serpyllum l_astringent,
-6,crataegus,crataegus sp,,hyoscyamus niger l,,thymus serpyllum l_diarrhea,,,leonurus cardiaca l_sedative,
-7,acorus calamus l,acorus calamus l,,convallaria keiskei miq,,leonurus cardiaca l_anxiety,,,crataegus sp_cardiovascular,
-8,taraxacum campylodes g.e.haglund,taraxacum campylodes g.e.haglund,,rhamnus cathartica l,,viburnum opulus l_cardiovascular problems,,,acorus calamus l_bitterness,
-9,aralia elata (miq.) seem,aralia elata (miq.) seem,,chelidonium majus l,,acorus calamus l_digestive issues,,,acorus calamus l_choleretic,
-10,equisetum arvense l,equisetum arvense l,,thymusserpyllum l,,taraxacum campylodes g.e.haglund_digestive issues,,,taraxacum campylodes g.e.haglund_bitterness,
-11,polemonium caeruleum l,polemonium caeruleum l,,q. petraea(matt.) liebl,,aralia elata (miq.) seem_digestive issues,,,taraxacum campylodes g.e.haglund_choleretic,
-12,rubia tinctorum l,rubia tinctorum l,,taraxacum officinale l,,equisetum arvense l_inflammatory skin conditions,,,aralia elata (miq.) seem_bitterness,
-13,alnus incana (l.) moench,alnus incana (l.) moench,,calendula officinalis l,,,,,aralia elata (miq.) seem_choleretic,
-14,alnus glutinosa (l.) gaertn,alnus glutinosa (l.) gaertn,,pimpinellaanisum l,,,,,equisetum arvense l_diaphoretic,
-15,gnaphalium uliginosum l,gnaphalium uliginosum l,,atropa belladonnal,,,,,,
-16,bidens tripartita l,bidens tripartita l,,convallaria majalis l,,,,,,
-17,,,,frangula alnus mill,,,,,,
-18,,,,adonis vernalis l,,,,,,
-19,,,,digitalis purpurea l,,,,,,
-20,,,,digitalis grandifloramill,,,,,,
+0,aspalathus linearis (burm.f.) r.dahlgren,aspalathus linearis (burm.f.) r.dahlgren,,quercus robur l,crataegus sp_cardiovascular problems,aspalathus linearis (burm.f.) r.dahlgren_diabetes,,viburnum opulus l_diuretic,aspalathus linearis (burm.f.) r.dahlgren_antibiotic,hoodiagordonii (masson) sweet ex decne_regulate the appetite
+1,cyclopia sp,cyclopia sp,,eucalyptus viminalis labill,,cyclopia sp_cancer,,viburnum opulus l_anti-inflammatory,cyclopia sp_anti-inflammatory,malpighia glabra l_vitamin c
+2,hoodiagordonii (masson) sweet ex decne,hoodia gordonii (masson) sweet ex decne,,zea mays l,,hoodia gordonii (masson) sweet ex decne_high blood pressure,,,hoodia gordonii (masson) sweet ex decne_diuretic,viburnum opulus l_diaphoretic
+3,malpighia glabra l,malpighia glabra l,,datura stramonium l,,malpighia glabra l_inflammation,,,malpighia glabra l_stimulant,l.cardiaca l_antistress
+4,origanum vulgare l,origanum vulgare l,,hyoscyamus niger l,,origanum vulgare l_tracheitis,,,origanum vulgare l_expectorant,
+5,thymusserpyllum l,thymus serpyllum l,,convallaria keiskei miq,,origanum vulgare l_bronchitis,,,thymus serpyllum l_astringent,
+6,l.cardiaca l,leonurus cardiaca l,,rhamnus cathartica l,,thymus serpyllum l_diarrhea,,,leonurus cardiaca l_sedative,
+7,leonurus cardiaca l,viburnum opulus l,,chelidonium majus l,,leonurus cardiaca l_anxiety,,,crataegus sp_cardiovascular,
+8,viburnum opulus l,crataegus sp,,q. petraea(matt.) liebl,,viburnum opulus l_cardiovascular problems,,,acorus calamus l_bitterness,
+9,crataegus,acorus calamus l,,taraxacum officinale l,,acorus calamus l_digestive issues,,,acorus calamus l_choleretic,
+10,acorus calamus l,taraxacum campylodes g.e.haglund,,calendula officinalis l,,taraxacum campylodes g.e.haglund_digestive issues,,,taraxacum campylodes g.e.haglund_bitterness,
+11,taraxacum campylodes g.e.haglund,aralia elata (miq.) seem,,pimpinellaanisum l,,aralia elata (miq.) seem_digestive issues,,,taraxacum campylodes g.e.haglund_choleretic,
+12,aralia elata (miq.) seem,equisetum arvense l,,atropa belladonnal,,equisetum arvense l_inflammatory skin conditions,,,aralia elata (miq.) seem_bitterness,
+13,equisetum arvense l,polemonium caeruleum l,,convallaria majalis l,,,,,aralia elata (miq.) seem_choleretic,
+14,polemonium caeruleum l,rubia tinctorum l,,frangula alnus mill,,,,,equisetum arvense l_diaphoretic,
+15,rubia tinctorum l,alnus incana (l.) moench,,adonis vernalis l,,,,,,
+16,alnus incana (l.) moench,alnus glutinosa (l.) gaertn,,digitalis purpurea l,,,,,,
+17,alnus glutinosa (l.) gaertn,gnaphalium uliginosum l,,digitalis grandifloramill,,,,,,
+18,gnaphalium uliginosum l,bidens tripartita l,,,,,,,,
+19,bidens tripartita l,,,,,,,,,

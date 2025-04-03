@@ -263,11 +263,11 @@ def basic_plot_results(file_to_plot, out_dir, model_name, measures=None, tag=Non
     data_min = np_df.min()
     data_max = np_df.max()
 
-    global_min = 0.18
-    global_max = 0.98
+    global_min = 0.1
+    global_max = 0.99
 
     if data_min < global_min or data_max > global_max:
-        raise ValueError
+        raise ValueError(f'data_min:{data_min} < {global_min} or data_max:{data_max} > {global_max}')
     sns.heatmap(out_df, annot=True, cmap='inferno', vmin=global_min, vmax=global_max)
     plt.xticks(rotation=45, ha='right', rotation_mode='anchor')
     plt.tight_layout()
@@ -326,11 +326,13 @@ def full_evaluation(rerun: bool = True):
 
     test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
 
-    all_models = setup_models()
-    # all_models = {'gpt4o': [Mplaceholder(model_name='gpt-4o'), None],
-    #               'gemini': [Mplaceholder(model_name='gemini-1.5-pro-002'), None],
-    #               'claude': [Mplaceholder(model_name='claude-3-5-sonnet-20241022'), None],
-    #               'llama': [Mplaceholder(model_name='llama-v3p1-405b-instruct'), None]}
+    if rerun:
+        all_models = setup_models()
+    else:
+        all_models = {'gpt4o': [Mplaceholder(model_name='gpt-4o-2024-08-06'), None],
+                  'deepseek': [Mplaceholder(model_name='deepseek-chat'), None],
+                  'claude': [Mplaceholder(model_name='claude-3-5-sonnet-20241022'), None],
+                  'llama': [Mplaceholder(model_name='llama-v3p1-405b-instruct'), None]}
 
     for m in all_models:
         print(m)
@@ -353,8 +355,8 @@ def full_eval_gnfinder(rerun: bool = True):
 
 def main():
     # assessing_hparams(rerun=True)
-    full_evaluation(rerun=True)
-    # full_eval_gnfinder(rerun=True)
+    # full_evaluation(rerun=False)
+    full_eval_gnfinder(rerun=False)
 
 
 

@@ -3,20 +3,20 @@
 1,zingiber officinale,zingiber officinale,elettaria cardamomum,elettaria cadamomum,zingiber officinale_arthritis,linum usitatissimum_strength/ energy,elettaria cadamomum_nausea,,,linum usitatissimum_strength/ energy
 2,sapindus saponaria,sapindus saponaria,,ocimum vaalae,zingiber officinale_pain,trachyspermum ammi_digestive aid,curcuma longa_skin problems,,,trachyspermum ammi_digestive aid
 3,linum usitatissimum,linum usitatissimum,,roas sp,zingiber officinale_inflammation,emblica officinalis_healthy hair,juglans regia_sore throat,,,emblica officinalic_healthy hair
-4,trachyspermum ammi,trachyspermum ammi,,,sapindus saponaria_helps to reduce excessive mucus and phlegm,emblica officinalis_digestion,allium sativum_ear infections,,,emblica officinalic_digestion
-5,ficus carica,ficus carica,,,sapindus saponaria_cough,emblica officinalis_strength/ stamina,allium sativum_painful joints,,,emblica officinalic_strength/ stamina
+4,trachyspermum ammi,trachyspermum ammi,,,sapindus saponaria_helps to reduce excessive mucus and phlegm,emblica officinalis_digestion,allium sativum_ear infections,,,emblica officinalic_strength/ stamina
+5,ficus carica,ficus carica,,,sapindus saponaria_cough,emblica officinalis_strength/ stamina,allium sativum_painful joints,,,emblica officinalic_digestion
 6,prunus dulcis,prunus dulcis,,,linum usitatissimum_diabetes,prunus dulcis_mental stamina/ memory,syzygium aromaticum_painful tooth,,,cicer arietinum_skin cleanser
 7,terminalia bellirica,terminalia bellirica,,,linum usitatissimum_constipation,prunus dulcis_energy,citrus limon_scars,,,cinnamomum verum_induce menstrual flow
 8,eleusine coracana,eleusine coracana,,,linum usitatissimum_arthritis,prunus dulcis_skin and hair vitality,ocimum vaalae_colds,,,cinnamomum verum_digestion
 9,viola odorata,viola odorata,,,linum usitatissimum_pain,terminalia bellirica_digestion,ocimum vaalae_congestion,,,elettaria cadamomum_reduces phlegm and mucus
 10,cicer arietinum,cicer arietinum,,,linum usitatissimum_cholesterol,cicer arietinum_healthy alternative to wheat flour,rosa sp_constipation,,,elettaria cadamomum_digestion
 11,abelmoschus esculentus,abelmoschus esculentus,,,trachyspermum ammi_headache,cicer arietinum_skin cleanser,,,,curcuma longa_immune boosting effects
-12,cassia,cassia absus,,,trachyspermum ammi_indigestion,cassia absus_blood tonic/ purifier,,,,curcuma longa_pain relief
-13,cassia absus,cinnamomum verum,,,trachyspermum ammi_constipation,cinnamomum verum_digestion,,,,curcuma longa_wound healing
+12,cassia,cassia absus,,,trachyspermum ammi_indigestion,cassia absus_blood tonic/ purifier,,,,curcuma longa_wound healing
+13,cassia absus,cinnamomum verum,,,trachyspermum ammi_constipation,cinnamomum verum_digestion,,,,curcuma longa_pain relief
 14,cinnamomum verum,amomum subulatum,,,ficus carica_diabetes,elettaria cardamomum_indigestion,,,,terminalia chebula_liver protection
 15,amomum subulatum,olea europaea,,,ficus carica_constipation,elettaria cardamomum_nausea,,,,terminalia chebula_digestion
-16,olea europaea,rosa sp,,,eleusine coracana_diabetes,elettaria cardamomum_reduces phlegm and mucus,,,,ferula assa-foetida_digestion
-17,rosa sp,curcuma longa,,,viola odorata_coughs and colds,elettaria cardamomum_digestion,,,,ferula assa-foetida_reduces gas
+16,olea europaea,rosa sp,,,eleusine coracana_diabetes,elettaria cardamomum_reduces phlegm and mucus,,,,ferula assa-foetida_reduces gas
+17,rosa sp,curcuma longa,,,viola odorata_coughs and colds,elettaria cardamomum_digestion,,,,ferula assa-foetida_digestion
 18,curcuma longa,terminalia chebula,,,abelmoschus esculentus_diabetes,olea europaea_general health,,,,syzygium cumini_blood circulation and purification
 19,terminalia chebula,ferula assa-foetida,,,cinnamomum verum_cough,olea europaea_arthritis,,,,curcuma zedoria_blood purification
 20,ferula assa-foetida,myristica fragrans,,,cinnamomum verum_arthritis,rosa sp_reduces spots,,,,cucurbita maxima_eye health
@@ -26,11 +26,11 @@
 24,curcuma zedoria,cucurbita maxima,,,curcuma longa_skin conditions,curcuma longa_pain relief,,,,papaver somniferum_digestion
 25,cucurbita maxima,anacardium occidentale,,,curcuma longa_cancer,curcuma longa_wound healing,,,,crocus sativus_enriches blood
 26,anacardium occidentale,bunium persicum,,,curcuma longa_arthritis,curcuma longa_general health,,,,crocus sativus_digestion
-27,bunium persicum,piper nigrum,,,curcuma longa_sore throats/ cough,terminalia chebula_liver protection,,,,acacia karoo_oral hygiene
-28,piper nigrum,juglans regia,,,curcuma longa_inflammation,terminalia chebula_digestion,,,,acacia karoo_clean teeth
-29,juglans regia,nigella sativa,,,terminalia chebula_diarrhoea,ferula assa-foetida_digestion,,,,allium sativum_improves circulation
-30,nigella sativa,plectranthus amboinicus,,,terminalia chebula_constipation,ferula assa-foetida_reduces gas,,,,allium sativum_antibacterial
-31,plectranthus amboinicus,momordica charantia,,,syzygium cumini_diabetes,myristica fragrans_digestion,,,,allium sativum_thins the blood
+27,bunium persicum,piper nigrum,,,curcuma longa_sore throats/ cough,terminalia chebula_liver protection,,,,acacia karoo_clean teeth
+28,piper nigrum,juglans regia,,,curcuma longa_inflammation,terminalia chebula_digestion,,,,acacia karoo_oral hygiene
+29,juglans regia,nigella sativa,,,terminalia chebula_diarrhoea,ferula assa-foetida_digestion,,,,allium sativum_thins the blood
+30,nigella sativa,plectranthus amboinicus,,,terminalia chebula_constipation,ferula assa-foetida_reduces gas,,,,allium sativum_improves circulation
+31,plectranthus amboinicus,momordica charantia,,,syzygium cumini_diabetes,myristica fragrans_digestion,,,,allium sativum_antibacterial
 32,momordica charantia,papaver somniferum,,,cuminum cyminum_arthritis,syzygium cumini_blood circulation and purification,,,,allium sativum_digestion
 33,papaver somniferum,crocus sativus,,,cucurbita maxima_diabetes,curcuma zedoria_blood purification,,,,lagenaria siceraria_weight loss
 34,crocus sativus,acacia karoo,,,cucurbita maxima_cancer,curcuma zedoria_tonic,,,,lagenaria siceraria_digestion
@@ -39,22 +39,22 @@
 37,aloe vera,allium sativum,,,juglans regia_diabetes,anacardium occidentale_strength,,,,capsicum annuum_digestion
 38,allium sativum,lagenaria siceraria,,,juglans regia_arthritis,bunium persicum_digestive aid,,,,raphanus sativus_blood pressure
 39,lagenaria siceraria,murraya koenigii,,,juglans regia_cholesterol,piper nigrum_digestion,,,,azadirachta indica_blood purifier
-40,murraya koenigii,syzygium aromaticum,,,plectranthus amboinicus_colds,juglans regia_essential fatty oil,,,,citrus limon_skin to lighten
-41,syzygium aromaticum,glycyrrhiza glabra,,,plectranthus amboinicus_congestion,nigella sativa_diabetes,,,,citrus limon_skin lighter
+40,murraya koenigii,syzygium aromaticum,,,plectranthus amboinicus_colds,juglans regia_essential fatty oil,,,,citrus limon_skin lighter
+41,syzygium aromaticum,glycyrrhiza glabra,,,plectranthus amboinicus_congestion,nigella sativa_diabetes,,,,citrus limon_skin to lighten
 42,glycyrrhiza glabra,trigonella foenum-graecum,,,momordica charantia_diabetes,nigella sativa_pain,,,,cassia_blood tonic/ purifier
 43,trigonella foenum-graecum,capsicum annuum,,,momordica charantia_blood purifier,nigella sativa_arthritis,,,,cassia absus_blood tonic/ purifier
 44,capsicum annuum,raphanus sativus,,,papaver somniferum_diarrhoea,momordica charantia_vitamins,,,,prunus dulcis_mental stamina/ memory
-45,raphanus sativus,moringa oleifera,,,papaver somniferum_arthritis/ pain,papaver somniferum_digestion,,,,prunus dulcis_energy
-46,moringa oleifera,cocos nucifera,,,acacia karoo_colds & flu,crocus sativus_enriches blood,,,,prunus dulcis_skin and hair vitality
+45,raphanus sativus,moringa oleifera,,,papaver somniferum_arthritis/ pain,papaver somniferum_digestion,,,,prunus dulcis_skin and hair vitality
+46,moringa oleifera,cocos nucifera,,,acacia karoo_colds & flu,crocus sativus_enriches blood,,,,prunus dulcis_energy
 47,moringa,azadirachta indica,,,aloe vera_burns,crocus sativus_digestion,,,,roas sp_reduces spots
 48,cocos nucifera,citrus limon,,,aloe vera_diabetes,acacia karoo_oral hygiene,,,,roas sp_skin cleanser
 49,azadirachta indica,,,,aloe vera_itchy skin,anethum graveolens_digestion,,,,roas sp_eye health & vision
-50,citrus limon,,,,aloe vera_skin conditions,allium sativum_improves circulation,,,,rosa sp_eye health
-51,,,,,aloe vera_arthritis,allium sativum_antibacterial,,,,rosa sp_digestion
+50,citrus limon,,,,aloe vera_skin conditions,allium sativum_improves circulation,,,,rosa sp_digestion
+51,,,,,aloe vera_arthritis,allium sativum_antibacterial,,,,rosa sp_eye health
 52,,,,,aloe vera_eczema,allium sativum_thins the blood,,,,anacardium occidentale_strength
 53,,,,,allium sativum_earache,allium sativum_digestion,,,,anethum graveolens_digestion
-54,,,,,allium sativum_skin conditions,lagenaria siceraria_weight loss,,,,cocos nucifera_skin conditioning
-55,,,,,allium sativum_arthritis,lagenaria siceraria_digestion,,,,cocos nucifera_hair health and growth
+54,,,,,allium sativum_skin conditions,lagenaria siceraria_weight loss,,,,cocos nucifera_hair health and growth
+55,,,,,allium sativum_arthritis,lagenaria siceraria_digestion,,,,cocos nucifera_skin conditioning
 56,,,,,lagenaria siceraria_diabetes,murraya koenigii_digestion,,,,cocos nucifera_general health
 57,,,,,murraya koenigii_diabetes,glycyrrhiza glabra_digestion,,,,terminalia bellirica_digestion
 58,,,,,syzygium aromaticum_headache,trigonella foenum-graecum_digestion,,,,myristica fragrans_digestion

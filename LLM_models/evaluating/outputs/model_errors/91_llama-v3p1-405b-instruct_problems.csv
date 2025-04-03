@@ -1,5 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,liriodendron tulipifera,liriodendron tulipifera,,c.elastica,,castilla elastica_waterproofing,,,castilla elastica_coagulation,
+0,liriodendron tulipifera,liriodendron tulipifera,,,,castilla elastica_waterproofing,,,castilla elastica_coagulation,
 1,tectona grandis,tectona grandis,,,,,,,ipomoea alba_coagulation,
 2,swietenia mahogani,swietenia mahogani,,,,,,,,
 3,swietenia,dalbergia nigra,,,,,,,,
@@ -165,6 +165,7 @@
 163,microberlinia brazzivillensis,,,,,,,,,
 164,quercus suber,,,,,,,,,
 165,castilla,,,,,,,,,
-166,ipomoea alba,,,,,,,,,
-167,siphonia brasiliensis,,,,,,,,,
-168,hancornia speciosa,,,,,,,,,
+166,c.elastica,,,,,,,,,
+167,ipomoea alba,,,,,,,,,
+168,siphonia brasiliensis,,,,,,,,,
+169,hancornia speciosa,,,,,,,,,

@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,lycium barbarum,lycium barbarum,crataegus,,lycium barbarum_diabetes mellitus,crataegus_hypertension,lycium barbarum_dyslipidaemia,lycium barbarum_hypoglycemic activity,crataegus_release blood stasis,
-1,,,phyllanthus emblica,,,crataegus_coronary heart disease,lycium barbarum_metabolic syndrome,lycium barbarum_lower blood pressure,crataegus_increase serum hdl cholesterol,
+0,lycium barbarum,lycium barbarum,crataegus,,lycium barbarum_diabetes mellitus,crataegus_hypertension,lycium barbarum_metabolic syndrome,lycium barbarum_hypoglycemic activity,crataegus_release blood stasis,
+1,,,phyllanthus emblica,,,crataegus_coronary heart disease,lycium barbarum_dyslipidaemia,lycium barbarum_lower blood pressure,crataegus_increase serum hdl cholesterol,
 2,,,,,,crataegus_obesity,,lycium barbarum_reduce blood sugar,crataegus_lower blood pressure,
 3,,,,,,crataegus_hyperlipidemia,,,crataegus_prevent atherosclerosis,
 4,,,,,,lycium barbarum_high cholesterol,,,crataegus_promote blood circulation,

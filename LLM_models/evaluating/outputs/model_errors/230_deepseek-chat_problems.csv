@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,o. dictamnus,o. dictamnus,,c. creticus subsp. eriocephalus,o. dictamnus_mild gastrointestinal disorders,satureja montana_cough,c. creticus subsp. eriocephalus_flu,thymus thracicus velen_antioxidant,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet_anti-neuraminidase,o. dictamnus_relaxing effect
 1,satureja montana,satureja montana,,thymus spp,o. dictamnus_relief of cough associated with cold,stachys iva_cough,c. creticus subsp. eriocephalus_influenza a h1n1 strains,thymus thracicus velen_anti-inflammatory,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet_anti-influenza,artocarpus tonkinensis_decreases th17 cell function
-2,stachys iva,stachys iva,,cistus incanus l,o. dictamnus_bruises,sideritis sp_cough,c. creticus subsp. eriocephalus_cold symptoms,artocarpus tonkinensis_anti-inflammatory,,c. creticus subsp. eriocephalus_anti-influenza
-3,sideritis sp,sideritis sp,,c. creticus subsp,o. dictamnus_wound healing of skin inflammations,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet_flu,,,,c. creticus subsp. eriocephalus_anti-neuraminidase
-4,achillea coarcata,achillea coarcata,,,satureja montana_symptoms of the common flu,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet_cold symptoms,,,,c. creticus subsp. eriocephalus_inhibiting influenza virus
+2,stachys iva,stachys iva,,cistus incanus l,o. dictamnus_bruises,sideritis sp_cough,c. creticus subsp. eriocephalus_cold symptoms,artocarpus tonkinensis_anti-inflammatory,,c. creticus subsp. eriocephalus_anti-neuraminidase
+3,sideritis sp,sideritis sp,,c. creticus subsp,o. dictamnus_wound healing of skin inflammations,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet_flu,,,,c. creticus subsp. eriocephalus_inhibiting influenza virus
+4,achillea coarcata,achillea coarcata,,,satureja montana_symptoms of the common flu,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet_cold symptoms,,,,c. creticus subsp. eriocephalus_anti-influenza
 5,teucrium,teucrium,,,stachys iva_symptoms of the common flu,,,,,
 6,chamomilla recutita,chamomilla recutita,,,sideritis sp_symptoms of the common flu,,,,,
 7,salvia sclarea,salvia sclarea,,,achillea coarcata_hypertension,,,,,

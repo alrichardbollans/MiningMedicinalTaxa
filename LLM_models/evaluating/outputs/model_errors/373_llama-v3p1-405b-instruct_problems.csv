@@ -1,25 +1,21 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,achillea millefolium l,achillea millefolium l,tanacetum vulgare l,thymusserpylluml,,achillea millefolium l_diabetes,schisandra chinensis(turcz.) bail_exhaustion,,achillea millefolium l_anti-inflammatory,thymusserpylluml_expectorant
-1,origanum vulgare l,origanum vulgare l,schisandra chinensis (turcz.) bail,tiliacordatamill,,achillea millefolium l_cancer,,,achillea millefolium l_antibiotic,tiliacordatamill_diaphoretic
-2,vaccinium myrtillus l,vaccinium myrtillus l,camellia sinensis (l.) kuntze,t.platyphyllosscop,,tanacetum vulgare l_high blood pressure,,,tanacetum vulgare l_diuretic,tiliacordatamill_sudorific
-3,viburnum opulus l,viburnum opulus l,,tussilagofarfaral,,tanacetum vulgare l_inflammation,,,tanacetum vulgare l_stimulant,t.platyphyllosscop_diaphoretic
-4,sorbus aucuparia l,sorbus aucuparia l,,urticadioical,,origanum vulgare l_diabetes,,,origanum vulgare l_anti-inflammatory,t.platyphyllosscop_sudorific
-5,betula pendula roth,betula pendula roth,,vacciniummyrtillusl,,origanum vulgare l_cancer,,,origanum vulgare l_antibiotic,tussilagofarfaral_expectorant
-6,b. pubescens ehrh,betula pubescens ehrh,,vacciniumvitis-idaeal,,vaccinium myrtillus l_high blood pressure,,,vaccinium myrtillus l_diuretic,urticadioical_haemostatic
-7,,,,valerianaofficinalisl,,vaccinium myrtillus l_inflammation,,,vaccinium myrtillus l_stimulant,vacciniummyrtillusl_astringent
-8,,,,viburnumopulusl,,viburnum opulus l_diabetes,,,viburnum opulus l_anti-inflammatory,vacciniumvitis-idaeal_diuretic
-9,,,,violatricolorl,,viburnum opulus l_cancer,,,viburnum opulus l_antibiotic,valerianaofficinalisl_sedative
-10,,,,v.arvensismurray,,sorbus aucuparia l_high blood pressure,,,sorbus aucuparia l_diuretic,viburnumopulusl_hemostatic
-11,,,,aralia elata (miq.)seem,,sorbus aucuparia l_inflammation,,,sorbus aucuparia l_stimulant,violatricolorl_expectorant
-12,,,,aralia,,schisandra chinensis (turcz.) bail_diabetes,,,schisandra chinensis (turcz.) bail_anti-inflammatory,v.arvensismurray_expectorant
-13,,,,schisandra chinensis(turcz.) bail,,schisandra chinensis (turcz.) bail_cancer,,,schisandra chinensis (turcz.) bail_antibiotic,aralia elata (miq.)seem_tonic
-14,,,,capsella bursa-pastoris (l.) medik,,betula pendula roth_high blood pressure,,,betula pendula roth_diuretic,aralia_tonic
-15,,,,cyanus segetum hill,,betula pendula roth_inflammation,,,betula pendula roth_stimulant,schisandra chinensis(turcz.) bail_tonic
-16,,,,centaurea cyanus l,,betula pubescens ehrh_diabetes,,,betula pubescens ehrh_anti-inflammatory,schisandra chinensis(turcz.) bail_night vision
-17,,,,plantago major l,,betula pubescens ehrh_cancer,,,betula pubescens ehrh_antibiotic,"schisandra chinensis(turcz.) bail_reduce hunger, thirst"
-18,,,,urtica dioical,,camellia sinensis (l.) kuntze_high blood pressure,,,camellia sinensis (l.) kuntze_diuretic,
-19,,,,crataegusspp,,camellia sinensis (l.) kuntze_inflammation,,,camellia sinensis (l.) kuntze_stimulant,
-20,,,,rosa spp,,,,,,
-21,,,,prunus padus l,,,,,,
-22,,,,tanacetum vulgarel,,,,,,
-23,,,,camelliasinensis (l.) kuntze,,,,,,
+0,achillea millefolium l,achillea millefolium l,,thymusserpylluml,,achillea millefolium l_diabetes,schisandra chinensis(turcz.) bail_exhaustion,,achillea millefolium l_anti-inflammatory,thymusserpylluml_expectorant
+1,tanacetum vulgarel,tanacetum vulgare l,,tiliacordatamill,,achillea millefolium l_cancer,,,achillea millefolium l_antibiotic,tiliacordatamill_diaphoretic
+2,origanum vulgare l,origanum vulgare l,,t.platyphyllosscop,,tanacetum vulgare l_high blood pressure,,,tanacetum vulgare l_diuretic,tiliacordatamill_sudorific
+3,vacciniummyrtillusl,vaccinium myrtillus l,,tussilagofarfaral,,tanacetum vulgare l_inflammation,,,tanacetum vulgare l_stimulant,t.platyphyllosscop_diaphoretic
+4,vaccinium myrtillus l,viburnum opulus l,,urticadioical,,origanum vulgare l_diabetes,,,origanum vulgare l_anti-inflammatory,t.platyphyllosscop_sudorific
+5,viburnumopulusl,sorbus aucuparia l,,vacciniumvitis-idaeal,,origanum vulgare l_cancer,,,origanum vulgare l_antibiotic,tussilagofarfaral_expectorant
+6,viburnum opulus l,schisandra chinensis (turcz.) bail,,valerianaofficinalisl,,vaccinium myrtillus l_high blood pressure,,,vaccinium myrtillus l_diuretic,urticadioical_haemostatic
+7,sorbus aucuparia l,betula pendula roth,,violatricolorl,,vaccinium myrtillus l_inflammation,,,vaccinium myrtillus l_stimulant,vacciniummyrtillusl_astringent
+8,schisandra chinensis(turcz.) bail,betula pubescens ehrh,,v.arvensismurray,,viburnum opulus l_diabetes,,,viburnum opulus l_anti-inflammatory,vacciniumvitis-idaeal_diuretic
+9,betula pendula roth,camellia sinensis (l.) kuntze,,aralia elata (miq.)seem,,viburnum opulus l_cancer,,,viburnum opulus l_antibiotic,valerianaofficinalisl_sedative
+10,b. pubescens ehrh,,,aralia,,sorbus aucuparia l_high blood pressure,,,sorbus aucuparia l_diuretic,viburnumopulusl_hemostatic
+11,camelliasinensis (l.) kuntze,,,capsella bursa-pastoris (l.) medik,,sorbus aucuparia l_inflammation,,,sorbus aucuparia l_stimulant,violatricolorl_expectorant
+12,,,,cyanus segetum hill,,schisandra chinensis (turcz.) bail_diabetes,,,schisandra chinensis (turcz.) bail_anti-inflammatory,v.arvensismurray_expectorant
+13,,,,centaurea cyanus l,,schisandra chinensis (turcz.) bail_cancer,,,schisandra chinensis (turcz.) bail_antibiotic,aralia elata (miq.)seem_tonic
+14,,,,plantago major l,,betula pendula roth_high blood pressure,,,betula pendula roth_diuretic,aralia_tonic
+15,,,,urtica dioical,,betula pendula roth_inflammation,,,betula pendula roth_stimulant,schisandra chinensis(turcz.) bail_tonic
+16,,,,crataegusspp,,betula pubescens ehrh_diabetes,,,betula pubescens ehrh_anti-inflammatory,schisandra chinensis(turcz.) bail_night vision
+17,,,,rosa spp,,betula pubescens ehrh_cancer,,,betula pubescens ehrh_antibiotic,"schisandra chinensis(turcz.) bail_reduce hunger, thirst"
+18,,,,prunus padus l,,camellia sinensis (l.) kuntze_high blood pressure,,,camellia sinensis (l.) kuntze_diuretic,
+19,,,,,,camellia sinensis (l.) kuntze_inflammation,,,camellia sinensis (l.) kuntze_stimulant,

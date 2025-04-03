@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,pinus,pinus peuce griseb,,pinuspeuce,pinus peuce griseb_urinary system disorders,,,pinus peuce griseb_antitumorial,pinus peuce griseb_expectorant,pinus_tonics
-1,pinus peuce,pinus sylvestris,,pinus l,pinus peuce griseb_wounds,,,pinus peuce griseb_cholesterol lowering,pinus peuce griseb_tonic,pinus_expectorants
-2,pinus sylvestris,pinus nigra,,pinus peucegriseb,pinus peuce griseb_common cold,,,pinus peuce griseb_antioxidant,pinus peuce griseb_analgesic,pinus_antimicrobial
-3,pinus nigra,pinus mugo,,,pinus peuce griseb_skin diseases,,,pinus peuce griseb_antibacterial,pinus sylvestris_expectorant,pinus_analgesics
-4,pinus mugo,,,,pinus peuce griseb_bronchitis,,,pinus peuce griseb_antiseptic,pinus sylvestris_tonic,pinus_antisep-tics
-5,,,,,pinus peuce griseb_respiratory system disorders,,,pinus sylvestris_antitumorial,pinus sylvestris_analgesic,
+0,pinus,pinus peuce griseb,,pinuspeuce,pinus peuce griseb_urinary system disorders,,,pinus peuce griseb_antitumorial,pinus peuce griseb_expectorant,pinus_analgesics
+1,pinus peuce,pinus sylvestris,,pinus l,pinus peuce griseb_wounds,,,pinus peuce griseb_cholesterol lowering,pinus peuce griseb_tonic,pinus_tonics
+2,pinus peucegriseb,pinus nigra,,,pinus peuce griseb_common cold,,,pinus peuce griseb_antioxidant,pinus peuce griseb_analgesic,pinus_antimicrobial
+3,pinus sylvestris,pinus mugo,,,pinus peuce griseb_skin diseases,,,pinus peuce griseb_antibacterial,pinus sylvestris_expectorant,pinus_expectorants
+4,pinus nigra,,,,pinus peuce griseb_bronchitis,,,pinus peuce griseb_antiseptic,pinus sylvestris_tonic,pinus_antisep-tics
+5,pinus mugo,,,,pinus peuce griseb_respiratory system disorders,,,pinus sylvestris_antitumorial,pinus sylvestris_analgesic,
 6,,,,,pinus peuce griseb_asthma,,,pinus sylvestris_cholesterol lowering,pinus nigra_expectorant,
 7,,,,,pinus peuce griseb_digestive system diseases,,,pinus sylvestris_antioxidant,pinus nigra_tonic,
 8,,,,,pinus sylvestris_urinary system disorders,,,pinus sylvestris_antibacterial,pinus nigra_analgesic,

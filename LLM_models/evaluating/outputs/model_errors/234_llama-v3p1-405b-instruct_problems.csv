@@ -1,14 +1,14 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,p. zombamontana,p. zombamontana,staphylococcus aureus,s. gerrardii,syzygium_mastitis,p. zombamontana_infection,s. gerrardii_mastitis,p. zombamontana_antioxidant,eugenia_antimicrobial,p. zombamontana_cytotoxicity
-1,eugenia,eugenia,oregano,,,eugenia_mastitis,,p. zombamontana_anti-inflammatory,syzygium_antimicrobial,p. zombamontana_protecting poultry against infection
+0,p. zombamontana,p. zombamontana,staphylococcus aureus,s. gerrardii,syzygium_mastitis,p. zombamontana_infection,s. gerrardii_mastitis,p. zombamontana_antioxidant,eugenia_antimicrobial,p. zombamontana_protecting poultry against infection
+1,eugenia,eugenia,oregano,,,eugenia_mastitis,,p. zombamontana_anti-inflammatory,syzygium_antimicrobial,p. zombamontana_cytotoxicity
 2,syzygium,syzygium,thyme,,,,,,oregano_antimicrobial,eugenia_cytotoxicity
-3,syzygium legatii,linum usitatissimum,greek mountain tea,,,,,,thyme_antimicrobial,eugenia_antibacterial
-4,syzygium gerrardii,cannabis sativa,chamomile,,,,,,greek mountain tea_antimicrobial,eugenia_against staphylococcus aureus
-5,linum usitatissimum,lupinus albus,carvacrol,,,,,,chamomile_antimicrobial,syzygium_antibacterial
-6,cannabis sativa,,cinnamaldehyde,,,,,,carvacrol_antimicrobial,syzygium_against staphylococcus aureus
-7,cannabis,,estragol,,,,,,cinnamaldehyde_antimicrobial,syzygium legatii_antibacterial
-8,lupinus albus,,p-cymene,,,,,,estragol_antimicrobial,syzygium legatii_anti-staphylococcal
-9,,,,,,,,,p-cymene_antimicrobial,s. gerrardii_antibacterial
-10,,,,,,,,,linum usitatissimum_modification of the fatty acid profile,s. gerrardii_anti-staphylococcal
+3,syzygium legatii,linum usitatissimum,greek mountain tea,,,,,,thyme_antimicrobial,eugenia_against staphylococcus aureus
+4,syzygium gerrardii,cannabis sativa,chamomile,,,,,,greek mountain tea_antimicrobial,eugenia_antibacterial
+5,linum usitatissimum,lupinus albus,carvacrol,,,,,,chamomile_antimicrobial,syzygium_against staphylococcus aureus
+6,cannabis sativa,,cinnamaldehyde,,,,,,carvacrol_antimicrobial,syzygium_antibacterial
+7,cannabis,,estragol,,,,,,cinnamaldehyde_antimicrobial,syzygium legatii_anti-staphylococcal
+8,lupinus albus,,p-cymene,,,,,,estragol_antimicrobial,syzygium legatii_antibacterial
+9,,,,,,,,,p-cymene_antimicrobial,s. gerrardii_anti-staphylococcal
+10,,,,,,,,,linum usitatissimum_modification of the fatty acid profile,s. gerrardii_antibacterial
 11,,,,,,,,,cannabis sativa_modification of the fatty acid profile,syzygium gerrardii_higher toxicity to bacteria
 12,,,,,,,,,lupinus albus_modification of the fatty acid profile,

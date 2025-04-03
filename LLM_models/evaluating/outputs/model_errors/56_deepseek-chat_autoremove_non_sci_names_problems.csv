@@ -1,10 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,crataegus laevigata,crataegus laevigata,crataegus pinnatifida,crataegus pinnatifi da,,lycium barbarum_diabetes,,,stevia rebaudiana bertoni_sweetener,stevia rebaudiana bertoni_reduce blood sugar levels
+0,crataegus laevigata,crataegus laevigata,,,,lycium barbarum_diabetes,,,stevia rebaudiana bertoni_sweetener,stevia rebaudiana bertoni_reduce blood sugar levels
 1,crataegus monogyna,crataegus monogyna,,,,lycium barbarum_heart conditions,,,,
 2,crataegus oxycantha,crataegus oxycantha,,,,stevia rebaudiana bertoni_diabetes,,,,
-3,lycium barbarum,lycium barbarum,,,,stevia rebaudiana bertoni_obesity,,,,
-4,stevia rebaudiana bertoni,stevia rebaudiana bertoni,,,,,,,,
-5,stevia rebaudiana,argania spinosa l,,,,,,,,
-6,stevia,canaria indicum l,,,,,,,,
-7,argania spinosa l,,,,,,,,,
-8,canaria indicum l,,,,,,,,,
+3,crataegus pinnatifi da,crataegus pinnatifida,,,,stevia rebaudiana bertoni_obesity,,,,
+4,lycium barbarum,lycium barbarum,,,,,,,,
+5,stevia rebaudiana bertoni,stevia rebaudiana bertoni,,,,,,,,
+6,stevia rebaudiana,argania spinosa l,,,,,,,,
+7,stevia,canaria indicum l,,,,,,,,
+8,argania spinosa l,,,,,,,,,
+9,canaria indicum l,,,,,,,,,

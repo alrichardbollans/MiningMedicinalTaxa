@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,hypericum perforatum,hypericum perforatum,,,hypericum perforatum_melancholia,,hypericum perforatum_burns,hypericum perforatum_diuretic,hypericum perforatum_arnica for the nerves,hypericum perforatum_curing demoniacs
-1,,,,,hypericum perforatum_disturbances of understanding,,hypericum perforatum_parasites,,,
-2,,,,,hypericum perforatum_anxiety,,hypericum perforatum_wounds,,,
+0,hypericum perforatum,hypericum perforatum,,,hypericum perforatum_melancholia,,hypericum perforatum_phantasmata,hypericum perforatum_diuretic,hypericum perforatum_arnica for the nerves,hypericum perforatum_curing demoniacs
+1,,,,,hypericum perforatum_disturbances of understanding,,hypericum perforatum_wounds,,,
+2,,,,,hypericum perforatum_anxiety,,hypericum perforatum_parasites,,,
 3,,,,,hypericum perforatum_depression,,hypericum perforatum_illnesses of the imagination,,,
-4,,,,,,,hypericum perforatum_phantasmata,,,
-5,,,,,,,hypericum perforatum_snakebites,,,
+4,,,,,,,hypericum perforatum_snakebites,,,
+5,,,,,,,hypericum perforatum_burns,,,

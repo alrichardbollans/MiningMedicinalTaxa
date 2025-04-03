@@ -1,0 +1,17 @@
+,ground truth,model output
+0,berberis aristata_antiprotozoal,berberis asiatica_antiprotozoal
+1,mandragora officinarum_aphrodisiacs,mandragora officinarum_aphrodisiac
+2,ajuga laxmanniiin_anti-inflammatory,ajuga laxmannii_anti-inflammatory
+3,chamaecrista moench_laxatives,chamaecrista moench_laxative
+4,senna mill_laxatives,senna mill_laxative
+5,cassia l_laxatives,cassia l_laxative
+6,mikania micrantha_inhibit melanin production,mikania micrantha_inhibition of melanin production
+7,mikania micrantha_inhibits melanin production,mikania micrantha_inhibition of melanin production
+8,citrullus colocynth_anti-cancer,citrullus colocynthis_anticancer
+9,angelica archangelica_diuresis,angelica archangelica_diuretic
+10,berheris fremontii_anti-microbial,berberis fremontii_antimicrobial
+11,schisandra chinensis(turcz.) bail_tonic,schisandra chinensis (turcz.) bail_antibiotic
+12,scrophularia oldhamii oliv_antipyretic,scrophularia oldhamii oliv_antibiotic
+13,scrophularia cryptophilaboiss. et. heldr. boiss_diuretic,scrophularia cryptophila boiss. et. heldr. boiss_antibiotic
+14,lavandulaangustifolia_antidepressant-like,lavandula angustifolia_antidepressant
+15,syringa vulgaris l_pro-inflammatory,syringa vulgaris l_anti-inflammatory

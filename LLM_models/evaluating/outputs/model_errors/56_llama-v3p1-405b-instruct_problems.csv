@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,crataegus laevigata,crataegus laevigata,crataegus pinnatifida,crataegus pinnatifi da,,crataegus laevigata_diabetes,,,crataegus laevigata_regulation of blood sugars,stevia rebaudiana bertoni_reduce blood sugar levels
-1,crataegus monogyna,crataegus monogyna,nangai nuts (canaria indicum l,argania spinosa l,,crataegus laevigata_heart conditions,,,crataegus laevigata_regulation of blood pressure,
-2,crataegus oxycantha,crataegus oxycantha,noni fruit,canaria indicum l,,crataegus monogyna_diabetes,,,crataegus laevigata_regulation of blood lipids,
-3,lycium barbarum,lycium barbarum,prune kernel oil,,,crataegus monogyna_heart conditions,,,crataegus monogyna_regulation of blood sugars,
-4,stevia rebaudiana bertoni,stevia rebaudiana,argan oil (argania spinosa l,,,crataegus oxycantha_diabetes,,,crataegus monogyna_regulation of blood pressure,
-5,stevia rebaudiana,,emblic leafflower fruit,,,crataegus oxycantha_heart conditions,,,crataegus monogyna_regulation of blood lipids,
-6,stevia,,,,,crataegus pinnatifida_diabetes,,,crataegus oxycantha_regulation of blood sugars,
-7,,,,,,crataegus pinnatifida_heart conditions,,,crataegus oxycantha_regulation of blood pressure,
+0,crataegus laevigata,crataegus laevigata,nangai nuts (canaria indicum l,argania spinosa l,,crataegus laevigata_diabetes,,,crataegus laevigata_regulation of blood sugars,stevia rebaudiana bertoni_reduce blood sugar levels
+1,crataegus monogyna,crataegus monogyna,noni fruit,canaria indicum l,,crataegus laevigata_heart conditions,,,crataegus laevigata_regulation of blood pressure,
+2,crataegus oxycantha,crataegus oxycantha,prune kernel oil,,,crataegus monogyna_diabetes,,,crataegus laevigata_regulation of blood lipids,
+3,crataegus pinnatifi da,crataegus pinnatifida,argan oil (argania spinosa l,,,crataegus monogyna_heart conditions,,,crataegus monogyna_regulation of blood sugars,
+4,lycium barbarum,lycium barbarum,emblic leafflower fruit,,,crataegus oxycantha_diabetes,,,crataegus monogyna_regulation of blood pressure,
+5,stevia rebaudiana bertoni,stevia rebaudiana,,,,crataegus oxycantha_heart conditions,,,crataegus monogyna_regulation of blood lipids,
+6,stevia rebaudiana,,,,,crataegus pinnatifida_diabetes,,,crataegus oxycantha_regulation of blood sugars,
+7,stevia,,,,,crataegus pinnatifida_heart conditions,,,crataegus oxycantha_regulation of blood pressure,
 8,,,,,,lycium barbarum_diabetes,,,crataegus oxycantha_regulation of blood lipids,
 9,,,,,,lycium barbarum_heart conditions,,,crataegus pinnatifida_regulation of blood sugars,
 10,,,,,,stevia rebaudiana_diabetes,,,crataegus pinnatifida_regulation of blood pressure,

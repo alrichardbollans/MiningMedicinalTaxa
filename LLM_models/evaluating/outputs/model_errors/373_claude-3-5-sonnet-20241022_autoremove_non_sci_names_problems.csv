@@ -1,19 +1,30 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,vaccinium myrtillus l,vaccinium myrtillus l,thymus serpyllum l,thymusserpylluml,,,schisandra chinensis(turcz.) bail_exhaustion,aralia elata (miq.) seem_tonic,thymus serpyllum l_expectorant,thymusserpylluml_expectorant
-1,viburnum opulus l,viburnum opulus l,tilia cordata mill,tiliacordatamill,,,,,tilia cordata mill_diaphoretic,tiliacordatamill_diaphoretic
-2,capsella bursa-pastoris (l.) medik,capsella bursa-pastoris (l.) medik,tilia platyphyllos scop,t.platyphyllosscop,,,,,tilia platyphyllos scop_diaphoretic,tiliacordatamill_sudorific
-3,cyanus segetum hill,cyanus segetum hill,tussilago farfara l,tussilagofarfaral,,,,,tussilago farfara l_expectorant,t.platyphyllosscop_diaphoretic
-4,centaurea cyanus l,centaurea cyanus l,urtica dioica l,urticadioical,,,,,urtica dioica l_haemostatic,t.platyphyllosscop_sudorific
-5,plantago major l,plantago major l,vaccinium vitis-idaea l,vacciniummyrtillusl,,,,,vaccinium myrtillus l_astringent,tussilagofarfaral_expectorant
-6,aralia,aralia elata (miq.) seem,valeriana officinalis l,vacciniumvitis-idaeal,,,,,vaccinium vitis-idaea l_diuretic,urticadioical_haemostatic
-7,prunus padus l,prunus padus l,viola tricolor l,valerianaofficinalisl,,,,,valeriana officinalis l_sedative,vacciniummyrtillusl_astringent
-8,sorbus aucuparia l,sorbus aucuparia l,viola arvensis murray,viburnumopulusl,,,,,viburnum opulus l_diaphoretic,vacciniumvitis-idaeal_diuretic
-9,achillea millefolium l,achillea millefolium l,schisandra chinensis (turcz.) bail,violatricolorl,,,,,viburnum opulus l_anti-inflammatory,valerianaofficinalisl_sedative
-10,origanum vulgare l,origanum vulgare l,tanacetum vulgare l,v.arvensismurray,,,,,viburnum opulus l_haemostatic,viburnumopulusl_hemostatic
-11,betula pendula roth,betula pendula roth,camellia sinensis (l.) kuntze,aralia elata (miq.)seem,,,,,viola tricolor l_expectorant,violatricolorl_expectorant
-12,b. pubescens ehrh,betula pubescens ehrh,,schisandra chinensis(turcz.) bail,,,,,viola arvensis murray_expectorant,v.arvensismurray_expectorant
-13,,,,urtica dioical,,,,,schisandra chinensis (turcz.) bail_tonic,aralia elata (miq.)seem_tonic
-14,,,,crataegusspp,,,,,,schisandra chinensis(turcz.) bail_tonic
-15,,,,rosa spp,,,,,,schisandra chinensis(turcz.) bail_night vision
-16,,,,tanacetum vulgarel,,,,,,"schisandra chinensis(turcz.) bail_reduce hunger, thirst"
-17,,,,camelliasinensis (l.) kuntze,,,,,,
+0,thymusserpylluml,thymus serpyllum l,,crataegusspp,,,schisandra chinensis(turcz.) bail_exhaustion,thymus serpyllum l_expectorant,viburnum opulus l_diaphoretic,tiliacordatamill_sudorific
+1,tiliacordatamill,tilia cordata mill,,rosa spp,,,,tilia cordata mill_diaphoretic,viburnum opulus l_anti-inflammatory,t.platyphyllosscop_sudorific
+2,t.platyphyllosscop,tilia platyphyllos scop,,,,,,tilia platyphyllos scop_diaphoretic,viburnum opulus l_haemostatic,viburnumopulusl_hemostatic
+3,tussilagofarfaral,tussilago farfara l,,,,,,tussilago farfara l_expectorant,,schisandra chinensis(turcz.) bail_night vision
+4,urticadioical,urtica dioica l,,,,,,urtica dioica l_haemostatic,,"schisandra chinensis(turcz.) bail_reduce hunger, thirst"
+5,urtica dioical,vaccinium myrtillus l,,,,,,vaccinium myrtillus l_astringent,,
+6,vacciniummyrtillusl,vaccinium vitis-idaea l,,,,,,vaccinium vitis-idaea l_diuretic,,
+7,vaccinium myrtillus l,valeriana officinalis l,,,,,,valeriana officinalis l_sedative,,
+8,vacciniumvitis-idaeal,viburnum opulus l,,,,,,viola tricolor l_expectorant,,
+9,valerianaofficinalisl,viola tricolor l,,,,,,viola arvensis murray_expectorant,,
+10,viburnumopulusl,viola arvensis murray,,,,,,aralia elata (miq.) seem_tonic,,
+11,viburnum opulus l,capsella bursa-pastoris (l.) medik,,,,,,schisandra chinensis (turcz.) bail_tonic,,
+12,violatricolorl,cyanus segetum hill,,,,,,,,
+13,v.arvensismurray,centaurea cyanus l,,,,,,,,
+14,capsella bursa-pastoris (l.) medik,plantago major l,,,,,,,,
+15,cyanus segetum hill,aralia elata (miq.) seem,,,,,,,,
+16,centaurea cyanus l,prunus padus l,,,,,,,,
+17,plantago major l,sorbus aucuparia l,,,,,,,,
+18,aralia elata (miq.)seem,schisandra chinensis (turcz.) bail,,,,,,,,
+19,aralia,achillea millefolium l,,,,,,,,
+20,prunus padus l,tanacetum vulgare l,,,,,,,,
+21,sorbus aucuparia l,origanum vulgare l,,,,,,,,
+22,schisandra chinensis(turcz.) bail,betula pendula roth,,,,,,,,
+23,achillea millefolium l,betula pubescens ehrh,,,,,,,,
+24,tanacetum vulgarel,camellia sinensis (l.) kuntze,,,,,,,,
+25,origanum vulgare l,,,,,,,,,
+26,betula pendula roth,,,,,,,,,
+27,b. pubescens ehrh,,,,,,,,,
+28,camelliasinensis (l.) kuntze,,,,,,,,,

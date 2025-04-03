@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,angraecum fragrans,angraecum fragrans,caryota urens,protea,,serenoa repens_prostate,,harpagophytum procumbens_analgesic,areca catechu_psychoactive,sanguinaria canadensis_expectorant
-1,vanilla planifolia,vanilla planifolia,piper betle,aconitum napellu,,polygala senega_snakebite,,harpagophytum procumbens_anti-inflammatory,daemonorops spp_medicine,sanguinaria canadensis_emetic
+0,angraecum fragrans,angraecum fragrans,caryota urens,protea,,serenoa repens_prostate,,harpagophytum procumbens_analgesic,areca catechu_psychoactive,sanguinaria canadensis_emetic
+1,vanilla planifolia,vanilla planifolia,piper betle,aconitum napellu,,polygala senega_snakebite,,harpagophytum procumbens_anti-inflammatory,daemonorops spp_medicine,sanguinaria canadensis_expectorant
 2,averrhoa bilimbi,averrhoa bilimbi,aconitum napellus,pausinystalia yohimb,,prunus africana_bph,,plantago afra_laxative,serenoa repens_medicine,
 3,averrhoa carambola,averrhoa carambola,zizyphus jujuba,,,brunfelsia uniflora_syphilis,,rhamnus cathartica_laxative,argemone mexicana_psychoactive,
 4,oxalis tuberosa,oxalis tuberosa,pausinystalia yohimbe,,,,,rhamnus purshiana_laxative,papaver bracteatum_medicinal alkaloid (thebaine,

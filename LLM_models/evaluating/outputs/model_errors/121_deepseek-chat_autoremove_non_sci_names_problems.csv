@@ -1,7 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,penicillium notatum,penicillium notatum,atropa belladonna,cassia,penicillium notatum_bacterial infections,,,,penicillium notatum_antibiotic,
+0,penicillium notatum,penicillium notatum,,cassia,penicillium notatum_bacterial infections,,,,penicillium notatum_antibiotic,
 1,physostigma venenosum,physostigma venenosum,,derrisspp,cinchona spp_malaria,,,,physostigma venenosum_toxic alkaloid,
-2,cinchona spp,cinchona spp,,atropabelladonna,rauvolfia serpentina_schizophrenia,,,,atropa belladonna_used in obstetrics,
-3,rauvolfia serpentina,rauvolfia serpentina,,capsicum,rauvolfia serpentina_hypertension,,,,strychnos nux-vomica_produces violent convulsions,
-4,strychnos nux-vomica,strychnos nux-vomica,,solanum spp,,,,,strychnos nux-vomica_stimulates central nervous system,
-5,cannabis sativa,cannabis sativa,,citrus,,,,,cannabis sativa_psychoactive,
+2,cinchona spp,cinchona spp,,capsicum,rauvolfia serpentina_schizophrenia,,,,atropa belladonna_used in obstetrics,
+3,rauvolfia serpentina,rauvolfia serpentina,,solanum spp,rauvolfia serpentina_hypertension,,,,strychnos nux-vomica_produces violent convulsions,
+4,atropabelladonna,atropa belladonna,,citrus,,,,,strychnos nux-vomica_stimulates central nervous system,
+5,strychnos nux-vomica,strychnos nux-vomica,,,,,,,cannabis sativa_psychoactive,
+6,cannabis sativa,cannabis sativa,,,,,,,,

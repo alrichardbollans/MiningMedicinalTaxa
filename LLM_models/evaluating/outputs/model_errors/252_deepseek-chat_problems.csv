@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,eryngium cymosum f. delaroche,eryngium cymosum f. delaroche,,,ageratina petiolaris_type 2 diabetes (t2d,eryngium cymosum f. delaroche_type 2 diabetes (t2d,ageratina petiolaris_insulin resistance,eryngium cymosum f. delaroche_anti-hyperglycemic,pinaropappus roseus less_antiproliferative,myristica fragrans_memory promotion
-1,e. cymosum,ageratina petiolaris,,,cecropia obtusifolia_type 2 diabetes (t2d,pinaropappus roseus less_cancer pathologies,cecropia obtusifolia_insulin resistance,eryngium cymosum f. delaroche_hypoglycemic,,myristica fragrans_anti-cerebral ischemia
+0,eryngium cymosum f. delaroche,eryngium cymosum f. delaroche,,,ageratina petiolaris_type 2 diabetes (t2d,eryngium cymosum f. delaroche_type 2 diabetes (t2d,ageratina petiolaris_insulin resistance,eryngium cymosum f. delaroche_anti-hyperglycemic,pinaropappus roseus less_antiproliferative,myristica fragrans_anti-cerebral ischemia
+1,e. cymosum,ageratina petiolaris,,,cecropia obtusifolia_type 2 diabetes (t2d,pinaropappus roseus less_cancer pathologies,cecropia obtusifolia_insulin resistance,eryngium cymosum f. delaroche_hypoglycemic,,myristica fragrans_memory promotion
 2,ageratina petiolaris,cecropia obtusifolia,,,equisetum myriochaetum_type 2 diabetes (t2d,pinaropappus roseus less_gastrointestinal infections,equisetum myriochaetum_insulin resistance,ageratina petiolaris_hypoglycemic,,myristica fragrans_anti-myocardial ischemia
-3,cecropia obtusifolia,equisetum myriochaetum,,,zaleya decandra_ovarian cancer,pinaropappus roseus less_skin infections,zaleya decandra_ovarian teratocarcinoma,cecropia obtusifolia_hypoglycemic,,myristica fragrans_spatial learning
-4,equisetum myriochaetum,aquilaria sinensis,,,,pinaropappus roseus less_inflammatory events,zaleya decandra_asthma,equisetum myriochaetum_hypoglycemic,,zaleya decandra_anti-ovarian cancer
+3,cecropia obtusifolia,equisetum myriochaetum,,,zaleya decandra_ovarian cancer,pinaropappus roseus less_skin infections,zaleya decandra_asthma,cecropia obtusifolia_hypoglycemic,,myristica fragrans_spatial learning
+4,equisetum myriochaetum,aquilaria sinensis,,,,pinaropappus roseus less_inflammatory events,zaleya decandra_ovarian teratocarcinoma,equisetum myriochaetum_hypoglycemic,,zaleya decandra_anti-ovarian cancer
 5,aquilaria sinensis,myristica fragrans,,,,,,aquilaria sinensis_anti-cerebral ischemia,,
 6,myristica fragrans,choerospondias axillaris,,,,,,aquilaria sinensis_anti-myocardial ischemia,,
 7,choerospondias axillaris,boswellia carterii,,,,,,aquilaria sinensis_spatial learning and memory promotion,,

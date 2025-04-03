@@ -1,11 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,eryngium cymosum f. delaroche,eryngium cymosum f. delaroche,,aquilaria sinensis,ageratina petiolaris_t2d,,ageratina petiolaris_insulin resistance,eryngium cymosum f. delaroche_anti-hyperglycemic,,aquilaria sinensis_memory promotion
-1,e. cymosum,e. cymosum,,myristica fragrans,cecropia obtusifolia_t2d,,cecropia obtusifolia_insulin resistance,eryngium cymosum f. delaroche_hypoglycemic,,aquilaria sinensis_anti-myocardial ischemia
-2,ageratina petiolaris,ageratina petiolaris,,choerospondias axillaris,equisetum myriochaetum_t2d,,equisetum myriochaetum_insulin resistance,e. cymosum_hypoglycemic,,aquilaria sinensis_anti-cerebral ischemia
-3,cecropia obtusifolia,cecropia obtusifolia,,boswellia carterii,,,zaleya decandra_ovarian teratocarcinoma,ageratina petiolaris_hypoglycemic,,aquilaria sinensis_spatial learning
-4,equisetum myriochaetum,equisetum myriochaetum,,aucklandia lappa,,,zaleya decandra_ovarian cancer,cecropia obtusifolia_hypoglycemic,,myristica fragrans_memory promotion
-5,zaleya decandra,zaleya decandra,,terminalia chebula,,,zaleya decandra_asthma,equisetum myriochaetum_hypoglycemic,,myristica fragrans_anti-myocardial ischemia
-6,z. decandra,dovyalis caffra l,,gossampinus malabarica,,,z. decandra_ovarian cancer,,,myristica fragrans_anti-cerebral ischemia
-7,dovyalis caffra l,pinaropappus roseus less,,b. bhaw-dajiana,,,,,,myristica fragrans_spatial learning
+0,eryngium cymosum f. delaroche,eryngium cymosum f. delaroche,,aquilaria sinensis,ageratina petiolaris_t2d,,ageratina petiolaris_insulin resistance,eryngium cymosum f. delaroche_anti-hyperglycemic,,aquilaria sinensis_anti-cerebral ischemia
+1,e. cymosum,e. cymosum,,myristica fragrans,cecropia obtusifolia_t2d,,cecropia obtusifolia_insulin resistance,eryngium cymosum f. delaroche_hypoglycemic,,aquilaria sinensis_spatial learning
+2,ageratina petiolaris,ageratina petiolaris,,choerospondias axillaris,equisetum myriochaetum_t2d,,equisetum myriochaetum_insulin resistance,e. cymosum_hypoglycemic,,aquilaria sinensis_anti-myocardial ischemia
+3,cecropia obtusifolia,cecropia obtusifolia,,boswellia carterii,,,zaleya decandra_asthma,ageratina petiolaris_hypoglycemic,,aquilaria sinensis_memory promotion
+4,equisetum myriochaetum,equisetum myriochaetum,,aucklandia lappa,,,zaleya decandra_ovarian teratocarcinoma,cecropia obtusifolia_hypoglycemic,,myristica fragrans_anti-cerebral ischemia
+5,zaleya decandra,zaleya decandra,,terminalia chebula,,,zaleya decandra_ovarian cancer,equisetum myriochaetum_hypoglycemic,,myristica fragrans_spatial learning
+6,z. decandra,dovyalis caffra l,,gossampinus malabarica,,,z. decandra_ovarian cancer,,,myristica fragrans_anti-myocardial ischemia
+7,dovyalis caffra l,pinaropappus roseus less,,b. bhaw-dajiana,,,,,,myristica fragrans_memory promotion
 8,pinaropappus roseus less,,,,,,,,,zaleya decandra_anti-ovarian cancer
 9,,,,,,,,,,z. decandra_anti-proliferative

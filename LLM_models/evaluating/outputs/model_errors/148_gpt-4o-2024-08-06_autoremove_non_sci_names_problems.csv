@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,gaultheria procumbens,gaultheria procumbens,hedeoma pulgioides,calophyllum inophyllum,,hydnocarpus kurzii_leprosy,calophyllum inophyllum_skin disease,cassia fistula_medicine (laxative,gaultheria procumbens_medicine (methyl salicylate,aesculus hippocastanum_cardiovascular
-1,kalmia latifolia,kalmia latifolia,,diospyros kaki,,aesculus hippocastanum_cardiovascular,calophyllum inophyllum_neuralgia,,kalmia latifolia_medicine,
+0,gaultheria procumbens,gaultheria procumbens,hedeoma pulgioides,calophyllum inophyllum,,hydnocarpus kurzii_leprosy,calophyllum inophyllum_neuralgia,cassia fistula_medicine (laxative,gaultheria procumbens_medicine (methyl salicylate,aesculus hippocastanum_cardiovascular
+1,kalmia latifolia,kalmia latifolia,,diospyros kaki,,aesculus hippocastanum_cardiovascular,calophyllum inophyllum_skin disease,,kalmia latifolia_medicine,
 2,erythroxylum coca,erythroxylum coca,,diospyros marmorata,,,,,erythroxylum coca_psychoactive/medicinal alkaloid (cocaine,
 3,erythroxylum novogranatense,erythroxylum novogranatense,,diospyros mollis,,,,,erythroxylum novogranatense_psychoactive alkaloid (cocaine,
 4,cnidoscolus chayamansa,cnidoscolus chayamansa,,diospyros virginiana,,,,,cnidoscolus chayamansa_medicine,

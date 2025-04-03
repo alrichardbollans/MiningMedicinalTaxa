@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,sophora secundiflora,sophora secundiflora,lophophora williamsii,d. inoxia,datura stramonium_bruises,lophophora williamsii_none,d. inoxia_bruises,datura stramonium_aphrodisiac,lophophora williamsii_hallucinations,d. inoxia_anaesthetic
-1,psilocybe mexicana,psilocybe mexicana,,d. meteloides,datura stramonium_asthma,sophora secundiflora_none,d. inoxia_wounds,datura stramonium_anesthetic,lophophora williamsii_depersonalization,d. meteloides_anaesthetic
-2,psilocybe,datura stramonium,,stropharia,datura stramonium_wounds,psilocybe mexicana_none,d. meteloides_bruises,,lophophora williamsii_auditory,
-3,datura,virola calophylla,,conocybe,datura stramonium_inflammation,virola calophylla_none,d. meteloides_wounds,,lophophora williamsii_tactile,
+0,sophora secundiflora,sophora secundiflora,lophophora williamsii,d. inoxia,datura stramonium_bruises,lophophora williamsii_none,d. inoxia_wounds,datura stramonium_aphrodisiac,lophophora williamsii_hallucinations,d. inoxia_anaesthetic
+1,psilocybe mexicana,psilocybe mexicana,,d. meteloides,datura stramonium_asthma,sophora secundiflora_none,d. inoxia_bruises,datura stramonium_anesthetic,lophophora williamsii_depersonalization,d. meteloides_anaesthetic
+2,psilocybe,datura stramonium,,stropharia,datura stramonium_wounds,psilocybe mexicana_none,d. meteloides_wounds,,lophophora williamsii_auditory,
+3,datura,virola calophylla,,conocybe,datura stramonium_inflammation,virola calophylla_none,d. meteloides_bruises,,lophophora williamsii_tactile,
 4,datura stramonium,anadenanthera peregrina,,panaeolus,,anadenanthera peregrina_none,,,lophophora williamsii_olfactory,
 5,virola calophylla,,,v. calophylloidea,,,,,lophophora williamsii_alteration or loss of time,
 6,virola,,,v. theiodora,,,,,lophophora williamsii_weightlessness,

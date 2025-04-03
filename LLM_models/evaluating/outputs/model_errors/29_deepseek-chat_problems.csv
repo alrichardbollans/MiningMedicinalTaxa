@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,echinacea angustifolia dc,echinacea,ocimum tenuiflorum (tulsi,agnus castus,echinacea_infections,ocimum tenuiflorum (tulsi_cough,aloe vera_skin heath,mentha (mint_calm nerves,echinacea_immune boosting,echinacea_maintain immune system
-1,echinacea,echinacea angustifolia dc,zingiber officinale (ginger,boswellia serrate roxb. ex colebr,echinacea_common cold,ocimum tenuiflorum (tulsi_digestion,echinacea_coughs,mentha (mint_eases digestion,echinacea angustifolia dc_immune boosting,ginkgo_circulatory problems
+1,echinacea,echinacea angustifolia dc,zingiber officinale (ginger,boswellia serrate roxb. ex colebr,echinacea_common cold,ocimum tenuiflorum (tulsi_digestion,echinacea_colds,mentha (mint_eases digestion,echinacea angustifolia dc_immune boosting,ginkgo_circulatory problems
 2,mentha,mentha (mint,cinnamomum verum (cinnamon,rhodiola,echinacea angustifolia dc_infections,zingiber officinale (ginger_immune system,echinacea_sore throat,althaea officinalis l. (marshmallow_demulcent,aloe vera_skin health,boswellia serrate roxb. ex colebr_anti-inflammatory
-3,aloe vera,aloe vera,elettaria cardamomum (cardamom,aspergillus,echinacea angustifolia dc_common cold,zingiber officinale (ginger_sore throat,echinacea_colds,,curcuma longa (turmeric_antiseptic,althaea officinalis l_cough
+3,aloe vera,aloe vera,elettaria cardamomum (cardamom,aspergillus,echinacea angustifolia dc_common cold,zingiber officinale (ginger_sore throat,echinacea_coughs,,curcuma longa (turmeric_antiseptic,althaea officinalis l_cough
 4,ginkgo,ginkgo biloba,cuminum cyminum (cumin,eucalyptus,aloe vera_eczema,zingiber officinale (ginger_nausea,agnus castus_pms symptoms,,curcuma longa (turmeric_anti-inflammatory,
 5,senna,senna alexandrina,curcuma longa (turmeric,,aloe vera_wound healing,zingiber officinale (ginger_digestion,,,curcuma longa (turmeric_immune boosting,
 6,trachyspermum ammi,trachyspermum ammi (ajwain,azadirachta indica (neem,,aloe vera_skin conditions,cinnamomum verum (cinnamon_allergy,,,syzygium aromaticum (clove_painkiller,

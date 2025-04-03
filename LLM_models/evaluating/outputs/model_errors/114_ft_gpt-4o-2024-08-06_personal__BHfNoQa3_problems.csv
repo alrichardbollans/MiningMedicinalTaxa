@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,taxus brevifolia,taxus brevifolia,,dryopteris filix-mas,,,urechites suberecta_hemorrhoids,,taxus brevifolia_taxol,dryopteris filix-mas_vermifuge
 1,catharanthus roseus,catharanthus roseus,,pistacia lentiscus,,,asclepias curassavica_menstruation,,catharanthus roseus_vinblastine,pistacia lentiscus_purgative
-2,rauvolfia serpentina,rauvolfia serpentina,,apocynum venetum,,,asclepias spp_toothache,,catharanthus roseus_vincristine,apocynum venetum_emetic
-3,,,,urechites suberecta,,,cryptostegia grandiflora_malaria,,rauvolfia serpentina_reserpine,apocynum venetum_cardiac stimulant
+2,rauvolfia serpentina,rauvolfia serpentina,,apocynum venetum,,,asclepias spp_toothache,,catharanthus roseus_vincristine,apocynum venetum_cardiac stimulant
+3,,,,urechites suberecta,,,cryptostegia grandiflora_malaria,,rauvolfia serpentina_reserpine,apocynum venetum_emetic
 4,,,,asclepias curassavica,,,,,,asclepias curassavica_abortifacient
 5,,,,asclepias spp,,,,,,asclepias spp_tooth extraction
 6,,,,cryptostegia grandiflora,,,,,,

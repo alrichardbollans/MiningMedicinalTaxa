@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,c. majus,chelidonium majus,,,chelidonium majus_hepatobiliary disorders,chelidonium majus_cancer,c. majus_liver toxicity,chelidonium majus_choleretic,chelidonium majus_cytotoxicity,c. majus_supporting artificial insemination or facilitating fertilization
-1,chelidonium majus,silybum marianum,,,chelidonium majus_liver complaints,entamoeba histolytica_hepatic abscess,,chelidonium majus_hepatoprotective,chelidonium majus_pro-apoptotic,c. majus_liver and biliary tract
-2,silybum marianum,entamoeba histolytica,,,,,,chelidonium majus_cholagogue,chelidonium majus_cytoprotective,c. majus_antitumor
-3,entamoeba histolytica,,,,,,,chelidonium majus_antispasmodic,chelidonium majus_antiproliferative,c. majus_acceleration of sperm movement toward fallopian tube
+0,c. majus,chelidonium majus,,,chelidonium majus_hepatobiliary disorders,chelidonium majus_cancer,c. majus_liver toxicity,chelidonium majus_choleretic,chelidonium majus_cytotoxicity,c. majus_acceleration of sperm movement toward fallopian tube
+1,chelidonium majus,silybum marianum,,,chelidonium majus_liver complaints,entamoeba histolytica_hepatic abscess,,chelidonium majus_hepatoprotective,chelidonium majus_pro-apoptotic,c. majus_antitumor
+2,silybum marianum,entamoeba histolytica,,,,,,chelidonium majus_cholagogue,chelidonium majus_cytoprotective,c. majus_supporting artificial insemination or facilitating fertilization
+3,entamoeba histolytica,,,,,,,chelidonium majus_antispasmodic,chelidonium majus_antiproliferative,c. majus_liver and biliary tract
 4,,,,,,,,silybum marianum_hepatoprotective,,

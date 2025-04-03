@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,echinacea angustifolia dc,echinacea angustifolia dc,,aloe vera,echinacea angustifolia dc_infections,boswellia serrata roxb. ex colebr_arthritis,aloe vera_wound,althaea officinalis l_demulcent,echinacea angustifolia dc_immune boosting,echinacea_maintain immune system
+0,echinacea angustifolia dc,echinacea angustifolia dc,,aloe vera,echinacea angustifolia dc_infections,boswellia serrata roxb. ex colebr_arthritis,aloe vera_skin conditions,althaea officinalis l_demulcent,echinacea angustifolia dc_immune boosting,echinacea_maintain immune system
 1,echinacea,boswellia serrata roxb. ex colebr,,agnus castus,echinacea angustifolia dc_common cold,althaea officinalis l_cough,aloe vera_eczema,mentha_calm nerves,boswellia serrata roxb. ex colebr_anti-inflammatory,mentha_eases digestion
-2,boswellia,althaea officinalis l,,senna,echinacea angustifolia dc_sore throat,trachyspermum ammi_indigestion,aloe vera_skin conditions,,,ginkgo_circulatory problems
+2,boswellia,althaea officinalis l,,senna,echinacea angustifolia dc_sore throat,trachyspermum ammi_indigestion,aloe vera_wound,,,ginkgo_circulatory problems
 3,althaea officinalis l,trachyspermum ammi,,boswellia serrate roxb. ex colebr,,trachyspermum ammi_headaches,aloe vera_skin heath,,,boswellia serrate roxb. ex colebr_anti-inflammatory
-4,trachyspermum ammi,aspergillus,,rhodiola,,aspergillus_cough,echinacea_coughs,,,althaea officinalis l_cough
-5,aspergillus,mentha,,eucalyptus,,aspergillus_infection,echinacea_colds,,,
+4,trachyspermum ammi,aspergillus,,rhodiola,,aspergillus_cough,echinacea_colds,,,althaea officinalis l_cough
+5,aspergillus,mentha,,eucalyptus,,aspergillus_infection,echinacea_coughs,,,
 6,mentha,ginkgo,,,,mentha_upset tummy,agnus castus_pms symptoms,,,
 7,ginkgo,,,,,mentha_digestion,senna_constipation,,,
 8,,,,,,ginkgo_circulatory problems,,,,

@@ -1,0 +1,14 @@
+,ground truth,model output
+0,hypericum perforatum_herpessimplex virus,hypericum perforatum_herpes simplex virus 1 & 2
+1,mahonia fortunei (lindl. )fedde_treattesticular swelling,mahonia fortunei (lindl. )fedde_testicular swelling
+2,"corydalis turtschaninoviibesser_gastric,duodenal ulcer",corydalis turtschaninoviibesser_duodenal ulcer
+3,curcuma longa_lice,curcuma longa_licen
+4,gentiana officinalis_hypothyroidis,gentiana officinalis_hypothyroidism
+5,juglans spp_hypothyroidis,juglans spp_hypothyroidism
+6,angelica chinense_premenstrual syndrome,angelica sinensis_premenstrual syndrome
+7,angelica chinense_premenstrual syndrome,angelica chinensis_premenstrual syndrome
+8,angelica chinense_menstrual cramps,angelica chinensis_menstrual cramps
+9,chelidonium majusl_skin protuberances,chelidonium majus_skin protuberances
+10,chelidonium majusl_gastrointestinal disorders,chelidonium majus_gastrointestinal disorders
+11,chelidonium majusl_warts,chelidonium majus_warts
+12,chelidonium majusl_infections,chelidonium majus_infections

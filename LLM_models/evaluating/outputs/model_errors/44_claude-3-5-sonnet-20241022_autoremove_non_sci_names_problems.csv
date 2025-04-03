@@ -1,14 +1,14 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,olea europaea,olea europaea,,vitus vinifera,olea europaea_ear infections,piper betle_digestion,ficus religiosa_wounds,annona reticulata_immune boosting,,spinacia oleracea_blood
-1,piper betle,piper betle,,pistaci vera,olea europaea_eczema,ficus religiosa_liver health,vitus vinifera_cough,areca catechu_stimulant,,spinacia oleracea_source of iron
-2,spinacia oleracea,spinacia oleracea,,asparagus,olea europaea_arthritis,ficus religiosa_digestion,,sesamum indicum_improves circulation,,spinacia oleracea_internal strength
+0,olea europaea,olea europaea,,vitus vinifera,olea europaea_ear infections,piper betle_digestion,ficus religiosa_wounds,annona reticulata_immune boosting,,spinacia oleracea_source of iron
+1,piper betle,piper betle,,pistaci vera,olea europaea_eczema,ficus religiosa_liver health,vitus vinifera_cough,areca catechu_stimulant,,spinacia oleracea_internal strength
+2,spinacia oleracea,spinacia oleracea,,asparagus,olea europaea_arthritis,ficus religiosa_digestion,,sesamum indicum_improves circulation,,spinacia oleracea_blood
 3,ficus religiosa,ficus religiosa,,,olea europaea_skin conditions,mentha arvensis_digestion,,ocimum tenuiflorum_antibacterial,,ficus religiosa_liver health
 4,mentha arvensis,mentha arvensis,,,ficus religiosa_diarrhoea,foeniculum vulgare_digestion,,,,ficus religiosa_digestion
 5,annona reticulata,annona reticulata,,,mentha arvensis_indigestion,areca catechu_digestion,,,,foeniculum vulgare_digestion
 6,brassica juncea,brassica juncea,,,annona reticulata_diarrhoea,laurus nobilis_digestion,,,,vitus vinifera_blood purifier
 7,foeniculum vulgare,foeniculum vulgare,,,annona reticulata_cancer,sesamum indicum_urinary frequency,,,,laurus nobilis_digestion
-8,areca catechu,areca catechu,,,brassica juncea_pain,coriandrum sativum_digestion,,,,sesamum indicum_warms blood
-9,laurus nobilis,laurus nobilis,,,brassica juncea_dry skin,,,,,sesamum indicum_reduce urinary frequency
+8,areca catechu,areca catechu,,,brassica juncea_pain,coriandrum sativum_digestion,,,,sesamum indicum_reduce urinary frequency
+9,laurus nobilis,laurus nobilis,,,brassica juncea_dry skin,,,,,sesamum indicum_warms blood
 10,sesamum indicum,sesamum indicum,,,foeniculum vulgare_bloating,,,,,coriandrum sativum_digestion
 11,ajuga bracteosa,ajuga bracteosa,,,foeniculum vulgare_cough,,,,,piper betle_digestion
 12,coriandrum sativum,coriandrum sativum,,,foeniculum vulgare_constipation,,,,,pistaci vera_general health

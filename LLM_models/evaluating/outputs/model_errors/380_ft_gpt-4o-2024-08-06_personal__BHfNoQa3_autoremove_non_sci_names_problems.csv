@@ -1,15 +1,15 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,p. spinosa,prunus spinosa,,,,,p. spinosa_cvd,prunus spinosa_vasoprotective,,p. spinosa_endothelial function
-1,prunus spinosa l,p. spinosa,,,,,p. spinosa_cardiovascular episodes,prunus spinosa_anti-atherothrombotic,,p. spinosa_increase nitric oxide release
-2,,,,,,,prunus spinosa l_inflammation,prunus spinosa_anti-inflammatory,,p. spinosa_lipid peroxidation inhibitory activity
-3,,,,,,,prunus spinosa l_oxidative stress,prunus spinosa_anti-radical,,p. spinosa_abilityto influence endothelium
-4,,,,,,,,prunus spinosa_anti-atherosclerotic,,p. spinosa_reducedthe levels of well-known oxidative stress biomarkers
-5,,,,,,,,prunus spinosa_antioxidant,,p. spinosa_normalize ldl/hdl profile
-6,,,,,,,,prunus spinosa_antiplatelet,,p. spinosa_dpph scavengers
-7,,,,,,,,prunus spinosa_vasodilatory,,p. spinosa_improve capillarypermeability
+0,p. spinosa,prunus spinosa,,,,,p. spinosa_cvd,prunus spinosa_vasoprotective,,p. spinosa_normalize ldl/hdl profile
+1,prunus spinosa l,p. spinosa,,,,,p. spinosa_cardiovascular episodes,prunus spinosa_anti-atherothrombotic,,p. spinosa_modulate lipidmetabolism
+2,,,,,,,prunus spinosa l_oxidative stress,prunus spinosa_anti-inflammatory,,p. spinosa_improve capillarypermeability
+3,,,,,,,prunus spinosa l_inflammation,prunus spinosa_anti-radical,,p. spinosa_lipid peroxidation inhibitory activity
+4,,,,,,,,prunus spinosa_anti-atherosclerotic,,p. spinosa_anti-atherogenic
+5,,,,,,,,prunus spinosa_antioxidant,,p. spinosa_dpph scavengers
+6,,,,,,,,prunus spinosa_antiplatelet,,p. spinosa_increase nitric oxide release
+7,,,,,,,,prunus spinosa_vasodilatory,,p. spinosa_inhibitors oflipid peroxidation
 8,,,,,,,,prunus spinosa_anticoagulant,,p. spinosa_cardiovascular protection
-9,,,,,,,,p. spinosa_antioxidant,,p. spinosa_modulate lipidmetabolism
-10,,,,,,,,p. spinosa_anti-inflammatory,,p. spinosa_inhibitors oflipid peroxidation
-11,,,,,,,,,,p. spinosa_anti-atherogenic
-12,,,,,,,,,,p. spinosa_decrease ldl oxidation
+9,,,,,,,,p. spinosa_antioxidant,,p. spinosa_decrease ldl oxidation
+10,,,,,,,,p. spinosa_anti-inflammatory,,p. spinosa_abilityto influence endothelium
+11,,,,,,,,,,p. spinosa_endothelial function
+12,,,,,,,,,,p. spinosa_reducedthe levels of well-known oxidative stress biomarkers
 13,,,,,,,,,,prunus spinosa l_antioxidants

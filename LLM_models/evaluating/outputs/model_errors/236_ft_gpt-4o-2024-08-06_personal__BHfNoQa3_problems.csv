@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,mentha,mentha,,,mentha_stomach pain,,,,,trigonella foenum graecum_antihyperlipidemic
 1,mentha longifolia,mentha longifolia,,,,,,,,trigonella foenum graecum_hypoglycemic
-2,m. spicata,m. spicata,,,,,,,,trigonella foenum graecum_antidepressant
-3,m. x villoso-nervata,m. x villoso-nervata,,,,,,,,trigonella foenum graecum_psychotonic
+2,m. spicata,m. spicata,,,,,,,,trigonella foenum graecum_psychotonic
+3,m. x villoso-nervata,m. x villoso-nervata,,,,,,,,trigonella foenum graecum_antidepressant
 4,trigonella foenum graecum,t. foenum graecum,,,,,,,,origanum vulgare l. ssp. hirtum (link) letsw_antioxidant
 5,t. foenum graecum,origanum vulgare l. ssp. hirtum (link) letsw,,,,,,,,rosa pendulina l_antioxidant
 6,origanum vulgare l. ssp. hirtum (link) letsw,micromeria hispida,,,,,,,,r. pendulina_antioxidant

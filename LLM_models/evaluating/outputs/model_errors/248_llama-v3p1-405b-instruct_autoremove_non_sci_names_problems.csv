@@ -1,21 +1,21 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,citrullus colocynthis l,citrullus colocynthis,crocus sativus,macrotermes bellicosus,citrullus colocynthis_peripheral neuropathy,crocus sativus_wound,citrullus colocynthis l_nerve originated pain,citrullus colocynthis_hypoglycemic,crocus sativus_wound healing,m. bellicosus_spasmolytic
-1,citrullus colocynthis,corydalis hendersonii,pistacia lentiscus,m. bellicosus,corydalis hendersonii_acute myocardial ischemia,citrullus colocynthis_diabetes,citrullus colocynthis l_diabetic rats,citrullus colocynthis_antioxidant,cantharellus cibarius_antioxidant,m. bellicosus_relaxation of basal tone
+0,citrullus colocynthis l,citrullus colocynthis,crocus sativus,macrotermes bellicosus,citrullus colocynthis_peripheral neuropathy,crocus sativus_wound,citrullus colocynthis l_diabetic rats,citrullus colocynthis_hypoglycemic,crocus sativus_wound healing,m. bellicosus_anti-inflammatory
+1,citrullus colocynthis,corydalis hendersonii,pistacia lentiscus,m. bellicosus,corydalis hendersonii_acute myocardial ischemia,citrullus colocynthis_diabetes,citrullus colocynthis l_nerve originated pain,citrullus colocynthis_antioxidant,cantharellus cibarius_antioxidant,m. bellicosus_anti-spasmodic
 2,c. colocynthis,senecio candicans,,c commutata (spreng.) greuter,senecio candicans_gastric ulcer,pistacia lentiscus_arterial hypertension,citrullus colocynthis_diabetic rats,corydalis hendersonii_anti-inflammatory,cantharellus cibarius_pro-apoptotic,m. bellicosus_antimicrobial
-3,corydalis hendersonii hemsl,crepis dioscoridis,,c. incana sm,,,c. colocynthis_oxidative stress,senecio candicans_gastroprotective,,m. bellicosus_suppression of induced contractions
-4,senecio candicans dc,cantharellus cibarius,,c. heldreichiana (kuntze) greuter,,,c. colocynthis_diabetic neuropathy,crepis dioscoridis_antioxidant,,m. bellicosus_anti-spasmodic
-5,s. candicans,,,c. crocifolia boiss. & heldr,,,macrotermes bellicosus_inflammatory diseases,crepis dioscoridis_anti-inflammatory,,m. bellicosus_anti-inflammatory
-6,crepis,,,cantharellus cinereus,,,macrotermes bellicosus_dysentery,,,corydalis hendersonii hemsl_anti-acute myocardial ischemia
-7,c. dioscoridis l,,,craterellus cornucopioides,,,macrotermes bellicosus_diarrhea,,,corydalis hendersonii hemsl_lowering blood pressure
+3,corydalis hendersonii hemsl,crepis dioscoridis,,c. incana sm,,,c. colocynthis_diabetic neuropathy,senecio candicans_gastroprotective,,m. bellicosus_spasmolytic
+4,senecio candicans dc,cantharellus cibarius,,c. heldreichiana (kuntze) greuter,,,c. colocynthis_oxidative stress,crepis dioscoridis_antioxidant,,m. bellicosus_suppression of induced contractions
+5,s. candicans,,,c. crocifolia boiss. & heldr,,,macrotermes bellicosus_diarrhea,crepis dioscoridis_anti-inflammatory,,m. bellicosus_relaxation of basal tone
+6,crepis,,,cantharellus cinereus,,,macrotermes bellicosus_dysentery,,,corydalis hendersonii hemsl_lowering blood pressure
+7,c. dioscoridis l,,,craterellus cornucopioides,,,macrotermes bellicosus_inflammatory diseases,,,corydalis hendersonii hemsl_anti-acute myocardial ischemia
 8,cantharellus cibarius,,,hydnum repandum,,,macrotermes bellicosus_infectious,,,s. candicans_antioxidant
-9,,,,chios mastic,,,corydalis hendersonii hemsl_vasculitis,,,c commutata (spreng.) greuter_antioxidant
-10,,,,crepis l,,,corydalis hendersonii hemsl_high altitude polycythemia,,,c commutata (spreng.) greuter_anti-inflammatory
-11,,,,phytosia crocifolia (boiss. & heldr.) kamari & greuter,,,chios mastic_arterial hypertension,,,c. incana sm_antioxidant
-12,,,,,,,,,,c. incana sm_anti-inflammatory
-13,,,,,,,,,,c. heldreichiana (kuntze) greuter_antioxidant
-14,,,,,,,,,,c. heldreichiana (kuntze) greuter_anti-inflammatory
-15,,,,,,,,,,c. crocifolia boiss. & heldr_antioxidant
-16,,,,,,,,,,c. crocifolia boiss. & heldr_anti-inflammatory
+9,,,,chios mastic,,,corydalis hendersonii hemsl_vasculitis,,,c commutata (spreng.) greuter_anti-inflammatory
+10,,,,crepis l,,,corydalis hendersonii hemsl_high altitude polycythemia,,,c commutata (spreng.) greuter_antioxidant
+11,,,,phytosia crocifolia (boiss. & heldr.) kamari & greuter,,,chios mastic_arterial hypertension,,,c. incana sm_anti-inflammatory
+12,,,,,,,,,,c. incana sm_antioxidant
+13,,,,,,,,,,c. heldreichiana (kuntze) greuter_anti-inflammatory
+14,,,,,,,,,,c. heldreichiana (kuntze) greuter_antioxidant
+15,,,,,,,,,,c. crocifolia boiss. & heldr_anti-inflammatory
+16,,,,,,,,,,c. crocifolia boiss. & heldr_antioxidant
 17,,,,,,,,,,cantharellus cibarius_cytotoxicity
 18,,,,,,,,,,cantharellus cibarius_induced apoptotic cell death
 19,,,,,,,,,,cantharellus cinereus_cytotoxicity

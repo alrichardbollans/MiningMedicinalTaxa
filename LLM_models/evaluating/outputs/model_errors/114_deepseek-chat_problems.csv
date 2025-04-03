@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,taphrina deformans,taphrina deformans,yucca mohavensis,oregon balsam,,taphrina deformans_peach leaf curl,urechites suberecta_hemorrhoids,dryopteris filix-mas_vermifuge,tolypocladium inflatum_cyclosporin,pistacia lentiscus_purgative
-1,tolypocladium inflatum,tolypocladium inflatum,amaranthus caudatus,acanthus,,ustilago maydis_corn smut,asclepias curassavica_menstruation,,cetraria islandica_medicine,apocynum venetum_emetic
-2,torulaspora delbrueckii,torulaspora delbrueckii,schinus lorentzii,yucca mohavensi,,metopium toxiferum_purgative,asclepias spp_toothache,,evernia sp_arrow poison,apocynum venetum_cardiac stimulant
+1,tolypocladium inflatum,tolypocladium inflatum,amaranthus caudatus,acanthus,,ustilago maydis_corn smut,asclepias curassavica_menstruation,,cetraria islandica_medicine,apocynum venetum_cardiac stimulant
+2,torulaspora delbrueckii,torulaspora delbrueckii,schinus lorentzii,yucca mohavensi,,metopium toxiferum_purgative,asclepias spp_toothache,,evernia sp_arrow poison,apocynum venetum_emetic
 3,torulaspora holmii,torulaspora holmii,schinus molle,amaranthus caudatu,,alstonia scholaris_vermifuge,cryptostegia grandiflora_malaria,,parmelia conspera_fumatory/masticatory,asclepias curassavica_abortifacient
 4,tuber spp,tuber spp,sclerocarya birrea ssp. caffra,,,apocynum cannabinum_emetic,,,dryopteris dilatata_vermifuge,asclepias spp_tooth extraction
 5,ustilago maydis,ustilago maydis,semecarpus anacardium,,,apocynum cannabinum_cardiac stimulant,,,thuja occidentalis_essential oil,

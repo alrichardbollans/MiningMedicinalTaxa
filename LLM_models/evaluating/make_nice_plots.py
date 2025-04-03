@@ -3,13 +3,12 @@ import os
 import pandas as pd
 import seaborn as sns
 
-from LLM_models.evaluating import compare_errors
 from LLM_models.evaluating.run_evaluation import basic_plot_results
 
 
 def collect_main_results():
     all_results = pd.DataFrame()
-    fileNames = os.listdir(os.path.join('outputs', 'full_eval'))
+    fileNames, renaming, model_names = get_filenames()
     for f in fileNames:
         if f.endswith(".csv") and not f.startswith('all_results'):
             model_results = pd.read_csv(os.path.join('outputs', 'full_eval', f), index_col=0)
@@ -21,7 +20,7 @@ def collect_main_results():
     all_results.to_csv(os.path.join(os.path.join('outputs', 'full_eval', 'all_results.csv')))
 
 
-def melt_all_results(metric, models, _measures):
+def get_filenames():
     renaming = {'claude-3-5-sonnet-20241022_autoremove_non_sci_names_results.csv': 'Claude_NS', 'claude-3-5-sonnet-20241022_results.csv': 'Claude',
                 'deepseek-chat_autoremove_non_sci_names_results.csv': 'DeepSeek_NS', 'deepseek-chat_results.csv': 'DeepSeek',
                 'gnfinder_autoremove_non_sci_names_results.csv': 'GNfinder_NS', 'gnfinder_results.csv': 'GNfinder',
@@ -34,6 +33,12 @@ def melt_all_results(metric, models, _measures):
                 'ft_gpt-4o-2024-08-06_personal__BHfNoQa3_results.csv': 'FTGPT',
                 'ft_gpt-4o-2024-08-06_personal__BHfNoQa3_autoremove_non_sci_names_results.csv': 'FTGPT_NS'}
     fileNames = os.listdir(os.path.join('outputs', 'full_eval'))
+    model_names = [c[:c.index('_results.csv')] for c in renaming.keys() if 'autoremove_non_sci_names' not in c]
+    return fileNames, renaming, model_names
+
+
+def melt_all_results(metric, models, _measures):
+    fileNames, renaming, model_names = get_filenames()
     all_results = pd.DataFrame()
     for f in fileNames:
         if f.endswith(".csv") and not f.startswith('all_results'):
@@ -69,19 +74,20 @@ def for_full_eval(models, _measures, file_tag: str, inc_legend: bool = True):
         all_results = all_results[all_results['Model'].isin(models)]
         all_results = all_results[all_results['class'].isin(_measures)]
 
-        all_results['class'] = all_results['class'].apply(lambda x: x.replace('NER', 'SNER').replace('Precise', 'Exact').replace('Approx.', 'Relaxed'))
+        all_results['class'] = all_results['class'].apply(
+            lambda x: x.replace('NER', 'SNER').replace('Precise', 'Exact').replace('Approx.', 'Relaxed'))
 
         import matplotlib.pyplot as plt
 
-        if file_tag=='RE':
+        if file_tag == 'RE':
             col_wrap = 2
         else:
-            col_wrap=None
+            col_wrap = None
 
         sns.set_theme(style="whitegrid")
         g = sns.catplot(
             data=all_results, x="Model", y=metric, col="class", hue='NS', col_wrap=col_wrap,
-            kind="bar", height=4, aspect=.6, palette=["#E98F66","#53B68B"]
+            kind="bar", height=4, aspect=.6, palette=["#E98F66", "#53B68B"]
         )
         g.set_axis_labels("", metric)
 
@@ -91,42 +97,47 @@ def for_full_eval(models, _measures, file_tag: str, inc_legend: bool = True):
         if col_wrap is None:
             g.set_xticklabels(rotation=45, ha='right', rotation_mode='anchor')
         else:
-            g.set_xticklabels(g.axes.flat[-1].get_xticklabels(),rotation=45, ha='right', rotation_mode='anchor')
+            g.set_xticklabels(g.axes.flat[-1].get_xticklabels(), rotation=45, ha='right', rotation_mode='anchor')
         g.set(ylim=(0, 1))
         g.despine(left=True)
         plt.tight_layout()
 
         if inc_legend:
             print('inc legend')
-            sns.move_legend(g,loc="center left", ncol=1, bbox_to_anchor=(1, 0.5), title='Cleaned\n Names')
+            sns.move_legend(g, loc="center left", ncol=1, bbox_to_anchor=(1, 0.5), title='Cleaned\n Names')
         else:
             g.legend.remove()
 
         plt.savefig(os.path.join('outputs', 'full_eval', 'compiled_results', f'{file_tag}_{metric}_results.png'), dpi=300, bbox_inches="tight")
         plt.close()
         all_results.to_csv(os.path.join(os.path.join('outputs', 'full_eval', 'compiled_results', f'{file_tag}_{metric}_results.csv')))
-def plots():
-    basic_plot_results(os.path.join('outputs', 'full_eval', 'gpt-4o-2024-08-06_results.csv'), os.path.join('outputs', 'full_eval'), 'gpt-4o-2024-08-06')
-    basic_plot_results(os.path.join('outputs', 'full_eval', 'ft_gpt-4o-2024-08-06_personal__BHfNoQa3_results.csv'), os.path.join('outputs', 'full_eval'), 'ft_gpt-4o-2024-08-06_personal__BHfNoQa3')
 
-    # collect_main_results()
+
+def plots():
+    basic_plot_results(os.path.join('outputs', 'full_eval', 'gpt-4o-2024-08-06_results.csv'), os.path.join('outputs', 'full_eval'),
+                       'gpt-4o-2024-08-06')
+    basic_plot_results(os.path.join('outputs', 'full_eval', 'ft_gpt-4o-2024-08-06_personal__BHfNoQa3_results.csv'),
+                       os.path.join('outputs', 'full_eval'), 'ft_gpt-4o-2024-08-06_personal__BHfNoQa3')
+
+    collect_main_results()
     #
     # #
     # ## NER
-    # _models = ['Claude', 'DeepSeek', 'GNfinder', 'GPT', 'Llama', 'TaxoNERD']
-    # measures = ['Precise NER', 'Approx. NER']
-    # for_full_eval(_models, measures, 'NER')
+    _models = ['Claude', 'DeepSeek', 'GNfinder', 'GPT', 'Llama', 'TaxoNERD']
+    measures = ['Precise NER', 'Approx. NER']
+    for_full_eval(_models, measures, 'NER')
     #
     # # ## RE
-    # _models = ['Claude', 'DeepSeek', 'GPT', 'Llama']
-    # measures = ['Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
-    # for_full_eval(_models, measures, 'RE')
-    # for_full_eval(_models, ['Precise MedCond', 'Approx. MedCond'], 'MedCond')
-    # for_full_eval(_models, ['Precise MedEff', 'Approx. MedEff'], 'MedEff', inc_legend=False)
+    _models = ['Claude', 'DeepSeek', 'GPT', 'Llama']
+    measures = ['Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
+    for_full_eval(_models, measures, 'RE')
+    for_full_eval(_models, ['Precise MedCond', 'Approx. MedCond'], 'MedCond')
+    for_full_eval(_models, ['Precise MedEff', 'Approx. MedEff'], 'MedEff', inc_legend=False)
     #
     # ## Finetuning
-    # _models = ['GPT', 'FTGPT']
-    # for_full_eval(_models, all_measures, 'FT')
+    _models = ['GPT', 'FTGPT']
+    for_full_eval(_models, all_measures, 'FT')
+
 
 if __name__ == '__main__':
     all_measures = ['Precise NER', 'Approx. NER', 'Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
@@ -134,4 +145,3 @@ if __name__ == '__main__':
     metrics = ['f1', 'precision', 'recall']
 
     plots()
-

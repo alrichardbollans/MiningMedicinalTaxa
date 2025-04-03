@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,satureja,satureja pilosa,,thymus spp,satureja pilosa_infectious diseases,centaurea phyllocephala boiss_diabetes,,alkanna tinctoria_wound healing,thymus longicaulis subsp. longicaulis_antimicrobial,thymus spp_antimicrobial
-1,satureja pilosa,alkanna tinctoria,,thymbra spp,satureja pilosa_gastrointestinal disorders,,,thymbra capitata_antioxidant,thymus boissieri_antimicrobial,thymus spp_antioxidant
+0,satureja,satureja pilosa,,thymus spp,satureja pilosa_infectious diseases,centaurea phyllocephala boiss_diabetes,,alkanna tinctoria_wound healing,thymus longicaulis subsp. longicaulis_antimicrobial,thymus spp_antioxidant
+1,satureja pilosa,alkanna tinctoria,,thymbra spp,satureja pilosa_gastrointestinal disorders,,,thymbra capitata_antioxidant,thymus boissieri_antimicrobial,thymus spp_antimicrobial
 2,s. pilosa,thymbra capitata,,centaurea cyanus,satureja pilosa_muscle pain,,,thymbra capitata_antimicrobial,thymus degenii_antimicrobial,thymbra capitata_antibacterial
-3,alkanna tinctoria,thymus longicaulis subsp. longicaulis,,centaurea sp,satureja pilosa_cramps,,,thymus longicaulis subsp. longicaulis_antioxidant,thymus thracicus_antimicrobial,thymbra spp_antimicrobial
-4,a. tinctoria,thymus boissieri,,c. cyanus,,,,thymus boissieri_antioxidant,thymus sibthorpii_antimicrobial,thymbra spp_antioxidant
+3,alkanna tinctoria,thymus longicaulis subsp. longicaulis,,centaurea sp,satureja pilosa_cramps,,,thymus longicaulis subsp. longicaulis_antioxidant,thymus thracicus_antimicrobial,thymbra spp_antioxidant
+4,a. tinctoria,thymus boissieri,,c. cyanus,,,,thymus boissieri_antioxidant,thymus sibthorpii_antimicrobial,thymbra spp_antimicrobial
 5,thymbra capitata,thymus degenii,,,,,,thymus degenii_antioxidant,thymus striatus_antimicrobial,t. longicaulis subsp. longicaulis_antibacterial
 6,t. longicaulis subsp. longicaulis,thymus thracicus,,,,,,thymus thracicus_antioxidant,thymus longicaulis subsp. chaubardii_antioxidant,thymus boissieri_antibacterial
 7,thymus boissieri,thymus sibthorpii,,,,,,thymus sibthorpii_antioxidant,thymus longicaulis subsp. chaubardii_antimicrobial,t. degenii_antibacterial

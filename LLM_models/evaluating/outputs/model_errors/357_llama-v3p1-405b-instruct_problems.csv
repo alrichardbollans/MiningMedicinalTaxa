@@ -1,58 +1,64 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,pulsatilla patens,pulsatilla patens,picea alba,matricariachamomilla,pulsatilla patens_skin disorders,sorbus aucuparia_love magic,vinca minor_skindisorders,,pulsatilla patens_antibiotic,thymus serpyllum_destroy thescurvy impurities
-1,centaurea cyanus,centaurea cyanus,stachys palustris,piceaalba,centaurea cyanus_skin disorders,daphne mezereum_love magic,matricariachamomilla_osteomyelitis,,centaurea cyanus_anti-inflammatory,thymus serpyllum_gum strengthening
-2,ruta graveolens,ruta graveolens,pulsatilla vulgaris,pulsatillavulgaris,ruta graveolens_skin disorders,matricaria chamomilla_osteomyelitis,populus tremula_skindisorders,,ruta graveolens_diuretic,thymus serpyllum_wound healing
-3,vinca minor,vinca minor,schoenus nigricans,schoenusnigricans,vinca minor_skin disorders,picea alba_osteomyelitis,piceaalba_osteomyelitis,,vinca minor_antibiotic,sedum acre_emetic
-4,sorbus aucuparia,sorbus aucuparia,levisticum officinale,plantagomaior,vinca minor_cataracts,symphytum officinale_wound healing,pulsatillavulgaris_plica polonica,,vinca minor_stimulant,sedum acre_relaxant
-5,daphne mezereum,daphne mezereum,,salvia officinalis,thymus serpyllum_osteomyelitis,achillea millefolium_wound healing,pulsatillavulgaris_polish plait,,sorbus aucuparia_antibiotic,sedum maximum_ulcers
-6,thymus serpyllum,thymus serpyllum,,senna alexandrina,silybum marianum_osteomyelitis,stachys palustris_wound healing,schoenusnigricans_burn wounds,,daphne mezereum_anti-inflammatory,sedum_wound healing
-7,silybum marianum,silybum marianum,,castanea sativa,anthemis arvensis_osteomyelitis,viscum album_wound healing,sedum acre_urinary tract diseases,,thymus serpyllum_diuretic,sorbus arranensis_antimicrobial
-8,anthemis arvensis,anthemis arvensis,,frangula alnus,artemisia absinthium_osteomyelitis,gentiana lutea_wound healing,sedum acre_heel pain,,silybum marianum_stimulant,achillea millefolium_wound healing
-9,matricaria chamomilla,matricaria chamomilla,,levisticumofficinale,populus tremula_osteomyelitis,sedum maximum_ulcers,sedum acre_earache,,anthemis arvensis_antibiotic,plantagomaior_wound healing
-10,artemisia absinthium,artemisia absinthium,,stachyspalustris,achillea millefolium_open cut wounds,viburnum opulus_wound healing,sedum maximum_bruises,,matricaria chamomilla_anti-inflammatory,salvia officinalis_wound healing
-11,populus tremula,populus tremula,,senna,gentiana lutea_cholera,sorbus arranensis_antimicrobial remedy,sedum maximum_edema,,artemisia absinthium_diuretic,
-12,symphytum officinale,symphytum officinale,,napellus,sedum acre_ulcers,allium cepa_wound healing,sedum maximum_wounds,,picea alba_stimulant,
-13,achillea millefolium,achillea millefolium,,calamus,carlina acaulis_kidney and bladder disease,pulsatilla vulgaris_polish plait,carlina acaulis_stitching pain,,populus tremula_antibiotic,
-14,achillea millefolium l,viscum album,,cepa,allium cepa_abscess,schoenus nigricans_burn wounds,carlina acaulis_ulcers,,symphytum officinale_anti-inflammatory,
-15,viscum album,gentiana lutea,,anthemis cotula l,picea abies_syphilis,levisticum officinale_magic and protection,carlina acaulis_colic,,achillea millefolium_diuretic,
-16,gentiana lutea,sedum acre,,,beta vulgaris_ringworm,ocimum basilicum_magic and protection,plantagomaior_wounds,,achillea millefolium_antibiotic,
-17,sedum acre,sedum maximum,,,,alliaria petiolata_magic and protection,salvia officinalis_wounds,,stachys palustris_stimulant,
-18,sedum,carlina acaulis,,,,papaver rhoeas_magic and protection,symphytum officinale_wounds,,viscum album_antibiotic,
-19,sedum maximum,viburnum opulus,,,,hypericum perforatum_respiratory illnesses,,,gentiana lutea_anti-inflammatory,
-20,carlina acaulis,sorbus arranensis,,,,juniperus communis_respiratory illnesses,,,gentiana lutea_stimulant,
-21,viburnum opulus,allium cepa,,,,tussilago farfara_respiratory illnesses,,,sedum acre_diuretic,
-22,sorbus arranensis,picea abies,,,,acanthus mollis_wound healing,,,sedum maximum_stimulant,
-23,allium cepa,beta vulgaris,,,,acer pseudoplatanus_wound healing,,,carlina acaulis_antibiotic,
-24,allium cepa l,ocimum basilicum,,,,aconitum lycoctonum_wound healing,,,viburnum opulus_anti-inflammatory,
-25,allium,alliaria petiolata,,,,acorus calamus_wound healing,,,sorbus arranensis_diuretic,
-26,picea abies,papaver rhoeas,,,,adiantum capillus-veneris_wound healing,,,allium cepa_stimulant,
-27,beta vulgaris,hypericum perforatum,,,,agrimonia eupatoria_wound healing,,,picea abies_antibiotic,
-28,ocimum basilicum,juniperus communis,,,,agrostemma githago_wound healing,,,beta vulgaris_anti-inflammatory,
-29,alliaria petiolata,tussilago farfara,,,,allium ampeloprasum_wound healing,,,pulsatilla vulgaris_diuretic,
-30,papaver rhoeas,acanthus mollis,,,,allium sativum_wound healing,,,schoenus nigricans_anti-inflammatory,
-31,hypericum perforatum,acer pseudoplatanus,,,,althaea officinalis_wound healing,,,levisticum officinale_stimulant,
-32,juniperus communis,aconitum lycoctonum,,,,ammi majus_wound healing,,,ocimum basilicum_antibiotic,
-33,tussilago farfara,acorus calamus,,,,anagallis arvensis_wound healing,,,alliaria petiolata_anti-inflammatory,
-34,acanthus mollis l,adiantum capillus-veneris,,,,anchusa azurea_wound healing,,,papaver rhoeas_diuretic,
-35,acer pseudoplatanus l,agrimonia eupatoria,,,,anchusa officinalis_wound healing,,,hypericum perforatum_stimulant,
-36,aconitum lycoctonum l,agrostemma githago,,,,anethum graveolens_wound healing,,,juniperus communis_antibiotic,
-37,acorus,allium ampeloprasum,,,,anthriscus cerefolium_wound healing,,,tussilago farfara_anti-inflammatory,
-38,acorus calamus l,allium sativum,,,,anthriscus sylvestris_wound healing,,,acanthus mollis_diuretic,
-39,adiantum capillus-veneris l,althaea officinalis,,,,,,,acer pseudoplatanus_stimulant,
-40,agrimonia,ammi majus,,,,,,,aconitum lycoctonum_anti-inflammatory,
-41,agrimonia eupatoria l,anagallis arvensis,,,,,,,acorus calamus_diuretic,
-42,agrostemma githago l,anchusa azurea,,,,,,,adiantum capillus-veneris_stimulant,
-43,allium ampeloprasum l,anchusa officinalis,,,,,,,agrimonia eupatoria_antibiotic,
-44,allium sativum,anethum graveolens,,,,,,,agrostemma githago_anti-inflammatory,
-45,allium sativum l,anthriscus cerefolium,,,,,,,allium ampeloprasum_diuretic,
-46,althaea,anthriscus sylvestris,,,,,,,allium sativum_antibiotic,
-47,althaea officinalis l,,,,,,,,althaea officinalis_anti-inflammatory,
-48,ammi majus l,,,,,,,,ammi majus_diuretic,
-49,anagallis arvensis l,,,,,,,,anagallis arvensis_stimulant,
-50,anchusa azurea p.mill,,,,,,,,anchusa azurea_antibiotic,
-51,anchusa,,,,,,,,anchusa officinalis_anti-inflammatory,
-52,anchusa officinalis l,,,,,,,,anethum graveolens_diuretic,
-53,anethum graveolens l,,,,,,,,anthriscus cerefolium_stimulant,
-54,anethum,,,,,,,,anthriscus sylvestris_antibiotic,
-55,anthriscus cerefolium hoff,,,,,,,,,
-56,anthriscus sylvestris hoff,,,,,,,,,
+0,pulsatilla patens,pulsatilla patens,,plantagomaior,pulsatilla patens_skin disorders,sorbus aucuparia_love magic,populus tremula_skindisorders,,pulsatilla patens_antibiotic,thymus serpyllum_wound healing
+1,centaurea cyanus,centaurea cyanus,,salvia officinalis,centaurea cyanus_skin disorders,daphne mezereum_love magic,pulsatillavulgaris_plica polonica,,centaurea cyanus_anti-inflammatory,thymus serpyllum_gum strengthening
+2,ruta graveolens,ruta graveolens,,senna alexandrina,ruta graveolens_skin disorders,symphytum officinale_wound healing,sedum acre_heel pain,,ruta graveolens_diuretic,thymus serpyllum_destroy thescurvy impurities
+3,vinca minor,vinca minor,,castanea sativa,vinca minor_skin disorders,achillea millefolium_wound healing,sedum acre_earache,,vinca minor_antibiotic,sedum acre_emetic
+4,sorbus aucuparia,sorbus aucuparia,,frangula alnus,vinca minor_cataracts,stachys palustris_wound healing,sedum acre_urinary tract diseases,,vinca minor_stimulant,sedum acre_relaxant
+5,daphne mezereum,daphne mezereum,,senna,thymus serpyllum_osteomyelitis,viscum album_wound healing,sedum maximum_wounds,,sorbus aucuparia_antibiotic,sedum maximum_ulcers
+6,thymus serpyllum,thymus serpyllum,,napellus,silybum marianum_osteomyelitis,gentiana lutea_wound healing,sedum maximum_edema,,daphne mezereum_anti-inflammatory,sedum_wound healing
+7,silybum marianum,silybum marianum,,calamus,anthemis arvensis_osteomyelitis,sedum maximum_ulcers,sedum maximum_bruises,,thymus serpyllum_diuretic,sorbus arranensis_antimicrobial
+8,anthemis arvensis,anthemis arvensis,,cepa,matricaria chamomilla_osteomyelitis,viburnum opulus_wound healing,carlina acaulis_stitching pain,,silybum marianum_stimulant,achillea millefolium_wound healing
+9,matricariachamomilla,matricaria chamomilla,,anthemis cotula l,artemisia absinthium_osteomyelitis,sorbus arranensis_antimicrobial remedy,carlina acaulis_colic,,anthemis arvensis_antibiotic,plantagomaior_wound healing
+10,matricaria chamomilla,artemisia absinthium,,,picea alba_osteomyelitis,allium cepa_wound healing,carlina acaulis_ulcers,,matricaria chamomilla_anti-inflammatory,salvia officinalis_wound healing
+11,artemisia absinthium,picea alba,,,populus tremula_osteomyelitis,levisticum officinale_magic and protection,plantagomaior_wounds,,artemisia absinthium_diuretic,
+12,piceaalba,populus tremula,,,achillea millefolium_open cut wounds,ocimum basilicum_magic and protection,salvia officinalis_wounds,,picea alba_stimulant,
+13,populus tremula,symphytum officinale,,,gentiana lutea_cholera,alliaria petiolata_magic and protection,symphytum officinale_wounds,,populus tremula_antibiotic,
+14,symphytum officinale,achillea millefolium,,,sedum acre_ulcers,papaver rhoeas_magic and protection,,,symphytum officinale_anti-inflammatory,
+15,achillea millefolium,stachys palustris,,,carlina acaulis_kidney and bladder disease,hypericum perforatum_respiratory illnesses,,,achillea millefolium_diuretic,
+16,achillea millefolium l,viscum album,,,allium cepa_abscess,juniperus communis_respiratory illnesses,,,achillea millefolium_antibiotic,
+17,stachyspalustris,gentiana lutea,,,picea abies_syphilis,tussilago farfara_respiratory illnesses,,,stachys palustris_stimulant,
+18,viscum album,sedum acre,,,beta vulgaris_ringworm,acanthus mollis_wound healing,,,viscum album_antibiotic,
+19,gentiana lutea,sedum maximum,,,pulsatilla vulgaris_polish plait,acer pseudoplatanus_wound healing,,,gentiana lutea_anti-inflammatory,
+20,sedum acre,carlina acaulis,,,schoenus nigricans_burn wounds,aconitum lycoctonum_wound healing,,,gentiana lutea_stimulant,
+21,sedum,viburnum opulus,,,,acorus calamus_wound healing,,,sedum acre_diuretic,
+22,sedum maximum,sorbus arranensis,,,,adiantum capillus-veneris_wound healing,,,sedum maximum_stimulant,
+23,carlina acaulis,allium cepa,,,,agrimonia eupatoria_wound healing,,,carlina acaulis_antibiotic,
+24,viburnum opulus,picea abies,,,,agrostemma githago_wound healing,,,viburnum opulus_anti-inflammatory,
+25,sorbus arranensis,beta vulgaris,,,,allium ampeloprasum_wound healing,,,sorbus arranensis_diuretic,
+26,allium cepa,pulsatilla vulgaris,,,,allium sativum_wound healing,,,allium cepa_stimulant,
+27,allium cepa l,schoenus nigricans,,,,althaea officinalis_wound healing,,,picea abies_antibiotic,
+28,allium,levisticum officinale,,,,ammi majus_wound healing,,,beta vulgaris_anti-inflammatory,
+29,picea abies,ocimum basilicum,,,,anagallis arvensis_wound healing,,,pulsatilla vulgaris_diuretic,
+30,beta vulgaris,alliaria petiolata,,,,anchusa azurea_wound healing,,,schoenus nigricans_anti-inflammatory,
+31,pulsatillavulgaris,papaver rhoeas,,,,anchusa officinalis_wound healing,,,levisticum officinale_stimulant,
+32,schoenusnigricans,hypericum perforatum,,,,anethum graveolens_wound healing,,,ocimum basilicum_antibiotic,
+33,levisticumofficinale,juniperus communis,,,,anthriscus cerefolium_wound healing,,,alliaria petiolata_anti-inflammatory,
+34,ocimum basilicum,tussilago farfara,,,,anthriscus sylvestris_wound healing,,,papaver rhoeas_diuretic,
+35,alliaria petiolata,acanthus mollis,,,,,,,hypericum perforatum_stimulant,
+36,papaver rhoeas,acer pseudoplatanus,,,,,,,juniperus communis_antibiotic,
+37,hypericum perforatum,aconitum lycoctonum,,,,,,,tussilago farfara_anti-inflammatory,
+38,juniperus communis,acorus calamus,,,,,,,acanthus mollis_diuretic,
+39,tussilago farfara,adiantum capillus-veneris,,,,,,,acer pseudoplatanus_stimulant,
+40,acanthus mollis l,agrimonia eupatoria,,,,,,,aconitum lycoctonum_anti-inflammatory,
+41,acer pseudoplatanus l,agrostemma githago,,,,,,,acorus calamus_diuretic,
+42,aconitum lycoctonum l,allium ampeloprasum,,,,,,,adiantum capillus-veneris_stimulant,
+43,acorus,allium sativum,,,,,,,agrimonia eupatoria_antibiotic,
+44,acorus calamus l,althaea officinalis,,,,,,,agrostemma githago_anti-inflammatory,
+45,adiantum capillus-veneris l,ammi majus,,,,,,,allium ampeloprasum_diuretic,
+46,agrimonia,anagallis arvensis,,,,,,,allium sativum_antibiotic,
+47,agrimonia eupatoria l,anchusa azurea,,,,,,,althaea officinalis_anti-inflammatory,
+48,agrostemma githago l,anchusa officinalis,,,,,,,ammi majus_diuretic,
+49,allium ampeloprasum l,anethum graveolens,,,,,,,anagallis arvensis_stimulant,
+50,allium sativum,anthriscus cerefolium,,,,,,,anchusa azurea_antibiotic,
+51,allium sativum l,anthriscus sylvestris,,,,,,,anchusa officinalis_anti-inflammatory,
+52,althaea,,,,,,,,anethum graveolens_diuretic,
+53,althaea officinalis l,,,,,,,,anthriscus cerefolium_stimulant,
+54,ammi majus l,,,,,,,,anthriscus sylvestris_antibiotic,
+55,anagallis arvensis l,,,,,,,,,
+56,anchusa azurea p.mill,,,,,,,,,
+57,anchusa,,,,,,,,,
+58,anchusa officinalis l,,,,,,,,,
+59,anethum graveolens l,,,,,,,,,
+60,anethum,,,,,,,,,
+61,anthriscus cerefolium hoff,,,,,,,,,
+62,anthriscus sylvestris hoff,,,,,,,,,

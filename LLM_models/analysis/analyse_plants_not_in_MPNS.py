@@ -93,5 +93,4 @@ def main():
 
 if __name__ == '__main__':
     # get_mpns_df()
-    # get_tp_fn_from_annotated_test_data()
     main()

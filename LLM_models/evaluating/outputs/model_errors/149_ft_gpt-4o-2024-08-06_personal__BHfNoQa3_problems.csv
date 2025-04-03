@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,serenoa repens,serenoa repens,,sanguinaria canadensis,,serenoa repens_prostate,,harpagophytum procumbens_analgesic,filipendula ulmaria_aspirin source,sanguinaria canadensis_emetic
-1,harpagophytum procumbens,harpagophytum procumbens,,plantago afra,,prunus africana_bph,,harpagophytum procumbens_anti-inflammatory,salix alba_salicin,sanguinaria canadensis_expectorant
+0,serenoa repens,serenoa repens,,sanguinaria canadensis,,serenoa repens_prostate,,harpagophytum procumbens_analgesic,filipendula ulmaria_aspirin source,sanguinaria canadensis_expectorant
+1,harpagophytum procumbens,harpagophytum procumbens,,plantago afra,,prunus africana_bph,,harpagophytum procumbens_anti-inflammatory,salix alba_salicin,sanguinaria canadensis_emetic
 2,filipendula ulmaria,filipendula ulmaria,,rhamnus cathartica,,brunfelsia uniflora_syphilis,,dictamnus albus_uterine stimulant,,plantago afra_laxative
 3,prunus africana,prunus africana,,rhamnus purshiana,,,,quassia amara_vermifuge,,rhamnus cathartica_laxative
 4,dictamnus albus,dictamnus albus,,psychotria ipecacuanha,,,,,,rhamnus purshiana_laxative

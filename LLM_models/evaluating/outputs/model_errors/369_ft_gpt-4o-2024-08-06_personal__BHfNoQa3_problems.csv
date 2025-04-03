@@ -1,10 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,a. laxmannii,a. laxmannii,,ajugalaxmannii,,,ajuga_ulcer,a. laxmannii_antiradical,a. laxmannii_diuretic,ajuga_diuretic
-1,ajuga laxmannii,ajuga laxmannii,,aspergillus flavus,,,ajuga_fever,a. laxmannii_antimicrobial,a. laxmannii_astringent,ajuga_astringent
-2,ajuga,a. bracteosa,,aspergillus niger,,,ajuga_hypertension,ajuga laxmannii_antioxidant,a. laxmannii_antipyretic,ajuga_antipyretic
-3,a. bracteosa,a. relicta,,candida albicans,,,ajuga_edema,ajuga laxmannii_anti-inflammatory,,a. laxmannii_antifungal
-4,a. relicta,a. taiwanensis,,candida parapsilosis,,,ajuga_intestinal and biliary disorders,,,a. laxmannii_antibacterial
-5,a. taiwanensis,a. turkestanica,,penicillium funiculosum,,,,,,a. turkestanica_antioxidant
-6,a. turkestanica,a. reptans,,,,,,,,a. chamaecistus subsp. scoparia (boiss.) rech.f_antiradical
-7,a. reptans,a. chamaecistus subsp. scoparia (boiss.) rech.f,,,,,,,,
-8,a. chamaecistus subsp. scoparia (boiss.) rech.f,a. chamaecistus subsp. scoparia,,,,,,,,
+0,a. laxmannii,a. laxmannii,,aspergillus flavus,,,ajuga_intestinal and biliary disorders,a. laxmannii_antiradical,a. laxmannii_diuretic,ajuga_diuretic
+1,ajuga laxmannii,ajuga laxmannii,,aspergillus niger,,,ajuga_hypertension,a. laxmannii_antimicrobial,a. laxmannii_astringent,ajuga_antipyretic
+2,ajuga,a. bracteosa,,candida albicans,,,ajuga_fever,ajuga laxmannii_antioxidant,a. laxmannii_antipyretic,ajuga_astringent
+3,ajugalaxmannii,a. relicta,,candida parapsilosis,,,ajuga_ulcer,ajuga laxmannii_anti-inflammatory,,a. laxmannii_antibacterial
+4,a. bracteosa,a. taiwanensis,,penicillium funiculosum,,,ajuga_edema,,,a. laxmannii_antifungal
+5,a. relicta,a. turkestanica,,,,,,,,a. turkestanica_antioxidant
+6,a. taiwanensis,a. reptans,,,,,,,,a. chamaecistus subsp. scoparia (boiss.) rech.f_antiradical
+7,a. turkestanica,a. chamaecistus subsp. scoparia (boiss.) rech.f,,,,,,,,
+8,a. reptans,a. chamaecistus subsp. scoparia,,,,,,,,
+9,a. chamaecistus subsp. scoparia (boiss.) rech.f,,,,,,,,,

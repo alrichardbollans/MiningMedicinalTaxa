@@ -1,7 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,a. paniculata,andrographis paniculata,hypericum perforatum,hypericumperforatum,artemisia annua_malaria,,,berheris fremontii_anti-microbial,,
+0,a. paniculata,andrographis paniculata,,,artemisia annua_malaria,,,berheris fremontii_anti-microbial,,
 1,salix alba,salix alba,,,,,,,,
 2,digitalis sp,digitalis sp,,,,,,,,
 3,dioscorea sp,dioscorea sp,,,,,,,,
 4,berheris fremontii,berheris fremontii,,,,,,,,
-5,artemisia annua,artemisia annua,,,,,,,,
+5,hypericumperforatum,hypericum perforatum,,,,,,,,
+6,artemisia annua,artemisia annua,,,,,,,,

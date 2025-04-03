@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,o. dictamnus,origanum dictamnus,,c. creticus subsp. eriocephalus,origanum dictamnus_mild gastrointestinal disorders,satureja montana_cough,c. creticus subsp. eriocephalus_flu,origanum dictamnus_relaxing effect,cistus creticus l. subsp. eriocephalus_antiviral,artocarpus tonkinensis_decreases th17 cell function
-1,satureja montana,satureja montana,,thymus spp,origanum dictamnus_skin inflammations,stachys iva_cough,c. creticus subsp. eriocephalus_influenza a h1n1 strains,thymus thracicus velen_antioxidant,,c. creticus subsp. eriocephalus_anti-influenza
-2,stachys iva,stachys iva,,cistus incanus l,origanum dictamnus_wound healing,sideritis_cough,c. creticus subsp. eriocephalus_cold symptoms,thymus thracicus velen_anti-inflammatory,,c. creticus subsp. eriocephalus_anti-neuraminidase
-3,sideritis sp,sideritis,,c. creticus subsp,origanum dictamnus_bruises,cistus creticus l. subsp. eriocephalus_flu,,artocarpus tonkinensis_anti-inflammatory,,c. creticus subsp. eriocephalus_inhibiting influenza virus
+1,satureja montana,satureja montana,,thymus spp,origanum dictamnus_skin inflammations,stachys iva_cough,c. creticus subsp. eriocephalus_influenza a h1n1 strains,thymus thracicus velen_antioxidant,,c. creticus subsp. eriocephalus_anti-neuraminidase
+2,stachys iva,stachys iva,,cistus incanus l,origanum dictamnus_wound healing,sideritis_cough,c. creticus subsp. eriocephalus_cold symptoms,thymus thracicus velen_anti-inflammatory,,c. creticus subsp. eriocephalus_inhibiting influenza virus
+3,sideritis sp,sideritis,,c. creticus subsp,origanum dictamnus_bruises,cistus creticus l. subsp. eriocephalus_flu,,artocarpus tonkinensis_anti-inflammatory,,c. creticus subsp. eriocephalus_anti-influenza
 4,achillea coarcata,achillea coarcata,,,origanum dictamnus_cough associated with cold,cistus creticus l. subsp. eriocephalus_cold symptoms,,,,
 5,teucrium,teucrium,,,satureja montana_common flu,,,,,
 6,chamomilla recutita,chamomilla recutita,,,stachys iva_common flu,,,,,

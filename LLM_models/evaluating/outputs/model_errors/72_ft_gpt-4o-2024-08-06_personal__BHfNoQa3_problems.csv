@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,triticum dicoccum,triticum dicoccum,,oryzasativa,,,,,,
+0,triticum dicoccum,triticum dicoccum,,,,,,,,
 1,aegilops squarrosa,aegilops squarrosa,,,,,,,,
 2,triticum aestivum,triticum aestivum,,,,,,,,
 3,saccharomyces cerevisiae,saccharomyces cerevisiae,,,,,,,,
 4,oryza,oryza,,,,,,,,
-5,oryzaglaberrima,oryza sativa,,,,,,,,
-6,zea mays,oryzaglaberrima,,,,,,,,
-7,,zea mays,,,,,,,,
+5,oryzasativa,oryza sativa,,,,,,,,
+6,oryzaglaberrima,oryzaglaberrima,,,,,,,,
+7,zea mays,zea mays,,,,,,,,

@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,phyllanthus emblica l,phyllanthus emblica l,,,phyllanthus emblica l_diabetes,,phyllanthus emblica l_digestive problems,nigella sativa l_antibacterial,phyllanthus emblica l_diuretic,nigella sativa l_nephroprotective effects
-1,terminalia bellirica (gaertn.) roxb,terminalia bellirica (gaertn.) roxb,,,phyllanthus emblica l_hypercholesterolemia,,terminalia bellirica (gaertn.) roxb_digestive problems,nigella sativa l_anti-cancer,phyllanthus emblica l_anti-inflammatory,nigella sativa l_hepatoprotective
-2,terminalia chebula retx,terminalia chebula retx,,,phyllanthus emblica l_cardiovascular disease,,terminalia chebula retx_digestive problems,nigella sativa l_analgesic,phyllanthus emblica l_antibiotic,nigella sativa l_healing
+0,phyllanthus emblica l,phyllanthus emblica l,,,phyllanthus emblica l_diabetes,,phyllanthus emblica l_digestive problems,nigella sativa l_antibacterial,phyllanthus emblica l_diuretic,nigella sativa l_healing
+1,terminalia bellirica (gaertn.) roxb,terminalia bellirica (gaertn.) roxb,,,phyllanthus emblica l_hypercholesterolemia,,terminalia bellirica (gaertn.) roxb_digestive problems,nigella sativa l_anti-cancer,phyllanthus emblica l_anti-inflammatory,nigella sativa l_nephroprotective effects
+2,terminalia chebula retx,terminalia chebula retx,,,phyllanthus emblica l_cardiovascular disease,,terminalia chebula retx_digestive problems,nigella sativa l_analgesic,phyllanthus emblica l_antibiotic,nigella sativa l_hepatoprotective
 3,nigella sativa l,nigella sativa l,,,phyllanthus emblica l_hypertension,,,nigella sativa l_antifungal,phyllanthus emblica l_stimulant,
 4,,,,,phyllanthus emblica l_constipation,,,nigella sativa l_anti-inflammatory,terminalia bellirica (gaertn.) roxb_diuretic,
 5,,,,,terminalia bellirica (gaertn.) roxb_diabetes,,,,terminalia bellirica (gaertn.) roxb_anti-inflammatory,

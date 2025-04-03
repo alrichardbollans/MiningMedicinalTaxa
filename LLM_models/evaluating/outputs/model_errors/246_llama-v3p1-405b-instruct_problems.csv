@@ -1,21 +1,21 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,hibiscus sabdariffa,hibiscus sabdariffa,,s. perfoliata l,hibiscus sabdariffa_breast cancer,lonicera japonica_breast cancer,hibiscus sabdariffa_liver,antrodia salmonea_autophagic and apoptotic cell death,hibiscus sabdariffa_inhibition of cancer cells,physalis angulata l_inhibit the production of inflammatory cytokines
-1,lonicera japonica,lonicera japonica,,s. curvidens stapf,eucommia ulmoides_breast cancer,physalis angulata_inflammation,hibiscus sabdariffa_skin cancer,sideritis cypria_diaphoretic,lonicera japonica_inhibition of cancer cells,antrodia salmonea_autophagic- and apoptotic-cell death
-2,eucommia ulmoides,eucommia ulmoides,,,antrodia salmonea_glioblastoma,mikania micrantha_melanogenesis,lonicera japonica_skin cancer,sideritis cypria_tonic,eucommia ulmoides_inhibition of cancer cells,antrodia salmonea_autophagic or apoptotic cell death
-3,physalis angulata l,physalis angulata,,,cannabis sativa_stress,zingiber officinale_various ailments,eucommia ulmoides_liver,,physalis angulata_anti-inflammatory,mikania micrantha_prevent free radical diseases
-4,antrodia salmonea,antrodia salmonea,,,cannabis sativa_anxiety,curcuma amada_various ailments,eucommia ulmoides_skin cancer,,mikania micrantha_inhibition of melanin production,mikania micrantha_keratinocyte proliferation
-5,mikania micrantha,mikania micrantha,,,cannabis sativa_pain,zingiber montanum_various ailments,,,"cannabis sativa_relief of pain, stress, and anxiety",mikania micrantha_inhibit melanin production
+1,lonicera japonica,lonicera japonica,,s. curvidens stapf,eucommia ulmoides_breast cancer,physalis angulata_inflammation,hibiscus sabdariffa_skin cancer,sideritis cypria_diaphoretic,lonicera japonica_inhibition of cancer cells,antrodia salmonea_autophagic or apoptotic cell death
+2,eucommia ulmoides,eucommia ulmoides,,,antrodia salmonea_glioblastoma,mikania micrantha_melanogenesis,lonicera japonica_skin cancer,sideritis cypria_tonic,eucommia ulmoides_inhibition of cancer cells,antrodia salmonea_autophagic- and apoptotic-cell death
+3,physalis angulata l,physalis angulata,,,cannabis sativa_stress,zingiber officinale_various ailments,eucommia ulmoides_liver,,physalis angulata_anti-inflammatory,mikania micrantha_anti-inflammatory
+4,antrodia salmonea,antrodia salmonea,,,cannabis sativa_anxiety,curcuma amada_various ailments,eucommia ulmoides_skin cancer,,mikania micrantha_inhibition of melanin production,mikania micrantha_antioxidant
+5,mikania micrantha,mikania micrantha,,,cannabis sativa_pain,zingiber montanum_various ailments,,,"cannabis sativa_relief of pain, stress, and anxiety",mikania micrantha_reducing tyrosinase
 6,cannabis sativa,cannabis sativa,,,sideritis cypria_common cold,zingiber zerumbet_various ailments,,,zingiber officinale_ethnopharmacological validation,mikania micrantha_anti-cancer
-7,sideritis cypria,sideritis cypria,,,sideritis cypria_stomach disorders,,,,curcuma amada_ethnopharmacological validation,mikania micrantha_antioxidant
-8,s. cypria,zingiber officinale,,,sideritis cypria_headache,,,,zingiber montanum_ethnopharmacological validation,mikania micrantha_reducing tyrosinase
-9,sideritis,curcuma amada,,,,,,,zingiber zerumbet_ethnopharmacological validation,mikania micrantha_wound healing
+7,sideritis cypria,sideritis cypria,,,sideritis cypria_stomach disorders,,,,curcuma amada_ethnopharmacological validation,mikania micrantha_inhibit melanin production
+8,s. cypria,zingiber officinale,,,sideritis cypria_headache,,,,zingiber montanum_ethnopharmacological validation,mikania micrantha_keratinocyte proliferation
+9,sideritis,curcuma amada,,,,,,,zingiber zerumbet_ethnopharmacological validation,mikania micrantha_inhibits melanin production
 10,zingiber officinale roscoe,zingiber montanum,,,,,,,,mikania micrantha_anti-blood cancer
-11,curcuma amada roxb,zingiber zerumbet,,,,,,,,mikania micrantha_increasing autophagy
-12,zingiber montanum koen,,,,,,,,,mikania micrantha_inhibits melanogenesis
-13,z. montanum koen,,,,,,,,,mikania micrantha_inhibits melanin production
-14,zingiber zerumbet smith,,,,,,,,,mikania micrantha_anti-inflammatory
+11,curcuma amada roxb,zingiber zerumbet,,,,,,,,mikania micrantha_wound healing
+12,zingiber montanum koen,,,,,,,,,mikania micrantha_prevent free radical diseases
+13,z. montanum koen,,,,,,,,,mikania micrantha_increasing autophagy
+14,zingiber zerumbet smith,,,,,,,,,mikania micrantha_inhibits melanogenesis
 15,,,,,,,,,,sideritis cypria_antioxidant
 16,,,,,,,,,,s. cypria_antioxidant
-17,,,,,,,,,,zingiber montanum koen_thrombolytic
-18,,,,,,,,,,zingiber montanum koen_cytotoxicity
-19,,,,,,,,,,zingiber montanum koen_free radical scavenging
+17,,,,,,,,,,zingiber montanum koen_cytotoxicity
+18,,,,,,,,,,zingiber montanum koen_free radical scavenging
+19,,,,,,,,,,zingiber montanum koen_thrombolytic

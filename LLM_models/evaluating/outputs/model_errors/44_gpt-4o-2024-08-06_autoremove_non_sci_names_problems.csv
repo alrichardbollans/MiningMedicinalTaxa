@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,olea europaea,olea europaea,pistacia vera,vitus vinifera,olea europaea_arthritis,pistacia vera_cholesterol,olea europaea_eczema,piper betle_digestion,mentha arvensis_digestion,spinacia oleracea_blood
+0,olea europaea,olea europaea,pistacia vera,vitus vinifera,olea europaea_arthritis,pistacia vera_cholesterol,olea europaea_eczema,piper betle_digestion,mentha arvensis_digestion,spinacia oleracea_source of iron
 1,piper betle,piper betle,vitis vinifera,pistaci vera,olea europaea_ear infections,,ficus religiosa_wounds,ficus religiosa_digestion,vitis vinifera_cough,spinacia oleracea_internal strength
-2,spinacia oleracea,spinacia oleracea,,asparagus,olea europaea_skin conditions,,vitus vinifera_cough,ficus religiosa_liver health,vitis vinifera_blood purifier,spinacia oleracea_source of iron
+2,spinacia oleracea,spinacia oleracea,,asparagus,olea europaea_skin conditions,,vitus vinifera_cough,ficus religiosa_liver health,vitis vinifera_blood purifier,spinacia oleracea_blood
 3,ficus religiosa,ficus religiosa,,,ficus religiosa_diarrhoea,,,annona reticulata_immune boosting properties,areca catechu_digestion,vitus vinifera_blood purifier
-4,mentha arvensis,mentha arvensis,,,mentha arvensis_indigestion,,,foeniculum vulgare_digestion,,pistaci vera_cholesterol
-5,annona reticulata,annona reticulata,,,annona reticulata_cancer,,,areca catechu_stimulant,,pistaci vera_general health
+4,mentha arvensis,mentha arvensis,,,mentha arvensis_indigestion,,,foeniculum vulgare_digestion,,pistaci vera_general health
+5,annona reticulata,annona reticulata,,,annona reticulata_cancer,,,areca catechu_stimulant,,pistaci vera_cholesterol
 6,brassica juncea,brassica juncea,,,annona reticulata_diarrhoea,,,laurus nobilis_digestion,,
 7,foeniculum vulgare,foeniculum vulgare,,,brassica juncea_dry skin,,,sesamum indicum_warms blood,,
 8,areca catechu,areca catechu,,,brassica juncea_pain,,,sesamum indicum_reduce urinary frequency,,

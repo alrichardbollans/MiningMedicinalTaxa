@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,echinacea angustifolia dc,echinacea,tulsi,agnus castus,echinacea angustifolia dc_common cold,tulsi_abdominal pains,aloe vera_wound,,,echinacea_maintain immune system
-1,echinacea,echinacea angustifolia dc,hawthorn,trachyspermum ammi,echinacea angustifolia dc_infections,tulsi_lower the blood glucose,aloe vera_skin conditions,,,mentha_eases digestion
-2,rhodiola,rhodiola,ajwain,eucalyptus,aloe vera_eczema,tulsi_digestion,aloe vera_skin heath,,,mentha_calm nerves
-3,aloe vera,aloe vera,ajwain/ trachyspermum ammi,,senna_constipation,tulsi_cold,echinacea_sore throat,,,ginkgo_circulatory problems
-4,aspergillus,aspergillus,commiphora,,,tulsi_diarrhoea,echinacea_colds,,,boswellia serrate roxb. ex colebr_anti-inflammatory
-5,ginkgo,ginkgo,gurmar,,,tulsi_indigestion,echinacea_coughs,,,althaea officinalis l_demulcent
+0,echinacea angustifolia dc,echinacea,tulsi,agnus castus,echinacea angustifolia dc_common cold,tulsi_abdominal pains,aloe vera_skin conditions,,,echinacea_maintain immune system
+1,echinacea,echinacea angustifolia dc,hawthorn,trachyspermum ammi,echinacea angustifolia dc_infections,tulsi_lower the blood glucose,aloe vera_skin heath,,,mentha_eases digestion
+2,rhodiola,rhodiola,ajwain,eucalyptus,aloe vera_eczema,tulsi_digestion,aloe vera_wound,,,mentha_calm nerves
+3,aloe vera,aloe vera,ajwain/ trachyspermum ammi,,senna_constipation,tulsi_cold,echinacea_coughs,,,ginkgo_circulatory problems
+4,aspergillus,aspergillus,commiphora,,,tulsi_diarrhoea,echinacea_sore throat,,,boswellia serrate roxb. ex colebr_anti-inflammatory
+5,ginkgo,ginkgo,gurmar,,,tulsi_indigestion,echinacea_colds,,,althaea officinalis l_demulcent
 6,senna,senna,haajmola/ trifla churan,,,tulsi_coughs,agnus castus_pms symptoms,,,althaea officinalis l_cough
 7,mentha,mentha,suva,,,tulsi_cough,,,,
 8,boswellia serrate roxb. ex colebr,boswellia,,,,tulsi_acidity,,,,

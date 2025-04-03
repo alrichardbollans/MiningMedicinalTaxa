@@ -63,4 +63,4 @@ if __name__ == '__main__':
 
     taxonerd_ner_model = taxonerd.load(model="en_ner_eco_biobert")
     taxon_test_model = NERModel("en_ner_eco_biobert")
-    full_evaluation(taxon_test_model)
+    full_evaluation(taxon_test_model, rerun=False)

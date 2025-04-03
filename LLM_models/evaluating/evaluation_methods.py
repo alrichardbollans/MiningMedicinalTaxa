@@ -1,14 +1,16 @@
 import itertools
 import os.path
-import pickle
 import string
+from difflib import SequenceMatcher
 from typing import Callable
+
 import numpy as np
 import pandas as pd
 
-from LLM_models.structured_output_schema import TaxaData, get_all_human_annotations_for_chunk_id
+from LLM_models.structured_output_schema import TaxaData
 from useful_string_methods import filter_name_list_using_sci_names, abbreviate_sci_name
 
+fuzzy_match_ratio = 0.9
 
 def get_metrics_from_tp_fp_fn(true_positives_in_ground_truths: list, true_positives_in_model_annotations: list, false_positives: list,
                               false_negatives: list):
@@ -53,9 +55,9 @@ def abbreviated_precise_match(name1: str, name2: str):
     :param name2: The second name to compare.
     :return: True if name1 is an exact match or an abbreviation of name2, or if name2 is an abbreviation of name1. False otherwise.
     """
-    if '  ' in name1 or '  ' in name2:
-        raise ValueError(f'Double spaces in name: {name1}, {name2}')
-    if name1 == name2 or abbreviate_sci_name(name1) == name2 or abbreviate_sci_name(name2) == name1:
+    if precise_match(name1, name2):
+        return True
+    if abbreviate_sci_name(name1) == name2 or abbreviate_sci_name(name2) == name1:
         return True
     else:
         return False
@@ -100,7 +102,12 @@ def precise_match(name1: str, name2: str, allow_any_start_point=None):
     if name1 == name2:
         return True
     else:
-        return False
+        name1_no_spaces = name1.replace(' ', '')
+        name2_no_spaces = name2.replace(' ', '')
+        if name1_no_spaces == name2_no_spaces:
+            return True
+        else:
+            return False
 
 
 def approximate_match(name1: str, name2: str, allow_any_start_point: bool = False):
@@ -117,8 +124,9 @@ def approximate_match(name1: str, name2: str, allow_any_start_point: bool = Fals
     """
     # When allow_any_start_point is set to true, i.e. for relationships and not scientific names, remove '-' as these are sometimes used across line-
     # breaks
-    if '  ' in name1 or '  ' in name2:
-        raise ValueError(f'Double spaces in name: {name1}, {name2}')
+
+    if precise_match(name1, name2):
+        return True
     if allow_any_start_point:
         name1_to_use = name1.replace('-', '')
         name2_to_use = name2.replace('-', '')
@@ -158,6 +166,31 @@ def approximate_match(name1: str, name2: str, allow_any_start_point: bool = Fals
         return False
 
 
+def fuzzy_match(name1: str, name2: str, allow_any_start_point=None):
+    """
+    The `precise_match` function checks whether two given names are an exact match.
+
+    :param name1: The first name to compare.
+    :param name2: The second name to compare.
+    :param allow_any_start_point: Unused. Defaults to None.
+    :return: True if the names are an exact match, False otherwise.
+
+    Raises:
+        ValueError: If any of the names is not in lower case.
+
+    """
+    if '  ' in name1 or '  ' in name2:
+        raise ValueError(f'Double spaces in name: {name1}, {name2}')
+    if name1.lower() != name1.lower() or name2.lower() != name2.lower():
+        raise ValueError(f'Names not lower case: {name1}, {name2}')
+
+    ratio = SequenceMatcher(None, name1, name2).ratio()
+
+    if ratio>fuzzy_match_ratio:
+        return True
+    else:
+        return False
+
 def NER_evaluation(model_annotations: TaxaData, ground_truth_annotations: TaxaData, matching_method: Callable):
     """
 
@@ -191,7 +224,7 @@ def NER_evaluation(model_annotations: TaxaData, ground_truth_annotations: TaxaDa
     for g in ground_truth_annotations.taxa:
         if not (any(matching_method(g.scientific_name, a.scientific_name) for a in model_annotations.taxa)):
             false_negatives.append(g.scientific_name)
-
+    overlap = set(true_positives_in_ground_truths).intersection(set(false_negatives))
     assert len(ground_truth_names) == len(true_positives_in_ground_truths + false_negatives)
     # print(f'False positives: {false_positives}')
     # print(f'False negatives: {false_negatives}')
@@ -207,6 +240,11 @@ def RE_evaluation(model_annotations: TaxaData, ground_truth_annotations: TaxaDat
     elif matching_method == 'approximate':
         NER_matching_method = abbreviated_approximate_match
         RE_matching_method = approximate_match
+
+    elif matching_method == 'fuzzy':
+        NER_matching_method = abbreviated_approximate_match
+        RE_matching_method = fuzzy_match
+
     else:
         raise ValueError(f'Unrecognised matching method: {matching_method}')
 

@@ -1,11 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,shorea roxburghii,shorea roxburghii,,rauwolfia,shorea roxburghii_type 2 diabetes mellitus,,cladosporium_acute myeloid leukemia,shorea roxburghii_antidiabetic,,calluna vulgaris (l.) hull_skin-protective
-1,s. roxburghii,s. roxburghii,,warbrugia ugandensis sprague,shorea roxburghii_dysentery,,rauwolfia_acute myeloid leukemia,shorea roxburghii_hypoglycemic,,c. vulgaris_antiradical
-2,dacrycarpus imbricatus,dacrycarpus imbricatus,,a. coriria,shorea roxburghii_cholera,,,,,c. vulgaris_moderate antimicrobial
-3,pinus dalatensis ferre,pinus dalatensis ferre,,w. ugandensis,shorea roxburghii_diarrhea,,,,,c. vulgaris_antioxidant
-4,oldenlandia pinifolia,oldenlandia pinifolia,,,,,,,,c. vulgaris_skin anti-aging and protection
-5,ficus hirta,ficus hirta,,,,,,,,cladosporium_anti-microbial
-6,cladosporium,cladosporium spp,,,,,,,,cladosporium_anti-tumor
+1,s. roxburghii,s. roxburghii,,warbrugia ugandensis sprague,shorea roxburghii_dysentery,,rauwolfia_acute myeloid leukemia,shorea roxburghii_hypoglycemic,,c. vulgaris_moderate antimicrobial
+2,dacrycarpus imbricatus,dacrycarpus imbricatus,,a. coriria,shorea roxburghii_cholera,,,,,c. vulgaris_antioxidant
+3,pinus dalatensis ferre,pinus dalatensis ferre,,w. ugandensis,shorea roxburghii_diarrhea,,,,,c. vulgaris_skin anti-aging and protection
+4,oldenlandia pinifolia,oldenlandia pinifolia,,,,,,,,c. vulgaris_antiradical
+5,ficus hirta,ficus hirta,,,,,,,,cladosporium_anti-tumor
+6,cladosporium,cladosporium spp,,,,,,,,cladosporium_anti-microbial
 7,cladosporium spp,acer truncatum,,,,,,,,
 8,acer truncatum,a. truncatum,,,,,,,,
 9,erythrina abyssinica dc,erythrina abyssinica dc,,,,,,,,

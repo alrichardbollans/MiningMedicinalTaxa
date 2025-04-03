@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,gaultheria procumbens,gaultheria procumbens,hedeoma pulgioides,calophyllum inophyllum,,hydnocarpus kurzii_leprosy,calophyllum inophyllum_neuralgia,,gaultheria procumbens_medicine,aesculus hippocastanum_cardiovascular
-1,kalmia latifolia,kalmia latifolia,,diospyros kaki,,,calophyllum inophyllum_skin disease,,kalmia latifolia_medicine,cassia fistula_laxative
+0,gaultheria procumbens,gaultheria procumbens,hedeoma pulgioides,calophyllum inophyllum,,hydnocarpus kurzii_leprosy,calophyllum inophyllum_skin disease,,gaultheria procumbens_medicine,aesculus hippocastanum_cardiovascular
+1,kalmia latifolia,kalmia latifolia,,diospyros kaki,,,calophyllum inophyllum_neuralgia,,kalmia latifolia_medicine,cassia fistula_laxative
 2,erythroxylum coca,erythroxylum coca,,diospyros marmorata,,,,,erythroxylum coca_medicinal,
 3,cnidoscolus chayamansa,cnidoscolus chayamansa,,diospyros mollis,,,,,cnidoscolus chayamansa_medicine,
 4,jatropha spp,jatropha spp,,diospyros virginiana,,,,,jatropha spp_medicine,

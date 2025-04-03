@@ -1,6 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,anacardium occidentale,anacardium occidentale,plantago major,asa foetida,,,,,,
-1,styrax,styrax liquidum,archangelica officinalis,plantagomajor,,,,,,
-2,carlina acaulis,carlina acaulis,,archangelicaofficinalis,,,,,,
-3,cnicus benedictus,cnicus benedictus,,,,,,,,
-4,pimpinella saxifraga,pimpinella saxifraga,,,,,,,,
+0,anacardium occidentale,anacardium occidentale,,asa foetida,,,,,,
+1,styrax,styrax liquidum,,,,,,,,
+2,carlina acaulis,carlina acaulis,,,,,,,,
+3,plantagomajor,plantago major,,,,,,,,
+4,cnicus benedictus,cnicus benedictus,,,,,,,,
+5,archangelicaofficinalis,archangelica officinalis,,,,,,,,
+6,pimpinella saxifraga,pimpinella saxifraga,,,,,,,,

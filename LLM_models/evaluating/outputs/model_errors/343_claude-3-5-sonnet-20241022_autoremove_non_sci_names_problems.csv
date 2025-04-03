@@ -1,30 +1,23 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,chelidonium,chelidonium majus l,,chelidonium majusl,chelidonium majus l_skin eczema,chelidonium majus l_skin protuberances,chelidonium_cholagogue,chelidonium majus l_diuretic,chelidonium majus l_cytostatic,chelidonium_anticancer
-1,c. majus,chelidonium asiaticum (hara) krahulcova,,chelidonium l,chelidonium majus l_toothache,chelidonium majus l_visual impairment,chelidonium_anti-jaundice,chelidonium majus l_spasmolytic,chelidonium majus l_cholagogue,c. majus_enhance sight
-2,chelidonium majus,,,c. majus l.sensu lato,chelidonium majus l_wounds,chelidonium majus l_warts,chelidonium majusl_skin protuberances,chelidonium majus l_antiviral,chelidonium majus l_anti-inflammatory,c. majus_anti-infectious
-3,c. majus l,,,c. asiaticum (hara)krahulcova,chelidonium majus l_cataract,chelidonium majus l_gastrointestinal disorders,chelidonium majusl_cancer,chelidonium majus l_antimicrobial,,c. majus_anti-edema
-4,c. asiaticum,,,c. majus l.subsp. majus,chelidonium majus l_cancer,chelidonium majus l_infections,chelidonium majusl_gastrointestinal disorders,chelidonium majus l_pain-relieving,,c. majus_gastric
-5,,,,chelidonium majussubsp. grandiflorum (dc.) printz,chelidonium majus l_ulcers,,chelidonium majusl_warts,chelidonium majus l_antitussive,,c. majus_hepatic
-6,,,,,chelidonium majus l_body ulcers,,chelidonium majusl_infections,chelidonium majus l_expectorant,,c. majus_anticancer
-7,,,,,chelidonium majus l_ophthalmological problems,,c. majus_aphrodisiacum,,,
-8,,,,,chelidonium majus l_jaundice,,c. majus_aching tooth,,,
-9,,,,,chelidonium majus l_colic,,c. majus_bodyulcers,,,
-10,,,,,,,c. majus_hair overgrowth,,,
-11,,,,,,,c. majus_sightimpairment,,,
-12,,,,,,,c. majus_dermatologic disorders,,,
-13,,,,,,,c. majus_liver conditions,,,
-14,,,,,,,c. majus_liver diseases,,,
-15,,,,,,,c. majus_eyediseases,,,
-16,,,,,,,c. majus_skin ulcer,,,
-17,,,,,,,c. majus_herpes,,,
-18,,,,,,,c. majus_eye diseases,,,
-19,,,,,,,c. majus_pain,,,
+0,chelidonium,chelidonium majus l,,chelidonium l,chelidonium majus l_skin eczema,,chelidonium_anti-jaundice,chelidonium majus l_diuretic,chelidonium majus l_cytostatic,chelidonium_anticancer
+1,chelidonium majusl,chelidonium asiaticum (hara) krahulcova,,c. majus l.sensu lato,chelidonium majus l_toothache,,chelidonium_cholagogue,chelidonium majus l_spasmolytic,chelidonium majus l_cholagogue,c. majus_anti-edema
+2,c. majus,,,c. majus l.subsp. majus,chelidonium majus l_wounds,,c. majus_stomach ache,chelidonium majus l_antiviral,chelidonium majus l_anti-inflammatory,c. majus_hepatic
+3,chelidonium majus,,,chelidonium majussubsp. grandiflorum (dc.) printz,chelidonium majus l_skin protuberances,,c. majus_pulmonary,chelidonium majus l_antimicrobial,,c. majus_enhance sight
+4,c. majus l,,,,chelidonium majus l_visual impairment,,c. majus_dermatologic diseases,chelidonium majus l_pain-relieving,,c. majus_gastric
+5,c. asiaticum (hara)krahulcova,,,,chelidonium majus l_cataract,,c. majus_eyediseases,chelidonium majus l_antitussive,,c. majus_anticancer
+6,c. asiaticum,,,,chelidonium majus l_cancer,,c. majus_liver diseases,chelidonium majus l_expectorant,,c. majus_anti-infectious
+7,,,,,chelidonium majus l_ulcers,,c. majus_dermatologic disorders,,,
+8,,,,,chelidonium majus l_body ulcers,,c. majus_pain,,,
+9,,,,,chelidonium majus l_warts,,c. majus_hair overgrowth,,,
+10,,,,,chelidonium majus l_gastrointestinal disorders,,c. majus_aching tooth,,,
+11,,,,,chelidonium majus l_ophthalmological problems,,c. majus_herpes,,,
+12,,,,,chelidonium majus l_infections,,c. majus_liver conditions,,,
+13,,,,,chelidonium majus l_jaundice,,c. majus_throat cleansing,,,
+14,,,,,chelidonium majus l_colic,,c. majus_eye diseases,,,
+15,,,,,,,c. majus_ophthalmologicaldiseases,,,
+16,,,,,,,c. majus_aphrodisiacum,,,
+17,,,,,,,c. majus_leprosy,,,
+18,,,,,,,c. majus_eye and skin conditions,,,
+19,,,,,,,c. majus_sightimpairment,,,
 20,,,,,,,c. majus_scabs,,,
-21,,,,,,,c. majus_leprosy,,,
-22,,,,,,,c. majus_stomach ache,,,
-23,,,,,,,c. majus_ophthalmologicaldiseases,,,
-24,,,,,,,c. majus_throat cleansing,,,
-25,,,,,,,c. majus_eye and skin conditions,,,
-26,,,,,,,c. majus_visualimpairment,,,
-27,,,,,,,c. majus_dermatologic diseases,,,
-28,,,,,,,c. majus_pulmonary,,,
+21,,,,,,,c. majus_skin ulcer,,,

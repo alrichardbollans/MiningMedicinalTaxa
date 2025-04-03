@@ -1,11 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,aloe vera,aloe vera,,eucalyptus,aloe vera_diabetes,aloe vera_stomach ulcers,aloe vera_burns,aloe vera_anti-inflammatory,,momordica charantia l_improve insulin secretion
-1,momordica charantia l,momordica charantia l,,,aloe vera_irritable bowel syndrome,aloe vera_tooth ache,aloe vera_tooth aches,aloe vera_wound healing,,momordica charantia l_glucose absorption
-2,viola odorata l,viola odorata l,,,aloe vera_arthritis,trigonella foenum-graecum l_diabetes,aloe vera_skin irritation,aloe vera_immune boosting,,momordica charantia l_increase glucose uptake in liver cells
+0,aloe vera,aloe vera,,eucalyptus,aloe vera_diabetes,aloe vera_stomach ulcers,aloe vera_skin irritation,aloe vera_anti-inflammatory,,momordica charantia l_glucose absorption
+1,momordica charantia l,momordica charantia l,,,aloe vera_irritable bowel syndrome,aloe vera_tooth ache,aloe vera_skin conditions,aloe vera_wound healing,,momordica charantia l_improve insulin secretion
+2,viola odorata l,viola odorata l,,,aloe vera_arthritis,trigonella foenum-graecum l_diabetes,aloe vera_tooth aches,aloe vera_immune boosting,,momordica charantia l_increase glucose uptake in liver cells
 3,trigonella foenum-graecum l,trigonella foenum-graecum l,,,aloe vera_mouth ulcers,trigonella foenum-graecum l_arthritis,aloe vera_itchy skin,momordica charantia l_hypoglycaemic,,trigonella foenum-graecum l_reduce bg levels
-4,,,,,aloe vera_eczema,,aloe vera_skin conditions,trigonella foenum-graecum l_anti-diabetic,,trigonella foenum-graecum l_improving insulin response in diabetics
-5,,,,,aloe vera_duodenal ulcers,,viola odorata l_coughs,,,
-6,,,,,momordica charantia l_diabetes,,viola odorata l_colds,,,
+4,,,,,aloe vera_eczema,,aloe vera_burns,trigonella foenum-graecum l_anti-diabetic,,trigonella foenum-graecum l_improving insulin response in diabetics
+5,,,,,aloe vera_duodenal ulcers,,viola odorata l_colds,,,
+6,,,,,momordica charantia l_diabetes,,viola odorata l_coughs,,,
 7,,,,,viola odorata l_fever,,,,,
 8,,,,,viola odorata l_cough,,,,,
 9,,,,,viola odorata l_headache,,,,,

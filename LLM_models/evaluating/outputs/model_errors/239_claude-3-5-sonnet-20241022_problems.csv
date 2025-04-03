@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,sideritis,sideritis raeseri boiss & heldr. subsp. raeseri,,primula elatior (l.) hill,capparis orientalis veill_colds,sideritis raeseri boiss & heldr. subsp. raeseri_inflammation,,sideritis raeseri boiss & heldr. subsp. raeseri_analgesic,,capparis orientalis veill_hiv-1 reverse transcriptase inhibitory
-1,sideritis raeseri boiss. & heldr. subsp. raeseri,capparis orientalis veill,,rosa,capparis orientalis veill_atonia,capparis orientalis veill_diabetes,,sideritis raeseri boiss & heldr. subsp. raeseri_antimicrobial,,capparis orientalis veill_anti-diabetes
+0,sideritis,sideritis raeseri boiss & heldr. subsp. raeseri,,primula elatior (l.) hill,capparis orientalis veill_colds,sideritis raeseri boiss & heldr. subsp. raeseri_inflammation,,sideritis raeseri boiss & heldr. subsp. raeseri_analgesic,,capparis orientalis veill_anti-diabetes
+1,sideritis raeseri boiss. & heldr. subsp. raeseri,capparis orientalis veill,,rosa,capparis orientalis veill_atonia,capparis orientalis veill_diabetes,,sideritis raeseri boiss & heldr. subsp. raeseri_antimicrobial,,capparis orientalis veill_hiv-1 reverse transcriptase inhibitory
 2,sideritis raeseri boiss & heldr. subsp. raeseri,primula veris l,,,capparis orientalis veill_atherosclerosis,,,sideritis raeseri boiss & heldr. subsp. raeseri_carminative,,
 3,capparis orientalis veill,tinospora sinensis,,,mimosa pudica_dysuria,,,sideritis raeseri boiss & heldr. subsp. raeseri_stomachic,,
 4,primula veris,chromolaena odorata,,,,,,sideritis raeseri boiss & heldr. subsp. raeseri_antitussive,,

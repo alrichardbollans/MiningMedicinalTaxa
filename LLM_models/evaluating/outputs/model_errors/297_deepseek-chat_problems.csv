@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,centaurea,centaurea ragusina l,oroxylin a,,centaurea ragusina l_urogenital ailments,,,,,centaurea ragusina l_antibacterial
-1,centaurea ragusina l,,chrysin,,centaurea ragusina l_gastrointestinal disorders,,,,,centaurea ragusina l_anticancer
+0,centaurea,centaurea ragusina l,oroxylin a,,centaurea ragusina l_urogenital ailments,,,,,centaurea ragusina l_anticancer
+1,centaurea ragusina l,,chrysin,,centaurea ragusina l_gastrointestinal disorders,,,,,centaurea ragusina l_antibacterial
 2,c. ragusina l,,hispidulin,,centaurea ragusina l_microbial infections,,,,,
 3,,,deacylcynaropicrin,,,,,,,
 4,,,"3ar,4s,6ar,8s,9ar,9br)-[dodecahydro-8-dihydroxy-3,6,9-tris(methylene)-2oxo-2(3h)-azuleno[4,5-b]furanyl]-3-methyl-butanoate",,,,,,,

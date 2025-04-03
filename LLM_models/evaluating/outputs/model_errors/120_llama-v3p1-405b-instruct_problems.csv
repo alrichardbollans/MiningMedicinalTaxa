@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,atropa belladonna,atropa belladonna,lathyrus spp,pyrethrum,,atropa belladonna_hallucinations,,,atropa belladonna_antibiotic,papaver somniferum_pain-killing
-1,amanita muscaria,amanita muscaria,nicotiana tabacum,lathyrusspp,,lathyrus spp_skeletal deformation,,,lathyrus spp_stimulant,carica papaya_aid digestion
-2,ipomoea violacea,ipomoea violacea,,claviceps purpurea,,lathyrus spp_loss of bowel and bladder control,,,amanita muscaria_antibiotic,
-3,papaver somniferum,papaver somniferum,,lophophorawilliamsii,,amanita muscaria_hallucinations,,,ipomoea violacea_antibiotic,
-4,carica papaya,carica papaya,,citrus,,ipomoea violacea_hallucinations,,,papaver somniferum_stimulant,
-5,cyperus papyrus,cyperus papyrus,,nicotianatabacum,,papaver somniferum_pain,,,nicotiana tabacum_stimulant,
-6,,,,,,nicotiana tabacum_addiction,,,carica papaya_stimulant,
-7,,,,,,carica papaya_digestion,,,,
+0,atropa belladonna,atropa belladonna,,pyrethrum,,atropa belladonna_hallucinations,,,atropa belladonna_antibiotic,papaver somniferum_pain-killing
+1,lathyrusspp,lathyrus spp,,claviceps purpurea,,lathyrus spp_skeletal deformation,,,lathyrus spp_stimulant,carica papaya_aid digestion
+2,amanita muscaria,amanita muscaria,,lophophorawilliamsii,,lathyrus spp_loss of bowel and bladder control,,,amanita muscaria_antibiotic,
+3,ipomoea violacea,ipomoea violacea,,citrus,,amanita muscaria_hallucinations,,,ipomoea violacea_antibiotic,
+4,papaver somniferum,papaver somniferum,,,,ipomoea violacea_hallucinations,,,papaver somniferum_stimulant,
+5,nicotianatabacum,nicotiana tabacum,,,,papaver somniferum_pain,,,nicotiana tabacum_stimulant,
+6,carica papaya,carica papaya,,,,nicotiana tabacum_addiction,,,carica papaya_stimulant,
+7,cyperus papyrus,cyperus papyrus,,,,carica papaya_digestion,,,,

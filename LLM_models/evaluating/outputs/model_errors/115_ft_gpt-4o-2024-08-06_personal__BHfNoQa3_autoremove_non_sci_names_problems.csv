@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,podophyllum peltatum,podophyllum peltatum,,aechemea magdalanae,,,chenopodium quinoa_intestinal worms,,,lobelia tupa_emetic
 1,alnus glutinosa,alnus glutinosa,,coryphanthus palmeri,,,solidago spp_hepatitis,,,carthamus tinctorius_diuretic
-2,alnus oregana,alnus oregana,,caryocarya amygdaliferum,,,tanacetum vulgare_migraine,,,carthamus tinctorius_vermifuge
-3,alnus rubra,alnus rubra,,sirartia grosvenorii,,,tanacetum vulgare_fever,,,dichondra spp_purgative
+2,alnus oregana,alnus oregana,,caryocarya amygdaliferum,,,tanacetum vulgare_fever,,,carthamus tinctorius_vermifuge
+3,alnus rubra,alnus rubra,,sirartia grosvenorii,,,tanacetum vulgare_migraine,,,dichondra spp_purgative
 4,betula allaghaniensis,betula allaghaniensis,,diosocrea alata,,,nyssa aquatica_throat cancer,,,dichondra_purgative
 5,betula lenta,betula lenta,,,,,nyssa aquatica_leukemia,,,ipomoea pandurata_purgative
 6,betula papyrifera,betula papyrifera,,,,,,,,ipomoea purga_cathartic

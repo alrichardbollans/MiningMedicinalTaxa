@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,echinacea angustifolia dc,echinacea angustifolia dc,curcuma longa,,echinacea angustifolia dc_infections,althaea officinalis l_cough,aloe vera_wound,althaea officinalis l_demulcent,echinacea angustifolia dc_anti-inflammatory,echinacea_maintain immune system
-1,echinacea,althaea officinalis l,zingiber officinale,,echinacea angustifolia dc_common cold,boswellia serrate roxb. ex colebr_arthritis,aloe vera_skin heath,boswellia serrate roxb. ex colebr_anti-inflammatory,echinacea angustifolia dc_antibiotic,mentha_calm nerves
-2,althaea officinalis l,boswellia serrate roxb. ex colebr,ocimum tenuiflorum,,aloe vera_eczema,trachyspermum ammi_indigestion,echinacea_coughs,boswellia_anti-inflammatory,trachyspermum ammi_carminative,mentha_eases digestion
+1,echinacea,althaea officinalis l,zingiber officinale,,echinacea angustifolia dc_common cold,boswellia serrate roxb. ex colebr_arthritis,aloe vera_skin heath,boswellia serrate roxb. ex colebr_anti-inflammatory,echinacea angustifolia dc_antibiotic,mentha_eases digestion
+2,althaea officinalis l,boswellia serrate roxb. ex colebr,ocimum tenuiflorum,,aloe vera_eczema,trachyspermum ammi_indigestion,echinacea_colds,boswellia_anti-inflammatory,trachyspermum ammi_carminative,mentha_calm nerves
 3,boswellia serrate roxb. ex colebr,trachyspermum ammi,cinnamomum verum,,aloe vera_skin conditions,curcuma longa_coughs,echinacea_sore throat,,aloe vera_anti-inflammatory,ginkgo_circulatory problems
-4,boswellia,aloe vera,syzygium aromaticum,,agnus castus_pms symptoms,curcuma longa_wound healing,echinacea_colds,,aloe vera_soothing,althaea officinalis l_cough
+4,boswellia,aloe vera,syzygium aromaticum,,agnus castus_pms symptoms,curcuma longa_wound healing,echinacea_coughs,,aloe vera_soothing,althaea officinalis l_cough
 5,trachyspermum ammi,eucalyptus globulus,crataegus monogyna,,senna alexandrina_constipation,curcuma longa_arthritis,,,curcuma longa_antiseptic,
 6,aloe vera,mentha piperita,valeriana officinalis,,,curcuma longa_skin infections,,,curcuma longa_anti-inflammatory,
 7,eucalyptus,ginkgo biloba,passiflora incarnata,,,curcuma longa_colds,,,curcuma longa_antibiotic,

@@ -1,4 +1,4 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,c. majus,chelidonium majus,papaver somniferum,,,chelidonium majus_cancer,chelidonium majus_infections,chelidonium majus_antiviral,chelidonium majus_cytotoxic,c. majus_antibacterial
-1,chelidonium majus,,,,,chelidonium majus_warts,,chelidonium majus_antimicrobial,,c. majus_anti-warts
+0,c. majus,chelidonium majus,papaver somniferum,,,chelidonium majus_cancer,chelidonium majus_infections,chelidonium majus_antiviral,chelidonium majus_cytotoxic,c. majus_anti-warts
+1,chelidonium majus,,,,,chelidonium majus_warts,,chelidonium majus_antimicrobial,,c. majus_antibacterial
 2,chelidonium,,,,,chelidonium majus_inflammation,,,,

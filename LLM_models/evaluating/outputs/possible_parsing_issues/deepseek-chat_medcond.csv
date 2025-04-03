@@ -1,0 +1,31 @@
+,ground truth,model output
+0,hypericum perforatum_herpessimplex virus,hypericum perforatum_herpes simplex virus 1 & 2
+1,podophyllum peltatum_testicular/ovarian cancer,podophyllum peltatum_testicular cancer
+2,berberis vulgaris l_healinternal injuries,berberis vulgaris l_internal injuries
+3,mahonia fortunei (lindl. )fedde_treattesticular swelling,mahonia fortunei (lindl.) fedde_testicular swelling
+4,bocconia frutescens l_bronchistis,bocconia frutescens l_bronchitis
+5,"corydalis turtschaninoviibesser_gastric,duodenal ulcer",corydalis turtschaninovii besser_duodenal ulcer
+6,"coptis chinensis franch_mouth, tongueulcers",coptis chinensis franch_mouth ulcers
+7,elettaria cadamomum_nausea,elettaria cardamomum_nausea
+8,elettaria cadamomum_indigestion,elettaria cardamomum_indigestion
+9,elettaria cadamomum_indigestion,elettaria cardamomum_digestion
+10,vitus vinifera_cough,vitis vinifera_cough
+11,citrullus colocynth_diabetes,citrullus colocynthis_diabetes
+12,gentiana officinalis_hypothyroidis,gentiana officinalis_hypothyroidism
+13,hypericum perforatum_hypothyroidis,hypericum perforatum_hypothyroidism
+14,brassica nigra_hypothyroidis,brassica nigra_hypothyroidism
+15,sinapis alba_hypothyroidis,sinapis alba_hypothyroidism
+16,raphanus sativus_hypothyroidis,raphanus sativus_hypothyroidism
+17,juglans spp_hypothyroidis,juglans spp_hypothyroidism
+18,angelica chinense_premenstrual syndrome,angelica chinensis_premenstrual syndrome
+19,angelica chinense_menstrual cramps,angelica chinensis_menstrual cramps
+20,physostigma vene-nosum_alzheimer's disease,physostigma venenosum_alzheimer's disease
+21,physostigma vene-nosum_glaucoma,physostigma venenosum_glaucoma
+22,physostigma vene-nosum_chronic constipation,physostigma venenosum_chronic constipation
+23,scrophularia ningpoensis hemsl_conjunctivits,scrophularia ningpoensis hemsl_conjunctivitis
+24,chelidonium majusl_skin protuberances,chelidonium majus_skin protuberances
+25,chelidonium majusl_gastrointestinal disorders,chelidonium majus_gastrointestinal disorders
+26,chelidonium majusl_warts,chelidonium majus_warts
+27,chelidonium majusl_infections,chelidonium majus_infections
+28,symphtytum offi cinalis_bruises,symphytum officinalis_bruises
+29,symphtytum offi cinalis_cuts,symphytum officinalis_cuts

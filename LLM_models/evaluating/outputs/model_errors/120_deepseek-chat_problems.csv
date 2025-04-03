@@ -1,8 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,atropa belladonna,atropa belladonna,lathyrus spp,pyrethrum,,lathyrus spp_lathyrism,,papaver somniferum_pain-killing,atropa belladonna_hypnotic,carica papaya_aid digestion
-1,amanita muscaria,amanita muscaria,lophophora williamsii,lathyrusspp,,,,,amanita muscaria_hallucinations,
-2,claviceps purpurea,claviceps purpurea,nicotiana tabacum,lophophorawilliamsii,,,,,claviceps purpurea_hallucinogen,
-3,ipomoea violacea,ipomoea violacea,,citrus,,,,,ipomoea violacea_hallucinogen,
-4,papaver somniferum,papaver somniferum,,nicotianatabacum,,,,,lophophora williamsii_hallucinations,
-5,carica papaya,carica papaya,,,,,,,nicotiana tabacum_toxin,
-6,cyperus papyrus,cyperus papyrus,,,,,,,carica papaya_digestion aid,
+0,atropa belladonna,atropa belladonna,,pyrethrum,,lathyrus spp_lathyrism,,papaver somniferum_pain-killing,atropa belladonna_hypnotic,carica papaya_aid digestion
+1,amanita muscaria,amanita muscaria,,citrus,,,,,amanita muscaria_hallucinations,
+2,lathyrusspp,lathyrus spp,,,,,,,claviceps purpurea_hallucinogen,
+3,claviceps purpurea,claviceps purpurea,,,,,,,ipomoea violacea_hallucinogen,
+4,ipomoea violacea,ipomoea violacea,,,,,,,lophophora williamsii_hallucinations,
+5,lophophorawilliamsii,lophophora williamsii,,,,,,,nicotiana tabacum_toxin,
+6,papaver somniferum,papaver somniferum,,,,,,,carica papaya_digestion aid,
+7,nicotianatabacum,nicotiana tabacum,,,,,,,,
+8,carica papaya,carica papaya,,,,,,,,
+9,cyperus papyrus,cyperus papyrus,,,,,,,,

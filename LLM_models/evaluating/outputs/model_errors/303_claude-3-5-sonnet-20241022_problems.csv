@@ -1,135 +1,207 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,berberis buxifolia lam,berberis buxifolia lam,berberis jaeschkeana c. k. schneid,berberis jaeschkeana c. k.schneid,berberis buxifolia lam_infections,berberis chitria buch.-ham.ex lindl_enlarged spleen,berberis chitria buch.-ham.ex lindl_skin diseases,berberis darwinii hook_anti-inflammatory,berberis leschenaultia wall. ex wight & arn_antipyretic,berberis chitria buch.-ham.ex lindl_ophthalmic
-1,berberis chitria buch.-ham.ex lindl,berberis chitria buch.-ham.ex lindl,berberis leschenaultia wall. ex wight & arn,berberis leschenaultia wall. exwight & arn,berberis chitria buch.-ham.ex lindl_skin disease,berberis darwinii hook_stomach pains,berberis chitria buch.-ham.ex lindl_affection of eyes,berberis darwinii hook_antipyrectic,berberis libanotica ehrenb. ex c. k. schneid_anti-inflammatory,berberis leschenaultia wall. exwight & arn_antipyretic
-2,berberis darwinii hook,berberis darwinii hook,berberis libanotica ehrenb. ex c. k. schneid,berberis libanotica ehrenb. exc. k. schneid,berberis chitria buch.-ham.ex lindl_rheumatism,berberis integerrima bunge_stomach aches,berberis darwinii hook_stomachpains,berberis integerrima bunge_antipyretic,berberis oblonga (regel) c. k. schneid_antipyretic,berberis libanotica ehrenb. exc. k. schneid_anti-inflammatory
-3,berberis empetrifolia lam,berberis empetrifolia lam,berberis oblonga (regel) c. k. schneid,berberis heterophyllajuss. ex poir,berberis chitria buch.-ham.ex lindl_enlarged liver,berberis jaeschkeana c. k. schneid_eye diseases,berberis integerrima bunge_stomachaches,berberis koreana palib_antipyretic,berberis oblonga (regel) c. k. schneid_antidiarrheal,berberis heterophyllajuss. ex poir_anti-inflammatory
-4,berberis integerrima bunge,berberis integerrima bunge,berberis petiolaris wall. ex g. don,berberis oblonga (regel) c. k.schneid,berberis chitria buch.-ham.ex lindl_bleeding piles,berberis leschenaultia wall. ex wight & arn_cold,berberis jaeschkeana c. k.schneid_eye diseases,berberis lycium royle_febrifuge,berberis pseudumbellata r. parker_diuretic,berberis heterophyllajuss. ex poir_febrifuge
-5,berberis koreana palib,berberis koreana palib,berberis pseudumbellata r. parker,berberis petiolaris wall. ex g.don,berberis chitria buch.-ham.ex lindl_ulcers,berberis libanotica ehrenb. ex c. k. schneid_arthritis,berberis leschenaultia wall. exwight & arn_complications duringpost-natal period,berberis microphylla g. forst_anti-inflammatory,berberis pseudumbellata r. parker_oxytocic,berberis oblonga (regel) c. k.schneid_antipyretic
-6,berberis lycium royle,berberis lycium royle,berberis umbellata wall. ex g. don,berberis pseudumbellata r.parker,berberis chitria buch.-ham.ex lindl_jaundice,berberis libanotica ehrenb. ex c. k. schneid_muscular pain,berberis leschenaultia wall. exwight & arn_cold,berberis microphylla g. forst_febrifuge,berberis umbellata wall. ex g. don_tonic,berberis oblonga (regel) c. k.schneid_heart tonic
-7,berberis microphylla g. forst,berberis microphylla g. forst,caulophyllum thalictroides (l.) michaux,berberis umbellata wall. ex g.don,berberis chitria buch.-ham.ex lindl_conjunctivitis,berberis libanotica ehrenb. ex c. k. schneid_rheumatic diseases,berberis libanotica ehrenb. exc. k. schneid_muscularpain,berberis thunbergii dc_anti-inflammatory,caulophyllum thalictroides (l.) michaux_antispasmodic,berberis oblonga (regel) c. k.schneid_antidiarrheal
-8,berberis thunbergii dc,berberis thunbergii dc,sinopodophyllum hexandrum (royle) t. s. ying,caulophyllum thalictroides (l.)michaux,berberis darwinii hook_colitis,berberis libanotica ehrenb. ex c. k. schneid_neuralgic diseases,berberis libanotica ehrenb. exc. k. schneid_arthritis,berberis tinctoria lesch_antimicrobial,caulophyllum thalictroides (l.) michaux_uterine stimulant,berberis petiolaris wall. ex g.don_oxytocic
-9,berberis tinctoria lesch,berberis tinctoria lesch,corydalis solida subsp. brachylova,sinopodophyllum hexandrum(royle) t. s. ying,berberis darwinii hook_indigestion,berberis oblonga (regel) c. k. schneid_stomach aches,berberis libanotica ehrenb. exc. k. schneid_rheumatic and neuralgic diseases,berberis vulgaris l_sedative,nandina domestica thunb_antirheumatic,berberis pseudumbellata r.parker_diuretic
-10,berberis vulgaris l,berberis vulgaris l,corydalis turtschaninovii besser,tinospora cordifolia(willd.) miers,berberis empetrifolia lam_mountain sickness,berberis oblonga (regel) c. k. schneid_rheumatism,berberis lycium royle_throatpain,berberis vulgaris l_antiarrhythmic,tinospora sinensis (lour.) merr_anti-malarial,berberis umbellata wall. ex g.don_tonic
-11,jeffersonia diphylla (l.) pers,jeffersonia diphylla (l.) pers,eschscholzia californica cham,argemone alba f. lestib,berberis integerrima bunge_diabetes,berberis oblonga (regel) c. k. schneid_back pain,berberis heterophyllajuss. ex poir_diarrhea,jeffersonia diphylla (l.) pers_diuretic,corydalis solida subsp. brachylova_painkiller,berberis vulgaris l_anticancer
-12,mahonia fortunei (lindl. )fedde,mahonia fortunei (lindl.) fedde,glaucium corniculatum (l.) rud. subsp. corniculatum,corydalis solida subsp.brachylova,berberis integerrima bunge_tuberculosis,berberis oblonga (regel) c. k. schneid_arthralgia,berberis oblonga (regel) c. k.schneid_rheumatism,jeffersonia diphylla (l.) pers_antispasmodic,corydalis solida subsp. brachylova_antibacterial,caulophyllum thalictroides (l.)michaux_promote prompt delivery
-13,mahonia napaulensis dc,mahonia napaulensis dc,macleaya cordata (willd.) r. br,corydalis solida subsp.slivenensis (velen.) hayek,berberis integerrima bunge_rheumatism,berberis oblonga (regel) c. k. schneid_neurasthenia,berberis oblonga (regel) c. k.schneid_stomachaches,jeffersonia diphylla (l.) pers_emetic,corydalis solida subsp. brachylova_sedative,caulophyllum thalictroides (l.)michaux_antispasmodic
-14,nandina domestica thunb,nandina domestica thunb,macleaya microcarpa (maxim.) fedde,corydalis slivenensisvelen,berberis integerrima bunge_kidney stones,berberis oblonga (regel) c. k. schneid_eye diseases,berberis oblonga (regel) c. k.schneid_back pain,jeffersonia diphylla (l.) pers_expectorant,corydalis solida subsp. brachylova_antispasmodic,caulophyllum thalictroides (l.)michaux_inducerof menstruation
-15,tinospora sinensis (lour. )merr,tinospora sinensis (lour.) merr,papaver rhoeas l. var. chelidonioides,corydalis solida subsp. tauricola,berberis integerrima bunge_heart pain,berberis oblonga (regel) c. k. schneid_jaundice,berberis oblonga (regel) c. k.schneid_arthralgia,mahonia fortunei (lindl.) fedde_antiodontalgic,corydalis solida subsp. brachylova_anodyne,mahonia fortunei (lindl. )fedde_anticancer
-16,argemone albiflora hornem,argemone albiflora hornem,xanthorhiza simplicissima marshall,corydalis turtschaninoviibesser,berberis integerrima bunge_bone fractures,berberis oblonga (regel) c. k. schneid_wounds of the mouth,berberis oblonga (regel) c. k.schneid_neurasthenia,mahonia fortunei (lindl.) fedde_febrifuge,corydalis solida subsp. brachylova_hallucinogenic,sinopodophyllum hexandrum(royle) t. s. ying_regulate menstruation
-17,argemone mexicana l,argemone mexicana l,phellodendron amurense rupr,eschscholzia californicacham,berberis integerrima bunge_headaches,berberis petiolaris wall. ex g. don_jaundice,berberis oblonga (regel) c. k.schneid_eye diseases,mahonia napaulensis dc_diuretic,eschscholzia californica cham_diuretic,sinopodophyllum hexandrum(royle) t. s. ying_promote the circulationof blood
-18,argemone platyceras l,argemone platyceras l,,glaucium corniculatum (l.)rud. subsp. corniculatum,berberis integerrima bunge_constipation,berberis petiolaris wall. ex g. don_malarial fever,berberis oblonga (regel) c. k.schneid_jaundice,mahonia napaulensis dc_demulcent,eschscholzia californica cham_narcotic,tinospora sinensis (lour. )merr_improve the immune system
-19,bocconia frutescens l,bocconia frutescens l,,macleaya cordata (willd. )r.br,berberis integerrima bunge_wound,berberis petiolaris wall. ex g. don_diarrhea,berberis oblonga (regel) c. k.schneid_wounds of the mouth,nandina domestica thunb_astringent,eschscholzia californica cham_analgesic,tinospora sinensis (lour. )merr_anti-malarialactivities
-20,chelidonium majus l,chelidonium majus l,,macleaya microcarpa(maxim.) fedde,berberis integerrima bunge_chest pain,berberis petiolaris wall. ex g. don_conjunctivitis,berberis petiolaris wall. ex g.don_jaundice,nandina domestica thunb_tonic,eschscholzia californica cham_sedative,tinospora cordifolia(willd.) miers_anti-leprotic
-21,papaver dubium l,papaver dubium l,,papaver dubium var. lecoquii,berberis integerrima bunge_radiculitis,berberis pseudumbellata r. parker_eye diseases,berberis petiolaris wall. ex g.don_malarial fever,nandina domestica thunb_febrifuge,eschscholzia californica cham_antispasmodic,tinospora cordifolia(willd.) miers_antistress
-22,papaver hybridum l,papaver hybridum l,,xanthorhiza simplicissimamarshall,berberis koreana palib_gastroenteritis,berberis pseudumbellata r. parker_ulcers,berberis petiolaris wall. ex g.don_diarrhea,nandina domestica thunb_stomachic,glaucium corniculatum (l.) rud. subsp. corniculatum_cooling,tinospora cordifolia(willd.) miers_antiperiodic
-23,coptis chinensis franch,coptis chinensis franch,,phellodendron amurenserupr,berberis koreana palib_conjunctivitis,berberis pseudumbellata r. parker_stomach problems,berberis petiolaris wall. ex g.don_conjunctivitis,nandina domestica thunb_antitussive,glaucium corniculatum (l.) rud. subsp. corniculatum_mild laxative,tinospora cordifolia(willd.) miers_tonic
-24,coptis japonica (thunb. )makino,coptis japonica (thunb.) makino,,phellodendron chinense c.k. schneid,berberis koreana palib_sore throats,berberis pseudumbellata r. parker_throat ache,berberis pseudumbellata r.parker_ulcers,tinospora sinensis (lour.) merr_anti-leprotic,glaucium corniculatum (l.) rud. subsp. corniculatum_sedative,tinospora cordifolia(willd.) miers_antiarthritic
-25,coptis teeta wall,coptis teeta wall,,phellodendron chinensevar. glabriusculum c. k.schneid,berberis lycium royle_boils,berberis pseudumbellata r. parker_jaundice,berberis pseudumbellata r.parker_eyediseases,tinospora sinensis (lour.) merr_antistress,glaucium corniculatum (l.) rud. subsp. corniculatum_antitusive,tinospora cordifolia(willd.) miers_improve the immune system
-26,hydrastis canadensis l,hydrastis canadensis l,,corydalis ternata(nakai) nakai,berberis lycium royle_wound,berberis pseudumbellata r. parker_intestinal disorders,berberis pseudumbellata r.parker_intestinal disorders,tinospora sinensis (lour.) merr_antiperiodic,macleaya cordata (willd.) r. br_diuretic,tinospora cordifolia(willd.) miers_anti-spasmodic
-27,,,,papaver rhoeas l. var.chelidonioides,berberis lycium royle_intestinal colic,berberis umbellata wall. ex g. don_fever,berberis pseudumbellata r.parker_throat ache,tinospora sinensis (lour.) merr_tonic,macleaya cordata (willd.) r. br_analgesic,tinospora cordifolia(willd.) miers_anti-diabetic
-28,,,,phellodendron wilsoniihayata & kaneh,berberis lycium royle_menorrhagia,berberis umbellata wall. ex g. don_skin problems,berberis pseudumbellata r.parker_jaundice,tinospora sinensis (lour.) merr_antiarthritic,macleaya cordata (willd.) r. br_depurative,tinospora cordifolia(willd.) miers_anti-malarialactivities
-29,,,,,berberis lycium royle_fracture,berberis umbellata wall. ex g. don_nausea,berberis pseudumbellata r.parker_stomachproblems,tinospora sinensis (lour.) merr_anti-spasmodic,macleaya cordata (willd.) r. br_antioedemic,tinospora cordifolia(willd.) miers_anti-allergic
-30,,,,,berberis lycium royle_piles,berberis umbellata wall. ex g. don_eye disorders,berberis tinctoria lesch_affection of eyes,tinospora sinensis (lour.) merr_anti-diabetic,macleaya cordata (willd.) r. br_carminative,tinospora cordifolia(willd.) miers_anti-inflammatory
-31,,,,,berberis lycium royle_backache,berberis umbellata wall. ex g. don_jaundice,berberis umbellata wall. ex g.don_fever,tinospora sinensis (lour.) merr_anti-allergic,papaver rhoeas l. var. chelidonioides_emmenagogue,argemone alba f. lestib_diuretic
-32,,,,,berberis lycium royle_intestinal problems,berberis vulgaris l_internal injuries,berberis umbellata wall. ex g.don_skin problems,tinospora sinensis (lour.) merr_anti-inflammatory,papaver rhoeas l. var. chelidonioides_narcotic,argemone alba f. lestib_purgative
-33,,,,,berberis lycium royle_eye diseases,berberis vulgaris l_cancer,berberis umbellata wall. ex g.don_nausea,argemone albiflora hornem_diuretic,papaver rhoeas l. var. chelidonioides_emollient,argemone alba f. lestib_cathartic
-34,,,,,berberis lycium royle_dysentery,caulophyllum thalictroides (l.) michaux_rheumatism,berberis umbellata wall. ex g.don_eye disorders,argemone albiflora hornem_purgative,papaver rhoeas l. var. chelidonioides_expectorant,argemone alba f. lestib_diaphoretic
-35,,,,,berberis lycium royle_scabies,caulophyllum thalictroides (l.) michaux_pain of childbirth,berberis umbellata wall. ex g.don_jaundice,argemone albiflora hornem_cathartic,papaver rhoeas l. var. chelidonioides_sedative,argemone alba f. lestib_anthydropic
-36,,,,,berberis lycium royle_diarrhoea,caulophyllum thalictroides (l.) michaux_menstrual cramps,berberis vulgaris l_healinternal injuries,argemone albiflora hornem_diaphoretic,papaver rhoeas l. var. chelidonioides_hypnotic,argemone alba f. lestib_demulcent
-37,,,,,berberis lycium royle_eye ache,caulophyllum thalictroides (l.) michaux_cramps,caulophyllum thalictroides (l.)michaux_rheumatism,argemone albiflora hornem_anthydropic,papaver rhoeas l. var. chelidonioides_anodyne,argemone alba f. lestib_emetic
-38,,,,,berberis lycium royle_pimples,caulophyllum thalictroides (l.) michaux_colics,caulophyllum thalictroides (l.)michaux_pain of childbirth,argemone albiflora hornem_demulcent,coptis chinensis franch_bitter,chelidonium majus l_relaxing the muscles of thebronchial tubes and intestines
-39,,,,,berberis lycium royle_cough,caulophyllum thalictroides (l.) michaux_hysteria,caulophyllum thalictroides (l.)michaux_menstrual cramps,argemone albiflora hornem_emetic,coptis chinensis franch_anaesthetic,chelidonium majus l_remove films fromthe cornea of the eye
-40,,,,,berberis lycium royle_bone fractures,jeffersonia diphylla (l.) pers_urinary problems,caulophyllum thalictroides (l.)michaux_cramps,argemone mexicana l_expectorant,hydrastis canadensis l_tonic,chelidonium majus l_anticancer
-41,,,,,berberis lycium royle_sun blindness,mahonia fortunei (lindl.) fedde_cancer,caulophyllum thalictroides (l.)michaux_colics,argemone mexicana l_laxative,phellodendron amurense rupr_antiinflammator,corydalis solida subsp.brachylova_painkiller
-42,,,,,berberis lycium royle_diabetes,mahonia fortunei (lindl.) fedde_testicular swelling,caulophyllum thalictroides (l.)michaux_hysteria,argemone mexicana l_analgesic,phellodendron amurense rupr_immunostimulator,corydalis solida subsp.brachylova_antibacterial
-43,,,,,berberis lycium royle_earache,nandina domestica thunb_acute bronchitis,caulophyllum thalictroides (l.)michaux_uterine stimulant,argemone mexicana l_sedative,,corydalis solida subsp.brachylova_calm the nerves
-44,,,,,berberis lycium royle_throat pain,nandina domestica thunb_acute gastro-enteritis,jeffersonia diphylla (l.) pers_urinaryproblems,argemone mexicana l_demulcent,,corydalis solida subsp.brachylova_cns stimulant
-45,,,,,berberis lycium royle_jaundice,nandina domestica thunb_pain in the bones,mahonia fortunei (lindl. )fedde_treattesticular swelling,argemone mexicana l_emetic,,corydalis solida subsp.brachylova_sedative
-46,,,,,berberis lycium royle_stomachache,sinopodophyllum hexandrum (royle) t. s. ying_retention of dead fetus,nandina domestica thunb_pain in thebones,argemone mexicana l_antispasmodic,,corydalis solida subsp.brachylova_lowering the blood pressure
-47,,,,,berberis microphylla g. forst_diarrhea,sinopodophyllum hexandrum (royle) t. s. ying_difficult labor,nandina domestica thunb_acutebronchitis,chelidonium majus l_diuretic,,corydalis solida subsp.brachylova_antispasmodic
-48,,,,,berberis tinctoria lesch_skin disease,sinopodophyllum hexandrum (royle) t. s. ying_amenorrhea,nandina domestica thunb_acutegastro-enteritis,chelidonium majus l_narcotic,,corydalis solida subsp.brachylova_anodyne
-49,,,,,berberis tinctoria lesch_rheumatism,sinopodophyllum hexandrum (royle) t. s. ying_retention of placenta,nandina domestica thunb_antirheumatic,chelidonium majus l_purgative,,eschscholzia californicacham_diuretic
-50,,,,,berberis tinctoria lesch_diarrhea,tinospora sinensis (lour.) merr_leprosy,sinopodophyllum hexandrum(royle) t. s. ying_amenorrhea,chelidonium majus l_diaphoretic,,eschscholzia californicacham_narcotic
-51,,,,,berberis tinctoria lesch_menorrhagia,argemone mexicana l_chest complaints,sinopodophyllum hexandrum(royle) t. s. ying_difficult labor andretention of dead fetus or placenta,chelidonium majus l_analgesic,,eschscholzia californicacham_analgesic
-52,,,,,berberis tinctoria lesch_jaundice,bocconia frutescens l_bronchitis,argemone mexicana l_antidote,chelidonium majus l_sedative,,eschscholzia californicacham_relieve pain
-53,,,,,berberis vulgaris l_fever,chelidonium majus l_gallbladder pains,argemone mexicana l_skindiseases,chelidonium majus l_hydrogogue,,eschscholzia californicacham_suppress the flow of milk in lactating women
-54,,,,,berberis vulgaris l_kidney stones,chelidonium majus l_cancer,argemone mexicana l_chestcomplaints,chelidonium majus l_alterative,,eschscholzia californicacham_antispasmodic
-55,,,,,berberis vulgaris l_sore throat,chelidonium majus l_whooping cough,argemone platyceras l_respiratory ailment,chelidonium majus l_cholagogue,,eschscholzia californicacham_relax spasms
-56,,,,,jeffersonia diphylla (l.) pers_diarrhea,corydalis solida subsp. brachylova_insomnia,bocconia frutescens l_respiratory tract infections,chelidonium majus l_antispasmodic,,eschscholzia californicacham_promote perspiration
-57,,,,,jeffersonia diphylla (l.) pers_sores,corydalis solida subsp. brachylova_lumbago,bocconia frutescens l_skin conditions,chelidonium majus l_anodyne,,eschscholzia californicacham_sedative
-58,,,,,jeffersonia diphylla (l.) pers_inflamed parts,corydalis solida subsp. brachylova_painful menstruation,bocconia frutescens l_bronchistis,papaver dubium l_diuretic,,glaucium corniculatum (l.)rud. subsp. corniculatum_cooling
-59,,,,,jeffersonia diphylla (l.) pers_ulcers,corydalis solida subsp. brachylova_traumatic injury,chelidonium majus l_whoopingcough,papaver dubium l_expectorant,,glaucium corniculatum (l.)rud. subsp. corniculatum_sedative
-60,,,,,jeffersonia diphylla (l.) pers_gravel,corydalis turtschaninovii besser_dysmenorrhea,corydalis solida subsp.brachylova_insomnia,papaver dubium l_sudorific,,glaucium corniculatum (l.)rud. subsp. corniculatum_antitusive
-61,,,,,jeffersonia diphylla (l.) pers_dropsy,corydalis turtschaninovii besser_rheumatism,corydalis solida subsp.brachylova_lumbago,papaver hybridum l_diuretic,,glaucium corniculatum (l.)rud. subsp. corniculatum_mildlaxative
-62,,,,,mahonia fortunei (lindl.) fedde_arthritic pain,corydalis turtschaninovii besser_cardiac arrhythmia disease,corydalis solida subsp.brachylova_painfulmenstruation,papaver hybridum l_sedative,,macleaya cordata (willd. )r.br_diuretic
-63,,,,,mahonia napaulensis dc_dysentery,corydalis turtschaninovii besser_memory dysfunction,corydalis solida subsp.brachylova_traumatic injury,papaver hybridum l_anti-infective,,macleaya cordata (willd. )r.br_analgesic
-64,,,,,mahonia napaulensis dc_inflammations of the eyes,corydalis turtschaninovii besser_gastric ulcer,corydalis solida subsp.slivenensis (velen.) hayek_dysmenorrhea,papaver hybridum l_antitussive,,macleaya cordata (willd. )r.br_depurative
-65,,,,,nandina domestica thunb_fever,corydalis turtschaninovii besser_duodenal ulcer,corydalis solida subsp.slivenensis (velen.) hayek_rheumatism,coptis chinensis franch_antibacterial,,macleaya cordata (willd. )r.br_antioedemic
-66,,,,,nandina domestica thunb_indigestion,eschscholzia californica cham_toothache,corydalis solida subsp.slivenensis (velen.) hayek_cardiac arrhythmia disease,coptis chinensis franch_antipyretic,,macleaya cordata (willd. )r.br_carminative
-67,,,,,nandina domestica thunb_tooth abscess,eschscholzia californica cham_insomnia,corydalis solida subsp.slivenensis (velen.) hayek_memory dysfunction,coptis chinensis franch_vasodilator,,macleaya microcarpa(maxim.) fedde_inflammation
-68,,,,,nandina domestica thunb_whooping cough,eschscholzia californica cham_anxiety,"corydalis solida subsp.slivenensis (velen.) hayek_gastric,duodenal ulcer",coptis chinensis franch_analgesic,,papaver dubium var. lecoquii_emmenagogue
-69,,,,,nandina domestica thunb_muscles and traumatic injuries,eschscholzia californica cham_nervous tension,corydalis slivenensisvelen_dysmenorrhea,coptis chinensis franch_blood tonic,,papaver dubium var. lecoquii_expectorant
-70,,,,,nandina domestica thunb_influenza,eschscholzia californica cham_urinary incontinence,corydalis slivenensisvelen_rheumatism,coptis chinensis franch_digestive,,papaver dubium var. lecoquii_emollient
-71,,,,,argemone albiflora hornem_wounds,glaucium corniculatum (l.) rud. subsp. corniculatum_cns disturbances,corydalis slivenensisvelen_cardiac arrhythmia disease,coptis chinensis franch_carminative,,papaver dubium var. lecoquii_painreliever
-72,,,,,argemone albiflora hornem_skin ailments,glaucium corniculatum (l.) rud. subsp. corniculatum_warts,corydalis slivenensisvelen_memory dysfunction,coptis chinensis franch_stomachic,,papaver dubium var. lecoquii_reduce nervousover-activity
-73,,,,,argemone albiflora hornem_jaundice,macleaya cordata (willd.) r. br_insect bites,"corydalis slivenensisvelen_gastric,duodenal ulcer",coptis chinensis franch_cholagogue,,papaver dubium var. lecoquii_sedative
-74,,,,,argemone albiflora hornem_colics,macleaya cordata (willd.) r. br_ringworm,corydalis solida subsp. tauricola_dysmenorrhea,coptis chinensis franch_sedative,,papaver dubium var. lecoquii_hypnotic
-75,,,,,argemone albiflora hornem_colds,macleaya microcarpa (maxim.) fedde_skin diseases,"corydalis solida subsp. tauricola_gastric,duodenal ulcer",coptis japonica (thunb.) makino_analgesic,,papaver dubium var. lecoquii_anodyne
-76,,,,,argemone mexicana l_snake poisoning,macleaya microcarpa (maxim.) fedde_inflammation,corydalis solida subsp. tauricola_cardiac arrhythmia disease,coptis japonica (thunb.) makino_stomachic,,coptis chinensis franch_stimulate the circulation
-77,,,,,argemone mexicana l_chronic skin diseases,papaver rhoeas l. var. chelidonioides_minor painful conditions,corydalis solida subsp. tauricola_memory dysfunction,coptis japonica (thunb.) makino_anti-inflammatory,,coptis chinensis franch_locallyanaesthetic
-78,,,,,argemone mexicana l_cataracts,papaver rhoeas l. var. chelidonioides_coughs,corydalis turtschaninoviibesser_dysmenorrhea,coptis japonica (thunb.) makino_anaesthetic,,coptis japonica (thunb. )makino_stimulate the circulation
-79,,,,,argemone mexicana l_coughs,papaver rhoeas l. var. chelidonioides_fevers,corydalis turtschaninoviibesser_rheumatism,coptis teeta wall_analgesic,,coptis teeta wall_stimulate thecirculation
-80,,,,,argemone mexicana l_cutaneous affections,papaver rhoeas l. var. chelidonioides_insomnia,corydalis turtschaninoviibesser_cardiac arrhythmia disease,coptis teeta wall_anaesthetic,,coptis teeta wall_ophthalmic
-81,,,,,argemone mexicana l_skin diseases,papaver rhoeas l. var. chelidonioides_cancer,corydalis turtschaninoviibesser_memory dysfunction,coptis teeta wall_antibacterial,,phellodendron amurenserupr_antitumor
-82,,,,,argemone mexicana l_cold sores,papaver rhoeas l. var. chelidonioides_irritable coughs,"corydalis turtschaninoviibesser_gastric,duodenal ulcer",hydrastis canadensis l_diuretic,,phellodendron amurenserupr_antiinflammator
-83,,,,,argemone mexicana l_warts,papaver rhoeas l. var. chelidonioides_jaundice,eschscholzia californicacham_toothache,hydrastis canadensis l_astringent,,phellodendron amurenserupr_immunostimulator
-84,,,,,argemone mexicana l_itches,papaver rhoeas l. var. chelidonioides_bronchial complaints,eschscholzia californicacham_incontinence(especially in children,hydrastis canadensis l_antiperiodic,,
-85,,,,,argemone mexicana l_jaundice,papaver rhoeas l. var. chelidonioides_nervous over-activity,eschscholzia californicacham_urinary,hydrastis canadensis l_laxative,,
-86,,,,,argemone mexicana l_dropsy,papaver rhoeas l. var. chelidonioides_poor digestion,eschscholzia californicacham_insomnia,hydrastis canadensis l_stomachic,,
-87,,,,,argemone platyceras l_pneumonia,papaver rhoeas l. var. chelidonioides_nervous digestive disorders,eschscholzia californicacham_anxiety,hydrastis canadensis l_cholagogue,,
-88,,,,,argemone platyceras l_cough,coptis chinensis franch_high fever,eschscholzia californicacham_nervous tension,hydrastis canadensis l_antiseptic,,
-89,,,,,argemone platyceras l_asthma,coptis chinensis franch_tongue ulcers,glaucium corniculatum (l.)rud. subsp. corniculatum_cnsdisturbances,,,
-90,,,,,argemone platyceras l_bronchitis,coptis chinensis franch_bacterial infections,glaucium corniculatum (l.)rud. subsp. corniculatum_warts,,,
-91,,,,,bocconia frutescens l_tuberculosis,coptis chinensis franch_mouth ulcers,macleaya cordata (willd. )r.br_insect bites,,,
-92,,,,,bocconia frutescens l_ulcers,coptis japonica (thunb.) makino_dysentery,macleaya cordata (willd. )r.br_ringworm,,,
-93,,,,,bocconia frutescens l_eruptions,coptis japonica (thunb.) makino_inflamed tongue,macleaya microcarpa(maxim.) fedde_skin diseases,,,
-94,,,,,chelidonium majus l_ophthalmic diseases,coptis japonica (thunb.) makino_bacterial infections,papaver dubium var. lecoquii_bronchial complaint,,,
-95,,,,,chelidonium majus l_gallstones,coptis teeta wall_ophthalmic diseases,papaver dubium var. lecoquii_minor painfulconditions,,,
-96,,,,,chelidonium majus l_stomach ulcer,coptis teeta wall_bacterial infections,papaver dubium var. lecoquii_coughs,,,
-97,,,,,chelidonium majus l_bronchitis,hydrastis canadensis l_disorders affecting the vagina,papaver dubium var. lecoquii_fevers,,,
-98,,,,,chelidonium majus l_corns,hydrastis canadensis l_disorders affecting the throat,papaver dubium var. lecoquii_nervousdigestive disorders,,,
-99,,,,,chelidonium majus l_ringworm,hydrastis canadensis l_disorders affecting the intestines,papaver dubium var. lecoquii_insomnia,,,
-100,,,,,chelidonium majus l_warts,hydrastis canadensis l_disorders affecting the stomach,papaver dubium var. lecoquii_ailments in the elderly and children,,,
-101,,,,,chelidonium majus l_jaundice,hydrastis canadensis l_disorders affecting the eyes,papaver dubium var. lecoquii_irritable coughs,,,
-102,,,,,chelidonium majus l_asthma,hydrastis canadensis l_disorders affecting the nose,papaver dubium var. lecoquii_jaundice,,,
-103,,,,,papaver dubium l_ophthalmia,xanthorhiza simplicissima marshall_stomach ulcers,papaver dubium var. lecoquii_anticancer,,,
-104,,,,,papaver hybridum l_dermatologic diseases,xanthorhiza simplicissima marshall_piles,papaver dubium var. lecoquii_poor digestion,,,
-105,,,,,coptis chinensis franch_insomnia,xanthorhiza simplicissima marshall_digestive disorders,coptis chinensis franch_toothache,,,
-106,,,,,coptis chinensis franch_delirium,xanthorhiza simplicissima marshall_mouth ulcers,"coptis chinensis franch_mouth, tongueulcers",,,
-107,,,,,coptis chinensis franch_fidget,xanthorhiza simplicissima marshall_jaundice,coptis chinensis franch_spasms,,,
-108,,,,,coptis chinensis franch_boils,xanthorhiza simplicissima marshall_colds,coptis chinensis franch_fevers,,,
-109,,,,,coptis chinensis franch_leukaemia,phellodendron amurense rupr_gastroenteritis,coptis japonica (thunb. )makino_spasms,,,
-110,,,,,coptis chinensis franch_swollen gums,phellodendron amurense rupr_abdominal pain,coptis teeta wall_spasms,,,
-111,,,,,coptis chinensis franch_burns,phellodendron amurense rupr_diarrhea,coptis teeta wall_fevers,,,
-112,,,,,coptis chinensis franch_dysentery,phellodendron amurense rupr_cancer,hydrastis canadensis l_mucous membranes,,,
-113,,,,,coptis chinensis franch_acute enteritis,,xanthorhiza simplicissimamarshall_stomach ulcers,,,
-114,,,,,coptis chinensis franch_diarrhoea,,xanthorhiza simplicissimamarshall_piles,,,
-115,,,,,coptis chinensis franch_otitis media,,xanthorhiza simplicissimamarshall_digestive disorders,,,
-116,,,,,coptis chinensis franch_viral infections,,xanthorhiza simplicissimamarshall_mouth ulcers,,,
-117,,,,,coptis chinensis franch_skin problems,,xanthorhiza simplicissimamarshall_jaundice,,,
-118,,,,,coptis chinensis franch_abscesses,,xanthorhiza simplicissimamarshall_colds,,,
-119,,,,,coptis chinensis franch_diabetes mellitus,,phellodendron amurenserupr_gastroenteritis,,,
-120,,,,,coptis chinensis franch_conjunctivitis,,phellodendron amurenserupr_abdominal pain,,,
-121,,,,,coptis chinensis franch_acne,,phellodendron amurenserupr_diarrhea,,,
-122,,,,,coptis japonica (thunb.) makino_inflamed mouth,,phellodendron amurenserupr_cancer,,,
-123,,,,,coptis japonica (thunb.) makino_high fevers,,,,,
-124,,,,,coptis japonica (thunb.) makino_intestinal catarrh,,,,,
-125,,,,,coptis japonica (thunb.) makino_enteritis,,,,,
-126,,,,,coptis japonica (thunb.) makino_viral infections,,,,,
-127,,,,,coptis japonica (thunb.) makino_conjunctivitis,,,,,
-128,,,,,coptis teeta wall_dysentery,,,,,
-129,,,,,coptis teeta wall_pectoral diseases,,,,,
-130,,,,,coptis teeta wall_viral infections,,,,,
-131,,,,,hydrastis canadensis l_disorders of the digestive system,,,,,
-132,,,,,hydrastis canadensis l_constipation,,,,,
-133,,,,,hydrastis canadensis l_disorders affecting the ears,,,,,
+0,berberis buxifolia lam,berberis buxifolia lam,,berberis heterophyllajuss. ex poir,berberis buxifolia lam_infections,berberis chitria buch.-ham.ex lindl_enlarged spleen,berberis chitria buch.-ham.ex lindl_skin diseases,berberis darwinii hook_anti-inflammatory,berberis pseudumbellata r. parker_oxytocic,berberis chitria buch.-ham.ex lindl_ophthalmic
+1,berberis chitria buch.-ham.ex lindl,berberis chitria buch.-ham.ex lindl,,tinospora cordifolia(willd.) miers,berberis chitria buch.-ham.ex lindl_skin disease,berberis libanotica ehrenb. ex c. k. schneid_rheumatic diseases,berberis chitria buch.-ham.ex lindl_affection of eyes,berberis darwinii hook_antipyrectic,caulophyllum thalictroides (l.) michaux_uterine stimulant,berberis heterophyllajuss. ex poir_febrifuge
+2,berberis darwinii hook,berberis darwinii hook,,argemone alba f. lestib,berberis chitria buch.-ham.ex lindl_rheumatism,berberis vulgaris l_internal injuries,berberis leschenaultia wall. exwight & arn_complications duringpost-natal period,berberis integerrima bunge_antipyretic,nandina domestica thunb_antirheumatic,berberis heterophyllajuss. ex poir_anti-inflammatory
+3,berberis empetrifolia lam,berberis empetrifolia lam,,corydalis solida subsp.slivenensis (velen.) hayek,berberis chitria buch.-ham.ex lindl_enlarged liver,berberis vulgaris l_cancer,berberis heterophyllajuss. ex poir_diarrhea,berberis koreana palib_antipyretic,tinospora sinensis (lour.) merr_anti-malarial,berberis oblonga (regel) c. k.schneid_heart tonic
+4,berberis integerrima bunge,berberis integerrima bunge,,corydalis slivenensisvelen,berberis chitria buch.-ham.ex lindl_bleeding piles,mahonia fortunei (lindl.) fedde_cancer,berberis tinctoria lesch_affection of eyes,berberis leschenaultia wall. ex wight & arn_antipyretic,corydalis solida subsp. brachylova_hallucinogenic,berberis petiolaris wall. ex g.don_oxytocic
+5,berberis jaeschkeana c. k.schneid,berberis jaeschkeana c. k. schneid,,corydalis solida subsp. tauricola,berberis chitria buch.-ham.ex lindl_ulcers,mahonia fortunei (lindl.) fedde_testicular swelling,berberis vulgaris l_healinternal injuries,berberis libanotica ehrenb. ex c. k. schneid_anti-inflammatory,papaver rhoeas l. var. chelidonioides_emmenagogue,berberis vulgaris l_anticancer
+6,berberis koreana palib,berberis koreana palib,,papaver dubium var. lecoquii,berberis chitria buch.-ham.ex lindl_jaundice,sinopodophyllum hexandrum (royle) t. s. ying_retention of dead fetus,caulophyllum thalictroides (l.)michaux_uterine stimulant,berberis lycium royle_febrifuge,papaver rhoeas l. var. chelidonioides_narcotic,caulophyllum thalictroides (l.)michaux_inducerof menstruation
+7,berberis leschenaultia wall. exwight & arn,berberis leschenaultia wall. ex wight & arn,,phellodendron chinense c.k. schneid,berberis chitria buch.-ham.ex lindl_conjunctivitis,sinopodophyllum hexandrum (royle) t. s. ying_retention of placenta,mahonia fortunei (lindl. )fedde_treattesticular swelling,berberis microphylla g. forst_anti-inflammatory,papaver rhoeas l. var. chelidonioides_emollient,caulophyllum thalictroides (l.)michaux_promote prompt delivery
+8,berberis libanotica ehrenb. exc. k. schneid,berberis libanotica ehrenb. ex c. k. schneid,,phellodendron chinensevar. glabriusculum c. k.schneid,berberis darwinii hook_colitis,tinospora sinensis (lour.) merr_leprosy,nandina domestica thunb_antirheumatic,berberis microphylla g. forst_febrifuge,papaver rhoeas l. var. chelidonioides_expectorant,mahonia fortunei (lindl. )fedde_anticancer
+9,berberis lycium royle,berberis lycium royle,,corydalis ternata(nakai) nakai,berberis darwinii hook_indigestion,bocconia frutescens l_bronchitis,argemone mexicana l_antidote,berberis oblonga (regel) c. k. schneid_antipyretic,papaver rhoeas l. var. chelidonioides_sedative,sinopodophyllum hexandrum(royle) t. s. ying_promote the circulationof blood
+10,berberis microphylla g. forst,berberis microphylla g. forst,,phellodendron wilsoniihayata & kaneh,berberis darwinii hook_stomach pains,chelidonium majus l_gallbladder pains,argemone platyceras l_respiratory ailment,berberis oblonga (regel) c. k. schneid_antidiarrheal,papaver rhoeas l. var. chelidonioides_hypnotic,sinopodophyllum hexandrum(royle) t. s. ying_regulate menstruation
+11,berberis oblonga (regel) c. k.schneid,berberis oblonga (regel) c. k. schneid,,,berberis empetrifolia lam_mountain sickness,chelidonium majus l_cancer,bocconia frutescens l_skin conditions,berberis pseudumbellata r. parker_diuretic,papaver rhoeas l. var. chelidonioides_anodyne,tinospora sinensis (lour. )merr_anti-malarialactivities
+12,berberis petiolaris wall. ex g.don,berberis petiolaris wall. ex g. don,,,berberis integerrima bunge_diabetes,corydalis turtschaninovii besser_gastric ulcer,bocconia frutescens l_respiratory tract infections,berberis thunbergii dc_anti-inflammatory,coptis chinensis franch_bitter,tinospora sinensis (lour. )merr_improve the immune system
+13,berberis pseudumbellata r.parker,berberis pseudumbellata r. parker,,,berberis integerrima bunge_stomach aches,corydalis turtschaninovii besser_duodenal ulcer,bocconia frutescens l_bronchistis,berberis tinctoria lesch_antimicrobial,coptis chinensis franch_anaesthetic,tinospora cordifolia(willd.) miers_anti-inflammatory
+14,berberis thunbergii dc,berberis thunbergii dc,,,berberis integerrima bunge_tuberculosis,macleaya microcarpa (maxim.) fedde_inflammation,corydalis solida subsp.slivenensis (velen.) hayek_rheumatism,berberis umbellata wall. ex g. don_tonic,hydrastis canadensis l_tonic,tinospora cordifolia(willd.) miers_antistress
+15,berberis tinctoria lesch,berberis tinctoria lesch,,,berberis integerrima bunge_rheumatism,papaver rhoeas l. var. chelidonioides_minor painful conditions,corydalis solida subsp.slivenensis (velen.) hayek_cardiac arrhythmia disease,berberis vulgaris l_sedative,,tinospora cordifolia(willd.) miers_antiarthritic
+16,berberis umbellata wall. ex g.don,berberis umbellata wall. ex g. don,,,berberis integerrima bunge_kidney stones,papaver rhoeas l. var. chelidonioides_coughs,corydalis solida subsp.slivenensis (velen.) hayek_dysmenorrhea,berberis vulgaris l_antiarrhythmic,,tinospora cordifolia(willd.) miers_anti-spasmodic
+17,berberis vulgaris l,berberis vulgaris l,,,berberis integerrima bunge_heart pain,papaver rhoeas l. var. chelidonioides_fevers,"corydalis solida subsp.slivenensis (velen.) hayek_gastric,duodenal ulcer",caulophyllum thalictroides (l.) michaux_antispasmodic,,tinospora cordifolia(willd.) miers_anti-malarialactivities
+18,caulophyllum thalictroides (l.)michaux,caulophyllum thalictroides (l.) michaux,,,berberis integerrima bunge_bone fractures,papaver rhoeas l. var. chelidonioides_insomnia,corydalis solida subsp.slivenensis (velen.) hayek_memory dysfunction,jeffersonia diphylla (l.) pers_diuretic,,tinospora cordifolia(willd.) miers_tonic
+19,jeffersonia diphylla (l.) pers,jeffersonia diphylla (l.) pers,,,berberis integerrima bunge_headaches,papaver rhoeas l. var. chelidonioides_cancer,corydalis slivenensisvelen_rheumatism,jeffersonia diphylla (l.) pers_antispasmodic,,tinospora cordifolia(willd.) miers_anti-allergic
+20,mahonia fortunei (lindl. )fedde,mahonia fortunei (lindl.) fedde,,,berberis integerrima bunge_constipation,papaver rhoeas l. var. chelidonioides_irritable coughs,corydalis slivenensisvelen_cardiac arrhythmia disease,jeffersonia diphylla (l.) pers_emetic,,tinospora cordifolia(willd.) miers_anti-diabetic
+21,mahonia napaulensis dc,mahonia napaulensis dc,,,berberis integerrima bunge_wound,papaver rhoeas l. var. chelidonioides_jaundice,corydalis slivenensisvelen_dysmenorrhea,jeffersonia diphylla (l.) pers_expectorant,,tinospora cordifolia(willd.) miers_improve the immune system
+22,nandina domestica thunb,nandina domestica thunb,,,berberis integerrima bunge_chest pain,papaver rhoeas l. var. chelidonioides_bronchial complaints,"corydalis slivenensisvelen_gastric,duodenal ulcer",mahonia fortunei (lindl.) fedde_antiodontalgic,,tinospora cordifolia(willd.) miers_anti-leprotic
+23,sinopodophyllum hexandrum(royle) t. s. ying,sinopodophyllum hexandrum (royle) t. s. ying,,,berberis integerrima bunge_radiculitis,papaver rhoeas l. var. chelidonioides_nervous over-activity,corydalis slivenensisvelen_memory dysfunction,mahonia fortunei (lindl.) fedde_febrifuge,,tinospora cordifolia(willd.) miers_antiperiodic
+24,tinospora sinensis (lour. )merr,tinospora sinensis (lour.) merr,,,berberis jaeschkeana c. k. schneid_eye diseases,papaver rhoeas l. var. chelidonioides_poor digestion,corydalis solida subsp. tauricola_memory dysfunction,mahonia napaulensis dc_diuretic,,argemone alba f. lestib_diuretic
+25,argemone albiflora hornem,argemone albiflora hornem,,,berberis koreana palib_gastroenteritis,papaver rhoeas l. var. chelidonioides_nervous digestive disorders,corydalis solida subsp. tauricola_dysmenorrhea,mahonia napaulensis dc_demulcent,,argemone alba f. lestib_anthydropic
+26,argemone mexicana l,argemone mexicana l,,,berberis koreana palib_conjunctivitis,coptis chinensis franch_high fever,"corydalis solida subsp. tauricola_gastric,duodenal ulcer",nandina domestica thunb_astringent,,argemone alba f. lestib_purgative
+27,argemone platyceras l,argemone platyceras l,,,berberis koreana palib_sore throats,coptis chinensis franch_tongue ulcers,corydalis solida subsp. tauricola_cardiac arrhythmia disease,nandina domestica thunb_tonic,,argemone alba f. lestib_diaphoretic
+28,bocconia frutescens l,bocconia frutescens l,,,berberis leschenaultia wall. ex wight & arn_cold,coptis chinensis franch_bacterial infections,"corydalis turtschaninoviibesser_gastric,duodenal ulcer",nandina domestica thunb_febrifuge,,argemone alba f. lestib_emetic
+29,chelidonium majus l,chelidonium majus l,,,berberis libanotica ehrenb. ex c. k. schneid_arthritis,coptis chinensis franch_mouth ulcers,eschscholzia californicacham_incontinence(especially in children,nandina domestica thunb_stomachic,,argemone alba f. lestib_demulcent
+30,corydalis solida subsp.brachylova,corydalis solida subsp. brachylova,,,berberis libanotica ehrenb. ex c. k. schneid_muscular pain,coptis japonica (thunb.) makino_dysentery,papaver dubium var. lecoquii_nervousdigestive disorders,nandina domestica thunb_antitussive,,argemone alba f. lestib_cathartic
+31,corydalis turtschaninoviibesser,corydalis turtschaninovii besser,,,berberis libanotica ehrenb. ex c. k. schneid_neuralgic diseases,coptis japonica (thunb.) makino_inflamed tongue,papaver dubium var. lecoquii_fevers,tinospora sinensis (lour.) merr_anti-leprotic,,chelidonium majus l_remove films fromthe cornea of the eye
+32,eschscholzia californicacham,eschscholzia californica cham,,,berberis lycium royle_boils,coptis japonica (thunb.) makino_bacterial infections,papaver dubium var. lecoquii_poor digestion,tinospora sinensis (lour.) merr_antistress,,chelidonium majus l_anticancer
+33,glaucium corniculatum (l.)rud. subsp. corniculatum,glaucium corniculatum (l.) rud. subsp. corniculatum,,,berberis lycium royle_wound,coptis teeta wall_ophthalmic diseases,papaver dubium var. lecoquii_ailments in the elderly and children,tinospora sinensis (lour.) merr_antiperiodic,,chelidonium majus l_relaxing the muscles of thebronchial tubes and intestines
+34,macleaya cordata (willd. )r.br,macleaya cordata (willd.) r. br,,,berberis lycium royle_intestinal colic,coptis teeta wall_bacterial infections,papaver dubium var. lecoquii_minor painfulconditions,tinospora sinensis (lour.) merr_tonic,,corydalis solida subsp.brachylova_calm the nerves
+35,macleaya microcarpa(maxim.) fedde,macleaya microcarpa (maxim.) fedde,,,berberis lycium royle_menorrhagia,hydrastis canadensis l_disorders affecting the vagina,papaver dubium var. lecoquii_irritable coughs,tinospora sinensis (lour.) merr_antiarthritic,,corydalis solida subsp.brachylova_lowering the blood pressure
+36,papaver dubium l,papaver dubium l,,,berberis lycium royle_fracture,hydrastis canadensis l_disorders affecting the throat,papaver dubium var. lecoquii_anticancer,tinospora sinensis (lour.) merr_anti-spasmodic,,corydalis solida subsp.brachylova_cns stimulant
+37,papaver rhoeas l. var.chelidonioides,papaver rhoeas l. var. chelidonioides,,,berberis lycium royle_piles,hydrastis canadensis l_disorders affecting the intestines,papaver dubium var. lecoquii_bronchial complaint,tinospora sinensis (lour.) merr_anti-diabetic,,eschscholzia californicacham_relieve pain
+38,papaver hybridum l,papaver hybridum l,,,berberis lycium royle_backache,hydrastis canadensis l_disorders affecting the stomach,papaver dubium var. lecoquii_jaundice,tinospora sinensis (lour.) merr_anti-allergic,,eschscholzia californicacham_suppress the flow of milk in lactating women
+39,coptis chinensis franch,coptis chinensis franch,,,berberis lycium royle_intestinal problems,hydrastis canadensis l_disorders affecting the eyes,papaver dubium var. lecoquii_insomnia,tinospora sinensis (lour.) merr_anti-inflammatory,,eschscholzia californicacham_promote perspiration
+40,coptis japonica (thunb. )makino,coptis japonica (thunb.) makino,,,berberis lycium royle_eye diseases,hydrastis canadensis l_disorders affecting the nose,papaver dubium var. lecoquii_coughs,argemone albiflora hornem_diuretic,,eschscholzia californicacham_relax spasms
+41,coptis teeta wall,coptis teeta wall,,,berberis lycium royle_dysentery,,coptis chinensis franch_toothache,argemone albiflora hornem_purgative,,macleaya microcarpa(maxim.) fedde_inflammation
+42,hydrastis canadensis l,hydrastis canadensis l,,,berberis lycium royle_scabies,,coptis chinensis franch_fevers,argemone albiflora hornem_cathartic,,papaver dubium var. lecoquii_hypnotic
+43,xanthorhiza simplicissimamarshall,xanthorhiza simplicissima marshall,,,berberis lycium royle_diarrhoea,,coptis chinensis franch_spasms,argemone albiflora hornem_diaphoretic,,papaver dubium var. lecoquii_reduce nervousover-activity
+44,phellodendron amurenserupr,phellodendron amurense rupr,,,berberis lycium royle_eye ache,,"coptis chinensis franch_mouth, tongueulcers",argemone albiflora hornem_anthydropic,,papaver dubium var. lecoquii_emmenagogue
+45,,,,,berberis lycium royle_pimples,,coptis japonica (thunb. )makino_spasms,argemone albiflora hornem_demulcent,,papaver dubium var. lecoquii_painreliever
+46,,,,,berberis lycium royle_cough,,coptis teeta wall_fevers,argemone albiflora hornem_emetic,,papaver dubium var. lecoquii_sedative
+47,,,,,berberis lycium royle_bone fractures,,coptis teeta wall_spasms,argemone mexicana l_expectorant,,papaver dubium var. lecoquii_emollient
+48,,,,,berberis lycium royle_sun blindness,,hydrastis canadensis l_mucous membranes,argemone mexicana l_laxative,,papaver dubium var. lecoquii_anodyne
+49,,,,,berberis lycium royle_diabetes,,,argemone mexicana l_analgesic,,papaver dubium var. lecoquii_expectorant
+50,,,,,berberis lycium royle_earache,,,argemone mexicana l_sedative,,coptis chinensis franch_locallyanaesthetic
+51,,,,,berberis lycium royle_throat pain,,,argemone mexicana l_demulcent,,coptis chinensis franch_stimulate the circulation
+52,,,,,berberis lycium royle_jaundice,,,argemone mexicana l_emetic,,coptis japonica (thunb. )makino_stimulate the circulation
+53,,,,,berberis lycium royle_stomachache,,,argemone mexicana l_antispasmodic,,coptis teeta wall_stimulate thecirculation
+54,,,,,berberis microphylla g. forst_diarrhea,,,chelidonium majus l_diuretic,,coptis teeta wall_ophthalmic
+55,,,,,berberis oblonga (regel) c. k. schneid_stomach aches,,,chelidonium majus l_narcotic,,phellodendron amurenserupr_antitumor
+56,,,,,berberis oblonga (regel) c. k. schneid_rheumatism,,,chelidonium majus l_purgative,,
+57,,,,,berberis oblonga (regel) c. k. schneid_back pain,,,chelidonium majus l_diaphoretic,,
+58,,,,,berberis oblonga (regel) c. k. schneid_arthralgia,,,chelidonium majus l_analgesic,,
+59,,,,,berberis oblonga (regel) c. k. schneid_neurasthenia,,,chelidonium majus l_sedative,,
+60,,,,,berberis oblonga (regel) c. k. schneid_eye diseases,,,chelidonium majus l_hydrogogue,,
+61,,,,,berberis oblonga (regel) c. k. schneid_jaundice,,,chelidonium majus l_alterative,,
+62,,,,,berberis oblonga (regel) c. k. schneid_wounds of the mouth,,,chelidonium majus l_cholagogue,,
+63,,,,,berberis petiolaris wall. ex g. don_jaundice,,,chelidonium majus l_antispasmodic,,
+64,,,,,berberis petiolaris wall. ex g. don_malarial fever,,,chelidonium majus l_anodyne,,
+65,,,,,berberis petiolaris wall. ex g. don_diarrhea,,,corydalis solida subsp. brachylova_painkiller,,
+66,,,,,berberis petiolaris wall. ex g. don_conjunctivitis,,,corydalis solida subsp. brachylova_antibacterial,,
+67,,,,,berberis pseudumbellata r. parker_eye diseases,,,corydalis solida subsp. brachylova_sedative,,
+68,,,,,berberis pseudumbellata r. parker_ulcers,,,corydalis solida subsp. brachylova_antispasmodic,,
+69,,,,,berberis pseudumbellata r. parker_stomach problems,,,corydalis solida subsp. brachylova_anodyne,,
+70,,,,,berberis pseudumbellata r. parker_throat ache,,,eschscholzia californica cham_diuretic,,
+71,,,,,berberis pseudumbellata r. parker_jaundice,,,eschscholzia californica cham_narcotic,,
+72,,,,,berberis pseudumbellata r. parker_intestinal disorders,,,eschscholzia californica cham_analgesic,,
+73,,,,,berberis tinctoria lesch_skin disease,,,eschscholzia californica cham_sedative,,
+74,,,,,berberis tinctoria lesch_rheumatism,,,eschscholzia californica cham_antispasmodic,,
+75,,,,,berberis tinctoria lesch_diarrhea,,,glaucium corniculatum (l.) rud. subsp. corniculatum_cooling,,
+76,,,,,berberis tinctoria lesch_menorrhagia,,,glaucium corniculatum (l.) rud. subsp. corniculatum_mild laxative,,
+77,,,,,berberis tinctoria lesch_jaundice,,,glaucium corniculatum (l.) rud. subsp. corniculatum_sedative,,
+78,,,,,berberis umbellata wall. ex g. don_fever,,,glaucium corniculatum (l.) rud. subsp. corniculatum_antitusive,,
+79,,,,,berberis umbellata wall. ex g. don_skin problems,,,macleaya cordata (willd.) r. br_diuretic,,
+80,,,,,berberis umbellata wall. ex g. don_nausea,,,macleaya cordata (willd.) r. br_analgesic,,
+81,,,,,berberis umbellata wall. ex g. don_eye disorders,,,macleaya cordata (willd.) r. br_depurative,,
+82,,,,,berberis umbellata wall. ex g. don_jaundice,,,macleaya cordata (willd.) r. br_antioedemic,,
+83,,,,,berberis vulgaris l_fever,,,macleaya cordata (willd.) r. br_carminative,,
+84,,,,,berberis vulgaris l_kidney stones,,,papaver dubium l_diuretic,,
+85,,,,,berberis vulgaris l_sore throat,,,papaver dubium l_expectorant,,
+86,,,,,caulophyllum thalictroides (l.) michaux_rheumatism,,,papaver dubium l_sudorific,,
+87,,,,,caulophyllum thalictroides (l.) michaux_pain of childbirth,,,papaver hybridum l_diuretic,,
+88,,,,,caulophyllum thalictroides (l.) michaux_menstrual cramps,,,papaver hybridum l_sedative,,
+89,,,,,caulophyllum thalictroides (l.) michaux_cramps,,,papaver hybridum l_anti-infective,,
+90,,,,,caulophyllum thalictroides (l.) michaux_colics,,,papaver hybridum l_antitussive,,
+91,,,,,caulophyllum thalictroides (l.) michaux_hysteria,,,coptis chinensis franch_antibacterial,,
+92,,,,,jeffersonia diphylla (l.) pers_urinary problems,,,coptis chinensis franch_antipyretic,,
+93,,,,,jeffersonia diphylla (l.) pers_diarrhea,,,coptis chinensis franch_vasodilator,,
+94,,,,,jeffersonia diphylla (l.) pers_sores,,,coptis chinensis franch_analgesic,,
+95,,,,,jeffersonia diphylla (l.) pers_inflamed parts,,,coptis chinensis franch_blood tonic,,
+96,,,,,jeffersonia diphylla (l.) pers_ulcers,,,coptis chinensis franch_digestive,,
+97,,,,,jeffersonia diphylla (l.) pers_gravel,,,coptis chinensis franch_carminative,,
+98,,,,,jeffersonia diphylla (l.) pers_dropsy,,,coptis chinensis franch_stomachic,,
+99,,,,,mahonia fortunei (lindl.) fedde_arthritic pain,,,coptis chinensis franch_cholagogue,,
+100,,,,,mahonia napaulensis dc_dysentery,,,coptis chinensis franch_sedative,,
+101,,,,,mahonia napaulensis dc_inflammations of the eyes,,,coptis japonica (thunb.) makino_analgesic,,
+102,,,,,nandina domestica thunb_fever,,,coptis japonica (thunb.) makino_stomachic,,
+103,,,,,nandina domestica thunb_indigestion,,,coptis japonica (thunb.) makino_anti-inflammatory,,
+104,,,,,nandina domestica thunb_acute bronchitis,,,coptis japonica (thunb.) makino_anaesthetic,,
+105,,,,,nandina domestica thunb_acute gastro-enteritis,,,coptis teeta wall_analgesic,,
+106,,,,,nandina domestica thunb_pain in the bones,,,coptis teeta wall_anaesthetic,,
+107,,,,,nandina domestica thunb_tooth abscess,,,coptis teeta wall_antibacterial,,
+108,,,,,nandina domestica thunb_whooping cough,,,hydrastis canadensis l_diuretic,,
+109,,,,,nandina domestica thunb_muscles and traumatic injuries,,,hydrastis canadensis l_astringent,,
+110,,,,,nandina domestica thunb_influenza,,,hydrastis canadensis l_antiperiodic,,
+111,,,,,sinopodophyllum hexandrum (royle) t. s. ying_difficult labor,,,hydrastis canadensis l_laxative,,
+112,,,,,sinopodophyllum hexandrum (royle) t. s. ying_amenorrhea,,,hydrastis canadensis l_stomachic,,
+113,,,,,argemone albiflora hornem_wounds,,,hydrastis canadensis l_cholagogue,,
+114,,,,,argemone albiflora hornem_skin ailments,,,hydrastis canadensis l_antiseptic,,
+115,,,,,argemone albiflora hornem_jaundice,,,phellodendron amurense rupr_antiinflammator,,
+116,,,,,argemone albiflora hornem_colics,,,phellodendron amurense rupr_immunostimulator,,
+117,,,,,argemone albiflora hornem_colds,,,,,
+118,,,,,argemone mexicana l_snake poisoning,,,,,
+119,,,,,argemone mexicana l_chronic skin diseases,,,,,
+120,,,,,argemone mexicana l_cataracts,,,,,
+121,,,,,argemone mexicana l_coughs,,,,,
+122,,,,,argemone mexicana l_cutaneous affections,,,,,
+123,,,,,argemone mexicana l_skin diseases,,,,,
+124,,,,,argemone mexicana l_chest complaints,,,,,
+125,,,,,argemone mexicana l_cold sores,,,,,
+126,,,,,argemone mexicana l_warts,,,,,
+127,,,,,argemone mexicana l_itches,,,,,
+128,,,,,argemone mexicana l_jaundice,,,,,
+129,,,,,argemone mexicana l_dropsy,,,,,
+130,,,,,argemone platyceras l_pneumonia,,,,,
+131,,,,,argemone platyceras l_cough,,,,,
+132,,,,,argemone platyceras l_asthma,,,,,
+133,,,,,argemone platyceras l_bronchitis,,,,,
+134,,,,,bocconia frutescens l_tuberculosis,,,,,
+135,,,,,bocconia frutescens l_ulcers,,,,,
+136,,,,,bocconia frutescens l_eruptions,,,,,
+137,,,,,chelidonium majus l_ophthalmic diseases,,,,,
+138,,,,,chelidonium majus l_gallstones,,,,,
+139,,,,,chelidonium majus l_stomach ulcer,,,,,
+140,,,,,chelidonium majus l_bronchitis,,,,,
+141,,,,,chelidonium majus l_corns,,,,,
+142,,,,,chelidonium majus l_ringworm,,,,,
+143,,,,,chelidonium majus l_warts,,,,,
+144,,,,,chelidonium majus l_whooping cough,,,,,
+145,,,,,chelidonium majus l_jaundice,,,,,
+146,,,,,chelidonium majus l_asthma,,,,,
+147,,,,,corydalis solida subsp. brachylova_insomnia,,,,,
+148,,,,,corydalis solida subsp. brachylova_lumbago,,,,,
+149,,,,,corydalis solida subsp. brachylova_painful menstruation,,,,,
+150,,,,,corydalis solida subsp. brachylova_traumatic injury,,,,,
+151,,,,,corydalis turtschaninovii besser_dysmenorrhea,,,,,
+152,,,,,corydalis turtschaninovii besser_rheumatism,,,,,
+153,,,,,corydalis turtschaninovii besser_cardiac arrhythmia disease,,,,,
+154,,,,,corydalis turtschaninovii besser_memory dysfunction,,,,,
+155,,,,,eschscholzia californica cham_toothache,,,,,
+156,,,,,eschscholzia californica cham_insomnia,,,,,
+157,,,,,eschscholzia californica cham_anxiety,,,,,
+158,,,,,eschscholzia californica cham_nervous tension,,,,,
+159,,,,,eschscholzia californica cham_urinary incontinence,,,,,
+160,,,,,glaucium corniculatum (l.) rud. subsp. corniculatum_cns disturbances,,,,,
+161,,,,,glaucium corniculatum (l.) rud. subsp. corniculatum_warts,,,,,
+162,,,,,macleaya cordata (willd.) r. br_insect bites,,,,,
+163,,,,,macleaya cordata (willd.) r. br_ringworm,,,,,
+164,,,,,macleaya microcarpa (maxim.) fedde_skin diseases,,,,,
+165,,,,,papaver dubium l_ophthalmia,,,,,
+166,,,,,papaver hybridum l_dermatologic diseases,,,,,
+167,,,,,coptis chinensis franch_insomnia,,,,,
+168,,,,,coptis chinensis franch_delirium,,,,,
+169,,,,,coptis chinensis franch_fidget,,,,,
+170,,,,,coptis chinensis franch_boils,,,,,
+171,,,,,coptis chinensis franch_leukaemia,,,,,
+172,,,,,coptis chinensis franch_swollen gums,,,,,
+173,,,,,coptis chinensis franch_burns,,,,,
+174,,,,,coptis chinensis franch_dysentery,,,,,
+175,,,,,coptis chinensis franch_acute enteritis,,,,,
+176,,,,,coptis chinensis franch_diarrhoea,,,,,
+177,,,,,coptis chinensis franch_otitis media,,,,,
+178,,,,,coptis chinensis franch_viral infections,,,,,
+179,,,,,coptis chinensis franch_skin problems,,,,,
+180,,,,,coptis chinensis franch_abscesses,,,,,
+181,,,,,coptis chinensis franch_diabetes mellitus,,,,,
+182,,,,,coptis chinensis franch_conjunctivitis,,,,,
+183,,,,,coptis chinensis franch_acne,,,,,
+184,,,,,coptis japonica (thunb.) makino_inflamed mouth,,,,,
+185,,,,,coptis japonica (thunb.) makino_high fevers,,,,,
+186,,,,,coptis japonica (thunb.) makino_intestinal catarrh,,,,,
+187,,,,,coptis japonica (thunb.) makino_enteritis,,,,,
+188,,,,,coptis japonica (thunb.) makino_viral infections,,,,,
+189,,,,,coptis japonica (thunb.) makino_conjunctivitis,,,,,
+190,,,,,coptis teeta wall_dysentery,,,,,
+191,,,,,coptis teeta wall_pectoral diseases,,,,,
+192,,,,,coptis teeta wall_viral infections,,,,,
+193,,,,,hydrastis canadensis l_disorders of the digestive system,,,,,
+194,,,,,hydrastis canadensis l_constipation,,,,,
+195,,,,,hydrastis canadensis l_disorders affecting the ears,,,,,
+196,,,,,xanthorhiza simplicissima marshall_stomach ulcers,,,,,
+197,,,,,xanthorhiza simplicissima marshall_piles,,,,,
+198,,,,,xanthorhiza simplicissima marshall_digestive disorders,,,,,
+199,,,,,xanthorhiza simplicissima marshall_mouth ulcers,,,,,
+200,,,,,xanthorhiza simplicissima marshall_jaundice,,,,,
+201,,,,,xanthorhiza simplicissima marshall_colds,,,,,
+202,,,,,phellodendron amurense rupr_gastroenteritis,,,,,
+203,,,,,phellodendron amurense rupr_abdominal pain,,,,,
+204,,,,,phellodendron amurense rupr_diarrhea,,,,,
+205,,,,,phellodendron amurense rupr_cancer,,,,,

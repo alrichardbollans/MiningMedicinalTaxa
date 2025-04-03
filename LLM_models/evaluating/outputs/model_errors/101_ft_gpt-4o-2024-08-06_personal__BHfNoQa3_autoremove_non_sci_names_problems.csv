@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,cerbera spp,cerbera spp,gnidia krausii,akokanthera venetata,,,physostigma vene-nosum_chronic constipation,,,
-1,physostigma vene-nosum,physostigma vene-nosum,,krausii,,,physostigma vene-nosum_glaucoma,,,
+0,cerbera spp,cerbera spp,gnidia krausii,akokanthera venetata,,,physostigma vene-nosum_glaucoma,,,
+1,physostigma vene-nosum,physostigma vene-nosum,,krausii,,,physostigma vene-nosum_chronic constipation,,,
 2,adenium obesum,adenium obesum,,aloe,,,physostigma vene-nosum_alzheimer's disease,,,
 3,cerbera vinenifera,cerbera vinenifera,,cassia,,,,,,
 4,combretum confertum,combretum confertum,,senna,,,,,,
