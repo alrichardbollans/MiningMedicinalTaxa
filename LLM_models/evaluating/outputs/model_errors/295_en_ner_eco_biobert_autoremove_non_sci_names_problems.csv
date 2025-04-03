@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,commiphora,commiphora,anamaria brozovic,punica granatum l,,,syringa vulgaris_inflammation,,,punica granatum l_vasculoprotective
 1,boswellia,boswellia,punica granatum l.)dongdong,centaurea ragusina l,,,commiphora_chronic diseases,,,hypericum hircinum subsp. majus_antifungal
-2,rhodiola rosea l,rhodiola rosea l,veronica chamaedrysancuta c,veronica chamaedrys,,,boswellia_chronic diseases,,,ajuga laxmannii (murray) benth_anti-inflammatory
-3,hypericum hircinum subsp. majus,hypericum hircinum subsp,veronica chamaedrysfrontiers,,,,scrophularia lucida_tumor,,,ajuga laxmannii (murray) benth_antioxidant
-4,syringa vulgaris,syringa vulgaris,,,,,,,,ajuga laxmannii (murray) benth_antimicrobial
+2,rhodiola rosea l,rhodiola rosea l,veronica chamaedrysancuta c,veronica chamaedrys,,,boswellia_chronic diseases,,,ajuga laxmannii (murray) benth_antioxidant
+3,hypericum hircinum subsp. majus,hypericum hircinum subsp,veronica chamaedrysfrontiers,,,,scrophularia lucida_tumor,,,ajuga laxmannii (murray) benth_antimicrobial
+4,syringa vulgaris,syringa vulgaris,,,,,,,,ajuga laxmannii (murray) benth_anti-inflammatory
 5,chelidonium majus,chelidonium majus,,,,,,,,lavandula angustifolia_central nervous system
 6,scrophularia lucida,scrophularia lucida,,,,,,,,
 7,ajuga laxmannii (murray) benth,ajuga laxmannii (murray) benth,,,,,,,,

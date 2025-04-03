@@ -1,16 +1,16 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,o. dictamnus,o. dictamnus,mountain tea,,,,satureja montana_common flu,,,o. dictamnus_relaxing effect
-1,satureja montana,satureja montana,materia medica,,,,achillea coarcata_hypertension,,,thymus thracicus velen_anti-inflammatory
-2,stachys iva,stachys iva,materica medica,,,,teucrium_diabetes,,,thymus thracicus velen_antioxidant
-3,sideritis sp,sideritis sp,d. hadjipavlou-litina2,,,,o. dictamnus_wound healing,,,artocarpus tonkinensis_anti-inflammatory
-4,achillea coarcata,achillea coarcata,thyme,,,,o. dictamnus_cough associated with cold,,,artocarpus tonkinensis_decreases th17 cell function
-5,teucrium,teucrium,oresbiusin a,,,,o. dictamnus_skin inflammations,,,c. creticus subsp. eriocephalus_anti-neuraminidase
-6,chamomilla recutita,chamomilla recutita,nikos krigas,,,,o. dictamnus_bruises,,,c. creticus subsp. eriocephalus_anti-influenza
-7,salvia sclarea,salvia sclarea,de antidotis,,,,o. dictamnus_mild gastrointestinal disorders,,,c. creticus subsp. eriocephalus_inhibiting influenza virus
+1,satureja montana,satureja montana,materia medica,,,,achillea coarcata_hypertension,,,thymus thracicus velen_antioxidant
+2,stachys iva,stachys iva,materica medica,,,,teucrium_diabetes,,,thymus thracicus velen_anti-inflammatory
+3,sideritis sp,sideritis sp,d. hadjipavlou-litina2,,,,o. dictamnus_skin inflammations,,,artocarpus tonkinensis_decreases th17 cell function
+4,achillea coarcata,achillea coarcata,thyme,,,,o. dictamnus_wound healing,,,artocarpus tonkinensis_anti-inflammatory
+5,teucrium,teucrium,oresbiusin a,,,,o. dictamnus_mild gastrointestinal disorders,,,c. creticus subsp. eriocephalus_anti-influenza
+6,chamomilla recutita,chamomilla recutita,nikos krigas,,,,o. dictamnus_cough associated with cold,,,c. creticus subsp. eriocephalus_anti-neuraminidase
+7,salvia sclarea,salvia sclarea,de antidotis,,,,o. dictamnus_bruises,,,c. creticus subsp. eriocephalus_inhibiting influenza virus
 8,thymus spp,thymus spp,theriac,,,,stachys iva_common flu,,,
 9,thymus thracicus velen,thymus thracicus,vietnamartocarpus tonkinensis (moraceae,,,,sideritis sp_common flu,,,
-10,thymus thracicus,thymus thracicus velen,at,,,,artocarpus tonkinensis_arthritis,,,
-11,artocarpus tonkinensis,artocarpus tonkinensis,subsp,,,,artocarpus tonkinensis_backache,,,
+10,thymus thracicus,thymus thracicus velen,at,,,,artocarpus tonkinensis_backache,,,
+11,artocarpus tonkinensis,artocarpus tonkinensis,subsp,,,,artocarpus tonkinensis_arthritis,,,
 12,c. creticus,cistus creticus l,eriocephalus (viv.) greuter & burdet,,,,c. creticus_respiratory infections,,,
 13,cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet,cistus incanus l,italycistus creticus l,,,,c. creticus subsp. eriocephalus_cold symptoms,,,
 14,cistus incanus l,c. creticus,eriocephalus,,,,c. creticus subsp. eriocephalus_influenza a h1n1 strains,,,

@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,nypa fruticans,nypa,family)angraecum fragrans,sanguinaria canadensis,,,,,,sanguinaria canadensis_emetic
-1,sabal palmetto,sabal palmetto,family)averrhoa bilimbi,harpagophytum procumbens,,,,,,sanguinaria canadensis_expectorant
-2,plantago afra,plantago,carambola,rhamnus cathartica,,,,,,harpagophytum procumbens_analgesic
-3,polygala senega,polygala,family)passiflora edulis,rhamnus purshiana,,,,,,harpagophytum procumbens_anti-inflammatory
+0,nypa fruticans,nypa,family)angraecum fragrans,sanguinaria canadensis,,,,,,sanguinaria canadensis_expectorant
+1,sabal palmetto,sabal palmetto,family)averrhoa bilimbi,harpagophytum procumbens,,,,,,sanguinaria canadensis_emetic
+2,plantago afra,plantago,carambola,rhamnus cathartica,,,,,,harpagophytum procumbens_anti-inflammatory
+3,polygala senega,polygala,family)passiflora edulis,rhamnus purshiana,,,,,,harpagophytum procumbens_analgesic
 4,protea,protea,family)harpagophytum procumbens,psychotria ipecacuanha,,,,,,plantago afra_laxative
 5,nigella sativa,nigella,family)piper betle,dictamnus albus,,,,,,rhamnus cathartica_laxative
 6,nigella,angostura,family)plantago afra,quassia amara,,,,,,rhamnus purshiana_laxative

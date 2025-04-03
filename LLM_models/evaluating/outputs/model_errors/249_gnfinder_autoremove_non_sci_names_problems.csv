@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,canavalia ensiformis,canavalia ensiformis,plasmodium falciparum,cannabis sativa l,,,vernonia amygdalina del_malaria,,,cannabis sativa l_anti-iflammatory
+0,canavalia ensiformis,canavalia ensiformis,plasmodium falciparum,cannabis sativa l,,,vernonia amygdalina del_malaria,,,cannabis sativa l_antioxidant
 1,salvia haenkei,salvia haenkei,,cannabis,,,,,,cannabis sativa l_immunomodulatory benefits
-2,althaea officinalis,althaea officinalis,,,,,,,,cannabis sativa l_antioxidant
+2,althaea officinalis,althaea officinalis,,,,,,,,cannabis sativa l_anti-inflammatory
 3,achillea millefolium,achillea millefolium,,,,,,,,cannabis sativa l_anxiolytic-like
-4,calendula officinalis,calendula officinalis,,,,,,,,cannabis sativa l_anti-inflammatory
+4,calendula officinalis,calendula officinalis,,,,,,,,cannabis sativa l_anti-iflammatory
 5,aloysia citrodora,aloysia citrodora,,,,,,,,salvia haenkei_anti-senescence
 6,melissa officinalis,melissa officinalis,,,,,,,,salvia haenkei_anti-aging
 7,andrographis paniculata (burm.f.) nees,andrographis,,,,,,,,salvia haenkei_anti-ageing
@@ -15,13 +15,13 @@
 13,,,,,,,,,,aloysia citrodora_antioxidant
 14,,,,,,,,,,calendula officinalis_antimicrobial
 15,,,,,,,,,,calendula officinalis_antioxidant
-16,,,,,,,,,,andrographis paniculata (burm.f.) nees_antibacterial
-17,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-tumor
-18,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-parasitic
-19,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-diabetic
-20,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-viral
-21,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-hsv-1
-22,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-malarial
-23,,,,,,,,,,andrographis paniculata (burm.f.) nees_antiviral
-24,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-inflammatory
+16,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-hsv-1
+17,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-malarial
+18,,,,,,,,,,andrographis paniculata (burm.f.) nees_antibacterial
+19,,,,,,,,,,andrographis paniculata (burm.f.) nees_antiviral
+20,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-tumor
+21,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-diabetic
+22,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-viral
+23,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-inflammatory
+24,,,,,,,,,,andrographis paniculata (burm.f.) nees_anti-parasitic
 25,,,,,,,,,,vernonia amygdalina del_antimalarial

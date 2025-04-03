@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,chelidonium majus,chelidonium majus,salmonella,rhododendron sp,,,hypericum perforatum_depression,,,hypericum perforatum_antidepressant
 1,aristolochia fangchi,aristolochia fangchi,hempedu bumi,citrus paradisi,,,a. paniculata_upper respiratory tract infection,,,hypericum perforatum_antidepressants
-2,piper methysticum,piper methysticum,akar cerita,andrographispaniculata,,,a. paniculata_upper tract infection,,,piper methysticum_anxiolytic
-3,hypericum perforatum,hypericum perforatum,acanthaceae,,,,andrographis paniculata_upper respiratory tract infections,,,a. paniculata_immuno-stimulatory
-4,hypericum,hypericum,,,,,hypericum_depression,,,a. paniculata_anti-bacterial
+2,piper methysticum,piper methysticum,akar cerita,,,,a. paniculata_upper tract infection,,,piper methysticum_anxiolytic
+3,hypericum perforatum,hypericum perforatum,acanthaceae,,,,andrographis paniculata_upper respiratory tract infections,,,a. paniculata_anti-diarrheal
+4,hypericum,hypericum,,,,,hypericum_depression,,,a. paniculata_anti-venom
 5,andrographis paniculata,andrographis,,,,,,,,a. paniculata_anti-cancer
-6,andrographis paniculate,andrographis paniculata,,,,,,,,a. paniculata_anti-diarrheal
-7,a. paniculata,a. paniculata,,,,,,,,a. paniculata_anti-venom
-8,a.; paniculata,a. paniculata may,,,,,,,,a. paniculata_anti-viral
-9,,,,,,,,,,a. paniculata_anti-pyretic
-10,,,,,,,,,,a. paniculata_anti-inflammatory
+6,andrographis paniculate,andrographis paniculata,,,,,,,,a. paniculata_anti-bacterial
+7,a. paniculata,a. paniculata,,,,,,,,a. paniculata_anti-pyretic
+8,andrographispaniculata,a. paniculata may,,,,,,,,a. paniculata_anti-viral
+9,a.; paniculata,,,,,,,,,a. paniculata_anti-inflammatory
+10,,,,,,,,,,a. paniculata_immuno-stimulatory

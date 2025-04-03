@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,hypericum,hypericum,,penicillium,,,centaurea ragusina l_cancer,,,hypericum_antifungal
-1,h. hircinum subsp.majus,h. hircinum,,boswellia,,,centaurea ragusina l_gastrointestinal and urogenital disorders,,,h. hircinum subsp.majus_antifungal
-2,candida,candida,,aspergillus,,,centaurea ragusina l_tumor,,,syringa vulgaris l_pro-inflammatory
+0,hypericum,hypericum,,penicillium,,,centaurea ragusina l_tumor,,,hypericum_antifungal
+1,h. hircinum subsp.majus,h. hircinum,,boswellia,,,centaurea ragusina l_cancer,,,h. hircinum subsp.majus_antifungal
+2,candida,candida,,aspergillus,,,centaurea ragusina l_gastrointestinal and urogenital disorders,,,syringa vulgaris l_pro-inflammatory
 3,rhodiola roseal,rhodiola,,,,,prunus spinosa l_cardiovascular disease,,,centaurea ragusina l_antibacterial
 4,chelidonium majus l,chelidonium majus,,,,,ononis natrix subsp. hispanica_atherosclerosis,,,ajuga laxmannii (murray) benth_anti-inflammatory
 5,syringa vulgaris l,syringa vulgaris,,,,,centaurea_tumor,,,ajuga laxmannii (murray) benth_antimicrobial

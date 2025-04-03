@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,sophora secundiflora,sophora secundiflora,peyote cactus,,,,datura_bruises,,,datura_anesthetic
-1,stropharia,stropharia,ofthese,,,,datura_inflammation,,,datura_aphrodisiac
-2,conocybe,conocybe,ofpeyote,,,,datura_wounds,,,d. inoxia_anaesthetic
-3,panaeolus,panaeolus,mescal bean,,,,datura_asthma,,,d. meteloides_anaesthetic
-4,psilocybe mexicana,psilocybe mexicana,red bean,,,,d. inoxia_bruises,,,
-5,psilocybe,datura,thebean,,,,d. inoxia_wounds,,,
-6,datura,datura stramonium,thebeans,,,,d. meteloides_bruises,,,
-7,datura stramonium,d. inoxia,peyoteceremonies,,,,d. meteloides_wounds,,,
+0,sophora secundiflora,sophora secundiflora,peyote cactus,,,,datura_asthma,,,datura_anesthetic
+1,stropharia,stropharia,ofthese,,,,datura_wounds,,,datura_aphrodisiac
+2,conocybe,conocybe,ofpeyote,,,,datura_inflammation,,,d. inoxia_anaesthetic
+3,panaeolus,panaeolus,mescal bean,,,,datura_bruises,,,d. meteloides_anaesthetic
+4,psilocybe mexicana,psilocybe mexicana,red bean,,,,d. inoxia_wounds,,,
+5,psilocybe,datura,thebean,,,,d. inoxia_bruises,,,
+6,datura,datura stramonium,thebeans,,,,d. meteloides_wounds,,,
+7,datura stramonium,d. inoxia,peyoteceremonies,,,,d. meteloides_bruises,,,
 8,d. inoxia,d. meteloides,peyotl cactus,,,,,,,
 9,d. meteloides,virola calophylla,comanche,,,,,,,
 10,virola calophylla,v. calophylloidea,oto,,,,,,,

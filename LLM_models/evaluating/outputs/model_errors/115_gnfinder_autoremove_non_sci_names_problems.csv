@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,bombax ceiba,bombax,tupa,lobelia tupa,,,chenopodium quinoa_intestinal worms,,,lobelia tupa_emetic
 1,alkanna lehmannii,alkanna,,chenopodium quinoa,,,solidago spp_hepatitis,,,carthamus tinctorius_diuretic
-2,alkanna,dichondra,,carthamus tinctorius,,,tanacetum vulgare_migraine,,,carthamus tinctorius_vermifuge
-3,dichondra spp,coriaria,,solidago spp,,,tanacetum vulgare_fever,,,dichondra spp_purgative
+2,alkanna,dichondra,,carthamus tinctorius,,,tanacetum vulgare_fever,,,carthamus tinctorius_vermifuge
+3,dichondra spp,coriaria,,solidago spp,,,tanacetum vulgare_migraine,,,dichondra spp_purgative
 4,dichondra,dillenia,,tanacetum vulgare,,,nyssa aquatica_leukemia,,,dichondra_purgative
 5,coriaria,,,ipomoea pandurata,,,nyssa aquatica_throat cancer,,,ipomoea pandurata_purgative
 6,coriaria myrtifolia,,,ipomoea purga,,,,,,ipomoea purga_cathartic

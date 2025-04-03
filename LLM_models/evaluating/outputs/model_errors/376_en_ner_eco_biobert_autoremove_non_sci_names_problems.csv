@@ -1,20 +1,20 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,prunus spinosa l,prunus spinosa l,,prunusspinosa l,,,prunus spinosa l_cardiac neurosis,,,prunusspinosa l_pro-inflammatory
-1,prunus spinosa,prunus spinosa,,,,,prunus spinosa l_myocarditis,,,prunus spinosa l_diuretic
-2,p. spinosa,p. spinosa,,,,,prunus spinosa l_mild inflammation,,,prunus spinosa l_spasmolytic
-3,,,,,,,prunus spinosa l_inflammation,,,prunus spinosa l_anti-hypertensive
-4,,,,,,,prunus spinosa l_cardiac complaints,,,prunus spinosa l_vasoprotective
-5,,,,,,,prunus spinosa l_intestinal andrespiratory tract disorders,,,prunus spinosa l_antioxidant
+0,prunusspinosa l,prunus spinosa l,,,,,prunus spinosa l_oxidative stress-related pathologies,,,prunusspinosa l_pro-inflammatory
+1,prunus spinosa l,prunus spinosa,,,,,prunus spinosa l_myocarditis,,,prunus spinosa l_blood purifying
+2,prunus spinosa,p. spinosa,,,,,prunus spinosa l_cardiac complaints,,,prunus spinosa l_antioxidant
+3,p. spinosa,,,,,,prunus spinosa l_atherosclerosis,,,prunus spinosa l_astringent
+4,,,,,,,prunus spinosa l_intestinal andrespiratory tract disorders,,,prunus spinosa l_diuretic
+5,,,,,,,prunus spinosa l_mild inflammation,,,prunus spinosa l_anti-hypertensive
 6,,,,,,,prunus spinosa l_cardiovascular diseases,,,prunus spinosa l_heart-strengthening
-7,,,,,,,prunus spinosa l_atherosclerosis,,,prunus spinosa l_detoxifying
-8,,,,,,,prunus spinosa l_urinary tract disorders,,,prunus spinosa l_cardiovascular protection
-9,,,,,,,prunus spinosa l_oxidative stress-related pathologies,,,prunus spinosa l_astringent
-10,,,,,,,prunus spinosa_circulatory system disorders,,,prunus spinosa l_anti-inflammatory
-11,,,,,,,p. spinosa_lipid peroxidation,,,prunus spinosa l_blood purifying
-12,,,,,,,p. spinosa_inflammation,,,p. spinosa_antithrombotic
-13,,,,,,,p. spinosa_oxidative/nitrative stress,,,p. spinosa_anti-atherogenic
-14,,,,,,,p. spinosa_oxidative damage to dna,,,p. spinosa_inhibitors of pro-inflammatory enzymes
-15,,,,,,,p. spinosa_ischemic/reperfusioninjuries,,,p. spinosa_vasoprotective
-16,,,,,,,p. spinosa_protein nitratio,,,p. spinosa_antioxidant
-17,,,,,,,,,,p. spinosa_vasodilatory
-18,,,,,,,,,,p. spinosa_anti-apoptotic
+7,,,,,,,prunus spinosa l_cardiac neurosis,,,prunus spinosa l_cardiovascular protection
+8,,,,,,,prunus spinosa l_inflammation,,,prunus spinosa l_detoxifying
+9,,,,,,,prunus spinosa l_urinary tract disorders,,,prunus spinosa l_anti-inflammatory
+10,,,,,,,prunus spinosa_circulatory system disorders,,,prunus spinosa l_vasoprotective
+11,,,,,,,p. spinosa_lipid peroxidation,,,prunus spinosa l_spasmolytic
+12,,,,,,,p. spinosa_ischemic/reperfusioninjuries,,,p. spinosa_vasodilatory
+13,,,,,,,p. spinosa_oxidative damage to dna,,,p. spinosa_antioxidant
+14,,,,,,,p. spinosa_protein nitratio,,,p. spinosa_anti-apoptotic
+15,,,,,,,p. spinosa_oxidative/nitrative stress,,,p. spinosa_inhibitors of pro-inflammatory enzymes
+16,,,,,,,p. spinosa_inflammation,,,p. spinosa_anti-atherogenic
+17,,,,,,,,,,p. spinosa_antithrombotic
+18,,,,,,,,,,p. spinosa_vasoprotective

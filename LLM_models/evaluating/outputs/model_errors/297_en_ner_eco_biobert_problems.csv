@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,centaurea,centaurea,ragusinin,,,,centaurea_microbial infections,,,centaurea ragusina l_anticancer
-1,centaurea ragusina l,centaurea ragusina l,asteraceae,,,,centaurea_gastrointestinal disorders,,,centaurea ragusina l_antibacterial
-2,c. ragusina l,centaurea species,sesquiterpenelactones,,,,centaurea_urogenital ailments,,,
+0,centaurea,centaurea,ragusinin,,,,centaurea_urogenital ailments,,,centaurea ragusina l_antibacterial
+1,centaurea ragusina l,centaurea ragusina l,asteraceae,,,,centaurea_microbial infections,,,centaurea ragusina l_anticancer
+2,c. ragusina l,centaurea species,sesquiterpenelactones,,,,centaurea_gastrointestinal disorders,,,
 3,,c. ragusina l,stls,,,,,,,
 4,,,staphylococcus aureus,,,,,,,
 5,,,acinetobacter baumannii,,,,,,,

@@ -17,15 +17,15 @@
 15,sinapis alba_hypothyroidis,sinapis alba_hypothyroidism
 16,raphanus sativus_hypothyroidis,raphanus sativus_hypothyroidism
 17,juglans spp_hypothyroidis,juglans spp_hypothyroidism
-18,angelica chinense_premenstrual syndrome,angelica chinensis_premenstrual syndrome
-19,angelica chinense_menstrual cramps,angelica chinensis_menstrual cramps
-20,physostigma vene-nosum_alzheimer's disease,physostigma venenosum_alzheimer's disease
+18,angelica chinense_menstrual cramps,angelica chinensis_menstrual cramps
+19,angelica chinense_premenstrual syndrome,angelica chinensis_premenstrual syndrome
+20,physostigma vene-nosum_chronic constipation,physostigma venenosum_chronic constipation
 21,physostigma vene-nosum_glaucoma,physostigma venenosum_glaucoma
-22,physostigma vene-nosum_chronic constipation,physostigma venenosum_chronic constipation
+22,physostigma vene-nosum_alzheimer's disease,physostigma venenosum_alzheimer's disease
 23,scrophularia ningpoensis hemsl_conjunctivits,scrophularia ningpoensis hemsl_conjunctivitis
-24,chelidonium majusl_skin protuberances,chelidonium majus_skin protuberances
-25,chelidonium majusl_gastrointestinal disorders,chelidonium majus_gastrointestinal disorders
-26,chelidonium majusl_warts,chelidonium majus_warts
+24,chelidonium majusl_gastrointestinal disorders,chelidonium majus_gastrointestinal disorders
+25,chelidonium majusl_warts,chelidonium majus_warts
+26,chelidonium majusl_skin protuberances,chelidonium majus_skin protuberances
 27,chelidonium majusl_infections,chelidonium majus_infections
-28,symphtytum offi cinalis_bruises,symphytum officinalis_bruises
-29,symphtytum offi cinalis_cuts,symphytum officinalis_cuts
+28,symphtytum offi cinalis_cuts,symphytum officinalis_cuts
+29,symphtytum offi cinalis_bruises,symphytum officinalis_bruises

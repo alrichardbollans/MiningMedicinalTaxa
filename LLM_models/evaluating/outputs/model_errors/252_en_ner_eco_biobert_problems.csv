@@ -1,17 +1,17 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,eryngium cymosum f. delaroche,eryngium cymosum f,t2d,,,,ageratina petiolaris_type 2 diabetes (t2d,,,eryngium cymosum f. delaroche_hypoglycemic
-1,e. cymosum,e. cymosum,2 diabetes,,,,ageratina petiolaris_insulin resistance,,,e. cymosum_anti-hyperglycemic
-2,ageratina petiolaris,ageratina petiolaris (ap,nerolidol,,,,ageratina petiolaris_t2d,,,e. cymosum_hypoglycemic
+1,e. cymosum,e. cymosum,2 diabetes,,,,ageratina petiolaris_insulin resistance,,,e. cymosum_hypoglycemic
+2,ageratina petiolaris,ageratina petiolaris (ap,nerolidol,,,,ageratina petiolaris_t2d,,,e. cymosum_anti-hyperglycemic
 3,cecropia obtusifolia,cecropia obtusifolia (co,m. glumac2,,,,cecropia obtusifolia_type 2 diabetes (t2d,,,ageratina petiolaris_hypoglycemic
 4,equisetum myriochaetum,equisetum myriochaetum (em,human bladder carcinoma,,,,cecropia obtusifolia_insulin resistance,,,cecropia obtusifolia_hypoglycemic
 5,aquilaria sinensis,aquilaria sinensis,tcc sup,,,,cecropia obtusifolia_t2d,,,equisetum myriochaetum_hypoglycemic
 6,myristica fragrans,myristica fragrans,bawei chenxiang,,,,equisetum myriochaetum_type 2 diabetes (t2d,,,aquilaria sinensis_anti-cerebral ischemia
-7,choerospondias axillaris,choerospondias axillaris,chenxiang powder,,,,equisetum myriochaetum_insulin resistance,,,aquilaria sinensis_memory promotion
-8,boswellia carterii,boswellia carterii,terpenoids,,,,equisetum myriochaetum_t2d,,,aquilaria sinensis_anti-myocardial ischemia
+7,choerospondias axillaris,choerospondias axillaris,chenxiang powder,,,,equisetum myriochaetum_insulin resistance,,,aquilaria sinensis_anti-myocardial ischemia
+8,boswellia carterii,boswellia carterii,terpenoids,,,,equisetum myriochaetum_t2d,,,aquilaria sinensis_memory promotion
 9,b. bhaw-dajiana,b. bhaw-dajiana,bcp,,,,zaleya decandra_ovarian cancer,,,aquilaria sinensis_spatial learning
-10,aucklandia lappa,aucklandia lappa,rajapandian1,,,,zaleya decandra_ovarian teratocarcinoma,,,myristica fragrans_anti-cerebral ischemia
-11,terminalia chebula,terminalia chebula,"s. muthusami1,2",,,,zaleya decandra_asthma,,,myristica fragrans_memory promotion
-12,gossampinus malabarica,gossampinus malabarica,kei-apple,,,,z. decandra_ovarian cancer,,,myristica fragrans_anti-myocardial ischemia
+10,aucklandia lappa,aucklandia lappa,rajapandian1,,,,zaleya decandra_asthma,,,myristica fragrans_anti-cerebral ischemia
+11,terminalia chebula,terminalia chebula,"s. muthusami1,2",,,,zaleya decandra_ovarian teratocarcinoma,,,myristica fragrans_anti-myocardial ischemia
+12,gossampinus malabarica,gossampinus malabarica,kei-apple,,,,z. decandra_ovarian cancer,,,myristica fragrans_memory promotion
 13,zaleya decandra,zaleya decandra,salicaceae,,,,,,,myristica fragrans_spatial learning
 14,z. decandra,z. decandra,asteraceae,,,,,,,zaleya decandra_anti-ovarian cancer
 15,dovyalis caffra l,dovyalis caffra l,,,,,,,,z. decandra_anti-proliferative

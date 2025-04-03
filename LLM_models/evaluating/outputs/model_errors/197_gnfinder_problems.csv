@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,juniperus communis,juniperus communis,cupressaceae,,,,salvia_aches,,,salvia_antioxidant
-1,juniperus communis l,juniperus,svetlana,,,,salvia_bronchitis,,,salvia tomentosa miller_antioxidant
-2,juniperus l,juniperus polycarpos,2010).s. fruticosa,,,,salvia_tuberculo-sis,,,salvia fruticosa mill_antifungal
+0,juniperus communis,juniperus communis,cupressaceae,,,,salvia_bronchitis,,,salvia_antioxidant
+1,juniperus communis l,juniperus,svetlana,,,,salvia_aches,,,salvia tomentosa miller_antioxidant
+2,juniperus l,juniperus polycarpos,2010).s. fruticosa,,,,salvia_hemorrhage,,,salvia fruticosa mill_antifungal
 3,juniperus polycarpos,salvia fruticosa,lamiaceae,,,,salvia_menstrual disorders,,,salvia fruticosa_antifungal
-4,salvia,salvia,elvira,,,,salvia_colds,,,s. fruticosa_antifungal
-5,salvia fruticosa mill,salvia officinalis,,,,,salvia_epilepsy,,,s. fruticosa_hy-poglycemic
-6,salvia fruticosa,s. fruticosa,,,,,salvia_hemorrhage,,,
-7,s. fruticosa,salvia tomentosa,,,,,s. fruticosa_tuberculosis,,,
+4,salvia,salvia,elvira,,,,salvia_epilepsy,,,s. fruticosa_hy-poglycemic
+5,salvia fruticosa mill,salvia officinalis,,,,,salvia_tuberculo-sis,,,s. fruticosa_antifungal
+6,salvia fruticosa,s. fruticosa,,,,,salvia_colds,,,
+7,s. fruticosa,salvia tomentosa,,,,,s. fruticosa_inflammations,,,
 8,salvia fruticosa mill-er,,,,,,s. fruticosa_hepatitis,,,
-9,salvia tomentosa miller,,,,,,s. fruticosa_inflammations,,,
+9,salvia tomentosa miller,,,,,,s. fruticosa_tuberculosis,,,
 10,salvia officinalis l,,,,,,"s. fruticosa_skin, blood, and infectious ailments",,,

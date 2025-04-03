@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,citrullus colocynthis,citrullus colocynthis,colocynth,,,,citrullus colocynthis_cervical cancer,,,citrullus colocynthis_prevention of emt of metastaticmda-mb-231 cells
-1,,,mda-mb-231,,,,citrullus colocynthis_breast cancer,,,citrullus colocynthis_anticancer
+0,citrullus colocynthis,citrullus colocynthis,colocynth,,,,citrullus colocynthis_breast cancer,,,citrullus colocynthis_prevention of emt of metastaticmda-mb-231 cells
+1,,,mda-mb-231,,,,citrullus colocynthis_cervical cancer,,,citrullus colocynthis_anticancer
 2,,,mcf-7,,,,,,,
 3,,,mcf-7 (e,,,,,,,
 4,,,siha,,,,,,,

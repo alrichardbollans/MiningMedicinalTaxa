@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,salix spp,salix spp,ginseng,,,,digitalis lanata ehrh_cardiac disease,,,salix spp_pain relief
 1,digitalis lanata ehrh,digitalis lanata ehrh,,,,,papaver somniferum l_hypertension,,,salix spp_anti-platelet effects
-2,galega officinalis l,galega officinalis l,,,,,cinchona officinalis l_malaria,,,galega officinalis l_anti-diabetic
-3,papaver somniferum l,papaver somniferum l,,,,,cinchona officinalis l_fever,,,papaver somniferum l_vasodilator
-4,cinchona officinalis l,cinchona,,,,,cinchona officinalis l_infectious disease,,,papaver somniferum l_pain relief
+2,galega officinalis l,galega officinalis l,,,,,cinchona officinalis l_infectious disease,,,galega officinalis l_anti-diabetic
+3,papaver somniferum l,papaver somniferum l,,,,,cinchona officinalis l_fever,,,papaver somniferum l_pain relief
+4,cinchona officinalis l,cinchona,,,,,cinchona officinalis l_malaria,,,papaver somniferum l_vasodilator
 5,catharanthus roseus l,cinchona officinalis l,,,,,catharanthus roseus l_cancer,,,cinchona officinalis l_anti-malarial
 6,panax quinquefolius l,catharanthus roseus l,,,,,panax ginseng c.a.mey_fatigue,,,rumex rupestris le gall_astringent
 7,panax,panax quinquefolius l,,,,,,,,panax ginseng c.a.mey_male stimulant

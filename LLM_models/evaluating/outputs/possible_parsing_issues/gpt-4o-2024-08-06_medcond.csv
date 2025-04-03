@@ -9,8 +9,8 @@
 7,"coptis chinensis franch_mouth, tongueulcers",coptis chinensis franch_mouth ulcers
 8,ginkgo biloba_aging,ginkgo biloba_angina
 9,cucurma longa_arthritis,curcuma longa_arthritis
-10,pimpanella anisum_bad breath,pimpinella anisum_bad breath
-11,pimpanella anisum_coughing,pimpinella anisum_coughing
+10,pimpanella anisum_coughing,pimpinella anisum_coughing
+11,pimpanella anisum_bad breath,pimpinella anisum_bad breath
 12,salvia officinais_baldness,salvia officinalis_baldness
 13,petrselinum crispum_bruises,petroselinum crispum_bruises
 14,bertholettia excelsa_cataracts,bertholettia excelsus_cataracts
@@ -18,9 +18,9 @@
 16,citrullus colocynth_diabetes,citrullus colocynthis_diabetes
 17,gentiana officinalis_hypothyroidis,gentiana officinalis_hypothyroidism
 18,juglans spp_hypothyroidis,juglans spp_hypothyroidism
-19,angelica chinense_premenstrual syndrome,angelica chinensis_premenstrual syndrome
-20,angelica chinense_menstrual cramps,angelica chinensis_menstrual cramps
-21,physostigma vene-nosum_alzheimer's disease,physostigma venenosum_alzheimer's disease
+19,angelica chinense_menstrual cramps,angelica chinensis_menstrual cramps
+20,angelica chinense_premenstrual syndrome,angelica chinensis_premenstrual syndrome
+21,physostigma vene-nosum_chronic constipation,physostigma venenosum_chronic constipation
 22,physostigma vene-nosum_glaucoma,physostigma venenosum_glaucoma
-23,physostigma vene-nosum_chronic constipation,physostigma venenosum_chronic constipation
+23,physostigma vene-nosum_alzheimer's disease,physostigma venenosum_alzheimer's disease
 24,scrophularia ningpoensis hemsl_conjunctivits,scrophularia ningpoensis hemsl_conjunctivitis

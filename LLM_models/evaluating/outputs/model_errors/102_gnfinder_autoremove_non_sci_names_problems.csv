@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,mandragora officinarum,mandragora officinarum,plasmodium vivax,cinchona,,,mandragora officinarum_sterility,,,mandragora officinarum_sedative
 1,atropa belladonna,atropa belladonna,p. vivax,remijiapedunculata,,,cinchona_malaria,,,mandragora officinarum_aphrodisiacs
-2,papaver somniferum,papaver somniferum,plasmodium,digitalis purpurea,,,remijiapedunculata_malaria,,,digitalis purpurea_kidney functioning improves
-3,,,,,,,digitalis purpurea_dropsy,,,digitalis purpurea_blood pressure is increased
-4,,,,,,,digitalis purpurea_heart disease,,,atropa belladonna_sedative
-5,,,,,,,atropa belladonna_musclespasms,,,atropa belladonna_stimulate the sympathetic nervoussystem
-6,,,,,,,atropa belladonna_insomnia,,,atropa belladonna_dilate the pupils
+2,papaver somniferum,papaver somniferum,plasmodium,digitalis purpurea,,,remijiapedunculata_malaria,,,digitalis purpurea_blood pressure is increased
+3,,,,,,,digitalis purpurea_dropsy,,,digitalis purpurea_kidney functioning improves
+4,,,,,,,digitalis purpurea_heart disease,,,atropa belladonna_stimulate the sympathetic nervoussystem
+5,,,,,,,atropa belladonna_insomnia,,,atropa belladonna_dilate the pupils
+6,,,,,,,atropa belladonna_musclespasms,,,atropa belladonna_sedative
 7,,,,,,,atropa belladonna_motion sickness,,,
 8,,,,,,,atropa belladonna_pain,,,

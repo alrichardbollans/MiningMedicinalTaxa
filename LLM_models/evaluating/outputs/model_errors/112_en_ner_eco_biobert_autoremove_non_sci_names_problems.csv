@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,sophora secundiflora,sophora secundiflora,peyotl cactus,,,,datura_bruises,,,datura_anesthetic
-1,stropharia,stropharia,belladonna,,,,datura_inflammation,,,datura_aphrodisiac
-2,conocybe,conocybe,,,,,datura_wounds,,,d. inoxia_anaesthetic
-3,panaeolus,panaeolus,,,,,datura_asthma,,,d. meteloides_anaesthetic
-4,psilocybe mexicana,psilocybe mexicana,,,,,d. inoxia_bruises,,,
-5,psilocybe,datura,,,,,d. inoxia_wounds,,,
-6,datura,datura stramonium,,,,,d. meteloides_bruises,,,
-7,datura stramonium,d. inoxia,,,,,d. meteloides_wounds,,,
+0,sophora secundiflora,sophora secundiflora,peyotl cactus,,,,datura_asthma,,,datura_anesthetic
+1,stropharia,stropharia,belladonna,,,,datura_wounds,,,datura_aphrodisiac
+2,conocybe,conocybe,,,,,datura_inflammation,,,d. inoxia_anaesthetic
+3,panaeolus,panaeolus,,,,,datura_bruises,,,d. meteloides_anaesthetic
+4,psilocybe mexicana,psilocybe mexicana,,,,,d. inoxia_wounds,,,
+5,psilocybe,datura,,,,,d. inoxia_bruises,,,
+6,datura,datura stramonium,,,,,d. meteloides_wounds,,,
+7,datura stramonium,d. inoxia,,,,,d. meteloides_bruises,,,
 8,d. inoxia,d. meteloides,,,,,,,,
 9,d. meteloides,virola calophylla,,,,,,,,
 10,virola calophylla,v. calophylloidea,,,,,,,,

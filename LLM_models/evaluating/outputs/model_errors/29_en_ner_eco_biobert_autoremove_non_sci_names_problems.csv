@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,echinacea angustifolia dc,echinacea,commiphora jeevan,agnus castus,,,aloe vera_wound,,,echinacea_maintain immune system
-1,echinacea,echinacea angustifolia dc,,,,,aloe vera_skin heath,,,mentha_eases digestion
-2,rhodiola,rhodiola,,,,,aloe vera_eczema,,,mentha_calm nerves
-3,aloe vera,aloe vera,,,,,aloe vera_skin conditions,,,ginkgo_circulatory problems
-4,aspergillus,aspergillus,,,,,echinacea angustifolia dc_infections,,,boswellia serrate roxb. ex colebr_anti-inflammatory
-5,ginkgo,ginkgo,,,,,echinacea angustifolia dc_cold,,,althaea officinalis l_demulcent
-6,senna,senna,,,,,echinacea_coughs,,,althaea officinalis l_cough
-7,mentha,mentha,,,,,echinacea_sore throat,,,
+0,echinacea angustifolia dc,echinacea,commiphora jeevan,agnus castus,,,aloe vera_eczema,,,echinacea_maintain immune system
+1,echinacea,echinacea angustifolia dc,,,,,aloe vera_skin conditions,,,mentha_eases digestion
+2,rhodiola,rhodiola,,,,,aloe vera_wound,,,mentha_calm nerves
+3,aloe vera,aloe vera,,,,,aloe vera_skin heath,,,ginkgo_circulatory problems
+4,aspergillus,aspergillus,,,,,echinacea angustifolia dc_cold,,,boswellia serrate roxb. ex colebr_anti-inflammatory
+5,ginkgo,ginkgo,,,,,echinacea angustifolia dc_infections,,,althaea officinalis l_cough
+6,senna,senna,,,,,echinacea_sore throat,,,althaea officinalis l_demulcent
+7,mentha,mentha,,,,,echinacea_coughs,,,
 8,trachyspermum ammi,trachyspermum ammi,,,,,echinacea_colds,,,
 9,boswellia serrate roxb. ex colebr,boswellia,,,,,agnus castus_pms symptoms,,,
 10,boswellia,eucalyptus oil honey,,,,,senna_constipation,,,

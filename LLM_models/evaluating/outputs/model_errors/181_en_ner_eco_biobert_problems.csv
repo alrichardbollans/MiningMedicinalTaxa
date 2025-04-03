@@ -1,14 +1,14 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,pinus,pinus species,epigal-locatechin-3-gallate,,,,pinus_common cold,,,pinus_antioxidant
-1,pinus peuce,pinus trees,brine shrimp,,,,pinus_bronchitis,,,pinus_antimicrobial
-2,pinus sylvestris,pinus peuce,artemiasali-nanauplii,,,,pinus_skin diseases (wounds,,,pinus_cholesterol low-ering
-3,pinus nigra,pinus sylvestris,brine shrimps,,,,pinus_digestive system diseases,,,pinus_antiseptic
-4,pinus mugo,pinus nigra,eachpinus species,,,,pinus_urinary system disorders,,,pinus_expectorants
-5,pinuspeuce,pinus mugo,artemia sali-na nauplii,,,,pinus_asthma,,,pinus_antisep-tics
-6,pinus peucegriseb,pinuspeuce nee-dles,"matsabisa, m",,,,pinus_respiratory,,,pinus_antitumorial
-7,pinus l,pinus peuce (pelister)>pinus,balcan pine,,,,,,,pinus_analgesics
-8,,pinus sylvestris (nidze,folia forestalia polonica,,,,,,,pinus_tonics
-9,,pinus sylvestris (berovo,pinaceae,,,,,,,pinus_antibacterial
+0,pinus,pinus species,epigal-locatechin-3-gallate,,,,pinus_asthma,,,pinus_analgesics
+1,pinus peuce,pinus trees,brine shrimp,,,,pinus_digestive system diseases,,,pinus_antioxidant
+2,pinuspeuce,pinus peuce,artemiasali-nanauplii,,,,pinus_urinary system disorders,,,pinus_tonics
+3,pinus sylvestris,pinus sylvestris,brine shrimps,,,,pinus_respiratory,,,pinus_antiseptic
+4,pinus nigra,pinus nigra,eachpinus species,,,,pinus_skin diseases (wounds,,,pinus_cholesterol low-ering
+5,pinus mugo,pinus mugo,artemia sali-na nauplii,,,,pinus_common cold,,,pinus_expectorants
+6,pinus peucegriseb,pinuspeuce nee-dles,"matsabisa, m",,,,pinus_bronchitis,,,pinus_antimicrobial
+7,pinus l,pinus peuce (pelister)>pinus,balcan pine,,,,,,,pinus_antitumorial
+8,,pinus sylvestris (nidze,folia forestalia polonica,,,,,,,pinus_antibacterial
+9,,pinus sylvestris (berovo,pinaceae,,,,,,,pinus_antisep-tics
 10,,pinus needles,evica antonijevic1,,,,,,,
 11,,pinus peucegriseb,danijela djukic-cosic1,,,,,,,
 12,,pinus l,marijana curcic1,,,,,,,

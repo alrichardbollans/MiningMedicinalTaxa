@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,stevia rebaudiana bertoni,stevia rebaudiana,,,,,morinda citrifolia_diarrhoea,,,
-1,stevia rebaudiana beroni,stevia,,,,,morinda citrifolia_infl ammations,,,
-2,stevia,canarium indicum,,,,,morinda citrifolia_cuts,,,
-3,canarium indicum linne,morinda citrifolia,,,,,morinda citrifolia_constipation,,,
-4,morinda citrifolia,morinda,,,,,morinda citrifolia_fungal infections,,,
+0,stevia rebaudiana bertoni,stevia rebaudiana,,,,,morinda citrifolia_constipation,,,
+1,stevia rebaudiana beroni,stevia,,,,,morinda citrifolia_diarrhoea,,,
+2,stevia,canarium indicum,,,,,morinda citrifolia_fungal infections,,,
+3,canarium indicum linne,morinda citrifolia,,,,,morinda citrifolia_infl ammations,,,
+4,morinda citrifolia,morinda,,,,,morinda citrifolia_cuts,,,
 5,morinda citrifolia l,,,,,,,,,
 6,morinda,,,,,,,,,

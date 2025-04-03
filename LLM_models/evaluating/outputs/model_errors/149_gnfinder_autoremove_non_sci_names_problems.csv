@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,nypa fruticans,nypa,carambola,sanguinaria canadensis,,,,,,sanguinaria canadensis_emetic
-1,sabal palmetto,sabal palmetto,psyllium,harpagophytum procumbens,,,,,,sanguinaria canadensis_expectorant
-2,plantago afra,plantago,pygeum,rhamnus cathartica,,,,,,harpagophytum procumbens_analgesic
-3,polygala senega,polygala,fagara,rhamnus purshiana,,,,,,harpagophytum procumbens_anti-inflammatory
+0,nypa fruticans,nypa,carambola,sanguinaria canadensis,,,,,,sanguinaria canadensis_expectorant
+1,sabal palmetto,sabal palmetto,psyllium,harpagophytum procumbens,,,,,,sanguinaria canadensis_emetic
+2,plantago afra,plantago,pygeum,rhamnus cathartica,,,,,,harpagophytum procumbens_anti-inflammatory
+3,polygala senega,polygala,fagara,rhamnus purshiana,,,,,,harpagophytum procumbens_analgesic
 4,protea,protea,,psychotria ipecacuanha,,,,,,plantago afra_laxative
 5,nigella sativa,nigella,,dictamnus albus,,,,,,rhamnus cathartica_laxative
 6,nigella,angostura,,quassia amara,,,,,,rhamnus purshiana_laxative

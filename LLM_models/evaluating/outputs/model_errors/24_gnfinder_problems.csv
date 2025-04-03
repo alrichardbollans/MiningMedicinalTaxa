@@ -1,20 +1,20 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,aloe vera,aloe vera,samanta,eucalyptus,,,aloe vera_burns,,,aloe vera_immune boosting effects
-1,viola odorata l,viola odorata,bhatia,,,,aloe vera_itchy skin,,,aloe vera_wound healing
-2,momordica charantia l,momordica charantia,,,,,aloe vera_skin irritation,,,aloe vera_anti-inflammatory
-3,trigonella foenum-graecum l,trigonella foenum-graecum,,,,,aloe vera_arthritis,,,momordica charantia l_improve insulin secretion
-4,,,,,,,aloe vera_tooth aches,,,momordica charantia l_hypoglycaemic
-5,,,,,,,aloe vera_stomach and duodenal ulcers,,,momordica charantia l_glucose absorption
-6,,,,,,,aloe vera_irritable bowel syndrome,,,momordica charantia l_increase glucose uptake in liver cells
-7,,,,,,,aloe vera_eczema,,,trigonella foenum-graecum l_reduce bg levels
-8,,,,,,,aloe vera_diabetes,,,trigonella foenum-graecum l_improving insulin response in diabetics
-9,,,,,,,aloe vera_mouth ulcers,,,trigonella foenum-graecum l_anti-diabetic
-10,,,,,,,aloe vera_skin conditions,,,
+0,aloe vera,aloe vera,samanta,eucalyptus,,,aloe vera_itchy skin,,,aloe vera_anti-inflammatory
+1,viola odorata l,viola odorata,bhatia,,,,aloe vera_stomach and duodenal ulcers,,,aloe vera_immune boosting effects
+2,momordica charantia l,momordica charantia,,,,,aloe vera_tooth aches,,,aloe vera_wound healing
+3,trigonella foenum-graecum l,trigonella foenum-graecum,,,,,aloe vera_mouth ulcers,,,momordica charantia l_glucose absorption
+4,,,,,,,aloe vera_skin conditions,,,momordica charantia l_improve insulin secretion
+5,,,,,,,aloe vera_diabetes,,,momordica charantia l_increase glucose uptake in liver cells
+6,,,,,,,aloe vera_arthritis,,,momordica charantia l_hypoglycaemic
+7,,,,,,,aloe vera_irritable bowel syndrome,,,trigonella foenum-graecum l_reduce bg levels
+8,,,,,,,aloe vera_eczema,,,trigonella foenum-graecum l_anti-diabetic
+9,,,,,,,aloe vera_burns,,,trigonella foenum-graecum l_improving insulin response in diabetics
+10,,,,,,,aloe vera_skin irritation,,,
 11,,,,,,,momordica charantia l_diabetes,,,
 12,,,,,,,viola odorata l_cough,,,
-13,,,,,,,viola odorata l_headache,,,
-14,,,,,,,viola odorata l_pain,,,
-15,,,,,,,viola odorata l_coughs,,,
-16,,,,,,,viola odorata l_colds,,,
-17,,,,,,,viola odorata l_fever,,,
-18,,,,,,,viola odorata l_catarrh,,,
+13,,,,,,,viola odorata l_coughs,,,
+14,,,,,,,viola odorata l_headache,,,
+15,,,,,,,viola odorata l_fever,,,
+16,,,,,,,viola odorata l_catarrh,,,
+17,,,,,,,viola odorata l_pain,,,
+18,,,,,,,viola odorata l_colds,,,

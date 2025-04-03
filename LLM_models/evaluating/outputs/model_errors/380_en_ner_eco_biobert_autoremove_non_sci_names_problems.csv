@@ -1,24 +1,24 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,p. spinosa,prunus spinosa l,,,,,p. spinosa_cvd,,,p. spinosa_improve capillarypermeability
-1,prunus spinosa l,p. spinosa,,,,,p. spinosa_cardiovascular episodes,,,p. spinosa_decrease ldl oxidation
-2,,,,,,,prunus spinosa l_oxidative stress,,,p. spinosa_endothelial function
-3,,,,,,,prunus spinosa l_inflammation,,,p. spinosa_dpph scavengers
-4,,,,,,,,,,p. spinosa_modulate lipidmetabolism
-5,,,,,,,,,,p. spinosa_anti-radical
-6,,,,,,,,,,p. spinosa_anti-atherogenic
-7,,,,,,,,,,p. spinosa_vasodilatory effects
-8,,,,,,,,,,p. spinosa_anti-inflammatory
-9,,,,,,,,,,p. spinosa_normalize ldl/hdl profile
-10,,,,,,,,,,p. spinosa_anti-atherothrombotic effects in early stages of atherosclerosisdevelopment
-11,,,,,,,,,,p. spinosa_vasoprotective effects
-12,,,,,,,,,,p. spinosa_anti-atherosclerotic
-13,,,,,,,,,,p. spinosa_inhibitors oflipid peroxidation
-14,,,,,,,,,,p. spinosa_antioxidant
-15,,,,,,,,,,p. spinosa_reducedthe levels of well-known oxidative stress biomarkers
-16,,,,,,,,,,p. spinosa_abilityto influence endothelium
-17,,,,,,,,,,p. spinosa_anticoagulant
-18,,,,,,,,,,p. spinosa_increase nitric oxide release
-19,,,,,,,,,,p. spinosa_cardiovascular protection
-20,,,,,,,,,,p. spinosa_lipid peroxidation inhibitory activity
-21,,,,,,,,,,p. spinosa_antiplatelet
+0,p. spinosa,prunus spinosa l,,,,,p. spinosa_cvd,,,p. spinosa_vasodilatory effects
+1,prunus spinosa l,p. spinosa,,,,,p. spinosa_cardiovascular episodes,,,p. spinosa_lipid peroxidation inhibitory activity
+2,,,,,,,prunus spinosa l_inflammation,,,p. spinosa_normalize ldl/hdl profile
+3,,,,,,,prunus spinosa l_oxidative stress,,,p. spinosa_decrease ldl oxidation
+4,,,,,,,,,,p. spinosa_anti-atherogenic
+5,,,,,,,,,,p. spinosa_reducedthe levels of well-known oxidative stress biomarkers
+6,,,,,,,,,,p. spinosa_anti-atherosclerotic
+7,,,,,,,,,,p. spinosa_antiplatelet
+8,,,,,,,,,,p. spinosa_abilityto influence endothelium
+9,,,,,,,,,,p. spinosa_increase nitric oxide release
+10,,,,,,,,,,p. spinosa_anticoagulant
+11,,,,,,,,,,p. spinosa_cardiovascular protection
+12,,,,,,,,,,p. spinosa_inhibitors oflipid peroxidation
+13,,,,,,,,,,p. spinosa_modulate lipidmetabolism
+14,,,,,,,,,,p. spinosa_improve capillarypermeability
+15,,,,,,,,,,p. spinosa_vasoprotective effects
+16,,,,,,,,,,p. spinosa_endothelial function
+17,,,,,,,,,,p. spinosa_anti-radical
+18,,,,,,,,,,p. spinosa_antioxidant
+19,,,,,,,,,,p. spinosa_dpph scavengers
+20,,,,,,,,,,p. spinosa_anti-inflammatory
+21,,,,,,,,,,p. spinosa_anti-atherothrombotic effects in early stages of atherosclerosisdevelopment
 22,,,,,,,,,,prunus spinosa l_antioxidants

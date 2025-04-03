@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,hypericum perforatum l,hypericum perforatum l,artemisia absinthium).subsequent,brassica oleracea,,,brassica oleracea_fever,,,
-1,artemisia absinthium l,artemisia absinthium l,brassica oleracea)and,allium cepa,,,brassica oleracea_pain,,,
-2,artemisia absinthium,gentiana lutea l,,conium maculatum,,,beta vulgaris_fever,,,
-3,gentiana lutea l,levisticum officinalew.d.j,,,,,beta vulgaris_pain,,,
+0,hypericum perforatum l,hypericum perforatum l,artemisia absinthium).subsequent,brassica oleracea,,,brassica oleracea_pain,,,
+1,artemisia absinthium l,artemisia absinthium l,brassica oleracea)and,allium cepa,,,brassica oleracea_fever,,,
+2,artemisia absinthium,gentiana lutea l,,conium maculatum,,,beta vulgaris_pain,,,
+3,gentiana lutea l,levisticum officinalew.d.j,,,,,beta vulgaris_fever,,,
 4,levisticum officinalew.d.j. koch,vinca minor l,,,,,allium cepa_infection diseases,,,
 5,vinca minor l,viburnum opulus l,,,,,allium sativum_infection diseases,,,
 6,viburnum opulus l,achillea millefolium l,,,,,,,,

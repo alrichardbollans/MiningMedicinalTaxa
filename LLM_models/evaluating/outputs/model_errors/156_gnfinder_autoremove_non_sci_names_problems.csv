@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,hypericum perforatum,hypericum,,allium sativum,,,hypericum perforatum_nervous unrest,,,hypericum perforatum_nature's prozac
-1,hypericum,,,ginkgo biloba,,,hypericum perforatum_anxiety,,,hypericum perforatum_antidepressant
-2,,,,allium,,,hypericum perforatum_depressive moods,,,hypericum perforatum_anti-depressant
-3,,,,ginkgo,,,hypericum perforatum_psychovegetative disturbances,,,hypericum_antidepressant
-4,,,,,,,hypericum_depression,,,
-5,,,,,,,hypericum_mild depression,,,
-6,,,,,,,hypericum_moderate and major depression,,,
-7,,,,,,,hypericum_mild to moderately severe depressive disorders,,,
+0,hypericum perforatum,hypericum,,allium sativum,,,hypericum perforatum_anxiety,,,hypericum perforatum_nature's prozac
+1,hypericum,,,ginkgo biloba,,,hypericum perforatum_depressive moods,,,hypericum perforatum_antidepressant
+2,,,,allium,,,hypericum perforatum_psychovegetative disturbances,,,hypericum perforatum_anti-depressant
+3,,,,ginkgo,,,hypericum perforatum_nervous unrest,,,hypericum_antidepressant
+4,,,,,,,hypericum_mild depression,,,
+5,,,,,,,hypericum_depression,,,
+6,,,,,,,hypericum_mild to moderately severe depressive disorders,,,
+7,,,,,,,hypericum_moderate and major depression,,,

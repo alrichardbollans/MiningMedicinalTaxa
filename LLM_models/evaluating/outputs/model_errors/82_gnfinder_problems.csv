@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,allium sativum,allium,cruciferae,smilax spp,,,allium sativum_cancer,,,allium sativum_aphrodisiac
 1,allium cepa,allium cepa,c. baccatum var. pendulumaji,menthapiperita,,,allium sativum_tuberculosis,,,brassica nigra_stimulating
-2,allium canadense,allium sativum,c. annuum var. a.ancho,capparisspinosa,,,allium sativum_high blood pressure,,,
-3,allium chinense,zingiber officinalis,c. annuum var. a.banana,crocussativus,,,allium sativum_athlete's foot,,,
-4,allium odorum,curcuma longa,c. annuum var. a.bird,capsicum,,,allium sativum_hemorrhoids,,,
+2,allium canadense,allium sativum,c. annuum var. a.ancho,capparisspinosa,,,allium sativum_athlete's foot,,,
+3,allium chinense,zingiber officinalis,c. annuum var. a.banana,crocussativus,,,allium sativum_hemorrhoids,,,
+4,allium odorum,curcuma longa,c. annuum var. a.bird,capsicum,,,allium sativum_high blood pressure,,,
 5,allium schoenoprasum,armoracia rusticana,c. annuum var. glabriusculumbird,c. baccatum var. pendulum,,,,,,
 6,allium ampeloprasum,wasabia japonica,c. annuum var. a.cayenne,c. chinense,,,,,,
 7,allium scorodoprasum,cinnamomum zeylanicum,c. baccatum var. baccatumcayenne,c. frutescens,,,,,,

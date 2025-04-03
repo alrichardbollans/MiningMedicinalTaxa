@@ -1,5 +1,5 @@
 ,name,accepted_ipni_id,accepted_name,accepted_name_w_author,accepted_family,accepted_rank,accepted_species,accepted_species_w_author,accepted_species_ipni_id,accepted_parent,plant_name_id,taxon_status,matched_by,matched_name
 count,217,216,217,217,217,217,217,217,216,217,217,217,217,217
 unique,217,216,217,217,66,3,217,217,216,167,217,3,6,217
-top,berberis tinctoria lesch,107137-1,Berberis tinctoria,Berberis tinctoria Lesch.,Berberidaceae,Species,Berberis tinctoria,Berberis tinctoria Lesch.,107137-1,Berberis,2674529,Accepted,direct_wcvp_unique,Berberis tinctoria Lesch.
-freq,1,1,1,1,23,211,1,1,1,19,1,192,118,1
+top,persea americana,325643-2,Persea americana,Persea americana Mill.,Berberidaceae,Species,Persea americana,Persea americana Mill.,325643-2,Berberis,2529835,Accepted,direct_wcvp_unique,Persea americana
+freq,1,1,1,1,23,211,1,1,1,19,1,192,120,1

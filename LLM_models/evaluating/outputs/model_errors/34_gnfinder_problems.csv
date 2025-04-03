@@ -1,32 +1,32 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,o. tenuiflorum l,ocimum tenuiflorum,traditionally tulsi,o. sanctum l,,,o. sanctum l_diarrhoea,,,o. sanctum l_antifungal
-1,o. tenuiflorum,o. tenuiflorum,india tulsi,o. bascilium l,,,o. sanctum l_chronic conjunctivitis,,,o. sanctum l_antifertility
-2,ocimum tenuiflorum,ocimum,neisseria gonorrhoea,o. sanctum,,,o. sanctum l_malaria,,,o. sanctum l_analgesic
-3,ocimum,o. gratissimum,lamiaceae,,,,o. sanctum l_cataracts,,,o. sanctum l_antidiabetic
-4,o. gratissimum,,basileus,,,,o. sanctum l_bronchitis,,,o. sanctum l_antibacterial
-5,,,raam tulsi,,,,o. sanctum l_asthma,,,o. sanctum l_anticancer
-6,,,krishna tulsi,,,,o. sanctum l_snake bites,,,o. sanctum l_adaptogenic
-7,,,vana,,,,o. sanctum l_glaucoma,,,o. sanctum l_cardioprotective
-8,,,plantae,,,,o. sanctum l_skin diseases,,,o. sanctum l_hepatoprotective
-9,,,magnoliophyta,,,,o. sanctum l_diabetes,,,o. sanctum l_abortive effects
-10,,,magnoliopsida,,,,o. sanctum l_fever,,,o. sanctum l_antiviral
-11,,,lamiales,,,,o. sanctum l_eye disorders,,,o. sanctum l_anti-inflammatory
-12,,,bhamra tulsi,,,,o. sanctum l_insect bites,,,o. tenuiflorum l_antifungal
-13,,,datta,,,,o. tenuiflorum l_diarrhoea,,,o. tenuiflorum l_antifertility
-14,,,stomata,,,,o. tenuiflorum l_bronchitis,,,o. tenuiflorum l_analgesic
-15,,,,,,,o. tenuiflorum l_asthma,,,o. tenuiflorum l_antidiabetic
-16,,,,,,,o. tenuiflorum l_diabetes,,,o. tenuiflorum l_antibacterial
-17,,,,,,,o. tenuiflorum l_eye disorders,,,o. tenuiflorum l_anticancer
-18,,,,,,,o. tenuiflorum_sexually transmitted disease,,,o. tenuiflorum l_adaptogenic
-19,,,,,,,o. tenuiflorum_gonorrhoea,,,o. tenuiflorum l_cardioprotective
-20,,,,,,,o. tenuiflorum_antifertility,,,o. tenuiflorum l_hepatoprotective
-21,,,,,,,o. tenuiflorum_antifertility effects,,,o. tenuiflorum l_abortive effects
-22,,,,,,,,,,o. tenuiflorum l_antiviral
-23,,,,,,,,,,o. tenuiflorum l_anti-inflammatory
-24,,,,,,,,,,o. tenuiflorum_antifungal
-25,,,,,,,,,,o. tenuiflorum_blood thinning
-26,,,,,,,,,,o. tenuiflorum_antioxidant
-27,,,,,,,,,,o. tenuiflorum_antibacterial
-28,,,,,,,,,,o. tenuiflorum_anaesthetic
+0,o. tenuiflorum l,ocimum tenuiflorum,traditionally tulsi,o. sanctum l,,,o. sanctum l_glaucoma,,,o. sanctum l_cardioprotective
+1,o. tenuiflorum,o. tenuiflorum,india tulsi,o. bascilium l,,,o. sanctum l_snake bites,,,o. sanctum l_antidiabetic
+2,ocimum tenuiflorum,ocimum,neisseria gonorrhoea,o. sanctum,,,o. sanctum l_eye disorders,,,o. sanctum l_abortive effects
+3,ocimum,o. gratissimum,lamiaceae,,,,o. sanctum l_asthma,,,o. sanctum l_antibacterial
+4,o. gratissimum,,basileus,,,,o. sanctum l_diarrhoea,,,o. sanctum l_hepatoprotective
+5,,,raam tulsi,,,,o. sanctum l_bronchitis,,,o. sanctum l_antifertility
+6,,,krishna tulsi,,,,o. sanctum l_diabetes,,,o. sanctum l_antiviral
+7,,,vana,,,,o. sanctum l_skin diseases,,,o. sanctum l_adaptogenic
+8,,,plantae,,,,o. sanctum l_fever,,,o. sanctum l_analgesic
+9,,,magnoliophyta,,,,o. sanctum l_malaria,,,o. sanctum l_anti-inflammatory
+10,,,magnoliopsida,,,,o. sanctum l_cataracts,,,o. sanctum l_antifungal
+11,,,lamiales,,,,o. sanctum l_chronic conjunctivitis,,,o. sanctum l_anticancer
+12,,,bhamra tulsi,,,,o. sanctum l_insect bites,,,o. tenuiflorum l_cardioprotective
+13,,,datta,,,,o. tenuiflorum l_eye disorders,,,o. tenuiflorum l_antidiabetic
+14,,,stomata,,,,o. tenuiflorum l_asthma,,,o. tenuiflorum l_abortive effects
+15,,,,,,,o. tenuiflorum l_diarrhoea,,,o. tenuiflorum l_antibacterial
+16,,,,,,,o. tenuiflorum l_bronchitis,,,o. tenuiflorum l_anti-inflammatory
+17,,,,,,,o. tenuiflorum l_diabetes,,,o. tenuiflorum l_hepatoprotective
+18,,,,,,,o. tenuiflorum_antifertility,,,o. tenuiflorum l_antifertility
+19,,,,,,,o. tenuiflorum_antifertility effects,,,o. tenuiflorum l_adaptogenic
+20,,,,,,,o. tenuiflorum_sexually transmitted disease,,,o. tenuiflorum l_analgesic
+21,,,,,,,o. tenuiflorum_gonorrhoea,,,o. tenuiflorum l_antiviral
+22,,,,,,,,,,o. tenuiflorum l_antifungal
+23,,,,,,,,,,o. tenuiflorum l_anticancer
+24,,,,,,,,,,o. tenuiflorum_anaesthetic
+25,,,,,,,,,,o. tenuiflorum_antioxidant
+26,,,,,,,,,,o. tenuiflorum_antibacterial
+27,,,,,,,,,,o. tenuiflorum_blood thinning
+28,,,,,,,,,,o. tenuiflorum_antiseptic
 29,,,,,,,,,,o. tenuiflorum_male contraceptive
-30,,,,,,,,,,o. tenuiflorum_antiseptic
+30,,,,,,,,,,o. tenuiflorum_antifungal

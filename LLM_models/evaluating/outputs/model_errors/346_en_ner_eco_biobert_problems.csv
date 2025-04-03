@@ -1,17 +1,17 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,c. majus,c. majus,greater celandine,,,,c. majus_pathogenic fungi,,,c. majus_antibacterial
-1,chelidonium majus,chelidonium majuspotassium,componentscarotenoidscarotenoids,,,,c. majus_wounds,,,c. majus_antifungal
-2,chelidonium,coptis,ofcoptisine,,,,c. majus_pathogenic bacteria,,,c. majus_antiviral
-3,coptis,c. albicans,ranunculaceae,,,,c. majus_bacteria,,,c. majus_antiprotozoal
-4,c. albicans,chelidonium majuscomparable,orberberidaceae,,,,c. majus_trichomoniasis,,,c. majus_antimicrobial
-5,aspergillus fumigatus,aspergillus fumigatus,chelidoniumalkaloids,,,,c. majus_infections,,,c. majus_anti-inflammatory
-6,a. niger,a. niger,staphylococcus aureusand,,,,c. majus_hiv-1,,,c. majus_gastric
-7,candida sp,candida sp,bacillus anthracis,,,,chelidonium majus_papilloma virus infection,,,c. majus_anticancer
-8,cladosporium herbarum,cladosporium herbarum,bacillus cereus,,,,chelidonium majus_warts,,,c. majus_hepatic
+0,c. majus,c. majus,greater celandine,,,,c. majus_trichomoniasis,,,c. majus_anticancer
+1,chelidonium majus,chelidonium majuspotassium,componentscarotenoidscarotenoids,,,,c. majus_infections,,,c. majus_gastric
+2,chelidonium,coptis,ofcoptisine,,,,c. majus_bacteria,,,c. majus_antibacterial
+3,coptis,c. albicans,ranunculaceae,,,,c. majus_pathogenic bacteria,,,c. majus_hepatic
+4,c. albicans,chelidonium majuscomparable,orberberidaceae,,,,c. majus_hiv-1,,,c. majus_antimicrobial
+5,aspergillus fumigatus,aspergillus fumigatus,chelidoniumalkaloids,,,,c. majus_wounds,,,c. majus_antifungal
+6,a. niger,a. niger,staphylococcus aureusand,,,,c. majus_pathogenic fungi,,,c. majus_anti-inflammatory
+7,candida sp,candida sp,bacillus anthracis,,,,chelidonium majus_warts,,,c. majus_antiviral
+8,cladosporium herbarum,cladosporium herbarum,bacillus cereus,,,,chelidonium majus_papilloma virus infection,,,c. majus_antiprotozoal
 9,cryptococcus neoformans,cryptococcus neoformans,e. coli,,,,,,,chelidonium_bactericidal
-10,epidermophyton floccosum,epidermophyton floccosum,pseudomonas aeruginosa,,,,,,,chelidonium majus_antifungal
+10,epidermophyton floccosum,epidermophyton floccosum,pseudomonas aeruginosa,,,,,,,chelidonium majus_antiviral
 11,fusarium sp,fusarium sp,"s. aureus,(kokoska",,,,,,,chelidonium majus_antimicrobial
-12,keratinomyces ajelloi,keratinomyces ajelloi,bacillus subtilis,,,,,,,chelidonium majus_antiviral
+12,keratinomyces ajelloi,keratinomyces ajelloi,bacillus subtilis,,,,,,,chelidonium majus_antifungal
 13,microsporum sp,microsporum sp,micrococcusluteus,,,,,,,
 14,penicillium notatum,penicillium notatum,sarcinia lutea,,,,,,,
 15,rhodotorula rubra,rhodotorula rubra,s. aureus,,,,,,,

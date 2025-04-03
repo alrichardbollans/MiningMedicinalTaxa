@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,streptomyces sp. ca-129531,streptomyces sp. ca-129531,,,,,eryngium cymosum f. delaroche_type 2 diabetes,,,streptomyces sp. ca-129531_tyrosinase inhibitors
-1,cannabis sativa l,c. sativa,,,,,,,,streptomyces sp. ca-129531_skin-whitening
+0,streptomyces sp. ca-129531,streptomyces sp. ca-129531,,,,,eryngium cymosum f. delaroche_type 2 diabetes,,,streptomyces sp. ca-129531_skin-whitening
+1,cannabis sativa l,c. sativa,,,,,,,,streptomyces sp. ca-129531_tyrosinase inhibitors
 2,c. sativa var. felina 32,cannabis,,,,,,,,cannabis sativa l_anticancer
 3,eryngium cymosum f. delaroche,eryngium cymosum f,,,,,,,,c. sativa var. felina 32_antiproliferative
 4,,,,,,,,,,c. sativa var. felina 32_cytotoxic

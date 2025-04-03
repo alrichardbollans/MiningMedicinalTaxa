@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,physostigma venenosum,physostigma venenosum,uredinales,cinchona spp,,,cinchona spp_malaria,,,
-1,,,ustilaginales,rauvolfia serpentina,,,rauvolfia serpentina_schizophrenia,,,
-2,,,,penicillium notatum,,,rauvolfia serpentina_hypertension,,,
+1,,,ustilaginales,rauvolfia serpentina,,,rauvolfia serpentina_hypertension,,,
+2,,,,penicillium notatum,,,rauvolfia serpentina_schizophrenia,,,
 3,,,,cassia,,,penicillium notatum_bacterial infections,,,
 4,,,,derrisspp,,,,,,
 5,,,,atropabelladonna,,,,,,

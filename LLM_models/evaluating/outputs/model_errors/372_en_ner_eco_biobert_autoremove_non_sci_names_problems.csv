@@ -1,26 +1,27 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,aspalathus linearis (burm.f.) r.dahlgren,aspalathus linearis (burm.f,viburnum opulus l.(cortex,hoodiagordonii (masson) sweet ex decne,,,crataegus_cardiovascular problems,,,hoodiagordonii (masson) sweet ex decne_regulate the appetite
-1,cyclopia sp,cyclopia sp,gnaphalium uliginosum l.and,l.cardiaca l,,,,,,malpighia glabra l_vitamin c
-2,malpighia glabra l,malpighia glabra l,,thymusserpyllum l,,,,,,viburnum opulus l_anti-inflammatory
-3,crataegus,crataegus,,q. petraea(matt.) liebl,,,,,,viburnum opulus l_diuretic
-4,origanum vulgare l,origanum vulgare l,,calendula officinalis l,,,,,,viburnum opulus l_diaphoretic
-5,leonurus cardiaca l,leonurus cardiaca l,,pimpinellaanisum l,,,,,,l.cardiaca l_antistress
-6,quercus robur l,quercus robur l,,convallaria majalis l,,,,,,
-7,viburnum opulus l,viburnum opulus l,,frangula alnus mill,,,,,,
-8,acorus calamus l,acorus calamus l,,adonis vernalis l,,,,,,
-9,taraxacum campylodes g.e.haglund,taraxacum campylodes g.e.haglund,,digitalis purpurea l,,,,,,
-10,taraxacum officinale l,taraxacum officinale l,,rubia tinctorum l,,,,,,
-11,aralia elata (miq.) seem,aralia elata (miq.) seem,,alnus glutinosa (l.) gaertn,,,,,,
-12,equisetum arvense l,equisetum arvense l,,gnaphalium uliginosum l,,,,,,
-13,eucalyptus viminalis labill,eucalyptus viminalis labill,,,,,,,,
-14,zea mays l,zea mays l,,,,,,,,
-15,atropa belladonnal,atropa belladonnal,,,,,,,,
-16,datura stramonium l,datura stramonium l,,,,,,,,
-17,hyoscyamus niger l,hyoscyamus niger l,,,,,,,,
-18,convallaria keiskei miq,convallaria keiskei miq,,,,,,,,
-19,rhamnus cathartica l,rhamnus cathartica l,,,,,,,,
-20,chelidonium majus l,chelidonium majus l,,,,,,,,
-21,digitalis grandifloramill,digitalis grandifloramill,,,,,,,,
-22,polemonium caeruleum l,polemonium caeruleum l,,,,,,,,
-23,alnus incana (l.) moench,alnus incana (l.) moench,,,,,,,,
-24,bidens tripartita l,bidens tripartita l,,,,,,,,
+1,cyclopia sp,cyclopia sp,gnaphalium uliginosum l.and,thymusserpyllum l,,,,,,malpighia glabra l_vitamin c
+2,malpighia glabra l,malpighia glabra l,,q. petraea(matt.) liebl,,,,,,viburnum opulus l_diaphoretic
+3,crataegus,crataegus,,calendula officinalis l,,,,,,viburnum opulus l_anti-inflammatory
+4,origanum vulgare l,origanum vulgare l,,pimpinellaanisum l,,,,,,viburnum opulus l_diuretic
+5,l.cardiaca l,leonurus cardiaca l,,convallaria majalis l,,,,,,l.cardiaca l_antistress
+6,leonurus cardiaca l,quercus robur l,,frangula alnus mill,,,,,,
+7,quercus robur l,viburnum opulus l,,adonis vernalis l,,,,,,
+8,viburnum opulus l,acorus calamus l,,digitalis purpurea l,,,,,,
+9,acorus calamus l,taraxacum campylodes g.e.haglund,,rubia tinctorum l,,,,,,
+10,taraxacum campylodes g.e.haglund,taraxacum officinale l,,alnus glutinosa (l.) gaertn,,,,,,
+11,taraxacum officinale l,aralia elata (miq.) seem,,gnaphalium uliginosum l,,,,,,
+12,aralia elata (miq.) seem,equisetum arvense l,,,,,,,,
+13,equisetum arvense l,eucalyptus viminalis labill,,,,,,,,
+14,eucalyptus viminalis labill,zea mays l,,,,,,,,
+15,zea mays l,atropa belladonnal,,,,,,,,
+16,atropa belladonnal,datura stramonium l,,,,,,,,
+17,datura stramonium l,hyoscyamus niger l,,,,,,,,
+18,hyoscyamus niger l,convallaria keiskei miq,,,,,,,,
+19,convallaria keiskei miq,rhamnus cathartica l,,,,,,,,
+20,rhamnus cathartica l,chelidonium majus l,,,,,,,,
+21,chelidonium majus l,digitalis grandifloramill,,,,,,,,
+22,digitalis grandifloramill,polemonium caeruleum l,,,,,,,,
+23,polemonium caeruleum l,alnus incana (l.) moench,,,,,,,,
+24,alnus incana (l.) moench,bidens tripartita l,,,,,,,,
+25,bidens tripartita l,,,,,,,,,

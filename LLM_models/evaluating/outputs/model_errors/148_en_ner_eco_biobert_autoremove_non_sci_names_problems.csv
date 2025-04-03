@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,croton tiglium,croton,chaulmoogra tree,calophyllum inophyllum,,,calophyllum inophyllum_skin disease,,,aesculus hippocastanum_cardiovascular
-1,croton,gomortega keule,geranium family)pelargonium,aesculus hippocastanum,,,calophyllum inophyllum_neuralgia,,,cassia fistula_laxative
+0,croton tiglium,croton,chaulmoogra tree,calophyllum inophyllum,,,calophyllum inophyllum_neuralgia,,,aesculus hippocastanum_cardiovascular
+1,croton,gomortega keule,geranium family)pelargonium,aesculus hippocastanum,,,calophyllum inophyllum_skin disease,,,cassia fistula_laxative
 2,gomortega keule,sorghum,citronella,diospyros kaki,,,,,,
 3,sorghum bicolor,galbulimima belgraveana,manna grass,diospyros marmorata,,,,,,
 4,galbulimima belgraveana,coleus psychoactive,uva grass,diospyros mollis,,,,,,

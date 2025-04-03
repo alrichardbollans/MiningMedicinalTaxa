@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,origanum vulgare ssp. hirtum,origanum vulgare ssp. hirtum,hops,,,,,,,cornus sanguinea l_anti-inflammatory
-1,salvia officinalis,salvia officinalis,humulus lupulus l,,,,,,,cornus sanguinea l_antioxidant
-2,thyumus spp,thyumus spp,2021keynote speeches ks07,,,,,,,elaeagnus umbellata thunb_anti-inflammatory
-3,rosmarinus officinalis,rosmarinus officinalis,layer hens,,,,,,,elaeagnus umbellata thunb_antioxidant
-4,cornus sanguinea l,cornus sanguinea l,broiler,,,,,,,salsola soda l_anti-inflammatory
-5,elaeagnus umbellata thunb,elaeagnus umbellata thunb,turkey,,,,,,,salsola soda l_antioxidant
-6,e. umbellata,salsola soda l,plant,,,,,,,prunus avium l_anti-inflammatory
-7,salsola soda l,prunus avium l,oregano,,,,,,,prunus avium l_antioxidant
+0,origanum vulgare ssp. hirtum,origanum vulgare ssp. hirtum,hops,,,,,,,cornus sanguinea l_antioxidant
+1,salvia officinalis,salvia officinalis,humulus lupulus l,,,,,,,cornus sanguinea l_anti-inflammatory
+2,thyumus spp,thyumus spp,2021keynote speeches ks07,,,,,,,elaeagnus umbellata thunb_antioxidant
+3,rosmarinus officinalis,rosmarinus officinalis,layer hens,,,,,,,elaeagnus umbellata thunb_anti-inflammatory
+4,cornus sanguinea l,cornus sanguinea l,broiler,,,,,,,salsola soda l_antioxidant
+5,elaeagnus umbellata thunb,elaeagnus umbellata thunb,turkey,,,,,,,salsola soda l_anti-inflammatory
+6,e. umbellata,salsola soda l,plant,,,,,,,prunus avium l_antioxidant
+7,salsola soda l,prunus avium l,oregano,,,,,,,prunus avium l_anti-inflammatory
 8,prunus avium l,e. umbellata,sage,,,,,,,e. umbellata_protective agent against oxidative stress and inflammatory stimuli in gingival tissue
 9,,s. soda,thyme,,,,,,,
 10,,,rosemary,,,,,,,

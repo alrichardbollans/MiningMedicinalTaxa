@@ -1,18 +1,18 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,stahlianthus thorelii,stahlianthus,medica,p. odora,,,stahlianthus thorelii_cancer,,,stahlianthus thorelii_cytotoxicity
-1,s. thorelii,s. thorelii,taiwanstahlianthus thorelii,,,,stahlianthus thorelii_osteoarthritis,,,stahlianthus thorelii_anticancer
-2,euphorbia neriifolia,euphorbia,davila,,,,stahlianthus thorelii_inflammation,,,stahlianthus thorelii_anti-proliferative
+0,stahlianthus thorelii,stahlianthus,medica,p. odora,,,stahlianthus thorelii_cancer,,,stahlianthus thorelii_anti-proliferative
+1,s. thorelii,s. thorelii,taiwanstahlianthus thorelii,,,,stahlianthus thorelii_inflammation,,,stahlianthus thorelii_anticancer
+2,euphorbia neriifolia,euphorbia,davila,,,,stahlianthus thorelii_osteoarthritis,,,stahlianthus thorelii_cytotoxicity
 3,euphorbia neriifolia l,e. neriifolia,taiwaneuphorbia neriifolia,,,,euphorbia neriifolia_cancer,,,s. thorelii_antiproliferative
-4,pulicaria,euphorbia neriifolia,vibrio chlorea,,,,euphorbia neriifolia_inflammation,,,euphorbia neriifolia_anticancer
-5,pulicaria wightiana,pulicaria,,,,,euphorbia neriifolia_diabetes mellitus,,,euphorbia neriifolia_anti-proliferative
-6,pulicaria gaertn,p. dysenterica,,,,,pulicaria_cold,,,pulicaria_cicatrizant
-7,p. dysenterica,pulicaria wightiana,,,,,pulicaria_abdominal pain,,,pulicaria_antimicrobial
-8,,,,,,,pulicaria_skin diseases,,,pulicaria_antiinflammatory
-9,,,,,,,pulicaria_bronchitis,,,
-10,,,,,,,pulicaria_headache,,,
-11,,,,,,,pulicaria_flatulent colic,,,
-12,,,,,,,pulicaria_ankle sprain,,,
-13,,,,,,,pulicaria_diabetes,,,
+4,pulicaria,euphorbia neriifolia,vibrio chlorea,,,,euphorbia neriifolia_diabetes mellitus,,,euphorbia neriifolia_anti-proliferative
+5,pulicaria wightiana,pulicaria,,,,,euphorbia neriifolia_inflammation,,,euphorbia neriifolia_anticancer
+6,pulicaria gaertn,p. dysenterica,,,,,pulicaria_cold,,,pulicaria_antiinflammatory
+7,p. dysenterica,pulicaria wightiana,,,,,pulicaria_inflamed wound,,,pulicaria_cicatrizant
+8,,,,,,,pulicaria_bronchitis,,,pulicaria_antimicrobial
+9,,,,,,,pulicaria_diabetes,,,
+10,,,,,,,pulicaria_skin diseases,,,
+11,,,,,,,pulicaria_ankle sprain,,,
+12,,,,,,,pulicaria_headache,,,
+13,,,,,,,pulicaria_abdominal pain,,,
 14,,,,,,,pulicaria_muscular- skeletal diseases,,,
-15,,,,,,,pulicaria_inflamed wound,,,
+15,,,,,,,pulicaria_flatulent colic,,,
 16,,,,,,,pulicaria wightiana_inflammation,,,

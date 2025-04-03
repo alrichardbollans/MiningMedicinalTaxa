@@ -1,18 +1,18 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,candida,candida,majus,c. albica,,,h. hircinum_fungal pathogens of the respiratory tract,,,h. perforatum_antifungal
-1,candida glabrata,h. hircinum subsp,hircinum subsp.majus,saccharomyces,,,h. hircinum_cough,,,h. hirsutum_antifungal
+0,candida,candida,majus,c. albica,,,h. hircinum_chronic catarrhal affections,,,h. perforatum_antifungal
+1,candida glabrata,h. hircinum subsp,hircinum subsp.majus,saccharomyces,,,h. hircinum_fungal pathogens of the respiratory tract,,,h. hirsutum_antifungal
 2,candida spp,c. parapsilosis,anti-candida,,,,h. hircinum_asthma,,,h. maculatum_antifungal
-3,h. hircinum,c. tropicalis,candidahave,,,,h. hircinum_chronic catarrhal affections,,,h. hircinumsubsp. majus_antifungal
-4,h. hircinum subsp. majus,h. hircinumsusbps,antimycotic hypericum,,,,h. hircinum_sorethroats,,,h. hircinum_antifungal
-5,c. parapsilosis,h. hircinumsubsp,ofcandida spp,,,,h. hircinum subsp. majus_respiratory tract affections,,,h. hircinum_antiseptic
-6,c. tropicalis,punicagranatum,montanum,,,,h. hircinum subsp. majus_fungal-associated pathologies,,,h. montanum_anti-inflammatory
+3,h. hircinum,c. tropicalis,candidahave,,,,h. hircinum_cough,,,h. hircinumsubsp. majus_antifungal
+4,h. hircinum subsp. majus,h. hircinumsusbps,antimycotic hypericum,,,,h. hircinum_sorethroats,,,h. hircinum_antiseptic
+5,c. parapsilosis,h. hircinumsubsp,ofcandida spp,,,,h. hircinum subsp. majus_fungal-associated pathologies,,,h. hircinum_antifungal
+6,c. tropicalis,punicagranatum,montanum,,,,h. hircinum subsp. majus_respiratory tract affections,,,h. montanum_anticancer
 7,h. hircinumsusbps. majus,candida glabrata,c. albicansat,,,,,,,h. montanum_antifungal
-8,h. hircinumsubsp. majus,cryptococcusneoformans,h. hircinummethanolic,,,,,,,h. montanum_anticancer
-9,punicagranatum,hypericum,glabrata,,,,,,,h. hircinum subsp. majus_antifungal
+8,h. hircinumsubsp. majus,cryptococcusneoformans,h. hircinummethanolic,,,,,,,h. montanum_anti-inflammatory
+9,punicagranatum,hypericum,glabrata,,,,,,,h. hircinum subsp. majus_anticancer
 10,c. glabrata,h. montanum,hircinum subsp,,,,,,,h. hircinum subsp. majus_antimicrobial
-11,cryptococcusneoformans,h. maculatum,hypericumspecies,,,,,,,h. hircinum subsp. majus_fungal growth inhibition
+11,cryptococcusneoformans,h. maculatum,hypericumspecies,,,,,,,h. hircinum subsp. majus_antifungal
 12,hypericum,h. hirsutum,hyperoside,,,,,,,h. hircinum subsp. majus_anti-inflammatory
-13,h. montanum,h. perforatum,hircinum,,,,,,,h. hircinum subsp. majus_anticancer
+13,h. montanum,h. perforatum,hircinum,,,,,,,h. hircinum subsp. majus_fungal growth inhibition
 14,h. maculatum,c. albicans,basidiomycetesand,,,,,,,hypericum_antifungal
 15,h. hirsutum,c. lusitaniae,ascomycetes,,,,,,,hypericum_antimycotic
 16,h. perforatum,c. glabrata,andsaccharomyces,,,,,,,

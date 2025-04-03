@@ -1,13 +1,13 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,shorea roxburghii,s. roxburghii,thailandshorea roxburghii,,,,shorea roxburghii_type 2 diabetes mellitus (t2dm,,,calluna vulgaris (l.) hull_skin-protective
+0,shorea roxburghii,s. roxburghii,thailandshorea roxburghii,,,,shorea roxburghii_cholera,,,calluna vulgaris (l.) hull_skin-protective
 1,s. roxburghii,shorea roxburghii,dipterocarpaceae,,,,shorea roxburghii_diarrhea,,,c. vulgaris_skin anti-aging and protection
-2,dacrycarpus imbricatus,dacrycarpus imbricatus,stilbenoids,,,,shorea roxburghii_dysentery,,,c. vulgaris_antioxidant
-3,pinus dalatensis ferre,pinus dalatensis ferre,oligostilbenoids,,,,shorea roxburghii_cholera,,,c. vulgaris_moderate antimicrobial
-4,oldenlandia pinifolia,oldenlandia pinifolia,dihydroisocoumarins,,,,cladosporium_acute myeloid leukemia,,,c. vulgaris_antiradical
+2,dacrycarpus imbricatus,dacrycarpus imbricatus,stilbenoids,,,,shorea roxburghii_dysentery,,,c. vulgaris_moderate antimicrobial
+3,pinus dalatensis ferre,pinus dalatensis ferre,oligostilbenoids,,,,shorea roxburghii_type 2 diabetes mellitus (t2dm,,,c. vulgaris_antiradical
+4,oldenlandia pinifolia,oldenlandia pinifolia,dihydroisocoumarins,,,,cladosporium_acute myeloid leukemia,,,c. vulgaris_antioxidant
 5,ficus hirta,ficus hirta,type 2 diabetes,,,,rauwolfia_acute myeloid leukemia,,,shorea roxburghii_hypoglycemic effect
 6,cladosporium,dacrycarpus imbricatus (blume) de laub,sprague dawley (sd,,,,,,,s. roxburghii_antidiabetic potentials
-7,cladosporium spp,o. pinifolia,thuoc nam,,,,,,,cladosporium_anti-tumor
-8,rauwolfia,cladosporium spp,tuoc bac,,,,,,,cladosporium_anti-microbial
+7,cladosporium spp,o. pinifolia,thuoc nam,,,,,,,cladosporium_anti-microbial
+8,rauwolfia,cladosporium spp,tuoc bac,,,,,,,cladosporium_anti-tumor
 9,acer truncatum,cladosporium,fusarubin,,,,,,,
 10,warbrugia ugandensis sprague,rauwolfia,anhydrofusarubin,,,,,,,
 11,w. ugandensis,acer truncatum,afu,,,,,,,

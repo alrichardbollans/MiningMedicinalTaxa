@@ -1,11 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,a. laxmannii,a. laxmannii,a. taiwanensis(israili,a. taiwanensis,,,ajuga_hypertension,,,ajuga_diuretic
-1,ajuga laxmannii,ajuga laxmanniithe,ofiridoidsiridoids,aspergillus flavus,,,ajuga_intestinal and biliary disorders,,,ajuga_antipyretic
-2,ajuga,a. laxmannii ce,aucubin,aspergillus niger,,,ajuga_ulcer,,,ajuga_astringent
-3,a. bracteosa,ajuga,catalpol,candida albicans,,,ajuga_edema,,,a. laxmannii_antifungal
-4,a. relicta,a. bracteosa,harpagide,candida parapsilosis,,,ajuga_fever,,,a. laxmannii_antioxidant
+0,a. laxmannii,a. laxmannii,a. taiwanensis(israili,a. taiwanensis,,,ajuga_edema,,,ajuga_antipyretic
+1,ajuga laxmannii,ajuga laxmanniithe,ofiridoidsiridoids,aspergillus flavus,,,ajuga_hypertension,,,ajuga_astringent
+2,ajuga,a. laxmannii ce,aucubin,aspergillus niger,,,ajuga_fever,,,ajuga_diuretic
+3,a. bracteosa,ajuga,catalpol,candida albicans,,,ajuga_ulcer,,,a. laxmannii_antiradical
+4,a. relicta,a. bracteosa,harpagide,candida parapsilosis,,,ajuga_intestinal and biliary disorders,,,a. laxmannii_antioxidant
 5,ajugalaxmannii,a. relicta,harpagoside,penicillium funiculosum,,,,,,a. laxmannii_antimicrobial
-6,a. turkestanica,ajuga species,a. laxmanniiextracts,,,,,,,a. laxmannii_antiradical
+6,a. turkestanica,ajuga species,a. laxmanniiextracts,,,,,,,a. laxmannii_antifungal
 7,a. reptans,ajugalaxmannii,harpagide aucubin,,,,,,,a. laxmannii_anti-inflammatory
 8,a. chamaecistus subsp. scoparia (boiss.) rech.f,ajuga laxmanniitable,laxmannii,,,,,,,a. laxmannii_antibacterial
 9,,a. turkestanica,aeruginosa,,,,,,,a. turkestanica_antioxidant

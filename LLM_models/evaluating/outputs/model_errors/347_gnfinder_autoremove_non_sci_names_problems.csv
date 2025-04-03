@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,c. majus,c. majus,,silybum marianum,,,c. majus_liver complaints,,,c. majus_antitumor
-1,chelidonium majus,chelidonium,,entamoeba histolytica,,,c. majus_hepatobiliary disorders,,,c. majus_liver and biliary tract
-2,,,,,,,c. majus_liver toxicity,,,c. majus_cholagogue
-3,,,,,,,,,,c. majus_acceleration of sperm movement toward fallopian tube
-4,,,,,,,,,,c. majus_choleretic
-5,,,,,,,,,,c. majus_supporting artificial insemination or facilitating fertilization
-6,,,,,,,,,,c. majus_antispasmodic
-7,,,,,,,,,,c. majus_hepatoprotective
+0,c. majus,c. majus,,silybum marianum,,,c. majus_liver toxicity,,,c. majus_acceleration of sperm movement toward fallopian tube
+1,chelidonium majus,chelidonium,,entamoeba histolytica,,,c. majus_hepatobiliary disorders,,,c. majus_choleretic
+2,,,,,,,c. majus_liver complaints,,,c. majus_hepatoprotective
+3,,,,,,,,,,c. majus_supporting artificial insemination or facilitating fertilization
+4,,,,,,,,,,c. majus_liver and biliary tract
+5,,,,,,,,,,c. majus_antispasmodic
+6,,,,,,,,,,c. majus_cholagogue
+7,,,,,,,,,,c. majus_antitumor
 8,,,,,,,,,,silybum marianum_hepatoprotective

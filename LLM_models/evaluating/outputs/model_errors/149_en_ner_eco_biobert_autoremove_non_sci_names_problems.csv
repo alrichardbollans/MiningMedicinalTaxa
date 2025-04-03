@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,sabal palmetto,sabal palmetto,carambola,sanguinaria canadensis,,,,,,sanguinaria canadensis_emetic
-1,pandanus spp,pandanus,bahia piassava,harpagophytum procumbens,,,,,,sanguinaria canadensis_expectorant
-2,protea,protea family)grevillea,nypa palm sugar,plantago afra,,,,,,harpagophytum procumbens_anti-inflammatory
-3,nigella sativa,nigella,dactylifera,rhamnus cathartica,,,,,,harpagophytum procumbens_analgesic
+0,sabal palmetto,sabal palmetto,carambola,sanguinaria canadensis,,,,,,sanguinaria canadensis_expectorant
+1,pandanus spp,pandanus,bahia piassava,harpagophytum procumbens,,,,,,sanguinaria canadensis_emetic
+2,protea,protea family)grevillea,nypa palm sugar,plantago afra,,,,,,harpagophytum procumbens_analgesic
+3,nigella sativa,nigella,dactylifera,rhamnus cathartica,,,,,,harpagophytum procumbens_anti-inflammatory
 4,nigella,gardenia,plantago family)plantago,rhamnus purshiana,,,,,,plantago afra_laxative
 5,gardenia jasminoides,angostura,psyllium laxative,psychotria ipecacuanha,,,,,,rhamnus cathartica_laxative
 6,angostura febrifuga,litchi,polygala family)polygala,dictamnus albus,,,,,,rhamnus purshiana_laxative

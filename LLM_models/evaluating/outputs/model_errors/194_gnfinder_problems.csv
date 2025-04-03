@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,hypericum perforatum linn,hypericum perforatum,hyperici herba extractum,h. per-foratum,,,hypericum perforatum linn_bruises,,,
-1,,,,,,,hypericum perforatum linn_swellings,,,
+1,,,,,,,hypericum perforatum linn_wounds,,,
 2,,,,,,,hypericum perforatum linn_dyspep-sia,,,
-3,,,,,,,hypericum perforatum linn_wounds,,,
-4,,,,,,,hypericum perforatum linn_burn wounds,,,
+3,,,,,,,hypericum perforatum linn_burn wounds,,,
+4,,,,,,,hypericum perforatum linn_swellings,,,
