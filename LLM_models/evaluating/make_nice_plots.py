@@ -106,32 +106,27 @@ def for_full_eval(models, _measures, file_tag: str, inc_legend: bool = True):
         plt.close()
         all_results.to_csv(os.path.join(os.path.join('outputs', 'full_eval', 'compiled_results', f'{file_tag}_{metric}_results.csv')))
 def plots():
-    # basic_plot_results(os.path.join('outputs', 'full_eval', 'gpt-4o_results.csv'), os.path.join('outputs', 'full_eval'), 'gpt-4o')
-    # basic_plot_results(os.path.join('outputs', 'full_eval', 'ft:gpt-4o-2024-08-06:personal::BHfNoQa3_results.csv'), os.path.join('outputs', 'full_eval'), 'ft_gpt-4o-2024-08-06_personal__Acwijdma')
+    basic_plot_results(os.path.join('outputs', 'full_eval', 'gpt-4o-2024-08-06_results.csv'), os.path.join('outputs', 'full_eval'), 'gpt-4o-2024-08-06')
+    basic_plot_results(os.path.join('outputs', 'full_eval', 'ft_gpt-4o-2024-08-06_personal__BHfNoQa3_results.csv'), os.path.join('outputs', 'full_eval'), 'ft_gpt-4o-2024-08-06_personal__BHfNoQa3')
 
-    collect_main_results()
-
+    # collect_main_results()
     #
-    ## NER
-    _models = ['Claude', 'DeepSeek', 'GNfinder', 'GPT', 'Llama', 'TaxoNERD']
-    measures = ['Precise NER', 'Approx. NER']
-    for_full_eval(_models, measures, 'NER')
-
-    # ## RE
-    _models = ['Claude', 'DeepSeek', 'GPT', 'Llama']
-    measures = ['Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
-    for_full_eval(_models, measures, 'RE')
-    for_full_eval(_models, ['Precise MedCond', 'Approx. MedCond'], 'MedCond')
-    for_full_eval(_models, ['Precise MedEff', 'Approx. MedEff'], 'MedEff', inc_legend=False)
-
-    ## Finetuning
-    _models = ['GPT', 'FTGPT']
-    for_full_eval(_models, all_measures, 'FT')
-
-def compare_outputs():
-    test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
-    for chunk in test['id'].unique().tolist():
-        compare_errors('gpt-4o-2024-08-06', chunk, os.path.join('outputs', 'full_eval', 'comparing exact and relaxed'))
+    # #
+    # ## NER
+    # _models = ['Claude', 'DeepSeek', 'GNfinder', 'GPT', 'Llama', 'TaxoNERD']
+    # measures = ['Precise NER', 'Approx. NER']
+    # for_full_eval(_models, measures, 'NER')
+    #
+    # # ## RE
+    # _models = ['Claude', 'DeepSeek', 'GPT', 'Llama']
+    # measures = ['Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
+    # for_full_eval(_models, measures, 'RE')
+    # for_full_eval(_models, ['Precise MedCond', 'Approx. MedCond'], 'MedCond')
+    # for_full_eval(_models, ['Precise MedEff', 'Approx. MedEff'], 'MedEff', inc_legend=False)
+    #
+    # ## Finetuning
+    # _models = ['GPT', 'FTGPT']
+    # for_full_eval(_models, all_measures, 'FT')
 
 if __name__ == '__main__':
     all_measures = ['Precise NER', 'Approx. NER', 'Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
@@ -139,5 +134,4 @@ if __name__ == '__main__':
     metrics = ['f1', 'precision', 'recall']
 
     plots()
-    compare_outputs()
 
