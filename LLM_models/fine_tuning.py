@@ -9,7 +9,7 @@ import tiktoken
 from langchain_openai import ChatOpenAI
 
 from LLM_models.loading_files import read_file_and_chunk
-from LLM_models.rag_prompting import standard_medicinal_prompt
+from LLM_models.prompting import standard_medicinal_prompt
 from LLM_models.running_models import get_input_size_limit
 from LLM_models.structured_output_schema import get_chunk_filepath_from_chunk_id, TaxaData, get_all_human_annotations_for_chunk_id
 

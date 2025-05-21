@@ -7,7 +7,7 @@ import pydantic_core
 
 from LLM_models.loading_files import read_file_and_chunk, split_text_chunks
 from LLM_models.making_examples import example_messages
-from LLM_models.rag_prompting import standard_medicinal_prompt
+from LLM_models.prompting import standard_medicinal_prompt
 from LLM_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, TaxaData
 
 
