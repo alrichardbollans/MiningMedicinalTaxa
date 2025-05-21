@@ -22,6 +22,7 @@ def get_tp_fn_from_annotated_test_data():
     medcond_false_negatives = []
     ner_true_positives = []
     med_eff_true_positives = []
+    med_eff_false_negatives = []
     for f in fileNames:
         if f.endswith("ft_gpt-4o-2024-08-06_personal__BHfNoQa3_problems.csv"):
             if any(f.startswith(f'{str(t)}_') for t in test['id'].unique().tolist()):
@@ -31,6 +32,7 @@ def get_tp_fn_from_annotated_test_data():
 
                 ner_true_positives += model_results['NER_tp_in_model'].dropna().tolist()
                 med_eff_true_positives += model_results['MedEff_tp'].dropna().tolist()
+                med_eff_false_negatives += model_results['MedEff_fn'].dropna().tolist()
 
     # Check no duplicate underscores as these are used to seprate names and conditions.
     issues = [print(x) for x in medcond_true_positives + medcond_false_negatives if x.count('_') > 1]
@@ -40,16 +42,17 @@ def get_tp_fn_from_annotated_test_data():
     fn_names_with_medcond = list(set([c.split('_')[0] for c in medcond_false_negatives]))
     tp_names = list(set([c.split('_')[0] for c in ner_true_positives]))
     tp_med_eff = list(set([c.split('_')[0] for c in med_eff_true_positives]))
+    fn_med_eff = list(set([c.split('_')[0] for c in med_eff_false_negatives]))
 
-    out_df = pd.DataFrame([[len(tp_names), len(tp_names_with_medcond), len(fn_names_with_medcond), len(tp_med_eff)]],
-                          columns=['NER TP', 'Med Cond TP', 'Med Cond FN', 'Med Eff TP'])
+    out_df = pd.DataFrame([[len(tp_names), len(tp_names_with_medcond), len(fn_names_with_medcond), len(tp_med_eff), len(fn_med_eff)]],
+                          columns=['NER TP', 'Med Cond TP', 'Med Cond FN', 'Med Eff TP', 'Med Eff FN'])
     out_df.to_csv(os.path.join('outputs', 'mpns_analysis', 'summary.csv'))
-    return tp_names_with_medcond, fn_names_with_medcond, tp_med_eff
+    return tp_names_with_medcond, fn_names_with_medcond, tp_med_eff, fn_med_eff
 
 
 def main():
     out_folder = os.path.join('outputs', 'mpns_analysis', 'vascular plants')
-    true_positives, false_negatives, tp_med_eff = get_tp_fn_from_annotated_test_data()
+    true_positives, false_negatives, tp_med_eff, fn_med_eff = get_tp_fn_from_annotated_test_data()
 
     ## Resolve to species
     def resolve_list_to_clean_df(name_list):
@@ -87,6 +90,24 @@ def main():
 
     plot_native_number_accepted_taxa_in_regions(all_acc_name_df, 'accepted_species', os.path.join(out_folder),
                                                 'all_accepted_species_with_medCond.jpg', wcvp_version=_WCVP_VERSION, colormap='inferno')
+
+    ### Just do all annotated species
+    all_annotated_medicinal_taxa_acc_name_df = resolve_list_to_clean_df(true_positives + false_negatives + tp_med_eff + fn_med_eff)
+    all_annotated_medicinal_taxa_acc_name_df.to_csv(os.path.join(out_folder, 'all_accepted_species_with_medCond_or_medEff.csv'))
+    all_annotated_medicinal_taxa_acc_name_df.describe(include='all').to_csv(
+        os.path.join(out_folder, 'all_accepted_species_with_medCond_or_medEff_summary.csv'))
+
+    plot_native_number_accepted_taxa_in_regions(all_annotated_medicinal_taxa_acc_name_df, 'accepted_species', os.path.join(out_folder),
+                                                'all_accepted_species_with_medCond_or_medEff.jpg', wcvp_version=_WCVP_VERSION, colormap='inferno')
+
+    ## And all true positives
+    all_tp_medicinal_taxa_acc_name_df = resolve_list_to_clean_df(true_positives + tp_med_eff)
+    all_tp_medicinal_taxa_acc_name_df.to_csv(os.path.join(out_folder, 'tp_accepted_species_with_medCond_or_medEff.csv'))
+    all_tp_medicinal_taxa_acc_name_df.describe(include='all').to_csv(
+        os.path.join(out_folder, 'tp_accepted_species_with_medCond_or_medEff_summary.csv'))
+
+    plot_native_number_accepted_taxa_in_regions(all_tp_medicinal_taxa_acc_name_df, 'accepted_species', os.path.join(out_folder),
+                                                'tp_accepted_species_with_medCond_or_medEff.jpg', wcvp_version=_WCVP_VERSION, colormap='inferno')
 
     ## Check against MPNS
     mpns_df = pd.read_csv(os.path.join('inputs', 'MPNS_v12_acc_sp_names.csv'))
