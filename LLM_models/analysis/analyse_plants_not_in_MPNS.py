@@ -1,7 +1,7 @@
 import os
 
 import pandas as pd
-from wcvpy.wcvp_download import plot_native_number_accepted_taxa_in_regions
+from wcvpy.wcvp_download import plot_native_number_accepted_taxa_in_regions, get_all_taxa
 from wcvpy.wcvp_name_matching import get_accepted_info_from_names_in_column
 
 _WCVP_VERSION = '12'
@@ -52,6 +52,10 @@ def get_tp_fn_from_annotated_test_data():
 
 def main():
     out_folder = os.path.join('outputs', 'mpns_analysis', 'vascular plants')
+    all_species = get_all_taxa(accepted=True, ranks=['Species'], version=_WCVP_VERSION)
+    plot_native_number_accepted_taxa_in_regions(all_species, 'accepted_species', os.path.join(out_folder),
+                                                'underlying_distribution.jpg', wcvp_version=_WCVP_VERSION, colormap='inferno')
+
     true_positives, false_negatives, tp_med_eff, fn_med_eff = get_tp_fn_from_annotated_test_data()
 
     ## Resolve to species
