@@ -16,10 +16,10 @@ sys.path.append("..")
 from useful_string_methods import abbreviate_sci_name
 from deployment.base_implementation import read_chunk_file, get_relations_from_taxa_data
 
-chunk_text = read_chunk_file(70)
+chunk_text = read_chunk_file(1)
 
 # Define a list of relationship data
-RELATIONSHIPS = get_relations_from_taxa_data('70_gpt-4o_outputs.pickle', 70)
+RELATIONSHIPS = get_relations_from_taxa_data('../LLM_models/evaluating/outputs/model_pkls/1_claude-3-5-sonnet-20241022_outputs.pickle', 1)
 
 
 def highlight_phrases(text, sciname, keyword):

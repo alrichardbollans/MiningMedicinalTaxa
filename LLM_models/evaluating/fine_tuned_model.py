@@ -3,7 +3,7 @@ import os
 import pandas as pd
 from pydantic import BaseModel
 
-from LLM_models.evaluating.run_evaluation import assess_model_on_chunk_list
+from LLM_models.evaluating.run_evaluation import assess_model_on_chunk_list, df_for_hparam_tuning
 from LLM_models.running_models import get_input_size_limit
 from LLM_models.structured_output_schema import repo_path
 

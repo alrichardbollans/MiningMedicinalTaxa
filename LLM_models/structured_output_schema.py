@@ -3,7 +3,7 @@ import os
 from typing import Optional, List, Any
 
 import pandas as pd
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, Extra
 
 from LLM_models.prompting import medicinal_effect_def, medical_condition_def
 from useful_string_methods import clean_strings, TAXON_ENTITY_CLASSES, get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations, \
@@ -57,7 +57,8 @@ class Taxon(BaseModel):
     )
 
 
-class TaxaData(BaseModel):
+
+class TaxaData(BaseModel, extra=Extra.allow):
     """Extracted data about taxa."""
 
     # Creates a model so that we can extract multiple entities.

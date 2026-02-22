@@ -102,6 +102,7 @@ def precise_match(name1: str, name2: str, allow_any_start_point=None):
     if name1 == name2:
         return True
     else:
+        ## Add this due to parsing issues and line breaks.
         name1_no_spaces = name1.replace(' ', '')
         name2_no_spaces = name2.replace(' ', '')
         if name1_no_spaces == name2_no_spaces:

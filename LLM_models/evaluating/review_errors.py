@@ -1,19 +1,22 @@
 import itertools
+import json
 import os
-import pickle
 from difflib import SequenceMatcher
 
 import pandas as pd
 
 from LLM_models.evaluating import abbreviated_precise_match, RE_evaluation, NER_evaluation, abbreviated_approximate_match, fuzzy_match_ratio
 from LLM_models.evaluating.make_nice_plots import get_filenames
-from LLM_models.structured_output_schema import get_all_human_annotations_for_chunk_id
+from LLM_models.structured_output_schema import get_all_human_annotations_for_chunk_id, TaxaData
+
 
 def get_re_fp_fn(model_name: str, chunk_id, match_method):
     ground_truth_annotations = get_all_human_annotations_for_chunk_id(chunk_id, check=True)
-    pkl_file = os.path.join('outputs', 'model_pkls', f'{str(chunk_id)}_{model_name}_outputs.pickle')
-    model_annotations = pickle.load(open(pkl_file, "rb", -1))
+    json_file = os.path.join('outputs', 'model_jsons', f'{str(chunk_id)}_{model_name}_outputs.json')
 
+    with open(json_file, "r") as file_:
+        json_dict = json.load(file_)
+        model_annotations = TaxaData.model_validate(json_dict)
     retrue_positives_in_ground_truths, retrue_positives_in_model_annotations, refalse_positives, refalse_negatives = RE_evaluation(model_annotations,
                                                                                                                                    ground_truth_annotations,
                                                                                                                                    match_method,
@@ -28,8 +31,11 @@ def get_re_fp_fn(model_name: str, chunk_id, match_method):
 
 def manually_compare_errors(model_name: str, chunk_id, out_dir: str):
     ground_truth_annotations = get_all_human_annotations_for_chunk_id(chunk_id, check=True)
-    pkl_file = os.path.join('outputs', 'model_pkls', f'{str(chunk_id)}_{model_name}_outputs.pickle')
-    model_annotations = pickle.load(open(pkl_file, "rb", -1))
+    json_file = os.path.join('outputs', 'model_jsons', f'{str(chunk_id)}_{model_name}_outputs.json')
+
+    with open(json_file, "r") as file_:
+        json_dict = json.load(file_)
+        model_annotations = TaxaData.model_validate(json_dict)
 
     true_positives_in_ground_truths, true_positives_in_model_annotations, false_positives, false_negatives = NER_evaluation(model_annotations,
                                                                                                                             ground_truth_annotations,
@@ -43,8 +49,8 @@ def manually_compare_errors(model_name: str, chunk_id, out_dir: str):
         ground_truth_annotations,
         'approximate',
         'medicinal_effects')
-    if len(merefalse_positives)>0:
-            print(merefalse_positives)
+    if len(merefalse_positives) > 0:
+        print(merefalse_positives)
     all = [true_positives_in_ground_truths, true_positives_in_model_annotations, false_positives, false_negatives,
            retrue_positives_in_model_annotations, refalse_positives,
            refalse_negatives, meretrue_positives_in_model_annotations, merefalse_positives, merefalse_negatives]
@@ -52,8 +58,6 @@ def manually_compare_errors(model_name: str, chunk_id, out_dir: str):
     problems = pd.DataFrame(zip(*padded),
                             columns=['NER_tp_in_ground', 'NER_tp_in_model', 'NER_fp', 'NER_fn', 'MedCond_tp', 'MedCond_fp', 'MedCond_fn', 'MedEff_tp',
                                      'MedEff_fp', 'MedEff_fn'])
-
-
 
     ### compare with
     precise_NER_true_positives_in_ground_truths, precise_NER_true_positives_in_model_annotations, precise_NER_false_positives, precise_NER_false_negatives = NER_evaluation(
@@ -74,14 +78,14 @@ def manually_compare_errors(model_name: str, chunk_id, out_dir: str):
     MC_fns = [c for c in preciseMedCondfalse_negatives if c not in refalse_negatives]
 
     (preciseMedEfftrue_positives_in_ground_truths, preciseMedEfftrue_positives_in_model_annotations, preciseMedEfffalse_positives,
-         preciseMedEfffalse_negatives) = RE_evaluation(model_annotations,
-                                                       ground_truth_annotations,
-                                                       'precise',
-                                                       'medicinal_effects')
+     preciseMedEfffalse_negatives) = RE_evaluation(model_annotations,
+                                                   ground_truth_annotations,
+                                                   'precise',
+                                                   'medicinal_effects')
     ME_fps = [c for c in preciseMedEfffalse_positives if c not in merefalse_positives]
     ME_fns = [c for c in preciseMedEfffalse_negatives if c not in merefalse_negatives]
-    important_cases = [MC_fps,MC_fns, ME_fps, ME_fns]
-    if any(len(x)>0 for x in important_cases):
+    important_cases = [MC_fps, MC_fns, ME_fps, ME_fns]
+    if any(len(x) > 0 for x in important_cases):
         print(f'chunk: {chunk_id}')
         print(f'model: {model_name}')
         print(MC_fps)
@@ -94,7 +98,8 @@ def check_for_spelling():
         med_eff_cases = []
         medCond_cases = []
         for chunk in test['id'].unique().tolist():
-            medEff_false_positives, medEff_false_negatives, medCond_false_positives, medCond_false_negatives, model_annotations, ground_truth_annotations =get_re_fp_fn(model, chunk, 'approximate')
+            medEff_false_positives, medEff_false_negatives, medCond_false_positives, medCond_false_negatives, model_annotations, ground_truth_annotations = get_re_fp_fn(
+                model, chunk, 'approximate')
             # fuzzy_medEff_false_positives, fuzzy_medEff_false_negatives, fuzzy_medCond_false_positives, fuzzy_medCond_false_negatives, model_annotations, ground_truth_annotations =get_re_fp_fn(model, chunk, 'fuzzy')
             # print(f'chunk: {chunk}')
             for a in medCond_false_negatives:
@@ -117,6 +122,7 @@ def check_for_spelling():
 def compare_outputs():
     for chunk in test['id'].unique().tolist():
         manually_compare_errors('gpt-4o-2024-08-06', chunk, os.path.join('outputs', 'full_eval', 'comparing exact and relaxed'))
+
 
 if __name__ == '__main__':
     test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
