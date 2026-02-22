@@ -22,4 +22,4 @@ query_a_model(models['deepseek'][0], 'path_to_input_txt_file.txt',
 ### Manual verification
 
 Outputs from this process (the `json_dump` files) can be manually verified using our reference verifier shiny app, hosted
-here:
+here: https://huggingface.co/spaces/alrichardbollans/MedicinalTaxonVerifier

@@ -1,6 +1,0 @@
-shiny
-langchain
-pandas
-openpyxl
-wcvpy
-jinja2
