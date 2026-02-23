@@ -1,7 +1,0 @@
-matplotlib
-langchain==0.3.22
-langchain-core == 0.3.83
-openpyxl
-seaborn
-langchain_core
-pydantic
