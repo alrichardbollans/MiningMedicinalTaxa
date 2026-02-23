@@ -17,11 +17,11 @@ def run_model():
         print(f"Processing {file_name}")
         model_outputs = query_a_model(ft_model[0], os.path.join(in_dir, file_name),
                                       ft_model[1])
-
-        # If you want to clean outputs by removing annotations with unknown scientific names:
+        #
+        # # If you want to clean outputs by removing annotations with unknown scientific names:
         clean_model_outputs = clean_model_annotations_using_taxonomy_knowledge(model_outputs)
 
-        with open(os.path.join(out_dir, f'{file_name.replace('.txt', '_autoremove_non_sci_names_problems.json')}'), "w") as file_:
+        with open(os.path.join(out_dir, f'{file_name.replace('.txt', '.json')}'), "w") as file_:
             json_out = clean_model_outputs.model_dump(mode="json")
             json.dump(json_out, file_)
 

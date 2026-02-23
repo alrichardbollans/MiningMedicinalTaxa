@@ -7,7 +7,12 @@ from LLM_models.checking_and_summarising_annotations import get_all_human_annota
 
 
 def main():
+    out_dir = 'eval_outputs'
     manual_checks = pd.read_csv('manual_outputs.csv')
+    manual_checks['verbatim_pairs'] = manual_checks['taxon_name'] + '_' + manual_checks['medical_condition'].fillna('') + '_' + manual_checks[
+        'medicinal_effect'].fillna('')
+
+    manual_checks.describe(include='all').to_csv(os.path.join(out_dir,'manual_outputs_summary.csv'))
     correct = manual_checks[manual_checks['decision'] == 'Yes']
     incorrect = manual_checks[manual_checks['decision'] == 'No']
     print(f"Correct: {len(correct)}")
@@ -28,10 +33,13 @@ def main():
 
     names_in_tuning_data_and_deployment = set(correct['taxon_name'].tolist()) & set(collected_taxa)
     print(f"Names in tuning data and deployment: {len(names_in_tuning_data_and_deployment)}")
-    acc_correct_data = get_accepted_info_from_names_in_column(correct.rename(columns={'taxon_name':'sci_name'}), 'sci_name', wcvp_version='12')
-    acc_correct_data['pairs'] = acc_correct_data['accepted_name'] + '_' + acc_correct_data['medical_condition'].fillna('') + '_' + acc_correct_data['medicinal_effect'].fillna('')
-    acc_correct_data['verbatim_pairs'] = acc_correct_data['sci_name'] + '_' + acc_correct_data['medical_condition'].fillna('') + '_' + acc_correct_data['medicinal_effect'].fillna('')
-    acc_correct_data.to_csv('acc_correct_data.csv')
+    acc_correct_data = get_accepted_info_from_names_in_column(correct.rename(columns={'taxon_name': 'sci_name'}), 'sci_name', wcvp_version='12')
+    acc_correct_data['pairs'] = acc_correct_data['accepted_name'] + '_' + acc_correct_data['medical_condition'].fillna('') + '_' + acc_correct_data[
+        'medicinal_effect'].fillna('')
+    acc_correct_data.to_csv(os.path.join(out_dir,'acc_correct_data.csv'))
+    acc_correct_data.describe(include='all').to_csv(os.path.join(out_dir,'acc_correct_data_summary.csv'))
+
+    print('cost for the 5 papers: $2.86')
 
 
 if __name__ == '__main__':
