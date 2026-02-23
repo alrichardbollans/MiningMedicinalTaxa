@@ -34,6 +34,13 @@ class TaxaData(BaseModel, extra=Extra.allow):
     # Creates a model so that we can extract multiple entities.
     taxa: Optional[List[Taxon]]
 
+# Model extractions don't allow schema to include extras, so use this class when running models.
+class TaxaDataNoExtras(BaseModel):
+    """Extracted data about taxa."""
+
+    # Creates a model so that we can extract multiple entities.
+    taxa: Optional[List[Taxon]]
+
 
 def deduplicate_and_standardise_output_taxa_lists(taxa: List[Taxon]) -> TaxaData:
     """ Clean strings, as in read_annotation_json and then deduplicate results"""

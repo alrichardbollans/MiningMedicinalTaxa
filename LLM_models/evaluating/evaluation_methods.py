@@ -356,5 +356,6 @@ def clean_model_annotations_using_taxonomy_knowledge(model_annotations: TaxaData
     for model_ann in model_annotations.taxa:
         if model_ann.scientific_name in new_taxa_list:
             new_anns.append(model_ann)
-
-    return TaxaData(taxa=new_anns)
+    out = TaxaData(taxa=new_anns)
+    out.text = model_annotations.text
+    return out

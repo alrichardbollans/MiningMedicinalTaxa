@@ -8,7 +8,7 @@ import pydantic_core
 from LLM_models.loading_files import read_file_and_chunk, split_text_chunks, get_txt_from_file
 from LLM_models.making_examples import example_messages
 from LLM_models.prompting import standard_medicinal_prompt
-from LLM_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, TaxaData
+from LLM_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, TaxaData, TaxaDataNoExtras
 
 
 def sanitize_text(s: str):
@@ -25,7 +25,8 @@ def query_a_model(model, text_file: str, context_window: int, json_dump: str = N
         assert len(text_chunks) == 1
     # A few different methods, depending on the specific model are used to get a structured output
     # and this is handled by with_structured_output. See https://python.langchain.com/docs/how_to/structured_output/
-    extractor = standard_medicinal_prompt | model.with_structured_output(schema=TaxaData, include_raw=False)
+    # Model extractions don't allow schema to include extras, so use this class when running models.
+    extractor = standard_medicinal_prompt | model.with_structured_output(schema=TaxaDataNoExtras, include_raw=False)
     try:
 
         extractions = extractor.batch(
