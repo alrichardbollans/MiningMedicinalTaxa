@@ -330,6 +330,24 @@ def check_errors(model_annotations: TaxaData, ground_truth_annotations: TaxaData
     problems.to_csv(os.path.join(out_dir, f'{str(chunk_id)}_{model_tag}_problems.csv'))
 
 def clean_model_annotations_using_taxonomy_knowledge(model_annotations: TaxaData):
+    """
+    Clean model annotations based on taxonomy knowledge.
+
+    This function filters and refines a given set of model annotations using
+    scientific names validated through taxonomy knowledge. It leverages external
+    knowledge to eliminate annotations that do not conform to validated scientific
+    names.
+
+    Parameters:
+    model_annotations : TaxaData
+        An instance of TaxaData that contains a list of taxa with their scientific
+        names.
+
+    Returns:
+    TaxaData
+        A filtered and refined TaxaData object that only includes annotations
+        matching the validated scientific names.
+    """
     old_taxa_list = []
     for m in model_annotations.taxa:
         old_taxa_list.append(m.scientific_name)

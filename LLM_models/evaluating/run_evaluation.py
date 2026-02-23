@@ -10,8 +10,9 @@ from LLM_models.evaluating import NER_evaluation, RE_evaluation, check_errors, a
     abbreviated_precise_match, get_metrics_from_tp_fp_fn, clean_model_annotations_using_taxonomy_knowledge
 from LLM_models.evaluating.gnfinder_baseline import gnfinder_query_function
 from LLM_models.running_models import query_a_model, get_input_size_limit, setup_models
-from LLM_models.structured_output_schema import valid_chunk_annotation_info, get_all_human_annotations_for_chunk_id, get_chunk_filepath_from_chunk_id, \
-    repo_path, summarise_annotations, TaxaData
+from LLM_models.structured_output_schema import TaxaData
+from LLM_models.checking_and_summarising_annotations import valid_chunk_annotation_info, get_all_human_annotations_for_chunk_id, get_chunk_filepath_from_chunk_id, \
+    repo_path, summarise_annotations
 
 df_for_hparam_tuning = pd.read_csv(os.path.join('outputs', 'for_hparam_tuning.csv'))
 

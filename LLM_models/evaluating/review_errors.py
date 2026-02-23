@@ -5,9 +5,10 @@ from difflib import SequenceMatcher
 
 import pandas as pd
 
+from LLM_models.checking_and_summarising_annotations import get_all_human_annotations_for_chunk_id
 from LLM_models.evaluating import abbreviated_precise_match, RE_evaluation, NER_evaluation, abbreviated_approximate_match, fuzzy_match_ratio
 from LLM_models.evaluating.make_nice_plots import get_filenames
-from LLM_models.structured_output_schema import get_all_human_annotations_for_chunk_id, TaxaData
+from LLM_models.structured_output_schema import TaxaData
 
 
 def get_re_fp_fn(model_name: str, chunk_id, match_method):

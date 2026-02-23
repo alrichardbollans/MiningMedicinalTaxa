@@ -2,8 +2,9 @@ import json
 import os
 import pickle
 
+from LLM_models.checking_and_summarising_annotations import get_chunk_filepath_from_chunk_id
 from LLM_models.loading_files import get_txt_from_file
-from LLM_models.structured_output_schema import TaxaData, get_chunk_filepath_from_chunk_id
+from LLM_models.structured_output_schema import TaxaData
 
 
 def main():
