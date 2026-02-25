@@ -1,0 +1,12 @@
+,json_file,taxon_name,medical_condition,medicinal_effect,decision,corpusid,title,verbatim_pairs
+count,758,758,362,396,758,758.0,758,758
+unique,41,202,240,133,2,,5,747
+top,29202702.json_chunk_38.json,glycyrrhiza glabra,fever,anti-inflammatory,Yes,,"The Role of Medicinal Plants in New Zealand's Settler Medical Culture, 1850s-1920s",glycyrrhiza glabra l__demulcent
+freq,251,35,13,52,647,,360,2
+mean,,,,,,114886468.83905013,,
+std,,,,,,137791760.9013438,,
+min,,,,,,29202702.0,,
+25%,,,,,,29202702.0,,
+50%,,,,,,48537506.0,,
+75%,,,,,,48537506.0,,
+max,,,,,,355098449.0,,

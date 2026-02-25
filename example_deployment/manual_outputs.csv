@@ -668,3 +668,92 @@ json_file,taxon_name,medical_condition,medicinal_effect,decision
 355098449.json_chunk_6.json,p. chinensis,,antitussive,Yes
 355098449.json_chunk_6.json,polygala senega,bronchiectasis,,Yes
 355098449.json_chunk_6.json,polygala senega,respiratory symptoms,,Yes
+355098449.json_chunk_6.json,polygala senega,emphysema,,Yes
+355098449.json_chunk_6.json,polygala senega,catarrh of the upper respiratorytract,,Yes
+355098449.json_chunk_6.json,polygala senega,respiratory disease,,No
+355098449.json_chunk_6.json,polygala senega,bronchitis,,Yes
+355098449.json_chunk_6.json,polygala senega,cough,,Yes
+355098449.json_chunk_6.json,polygala senega,,anti-inflammatory,Yes
+355098449.json_chunk_6.json,polygala senega,,expectorant,Yes
+355098449.json_chunk_6.json,polygala senega,,antitussive,Yes
+355098449.json_chunk_6.json,p. senega,bronchiectasis,,Yes
+355098449.json_chunk_6.json,p. senega,respiratory diseases,,No
+355098449.json_chunk_6.json,p. senega,,anti-inflammatory,Yes
+355098449.json_chunk_6.json,polypodium vulgare,respiratory disease,,Yes
+355098449.json_chunk_6.json,polypodium vulgare,respiratory symptoms,,No
+355098449.json_chunk_6.json,polypodium vulgare,cough,,Yes
+355098449.json_chunk_6.json,polypodium vulgare,,expectorant,Yes
+355098449.json_chunk_6.json,polypodium vulgare,,antitussive,Yes
+355098449.json_chunk_6.json,potentilla erecta,buccalsores,,Yes
+355098449.json_chunk_6.json,potentilla erecta,minor inflammations of the oral mucosa,,Yes
+355098449.json_chunk_6.json,potentilla erecta,inflammation,,Yes
+355098449.json_chunk_6.json,potentilla erecta,respiratory disease,,No
+355098449.json_chunk_6.json,potentilla erecta,cough,,Yes
+355098449.json_chunk_6.json,potentilla erecta,,anti-viral,Yes
+355098449.json_chunk_6.json,p. erecta,respiratory disease,,No
+355098449.json_chunk_6.json,p. erecta,,anti-viral,Yes
+355098449.json_chunk_7.json,primula veris,,anti-inflammatory,Yes
+355098449.json_chunk_7.json,p. veris,,anti-inflammatory,Yes
+355098449.json_chunk_7.json,salix alba,common cold,,Yes
+355098449.json_chunk_7.json,salix alba,osteoarthritis,,Yes
+355098449.json_chunk_7.json,salix alba,rheumatic pain,,Yes
+355098449.json_chunk_7.json,salix alba,low back pain,,Yes
+355098449.json_chunk_7.json,salix alba,back pain,,Yes
+355098449.json_chunk_7.json,salix alba,flu,,Yes
+355098449.json_chunk_7.json,salix alba,,anti-inflammatory,Yes
+355098449.json_chunk_7.json,salix alba,,antipyretic,Yes
+355098449.json_chunk_7.json,salix alba,,antiplatelet,Yes
+355098449.json_chunk_7.json,salix alba,,analgesic,Yes
+355098449.json_chunk_7.json,salix,,anti-inflammatory,No
+355098449.json_chunk_7.json,salix,,antipyretic,Yes
+355098449.json_chunk_7.json,salix,,antiplatelet,No
+355098449.json_chunk_7.json,sambucus nigra,inflammation of the respiratory tract,,Yes
+355098449.json_chunk_7.json,sambucus nigra,headaches,,Yes
+355098449.json_chunk_7.json,sambucus nigra,fever,,Yes
+355098449.json_chunk_7.json,sambucus nigra,flu,,Yes
+355098449.json_chunk_7.json,sambucus nigra,cold,,Yes
+355098449.json_chunk_7.json,sambucus nigra,,anti-inflammatory,Yes
+355098449.json_chunk_7.json,sambucus nigra,,antipyretic,Yes
+355098449.json_chunk_7.json,sambucus nigra,,expectorant,Yes
+355098449.json_chunk_7.json,s. nigra,cold,,Yes
+355098449.json_chunk_7.json,scutellaria baicalensis,fever,,Yes
+355098449.json_chunk_7.json,scutellaria baicalensis,bronchitis,,Yes
+355098449.json_chunk_7.json,scutellaria baicalensis,,antiviral,Yes
+355098449.json_chunk_7.json,scutellaria baicalensis,,anti-inflammatory,Yes
+355098449.json_chunk_7.json,silybum marianum,fever,,Yes
+355098449.json_chunk_7.json,silybum marianum,catarrh,,Yes
+355098449.json_chunk_7.json,silybum marianum,,anti-inflammatory,Yes
+355098449.json_chunk_7.json,s. marianum,,anti-inflammatory,Yes
+355098449.json_chunk_7.json,thymus vulgaris,productive cough,,Yes
+355098449.json_chunk_7.json,thymus vulgaris,laryngitis,,Yes
+355098449.json_chunk_7.json,thymus vulgaris,cold,,Yes
+355098449.json_chunk_7.json,thymus vulgaris,tonsilitis,,Yes
+355098449.json_chunk_8.json,t. vulgaris,,anti-inflammatory,Yes
+355098449.json_chunk_8.json,t. vulgaris,,myorelaxant,Yes
+355098449.json_chunk_8.json,tilia cordata,,anti-inflammatory,Yes
+355098449.json_chunk_8.json,tilia cordata,,anxiolytic,Yes
+355098449.json_chunk_8.json,zingiber officinale,,anti-inflammatory,Yes
+355098449.json_chunk_8.json,zingiber officinale,,expectorant,Yes
+355098449.json_chunk_8.json,zingiber officinale,,anti-platelet,Yes
+355098449.json_chunk_8.json,citrus limon,,anti-inflammatory,Yes
+355098449.json_chunk_8.json,citrus limon,,anti-platelet,Yes
+355098449.json_chunk_8.json,culcitium canescens,,anti-inflammatory,Yes
+355098449.json_chunk_8.json,laurus nobilis,,anti-viral,Yes
+355098449.json_chunk_8.json,laurus nobilis,,anti-inflammatory,Yes
+355098449.json_chunk_8.json,laurus nobilis,,sedative,Yes
+355098449.json_chunk_8.json,laurus nobilis,,analgesic,Yes
+355098449.json_chunk_8.json,l. nobilis,,anti-inflammatory,Yes
+355098449.json_chunk_8.json,l. nobilis,,sedative,Yes
+355098449.json_chunk_8.json,l. nobilis,,analgesic,Yes
+355098449.json_chunk_8.json,lippia graveolens,,anti-inflammatory,Yes
+355098449.json_chunk_9.json,lippia graveolens,,anti-inflammatory,Yes
+355098449.json_chunk_9.json,nigella sativa,asthma,,Yes
+355098449.json_chunk_9.json,nigella sativa,cough,,Yes
+355098449.json_chunk_9.json,plectranthus amboinicus,fever,,Yes
+355098449.json_chunk_9.json,plectranthus amboinicus,asthma,,Yes
+355098449.json_chunk_9.json,plectranthus amboinicus,headache,,Yes
+355098449.json_chunk_9.json,plectranthus amboinicus,cold,,Yes
+355098449.json_chunk_9.json,plectranthus amboinicus,,anti-inflammatory,Yes
+355098449.json_chunk_11.json,glycyrrhiza glabra,asthma,,Yes
+355098449.json_chunk_11.json,magnolia officinalis,asthma,,Yes
+355098449.json_chunk_11.json,pimpinella anisum,asthma,,Yes

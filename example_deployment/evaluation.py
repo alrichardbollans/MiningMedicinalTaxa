@@ -7,13 +7,11 @@ from LLM_models.checking_and_summarising_annotations import get_all_human_annota
 
 
 def get_correct_incorrect_precision(df):
-    correct = df[df['decision'] == 'Yes']
-    incorrect = df[df['decision'] == 'No']
-    print(f"Correct: {len(correct)}")
-    print(f"Incorrect: {len(incorrect)}")
-
-    precision = len(correct) / (len(correct) + len(incorrect))
+    correct = len(df[df['decision'] == 'Yes'])
+    incorrect = len(df[df['decision'] == 'No'])
+    precision = correct / (correct + incorrect)
     print(f"Precision: {precision}")
+    return [correct, incorrect, precision]
 
 def json_info(json_filenames):
     top_15_hits = pd.read_csv(
@@ -40,13 +38,11 @@ def main():
         'medicinal_effect'].fillna('')
 
     manual_checks.describe(include='all').to_csv(os.path.join(out_dir,'manual_outputs_summary.csv'))
-    print('all')
-    get_correct_incorrect_precision(manual_checks)
-    print('med cond')
-    get_correct_incorrect_precision(manual_checks[~manual_checks['medical_condition'].isna()])
-    print('med eff')
-    get_correct_incorrect_precision(manual_checks[~manual_checks['medicinal_effect'].isna()])
-
+    out_df = pd.DataFrame(index=['correct', 'incorrect', 'precision'])
+    out_df['all'] = get_correct_incorrect_precision(manual_checks)
+    out_df['med cond'] = get_correct_incorrect_precision(manual_checks[~manual_checks['medical_condition'].isna()])
+    out_df['med eff'] =get_correct_incorrect_precision(manual_checks[~manual_checks['medicinal_effect'].isna()])
+    out_df.to_csv(os.path.join(out_dir,'evaluation_results.csv'))
     for_hparam_tuning = pd.read_csv(os.path.join('..', 'LLM_models', 'evaluating', 'outputs', 'for_hparam_tuning.csv'))
     chunk_ids = for_hparam_tuning['id'].unique().tolist()
     collected_taxa = []
@@ -69,6 +65,9 @@ def main():
     acc_correct_data.describe(include='all').to_csv(os.path.join(out_dir,'acc_correct_data_summary.csv'))
 
     print('cost for the 5 papers: $2.86')
+
+    print(f'Correct medical conditions: {correct['medical_condition'].unique().tolist()}')
+    print(f'Correct medicinal effects: {correct['medicinal_effect'].unique().tolist()}')
 
 
 if __name__ == '__main__':

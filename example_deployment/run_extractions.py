@@ -14,16 +14,18 @@ def run_model():
     pathlib.Path(out_dir).mkdir(parents=True, exist_ok=True)
 
     for file_name in os.listdir(in_dir):
-        print(f"Processing {file_name}")
-        model_outputs = query_a_model(ft_model[0], os.path.join(in_dir, file_name),
-                                      ft_model[1])
-        #
-        # # If you want to clean outputs by removing annotations with unknown scientific names:
-        clean_model_outputs = clean_model_annotations_using_taxonomy_knowledge(model_outputs)
+        # Ignore reference only chunks
+        if not any(file_name == c for c in [f'355098449.txt_chunk_{i}.txt' for i in range(12, 22)]):
+            print(f"Processing {file_name}")
+            model_outputs = query_a_model(ft_model[0], os.path.join(in_dir, file_name),
+                                          ft_model[1])
+            #
+            # # If you want to clean outputs by removing annotations with unknown scientific names:
+            clean_model_outputs = clean_model_annotations_using_taxonomy_knowledge(model_outputs)
 
-        with open(os.path.join(out_dir, f'{file_name.replace('.txt', '.json')}'), "w") as file_:
-            json_out = clean_model_outputs.model_dump(mode="json")
-            json.dump(json_out, file_)
+            with open(os.path.join(out_dir, f'{file_name.replace('.txt', '.json')}'), "w") as file_:
+                json_out = clean_model_outputs.model_dump(mode="json")
+                json.dump(json_out, file_)
 
 
 def main():
