@@ -11,7 +11,8 @@ def get_correct_incorrect_precision(df):
     incorrect = len(df[df['decision'] == 'No'])
     precision = correct / (correct + incorrect)
     print(f"Precision: {precision}")
-    return [correct, incorrect, precision]
+    return [correct, incorrect, correct + incorrect, precision]
+
 
 def json_info(json_filenames):
     top_15_hits = pd.read_csv(
@@ -19,16 +20,16 @@ def json_info(json_filenames):
 
     corpus_ids = {}
     for j in json_filenames:
-
         corpus_ids[j] = int(j.split('.json')[0])
     five_hits = top_15_hits[top_15_hits['corpusid'].isin(corpus_ids.values())]
 
     return five_hits, corpus_ids
 
+
 def main():
     out_dir = 'eval_outputs'
     manual_checks = pd.read_csv('manual_outputs.csv')
-    dups = manual_checks[manual_checks.duplicated(subset=['json_file','taxon_name','medical_condition','medicinal_effect'], keep=False)]
+    dups = manual_checks[manual_checks.duplicated(subset=['json_file', 'taxon_name', 'medical_condition', 'medicinal_effect'], keep=False)]
     if len(dups) > 0:
         raise ValueError(f'Duplicate entries found in manual_outputs.csv: {dups}')
     js_info, corpus_ids = json_info(manual_checks['json_file'].tolist())
@@ -37,12 +38,12 @@ def main():
     manual_checks['verbatim_pairs'] = manual_checks['taxon_name'] + '_' + manual_checks['medical_condition'].fillna('') + '_' + manual_checks[
         'medicinal_effect'].fillna('')
 
-    manual_checks.describe(include='all').to_csv(os.path.join(out_dir,'manual_outputs_summary.csv'))
-    out_df = pd.DataFrame(index=['correct', 'incorrect', 'precision'])
+    manual_checks.describe(include='all').to_csv(os.path.join(out_dir, 'manual_outputs_summary.csv'))
+    out_df = pd.DataFrame(index=['correct', 'incorrect', 'total', 'precision'])
     out_df['all'] = get_correct_incorrect_precision(manual_checks)
     out_df['med cond'] = get_correct_incorrect_precision(manual_checks[~manual_checks['medical_condition'].isna()])
-    out_df['med eff'] =get_correct_incorrect_precision(manual_checks[~manual_checks['medicinal_effect'].isna()])
-    out_df.to_csv(os.path.join(out_dir,'evaluation_results.csv'))
+    out_df['med eff'] = get_correct_incorrect_precision(manual_checks[~manual_checks['medicinal_effect'].isna()])
+    out_df.to_csv(os.path.join(out_dir, 'evaluation_results.csv'))
     for_hparam_tuning = pd.read_csv(os.path.join('..', 'LLM_models', 'evaluating', 'outputs', 'for_hparam_tuning.csv'))
     chunk_ids = for_hparam_tuning['id'].unique().tolist()
     collected_taxa = []
@@ -54,15 +55,12 @@ def main():
     collected_taxa = set(collected_taxa)
 
     correct = manual_checks[manual_checks['decision'] == 'Yes']
+    correct.to_csv(os.path.join(out_dir, 'correct_outputs.csv'))
+    correct.describe(include='all').to_csv(os.path.join(out_dir, 'correct_outputs_summary.csv'))
     correct_names_in_deployment = set(correct['taxon_name'].tolist())
     names_in_tuning_data_and_deployment = correct_names_in_deployment & set(collected_taxa)
     print(f"Names in tuning data and correct deployment: {len(names_in_tuning_data_and_deployment)}")
     print(f"Correct names deployment: {len(correct_names_in_deployment)}")
-    acc_correct_data = get_accepted_info_from_names_in_column(correct.rename(columns={'taxon_name': 'sci_name'}), 'sci_name', wcvp_version='12')
-    acc_correct_data['pairs'] = acc_correct_data['accepted_name'] + '_' + acc_correct_data['medical_condition'].fillna('') + '_' + acc_correct_data[
-        'medicinal_effect'].fillna('')
-    acc_correct_data.to_csv(os.path.join(out_dir,'acc_correct_data.csv'))
-    acc_correct_data.describe(include='all').to_csv(os.path.join(out_dir,'acc_correct_data_summary.csv'))
 
     print('cost for the 5 papers: $2.86')
 

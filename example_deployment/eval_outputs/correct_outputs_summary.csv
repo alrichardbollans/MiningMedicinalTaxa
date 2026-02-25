@@ -1,0 +1,12 @@
+,json_file,taxon_name,medical_condition,medicinal_effect,decision,corpusid,title,verbatim_pairs
+count,647,647,284,363,647,647.0,647,647
+unique,38,192,183,117,1,,5,637
+top,29202702.json_chunk_38.json,allium sativum l,cough,anti-inflammatory,Yes,,"The Role of Medicinal Plants in New Zealand's Settler Medical Culture, 1850s-1920s",glycyrrhiza glabra l__demulcent
+freq,240,18,13,48,647,,339,2
+mean,,,,,,119836400.91962905,,
+std,,,,,,141874592.58210096,,
+min,,,,,,29202702.0,,
+25%,,,,,,29202702.0,,
+50%,,,,,,29202702.0,,
+75%,,,,,,355098449.0,,
+max,,,,,,355098449.0,,
