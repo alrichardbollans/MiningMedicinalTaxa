@@ -62,7 +62,7 @@ def main():
     print(f"Names in tuning data and correct deployment: {len(names_in_tuning_data_and_deployment)}")
     print(f"Correct names deployment: {len(correct_names_in_deployment)}")
 
-    print('cost for the 5 papers: $2.86')
+    print('cost for the 5 papers: ')
 
     print(f'Correct medical conditions: {correct['medical_condition'].unique().tolist()}')
     print(f'Correct medicinal effects: {correct['medicinal_effect'].unique().tolist()}')
