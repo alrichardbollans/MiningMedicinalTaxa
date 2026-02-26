@@ -1,5 +1,0 @@
-,name,accepted_ipni_id,accepted_name,accepted_name_w_author,accepted_family,accepted_rank,accepted_species,accepted_species_w_author,accepted_species_ipni_id,accepted_parent,plant_name_id,taxon_status,matched_by,matched_name
-count,261,260,261,261,261,261,261,261,260,261,261,261,261,261
-unique,261,260,261,261,75,3,261,261,260,196,261,3,6,261
-top,sesamum indicum,675971-1,Sesamum indicum,Sesamum indicum L.,Asteraceae,Species,Sesamum indicum,Sesamum indicum L.,675971-1,Berberis,2588550,Accepted,direct_wcvp_unique,Sesamum indicum
-freq,1,1,1,1,26,252,1,1,1,21,1,228,141,1

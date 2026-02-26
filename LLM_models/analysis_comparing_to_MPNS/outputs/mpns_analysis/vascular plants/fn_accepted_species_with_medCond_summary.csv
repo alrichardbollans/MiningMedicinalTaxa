@@ -1,5 +1,0 @@
-,name,accepted_ipni_id,accepted_name,accepted_name_w_author,accepted_family,accepted_rank,accepted_species,accepted_species_w_author,accepted_species_ipni_id,accepted_parent,plant_name_id,taxon_status,matched_by,matched_name
-count,270,270,270,270,270,270,270,270,270,270,270,270,270,270
-unique,270,270,270,270,86,3,270,270,270,230,270,4,6,270
-top,pilocarpus jaborandi,196492-2,Pilocarpus jaborandi,Pilocarpus jaborandi Holmes,Lamiaceae,Species,Pilocarpus jaborandi,Pilocarpus jaborandi Holmes,196492-2,Berberis,2543316,Accepted,direct_wcvp_unique,Pilocarpus jaborandi
-freq,1,1,1,1,23,262,1,1,1,5,1,235,194,1

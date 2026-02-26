@@ -1,7 +1,7 @@
 import os
 import string
 
-from LLM_models.analysis.analyse_plants_not_in_MPNS import get_tp_fn_from_annotated_test_data
+import pandas as pd
 
 
 def make_clean_binomial(given_string):
@@ -26,35 +26,15 @@ def resolve_list_to_clean_fungi_df(name_list):
 
 
 def your_function():
-    true_positives, false_negatives, tp_med_eff = get_tp_fn_from_annotated_test_data()
+    correct_outputs = pd.read_csv('../../example_deployment/eval_outputs/correct_outputs.csv')
 
-    tp_fungi = resolve_list_to_clean_fungi_df(true_positives)
+    tp_fungi = resolve_list_to_clean_fungi_df(correct_outputs['taxon_name'])
 
-    with open(os.path.join('outputs', 'mpns_analysis', 'fungi', 'tp_fungi.csv'),
+    with open(os.path.join('outputs', 'fungi', 'fungi_identified_in_deployment.csv'),
               'w') as f:
         for line in tp_fungi:
             f.write(f"{line}\n")
 
-    fn_fungi = resolve_list_to_clean_fungi_df(false_negatives)
-
-    with open(os.path.join('outputs', 'mpns_analysis', 'fungi', 'fn_fungi.csv'),
-              'w') as f:
-        for line in fn_fungi:
-            f.write(f"{line}\n")
-
-    all_fungi = resolve_list_to_clean_fungi_df(true_positives + false_negatives)
-
-    with open(os.path.join('outputs', 'mpns_analysis', 'fungi', 'all_fungi_in_data.csv'),
-              'w') as f:
-        for line in all_fungi:
-            f.write(f"{line}\n")
-
-    tp_med_eff_fungi = resolve_list_to_clean_fungi_df(tp_med_eff)
-
-    with open(os.path.join('outputs', 'mpns_analysis', 'fungi', 'tp_med_eff_fungi.csv'),
-              'w') as f:
-        for line in tp_med_eff_fungi:
-            f.write(f"{line}\n")
 
 
 if __name__ == '__main__':
