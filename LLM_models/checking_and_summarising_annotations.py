@@ -7,9 +7,9 @@ from LLM_models import convert_human_annotations_to_taxa_data_schema, deduplicat
 from useful_string_methods import check_human_annotations, get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations
 
 repo_path = os.environ.get('KEWSCRATCHPATH')
-base_text_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'text_files')
-base_chunk_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'chunks', 'all_chunks')
-annotation_folder = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'annotations',
+base_text_path = os.path.join(repo_path, 'MiningMedicinalTaxa', 'annotated_data', 'top_10_medicinal_hits', 'text_files')
+base_chunk_path = os.path.join(repo_path, 'MiningMedicinalTaxa', 'annotated_data', 'top_10_medicinal_hits', 'chunks', 'all_chunks')
+annotation_folder = os.path.join(repo_path, 'MiningMedicinalTaxa', 'annotated_data', 'top_10_medicinal_hits', 'annotations',
                                  'manually_annotated_chunks')
 _annotation_file = os.path.join(annotation_folder, 'task_for_labelstudio_completed_updated.json')
 

@@ -307,7 +307,7 @@ def assessing_hparams(rerun: bool = True):
     # This is a minimal process and more about getting the model to run and output something sensible than actual performance.
     from dotenv import load_dotenv
 
-    load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'LLM_models', '.env'))
+    load_dotenv(os.path.join(repo_path, 'MiningMedicinalTaxa', 'LLM_models', '.env'))
 
     all_models = setup_models()
 
@@ -329,7 +329,7 @@ def assessing_hparams(rerun: bool = True):
 def full_evaluation(rerun: bool = True):
     from dotenv import load_dotenv
 
-    load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'LLM_models', '.env'))
+    load_dotenv(os.path.join(repo_path, 'MiningMedicinalTaxa', 'LLM_models', '.env'))
 
     test = pd.read_csv(os.path.join('outputs', 'for_testing.csv'))
 
