@@ -102,6 +102,7 @@ def precise_match(name1: str, name2: str, allow_any_start_point=None):
     if name1 == name2:
         return True
     else:
+        ## Add this due to parsing issues and line breaks.
         name1_no_spaces = name1.replace(' ', '')
         name2_no_spaces = name2.replace(' ', '')
         if name1_no_spaces == name2_no_spaces:
@@ -329,6 +330,24 @@ def check_errors(model_annotations: TaxaData, ground_truth_annotations: TaxaData
     problems.to_csv(os.path.join(out_dir, f'{str(chunk_id)}_{model_tag}_problems.csv'))
 
 def clean_model_annotations_using_taxonomy_knowledge(model_annotations: TaxaData):
+    """
+    Clean model annotations based on taxonomy knowledge.
+
+    This function filters and refines a given set of model annotations using
+    scientific names validated through taxonomy knowledge. It leverages external
+    knowledge to eliminate annotations that do not conform to validated scientific
+    names.
+
+    Parameters:
+    model_annotations : TaxaData
+        An instance of TaxaData that contains a list of taxa with their scientific
+        names.
+
+    Returns:
+    TaxaData
+        A filtered and refined TaxaData object that only includes annotations
+        matching the validated scientific names.
+    """
     old_taxa_list = []
     for m in model_annotations.taxa:
         old_taxa_list.append(m.scientific_name)
@@ -337,5 +356,6 @@ def clean_model_annotations_using_taxonomy_knowledge(model_annotations: TaxaData
     for model_ann in model_annotations.taxa:
         if model_ann.scientific_name in new_taxa_list:
             new_anns.append(model_ann)
-
-    return TaxaData(taxa=new_anns)
+    out = TaxaData(taxa=new_anns)
+    out.text = model_annotations.text
+    return out

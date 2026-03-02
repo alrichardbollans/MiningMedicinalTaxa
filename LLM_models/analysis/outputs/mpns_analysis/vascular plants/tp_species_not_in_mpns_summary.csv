@@ -1,5 +1,0 @@
-,name,accepted_ipni_id,accepted_name,accepted_name_w_author,accepted_family,accepted_rank,accepted_species,accepted_species_w_author,accepted_species_ipni_id,accepted_parent,plant_name_id,taxon_status,matched_by,matched_name
-count,10,10,10,10,10,10,10,10,10,10,10,10,10,10
-unique,10,10,10,10,8,1,10,10,10,10,10,2,4,10
-top,pycnanthemum muticum,214748-2,Pycnanthemum muticum,Pycnanthemum muticum (Michx.) Pers.,Lamiaceae,Species,Pycnanthemum muticum,Pycnanthemum muticum (Michx.) Pers.,214748-2,Pycnanthemum,171062,Accepted,direct_wcvp_unique,Pycnanthemum muticum
-freq,1,1,1,1,2,10,1,1,1,1,1,7,5,1

@@ -1,5 +1,5 @@
+import json
 import os
-import pickle
 import time
 from collections.abc import Callable
 
@@ -10,8 +10,11 @@ from LLM_models.evaluating import NER_evaluation, RE_evaluation, check_errors, a
     abbreviated_precise_match, get_metrics_from_tp_fp_fn, clean_model_annotations_using_taxonomy_knowledge
 from LLM_models.evaluating.gnfinder_baseline import gnfinder_query_function
 from LLM_models.running_models import query_a_model, get_input_size_limit, setup_models
-from LLM_models.structured_output_schema import valid_chunk_annotation_info, get_all_human_annotations_for_chunk_id, get_chunk_filepath_from_chunk_id, \
+from LLM_models.structured_output_schema import TaxaData
+from LLM_models.checking_and_summarising_annotations import valid_chunk_annotation_info, get_all_human_annotations_for_chunk_id, get_chunk_filepath_from_chunk_id, \
     repo_path, summarise_annotations
+
+df_for_hparam_tuning = pd.read_csv(os.path.join('outputs', 'for_hparam_tuning.csv'))
 
 
 def _get_chunks_to_tweak_with():
@@ -92,31 +95,35 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
 
     model_name = clean_model_name(model_name)
 
-    def run(c_id, p_file):
+    def run(c_id, j_file):
         print(c_id)
         time.sleep(0.5)
         if model_query_function is None:
             query_a_model(model, get_chunk_filepath_from_chunk_id(c_id),
-                          context_window, p_file)
+                          context_window, j_file)
         else:
             model_query_function(model, get_chunk_filepath_from_chunk_id(c_id),
-                                 context_window, p_file)
-        m_outputs = pickle.load(open(p_file, "rb", -1))
+                                 context_window, j_file)
+        with open(f'j_file', "r") as file__:
+            json_dict_ = json.load(file__)
+            m_outputs = TaxaData.model_validate(json_dict_)
         return m_outputs
 
     model_tag = model_name
     if autoremove_non_sci_names:
         model_tag += '_autoremove_non_sci_names'
     for chunk_id in chunk_list:
-        pkl_file = os.path.join('outputs', 'model_pkls', f'{str(chunk_id)}_{model_name}_outputs.pickle')
+        json_file = os.path.join('outputs', 'model_jsons', f'{str(chunk_id)}_{model_name}_outputs.json')
         if rerun:
-            model_outputs = run(chunk_id, pkl_file)
+            model_outputs = run(chunk_id, json_file)
         else:
             try:
-                model_outputs = pickle.load(open(pkl_file, "rb", -1))
+                with open(json_file, "r") as file_:
+                    json_dict = json.load(file_)
+                    model_outputs = TaxaData.model_validate(json_dict)
             except FileNotFoundError:
-                print(f'With rerun=False, cant find associated pkl file: {pkl_file}. Rerunning')
-                model_outputs = run(chunk_id, pkl_file)
+                print(f'With rerun=False, cant find associated pkl file: {json_file}. Rerunning')
+                model_outputs = run(chunk_id, json_file)
 
         if autoremove_non_sci_names:
             model_outputs = clean_model_annotations_using_taxonomy_knowledge(model_outputs)
@@ -355,8 +362,8 @@ def full_eval_gnfinder(rerun: bool = True):
 
 def main():
     # assessing_hparams(rerun=True)
-    # full_evaluation(rerun=False)
-    full_eval_gnfinder(rerun=False)
+    full_evaluation(rerun=False)
+    # full_eval_gnfinder(rerun=False)
 
 
 
@@ -369,5 +376,4 @@ if __name__ == '__main__':
         model_name: str
 
 
-    df_for_hparam_tuning = pd.read_csv(os.path.join('outputs', 'for_hparam_tuning.csv'))
     main()

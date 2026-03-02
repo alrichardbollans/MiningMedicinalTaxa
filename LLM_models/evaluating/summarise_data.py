@@ -2,7 +2,7 @@ import os
 
 import pandas as pd
 
-from LLM_models.structured_output_schema import summarise_annotations, valid_chunk_annotation_info, annotation_info
+from LLM_models.checking_and_summarising_annotations import summarise_annotations, valid_chunk_annotation_info, annotation_info
 
 
 def main():

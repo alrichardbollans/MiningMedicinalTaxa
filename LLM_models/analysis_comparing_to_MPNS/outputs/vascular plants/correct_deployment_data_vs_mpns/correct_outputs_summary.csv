@@ -1,0 +1,12 @@
+,Unnamed: 0,json_file,sci_name,medical_condition,medicinal_effect,decision,corpusid,title,verbatim_pairs,accepted_ipni_id,accepted_name,accepted_name_w_author,accepted_family,accepted_rank,accepted_species,accepted_species_w_author,accepted_species_ipni_id,accepted_parent,plant_name_id,taxon_status,matched_by,matched_name
+count,539.0,539,539,241,298,539,539.0,539,539,539,539,539,539,539,539,539,539,539,539,539,539,539
+unique,,34,152,162,96,1,,4,531,135,135,135,63,2,135,135,135,130,137,3,7,151
+top,,29202702.json_chunk_38.json,allium sativum l,cough,anti-inflammatory,Yes,,"The Role of Medicinal Plants in New Zealand's Settler Medical Culture, 1850s-1920s",hydrastis canadensis l__antimicrobial,461765-1,Thymus vulgaris,Thymus vulgaris L.,Lamiaceae,Species,Thymus vulgaris,Thymus vulgaris L.,461765-1,Aconitum,205645,Accepted,direct_wcvp_w_author_unique,Allium sativum L.
+freq,,207,18,12,35,539,,287,2,21,21,21,67,534,21,21,21,26,21,445,195,18
+mean,375.11502782931353,,,,,,120640830.24304268,,,,,,,,,,,,,,,
+std,227.18118666984412,,,,,,142552906.58570755,,,,,,,,,,,,,,,
+min,1.0,,,,,,29202702.0,,,,,,,,,,,,,,,
+25%,177.5,,,,,,29202702.0,,,,,,,,,,,,,,,
+50%,340.0,,,,,,29202702.0,,,,,,,,,,,,,,,
+75%,580.5,,,,,,355098449.0,,,,,,,,,,,,,,,
+max,757.0,,,,,,355098449.0,,,,,,,,,,,,,,,

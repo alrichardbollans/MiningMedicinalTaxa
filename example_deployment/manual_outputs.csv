@@ -1,0 +1,759 @@
+json_file,taxon_name,medical_condition,medicinal_effect,decision
+29202702.json_chunk_7.json,mentha spp. l,,digestive aid,Yes
+29202702.json_chunk_7.json,matricaria recutita l,indigestion,,Yes
+29202702.json_chunk_7.json,matricaria recutita l,inflammation,,Yes
+29202702.json_chunk_7.json,lavandula angustifolia mill,burns,,Yes
+29202702.json_chunk_7.json,lavandula angustifolia mill,skin irritations,,Yes
+29202702.json_chunk_7.json,glycyrrhiza glabra l,respiratory and urinary tract infections,,Yes
+29202702.json_chunk_7.json,glycyrrhiza glabra l,,demulcent,Yes
+29202702.json_chunk_7.json,cinnamomum camphora (l.) j. presl,cholera,,Yes
+29202702.json_chunk_7.json,rheum palmatum l,,emetic,Yes
+29202702.json_chunk_7.json,ipomoea purge l,,cathartic,Yes
+29202702.json_chunk_7.json,gingko biloba l,,stimulate circulation,Yes
+29202702.json_chunk_7.json,althea officinalis l,respiratory conditions,,Yes
+29202702.json_chunk_7.json,althea officinalis l,,demulcent,Yes
+29202702.json_chunk_7.json,valeriana officinalis l,,sedative,Yes
+29202702.json_chunk_7.json,cinchona spp,fever,,Yes
+29202702.json_chunk_7.json,cinchona spp,malaria,,Yes
+29202702.json_chunk_7.json,carapichea ipecacuanha brot. l.andersson,dysentery,,Yes
+29202702.json_chunk_17.json,podophyllum peltatum,colic,,Yes
+29202702.json_chunk_17.json,podophyllum peltatum,glandular conditions,,Yes
+29202702.json_chunk_19.json,eucalyptus globula,cancer,,Yes
+29202702.json_chunk_21.json,verbena officinalis,epilepsy,,Yes
+29202702.json_chunk_23.json,pinus canadensis,dysentery,,No
+29202702.json_chunk_23.json,pinus canadensis,,restorative,Yes
+29202702.json_chunk_24.json,lobelia,,emetic,Yes
+29202702.json_chunk_25.json,pinus canadensis,cholera,,Yes
+29202702.json_chunk_25.json,pinus canadensis,cholera morbus,,Yes
+29202702.json_chunk_25.json,pinus canadensis,diarrhoea,,Yes
+29202702.json_chunk_26.json,rhipogonum parviflorum,general debility,,Yes
+29202702.json_chunk_26.json,rhipogonum parviflorum,fever,,Yes
+29202702.json_chunk_26.json,rhipogonum parviflorum,skin complaints,,Yes
+29202702.json_chunk_26.json,rhipogonum parviflorum,bowel complaints,,Yes
+29202702.json_chunk_26.json,rhipogonum parviflorum,rheumatism,,Yes
+29202702.json_chunk_26.json,macropiper excelsum,facial swelling,,Yes
+29202702.json_chunk_26.json,macropiper excelsum,toothache,,Yes
+29202702.json_chunk_26.json,macropiper excelsum,pains in the stomach,,Yes
+29202702.json_chunk_26.json,macropiper excelsum,,diuretic,Yes
+29202702.json_chunk_26.json,macropiper excelsum,,aromatic,Yes
+29202702.json_chunk_26.json,veronica,venereal disease,,Yes
+29202702.json_chunk_26.json,veronica,dysentery,,Yes
+29202702.json_chunk_26.json,veronica,ulcers,,Yes
+29202702.json_chunk_26.json,veronica,,astringent,Yes
+29202702.json_chunk_26.json,dysoxylum spectabile,secretion of milk,,Yes
+29202702.json_chunk_26.json,passiflora tetrandra,sore breasts,,Yes
+29202702.json_chunk_26.json,passiflora tetrandra,old wounds,,Yes
+29202702.json_chunk_26.json,atherosperma n. zealandiae,scrofula,,Yes
+29202702.json_chunk_26.json,atherosperma n. zealandiae,obstinate sores,,Yes
+29202702.json_chunk_26.json,atherosperma n. zealandiae,venereal diseases,,Yes
+29202702.json_chunk_26.json,drimys axillaris,,anti-scorbutic,Yes
+29202702.json_chunk_26.json,drimys axillaris,,stimulating tonic,Yes
+29202702.json_chunk_26.json,drimys axillaris,,alterative,Yes
+29202702.json_chunk_26.json,phyllocladus trichomanoides,dysentery,,Yes
+29202702.json_chunk_26.json,phyllocladus trichomanoides,,high in tannins,No
+29202702.json_chunk_26.json,coriaria ruscifolia,,laxative,Yes
+29202702.json_chunk_31.json,hebe,,astringents,No
+29202702.json_chunk_32.json,thymus vulgaris,,antiseptic,Yes
+29202702.json_chunk_32.json,thymus vulgaris,,expectorant,Yes
+29202702.json_chunk_32.json,aconitum napellus,neuralgia,,Yes
+29202702.json_chunk_32.json,aconitum napellus,rheumatism,,Yes
+29202702.json_chunk_34.json,trachyspermum ammi,nasal catarrh,,Yes
+29202702.json_chunk_34.json,trachyspermum ammi,skin diseases,,Yes
+29202702.json_chunk_34.json,trachyspermum ammi,,antiseptic,Yes
+29202702.json_chunk_34.json,trachyspermum ammi,,carminative,Yes
+29202702.json_chunk_34.json,trachyspermum ammi,,anthelmintic,Yes
+29202702.json_chunk_34.json,thymus vulgaris,asthma,,Yes
+29202702.json_chunk_34.json,thymus vulgaris,sore throats,,Yes
+29202702.json_chunk_34.json,thymus vulgaris,gout,,Yes
+29202702.json_chunk_34.json,thymus vulgaris,whooping cough,,Yes
+29202702.json_chunk_34.json,thymus vulgaris,bronchitis,,Yes
+29202702.json_chunk_34.json,thymus vulgaris,coughs,,Yes
+29202702.json_chunk_34.json,thymus vulgaris,,antiseptic,Yes
+29202702.json_chunk_34.json,thymus vulgaris,,anthelmintic,Yes
+29202702.json_chunk_34.json,aconitum napellus,bites by venomous creatures,,Yes
+29202702.json_chunk_34.json,aconitum napellus,fever,,No
+29202702.json_chunk_34.json,aconitum napellus,rheumatism,,No
+29202702.json_chunk_35.json,aconitum napellus,colds,,Yes
+29202702.json_chunk_35.json,aconitum napellus,snakebites,,No
+29202702.json_chunk_35.json,aconitum napellus,asthma,,No
+29202702.json_chunk_35.json,aconitum napellus,croup,,Yes
+29202702.json_chunk_35.json,aconitum napellus,biliousness,,Yes
+29202702.json_chunk_35.json,aconitum napellus,skin conditions,,Yes
+29202702.json_chunk_35.json,aconitum napellus,delirium tremens,,Yes
+29202702.json_chunk_35.json,aconitum napellus,measles,,Yes
+29202702.json_chunk_35.json,aconitum napellus,chicken pox,,Yes
+29202702.json_chunk_35.json,aconitum napellus,chilblains,,Yes
+29202702.json_chunk_35.json,aconitum napellus,coughs,,No
+29202702.json_chunk_35.json,aconitum napellus,,diaphoretic,Yes
+29202702.json_chunk_35.json,aconitum napellus,,anodyne,Yes
+29202702.json_chunk_35.json,aconitum napellus,,diuretic,Yes
+29202702.json_chunk_35.json,aconitum napellus,,painkiller,Yes
+29202702.json_chunk_38.json,allium sativum l,,anti-inflammatory,Yes
+29202702.json_chunk_38.json,allium sativum l,,antimicrobial,Yes
+29202702.json_chunk_38.json,allium sativum l,,diaphoretic,Yes
+29202702.json_chunk_38.json,allium sativum l,,cholagogue,Yes
+29202702.json_chunk_38.json,allium sativum l,,expectorant,Yes
+29202702.json_chunk_38.json,allium sativum l,,anthelmintic,Yes
+29202702.json_chunk_38.json,althea officinalis l,,emollient,Yes
+29202702.json_chunk_38.json,althea officinalis l,,demulcent,Yes
+29202702.json_chunk_38.json,althea officinalis l,,diuretic,Yes
+29202702.json_chunk_38.json,anethum graveolen l,,stomachic,Yes
+29202702.json_chunk_38.json,anethum graveolen l,,carminative,Yes
+29202702.json_chunk_38.json,anethum graveolen l,,stimulant,Yes
+29202702.json_chunk_38.json,anethum graveolen l,,aromatic,Yes
+29202702.json_chunk_38.json,arctium lappa l,,diuretic,Yes
+29202702.json_chunk_38.json,arctium lappa l,,depurative,Yes
+29202702.json_chunk_38.json,arctium lappa l,,antibiotic,Yes
+29202702.json_chunk_38.json,armoracia rustica schur,sciatica,,Yes
+29202702.json_chunk_38.json,armoracia rustica schur,arthritis,,Yes
+29202702.json_chunk_38.json,armoracia rustica schur,general debility,,Yes
+29202702.json_chunk_38.json,armoracia rustica schur,gout,,Yes
+29202702.json_chunk_38.json,armoracia rustica schur,respiratory and urinary infections,,Yes
+29202702.json_chunk_38.json,arnica montana l,bruises,,Yes
+29202702.json_chunk_38.json,arnica montana l,short-term treatment of heart failure,,Yes
+29202702.json_chunk_38.json,arnica montana l,sprains,,Yes
+29202702.json_chunk_38.json,arnica montana l,chilblains,,Yes
+29202702.json_chunk_38.json,arnica montana l,dislocations,,Yes
+29202702.json_chunk_38.json,austroderia fulvida (buchanan) n. p. barker et h. p. linder,goitre,,Yes
+29202702.json_chunk_38.json,atropa belladonna l,infections,,Yes
+29202702.json_chunk_38.json,atropa belladonna l,asthma,,Yes
+29202702.json_chunk_38.json,atropa belladonna l,kidney stones,,Yes
+29202702.json_chunk_38.json,atropa belladonna l,inflammation,,Yes
+29202702.json_chunk_38.json,atropa belladonna l,rheumatisms,,Yes
+29202702.json_chunk_38.json,atropa belladonna l,gall stones,,Yes
+29202702.json_chunk_38.json,atropa belladonna l,muscular pain,,Yes
+29202702.json_chunk_38.json,bryonia l,,hydragogue,Yes
+29202702.json_chunk_38.json,bryonia l,,cathartic,Yes
+29202702.json_chunk_38.json,cannabis indica lam,reduces pressure associated with glaucoma,,No
+29202702.json_chunk_38.json,cannabis indica lam,vomiting,,Yes
+29202702.json_chunk_38.json,cannabis indica lam,nausea,,Yes
+29202702.json_chunk_38.json,capsicum annumm l,asthma,,Yes
+29202702.json_chunk_38.json,capsicum annumm l,digestive problems,,Yes
+29202702.json_chunk_38.json,capsicum annumm l,debility,,Yes
+29202702.json_chunk_38.json,capsicum annumm l,poor circulation,,Yes
+29202702.json_chunk_38.json,carum carvi l,,astringent,Yes
+29202702.json_chunk_38.json,carum carvi l,,antispasmodic,Yes
+29202702.json_chunk_38.json,carum carvi l,,emmenagogue,Yes
+29202702.json_chunk_38.json,carum carvi l,,carminative,Yes
+29202702.json_chunk_38.json,carum carvi l,,expectorant,Yes
+29202702.json_chunk_38.json,cichorium intybus l,,laxative,Yes
+29202702.json_chunk_38.json,cichorium intybus l,,bitter tonic,Yes
+29202702.json_chunk_38.json,cichorium intybus l,,diuretic,Yes
+29202702.json_chunk_38.json,cimicifuga racemosa l. (syn. actaea racemosa,,sedative,Yes
+29202702.json_chunk_38.json,cimicifuga racemosa l. (syn. actaea racemosa,,antirheumatic,Yes
+29202702.json_chunk_38.json,cimicifuga racemosa l. (syn. actaea racemosa,,emmenagogue,Yes
+29202702.json_chunk_38.json,cimicifuga racemosa l. (syn. actaea racemosa,,antitussive,Yes
+29202702.json_chunk_38.json,cinchona l,malaria,,Yes
+29202702.json_chunk_38.json,cinchona l,colds,,Yes
+29202702.json_chunk_38.json,cinchona l,muscle cramps,,Yes
+29202702.json_chunk_38.json,cinchona l,cardiac fibrillation,,Yes
+29202702.json_chunk_38.json,cinchona l,fever,,Yes
+29202702.json_chunk_38.json,cinchona l,coughs,,Yes
+29202702.json_chunk_38.json,cinnamomum camphora l. j. presl,chilblains,,Yes
+29202702.json_chunk_38.json,cinnamomum camphora l. j. presl,chapped lips,,Yes
+29202702.json_chunk_38.json,cinnamomum camphora l. j. presl,muscle and joint pain,,Yes
+29202702.json_chunk_38.json,cinnamomum camphora l. j. presl,nasal and bronchial conditions,,Yes
+29202702.json_chunk_38.json,conium maculatum l,mania,,Yes
+29202702.json_chunk_38.json,conium maculatum l,epilepsy,,Yes
+29202702.json_chunk_38.json,conium maculatum l,cramps,,Yes
+29202702.json_chunk_38.json,conium maculatum l,cholera,,Yes
+29202702.json_chunk_38.json,convolvulus arvensis l,,laxative,Yes
+29202702.json_chunk_38.json,convolvulus arvensis l,,cholagogue,Yes
+29202702.json_chunk_38.json,convolvulus arvensis l,,diuretic,Yes
+29202702.json_chunk_38.json,convolvulus arvensis l,,purgative,Yes
+29202702.json_chunk_38.json,convolvulus scammonia l,,cathartic,Yes
+29202702.json_chunk_38.json,coriaria ruscifolia l,poisoning by depressants of the nervous system,,Yes
+29202702.json_chunk_38.json,coriandrum sativum l,minor digestive problems,,Yes
+29202702.json_chunk_38.json,curcuma angustifolia oxb,,convalescent food,No
+29202702.json_chunk_38.json,curcuma angustifolia oxb,,demulcent,Yes
+29202702.json_chunk_38.json,dacrydium cupressinum sol. ex lamb,prevent bleeding from stomach and lungs,,Yes
+29202702.json_chunk_38.json,datura stramonium l,,febrifuge,Yes
+29202702.json_chunk_38.json,datura stramonium l,,diaphoretic,Yes
+29202702.json_chunk_38.json,digitalis officianalis l,,cardiac herb,No
+29202702.json_chunk_38.json,digitalis officianalis l,,antidote for aconite poisoning,Yes
+29202702.json_chunk_38.json,digitalis officianalis l,,anti-haemorrhagic,Yes
+29202702.json_chunk_38.json,dysoxylum spectabile hook. f,throat infections,,Yes
+29202702.json_chunk_38.json,dysoxylum spectabile hook. f,diarrhoea,,Yes
+29202702.json_chunk_38.json,elaeocarpus hinau a. cunn,severe skin complaints,,Yes
+29202702.json_chunk_38.json,eucalyptus globulus labill,,antiseptic,Yes
+29202702.json_chunk_38.json,eucalyptus globulus labill,,stimulant,Yes
+29202702.json_chunk_38.json,eucalyptus globulus labill,,aromatic,Yes
+29202702.json_chunk_38.json,ferula assa-foetida l,contraceptive,,No
+29202702.json_chunk_38.json,ferula assa-foetida l,asthma and bronchitis,,Yes
+29202702.json_chunk_38.json,ferula assa-foetida l,digestive aid,,No
+29202702.json_chunk_38.json,ferula assa-foetida l,arbortifacient,,No
+29202702.json_chunk_38.json,foeniculum vulgare mill,,anti-inflammatory,Yes
+29202702.json_chunk_38.json,foeniculum vulgare mill,,carminative,Yes
+29202702.json_chunk_38.json,foeniculum vulgare mill,,diuretic,Yes
+29202702.json_chunk_38.json,foeniculum vulgare mill,,galactogogue,Yes
+29202702.json_chunk_38.json,fumaria officinalis l,,diaphoretic,Yes
+29202702.json_chunk_38.json,fumaria officinalis l,,diuretic,Yes
+29202702.json_chunk_38.json,gallium aparine l,,astringent,Yes
+29202702.json_chunk_38.json,gallium aparine l,,diuretic,Yes
+29202702.json_chunk_38.json,gallium aparine l,,lymphatic alterative,Yes
+29202702.json_chunk_38.json,gentiana spp. l,,gastric stimulant,Yes
+29202702.json_chunk_38.json,gentiana spp. l,,cholagogue,Yes
+29202702.json_chunk_38.json,gentiana spp. l,,bitter tonic,No
+29202702.json_chunk_38.json,glycyrrhiza glabra l,,anti-inflammatory,Yes
+29202702.json_chunk_38.json,glycyrrhiza glabra l,,adrenocorticotropic,Yes
+29202702.json_chunk_38.json,glycyrrhiza glabra l,,demulcent,Yes
+29202702.json_chunk_38.json,glycyrrhiza glabra l,,spasmolytic,Yes
+29202702.json_chunk_38.json,glycyrrhiza glabra l,,expectorant,Yes
+29202702.json_chunk_38.json,glycyrrhiza glabra l,,mild laxative,Yes
+29202702.json_chunk_38.json,hebe salicifolia (g. forst) pennell,diarrhoea,,Yes
+29202702.json_chunk_38.json,hydrastis canadensis l,,astringent,Yes
+29202702.json_chunk_38.json,hydrastis canadensis l,,laxative,Yes
+29202702.json_chunk_38.json,hydrastis canadensis l,,antimicrobial,Yes
+29202702.json_chunk_38.json,hydrastis canadensis l,,choleretic,Yes
+29202702.json_chunk_38.json,hydrastis canadensis l,,anti-haemorrhagic,Yes
+29202702.json_chunk_38.json,hyssopus officinalis l,,sedative,Yes
+29202702.json_chunk_38.json,hyssopus officinalis l,,anticatarrhal,Yes
+29202702.json_chunk_38.json,hyssopus officinalis l,,spasmolytic,Yes
+29202702.json_chunk_38.json,hyssopus officinalis l,,diaphoretic,Yes
+29202702.json_chunk_38.json,hyssopus officinalis l,,expectorant,Yes
+29202702.json_chunk_38.json,hypericum perforatum l,,antiviral,Yes
+29202702.json_chunk_38.json,hypericum perforatum l,,anti-inflammatory,Yes
+29202702.json_chunk_38.json,hypericum perforatum l,,astringent,Yes
+29202702.json_chunk_38.json,hypericum perforatum l,,relaxant,Yes
+29202702.json_chunk_38.json,hypericum perforatum l,,antidepressant,Yes
+29202702.json_chunk_38.json,ipomoea purge l,constipation,,Yes
+29202702.json_chunk_38.json,ipomoea purge l,internal parasites,,Yes
+29202702.json_chunk_38.json,ipomoea purge l,colic,,Yes
+29202702.json_chunk_38.json,laurelia novae-zelandiae a.cunn,,analgesic,Yes
+29202702.json_chunk_38.json,macropiper excelsum (g.forst.) miq,tooth ache,,Yes
+29202702.json_chunk_38.json,macropiper excelsum (g.forst.) miq,,analgesic,Yes
+29202702.json_chunk_38.json,mandragora officinarum l,,soporific,Yes
+29202702.json_chunk_38.json,mandragora officinarum l,,emetic,Yes
+29202702.json_chunk_38.json,mandragora officinarum l,,purgative,Yes
+29202702.json_chunk_38.json,mandragora officinarum l,,anodyne,Yes
+29202702.json_chunk_38.json,mandragora officinarum l,,ulcerative,Yes
+29202702.json_chunk_38.json,mandragora officinarum l,,anti-rheumatic,Yes
+29202702.json_chunk_38.json,matricaria recutita l,,vulnerary,Yes
+29202702.json_chunk_38.json,matricaria recutita l,,anti-inflammatory,Yes
+29202702.json_chunk_38.json,matricaria recutita l,,relaxant,Yes
+29202702.json_chunk_38.json,matricaria recutita l,,antispasmodic,Yes
+29202702.json_chunk_38.json,matricaria recutita l,,anti-allergic,Yes
+29202702.json_chunk_38.json,matricaria recutita l,,carminative,Yes
+29202702.json_chunk_38.json,marrubium vulgare l,,vulnerary,Yes
+29202702.json_chunk_38.json,marrubium vulgare l,,bitter,No
+29202702.json_chunk_38.json,marrubium vulgare l,,spasmolytic,Yes
+29202702.json_chunk_38.json,marrubium vulgare l,,expectorant,Yes
+29202702.json_chunk_38.json,melissa officianalis l,,carminative,Yes
+29202702.json_chunk_38.json,melissa officianalis l,,antispasmodic,Yes
+29202702.json_chunk_38.json,melissa officianalis l,,diaphoretic,Yes
+29202702.json_chunk_38.json,melissa officianalis l,,relaxant,Yes
+29202702.json_chunk_38.json,mentha pulegium l,,spasmolytic,Yes
+29202702.json_chunk_38.json,mentha pulegium l,,expectorant,Yes
+29202702.json_chunk_38.json,mentha pulegium l,,purifies water,No
+29202702.json_chunk_38.json,monarda punctate l,,antiseptic,Yes
+29202702.json_chunk_38.json,monarda punctate l,,fungicide,Yes
+29202702.json_chunk_38.json,myoporum laetum g. forst,,insecticide,Yes
+29202702.json_chunk_38.json,myroxylon toluiferum j. r. forst. & g. forst,cough,,Yes
+29202702.json_chunk_38.json,papaver somniferum l,pain relive,,Yes
+29202702.json_chunk_38.json,papaver somniferum l,shock,,Yes
+29202702.json_chunk_38.json,papaver somniferum l,breathing difficulties,,Yes
+29202702.json_chunk_38.json,papaver somniferum l,diarrhoea,,Yes
+29202702.json_chunk_38.json,papaver somniferum l,apathy,,Yes
+29202702.json_chunk_38.json,papaver somniferum l,alcohol poisoning,,Yes
+29202702.json_chunk_38.json,papaver somniferum l,coughs,,Yes
+29202702.json_chunk_38.json,passiflora tetrandra banks ex dc,skin conditions,,Yes
+29202702.json_chunk_38.json,physostigma venenosum balf,diseases of the eye,,Yes
+29202702.json_chunk_38.json,physostigma venenosum balf,,antispasmolytic,Yes
+29202702.json_chunk_38.json,physostigma venenosum balf,,vasodilator,Yes
+29202702.json_chunk_38.json,phytolacca decandra l,,anti-inflammatory,Yes
+29202702.json_chunk_38.json,phytolacca decandra l,,anticatarrhal,Yes
+29202702.json_chunk_38.json,phytolacca decandra l,,immunostimulant,Yes
+29202702.json_chunk_38.json,phytolacca decandra l,,alterative,Yes
+29202702.json_chunk_38.json,phytolacca decandra l,,lymphatic stimulant,Yes
+29202702.json_chunk_38.json,pimpinella anisum l,,spasmolytic,Yes
+29202702.json_chunk_38.json,pimpinella anisum l,,expectorant,Yes
+29202702.json_chunk_38.json,pimpinella anisum l,,carminative,Yes
+29202702.json_chunk_38.json,pimpinella anisum l,,parasiticide,Yes
+29202702.json_chunk_38.json,plantago major l,,anti-inflammatory,Yes
+29202702.json_chunk_38.json,plantago major l,,diuretic,Yes
+29202702.json_chunk_38.json,plantago major l,,anti-haemorrhagic,Yes
+29202702.json_chunk_38.json,pseudowintera axillaris (j. r. forst. & g. forst.) dandy,skin conditions,,Yes
+29202702.json_chunk_38.json,rhamnus purshana dc,,laxative,Yes
+29202702.json_chunk_38.json,rhamnus purshana dc,,antiparisitic,Yes
+29202702.json_chunk_38.json,rhamnus purshana dc,,cholagogue,Yes
+29202702.json_chunk_38.json,rheum palmatum l,,stomachic,Yes
+29202702.json_chunk_38.json,rheum palmatum l,,astringent,Yes
+29202702.json_chunk_38.json,rheum palmatum l,,purgative,Yes
+29202702.json_chunk_38.json,rhipogonum parviflorum r. br,secondary symptoms of syphilis,,Yes
+29202702.json_chunk_38.json,rhipogonum parviflorum r. br,,arbotifacient,Yes
+29202702.json_chunk_38.json,"ricinus communis, l",,laxative,Yes
+29202702.json_chunk_38.json,rosemarinus officinalis l,,mild analgesic,Yes
+29202702.json_chunk_38.json,rosemarinus officinalis l,,tonic,No
+29202702.json_chunk_38.json,rosemarinus officinalis l,,antimicrobial,Yes
+29202702.json_chunk_38.json,rosemarinus officinalis l,,spasmolytic,Yes
+29202702.json_chunk_38.json,rosemarinus officinalis l,,rubefacient,Yes
+29202702.json_chunk_38.json,rosemarinus officinalis l,,carminative,Yes
+29202702.json_chunk_38.json,rosemarinus officinalis l,,stimulant,Yes
+29202702.json_chunk_38.json,ruta graveolens l,,spasmolytic,Yes
+29202702.json_chunk_38.json,ruta graveolens l,,emmenagogue,Yes
+29202702.json_chunk_38.json,ruta graveolens l,,antitussive,Yes
+29202702.json_chunk_38.json,saponaria officinalis l,,alterative,Yes
+29202702.json_chunk_38.json,saponaria officinalis l,,demulcent,Yes
+29202702.json_chunk_38.json,saponaria officinalis l,,diaphoretic,Yes
+29202702.json_chunk_38.json,sassafras officinale (nutt.) nees,,alterative,Yes
+29202702.json_chunk_38.json,sassafras officinale (nutt.) nees,,diaphoretic,Yes
+29202702.json_chunk_38.json,sassafras officinale (nutt.) nees,,stimulant,Yes
+29202702.json_chunk_38.json,sassafras officinale (nutt.) nees,,aromatic,Yes
+29202702.json_chunk_38.json,sinapsis alba l. and sinapsis nigra l,skin eruptions,,Yes
+29202702.json_chunk_38.json,sinapsis alba l. and sinapsis nigra l,arthritis,,Yes
+29202702.json_chunk_38.json,sinapsis alba l. and sinapsis nigra l,bronchial congestion,,Yes
+29202702.json_chunk_38.json,sinapsis alba l. and sinapsis nigra l,respiratory infections,,Yes
+29202702.json_chunk_38.json,smilax regelii hook. f,,anti-inflammatory,Yes
+29202702.json_chunk_38.json,smilax regelii hook. f,,antiseptic,Yes
+29202702.json_chunk_38.json,smilax regelii hook. f,,antirheumatic,Yes
+29202702.json_chunk_38.json,smilax regelii hook. f,,antipruritic,Yes
+29202702.json_chunk_38.json,smilax regelii hook. f,,diuretic,Yes
+29202702.json_chunk_38.json,solanum aviculare g. forst,the _itch,,Yes
+29202702.json_chunk_38.json,solanum aviculare g. forst,scabies,,Yes
+29202702.json_chunk_38.json,solanum aviculare g. forst,bruises,,Yes
+29202702.json_chunk_38.json,sophora tetraptera j. f. mill,skin conditions,,Yes
+29202702.json_chunk_38.json,sophora tetraptera j. f. mill,scabies,,Yes
+29202702.json_chunk_38.json,stellaria medica (l.) cirillo,,vulnerary,Yes
+29202702.json_chunk_38.json,stellaria medica (l.) cirillo,,antirheumatic,Yes
+29202702.json_chunk_38.json,stellaria medica (l.) cirillo,,emolient,Yes
+29202702.json_chunk_38.json,stellaria medica (l.) cirillo,,antipruritic,Yes
+29202702.json_chunk_38.json,symphytum officinale l,,vulnerary,Yes
+29202702.json_chunk_38.json,symphytum officinale l,,demulcent,Yes
+29202702.json_chunk_38.json,symphytum officinale l,,astringent,Yes
+29202702.json_chunk_38.json,symphytum officinale l,,anti-inflammatory,Yes
+29202702.json_chunk_38.json,tanacetum vulgare l,,carminative,Yes
+29202702.json_chunk_38.json,tanacetum vulgare l,,emmenogogue,Yes
+29202702.json_chunk_38.json,tanacetum vulgare l,,anthelmintic,Yes
+29202702.json_chunk_38.json,tanacetum vulgare l,,spasmolytic,Yes
+29202702.json_chunk_38.json,taraxacum officianalis f. i. wiggs,,antirheumatic,Yes
+29202702.json_chunk_38.json,taraxacum officianalis f. i. wiggs,,laxative,Yes
+29202702.json_chunk_38.json,taraxacum officianalis f. i. wiggs,,diuretic,Yes
+29202702.json_chunk_38.json,taraxacum officianalis f. i. wiggs,,choleretic,Yes
+29202702.json_chunk_38.json,taraxacum officianalis f. i. wiggs,,antilithic,Yes
+29202702.json_chunk_38.json,taraxacum officianalis f. i. wiggs,,hepatic tonic,Yes
+29202702.json_chunk_38.json,thymus vulgaris l,,astringent,Yes
+29202702.json_chunk_38.json,thymus vulgaris l,,bitter tonic,No
+29202702.json_chunk_38.json,thymus vulgaris l,,spasmolytic,Yes
+29202702.json_chunk_38.json,thymus vulgaris l,,anti-bacterial,Yes
+29202702.json_chunk_38.json,thymus vulgaris l,,carminative,Yes
+29202702.json_chunk_38.json,thymus vulgaris l,,expectorant,Yes
+29202702.json_chunk_38.json,thymus vulgaris l,,anthelmintic,Yes
+29202702.json_chunk_38.json,thymus vulgaris l,,antitussive,Yes
+29202702.json_chunk_39.json,valeriana officinalis l,,hypotensive,Yes
+29202702.json_chunk_39.json,valeriana officinalis l,,spasmolytic,Yes
+29202702.json_chunk_39.json,valeriana officinalis l,,sedative,Yes
+29202702.json_chunk_39.json,valeriana officinalis l,,tranquilliser,Yes
+29202702.json_chunk_39.json,verbascum thapsus l,,vulnerary,Yes
+29202702.json_chunk_39.json,verbascum thapsus l,,emollient,Yes
+29202702.json_chunk_39.json,verbascum thapsus l,,demulcent,Yes
+29202702.json_chunk_39.json,verbascum thapsus l,,diuretic,Yes
+29202702.json_chunk_39.json,verbascum thapsus l,,expectorant,Yes
+29202702.json_chunk_39.json,verbena officinalis l,,sedative,Yes
+29202702.json_chunk_39.json,verbena officinalis l,,galactogogue,Yes
+29202702.json_chunk_39.json,verbena officinalis l,,antispasmodic,Yes
+29202702.json_chunk_39.json,verbena officinalis l,,nervine,No
+29202702.json_chunk_39.json,verbena officinalis l,,bitter,No
+29202702.json_chunk_39.json,verbena officinalis l,,diaphoretic,Yes
+29202702.json_chunk_39.json,zingiber officinale l,,anti-inflammatory,Yes
+29202702.json_chunk_39.json,zingiber officinale l,,peripheral circulatory stimulant,Yes
+29202702.json_chunk_39.json,zingiber officinale l,,spasmolytic,Yes
+29202702.json_chunk_39.json,zingiber officinale l,,anti-emetic,Yes
+29202702.json_chunk_39.json,zingiber officinale l,,carminative,Yes
+29259396.json_chunk_2.json,voacanga africana stapf,cancer,,Yes
+29259396.json_chunk_2.json,voacanga africana stapf,heart diseases,,Yes
+43495099.json_chunk_2.json,magnolia,sinusitis,,No
+43495099.json_chunk_2.json,magnolia,headache,,No
+43495099.json_chunk_2.json,magnolia,rhinitis,,No
+43495099.json_chunk_2.json,magnolia,,anti-histamine,No
+43495099.json_chunk_3.json,m. biondii,,anti-inflammatory,No
+43495099.json_chunk_3.json,m. biondii,,anti-histamine,Yes
+43495099.json_chunk_3.json,m. biondii,,anti-allergic,No
+48537506.json_chunk_8.json,d. metel l,epigastric pain,,Yes
+48537506.json_chunk_8.json,d. metel l,rheumatic pain,,Yes
+48537506.json_chunk_8.json,d. metel l,psychosis,,Yes
+48537506.json_chunk_8.json,d. metel l,pain from injury,,Yes
+48537506.json_chunk_8.json,d. metel l,toothache,,Yes
+48537506.json_chunk_8.json,d. metel l,convulsion,,Yes
+48537506.json_chunk_8.json,d. metel l,bronchial asthma,,Yes
+48537506.json_chunk_8.json,d. metel l,chronic bronchitis,,Yes
+48537506.json_chunk_8.json,d. metel l,surgical anesthesia,,Yes
+48537506.json_chunk_8.json,aconitum carmichaeli,post-traumatic pain,,Yes
+48537506.json_chunk_8.json,aconitum carmichaeli,bruises,,Yes
+48537506.json_chunk_8.json,aconitum carmichaeli,arthritis,,Yes
+48537506.json_chunk_8.json,aconitum carmichaeli,diarrhoea,,Yes
+48537506.json_chunk_8.json,aconitum carmichaeli,fractures,,Yes
+48537506.json_chunk_8.json,aconitum carmichaeli,hemiplegia,,Yes
+48537506.json_chunk_8.json,aconitum carmichaeli,acute abdominal pain,,Yes
+48537506.json_chunk_8.json,aconitum carmichaeli,rheumatism,,Yes
+48537506.json_chunk_8.json,aconitum carmichaeli,,improve energy metabolism,Yes
+48537506.json_chunk_8.json,aconitum carmichaeli,,increase general or local blood flow,Yes
+48537506.json_chunk_8.json,aconitum carmichaeli,,increase the digestive and absorptive activities of the gastrointestinal tract,Yes
+48537506.json_chunk_12.json,panax ginseng,,anti-aging,No
+48537506.json_chunk_12.json,panax ginseng,,anti-stress,No
+48537506.json_chunk_12.json,panax ginseng,,antioxidant,No
+48537506.json_chunk_12.json,panax ginseng,,antineoplastic,No
+48537506.json_chunk_12.json,panax ginseng,,anti-fatigue,No
+48537506.json_chunk_13.json,crataegus,angina,,Yes
+48537506.json_chunk_14.json,panax,angina pectoris,,No
+48537506.json_chunk_14.json,panax,mi,,No
+48537506.json_chunk_14.json,panax,chf,,No
+48537506.json_chunk_14.json,panax,,hypotensive,No
+48537506.json_chunk_14.json,panax,,antihyperglycemic,No
+48537506.json_chunk_14.json,panax,,diuretic,No
+48537506.json_chunk_14.json,panax,,hypertensive,No
+48537506.json_chunk_14.json,ephedra sinica,thyroid disease,,No
+48537506.json_chunk_14.json,ephedra sinica,hypertension,,No
+48537506.json_chunk_14.json,ephedra sinica,diabetes mellitus,,No
+48537506.json_chunk_14.json,ephedra sinica,cardiac rhythm disorders,,No
+48537506.json_chunk_14.json,ephedra sinica,seizures,,No
+48537506.json_chunk_14.json,ephedra sinica,,stimulant,No
+48537506.json_chunk_14.json,s. tetrandra,hypertension,,Yes
+48537506.json_chunk_14.json,s. tetrandra,,antineoplastic,Yes
+48537506.json_chunk_14.json,s. tetrandra,,immunosuppressive,Yes
+48537506.json_chunk_14.json,s. tetrandra,,mutagenic,Yes
+48537506.json_chunk_14.json,salvia miltiorrhiza,angina pectoris,,Yes
+48537506.json_chunk_14.json,salvia miltiorrhiza,acute myocardial infarction,,Yes
+48537506.json_chunk_14.json,salvia miltiorrhiza,ischemic and thrombotic disorders,,Yes
+48537506.json_chunk_14.json,salvia miltiorrhiza,,circulatory stimulant,Yes
+48537506.json_chunk_14.json,salvia miltiorrhiza,,cooling,Yes
+48537506.json_chunk_14.json,salvia miltiorrhiza,,sedative,Yes
+48537506.json_chunk_14.json,salvia miltiorrhiza,,antianginal,Yes
+48537506.json_chunk_15.json,ginkgo,tinnitus,,No
+48537506.json_chunk_15.json,ginkgo,cerebrovascular disease,,No
+48537506.json_chunk_15.json,ginkgo,memory,,No
+48537506.json_chunk_15.json,ginkgo,sexual dysfunction,,No
+48537506.json_chunk_15.json,ginkgo,multiple sclerosis,,No
+48537506.json_chunk_15.json,ginkgo,cardiac dysfunction,,No
+48537506.json_chunk_15.json,ginkgo,cns hemorrhage,,No
+48537506.json_chunk_15.json,ginkgo,peripheral vascular disease,,No
+48537506.json_chunk_15.json,ginkgo,reperfiision injury,,No
+48537506.json_chunk_15.json,ginkgo,vertigo,,No
+48537506.json_chunk_15.json,ginkgo,shock,,No
+48537506.json_chunk_15.json,ginkgo,cerebral insufficiency,,Yes
+48537506.json_chunk_15.json,ginkgo,hyphema,,No
+48537506.json_chunk_15.json,ginkgo,intracerebral hemorrhage,,No
+48537506.json_chunk_15.json,ginkgo,affective disorders,,No
+48537506.json_chunk_15.json,ginkgo,hearing loss,,No
+48537506.json_chunk_15.json,ginkgo,intermittent claudication,,No
+48537506.json_chunk_15.json,ginkgo,mood,,No
+48537506.json_chunk_15.json,ginkgo,retinal disorders,,No
+48537506.json_chunk_15.json,ginkgo,diabetic retinopathy,,No
+48537506.json_chunk_15.json,ginkgo,,anti-inflammatory,Yes
+48537506.json_chunk_15.json,ginkgo,,decreased blood viscosity,Yes
+48537506.json_chunk_15.json,ginkgo,,free radical scavenging,Yes
+48537506.json_chunk_15.json,ginkgo,,vasodilation,Yes
+48537506.json_chunk_15.json,ginkgo,,antiplatelet,Yes
+48537506.json_chunk_15.json,ginkgo,,protection against postischemic oxidative damage,Yes
+48537506.json_chunk_15.json,ginkgo,,platelet antagonism,Yes
+48537506.json_chunk_15.json,ginkgo,,vasoregulation,Yes
+48537506.json_chunk_15.json,angelica sinensis,uterine hypotonia,,Yes
+48537506.json_chunk_15.json,angelica sinensis,hypertension,,No
+48537506.json_chunk_15.json,angelica sinensis,anemia,,Yes
+48537506.json_chunk_15.json,angelica sinensis,dysmenorrhea,,Yes
+48537506.json_chunk_15.json,angelica sinensis,irregular menstruation,,Yes
+48537506.json_chunk_15.json,angelica sinensis,postpartum weakness,,Yes
+48537506.json_chunk_15.json,angelica sinensis,,antithrombotic,Yes
+48537506.json_chunk_15.json,angelica sinensis,,estrogenic,Yes
+48537506.json_chunk_15.json,glycyrrhiza glabra,hypertension,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,muscle weakness,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,stomachache,,Yes
+48537506.json_chunk_15.json,glycyrrhiza glabra,liver cirrhosis,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,kidney diseases,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,pulmonary edema,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,torsades de pointes,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,hypertensive encephelopathy,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,pyogenic infection,,Yes
+48537506.json_chunk_15.json,glycyrrhiza glabra,palpitation,,Yes
+48537506.json_chunk_15.json,glycyrrhiza glabra,hypokalemia,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,chf,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,pseudoaldosteronism,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,edema,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,gastritis,,Yes
+48537506.json_chunk_15.json,glycyrrhiza glabra,cholestatic liver disorders,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,asthenia,,Yes
+48537506.json_chunk_15.json,glycyrrhiza glabra,pharyngolaryngitis,,Yes
+48537506.json_chunk_15.json,glycyrrhiza glabra,dilated cardiomyopathy,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,lethargy,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,ulceration of the skin,,Yes
+48537506.json_chunk_15.json,glycyrrhiza glabra,cardiac arrest,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,heart feilure,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,hypertonia,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,peptic ulcer,,Yes
+48537506.json_chunk_15.json,glycyrrhiza glabra,apparent mineralocorticoid excess syndrome,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,acute renal failure,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,cardiovascular diseases,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,arrhythmias,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,pregnancy,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,sodium and water retention,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,headache,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,severe ventricular tachycardia,,No
+48537506.json_chunk_15.json,glycyrrhiza glabra,cough,,Yes
+48537506.json_chunk_15.json,hydrastis canadensis l,infectious diarrhea,,Yes
+48537506.json_chunk_15.json,hydrastis canadensis l,dysentery,,Yes
+48537506.json_chunk_15.json,hydrastis canadensis l,,positive inotropic,Yes
+48537506.json_chunk_15.json,hydrastis canadensis l,,vasodilator,Yes
+48537506.json_chunk_15.json,hydrastis canadensis l,,antimicrobial,Yes
+48537506.json_chunk_15.json,hydrastis canadensis l,,antiarrhythmic,Yes
+48537506.json_chunk_15.json,hydrastis canadensis l,,negative chronotropic,Yes
+48537506.json_chunk_15.json,ephedra,,stimulant,No
+48537506.json_chunk_16.json,atractylodes macrocephala,,hypoglycemic,No
+48537506.json_chunk_16.json,xanthium sibiricum,,hypoglycemic,Yes
+48537506.json_chunk_16.json,atractylodes lancea,,hypoglycemic,Yes
+48537506.json_chunk_16.json,catharanthus roseus,,hypoglycemic,Yes
+48537506.json_chunk_16.json,salvia miltiorrhiza,,hypoglycemic,Yes
+48537506.json_chunk_16.json,lycium chinense,,hypoglycemic,Yes
+48537506.json_chunk_16.json,rehmannia glutinosa,,hypoglycemic,Yes
+48537506.json_chunk_16.json,lycium barharum,,hypoglycemic,Yes
+48537506.json_chunk_16.json,polygonatum spp,,hypoglycemic,Yes
+48537506.json_chunk_16.json,platycodon grandiflorum,,hypoglycemic,Yes
+48537506.json_chunk_16.json,hordeum vulgare l,,hypoglycemic,Yes
+48537506.json_chunk_16.json,morus alba l,,hypoglycemic,Yes
+48537506.json_chunk_16.json,agrimonia pilosa,,hypoglycemic,Yes
+48537506.json_chunk_16.json,scrophularia ningpoensis,,hypoglycemic,Yes
+48537506.json_chunk_16.json,epimedium spp,,hypoglycemic,Yes
+48537506.json_chunk_16.json,zea mays,,hypoglycemic,Yes
+48537506.json_chunk_16.json,polygonatum odoratum,,hypoglycemic,Yes
+48537506.json_chunk_16.json,alisma orientalis,,hypoglycemic,Yes
+48537506.json_chunk_16.json,anemarrhena asphodeloides,,hypoglycemic,Yes
+48537506.json_chunk_18.json,breynia officinalis,heart failure,,Yes
+48537506.json_chunk_18.json,breynia officinalis,chronic contact dermatitis,,Yes
+48537506.json_chunk_18.json,breynia officinalis,growth retardation,,Yes
+48537506.json_chunk_18.json,breynia officinalis,contusion,,Yes
+48537506.json_chunk_18.json,breynia officinalis,venereal diseases,,Yes
+48537506.json_chunk_18.json,breynia officinalis,conjunctivitis,,Yes
+48537506.json_chunk_18.json,polygonum multiflorum,spermatorrhea,,Yes
+48537506.json_chunk_18.json,polygonum multiflorum,premature graying of hair,,Yes
+48537506.json_chunk_18.json,polygonum multiflorum,leucorrhoea,,Yes
+48537506.json_chunk_18.json,polygonum multiflorum,lumbago,,Yes
+48537506.json_chunk_18.json,polygonum multiflorum,hair loss,,Yes
+48537506.json_chunk_18.json,polygonum multiflorum,dizziness,,Yes
+48537506.json_chunk_18.json,polygonum multiflorum,,laxative,Yes
+48537506.json_chunk_18.json,polygonum multiflorum,,tonic,No
+48537506.json_chunk_19.json,aristolochia,chinese herbs nephropathy,,No
+48537506.json_chunk_19.json,aristolochia,balkan endemic nephropathy,,No
+48537506.json_chunk_19.json,akebia quinata decdism,,diuretic,Yes
+48537506.json_chunk_20.json,aristolochia manshuriensis,,diuretic,Yes
+48537506.json_chunk_20.json,aristolochia manshuriensis,,"sthenic ""heaf'-purgative",No
+48537506.json_chunk_20.json,aristolochia manshuriensis,,latent-heat-clearing,Yes
+48537506.json_chunk_20.json,aristolochia manshuriensis,,lactagogue,Yes
+48537506.json_chunk_20.json,aristolochia manshuriensis,,antipyretic,Yes
+48537506.json_chunk_20.json,tripterygium wilfordii,renal disease,,Yes
+48537506.json_chunk_20.json,tripterygium wilfordii,psoriasis,,Yes
+48537506.json_chunk_20.json,gastrodia elata,hypertension,,Yes
+48537506.json_chunk_20.json,gastrodia elata,vertigo,,Yes
+48537506.json_chunk_20.json,gastrodia elata,apoplexy,,Yes
+48537506.json_chunk_20.json,gastrodia elata,numbness of limbs,,Yes
+48537506.json_chunk_20.json,gastrodia elata,headache,,Yes
+48537506.json_chunk_20.json,gastrodia elata,,antihypertensive,Yes
+48537506.json_chunk_20.json,gastrodia elata,,anticonvulsive,Yes
+48537506.json_chunk_21.json,tripterygium wilfordii,psoriasis,,Yes
+48537506.json_chunk_21.json,tripterygium wilfordii,,anti-inflammatory,Yes
+48537506.json_chunk_21.json,tripterygium wilfordii,,immunosuppressive,Yes
+48537506.json_chunk_21.json,tripterygium wilfordii hook,psoriasis,,Yes
+48537506.json_chunk_21.json,tripterygium wilfordii hook,,anti-inflammatory,Yes
+48537506.json_chunk_21.json,tripterygium wilfordii hook,,immunosuppressive,Yes
+48537506.json_chunk_21.json,potentilla chinensis,atopic dermatitis,,Yes
+48537506.json_chunk_21.json,tribulus terrestris,atopic dermatitis,,Yes
+48537506.json_chunk_21.json,rehmannia glutinosa,atopic dermatitis,,Yes
+48537506.json_chunk_21.json,lophatherum gracile,atopic dermatitis,,Yes
+48537506.json_chunk_21.json,clematis armandii,atopic dermatitis,,Yes
+48537506.json_chunk_21.json,dictamnus dasycarpus,atopic dermatitis,,Yes
+48537506.json_chunk_21.json,paeonia lactiflora,atopic dermatitis,,Yes
+48537506.json_chunk_21.json,schizonepeta tenuifolia,atopic dermatitis,,Yes
+48537506.json_chunk_22.json,echinacea,,immune stimulant,Yes
+48537506.json_chunk_24.json,prunella vulgaris,flu,,Yes
+48537506.json_chunk_24.json,prunella vulgaris,indigestion,,Yes
+48537506.json_chunk_27.json,hypericum perforatum,depression,,Yes
+48537506.json_chunk_27.json,cassia senna,,laxative,Yes
+48537506.json_chunk_27.json,cassia senna,,stimulant,Yes
+48537506.json_chunk_27.json,rhamnus purshiana,,laxative,Yes
+48537506.json_chunk_27.json,rhamnus purshiana,,stimulant,Yes
+48537506.json_chunk_27.json,aloe harhadensis,,laxative,Yes
+48537506.json_chunk_35.json,panax qinnquefolius l,type 2 diabetes mellitus,,Yes
+355098449.json_chunk_1.json,allium sativum l,recurrent colds,,Yes
+355098449.json_chunk_1.json,allium sativum l,whooping cough,,Yes
+355098449.json_chunk_1.json,allium sativum l,cough,,Yes
+355098449.json_chunk_1.json,allium sativum l,influenza,,Yes
+355098449.json_chunk_1.json,allium sativum l,recurrent upper respiratory tract infections,,Yes
+355098449.json_chunk_1.json,allium sativum l,respiratory disease,,Yes
+355098449.json_chunk_1.json,allium sativum l,chronic bronchitis,,Yes
+355098449.json_chunk_1.json,allium sativum l,cold,,Yes
+355098449.json_chunk_1.json,allium sativum l,,antiviral,Yes
+355098449.json_chunk_1.json,allium sativum l,,antiseptic,Yes
+355098449.json_chunk_1.json,allium sativum l,,diaphoretic,Yes
+355098449.json_chunk_1.json,allium sativum l,,bacteriostatic,Yes
+355098449.json_chunk_2.json,allium sativum,,anti-inflammatory,No
+355098449.json_chunk_2.json,althaea officinalis,,anti-inflammatory,No
+355098449.json_chunk_2.json,andrographis paniculata,,anti-inflammatory,Yes
+355098449.json_chunk_2.json,a. paniculata,,anti-inflammatory,Yes
+355098449.json_chunk_2.json,commiphora molmol,,anti-inflammatory,Yes
+355098449.json_chunk_2.json,c. molmol,,anti-inflammatory,Yes
+355098449.json_chunk_2.json,cymbopogon citratus,,anti-inflammatory,Yes
+355098449.json_chunk_2.json,c. citratus,,anti-inflammatory,Yes
+355098449.json_chunk_3.json,c. citratus,,anti-inflammatory,Yes
+355098449.json_chunk_3.json,eucalyptus globulus,,anti-inflammatory,Yes
+355098449.json_chunk_3.json,f. vulgare,,anti-inflammatory,Yes
+355098449.json_chunk_3.json,f. vulgare,,analgesic,Yes
+355098449.json_chunk_4.json,hedera helix,,anti-inflammatory,Yes
+355098449.json_chunk_4.json,hedera helix,,expectorant,Yes
+355098449.json_chunk_4.json,hedera helix,,antispasmodic,Yes
+355098449.json_chunk_4.json,justicia pectoralis,,anti-inflammatory,Yes
+355098449.json_chunk_4.json,justicia pectoralis,,expectorant,Yes
+355098449.json_chunk_4.json,justicia pectoralis,,immunostimulant,Yes
+355098449.json_chunk_4.json,justicia pectoralis,,antiplatelet,Yes
+355098449.json_chunk_4.json,malva sylvestris,,anti-inflammatory,Yes
+355098449.json_chunk_5.json,mikania glomerata,throat inflammation,,Yes
+355098449.json_chunk_5.json,mikania glomerata,asthma,,Yes
+355098449.json_chunk_5.json,mikania glomerata,cough,,Yes
+355098449.json_chunk_5.json,mikania glomerata,,bronchodilator,Yes
+355098449.json_chunk_5.json,mikania glomerata,,antitussive,Yes
+355098449.json_chunk_5.json,ocimum gratissimum,asthma,,Yes
+355098449.json_chunk_5.json,ocimum gratissimum,fever,,Yes
+355098449.json_chunk_5.json,ocimum gratissimum,influenza,,Yes
+355098449.json_chunk_5.json,ocimum gratissimum,bronchitis,,Yes
+355098449.json_chunk_5.json,ocimum gratissimum,cold,,Yes
+355098449.json_chunk_5.json,ocimum gratissimum,,anti-inflammatory,Yes
+355098449.json_chunk_5.json,ocimum gratissimum,,anti-asthma,No
+355098449.json_chunk_5.json,ocimum gratissimum,,antinociceptive,Yes
+355098449.json_chunk_5.json,ocimum gratissimum,,anti-tussive,Yes
+355098449.json_chunk_5.json,pelargonium sidoides,common cold,,Yes
+355098449.json_chunk_5.json,pelargonium sidoides,acute bronchitis,,Yes
+355098449.json_chunk_5.json,pelargonium sidoides,bronchitis,,Yes
+355098449.json_chunk_5.json,pelargonium sidoides,cough,,Yes
+355098449.json_chunk_5.json,pelargonium sidoides,acute rhinosinusitis,,Yes
+355098449.json_chunk_5.json,pelargonium sidoides,,anti-viral,Yes
+355098449.json_chunk_5.json,pelargonium sidoides,,immunostimulation,Yes
+355098449.json_chunk_5.json,pimpinella anisum,fever,,Yes
+355098449.json_chunk_5.json,pimpinella anisum,asthma,,Yes
+355098449.json_chunk_5.json,pimpinella anisum,cough,,Yes
+355098449.json_chunk_5.json,pimpinella anisum,bronchial asthma,,Yes
+355098449.json_chunk_5.json,pimpinella anisum,,antiplatelet,Yes
+355098449.json_chunk_5.json,pimpinella anisum,,antispasmodic,Yes
+355098449.json_chunk_5.json,pimpinella anisum,,bronchodilator,Yes
+355098449.json_chunk_5.json,plantago lanceolata,pharyngitis,,Yes
+355098449.json_chunk_5.json,plantago lanceolata,fever,,Yes
+355098449.json_chunk_5.json,plantago lanceolata,bronchial catarrh,,Yes
+355098449.json_chunk_5.json,plantago lanceolata,mild inflammation of the pharynx,,Yes
+355098449.json_chunk_5.json,plantago lanceolata,respiratory disease,,Yes
+355098449.json_chunk_5.json,plantago lanceolata,cough,,Yes
+355098449.json_chunk_5.json,plantago lanceolata,,demulcent,Yes
+355098449.json_chunk_6.json,p. lanceolata,dry cough,,Yes
+355098449.json_chunk_6.json,p. lanceolata,irritations of oral andpharyngeal mucosa,,Yes
+355098449.json_chunk_6.json,p. lanceolata,flu symptoms,,No
+355098449.json_chunk_6.json,p. lanceolata,,anti-inflammatory,Yes
+355098449.json_chunk_6.json,p. lanceolata,,expectorant,Yes
+355098449.json_chunk_6.json,plantago lanceolata,dry cough,,Yes
+355098449.json_chunk_6.json,plantago lanceolata,irritations of oral andpharyngeal mucosa,,Yes
+355098449.json_chunk_6.json,plantago lanceolata,flu symptoms,,No
+355098449.json_chunk_6.json,plantago lanceolata,respiratory tract disorders,,No
+355098449.json_chunk_6.json,platycodon chinensis,phlegm,,Yes
+355098449.json_chunk_6.json,platycodon chinensis,fever,,Yes
+355098449.json_chunk_6.json,platycodon chinensis,pneumonia,,Yes
+355098449.json_chunk_6.json,platycodon chinensis,upper respiratoryinfections,,Yes
+355098449.json_chunk_6.json,platycodon chinensis,cough,,Yes
+355098449.json_chunk_6.json,platycodon chinensis,sore throat,,Yes
+355098449.json_chunk_6.json,platycodon chinensis,,anti-inflammatory,Yes
+355098449.json_chunk_6.json,platycodon chinensis,,expectorant,Yes
+355098449.json_chunk_6.json,platycodon chinensis,,analgesic,Yes
+355098449.json_chunk_6.json,platycodon chinensis,,anticholinergic,Yes
+355098449.json_chunk_6.json,platycodon chinensis,,antipyretic,Yes
+355098449.json_chunk_6.json,platycodon chinensis,,anti-histaminic,Yes
+355098449.json_chunk_6.json,platycodon chinensis,,antitussive,Yes
+355098449.json_chunk_6.json,p. chinensis,fever,,No
+355098449.json_chunk_6.json,p. chinensis,cough,,Yes
+355098449.json_chunk_6.json,p. chinensis,phlegm,,No
+355098449.json_chunk_6.json,p. chinensis,pneumonia,,Yes
+355098449.json_chunk_6.json,p. chinensis,,anti-inflammatory,Yes
+355098449.json_chunk_6.json,p. chinensis,,expectorant,Yes
+355098449.json_chunk_6.json,p. chinensis,,antitussive,Yes
+355098449.json_chunk_6.json,polygala senega,bronchiectasis,,Yes
+355098449.json_chunk_6.json,polygala senega,respiratory symptoms,,Yes
+355098449.json_chunk_6.json,polygala senega,emphysema,,Yes
+355098449.json_chunk_6.json,polygala senega,catarrh of the upper respiratorytract,,Yes
+355098449.json_chunk_6.json,polygala senega,respiratory disease,,No
+355098449.json_chunk_6.json,polygala senega,bronchitis,,Yes
+355098449.json_chunk_6.json,polygala senega,cough,,Yes
+355098449.json_chunk_6.json,polygala senega,,anti-inflammatory,Yes
+355098449.json_chunk_6.json,polygala senega,,expectorant,Yes
+355098449.json_chunk_6.json,polygala senega,,antitussive,Yes
+355098449.json_chunk_6.json,p. senega,bronchiectasis,,Yes
+355098449.json_chunk_6.json,p. senega,respiratory diseases,,No
+355098449.json_chunk_6.json,p. senega,,anti-inflammatory,Yes
+355098449.json_chunk_6.json,polypodium vulgare,respiratory disease,,Yes
+355098449.json_chunk_6.json,polypodium vulgare,respiratory symptoms,,No
+355098449.json_chunk_6.json,polypodium vulgare,cough,,Yes
+355098449.json_chunk_6.json,polypodium vulgare,,expectorant,Yes
+355098449.json_chunk_6.json,polypodium vulgare,,antitussive,Yes
+355098449.json_chunk_6.json,potentilla erecta,buccalsores,,Yes
+355098449.json_chunk_6.json,potentilla erecta,minor inflammations of the oral mucosa,,Yes
+355098449.json_chunk_6.json,potentilla erecta,inflammation,,Yes
+355098449.json_chunk_6.json,potentilla erecta,respiratory disease,,No
+355098449.json_chunk_6.json,potentilla erecta,cough,,Yes
+355098449.json_chunk_6.json,potentilla erecta,,anti-viral,Yes
+355098449.json_chunk_6.json,p. erecta,respiratory disease,,No
+355098449.json_chunk_6.json,p. erecta,,anti-viral,Yes
+355098449.json_chunk_7.json,primula veris,,anti-inflammatory,Yes
+355098449.json_chunk_7.json,p. veris,,anti-inflammatory,Yes
+355098449.json_chunk_7.json,salix alba,common cold,,Yes
+355098449.json_chunk_7.json,salix alba,osteoarthritis,,Yes
+355098449.json_chunk_7.json,salix alba,rheumatic pain,,Yes
+355098449.json_chunk_7.json,salix alba,low back pain,,Yes
+355098449.json_chunk_7.json,salix alba,back pain,,Yes
+355098449.json_chunk_7.json,salix alba,flu,,Yes
+355098449.json_chunk_7.json,salix alba,,anti-inflammatory,Yes
+355098449.json_chunk_7.json,salix alba,,antipyretic,Yes
+355098449.json_chunk_7.json,salix alba,,antiplatelet,Yes
+355098449.json_chunk_7.json,salix alba,,analgesic,Yes
+355098449.json_chunk_7.json,salix,,anti-inflammatory,No
+355098449.json_chunk_7.json,salix,,antipyretic,Yes
+355098449.json_chunk_7.json,salix,,antiplatelet,No
+355098449.json_chunk_7.json,sambucus nigra,inflammation of the respiratory tract,,Yes
+355098449.json_chunk_7.json,sambucus nigra,headaches,,Yes
+355098449.json_chunk_7.json,sambucus nigra,fever,,Yes
+355098449.json_chunk_7.json,sambucus nigra,flu,,Yes
+355098449.json_chunk_7.json,sambucus nigra,cold,,Yes
+355098449.json_chunk_7.json,sambucus nigra,,anti-inflammatory,Yes
+355098449.json_chunk_7.json,sambucus nigra,,antipyretic,Yes
+355098449.json_chunk_7.json,sambucus nigra,,expectorant,Yes
+355098449.json_chunk_7.json,s. nigra,cold,,Yes
+355098449.json_chunk_7.json,scutellaria baicalensis,fever,,Yes
+355098449.json_chunk_7.json,scutellaria baicalensis,bronchitis,,Yes
+355098449.json_chunk_7.json,scutellaria baicalensis,,antiviral,Yes
+355098449.json_chunk_7.json,scutellaria baicalensis,,anti-inflammatory,Yes
+355098449.json_chunk_7.json,silybum marianum,fever,,Yes
+355098449.json_chunk_7.json,silybum marianum,catarrh,,Yes
+355098449.json_chunk_7.json,silybum marianum,,anti-inflammatory,Yes
+355098449.json_chunk_7.json,s. marianum,,anti-inflammatory,Yes
+355098449.json_chunk_7.json,thymus vulgaris,productive cough,,Yes
+355098449.json_chunk_7.json,thymus vulgaris,laryngitis,,Yes
+355098449.json_chunk_7.json,thymus vulgaris,cold,,Yes
+355098449.json_chunk_7.json,thymus vulgaris,tonsilitis,,Yes
+355098449.json_chunk_8.json,t. vulgaris,,anti-inflammatory,Yes
+355098449.json_chunk_8.json,t. vulgaris,,myorelaxant,Yes
+355098449.json_chunk_8.json,tilia cordata,,anti-inflammatory,Yes
+355098449.json_chunk_8.json,tilia cordata,,anxiolytic,Yes
+355098449.json_chunk_8.json,zingiber officinale,,anti-inflammatory,Yes
+355098449.json_chunk_8.json,zingiber officinale,,expectorant,Yes
+355098449.json_chunk_8.json,zingiber officinale,,anti-platelet,Yes
+355098449.json_chunk_8.json,citrus limon,,anti-inflammatory,Yes
+355098449.json_chunk_8.json,citrus limon,,anti-platelet,Yes
+355098449.json_chunk_8.json,culcitium canescens,,anti-inflammatory,Yes
+355098449.json_chunk_8.json,laurus nobilis,,anti-viral,Yes
+355098449.json_chunk_8.json,laurus nobilis,,anti-inflammatory,Yes
+355098449.json_chunk_8.json,laurus nobilis,,sedative,Yes
+355098449.json_chunk_8.json,laurus nobilis,,analgesic,Yes
+355098449.json_chunk_8.json,l. nobilis,,anti-inflammatory,Yes
+355098449.json_chunk_8.json,l. nobilis,,sedative,Yes
+355098449.json_chunk_8.json,l. nobilis,,analgesic,Yes
+355098449.json_chunk_8.json,lippia graveolens,,anti-inflammatory,Yes
+355098449.json_chunk_9.json,lippia graveolens,,anti-inflammatory,Yes
+355098449.json_chunk_9.json,nigella sativa,asthma,,Yes
+355098449.json_chunk_9.json,nigella sativa,cough,,Yes
+355098449.json_chunk_9.json,plectranthus amboinicus,fever,,Yes
+355098449.json_chunk_9.json,plectranthus amboinicus,asthma,,Yes
+355098449.json_chunk_9.json,plectranthus amboinicus,headache,,Yes
+355098449.json_chunk_9.json,plectranthus amboinicus,cold,,Yes
+355098449.json_chunk_9.json,plectranthus amboinicus,,anti-inflammatory,Yes
+355098449.json_chunk_11.json,glycyrrhiza glabra,asthma,,Yes
+355098449.json_chunk_11.json,magnolia officinalis,asthma,,Yes
+355098449.json_chunk_11.json,pimpinella anisum,asthma,,Yes

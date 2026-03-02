@@ -6,6 +6,7 @@
 #*.png
 */gbif_secrets.json
 *.secrets
+*secrets.txt
 *collaborators.txt
 /large_file_storage/*
 #/manually_collected_data/*

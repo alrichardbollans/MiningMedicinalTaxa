@@ -1,14 +1,14 @@
 import os
-import pickle
+import json
 import string
 
 import langchain_core
 import pydantic_core
 
-from LLM_models.loading_files import read_file_and_chunk, split_text_chunks
+from LLM_models.loading_files import read_file_and_chunk, split_text_chunks, get_txt_from_file
 from LLM_models.making_examples import example_messages
 from LLM_models.prompting import standard_medicinal_prompt
-from LLM_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, TaxaData
+from LLM_models.structured_output_schema import deduplicate_and_standardise_output_taxa_lists, TaxaData, TaxaDataNoExtras
 
 
 def sanitize_text(s: str):
@@ -17,7 +17,7 @@ def sanitize_text(s: str):
     return out
 
 
-def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = None, single_chunk: bool = True, examples=example_messages) -> TaxaData:
+def query_a_model(model, text_file: str, context_window: int, json_dump: str = None, single_chunk: bool = True, examples=example_messages) -> TaxaData:
     text_chunks = read_file_and_chunk(text_file, context_window)
     if single_chunk:
         # For most of analysis, will be testing on single chunks as this is how we've annotated them.
@@ -25,7 +25,8 @@ def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = No
         assert len(text_chunks) == 1
     # A few different methods, depending on the specific model are used to get a structured output
     # and this is handled by with_structured_output. See https://python.langchain.com/docs/how_to/structured_output/
-    extractor = standard_medicinal_prompt | model.with_structured_output(schema=TaxaData, include_raw=False)
+    # Model extractions don't allow schema to include extras, so use this class when running models.
+    extractor = standard_medicinal_prompt | model.with_structured_output(schema=TaxaDataNoExtras, include_raw=False)
     try:
 
         extractions = extractor.batch(
@@ -68,10 +69,13 @@ def query_a_model(model, text_file: str, context_window: int, pkl_dump: str = No
             output.extend(extraction.taxa)
 
     deduplicated_extractions = deduplicate_and_standardise_output_taxa_lists(output)
+    text = get_txt_from_file(text_file)
+    deduplicated_extractions.text = text
 
-    if pkl_dump:
-        with open(pkl_dump, "wb") as file_:
-            pickle.dump(deduplicated_extractions, file_)
+    if json_dump:
+        with open(json_dump, "w") as file_:
+            json_out = deduplicated_extractions.model_dump(mode="json")
+            json.dump(json_out, file_)
 
     return deduplicated_extractions
 
@@ -83,14 +87,14 @@ def get_input_size_limit(total_context_window_k: int):
     return input_size
 
 
-def setup_models():
+def setup_models(dotenv_path=None):
     from langchain_anthropic import ChatAnthropic
     from langchain_openai import ChatOpenAI
 
     # Get API keys
     from dotenv import load_dotenv
 
-    load_dotenv()
+    load_dotenv(dotenv_path=dotenv_path)
     out = {}
     # A selection of models that support .with_structured_output https://python.langchain.com/v0.3/docs/integrations/chat/
     # Try to use the best from each company, and use a specified stable version.

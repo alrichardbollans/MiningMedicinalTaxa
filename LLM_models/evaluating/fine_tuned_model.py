@@ -3,9 +3,8 @@ import os
 import pandas as pd
 from pydantic import BaseModel
 
-from LLM_models.evaluating.run_evaluation import assess_model_on_chunk_list
+from LLM_models.checking_and_summarising_annotations import repo_path
 from LLM_models.running_models import get_input_size_limit
-from LLM_models.structured_output_schema import repo_path
 
 
 def get_fine_tuned_model():
@@ -63,6 +62,8 @@ def full_evaluation(rerun: bool = True):
                                    autoremove_non_sci_names=True)
 
 if __name__ == '__main__':
+    from LLM_models.evaluating.run_evaluation import assess_model_on_chunk_list, df_for_hparam_tuning
+
     # df_for_hparam_tuning = pd.read_csv(os.path.join('outputs', 'for_hparam_tuning.csv'))
     # assessing_hparams()
     full_evaluation(rerun=False)
