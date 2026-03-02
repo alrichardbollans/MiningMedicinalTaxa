@@ -1,0 +1,54 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,banisteriopsis caapi,banisteriopsis caapi,palmaria palmata,agaricus bisporus,,p_downy,banisteriopsis caapi_pain,claviceps purpurea_vasoconstrictor,conocybe spp_vasoconstrictor,penicillium chrysogenum_antibiotic
+1,b.inebrians,b.inebrians,orphyra,spergillus oryzae,,p_pod,b.inebrians_pain,,,penicillium notatum_antibiotic
+2,b.rusbyana,b.rusbyana,spp,,,spp_sig,b.rusbyana_pain,,,streptomyces spp_antibiotics
+3,datura inoxia,datura inoxia,spirulina,,,undaria_tumors,,,,claviceps purpurea_psychoactive
+4,rivea corymbosa,rivea corymbosa,spp. s,,,pinnatifida_tumors,,,,psilocybe spp_psychoactive
+5,rivea,turbina corymbosa,pirulina,,,fungiagaricus_tumors,,,,amanita muscaria_psychoactive
+6,turbina corymbosa,ipomoea violacea,ulva,,,bisporus_tumors,,,,conocybe spp_psychoactive
+7,ipomoea violacea,rivea,lactuca,,,agrobacterium tumifaciens_gall,,,,lycoperdon marginatum_psychoactive
+8,penicillium chrysogenum,p,undaria,,,morchella esculenta_sig,,,,lycoperdon mixtecorum_psychoactive
+9,penicillium notatum,agaricus campestris,pinnatifida,,,mycosphaerella_sig,,,,
+10,psilocybe spp,agrobacterium tumifaciens,fungiagaricus,,,ophiostoma ulmi_sig,,,,
+11,paneolus spp,amanita muscaria,bisporus,,,ophiostoma ulmi_dutch elm,,,,
+12,penicillium camemberti,aspergillus flavus,aspergillus oryzae,,,paneolus spp_sig,,,,
+13,penicillium roquefortii,auricularia auricula-judae,oryzea,,,paneolus spp_dutch elm,,,,
+14,phytophthora infestans,boletus spp,e,,,penicillium camemberti_dutch elm,,,,
+15,phytophthora palmivora,botrytis cinerea,flammulina vel,,,phytophthora infestans_pod,,,,
+16,plasmopara viticola,candida albicans,utipes,,,phytopht_pod,,,,
+17,pleurotus spp,cantharellus cibarius,fructicola,,,hor_pod,,,,
+18,puccinia graminis,claviceps purpurea,phytopht,,,a palmivora_pod,,,,
+19,agaricus campestris,conocybe spp,hor,,,lasmopara_downy,,,,
+20,agrobacterium tumifaciens,cortinellus edodes,a palmivora,,,lasmopara_pod,,,,
+21,amanita muscaria,cryphonectaria parasitica,lasmopara,,,viticola_downy,,,,
+22,aspergillus flavus,drechslera,viticola,,,pleurotus spp_downy,,,,
+23,auricularia auricula-judae,flammulina velutipes,,,,puccinia graminis_rus,,,,
+24,boletus spp,drechslera oryzeae,,,,,,,,
+25,botrytis cinerea,fusarium oxysporum,,,,,,,,
+26,candida albicans,hemileia vastatrix,,,,,,,,
+27,cantharellus cibarius,lactarius deliciosus,,,,,,,,
+28,claviceps purpurea,lentinus edodes,,,,,,,,
+29,conocybe spp,lycoperdon marginatum,,,,,,,,
+30,cortinellus edodes,lycoperdon mixtecorum,,,,,,,,
+31,cryphonectaria parasitica,lycoperdon spp,,,,,,,,
+32,drechslera oryzeae,monilinia,,,,,,,,
+33,flammulina velutipes,morchella esculenta,,,,,,,,
+34,fusarium oxysporum,mycosphaerella,,,,,,,,
+35,hemileia vastatrix,ophiostoma ulmi,,,,,,,,
+36,lactarius deliciosus,paneolus spp,,,,,,,,
+37,lentinus edodes,penicillium camemberti,,,,,,,,
+38,lycoperdon marginatum,penicillium chrysogenum,,,,,,,,
+39,lycoperdon mixtecorum,penicillium notatum,,,,,,,,
+40,lycoperdon spp,penicillium roquefortii,,,,,,,,
+41,monilinia fructicola,phytophthora infestans,,,,,,,,
+42,morchella esculenta,pleurotus spp,,,,,,,,
+43,mycosphaerella spp,psilocybe spp,,,,,,,,
+44,ophiostoma ulmi,puccinia graminis,,,,,,,,
+45,rhizobium leguminosarum,rhizobium leguminosarum,,,,,,,,
+46,russula spp,russula spp,,,,,,,,
+47,saccharomyces carlsbergensis,saccharomyces carlsbergensis,,,,,,,,
+48,saccharomyces cervisieae,saccharomyces cervisieae,,,,,,,,
+49,saccharomyces ellipsoideus,saccharomyces ellipsoideus,,,,,,,,
+50,saccharomyces theobromae,saccharomyces theobromae,,,,,,,,
+51,streptomyces spp,streptomyces spp,,,,,,,,
+52,stropharia spp,stropharia spp,,,,,,,,

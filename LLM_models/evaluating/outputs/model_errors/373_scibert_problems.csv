@@ -1,0 +1,26 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,thymusserpylluml,thymusserpylluml,ffe,tiliacordatamill,,,schisandra chinensis(turcz.) bail_exhaustion,,viburnumopulusl_static,thymusserpylluml_expectorant
+1,valerianaofficinalisl,valerianaofficinalisl,platyphyllosscop,t.platyphyllosscop,,,,,,tiliacordatamill_diaphoretic
+2,rosa spp,r,zome,tussilagofarfaral,,,,,,tiliacordatamill_sudorific
+3,viburnumopulusl,viburnumopulusl,rhizome,vacciniumvitis-idaeal,,,,,,t.platyphyllosscop_diaphoretic
+4,viburnum opulus l,capsella bursa-pastoris (l.) medik,,violatricolorl,,,,,,t.platyphyllosscop_sudorific
+5,capsella bursa-pastoris (l.) medik,cyanus segetum hill,v.arvensism,v.arvensismurray,,,,,,tussilagofarfaral_expectorant
+6,cyanus segetum hill,centaurea cyanus l,eng,,,,,,,urticadioical_haemostatic
+7,centaurea cyanus l,plantago major l,lia,,,,,,,vacciniummyrtillusl_astringent
+8,plantago major l,urtica dioical,,,,,,,,vacciniumvitis-idaeal_diuretic
+9,urticadioical,aralia elata (miq.)seem,,,,,,,,valerianaofficinalisl_sedative
+10,urtica dioical,vaccinium myrtillus l,,,,,,,,viburnumopulusl_hemostatic
+11,aralia elata (miq.)seem,crataegusspp,,,,,,,,violatricolorl_expectorant
+12,aralia,rosa spp,,,,,,,,v.arvensismurray_expectorant
+13,vacciniummyrtillusl,viburnum opulus l,,,,,,,,aralia elata (miq.)seem_tonic
+14,vaccinium myrtillus l,prunus padus l,,,,,,,,aralia_tonic
+15,crataegusspp,sorbus aucuparia l,,,,,,,,"schisandra chinensis(turcz.) bail_reduce hunger, thirst"
+16,prunus padus l,schisandra chinensis(turcz.) bail,,,,,,,,schisandra chinensis(turcz.) bail_night vision
+17,sorbus aucuparia l,achillea millefolium l,,,,,,,,schisandra chinensis(turcz.) bail_tonic
+18,schisandra chinensis(turcz.) bail,tanacetum vulgarel,,,,,,,,
+19,achillea millefolium l,origanum vulgare l,,,,,,,,
+20,tanacetum vulgarel,betula pendula roth,,,,,,,,
+21,origanum vulgare l,b. pubescens ehrh,,,,,,,,
+22,betula pendula roth,camelliasinensis (l.) kuntze,,,,,,,,
+23,b. pubescens ehrh,,,,,,,,,
+24,camelliasinensis (l.) kuntze,,,,,,,,,

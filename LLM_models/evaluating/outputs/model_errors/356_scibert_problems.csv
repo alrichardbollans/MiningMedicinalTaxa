@@ -1,0 +1,12 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,anacardium occidentale,anacardium occidentale,cracoviensis,,,,,,carlina acaulis_tro,
+1,asa foetida,asa foetida,torum medico,,,,,,carlina acaulis_ic,
+2,styrax,styrax liquidum,chymicorum,,,,,,,
+3,carlina acaulis,carlina acaulis,spiritus castoreicracoviensis,,,,,,,
+4,plantagomajor,plantagomajor,spiritus castorei,,,,,,,
+5,cnicus benedictus,cnicus benedictus,racoviensis,,,,,,,
+6,archangelicaofficinalis,archangelicaofficinalis,theriaca andromachi,,,,,,,
+7,pimpinella saxifraga,pimpinella saxifraga,egni,,,,,,,
+8,,,nia,,,,,,,
+9,,,ea,,,,,,,
+10,,,ustrica,,,,,,,

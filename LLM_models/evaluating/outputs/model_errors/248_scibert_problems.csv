@@ -1,0 +1,31 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,citrullus colocynthis l,citrullus colocynthis l,arella,,citrullus colocynthis l_nerve originated pain,c. colocynthis_dn,citrullus colocynthis l_diabetic rats,c. colocynthis_hypoglycemic,c. colocynthis_dn,m. bellicosus_relaxation of basal tone
+1,citrullus colocynthis,c. colocynthis,,,c. colocynthis_diabetic neuropathy,corydalis hendersonii hemsl_anti-acute myocardial,citrullus colocynthis l_peripheral neuropathy,c. colocynthis_antioxidant,macrotermes bellicosus_odic,m. bellicosus_spasmolytic
+2,c. colocynthis,citrullus colocynthis,,,c. colocynthis_nerve originated pain,h_anti-acute myocardial,citrullus colocynthis_diabetic rats,macrotermes bellicosus_anti-inflammatory,macrotermes bellicosus_antibacterial,m. bellicosus_anti-spasmodic
+3,macrotermes bellicosus,c. colocynthis fruit,,,macrotermes bellicosus_dysentery,h_vasculitis,citrullus colocynthis_peripheral neuropathy,macrotermes bellicosus_antimicrobial,macrotermes bellicosus_isp,m. bellicosus_suppression of induced contractions
+4,m. bellicosus,macrotermes bellicosus,,,macrotermes bellicosus_inflammatory diseases,h_high altitude polycythemia,c. colocynthis_oxidative stress,m. bellicosus_anti-inflammatory,macrotermes bellicosus_ispasmodic,corydalis hendersonii hemsl_anti-acute myocardial ischemia
+5,corydalis hendersonii hemsl,m. bellicosus,,,macrotermes bellicosus_infectious,,chios mastic_arterial hypertension,m. bellicosus_antimicrobial,macrotermes bellicosus_a,s. candicans_antioxidant
+6,c. dioscoridis l,corydalis hendersonii,,,macrotermes bellicosus_diarrhea,,,corydalis hendersonii hemsl_pressure,m. bellicosus_tic,cantharellus cibarius_cytotoxicity
+7,c commutata (spreng.) greuter,corydalis hendersonii hemsl,,,m. bellicosus_dysentery,,,corydalis hendersonii hemsl_blood,m. bellicosus_antibacterial,cantharellus cibarius_induced apoptotic cell death
+8,c. incana sm,c,,,m. bellicosus_inflammatory diseases,,,corydalis hendersonii hemsl_anti-inflammatory,m. bellicosus_smodic,cantharellus cinereus_cytotoxicity
+9,c. heldreichiana (kuntze) greuter,h,,,m. bellicosus_infectious,,,c_pressure,m. bellicosus_smolytic,cantharellus cinereus_induced apoptotic cell death
+10,c. crocifolia boiss. & heldr,senecio candicans,,,m. bellicosus_diarrhea,,,c_blood,m. bellicosus_anti,craterellus cornucopioides_cytotoxicity
+11,cantharellus cibarius,senecio candicans dc,,,corydalis hendersonii_acute myocardial ischemia,,,c_antioxidant,corydalis hendersonii_protects,craterellus cornucopioides_induced apoptotic cell death
+12,cantharellus cinereus,s. candicans,,,corydalis hendersonii hemsl_vasculitis,,,c_anti-inflammatory,c_anticancer,hydnum repandum_cytotoxicity
+13,craterellus cornucopioides,crepis,,,corydalis hendersonii hemsl_high altitude polycythemia,,,senecio candicans_gastroprotective,h_pressure,hydnum repandum_induced apoptotic cell death
+14,chios mastic,crepis l,,,c_vasculitis,,,s. candicans_gastroprotective,h_blood,
+15,crepis l,c. dioscoridis l,,,c_high altitude polycythemia,,,crepis_anti-inflammatory,h_anti-inflammatory,
+16,hydnum repandum,c commutata (spreng.) greuter,,,s. candicans_gastric ulcer,,,crepis_antioxidant,h_anti-ami,
+17,senecio candicans dc,c. incana sm,,,,,,,senecio candicans dc_ive,
+18,s. candicans,c. heldreichiana (kuntze) greuter,,,,,,,s. candicans_ct,
+19,crepis,c. crocifolia boiss. & heldr,,,,,,,cantharellus cibarius_antioxidant,
+20,phytosia crocifolia (boiss. & heldr.) kamari & greuter,phytosia crocifolia (boiss. & heldr.) kamari & greuter,,,,,,,cantharellus cinereus_anti-inflammatory,
+21,,cantharellus cibarius,,,,,,,cantharellus cinereus_antioxidant,
+22,,cantharellus cinereus,,,,,,,craterellus cornucopioides_anti-inflammatory,
+23,,craterellus cornucopioides,,,,,,,craterellus cornucopioides_antioxidant,
+24,,hydnum repandum,,,,,,,craterellus cornucopioides_anticancer,
+25,,,,,,,,,hydnum repandum_anti-inflammatory,
+26,,,,,,,,,hydnum repandum_antioxidant,
+27,,,,,,,,,hydnum repandum_anticancer,
+28,,,,,,,,,arella_anti-inflammatory,
+29,,,,,,,,,arella_antioxidant,

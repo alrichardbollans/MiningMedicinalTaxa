@@ -1,0 +1,26 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,l. angustifolia,lavandula angustifolia,p. officinalis,subsp. officinalis,m. recutita l_irritated skin and mucosae,,matricaria pubescens (desf.) schultz_allergies,l. angustifolia_therapeutic,l. angustifolia_e,l. angustifolia_against lipoxygenase
+1,lavandula angustifolia,melissa officinalis subsp. officinalis,aster,,m. recutita l_ulcers,,matricaria pubescens (desf.) schultz_scorpion stings,l. angustifolia_antioxidant,l. angustifolia_oxygenase,l. angustifolia_acetyl-cholinesterase
+2,lavandula angustifolia mill,lavandula angustifolia mill,,,m. recutita l_mild gastrointestinal problems,,matricaria pubescens (desf.) schultz_dehydration,l. angustifolia_antimicrobial,m. recutita_protective,m.officinalis subsp. officinalis_anti-acetylcholinesterase
+3,lavandula,melissa officinalis l,,,m. recutita l_inflammations of mouth and throat,,matricaria pubescens (desf.) schultz_ocular affections,matricaria pubescens_anti-inflammatory,achillea_healing,m.officinalis subsp. officinalis_anti-lipoxygenase
+4,m.officinalis subsp. officinalis,lavandula,,,m. recutita l_common cold,,matricaria pubescens (desf.) schultz_rheumatic and muscular pains,matricaria recutita_anti-inflammatory,,m.officinalis subsp. officinalis_antioxidants
+5,melissa officinalis subsp. officinalis,l. angustifolia,,,sauromatum venosum (dryand. ex aiton) kunth_cancerous diseases,,matricaria pubescens (desf.) schultz_coughs,m. recutita_anti-inflammatory,,pistacia lentiscus var. chia_beneficial impact on the bmd of the sixth lumbar
+6,melissa officinalis,melissa officinalis,,,sauromatum venosum (dryand. ex aiton) kunth_pain,,matricaria pubescens (desf.) schultz_dysmenorrhea,achillea_antimicrobial,,pistacia lentiscus var. chia_on bone mineral density (bmd) of the lumbar vertebra of ovariectomised rats
+7,melissa officinalis l,pistacia lentiscus var. chia,,,sauromatum venosum (dryand. ex aiton) kunth_inflammation,,matricaria pubescens (desf.) schultz_toothaches,achillea_antioxidant,,
+8,pistacia lentiscus var. chia,matricaria pubescens,,,s. venosum_cancerous diseases,,m. recutita_mild inflammation,achillea crithmifolia waldst. & kit_antioxidant,,
+9,matricaria pubescens,matricaria recutita,,,,,,a. grandifolia friv_antioxidant,,
+10,matricaria pubescens (desf.) schultz,m. recutita l,,,,,,a. millefolium l_antioxidant,,
+11,m. pubescens,matricaria sp,,,,,,thymus thracicus velen_antiplatelet,,
+12,matricaria recutita,m. pubescens,,,,,,sauromatum venosum_anti-inflammatory,,
+13,m. recutita l,m. recutita,,,,,,sauromatum venosum (dryand. ex aiton) kunth_anti-inflammatory,,
+14,m. recutita,matricaria recutita l,,,,,,s. venosum_anti-inflammatory,,
+15,matricaria recutita l,achillea,,,,,,,,
+16,matricaria sp,achillea crithmifolia waldst. & kit,,,,,,,,
+17,achillea,a. grandifolia friv,,,,,,,,
+18,achillea crithmifolia waldst. & kit,a. millefolium l,,,,,,,,
+19,a. grandifolia friv,thymus thracicus velen,,,,,,,,
+20,a. millefolium l,thymus thracicus,,,,,,,,
+21,thymus thracicus velen,sauromatum venosum,,,,,,,,
+22,thymus thracicus,sauromatum venosum (dryand. ex aiton) kunth,,,,,,,,
+23,sauromatum venosum (dryand. ex aiton) kunth,s. venosum,,,,,,,,
+24,s. venosum,,,,,,,,,

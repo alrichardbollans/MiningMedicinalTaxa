@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,cassia l,"cassia l., senna mill",e,senna mill,,rip_stroke,,,rip_circulation,chamaecrista moench_laxatives
+1,chamaecrista moench,chamaecrista moench,na,senna,,aloe vera_cra,,,,senna mill_laxatives
+2,echinacea,echinacea,rip,,,,,,,cassia l_laxatives
+3,aloe vera,aloe vera,,,,,,,,

@@ -1,0 +1,21 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,salix spp,salix spp,fangchi,,digitalis lanata ehrh_cardiac disease,salix spp_2 diabetics,catharanthus roseus l_cancer,salix spp_anti-platelet effects,salix spp_diabetic,galega officinalis l_anti-diabetic
+1,digitalis lanata ehrh,digitalis lanata ehrh,,,papaver somniferum l_hypertension,salix spp_cardiac disease,,salix spp_pain relief,digitalis lanata ehrh_diabetic,papaver somniferum l_vasodilator
+2,galega officinalis l,galega officinalis l,,,cinchona officinalis l_infectious disease,digitalis lanata ehrh_2 diabetics,,panax_physical performance,galega officinalis l_vasodil,papaver somniferum l_pain relief
+3,papaver somniferum l,papaver somniferum l,,,cinchona officinalis l_fever,galega officinalis l_infectious disease,,panax ginseng c.a.mey_physical performance,galega officinalis l_diabetic,cinchona officinalis l_anti-malarial
+4,cinchona officinalis l,cinchona officinalis l,,,cinchona officinalis l_malaria,galega officinalis l_hypertension,,panax ginseng c.a.mey_enhancement of mental,papaver somniferum l_vasodil,rumex rupestris le gall_astringent
+5,catharanthus roseus l,catharanthus roseus l,,,panax ginseng c.a.mey_fatigue,galega officinalis l_2 diabetics,,panax ginseng c.a.mey_male stimulant,cinchona officinalis l_,
+6,panax quinquefolius l,panax quinquefolius l,,,,galega officinalis l_fever,,,panax quinquefolius l_astr,
+7,panax,rumex rupestris le gall,,,,galega officinalis l_malaria,,,rumex rupestris le gall_astr,
+8,rumex rupestris le gall,saxifraga hirculus l,,,,papaver somniferum l_malaria,,,saxifraga hirculus l_astr,
+9,saxifraga hirculus l,panax,,,,talinum paniculatum (jacq.) gaertn_renal damage,,,panax_health,
+10,panax ginseng c.a.mey,jatropha podagrica hook,,,,stephania tetrandra s.moore_renal damage,,,jatropha podagrica hook_enhancement of mental,
+11,jatropha podagrica hook,panax ginseng c.a.mey,,,,aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang_renal damage,,,jatropha podagrica hook_physical performance,
+12,codonopsis pilosula nannf,codonopsis pilosula nannf,,,,stephania tetrandra_renal damage,,,jatropha podagrica hook_health,
+13,rumex madaio makino,rumex madaio makino,,,,,,,jatropha podagrica hook_male stimulant,
+14,talinum paniculatum (jacq.) gaertn,talinum paniculatum (jacq.) gaertn,,,,,,,panax ginseng c.a.mey_health,
+15,stephania tetrandra s.moore,stephania tetrandra s.moore,,,,,,,panax ginseng c.a.mey_fatigue,
+16,stephania tetrandra,aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang,,,,,,,,
+17,aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang,stephania tetrandra,,,,,,,,
+18,aristolochia fangchi,aristolochia fangchi,,,,,,,,
+19,aristolochia,aristolochia,,,,,,,,

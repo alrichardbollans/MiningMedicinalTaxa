@@ -1,0 +1,5 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,stellaria media,s,tel,,s_eczema,tel_eczema,,,,ginko biloba_good for the brain
+1,ginko biloba,stellaria media,lar,,stellaria media_eczema,lar_eczema,,,,
+2,,ginko biloba,ia,,,ia_eczema,,,,
+3,,,media,,,media_eczema,,,,

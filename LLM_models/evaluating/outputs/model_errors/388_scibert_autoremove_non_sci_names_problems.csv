@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,o. natrix,ononis natrix subsp. hispanic,,o.natrix,,,,,,
+1,ononis,ononis,,,,,,,,
+2,ononis natrix subsp. hispanica,o. spinosa,,,,,,,,
+3,o. spinosa,o. pubescens,,,,,,,,
+4,o. pubescens,o. ornithopodioides,,,,,,,,
+5,o. ornithopodioides,ononis natrix subsp,,,,,,,,
+6,,ononis natrix subsp. hispanica,,,,,,,,

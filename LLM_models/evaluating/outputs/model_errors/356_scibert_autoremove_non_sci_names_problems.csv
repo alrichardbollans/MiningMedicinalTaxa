@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,anacardium occidentale,anacardium occidentale,nia,asa foetida,,,,,carlina acaulis_tro,
+1,styrax,styrax liquidum,,plantagomajor,,,,,carlina acaulis_ic,
+2,carlina acaulis,carlina acaulis,,archangelicaofficinalis,,,,,,
+3,cnicus benedictus,cnicus benedictus,,,,,,,,
+4,pimpinella saxifraga,pimpinella saxifraga,,,,,,,,

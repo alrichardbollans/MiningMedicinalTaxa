@@ -1,0 +1,17 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hypericum perforatum,hypericum perforatum,t,,hypericum perforatum_anxiety,hypericum perforatum_phantasm,hypericum perforatum_depression,hypericum perforatum_diuretic,t_diuretic,hypericum perforatum_curing demoniacs
+1,,,ras,,hypericum perforatum_snakebites,t_anxiety,hypericum perforatum_phantasmata,,ras_diuretic,
+2,,,fuga daemonum,,hypericum perforatum_parasites,t_snakebites,hypericum perforatum_disturbances of understanding,,verum_mild depression,
+3,,,daemonum,,hypericum perforatum_illnesses,t_parasites,hypericum perforatum_mild depression,,,
+4,,,verum,,hypericum perforatum_wounds,t_phantasm,,,,
+5,,,,,hypericum perforatum_melancholia,t_wounds,,,,
+6,,,,,hypericum perforatum_burns,t_melancholia,,,,
+7,,,,,,t_burns,,,,
+8,,,,,,ras_anxiety,,,,
+9,,,,,,ras_snakebites,,,,
+10,,,,,,ras_parasites,,,,
+11,,,,,,ras_wounds,,,,
+12,,,,,,ras_burns,,,,
+13,,,,,,fuga daemonum_oniacs,,,,
+14,,,,,,daemonum_depression,,,,
+15,,,,,,daemonum_oniacs,,,,

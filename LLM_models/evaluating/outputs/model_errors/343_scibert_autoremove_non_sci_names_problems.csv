@@ -1,0 +1,25 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,chelidonium,chelidonium majus,fumaria officinalis,,c. majus_eye diseases,chelidonium_ophthalmol,chelidonium_ophthalmological problems,chelidonium_pain-relieving,chelidonium_cholagogue,chelidonium_antiviral
+1,c. majus,chelidonium,,,c. majus_liver diseases,chelidonium_al sicknesses,chelidonium_cholagogue,c. majus_anti-edema,chelidonium_anti-jaundice,chelidonium_antimicrobial
+2,chelidonium majus,c. majus,,,c. majus_cancer,c. majus_tic,chelidonium_anti-jaundice,c. majus_antitussive,c. majus_,chelidonium_anticancer
+3,c. majus l,chelidonium majusin,,,c. majus_jaundice,c. majus_smo,c. majus_aching tooth,c. majus_diuretic,c. majus_microbial,c. majus_hepatic
+4,c. majus l.sensu lato,chelidonium majusl,,,c. majus_eye and skin conditions,fumaria officinalis_eyediseases,c. majus_sightimpairment,c. majus_expectorant,c. majus_i,c. majus_gastric
+5,c. majus l.subsp. majus,chelidonium l,,,c. majus_leprosy,fumaria officinalis_jaundice,c. majus_cataract,,c. majus_anti-inflammatory,c. majus_spasmolytic
+6,chelidonium majusl,c. majus l,,,c. majus_visualimpairment,fumaria officinalis_colic,c. majus_ulcers,,c. majus_anti,c. majus_anticancer
+7,chelidonium l,c. majus l.sens,,,c. majus_dermatologic disorders,fumaria officinalis_wounds,c. majus_ophthalmologicaldiseases,,,c. majus_enhance sight
+8,chelidonium majussubsp. grandiflorum (dc.) printz,c. asiaticum,,,c. majus_dermatologic diseases,fumaria officinalis_toothache,c. majus_hair overgrowth,,,c. majus_anti-infectious
+9,c. asiaticum (hara)krahulcova,c. majus l.sensu lato,,,chelidonium majusl_infections,chelidonium majusp_skin,c. majus_wounds,,,
+10,c. asiaticum,c. asiaticum (hara)krahulcova,,,chelidonium majusl_gastrointestinal disorders,,c. majus_pulmonary,,,
+11,,c. majus l.subsp. majus,,,chelidonium majusl_cancer,,c. majus_herpes,,,
+12,,chelidonium majussubsp. grandiflorum (dc.) printz,,,chelidonium majusl_skin protuberances,,c. majus_scabs,,,
+13,,chelidonium majussubsp. grandiflorum (dc.) p,,,chelidonium majusl_warts,,c. majus_throat cleansing,,,
+14,,chelidonium majus i,,,,,c. majus_skin eczema,,,
+15,,chelidonium majusp,,,,,c. majus_bodyulcers,,,
+16,,,,,,,c. majus_aphrodisiacum,,,
+17,,,,,,,c. majus_skin ulcer,,,
+18,,,,,,,c. majus_pain,,,
+19,,,,,,,c. majus_colic,,,
+20,,,,,,,c. majus_stomach ache,,,
+21,,,,,,,c. majus_toothache,,,
+22,,,,,,,c. majus_liver conditions,,,
+23,,,,,,,chelidonium majus_ulcers,,,

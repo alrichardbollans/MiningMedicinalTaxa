@@ -1,0 +1,10 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,origanum vulgare ssp. hirtum,origanum vulgare ssp. hirtum,,thyumus spp,,e. umbellata_inflammatory stimuli,,salsola soda l_anti-inflammatory,e. umbellata_anti-angiogenic,cornus sanguinea l_anti-inflammatory
+1,salvia officinalis,salvia officinalis,,,,e. umbellata_oxidative stress,,prunus avium l_anti-inflammatory,s. soda_anti-angiogenic,cornus sanguinea l_antioxidant
+2,rosmarinus officinalis,rosmarinus officinalis,,,,s. soda_inflammatory,,prunus avium l_antioxidant,,elaeagnus umbellata thunb_anti-inflammatory
+3,cornus sanguinea l,cornus sanguinea l,,,,s. soda_diabetic complications,,,,elaeagnus umbellata thunb_antioxidant
+4,elaeagnus umbellata thunb,elaeagnus umbellata thunb,,,,,,,,salsola soda l_antioxidant
+5,e. umbellata,salsola soda l,,,,,,,,e. umbellata_protective agent against oxidative stress and inflammatory stimuli in gingival tissue
+6,salsola soda l,prunus avium l,,,,,,,,
+7,prunus avium l,e. umbellata,,,,,,,,
+8,,s. soda,,,,,,,,

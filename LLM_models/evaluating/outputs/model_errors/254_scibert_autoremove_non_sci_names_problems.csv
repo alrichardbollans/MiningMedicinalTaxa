@@ -1,0 +1,17 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,stahlianthus thorelii,stahlianthus thorelii,,,stahlianthus thorelii_osteoarthritis,,pulicaria_headache,pulicaria_antimicrobial,s. thorelii_anti,stahlianthus thorelii_cytotoxicity
+1,s. thorelii,stahlianthus thorelii gagnep,,,stahlianthus thorelii gagnep_cancer,,pulicaria_flatulent colic,pulicaria_antiinflammatory,e. neriifolia_cancer,stahlianthus thorelii_anticancer
+2,euphorbia neriifolia,s. thorelii,,,stahlianthus thorelii gagnep_inflammation,,pulicaria_diabetes,pulicaria wightiana_antimicrobial,e. neriifolia_anti,stahlianthus thorelii_anti-proliferative
+3,euphorbia neriifolia l,euphorbia neriifolia,,,stahlianthus thorelii gagnep_osteoarthritis,,pulicaria_ankle sprain,pulicaria wightiana_antiinflammatory,e. neriifolia_o,s. thorelii_antiproliferative
+4,pulicaria,e. neriifolia,,,euphorbia neriifolia_cancer,,,,p. dysenterica_antimicrobial,euphorbia neriifolia_anticancer
+5,pulicaria wightiana,euphorbia neriifolia l,,,euphorbia neriifolia_inflammation,,,,,euphorbia neriifolia_anti-proliferative
+6,pulicaria gaertn,pulicaria,,,euphorbia neriifolia_diabetes mellitus,,,,,pulicaria_cicatrizant
+7,p. odora,pulicaria gaertn,,,e. neriifolia_inflammation,,,,,
+8,p. dysenterica,p. odora,,,pulicaria_muscular- skeletal diseases,,,,,
+9,,p. dysenterica,,,pulicaria_cold,,,,,
+10,,pulicaria wightiana,,,pulicaria_inflammation,,,,,
+11,,,,,pulicaria_inflamed wound,,,,,
+12,,,,,pulicaria_bronchitis,,,,,
+13,,,,,pulicaria_abdominal pain,,,,,
+14,,,,,pulicaria_skin diseases,,,,,
+15,,,,,pulicaria wightiana_inflammation,,,,,

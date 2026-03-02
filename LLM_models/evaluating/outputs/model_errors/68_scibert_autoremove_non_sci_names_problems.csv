@@ -1,0 +1,7 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,sorghum bicolor,s,,,,,,,,
+1,s. halepense,sorghum,,,,,,,,
+2,sorghum,sorghum bicolor,,,,,,,,
+3,zea mays,s. halepense,,,,,,,,
+4,zea diploperennis,zea mays,,,,,,,,
+5,,zea diploperennis,,,,,,,,

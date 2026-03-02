@@ -1,0 +1,11 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,theobroma cacao,theobroma cacao,saccharomyces theobroma,cola nitida,,,,,,
+1,ilex paraguariensis,ilex paraguariensis,,saccharomyces cerevisiae,,,,,,
+2,paullinia cupana,paullinia cupana,,saccharomyces ellipsoideus,,,,,,
+3,aspergillus oryzeae,aspergillus oryzeae,,saccharomyces sake,,,,,,
+4,aspergillus soyae,aspergillus,,saccharomyces beticus,,,,,,
+5,saccharomyces carlsburgensis,saccharomyces carlsburgensis,,saccharomyces theobromae,,,,,,
+6,saccharomyces exiguis,saccharomyces exiguis,,leuconostoc mesenteroides,,,,,,
+7,saccharomyces spp,saccharomyces spp,,lactobacillus plantarum,,,,,,
+8,,,,lactobacillus sanfrancisco,,,,,,
+9,,,,citrus,,,,,,

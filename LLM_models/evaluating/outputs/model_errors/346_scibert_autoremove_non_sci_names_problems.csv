@@ -1,0 +1,20 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,c. majus,c. majus,iti,penicillium notatum,c. majus_warts,c. majus_human,c. majus_pathogenic bacteria,c. majus_anti-inflammatory,c. majus_anti,c. majus_antiprotozoal
+1,chelidonium majus,chelidonium majuspotassium,a. tumefaciens,torlopsis utilis,c. majus_trichomoniasis,c. majus_tis,c. majus_infections,c. majus_antimicrobial,c. majus_antimicro,c. majus_hepatic
+2,chelidonium,coptis,curvularia lun,keratinomyces ajelloi,,c. majus_hiv,c. majus_pathogenic fungi,c. majus_antiviral,chelidonium maj_antimicrobial,c. majus_gastric
+3,coptis,s,,fusariumoxysporum,,c. majus_acute,c. majus_hiv-1,,septoria microspora_antimicrobial,c. majus_antibacterial
+4,scopulariopsis brevicaulis,chelidonium maj,,curvularia lunata,,c. majus_illoma virus infection,c. majus_wounds,,,c. majus_antifungal
+5,sphaerulina juglandis,aspergillus fumigatus,,c. albicans,,c. majus_upper respiratory tract,c. majus_bacteria,,,c. majus_anticancer
+6,septoria microspora,a. niger,,,,c. majus_influenza,chelidonium majus_papilloma virus infection,,,chelidonium_bactericidal
+7,aspergillus fumigatus,candida sp. cladosporium herbarum,,,,,,,,chelidonium majus_antifungal
+8,a. niger,cryptococcus neoformans,,,,,,,,
+9,candida sp,epidermophyton floccosum,,,,,,,,
+10,cryptococcus neoformans,fusarium sp. keratinomyces ajelloi,,,,,,,,
+11,epidermophyton floccosum,microsporum sp. penicillium notatum,,,,,,,,
+12,fusarium sp,rhodotorula rubra,,,,,,,,
+13,microsporum sp,scopulariopsis brevicaulis,,,,,,,,
+14,rhodotorula rubra,trichophyton sp,,,,,,,,
+15,trichophyton sp,cladosporium herbarum,,,,,,,,
+16,cladosporium herbarum,fusarium,,,,,,,,
+17,,microsporum,,,,,,,,
+18,,septoria microspora,,,,,,,,

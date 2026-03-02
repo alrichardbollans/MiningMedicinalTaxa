@@ -1,0 +1,39 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,eryngium cymosum f. delaroche,eryngium cymosum f. delaroche,aw,,zaleya decandra_ovarian cancer,e. cymosum_ndial hyperglycemia,ageratina petiolaris_type 2 diabetes (t2d,e. cymosum_anti-hyperglycemic,eryngium cymosum f. delaroche_,aquilaria sinensis_anti-cerebral ischemia
+1,e. cymosum,e. cymosum,jiana,,z. decandra_ovarian,ageratina petiolaris_d,ageratina petiolaris_insulin resistance,e. cymosum_hypoglycemic,e. cymosum_,aquilaria sinensis_spatial learning
+2,ageratina petiolaris,ageratina petiolaris,,,z. decandra_ovarian cancer,cecropia obtusifolia_d,ageratina petiolaris_t2d,ageratina petiolaris_hypoglycemic,e. cymosum_oneogenesis,aquilaria sinensis_anti-myocardial ischemia
+3,cecropia obtusifolia,cecropia obtusifolia,,,,equisetum myriochaetum_d,cecropia obtusifolia_type 2 diabetes (t2d,cecropia obtusifolia_hypoglycemic,e. cymosum_gluconeogenesis,aquilaria sinensis_memory promotion
+4,equisetum myriochaetum,equisetum myriochaetum,,,,aucklandia lappa_heat,cecropia obtusifolia_insulin resistance,equisetum myriochaetum_hypoglycemic,e. cymosum_cemic,myristica fragrans_anti-cerebral ischemia
+5,aquilaria sinensis,aquilaria sinensis,,,,terminalia chebula_heat,cecropia obtusifolia_t2d,zaleya decandra_anti-ovarian cancer,e. cymosum_inhibitory,myristica fragrans_spatial learning
+6,myristica fragrans,myristica fragrans,,,,gossampinus malabarica_heat,equisetum myriochaetum_type 2 diabetes (t2d,zaleya decandra_anti-proliferative,e. cymosum_ogenic,myristica fragrans_anti-myocardial ischemia
+7,choerospondias axillaris,choerospondias axillaris,,,,b. bhaw-dajiana_heat,equisetum myriochaetum_insulin resistance,z. decandra_anti-proliferative,e. cymosum_anti,myristica fragrans_memory promotion
+8,boswellia carterii,boswellia carterii,,,,zaleya decandra_anti-ovarian cancer,equisetum myriochaetum_t2d,,e. cymosum_prandial hyperglycemia,
+9,b. bhaw-dajiana,b,,,,zaleya decandra_terat,zaleya decandra_asthma,,ageratina petiolaris_oneogenesis,
+10,aucklandia lappa,aucklandia lappa,,,,pinaropappus roseus less_cancer,,,ageratina petiolaris_tolerance,
+11,terminalia chebula,terminalia chebula,,,,pinaropappus roseus less_gastrointestinal,,,cecropia obtusifolia_oneogenesis,
+12,gossampinus malabarica,gossampinus malabarica,,,,pinaropappus roseus less_inflammatory events,,,cecropia obtusifolia_tolerance,
+13,zaleya decandra,b. bhaw-dajiana,,,,pinaropappus roseus less_skin infections,,,equisetum myriochaetum_oneogenesis,
+14,z. decandra,zaleya decandra,,,,,,,equisetum myriochaetum_glucose tolerance,
+15,dovyalis caffra l,z. decandra,,,,,,,equisetum myriochaetum_tolerance,
+16,pinaropappus roseus less,dovyalis caffra l,,,,,,,aucklandia lappa_tranquilizing,
+17,,pinaropappus roseus less,,,,,,,aucklandia lappa_inducing resuscitation,
+18,,,,,,,,,aucklandia lappa_memory promotion,
+19,,,,,,,,,aucklandia lappa_anti,
+20,,,,,,,,,aucklandia lappa_ischemia,
+21,,,,,,,,,aucklandia lappa_nourishing,
+22,,,,,,,,,terminalia chebula_tranquilizing,
+23,,,,,,,,,terminalia chebula_inducing resuscitation,
+24,,,,,,,,,terminalia chebula_nourishing,
+25,,,,,,,,,gossampinus malabarica_tranquilizing,
+26,,,,,,,,,gossampinus malabarica_inducing resuscitation,
+27,,,,,,,,,gossampinus malabarica_nourishing,
+28,,,,,,,,,b. bhaw-dajiana_memory promotion,
+29,,,,,,,,,b. bhaw-dajiana_myocardial,
+30,,,,,,,,,b. bhaw-dajiana_tranquilizing,
+31,,,,,,,,,b. bhaw-dajiana_spatial learning,
+32,,,,,,,,,b. bhaw-dajiana_inducing resuscitation,
+33,,,,,,,,,b. bhaw-dajiana_anti-cerebral ischemia,
+34,,,,,,,,,b. bhaw-dajiana_anti,
+35,,,,,,,,,b. bhaw-dajiana_ischemia,
+36,,,,,,,,,b. bhaw-dajiana_nourishing,
+37,,,,,,,,,pinaropappus roseus less_antiproliferative,

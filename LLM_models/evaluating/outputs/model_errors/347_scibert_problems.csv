@@ -1,0 +1,13 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,c. majus,c. majus,c. majusp,entamoeba histolytica,c. majus_liver,c. majus_agogue,c. majus_hepatobiliary disorders,c. majus_cholagogue,c. majus_antiproliferative,c. majus_antitumor
+1,chelidonium majus,chelidonium majus,ch,,,c. majus_breast,,c. majus_antispasmodic,c. majus_ytoprotective,c. majus_supporting artificial insemination or facilitating fertilization
+2,silybum marianum,silybum marianum,,,,silybum marianum_ve,,chelidonium majus_antispasmodic,c. majus_relaxant,c. majus_choleretic
+3,,,,,,,,,c. majus_oprotective,c. majus_acceleration of sperm movement toward fallopian tube
+4,,,,,,,,,c. majus_iproliferative,c. majus_hepatoprotective
+5,,,,,,,,,chelidonium majus_a,c. majus_liver and biliary tract
+6,,,,,,,,,chelidonium majus_antiproliferative,silybum marianum_hepatoprotective
+7,,,,,,,,,chelidonium majus_iproliferative,
+8,,,,,,,,,c. majusp_hepat,
+9,,,,,,,,,silybum marianum_utative,
+10,,,,,,,,,silybum marianum_cytoprotective,
+11,,,,,,,,,silybum marianum_hepat,

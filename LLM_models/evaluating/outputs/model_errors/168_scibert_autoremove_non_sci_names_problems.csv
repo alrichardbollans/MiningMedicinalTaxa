@@ -1,0 +1,6 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,candida albicans,candida albicans,s,,,,,,candida albicans_antimicrobial,
+1,aspergillus brasiliensis,aspergillus brasiliensis,candida al,,,,,,candida al-bicans_antimicrobial,
+2,candida al-bicans,candida al-bicans,,,,,,,aspergillus brasil-iensis_antimicrobial,
+3,aspergillus brasil-iensis,aspergillus brasil-iensis,,,,,,,aspergillus spizenii_antimicrobial,
+4,aspergillus spizenii,aspergillus spizenii,,,,,,,,

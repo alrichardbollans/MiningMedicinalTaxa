@@ -1,0 +1,16 @@
+fold,label,count,pct
+1,has_medicinal_effect,1903,4.8
+1,no_relation,34393,87.6
+1,treats_medical_condition,2984,7.6
+2,has_medicinal_effect,1872,4.0
+2,no_relation,41812,89.0
+2,treats_medical_condition,3292,7.0
+3,has_medicinal_effect,1611,3.8
+3,no_relation,38187,89.6
+3,treats_medical_condition,2829,6.6
+4,has_medicinal_effect,1679,4.8
+4,no_relation,30467,87.9
+4,treats_medical_condition,2525,7.3
+5,has_medicinal_effect,1915,4.1
+5,no_relation,41257,89.2
+5,treats_medical_condition,3101,6.7

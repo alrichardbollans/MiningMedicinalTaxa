@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,cannabis sativa,c,g,,,cannabis sativa_diseases,papaver somniferum_anxiety,,humulus lupulus_psychoactive,
+1,cannabis indica,papaver somniferum,pium,,,,papaver somniferum_pain,,,
+2,c. sativa,cannabis sativa,aopium,,,,,,,
+3,c. indica,cannabis indica,juana,,,,,,,
+4,c. ruderalis,c. sativa,,,,,,,,
+5,papaver somniferum,c. indica,,,,,,,,
+6,cannabis,c. ruderalis,,,,,,,,
+7,humulus lupulus,humulus lupulus,,,,,,,,

@@ -1,0 +1,545 @@
+task_id,label,head,tail
+8,has_medicinal_effect,Andrographis paniculata,anti-apoptotic
+8,has_medicinal_effect,Andrographis paniculata,anti/pro-apoptotic
+20,has_medicinal_effect,Nigella sativa L.,hepatoprotective
+20,has_medicinal_effect,Nigella sativa L.,nephroprotective effects
+34,treats_medical_condition,O. sanctum L.,asthma
+34,treats_medical_condition,O. sanctum L.,bronchitis
+34,treats_medical_condition,O. sanctum L.,diabetes
+34,treats_medical_condition,O. sanctum L.,diarrhoea
+34,treats_medical_condition,O. sanctum L.,eye disorders
+34,treats_medical_condition,O. sanctum L.,chronic conjunctivitis
+34,treats_medical_condition,O. sanctum L.,cataracts
+34,treats_medical_condition,O. sanctum L.,glaucoma
+34,treats_medical_condition,O. sanctum L.,fever
+34,treats_medical_condition,O. sanctum L.,insect bites
+34,treats_medical_condition,O. sanctum L.,snake bites
+34,treats_medical_condition,O. sanctum L.,malaria
+34,treats_medical_condition,O. sanctum L.,skin diseases
+34,has_medicinal_effect,O. sanctum L.,anti-inflammatory
+34,has_medicinal_effect,O. sanctum L.,adaptogenic
+34,has_medicinal_effect,O. sanctum L.,antibacterial
+34,has_medicinal_effect,O. sanctum L.,antifungal
+34,has_medicinal_effect,O. sanctum L.,antiviral
+34,has_medicinal_effect,O. sanctum L.,antidiabetic
+34,has_medicinal_effect,O. sanctum L.,anticancer
+34,has_medicinal_effect,O. sanctum L.,analgesic
+34,has_medicinal_effect,O. sanctum L.,cardioprotective
+34,has_medicinal_effect,O. sanctum L.,hepatoprotective
+34,treats_medical_condition,O. tenuiflorum L.,asthma
+34,treats_medical_condition,O. tenuiflorum L.,bronchitis
+34,treats_medical_condition,O. tenuiflorum L.,diabetes
+34,treats_medical_condition,O. tenuiflorum L.,diarrhoea
+34,treats_medical_condition,O. tenuiflorum L.,eye disorders
+34,has_medicinal_effect,O. tenuiflorum L.,antibacterial
+34,has_medicinal_effect,O. tenuiflorum L.,antifungal
+34,has_medicinal_effect,O. tenuiflorum L.,antiviral
+34,has_medicinal_effect,O. tenuiflorum L.,antidiabetic
+34,has_medicinal_effect,O. tenuiflorum L.,anticancer
+34,has_medicinal_effect,O. tenuiflorum L.,anti-inflammatory
+34,has_medicinal_effect,O. tenuiflorum L.,adaptogenic
+34,has_medicinal_effect,O. tenuiflorum L.,analgesic
+34,has_medicinal_effect,O. tenuiflorum L.,cardioprotective
+34,has_medicinal_effect,O. tenuiflorum L.,hepatoprotective
+34,has_medicinal_effect,O. sanctum L.,antifertility
+34,has_medicinal_effect,O. tenuiflorum L.,antifertility
+34,has_medicinal_effect,O. sanctum L.,abortive effects
+34,has_medicinal_effect,O. tenuiflorum L.,abortive effects
+34,treats_medical_condition,O. tenuiflorum,antifertility effects
+34,treats_medical_condition,O. tenuiflorum,antifertility
+34,has_medicinal_effect,O. sanctum L.,antifertility
+34,has_medicinal_effect,O. tenuiflorum L.,antifertility
+34,has_medicinal_effect,O. tenuiflorum,blood thinning
+34,has_medicinal_effect,O. tenuiflorum,male contraceptive
+44,treats_medical_condition,Olea europaea,eczema
+44,treats_medical_condition,Olea europaea,Ear infections
+53,has_medicinal_effect,Lycium barbarum,reduce blood sugar
+53,has_medicinal_effect,Lycium barbarum,lower blood pressure
+53,has_medicinal_effect,Lycium barbarum,lower blood pressure and blood sugar
+53,treats_medical_condition,Lycium barbarum,diabetes
+53,treats_medical_condition,Lycium barbarum,diabetes
+53,has_medicinal_effect,Lycium barbarum,hypoglycemic
+56,has_medicinal_effect,Stevia rebaudiana Bertoni,reduce blood sugar levels
+57,treats_medical_condition,Morinda Citrifolia,cuts
+57,treats_medical_condition,Morinda Citrifolia,infl ammations
+57,treats_medical_condition,Morinda Citrifolia,fungal infections
+57,treats_medical_condition,Morinda Citrifolia,constipation
+57,treats_medical_condition,Morinda Citrifolia,diarrhoea
+70,treats_medical_condition,A. sativum,eczema
+70,treats_medical_condition,A. sativum,toothaches
+70,treats_medical_condition,A. sativum,snake bites
+100,treats_medical_condition,Strophanthus,heart attack
+100,has_medicinal_effect,S. toxifera,muscle relaxant
+100,has_medicinal_effect,Chondrodendron tomentosum,muscle relaxant
+100,has_medicinal_effect,Strychnos spp.,muscle relaxant
+100,has_medicinal_effect,Drimia maritima,diuretics
+100,has_medicinal_effect,Drimia maritima,emetics
+100,has_medicinal_effect,Drimia maritima,expectorants
+102,has_medicinal_effect,Mandragora officinarum,sedative
+102,has_medicinal_effect,Digitalis purpurea,blood pressure is increased
+102,has_medicinal_effect,Digitalis purpurea,kidney functioning improves
+103,treats_medical_condition,Claviceps purpurea,post-partumbleeding
+103,has_medicinal_effect,Claviceps purpurea,stimulate the smooth muscle ofthe uterus
+103,has_medicinal_effect,Claviceps purpurea,constricting dilated cranial bloodvessels
+103,treats_medical_condition,Echinacea spp.,infections
+104,treats_medical_condition,Hamamelis virginiana,BRUISES
+104,treats_medical_condition,Hypericum perforatum,BURNS
+104,treats_medical_condition,Hypericum perforatum,DEPRESSION
+104,treats_medical_condition,Zingiber officinale,DEPRESSION
+104,treats_medical_condition,Portulaca oleracea,DEPRESSION
+104,treats_medical_condition,Rosmarinus officinalis,DEPRESSION
+104,treats_medical_condition,Ginkgo,DEPRESSION
+104,treats_medical_condition,Ginkgo biloba,DEPRESSION
+104,treats_medical_condition,Eleutherococcus senticosus,DEPRESSION
+104,treats_medical_condition,Zingiber officinale,BUNIONS
+105,treats_medical_condition,Hypericum perforatum,HIV INFECTION
+105,treats_medical_condition,Aloe spp.,HIV INFECTION
+105,treats_medical_condition,Astragalus,HIV INFECTION
+105,treats_medical_condition,Astragalus spp.,HIV INFECTION
+105,treats_medical_condition,Rudbeckia spp.,HIV INFECTION
+105,treats_medical_condition,Cnicus benedictus,HIV INFECTION
+105,treats_medical_condition,Arctium lappa,HIV INFECTION
+105,treats_medical_condition,Echinacea,HIV INFECTION
+105,treats_medical_condition,Echinacea spp.,HIV INFECTION
+105,treats_medical_condition,Allium sativum,HIV INFECTION
+105,treats_medical_condition,Hyssopus officinalis,HIV INFECTION
+105,treats_medical_condition,Allium cepa,HIV INFECTION
+105,treats_medical_condition,Pyrus communis,HIV INFECTION
+105,treats_medical_condition,Sambucus nigra,HIV INFECTION
+105,treats_medical_condition,Oenothera biennis,HIV INFECTION
+105,treats_medical_condition,Cetraria islandica,HIV INFECTION
+105,treats_medical_condition,Hypericum perforatum,HYPOTHYROIDIS
+105,treats_medical_condition,Juglans spp.,HYPOTHYROIDIS
+105,treats_medical_condition,Hypericum perforatum,PARKINSON'S DISEASE
+105,treats_medical_condition,Hypericum perforatum,PREGNANCY & DELIVERY
+105,treats_medical_condition,Capsella bursa-pastoris,PREGNANCY & DELIVERY
+105,treats_medical_condition,Spinacia oleracea,PREGNANCY & DELIVERY
+106,has_medicinal_effect,Diospyros virginiana,ASTRINGENTS
+106,has_medicinal_effect,Cornus paniculata,DENTISTRY
+106,has_medicinal_effect,Silphium spp.,clean teeth
+106,has_medicinal_effect,Xanthoxylum americanum,DENTISTRY
+106,has_medicinal_effect,Myrica asplenifolium,DENTISTRY
+106,has_medicinal_effect,Liriodendron tulipifera,DENTISTRY
+106,has_medicinal_effect,Zizia aurea,FEBRIFUGES
+106,treats_medical_condition,Zizia aurea,FEVER
+106,treats_medical_condition,Psoralea argophylla,FEVER
+106,has_medicinal_effect,Astragalus caroliniana,FEBRIFUGES
+106,treats_medical_condition,Astragalus caroliniana,FEVER
+106,has_medicinal_effect,Verbesina virginica,FEBRIFUGES
+106,treats_medical_condition,Verbesina virginica,FEVER
+107,treats_medical_condition,Tilia europaea,dyspepsia
+108,treats_medical_condition,Papaversomniferum,gout
+108,treats_medical_condition,Papaversomniferum,diarrhea
+109,treats_medical_condition,Papaver somniferum,anxiety
+109,treats_medical_condition,Papaver somniferum,pain
+110,treats_medical_condition,Cannabis,glaucoma
+110,treats_medical_condition,Cannabis,epilepsy
+110,treats_medical_condition,Cannabis,multiple sclerosis
+110,treats_medical_condition,Cannabis,AIDS
+110,treats_medical_condition,Cannabis,chronic pain
+110,treats_medical_condition,Cannabis,migraine headaches
+110,treats_medical_condition,Cannabis,osteoarthritis
+110,treats_medical_condition,Cannabis,severe itching
+110,treats_medical_condition,Cannabis,premenstrual syndrome
+110,treats_medical_condition,Cannabis,menstrual pain
+110,treats_medical_condition,Cannabis,labor pain
+110,treats_medical_condition,Cannabis,depression
+110,treats_medical_condition,Cannabis,asthma
+110,treats_medical_condition,Cannabis,insomnia
+110,treats_medical_condition,Cannabis,severe nausea
+110,treats_medical_condition,Cannabis,Adult Attention DeficitSyndrome
+110,treats_medical_condition,Cannabis,schizophrenia
+110,treats_medical_condition,Cannabis,Crohn's Disease
+110,treats_medical_condition,Cannabis,ringing inthe ears
+110,treats_medical_condition,Cannabis,post-traumatic stress syndrome
+110,treats_medical_condition,Cannabis,phantom limb pain
+110,treats_medical_condition,Cannabis,alcoholism
+110,treats_medical_condition,Cannabis,scleroderma
+110,treats_medical_condition,Cannabis,terminal illnesses
+155,has_medicinal_effect,hypericum perforatum,curing demoniacs
+155,treats_medical_condition,hypericum perforatum,depression
+155,treats_medical_condition,hypericum perforatum,mild depression
+156,treats_medical_condition,hypericum perforatum,psychovegetative disturbances
+156,treats_medical_condition,hypericum perforatum,depressive moods
+156,treats_medical_condition,hypericum perforatum,anxiety
+156,treats_medical_condition,hypericum perforatum,nervous unrest
+156,has_medicinal_effect,hypericum perforatum,antidepressant
+156,treats_medical_condition,Hypericum,mild depression
+156,treats_medical_condition,Hypericum,moderate and major depression
+156,has_medicinal_effect,hypericum perforatum,Nature's Prozac
+186,has_medicinal_effect,Vitis vinifera L.,antiox-idant
+186,has_medicinal_effect,Vitis vinifera L.,antioxidant
+189,treats_medical_condition,Arctostaphylos uva-ursi (L.) Spreng.,hydrops
+189,treats_medical_condition,Arctostaphylos uva-ursi (L.) Spreng.,lithiasis
+189,treats_medical_condition,Arctostaphylos uva-ursi (L.) Spreng.,diabetes
+189,treats_medical_condition,Arctostaphylos uva-ursi (L.) Spreng.,gonorrhoea
+189,has_medicinal_effect,Arctostaphylos uva-ursi (L.) Spreng.,urinary tract antiseptic
+189,has_medicinal_effect,Arctostaphylos uva-ursi (L.) Spreng.,di-uretic
+189,has_medicinal_effect,Arctostaphylos uva-ursi (L.) Spreng.,astringent
+192,has_medicinal_effect,Arctostaphylos uva-ursi (L.) Spreng.,urinary tract antiseptic
+192,has_medicinal_effect,Arctostaphylos uva-ursi (L.) Spreng.,diuret-ic
+192,has_medicinal_effect,Arctostaphylos uva-ursi (L.) Spreng.,astringent
+195,treats_medical_condition,cannabis,glaucoma
+207,has_medicinal_effect,Phaseolus vulgaris L.,reduce the risk of colon cancer
+207,has_medicinal_effect,Phaseolus vulgaris L.,antioxidants
+207,has_medicinal_effect,Phaseolus vulgaris L.,reducing the LDL cholesterol and systolic blood pressure
+207,treats_medical_condition,Phaseolus vulgaris L.,overweight
+207,treats_medical_condition,Phaseolus vulgaris L.,obesity
+207,treats_medical_condition,Phaseolus vulgaris L.,metabolic syndrome
+207,treats_medical_condition,Phaseolus vulgaris L.,heart disease
+208,has_medicinal_effect,Salvia officinalis,antimicrobial
+208,has_medicinal_effect,Rosmarinus offici-nalis,antimicrobial
+208,has_medicinal_effect,Salvia officinalis,antioxidant
+208,has_medicinal_effect,Rosmarinus offici-nalis,antioxidant
+208,has_medicinal_effect,Salvia officinalis,antimicrobial
+208,has_medicinal_effect,Rosmarinus offici-nalis,antioxidant
+212,has_medicinal_effect,Origanum minu-tiflorum,analge-sic
+212,has_medicinal_effect,Origanum minu-tiflorum,sedative
+212,has_medicinal_effect,Origanum minu-tiflorum,anti-inflammatory
+212,has_medicinal_effect,Origanum minu-tiflorum,spasmolytic
+212,has_medicinal_effect,Origanum minu-tiflorum,anaesthetic
+212,has_medicinal_effect,Origanum minu-tiflorum,virucidal
+212,has_medicinal_effect,Origanum minu-tiflorum,fungicidal
+212,has_medicinal_effect,Origanum minu-tiflorum,antiparasitical
+212,has_medicinal_effect,Origanum minu-tiflorum,in-secticidal
+215,has_medicinal_effect,Linum usitatissimum,reducing the appearance of scaly skin
+215,treats_medical_condition,Linum usitatissimum,seborrhea oleossa and the sicca
+215,treats_medical_condition,Linum usitatissimum,scarring
+215,treats_medical_condition,Linum usitatissimum,surgical wound healing
+215,has_medicinal_effect,Linum usitatissimum,skin hydration
+215,has_medicinal_effect,Linum usitatissimum,cutaneous ag-ing prevention
+227,has_medicinal_effect,Euclea natalensis,antifibrotic
+227,has_medicinal_effect,Euclea natalensis,hepatoprotectant
+227,treats_medical_condition,Oldfieldia dactylophylla (Welw. ex Oliv.),parasitic worm
+230,has_medicinal_effect,Artocarpus tonkinensis,anti-inflammatory
+231,treats_medical_condition,Hypericum spp.,wound-healing
+232,has_medicinal_effect,Salvia fruticosa Mill.,anti-glycation
+232,has_medicinal_effect,Salvia pomifera L.,anti-glycation
+232,has_medicinal_effect,SP subsp. pomifera,anti-glycation
+232,has_medicinal_effect,SP subsp. calycina,anti-glycation
+236,has_medicinal_effect,Origanum vulgare L. ssp. hirtum (Link) Letsw,antioxidant
+241,has_medicinal_effect,Sideritis euboea,antioxidant
+241,has_medicinal_effect,S. clandestina subsp. peloponnesiaca,antioxidant
+246,treats_medical_condition,Cannabis sativa,pain
+246,treats_medical_condition,Cannabis sativa,stress
+246,treats_medical_condition,Cannabis sativa,anxiety
+247,has_medicinal_effect,Aronia melanocarpa (Michx.) Elliott,spasmolytic
+247,has_medicinal_effect,Aronia melanocarpa (Michx.) Elliott,relaxant
+247,has_medicinal_effect,Aronia melanocarpa (Michx.) Elliott,control of gut motility
+247,has_medicinal_effect,Aronia melanocarpa (Michx.) Elliott,spasmolytic
+249,has_medicinal_effect,Cannabis Sativa L.,anti-inflammatory
+249,has_medicinal_effect,Cannabis Sativa L.,antioxidant
+249,has_medicinal_effect,Cannabis Sativa L.,anti-inflammatory
+249,has_medicinal_effect,Cannabis Sativa L.,antioxidant
+249,has_medicinal_effect,Andrographis paniculata (Burm.f.) Nees,anti-HSV-1
+249,has_medicinal_effect,Cannabis Sativa L.,anti-iflammatory
+249,has_medicinal_effect,Cannabis Sativa L.,antioxidant
+250,has_medicinal_effect,Pistacia lentiscus var. chia,beneficial impact on the BMD of the sixth lumbar
+250,has_medicinal_effect,Thymus thracicus,antiplatelet
+251,has_medicinal_effect,C. sativa var. Felina 32,cytotoxic
+251,has_medicinal_effect,C. sativa var. Felina 32,antiproliferative
+252,treats_medical_condition,Ageratina petiolaris,insulin resistance
+252,treats_medical_condition,Cecropia obtusifolia,insulin resistance
+252,treats_medical_condition,Equisetum myriochaetum,insulin resistance
+254,has_medicinal_effect,Euphorbia neriifolia,anti-proliferative
+274,has_medicinal_effect,C. kerneri Simonkai ssp. austro-orientalis,antioxidant
+274,has_medicinal_effect,C. tho-ermeri Weinm,antioxidant
+284,treats_medical_condition,Juniperus communis L.,cystitis
+284,treats_medical_condition,Juniperus communis L.,digestive disorders
+284,treats_medical_condition,Juniperus communis L.,chronicle arthritis
+295,has_medicinal_effect,Hypericum hircinum subsp. majus,Antifungal
+299,has_medicinal_effect,Centaurea ragusina L.,antibacterial
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,jaundice
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,"hepatitis A, B, C, and D"
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,conjunctivitis
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,leishmaniasis
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,cuts
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,sores
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,ulcers
+302,has_medicinal_effect,Annickia chlorantha (Oliv. )Setten & Maas,antipyretic
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,fevers
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,tuberculosis
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,vomiting of blood
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,urinary tract infections
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,treatment of fatigue
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,rheumatism
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,treat malariasymptoms
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,aches
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,wounds
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,boils
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,vomiting
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,yellow bitter
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,chills
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,sore
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,spleen in children
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,body pains
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,skin ailments
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,intercostal pain
+302,has_medicinal_effect,Annickia chlorantha (Oliv. )Setten & Maas,promote conception
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,intestinal worms
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,intestinal spasms
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,malaria
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,sexual asthenia
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,coughs
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,wounds
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,rickettsia fever
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,sleeping sickness
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,dysentery
+302,has_medicinal_effect,Annickia chlorantha (Oliv. )Setten & Maas,hemostatic
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,rickettsia
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,yellow fever
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,typhoidfever
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,diabetes
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,syphilis
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,infectious diseases
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,poliomyelitis
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,hypertension
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,HIV
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,prostate cancer
+302,treats_medical_condition,Enantiachlorantha Oliv. ,jaundice
+302,treats_medical_condition,Enantiachlorantha Oliv. ,"hepatitis A, B, C, and D"
+302,treats_medical_condition,Enantiachlorantha Oliv. ,conjunctivitis
+302,treats_medical_condition,Enantiachlorantha Oliv. ,leishmaniasis
+302,treats_medical_condition,Enantiachlorantha Oliv. ,cuts
+302,treats_medical_condition,Enantiachlorantha Oliv. ,infected wounds
+302,treats_medical_condition,Annickia chlorantha (Oliv. )Setten & Maas,infected wounds
+302,treats_medical_condition,Enantiachlorantha Oliv. ,sores
+302,treats_medical_condition,Enantiachlorantha Oliv. ,ulcers
+302,has_medicinal_effect,Enantiachlorantha Oliv. ,antipyretic
+302,treats_medical_condition,Enantiachlorantha Oliv. ,fevers
+302,treats_medical_condition,Enantiachlorantha Oliv. ,tuberculosis
+302,treats_medical_condition,Enantiachlorantha Oliv. ,vomiting of blood
+302,treats_medical_condition,Enantiachlorantha Oliv. ,urinary tract infections
+302,treats_medical_condition,Enantiachlorantha Oliv. ,treatment of fatigue
+302,treats_medical_condition,Enantiachlorantha Oliv. ,rheumatism
+302,treats_medical_condition,Enantiachlorantha Oliv. ,treat malariasymptoms
+302,treats_medical_condition,Enantiachlorantha Oliv. ,aches
+302,treats_medical_condition,Enantiachlorantha Oliv. ,wounds
+302,treats_medical_condition,Enantiachlorantha Oliv. ,boils
+302,treats_medical_condition,Enantiachlorantha Oliv. ,vomiting
+302,treats_medical_condition,Enantiachlorantha Oliv. ,yellow bitter
+302,treats_medical_condition,Enantiachlorantha Oliv. ,chills
+302,treats_medical_condition,Enantiachlorantha Oliv. ,sore
+302,treats_medical_condition,Enantiachlorantha Oliv. ,spleen in children
+302,treats_medical_condition,Enantiachlorantha Oliv. ,body pains
+302,treats_medical_condition,Enantiachlorantha Oliv. ,skin ailments
+302,treats_medical_condition,Enantiachlorantha Oliv. ,intercostal pain
+302,has_medicinal_effect,Enantiachlorantha Oliv. ,promote conception
+302,treats_medical_condition,Enantiachlorantha Oliv. ,intestinal worms
+302,treats_medical_condition,Enantiachlorantha Oliv. ,intestinal spasms
+302,treats_medical_condition,Enantiachlorantha Oliv. ,malaria
+302,treats_medical_condition,Enantiachlorantha Oliv. ,sexual asthenia
+302,treats_medical_condition,Enantiachlorantha Oliv. ,coughs
+302,treats_medical_condition,Enantiachlorantha Oliv. ,wounds
+302,treats_medical_condition,Enantiachlorantha Oliv. ,rickettsia fever
+302,treats_medical_condition,Enantiachlorantha Oliv. ,sleeping sickness
+302,treats_medical_condition,Enantiachlorantha Oliv. ,dysentery
+302,treats_medical_condition,Enantiachlorantha Oliv. ,rickettsia
+302,has_medicinal_effect,Enantiachlorantha Oliv. ,hemostatic
+302,treats_medical_condition,Enantiachlorantha Oliv. ,yellow fever
+302,treats_medical_condition,Enantiachlorantha Oliv. ,typhoidfever
+302,treats_medical_condition,Enantiachlorantha Oliv. ,diabetes
+302,treats_medical_condition,Enantiachlorantha Oliv. ,syphilis
+302,treats_medical_condition,Enantiachlorantha Oliv. ,infectious diseases
+302,treats_medical_condition,Enantiachlorantha Oliv. ,poliomyelitis
+302,treats_medical_condition,Enantiachlorantha Oliv. ,hypertension
+302,treats_medical_condition,Enantiachlorantha Oliv. ,HIV
+302,treats_medical_condition,Enantiachlorantha Oliv. ,prostate cancer
+302,treats_medical_condition,Annickia polycarpa (DC. )Setten & Maas ex I.M.Turner,cuts
+302,has_medicinal_effect,Annickia polycarpa (DC. )Setten & Maas ex I.M.Turner,antiseptic
+302,treats_medical_condition,Annickia polycarpa (DC. )Setten & Maas ex I.M.Turner,sores
+302,treats_medical_condition,Annickia polycarpa (DC. )Setten & Maas ex I.M.Turner,stomachulcers
+302,treats_medical_condition,Annickia polycarpa (DC. )Setten & Maas ex I.M.Turner,leprosy
+302,treats_medical_condition,Annickia polycarpa (DC. )Setten & Maas ex I.M.Turner,ophthalmia
+302,treats_medical_condition,Annickia polycarpa (DC. )Setten & Maas ex I.M.Turner,skin infections
+302,treats_medical_condition,Annickia polycarpa (DC. )Setten & Maas ex I.M.Turner,sores
+302,treats_medical_condition,Annickia polycarpa (DC. )Setten & Maas ex I.M.Turner,jaundice
+302,treats_medical_condition,Annickia polycarpa (DC. )Setten & Maas ex I.M.Turner,fever
+302,treats_medical_condition,Annickia polycarpa (DC. )Setten & Maas ex I.M.Turner,malaria
+302,has_medicinal_effect,Annickia polycarpa (DC. )Setten & Maas ex I.M.Turner,wound healing
+302,treats_medical_condition,Annickia polycarpa (DC. )Setten & Maas ex I.M.Turner,intestinal problems
+303,has_medicinal_effect,Argemone albiflora Hornem,Anthydropic
+303,has_medicinal_effect,Argemone albiflora Hornem,cathartic
+303,has_medicinal_effect,Argemone albiflora Hornem,diaphoretic
+303,has_medicinal_effect,Argemone albiflora Hornem,demulcent
+303,has_medicinal_effect,Argemone albiflora Hornem,diuretic
+303,has_medicinal_effect,Argemone albiflora Hornem,emetic
+303,has_medicinal_effect,Argemone albiflora Hornem,purgative
+303,treats_medical_condition,Argemone albiflora Hornem,jaundice
+303,treats_medical_condition,Argemone albiflora Hornem,skin ailments
+303,treats_medical_condition,Argemone albiflora Hornem,colds
+303,treats_medical_condition,Argemone albiflora Hornem,colics
+303,treats_medical_condition,Argemone albiflora Hornem,wounds
+303,has_medicinal_effect,Argemone alba F. Lestib.,Anthydropic
+303,has_medicinal_effect,Argemone alba F. Lestib.,cathartic
+303,has_medicinal_effect,Argemone alba F. Lestib.,diaphoretic
+303,has_medicinal_effect,Argemone alba F. Lestib.,diuretic
+303,has_medicinal_effect,Argemone alba F. Lestib.,demulcent
+303,has_medicinal_effect,Argemone alba F. Lestib.,emetic
+303,has_medicinal_effect,Argemone alba F. Lestib.,purgative
+303,treats_medical_condition,Corydalis solida subsp.slivenensis (Velen.) Hayek,memory dysfunction
+303,treats_medical_condition,Corydalis solida subsp.slivenensis (Velen.) Hayek,"gastric,duodenal ulcer"
+303,treats_medical_condition,Corydalis solida subsp.slivenensis (Velen.) Hayek,cardiac arrhythmia disease
+303,treats_medical_condition,Corydalis solida subsp.slivenensis (Velen.) Hayek,rheumatism
+303,treats_medical_condition,Corydalis solida subsp.slivenensis (Velen.) Hayek,dysmenorrhea
+325,has_medicinal_effect,Punica granatum L.,antioxidative
+325,has_medicinal_effect,Punica granatum L.,antimicrobial
+325,has_medicinal_effect,Punica granatum L.,anticarcinogenic
+325,has_medicinal_effect,Punica granatum L.,vasculoprotective
+325,has_medicinal_effect,Punica granatum L.,blood pressure regulation
+325,treats_medical_condition,Punica granatum L.,hypertension
+325,treats_medical_condition,Punica granatum L.,atherosclerosis
+325,treats_medical_condition,Punica granatum L.,vascular diseases
+325,treats_medical_condition,Punica granatum L.,hypertension
+325,treats_medical_condition,Punica granatum L.,coronary artery disease
+325,treats_medical_condition,Punica granatum L.,peripheral arterydisease
+325,treats_medical_condition,Punica granatum L.,tapewormparasites
+325,treats_medical_condition,Punica granatum L.,diabetes
+325,treats_medical_condition,Punica granatum L.,tapeworm infestation
+325,has_medicinal_effect,Punica granatum L.,antioxidative
+325,has_medicinal_effect,Punica granatum L.,anti-inflammatory
+325,has_medicinal_effect,Punica granatum L.,anti-hypertensive
+325,has_medicinal_effect,Punica granatum L.,antimicrobial
+325,has_medicinal_effect,Punica granatum L.,antiproliferative
+325,treats_medical_condition,Punica granatum L.,oncological diseases
+325,treats_medical_condition,Punica granatum L.,prostate cancer
+325,treats_medical_condition,Punica granatum L.,ultraviolet-inducedskin damage
+325,treats_medical_condition,Punica granatum L.,dental plaques
+325,has_medicinal_effect,Punica granatum L.,antibacterial
+325,has_medicinal_effect,Punica granatum L.,vasculoprotectiveeffects
+325,has_medicinal_effect,Punica granatum L.,influence endothelial cellfunction
+325,has_medicinal_effect,Punica granatum L.,reduce oxidative stress and plateletaggregation
+325,has_medicinal_effect,Punica granatum L.,diminish lipid uptake by macrophages
+325,has_medicinal_effect,Punica granatum L.,antifungal
+340,treats_medical_condition, S. vulgaris L.,toothaches
+340,treats_medical_condition, S. vulgaris L.,gastrointestinaldisorders
+340,treats_medical_condition, S. vulgaris L.,skin wounds
+340,has_medicinal_effect, S. vulgaris L.,antipyretic
+340,treats_medical_condition, S. vulgaris L.,sore mouth
+343,has_medicinal_effect,Chelidonium,anticancer
+343,has_medicinal_effect,Chelidonium,antimicrobial
+343,has_medicinal_effect,Chelidonium,antiviral
+343,treats_medical_condition,C. majus,skin ulcer
+343,treats_medical_condition,C. majus,aphrodisiacum
+343,has_medicinal_effect,C. majus,enhance sight
+343,treats_medical_condition,C. majus,jaundice
+343,treats_medical_condition,C. majus,hair overgrowth
+343,treats_medical_condition,C. majus,jaundice
+343,treats_medical_condition,C. majus,liver diseases
+343,treats_medical_condition,C. majus,jaundice
+343,treats_medical_condition,C. majus,colic
+343,treats_medical_condition,C. majus,wounds
+343,treats_medical_condition,C. majus,aching tooth
+343,treats_medical_condition,C. majus,pain
+343,treats_medical_condition,C. majus,jaundice
+343,treats_medical_condition,C. majus,colic
+343,treats_medical_condition,C. majus,stomach ache
+343,treats_medical_condition,C. majus,toothache
+343,treats_medical_condition,C. majus,Bodyulcers
+343,treats_medical_condition,C. majus,scabs
+343,treats_medical_condition,C. majus,eye diseases
+344,treats_medical_condition,C. majus,corns
+344,treats_medical_condition,C. majus,corns
+344,treats_medical_condition,C. majus,pustules
+344,treats_medical_condition,C. majus,dermatologicconditions
+344,treats_medical_condition,C. majus,eczema
+344,treats_medical_condition,C. majus,cuts
+344,treats_medical_condition,C. majus,ulcers
+344,has_medicinal_effect,C. majus,lighten freckles
+344,treats_medical_condition,C. majus,skin wounds
+344,treats_medical_condition,C. majus,skin irritation
+344,treats_medical_condition,C. majus,allergic rashes
+344,treats_medical_condition,C. majus,dermatitis
+344,treats_medical_condition,C. majus,boils
+344,treats_medical_condition,C. majus,blisters
+344,treats_medical_condition,C. majus,rashes
+344,treats_medical_condition,C. majus,scabies
+344,treats_medical_condition,C. majus,skineruptions
+344,treats_medical_condition,C. majus,psoriasis
+344,treats_medical_condition,C. majus,eczema
+344,treats_medical_condition,C. majus,hepatitis
+344,treats_medical_condition,C. majus,"inflammation of the gallbladder, bile duct"
+344,treats_medical_condition,C. majus,jaundice
+344,treats_medical_condition,C. majus,hepatitis
+344,treats_medical_condition,C. majus,Digestive Tract Parasites
+344,has_medicinal_effect,Chelidonium majus,depurative
+344,treats_medical_condition,Chelidonium majus,cancer
+344,treats_medical_condition,Chelidonium majus,cancer of lungs
+346,has_medicinal_effect,Chelidonium majus,Antiviral
+347,treats_medical_condition,C. majus,hepatobiliary disorders
+347,treats_medical_condition,C. majus,liver toxicity
+347,has_medicinal_effect,C. majus,antitumor
+352,treats_medical_condition,Chamaemelum nobile (L.) All.,gastrointestinal disorders
+352,treats_medical_condition,Chamaemelum nobile (L.) All.,dyspepsia
+352,treats_medical_condition,Chamaemelum nobile (L.) All.,flatulence
+352,treats_medical_condition,Chamaemelum nobile (L.) All.,nausea
+352,treats_medical_condition,Chamaemelum nobile (L.) All.,vomiting
+352,treats_medical_condition,Chamaemelum nobile (L.) All.,anorexia
+352,treats_medical_condition,Chamaemelum nobile (L.) All.,vomiting of pregnancy
+352,treats_medical_condition,Chamaemelum nobile (L.) All.,dysmenorrhoea
+352,treats_medical_condition,Chamaemelum nobile (L.) All.,gastrointestinal cramps
+352,treats_medical_condition,Chamaemelum nobile (L.) All.,flatulent dyspepsia
+352,has_medicinal_effect,Chamaemelum nobile (L.) All.,prevent indigestion
+352,has_medicinal_effect,Chamaemelum nobile (L.) All.,improveappetite
+352,has_medicinal_effect,Chamaemelum nobile (L.) All.,smoothmuscle-relaxant
+352,has_medicinal_effect,Chamaemelum nobile (L.) All., smoothmuscle-relaxant
+352,has_medicinal_effect,Chamaemelum nobile (L.) All.,antimicrobial
+352,treats_medical_condition,Chamaemelum nobile (L.) All.,bacterial and fungal strains
+352,has_medicinal_effect,Chamaemelum nobile (L.) All.,antifungal
+352,has_medicinal_effect,Chamaemelum nobile (L.) All.,anti-inflammatory
+352,has_medicinal_effect,Chamaemelum nobile (L.) All.,anti-inflammatory
+352,treats_medical_condition,Chamaemelum nobile (L.) All.,gastrointestinal problems
+352,has_medicinal_effect,Chamaemelum nobile (L.) All.,smooth muscle-relaxanteffect
+376,has_medicinal_effect,Prunus spinosa L.,vasoprotective
+376,has_medicinal_effect,Prunus spinosa L.,anti-inflammatory
+376,has_medicinal_effect,Prunus spinosa L.,diuretic
+376,has_medicinal_effect,Prunus spinosa L.,detoxifying
+376,has_medicinal_effect,Prunus spinosa L.,blood purifying
+376,has_medicinal_effect,Prunus spinosa L.,spasmolytic
+376,treats_medical_condition,Prunus spinosa L.,intestinal andrespiratory tract disorders
+376,treats_medical_condition,Prunus spinosa L.,cardiac complaints
+376,treats_medical_condition,Prunus spinosa L.,myocarditis
+376,treats_medical_condition,Prunus spinosa L.,cardiac neurosis
+376,treats_medical_condition,Prunus spinosa L.,atherosclerosis
+376,treats_medical_condition,Prunus spinosa L.,mild inflammation
+376,has_medicinal_effect,Prunus spinosa L.,astringent
+376,has_medicinal_effect,Prunus spinosa L.,heart-strengthening
+376,has_medicinal_effect,Prunus spinosa L.,anti-hypertensive
+376,has_medicinal_effect,P. spinosa,vasodilatory
+376,has_medicinal_effect,P. spinosa,vasoprotective
+376,has_medicinal_effect,P. spinosa,anti-atherogenic
+376,has_medicinal_effect,P. spinosa,antithrombotic
+376,has_medicinal_effect,P. spinosa,anti-apoptotic
+376,has_medicinal_effect,P. spinosa,antioxidant
+376,treats_medical_condition,P. spinosa,ischemic/reperfusioninjuries
+379,has_medicinal_effect,Prunus spinosa L.,antioxidant
+380,treats_medical_condition,P. spinosa,cardiovascular episodes
+380,has_medicinal_effect,P. spinosa,antioxidant
+380,has_medicinal_effect,P. spinosa,anti-atherosclerotic
+380,has_medicinal_effect,P. spinosa,decrease LDL oxidation
+380,has_medicinal_effect,P. spinosa,modulate lipidmetabolism
+380,has_medicinal_effect,P. spinosa,normalize LDL/HDL profile
+380,has_medicinal_effect,P. spinosa,improve capillarypermeability
+380,has_medicinal_effect,P. spinosa,vasoprotective effects
+380,has_medicinal_effect,P. spinosa,endothelial function
+380,has_medicinal_effect,P. spinosa,increase nitric oxide release
+380,has_medicinal_effect,P. spinosa,vasodilatory effects
+380,has_medicinal_effect,P. spinosa,anti-atherothrombotic effects in early stages of atherosclerosisdevelopment
+380,has_medicinal_effect,P. spinosa,anti-inflammatory
+380,has_medicinal_effect,P. spinosa,anti-atherogenic
+380,has_medicinal_effect,P. spinosa,anticoagulant
+380,has_medicinal_effect,P. spinosa,antiplatelet
+380,has_medicinal_effect,P. spinosa,abilityto influence endothelium
+382,has_medicinal_effect,Citrullus colocynthis,anticancer
+382,treats_medical_condition,Citrullus colocynthis,breast cancer
+382,has_medicinal_effect,Citrullus colocynthis,prevention of EMT of metastaticMDA-MB-231 cells
+383,has_medicinal_effect,Citrullus colocynth,anticancerpotential presumably by promoting apoptosis
+383,has_medicinal_effect,Citrullus colocynth,anti-metastatic
+383,has_medicinal_effect,Citrullus colocynth,prevention of cellproliferation
+383,has_medicinal_effect,Citrullus colocynth,induction of cell apoptosis
+383,has_medicinal_effect,Citrullus colocynth,reduction of EMT
+383,has_medicinal_effect,Citrullus colocynth,inhibition of cancer stemnessproperty in breast cancer cells
+383,has_medicinal_effect,Citrullus colocynth,block EMT
+383,has_medicinal_effect,Citrullus colocynth,prevention of cellmigration
+399,has_medicinal_effect,Lavandulaangustifolia,anxiolytic
+399,has_medicinal_effect,Lavandulaangustifolia,antidepressant-like

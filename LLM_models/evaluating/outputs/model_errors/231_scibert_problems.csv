@@ -1,0 +1,9 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,hypericum spp,hypericum spp,greecehypericum l,hypericum l,h. empetrifolium_skin inflammations,greecehypericum l_skin inflammations,hypericum spp_wound-healing,hypericum spp_wound-healing,hypericum spp_gastroprotective,hypericum l_gastroprotective
+1,h. perforatum,h. perforatum,e,,h. empetrifolium_wounds,greecehypericum l_wounds,h. empetrifolium_wound-healing,hypericum spp_wound healing,greecehypericum l_gastroprotective,hypericum l_antioxidant
+2,h. empetrifolium,h. empetrifolium,aly,,,,h. amblycalyx_wound-healing,h. empetrifolium_wound healing,greecehypericum l_antioxidant,hypericum l_antiangiogenetic
+3,h. triquetrifolium,h. triquetrifolium,us,,,,h. jovis_wound-healing,,greecehypericum l_antimicrobial,
+4,h. amblycalyx,h. amblycalyx,,,,,h. perforatum_wound-healing,,greecehypericum l_antiangiogenetic,
+5,h. jovis,h. jovis,,,,,h. triquetrifolium_wound-healing,,h. perforatum_wound healing,
+6,laurus nobilis l,laurus nobilis,,,,,,,,
+7,,laurus nobilis l,,,,,,,,

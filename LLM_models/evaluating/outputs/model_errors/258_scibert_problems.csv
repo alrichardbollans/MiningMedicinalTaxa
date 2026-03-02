@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,ferula as-safoetida l,ferula as-safoetida l,assafoetida l,,,macedoniaferula assafoetida l_swine flu,ferula assafoetida l_swine flu,,macedoniaferula assafoetida l_antiviral,ferula assafoetida l_antiviral
+1,viscum album l,viscum album l,macedoniaferula assafoetida l,,,macedoniaferula assafoetida l_swine,,,a_antiviral,
+2,ferula assafoetida l,ferula assafoetida l,a,,,a_swine flu,,,fo_antiviral,
+3,,,fo,,,fo_swine flu,,,ferula as-safoetida l_antiviral,
+4,,,asafoetida,,,asafoetida_swine,,,asafoetida_antiviral,
+5,,,asafoeti,,,asafoeti_swine flu,,,asafoeti_antiviral,
+6,,,safoetida,,,,,,safoetida_antiviral,

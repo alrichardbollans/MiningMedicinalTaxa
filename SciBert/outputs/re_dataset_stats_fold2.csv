@@ -1,0 +1,4 @@
+fold,label,count,pct
+2,has_medicinal_effect,1872,7.3
+2,no_relation,20656,80.0
+2,treats_medical_condition,3292,12.7

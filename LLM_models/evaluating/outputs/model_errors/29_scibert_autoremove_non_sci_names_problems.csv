@@ -1,0 +1,8 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,aloe vera,aloe vera,commiphora,mentha,aloe vera_skin conditions,,aloe vera_skin heath,boswellia serrate roxb. ex colebr_anti-inflammatory,althaea officinalis l_dem,echinacea_maintain immune system
+1,echinacea angustifolia dc,echinacea,,ginkgo,aloe vera_eczema on,,aloe vera_wound,,,mentha_eases digestion
+2,echinacea,echinacea angustifolia dc,,agnus castus,aloe vera_eczema,,echinacea_coughs,,,mentha_calm nerves
+3,trachyspermum ammi,trachyspermum,,senna,echinacea_infections,,echinacea_sore throat,,,ginkgo_circulatory problems
+4,boswellia serrate roxb. ex colebr,boswellia serrate roxb. ex colebr,,rhodiola,echinacea_common cold,,echinacea_colds,,,althaea officinalis l_demulcent
+5,boswellia,althaea officinalis l,,aspergillus,echinacea angustifolia dc_infections,,agnus castus_pms symptoms,,,althaea officinalis l_cough
+6,althaea officinalis l,,,eucalyptus,echinacea angustifolia dc_common cold,,senna_constipation,,,

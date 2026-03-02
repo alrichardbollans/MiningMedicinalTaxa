@@ -1,0 +1,34 @@
+,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
+0,scrophularia lucida,scrophularia lucida,boiss,s. striatavia,scrophularia_inflammatory diseases,scrophularia lucida_wound healing,scrophularia lucida_tumor,scrophularia oldhamii oliv_anti-inflammatory agent,scrophularia lucida_t,scrophularia grossheimii schischkin_diuretic
+1,scrophularia lucida l,scrophularia lucida l,,,scrophularia ningpoensis hemsl_febrile diseases,scrophularia lucida_node metastasis,scrophularia lucida l_cancer,scrophularia oldhamii oliv_antipyretic,scrophularia lucida_nvasive,scrophularianodosa l_wound healing
+2,scrophularia,s. lucida,,,scrophularia ningpoensis hemsl_constipation,scrophularia lucida_umor,scrophularia lucida l_leukemia,scrophularianodosa l_diuretic,scrophularia lucida_umor,scrophularia depauperata boiss_diuretic
+3,s. lucida l,scrophularia,,,scrophularia ningpoensis hemsl_exhaustion,scrophularia lucida_health disturbances,scrophularia ningpoensis hemsl_eruptions,s. oxysepala_anti-tumor,scrophularia lucida l_asa,scrophularia cryptophilaboiss. et. heldr. boiss_diuretic
+4,s. lucida,scrophularia ningpoensis hemsl,,,scrophularia ningpoensis hemsl_inflammatory diseases,scrophularia lucida_inflammatory disorders,scrophularia canina l_inflammatory disorders,,scrophularia lucida l_otoxic,scrophularia floribunda boiss. et. bal_diuretic
+5,scrophularia ningpoensis hemsl,scrophularia auriculata l,,,scrophularia ningpoensis hemsl_skin disorders,scrophularia lucida_skinailments,scrophularia canina l_wound healing,,scrophularia lucida l_t,
+6,scrophularia auriculata l,scrophularia canina l,,,scrophularia ningpoensis hemsl_conjunctivits,scrophularia lucida l_node metastasis,scrophularia canina l_skinailments,,s. lucida_inhibitory,
+7,scrophularia canina l,scrophularia variegata m. bieb,,,scrophularia auriculata l_inflammatory disorders,scrophularia ningpoensis hemsl_tions,scrophularia variegata m. bieb_inflammatory disorders,,scrophularia_otoxic,
+8,scrophularia variegata m. bieb,scrophularia striata boiss,,,scrophularia auriculata l_wound healing,scrophularia ningpoensis hemsl_st,scrophularia variegata m. bieb_wound healing,,scrophularia striata boiss_anti-inflammatory agent,
+9,scrophularia striata boiss,scrophularia oldhamii oliv,,,scrophularia auriculata l_skinailments,scrophularia ningpoensis hemsl_excessive,scrophularia variegata m. bieb_skinailments,,scrophularia striata boiss_antipyretic,
+10,scrophularia oldhamii oliv,scrophularia grossheimii schischkin,,,scrophularianodosa l_eczema,scrophularia ningpoensis hemsl_cough,scrophularia striata boiss_inflammatory disorders,,scrophularia striata boiss_anti-inflammatory,
+11,scrophularia grossheimii schischkin,scrophularianodosa l,,,scrophularianodosa l_psoriasis,scrophularia auriculata l_health disturbances,scrophularia striata boiss_wound healing,,scrophularia oldhamii oliv_diuretic,
+12,scrophularia depauperata boiss,scrophularia depauperata boiss,,,scrophularianodosa l_hemorrhoids,scrophularia canina l_health disturbances,scrophularia striata boiss_skinailments,,s. striata_remodeling,
+13,scrophularia cryptophilaboiss. et. heldr. boiss,scrophularia cryptophilaboiss. et. heldr. boiss,,,scrophularianodosa l_pruritus,scrophularianodosa l_wound healing,scrophularia depauperata boiss_eczema,,s. variegata_cytotoxic,
+14,scrophularia floribunda boiss. et. bal,scrophularia floribunda boiss. et. bal,,,scrophularianodosa l_eruptive skin diseases,scrophularia floribunda boiss. et. bal_remodeling,scrophularia depauperata boiss_psoriasis,,s. variegata_apoptotic,
+15,s. variegata,scrophularia species,,,s. oxysepala_breast cancer,boiss_remodeling,scrophularia depauperata boiss_hemorrhoids,,scrophularia oxysepala_cytotoxic,
+16,scrophularianodosa l,s. striata,,,,scrophularia species_remodeling,scrophularia depauperata boiss_pruritus,,scrophularia oxysepala_apoptotic,
+17,s. floribunda,scrophulariaorientalis l,,,,,scrophularia depauperata boiss_eruptive skin diseases,,s. floribunda_otoxic,
+18,scrophulariaorientalis l,s. variegata,,,,,scrophularia cryptophilaboiss. et. heldr. boiss_eczema,,s. lucida l_id,
+19,s. oxysepala,scrophularia oxysepala,,,,,scrophularia cryptophilaboiss. et. heldr. boiss_psoriasis,,s. lucida l_uppressing,
+20,,s. oxysepala,,,,,scrophularia cryptophilaboiss. et. heldr. boiss_hemorrhoids,,s. lucida l_inhibitory,
+21,,s. floribunda,,,,,scrophularia cryptophilaboiss. et. heldr. boiss_pruritus,,s. lucida l_c,
+22,,s. lucida l,,,,,scrophularia cryptophilaboiss. et. heldr. boiss_eruptive skin diseases,,s. lucida l_cid,
+23,,,,,,,scrophularia floribunda boiss. et. bal_eczema,,s. lucida l_up,
+24,,,,,,,scrophularia floribunda boiss. et. bal_psoriasis,,,
+25,,,,,,,scrophularia floribunda boiss. et. bal_hemorrhoids,,,
+26,,,,,,,scrophularia floribunda boiss. et. bal_pruritus,,,
+27,,,,,,,scrophularia floribunda boiss. et. bal_eruptive skin diseases,,,
+28,,,,,,,scrophularia_cancer,,,
+29,,,,,,,scrophularia_leukemia,,,
+30,,,,,,,s. striatavia_leukemia,,,
+31,,,,,,,s. variegata_cancer,,,
+32,,,,,,,s. floribunda_leukemia,,,
