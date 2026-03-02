@@ -13,7 +13,7 @@ def get_fine_tuned_model():
     # Get API keys
     from dotenv import load_dotenv
 
-    load_dotenv(os.path.join(repo_path, 'MedicinalPlantMining', 'LLM_models', '.env'))
+    load_dotenv(os.path.join(repo_path, 'MiningMedicinalTaxa', 'LLM_models', '.env'))
     out = {}
 
     hparams = {'temperature': 0}

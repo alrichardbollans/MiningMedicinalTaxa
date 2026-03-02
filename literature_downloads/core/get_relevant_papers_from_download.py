@@ -15,7 +15,7 @@ from useful_string_methods import remove_unneccesary_lines
 scratch_path = os.environ.get('KEWSCRATCHPATH')
 conda_path = os.environ.get('KEWDATAPATH') # A separate path for a non networked drive to handle a large number of files and directories
 
-core_project_path = os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'core')
+core_project_path = os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'core')
 core_download_path = os.path.join(core_project_path, 'downloads')
 extracted_core_path = os.path.join(conda_path, 'extracted_core', 'data-ext', 'resync', 'output', 'tmp')
 

@@ -173,8 +173,8 @@ if __name__ == '__main__':
 
     example_model_name = 'deepseek'
     repo_path = os.environ.get('KEWSCRATCHPATH')
-    base_text_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'text_files')
-    base_chunk_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'chunks', 'selected_chunks')
+    base_text_path = os.path.join(repo_path, 'MiningMedicinalTaxa', 'annotated_data', 'top_10_medicinal_hits', 'text_files')
+    base_chunk_path = os.path.join(repo_path, 'MiningMedicinalTaxa', 'annotated_data', 'top_10_medicinal_hits', 'chunks', 'selected_chunks')
 
     example_model_outputs = query_a_model(models[example_model_name][0], os.path.join(base_chunk_path, '4187756.txt_chunk_15.txt'),
                                           models[example_model_name][1],

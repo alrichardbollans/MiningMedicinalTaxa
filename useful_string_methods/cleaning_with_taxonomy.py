@@ -44,7 +44,7 @@ def _filter_name_list_using_genus_names(list_of_possible_sci_names: List[str]):
         return set([clean_strings(get_genus_from_full_name(x)) for x in l])
 
     cleaned_list = _tidy_list(list_of_possible_sci_names)
-    tidied_genus_name_file = os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists',
+    tidied_genus_name_file = os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'final_keywords_lists',
                                           'tidied_genus_names.txt')
     try:
         with open(tidied_genus_name_file,
@@ -55,7 +55,7 @@ def _filter_name_list_using_genus_names(list_of_possible_sci_names: List[str]):
 
         _genus_names = []
         for g in ['fungi', 'plant']:
-            with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists',
+            with open(os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'final_keywords_lists',
                                    g + '_genus_names_keywords.txt'),
                       'r', encoding="utf8") as file:
                 _genus_names.extend(file.read().splitlines())
@@ -126,7 +126,7 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
 
     cleaned_list = set([tidy_name(x) for x in list_of_possible_sci_names])
 
-    abbv_binomial_name_file = os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists',
+    abbv_binomial_name_file = os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'final_keywords_lists',
                                            'abbreviated_binomial_names.txt')
     try:
         with open(abbv_binomial_name_file,
@@ -137,7 +137,7 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
 
         _binomial_names = []
         for g in ['fungi', 'plant']:
-            with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists',
+            with open(os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'final_keywords_lists',
                                    g + '_species_binomials_keywords.txt'),
                       'r', encoding="utf8") as file:
                 _binomial_names.extend(file.read().splitlines())
@@ -149,7 +149,7 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
             for line in _abbreviated_binomial_names:
                 f.write(f"{line}\n")
 
-    cleaned_binomial_name_file = os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists',
+    cleaned_binomial_name_file = os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'final_keywords_lists',
                                            'cleaned_binomial_names.txt')
     try:
         with open(cleaned_binomial_name_file,
@@ -160,7 +160,7 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
 
         _binomial_names = []
         for g in ['fungi', 'plant']:
-            with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists',
+            with open(os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'final_keywords_lists',
                                    g + '_species_binomials_keywords.txt'),
                       'r', encoding="utf8") as file:
                 _binomial_names.extend(file.read().splitlines())

@@ -22,7 +22,7 @@ def get_kword_dict():
     word_dict = {}
 
     # Get list of txt files in folder
-    folder = os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists')
+    folder = os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'final_keywords_lists')
     txt_files = [f for f in os.listdir(folder) if f.endswith(_keyword_file_tag)]
 
     for f in txt_files:
@@ -43,7 +43,7 @@ def summarise_keywords(keyword_dict: dict, name: str):
         out_dict[query] = [len(keyword_dict[query])]
     out_df = pd.DataFrame.from_dict(out_dict, orient='index')
     out_df.loc['total'] = out_df.sum()
-    out_df.to_csv(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', 'summaries',
+    out_df.to_csv(os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'final_keywords_lists', 'summaries',
                                name + '_keywords_summary.csv'))
 
 def _generate_keywords():
@@ -51,13 +51,13 @@ def _generate_keywords():
     from wcvpy.wcvp_download import get_all_taxa, wcvp_columns
 
     words_to_exclude = [_x.lower().strip() for _x in
-                        pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'list_keywords.xlsx'),
+                        pd.read_excel(os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'inputs', 'list_keywords.xlsx'),
                                       sheet_name='Excluded')['Excluded keywords'].tolist()]
 
     ### Taxa specific
     # IPNI
     _ipni_df = pd.read_csv(
-        os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'ipni_flat.csv'))
+        os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'inputs', 'ipni_flat.csv'))
 
     _ipni_df = _ipni_df[_ipni_df['citation_type'] != 'miscauto']
 
@@ -67,7 +67,7 @@ def _generate_keywords():
 
     # PNAPS
     _pnaps_df = pd.read_csv(
-        os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'PNAPs.csv'))
+        os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'inputs', 'PNAPs.csv'))
     _pnaps_df['simplified_names'] = _pnaps_df['non_sci_name'].apply(lambda x: ' '.join(x.split()[:2]))
     _pnaps = _pnaps_df['simplified_names'].unique().tolist()
 
@@ -80,15 +80,15 @@ def _generate_keywords():
     _species_binomial_names = _species_binomial_names + _pnaps + _ipni_binomials
 
     # Fungi
-    _fungi_species_df = pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'FungusNames.xlsx'),
+    _fungi_species_df = pd.read_excel(os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'inputs', 'FungusNames.xlsx'),
                                       sheet_name='SpeciesNames')
     _fungi_species_binomial_names = _fungi_species_df['NAME OF FUNGUS'].dropna().unique().tolist()
 
-    _fungi_genus_df = pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'FungusNames.xlsx'),
+    _fungi_genus_df = pd.read_excel(os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'inputs', 'FungusNames.xlsx'),
                                     sheet_name='GenusNames')
     _fungi_genus_names = _fungi_genus_df['NAME OF FUNGUS'].dropna().unique().tolist()
 
-    _fungi_family_df = pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'FungusNames.xlsx'),
+    _fungi_family_df = pd.read_excel(os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'inputs', 'FungusNames.xlsx'),
                                      sheet_name='FamilyNames')
     _fungi_family_names = _fungi_family_df['NAME OF FUNGUS'].dropna().unique().tolist()
 
@@ -171,16 +171,16 @@ def _generate_keywords():
 
         return d
 
-    _product_keywords_df = pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'list_keywords.xlsx'),
+    _product_keywords_df = pd.read_excel(os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'inputs', 'list_keywords.xlsx'),
                                          sheet_name='Product related')
     _product_keyword_dict = _get_keywords_from_df(_product_keywords_df)
 
     _dual_product_keywords_df = pd.read_excel(
-        os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'list_keywords.xlsx'),
+        os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'inputs', 'list_keywords.xlsx'),
         sheet_name='Dual Keywords')
     dual_product_keywords_dict = _get_keywords_from_df(_dual_product_keywords_df)
 
-    _kingdom_kwords_df = pd.read_excel(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'inputs', 'list_keywords.xlsx'),
+    _kingdom_kwords_df = pd.read_excel(os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'inputs', 'list_keywords.xlsx'),
                                        sheet_name='Kingdom specific')
     _kingdom_specific_keyword_dict = _get_keywords_from_df(_kingdom_kwords_df)
     _kingdom_specific_keyword_dict['lifeform'] = get_varied_forms(_lifeforms)
@@ -195,7 +195,7 @@ def _generate_keywords():
     out_keyword_dict.update(dual_product_keywords_dict)
 
     for _fk in out_keyword_dict:
-        with open(os.path.join(scratch_path, 'MedicinalPlantMining', 'literature_downloads', 'final_keywords_lists', _fk + _keyword_file_tag),
+        with open(os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'final_keywords_lists', _fk + _keyword_file_tag),
                   'w') as f:
             for line in out_keyword_dict[_fk]:
                 f.write(f"{line}\n")

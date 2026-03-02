@@ -32,8 +32,8 @@ def get_filenames():
                 'en_ner_eco_biobert_results.csv': 'TaxoNERD',
                 'ft_gpt-4o-2024-08-06_personal__BHfNoQa3_results.csv': 'FTGPT',
                 'ft_gpt-4o-2024-08-06_personal__BHfNoQa3_autoremove_non_sci_names_results.csv': 'FTGPT_NS',
-                'scibert_autoremove_non_sci_names_results.csv' : 'SciBert_NS',
-                'scibert_results.csv': 'SciBert'}
+                'scibert_autoremove_non_sci_names_results.csv': 'SciBERT_NS',
+                'scibert_results.csv': 'SciBERT'}
     fileNames = os.listdir(os.path.join('outputs', 'full_eval'))
     model_names = [c[:c.index('_results.csv')] for c in renaming.keys() if 'autoremove_non_sci_names' not in c]
     return fileNames, renaming, model_names
@@ -125,12 +125,12 @@ def plots():
     #
     # #
     # ## NER
-    _models = ['Claude', 'DeepSeek', 'GNfinder', 'GPT', 'Llama', 'TaxoNERD', 'SciBert']
+    _models = ['Claude', 'DeepSeek', 'GNfinder', 'GPT', 'Llama', 'TaxoNERD', 'SciBERT']
     measures = ['Precise NER', 'Approx. NER']
     for_full_eval(_models, measures, 'NER')
     #
     # # ## RE
-    _models = ['Claude', 'DeepSeek', 'GPT', 'Llama', 'SciBert']
+    _models = ['Claude', 'DeepSeek', 'GPT', 'Llama', 'SciBERT']
     measures = ['Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
     for_full_eval(_models, measures, 'RE')
     for_full_eval(_models, ['Precise MedCond', 'Approx. MedCond'], 'MedCond')
@@ -143,7 +143,7 @@ def plots():
 
 if __name__ == '__main__':
     all_measures = ['Precise NER', 'Approx. NER', 'Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
-    all_models = ['Claude', 'DeepSeek', 'GNfinder', 'GPT', 'FTGPT', 'Llama', 'TaxoNERD', 'SciBert']
+    all_models = ['Claude', 'DeepSeek', 'GNfinder', 'GPT', 'FTGPT', 'Llama', 'TaxoNERD', 'SciBERT']
     metrics = ['f1', 'precision', 'recall']
 
     plots()

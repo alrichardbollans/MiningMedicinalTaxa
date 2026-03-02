@@ -47,6 +47,6 @@ def gnfinder_query_function(model, text_file: str, context_window: int, pkl_dump
 if __name__ == '__main__':
     # get_taxa_data_from_gnfinder_on_text(text="Pomatomus saltator and Parus major")
     repo_path = os.environ.get('KEWSCRATCHPATH')
-    base_text_path = os.path.join(repo_path, 'MedicinalPlantMining', 'annotated_data', 'top_10_medicinal_hits', 'text_files')
+    base_text_path = os.path.join(repo_path, 'MiningMedicinalTaxa', 'annotated_data', 'top_10_medicinal_hits', 'text_files')
 
     example_model_outputs = gnfinder_query_function(None, os.path.join(base_text_path, '4187756.txt'), None, 'gn_pkl.pkl')
