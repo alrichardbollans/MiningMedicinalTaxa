@@ -29,40 +29,36 @@ from transformers import AutoTokenizer, AutoModelForTokenClassification, AutoMod
 from peft import PeftModel
 
 from SciBert.config import Config
-from SciBert.IVb_train_relation import create_marked_text
+from SciBert.dII_train_relation import create_marked_text
 from LLM_models.structured_output_schema import Taxon, TaxaData
 
 
 #---Model loading----
 
 
-def load_models(fold: int) -> dict:
+def load_models_from_path(ner_path: str, re_path: str) -> dict:
     """
-    Load NER and RE models for a given fold.
+    Load NER and RE models from a local path or HuggingFace repo ID.
+
+    Accepts either a local directory path or a HF repo ID (e.g. 'Ficco84/ner-scibert-medicinal-plants').
+    For private HF repos, call huggingface_hub.login() before calling this function.
 
     Returns a dict with keys: ner_model, ner_tokenizer, re_model, re_tokenizer, device.
     """
-    ner_model_dir = Config.MODELS / f"ner_scibert_lora_fold{fold}"
-    re_model_dir  = Config.MODELS / f"re_scibert_lora_fold{fold}"
-
-    for path in [ner_model_dir, re_model_dir]:
-        if not path.exists():
-            raise FileNotFoundError(f"Model not found: {path}")
-
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-    ner_tokenizer = AutoTokenizer.from_pretrained(str(ner_model_dir))
+    ner_tokenizer = AutoTokenizer.from_pretrained(ner_path)
     ner_base = AutoModelForTokenClassification.from_pretrained(
         Config.MODEL_NAME,
         num_labels=len(Config.BIO_LABELS),
         id2label=Config.ID2LABEL,
         label2id=Config.LABEL2ID,
     )
-    ner_model = PeftModel.from_pretrained(ner_base, str(ner_model_dir))
+    ner_model = PeftModel.from_pretrained(ner_base, ner_path)
     ner_model.eval()
     ner_model = ner_model.to(device)
 
-    re_tokenizer = AutoTokenizer.from_pretrained(str(re_model_dir))
+    re_tokenizer = AutoTokenizer.from_pretrained(re_path)
     re_base = AutoModelForSequenceClassification.from_pretrained(
         Config.MODEL_NAME,
         num_labels=len(Config.RELATION_TYPES),
@@ -70,7 +66,7 @@ def load_models(fold: int) -> dict:
         label2id=Config.REL_LABEL2ID,
     )
     re_base.resize_token_embeddings(len(re_tokenizer))
-    re_model = PeftModel.from_pretrained(re_base, str(re_model_dir))
+    re_model = PeftModel.from_pretrained(re_base, re_path)
     re_model.eval()
     re_model = re_model.to(device)
 
@@ -83,6 +79,12 @@ def load_models(fold: int) -> dict:
     }
 
 
+def load_models(fold) -> dict:
+    """Load NER and RE models for a given fold from local path."""
+    return load_models_from_path(
+        str(Config.MODELS / f"ner_scibert_lora_fold{fold}"),
+        str(Config.MODELS / f"re_scibert_lora_fold{fold}"),
+    )
 
 #--- NER inference ----
 def predict_entities(text: str, models: dict) -> List[Dict]:
@@ -123,7 +125,11 @@ def predict_entities(text: str, models: dict) -> List[Dict]:
                 entities.append(current)
                 current = None
             continue
-
+      # Force-merge subword tokens into current entity
+        if tok.startswith('##'):
+            if current is not None:
+                current['end'] = max(current['end'], end)
+            continue
         label = Config.ID2LABEL[label_id]
 
         if label == 'O':

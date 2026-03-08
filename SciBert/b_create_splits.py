@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Create 5-fold cross-validation splits at DOCUMENT level.
+Create 5-fold cross-validation splits at chunk (task ID) level.
 Tuning set is always in training. Testing set is split into N folds.
 """
 
@@ -67,6 +67,7 @@ def main():
     tuning_ids = pd.read_csv(Config.TUNING_CSV)["id"].tolist()
     testing_ids = pd.read_csv(Config.TESTING_CSV)["id"].tolist()
     train_folds, test_folds = create_folds(tuning_ids, testing_ids, Config.N_FOLDS)
+
     save_folds(train_folds, test_folds, Config.SPLITS, Config.N_FOLDS, seed=42)
 
 

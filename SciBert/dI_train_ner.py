@@ -91,13 +91,14 @@ def build_ner_dataset(chunks: list, tokenizer, max_length: int) -> Dataset:
     return Dataset.from_list(records)
 
 
-def train_fold(fold: int) -> dict:
+def train_fold(fold: int, tag: str = None) -> dict:
     """Function for single NER for one fold it outputs dict for csv summary"""
     cfg = Config.NER_RE_FULL
+    tag = tag or f"fold{fold}"
 
-    train_file = Config.OUTPUTS / f"train_chunks_fold{fold}.jsonl"
-    model_dir  = Config.MODELS  / f"ner_scibert_lora_fold{fold}"
-    temp_dir   = Config.MODELS  / f"ner_fold{fold}_temp"
+    train_file = Config.OUTPUTS / f"train_chunks_{tag}.jsonl"
+    model_dir  = Config.MODELS  / f"ner_scibert_lora_{tag}"
+    temp_dir   = Config.MODELS  / f"ner_{tag}_temp"
 
     if not train_file.exists():
         raise FileNotFoundError(f"Training file not found: {train_file}")
@@ -162,7 +163,7 @@ def train_fold(fold: int) -> dict:
 
     # Complete log including loss, learning_rate, epoch, step
     log_df = pd.DataFrame(trainer.state.log_history)
-    log_df.insert(0, 'fold', fold)
+    log_df.insert(0, 'fold', tag)
     log_df.to_csv(Config.OUTPUTS / f"ner_training_log_fold{fold}.csv", index=False)
 
     if temp_dir.exists():
@@ -171,7 +172,7 @@ def train_fold(fold: int) -> dict:
     train_rows = [r for r in trainer.state.log_history if 'loss' in r]
 
     return {
-        'fold':             fold,
+        'fold':             tag,
         'train_chunks':     len(train_chunks),
         'final_train_loss': train_rows[-1]['loss'] if train_rows else None,
         'status': 'success',
