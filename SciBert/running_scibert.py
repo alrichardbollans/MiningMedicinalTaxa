@@ -97,6 +97,7 @@ def query_scibert(models: dict, txt_path: str,
         all_taxa.extend(taxadata.taxa)
 
     output = deduplicate_and_standardise_output_taxa_lists(all_taxa)
+    output.text = text
 
     if json_dump:
         with open(json_dump, 'w') as f:
