@@ -83,7 +83,7 @@ class Config:
     BIO_LABELS = ["O"]  # O = Outside (not an entity)
     for entity_type in ENTITY_TYPES:
         BIO_LABELS.extend([f"B-{entity_type}", f"I-{entity_type}"])
-    # This creats a map from labels to id and viceversa
+    # This creats a map from labels to id and viceversa see https://github.com/huggingface/course/blob/main/chapters/en/chapter7/2.mdx
     LABEL2ID = {label: i for i, label in enumerate(BIO_LABELS)}
     ID2LABEL = {i: label for label, i in LABEL2ID.items()}
 
