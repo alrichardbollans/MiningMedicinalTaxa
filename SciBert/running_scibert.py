@@ -23,8 +23,7 @@ from SciBert.a_chunk_data import build_sentence_windows
 from SciBert.config import Config
 from SciBert.e_prediction import predict_entities, predict_relations, convert_to_taxadata
 from LLM_models.structured_output_schema import TaxaData, deduplicate_and_standardise_output_taxa_lists
-from LLM_models.evaluating import clean_model_annotations_using_taxonomy_knowledge
-
+from LLM_models.loading_files import get_txt_from_file
 from SciBert.config import Config
 
 NER_MODEL_ID = Config.ROOT / 'models' / 'ner_scibert_lora_full'
@@ -84,8 +83,8 @@ def query_scibert(models: dict, txt_path: str,
     - json_dump: saves raw output (all extractions)
     Returns TaxaData.
     """
-    with open(txt_path, encoding='utf-8') as f:
-        text = f.read()
+
+    text = get_txt_from_file(txt_path)
 
     windows = build_sentence_windows(text, models['sent_tokenizer'], models['scibert_tokenizer'])
 
