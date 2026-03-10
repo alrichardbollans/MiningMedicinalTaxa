@@ -25,7 +25,7 @@ from SciBert.e_prediction import predict_entities, predict_relations, convert_to
 from LLM_models.structured_output_schema import TaxaData, deduplicate_and_standardise_output_taxa_lists
 from LLM_models.evaluating import clean_model_annotations_using_taxonomy_knowledge
 
-from SciBert.config import Config, ROOT
+from SciBert.config import Config
 
 NER_MODEL_ID = Config.ROOT / 'models' / 'ner_scibert_lora_full'
 RE_MODEL_ID  = Config.ROOT / 'models' / 're_scibert_lora_full'
