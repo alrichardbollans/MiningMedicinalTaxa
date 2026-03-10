@@ -27,8 +27,8 @@ from LLM_models.evaluating import clean_model_annotations_using_taxonomy_knowled
 
 from SciBert.config import Config, ROOT
 
-NER_MODEL_ID = ROOT / 'models' / 'ner_scibert_lora_full'
-RE_MODEL_ID  = ROOT / 'models' / 're_scibert_lora_full'
+NER_MODEL_ID = Config.ROOT / 'models' / 'ner_scibert_lora_full'
+RE_MODEL_ID  = Config.ROOT / 'models' / 're_scibert_lora_full'
 
 
 def load_scibert() -> dict:
