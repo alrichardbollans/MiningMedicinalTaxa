@@ -13,25 +13,26 @@ from pathlib import Path
 import json
 
 class Config:
-    # ---- env detection ----
-    @staticmethod
-    def detect_environment():
-        """Detect if running in Colab or local"""
-        if 'COLAB_GPU' in os.environ or 'COLAB_TPU_ADDR' in os.environ:
-            return 'colab'
-        return 'local'
-
-    ENV = detect_environment.__func__()
-
-    # --- paths ---
-    if ENV == 'colab':
-        # Colab: Google Drive
-        ROOT = Path("/content/drive/MyDrive/ScientificNamesNER/SciBert")
-    else:
-        # Local: parent root
-        ROOT = Path(__file__).resolve().parent
-
-    print(f"Environment: {ENV}")
+    # # ---- env detection ----
+    # @staticmethod
+    # def detect_environment():
+    #     """Detect if running in Colab or local"""
+    #     if 'COLAB_GPU' in os.environ or 'COLAB_TPU_ADDR' in os.environ:
+    #         return 'colab'
+    #     return 'local'
+    #
+    # ENV = detect_environment.__func__()
+    #
+    # # --- paths ---
+    # if ENV == 'colab':
+    #     # Colab: Google Drive
+    #     ROOT = Path("/content/drive/MyDrive/ScientificNamesNER/SciBert")
+    # else:
+    #     # Local: parent root
+    #     ROOT = Path(__file__).resolve().parent
+    #
+    # print(f"Environment: {ENV}")
+    ROOT = Path(__file__).resolve().parent
     print(f"Root directory: {ROOT}")
 
     # Input data
@@ -169,7 +170,7 @@ class Config:
         print("\n" + "=" * 60)
         print("CONFIGURATION SUMMARY")
         print("=" * 60)
-        print(f"Environment: {cls.ENV}")
+        #print(f"Environment: {cls.ENV}")
         print(f"Root directory: {cls.ROOT}")
         print(f"Model: {cls.MODEL_NAME}")
         print(f"Entity types: {len(cls.ENTITY_TYPES)}")
