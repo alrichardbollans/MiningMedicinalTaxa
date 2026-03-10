@@ -7,7 +7,7 @@ from useful_string_methods import clean_strings
 from wcvpy.wcvp_download import hybrid_characters
 
 from importlib import resources
-scratch_path = os.environ.get('KEWSCRATCHPATH') or str(resources.files('MiningMedicinalTaxa').joinpath('..').resolve())
+scratch_path = os.environ.get('KEWSCRATCHPATH') or str(resources.files('literature_downloads').joinpath('..').resolve())
 
 
 def abbreviate_sci_name(name1: str) -> str:
