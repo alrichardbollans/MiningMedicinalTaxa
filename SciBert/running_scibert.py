@@ -78,15 +78,11 @@ def load_scibert() -> dict:
 
 def query_scibert(models: dict, txt_path: str,
                   json_dump: str = None,
-                  json_dump_filtered: str = None,
                   run_re: bool = True) -> TaxaData:
     """
     Run SciBERT NER + RE on a text file.
-
     - json_dump: saves raw output (all extractions)
-    - json_dump_filtered: saves taxonomy-filtered output
-
-    Returns the filtered TaxaData.
+    Returns TaxaData.
     """
     with open(txt_path, encoding='utf-8') as f:
         text = f.read()
@@ -102,16 +98,9 @@ def query_scibert(models: dict, txt_path: str,
         all_taxa.extend(taxadata.taxa)
 
     output = deduplicate_and_standardise_output_taxa_lists(all_taxa)
-    output.text = text
 
     if json_dump:
         with open(json_dump, 'w') as f:
             json.dump(output.model_dump(mode='json'), f)
 
-    filtered = clean_model_annotations_using_taxonomy_knowledge(output)
-
-    if json_dump_filtered:
-        with open(json_dump_filtered, 'w') as f:
-            json.dump(filtered.model_dump(mode='json'), f)
-
-    return filtered
+    return output

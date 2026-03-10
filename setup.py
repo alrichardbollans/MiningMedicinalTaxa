@@ -8,7 +8,7 @@ setup(
     # Needed to actually package something
     packages=find_packages(),
     package_data={
-        'MiningMedicinalTaxa.literature_downloads': ['final_keywords_lists/*.txt'],
+        'literature_downloads': ['final_keywords_lists/*.txt'],
         'SciBert': ['models/ner_scibert_lora_full/*', 'models/re_scibert_lora_full/*'],
     },
     # added to incorporate taxonomy lists and scibert models
