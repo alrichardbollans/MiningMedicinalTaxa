@@ -25,8 +25,10 @@ from SciBert.e_prediction import predict_entities, predict_relations, convert_to
 from LLM_models.structured_output_schema import TaxaData, deduplicate_and_standardise_output_taxa_lists
 from LLM_models.evaluating import clean_model_annotations_using_taxonomy_knowledge
 
-NER_MODEL_ID = "FC84/ner-scibert-medicinal-plants"
-RE_MODEL_ID  = "FC84/re-scibert-medicinal-plants"
+from SciBert.config import Config, ROOT
+
+NER_MODEL_ID = ROOT / 'models' / 'ner_scibert_lora_full'
+RE_MODEL_ID  = ROOT / 'models' / 're_scibert_lora_full'
 
 
 def load_scibert() -> dict:
