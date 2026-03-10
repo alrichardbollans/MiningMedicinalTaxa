@@ -7,7 +7,11 @@ setup(
     author_email='38588335+alrichardbollans@users.noreply.github.com',
     # Needed to actually package something
     packages=find_packages(),
-    #package_data={'': ['*.txt', '*.bin', '*.json', '*.safetensors', '*.pt']}, # added to incorporate taxonomy lists and scibert models
+    package_data={
+        'literature_downloads': ['final_keywords_lists/*.txt'],
+        'SciBert': ['models/ner_scibert_lora_full/*', 'models/re_scibert_lora_full/*'],
+    },
+    # added to incorporate taxonomy lists and scibert models
 
     install_requires=[
         'langchain==0.3.22',
