@@ -7,6 +7,7 @@ setup(
     author_email='38588335+alrichardbollans@users.noreply.github.com',
     # Needed to actually package something
     packages=find_packages(),
+    package_data={'': ['*.txt']}, # added to incorporate taxonomy lists
 
     install_requires=[
         'langchain==0.3.22',
