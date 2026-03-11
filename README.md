@@ -45,7 +45,7 @@ from LLM_models.evaluating import clean_model_annotations_using_taxonomy_knowled
 
 models = load_scibert()
 
-model_output = query_scibert(models, 'test.txt',
+model_outputs = query_scibert(models, 'test.txt',
                        json_dump='output_scibert.json',
                        run_re=True)
 # If you want to clean outputs by removing annotations with unknown scientific names:
