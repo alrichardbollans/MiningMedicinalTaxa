@@ -11,10 +11,11 @@ from LLM_models.evaluating import NER_evaluation, RE_evaluation, check_errors, a
 from LLM_models.evaluating.gnfinder_baseline import gnfinder_query_function
 from LLM_models.running_models import query_a_model, get_input_size_limit, setup_models
 from LLM_models.structured_output_schema import TaxaData
-from LLM_models.checking_and_summarising_annotations import valid_chunk_annotation_info, get_all_human_annotations_for_chunk_id, get_chunk_filepath_from_chunk_id, \
-    repo_path, summarise_annotations
+from LLM_models.checking_and_summarising_annotations import valid_chunk_annotation_info, get_all_human_annotations_for_chunk_id, \
+    get_chunk_filepath_from_chunk_id, \
+    repo_path
 
-df_for_hparam_tuning = pd.read_csv(os.path.join('outputs', 'for_hparam_tuning.csv'))
+df_for_hparam_tuning = pd.read_csv(os.path.join(repo_path, 'MiningMedicinalTaxa', 'LLM_models', 'evaluating', 'outputs', 'for_hparam_tuning.csv'))
 
 
 def _get_chunks_to_tweak_with():
@@ -104,7 +105,7 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
         else:
             model_query_function(model, get_chunk_filepath_from_chunk_id(c_id),
                                  context_window, j_file)
-        with open(f'j_file', "r") as file__:
+        with open(f'{j_file}', "r") as file__:
             json_dict_ = json.load(file__)
             m_outputs = TaxaData.model_validate(json_dict_)
         return m_outputs
@@ -113,7 +114,8 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
     if autoremove_non_sci_names:
         model_tag += '_autoremove_non_sci_names'
     for chunk_id in chunk_list:
-        json_file = os.path.join('outputs', 'model_jsons', f'{str(chunk_id)}_{model_name}_outputs.json')
+        json_file = os.path.join(repo_path, 'MiningMedicinalTaxa', 'LLM_models', 'evaluating', 'outputs', 'model_jsons',
+                                 f'{str(chunk_id)}_{model_name}_outputs.json')
         if rerun:
             model_outputs = run(chunk_id, json_file)
         else:
@@ -129,7 +131,8 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
             model_outputs = clean_model_annotations_using_taxonomy_knowledge(model_outputs)
 
         human_annotations = get_all_human_annotations_for_chunk_id(chunk_id, check=True)
-        check_errors(model_outputs, human_annotations, os.path.join('outputs', 'model_errors'), chunk_id, model_tag)
+        check_errors(model_outputs, human_annotations,
+                     os.path.join(repo_path, 'MiningMedicinalTaxa', 'LLM_models', 'evaluating', 'outputs', 'model_errors'), chunk_id, model_tag)
 
         ### NER
         precise_NER_true_positives_in_ground_truths, precise_NER_true_positives_in_model_annotations, precise_NER_false_positives, precise_NER_false_negatives = NER_evaluation(
@@ -196,15 +199,10 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
                                                                                                 all_precise_NER_true_positives_in_model_annotations,
                                                                                                 all_precise_NER_false_positives,
                                                                                                 all_precise_NER_false_negatives)
-    print(f'Precise NER')
-    print(f'precision: {precise_NER_precision}, recall {precise_NER_recall}, f1:{precise_NER_f1_score}')
 
     approximate_NER_precision, approximate_NER_recall, approximate_NER_f1_score = get_metrics_from_tp_fp_fn(
         all_approx_NER_true_positives_in_ground_truths, all_approx_NER_true_positives_in_model_annotations, all_approx_NER_false_positives,
         all_approx_NER_false_negatives)
-
-    print(f'Approximate NER')
-    print(f'precision:{approximate_NER_precision}, recall:{approximate_NER_recall}, f1:{approximate_NER_f1_score}')
 
     ### Medical Conditions
     preciseMedCondprecision, preciseMedCondrecall, preciseMedCondf1_score = get_metrics_from_tp_fp_fn(
@@ -212,15 +210,10 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
         all_preciseMedCondtrue_positives_in_model_annotations,
         all_preciseMedCondfalse_positives,
         all_preciseMedCondfalse_negatives)
-    print(f'Precise MedCond')
-    print(f'precision: {preciseMedCondprecision}, recall {preciseMedCondrecall}, f1:{preciseMedCondf1_score}')
 
     approximateMedCondprecision, approximateMedCondrecall, approximateMedCondf1_score = get_metrics_from_tp_fp_fn(
         all_approxMedCondtrue_positives_in_ground_truths, all_approxMedCondtrue_positives_in_model_annotations, all_approxMedCondfalse_positives,
         all_approxMedCondfalse_negatives)
-
-    print(f'Approximate MedCond')
-    print(f'precision:{approximateMedCondprecision}, recall:{approximateMedCondrecall}, f1:{approximateMedCondf1_score}')
 
     ### Medicinal Effects
     preciseMedEffprecision, preciseMedEffrecall, preciseMedEfff1_score = get_metrics_from_tp_fp_fn(
@@ -228,22 +221,33 @@ def assess_model_on_chunk_list(chunk_list, model, context_window, out_dir, rerun
         all_preciseMedEfftrue_positives_in_model_annotations,
         all_preciseMedEfffalse_positives,
         all_preciseMedEfffalse_negatives)
-    print(f'Precise MedEff')
-    print(f'precision: {preciseMedEffprecision}, recall {preciseMedEffrecall}, f1:{preciseMedEfff1_score}')
 
     approximateMedEffprecision, approximateMedEffrecall, approximateMedEfff1_score = get_metrics_from_tp_fp_fn(
         all_approxMedEfftrue_positives_in_ground_truths, all_approxMedEfftrue_positives_in_model_annotations, all_approxMedEfffalse_positives,
         all_approxMedEfffalse_negatives)
 
-    print(f'Approximate MedEff')
-    print(f'precision:{approximateMedEffprecision}, recall:{approximateMedEffrecall}, f1:{approximateMedEfff1_score}')
+    ## All Relations
+    preciseAllRelprecision, preciseAllRelrecall, preciseAllRelf1_score = get_metrics_from_tp_fp_fn(
+        all_preciseMedEfftrue_positives_in_ground_truths + all_preciseMedCondtrue_positives_in_ground_truths,
+        all_preciseMedEfftrue_positives_in_model_annotations + all_preciseMedCondtrue_positives_in_model_annotations,
+        all_preciseMedEfffalse_positives + all_preciseMedCondfalse_positives,
+        all_preciseMedEfffalse_negatives + all_preciseMedCondfalse_negatives)
+
+    approximateAllRelprecision, approximateAllRelrecall, approximateAllRelf1_score = get_metrics_from_tp_fp_fn(
+        all_approxMedEfftrue_positives_in_ground_truths + all_approxMedCondtrue_positives_in_ground_truths,
+        all_approxMedEfftrue_positives_in_model_annotations + all_approxMedCondtrue_positives_in_model_annotations,
+        all_approxMedEfffalse_positives + all_approxMedCondfalse_positives,
+        all_approxMedEfffalse_negatives + all_approxMedCondfalse_negatives)
 
     out_df = {'Precise NER': [precise_NER_precision, precise_NER_recall, precise_NER_f1_score],
               'Approx. NER': [approximate_NER_precision, approximate_NER_recall, approximate_NER_f1_score],
               'Precise MedCond': [preciseMedCondprecision, preciseMedCondrecall, preciseMedCondf1_score],
               'Approx. MedCond': [approximateMedCondprecision, approximateMedCondrecall, approximateMedCondf1_score],
               'Precise MedEff': [preciseMedEffprecision, preciseMedEffrecall, preciseMedEfff1_score],
-              'Approx. MedEff': [approximateMedEffprecision, approximateMedEffrecall, approximateMedEfff1_score]}
+              'Approx. MedEff': [approximateMedEffprecision, approximateMedEffrecall, approximateMedEfff1_score],
+              'Precise All Relations': [preciseAllRelprecision, preciseAllRelrecall, preciseAllRelf1_score],
+              'Approx. All Relations': [approximateAllRelprecision, approximateAllRelrecall, approximateAllRelf1_score],
+              }
 
     out_df = pd.DataFrame(out_df, index=['precision', 'recall', 'f1'])
     out_df.to_csv(os.path.join(out_dir, model_tag + '_results.csv'))
@@ -256,6 +260,7 @@ def basic_plot_results(file_to_plot, out_dir, model_name, measures=None, tag=Non
     import seaborn as sns
 
     out_df = pd.read_csv(file_to_plot, index_col=0)
+    out_df = out_df.drop(columns=['Precise All Relations', 'Approx. All Relations'])
     rename_dict = {}
     for c in out_df.columns:
         rename_dict[c] = c.replace('NER', 'SNER').replace('Precise', 'Exact').replace('Approx.', 'Relaxed')
@@ -337,9 +342,9 @@ def full_evaluation(rerun: bool = True):
         all_models = setup_models()
     else:
         all_models = {'gpt4o': [Mplaceholder(model_name='gpt-4o-2024-08-06'), None],
-                  'deepseek': [Mplaceholder(model_name='deepseek-chat'), None],
-                  'claude': [Mplaceholder(model_name='claude-3-5-sonnet-20241022'), None],
-                  'llama': [Mplaceholder(model_name='llama-v3p1-405b-instruct'), None]}
+                      'deepseek': [Mplaceholder(model_name='deepseek-chat'), None],
+                      'claude': [Mplaceholder(model_name='claude-3-5-sonnet-20241022'), None],
+                      'llama': [Mplaceholder(model_name='llama-v3p1-405b-instruct'), None]}
 
     for m in all_models:
         print(m)
@@ -364,7 +369,6 @@ def main():
     # assessing_hparams(rerun=True)
     full_evaluation(rerun=False)
     # full_eval_gnfinder(rerun=False)
-
 
 
 if __name__ == '__main__':
