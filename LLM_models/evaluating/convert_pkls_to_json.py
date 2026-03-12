@@ -7,9 +7,7 @@ from LLM_models.loading_files import get_txt_from_file
 from LLM_models.structured_output_schema import TaxaData
 
 
-def main():
-    in_dir_name = 'outputs/model_pkls'
-    out_dir_name = 'outputs/model_jsons'
+def convert_pkls(in_dir_name: str, out_dir_name: str):
     for file_name in os.listdir(in_dir_name):
         if file_name.endswith(".pickle"):
             json_file_name = file_name.replace('.pickle', '.json')
@@ -50,6 +48,10 @@ def main():
                         if read_field is not None or pkled_field is not None:
                             if read_field == read_field and pkled_field == pkled_field:
                                 assert read_field == pkled_field
+
+
+def main():
+    convert_pkls('outputs/model_pkls', 'outputs/model_jsons')
 
 
 if __name__ == '__main__':
