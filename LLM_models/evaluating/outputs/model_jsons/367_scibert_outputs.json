@@ -1,0 +1,117 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "ajuga laxmannii (murray) benth",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "vivoanti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "ajuga laxmannii",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "galactagogue",
+        "antioxidant",
+        "galactogogue",
+        "anti-inflammatory",
+        "antimicrobial",
+        "anti-inflammatory agents"
+      ]
+    },
+    {
+      "scientific_name": "benth",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "galactogogue"
+      ]
+    },
+    {
+      "scientific_name": "a. laxmannii",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antiradical",
+        "anti-oxidative stress",
+        "antioxidant",
+        "antifungal",
+        "anti-inflammatory",
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "c. albicans",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "p. funiculosum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "ajuga laxmanniiintro",
+      "medical_conditions": [
+        "ases"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "antimicrobial",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "ajuga",
+      "medical_conditions": [
+        "pain",
+        "malaria",
+        "diabetes",
+        "fever",
+        "inflammation",
+        "high blood pressure"
+      ],
+      "medicinal_effects": [
+        "hepatoprotective",
+        "ntimalarial",
+        "cardiotonic",
+        "antioxidant",
+        "anti-arthritis",
+        "antipyretic",
+        "antifungal",
+        "anti-inflammatory",
+        "antihelmintic",
+        "anabolic",
+        "pharmacological",
+        "antibacterial",
+        "analgesic",
+        "hypoglycemic"
+      ]
+    },
+    {
+      "scientific_name": "murray",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "easca",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "galactogogue"
+      ]
+    },
+    {
+      "scientific_name": "a. laxmannii(murray) benth",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antiprotozoal",
+        "anti-inflammatory"
+      ]
+    }
+  ],
+  "text": null
+}

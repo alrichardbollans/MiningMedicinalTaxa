@@ -1,0 +1,210 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "scrophularia lucida",
+      "medical_conditions": [
+        "inflammatory disorders",
+        "health disturbances",
+        "umor",
+        "node metastasis",
+        "skinailments",
+        "wound healing"
+      ],
+      "medicinal_effects": [
+        "nvasive",
+        "umor",
+        "t"
+      ]
+    },
+    {
+      "scientific_name": "scrophularia lucida l",
+      "medical_conditions": [
+        "node metastasis"
+      ],
+      "medicinal_effects": [
+        "t",
+        "asa",
+        "otoxic"
+      ]
+    },
+    {
+      "scientific_name": "s. lucida",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "inhibitory"
+      ]
+    },
+    {
+      "scientific_name": "scrophularia",
+      "medical_conditions": [
+        "inflammatory diseases"
+      ],
+      "medicinal_effects": [
+        "otoxic"
+      ]
+    },
+    {
+      "scientific_name": "scrophularia ningpoensis hemsl",
+      "medical_conditions": [
+        "constipation",
+        "cough",
+        "st",
+        "skin disorders",
+        "tions",
+        "febrile diseases",
+        "conjunctivits",
+        "exhaustion",
+        "inflammatory diseases",
+        "excessive"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "scrophularia auriculata l",
+      "medical_conditions": [
+        "inflammatory disorders",
+        "health disturbances",
+        "wound healing",
+        "skinailments"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "scrophularia canina l",
+      "medical_conditions": [
+        "health disturbances"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "scrophularia variegata m. bieb",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "scrophularia striata boiss",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "anti-inflammatory agent",
+        "antipyretic"
+      ]
+    },
+    {
+      "scientific_name": "scrophularia oldhamii oliv",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "diuretic",
+        "anti-inflammatory agent",
+        "antipyretic"
+      ]
+    },
+    {
+      "scientific_name": "scrophularia grossheimii schischkin",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "scrophularianodosa l",
+      "medical_conditions": [
+        "eruptive skin diseases",
+        "psoriasis",
+        "eczema",
+        "hemorrhoids",
+        "wound healing",
+        "pruritus"
+      ],
+      "medicinal_effects": [
+        "diuretic"
+      ]
+    },
+    {
+      "scientific_name": "scrophularia depauperata boiss",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "scrophularia cryptophilaboiss. et. heldr. boiss",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "scrophularia floribunda boiss. et. bal",
+      "medical_conditions": [
+        "remodeling"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "boiss",
+      "medical_conditions": [
+        "remodeling"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "scrophularia species",
+      "medical_conditions": [
+        "remodeling"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s. striata",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "remodeling"
+      ]
+    },
+    {
+      "scientific_name": "scrophulariaorientalis l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s. variegata",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "cytotoxic",
+        "apoptotic"
+      ]
+    },
+    {
+      "scientific_name": "scrophularia oxysepala",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "cytotoxic",
+        "apoptotic"
+      ]
+    },
+    {
+      "scientific_name": "s. oxysepala",
+      "medical_conditions": [
+        "breast cancer"
+      ],
+      "medicinal_effects": [
+        "anti-tumor"
+      ]
+    },
+    {
+      "scientific_name": "s. floribunda",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "otoxic"
+      ]
+    },
+    {
+      "scientific_name": "s. lucida l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "c",
+        "id",
+        "up",
+        "uppressing",
+        "cid",
+        "inhibitory"
+      ]
+    }
+  ],
+  "text": null
+}

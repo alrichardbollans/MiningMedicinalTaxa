@@ -1,0 +1,45 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "veronica officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hypericum perforatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. chamaedry",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "veronica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. chamaedrys",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

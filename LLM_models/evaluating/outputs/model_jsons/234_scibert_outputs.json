@@ -1,0 +1,73 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "p. zombamontana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "eugenia",
+      "medical_conditions": [
+        "imi",
+        "a",
+        "itis"
+      ],
+      "medicinal_effects": [
+        "bial"
+      ]
+    },
+    {
+      "scientific_name": "syzygium (myrtaceae) species",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "imi",
+        "a",
+        "bial"
+      ]
+    },
+    {
+      "scientific_name": "syzygium (myrtaceae",
+      "medical_conditions": [
+        "itis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "syzygium legatii",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "syzygium gerrardii",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s. gerrardii",
+      "medical_conditions": [
+        "mastitis"
+      ],
+      "medicinal_effects": [
+        "",
+        "ococcal",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "linum usitatissimum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cannabis sativa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lupinus albus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

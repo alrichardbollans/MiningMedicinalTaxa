@@ -1,0 +1,106 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "hypericum perforatum l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "artemisia absinthium l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "allium sativum l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "gentiana lutea l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "levisticum officinalew.d.j. koch",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "vinca minor l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "viburnum opulus l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "achillea millefolium l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "angelica archangelica l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "carlina acaulisl",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "beschad",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "impressus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hyoscyamus niger",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "conium maculatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "artemisia absinthium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "brassica oleracea",
+      "medical_conditions": [
+        "infection",
+        "pain",
+        "fever"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "beta vulgaris",
+      "medical_conditions": [
+        "infection"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "allium cepa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "allium sativum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

@@ -1,0 +1,60 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "chelidonium majus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antiviral",
+        "antimicrobial",
+        "immunomodulatory",
+        "ulatory"
+      ]
+    },
+    {
+      "scientific_name": "chelidonium majusfi",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antiviral",
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "c. majuslatex",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antiviral",
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "c. majus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antiviral",
+        "antibacterial",
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "um",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chelidonium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "us",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

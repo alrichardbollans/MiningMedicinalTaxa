@@ -1,0 +1,30 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "hypericum perforatum l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hyperici oleum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hypericum perforatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "doctoral dissertation",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "doctoral",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

@@ -1,0 +1,234 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "aronia melanocarpa (michx.) elliott",
+      "medical_conditions": [
+        "intestinal",
+        "disorders"
+      ],
+      "medicinal_effects": [
+        "antispasmodic"
+      ]
+    },
+    {
+      "scientific_name": "zingiber zerumb",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "zingiber zerumbet",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "combretum collinum fresen",
+      "medical_conditions": [
+        "inflammatory disorders",
+        "pain"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "piliostigma thonningii (schum.) milne-redh",
+      "medical_conditions": [
+        "musculoskeletal disorders",
+        "pain"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "ficus natalensis hoechst.p",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ficus natalensis hoechst",
+      "medical_conditions": [
+        "musculoskeletal disorders",
+        "pain"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "fadogia agrestis schweinf. ex hiern",
+      "medical_conditions": [
+        "musculoskeletal disorders",
+        "pain"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "africana guill. & perr",
+      "medical_conditions": [
+        "musculoskeletal disorders",
+        "pain"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "chasmanthera dependens hoechst",
+      "medical_conditions": [
+        "musculoskeletal disorders",
+        "pain"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "entada africana guill. & perr",
+      "medical_conditions": [
+        "musculoskeletal disorders",
+        "pain"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "c. collinum",
+      "medical_conditions": [
+        "inflammatory diseases"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "p. thonningii",
+      "medical_conditions": [
+        "inflammatory diseases"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "f. natalensis",
+      "medical_conditions": [
+        "inflammatory diseases"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "p. thonningi",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sideritis genus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sideritis species",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sideritis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "greece s. euboea heldr",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cyprus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s. perfoliata l. subsp. perfoliata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s. cypria post",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s. euboea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s. perfoliata subsp. perfoliata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s. cypria",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "schisandra rubriflora",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "schisandra chinensis (turcz.) baill",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "schisandra rubriflora rehder & e.h.wilson",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "der",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h.wilson",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s. rubriflora",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "crocus sativus l",
+      "medical_conditions": [
+        "wound"
+      ],
+      "medicinal_effects": [
+        "healing"
+      ]
+    }
+  ],
+  "text": null
+}

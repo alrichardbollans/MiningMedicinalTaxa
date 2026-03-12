@@ -1,0 +1,258 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "lavandula angustifolia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "melissa officinalis subsp. officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lavandula angustifolia mill",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "melissa officinalis l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lavandula",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "l. angustifolia",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "oxygenase",
+        "e",
+        "antioxidant",
+        "antimicrobial",
+        "therapeutic"
+      ]
+    },
+    {
+      "scientific_name": "melissa officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "p. officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lemon balm",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "issa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "iss",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "m.officinalis subsp. officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "oxygenase"
+      ]
+    },
+    {
+      "scientific_name": "pistacia lentiscus var. chia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "matricaria pubescens",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "matricaria recutita",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "greecematricaria pubescens (desf",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "greecematricaria pubescens (desf.) schultz",
+      "medical_conditions": [
+        "dysmenorrhea",
+        "coughs",
+        "allergies",
+        "toothaches",
+        "rheumatic",
+        "muscular pains",
+        "scorpion stings",
+        "ocular affections",
+        "dehydration"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "uro",
+      "medical_conditions": [
+        "mild gastrointestinal problems",
+        "ulcers",
+        "irritated skin and mucosae",
+        "inflammations of mouth and throat",
+        "common cold"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "m. recutita l",
+      "medical_conditions": [
+        "mild gastrointestinal problems",
+        "ulcers",
+        "irritated skin and mucosae",
+        "inflammations of mouth and throat",
+        "common cold"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "matricaria sp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "m. pubescens",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "m. recutita",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "protective",
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "aster",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "greece",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "matricaria recutita l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "achillea",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial",
+        "antioxidant",
+        "healing"
+      ]
+    },
+    {
+      "scientific_name": "achillea crithmifolia waldst. & kit",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "a. grandifolia friv",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "a. millefolium l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "thymus thracicus velen",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antiplatelet"
+      ]
+    },
+    {
+      "scientific_name": "thymus thracicus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "human serum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "human serum albumin",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antiplatelet"
+      ]
+    },
+    {
+      "scientific_name": "sauromatum venosum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "dryand. ex aiton",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sauromatum venosum (dryand. ex aiton) kunth",
+      "medical_conditions": [
+        "cancerous diseases",
+        "pain",
+        "inflammation"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "s. venosum",
+      "medical_conditions": [
+        "cancerous diseases"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    }
+  ],
+  "text": null
+}

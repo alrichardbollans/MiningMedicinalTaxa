@@ -1,0 +1,253 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "achillea moschata wulfen",
+      "medical_conditions": [
+        "against",
+        "the lower limbs",
+        "lower",
+        "ulcers healing",
+        "gynaecological infections caused",
+        "gynaecological infections",
+        "limbs",
+        "intestinal swelling",
+        "bovine"
+      ],
+      "medicinal_effects": [
+        "hypotensive",
+        "digestive",
+        "digestive purposes",
+        "anti-inflammatory",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "candida spp",
+      "medical_conditions": [
+        "against",
+        "digestive purposes",
+        "gynaecological infections",
+        "limbs",
+        "intestinal swelling",
+        "bovine"
+      ],
+      "medicinal_effects": [
+        "hypotensive",
+        "lower",
+        "ulcers healing",
+        "anti-inflammatory",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "",
+      "medical_conditions": [
+        "against",
+        "digestive purposes",
+        "gynaecological infections",
+        "intestinal swelling",
+        "bovine"
+      ],
+      "medicinal_effects": [
+        "hypotensive",
+        "lower",
+        "ulcers healing",
+        "anti-inflammatory",
+        "limbs",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "c",
+      "medical_conditions": [
+        "gynaecological infections caused",
+        "the lower limbs",
+        "intestinal swelling",
+        "analgesic"
+      ],
+      "medicinal_effects": [
+        "hypotensive",
+        "anti-inflammatory",
+        "digestive",
+        "ulcers healing"
+      ]
+    },
+    {
+      "scientific_name": "and",
+      "medical_conditions": [
+        "gynaecological infections caused",
+        "intestinal swelling",
+        "digestive",
+        "analgesic"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "hypotensive",
+        "ulcers healing"
+      ]
+    },
+    {
+      "scientific_name": "ida spp",
+      "medical_conditions": [
+        "gynaecological infections caused",
+        "intestinal swelling"
+      ],
+      "medicinal_effects": [
+        "hypotensive",
+        "the lower limbs",
+        "digestive",
+        "ulcers healing",
+        "anti-inflammatory",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "malva sylvestris l",
+      "medical_conditions": [
+        "cold",
+        "wounds on bovine paws",
+        "sore throat",
+        "allergies",
+        "acne reactions"
+      ],
+      "medicinal_effects": [
+        "emollient",
+        "s",
+        "expectorant",
+        "purifying",
+        "relaxing",
+        "disinfectant",
+        "soothing bath"
+      ]
+    },
+    {
+      "scientific_name": "thymus pulegioides l",
+      "medical_conditions": [
+        "sore throat",
+        "allergies",
+        "cold",
+        "acne reactions"
+      ],
+      "medicinal_effects": [
+        "emollient",
+        "s",
+        "expectorant",
+        "purifying",
+        "relaxing",
+        "disinfectant",
+        "soothing bath"
+      ]
+    },
+    {
+      "scientific_name": "achillea millefolium l",
+      "medical_conditions": [
+        "cold",
+        "footbaths",
+        "menopause symptoms",
+        "wounds on bovine paws",
+        "sore throat"
+      ],
+      "medicinal_effects": [
+        "disinfectant"
+      ]
+    },
+    {
+      "scientific_name": "erra glacialis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "mentha spicata l",
+      "medical_conditions": [
+        "acute respiratory diseases",
+        "infections",
+        "diarrhoea",
+        "colic"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "matricaria chamomilla l",
+      "medical_conditions": [
+        "acute respiratory diseases",
+        "infections",
+        "colic",
+        "acute"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tilia tomentosa moench",
+      "medical_conditions": [
+        "acute respiratory diseases",
+        "infections",
+        "acute",
+        "intestinal worms"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cucurbita pepo l",
+      "medical_conditions": [
+        "acute respiratory diseases",
+        "dermatitis",
+        "intestinal worms"
+      ],
+      "medicinal_effects": [
+        "acute respiratory diseases"
+      ]
+    },
+    {
+      "scientific_name": "viola tricolor l",
+      "medical_conditions": [
+        "acute respiratory diseases",
+        "dermatitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "triticum aestivum l",
+      "medical_conditions": [
+        "colics",
+        "dermatitis",
+        "skin verruca"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "anethum graveolens l",
+      "medical_conditions": [
+        "colics",
+        "acute hepatitis",
+        "dermatitis",
+        "skin verruca"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chelidonium majus l",
+      "medical_conditions": [
+        "skin verruca",
+        "acute hepatitis",
+        "diseases",
+        "oxyuriasis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "origanum dictamnus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "intestine",
+        "relaxing effect",
+        "relaxing"
+      ]
+    },
+    {
+      "scientific_name": "greeceoriganum dictamnus l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

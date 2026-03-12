@@ -1,0 +1,328 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "psyllium ispaghula",
+      "medical_conditions": [
+        "horses",
+        "vitiligo",
+        "problems",
+        "sand",
+        "acne",
+        "stomach troubles",
+        "joints"
+      ],
+      "medicinal_effects": [
+        "antibacterial mouth wash"
+      ]
+    },
+    {
+      "scientific_name": "a",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "spirulina platensis",
+      "medical_conditions": [
+        "malnutrition"
+      ],
+      "medicinal_effects": [
+        "antibacterial mouth wash",
+        "antibacterial",
+        "acne"
+      ]
+    },
+    {
+      "scientific_name": "citrus aurantium",
+      "medical_conditions": [
+        "malnutrition"
+      ],
+      "medicinal_effects": [
+        "weight management"
+      ]
+    },
+    {
+      "scientific_name": "colostrum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "echinacea purpurea",
+      "medical_conditions": [
+        "prostate problems",
+        "sore throat",
+        "urinary tract infections",
+        "impotence"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sabal serrulata",
+      "medical_conditions": [
+        "prostate problems",
+        "impotence"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "boswellia",
+      "medical_conditions": [
+        "prostate problems",
+        "arthrosis",
+        "impotence"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "vaccinium myrtillus",
+      "medical_conditions": [
+        "arthrosis",
+        "eye diseases",
+        "night vision"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tagetes erecta",
+      "medical_conditions": [
+        "arthrosis",
+        "eye diseases",
+        "night vision"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "symphtytum offi cinalis",
+      "medical_conditions": [
+        "bruises",
+        "cuts",
+        "vision",
+        "eye health",
+        "muscles",
+        "diseases",
+        "joints"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "annona muricata",
+      "medical_conditions": [
+        "bruises",
+        "muscles",
+        "joints",
+        "cuts"
+      ],
+      "medicinal_effects": [
+        "immunity",
+        "enhancement",
+        "health"
+      ]
+    },
+    {
+      "scientific_name": "psyllium",
+      "medical_conditions": [
+        "leuk"
+      ],
+      "medicinal_effects": [
+        "",
+        "laxative"
+      ]
+    },
+    {
+      "scientific_name": "finnish",
+      "medical_conditions": [
+        "arthrosis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "nivelrikko",
+      "medical_conditions": [
+        "arthrosis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "htora",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "echinacea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "symphytum offi cinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chrysanthemum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "angelica archangelica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "kaempferia pafi fl ora",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "butea superba",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "zingiber offi cinale",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "anamitra cocculus w & a",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "nelumbo nucifera gaertner",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "piper nigrum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "polygonum multifl orum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tinaspora sinensis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "piper lolot c",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "glychyrrhiza uralensis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cortex acantho panasis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rhizoma imperatae",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tinaspora sinensis mer",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "kaempferia pafi fl",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "x",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "echinacea radix",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "silybum marianum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cordyseps sinensis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cordyseps",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cordyceps sinensis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "gingko biloba",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "valeriana offi cinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "frangulae",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "eleutherococcus senticosus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cant",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hopana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "x senticosus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hypericum perforatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cimicifuga rasemosa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "crataegus",
+      "medical_conditions": [
+        "mild heart conditions"
+      ],
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

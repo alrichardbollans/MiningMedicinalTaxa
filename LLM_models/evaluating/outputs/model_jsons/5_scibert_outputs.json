@@ -1,0 +1,53 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "ginkgo hiloba",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ginkgo biloba",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "a. paniculata",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "tumour",
+        "antibacterial",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "taxus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "tumour",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "t. bacata",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "tumour",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "t. brevifolia",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "tumour",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "aspergillus flavus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

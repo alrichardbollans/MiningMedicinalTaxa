@@ -1,0 +1,19 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "pachycondyla sennaarensis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "hunteria umbellata k. schum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    }
+  ],
+  "text": null
+}

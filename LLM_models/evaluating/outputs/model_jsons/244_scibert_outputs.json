@@ -1,0 +1,64 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "arbutus unedo l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "salvia fruticosa mill.p",
+      "medical_conditions": [
+        "seborrheic dermatitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s. fruticosa mill",
+      "medical_conditions": [
+        "guttate psoriasis",
+        "s",
+        "pp",
+        "psoriasis",
+        "skin diseases",
+        "seborrheic dermatitis",
+        "d"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "salvia fruticosa mill",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tapinanthus globiferus",
+      "medical_conditions": [
+        "epilepsy",
+        "stroke"
+      ],
+      "medicinal_effects": [
+        "ulsant",
+        "antico",
+        "anticonvulsant"
+      ]
+    },
+    {
+      "scientific_name": "t. globiferus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anticonvulsant"
+      ]
+    },
+    {
+      "scientific_name": "shorea roxburghii",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antihyperlipidemic",
+        "antihyperglycemic"
+      ]
+    }
+  ],
+  "text": null
+}

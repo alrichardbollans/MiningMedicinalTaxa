@@ -1,0 +1,181 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "satureja pilosa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "satureja",
+      "medical_conditions": [
+        "infectious diseases",
+        "gastrointestinal disorders",
+        "muscle pain",
+        "cramps"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s. pilosa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ja",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "alkana tinctoria",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "alkanna tinctoria",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "healing"
+      ]
+    },
+    {
+      "scientific_name": "a. tinctoria",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thymus spp",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "thymbra capitata",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "thymbra spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "t. longicaulis subsp. longicaulis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "thymus boissieri",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "t. degenii",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "t. thracicus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "t. sibthorpii",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "t. striatus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "t. longicaulis subsp. chaubardii",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "t. holosericeus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "t. plasonii",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "centaurea phyllocephala boiss",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antidiabetic"
+      ]
+    },
+    {
+      "scientific_name": "centaurea",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "hypotensive",
+        "anti-diarrheic",
+        "anti-dandruff",
+        "antidiabetic",
+        "antioxidant",
+        "antirheumatic",
+        "anti-inflammatory",
+        "antibacterial",
+        "anti-pyretic",
+        "emmenagogue"
+      ]
+    },
+    {
+      "scientific_name": "entaurea",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "diuretic",
+        "anti-diarrheic",
+        "antioxidant",
+        "anti-inflammatory",
+        "emmenagogue"
+      ]
+    },
+    {
+      "scientific_name": "centaurea cyanoides",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "emmenagogue"
+      ]
+    },
+    {
+      "scientific_name": "centaurea cyanus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "centaurea sp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. cyanus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

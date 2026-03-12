@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,arctostaphylos uva-ursi (l.) spreng,arctostaphylos uva-ursi (l,arctostaphylos uva-ursi (l.) spre,,,,arctostaphylos uva-ursi (l.) spreng_hydrops,prunus_antiasthmatic,prunus_center,arctostaphylos uva-ursi (l.) spreng_astringent
-1,arbutus unedo l,arctostaphylos uva-ursi (l.) spreng,,,,,arctostaphylos uva-ursi (l.) spreng_gonorrhoea,prunus_antitussive,,arctostaphylos uva-ursi (l.) spreng_di-uretic
-2,prunus,arbutus unedo l,,,,,arctostaphylos uva-ursi (l.) spreng_diabetes,prunus_anticancer,,arctostaphylos uva-ursi (l.) spreng_urinary tract antiseptic
-3,,prunus,,,,,arctostaphylos uva-ursi (l.) spreng_lithiasis,,,
+0,arctostaphylos uva-ursi (l.) spreng,arctostaphylos uva-ursi (l,arctostaphylos uva-ursi (l.) spre,,,,arctostaphylos uva-ursi (l.) spreng_diabetes,prunus_antiasthmatic,prunus_center,arctostaphylos uva-ursi (l.) spreng_astringent
+1,arbutus unedo l,arctostaphylos uva-ursi (l.) spreng,,,,,arctostaphylos uva-ursi (l.) spreng_lithiasis,prunus_antitussive,,arctostaphylos uva-ursi (l.) spreng_urinary tract antiseptic
+2,prunus,arbutus unedo l,,,,,arctostaphylos uva-ursi (l.) spreng_hydrops,prunus_anticancer,,arctostaphylos uva-ursi (l.) spreng_di-uretic
+3,,prunus,,,,,arctostaphylos uva-ursi (l.) spreng_gonorrhoea,,,
 4,,,,,,,prunus_can-cer,,,

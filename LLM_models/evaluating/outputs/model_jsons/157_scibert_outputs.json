@@ -1,0 +1,14 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "hypericum perforatum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-depressant",
+        "depressant",
+        "anti"
+      ]
+    }
+  ],
+  "text": null
+}

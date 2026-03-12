@@ -1,0 +1,59 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "amanita muscaria",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "amanita",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ephedra",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "arijuana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "myristica fragrans",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "khatcatha edulis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "piper methysticum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "areca catechu",
+      "medical_conditions": [
+        "tape"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "piperbetle",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "douboisia hopwoodii",
+      "medical_conditions": [
+        "ica"
+      ],
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

@@ -1,20 +1,20 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,hibiscus sabdariffa,hibiscus sabdariffa,empedoclia rafin,,hibiscus sabdariffa_skin,lonicera japonica_breast,antrodia salmonea_glioblastoma,mikania micrantha_cancer,antrodia salmonea_anti-oxidative,physalis angulata l_inhibit the production of inflammatory cytokines
-1,lonicera japonica,lonicera japonica,,,hibiscus sabdariffa_breast,lonicera japonica_liver,cannabis sativa_anxiety,mikania micrantha_antioxidant,antrodia salmonea_anti-inflammatory,antrodia salmonea_autophagic or apoptotic cell death
-2,eucommia ulmoides,eucommia ulmoides,,,hibiscus sabdariffa_liver,mikania micrantha_free radical diseases,cannabis sativa_pain,sideritis cypria_antioxidant,mikania micrantha_anti,antrodia salmonea_autophagic- and apoptotic-cell death
-3,physalis angulata l,physalis angulata l,,,lonicera japonica_skin,s. perfoliata l_common cold,cannabis sativa_stress,s. cypria post_diaphoretic,s. curvidens_diaphoretic,antrodia salmonea_autophagic and apoptotic cell death
-4,antrodia salmonea,antrodia salmonea,,,eucommia ulmoides_skin,s. perfoliata l_stomach disorders,,s. cypria_diaphoretic,s. perfoliata l_diaphoretic,mikania micrantha_inhibits melanogenesis
-5,mikania micrantha,mikania micrantha,,,eucommia ulmoides_breast,empedoclia rafin_common cold,,s. cypria_antioxidant,,mikania micrantha_inhibit melanin production
-6,cannabis sativa,cannabis sativa,,,eucommia ulmoides_liver,empedoclia rafin_headache,,s. cypria_tonic,,mikania micrantha_wound healing
-7,sideritis cypria,sideritis cypria,,,s. cypria post_stomach disorders,empedoclia rafin_stomach disorders,,,,mikania micrantha_inhibits melanin production
-8,s. cypria,sideritis,,,s. cypria_common cold,zingiber montanum_gastrointestinal motility disorders,,,,mikania micrantha_increasing autophagy
-9,sideritis,s. curvidens,,,s. cypria_headache,,,,,mikania micrantha_anti-inflammatory
-10,s. curvidens stapf,s. perfoliata l,,,s. cypria_stomach disorders,,,,,mikania micrantha_reducing tyrosinase
-11,s. perfoliata l,s. cypria post,,,,,,,,mikania micrantha_anti-cancer
+0,hibiscus sabdariffa,hibiscus sabdariffa,empedoclia rafin,,hibiscus sabdariffa_skin,lonicera japonica_breast,antrodia salmonea_glioblastoma,mikania micrantha_cancer,antrodia salmonea_anti-inflammatory,physalis angulata l_inhibit the production of inflammatory cytokines
+1,lonicera japonica,lonicera japonica,,,hibiscus sabdariffa_breast,lonicera japonica_liver,cannabis sativa_anxiety,mikania micrantha_antioxidant,antrodia salmonea_anti-oxidative,antrodia salmonea_autophagic and apoptotic cell death
+2,eucommia ulmoides,eucommia ulmoides,,,hibiscus sabdariffa_liver,mikania micrantha_free radical diseases,cannabis sativa_stress,sideritis cypria_antioxidant,mikania micrantha_anti,antrodia salmonea_autophagic or apoptotic cell death
+3,physalis angulata l,physalis angulata l,,,lonicera japonica_skin,s. perfoliata l_stomach disorders,cannabis sativa_pain,s. cypria post_diaphoretic,s. curvidens_diaphoretic,antrodia salmonea_autophagic- and apoptotic-cell death
+4,antrodia salmonea,antrodia salmonea,,,eucommia ulmoides_skin,s. perfoliata l_common cold,,s. cypria_diaphoretic,s. perfoliata l_diaphoretic,mikania micrantha_anti-cancer
+5,mikania micrantha,mikania micrantha,,,eucommia ulmoides_breast,empedoclia rafin_headache,,s. cypria_tonic,,mikania micrantha_increasing autophagy
+6,cannabis sativa,cannabis sativa,,,eucommia ulmoides_liver,empedoclia rafin_stomach disorders,,s. cypria_antioxidant,,mikania micrantha_inhibits melanin production
+7,sideritis cypria,sideritis cypria,,,s. cypria post_stomach disorders,empedoclia rafin_common cold,,,,mikania micrantha_keratinocyte proliferation
+8,s. cypria,sideritis,,,s. cypria_headache,zingiber montanum_gastrointestinal motility disorders,,,,mikania micrantha_reducing tyrosinase
+9,sideritis,s. curvidens,,,s. cypria_stomach disorders,,,,,mikania micrantha_inhibits melanogenesis
+10,s. curvidens stapf,s. perfoliata l,,,s. cypria_common cold,,,,,mikania micrantha_anti-inflammatory
+11,s. perfoliata l,s. cypria post,,,,,,,,mikania micrantha_inhibit melanin production
 12,zingiber officinale roscoe,s. cypria,,,,,,,,mikania micrantha_prevent free radical diseases
-13,zingiber zerumbet smith,zingiber officinale,,,,,,,,mikania micrantha_keratinocyte proliferation
-14,curcuma amada roxb,zingiber zerumbet,,,,,,,,zingiber montanum koen_cytotoxicity
-15,zingiber montanum koen,curcuma amada roxb,,,,,,,,zingiber montanum koen_thrombolytic
+13,zingiber zerumbet smith,zingiber officinale,,,,,,,,mikania micrantha_wound healing
+14,curcuma amada roxb,zingiber zerumbet,,,,,,,,zingiber montanum koen_thrombolytic
+15,zingiber montanum koen,curcuma amada roxb,,,,,,,,zingiber montanum koen_cytotoxicity
 16,z. montanum koen,z. montanum koen,,,,,,,,zingiber montanum koen_free radical scavenging
 17,,zingiber officinale roscoe,,,,,,,,
 18,,zingiber montanum,,,,,,,,

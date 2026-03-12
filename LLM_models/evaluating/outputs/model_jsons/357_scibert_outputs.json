@@ -1,0 +1,441 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "pulsatilla patens",
+      "medical_conditions": [
+        "skin disorders"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "centaurea cyanus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ruta graveolens",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "vinca minor",
+      "medical_conditions": [
+        "skindisorders"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sorbus aucuparia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "daphne mezereum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thymus serpyllum",
+      "medical_conditions": [
+        "idney",
+        "bladder disease",
+        "osteomyelitis",
+        "colic",
+        "abscesses",
+        "stitching pain"
+      ],
+      "medicinal_effects": [
+        "wound healing",
+        "strengthening"
+      ]
+    },
+    {
+      "scientific_name": "silybum marianum",
+      "medical_conditions": [
+        "abscesses"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "anthemis arvensis",
+      "medical_conditions": [
+        "abscesses"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "matricariachamomilla",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "artemisia absinthium",
+      "medical_conditions": [
+        "osteomyelitis",
+        "abscesses"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "piceaalba",
+      "medical_conditions": [
+        "osteomyelitis",
+        "abscesses"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "populus tremula",
+      "medical_conditions": [
+        "osteomyelitis",
+        "skindisorders",
+        "ringworm",
+        "abscesses",
+        "leg pain",
+        "abscess"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "papaver rhoeas",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "levisticumofficinale",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ocimum basilicum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "alliaria petiolata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "symphytum officinale",
+      "medical_conditions": [
+        "wounds associated",
+        "bone fractures",
+        "wounds",
+        "unds"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "achillea millefolium",
+      "medical_conditions": [
+        "pain",
+        "wounds",
+        "fluor urinary tract diseases",
+        "bone fractures",
+        "wounds associated",
+        "unds",
+        "earache"
+      ],
+      "medicinal_effects": [
+        "emetic",
+        "ant"
+      ]
+    },
+    {
+      "scientific_name": "stachyspalustris",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "viscum album",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "gentiana lutea",
+      "medical_conditions": [
+        "cholera"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "allium cepa",
+      "medical_conditions": [
+        "leg pain",
+        "skindisorders",
+        "abscess",
+        "syphilis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "picea abies",
+      "medical_conditions": [
+        "leg pain",
+        "syphilis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "beta vulgaris",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "plica polonica",
+      "medical_conditions": [
+        "cholera"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pulsatillavulgaris",
+      "medical_conditions": [
+        "cholera"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "schoenusnigricans",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sedum acre",
+      "medical_conditions": [
+        "earache",
+        "ulcers",
+        "pain",
+        "fluor urinary tract diseases"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sedum maximum",
+      "medical_conditions": [
+        "bruises",
+        "ulcers",
+        "edema"
+      ],
+      "medicinal_effects": [
+        "emetic",
+        "ant"
+      ]
+    },
+    {
+      "scientific_name": "sedum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "wound healing",
+        "strengthening"
+      ]
+    },
+    {
+      "scientific_name": "carlina acaulis",
+      "medical_conditions": [
+        "idney",
+        "bladder disease",
+        "ulcers",
+        "colic",
+        "stitching pain"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "carline",
+      "medical_conditions": [
+        "idney",
+        "bladder disease"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "viburnum opulus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "sorbus arranensis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "allium sativum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hypericum perforatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "juniperus communis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tussilago farfara",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "plantagomaior",
+      "medical_conditions": [
+        "wounds associated",
+        "bone fractures"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "salvia officinalis",
+      "medical_conditions": [
+        "wounds associated",
+        "bone fractures",
+        "unds"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "matricaria chamomilla",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "senna alexandrina",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "castanea sativa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "frangula alnus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "acanthus mollis l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "acer pseudoplatanus l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "achillea millefolium l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aconitum lycoctonum l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "acorus calamus l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ala",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "capillus veneris adiantum capillus-veneris l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "adiant venerin",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "agrimonia eupatoria l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "agrostemma githago l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "allium ampeloprasum l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "allium cepa l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "a",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "allium sativum l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "althaea officinalis l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ammi majus l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "morsus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "anchusa officinalis l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "anethum graveolens l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cotula setida anthemis cotula l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "eri",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "anthriscus cerefolium hoff",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fistula pastoris anthriscus sylvestris",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

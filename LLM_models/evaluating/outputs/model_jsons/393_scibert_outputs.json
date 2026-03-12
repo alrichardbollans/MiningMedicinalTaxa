@@ -1,0 +1,302 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "veronica officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "system",
+        "antioxidant",
+        "ardiovascular"
+      ]
+    },
+    {
+      "scientific_name": "veronica chamaedrys.front",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chamaedrysancuta c",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "veronica officinalis l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. chamaedrys l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. officinalis",
+      "medical_conditions": [
+        "cardiovascular and metabolism system disorders",
+        "respiratory ailments",
+        "nervous",
+        "rheumatism",
+        "stomach ulcers",
+        "inflammatory conditions"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "nervous"
+      ]
+    },
+    {
+      "scientific_name": "v. chamaedrys",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "veronica",
+      "medical_conditions": [
+        "hernia",
+        "respiratory affections",
+        "influenza",
+        "wound",
+        "abdominal pain",
+        "laryngopharyngitis",
+        "rheumatic pain",
+        "wound healing",
+        "hemoptysis",
+        "healing"
+      ],
+      "medicinal_effects": [
+        "antiscorbutic",
+        "expectorant",
+        "ine",
+        "diuretic",
+        "ensive",
+        "wound healing",
+        "healing"
+      ]
+    },
+    {
+      "scientific_name": "officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "veronica chamaedrys",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chamaedrys",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chamaedry",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "veronica l",
+      "medical_conditions": [
+        "rheumatic pain"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "veronica anagallis-aquatica l",
+      "medical_conditions": [
+        "abdominal pain",
+        "rheumatic pain"
+      ],
+      "medicinal_effects": [
+        "diuretic",
+        "bath"
+      ]
+    },
+    {
+      "scientific_name": "l",
+      "medical_conditions": [
+        "wound",
+        "rheumatic pain",
+        "healing"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "veronicaspecies",
+      "medical_conditions": [
+        "hemoptysis",
+        "influenza",
+        "hernia"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. anagallis-aquatica",
+      "medical_conditions": [
+        "laryngopharyngitis",
+        "hemoptysis",
+        "influenza",
+        "hernia"
+      ],
+      "medicinal_effects": [
+        "cytostatic"
+      ]
+    },
+    {
+      "scientific_name": "v. officinalisa",
+      "medical_conditions": [
+        "cardiovascular and metabolism system disorders",
+        "respiratory ailments",
+        "nervous",
+        "rheumatism",
+        "stomach ulcers",
+        "inflammatory conditions"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. persica poir",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "cytostatic"
+      ]
+    },
+    {
+      "scientific_name": "v. thymoidesp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pseudocinerea m.a.fisch",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "cytostatic"
+      ]
+    },
+    {
+      "scientific_name": "v. thymoidesp.h.davis subsp. pseudocinerea m.a.fisch",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "cytostatic"
+      ]
+    },
+    {
+      "scientific_name": "p",
+      "medical_conditions": [
+        "anti-inflammatoryantitussive",
+        "tis",
+        "asthma",
+        "y",
+        "onsillitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "yngi",
+      "medical_conditions": [
+        "onsillitis",
+        "y"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. cymbalaria bodard",
+      "medical_conditions": [
+        "ment"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. hederifolia l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "radicalscavenging",
+        "cytotoxic"
+      ]
+    },
+    {
+      "scientific_name": "v. pectinata l. var. glandulosa",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "radicalscavenging",
+        "anti-inflammatory",
+        "cytotoxic"
+      ]
+    },
+    {
+      "scientific_name": "v. persica",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "radicalscavenging",
+        "anti-inflammatory",
+        "cytotoxic"
+      ]
+    },
+    {
+      "scientific_name": "v. polita fr",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "radicalscavenging",
+        "anti-inflammatory",
+        "cytotoxic"
+      ]
+    },
+    {
+      "scientific_name": "v. bellidioidesl",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "v. kellereri degen & urum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "v. vindobonensis (m.a.fisch. )m.a.fisch",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "v. beccabunga l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "v. rhodopea degen ex stoj.& stef",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "v. austriaca l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "v",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "nica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

@@ -1,0 +1,75 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "mandragora officinarum",
+      "medical_conditions": [
+        "sterility"
+      ],
+      "medicinal_effects": [
+        "aphrodisiacs"
+      ]
+    },
+    {
+      "scientific_name": "plasmodium vivax",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aquina",
+      "medical_conditions": [
+        "malaria"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cinchona",
+      "medical_conditions": [
+        "malaria"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "remijiapedunculata",
+      "medical_conditions": [
+        "malaria"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "digitalis purpurea",
+      "medical_conditions": [
+        "dropsy",
+        "s"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "other spp",
+      "medical_conditions": [
+        "dropsy"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "atropa belladonna",
+      "medical_conditions": [
+        "motion sickness"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "adonna",
+      "medical_conditions": [
+        "insomnia",
+        "motion sickness"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "papaver somniferum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

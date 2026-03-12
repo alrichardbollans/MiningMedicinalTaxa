@@ -1,0 +1,228 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "poster presentationsfructus",
+      "medical_conditions": [
+        "ulcers",
+        "diseases of the oral cavity"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aloe capensis",
+      "medical_conditions": [
+        "ulcers",
+        "purulent processes teeth",
+        "diseases of the oral cavity"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "anisi fructus",
+      "medical_conditions": [
+        "teeth",
+        "odor",
+        "purulent processes teeth"
+      ],
+      "medicinal_effects": [
+        "strengthen the"
+      ]
+    },
+    {
+      "scientific_name": "frangulae",
+      "medical_conditions": [
+        "purulent processes teeth"
+      ],
+      "medicinal_effects": [
+        "strengthen the"
+      ]
+    },
+    {
+      "scientific_name": "millefolii herba",
+      "medical_conditions": [
+        "toothache",
+        "tooth",
+        "ache"
+      ],
+      "medicinal_effects": [
+        "strengthen the"
+      ]
+    },
+    {
+      "scientific_name": "althaeae radix",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "wash"
+      ]
+    },
+    {
+      "scientific_name": "capsici fructus",
+      "medical_conditions": [
+        "gargling",
+        "inflammation of the mouth",
+        "rynx",
+        "inflammation of the mouth and pharynx"
+      ],
+      "medicinal_effects": [
+        "teeth",
+        "strengthen the"
+      ]
+    },
+    {
+      "scientific_name": "melissae folium",
+      "medical_conditions": [
+        "deposits in the mouth",
+        "tooth",
+        "ache"
+      ],
+      "medicinal_effects": [
+        "tooth",
+        "teeth",
+        "strengthen the",
+        "is"
+      ]
+    },
+    {
+      "scientific_name": "menthae piperitae",
+      "medical_conditions": [
+        "mouth"
+      ],
+      "medicinal_effects": [
+        "pas",
+        "disinfection"
+      ]
+    },
+    {
+      "scientific_name": "um",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "pas"
+      ]
+    },
+    {
+      "scientific_name": "chamomillae flos",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "pas"
+      ]
+    },
+    {
+      "scientific_name": "iridis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "basilici herba",
+      "medical_conditions": [
+        "pas"
+      ],
+      "medicinal_effects": [
+        "pas"
+      ]
+    },
+    {
+      "scientific_name": "salviae folium",
+      "medical_conditions": [
+        "the",
+        "mouth",
+        "disinfection of the",
+        "of"
+      ],
+      "medicinal_effects": [
+        "gargling agent",
+        "disinfection"
+      ]
+    },
+    {
+      "scientific_name": "aetheroleum melaleucae",
+      "medical_conditions": [
+        "inflammatory processes",
+        "the",
+        "disinfection of the",
+        "of",
+        "mouth",
+        "disinfection"
+      ],
+      "medicinal_effects": [
+        "antifungal",
+        "mouth"
+      ]
+    },
+    {
+      "scientific_name": "thymus spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thymus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thy",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "mus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thy-mus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thymus tosevii",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thymus jankae",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thymus longicaulis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thymus pulegioides",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thy-mus moesiacus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thymus to-sevii ssp. substriatus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thymus balcanus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thymus pannonicus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "t. balcanus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "t. jankae",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

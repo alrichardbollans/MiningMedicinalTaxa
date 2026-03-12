@@ -1,7 +1,7 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,hypericum spp,hypericum spp,,hypericum l,h. empetrifolium_skin inflammations,,hypericum spp_wound-healing,hypericum spp_wound-healing,hypericum spp_gastroprotective,hypericum l_gastroprotective
-1,h. perforatum,h. perforatum,,h. amblycalyx,h. empetrifolium_wounds,,h. empetrifolium_wound-healing,hypericum spp_wound healing,h. perforatum_wound healing,hypericum l_antioxidant
-2,h. empetrifolium,h. empetrifolium,,,,,h. amblycalyx_wound-healing,h. empetrifolium_wound healing,,hypericum l_antiangiogenetic
+0,hypericum spp,hypericum spp,,hypericum l,h. empetrifolium_skin inflammations,,hypericum spp_wound-healing,hypericum spp_wound healing,hypericum spp_gastroprotective,hypericum l_gastroprotective
+1,h. perforatum,h. perforatum,,h. amblycalyx,h. empetrifolium_wounds,,h. empetrifolium_wound-healing,hypericum spp_wound-healing,h. perforatum_wound healing,hypericum l_antiangiogenetic
+2,h. empetrifolium,h. empetrifolium,,,,,h. amblycalyx_wound-healing,h. empetrifolium_wound healing,,hypericum l_antioxidant
 3,h. triquetrifolium,h. triquetrifolium,,,,,h. jovis_wound-healing,,,
 4,h. jovis,h. jovis,,,,,h. perforatum_wound-healing,,,
 5,laurus nobilis l,laurus nobilis,,,,,h. triquetrifolium_wound-healing,,,

@@ -1,29 +1,29 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,psyllium ispaghula,psyllium ispaghula,spirulina platensis,eucalyptus,psyllium ispaghula_stomach troubles,psyllium ispaghula_sand,crataegus_cardiac weakness,citrus aurantium_weight management,psyllium ispaghula_antibacterial mouth wash,boswellia_anti-infl ammatories
-1,psyllium,a,colostrum,aloe,echinacea purpurea_sore throat,psyllium ispaghula_acne,eucalyptus_sore shoulders,annona muricata_health,spirulina platensis_acne,tagetes erecta_eye health
-2,annona muricata,citrus aurantium,finnish,senna,sabal serrulata_impotence,psyllium ispaghula_vitiligo,,annona muricata_immunity,spirulina platensis_antibacterial mouth wash,symphtytum offi cinalis_muscles
-3,angelica archangelica,echinacea purpurea,nivelrikko,,sabal serrulata_prostate problems,psyllium ispaghula_problems,,annona muricata_enhancement,spirulina platensis_antibacterial,symphtytum offi cinalis_joints
-4,aloe vera,sabal serrulata,htora,,boswellia_arthrosis,psyllium ispaghula_horses,,psyllium_laxative,psyllium_,angelica archangelica_muscle relaxing
-5,arnica montana,boswellia,cortex acantho panasis,,vaccinium myrtillus_eye diseases,psyllium ispaghula_joints,,,,eucalyptus_recovery
-6,anamitra cocculus w & a,vaccinium myrtillus,rhizoma imperatae,,tagetes erecta_eye diseases,spirulina platensis_malnutrition,,,,eucalyptus_mouth wash
-7,acanthopanax senticosus,tagetes erecta,x,,tagetes erecta_night vision,citrus aurantium_malnutrition,,,,eucalyptus_antiseptic
-8,citrus aurantium,symphtytum offi cinalis,frangulae,,symphtytum offi cinalis_cuts,echinacea purpurea_impotence,,,,eucalyptus_fat-free muscle building
-9,echinacea purpurea,annona muricata,cant,,symphtytum offi cinalis_bruises,echinacea purpurea_urinary tract infections,,,,
-10,echinacea,psyllium,hopana,,crataegus_mild heart conditions,echinacea purpurea_prostate problems,,,,
-11,sabal serrulata,echinacea,x senticosus,,,boswellia_impotence,,,,
-12,boswellia,symphytum offi cinalis,ica,,,boswellia_prostate problems,,,,
+0,psyllium ispaghula,psyllium ispaghula,spirulina platensis,eucalyptus,psyllium ispaghula_stomach troubles,psyllium ispaghula_horses,crataegus_cardiac weakness,citrus aurantium_weight management,psyllium ispaghula_antibacterial mouth wash,boswellia_anti-infl ammatories
+1,psyllium,a,colostrum,aloe,echinacea purpurea_sore throat,psyllium ispaghula_vitiligo,eucalyptus_sore shoulders,annona muricata_immunity,spirulina platensis_antibacterial mouth wash,tagetes erecta_eye health
+2,annona muricata,citrus aurantium,finnish,senna,sabal serrulata_prostate problems,psyllium ispaghula_problems,,annona muricata_enhancement,spirulina platensis_antibacterial,symphtytum offi cinalis_muscles
+3,angelica archangelica,echinacea purpurea,nivelrikko,,sabal serrulata_impotence,psyllium ispaghula_sand,,annona muricata_health,spirulina platensis_acne,symphtytum offi cinalis_joints
+4,aloe vera,sabal serrulata,htora,,boswellia_arthrosis,psyllium ispaghula_acne,,psyllium_laxative,psyllium_,angelica archangelica_muscle relaxing
+5,arnica montana,boswellia,cortex acantho panasis,,vaccinium myrtillus_eye diseases,psyllium ispaghula_joints,,,,eucalyptus_mouth wash
+6,anamitra cocculus w & a,vaccinium myrtillus,rhizoma imperatae,,tagetes erecta_eye diseases,spirulina platensis_malnutrition,,,,eucalyptus_antiseptic
+7,acanthopanax senticosus,tagetes erecta,x,,tagetes erecta_night vision,citrus aurantium_malnutrition,,,,eucalyptus_fat-free muscle building
+8,citrus aurantium,symphtytum offi cinalis,frangulae,,symphtytum offi cinalis_bruises,echinacea purpurea_prostate problems,,,,eucalyptus_recovery
+9,echinacea purpurea,annona muricata,cant,,symphtytum offi cinalis_cuts,echinacea purpurea_urinary tract infections,,,,
+10,echinacea,psyllium,hopana,,crataegus_mild heart conditions,echinacea purpurea_impotence,,,,
+11,sabal serrulata,echinacea,x senticosus,,,boswellia_prostate problems,,,,
+12,boswellia,symphytum offi cinalis,ica,,,boswellia_impotence,,,,
 13,vaccinium myrtillus,chrysanthemum,,,,vaccinium myrtillus_arthrosis,,,,
 14,tagetes erecta,angelica archangelica,,,,vaccinium myrtillus_night vision,,,,
 15,symphtytum offi cinalis,kaempferia pafi fl ora,,,,tagetes erecta_arthrosis,,,,
-16,symphytum offi cinalis,butea superba,,,,symphtytum offi cinalis_diseases,,,,
-17,chrysanthemum,zingiber offi cinale,,,,symphtytum offi cinalis_vision,,,,
-18,kaempferia pafi fl ora,anamitra cocculus w & a,,,,symphtytum offi cinalis_joints,,,,
-19,butea superba,nelumbo nucifera gaertner,,,,symphtytum offi cinalis_muscles,,,,
-20,zingiber offi cinale,piper nigrum,,,,symphtytum offi cinalis_eye health,,,,
+16,symphytum offi cinalis,butea superba,,,,symphtytum offi cinalis_vision,,,,
+17,chrysanthemum,zingiber offi cinale,,,,symphtytum offi cinalis_eye health,,,,
+18,kaempferia pafi fl ora,anamitra cocculus w & a,,,,symphtytum offi cinalis_muscles,,,,
+19,butea superba,nelumbo nucifera gaertner,,,,symphtytum offi cinalis_diseases,,,,
+20,zingiber offi cinale,piper nigrum,,,,symphtytum offi cinalis_joints,,,,
 21,nelumbo nucifera gaertner,polygonum multifl orum,,,,annona muricata_bruises,,,,
-22,piper nigrum,tinaspora sinensis,,,,annona muricata_joints,,,,
-23,polygonum multifl orum,piper lolot c,,,,annona muricata_cuts,,,,
-24,tinaspora sinensis,glychyrrhiza uralensis,,,,annona muricata_muscles,,,,
+22,piper nigrum,tinaspora sinensis,,,,annona muricata_muscles,,,,
+23,polygonum multifl orum,piper lolot c,,,,annona muricata_joints,,,,
+24,tinaspora sinensis,glychyrrhiza uralensis,,,,annona muricata_cuts,,,,
 25,piper lolot,tinaspora sinensis mer,,,,psyllium_leuk,,,,
 26,glychyrrhiza uralensis,kaempferia pafi fl,,,,finnish_arthrosis,,,,
 27,silybum marianum,echinacea radix,,,,nivelrikko_arthrosis,,,,

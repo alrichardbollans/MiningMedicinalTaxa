@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,pinus,pinus,,,pinus_respiratory,,pinus_asthma,pinus_expectorants,pinus_analgesic,pinus_analgesics
-1,pinus peuce,pinus peuce,,,pinus_digestive system diseases,,pinus_bronchitis,pinus_tonics,pinus_tics,
-2,pinus sylvestris,pinus sylvestris,,,pinus_wounds,,pinus_urinary system disorders,pinus_antisep-tics,pinus_antisep,
-3,pinus nigra,pinus nigra,,,,,pinus_common cold,pinus_antibacterial,,
-4,pinus mugo,pinus mugo,,,,,,pinus_cholesterol low-ering,,
+0,pinus,pinus,,,pinus_respiratory,,pinus_urinary system disorders,pinus_antitumorial,pinus_antisep,pinus_analgesics
+1,pinus peuce,pinus peuce,,,pinus_digestive system diseases,,pinus_bronchitis,pinus_antiseptic,pinus_tics,
+2,pinus sylvestris,pinus sylvestris,,,pinus_wounds,,pinus_asthma,pinus_tonics,pinus_analgesic,
+3,pinus nigra,pinus nigra,,,,,pinus_common cold,pinus_antisep-tics,,
+4,pinus mugo,pinus mugo,,,,,,pinus_antibacterial,,
 5,pinus l,pinus pe,,,,,,pinus_antioxidant,,
-6,pinus peucegriseb,pinus peucegriseb,,,,,,pinus_antiseptic,,
+6,pinus peucegriseb,pinus peucegriseb,,,,,,pinus_cholesterol low-ering,,
 7,pinuspeuce,pinus l,,,,,,pinus_antimicrobial,,
-8,,,,,,,,pinus_antitumorial,,
+8,,,,,,,,pinus_expectorants,,

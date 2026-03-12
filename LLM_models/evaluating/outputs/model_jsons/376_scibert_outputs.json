@@ -1,0 +1,73 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "prunusspinosa l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "ro"
+      ]
+    },
+    {
+      "scientific_name": "prunus spinosa l",
+      "medical_conditions": [
+        "circulatory system disorders",
+        "urinary tract disorders",
+        "cardiovascular diseases",
+        "inflammation"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "prunus spinosa l. flower",
+      "medical_conditions": [
+        "cardiovascular",
+        "inflammatory changes",
+        "oxidative stress",
+        "ative",
+        "inflammatory"
+      ],
+      "medicinal_effects": [
+        "",
+        "radicals",
+        "antioxidant",
+        "ative",
+        "inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "prunus spinosa",
+      "medical_conditions": [
+        "stress",
+        "cardiovascular"
+      ],
+      "medicinal_effects": [
+        "antioxidants"
+      ]
+    },
+    {
+      "scientific_name": "thornor sloe",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sloe",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "p. spinosa",
+      "medical_conditions": [
+        "ative"
+      ],
+      "medicinal_effects": [
+        "",
+        "anti-inflammatory",
+        "spasmolytic"
+      ]
+    }
+  ],
+  "text": null
+}

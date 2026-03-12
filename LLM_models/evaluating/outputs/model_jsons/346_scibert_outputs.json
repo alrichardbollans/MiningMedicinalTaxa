@@ -1,0 +1,249 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "c. majus",
+      "medical_conditions": [
+        "illoma virus infection",
+        "warts",
+        "tis",
+        "hiv",
+        "influenza",
+        "trichomoniasis",
+        "upper respiratory tract",
+        "human",
+        "acute"
+      ],
+      "medicinal_effects": [
+        "antimicro",
+        "anti-inflammatory",
+        "antimicrobial",
+        "antiviral",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "chelidonium majuspotassium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "majus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "coptis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tumefaci",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "a lutea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal",
+        "antibacterial"
+      ]
+    },
+    {
+      "scientific_name": "p",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "al",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "iti",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ogenes",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "a. tumefaciens",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "anthr",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "salmonella gallinarum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rote",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "prote",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chelidonium maj",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "aspergillus fumigatus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "a. niger",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "candida sp. cladosporium herbarum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cryptococcus neoformans",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "epidermophyton floccosum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fusarium sp. keratinomyces ajelloi",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "microsporum sp. penicillium notatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rhodotorula rubra",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "scopulariopsis brevicaulis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "torlopsis utilis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "trichophyton sp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cladosporium herbarum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fusarium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sp. keratinomyces ajelloi",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "microsporum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sp. penicillium notatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sphaerulin",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "a",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "juglandis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "septoria microspora",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "fusariumoxysporum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "curvularia lun",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ata",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "trichomonas vaginalis",
+      "medical_conditions": [
+        "trichomoniasis"
+      ],
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

@@ -1,0 +1,120 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "cannabis sativa l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "eup",
+        "immunomodulatory",
+        "anxiolytic"
+      ]
+    },
+    {
+      "scientific_name": "canavalia ensiformis",
+      "medical_conditions": [
+        "immunomodulatory"
+      ],
+      "medicinal_effects": [
+        "inflammatory",
+        "anti-iflammatory",
+        "antioxidant",
+        "anxiolytic"
+      ]
+    },
+    {
+      "scientific_name": "salvia haenkei",
+      "medical_conditions": [
+        "skin"
+      ],
+      "medicinal_effects": [
+        "barrier functions",
+        "treatment",
+        "anti-senescence",
+        "functions",
+        "antioxidant",
+        "anti-aging",
+        "antimicrobial",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "althaea officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "achillea millefolium",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "calendula officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "aloysia citrodora",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "melissa officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "andrographis paniculata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "andrographis paniculata (burm.f.) nees",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-tumor",
+        "anti-diabetic",
+        "anti-viral",
+        "anti-inflammatory",
+        "anti-malarial",
+        "antibacterial",
+        "anti-parasitic"
+      ]
+    },
+    {
+      "scientific_name": "andrographidis herba",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "vernonia amygdalina del",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimalarial"
+      ]
+    },
+    {
+      "scientific_name": "vernonia amygdalina",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimalarial"
+      ]
+    }
+  ],
+  "text": null
+}

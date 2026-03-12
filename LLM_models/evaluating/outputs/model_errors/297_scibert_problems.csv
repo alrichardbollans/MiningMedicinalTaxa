@@ -1,5 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,centaurea ragusina l,c,materialcentaurea ragusina l,,centaurea_microbial infections,,,centaurea ragusina l_anticancer,c. ragusina l_ntibacterial,
-1,c. ragusina l,centaurea ragusina l,,,centaurea_urogenital ailments,,,centaurea ragusina l_antibacterial,,
-2,centaurea,centaurea,,,centaurea_gastrointestinal disorders,,,c. ragusina l_antibacterial,,
+0,centaurea ragusina l,c,materialcentaurea ragusina l,,centaurea_gastrointestinal disorders,,,centaurea ragusina l_antibacterial,c. ragusina l_ntibacterial,
+1,c. ragusina l,centaurea ragusina l,,,centaurea_microbial infections,,,centaurea ragusina l_anticancer,,
+2,centaurea,centaurea,,,centaurea_urogenital ailments,,,c. ragusina l_antibacterial,,
 3,,c. ragusina l,,,,,,,,

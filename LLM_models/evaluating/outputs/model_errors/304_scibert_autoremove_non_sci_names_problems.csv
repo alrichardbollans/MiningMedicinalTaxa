@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,zanthoxylum monophyllumtul,zanthoxylum monophyllumtul,sinopodophyllum hexandrum (royle)t.s,xanthorhizasimplicissima,zanthoxylum monophyllumtul_eye infections,,,,,
-1,phellodendron amurense,phellodendron amurense,argemone alba f,chelidoniummajus,zanthoxylum monophyllumtul_dark vomitus,,,,,
+0,zanthoxylum monophyllumtul,zanthoxylum monophyllumtul,sinopodophyllum hexandrum (royle)t.s,xanthorhizasimplicissima,zanthoxylum monophyllumtul_dark vomitus,,,,,
+1,phellodendron amurense,phellodendron amurense,argemone alba f,chelidoniummajus,zanthoxylum monophyllumtul_eye infections,,,,,
 2,p. chinense,p. chinense,,enantiapolycarpa (dc.) engl. & diels,,,,,,
 3,tinospora cordifolia,tinospora cordifolia,,berberisglauca benth,,,,,,
 4,tinospora cordifolia) (willd.) miers,berberis aristata,,mahoniamanipurensis takeda,,,,,,

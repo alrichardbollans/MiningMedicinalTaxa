@@ -1,0 +1,69 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "c",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "g",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "papaver somniferum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aopium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cannabis sativa",
+      "medical_conditions": [
+        "diseases"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cannabis indica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. sativa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. indica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. ruderalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "juana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "humulus lupulus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "psychoactive"
+      ]
+    }
+  ],
+  "text": null
+}

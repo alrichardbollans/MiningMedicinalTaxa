@@ -1,0 +1,17 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "nigella sativa l",
+      "medical_conditions": [
+        "diseases"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ocimum tenuiflorum l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

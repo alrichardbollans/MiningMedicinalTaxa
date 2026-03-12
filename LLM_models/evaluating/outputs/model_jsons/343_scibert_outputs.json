@@ -1,0 +1,285 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "chelidonium majus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chelidonium",
+      "medical_conditions": [
+        "al sicknesses",
+        "ophthalmol"
+      ],
+      "medicinal_effects": [
+        "anti-jaundice",
+        "cholagogue",
+        "pain-relieving"
+      ]
+    },
+    {
+      "scientific_name": "c. majuss",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        ""
+      ]
+    },
+    {
+      "scientific_name": "c. majus",
+      "medical_conditions": [
+        "smo",
+        "cancer",
+        "tic",
+        "eye diseases",
+        "dermatologic disorders",
+        "leprosy",
+        "jaundice",
+        "dermatologic diseases",
+        "liver diseases",
+        "visualimpairment",
+        "eye and skin conditions"
+      ],
+      "medicinal_effects": [
+        "",
+        "expectorant",
+        "i",
+        "microbial",
+        "diuretic",
+        "anti-edema",
+        "anti-inflammatory",
+        "antitussive",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "chelidonium majusin",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chelidonium majusl",
+      "medical_conditions": [
+        "cancer",
+        "warts",
+        "gastrointestinal disorders",
+        "skin protuberances",
+        "infections"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "descriptionc. majus l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "as",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chelidonium l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. majus l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. majus l.sens",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. asiaticum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "krahulcova",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. majus l.sensu lato",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. asiaticum (hara)krahulcova",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. majus l.subsp. majus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chelidonium majussubsp. grandiflorum (dc.) printz",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chelidonium majussubsp. grandiflorum (dc.) p",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tz",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "greek chelidonium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ru",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chelidonium majus i",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "majus",
+      "medical_conditions": [
+        "toothache",
+        "eye diseases",
+        "dermatologic disorders",
+        "jaundice",
+        "visualimpairment"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "naturalis",
+      "medical_conditions": [
+        "eye diseases",
+        "dermatologic disorders",
+        "herpes",
+        "jaundice",
+        "visualimpairment"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "iae",
+      "medical_conditions": [
+        "dermatologic disorders",
+        "eye diseases",
+        "jaundice",
+        "visualimpairment"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chelido",
+      "medical_conditions": [
+        "skin eczema",
+        "colicand jaundice",
+        "ulcers",
+        "eye diseases"
+      ],
+      "medicinal_effects": [
+        "throat cleansing"
+      ]
+    },
+    {
+      "scientific_name": "de viribus",
+      "medical_conditions": [
+        "skin and liver conditions",
+        "visualimpairment"
+      ],
+      "medicinal_effects": [
+        "visualimpairment"
+      ]
+    },
+    {
+      "scientific_name": "macer floridus",
+      "medical_conditions": [
+        "skin and liver conditions",
+        "visualimpairment"
+      ],
+      "medicinal_effects": [
+        "visualimpairment"
+      ]
+    },
+    {
+      "scientific_name": "m",
+      "medical_conditions": [
+        "skin and liver conditions"
+      ],
+      "medicinal_effects": [
+        "visualimpairment"
+      ]
+    },
+    {
+      "scientific_name": "idus",
+      "medical_conditions": [
+        "skin and liver conditions"
+      ],
+      "medicinal_effects": [
+        "visualimpairment"
+      ]
+    },
+    {
+      "scientific_name": "chelidonia",
+      "medical_conditions": [
+        "skin eczema",
+        "eye diseases",
+        "colicand jaundice",
+        "otion",
+        "ulcers"
+      ],
+      "medicinal_effects": [
+        "throat cleansing"
+      ]
+    },
+    {
+      "scientific_name": "iber subtilita",
+      "medical_conditions": [
+        "hair overgrowth",
+        "jaundice",
+        "skin ulcer"
+      ],
+      "medicinal_effects": [
+        "enhance"
+      ]
+    },
+    {
+      "scientific_name": "fumaria officinalis",
+      "medical_conditions": [
+        "toothache",
+        "wounds",
+        "eyediseases",
+        "colic",
+        "jaundice"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cel",
+      "medical_conditions": [
+        "stomach ache",
+        "colic",
+        "jaundice"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chelidonium majusp",
+      "medical_conditions": [
+        "skin"
+      ],
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

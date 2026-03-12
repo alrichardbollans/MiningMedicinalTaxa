@@ -1,0 +1,914 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "hypericum perforatum",
+      "medical_conditions": [
+        "ingivitis",
+        "emenstrual syndrome"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "allium sativum",
+      "medical_conditions": [
+        "ingivitis",
+        "insect repellantsmountain",
+        "insect bites & stings",
+        "eadache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "gum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "bloodroot sanguinaria canadensis",
+      "medical_conditions": [
+        "ingivitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "matricaria recutita",
+      "medical_conditions": [
+        "ingivitis",
+        "eartbu",
+        "indigestion"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "echinacea spp",
+      "medical_conditions": [
+        "ingivitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "glycyrrhiza glabra",
+      "medical_conditions": [
+        "o",
+        "soriasis",
+        "ingivitis",
+        "rostate enlargeme",
+        "lauco"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "portulaca oleracea",
+      "medical_conditions": [
+        "ingivitis",
+        "soriasis",
+        "eadache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "salvia officinalis",
+      "medical_conditions": [
+        "ingivitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "camellia sinensis",
+      "medical_conditions": [
+        "ingivitis",
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "alendula calendula officinalis",
+      "medical_conditions": [
+        "ingivitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "mentha piperita",
+      "medical_conditions": [
+        "ingivitis",
+        "eadache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "krameria triandra",
+      "medical_conditions": [
+        "ingivitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "urtica dioica",
+      "medical_conditions": [
+        "o",
+        "rostate enlargeme",
+        "emenstrual syndrome"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "melaleuca spp",
+      "medical_conditions": [
+        "o"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "nasturtium officinale",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pilocarpus spp",
+      "medical_conditions": [
+        "lauco"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "coleus forskohlii",
+      "medical_conditions": [
+        "lauco"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "origanum vulgare",
+      "medical_conditions": [
+        "lauco"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "viola spp",
+      "medical_conditions": [
+        "o",
+        "lauco"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "vaccinium myrtillus",
+      "medical_conditions": [
+        "o",
+        "lauco"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "capsella bursa-pastoris",
+      "medical_conditions": [
+        "lauco"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "apium graveolens",
+      "medical_conditions": [
+        "o",
+        "lauco"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "perilla frutescens",
+      "medical_conditions": [
+        "o",
+        "lauco"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "curcuma longa",
+      "medical_conditions": [
+        "o",
+        "eadache",
+        "lauco"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "persea americana",
+      "medical_conditions": [
+        "o",
+        "rostate enlargeme",
+        "soriasis",
+        "lauco"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "uncaria spp",
+      "medical_conditions": [
+        "o",
+        "lauco"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "prunus spp",
+      "medical_conditions": [
+        "o",
+        "lauco"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "harpagophytum procumbens",
+      "medical_conditions": [
+        "lauco"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "avena sativa",
+      "medical_conditions": [
+        "soriasis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "olea europea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ananas comosus",
+      "medical_conditions": [
+        "o",
+        "indigestion",
+        "lauco"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "salix spp",
+      "medical_conditions": [
+        "o",
+        "eadache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cinchona spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ginkgo biloba",
+      "medical_conditions": [
+        "eadache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pueraria lobata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "gaultheria procumbens",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "laurus nobilis",
+      "medical_conditions": [
+        "eadache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tanacetum parthenium",
+      "medical_conditions": [
+        "eadache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "oenothera biennis",
+      "medical_conditions": [
+        "emenstrual syndrome",
+        "cabies",
+        "eadache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "allium cepa",
+      "medical_conditions": [
+        "insect repellantsmountain",
+        "insect bites & stings",
+        "eadache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "zingiber officinaleg",
+      "medical_conditions": [
+        "eadache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "capsicum spp",
+      "medical_conditions": [
+        "indigestion",
+        "eadache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "melissa officinalis",
+      "medical_conditions": [
+        "insect bites & stings",
+        "insomnia",
+        "eadache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tanacetum vulgare",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thymus vulgaris",
+      "medical_conditions": [
+        "eadache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "eli",
+      "medical_conditions": [
+        "eartbu"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "angelica archangelica",
+      "medical_conditions": [
+        "eartbu"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "glycyrrhiza gl",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aloe spp.astragalus astragalus spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rudbeckia spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cnicus benedictus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "arctium lappaechinacea echinacea spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hyssopus officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pyrus communis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sambucus nigra",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cetraria islandica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "gentiana officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fucus vesiculosis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "brassica nigra",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ust",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sinapis alba",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "raphanus sativus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "t",
+      "medical_conditions": [
+        "cabies"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "juglans spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "mentha piperitaangelica angelica archangelica",
+      "medical_conditions": [
+        "indigestion"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "zingiber officinale",
+      "medical_conditions": [
+        "infertility",
+        "indigestion"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "origanum onites",
+      "medical_conditions": [
+        "indigestion"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "coriandrum sativum",
+      "medical_conditions": [
+        "indigestion"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "carica",
+      "medical_conditions": [
+        "indigestion"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aspalathus linearis",
+      "medical_conditions": [
+        "infertility",
+        "indigestion"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "brassica oleracea",
+      "medical_conditions": [
+        "infertility",
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "panax spp",
+      "medical_conditions": [
+        "inhibited sexual desire i",
+        "infertility",
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "psidium spp",
+      "medical_conditions": [
+        "infertility"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "corchorus olitorius",
+      "medical_conditions": [
+        "infertility"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "spinacia oleracea",
+      "medical_conditions": [
+        "emenstrual syndrome",
+        "infertility"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "helianthus annuus",
+      "medical_conditions": [
+        "infertility"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "withamia somnifera",
+      "medical_conditions": [
+        "infertility"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lagenaria siceraria",
+      "medical_conditions": [
+        "infertility"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "allium cepapsy",
+      "medical_conditions": [
+        "infertility",
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ium plantago ovata",
+      "medical_conditions": [
+        "infertility",
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ale",
+      "medical_conditions": [
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "valeriana officinalis",
+      "medical_conditions": [
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "womenchinese angelica angelica sinensis",
+      "medical_conditions": [
+        "inhibited sexual desire i",
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aspidosperma quebracho",
+      "medical_conditions": [
+        "inhibited sexual desire i",
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "nc",
+      "medical_conditions": [
+        "inhibited sexual desire i",
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pausinystalia yohimbe",
+      "medical_conditions": [
+        "inhibited sexual desire i",
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pimpinella anisum",
+      "medical_conditions": [
+        "inhibited sexual desire i",
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hoc",
+      "medical_conditions": [
+        "inhibited sexual desire i",
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "theobroma cacao",
+      "medical_conditions": [
+        "inhibited sexual desire i",
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cola nitida",
+      "medical_conditions": [
+        "inhibited sexual desire i",
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pi",
+      "medical_conditions": [
+        "inhibited sexual desire i"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "epimedium spp",
+      "medical_conditions": [
+        "inhibited sexual desire i",
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "foeniculum vulgare",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "petroselinum crispum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "serenoa repens",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "dioscorea villosa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pycnanthemum muticum",
+      "medical_conditions": [
+        "insect repellantsmountain"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hedeoma pulegioides",
+      "medical_conditions": [
+        "insect repellantsmountain"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ocimum basilicumcitronella cymbopogon spp",
+      "medical_conditions": [
+        "insect repellantsmountain"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cymbopogon spp",
+      "medical_conditions": [
+        "insect repellantsmountain"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "calendu",
+      "medical_conditions": [
+        "insect bites & stings",
+        "insomnia"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "calendula officinalis",
+      "medical_conditions": [
+        "insect bites & stings"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "plantago spp",
+      "medical_conditions": [
+        "insect repellantsmountain",
+        "insomnia",
+        "insect bites & stings"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "astragalus astragalus spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "scutellaria baicalensis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "taraxacum officinaleechinacea echinacea spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hydrastis canadensis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lonicera japonica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "allium cepaosha lomatium dissectum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "drosera spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "loe aloe spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "saponaria officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "mitchella repens",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rubus idaeus",
+      "medical_conditions": [
+        "emenstrual syndrome"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "viburnum prunifolium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lue",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "caulophyllum thalictroides",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "capsella bursa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "vitex agnus-castus",
+      "medical_conditions": [
+        "emenstrual syndrome"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "angelica chinense",
+      "medical_conditions": [
+        "emenstrual syndrome"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "arctium lappa",
+      "medical_conditions": [
+        "emenstrual syndrome"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "scutellaria laterifloravalerian valeriana officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cucurbita pepo",
+      "medical_conditions": [
+        "rostate enlargeme"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "serenoa repenspygeum pygeum africanum",
+      "medical_conditions": [
+        "rostate enlargeme"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ammi visnag",
+      "medical_conditions": [
+        "rostate enlargeme",
+        "soriasis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "capsicum spp.angelica angelica archangelicaavocad",
+      "medical_conditions": [
+        "rostate enlargeme",
+        "soriasis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "bertholettia excelsa",
+      "medical_conditions": [
+        "rostate enlargeme",
+        "soriasis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "matricaria recutitaflax linum usitatissimum",
+      "medical_conditions": [
+        "rostate enlargeme",
+        "soriasis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "mahonia repens",
+      "medical_conditions": [
+        "soriasis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fumaria spp",
+      "medical_conditions": [
+        "soriasis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lavandula spp",
+      "medical_conditions": [
+        "soriasis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "silybum marianum",
+      "medical_conditions": [
+        "soriasis",
+        "cabies"
+      ],
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

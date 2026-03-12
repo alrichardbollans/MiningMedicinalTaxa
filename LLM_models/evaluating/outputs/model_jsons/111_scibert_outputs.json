@@ -1,0 +1,32 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "erythrox-ylumcoca",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "e. novogranatense",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "erythroxylon",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "echinocactus williamsii",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lophophora williamsii",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        ""
+      ]
+    }
+  ],
+  "text": null
+}

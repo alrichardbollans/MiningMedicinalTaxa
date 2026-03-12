@@ -1,0 +1,69 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "a. laxmannii",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal",
+        "ung"
+      ]
+    },
+    {
+      "scientific_name": "ajuga laxmannii",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ajuga laxmanniidw",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "different a. laxmannii",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aspergillus flavus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "aspergillus niger",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "candida albicans",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "candida parapsilosis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "penicillium funiculosum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ajuga",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "laxmanniii",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    }
+  ],
+  "text": null
+}

@@ -1,0 +1,18 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "curcuma longa",
+      "medical_conditions": [
+        "angiogenesis"
+      ],
+      "medicinal_effects": [
+        "survival",
+        "anti-inflam-matory",
+        "hepatoprotective",
+        "antineoplastic",
+        "anti-infectious"
+      ]
+    }
+  ],
+  "text": null
+}

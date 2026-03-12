@@ -1,0 +1,47 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "digitalis purpureaa",
+      "medical_conditions": [
+        "liverdisease"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pedanius dioscorides",
+      "medical_conditions": [
+        "liverdisease"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ephedra spp",
+      "medical_conditions": [
+        "tubes",
+        "asthma"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "claviceps purpurea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "gossypium spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "seecaryopsis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hesperidium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

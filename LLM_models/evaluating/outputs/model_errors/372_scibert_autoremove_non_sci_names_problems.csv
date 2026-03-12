@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,aspalathus linearis (burm.f.) r.dahlgren,aspalathus linearis (burm.f.) r.dahlgren,,hoodiagordonii (masson) sweet ex decne,,alnus glutinosa (l.) gaertn. (betulaceae_tracheitis,crataegus_cardiovascular problems,viburnum opulus l_diaphoretic,,hoodiagordonii (masson) sweet ex decne_regulate the appetite
-1,cyclopia sp,cyclopia sp,,thymusserpyllum l,,alnus glutinosa (l.) gaertn. (betulaceae_bronchitis,,viburnum opulus l_diuretic,,malpighia glabra l_vitamin c
+0,aspalathus linearis (burm.f.) r.dahlgren,aspalathus linearis (burm.f.) r.dahlgren,,hoodiagordonii (masson) sweet ex decne,,alnus glutinosa (l.) gaertn. (betulaceae_bronchitis,crataegus_cardiovascular problems,viburnum opulus l_diuretic,,hoodiagordonii (masson) sweet ex decne_regulate the appetite
+1,cyclopia sp,cyclopia sp,,thymusserpyllum l,,alnus glutinosa (l.) gaertn. (betulaceae_tracheitis,,viburnum opulus l_diaphoretic,,malpighia glabra l_vitamin c
 2,malpighia glabra l,malpighia glabra l,,q. petraea(matt.) liebl,,,,viburnum opulus l_anti-inflammatory,,l.cardiaca l_antistress
 3,viburnum opulus l,viburnum opulus l,,pimpinellaanisum l,,,,,,
 4,crataegus,crataegus,,,,,,,,

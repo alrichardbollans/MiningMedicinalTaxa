@@ -1,0 +1,104 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "rumex hydrolapathum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. majus",
+      "medical_conditions": [
+        "cancer",
+        "gastrointestinal parasites",
+        "warts",
+        "inflammatory eye infections",
+        "syphilitic affliction",
+        "jaundice",
+        "gout",
+        "ophtalmia",
+        "eye infections",
+        "war",
+        "fevers",
+        "specks",
+        "other skin diseases",
+        "visceral obstructions",
+        "andliver complaints",
+        "cataract",
+        "scrofula",
+        "diseases",
+        "dropsies"
+      ],
+      "medicinal_effects": [
+        "stimulant",
+        "loss",
+        "functions"
+      ]
+    },
+    {
+      "scientific_name": "diseasesc. majus",
+      "medical_conditions": [
+        "liver disorders",
+        "gallstones",
+        "jaundice",
+        "liver conditions",
+        "jaund",
+        "liver diseases",
+        "spasticconditions",
+        "inflammation"
+      ],
+      "medicinal_effects": [
+        "relaxant",
+        "agog"
+      ]
+    },
+    {
+      "scientific_name": "serbia",
+      "medical_conditions": [
+        "bile duct",
+        "inflammation of",
+        "hepatitis",
+        "jaundice"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chelidonium majus",
+      "medical_conditions": [
+        "gout"
+      ],
+      "medicinal_effects": [
+        "bloodpressure",
+        "functions",
+        "astonic",
+        "uretic",
+        "stimulant"
+      ]
+    },
+    {
+      "scientific_name": "p",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ver",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "um",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "greater",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chelidonium majusf",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

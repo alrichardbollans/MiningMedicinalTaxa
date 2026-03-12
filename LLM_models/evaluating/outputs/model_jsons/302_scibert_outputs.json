@@ -1,0 +1,598 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "berberis",
+      "medical_conditions": [
+        "wounds",
+        "ophthalmic diseases",
+        "enlarged liverand spleen",
+        "scorpion sting",
+        "fever",
+        "mountain sickness",
+        "skin diseases",
+        "urinary disorders aspainful micturition",
+        "hemorrhoids",
+        "eye",
+        "infections",
+        "indigestion",
+        "pathologies",
+        "snakebite",
+        "jaundice",
+        "conjunctivitis",
+        "dysentery",
+        "mouth",
+        "constipation",
+        "infections of the ear",
+        "obesity",
+        "ulcers",
+        "other ophthalmic diseases",
+        "inflammation",
+        "hemorrhages",
+        "uterine and vaginal disorders",
+        "diabetes",
+        "infectious diseases",
+        "indigestion anddysentery"
+      ],
+      "medicinal_effects": [
+        "antiprotozoal",
+        "ick healing",
+        "blood purifying",
+        "antimicrobial",
+        "antidot",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "berberis vulgaris",
+      "medical_conditions": [
+        "uterine and vaginal disorders",
+        "obesity",
+        "scorpion sting",
+        "snakebite",
+        "dysentery",
+        "indigestion"
+      ],
+      "medicinal_effects": [
+        "blood purifying",
+        "ifying"
+      ]
+    },
+    {
+      "scientific_name": "berberis asiatica",
+      "medical_conditions": [
+        "toothache",
+        "drying ulcers",
+        "eye sores",
+        "min",
+        "of inflammation and swelling",
+        "ulcers",
+        "enlarged liverand spleen",
+        "asthma",
+        "skin diseases",
+        "ation",
+        "jaundice",
+        "mination",
+        "skin pigmentation",
+        "hemorrhages"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "berberis aristata",
+      "medical_conditions": [
+        "ulcers",
+        "enlarged liverand spleen",
+        "other ophthalmic diseases",
+        "skin diseases",
+        "jaundice",
+        "conjunctivitis",
+        "hemorrhages"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "b. chitria",
+      "medical_conditions": [
+        "ophthalmic diseases",
+        "enlarged liverand spleen",
+        "ulcers",
+        "other ophthalmic diseases",
+        "skin diseases",
+        "jaundice",
+        "conjunctivitis",
+        "hemorrhages"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "b. lycium",
+      "medical_conditions": [
+        "diabetes",
+        "ophthalmic diseases",
+        "enlarged liverand spleen",
+        "ulcers",
+        "other ophthalmic diseases",
+        "skin diseases",
+        "urinary disorders aspainful micturition",
+        "jaundice",
+        "conjunctivitis",
+        "hemorrhages"
+      ],
+      "medicinal_effects": [
+        "antiprotozoal"
+      ]
+    },
+    {
+      "scientific_name": "thegenus berberis",
+      "medical_conditions": [
+        "mountain sickness",
+        "infections",
+        "fever"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "mahonia",
+      "medical_conditions": [
+        "skin conditions"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "m. aquifolium",
+      "medical_conditions": [
+        "skin conditions"
+      ],
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "us berberis",
+      "medical_conditions": [
+        "mountain sickness",
+        "infections",
+        "fever"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "the",
+      "medical_conditions": [
+        "mountain sickness",
+        "infections",
+        "fever"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "coptidis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial",
+        "antimicro"
+      ]
+    },
+    {
+      "scientific_name": "oma",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "coptischinensis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "annickia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "coelocline",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rollinia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "xylopia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "caulophyllum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "jeffersonia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "nandina",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sinopodophyllum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tinospora",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "emo",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "bocconia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chelidonium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "corydalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "eschscholzia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "glaucium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hunnemannia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "macleaya",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "papaver",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sanguinaria",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "coptis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hydrastis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "xanthorhiza",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "evodia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "phellodendron",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "zanthoxyllum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "b. vulgaris",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "argemone mexicana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "berberisaristata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "b. aquifolium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "b. heterophylla",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "b. beaniana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cosciniumfenestratum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. chinensis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "argemo",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rgemo",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. japonica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. rhizome",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hydratis canadensis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "annickia chlorantha (oliv. )setten & maas",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "enantiachlorantha oliv",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "a",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "annickia pilosa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "xe",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "enantia pilosa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "xell",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "annickia polycarpa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "i.m",
+      "medical_conditions": [
+        "intestinal problems",
+        "stomachulcers",
+        "malaria",
+        "ophthalmia",
+        "fever",
+        "jaundice",
+        "sores",
+        "leprosy",
+        "skin infections"
+      ],
+      "medicinal_effects": [
+        "wound healing",
+        "cuts",
+        "antiseptic",
+        "promote"
+      ]
+    },
+    {
+      "scientific_name": "enantia polycarpa (dc.)engl. & diels",
+      "medical_conditions": [
+        "intestinal problems",
+        "stomachulcers",
+        "malaria",
+        "ophthalmia",
+        "fever",
+        "jaundice",
+        "sores",
+        "leprosy",
+        "skin infections"
+      ],
+      "medicinal_effects": [
+        "wound healing",
+        "cuts",
+        "antiseptic",
+        "promote"
+      ]
+    },
+    {
+      "scientific_name": "rollinia mucosa (jacq.) baill",
+      "medical_conditions": [
+        "tumors",
+        "sleeping disorders",
+        "conception",
+        "eyediseases"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "xylopia polycarpa (dc.) oliv",
+      "medical_conditions": [
+        "conception",
+        "wounds",
+        "eyediseases",
+        "malaria",
+        "fevers",
+        "ulcers",
+        "sleeping disorders",
+        "rheumatism",
+        "tumors",
+        "diarrhea",
+        "leprosy",
+        "stomach and gall-bladder problems"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "berberis actinacantha mart",
+      "medical_conditions": [
+        "symptoms",
+        "constipation",
+        "generaldigestive problems",
+        "psoriasis",
+        "cirrhosis",
+        "herpes",
+        "hepatitis",
+        "eczema",
+        "acne",
+        "jaundice",
+        "diarrhea",
+        "conjunctivitis"
+      ],
+      "medicinal_effects": [
+        "liver",
+        "antipyretic",
+        "stimulate intestinal secretions",
+        "bile flow",
+        "improvement of blood flow to the"
+      ]
+    },
+    {
+      "scientific_name": "berberis aquifolium",
+      "medical_conditions": [
+        "cancer",
+        "liver",
+        "psoriasis",
+        "cirrhosis",
+        "skin conditions",
+        "herpes",
+        "hepatitis",
+        "h",
+        "generaldigestive problems",
+        "improvement of blood flow",
+        "gall bladderdisease",
+        "ptoms",
+        "fungal infections",
+        "jaundice",
+        "conjunctivitis",
+        "dysentery",
+        "symptoms",
+        "constipation",
+        "sore womb following childbirth",
+        "ear",
+        "hemorrhages and a few forms ofcancer",
+        "eczema",
+        "the",
+        "acne",
+        "hemorrhages",
+        "a",
+        "menstruation",
+        "stomachproblems",
+        "diarrhea",
+        "forms ofcancer",
+        "cholera"
+      ],
+      "medicinal_effects": [
+        "liver",
+        "improvement of blood flow",
+        "antipyretic",
+        "anti-inflammatory",
+        "secretions",
+        "stimulate intestinal secretions",
+        "bile flow",
+        "improvement of blood flow to the",
+        "stimulate"
+      ]
+    },
+    {
+      "scientific_name": "berberis aristata dc",
+      "medical_conditions": [
+        "osteoporosis",
+        "ear",
+        "bleeding piles",
+        "ophthalmia",
+        "skindiseases",
+        "menorrhagia",
+        "fever",
+        "metabolic disorders",
+        "jaundice",
+        "other eye diseases",
+        "diarrhea",
+        "dysentery",
+        "allergies",
+        "cholera"
+      ],
+      "medicinal_effects": [
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "berberis asiatica roxb. ex dc",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

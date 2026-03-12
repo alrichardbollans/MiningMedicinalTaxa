@@ -1,0 +1,179 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "h. hircinum",
+      "medical_conditions": [
+        "disorders",
+        "dementia",
+        "memoryimpairment"
+      ],
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "majus",
+      "medical_conditions": [
+        "dementia"
+      ],
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "aspergillus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "p",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "candida",
+      "medical_conditions": [
+        "antifungal"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rhodiola roseal",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-oxidant",
+        "anti-inflammatory",
+        "hepatoprotective"
+      ]
+    },
+    {
+      "scientific_name": "chelidonium majus l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "contracting",
+        "pro-inflammatory",
+        "muscle-relaxant",
+        "relaxant"
+      ]
+    },
+    {
+      "scientific_name": "syringa vulgaris l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "contracting",
+        "pro-inflammatory",
+        "muscle-relaxant",
+        "relaxant"
+      ]
+    },
+    {
+      "scientific_name": "roman chamomile",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "contracting",
+        "muscle-relaxant",
+        "relaxant"
+      ]
+    },
+    {
+      "scientific_name": "r",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "muscle",
+        "ant"
+      ]
+    },
+    {
+      "scientific_name": "centaurea ragusina l",
+      "medical_conditions": [
+        "urogenital disorders",
+        "gastrointestinal"
+      ],
+      "medicinal_effects": [
+        "antibacterial agent"
+      ]
+    },
+    {
+      "scientific_name": "commiphora",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "boswellia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ajuga laxmannii (murray) benth",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "antimicrobial",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "prunus spinosa l",
+      "medical_conditions": [
+        "cardiovascular"
+      ],
+      "medicinal_effects": [
+        "anti-metastatic",
+        "anti-proliferative"
+      ]
+    },
+    {
+      "scientific_name": "ononis natrix",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "cholesterol efflux"
+      ]
+    },
+    {
+      "scientific_name": "ononis natrix subsp. hispanica",
+      "medical_conditions": [
+        "atherosclerosis"
+      ],
+      "medicinal_effects": [
+        "anti-depressive",
+        "anxiolytic",
+        "cholesterol efflux"
+      ]
+    },
+    {
+      "scientific_name": "veronica officinalis l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-depressive",
+        "anxiolytic"
+      ]
+    },
+    {
+      "scientific_name": "scrophularia lucida l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "centaurea ragusina l.front",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "centaurea",
+      "medical_conditions": [
+        "urogenital disorders",
+        "gastrointestinal"
+      ],
+      "medicinal_effects": [
+        "antibacterial agent",
+        "antibacterial",
+        "anticancer"
+      ]
+    }
+  ],
+  "text": null
+}

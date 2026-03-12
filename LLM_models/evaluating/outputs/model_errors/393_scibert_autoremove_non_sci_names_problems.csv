@@ -1,26 +1,26 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,veronica,veronica officinalis,chamaedrys,v. thymoidesp.h.davis subsp. pseudocinerea m.a.fisch,v. officinalis_cardiovascular and metabolism system disorders,veronica_wound,veronica officinalis_lung diseases,veronica officinalis_system,veronica officinalis_antioxidant,v. thymoidesp.h.davis subsp. pseudocinerea m.a.fisch_cytostatic
-1,v. officinalis,veronica chamaedrys.front,l,v. bellidioidesl,v. officinalis_inflammatory conditions,veronica_hernia,veronica officinalis_asthma,v. officinalis_nervous,veronica officinalis_ardiovascular,veronica officinalis_cytotoxic
-2,veronica officinalis,veronica officinalis l,,,v. officinalis_rheumatism,veronica_wound healing,veronica officinalis_tonsillitisi,v. officinalis_anti-inflammatory,veronica_ine,veronica officinalis_antiulcerous
-3,veronica officinalis l,v. chamaedrys l,,,v. officinalis_stomach ulcers,veronica_hemoptysis,veronica officinalis_bronchitis,veronica_wound healing,veronica_ensive,veronica officinalis_hypocholesterolemic effect
-4,veronicaofficinalis,v. officinalis,,,v. officinalis_nervous,veronica_laryngopharyngitis,veronica officinalis_pharyngitis,veronica_diuretic,veronica anagallis-aquatica l_bath,veronica officinalis_antitussive
-5,veronica chamaedrys,v. chamaedrys,,,v. officinalis_respiratory ailments,veronica_influenza,veronica officinalis_kidney diseases,veronica_expectorant,v. vindobonensis (m.a.fisch. )m.a.fisch_anti-inflammatory,veronica officinalis_metabolism
-6,v. chamaedrys l,veronica,,,veronica_respiratory affections,veronica_healing,veronica officinalis_anemia,veronica_antiscorbutic,,veronica officinalis_hepatoprotective activity
-7,v. chamaedrys,veronica chamaedrys,,,veronica_abdominal pain,veronica l_rheumatic pain,veronica officinalis_catarrh,veronica_healing,,veronica officinalis_respiratory tract
-8,veronica anagallis-aquatica l,veronica l,,,veronica_rheumatic pain,l_wound,veronica officinalis_wounds,veronica anagallis-aquatica l_diuretic,,veronica officinalis_hypolipemic
-9,veronica l,veronica anagallis-aquatica l,,,veronica anagallis-aquatica l_rheumatic pain,l_rheumatic pain,veronica officinalis_skin diseases,v. anagallis-aquatica_cytostatic,,v. cymbalaria bodard_radicalscavenging
-10,v. anagallis-aquatica,v. anagallis-aquatica,,,veronica anagallis-aquatica l_abdominal pain,l_healing,veronica officinalis_coughs,v. persica poir_cytostatic,,v. cymbalaria bodard_cytotoxic
-11,v. persica poir,v. persica poir,,,v. anagallis-aquatica_hemoptysis,v. cymbalaria bodard_ment,veronica officinalis_rheumatic complaints,v. hederifolia l_radicalscavenging,,v. cymbalaria bodard_anti-inflammatory
-12,v. persica,v. cymbalaria bodard,,,v. anagallis-aquatica_influenza,,veronica officinalis_cough,v. hederifolia l_cytotoxic,,v. hederifolia l_anti-inflammatory
-13,v. cymbalaria bodard,v. hederifolia l,,,v. anagallis-aquatica_laryngopharyngitis,,,v. pectinata l. var. glandulosa_radicalscavenging,,v. bellidioidesl_antioxidant
-14,v. hederifolia l,v. pectinata l. var. glandulosa,,,v. anagallis-aquatica_hernia,,,v. pectinata l. var. glandulosa_cytotoxic,,v. vindobonensis (m.a.fisch. )m.a.fisch_antioxidant
-15,v. pectinata l. var. glandulosa,v. persica,,,,,,v. pectinata l. var. glandulosa_anti-inflammatory,,
+0,veronica,veronica officinalis,chamaedrys,v. thymoidesp.h.davis subsp. pseudocinerea m.a.fisch,v. officinalis_cardiovascular and metabolism system disorders,veronica_hernia,veronica officinalis_pharyngitis,veronica officinalis_system,veronica officinalis_antioxidant,v. thymoidesp.h.davis subsp. pseudocinerea m.a.fisch_cytostatic
+1,v. officinalis,veronica chamaedrys.front,l,v. bellidioidesl,v. officinalis_respiratory ailments,veronica_influenza,veronica officinalis_coughs,v. officinalis_anti-inflammatory,veronica officinalis_ardiovascular,veronica officinalis_cytotoxic
+2,veronica officinalis,veronica officinalis l,,,v. officinalis_nervous,veronica_wound,veronica officinalis_wounds,v. officinalis_nervous,veronica_ine,veronica officinalis_hepatoprotective activity
+3,veronica officinalis l,v. chamaedrys l,,,v. officinalis_rheumatism,veronica_laryngopharyngitis,veronica officinalis_bronchitis,veronica_antiscorbutic,veronica_ensive,veronica officinalis_hypocholesterolemic effect
+4,veronicaofficinalis,v. officinalis,,,v. officinalis_stomach ulcers,veronica_wound healing,veronica officinalis_cough,veronica_expectorant,veronica anagallis-aquatica l_bath,veronica officinalis_metabolism
+5,veronica chamaedrys,v. chamaedrys,,,v. officinalis_inflammatory conditions,veronica_hemoptysis,veronica officinalis_kidney diseases,veronica_diuretic,v. vindobonensis (m.a.fisch. )m.a.fisch_anti-inflammatory,veronica officinalis_antiulcerous
+6,v. chamaedrys l,veronica,,,veronica_respiratory affections,veronica_healing,veronica officinalis_asthma,veronica_wound healing,,veronica officinalis_respiratory tract
+7,v. chamaedrys,veronica chamaedrys,,,veronica_abdominal pain,veronica l_rheumatic pain,veronica officinalis_lung diseases,veronica_healing,,veronica officinalis_antitussive
+8,veronica anagallis-aquatica l,veronica l,,,veronica_rheumatic pain,l_wound,veronica officinalis_skin diseases,veronica anagallis-aquatica l_diuretic,,veronica officinalis_hypolipemic
+9,veronica l,veronica anagallis-aquatica l,,,veronica anagallis-aquatica l_abdominal pain,l_rheumatic pain,veronica officinalis_anemia,v. anagallis-aquatica_cytostatic,,v. cymbalaria bodard_radicalscavenging
+10,v. anagallis-aquatica,v. anagallis-aquatica,,,veronica anagallis-aquatica l_rheumatic pain,l_healing,veronica officinalis_rheumatic complaints,v. persica poir_cytostatic,,v. cymbalaria bodard_anti-inflammatory
+11,v. persica poir,v. persica poir,,,v. anagallis-aquatica_laryngopharyngitis,v. cymbalaria bodard_ment,veronica officinalis_tonsillitisi,v. hederifolia l_radicalscavenging,,v. cymbalaria bodard_cytotoxic
+12,v. persica,v. cymbalaria bodard,,,v. anagallis-aquatica_hemoptysis,,veronica officinalis_catarrh,v. hederifolia l_cytotoxic,,v. hederifolia l_anti-inflammatory
+13,v. cymbalaria bodard,v. hederifolia l,,,v. anagallis-aquatica_influenza,,,v. pectinata l. var. glandulosa_radicalscavenging,,v. bellidioidesl_antioxidant
+14,v. hederifolia l,v. pectinata l. var. glandulosa,,,v. anagallis-aquatica_hernia,,,v. pectinata l. var. glandulosa_anti-inflammatory,,v. vindobonensis (m.a.fisch. )m.a.fisch_antioxidant
+15,v. pectinata l. var. glandulosa,v. persica,,,,,,v. pectinata l. var. glandulosa_cytotoxic,,
 16,v. polita fr,v. polita fr,,,,,,v. persica_radicalscavenging,,
-17,v. kellereri degen & urum,v. kellereri degen & urum,,,,,,v. persica_cytotoxic,,
-18,v. vindobonensis (m.a.fisch. )m.a.fisch,v. vindobonensis (m.a.fisch. )m.a.fisch,,,,,,v. persica_anti-inflammatory,,
+17,v. kellereri degen & urum,v. kellereri degen & urum,,,,,,v. persica_anti-inflammatory,,
+18,v. vindobonensis (m.a.fisch. )m.a.fisch,v. vindobonensis (m.a.fisch. )m.a.fisch,,,,,,v. persica_cytotoxic,,
 19,v. beccabunga l,v. beccabunga l,,,,,,v. polita fr_radicalscavenging,,
-20,v. rhodopea degen ex stoj.& stef,v. rhodopea degen ex stoj.& stef,,,,,,v. polita fr_cytotoxic,,
-21,v. austriaca l,v. austriaca l,,,,,,v. polita fr_anti-inflammatory,,
+20,v. rhodopea degen ex stoj.& stef,v. rhodopea degen ex stoj.& stef,,,,,,v. polita fr_anti-inflammatory,,
+21,v. austriaca l,v. austriaca l,,,,,,v. polita fr_cytotoxic,,
 22,,,,,,,,v. kellereri degen & urum_antioxidant,,
 23,,,,,,,,v. beccabunga l_antioxidant,,
 24,,,,,,,,v. rhodopea degen ex stoj.& stef_antioxidant,,

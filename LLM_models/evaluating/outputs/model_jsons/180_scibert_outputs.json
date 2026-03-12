@@ -1,0 +1,78 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "juniperus excelsa",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "juniperus communis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "juniperus oxycedrus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "juniperus commu-nis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "juniperus foetidissima",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "j. communis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "j. excel-sa (je",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "j. foetidissima",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "j. excel-sa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "j. commu-nis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "j. excelsa",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    }
+  ],
+  "text": null
+}

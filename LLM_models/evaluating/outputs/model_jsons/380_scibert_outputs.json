@@ -1,0 +1,29 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "prunus spinosa l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "acellular matrix",
+        "anti-inflammatory",
+        "inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "p. spinosa",
+      "medical_conditions": [
+        "atherosclerosis",
+        "heart failure"
+      ],
+      "medicinal_effects": [
+        "",
+        "hrombotic",
+        "atherogenic",
+        "antioxidant",
+        "ardiovascular protection",
+        "inflammatory"
+      ]
+    }
+  ],
+  "text": null
+}

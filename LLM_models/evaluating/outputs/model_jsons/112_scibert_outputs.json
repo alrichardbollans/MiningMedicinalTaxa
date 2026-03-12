@@ -1,0 +1,184 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "sophora secundiflora",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "psilocybe mexicana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "psilocybe",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "stropharia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "conocybe",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "panaeolus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "psil",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ocybe mexicana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "monium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ocybe",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cono",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cy",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "be",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "e",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "olus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "mon",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "datura stramonium",
+      "medical_conditions": [
+        "bruises",
+        "wounds",
+        "nt"
+      ],
+      "medicinal_effects": [
+        "ntoxic",
+        "intoxic"
+      ]
+    },
+    {
+      "scientific_name": "d. inoxia",
+      "medical_conditions": [
+        "poultice",
+        "bruises",
+        "wounds"
+      ],
+      "medicinal_effects": [
+        "anaesthetic"
+      ]
+    },
+    {
+      "scientific_name": "d. meteloides",
+      "medical_conditions": [
+        "poultice",
+        "bruises",
+        "wounds"
+      ],
+      "medicinal_effects": [
+        "anaesthetic",
+        "narcotic"
+      ]
+    },
+    {
+      "scientific_name": "dat",
+      "medical_conditions": [
+        "wounds"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "datura",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "brugmansia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "wysoccan",
+      "medical_conditions": [
+        "nt"
+      ],
+      "medicinal_effects": [
+        "ntoxic",
+        "intoxic"
+      ]
+    },
+    {
+      "scientific_name": "obacco",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "virola calophylla",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. calophylloidea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "myristicaceae",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. theiodora",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "anadenanthera peregrina",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "hallucinogenic"
+      ]
+    }
+  ],
+  "text": null
+}

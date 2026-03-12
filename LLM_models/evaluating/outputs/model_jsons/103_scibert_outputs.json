@@ -1,0 +1,640 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "erythroxylum coca",
+      "medical_conditions": [
+        "us",
+        "eye"
+      ],
+      "medicinal_effects": [
+        "anesthetic"
+      ]
+    },
+    {
+      "scientific_name": "ephedra sinica",
+      "medical_conditions": [
+        "tumor",
+        "poisoning",
+        "bronchial asthma"
+      ],
+      "medicinal_effects": [
+        "blood pressure",
+        "the",
+        "ant"
+      ]
+    },
+    {
+      "scientific_name": "claviceps purpurea",
+      "medical_conditions": [
+        "migraine",
+        "migraine headaches"
+      ],
+      "medicinal_effects": [
+        "antibiotic",
+        "us"
+      ]
+    },
+    {
+      "scientific_name": "panax quinquefolia",
+      "medical_conditions": [
+        "gastritis",
+        "impotency",
+        "diabetes",
+        "cardiovascular disorders",
+        "anemia",
+        "insomnia"
+      ],
+      "medicinal_effects": [
+        "s stimulant",
+        "tonic"
+      ]
+    },
+    {
+      "scientific_name": "spp",
+      "medical_conditions": [
+        "gastritis",
+        "impotency",
+        "diabetes",
+        "anemia",
+        "insomnia"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ginkgo biloba",
+      "medical_conditions": [
+        "strokes",
+        "cardiovascular disorders"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "worthypericum perforatum",
+      "medical_conditions": [
+        "bruises",
+        "warts",
+        "seasonal affectivesyndrome",
+        "wounds",
+        "hiv",
+        "influenza",
+        "psoriasis",
+        "bacterial infections",
+        "herpes",
+        "hemorrhoids"
+      ],
+      "medicinal_effects": [
+        "antidepressant",
+        "sedative"
+      ]
+    },
+    {
+      "scientific_name": "rauvolfia serpentina",
+      "medical_conditions": [
+        "mental illness",
+        "hypertension",
+        "insect bites",
+        "schizophrenia",
+        "intestinal worms",
+        "mentally ill",
+        "persistent cough"
+      ],
+      "medicinal_effects": [
+        "blood pressure"
+      ]
+    },
+    {
+      "scientific_name": "rauvolfia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "echinacea purpurea + otherspp",
+      "medical_conditions": [
+        "wounds",
+        "burns",
+        "colds",
+        "flu"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "e",
+      "medical_conditions": [
+        "wounds",
+        "colds",
+        "burns",
+        "headaches",
+        "flu"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "echinacea",
+      "medical_conditions": [
+        "nausea",
+        "wounds",
+        "colds",
+        "burns",
+        "migraine",
+        "headaches",
+        "flu"
+      ],
+      "medicinal_effects": [
+        "tranquilizing",
+        "sedative"
+      ]
+    },
+    {
+      "scientific_name": "henium",
+      "medical_conditions": [
+        "migraine",
+        "headaches",
+        "nausea"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "catharanthus roseus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "vinca",
+      "medical_conditions": [
+        "kaposi",
+        "sarcoma",
+        "cancer ofthe testicles"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "yewtaxus brevifolia",
+      "medical_conditions": [
+        "breastcancers",
+        "ovarian"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "gelidium cartilagineum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "laxative"
+      ]
+    },
+    {
+      "scientific_name": "aloe vera",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "colchicum autumnale",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "myroxylon balsamum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "atropa belladonna",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "styrax",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "areca catechu",
+      "medical_conditions": [
+        "urinary tract problems",
+        "worms"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "piper nigrum",
+      "medical_conditions": [
+        "urinary tract problems"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "caulophyllum thalictroides",
+      "medical_conditions": [
+        "umatism"
+      ],
+      "medicinal_effects": [
+        "uation",
+        "he",
+        "menstr"
+      ]
+    },
+    {
+      "scientific_name": "menyanthes trifoliata",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "blood",
+        "pressure",
+        "pain-killer"
+      ]
+    },
+    {
+      "scientific_name": "physostigma venenosum",
+      "medical_conditions": [
+        "glaucoma"
+      ],
+      "medicinal_effects": [
+        "heart"
+      ]
+    },
+    {
+      "scientific_name": "cinnamomum camphora",
+      "medical_conditions": [
+        "itching",
+        "uperficial pain",
+        "glaucoma"
+      ],
+      "medicinal_effects": [
+        "heart"
+      ]
+    },
+    {
+      "scientific_name": "ara",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rad",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rhamnus purshiana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ricinus communis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "intestine"
+      ]
+    },
+    {
+      "scientific_name": "hydnocarpus wightiana",
+      "medical_conditions": [
+        "lepros"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rheum palmatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "syzygium aromaticum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antiseptic"
+      ]
+    },
+    {
+      "scientific_name": "symphytum officinale",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "duboisia myoporoides",
+      "medical_conditions": [
+        "other skin problems",
+        "psoriasis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "inula helenium",
+      "medical_conditions": [
+        "infections",
+        "asthma",
+        "chest colds"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "eucalyptus globulus",
+      "medical_conditions": [
+        "migraine",
+        "us"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "alyptus",
+      "medical_conditions": [
+        "bronchial congestion"
+      ],
+      "medicinal_effects": [
+        "antiseptic"
+      ]
+    },
+    {
+      "scientific_name": "tanacetum parthenium",
+      "medical_conditions": [
+        "migraine headache",
+        "bronchial congestion",
+        "nausea",
+        "vomiting"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "digitalis purpurea",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "heart"
+      ]
+    },
+    {
+      "scientific_name": "allium sativum",
+      "medical_conditions": [
+        "hypertension"
+      ],
+      "medicinal_effects": [
+        "antispasmodic",
+        "antiseptic"
+      ]
+    },
+    {
+      "scientific_name": "zingiber officinale",
+      "medical_conditions": [
+        "hypertension"
+      ],
+      "medicinal_effects": [
+        "soreness",
+        "antispasmodic",
+        "antiseptic",
+        "gas"
+      ]
+    },
+    {
+      "scientific_name": "hydrastis canadensis",
+      "medical_conditions": [
+        "stomach ache",
+        "bleeding"
+      ],
+      "medicinal_effects": [
+        "s stimulant",
+        "antiseptic"
+      ]
+    },
+    {
+      "scientific_name": "acacia senegal",
+      "medical_conditions": [
+        "coughs",
+        "sore throats"
+      ],
+      "medicinal_effects": [
+        "stomach ache",
+        "bleeding"
+      ]
+    },
+    {
+      "scientific_name": "hyoscyamus niger",
+      "medical_conditions": [
+        "diarrhea",
+        "pupils"
+      ],
+      "medicinal_effects": [
+        "muscle relaxant",
+        "sedative"
+      ]
+    },
+    {
+      "scientific_name": "marrubium vulgare",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cephaelis ipecacuanha",
+      "medical_conditions": [
+        "blood pressure",
+        "persistent cough"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pilocarpus jaborandi",
+      "medical_conditions": [
+        "glaucoma"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "picrasma excelsa",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "diuretic",
+        "s"
+      ]
+    },
+    {
+      "scientific_name": "sterculia urens",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "piper methysticum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "catha edulis",
+      "medical_conditions": [
+        "drine"
+      ],
+      "medicinal_effects": [
+        "local stimulant",
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "guaiacum officinale",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "drine",
+        "local stimulant",
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "podophyllum peltatum",
+      "medical_conditions": [
+        "blood pressure",
+        "tumor",
+        "testicular",
+        "ovarian"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "papaver somniferum",
+      "medical_conditions": [
+        "intestinal",
+        "testicular",
+        "ovarian",
+        "stomach spasms"
+      ],
+      "medicinal_effects": [
+        "ain-killer"
+      ]
+    },
+    {
+      "scientific_name": "taxus brevifolia",
+      "medical_conditions": [
+        "ovarian",
+        "stomach spasms"
+      ],
+      "medicinal_effects": [
+        "ain-killer"
+      ]
+    },
+    {
+      "scientific_name": "carica papaya",
+      "medical_conditions": [
+        "ovarian"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "plantago psyllium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cinchona pubescens",
+      "medical_conditions": [
+        "headache",
+        "malaria",
+        "muscle cramps"
+      ],
+      "medicinal_effects": [
+        "intestinal lubricant"
+      ]
+    },
+    {
+      "scientific_name": "ruta graveolens",
+      "medical_conditions": [
+        "headache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "serenoa repens",
+      "medical_conditions": [
+        "enlarged"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "urginea maritima",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "ant"
+      ]
+    },
+    {
+      "scientific_name": "cassia senna",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "olomon",
+        "emetics",
+        "anti-inflammatory",
+        "s seal",
+        "laxative",
+        "ant"
+      ]
+    },
+    {
+      "scientific_name": "polygonatum officinale",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "olomon",
+        "blood",
+        "anti-inflammatory",
+        "s seal"
+      ]
+    },
+    {
+      "scientific_name": "strophanthus gratus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "muscle",
+        "blood"
+      ]
+    },
+    {
+      "scientific_name": "strychnos nux-vomica",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "muscle",
+        "ressants",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "hypericum perforatum",
+      "medical_conditions": [
+        "depression"
+      ],
+      "medicinal_effects": [
+        "ressants"
+      ]
+    },
+    {
+      "scientific_name": "acorus calamus",
+      "medical_conditions": [
+        "depression",
+        "stomach cramp"
+      ],
+      "medicinal_effects": [
+        "uation"
+      ]
+    },
+    {
+      "scientific_name": "tanacetum vulgare",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antispasmodict",
+        "bile",
+        "uation"
+      ]
+    },
+    {
+      "scientific_name": "curcuma longa",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antibiotic",
+        "antispasmodict",
+        "bile"
+      ]
+    },
+    {
+      "scientific_name": "valeriana officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "p"
+      ]
+    },
+    {
+      "scientific_name": "salix spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

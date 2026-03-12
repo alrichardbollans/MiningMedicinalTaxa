@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,sophora secundiflora,sophora secundiflora,psil,,datura stramonium_bruises,datura stramonium_nt,datura_inflammation,d. inoxia_anaesthetic,datura stramonium_intoxic,datura_anesthetic
-1,psilocybe mexicana,psilocybe mexicana,ocybe mexicana,,datura stramonium_wounds,d. inoxia_poultice,datura_asthma,d. meteloides_anaesthetic,datura stramonium_ntoxic,datura_aphrodisiac
+0,sophora secundiflora,sophora secundiflora,psil,,datura stramonium_bruises,datura stramonium_nt,datura_inflammation,d. inoxia_anaesthetic,datura stramonium_ntoxic,datura_anesthetic
+1,psilocybe mexicana,psilocybe mexicana,ocybe mexicana,,datura stramonium_wounds,d. inoxia_poultice,datura_asthma,d. meteloides_anaesthetic,datura stramonium_intoxic,datura_aphrodisiac
 2,psilocybe,psilocybe,monium,,d. inoxia_bruises,d. meteloides_poultice,,,d. meteloides_narcotic,
-3,stropharia,stropharia,ocybe,,d. inoxia_wounds,dat_wounds,,,wysoccan_intoxic,
-4,conocybe,conocybe,cono,,d. meteloides_bruises,wysoccan_nt,,,wysoccan_ntoxic,
+3,stropharia,stropharia,ocybe,,d. inoxia_wounds,dat_wounds,,,wysoccan_ntoxic,
+4,conocybe,conocybe,cono,,d. meteloides_bruises,wysoccan_nt,,,wysoccan_intoxic,
 5,panaeolus,panaeolus,cy,,d. meteloides_wounds,,,,anadenanthera peregrina_hallucinogenic,
 6,datura,datura stramonium,be,,,,,,,
 7,datura stramonium,d. inoxia,pana,,,,,,,

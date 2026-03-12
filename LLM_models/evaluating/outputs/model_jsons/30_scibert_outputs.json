@@ -1,0 +1,55 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "marshmallow",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aloe vera",
+      "medical_conditions": [
+        "diabetes",
+        "urinary frequency"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "gymnema sylvestre (retz.) r. br. ex sm",
+      "medical_conditions": [
+        "diabetes",
+        "urinary frequency"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tussilago farfara l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "urtica diocia l",
+      "medical_conditions": [
+        "diabetes",
+        "cough",
+        "arthritis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "piper methysticum g.frost",
+      "medical_conditions": [
+        "abdominal colic"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aristolochia",
+      "medical_conditions": [
+        "abdominal colic",
+        "itable bowel syndrome"
+      ],
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

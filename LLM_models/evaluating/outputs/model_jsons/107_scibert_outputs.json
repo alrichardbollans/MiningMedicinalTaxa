@@ -1,0 +1,478 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "angeli",
+      "medical_conditions": [
+        "colic",
+        "colds"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "angelica archangelica",
+      "medical_conditions": [
+        "gestion",
+        "bronchitis",
+        "indi"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pimpinella anisum",
+      "medical_conditions": [
+        "protein colds",
+        "asthma"
+      ],
+      "medicinal_effects": [
+        "topical antiseptic"
+      ]
+    },
+    {
+      "scientific_name": "arctostaphylos uva-ursi",
+      "medical_conditions": [
+        "bladder inf"
+      ],
+      "medicinal_effects": [
+        "uretic"
+      ]
+    },
+    {
+      "scientific_name": "salix pentandra",
+      "medical_conditions": [
+        "diarrhea",
+        "colds"
+      ],
+      "medicinal_effects": [
+        "antidiarrheal",
+        "diuretic"
+      ]
+    },
+    {
+      "scientific_name": "vaccinium myrtillus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "wound",
+        "healing"
+      ]
+    },
+    {
+      "scientific_name": "symphytum officinale",
+      "medical_conditions": [
+        "diarrhea",
+        "colds",
+        "broken bones"
+      ],
+      "medicinal_effects": [
+        "diuretic",
+        "tonic",
+        "antiseptic"
+      ]
+    },
+    {
+      "scientific_name": "barosma betulina",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "gastric"
+      ]
+    },
+    {
+      "scientific_name": "rhamnus frangula",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "calmative",
+        "antipyretic",
+        "aromatic"
+      ]
+    },
+    {
+      "scientific_name": "nepeta cataria",
+      "medical_conditions": [
+        "poultice"
+      ],
+      "medicinal_effects": [
+        "bitter",
+        "calmative"
+      ]
+    },
+    {
+      "scientific_name": "anthemis nobilis",
+      "medical_conditions": [
+        "bitter",
+        "inflammation"
+      ],
+      "medicinal_effects": [
+        "anth",
+        "ine"
+      ]
+    },
+    {
+      "scientific_name": "elymus repens",
+      "medical_conditions": [
+        "cystitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "turnera aphrodisiaca",
+      "medical_conditions": [
+        "gastric stress"
+      ],
+      "medicinal_effects": [
+        "cholagogic",
+        "tonic",
+        "aphrodisiac"
+      ]
+    },
+    {
+      "scientific_name": "taraxacum officinale",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "cholagogic",
+        "expectorant",
+        "antiseptic"
+      ]
+    },
+    {
+      "scientific_name": "eucalyptus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "cholagogic",
+        "romatic",
+        "expectorant",
+        "antiseptic"
+      ]
+    },
+    {
+      "scientific_name": "eucalyptus globosus",
+      "medical_conditions": [
+        "colds"
+      ],
+      "medicinal_effects": [
+        "romatic"
+      ]
+    },
+    {
+      "scientific_name": "foeniculum vulgare",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "trigonella foenugraecum",
+      "medical_conditions": [
+        "aph",
+        "colds",
+        "fevers"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "panax quinquefolium",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "laxative",
+        "antiinflamatory"
+      ]
+    },
+    {
+      "scientific_name": "hydrastis canadensis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "humulus lupulus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "equisetum arvense",
+      "medical_conditions": [
+        "dyspepsia"
+      ],
+      "medicinal_effects": [
+        "laxative"
+      ]
+    },
+    {
+      "scientific_name": "juniperus communis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "glycyrrhiza glabra",
+      "medical_conditions": [
+        "indigestion"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tilia europaea",
+      "medical_conditions": [
+        "indigestion"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ilex paraguariensis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "visco",
+        "calmative",
+        "tonic",
+        "otic",
+        "stimulant"
+      ]
+    },
+    {
+      "scientific_name": "viscum album",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "visco",
+        "tonic",
+        "calmative"
+      ]
+    },
+    {
+      "scientific_name": "avena sativa",
+      "medical_conditions": [
+        "back pain"
+      ],
+      "medicinal_effects": [
+        "prevents",
+        "antispasmodic"
+      ]
+    },
+    {
+      "scientific_name": "carica papaya",
+      "medical_conditions": [
+        "colic",
+        "flatulence",
+        "back pain"
+      ],
+      "medicinal_effects": [
+        "prevents"
+      ]
+    },
+    {
+      "scientific_name": "mentha piperita",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rosa spp",
+      "medical_conditions": [
+        "erfume",
+        "colds"
+      ],
+      "medicinal_effects": [
+        "antirheumatic"
+      ]
+    },
+    {
+      "scientific_name": "sass",
+      "medical_conditions": [
+        "colds"
+      ],
+      "medicinal_effects": [
+        "antirheumatic"
+      ]
+    },
+    {
+      "scientific_name": "sassafras officinale",
+      "medical_conditions": [
+        "flatulence",
+        "vomiting"
+      ],
+      "medicinal_effects": [
+        "antirheumatic"
+      ]
+    },
+    {
+      "scientific_name": "mentha viridis",
+      "medical_conditions": [
+        "vomiting"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fragaria spp",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "astringent",
+        "antidiarrheal"
+      ]
+    },
+    {
+      "scientific_name": "achillea millefolium",
+      "medical_conditions": [
+        "hemorrhoids"
+      ],
+      "medicinal_effects": [
+        "eriod"
+      ]
+    },
+    {
+      "scientific_name": "eriodictyon californicum",
+      "medical_conditions": [
+        "bronchiolar congestion",
+        "iolar congestion",
+        "hemorrhoids",
+        "hay fever"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "y",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "expectorant",
+        "eriod"
+      ]
+    },
+    {
+      "scientific_name": "anti",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "p",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tastica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aman",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ita",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "muscaria",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "conocybe spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "anaeolus sphinctrinus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "laviceps purpurea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sclerotium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ycoperdon mixtecorum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ycoperdon",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "margin",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "atum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sil",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ocy",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "be spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tropharia cubensis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "justicia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pectoralis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "acorus calamus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "mesembryanthemum spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sceletium tortuosum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tabernanthe",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "voacanga",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

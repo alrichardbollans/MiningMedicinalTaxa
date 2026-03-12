@@ -1,0 +1,61 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "theobroma cacao",
+      "medical_conditions": [
+        "bronchial asthma"
+      ],
+      "medicinal_effects": [
+        "stimulant",
+        "diuretic",
+        "ate",
+        "heartstimulant"
+      ]
+    },
+    {
+      "scientific_name": "camellia sinensis",
+      "medical_conditions": [
+        "bronchial asthma"
+      ],
+      "medicinal_effects": [
+        "heartstimulant"
+      ]
+    },
+    {
+      "scientific_name": "ticale",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "triticum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "secale",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chondrodendron",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "catharanthus roseus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "vitisspp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "saccharomyces cervesiea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

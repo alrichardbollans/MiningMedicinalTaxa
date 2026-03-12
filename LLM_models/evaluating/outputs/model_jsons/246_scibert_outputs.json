@@ -1,0 +1,204 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "hibiscus sabdariffa",
+      "medical_conditions": [
+        "skin",
+        "breast",
+        "liver"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lonicera japonica",
+      "medical_conditions": [
+        "skin",
+        "breast",
+        "liver"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "eucommia ulmoides",
+      "medical_conditions": [
+        "skin",
+        "breast",
+        "liver"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "physalis angulata l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "antrodia salmonea",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "anti-oxidative"
+      ]
+    },
+    {
+      "scientific_name": "mikania micrantha",
+      "medical_conditions": [
+        "free radical diseases"
+      ],
+      "medicinal_effects": [
+        "cancer",
+        "antioxidant",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "cannabis sativa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sideritis cypria",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "sideritis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s. curvidens",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "diaphoretic"
+      ]
+    },
+    {
+      "scientific_name": "s. perfoliata l",
+      "medical_conditions": [
+        "stomach disorders",
+        "common cold"
+      ],
+      "medicinal_effects": [
+        "diaphoretic"
+      ]
+    },
+    {
+      "scientific_name": "s. cypria post",
+      "medical_conditions": [
+        "stomach disorders"
+      ],
+      "medicinal_effects": [
+        "diaphoretic"
+      ]
+    },
+    {
+      "scientific_name": "s. cypria",
+      "medical_conditions": [
+        "headache",
+        "stomach disorders",
+        "common cold"
+      ],
+      "medicinal_effects": [
+        "diaphoretic",
+        "tonic",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "empedoclia rafin",
+      "medical_conditions": [
+        "headache",
+        "stomach disorders",
+        "common cold"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cyprus",
+      "medical_conditions": [
+        "headache",
+        "stomach disorders",
+        "common cold"
+      ],
+      "medicinal_effects": [
+        "diaphoretic",
+        "tonic"
+      ]
+    },
+    {
+      "scientific_name": "c",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "entadact",
+      "medical_conditions": [
+        "headache",
+        "stomach disorders",
+        "common cold"
+      ],
+      "medicinal_effects": [
+        "diaphoretic",
+        "tonic"
+      ]
+    },
+    {
+      "scientific_name": "zingiber officinale",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "oscoe",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "zingiber zerumbet",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "curcuma amada roxb",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "z. montanum koen",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "zingiber officinale roscoe",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "mith",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "zingiber montanum",
+      "medical_conditions": [
+        "gastrointestinal motility disorders"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "bon",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "bon ada",
+      "medical_conditions": [
+        "gastrointestinal motility disorders"
+      ],
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

@@ -1,0 +1,32 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "teuchrium chamaedrys",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "t. chamaedrys",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "a. paniculata",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        ""
+      ]
+    },
+    {
+      "scientific_name": "vicia faba",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "helminthosporium dematioideum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

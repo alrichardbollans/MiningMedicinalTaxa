@@ -1,0 +1,15 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "aspergillus flavus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aspergillus parasiticus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

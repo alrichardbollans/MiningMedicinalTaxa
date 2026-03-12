@@ -1,0 +1,84 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "hypericum spp",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "gastroprotective",
+        "wound healing",
+        "wound-healing"
+      ]
+    },
+    {
+      "scientific_name": "greecehypericum l",
+      "medical_conditions": [
+        "skin inflammations",
+        "wounds"
+      ],
+      "medicinal_effects": [
+        "gastroprotective",
+        "antiangiogenetic",
+        "antimicrobial",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "h. perforatum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "wound healing"
+      ]
+    },
+    {
+      "scientific_name": "h. empetrifolium",
+      "medical_conditions": [
+        "skin inflammations",
+        "wounds"
+      ],
+      "medicinal_effects": [
+        "wound healing"
+      ]
+    },
+    {
+      "scientific_name": "h. triquetrifolium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. amblycalyx",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. jovis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "e",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "laurus nobilis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aly",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "us",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "laurus nobilis l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

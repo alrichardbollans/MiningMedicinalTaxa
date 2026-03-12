@@ -1,0 +1,52 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "s",
+      "medical_conditions": [
+        "eczema"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tel",
+      "medical_conditions": [
+        "eczema"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lar",
+      "medical_conditions": [
+        "eczema"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ia",
+      "medical_conditions": [
+        "eczema"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "media",
+      "medical_conditions": [
+        "eczema"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "stellaria media",
+      "medical_conditions": [
+        "eczema"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ginko biloba",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

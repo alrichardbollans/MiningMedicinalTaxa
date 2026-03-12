@@ -1,0 +1,46 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "cassia l., senna mill",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chamaecrista moench",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "e",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "echinacea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "na",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rip",
+      "medical_conditions": [
+        "stroke"
+      ],
+      "medicinal_effects": [
+        "circulation"
+      ]
+    },
+    {
+      "scientific_name": "aloe vera",
+      "medical_conditions": [
+        "cra"
+      ],
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

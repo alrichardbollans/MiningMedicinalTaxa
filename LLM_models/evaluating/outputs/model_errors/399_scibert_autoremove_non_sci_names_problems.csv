@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,lavandulaangustifolia,lavandula angustifolia,,lavandulaangustifolia miller,lavandula angustifolia_anxiety,lavandula angustifolia_nervous systemdisorders,lavandulaangustifolia_depression,lavandula officinalis chaix_anxiolytic,,lavandulaangustifolia_anxiolytic
-1,lavandula angustifolia,lavandula officinalis,,,lavandula angustifolia_stress,lavandula officinalis_nervous systemdisorders,lavandulaangustifolia miller_anxiety,,,lavandulaangustifolia_antidepressant-like
-2,l. angustifolia,lavandula officinalis chaix,,,lavandula officinalis_anxiety,,lavandulaangustifolia miller_restlessness,,,lavandulaangustifolia_centralnervous system
-3,lavandula angustifolia mill,l. angustifolia,,,lavandula officinalis_stress,,lavandulaangustifolia miller_depression,,,lavandulaangustifolia miller_anxiolytic
+0,lavandulaangustifolia,lavandula angustifolia,,lavandulaangustifolia miller,lavandula angustifolia_anxiety,lavandula angustifolia_nervous systemdisorders,lavandulaangustifolia_depression,lavandula officinalis chaix_anxiolytic,,lavandulaangustifolia_antidepressant-like
+1,lavandula angustifolia,lavandula officinalis,,,lavandula angustifolia_stress,lavandula officinalis_nervous systemdisorders,lavandulaangustifolia miller_restlessness,,,lavandulaangustifolia_centralnervous system
+2,l. angustifolia,lavandula officinalis chaix,,,lavandula officinalis_anxiety,,lavandulaangustifolia miller_depression,,,lavandulaangustifolia_anxiolytic
+3,lavandula angustifolia mill,l. angustifolia,,,lavandula officinalis_stress,,lavandulaangustifolia miller_mental disorders,,,lavandulaangustifolia miller_antidepressive
 4,lavandula officinalis chaix,lavandula angustifolia mill,,,lavandula officinalis chaix_anxiety,,lavandulaangustifolia miller_stress,,,lavandulaangustifolia miller_relievestress
-5,lavandula officinalis,,,,lavandula officinalis chaix_depression,,lavandulaangustifolia miller_mental disorders,,,lavandulaangustifolia miller_antidepressive
-6,,,,,lavandula officinalis chaix_mental disorders,,lavandula officinalis chaix_restlessness,,,lavandula officinalis chaix_relievestress
-7,,,,,lavandula officinalis chaix_stress,,,,,lavandula officinalis chaix_antidepressive
+5,lavandula officinalis,,,,lavandula officinalis chaix_stress,,lavandulaangustifolia miller_anxiety,,,lavandulaangustifolia miller_anxiolytic
+6,,,,,lavandula officinalis chaix_depression,,lavandula officinalis chaix_restlessness,,,lavandula officinalis chaix_antidepressive
+7,,,,,lavandula officinalis chaix_mental disorders,,,,,lavandula officinalis chaix_relievestress

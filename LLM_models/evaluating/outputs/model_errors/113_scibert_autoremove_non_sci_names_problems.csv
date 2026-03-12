@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,banisteriopsis caapi,banisteriopsis caapi,palmaria palmata,b.inebrians,,morchella esculenta_sig,banisteriopsis caapi_pain,claviceps purpurea_vasoconstrictor,conocybe spp_vasoconstrictor,penicillium chrysogenum_antibiotic
 1,datura inoxia,datura inoxia,ulva,b.rusbyana,,mycosphaerella_sig,b.inebrians_pain,,,penicillium notatum_antibiotic
-2,rivea corymbosa,rivea corymbosa,lactuca,agaricus bisporus,,ophiostoma ulmi_sig,b.rusbyana_pain,,,streptomyces spp_antibiotics
-3,rivea,turbina corymbosa,aspergillus oryzae,agrobacterium tumifaciens,,ophiostoma ulmi_dutch elm,,,,claviceps purpurea_psychoactive
+2,rivea corymbosa,rivea corymbosa,lactuca,agaricus bisporus,,ophiostoma ulmi_dutch elm,b.rusbyana_pain,,,streptomyces spp_antibiotics
+3,rivea,turbina corymbosa,aspergillus oryzae,agrobacterium tumifaciens,,ophiostoma ulmi_sig,,,,claviceps purpurea_psychoactive
 4,turbina corymbosa,ipomoea violacea,flammulina vel,spergillus oryzae,,penicillium camemberti_dutch elm,,,,psilocybe spp_psychoactive
 5,ipomoea violacea,rivea,,cryphonectaria parasitica,,phytophthora infestans_pod,,,,amanita muscaria_psychoactive
 6,agaricus campestris,agaricus campestris,,paneolus spp,,pleurotus spp_downy,,,,conocybe spp_psychoactive

@@ -1,9 +1,9 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,allium canadense,allium canadense,cassia,menthapiperita,allium sativum_athlete's foot,allium sativum_aph,,,allium sativum_ac,allium sativum_aphrodisiac
-1,allium chinense,allium chinense,cus,crocus,allium sativum_hemorrhoids,allium sativum_lls,,,,brassica nigra_stimulating
-2,allium odorum,allium odorum,c. annuum var. glabriusculu,,allium sativum_cancer,allium sativum_ires,,,,
-3,allium schoenoprasum,allium schoenoprasum,c. annuum var. glabr,,allium sativum_high blood pressure,allium sativum_rodisi,,,,
-4,allium cepa,allium cepa,c. annuum var. glabrius,,allium sativum_tuberculosis,,,,,
+0,allium canadense,allium canadense,cassia,menthapiperita,allium sativum_cancer,allium sativum_aph,,,allium sativum_ac,allium sativum_aphrodisiac
+1,allium chinense,allium chinense,cus,crocus,allium sativum_athlete's foot,allium sativum_rodisi,,,,brassica nigra_stimulating
+2,allium odorum,allium odorum,c. annuum var. glabriusculu,,allium sativum_hemorrhoids,allium sativum_ires,,,,
+3,allium schoenoprasum,allium schoenoprasum,c. annuum var. glabr,,allium sativum_tuberculosis,allium sativum_lls,,,,
+4,allium cepa,allium cepa,c. annuum var. glabrius,,allium sativum_high blood pressure,,,,,
 5,allium ampeloprasum,allium ampeloprasum,c. chin,,,,,,,
 6,allium sativum,allium sativum,,,,,,,,
 7,allium scorodoprasum,allium scorodoprasum,,,,,,,,

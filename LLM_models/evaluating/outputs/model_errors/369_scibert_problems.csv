@@ -1,8 +1,8 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,a. laxmannii,a. laxmannii,ajug,,ajuga_hypertension,ajuga_oedema,ajuga_edema,a. laxmannii_antibacterial,a. laxmannii_cal,ajuga_astringent
-1,ajuga laxmannii,ajuga laxmannii,alaxmanni,,ajuga_fever,,,a. laxmannii_antifungal,a. laxmannii_al,a. chamaecistus subsp. scoparia (boiss.) rech.f_antiradical
-2,ajuga,ajuga,i,,ajuga_ulcer,,,a. laxmannii_antioxidant,a. laxmannii_dan,
-3,ajugalaxmannii,a. bracteosa,laxmannii,,ajuga_intestinal and biliary disorders,,,a. laxmannii_antiradical,a. laxmannii_ial,
+0,a. laxmannii,a. laxmannii,ajug,,ajuga_hypertension,ajuga_oedema,ajuga_edema,a. laxmannii_antiradical,a. laxmannii_cal,ajuga_astringent
+1,ajuga laxmannii,ajuga laxmannii,alaxmanni,,ajuga_fever,,,a. laxmannii_antibacterial,a. laxmannii_al,a. chamaecistus subsp. scoparia (boiss.) rech.f_antiradical
+2,ajuga,ajuga,i,,ajuga_intestinal and biliary disorders,,,a. laxmannii_antioxidant,a. laxmannii_ial,
+3,ajugalaxmannii,a. bracteosa,laxmannii,,ajuga_ulcer,,,a. laxmannii_antifungal,a. laxmannii_dan,
 4,a. bracteosa,a. relicta,candida parap,,,,,a. laxmannii_anti-inflammatory,ajuga_astr,
 5,a. relicta,a. taiwanensis,osis,,,,,a. laxmannii_antimicrobial,ajuga_al,
 6,a. taiwanensis,ajugalaxmannii,l,,,,,ajuga laxmannii_antifungal,penicillium funiculosum_anti-inflammatory,

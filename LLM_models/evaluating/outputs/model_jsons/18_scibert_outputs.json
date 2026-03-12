@@ -1,0 +1,172 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "salix spp",
+      "medical_conditions": [
+        "2 diabetics",
+        "cardiac disease"
+      ],
+      "medicinal_effects": [
+        "diabetic",
+        "pain relief",
+        "anti-platelet effects"
+      ]
+    },
+    {
+      "scientific_name": "digitalis lanata ehrh",
+      "medical_conditions": [
+        "2 diabetics",
+        "cardiac disease"
+      ],
+      "medicinal_effects": [
+        "diabetic"
+      ]
+    },
+    {
+      "scientific_name": "galega officinalis l",
+      "medical_conditions": [
+        "hypertension",
+        "malaria",
+        "infectious disease",
+        "fever",
+        "2 diabetics"
+      ],
+      "medicinal_effects": [
+        "diabetic",
+        "vasodil"
+      ]
+    },
+    {
+      "scientific_name": "papaver somniferum l",
+      "medical_conditions": [
+        "hypertension",
+        "malaria"
+      ],
+      "medicinal_effects": [
+        "vasodil"
+      ]
+    },
+    {
+      "scientific_name": "cinchona officinalis l",
+      "medical_conditions": [
+        "malaria",
+        "infectious disease",
+        "fever"
+      ],
+      "medicinal_effects": [
+        ""
+      ]
+    },
+    {
+      "scientific_name": "catharanthus roseus l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "panax quinquefolius l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "astr"
+      ]
+    },
+    {
+      "scientific_name": "rumex rupestris le gall",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "astr"
+      ]
+    },
+    {
+      "scientific_name": "saxifraga hirculus l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "astr"
+      ]
+    },
+    {
+      "scientific_name": "panax",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "health",
+        "physical performance"
+      ]
+    },
+    {
+      "scientific_name": "jatropha podagrica hook",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "enhancement of mental",
+        "health",
+        "physical performance",
+        "male stimulant"
+      ]
+    },
+    {
+      "scientific_name": "panax ginseng c.a.mey",
+      "medical_conditions": [
+        "fatigue"
+      ],
+      "medicinal_effects": [
+        "health",
+        "fatigue",
+        "male stimulant",
+        "enhancement of mental",
+        "physical performance"
+      ]
+    },
+    {
+      "scientific_name": "codonopsis pilosula nannf",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rumex madaio makino",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "talinum paniculatum (jacq.) gaertn",
+      "medical_conditions": [
+        "renal damage"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "stephania tetrandra s.moore",
+      "medical_conditions": [
+        "renal damage"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aristolochia fangchi y.c.wu ex l.d.chow & s.m.hwang",
+      "medical_conditions": [
+        "renal damage"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "stephania tetrandra",
+      "medical_conditions": [
+        "renal damage"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aristolochia fangchi",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aristolochia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fangchi",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

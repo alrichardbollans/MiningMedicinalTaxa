@@ -1,0 +1,62 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "ocimum tenuiflorum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "o. sanctum l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "o. tenuiflorum l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "neisseria gonorrhoea",
+      "medical_conditions": [
+        "sexually transmitted disease",
+        "gonorrhoea"
+      ],
+      "medicinal_effects": [
+        "antibacterial"
+      ]
+    },
+    {
+      "scientific_name": "o. tenuiflorum",
+      "medical_conditions": [
+        "sexually transmitted disease",
+        "gonorrhoea"
+      ],
+      "medicinal_effects": [
+        "male contraceptive",
+        "antibacterial",
+        "contraceptive"
+      ]
+    },
+    {
+      "scientific_name": "ocimum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "o. bascilium l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "o. sanctum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "o. gratissimum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

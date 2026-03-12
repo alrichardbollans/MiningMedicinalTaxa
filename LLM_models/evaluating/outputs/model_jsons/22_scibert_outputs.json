@@ -1,0 +1,36 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "m",
+      "medical_conditions": [
+        "toothache",
+        "constipation",
+        "coughs",
+        "sore throats",
+        "eczema"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "antiseptic",
+        "immune boosting",
+        "indi"
+      ]
+    },
+    {
+      "scientific_name": "aloe vera",
+      "medical_conditions": [
+        "toothache",
+        "constipation",
+        "coughs",
+        "colds",
+        "sore throats",
+        "eczema"
+      ],
+      "medicinal_effects": [
+        "immune boosting",
+        "indi"
+      ]
+    }
+  ],
+  "text": null
+}

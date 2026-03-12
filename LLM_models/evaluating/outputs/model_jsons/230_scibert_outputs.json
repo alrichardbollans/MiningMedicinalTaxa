@@ -1,0 +1,166 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "o. dictamnus",
+      "medical_conditions": [
+        "of skin inflammations and bruises",
+        "cough associated",
+        "mild gastrointestinal disorders",
+        "wound",
+        "healing"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "satureja montana",
+      "medical_conditions": [
+        "hypertension",
+        "s",
+        "diabetes",
+        "cough",
+        "common flu"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "stachys iva",
+      "medical_conditions": [
+        "common flu",
+        "s",
+        "cough"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ideritis sp",
+      "medical_conditions": [
+        "common flu",
+        "s",
+        "cough"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "achillea coarcata",
+      "medical_conditions": [
+        "hypertension",
+        "s",
+        "diabetes",
+        "cough",
+        "common flu"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "teucrium",
+      "medical_conditions": [
+        "diabetes",
+        "common flu",
+        "s",
+        "cough"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chamomilla recutita",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "salvia sclarea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thymus spp",
+      "medical_conditions": [
+        "lments"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thymus thracicus",
+      "medical_conditions": [
+        "lments"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "balkan",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thymus thracicus velen",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "artocarpus tonkinensis",
+      "medical_conditions": [
+        "collagen",
+        "collagen-induced"
+      ],
+      "medicinal_effects": [
+        "17 cell function",
+        "protects"
+      ]
+    },
+    {
+      "scientific_name": "kinensis",
+      "medical_conditions": [
+        "backache",
+        "arthritis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cistus creticus l. subsp. eriocephalus (viv.) greuter & burdet",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-influenza activity",
+        "neuraminidase inhibition",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "cistus incanus l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. creticus",
+      "medical_conditions": [
+        "respiratory infections"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. creticus subsp. eriocephalus",
+      "medical_conditions": [
+        "influenza",
+        "cold symptoms",
+        "flu"
+      ],
+      "medicinal_effects": [
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "c. creticus subsp. eriocephalus (cis",
+      "medical_conditions": [
+        "influenza"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. creticus subsp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

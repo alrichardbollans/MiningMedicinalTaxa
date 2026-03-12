@@ -85,9 +85,11 @@ def aggregate_predictions() -> Dict[int, TaxaData]:
 def main():
     Config.validate()
     out_dir    = Config.IDS / 'full_eval'
-    pkl_dir    = Config.IDS / 'model_pkls'
+    #pkl_dir    = Config.IDS / 'model_pkls'
+    json_dir = Config.IDS / 'model_jsons'
     os.makedirs(out_dir, exist_ok=True)
-    os.makedirs(pkl_dir, exist_ok=True)
+    #os.makedirs(pkl_dir, exist_ok=True)
+    os.makedirs(json_dir, exist_ok=True)
     os.makedirs(os.path.join(Config.IDS, 'model_errors'), exist_ok=True)
 
     print("Aggregating predictions across all folds...")
@@ -95,12 +97,19 @@ def main():
     print(f"  {len(predictions)} documents aggregated.")
 
     # Dump each document's TaxaData to pickle so assess_model_on_chunk_list
-    # can load it with rerun=False — avoids rewriting the evaluation loop.
-    print("Writing prediction pickles...")
+    # can load it with rerun=False
+    # print("Writing prediction pickles...")
     for task_id, taxadata in predictions.items():
-        pkl_path = os.path.join(pkl_dir, f"{task_id}_scibert_outputs.pickle")
-        with open(pkl_path, 'wb') as f:
-            pickle.dump(taxadata, f)
+        taxadata.text = None
+    #     pkl_path = os.path.join(pkl_dir, f"{task_id}_scibert_outputs.pickle")
+    #     with open(pkl_path, 'wb') as f:
+    #         pickle.dump(taxadata, f)
+
+    # Dump each document's TaxaData to json so assess_model_on_chunk_list
+
+        json_path = os.path.join(json_dir, f"{task_id}_scibert_outputs.json")
+        with open(json_path, 'w', encoding='utf-8') as f:
+            json.dump(taxadata.dict(), f, indent=2)
 
     task_ids = sorted(predictions.keys())
     model    = _ModelTag()

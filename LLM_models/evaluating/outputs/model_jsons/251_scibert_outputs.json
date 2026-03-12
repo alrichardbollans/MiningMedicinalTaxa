@@ -1,0 +1,40 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "streptomyces sp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "annabis sativa l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anticancer"
+      ]
+    },
+    {
+      "scientific_name": "c. sativa var",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anticancer",
+        "antiproliferative"
+      ]
+    },
+    {
+      "scientific_name": "c. sativa var. felina",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anticancer",
+        "antiproliferative"
+      ]
+    },
+    {
+      "scientific_name": "eryngium cymosum f. delaroche",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "hypoglycemic"
+      ]
+    }
+  ],
+  "text": null
+}

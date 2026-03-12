@@ -1,0 +1,55 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "c. majus",
+      "medical_conditions": [
+        "agogue",
+        "breast",
+        "liver"
+      ],
+      "medicinal_effects": [
+        "ytoprotective",
+        "relaxant",
+        "antiproliferative",
+        "oprotective",
+        "antispasmodic",
+        "cholagogue",
+        "iproliferative"
+      ]
+    },
+    {
+      "scientific_name": "chelidonium majus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "a",
+        "antispasmodic",
+        "iproliferative",
+        "antiproliferative"
+      ]
+    },
+    {
+      "scientific_name": "c. majusp",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "hepat"
+      ]
+    },
+    {
+      "scientific_name": "silybum marianum",
+      "medical_conditions": [
+        "ve"
+      ],
+      "medicinal_effects": [
+        "hepat",
+        "cytoprotective",
+        "utative"
+      ]
+    },
+    {
+      "scientific_name": "ch",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

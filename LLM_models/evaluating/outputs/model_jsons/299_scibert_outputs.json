@@ -1,0 +1,41 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "centaurea ragusina l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antibacterial"
+      ]
+    },
+    {
+      "scientific_name": "c. ragusina l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "maryonii s. moore",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antibacterial"
+      ]
+    },
+    {
+      "scientific_name": "hemisteptia lyrata bunge",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antibacterial"
+      ]
+    },
+    {
+      "scientific_name": "centaureasolstitialis l. ssp. solstitialis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "arnica montana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

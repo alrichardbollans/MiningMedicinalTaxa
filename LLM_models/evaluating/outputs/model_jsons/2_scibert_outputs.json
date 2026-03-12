@@ -1,0 +1,72 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "a. paniculata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "salix alba",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "digitalis sp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "dioscorea sp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chin",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "malaysia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "berheris fremontii",
+      "medical_conditions": [
+        "psychiatric disorders"
+      ],
+      "medicinal_effects": [
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "berheris fremont",
+      "medical_conditions": [
+        "psychiatric"
+      ],
+      "medicinal_effects": [
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "echinacea",
+      "medical_conditions": [
+        "malaria"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "artemisia annua",
+      "medical_conditions": [
+        "malaria"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "senna",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

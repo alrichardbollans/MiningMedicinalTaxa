@@ -1,0 +1,129 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "commiphora",
+      "medical_conditions": [
+        "chronic diseases",
+        "art"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "boswellia",
+      "medical_conditions": [
+        "chronic diseases",
+        "art"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "b. serrata",
+      "medical_conditions": [
+        "etes",
+        "bronchialasthma",
+        "st",
+        "psoriasis",
+        "asthma",
+        "knee osteoarthritis",
+        "eczema",
+        "arthritis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "inula racemosa",
+      "medical_conditions": [
+        "heart",
+        "ovascular"
+      ],
+      "medicinal_effects": [
+        "cardioprotective",
+        "protective"
+      ]
+    },
+    {
+      "scientific_name": "b.serrata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "curcuma longa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fasciola hepatica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fasciola gigantica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "molmol",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c",
+      "medical_conditions": [
+        "chronic diseases"
+      ],
+      "medicinal_effects": [
+        "ctive"
+      ]
+    },
+    {
+      "scientific_name": "omm",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "iphora molmol",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "iola",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "gigantica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "iph",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ora",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "commiphora molmol",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fasc",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ommiphora",
+      "medical_conditions": [
+        "chronic diseases"
+      ],
+      "medicinal_effects": [
+        "ctive"
+      ]
+    }
+  ],
+  "text": null
+}

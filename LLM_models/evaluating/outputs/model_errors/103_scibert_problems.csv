@@ -1,63 +1,63 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,erythroxylum coca,erythroxylum coca,spp,vaccinium macrocarpum,ephedra sinica_bronchial asthma,erythroxylum coca_us,ephedra sinica_low blood pressure,erythroxylum coca_anesthetic,ephedra sinica_ant,erythroxylum coca_heart/respiratory stimulant
-1,ephedra sinica,ephedra sinica,worthypericum perforatum,senna,ephedra sinica_poisoning,erythroxylum coca_eye,claviceps purpurea_post-partumbleeding,gelidium cartilagineum_laxative,ephedra sinica_the,ephedra sinica_anesthetic
-2,claviceps purpurea,claviceps purpurea,henium,,ephedra sinica_tumor,panax quinquefolia_cardiovascular disorders,ginkgo_reduced blood flow to thebrain,menyanthes trifoliata_pressure,ephedra sinica_blood pressure,ephedra sinica_stimulant
-3,panax quinquefolia,panax quinquefolia,yewtaxus brevifolia,,claviceps purpurea_migraine headaches,spp_anemia,ginkgo_alzheimer's disease,menyanthes trifoliata_blood,claviceps purpurea_us,claviceps purpurea_stimulate the smooth muscle ofthe uterus
-4,ginkgo,ginkgo biloba,ara,,claviceps purpurea_migraine,spp_insomnia,hypericum perforatum_seasonal affectivesyndrome,menyanthes trifoliata_pain-killer,claviceps purpurea_antibiotic,claviceps purpurea_constricting dilated cranial bloodvessels
-5,ginkgo biloba,rauvolfia serpentina,rad,,panax quinquefolia_anemia,spp_diabetes,hypericum perforatum_hiv,physostigma venenosum_heart,panax quinquefolia_s stimulant,claviceps purpurea_uterine contractions
-6,rauvolfia serpentina,rauvolfia,alyptus,,panax quinquefolia_insomnia,spp_gastritis,hypericum perforatum_herpessimplex virus,ricinus communis_intestine,panax quinquefolia_tonic,panax quinquefolia_cns stimulant
-7,rauvolfia,echinacea purpurea + otherspp,,,panax quinquefolia_diabetes,spp_impotency,hypericum perforatum_influenza a & b,syzygium aromaticum_antiseptic,worthypericum perforatum_sedative,hypericum perforatum_depressant
-8,echinacea purpurea,e,,,panax quinquefolia_gastritis,worthypericum perforatum_seasonal affectivesyndrome,hypericum perforatum_psoriasis,digitalis purpurea_heart,worthypericum perforatum_antidepressant,hypericum perforatum_sedative
-9,echinacea,echinacea,,,panax quinquefolia_impotency,worthypericum perforatum_hiv,hypericum perforatum_hemorrhoids,allium sativum_antiseptic,rauvolfia serpentina_blood pressure,hypericum perforatum_antidepressant
-10,echinacea spp,catharanthus roseus,,,ginkgo biloba_cardiovascular disorders,worthypericum perforatum_herpes,hypericum perforatum_bruises,allium sativum_antispasmodic,echinacea_sedative,rauvolfia serpentina_decreases blood pressureand pulse rate
-11,eucalyptus globulus,vinca,,,ginkgo biloba_strokes,worthypericum perforatum_psoriasis,hypericum perforatum_warts,zingiber officinale_gas,echinacea_tranquilizing,echinacea purpurea_blood purifier
-12,catharanthus roseus,gelidium cartilagineum,,,rauvolfia serpentina_hypertension,worthypericum perforatum_hemorrhoids,hypericum perforatum_wounds,hydrastis canadensis_antiseptic,caulophyllum thalictroides_he,valerianaofficinalis_sedative
-13,vinca,aloe vera,,,rauvolfia serpentina_mental illness,worthypericum perforatum_bruises,hypericum perforatum_bacterial infections,hyoscyamus niger_sedative,caulophyllum thalictroides_uation,aloe vera_skin-softening
-14,gelidium cartilagineum,colchicum autumnale,,,rauvolfia serpentina_intestinal worms,worthypericum perforatum_warts,rauvolfia serpentina_high blood pressure,hyoscyamus niger_muscle relaxant,caulophyllum thalictroides_menstr,piper nigrum_stimulates heart
-15,aloe vera,myroxylon balsamum,,,rauvolfia serpentina_schizophrenia,worthypericum perforatum_wounds,echinacea purpurea_venereal disease,guaiacum officinale_anti-inflammatory,cinnamomum camphora_heart,caulophyllum thalictroides_promotes menstruation
-16,colchicum autumnale,atropa belladonna,,,rauvolfia serpentina_insect bites,worthypericum perforatum_influenza,tanacetum parthenium_headaches,guaiacum officinale_local stimulant,alyptus_antiseptic,rhamnus purshiana_laxative
-17,myroxylon balsamum,styrax,,,echinacea purpurea + otherspp_wounds,worthypericum perforatum_bacterial infections,catharanthus roseus_hodgkin'sdisease,cassia senna_laxative,zingiber officinale_antiseptic,duboisia myoporoides_anesthetic
-18,atropa belladonna,areca catechu,,,echinacea purpurea + otherspp_burns,rauvolfia serpentina_persistent cough,catharanthus roseus_tumor,polygonatum officinale_blood,zingiber officinale_soreness,inula helenium_antibiotic
-19,styrax benzoin,piper nigrum,,,echinacea purpurea + otherspp_flu,rauvolfia serpentina_mentally ill,catharanthus roseus_kaposi's sarcoma,polygonatum officinale_anti-inflammatory,zingiber officinale_antispasmodic,eucalyptus_antiseptic
-20,areca catechu,caulophyllum thalictroides,,,echinacea purpurea + otherspp_colds,e_headaches,catharanthus roseus_cancer ofthe testicles,strychnos nux-vomica_muscle,hydrastis canadensis_s stimulant,eucalyptus globulus_antiseptic
-21,piper nigrum,menyanthes trifoliata,,,e_colds,echinacea_nausea,catharanthus roseus_cancer of the lymphatic system,curcuma longa_bile,acacia senegal_bleeding,hyoscyamus niger_dilates pupils
-22,caulophyllum thalictroides,physostigma venenosum,,,e_flu,echinacea_migraine,catharanthus roseus_childhood leukemia,curcuma longa_antibiotic,acacia senegal_stomach ache,pilocarpus jaborandi_diuretic
-23,menyanthes trifoliata,cinnamomum camphora,,,e_wounds,echinacea_headaches,aloe vera_burn,,picrasma excelsa_diuretic,picrasma excelsa_stimulates stomach/intestines
-24,physostigma venenosum,rhamnus purshiana,,,e_burns,henium_nausea,colchicum autumnale_gout,,picrasma excelsa_s,sterculia urens_laxative
-25,cinnamomum camphora,ricinus communis,,,echinacea_colds,henium_headaches,areca catechu_tapeworms,,catha edulis_local stimulant,piper methysticum_stimulate appetite
-26,rhamnus purshiana,hydnocarpus wightiana,,,echinacea_flu,henium_migraine,piper nigrum_gases,,catha edulis_anti-inflammatory,piper methysticum_tranquilizer
-27,ricinus communis,rheum palmatum,,,echinacea_wounds,vinca_cancer ofthe testicles,caulophyllum thalictroides_rheumatism,,guaiacum officinale_drine,plantago psyllium_laxative
-28,hydnocarpus wightiana,syzygium aromaticum,,,echinacea_burns,vinca_kaposi,cinnamomum camphora_asthma,,papaver somniferum_ain-killer,plantago psyllium_intestinal lubricant
-29,rheum palmatum,symphytum officinale,,,areca catechu_urinary tract problems,vinca_sarcoma,hydnocarpus wightiana_leprosy,,taxus brevifolia_ain-killer,ruta graveolens_induce menstruation
-30,syzygium aromaticum,duboisia myoporoides,,,physostigma venenosum_glaucoma,yewtaxus brevifolia_breastcancers,rheum palmatum_diarrhea,,cinchona pubescens_intestinal lubricant,urginea maritima_emetic
-31,symphytum officinale,inula helenium,,,cinnamomum camphora_itching,yewtaxus brevifolia_ovarian,rheum palmatum_constipation,,urginea maritima_ant,urginea maritima_heart stimulant
-32,duboisia myoporoides,eucalyptus globulus,,,cinnamomum camphora_uperficial pain,areca catechu_worms,syzygium aromaticum_pain,,cassia senna_s seal,strophanthus gratus_heart stimulant
-33,inula helenium,tanacetum parthenium,,,inula helenium_asthma,piper nigrum_urinary tract problems,symphytum officinale_psoriasis,,cassia senna_ant,strophanthus_heart stimulant
-34,eucalyptus,digitalis purpurea,,,inula helenium_chest colds,caulophyllum thalictroides_umatism,symphytum officinale_skin problems,,cassia senna_anti-inflammatory,strychnos nux-vomica_antidote for depressants
-35,tanacetum parthenium,allium sativum,,,tanacetum parthenium_nausea,cinnamomum camphora_glaucoma,duboisia myoporoides_pain,,cassia senna_emetics,tanacetum vulgare_induce menstruation
-36,digitalis purpurea,zingiber officinale,,,tanacetum parthenium_vomiting,hydnocarpus wightiana_lepros,vaccinium macrocarpum_urinary tract infections,,cassia senna_olomon,tanacetum vulgare_antispasmodic
-37,allium sativum,hydrastis canadensis,,,tanacetum parthenium_migraine headache,duboisia myoporoides_other skin problems,echinacea spp_infections,,polygonatum officinale_s seal,valeriana officinalis_sleep aid
-38,zingiber officinale,acacia senegal,,,allium sativum_hypertension,duboisia myoporoides_psoriasis,eucalyptus_bronchial congestion,,polygonatum officinale_olomon,valeriana officinalis_tranquilizer
-39,hydrastis canadensis,hyoscyamus niger,,,hydrastis canadensis_bleeding,inula helenium_infections,eucalyptus_fever,,strophanthus gratus_blood,styrax benzoin_loosens phlegm
-40,acacia senegal,marrubium vulgare,,,acacia senegal_coughs,eucalyptus globulus_us,eucalyptus globulus_bronchial congestion,,strophanthus gratus_muscle,catha edulis_cns stimulant
-41,hyoscyamus niger,cephaelis ipecacuanha,,,acacia senegal_sore throats,eucalyptus globulus_migraine,eucalyptus globulus_fever,,strychnos nux-vomica_anti,
-42,marrubium vulgare,pilocarpus jaborandi,,,pilocarpus jaborandi_glaucoma,alyptus_bronchial congestion,zingiber officinale_motion sickness,,strychnos nux-vomica_ressants,
-43,cephaelis ipecacuanha,picrasma excelsa,,,taxus brevifolia_ovarian,tanacetum parthenium_bronchial congestion,zingiber officinale_soreness,,hypericum perforatum_ressants,
-44,pilocarpus jaborandi,sterculia urens,,,cinchona pubescens_muscle cramps,zingiber officinale_hypertension,hydrastis canadensis_stomach aches,,acorus calamus_uation,
-45,picrasma excelsa,piper methysticum,,,cinchona pubescens_malaria,hydrastis canadensis_stomach ache,acacia senegal_diarrhea,,tanacetum vulgare_uation,
+0,erythroxylum coca,erythroxylum coca,spp,vaccinium macrocarpum,ephedra sinica_tumor,erythroxylum coca_us,ephedra sinica_low blood pressure,erythroxylum coca_anesthetic,ephedra sinica_blood pressure,erythroxylum coca_heart/respiratory stimulant
+1,ephedra sinica,ephedra sinica,worthypericum perforatum,senna,ephedra sinica_poisoning,erythroxylum coca_eye,claviceps purpurea_post-partumbleeding,gelidium cartilagineum_laxative,ephedra sinica_the,ephedra sinica_stimulant
+2,claviceps purpurea,claviceps purpurea,henium,,ephedra sinica_bronchial asthma,panax quinquefolia_cardiovascular disorders,ginkgo_alzheimer's disease,menyanthes trifoliata_blood,ephedra sinica_ant,ephedra sinica_anesthetic
+3,panax quinquefolia,panax quinquefolia,yewtaxus brevifolia,,claviceps purpurea_migraine,spp_gastritis,ginkgo_reduced blood flow to thebrain,menyanthes trifoliata_pressure,claviceps purpurea_antibiotic,claviceps purpurea_constricting dilated cranial bloodvessels
+4,ginkgo,ginkgo biloba,ara,,claviceps purpurea_migraine headaches,spp_impotency,hypericum perforatum_bruises,menyanthes trifoliata_pain-killer,claviceps purpurea_us,claviceps purpurea_uterine contractions
+5,ginkgo biloba,rauvolfia serpentina,rad,,panax quinquefolia_gastritis,spp_diabetes,hypericum perforatum_warts,physostigma venenosum_heart,panax quinquefolia_s stimulant,claviceps purpurea_stimulate the smooth muscle ofthe uterus
+6,rauvolfia serpentina,rauvolfia,alyptus,,panax quinquefolia_impotency,spp_anemia,hypericum perforatum_seasonal affectivesyndrome,ricinus communis_intestine,panax quinquefolia_tonic,panax quinquefolia_cns stimulant
+7,rauvolfia,echinacea purpurea + otherspp,,,panax quinquefolia_diabetes,spp_insomnia,hypericum perforatum_wounds,syzygium aromaticum_antiseptic,worthypericum perforatum_antidepressant,hypericum perforatum_depressant
+8,echinacea purpurea,e,,,panax quinquefolia_anemia,worthypericum perforatum_bruises,hypericum perforatum_hiv,digitalis purpurea_heart,worthypericum perforatum_sedative,hypericum perforatum_antidepressant
+9,echinacea,echinacea,,,panax quinquefolia_insomnia,worthypericum perforatum_warts,hypericum perforatum_influenza a & b,allium sativum_antispasmodic,rauvolfia serpentina_blood pressure,hypericum perforatum_sedative
+10,echinacea spp,catharanthus roseus,,,ginkgo biloba_strokes,worthypericum perforatum_seasonal affectivesyndrome,hypericum perforatum_psoriasis,allium sativum_antiseptic,echinacea_tranquilizing,rauvolfia serpentina_decreases blood pressureand pulse rate
+11,eucalyptus globulus,vinca,,,ginkgo biloba_cardiovascular disorders,worthypericum perforatum_wounds,hypericum perforatum_bacterial infections,zingiber officinale_gas,echinacea_sedative,echinacea purpurea_blood purifier
+12,catharanthus roseus,gelidium cartilagineum,,,rauvolfia serpentina_mental illness,worthypericum perforatum_hiv,hypericum perforatum_herpessimplex virus,hydrastis canadensis_antiseptic,caulophyllum thalictroides_uation,valerianaofficinalis_sedative
+13,vinca,aloe vera,,,rauvolfia serpentina_hypertension,worthypericum perforatum_influenza,hypericum perforatum_hemorrhoids,hyoscyamus niger_muscle relaxant,caulophyllum thalictroides_he,aloe vera_skin-softening
+14,gelidium cartilagineum,colchicum autumnale,,,rauvolfia serpentina_insect bites,worthypericum perforatum_psoriasis,rauvolfia serpentina_high blood pressure,hyoscyamus niger_sedative,caulophyllum thalictroides_menstr,piper nigrum_stimulates heart
+15,aloe vera,myroxylon balsamum,,,rauvolfia serpentina_schizophrenia,worthypericum perforatum_bacterial infections,echinacea purpurea_venereal disease,guaiacum officinale_local stimulant,cinnamomum camphora_heart,caulophyllum thalictroides_promotes menstruation
+16,colchicum autumnale,atropa belladonna,,,rauvolfia serpentina_intestinal worms,worthypericum perforatum_herpes,tanacetum parthenium_headaches,guaiacum officinale_anti-inflammatory,alyptus_antiseptic,rhamnus purshiana_laxative
+17,myroxylon balsamum,styrax,,,echinacea purpurea + otherspp_wounds,worthypericum perforatum_hemorrhoids,catharanthus roseus_childhood leukemia,cassia senna_laxative,zingiber officinale_soreness,duboisia myoporoides_anesthetic
+18,atropa belladonna,areca catechu,,,echinacea purpurea + otherspp_burns,rauvolfia serpentina_mentally ill,catharanthus roseus_tumor,polygonatum officinale_blood,zingiber officinale_antispasmodic,inula helenium_antibiotic
+19,styrax benzoin,piper nigrum,,,echinacea purpurea + otherspp_colds,rauvolfia serpentina_persistent cough,catharanthus roseus_cancer ofthe testicles,polygonatum officinale_anti-inflammatory,zingiber officinale_antiseptic,eucalyptus_antiseptic
+20,areca catechu,caulophyllum thalictroides,,,echinacea purpurea + otherspp_flu,e_headaches,catharanthus roseus_cancer of the lymphatic system,strychnos nux-vomica_muscle,hydrastis canadensis_s stimulant,eucalyptus globulus_antiseptic
+21,piper nigrum,menyanthes trifoliata,,,e_wounds,echinacea_nausea,catharanthus roseus_hodgkin'sdisease,curcuma longa_antibiotic,acacia senegal_stomach ache,hyoscyamus niger_dilates pupils
+22,caulophyllum thalictroides,physostigma venenosum,,,e_colds,echinacea_migraine,catharanthus roseus_kaposi's sarcoma,curcuma longa_bile,acacia senegal_bleeding,pilocarpus jaborandi_diuretic
+23,menyanthes trifoliata,cinnamomum camphora,,,e_burns,echinacea_headaches,aloe vera_burn,,picrasma excelsa_diuretic,picrasma excelsa_stimulates stomach/intestines
+24,physostigma venenosum,rhamnus purshiana,,,e_flu,henium_migraine,colchicum autumnale_gout,,picrasma excelsa_s,sterculia urens_laxative
+25,cinnamomum camphora,ricinus communis,,,echinacea_wounds,henium_headaches,areca catechu_tapeworms,,catha edulis_local stimulant,piper methysticum_stimulate appetite
+26,rhamnus purshiana,hydnocarpus wightiana,,,echinacea_colds,henium_nausea,piper nigrum_gases,,catha edulis_anti-inflammatory,piper methysticum_tranquilizer
+27,ricinus communis,rheum palmatum,,,echinacea_burns,vinca_kaposi,caulophyllum thalictroides_rheumatism,,guaiacum officinale_drine,plantago psyllium_laxative
+28,hydnocarpus wightiana,syzygium aromaticum,,,echinacea_flu,vinca_sarcoma,cinnamomum camphora_asthma,,papaver somniferum_ain-killer,plantago psyllium_intestinal lubricant
+29,rheum palmatum,symphytum officinale,,,areca catechu_urinary tract problems,vinca_cancer ofthe testicles,hydnocarpus wightiana_leprosy,,taxus brevifolia_ain-killer,ruta graveolens_induce menstruation
+30,syzygium aromaticum,duboisia myoporoides,,,physostigma venenosum_glaucoma,yewtaxus brevifolia_breastcancers,rheum palmatum_constipation,,cinchona pubescens_intestinal lubricant,urginea maritima_heart stimulant
+31,symphytum officinale,inula helenium,,,cinnamomum camphora_itching,yewtaxus brevifolia_ovarian,rheum palmatum_diarrhea,,urginea maritima_ant,urginea maritima_emetic
+32,duboisia myoporoides,eucalyptus globulus,,,cinnamomum camphora_uperficial pain,areca catechu_worms,syzygium aromaticum_pain,,cassia senna_olomon,strophanthus gratus_heart stimulant
+33,inula helenium,tanacetum parthenium,,,inula helenium_asthma,piper nigrum_urinary tract problems,symphytum officinale_skin problems,,cassia senna_emetics,strophanthus_heart stimulant
+34,eucalyptus,digitalis purpurea,,,inula helenium_chest colds,caulophyllum thalictroides_umatism,symphytum officinale_psoriasis,,cassia senna_anti-inflammatory,strychnos nux-vomica_antidote for depressants
+35,tanacetum parthenium,allium sativum,,,tanacetum parthenium_migraine headache,cinnamomum camphora_glaucoma,duboisia myoporoides_pain,,cassia senna_s seal,tanacetum vulgare_induce menstruation
+36,digitalis purpurea,zingiber officinale,,,tanacetum parthenium_nausea,hydnocarpus wightiana_lepros,vaccinium macrocarpum_urinary tract infections,,cassia senna_ant,tanacetum vulgare_antispasmodic
+37,allium sativum,hydrastis canadensis,,,tanacetum parthenium_vomiting,duboisia myoporoides_other skin problems,echinacea spp_infections,,polygonatum officinale_olomon,valeriana officinalis_sleep aid
+38,zingiber officinale,acacia senegal,,,allium sativum_hypertension,duboisia myoporoides_psoriasis,eucalyptus_bronchial congestion,,polygonatum officinale_s seal,valeriana officinalis_tranquilizer
+39,hydrastis canadensis,hyoscyamus niger,,,hydrastis canadensis_bleeding,inula helenium_infections,eucalyptus_fever,,strophanthus gratus_muscle,styrax benzoin_loosens phlegm
+40,acacia senegal,marrubium vulgare,,,acacia senegal_coughs,eucalyptus globulus_migraine,eucalyptus globulus_bronchial congestion,,strophanthus gratus_blood,catha edulis_cns stimulant
+41,hyoscyamus niger,cephaelis ipecacuanha,,,acacia senegal_sore throats,eucalyptus globulus_us,eucalyptus globulus_fever,,strychnos nux-vomica_ressants,
+42,marrubium vulgare,pilocarpus jaborandi,,,pilocarpus jaborandi_glaucoma,alyptus_bronchial congestion,zingiber officinale_soreness,,strychnos nux-vomica_anti,
+43,cephaelis ipecacuanha,picrasma excelsa,,,taxus brevifolia_ovarian,tanacetum parthenium_bronchial congestion,zingiber officinale_motion sickness,,hypericum perforatum_ressants,
+44,pilocarpus jaborandi,sterculia urens,,,cinchona pubescens_malaria,zingiber officinale_hypertension,hydrastis canadensis_stomach aches,,acorus calamus_uation,
+45,picrasma excelsa,piper methysticum,,,cinchona pubescens_muscle cramps,hydrastis canadensis_stomach ache,acacia senegal_diarrhea,,tanacetum vulgare_antispasmodict,
 46,sterculia urens,catha edulis,,,serenoa repens_enlarged,hyoscyamus niger_diarrhea,marrubium vulgare_phlegm,,tanacetum vulgare_bile,
-47,piper methysticum,guaiacum officinale,,,hypericum perforatum_depression,hyoscyamus niger_pupils,cephaelis ipecacuanha_persistent coughs,,tanacetum vulgare_antispasmodict,
+47,piper methysticum,guaiacum officinale,,,hypericum perforatum_depression,hyoscyamus niger_pupils,cephaelis ipecacuanha_persistent coughs,,tanacetum vulgare_uation,
 48,catha edulis,podophyllum peltatum,,,,cephaelis ipecacuanha_blood pressure,cephaelis ipecacuanha_vomiting,,curcuma longa_antispasmodict,
 49,guaiacum officinale,papaver somniferum,,,,cephaelis ipecacuanha_persistent cough,podophyllum peltatum_testicular/ovarian cancer,,valeriana officinalis_p,
-50,podophyllum peltatum,taxus brevifolia,,,,catha edulis_drine,papaver somniferum_treat intestinal/stomach spasms,,,
-51,papaver somniferum,carica papaya,,,,podophyllum peltatum_testicular,papaver somniferum_pain-killer,,,
-52,taxus brevifolia,plantago psyllium,,,,podophyllum peltatum_blood pressure,carica papaya_blood clots,,,
-53,carica papaya,cinchona pubescens,,,,podophyllum peltatum_ovarian,cinchona pubescens_headaches,,,
-54,plantago psyllium,ruta graveolens,,,,podophyllum peltatum_tumor,ruta graveolens_abortion,,,
-55,cinchona pubescens,serenoa repens,,,,papaver somniferum_testicular,acorus calamus_stomach cramps,,,
-56,ruta graveolens,urginea maritima,,,,papaver somniferum_stomach spasms,tanacetum vulgare_worms,,,
+50,podophyllum peltatum,taxus brevifolia,,,,catha edulis_drine,papaver somniferum_pain-killer,,,
+51,papaver somniferum,carica papaya,,,,podophyllum peltatum_blood pressure,papaver somniferum_treat intestinal/stomach spasms,,,
+52,taxus brevifolia,plantago psyllium,,,,podophyllum peltatum_tumor,carica papaya_blood clots,,,
+53,carica papaya,cinchona pubescens,,,,podophyllum peltatum_testicular,cinchona pubescens_headaches,,,
+54,plantago psyllium,ruta graveolens,,,,podophyllum peltatum_ovarian,ruta graveolens_abortion,,,
+55,cinchona pubescens,serenoa repens,,,,papaver somniferum_intestinal,acorus calamus_stomach cramps,,,
+56,ruta graveolens,urginea maritima,,,,papaver somniferum_testicular,tanacetum vulgare_worms,,,
 57,serenoa repens,cassia senna,,,,papaver somniferum_ovarian,,,,
-58,urginea maritima,polygonatum officinale,,,,papaver somniferum_intestinal,,,,
+58,urginea maritima,polygonatum officinale,,,,papaver somniferum_stomach spasms,,,,
 59,cassia senna,strophanthus gratus,,,,taxus brevifolia_stomach spasms,,,,
 60,polygonatum officinale,strychnos nux-vomica,,,,carica papaya_ovarian,,,,
 61,strophanthus gratus,hypericum perforatum,,,,cinchona pubescens_headache,,,,

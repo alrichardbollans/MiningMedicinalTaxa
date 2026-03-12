@@ -1,0 +1,69 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "echin",
+      "medical_conditions": [
+        "diabetes",
+        "cough",
+        "indigestion",
+        "arthritis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "kava",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "holy basil",
+      "medical_conditions": [
+        "diabetes",
+        "asthma"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "o. tenuiflorum l",
+      "medical_conditions": [
+        "diabetes",
+        "asthma"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "zingiber",
+      "medical_conditions": [
+        "diabetes",
+        "asthma"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "roscoe",
+      "medical_conditions": [
+        "asthma"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "curcuma longa l",
+      "medical_conditions": [
+        "diabetes",
+        "asthma"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "o. tenuiflorum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "o. gratissimum l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

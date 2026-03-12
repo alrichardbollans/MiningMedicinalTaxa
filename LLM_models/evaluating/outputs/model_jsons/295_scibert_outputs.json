@@ -1,0 +1,87 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "centaurea ragusina l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "commiphora",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "boswellia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rhodiola rosea l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "punica granatum l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "majus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal",
+        "ctivity"
+      ]
+    },
+    {
+      "scientific_name": "from syringa vulgaris",
+      "medical_conditions": [
+        "lammation"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chelidonium majus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "scrophularia lucida",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "nvasiveness"
+      ]
+    },
+    {
+      "scientific_name": "prunus spinosa l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "veronica officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "veronica chamaedrysancuta c",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "veronica chamaedrys",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lavandula angustifolia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tial",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

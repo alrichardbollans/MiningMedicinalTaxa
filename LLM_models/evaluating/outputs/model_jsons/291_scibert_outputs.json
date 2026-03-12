@@ -1,0 +1,17 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "melaleuca alternifolia",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "melaleuca aetheroleum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

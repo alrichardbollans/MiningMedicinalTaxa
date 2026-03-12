@@ -1,0 +1,319 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "ocimum tenuiflorum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "dna",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ginger zingiber officinale a",
+      "medical_conditions": [
+        "lamm",
+        "rthritis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sapindus saponaria",
+      "medical_conditions": [
+        "excessive mucus",
+        "phleg"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "linum usitatissimum",
+      "medical_conditions": [
+        "arthritis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "carum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "trachyspermum ammi",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "emblica officinalic healthy",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "figs ficus carica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "prunus dulcis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "terminalia bellirica digestion",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "eleusine coracana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "viola odorata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cicer arietinum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "abelmoschus esculentus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cassia absus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cinnamomum verum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "elettaria cadamomum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "amomum subulatum",
+      "medical_conditions": [
+        "itis",
+        "arthritis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "olea europaea",
+      "medical_conditions": [
+        "itis",
+        "arthritis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "roas sp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rosa sp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "curcuma longa",
+      "medical_conditions": [
+        "kin conditions",
+        "rthritis",
+        "arthritis"
+      ],
+      "medicinal_effects": [
+        "nflammation",
+        "inflammation immune boosting",
+        "mmune boosting"
+      ]
+    },
+    {
+      "scientific_name": "terminalia chebula",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "skin problems"
+      ]
+    },
+    {
+      "scientific_name": "a",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "myristica fragrans",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "syzygium cumini",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cuminum cyminum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "arthr"
+      ]
+    },
+    {
+      "scientific_name": "curcuma zedoria",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cucurbita maxima",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "anacardium occidentale",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "bunium persicum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "piper nigrum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "juglans regia",
+      "medical_conditions": [
+        "rt"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "nigella sativa",
+      "medical_conditions": [
+        "arthritis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "plectranthus amboinicus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-diabetic"
+      ]
+    },
+    {
+      "scientific_name": "ocimum vaalae",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "charantia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "papaver somniferum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "crocus sativus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "acacia karoo",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "anethum graveolens",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aloe vera aloe vera",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "allium sativum",
+      "medical_conditions": [
+        "ear infections"
+      ],
+      "medicinal_effects": [
+        "a",
+        "iba"
+      ]
+    },
+    {
+      "scientific_name": "lagenaria siceraria",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "syzygium aromaticum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "liquoric",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "glycyrrhiza glabra",
+      "medical_conditions": [
+        "blood pressure"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "trigonella foenum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "graecum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "capsicum annuum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "raphanus sativus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cocos nucifera",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "azadirachta indica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "citrus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

@@ -1,6 +1,6 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,lycium barbarum,lycium barbarum,fructus,,lycium barbarum_dyslipidaemia,,lycium barbarum_metabolic syndrome,,fructus_ative,lycium barbarum_lower blood pressure and blood sugar
-1,,,ycii,,,,lycium barbarum_diabetes,,fructus_circulation,lycium barbarum_hypoglycemic
-2,,,fructus lycii,,,,,,,lycium barbarum_reduce blood sugar
+0,lycium barbarum,lycium barbarum,fructus,,lycium barbarum_dyslipidaemia,,lycium barbarum_diabetes,,fructus_circulation,lycium barbarum_hypoglycemic
+1,,,ycii,,,,lycium barbarum_metabolic syndrome,,fructus_ative,lycium barbarum_reduce blood sugar
+2,,,fructus lycii,,,,,,,lycium barbarum_lower blood pressure and blood sugar
 3,,,radix scrophulariae,,,,,,,lycium barbarum_lower blood pressure
 4,,,fructus schisandrae,,,,,,,

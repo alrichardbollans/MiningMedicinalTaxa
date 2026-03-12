@@ -1,0 +1,94 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "pinus",
+      "medical_conditions": [
+        "respiratory",
+        "digestive system diseases",
+        "wounds"
+      ],
+      "medicinal_effects": [
+        "antitumorial",
+        "antiseptic",
+        "tonics",
+        "antisep-tics",
+        "antibacterial",
+        "antioxidant",
+        "cholesterol low-ering",
+        "antimicrobial",
+        "antisep",
+        "expectorants",
+        "tics",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "pinus peuce",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pinus sylvestris",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pinus nigra",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pinus mugo",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "artemiasali-nanauplii",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "inus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pinus pe",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "presentations",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "kozhuf",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "berovo",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "artemia sali-na nauplii",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antiplasmodial"
+      ]
+    },
+    {
+      "scientific_name": "pinus peucegriseb",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pinus l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

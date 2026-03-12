@@ -1,12 +1,12 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,angraecum fragrans,angraecum fragrans,caryota urens,leopoldiana piassaba,,capsicum annuum_syphilis,,sanguinaria canadensis_expectorant,piper betle_masticatory,sanguinaria canadensis_emetic
 1,vanilla planifolia,vanilla planifolia,piper betle,protea,,,,,piper cubeba_masticatory,harpagophytum procumbens_anti-inflammatory
-2,oxalis tuberosa,oxalis,psyllium,aconitum napellu,,,,,piper methysticum_masticatory,harpagophytum procumbens_analgesic
-3,averrhoa bilimbi,averrhoa bilimbi,aconitum napellus,coffee liberica,,,,,piper methysticum_psychoactive,plantago afra_laxative
-4,averrhoa carambola,averrhoa carambola,zizyphus jujuba,coffee canephora,,,,,piper nigrum_p,rhamnus cathartica_laxative
-5,areca catechu,oxalis tuberosa,pausinystalia yohimbe,pausinystalia yohimb,,,,,piper nigrum_active,rhamnus purshiana_laxative
-6,arenga pinnata,areca catechu,,populus tremula,,,,,piper nigrum_masticatory,psychotria ipecacuanha_induce vomiting
-7,attalea funifera,arenga pinnata,,populus tremuloides,,,,,piper nigrum_psychoactive,dictamnus albus_uterine stimulant
+2,oxalis tuberosa,oxalis,psyllium,aconitum napellu,,,,,piper methysticum_psychoactive,harpagophytum procumbens_analgesic
+3,averrhoa bilimbi,averrhoa bilimbi,aconitum napellus,coffee liberica,,,,,piper methysticum_masticatory,plantago afra_laxative
+4,averrhoa carambola,averrhoa carambola,zizyphus jujuba,coffee canephora,,,,,piper nigrum_psychoactive,rhamnus cathartica_laxative
+5,areca catechu,oxalis tuberosa,pausinystalia yohimbe,pausinystalia yohimb,,,,,piper nigrum_p,rhamnus purshiana_laxative
+6,arenga pinnata,areca catechu,,populus tremula,,,,,piper nigrum_active,psychotria ipecacuanha_induce vomiting
+7,attalea funifera,arenga pinnata,,populus tremuloides,,,,,piper nigrum_masticatory,dictamnus albus_uterine stimulant
 8,bactris spp,attalea funifera,,,,,,,psyllium_l,quassia amara_vermifuge
 9,borassus flabellifer,bactris spp,,,,,,,platanus occidentalis_p,
 10,butia capitata,borassus flabellifer,,,,,,,plantago afra_p,

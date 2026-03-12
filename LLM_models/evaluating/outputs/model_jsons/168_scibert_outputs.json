@@ -1,0 +1,111 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "hy",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "us",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "bacillus spizizenii",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "candida albicans",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "aspergillus brasiliensis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "p",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "e",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "candida al-bicans",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "aspergillus brasil-iensis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "escherichia coli",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pseud",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "occus aureus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "candida al",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "bicans",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "bacillus spizizen",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "aspergillus spizenii",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "ichia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

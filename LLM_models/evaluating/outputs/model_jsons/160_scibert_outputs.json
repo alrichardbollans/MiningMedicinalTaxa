@@ -1,0 +1,33 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "a",
+      "medical_conditions": [
+        "diarrhoea"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "piper excelsum",
+      "medical_conditions": [
+        "diarrhoea"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "leptospermum scoparium",
+      "medical_conditions": [
+        "diarrhoea"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hebe salicifolia",
+      "medical_conditions": [
+        "diarrhoea"
+      ],
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

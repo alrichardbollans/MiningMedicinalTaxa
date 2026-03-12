@@ -1,0 +1,125 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "c",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "a",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antim"
+      ]
+    },
+    {
+      "scientific_name": "brasiliens",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antim",
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "bacillus spi",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "cro"
+      ]
+    },
+    {
+      "scientific_name": "zizen",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "cro"
+      ]
+    },
+    {
+      "scientific_name": "candida",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aspergil",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "cro",
+        "antim"
+      ]
+    },
+    {
+      "scientific_name": "lus brasiliensis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "cro",
+        "antim"
+      ]
+    },
+    {
+      "scientific_name": "hy",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "us aure",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "uss",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "spizizenii",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "asperg",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "p",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "bacillus spizizenii",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "candida albicans",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "aspergillus brasiliens",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "aerugino",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "us",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

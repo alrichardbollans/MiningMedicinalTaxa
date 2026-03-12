@@ -1,0 +1,58 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "o. natrix",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "enzymeinhibitory",
+        "anticancer",
+        "antimicrobial",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "ononis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ononis natrix subsp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "natrix subsp. hispanicawa",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-tyrosinase",
+        "anti-diabetic"
+      ]
+    },
+    {
+      "scientific_name": "ononis natrix",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ononis natrix subsp. hispanicas",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "a",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ononis natrix subsp. hispanicasubsp. hispanica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

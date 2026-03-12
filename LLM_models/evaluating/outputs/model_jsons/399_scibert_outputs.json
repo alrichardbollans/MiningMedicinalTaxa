@@ -1,0 +1,67 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "lavandulaangustifolia",
+      "medical_conditions": [
+        "depression",
+        "mental disorders",
+        "stress",
+        "anxiety",
+        "ictor"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lavandula angustifolia",
+      "medical_conditions": [
+        "anxiety",
+        "nervous systemdisorders",
+        "stress"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lavandula officinalis",
+      "medical_conditions": [
+        "anxiety",
+        "nervous systemdisorders",
+        "stress"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lavandulaangustifolia miller",
+      "medical_conditions": [
+        "restlessness",
+        "depression",
+        "mental disorders",
+        "stress",
+        "anxiety"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lavandula officinalis chaix",
+      "medical_conditions": [
+        "anxiety",
+        "stress",
+        "depression",
+        "mental disorders"
+      ],
+      "medicinal_effects": [
+        "anxiolytic"
+      ]
+    },
+    {
+      "scientific_name": "l. angustifolia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lavandula angustifolia mill",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

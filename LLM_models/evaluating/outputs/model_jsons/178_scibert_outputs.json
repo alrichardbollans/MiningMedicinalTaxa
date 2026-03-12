@@ -1,0 +1,17 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "papa-ver somniferum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "brassica oleracea var. capitata",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    }
+  ],
+  "text": null
+}

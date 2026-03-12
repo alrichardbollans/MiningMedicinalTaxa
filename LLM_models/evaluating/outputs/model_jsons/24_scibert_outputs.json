@@ -1,0 +1,62 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "aloe vera",
+      "medical_conditions": [
+        "toothache",
+        "coughs",
+        "nausea",
+        "mouth ulcers",
+        "tooth aches",
+        "conditions",
+        "diabetes",
+        "cough",
+        "burns",
+        "irritable bowel syndrome",
+        "skin conditions",
+        "itchy skin",
+        "eczema",
+        "irritation",
+        "skin irritation",
+        "stomach and duodenal ulcers",
+        "arthritis"
+      ],
+      "medicinal_effects": [
+        "wound healing",
+        "anti-inflammatory",
+        "boosting",
+        "immune boosting"
+      ]
+    },
+    {
+      "scientific_name": "viola odorata l",
+      "medical_conditions": [
+        "fever",
+        "cough",
+        "headache",
+        "catarrh"
+      ],
+      "medicinal_effects": [
+        "emic"
+      ]
+    },
+    {
+      "scientific_name": "momordica charantia l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "hypogly",
+        "emic"
+      ]
+    },
+    {
+      "scientific_name": "trigonella foenum-graecum l",
+      "medical_conditions": [
+        "headache"
+      ],
+      "medicinal_effects": [
+        "anti-diabetic"
+      ]
+    }
+  ],
+  "text": null
+}

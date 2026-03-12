@@ -1,0 +1,75 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "penicillium notatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "physostigma venenosum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cinchona spp",
+      "medical_conditions": [
+        "malaria"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rauvolfia serpentina",
+      "medical_conditions": [
+        "schizophrenia",
+        "hypertension"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "derrisspp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sclerotium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "atropabelladonna",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "icum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "capsicum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ustilaginales",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "solanum spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "strychnos nux-vomica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cannabis sativa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

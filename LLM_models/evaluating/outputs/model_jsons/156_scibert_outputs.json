@@ -1,0 +1,41 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "allium sativum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-depressant"
+      ]
+    },
+    {
+      "scientific_name": "kgo biloba",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-depressant"
+      ]
+    },
+    {
+      "scientific_name": "hypericum perforatum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-depressant"
+      ]
+    },
+    {
+      "scientific_name": "raut",
+      "medical_conditions": [
+        "vegetative"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hypericum",
+      "medical_conditions": [
+        "depression",
+        "depressive disorders"
+      ],
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

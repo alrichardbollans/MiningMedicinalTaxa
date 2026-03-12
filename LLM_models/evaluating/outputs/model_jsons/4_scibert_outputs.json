@@ -1,0 +1,80 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "chelidonium majus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aristolochia fangchi",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "piper methysticum",
+      "medical_conditions": [
+        "major depression",
+        "depression"
+      ],
+      "medicinal_effects": [
+        "anxi"
+      ]
+    },
+    {
+      "scientific_name": "hypericum perforatum",
+      "medical_conditions": [
+        "major depression",
+        "depression"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "icitrus paradisi",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "andrographis paniculateandrographis paniculata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cerita bidara",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "andrographis paniculata",
+      "medical_conditions": [
+        "upper respiratory tract infections",
+        "plicated upper respiratory tract infection",
+        "uncomplicated upper respiratory tract infection"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "a. paniculata",
+      "medical_conditions": [
+        "cancer",
+        "uncomplicated upper respiratory tract infection",
+        "plicated upper tract infection",
+        "plicated upper respiratory tract infection",
+        "uncomplicated upper tract infection"
+      ],
+      "medicinal_effects": [
+        "inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "a.; paniculata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rhododendron sp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

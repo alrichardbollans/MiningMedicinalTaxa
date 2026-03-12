@@ -1,0 +1,53 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "kava",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aconitum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "digitalis purpurea l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "papaver somniferum l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "viscum album l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "atropa belladonna l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aloe vera",
+      "medical_conditions": [
+        "eczema",
+        "infections"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "agnus castus",
+      "medical_conditions": [
+        "urinary",
+        "prostate"
+      ],
+      "medicinal_effects": [
+        "s"
+      ]
+    }
+  ],
+  "text": null
+}

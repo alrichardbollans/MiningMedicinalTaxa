@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,candida,candida,s. majus,h. hircinumsusbps. majus,h. hircinum subsp. majus_respiratory tract affections,,h. hircinum_asthma,h. hircinum subsp. majus_antifungal,candida_anti-biofilm,h. montanum_anti-inflammatory
-1,candida glabrata,h. hircinum subsp. majus,ida,punicagranatum,h. hircinum subsp. majus_fungal-associated pathologies of the respiratorytract,,h. hircinum_chronic catarrhal affections,h. hircinum subsp. majus_anticancer,h. hircinum subsp. majus_cytotoxic,h. montanum_anticancer
+0,candida,candida,s. majus,h. hircinumsusbps. majus,h. hircinum subsp. majus_respiratory tract affections,,h. hircinum_asthma,h. hircinum subsp. majus_anticancer,candida_anti-biofilm,h. montanum_anti-inflammatory
+1,candida glabrata,h. hircinum subsp. majus,ida,punicagranatum,h. hircinum subsp. majus_fungal-associated pathologies of the respiratorytract,,h. hircinum_chronic catarrhal affections,h. hircinum subsp. majus_antifungal,h. hircinum subsp. majus_cytotoxic,h. montanum_anticancer
 2,candida spp,c. parapsilosis,,cryptococcusneoformans,h. hircinum_tract,,,h. hircinum subsp. majus_anti-inflammatory,c. tropicalis_cytotoxic,h. hircinum subsp. majus_fungal growth inhibition
 3,h. hircinumsubsp. majus,c. tropicalis,,c. albica,h. hircinum_sorethroats,,,h. hircinum subsp. majus_antimicrobial,,
-4,h. hircinum,h. hircinum subsp.majus,,,h. hircinum_cough,,,hypericum_antimycotic,,
-5,h. hircinum subsp. majus,candida glabrata,,,,,,hypericum_antifungal,,
+4,h. hircinum,h. hircinum subsp.majus,,,h. hircinum_cough,,,hypericum_antifungal,,
+5,h. hircinum subsp. majus,candida glabrata,,,,,,hypericum_antimycotic,,
 6,h. hircinum subsp.majus,hypericum,,,,,,h. montanum_antifungal,,
 7,c. parapsilosis,h. montanum,,,,,,h. maculatum_antifungal,,
 8,c. tropicalis,h. maculatum,,,,,,h. hirsutum_antifungal,,

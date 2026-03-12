@@ -1,0 +1,70 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "origanum vulgare ssp. hirtum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "salvia officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thyumus spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rosmarinus officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cornus sanguinea l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "elaeagnus umbellata thunb",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "salsola soda l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "prunus avium l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "e. umbellata",
+      "medical_conditions": [
+        "inflammatory stimuli",
+        "oxidative stress"
+      ],
+      "medicinal_effects": [
+        "anti-angiogenic"
+      ]
+    },
+    {
+      "scientific_name": "s. soda",
+      "medical_conditions": [
+        "diabetic complications",
+        "inflammatory"
+      ],
+      "medicinal_effects": [
+        "anti-angiogenic"
+      ]
+    }
+  ],
+  "text": null
+}

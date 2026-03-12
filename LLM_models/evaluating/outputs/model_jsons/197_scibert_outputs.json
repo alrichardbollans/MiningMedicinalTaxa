@@ -1,0 +1,151 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "macedonian",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "juniperus communis l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "juniperus communis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "juniperus l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "juniperus polycarpos & juniperus communis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "salvia fruticosa mill",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "salvia",
+      "medical_conditions": [
+        "epilepsy",
+        "colds",
+        "bronchitis",
+        "aches",
+        "hemorrhage",
+        "ailments",
+        "menstrual disorders",
+        "tuberculo-sis"
+      ],
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "salvia officinalis l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "pharma"
+      ]
+    },
+    {
+      "scientific_name": "salvia fruticosa mill-er",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "pharma"
+      ]
+    },
+    {
+      "scientific_name": "s. fruticosa (greek",
+      "medical_conditions": [
+        "inflammations",
+        "hepatitis",
+        "tuberculosis",
+        "skin, blood, and infectious ailments",
+        "microorganisms"
+      ],
+      "medicinal_effects": [
+        "hy-poglycemic"
+      ]
+    },
+    {
+      "scientific_name": "s. fruticosa",
+      "medical_conditions": [
+        "inflammations",
+        "hepatitis",
+        "skin",
+        "tuberculosis",
+        "blood",
+        "infectious ailments",
+        "microorganisms"
+      ],
+      "medicinal_effects": [
+        "hy-poglycemic"
+      ]
+    },
+    {
+      "scientific_name": "greek sage",
+      "medical_conditions": [
+        "inflammations",
+        "hepatitis",
+        "skin",
+        "tuberculosis",
+        "blood",
+        "infectious ailments",
+        "microorganisms"
+      ],
+      "medicinal_effects": [
+        "hy-poglycemic"
+      ]
+    },
+    {
+      "scientific_name": "greek",
+      "medical_conditions": [
+        "tuberculosis",
+        "inflammations",
+        "microorganisms",
+        "hepatitis"
+      ],
+      "medicinal_effects": [
+        "hy-poglycemic"
+      ]
+    },
+    {
+      "scientific_name": "salvia tomentosa miller",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "alvia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "salvia fruticosa",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "salvia species",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

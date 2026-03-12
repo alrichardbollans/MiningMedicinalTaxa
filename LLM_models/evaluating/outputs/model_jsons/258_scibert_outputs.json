@@ -1,0 +1,80 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "assafoetida l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "macedoniaferula assafoetida l",
+      "medical_conditions": [
+        "swine",
+        "swine flu"
+      ],
+      "medicinal_effects": [
+        "antiviral"
+      ]
+    },
+    {
+      "scientific_name": "a",
+      "medical_conditions": [
+        "swine flu"
+      ],
+      "medicinal_effects": [
+        "antiviral"
+      ]
+    },
+    {
+      "scientific_name": "fo",
+      "medical_conditions": [
+        "swine flu"
+      ],
+      "medicinal_effects": [
+        "antiviral"
+      ]
+    },
+    {
+      "scientific_name": "ferula as-safoetida l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antiviral"
+      ]
+    },
+    {
+      "scientific_name": "viscum album l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ferula assafoetida l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "asafoetida",
+      "medical_conditions": [
+        "swine"
+      ],
+      "medicinal_effects": [
+        "antiviral"
+      ]
+    },
+    {
+      "scientific_name": "asafoeti",
+      "medical_conditions": [
+        "swine flu"
+      ],
+      "medicinal_effects": [
+        "antiviral"
+      ]
+    },
+    {
+      "scientific_name": "safoetida",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antiviral"
+      ]
+    }
+  ],
+  "text": null
+}

@@ -1,0 +1,155 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "alyssum alyssoides",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "alyssum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "a. alyssoides",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "sideritis raeseri boiss. & heldr. subsp. raeseri",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "greecesideritis raeseri boiss & heldr. subsp. raeseri",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "carminative",
+        "stomachic",
+        "anti-inflammatory",
+        "antimicrobial",
+        "antitussive",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "sideritis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "carminative",
+        "stomachic",
+        "anti-inflammatory",
+        "antimicrobial",
+        "antitussive",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "s. raeseri ssp. raeseri",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "capparis orientalis veill",
+      "medical_conditions": [
+        "atherosclerosis",
+        "atonia",
+        "colds"
+      ],
+      "medicinal_effects": [
+        "anti-diabetes",
+        "diuretic",
+        "immunomodulatory",
+        "antioxidant",
+        "antifungal",
+        "anti-inflammatory",
+        "antimicrobial",
+        "anti-proliferative"
+      ]
+    },
+    {
+      "scientific_name": "primula veris",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "primula",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "primula veris l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "primula elatior (l.) hill",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "primevere officinale primula veris l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tinospora sinensis",
+      "medical_conditions": [
+        "dysuria"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "chromolaena odorata",
+      "medical_conditions": [
+        "dysuria"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "mimosa pudica",
+      "medical_conditions": [
+        "dysuria"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tadehagi triquetrum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "alysicarpus vaginalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "m. pudica",
+      "medical_conditions": [
+        "dysuria"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "streptocaulon juventas",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tradescantia zebrina",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "canscora lucidissima",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rosa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

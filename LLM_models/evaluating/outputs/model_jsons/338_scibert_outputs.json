@@ -1,0 +1,301 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "majus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "candida",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-biofilm"
+      ]
+    },
+    {
+      "scientific_name": "h. hircinum subsp. majus",
+      "medical_conditions": [
+        "respiratory tract affections",
+        "fungal-associated pathologies of the respiratorytract"
+      ],
+      "medicinal_effects": [
+        "anticancer",
+        "antifungal",
+        "anti-inflammatory",
+        "antimicrobial",
+        "cytotoxic"
+      ]
+    },
+    {
+      "scientific_name": "c. parapsilosis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. tropicalis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "cytotoxic"
+      ]
+    },
+    {
+      "scientific_name": "h. hircinum subsp.majus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. hircinumsus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s. majus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. hircinumsubsp. majus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal",
+        "andida",
+        "ida",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "h. hircinumsusbps. majus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "punicagranatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "candida glabrata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cryptococcusneoformans",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hypericum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal",
+        "antimycotic"
+      ]
+    },
+    {
+      "scientific_name": "h. montanum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "h. maculatum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "h. hirsutum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "h. perforatum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "candida spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "c. albicans",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. lusitaniae",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. glabrata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tropicalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "albicans",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. hircinum",
+      "medical_conditions": [
+        "tract",
+        "sorethroats",
+        "cough"
+      ],
+      "medicinal_effects": [
+        "antifungal",
+        "antiseptic"
+      ]
+    },
+    {
+      "scientific_name": "c. krusei",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "andida",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. hircinum subsp. majush",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "h. hircinum subsp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cand",
+      "medical_conditions": [
+        "ida"
+      ],
+      "medicinal_effects": [
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "ida",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "bjerkandera",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aspergillus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "saccharomyces",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aspergillus glaucus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "penicillium paneum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "penicillium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "um",
+      "medical_conditions": [
+        "sorethroats",
+        "cough"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hircinums",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "p",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hircinumsubsp. maj",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "us",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "h. hircinum subsp. majuss",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hircinum subsp. majus",
+      "medical_conditions": [
+        "ct"
+      ],
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

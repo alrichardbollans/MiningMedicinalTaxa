@@ -1,0 +1,191 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "eryngium cymosum f. delaroche",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        ""
+      ]
+    },
+    {
+      "scientific_name": "e. cymosum",
+      "medical_conditions": [
+        "ndial hyperglycemia"
+      ],
+      "medicinal_effects": [
+        "",
+        "inhibitory",
+        "anti-hyperglycemic",
+        "oneogenesis",
+        "prandial hyperglycemia",
+        "ogenic",
+        "hypoglycemic",
+        "gluconeogenesis",
+        "cemic",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "ageratina petiolaris",
+      "medical_conditions": [
+        "d"
+      ],
+      "medicinal_effects": [
+        "hypoglycemic",
+        "oneogenesis",
+        "tolerance"
+      ]
+    },
+    {
+      "scientific_name": "cecropia obtusifolia",
+      "medical_conditions": [
+        "d"
+      ],
+      "medicinal_effects": [
+        "hypoglycemic",
+        "oneogenesis",
+        "tolerance"
+      ]
+    },
+    {
+      "scientific_name": "equisetum myriochaetum",
+      "medical_conditions": [
+        "d"
+      ],
+      "medicinal_effects": [
+        "hypoglycemic",
+        "oneogenesis",
+        "glucose tolerance",
+        "tolerance"
+      ]
+    },
+    {
+      "scientific_name": "aquilaria sinensis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "myristica fragrans",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "choerospondias axillaris",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "boswellia carterii",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "b",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aw",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "jiana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aucklandia lappa",
+      "medical_conditions": [
+        "heat"
+      ],
+      "medicinal_effects": [
+        "memory promotion",
+        "inducing resuscitation",
+        "tranquilizing",
+        "ischemia",
+        "nourishing",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "terminalia chebula",
+      "medical_conditions": [
+        "heat"
+      ],
+      "medicinal_effects": [
+        "tranquilizing",
+        "inducing resuscitation",
+        "nourishing"
+      ]
+    },
+    {
+      "scientific_name": "gossampinus malabarica",
+      "medical_conditions": [
+        "heat"
+      ],
+      "medicinal_effects": [
+        "tranquilizing",
+        "inducing resuscitation",
+        "nourishing"
+      ]
+    },
+    {
+      "scientific_name": "b. bhaw-dajiana",
+      "medical_conditions": [
+        "heat"
+      ],
+      "medicinal_effects": [
+        "memory promotion",
+        "inducing resuscitation",
+        "anti-cerebral ischemia",
+        "tranquilizing",
+        "spatial learning",
+        "ischemia",
+        "nourishing",
+        "myocardial",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "zaleya decandra",
+      "medical_conditions": [
+        "terat",
+        "anti-ovarian cancer",
+        "ovarian cancer"
+      ],
+      "medicinal_effects": [
+        "anti-ovarian cancer",
+        "anti-proliferative"
+      ]
+    },
+    {
+      "scientific_name": "z. decandra",
+      "medical_conditions": [
+        "ovarian",
+        "ovarian cancer"
+      ],
+      "medicinal_effects": [
+        "anti-proliferative"
+      ]
+    },
+    {
+      "scientific_name": "dovyalis caffra l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pinaropappus roseus less",
+      "medical_conditions": [
+        "cancer",
+        "inflammatory events",
+        "skin infections",
+        "gastrointestinal"
+      ],
+      "medicinal_effects": [
+        "antiproliferative"
+      ]
+    }
+  ],
+  "text": null
+}

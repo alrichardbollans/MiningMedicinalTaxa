@@ -1,0 +1,147 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "stahlianthus thorelii",
+      "medical_conditions": [
+        "osteoarthritis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "stahlianthus thorelii gagnep",
+      "medical_conditions": [
+        "cancer",
+        "inflammation",
+        "osteoarthritis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tahlianthus thorelii gagnep",
+      "medical_conditions": [
+        "cancer",
+        "inflammation",
+        "osteoarthritis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s. thorelii",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "euphorbia neriifolia",
+      "medical_conditions": [
+        "cancer",
+        "inflammation",
+        "diabetes mellitus"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "e. neriifolia",
+      "medical_conditions": [
+        "inflammation"
+      ],
+      "medicinal_effects": [
+        "o",
+        "cancer",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "euphorbia neriifolia l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "mediterranean",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "osters",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pulicaria",
+      "medical_conditions": [
+        "muscular- skeletal diseases",
+        "cold",
+        "bronchitis",
+        "skin diseases",
+        "abdominal pain",
+        "inflammation",
+        "inflamed wound"
+      ],
+      "medicinal_effects": [
+        "antiinflammatory",
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "pulicaria gaertn",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "p. odora",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "p",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "dysenteric",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "a",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "vibrio chlorea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "p. dysenterica",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "pulicaria wightiana",
+      "medical_conditions": [
+        "inflammation"
+      ],
+      "medicinal_effects": [
+        "antiinflammatory",
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "dys",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "enterica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

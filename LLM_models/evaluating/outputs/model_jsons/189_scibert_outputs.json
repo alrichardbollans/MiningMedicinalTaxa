@@ -1,0 +1,35 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "arctostaphylos uva-ursi (l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "arctostaphylos uva-ursi (l.) spre",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "arctostaphylos uva-ursi (l.) spreng",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "arbutus unedo l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "prunus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antiasthmatic",
+        "center",
+        "antitussive",
+        "anticancer"
+      ]
+    }
+  ],
+  "text": null
+}

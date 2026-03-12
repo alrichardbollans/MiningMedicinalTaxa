@@ -1,0 +1,362 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "from hypericum hircinumsubsp. majus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal activity",
+        "a"
+      ]
+    },
+    {
+      "scientific_name": "hypericum hircinumsubsp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "majus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "ant"
+      ]
+    },
+    {
+      "scientific_name": "hypericum",
+      "medical_conditions": [
+        "inflammations",
+        "infections"
+      ],
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "h. hircinum subsp. majus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal",
+        "fungal"
+      ]
+    },
+    {
+      "scientific_name": "h. hircinum",
+      "medical_conditions": [
+        "respiratory tract disorders",
+        "respiratory tract infections"
+      ],
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "penic",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "um",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "aspergillus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "candida",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal",
+        "antim"
+      ]
+    },
+    {
+      "scientific_name": "h. hircinumsubsp. majus",
+      "medical_conditions": [
+        "respiratory tract infections"
+      ],
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "p",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "fungal"
+      ]
+    },
+    {
+      "scientific_name": "albicans candida",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "candidia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "and",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. perforatum l",
+      "medical_conditions": [
+        "inflammations",
+        "wounds",
+        "cuts",
+        "burns",
+        "myalgia",
+        "possession",
+        "neurologicaldisorders",
+        "dyspeptic complaints",
+        "infections",
+        "pathological states",
+        "states",
+        "first-degree burns"
+      ],
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "h. perforatum",
+      "medical_conditions": [
+        "contused injuries",
+        "dyspeptic complaints",
+        "myalgia",
+        "acute",
+        "first-degree burns"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "candida spp",
+      "medical_conditions": [
+        "fungal"
+      ],
+      "medicinal_effects": [
+        "antifungal",
+        "inhibitory"
+      ]
+    },
+    {
+      "scientific_name": "h. carinatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. myrianthum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h.linoides",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. garciae",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "candidaspp. cryptococcus neoformans",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rhodotorula mucilaginosagrowth",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. maculatum crantz subsp. maculatum",
+      "medical_conditions": [
+        "burns",
+        "skin inflammations",
+        "wounds"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. hircinum l. s. lat",
+      "medical_conditions": [
+        "burns",
+        "skin inflammations",
+        "wounds"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. hirsutum l",
+      "medical_conditions": [
+        "burns",
+        "skin inflammations",
+        "wounds"
+      ],
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "h",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tococcus neoformans",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rhodotorula mucilaginosa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. montanuml",
+      "medical_conditions": [
+        "infections of",
+        "burns",
+        "skin inflammations",
+        "wounds"
+      ],
+      "medicinal_effects": [
+        "spiratory"
+      ]
+    },
+    {
+      "scientific_name": "h. maculatumcrantz subsp. maculatum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "h. hircinum l. s.lat",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "h. montanum l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifungal"
+      ]
+    },
+    {
+      "scientific_name": "h. hirsutum subsp. hirsutum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. hircinum subsp.majus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. maculatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. montanum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "maculatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h. hirsutum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ulatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "albicans",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. albicans",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. parapsilosis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. lusitaniae",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aspergillus glaucus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "penicilliumpaneum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. glabrata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. tropicalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hype",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ric",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "um spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tropicalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hypericum spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

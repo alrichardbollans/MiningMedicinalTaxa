@@ -1,0 +1,75 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "echin",
+      "medical_conditions": [
+        "coughs",
+        "infections",
+        "colds",
+        "common cold"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aloe vera",
+      "medical_conditions": [
+        "eczema",
+        "eczema on",
+        "skin conditions"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "agnus castus",
+      "medical_conditions": [
+        "depression",
+        "hay fever",
+        "anxiety",
+        "infections",
+        "common cold"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "echinacea",
+      "medical_conditions": [
+        "infections",
+        "common cold"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "echinacea angustifolia dc",
+      "medical_conditions": [
+        "infections",
+        "common cold"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "trachyspermum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "commiphora",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "boswellia serrate roxb. ex colebr",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "althaea officinalis l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "dem"
+      ]
+    }
+  ],
+  "text": null
+}

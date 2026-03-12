@@ -1,0 +1,15 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "echinacea purpurea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "echinacea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

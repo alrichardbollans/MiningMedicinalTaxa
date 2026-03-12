@@ -1,0 +1,239 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "shorea roxburghii",
+      "medical_conditions": [
+        "diarrhea",
+        "dysentery",
+        "cholera"
+      ],
+      "medicinal_effects": [
+        "ameliorative",
+        "hypoglycemic"
+      ]
+    },
+    {
+      "scientific_name": "s. roxburghii",
+      "medical_conditions": [
+        "t2dm highlights"
+      ],
+      "medicinal_effects": [
+        "ameliorative",
+        "hypoglycemic",
+        "antidiabetic"
+      ]
+    },
+    {
+      "scientific_name": "dacrycarpus imbricatus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-proliferative"
+      ]
+    },
+    {
+      "scientific_name": "pinus dalatensis ferre",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-proliferative"
+      ]
+    },
+    {
+      "scientific_name": "oldenlandia pinifolia",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-proliferative"
+      ]
+    },
+    {
+      "scientific_name": "ficus hirta",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-proliferative"
+      ]
+    },
+    {
+      "scientific_name": "dacrycarpus imbricatus (blume) de",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-proliferative"
+      ]
+    },
+    {
+      "scientific_name": "au",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-proliferative"
+      ]
+    },
+    {
+      "scientific_name": "o. pinifolia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pinifolia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cladosporium spp",
+      "medical_conditions": [
+        "acute"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fungi",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cladosporium",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "",
+        "anti-microbial",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "a",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "acer truncatum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "cytotoxic"
+      ]
+    },
+    {
+      "scientific_name": "a. truncatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "warbrugia ugandensis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "erythrina abyssinica dc",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cryptolepsis sanguinolenta (lindl.) schltr",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "albizia coriaria oliv",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "psorospermum febrifugium spach",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "gymnosporia senegalensis (lam",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "prague",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "gymnosporia senegalensis (lam.) loes",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "zanthoxylum chalybeum engl",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "securidaca longipendunculata fresen",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "acacia hockii de wild",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "gardenia ternifolia subsp. jovis-tonantis (welw.) verdc",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "bridelia micrantha (hochst.) baill",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "w. ugandensis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "a. coriria",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. sanguinolenta",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "p. febrifugium",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "s. longipendunculata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "calluna vulgaris (l.) hull. grown",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "skin-protective agent"
+      ]
+    },
+    {
+      "scientific_name": "calluna vulgaris (l.) hull",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. vulgaris",
+      "medical_conditions": [
+        "urinary complaints"
+      ],
+      "medicinal_effects": [
+        "",
+        "antiradical",
+        "photo-protective",
+        "anti-aging",
+        "skin",
+        "antimicrobial"
+      ]
+    }
+  ],
+  "text": null
+}

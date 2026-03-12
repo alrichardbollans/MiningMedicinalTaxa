@@ -1,11 +1,11 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,c. majus,c. majus,majus,keratinomyces ajelloi,c. majus_warts,c. majus_human,c. majus_pathogenic bacteria,c. majus_anti-inflammatory,c. majus_anti,c. majus_antiprotozoal
-1,chelidonium majus,chelidonium majuspotassium,tumefaci,,c. majus_trichomoniasis,c. majus_tis,c. majus_infections,c. majus_antimicrobial,c. majus_antimicro,c. majus_hepatic
-2,chelidonium,coptis,a lutea,,,c. majus_hiv,c. majus_pathogenic fungi,c. majus_antiviral,_antifungal,c. majus_gastric
-3,coptis,s,,,,c. majus_acute,c. majus_hiv-1,,_antibacterial,c. majus_antibacterial
-4,scopulariopsis brevicaulis,p,al,,,c. majus_illoma virus infection,c. majus_wounds,,chelidonium maj_antimicrobial,c. majus_antifungal
-5,sphaerulina juglandis,c,iti,,,c. majus_upper respiratory tract,c. majus_bacteria,,juglandis_antimicrobial,c. majus_anticancer
-6,septoria microspora,chelidonium maj,ogenes,,,c. majus_influenza,chelidonium majus_papilloma virus infection,,septoria microspora_antimicrobial,chelidonium_bactericidal
+0,c. majus,c. majus,majus,keratinomyces ajelloi,c. majus_warts,c. majus_illoma virus infection,c. majus_hiv-1,c. majus_anti-inflammatory,c. majus_antimicro,c. majus_antiprotozoal
+1,chelidonium majus,chelidonium majuspotassium,tumefaci,,c. majus_trichomoniasis,c. majus_tis,c. majus_wounds,c. majus_antimicrobial,c. majus_anti,c. majus_anticancer
+2,chelidonium,coptis,a lutea,,,c. majus_hiv,c. majus_pathogenic bacteria,c. majus_antiviral,_antifungal,c. majus_hepatic
+3,coptis,s,,,,c. majus_influenza,c. majus_pathogenic fungi,,_antibacterial,c. majus_antifungal
+4,scopulariopsis brevicaulis,p,al,,,c. majus_upper respiratory tract,c. majus_bacteria,,chelidonium maj_antimicrobial,c. majus_antibacterial
+5,sphaerulina juglandis,c,iti,,,c. majus_human,c. majus_infections,,juglandis_antimicrobial,c. majus_gastric
+6,septoria microspora,chelidonium maj,ogenes,,,c. majus_acute,chelidonium majus_papilloma virus infection,,septoria microspora_antimicrobial,chelidonium_bactericidal
 7,penicillium notatum,aspergillus fumigatus,a. tumefaciens,,,trichomonas vaginalis_trichomoniasis,,,ata_antimicrobial,chelidonium majus_antifungal
 8,cladosporium herbarum,a. niger,anthr,,,,,,,
 9,cryptococcus neoformans,candida sp. cladosporium herbarum,salmonella gallinarum,,,,,,,

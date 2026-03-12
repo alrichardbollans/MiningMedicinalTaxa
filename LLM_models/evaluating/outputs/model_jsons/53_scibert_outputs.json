@@ -1,0 +1,40 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "fructus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "circulation",
+        "ative"
+      ]
+    },
+    {
+      "scientific_name": "lycium barbarum",
+      "medical_conditions": [
+        "dyslipidaemia"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ycii",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fructus lycii",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "radix scrophulariae",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fructus schisandrae",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

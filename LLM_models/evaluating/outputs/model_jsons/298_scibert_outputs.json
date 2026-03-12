@@ -1,0 +1,81 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "centaurea ragusina l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "c. ragusina l",
+      "medical_conditions": [
+        "liver carcinoma"
+      ],
+      "medicinal_effects": [
+        "cterial",
+        "otoxic",
+        "interactions",
+        "anti",
+        "anti-inflammatory",
+        "anti-proliferative",
+        "antibacterial",
+        "cytotoxic",
+        "nt",
+        "inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "usina l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "centaurea",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "cytotoxic",
+        "antibacterial",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "oroxylum indicum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "c. melitensis l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. aspera l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. jacea l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "centa",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "cytotoxic"
+      ]
+    },
+    {
+      "scientific_name": "usi",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

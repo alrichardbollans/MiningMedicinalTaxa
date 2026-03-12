@@ -1,0 +1,307 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "h. procumbens",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antifibrotic",
+        "hepatoprotectant",
+        "antimycobacterial"
+      ]
+    },
+    {
+      "scientific_name": "euclea natalensis a.dc",
+      "medical_conditions": [
+        "chest related complaints",
+        "abdominal pain",
+        "stomach problems",
+        "tuberculosis"
+      ],
+      "medicinal_effects": [
+        "antimycobacterial",
+        "antifibrotic",
+        "hepatoprotective",
+        "hepatoprotectant",
+        "antibacterial"
+      ]
+    },
+    {
+      "scientific_name": "euclea natalensis",
+      "medical_conditions": [
+        "chest related complaints",
+        "abdominal pain",
+        "stomach problems",
+        "tuberculosis",
+        "dysentery"
+      ],
+      "medicinal_effects": [
+        "antibacterial",
+        "hepatoprotectant",
+        "antimycobacterial"
+      ]
+    },
+    {
+      "scientific_name": "dactylophylla",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "welw. ex oliv",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anthelmintic"
+      ]
+    },
+    {
+      "scientific_name": "aenorhabditis elegans",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "oldfieldia dactylophylla (welw. ex oliv",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. congolensis de wild",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "t. durand",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. doniana sweet",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. fischeri gurke",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. madiensis subsp. milanjiensis (britten) f.white",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. mombassae vatke",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "hel"
+      ]
+    },
+    {
+      "scientific_name": "c",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "habditis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "durand",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "v. doniana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tis elegans",
+      "medical_conditions": [
+        "hel"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "frican workshopo04",
+      "medical_conditions": [
+        "conditions"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "entada africana",
+      "medical_conditions": [
+        "conditions",
+        "pain related"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "f.white",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "caenorhabditis elegans",
+      "medical_conditions": [
+        "hel"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "african workshopo04",
+      "medical_conditions": [
+        "pain related"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "germanyentada africana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "norhabditis elegans",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "germanyentada africana guill. & perr",
+      "medical_conditions": [
+        "fractures and sprains",
+        "diseases",
+        "pain related",
+        "pain"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "e. africana",
+      "medical_conditions": [
+        "conditions",
+        "pain"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "persicaria senegalensis (meisn",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-ageing"
+      ]
+    },
+    {
+      "scientific_name": "persicaria senegalensis (meisn.) soj",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-ageing"
+      ]
+    },
+    {
+      "scientific_name": "persicaria senegalensis",
+      "medical_conditions": [
+        "ageing skin",
+        "chronic inflammation"
+      ],
+      "medicinal_effects": [
+        "anti-ageing",
+        "elastase inhibitory"
+      ]
+    },
+    {
+      "scientific_name": "p. senegalensis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-ageing",
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "a",
+      "medical_conditions": [
+        "skin diseases"
+      ],
+      "medicinal_effects": [
+        "antibacterial"
+      ]
+    },
+    {
+      "scientific_name": "e vulgaris",
+      "medical_conditions": [
+        "skin diseases"
+      ],
+      "medicinal_effects": [
+        "antibacterial"
+      ]
+    },
+    {
+      "scientific_name": "acnes",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. acnes",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antibacterial"
+      ]
+    },
+    {
+      "scientific_name": "poria",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "poria cocos (schw",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "poria cocos",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "poria cocos (schw.) wolf",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "utis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "poria cum radix pini",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "poria cutis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "white poria",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

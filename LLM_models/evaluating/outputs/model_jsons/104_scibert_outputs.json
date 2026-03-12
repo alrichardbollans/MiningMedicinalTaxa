@@ -1,0 +1,759 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "gaultheria procumbens",
+      "medical_conditions": [
+        "joint/muscle inflammation",
+        "ver"
+      ],
+      "medicinal_effects": [
+        "pain"
+      ]
+    },
+    {
+      "scientific_name": "hamamelis virginiana",
+      "medical_conditions": [
+        "ment",
+        "eye"
+      ],
+      "medicinal_effects": [
+        "blood flow"
+      ]
+    },
+    {
+      "scientific_name": "anni",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "salix alba",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "pain-killer"
+      ]
+    },
+    {
+      "scientific_name": "dioscorea villosa",
+      "medical_conditions": [
+        "dizziness"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pausinystalia yohimbe",
+      "medical_conditions": [
+        "earache",
+        "erectile dysfunction"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "echinacea spp",
+      "medical_conditions": [
+        "endinitis",
+        "dizziness"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "oenothera biennis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "matricaria recutita",
+      "medical_conditions": [
+        "llergies",
+        "carpal tunnel syndrome",
+        "cardiac arrhythmia",
+        "diverticulitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ginkgo biloba",
+      "medical_conditions": [
+        "llergies",
+        "dizziness",
+        "cardiac arrhythmia"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "allium sativum",
+      "medical_conditions": [
+        "llergies",
+        "diabetes",
+        "earache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "panax spp.gotu kola centella asiatica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "equisetum arvense",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "silybum marianum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "mentha piperita",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "portulaca oleracea",
+      "medical_conditions": [
+        "endinitis",
+        "cardiac arrhythmia",
+        "chronic fatigue syndromea",
+        "cataracts"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "thymus vulgaris",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "salix spp",
+      "medical_conditions": [
+        "endinitis",
+        "carpal tunnel syndrome"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "allium cepa",
+      "medical_conditions": [
+        "llergies",
+        "diabetes",
+        "chronic fatigue syndromea",
+        "cataracts"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "urtica dioica",
+      "medical_conditions": [
+        "llergies",
+        "endinitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tanacetum parthenium",
+      "medical_conditions": [
+        "llergies"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "armoracia rusticana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "syzygium aromaticum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "monarda spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ganoderma lucidum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lycopodium spp",
+      "medical_conditions": [
+        "",
+        "lzheime"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "m monarda spp",
+      "medical_conditions": [
+        "",
+        "lzheime"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rosmarinus officinalis",
+      "medical_conditions": [
+        "cataracts"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "salvia officinalis",
+      "medical_conditions": [
+        "endinitis",
+        "canker sores"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "salix spp.gotu kola centella asiatica",
+      "medical_conditions": [
+        "reduction in"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "vitex agnus-castus",
+      "medical_conditions": [
+        "reduction in"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cimifuga racemosa",
+      "medical_conditions": [
+        "reduction in"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "caulophyllum thalictroides",
+      "medical_conditions": [
+        "reduction in"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "daucus carota",
+      "medical_conditions": [
+        "diarrhea",
+        "reduction in",
+        "cataracts"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "apium graveolens",
+      "medical_conditions": [
+        "dizziness",
+        "reduction in"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "anethum grav",
+      "medical_conditions": [
+        "reduction in"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hypericum perforatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "calendula calendula officinalis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ananas comosus",
+      "medical_conditions": [
+        "endinitis",
+        "carpal tunnel syndrome"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "capsicum spp",
+      "medical_conditions": [
+        "carpal tunnel syndrome",
+        "dizziness"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "curcuma longa",
+      "medical_conditions": [
+        "endinitis",
+        "carpal tunnel syndrome"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "arnica montana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "matricaria recuitita",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "zingiber officinale",
+      "medical_conditions": [
+        "dizziness"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "drosera spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aloe veraechin",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "centella asiatica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lavandula spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "plantago spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "zingiber officinaleechin",
+      "medical_conditions": [
+        "endinitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "equisetum spp",
+      "medical_conditions": [
+        "endinitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "glycyrrhiza glabra",
+      "medical_conditions": [
+        "endinitis",
+        "canker sores"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "commiphora spp",
+      "medical_conditions": [
+        "endinitis",
+        "canker sores"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "camellia sinensis",
+      "medical_conditions": [
+        "endinitis",
+        "diabetes",
+        "canker sores"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "coptis groenlandica",
+      "medical_conditions": [
+        "endinitis",
+        "canker sores"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hydrastis canadensis",
+      "medical_conditions": [
+        "endinitis",
+        "earache",
+        "canker sores"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ger",
+      "medical_conditions": [
+        "canker sores"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "geranium maculatum",
+      "medical_conditions": [
+        "canker sores"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "angeli",
+      "medical_conditions": [
+        "cardiac arrhythmia",
+        "carpal tunnel syndrome"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "angelica archangelicacinchona cinchona spp",
+      "medical_conditions": [
+        "cardiac arrhythmia"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "crataegus spp",
+      "medical_conditions": [
+        "cardiac arrhythmia"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "brassica spp",
+      "medical_conditions": [
+        "cardiac arrhythmia"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "i majusastragalus astragalus spp",
+      "medical_conditions": [
+        "cardiac arrhythmia"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "berberis vulgaris",
+      "medical_conditions": [
+        "cardiac arrhythmia"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "marrubium vulgare",
+      "medical_conditions": [
+        "cardiac arrhythmia"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "leonurus cardiaca",
+      "medical_conditions": [
+        "cardiac arrhythmia"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cytisus scoparius",
+      "medical_conditions": [
+        "cardiac arrhythmia"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "alerian valeriana officinalis",
+      "medical_conditions": [
+        "cardiac arrhythmia",
+        "carpal tunnel syndrome"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "symphytum officinale",
+      "medical_conditions": [
+        "carpal tunnel syndrome"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cuminum cyminum",
+      "medical_conditions": [
+        "carpal tunnel syndrome",
+        "cataracts"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "vaccinium myrtillus",
+      "medical_conditions": [
+        "carpal tunnel syndrome",
+        "cataracts"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "nepeta cataria",
+      "medical_conditions": [
+        "cataracts"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "bertholettia excelsa",
+      "medical_conditions": [
+        "cataracts"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "panax gins",
+      "medical_conditions": [
+        "chronic fatigue syndromea",
+        "cataracts"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "eleutherrococcus senticosus",
+      "medical_conditions": [
+        "chronic fatigue syndromea",
+        "cataracts"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ilex paraguayensis",
+      "medical_conditions": [
+        "chronic fatigue syndromea",
+        "cataracts"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "portulaca ole",
+      "medical_conditions": [
+        "chronic fatigue syndromea",
+        "cataracts"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "eleutherococcus senticosus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "trigonella foenum-graecum",
+      "medical_conditions": [
+        "diarrhea",
+        "diabetes"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "phaseolus spp",
+      "medical_conditions": [
+        "diabetes"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "momordica charantia",
+      "medical_conditions": [
+        "diabetes"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "macadamia spp",
+      "medical_conditions": [
+        "diabetes"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "althaea officinalis",
+      "medical_conditions": [
+        "diabetes"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "arachis hypogaea",
+      "medical_conditions": [
+        "diabetes"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "laurus nobilis",
+      "medical_conditions": [
+        "diarrhea"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "gymnema sylvestre",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "agrimonia eupatoria",
+      "medical_conditions": [
+        "diarrhea"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "malus domestica",
+      "medical_conditions": [
+        "diarrhea"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "vaccinium spp",
+      "medical_conditions": [
+        "diarrhea"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rubus spp",
+      "medical_conditions": [
+        "diarrhea"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ceratonia siliqua",
+      "medical_conditions": [
+        "diarrhea"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "quercus spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "punica granatum",
+      "medical_conditions": [
+        "diarrhea"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "syllium plantago ovata",
+      "medical_conditions": [
+        "diverticulitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "linum usitatissimum",
+      "medical_conditions": [
+        "diverticulitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "triticum aestivum",
+      "medical_conditions": [
+        "diverticulitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ulmus rubra",
+      "medical_conditions": [
+        "diverticulitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "prunus dulcis",
+      "medical_conditions": [
+        "dizziness",
+        "diverticulitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cucurbita pepo",
+      "medical_conditions": [
+        "dizziness",
+        "diverticulitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "oenothera biennismultiflora rose rosa multiflora",
+      "medical_conditions": [
+        "dizziness"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "echin",
+      "medical_conditions": [
+        "earache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "echinacea spp.ephedr",
+      "medical_conditions": [
+        "earache",
+        "dizziness"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ephedra sinica",
+      "medical_conditions": [
+        "earache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "forsythia suspensa",
+      "medical_conditions": [
+        "earache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "gentiana officinalis",
+      "medical_conditions": [
+        "earache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lonicera japonica",
+      "medical_conditions": [
+        "earache"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "verbascum thapsus",
+      "medical_conditions": [
+        "earache"
+      ],
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

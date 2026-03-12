@@ -1,0 +1,118 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "artemisia annua",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "oplastic",
+        "a",
+        "ant"
+      ]
+    },
+    {
+      "scientific_name": "tothecaacuminata",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "a"
+      ]
+    },
+    {
+      "scientific_name": "erythroxylum coca",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "oplastic",
+        "a",
+        "antitussive",
+        "ant",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "papaver somniferum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antitussive",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "digitalis spp",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "cardiotonic",
+        "antitussive",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "camptothecaacuminata",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "oplastic",
+        "ant"
+      ]
+    },
+    {
+      "scientific_name": "cinchona spp",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "cardiotonic",
+        "antitussive",
+        "nt"
+      ]
+    },
+    {
+      "scientific_name": "rauwolfia serpentina",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "ih",
+        "ensive",
+        "rtensive",
+        "ntih",
+        "nt"
+      ]
+    },
+    {
+      "scientific_name": "cassia angustifolia",
+      "medical_conditions": [
+        "ih"
+      ],
+      "medicinal_effects": [
+        "ntih",
+        "ensive",
+        "l",
+        "rtensive",
+        "ative"
+      ]
+    },
+    {
+      "scientific_name": "taxus hrevifolia",
+      "medical_conditions": [
+        "ative"
+      ],
+      "medicinal_effects": [
+        "oplastic",
+        "ative",
+        "l"
+      ]
+    },
+    {
+      "scientific_name": "t. hacata",
+      "medical_conditions": [
+        "ative"
+      ],
+      "medicinal_effects": [
+        "oplastic",
+        "l"
+      ]
+    },
+    {
+      "scientific_name": "catharanthus roseus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "oplastic"
+      ]
+    }
+  ],
+  "text": null
+}

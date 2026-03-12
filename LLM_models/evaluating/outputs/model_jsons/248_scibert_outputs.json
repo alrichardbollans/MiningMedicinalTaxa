@@ -1,0 +1,229 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "citrullus colocynthis l",
+      "medical_conditions": [
+        "nerve originated pain"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. colocynthis",
+      "medical_conditions": [
+        "dn",
+        "nerve originated pain",
+        "diabetic neuropathy"
+      ],
+      "medicinal_effects": [
+        "hypoglycemic",
+        "dn",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "citrullus colocynthis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. colocynthis fruit",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "macrotermes bellicosus",
+      "medical_conditions": [
+        "dysentery",
+        "diarrhea",
+        "inflammatory diseases",
+        "infectious"
+      ],
+      "medicinal_effects": [
+        "a",
+        "ispasmodic",
+        "anti-inflammatory",
+        "antimicrobial",
+        "isp",
+        "odic",
+        "antibacterial"
+      ]
+    },
+    {
+      "scientific_name": "m. bellicosus",
+      "medical_conditions": [
+        "dysentery",
+        "diarrhea",
+        "inflammatory diseases",
+        "infectious"
+      ],
+      "medicinal_effects": [
+        "smodic",
+        "tic",
+        "smolytic",
+        "anti-inflammatory",
+        "antimicrobial",
+        "antibacterial",
+        "anti"
+      ]
+    },
+    {
+      "scientific_name": "corydalis hendersonii",
+      "medical_conditions": [
+        "acute myocardial ischemia"
+      ],
+      "medicinal_effects": [
+        "protects"
+      ]
+    },
+    {
+      "scientific_name": "corydalis hendersonii hemsl",
+      "medical_conditions": [
+        "high altitude polycythemia",
+        "vasculitis",
+        "anti-acute myocardial"
+      ],
+      "medicinal_effects": [
+        "blood",
+        "pressure",
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "c",
+      "medical_conditions": [
+        "high altitude polycythemia",
+        "vasculitis"
+      ],
+      "medicinal_effects": [
+        "anticancer",
+        "antioxidant",
+        "anti-inflammatory",
+        "blood",
+        "pressure"
+      ]
+    },
+    {
+      "scientific_name": "h",
+      "medical_conditions": [
+        "high altitude polycythemia",
+        "vasculitis",
+        "anti-acute myocardial"
+      ],
+      "medicinal_effects": [
+        "blood",
+        "pressure",
+        "anti-inflammatory",
+        "anti-ami"
+      ]
+    },
+    {
+      "scientific_name": "senecio candicans",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "gastroprotective"
+      ]
+    },
+    {
+      "scientific_name": "senecio candicans dc",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "ive"
+      ]
+    },
+    {
+      "scientific_name": "s. candicans",
+      "medical_conditions": [
+        "gastric ulcer"
+      ],
+      "medicinal_effects": [
+        "gastroprotective",
+        "ct"
+      ]
+    },
+    {
+      "scientific_name": "crepis",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "crepis l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. dioscoridis l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c commutata (spreng.) greuter",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. incana sm",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. heldreichiana (kuntze) greuter",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. crocifolia boiss. & heldr",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "phytosia crocifolia (boiss. & heldr.) kamari & greuter",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cantharellus cibarius",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "cantharellus cinereus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "craterellus cornucopioides",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "anticancer",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "hydnum repandum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "anticancer",
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "arella",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "antioxidant"
+      ]
+    }
+  ],
+  "text": null
+}

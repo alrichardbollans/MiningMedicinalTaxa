@@ -1,0 +1,71 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "hypericum perforatum",
+      "medical_conditions": [
+        "parasites",
+        "phantasm",
+        "wounds",
+        "illnesses",
+        "burns",
+        "melancholia",
+        "snakebites",
+        "anxiety"
+      ],
+      "medicinal_effects": [
+        "diuretic"
+      ]
+    },
+    {
+      "scientific_name": "t",
+      "medical_conditions": [
+        "parasites",
+        "phantasm",
+        "wounds",
+        "burns",
+        "melancholia",
+        "snakebites",
+        "anxiety"
+      ],
+      "medicinal_effects": [
+        "diuretic"
+      ]
+    },
+    {
+      "scientific_name": "ras",
+      "medical_conditions": [
+        "parasites",
+        "wounds",
+        "burns",
+        "snakebites",
+        "anxiety"
+      ],
+      "medicinal_effects": [
+        "diuretic"
+      ]
+    },
+    {
+      "scientific_name": "fuga daemonum",
+      "medical_conditions": [
+        "oniacs"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "daemonum",
+      "medical_conditions": [
+        "depression",
+        "oniacs"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "verum",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "mild depression"
+      ]
+    }
+  ],
+  "text": null
+}

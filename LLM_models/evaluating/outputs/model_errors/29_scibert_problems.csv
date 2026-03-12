@@ -1,10 +1,10 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,aloe vera,aloe vera,echin,mentha,aloe vera_skin conditions,echin_coughs,aloe vera_skin heath,boswellia serrate roxb. ex colebr_anti-inflammatory,althaea officinalis l_dem,echinacea_maintain immune system
-1,agnus castus,agnus castus,commiphora,ginkgo,aloe vera_eczema on,echin_infections,aloe vera_wound,,,mentha_eases digestion
-2,echinacea angustifolia dc,echinacea,,senna,aloe vera_eczema,echin_common cold,echinacea_coughs,,,mentha_calm nerves
-3,echinacea,echinacea angustifolia dc,,rhodiola,echinacea_infections,echin_colds,echinacea_sore throat,,,ginkgo_circulatory problems
-4,trachyspermum ammi,trachyspermum,,aspergillus,echinacea_common cold,agnus castus_anxiety,echinacea_colds,,,althaea officinalis l_demulcent
-5,boswellia serrate roxb. ex colebr,boswellia serrate roxb. ex colebr,,eucalyptus,echinacea angustifolia dc_infections,agnus castus_depression,agnus castus_pms symptoms,,,althaea officinalis l_cough
-6,boswellia,althaea officinalis l,,,echinacea angustifolia dc_common cold,agnus castus_infections,senna_constipation,,,
-7,althaea officinalis l,,,,,agnus castus_hay fever,,,,
+0,aloe vera,aloe vera,echin,mentha,aloe vera_eczema,echin_coughs,aloe vera_wound,boswellia serrate roxb. ex colebr_anti-inflammatory,althaea officinalis l_dem,echinacea_maintain immune system
+1,agnus castus,agnus castus,commiphora,ginkgo,aloe vera_eczema on,echin_infections,aloe vera_skin heath,,,mentha_calm nerves
+2,echinacea angustifolia dc,echinacea,,senna,aloe vera_skin conditions,echin_colds,echinacea_sore throat,,,mentha_eases digestion
+3,echinacea,echinacea angustifolia dc,,rhodiola,echinacea_infections,echin_common cold,echinacea_coughs,,,ginkgo_circulatory problems
+4,trachyspermum ammi,trachyspermum,,aspergillus,echinacea_common cold,agnus castus_depression,echinacea_colds,,,althaea officinalis l_demulcent
+5,boswellia serrate roxb. ex colebr,boswellia serrate roxb. ex colebr,,eucalyptus,echinacea angustifolia dc_infections,agnus castus_hay fever,agnus castus_pms symptoms,,,althaea officinalis l_cough
+6,boswellia,althaea officinalis l,,,echinacea angustifolia dc_common cold,agnus castus_anxiety,senna_constipation,,,
+7,althaea officinalis l,,,,,agnus castus_infections,,,,
 8,,,,,,agnus castus_common cold,,,,

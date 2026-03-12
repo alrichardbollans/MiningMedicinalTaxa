@@ -1,27 +1,27 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
-0,chelidonium,chelidonium majus,c. majuss,,c. majus_eye diseases,chelidonium_ophthalmol,chelidonium_ophthalmological problems,chelidonium_pain-relieving,chelidonium_cholagogue,chelidonium_antiviral
-1,c. majus,chelidonium,descriptionc. majus l,,c. majus_liver diseases,chelidonium_al sicknesses,chelidonium_cholagogue,c. majus_anti-edema,chelidonium_anti-jaundice,chelidonium_antimicrobial
-2,chelidonium majus,c. majus,as,,c. majus_cancer,c. majus_tic,chelidonium_anti-jaundice,c. majus_antitussive,c. majuss_,chelidonium_anticancer
-3,c. majus l,chelidonium majusin,krahulcova,,c. majus_jaundice,c. majus_smo,c. majus_aching tooth,c. majus_diuretic,c. majus_,c. majus_hepatic
-4,c. majus l.sensu lato,chelidonium majusl,tz,,c. majus_eye and skin conditions,majus_eye diseases,c. majus_sightimpairment,c. majus_expectorant,c. majus_microbial,c. majus_gastric
-5,c. majus l.subsp. majus,chelidonium l,greek chelidonium,,c. majus_leprosy,majus_jaundice,c. majus_cataract,,c. majus_i,c. majus_spasmolytic
-6,chelidonium majusl,c. majus l,ru,,c. majus_visualimpairment,majus_visualimpairment,c. majus_ulcers,,c. majus_anti-inflammatory,c. majus_anticancer
-7,chelidonium l,c. majus l.sens,majus,,c. majus_dermatologic disorders,majus_dermatologic disorders,c. majus_ophthalmologicaldiseases,,c. majus_anti,c. majus_enhance sight
-8,chelidonium majussubsp. grandiflorum (dc.) printz,c. asiaticum,naturalis,,c. majus_dermatologic diseases,majus_toothache,c. majus_hair overgrowth,,chelido_throat cleansing,c. majus_anti-infectious
-9,c. asiaticum (hara)krahulcova,c. majus l.sensu lato,iae,,chelidonium majusl_infections,naturalis_eye diseases,c. majus_wounds,,de viribus_visualimpairment,
-10,c. asiaticum,c. asiaticum (hara)krahulcova,chelido,,chelidonium majusl_gastrointestinal disorders,naturalis_herpes,c. majus_pulmonary,,macer floridus_visualimpairment,
-11,,c. majus l.subsp. majus,de viribus,,chelidonium majusl_cancer,naturalis_jaundice,c. majus_herpes,,m_visualimpairment,
-12,,chelidonium majussubsp. grandiflorum (dc.) printz,macer floridus,,chelidonium majusl_skin protuberances,naturalis_visualimpairment,c. majus_scabs,,idus_visualimpairment,
-13,,chelidonium majussubsp. grandiflorum (dc.) p,m,,chelidonium majusl_warts,naturalis_dermatologic disorders,c. majus_throat cleansing,,chelidonia_throat cleansing,
-14,,chelidonium majus i,idus,,,iae_jaundice,c. majus_skin eczema,,iber subtilita_enhance,
-15,,chelidonium majusp,chelidonia,,,iae_dermatologic disorders,c. majus_bodyulcers,,,
-16,,,iber subtilita,,,iae_eye diseases,c. majus_aphrodisiacum,,,
-17,,,fumaria officinalis,,,iae_visualimpairment,c. majus_skin ulcer,,,
-18,,,cel,,,chelido_skin eczema,c. majus_pain,,,
-19,,,,,,chelido_ulcers,c. majus_colic,,,
-20,,,,,,chelido_eye diseases,c. majus_stomach ache,,,
-21,,,,,,chelido_colicand jaundice,c. majus_toothache,,,
-22,,,,,,de viribus_skin and liver conditions,c. majus_liver conditions,,,
+0,chelidonium,chelidonium majus,c. majuss,,c. majus_cancer,chelidonium_al sicknesses,chelidonium_ophthalmological problems,chelidonium_pain-relieving,chelidonium_anti-jaundice,chelidonium_antiviral
+1,c. majus,chelidonium,descriptionc. majus l,,c. majus_eye diseases,chelidonium_ophthalmol,chelidonium_anti-jaundice,c. majus_expectorant,chelidonium_cholagogue,chelidonium_antimicrobial
+2,chelidonium majus,c. majus,as,,c. majus_dermatologic disorders,c. majus_smo,chelidonium_cholagogue,c. majus_diuretic,c. majuss_,chelidonium_anticancer
+3,c. majus l,chelidonium majusin,krahulcova,,c. majus_leprosy,c. majus_tic,c. majus_wounds,c. majus_anti-edema,c. majus_,c. majus_anticancer
+4,c. majus l.sensu lato,chelidonium majusl,tz,,c. majus_jaundice,majus_toothache,c. majus_aching tooth,c. majus_antitussive,c. majus_i,c. majus_enhance sight
+5,c. majus l.subsp. majus,chelidonium l,greek chelidonium,,c. majus_dermatologic diseases,majus_eye diseases,c. majus_herpes,,c. majus_microbial,c. majus_hepatic
+6,chelidonium majusl,c. majus l,ru,,c. majus_liver diseases,majus_dermatologic disorders,c. majus_scabs,,c. majus_anti-inflammatory,c. majus_spasmolytic
+7,chelidonium l,c. majus l.sens,majus,,c. majus_visualimpairment,majus_jaundice,c. majus_ophthalmologicaldiseases,,c. majus_anti,c. majus_anti-infectious
+8,chelidonium majussubsp. grandiflorum (dc.) printz,c. asiaticum,naturalis,,c. majus_eye and skin conditions,majus_visualimpairment,c. majus_liver conditions,,chelido_throat cleansing,c. majus_gastric
+9,c. asiaticum (hara)krahulcova,c. majus l.sensu lato,iae,,chelidonium majusl_cancer,naturalis_eye diseases,c. majus_bodyulcers,,de viribus_visualimpairment,
+10,c. asiaticum,c. asiaticum (hara)krahulcova,chelido,,chelidonium majusl_warts,naturalis_dermatologic disorders,c. majus_hair overgrowth,,macer floridus_visualimpairment,
+11,,c. majus l.subsp. majus,de viribus,,chelidonium majusl_gastrointestinal disorders,naturalis_herpes,c. majus_pain,,m_visualimpairment,
+12,,chelidonium majussubsp. grandiflorum (dc.) printz,macer floridus,,chelidonium majusl_skin protuberances,naturalis_jaundice,c. majus_pulmonary,,idus_visualimpairment,
+13,,chelidonium majussubsp. grandiflorum (dc.) p,m,,chelidonium majusl_infections,naturalis_visualimpairment,c. majus_stomach ache,,chelidonia_throat cleansing,
+14,,chelidonium majus i,idus,,,iae_dermatologic disorders,c. majus_ulcers,,iber subtilita_enhance,
+15,,chelidonium majusp,chelidonia,,,iae_eye diseases,c. majus_colic,,,
+16,,,iber subtilita,,,iae_jaundice,c. majus_skin ulcer,,,
+17,,,fumaria officinalis,,,iae_visualimpairment,c. majus_sightimpairment,,,
+18,,,cel,,,chelido_skin eczema,c. majus_toothache,,,
+19,,,,,,chelido_colicand jaundice,c. majus_skin eczema,,,
+20,,,,,,chelido_ulcers,c. majus_cataract,,,
+21,,,,,,chelido_eye diseases,c. majus_aphrodisiacum,,,
+22,,,,,,de viribus_skin and liver conditions,c. majus_throat cleansing,,,
 23,,,,,,de viribus_visualimpairment,chelidonium majus_ulcers,,,
 24,,,,,,macer floridus_skin and liver conditions,,,,
 25,,,,,,macer floridus_visualimpairment,,,,
@@ -29,18 +29,18 @@
 27,,,,,,idus_skin and liver conditions,,,,
 28,,,,,,chelidonia_skin eczema,,,,
 29,,,,,,chelidonia_eye diseases,,,,
-30,,,,,,chelidonia_ulcers,,,,
-31,,,,,,chelidonia_colicand jaundice,,,,
-32,,,,,,chelidonia_otion,,,,
+30,,,,,,chelidonia_colicand jaundice,,,,
+31,,,,,,chelidonia_otion,,,,
+32,,,,,,chelidonia_ulcers,,,,
 33,,,,,,iber subtilita_hair overgrowth,,,,
 34,,,,,,iber subtilita_jaundice,,,,
 35,,,,,,iber subtilita_skin ulcer,,,,
-36,,,,,,fumaria officinalis_eyediseases,,,,
-37,,,,,,fumaria officinalis_jaundice,,,,
-38,,,,,,fumaria officinalis_colic,,,,
-39,,,,,,fumaria officinalis_wounds,,,,
-40,,,,,,fumaria officinalis_toothache,,,,
-41,,,,,,cel_jaundice,,,,
+36,,,,,,fumaria officinalis_toothache,,,,
+37,,,,,,fumaria officinalis_wounds,,,,
+38,,,,,,fumaria officinalis_eyediseases,,,,
+39,,,,,,fumaria officinalis_colic,,,,
+40,,,,,,fumaria officinalis_jaundice,,,,
+41,,,,,,cel_stomach ache,,,,
 42,,,,,,cel_colic,,,,
-43,,,,,,cel_stomach ache,,,,
+43,,,,,,cel_jaundice,,,,
 44,,,,,,chelidonium majusp_skin,,,,

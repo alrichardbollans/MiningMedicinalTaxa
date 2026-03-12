@@ -1,0 +1,40 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "c",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "centaurea ragusina l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antibacterial",
+        "anticancer"
+      ]
+    },
+    {
+      "scientific_name": "centaurea",
+      "medical_conditions": [
+        "gastrointestinal disorders",
+        "microbial infections",
+        "urogenital ailments"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "materialcentaurea ragusina l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. ragusina l",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "ntibacterial",
+        "antibacterial"
+      ]
+    }
+  ],
+  "text": null
+}

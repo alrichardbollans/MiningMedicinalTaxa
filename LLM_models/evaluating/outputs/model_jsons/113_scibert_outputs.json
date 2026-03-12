@@ -1,0 +1,433 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "banisteriopsis caapi",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "b.inebrians",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "b.rusbyana",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "datura inoxia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rivea corymbosa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "turbina corymbosa",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ipomoea violacea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rivea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "palmaria palmata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "p",
+      "medical_conditions": [
+        "pod",
+        "downy"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "orphyra",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "spp",
+      "medical_conditions": [
+        "sig"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "spirulina",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "spp. s",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pirulina",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ulva",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lactuca",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "undaria",
+      "medical_conditions": [
+        "tumors"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pinnatifida",
+      "medical_conditions": [
+        "tumors"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fungiagaricus",
+      "medical_conditions": [
+        "tumors"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "bisporus",
+      "medical_conditions": [
+        "tumors"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "agaricus campestris",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "agrobacterium tumifaciens",
+      "medical_conditions": [
+        "gall"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "amanita muscaria",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aspergillus flavus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "aspergillus oryzae",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "auricularia auricula-judae",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "boletus spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "botrytis cinerea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "candida albicans",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cantharellus cibarius",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "claviceps purpurea",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "vasoconstrictor"
+      ]
+    },
+    {
+      "scientific_name": "conocybe spp",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "vasoconstrictor"
+      ]
+    },
+    {
+      "scientific_name": "cortinellus edodes",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "cryphonectaria parasitica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "drechslera",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "oryzea",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "e",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "flammulina velutipes",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "drechslera oryzeae",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "flammulina vel",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "utipes",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fusarium oxysporum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hemileia vastatrix",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lactarius deliciosus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lentinus edodes",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lycoperdon marginatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lycoperdon mixtecorum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lycoperdon spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "monilinia",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fructicola",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "morchella esculenta",
+      "medical_conditions": [
+        "sig"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "mycosphaerella",
+      "medical_conditions": [
+        "sig"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ophiostoma ulmi",
+      "medical_conditions": [
+        "dutch elm",
+        "sig"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "paneolus spp",
+      "medical_conditions": [
+        "dutch elm",
+        "sig"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "penicillium camemberti",
+      "medical_conditions": [
+        "dutch elm"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "penicillium chrysogenum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "penicillium notatum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "penicillium roquefortii",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "phytophthora infestans",
+      "medical_conditions": [
+        "pod"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "phytopht",
+      "medical_conditions": [
+        "pod"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "hor",
+      "medical_conditions": [
+        "pod"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "a palmivora",
+      "medical_conditions": [
+        "pod"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "lasmopara",
+      "medical_conditions": [
+        "pod",
+        "downy"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "viticola",
+      "medical_conditions": [
+        "downy"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "pleurotus spp",
+      "medical_conditions": [
+        "downy"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "psilocybe spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "puccinia graminis",
+      "medical_conditions": [
+        "rus"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rhizobium leguminosarum",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "russula spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "saccharomyces carlsbergensis",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "saccharomyces cervisieae",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "saccharomyces ellipsoideus",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "saccharomyces theobromae",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "streptomyces spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "stropharia spp",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

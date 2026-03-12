@@ -1,5 +1,5 @@
 ,NER_tp_in_ground,NER_tp_in_model,NER_fp,NER_fn,MedCond_tp,MedCond_fp,MedCond_fn,MedEff_tp,MedEff_fp,MedEff_fn
 0,allium sativum,allium sativum,,ginkgo biloba,hypericum_depression,,hypericum perforatum_anxiety,hypericum perforatum_anti-depressant,allium sativum_anti-depressant,hypericum perforatum_nature's prozac
-1,allium,hypericum perforatum,,ginkgo,hypericum_depressive disorders,,hypericum perforatum_psychovegetative disturbances,,,
-2,hypericum perforatum,hypericum,,,,,hypericum perforatum_nervous unrest,,,
-3,hypericum,,,,,,hypericum perforatum_depressive moods,,,
+1,allium,hypericum perforatum,,ginkgo,hypericum_depressive disorders,,hypericum perforatum_nervous unrest,,,
+2,hypericum perforatum,hypericum,,,,,hypericum perforatum_depressive moods,,,
+3,hypericum,,,,,,hypericum perforatum_psychovegetative disturbances,,,

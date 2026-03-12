@@ -1,0 +1,1352 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "berberis buxifolia lam",
+      "medical_conditions": [
+        "infections",
+        "jaundice"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "berberis chitria buch.-ham.ex lindl",
+      "medical_conditions": [
+        "bleeding piles",
+        "ulcers",
+        "rheumatism",
+        "skin diseases",
+        "skin disease",
+        "jaundice",
+        "affection of eyes",
+        "conjunctivitis",
+        "ophthalmic",
+        "enlarged liver and spleen"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "berberis darwinii hook",
+      "medical_conditions": [
+        "constipation",
+        "colitis",
+        "diabetes",
+        "bone fractures",
+        "rheumatism",
+        "mountain sickness",
+        "stomachaches",
+        "wound",
+        "kidney stones",
+        "tuberculosis",
+        "radiculitis",
+        "indigestion",
+        "chest pain",
+        "headaches",
+        "heart pain",
+        "stomachpains"
+      ],
+      "medicinal_effects": [
+        "antipyrectic",
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "berberis empetrifolia lam",
+      "medical_conditions": [
+        "constipation",
+        "diabetes",
+        "bone fractures",
+        "rheumatism",
+        "mountain sickness",
+        "stomachaches",
+        "wound",
+        "kidney stones",
+        "radiculitis",
+        "tuberculosis",
+        "chest pain",
+        "headaches",
+        "heart pain",
+        "indigestion"
+      ],
+      "medicinal_effects": [
+        "antipyretic"
+      ]
+    },
+    {
+      "scientific_name": "berberis integerrima bunge",
+      "medical_conditions": [
+        "constipation",
+        "bone fractures",
+        "diabetes",
+        "rheumatism",
+        "stomachaches",
+        "wound",
+        "kidney stones",
+        "radiculitis",
+        "tuberculosis",
+        "chest pain",
+        "headaches",
+        "heart pain"
+      ],
+      "medicinal_effects": [
+        "antipyretic"
+      ]
+    },
+    {
+      "scientific_name": "berberis jaeschkeana c. k.schneid",
+      "medical_conditions": [
+        "conjunctivitis",
+        "eye diseases",
+        "gastroenteritis"
+      ],
+      "medicinal_effects": [
+        "ant",
+        "antipyretic"
+      ]
+    },
+    {
+      "scientific_name": "berberis koreana palib",
+      "medical_conditions": [
+        "eye diseases",
+        "cold",
+        "sore throats",
+        "conjunctivitis",
+        "gastroenteritis"
+      ],
+      "medicinal_effects": [
+        "eye diseases",
+        "etic",
+        "antipyretic",
+        "antip",
+        "ant"
+      ]
+    },
+    {
+      "scientific_name": "berberis leschenaultia wall. ex",
+      "medical_conditions": [
+        "cold",
+        "complications",
+        "sore throats"
+      ],
+      "medicinal_effects": [
+        "ant",
+        "antip",
+        "etic",
+        "antipyretic"
+      ]
+    },
+    {
+      "scientific_name": "ight",
+      "medical_conditions": [
+        "complications",
+        "cold",
+        "muscularpain"
+      ],
+      "medicinal_effects": [
+        "ant",
+        "antip",
+        "etic",
+        "antipyretic"
+      ]
+    },
+    {
+      "scientific_name": "",
+      "medical_conditions": [
+        "constipation",
+        "ucous membranes",
+        "eye diseases",
+        "cold",
+        "insect bites",
+        "complications",
+        "backache",
+        "rheumatic",
+        "neuralgic diseases",
+        "skin diseases",
+        "disorders of the digestive system",
+        "jaundice",
+        "muscularpain",
+        "andringworm",
+        "inflammation",
+        "arthritis"
+      ],
+      "medicinal_effects": [
+        "astringent",
+        "antiperiodic",
+        "antiseptic",
+        "carminative",
+        "diuretic",
+        "etic",
+        "antipyretic",
+        "antioedemic",
+        "anti-inflammatory",
+        "cholagogue",
+        "depurative",
+        "antip",
+        "ant",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "berberis libanotica ehrenb. exc",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "berberis libanotica ehrenb. exc. k. schneid",
+      "medical_conditions": [
+        "arthritis",
+        "neuralgic diseases",
+        "muscularpain",
+        "rheumatic"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "berberis lycium r",
+      "medical_conditions": [
+        "pimples",
+        "throatpain",
+        "boils",
+        "fracture",
+        "bone fractures",
+        "eye ache",
+        "sun blindness",
+        "jaundice",
+        "dysentery",
+        "earache",
+        "febrifuge",
+        "piles",
+        "menorrhagia",
+        "backache",
+        "cough andthroat pain",
+        "intestinal problems",
+        "eye diseases",
+        "scabies",
+        "diabetes",
+        "intestinal colic",
+        "stomachache",
+        "diarrhoea"
+      ],
+      "medicinal_effects": [
+        "wound healing"
+      ]
+    },
+    {
+      "scientific_name": "berberis microphylla g. forst",
+      "medical_conditions": [
+        "diarrhea",
+        "wounds of the mouth",
+        "eye diseases",
+        "neurasthenia",
+        "back pain",
+        "stomachaches",
+        "sun blindness",
+        "jaundice",
+        "arthralgia",
+        "treat"
+      ],
+      "medicinal_effects": [
+        "treat",
+        "anti-inflammatory",
+        "antidia",
+        "antipyretic"
+      ]
+    },
+    {
+      "scientific_name": "berberis heterophyllajuss. ex",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "oir",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "c. k",
+      "medical_conditions": [
+        "arthritis",
+        "neuralgic diseases",
+        "muscularpain",
+        "rheumatic"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "chn",
+      "medical_conditions": [
+        "ear",
+        "wounds of the mouth",
+        "eye diseases",
+        "neurasthenia",
+        "back pain",
+        "tonic",
+        "rheumatic",
+        "rheumatism",
+        "neuralgic diseases",
+        "stomachaches",
+        "jaundice",
+        "arthralgia",
+        "muscularpain",
+        "treat",
+        "arthritis"
+      ],
+      "medicinal_effects": [
+        "eart tonic",
+        "rr",
+        "hea",
+        "antipyretic",
+        "anti-inflammatory",
+        "l",
+        "rrheal",
+        "antidia"
+      ]
+    },
+    {
+      "scientific_name": "berberis lycium",
+      "medical_conditions": [
+        "pimples",
+        "throatpain",
+        "boils",
+        "fracture",
+        "bone fractures",
+        "eye ache",
+        "sun blindness",
+        "jaundice",
+        "dysentery",
+        "earache",
+        "febrifuge",
+        "piles",
+        "menorrhagia",
+        "backache",
+        "cough andthroat pain",
+        "intestinal problems",
+        "eye diseases",
+        "scabies",
+        "diabetes",
+        "intestinal colic",
+        "stomachache",
+        "diarrhoea"
+      ],
+      "medicinal_effects": [
+        "against",
+        "wound healing"
+      ]
+    },
+    {
+      "scientific_name": "berberis heterophyllajuss. ex poir",
+      "medical_conditions": [
+        "wounds of the mouth",
+        "eye diseases",
+        "neurasthenia",
+        "back pain",
+        "tonic",
+        "stomachaches",
+        "jaundice",
+        "arthralgia",
+        "diarrhea"
+      ],
+      "medicinal_effects": [
+        "antipyretic",
+        "antidiarrheal",
+        "anti-inflammatory",
+        "treat",
+        "antidia"
+      ]
+    },
+    {
+      "scientific_name": "berberis oblonga (regel) c. k",
+      "medical_conditions": [
+        "ear",
+        "eart tonic",
+        "eye diseases",
+        "neurasthenia",
+        "wounds of the mouth",
+        "back pain",
+        "tonic",
+        "rheumatism",
+        "stomachaches",
+        "jaundice",
+        "arthralgia"
+      ],
+      "medicinal_effects": [
+        "rr",
+        "hea",
+        "tonic",
+        "hear",
+        "antipyretic",
+        "antidiarrheal",
+        "anti-inflammatory",
+        "rrheal",
+        "antidia"
+      ]
+    },
+    {
+      "scientific_name": "berberis petiolaris wall",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "berberis petiolaris wall. ex g",
+      "medical_conditions": [
+        "malaria",
+        "eyediseases",
+        "stomachproblems",
+        "ulcers",
+        "throat ache",
+        "fever",
+        "jaundice",
+        "diarrhea",
+        "conjunctivitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "berberis pseudumbellata r",
+      "medical_conditions": [
+        "ret",
+        "eyediseases",
+        "diu",
+        "stomachproblems",
+        "ulcers",
+        "diuretic",
+        "throat ache",
+        "rheumatism",
+        "jaundice",
+        "intestinal disorders"
+      ],
+      "medicinal_effects": [
+        "oxytocic",
+        "ic"
+      ]
+    },
+    {
+      "scientific_name": "berberis thunbergii dc",
+      "medical_conditions": [
+        "skin problems",
+        "tonic",
+        "menorrhagia",
+        "rheumatism",
+        "eye disorders",
+        "skin disease",
+        "jaundice",
+        "affection of eyes",
+        "diarrhea"
+      ],
+      "medicinal_effects": [
+        "antiarrhythmic",
+        "anti-inflammatory",
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "berberis tinctoria lesch",
+      "medical_conditions": [
+        "menorrhagia",
+        "rheumatism",
+        "skin disease",
+        "jaundice",
+        "affection of eyes",
+        "diarrhea"
+      ],
+      "medicinal_effects": [
+        "antimicrobial"
+      ]
+    },
+    {
+      "scientific_name": "berberis umbellata wall. ex g",
+      "medical_conditions": [
+        "skin problems",
+        "nausea",
+        "tonic",
+        "treats",
+        "fever",
+        "eye disorders",
+        "internal injuries",
+        "kidney stones",
+        "jaundice",
+        "ore throat and fever"
+      ],
+      "medicinal_effects": [
+        "antiarrhythmic",
+        "anticancer",
+        "heal",
+        "sedative"
+      ]
+    },
+    {
+      "scientific_name": "berberis vulgaris l",
+      "medical_conditions": [
+        "ore throat",
+        "pain of childbirth",
+        "colics",
+        "treats",
+        "internal injuries",
+        "fever",
+        "cramps",
+        "rheumatism",
+        "kidney stones",
+        "the",
+        "ore throat and fever"
+      ],
+      "medicinal_effects": [
+        "anticancer",
+        "heal",
+        "prompt delivery",
+        "antiarrhythmic",
+        "sedative"
+      ]
+    },
+    {
+      "scientific_name": "caulophyllum thalictroides (l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ex g",
+      "medical_conditions": [
+        "malaria",
+        "eyediseases",
+        "diuretic",
+        "stomachproblems",
+        "ulcers",
+        "fever",
+        "jaundice",
+        "intestinal disorders",
+        "diarrhea",
+        "conjunctivitis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "caulophyllum thalictroides (l.)michauxmenstrual",
+      "medical_conditions": [
+        "pain",
+        "colics",
+        "hysteria",
+        "pain of childbirth",
+        "rheumatism",
+        "cramps",
+        "the",
+        "mps",
+        "childbirth"
+      ],
+      "medicinal_effects": [
+        "inducerof menstruation",
+        "prompt delivery",
+        "inducerof menstr",
+        "antispasmodic",
+        "uation",
+        "ant",
+        "uterine stimul"
+      ]
+    },
+    {
+      "scientific_name": "jeffersonia diphylla (l.) pers",
+      "medical_conditions": [
+        "urinaryproblems",
+        "dropsy",
+        "ulcers",
+        "gravel",
+        "inflamed parts",
+        "diarrhea",
+        "sores"
+      ],
+      "medicinal_effects": [
+        "odic",
+        "diuretic",
+        "emetic",
+        "expectorant"
+      ]
+    },
+    {
+      "scientific_name": "mahonia fortunei (lindl. )feddeanticancer",
+      "medical_conditions": [
+        "dysentery",
+        "arthritic pain",
+        "testicular swelling",
+        "inflammations of the eyes"
+      ],
+      "medicinal_effects": [
+        "antiodontalgic",
+        "extraction",
+        "tradi",
+        "febrifu"
+      ]
+    },
+    {
+      "scientific_name": "mahonia napaulensis dc",
+      "medical_conditions": [
+        "stomachican",
+        "influenza",
+        "fever",
+        "inflammations of the eyes",
+        "acutebronchitis",
+        "pain in thebones",
+        "muscles and traumatic injuries",
+        "dysentery"
+      ],
+      "medicinal_effects": [
+        "astringent",
+        "d tonic",
+        "febrifuge",
+        "k",
+        "antirheumatic",
+        "demulcent",
+        "antitussive"
+      ]
+    },
+    {
+      "scientific_name": "nandina domestica thunb",
+      "medical_conditions": [
+        "acutegastro-enteritis",
+        "tooth abscess",
+        "influenza",
+        "ri",
+        "fever",
+        "acutebronchitis",
+        "pain in thebones",
+        "muscles and traumatic injuries",
+        "feb",
+        "antitussive",
+        "indigestion",
+        "whooping cough"
+      ],
+      "medicinal_effects": [
+        "astringent",
+        "ican",
+        "d tonic",
+        "febrifuge",
+        "fuge",
+        "stomachican",
+        "stomach",
+        "antirheumatic",
+        "demulcent",
+        "antitussive"
+      ]
+    },
+    {
+      "scientific_name": "sinopodophyllum hexandrum(royle) t. s",
+      "medical_conditions": [
+        "fetus or",
+        "ea",
+        "difficult labor",
+        "amenorrhea",
+        "or",
+        "orrh",
+        "dead fetus",
+        "placenta",
+        "of",
+        "tention",
+        "amen",
+        "fetus",
+        "tention of"
+      ],
+      "medicinal_effects": [
+        "menstruation",
+        "menstr",
+        "antirheumatic",
+        "placenta",
+        "promote the circulationof blood",
+        "anti-malarialactivities",
+        "uation"
+      ]
+    },
+    {
+      "scientific_name": "tinospora sinensis (lour. )merr",
+      "medical_conditions": [
+        "tention",
+        "dead fetus",
+        "difficult labor",
+        "of"
+      ],
+      "medicinal_effects": [
+        "antiperiodic",
+        "anti-leprotic",
+        "tonic",
+        "anti-spasmodic",
+        "antiarthritic",
+        "anti-allergic",
+        "anti-diabetic",
+        "anti-malarialactiv",
+        "anti-malarialactivities",
+        "anti-inflammatory",
+        "antistress",
+        "improve the immune system"
+      ]
+    },
+    {
+      "scientific_name": "tinospora cordifolia(willd",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "tinospora sinensis (lour",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antiperiodic",
+        "tonic",
+        "anti-spasmodic",
+        "antiarthritic",
+        "anti-allergic",
+        "anti-malarialactivities",
+        "anti-inflammatory"
+      ]
+    },
+    {
+      "scientific_name": "tinospora cordifolia(willd.) miers",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antiperiodic",
+        "anti-leprotic",
+        "tonic",
+        "anti-spasmodic",
+        "antiarthritic",
+        "anti-allergic",
+        "anti-diabetic",
+        "anti-malarialactiv",
+        "anti-malarialactivities",
+        "anti-inflammatory",
+        "antistress",
+        "improve the immune system"
+      ]
+    },
+    {
+      "scientific_name": "argemone albiflora hornem",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "argemone alba f",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "est",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antistress"
+      ]
+    },
+    {
+      "scientific_name": "argemone albiflora",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "argemone mexicana l",
+      "medical_conditions": [
+        "cold sores",
+        "itches",
+        "warts",
+        "cutaneous affections",
+        "dropsy",
+        "skindiseases",
+        "cataracts",
+        "jaundice",
+        "chronic skin diseases"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "argemone platyceras l",
+      "medical_conditions": [
+        "pneumonia",
+        "respiratory ailm",
+        "bronchitis",
+        "cough",
+        "asthma",
+        "bronchistis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "bocconia",
+      "medical_conditions": [
+        "ulcers",
+        "skin conditions",
+        "iratory tract infections",
+        "bronchistis",
+        "eruptions"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "fr",
+      "medical_conditions": [
+        "ulcers",
+        "skin conditions",
+        "iratory tract infections",
+        "bronchistis",
+        "eruptions"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "utescens",
+      "medical_conditions": [
+        "ulcers",
+        "skin conditions",
+        "erculosis",
+        "iratory tract infections",
+        "bronchistis",
+        "eruptions"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "l",
+      "medical_conditions": [
+        "constipation",
+        "ucous membranes",
+        "ulcers",
+        "skin conditions",
+        "erculosis",
+        "disorders affecting the ears",
+        "disorders of the digestive system",
+        "iratory tract infections",
+        "bronchistis",
+        "eruptions"
+      ],
+      "medicinal_effects": [
+        "astringent",
+        "antiperiodic",
+        "antiseptic",
+        "diuretic",
+        "tonic",
+        "stomach",
+        "cholagogue",
+        "laxative",
+        "ic"
+      ]
+    },
+    {
+      "scientific_name": "chelidonium majus l",
+      "medical_conditions": [
+        "gallstones",
+        "warts",
+        "ophthalmic diseases"
+      ],
+      "medicinal_effects": [
+        "s"
+      ]
+    },
+    {
+      "scientific_name": "corydalis solida subsp.brachylova",
+      "medical_conditions": [
+        "painfulmenstruation",
+        "pain",
+        "traumatic injury"
+      ],
+      "medicinal_effects": [
+        "blood pressure",
+        "lowering",
+        "omnia",
+        "m",
+        "ns stimulant",
+        "halluc",
+        "nerves",
+        "antis",
+        "antibacterial"
+      ]
+    },
+    {
+      "scientific_name": "corydalis slivenensisvelen",
+      "medical_conditions": [
+        "dysmenorrhea"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "corydalis solida subsp. tauricolacorydalis turtschaninovii",
+      "medical_conditions": [
+        "memory dysfunction",
+        "dysmenorrhea"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "corydalis ternata(nakai) nakai",
+      "medical_conditions": [
+        "memory dysfunction",
+        "dysmenorrhea",
+        "reat",
+        "rheumatism",
+        "cardiac arrhythmia disease",
+        "gastric,duodenal ulcer"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "eschscholzia californicacham",
+      "medical_conditions": [
+        "urinary incontinence",
+        "pain",
+        "nervous tension",
+        "anxiety",
+        "insomnia",
+        "spasms"
+      ],
+      "medicinal_effects": [
+        "extraction",
+        "relievetoothache",
+        "perspi",
+        "diuretic",
+        "vetoothache",
+        "narcotic",
+        "press",
+        "ration",
+        "relie",
+        "antispasmodic",
+        "perspiration",
+        "sedative",
+        "relax",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "glaucium corniculatum (l.)rud. subsp. corniculatum",
+      "medical_conditions": [
+        "warts",
+        "cn",
+        "cns",
+        "disturbances",
+        "sdisturbances"
+      ],
+      "medicinal_effects": [
+        "warts",
+        "e",
+        "antitusive",
+        "cooling",
+        "mildlaxative",
+        "sedative",
+        "treat"
+      ]
+    },
+    {
+      "scientific_name": "macleaya cordata (willd. )r.br",
+      "medical_conditions": [
+        "insect bites",
+        "ophthalmia",
+        "inflammation",
+        "andringworm"
+      ],
+      "medicinal_effects": [
+        "carminative",
+        "diuretic",
+        "antioedemic",
+        "cooling",
+        "sedative",
+        "depurative",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "macleaya microcarpa(maxim",
+      "medical_conditions": [
+        "skin diseases",
+        "inflammation"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "macleaya microcarpa(maxim.) feddetreat",
+      "medical_conditions": [
+        "some skin diseases",
+        "ophthalmia",
+        "skin diseases",
+        "andringworm",
+        "inflammation"
+      ],
+      "medicinal_effects": [
+        "diuretic",
+        "expectorant"
+      ]
+    },
+    {
+      "scientific_name": "papaver dubium l",
+      "medical_conditions": [
+        "sud",
+        "ophthalmia",
+        "skin diseases",
+        "fic",
+        "inflammation"
+      ],
+      "medicinal_effects": [
+        "sud",
+        "s",
+        "expectorant",
+        "ophthalmia",
+        "orant",
+        "diuretic",
+        "anodyne",
+        "activity"
+      ]
+    },
+    {
+      "scientific_name": "papaver dubium var",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "subsp. corniculatum",
+      "medical_conditions": [
+        "warts",
+        "ces",
+        "urban",
+        "cnsdist"
+      ],
+      "medicinal_effects": [
+        "e",
+        "antitusive",
+        "cooling",
+        "mildlaxative",
+        "sedative"
+      ]
+    },
+    {
+      "scientific_name": "papaver dubium var. lecoquiipapaver rhoeas l. var.chelidonioides",
+      "medical_conditions": [
+        "s",
+        "pain",
+        "anodyne",
+        "iever",
+        "nervousover",
+        "nervousover-activity",
+        "irritable coughs"
+      ],
+      "medicinal_effects": [
+        "notic",
+        "hypnotic",
+        "emollient",
+        "orant",
+        "anticancer",
+        "llient",
+        "nar",
+        "anodyne",
+        "nervousover",
+        "ic",
+        "sedative",
+        "emmenagogue",
+        "activity"
+      ]
+    },
+    {
+      "scientific_name": "papaver hybridum l",
+      "medical_conditions": [
+        "asms",
+        "toothache",
+        "s",
+        "relaxspasms",
+        "fevers",
+        "bacterial",
+        "dermatologic diseases",
+        "acute enteritis",
+        "dysentery",
+        "viral infections",
+        "relax",
+        "diabetes mellitus"
+      ],
+      "medicinal_effects": [
+        "ontrol",
+        "minative",
+        "diuretic",
+        "tonic",
+        "anti-infective",
+        "the circulation",
+        "iver",
+        "antipyretic",
+        "sedative",
+        "antibacterial",
+        "antitussive",
+        "analgesic",
+        "vasodilator"
+      ]
+    },
+    {
+      "scientific_name": "coptis chinensis franch",
+      "medical_conditions": [
+        "toothache",
+        "s",
+        "relaxspasms",
+        "fevers",
+        "agogue",
+        "bacterial",
+        "delirium",
+        "fidget",
+        "dermatologic diseases",
+        "high",
+        "esthe",
+        "acute enteritis",
+        "dysentery",
+        "viral infections",
+        "diabetes mellitus"
+      ],
+      "medicinal_effects": [
+        "asms",
+        "ter",
+        "minative",
+        "diuretic",
+        "anaesthetic",
+        "tonic",
+        "the circulation",
+        "antipyretic",
+        "ontrol",
+        "antibacterial",
+        "ative",
+        "relax",
+        "analgesic",
+        "vasodilator"
+      ]
+    },
+    {
+      "scientific_name": "atum",
+      "medical_conditions": [
+        "warts",
+        "urban",
+        "cnsdist"
+      ],
+      "medicinal_effects": [
+        "e",
+        "antitusive",
+        "cooling",
+        "mildlaxative",
+        "sedative"
+      ]
+    },
+    {
+      "scientific_name": "r",
+      "medical_conditions": [
+        "insect bites",
+        "skin diseases",
+        "inflammation",
+        "andringworm"
+      ],
+      "medicinal_effects": [
+        "carminative",
+        "diuretic",
+        "antioedemic",
+        "depurative",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "coptis japonica",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "nb",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "papaver rhoeas l. var.chelidonioides",
+      "medical_conditions": [
+        "s",
+        "coughs",
+        "nervousdigestive disorders",
+        "fevers",
+        "painfulconditions",
+        "itable",
+        "jaundice",
+        "insomnia",
+        "bronchial complaints"
+      ],
+      "medicinal_effects": [
+        "anticancer",
+        "over",
+        "digestion",
+        "ient",
+        "ody",
+        "nt",
+        "agog"
+      ]
+    },
+    {
+      "scientific_name": "c",
+      "medical_conditions": [
+        "entery",
+        "catarrh"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "tic",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "optis japonica (thunb",
+      "medical_conditions": [
+        "ed",
+        "itis",
+        "entery",
+        "catarrh"
+      ],
+      "medicinal_effects": [
+        "anti-inflammatory",
+        "tic"
+      ]
+    },
+    {
+      "scientific_name": "coptis teeta wall",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "opt",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anaesthetic",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "is",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "anaesthetic",
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "teeta wall",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "analgesic"
+      ]
+    },
+    {
+      "scientific_name": "hydrastis canadensis",
+      "medical_conditions": [
+        "constipation",
+        "disorders of the digestive system"
+      ],
+      "medicinal_effects": [
+        "astringent",
+        "ucous membranes",
+        "antiperiodic",
+        "antiseptic",
+        "diuretic",
+        "cholagogue"
+      ]
+    },
+    {
+      "scientific_name": "xanthorhiza simplicissima",
+      "medical_conditions": [
+        "mouth ulcers",
+        "colds",
+        "piles",
+        "stomach ulcers",
+        "jaundice",
+        "digestive disorders"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "h",
+      "medical_conditions": [
+        "disorders of the digestive system"
+      ],
+      "medicinal_effects": [
+        "antiseptic",
+        "cholagogue"
+      ]
+    },
+    {
+      "scientific_name": "yd",
+      "medical_conditions": [
+        "disorders of the digestive system"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "rastis canaden",
+      "medical_conditions": [
+        "disorders of the digestive system"
+      ],
+      "medicinal_effects": [
+        "astringent",
+        "antiseptic",
+        "diuretic",
+        "tonic",
+        "stomach",
+        "cholagogue",
+        "laxative"
+      ]
+    },
+    {
+      "scientific_name": "sis",
+      "medical_conditions": [
+        "disorders affecting the ears",
+        "constipation",
+        "ucous membranes",
+        "disorders of the digestive system"
+      ],
+      "medicinal_effects": [
+        "astringent",
+        "antiperiodic",
+        "antiseptic",
+        "diuretic",
+        "tonic",
+        "stomach",
+        "cholagogue",
+        "laxative",
+        "ic"
+      ]
+    },
+    {
+      "scientific_name": "xanthorhiza simplicissimamars",
+      "medical_conditions": [
+        "mouth ulcers",
+        "colds",
+        "piles",
+        "stomach ulcers",
+        "abdominal pain",
+        "jaundice",
+        "digestive disorders",
+        "diarrhea",
+        "gastroenteritis"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "phellodendron amurenserupr",
+      "medical_conditions": [
+        "diarrhea",
+        "abdominal pain",
+        "cancer",
+        "gastroenteritis"
+      ],
+      "medicinal_effects": [
+        "antiinflammator",
+        "immunostimulator",
+        "antitumor"
+      ]
+    },
+    {
+      "scientific_name": "phellodendron chinense c.k",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "phellodendron chinensevar. glabriusculum c. k",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "phellodendron wilsonii",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ayata & kaneh",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

@@ -1,0 +1,15 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "citrullus colocynth",
+      "medical_conditions": [
+        "diabetes"
+      ],
+      "medicinal_effects": [
+        "anti-cancer",
+        ""
+      ]
+    }
+  ],
+  "text": null
+}

@@ -1,0 +1,20 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "prunus spinosa l. flower",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "prunus spinosa l",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ms3dataofpolyphenolsdetectedinp.spinosaflow",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

@@ -1,0 +1,84 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "asparagus",
+      "medical_conditions": null,
+      "medicinal_effects": [
+        "antioxidant"
+      ]
+    },
+    {
+      "scientific_name": "hal",
+      "medical_conditions": [
+        "constipation",
+        "hypertension",
+        "hypercholesterolemia",
+        "diabetes",
+        "ents",
+        "cardiovascular disease",
+        "digestive problems"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "phyllanthus emblica l",
+      "medical_conditions": [
+        "constipation",
+        "hypertension",
+        "hypercholesterolemia",
+        "diabetes",
+        "cardiovascular disease",
+        "digestive problems"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "terminalia bellirica (gaertn",
+      "medical_conditions": [
+        "hypertension",
+        "cardiovascular disease"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "ox",
+      "medical_conditions": [
+        "constipation",
+        "hypertension",
+        "hypercholesterolemia",
+        "diabetes",
+        "cardiovascular disease",
+        "digestive problems"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "terminalia chebula retx",
+      "medical_conditions": [
+        "constipation",
+        "hypertension",
+        "hypercholesterolemia",
+        "diabetes",
+        "ents",
+        "cardiovascular disease",
+        "digestive problems"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "a",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "nigella sativa l",
+      "medical_conditions": [
+        "headache",
+        "cough",
+        "asthma"
+      ],
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}

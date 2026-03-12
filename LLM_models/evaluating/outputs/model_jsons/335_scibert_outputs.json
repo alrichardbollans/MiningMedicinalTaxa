@@ -1,0 +1,47 @@
+{
+  "taxa": [
+    {
+      "scientific_name": "boswellia",
+      "medical_conditions": [
+        "rlipidemia",
+        "cancer",
+        "ulcerative colitis",
+        "isease",
+        "rohn",
+        "obesity",
+        "rheumatoid arthritis",
+        "osteoarthritis",
+        "ipidemia",
+        "peritumoralbrain edema",
+        "crohn",
+        "ase",
+        "bronchial asthma",
+        "chronic inflammatory conditions",
+        "multiple sclerosis",
+        "inflammatory"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "boswellia serratae",
+      "medical_conditions": [
+        "peritumoralbrain edema"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "boswellia serrataextrac",
+      "medical_conditions": [
+        "chronic inflammatory conditions",
+        "peritumoralbrain edema"
+      ],
+      "medicinal_effects": null
+    },
+    {
+      "scientific_name": "boswellia serrata",
+      "medical_conditions": null,
+      "medicinal_effects": null
+    }
+  ],
+  "text": null
+}
