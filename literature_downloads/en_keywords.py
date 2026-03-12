@@ -8,6 +8,8 @@ query_name = 'en_medic_toxic_keywords'
 scratch_path = os.environ.get('KEWSCRATCHPATH')
 
 _keyword_file_tag = '_keywords.txt'
+
+WCVP_VERSION = '12'
 def get_kword_dict():
     """
     Get the keyword dictionary.
@@ -72,7 +74,7 @@ def _generate_keywords():
     _pnaps = _pnaps_df['simplified_names'].unique().tolist()
 
     # Plant Checklist
-    _all_taxa = get_all_taxa(version='12')
+    _all_taxa = get_all_taxa(version=WCVP_VERSION)
     _genus_names = _all_taxa[wcvp_columns['genus']].dropna().unique().tolist() + _ipni_genera
     _family_names = _all_taxa[wcvp_columns['family']].dropna().unique().tolist() + _ipni_families
     _species_binomial_names = _all_taxa[_all_taxa[wcvp_columns['rank']] == 'Species'][

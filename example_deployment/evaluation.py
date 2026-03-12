@@ -1,7 +1,6 @@
 import os
 
 import pandas as pd
-from wcvpy.wcvp_name_matching import get_accepted_info_from_names_in_column
 
 from LLM_models.checking_and_summarising_annotations import get_all_human_annotations_for_chunk_id, repo_path
 

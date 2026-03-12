@@ -4,13 +4,13 @@ import pandas as pd
 from wcvpy.wcvp_download import plot_native_number_accepted_taxa_in_regions, get_all_taxa
 from wcvpy.wcvp_name_matching import get_accepted_info_from_names_in_column
 
-_WCVP_VERSION = '12'
+from literature_downloads import WCVP_VERSION
 
 
 def get_mpns_df():
     mpns_input = pd.read_excel(os.path.join('inputs', 'MPNS_v12_names.xlsx'), sheet_name='mpns_v12_acc_names')[['taxon_name']]
     mpns_input.columns = ['given_acc_name']
-    acc_name_df = get_accepted_info_from_names_in_column(mpns_input, 'given_acc_name', wcvp_version=_WCVP_VERSION)
+    acc_name_df = get_accepted_info_from_names_in_column(mpns_input, 'given_acc_name', wcvp_version=WCVP_VERSION)
     acc_name_df.to_csv(os.path.join('inputs', 'MPNS_v12_acc_sp_names.csv'))
     return acc_name_df[['accepted_species']]
 
@@ -53,13 +53,13 @@ def get_tp_fn_from_annotated_test_data():
 def compare_annotated_data_with_underlying_pop():
     out_folder = os.path.join('outputs', 'vascular plants', 'annotated_test_data_vs_underlying_pop')
 
-    all_species = get_all_taxa(accepted=True, ranks=['Species'], version=_WCVP_VERSION)
+    all_species = get_all_taxa(accepted=True, ranks=['Species'], version=WCVP_VERSION)
     plot_native_number_accepted_taxa_in_regions(all_species, 'accepted_species', os.path.join(out_folder),
-                                                'underlying_distribution.jpg', wcvp_version=_WCVP_VERSION, colormap='inferno')
+                                                'underlying_distribution.jpg', wcvp_version=WCVP_VERSION, colormap='inferno')
     ## Resolve to species
     def resolve_list_to_clean_df(name_list):
         name_df = pd.DataFrame(name_list, columns=['name'])
-        acc_name_df = get_accepted_info_from_names_in_column(name_df, 'name', wcvp_version=_WCVP_VERSION)
+        acc_name_df = get_accepted_info_from_names_in_column(name_df, 'name', wcvp_version=WCVP_VERSION)
         acc_name_df = acc_name_df[~acc_name_df['accepted_species'].isna()]
         acc_name_df = acc_name_df.drop_duplicates(subset=['accepted_species'])
         return acc_name_df
@@ -73,7 +73,7 @@ def compare_annotated_data_with_underlying_pop():
         os.path.join(out_folder, 'all_accepted_species_with_medCond_or_medEff_summary.csv'))
 
     plot_native_number_accepted_taxa_in_regions(all_annotated_medicinal_taxa_acc_name_df, 'accepted_species', os.path.join(out_folder),
-                                                'all_accepted_species_with_medCond_or_medEff.jpg', wcvp_version=_WCVP_VERSION, colormap='inferno')
+                                                'all_accepted_species_with_medCond_or_medEff.jpg', wcvp_version=WCVP_VERSION, colormap='inferno')
 
 
 def compare_with_mpns():
@@ -81,7 +81,7 @@ def compare_with_mpns():
 
     correct_outputs = pd.read_csv('../../example_deployment/eval_outputs/correct_outputs.csv').rename(columns={'taxon_name': 'sci_name'})
 
-    accepted_correct_outputs = get_accepted_info_from_names_in_column(correct_outputs, 'sci_name', wcvp_version=_WCVP_VERSION)
+    accepted_correct_outputs = get_accepted_info_from_names_in_column(correct_outputs, 'sci_name', wcvp_version=WCVP_VERSION)
 
     accepted_correct_outputs = accepted_correct_outputs.dropna(subset=['accepted_species'])
     accepted_correct_outputs.describe(include='all').to_csv(os.path.join(out_folder, 'correct_outputs_summary.csv'))
@@ -94,7 +94,7 @@ def compare_with_mpns():
         os.path.join(out_folder, 'found_species_not_in_mpns_summary.csv'))
 
     plot_native_number_accepted_taxa_in_regions(species_not_in_mpns, 'accepted_species', os.path.join(out_folder),
-                                                'found_species_not_in_mpns.jpg', wcvp_version=_WCVP_VERSION, colormap='inferno')
+                                                'found_species_not_in_mpns.jpg', wcvp_version=WCVP_VERSION, colormap='inferno')
 
 def main():
     # get_mpns_df()

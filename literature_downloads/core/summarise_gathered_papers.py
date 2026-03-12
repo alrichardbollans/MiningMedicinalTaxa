@@ -111,7 +111,7 @@ def plot_all_info(query: CQuery):
 
 if __name__ == '__main__':
     # from wcvp_download import get_all_taxa, wcvp_accepted_columns
-    # all_taxa = get_all_taxa(accepted=True, ranks=['Species'])
+    # all_taxa = get_all_taxa(accepted=True, ranks=['Species'], version=WCVP_VERSION)
     # medicinal_query = CQuery('en_medic_toxic_keywords_final.zip', os.path.join(core_download_path, 'medicinals'),
     #                          'medicinals.csv',
     #                          medicine_sort_order,
