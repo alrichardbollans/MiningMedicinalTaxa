@@ -80,8 +80,7 @@ def extract_pairs_from_chunk(chunk: dict) -> List[Tuple[str, str]]:
     relation_map uses (i, j) positional indices into the entities array.
     This matches how relations are stored in the JSONL (head/tail are indices).
 
-    All valid pairs are included (no negative sampling) — same approach as NER
-    where O tokens are not downsampled despite being the majority class.
+    All valid pairs are included (no negative sampling)
     """
     text = chunk['text']
     entities = chunk.get('entities', [])
@@ -161,13 +160,14 @@ def build_rel_dataset(chunks: list, tokenizer, max_length: int, negative_sample_
 
 # ----Training----
 
-def train_fold(fold: int) -> dict:
+def train_fold(fold: int, tag: str = None) -> dict:
     """Train RE model for one fold. Returns a dict row for the summary CSV."""
     cfg = Config.NER_RE_FULL
+    tag = tag or f"fold{fold}"
 
-    train_file = Config.OUTPUTS / f"train_chunks_fold{fold}.jsonl"
-    model_dir  = Config.MODELS  / f"re_scibert_lora_fold{fold}"
-    temp_dir   = Config.MODELS  / f"re_fold{fold}_temp"
+    train_file = Config.OUTPUTS / f"train_chunks_{tag}.jsonl"
+    model_dir  = Config.MODELS  / f"re_scibert_lora_{tag}"
+    temp_dir   = Config.MODELS  / f"re_{tag}_temp"
 
     if not train_file.exists():
         raise FileNotFoundError(f"Training file not found: {train_file}")
@@ -248,7 +248,7 @@ def train_fold(fold: int) -> dict:
 
     # Per-step loss log
     log_df = pd.DataFrame(trainer.state.log_history)
-    log_df.insert(0, 'fold', fold)
+    log_df.insert(0, 'fold', tag)
     log_df.to_csv(Config.OUTPUTS / f"re_training_log_fold{fold}.csv", index=False)
 
     if temp_dir.exists():
@@ -257,7 +257,7 @@ def train_fold(fold: int) -> dict:
     train_rows = [r for r in trainer.state.log_history if 'loss' in r]
 
     return {
-        'fold':             fold,
+        'fold':             tag,
         'train_chunks':     len(train_chunks),
         'train_pairs':      len(train_dataset),
         'final_train_loss': train_rows[-1]['loss'] if train_rows else None,

@@ -1,166 +1,144 @@
 import json
+import os
 import pandas as pd
+import numpy as np
 from typing import List
 
-# Import your required functions and classes
 from LLM_models.structured_output_schema import (
     get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations,
     convert_human_annotations_to_taxa_data_schema,
-    deduplicate_and_standardise_output_taxa_lists
-)
+    TaxaData,
+    Taxon)
+
 from LLM_models.evaluating import (
     NER_evaluation,
     RE_evaluation,
     get_metrics_from_tp_fp_fn,
     abbreviated_precise_match,
-    abbreviated_approximate_match
-)
-
-# Path to your annotation file
-_annotation_file = "iaa.json"
+    abbreviated_approximate_match)
 
 
-# Load annotations for 2 annotators from a single data entry
+annotation_file = os.path.join(os.path.dirname(__file__), "iaa.json")
+#annotation_file = os.path.join(os.getcwd(), "pre_labelling", "evaluating", "IAA", annotation_file)
 def load_annotations_for_two_annotators(chunk_entry: dict):
     anns_list = [a["result"] for a in chunk_entry.get("annotations", [])]
-
-    # If fewer than 2 annotators, skip this entry
     if len(anns_list) < 2:
         return None, None
-
     try:
-        # Separate NER and RE annotations for annotator 1
-        human_ner_1, human_re_1 = get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(
-            anns_list[0], check=True, standardise_annotations=True
-        )
+        ner_1, re_1 = get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(
+            anns_list[0], check=False, standardise_annotations=True)
+        ner_2, re_2 = get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(
+            anns_list[1], check=False, standardise_annotations=True)
 
-        # Separate NER and RE annotations for annotator 2
-        human_ner_2, human_re_2 = get_separate_NER_annotations_separate_RE_annotations_from_list_of_annotations(
-            anns_list[1], check=True, standardise_annotations=True
-        )
-
-        # Convert human annotations to TaxaData objects (structured format)
-        taxa_data_1 = convert_human_annotations_to_taxa_data_schema(human_ner_1, human_re_1)
-        taxa_data_2 = convert_human_annotations_to_taxa_data_schema(human_ner_2, human_re_2)
-
+        taxa_data_1 = convert_human_annotations_to_taxa_data_schema(ner_1, re_1)
+        taxa_data_2 = convert_human_annotations_to_taxa_data_schema(ner_2, re_2)
         return taxa_data_1, taxa_data_2
-
     except Exception as e:
         print(f"Error processing chunk {chunk_entry['id']}: {e}")
         return None, None
 
 
-# Main execution starts here
-if __name__ == "__main__":
+def merge_taxa_data(taxa_data_list: List[TaxaData], deduplicate: bool = True) -> TaxaData:
+    all_taxa = []
 
-    # Load JSON data containing annotated chunks
-    with open(_annotation_file) as f:
-        data = json.load(f)
+    for td in taxa_data_list:
+        for t in td.taxa:
+            if isinstance(t, dict):  # Just in case
+                try:
+                    all_taxa.append(Taxon(**t))
+                except Exception as e:
+                    print(f"Skipping invalid taxon: {t} → {e}")
+            else:
+                all_taxa.append(t)
 
-    all_annotator1 = []  # Will hold TaxaData from annotator 1 across all chunks
-    all_annotator2 = []  # Will hold TaxaData from annotator 2 across all chunks
+    if deduplicate:
+        # Optional deduplication by scientific name
+        unique_taxa = {}
+        for t in all_taxa:
+            if t.scientific_name not in unique_taxa:
+                unique_taxa[t.scientific_name] = t
+        all_taxa = list(unique_taxa.values())
 
-    # Process each annotated chunk
-    for entry in data:
-        a1, a2 = load_annotations_for_two_annotators(entry)
+    return TaxaData(taxa=all_taxa)
 
-        if a1 is None or a2 is None:
-            continue  # Skip if invalid or incomplete annotations
+#-------------
+# run
+#-------------
 
-        all_annotator1.append(a1)
-        all_annotator2.append(a2)
+with open(annotation_file, encoding="utf-8") as f:
+    data = json.load(f)
 
-    # Flatten Taxon objects into raw lists for both annotators
-    all_taxa_annotator1 = []
-    all_taxa_annotator2 = []
+all_annotator1 = []
+all_annotator2 = []
 
-    for td in all_annotator1:
-        all_taxa_annotator1.extend(td.taxa)
+for entry in data:
+    a1, a2 = load_annotations_for_two_annotators(entry)
+    if a1 is None or a2 is None:
+        continue
+    all_annotator1.append(a1)
+    all_annotator2.append(a2)
 
-    for td in all_annotator2:
-        all_taxa_annotator2.extend(td.taxa)
+evaluation_plan = [
+    ("NER: Scientific Names", "Exact", NER_evaluation, (abbreviated_precise_match,)),
+    ("NER: Scientific Names", "Approximate", NER_evaluation, (abbreviated_approximate_match,)),
+    ("NERRE: Medical Condition", "Exact", RE_evaluation, ("precise", "medical_conditions")),
+    ("NERRE: Medical Condition", "Approximate", RE_evaluation, ("approximate", "medical_conditions")),
+    ("NERRE: Medicinal Effect", "Exact", RE_evaluation, ("precise", "medicinal_effects")),
+    ("NERRE: Medicinal Effect", "Approximate", RE_evaluation, ("approximate", "medicinal_effects")),
+]
 
-    # Apply deduplication and standardisation of taxa lists
-    cleaned_a1 = deduplicate_and_standardise_output_taxa_lists(all_taxa_annotator1)
-    cleaned_a2 = deduplicate_and_standardise_output_taxa_lists(all_taxa_annotator2)
+print("\n=== Bootstrap CI (1000 iterations, 95%) ===")
 
-    # ----------------------------------------------------------------------------------------
-    print("\n=== NER Evaluation: Scientific Names Only ===")
-
-    # NER Evaluation: Compare scientific names between annotators
-    tp_g1, tp_m2, fp2, fn1 = NER_evaluation(cleaned_a2, cleaned_a1, abbreviated_precise_match)
-    p1, r1, f1_1 = get_metrics_from_tp_fp_fn(tp_g1, tp_m2, fp2, fn1)
-    print(f"Exact match: Annotator 1 as Ground Truth → Annotator 2 evaluated")
-    print(f"Precision: {p1:.3f}, Recall: {r1:.3f}, F1: {f1_1:.3f}")
-
-    tp_g2, tp_m1, fp1, fn2 = NER_evaluation(cleaned_a1, cleaned_a2, abbreviated_precise_match)
-    p2, r2, f1_2 = get_metrics_from_tp_fp_fn(tp_g2, tp_m1, fp1, fn2)
-    print(f"\nExact match: Annotator 2 as Ground Truth → Annotator 1 evaluated")
-    print(f"Precision: {p2:.3f}, Recall: {r2:.3f}, F1: {f1_2:.3f}")
-
-    # NER Evaluation: Compare scientific names between annotators
-    tp_g1, tp_m2, fp2, fn1 = NER_evaluation(cleaned_a2, cleaned_a1, abbreviated_approximate_match)
-    p1, r1, f1_1 = get_metrics_from_tp_fp_fn(tp_g1, tp_m2, fp2, fn1)
-    print(f"Approximate match: Annotator 1 as Ground Truth → Annotator 2 evaluated")
-    print(f"Precision: {p1:.3f}, Recall: {r1:.3f}, F1: {f1_1:.3f}")
-
-    tp_g2, tp_m1, fp1, fn2 = NER_evaluation(cleaned_a1, cleaned_a2, abbreviated_approximate_match)
-    p2, r2, f1_2 = get_metrics_from_tp_fp_fn(tp_g2, tp_m1, fp1, fn2)
-    print(f"\nApproximate match: Annotator 2 as Ground Truth → Annotator 1 evaluated")
-    print(f"Precision: {p2:.3f}, Recall: {r2:.3f}, F1: {f1_2:.3f}")
-
-    # ----------------------------------------------------------------------------------------
-    print("\n=== NERRE Evaluation: Scientific Names - Medical Condition ===")
-    # RE evaluation
-    tp_g1, tp_m2, fp2, fn1 = RE_evaluation(cleaned_a2, cleaned_a1, 'precise', 'medical_conditions' )
-    p1, r1, f1_1 = get_metrics_from_tp_fp_fn(tp_g1, tp_m2, fp2, fn1)
-    print(f"Precise Match: Annotator 1 as Ground Truth → Annotator 2 evaluated")
-    print(f"Precision: {p1:.3f}, Recall: {r1:.3f}, F1: {f1_1:.3f}")
-
-    tp_g2, tp_m1, fp1, fn2 = RE_evaluation(cleaned_a1, cleaned_a2, 'precise', 'medical_conditions')
-    p2, r2, f1_2 = get_metrics_from_tp_fp_fn(tp_g2, tp_m1, fp1, fn2)
-    print(f"\nPrecise Match: Annotator 2 as Ground Truth → Annotator 1 evaluated")
-    print(f"Precision: {p2:.3f}, Recall: {r2:.3f}, F1: {f1_2:.3f}")
-
-    # RE evaluation
-    tp_g1, tp_m2, fp2, fn1 = RE_evaluation(cleaned_a2, cleaned_a1, 'approximate', 'medical_conditions')
-    p1, r1, f1_1 = get_metrics_from_tp_fp_fn(tp_g1, tp_m2, fp2, fn1)
-    print(f"Approximate Match: Annotator 1 as Ground Truth → Annotator 2 evaluated")
-    print(f"Precision: {p1:.3f}, Recall: {r1:.3f}, F1: {f1_1:.3f}")
-
-    tp_g2, tp_m1, fp1, fn2 = RE_evaluation(cleaned_a1, cleaned_a2, 'approximate', 'medical_conditions')
-    p2, r2, f1_2 = get_metrics_from_tp_fp_fn(tp_g2, tp_m1, fp1, fn2)
-    print(f"\nApproximate Match: Annotator 2 as Ground Truth → Annotator 1 evaluated")
-    print(f"Precision: {p2:.3f}, Recall: {r2:.3f}, F1: {f1_2:.3f}")
-
-    # ----------------------------------------------------------------------------------------
-    print("\n=== NERRE Evaluation: Scientific Names - Medicinal Effect ===")
-    # RE evaluation
-    tp_g1, tp_m2, fp2, fn1 = RE_evaluation(cleaned_a2, cleaned_a1, 'precise', 'medicinal_effects' )
-    p1, r1, f1_1 = get_metrics_from_tp_fp_fn(tp_g1, tp_m2, fp2, fn1)
-    print(f"Precise Match: Annotator 1 as Ground Truth → Annotator 2 evaluated")
-    print(f"Precision: {p1:.3f}, Recall: {r1:.3f}, F1: {f1_1:.3f}")
-
-    tp_g2, tp_m1, fp1, fn2 = RE_evaluation(cleaned_a1, cleaned_a2, 'precise', 'medicinal_effects')
-    p2, r2, f1_2 = get_metrics_from_tp_fp_fn(tp_g2, tp_m1, fp1, fn2)
-    print(f"\nPrecise Match: Annotator 2 as Ground Truth → Annotator 1 evaluated")
-    print(f"Precision: {p2:.3f}, Recall: {r2:.3f}, F1: {f1_2:.3f}")
-
-    # RE evaluation
-    tp_g1, tp_m2, fp2, fn1 = RE_evaluation(cleaned_a2, cleaned_a1, 'approximate', 'medicinal_effects' )
-    p1, r1, f1_1 = get_metrics_from_tp_fp_fn(tp_g1, tp_m2, fp2, fn1)
-    print(f"Approximate Match: Annotator 1 as Ground Truth → Annotator 2 evaluated")
-    print(f"Precision: {p1:.3f}, Recall: {r1:.3f}, F1: {f1_1:.3f}")
-
-    tp_g2, tp_m1, fp1, fn2 = RE_evaluation(cleaned_a1, cleaned_a2, 'approximate', 'medicinal_effects')
-    p2, r2, f1_2 = get_metrics_from_tp_fp_fn(tp_g2, tp_m1, fp1, fn2)
-    print(f"\nApproximate Match: Annotator 2 as Ground Truth → Annotator 1 evaluated")
-    print(f"Precision: {p2:.3f}, Recall: {r2:.3f}, F1: {f1_2:.3f}")
+rng = np.random.default_rng(42)
+size = len(all_annotator1)
+boot_records = []
 
 
-    #--------------------------------------------------------------------------------------------
-    print("\n=== Data Preview: Annotator 2 Cleaned Taxa ===")
 
-    # Create a DataFrame of Annotator 2's cleaned taxa for inspection
-    df2 = pd.DataFrame([t.dict() for t in cleaned_a2.taxa])
-    print(df2.head(10))
+for _ in range(1000):
+    idx = rng.integers(0, size, size=size)
+    s1 = merge_taxa_data([all_annotator1[i] for i in idx], deduplicate=True)
+    s2 = merge_taxa_data([all_annotator2[i] for i in idx], deduplicate=True)
+
+    for category, match_type, eval_fn, args in evaluation_plan:
+        for direction, gt, pred in [
+            ("A1 GT to A2 Eval", s1, s2),
+            ("A2 GT to A1 Eval", s2, s1),
+        ]:
+            tp_g, tp_m, fp, fn = eval_fn(gt, pred, *args)
+            p, r, f1 = get_metrics_from_tp_fp_fn(tp_g, tp_m, fp, fn)
+            boot_records.append(
+                {"Category": category, "Match Type": match_type, "Direction": direction,
+                 "P": p, "R": r, "F1": f1}
+            )
+
+df = pd.DataFrame(boot_records)
+
+summary = (
+    df.groupby(["Category", "Match Type", "Direction"])
+      .agg(
+          P_mean=("P", "mean"),
+          P_lo=("P", lambda x: np.percentile(x, 2.5)),
+          P_hi=("P", lambda x: np.percentile(x, 97.5)),
+          R_mean=("R", "mean"),
+          R_lo=("R", lambda x: np.percentile(x, 2.5)),
+          R_hi=("R", lambda x: np.percentile(x, 97.5)),
+          F1_mean=("F1", "mean"),
+          F1_lo=("F1", lambda x: np.percentile(x, 2.5)),
+          F1_hi=("F1", lambda x: np.percentile(x, 97.5)),
+      )
+      .reset_index()
+)
+
+summary["P (95% CI)"]  = summary.apply(lambda r: f"{r.P_mean:.3f} [{r.P_lo:.3f}, {r.P_hi:.3f}]", axis=1)
+summary["R (95% CI)"]  = summary.apply(lambda r: f"{r.R_mean:.3f} [{r.R_lo:.3f}, {r.R_hi:.3f}]", axis=1)
+summary["F1 (95% CI)"] = summary.apply(lambda r: f"{r.F1_mean:.3f} [{r.F1_lo:.3f}, {r.F1_hi:.3f}]", axis=1)
+
+final_df = summary[["Category", "Match Type", "Direction", "P (95% CI)", "R (95% CI)", "F1 (95% CI)"]]
+
+print("\n=== FINAL RESULTS (mean, 95% CI) ===")
+print(final_df.to_string(index=False))
+
+out_csv = os.path.join(os.path.dirname(__file__), "results", "evaluation_summary.csv")
+final_df.to_csv(out_csv, index=False)
+print(f"\nSaved: {out_csv}")

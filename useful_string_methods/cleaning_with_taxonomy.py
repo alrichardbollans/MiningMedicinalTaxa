@@ -6,9 +6,8 @@ from wcvpy.wcvp_name_matching import get_genus_from_full_name
 from useful_string_methods import clean_strings
 from wcvpy.wcvp_download import hybrid_characters
 
+from importlib import resources
 scratch_path = os.environ.get('KEWSCRATCHPATH')
-
-
 def abbreviate_sci_name(name1: str) -> str:
     """
     Return given name with first word abbreviated, if there are multiple words.

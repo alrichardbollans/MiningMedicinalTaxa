@@ -36,6 +36,25 @@ with open('output_json_path_filtered.json', "w") as file_:
     json.dump(json_out, file_)
 
 ```
+## SciBERT Usage Example
+An example of how to run the fine-tuned SciBERT NER + RE models to extract data from a text file. Set `run_re=False` for NER only.
+
+```python
+from SciBert.running_scibert import load_scibert, query_scibert
+from LLM_models.evaluating import clean_model_annotations_using_taxonomy_knowledge
+
+models = load_scibert()
+
+model_outputs = query_scibert(models, 'test.txt',
+                       json_dump='output_scibert.json',
+                       run_re=True)
+# If you want to clean outputs by removing annotations with unknown scientific names:
+model_outputs = clean_model_annotations_using_taxonomy_knowledge(model_outputs)
+
+with open('output_scibert_filtered.json', "w") as file_:
+    json_out = model_outputs.model_dump(mode="json")
+    json.dump(json_out, file_)
+```
 
 ### Manual verification
 

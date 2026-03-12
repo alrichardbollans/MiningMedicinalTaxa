@@ -13,25 +13,26 @@ from pathlib import Path
 import json
 
 class Config:
-    # ---- env detection ----
-    @staticmethod
-    def detect_environment():
-        """Detect if running in Colab or local"""
-        if 'COLAB_GPU' in os.environ or 'COLAB_TPU_ADDR' in os.environ:
-            return 'colab'
-        return 'local'
-
-    ENV = detect_environment.__func__()
-
-    # --- paths ---
-    if ENV == 'colab':
-        # Colab: Google Drive
-        ROOT = Path("/content/drive/MyDrive/ScientificNamesNER/SciBert")
-    else:
-        # Local: parent root
-        ROOT = Path(__file__).resolve().parent
-
-    print(f"Environment: {ENV}")
+    # # ---- env detection ----
+    # @staticmethod
+    # def detect_environment():
+    #     """Detect if running in Colab or local"""
+    #     if 'COLAB_GPU' in os.environ or 'COLAB_TPU_ADDR' in os.environ:
+    #         return 'colab'
+    #     return 'local'
+    #
+    # ENV = detect_environment.__func__()
+    #
+    # # --- paths ---
+    # if ENV == 'colab':
+    #     # Colab: Google Drive
+    #     ROOT = Path("/content/drive/MyDrive/ScientificNamesNER/SciBert")
+    # else:
+    #     # Local: parent root
+    #     ROOT = Path(__file__).resolve().parent
+    #
+    # print(f"Environment: {ENV}")
+    ROOT = Path(__file__).resolve().parent
     print(f"Root directory: {ROOT}")
 
     # Input data
@@ -83,7 +84,7 @@ class Config:
     BIO_LABELS = ["O"]  # O = Outside (not an entity)
     for entity_type in ENTITY_TYPES:
         BIO_LABELS.extend([f"B-{entity_type}", f"I-{entity_type}"])
-    # This creats a map from labels to id and viceversa
+    # This creats a map from labels to id and viceversa see https://github.com/huggingface/course/blob/main/chapters/en/chapter7/2.mdx
     LABEL2ID = {label: i for i, label in enumerate(BIO_LABELS)}
     ID2LABEL = {i: label for label, i in LABEL2ID.items()}
 
@@ -169,7 +170,7 @@ class Config:
         print("\n" + "=" * 60)
         print("CONFIGURATION SUMMARY")
         print("=" * 60)
-        print(f"Environment: {cls.ENV}")
+        #print(f"Environment: {cls.ENV}")
         print(f"Root directory: {cls.ROOT}")
         print(f"Model: {cls.MODEL_NAME}")
         print(f"Entity types: {len(cls.ENTITY_TYPES)}")

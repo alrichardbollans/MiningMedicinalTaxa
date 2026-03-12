@@ -125,7 +125,7 @@ def plots():
     #
     # #
     # ## NER
-    _models = ['Claude', 'DeepSeek', 'GNfinder', 'GPT', 'Llama', 'TaxoNERD', 'SciBERT']
+    _models = ['Claude', 'DeepSeek', 'GNfinder', 'GPT', 'Llama', 'SciBERT', 'TaxoNERD']
     measures = ['Precise NER', 'Approx. NER']
     for_full_eval(_models, measures, 'NER')
     #
@@ -143,7 +143,7 @@ def plots():
 
 if __name__ == '__main__':
     all_measures = ['Precise NER', 'Approx. NER', 'Precise MedCond', 'Approx. MedCond', 'Precise MedEff', 'Approx. MedEff']
-    all_models = ['Claude', 'DeepSeek', 'GNfinder', 'GPT', 'FTGPT', 'Llama', 'TaxoNERD', 'SciBERT']
+    all_models = ['Claude', 'DeepSeek', 'GNfinder', 'GPT', 'FTGPT', 'Llama', 'SciBERT', 'TaxoNERD']
     metrics = ['f1', 'precision', 'recall']
 
     plots()

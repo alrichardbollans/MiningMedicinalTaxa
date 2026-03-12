@@ -41,18 +41,14 @@ from LLM_models.structured_output_schema import Taxon, TaxaData, deduplicate_and
 from LLM_models.evaluating.run_evaluation import assess_model_on_chunk_list
 
 
-# ---------------------------------------------------------------------------
-# Dummy model — required by assess_model_on_chunk_list interface
-# ---------------------------------------------------------------------------
 
 class _ModelTag:
     """Minimal object satisfying the model_name interface of assess_model_on_chunk_list."""
     model_name = 'scibert'
 
 
-# ---------------------------------------------------------------------------
-# Aggregate predictions across folds
-# ---------------------------------------------------------------------------
+
+# ---Aggregate predictions across folds ----
 
 def aggregate_predictions() -> Dict[int, TaxaData]:
     """
