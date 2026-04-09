@@ -146,7 +146,7 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
 
         _binomial_names = []
         for g in ['fungi', 'plant']:
-            with open(os.path.join(_keywords_dir,,
+            with open(os.path.join(_keywords_dir,
                                    g + '_species_binomials_keywords.txt'),
                       'r', encoding="utf8") as file:
                 _binomial_names.extend(file.read().splitlines())
