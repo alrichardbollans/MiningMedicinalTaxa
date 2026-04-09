@@ -15,7 +15,12 @@ import json
 import os
 
 import torch
+
+import nltk
+nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
 from nltk.tokenize.punkt import PunktSentenceTokenizer
+
 from peft import PeftModel
 from transformers import AutoTokenizer, AutoModelForTokenClassification, AutoModelForSequenceClassification
 
