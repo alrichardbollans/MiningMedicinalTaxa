@@ -7,9 +7,17 @@ from useful_string_methods import clean_strings
 from wcvpy.wcvp_download import hybrid_characters
 
 import site
-scratch_path = os.environ.get('KEWSCRATCHPATH') or next(
-    (p for p in site.getsitepackages() if os.path.exists(os.path.join(p, 'literature_downloads'))), None
-)
+
+scratch_path = os.environ.get('KEWSCRATCHPATH')
+
+if scratch_path:
+    _keywords_dir = os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'final_keywords_lists')
+else:
+    _keywords_dir = next(
+        (os.path.join(p, 'literature_downloads', 'final_keywords_lists')
+         for p in site.getsitepackages()
+         if os.path.exists(os.path.join(p, 'literature_downloads', 'final_keywords_lists'))), None
+    )
 def abbreviate_sci_name(name1: str) -> str:
     """
     Return given name with first word abbreviated, if there are multiple words.
@@ -45,7 +53,7 @@ def _filter_name_list_using_genus_names(list_of_possible_sci_names: List[str]):
         return set([clean_strings(get_genus_from_full_name(x)) for x in l])
 
     cleaned_list = _tidy_list(list_of_possible_sci_names)
-    tidied_genus_name_file = os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'final_keywords_lists',
+    tidied_genus_name_file = os.path.join(_keywords_dir,
                                           'tidied_genus_names.txt')
     try:
         with open(tidied_genus_name_file,
@@ -56,7 +64,7 @@ def _filter_name_list_using_genus_names(list_of_possible_sci_names: List[str]):
 
         _genus_names = []
         for g in ['fungi', 'plant']:
-            with open(os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'final_keywords_lists',
+            with open(os.path.join(_keywords_dir,
                                    g + '_genus_names_keywords.txt'),
                       'r', encoding="utf8") as file:
                 _genus_names.extend(file.read().splitlines())
@@ -127,7 +135,7 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
 
     cleaned_list = set([tidy_name(x) for x in list_of_possible_sci_names])
 
-    abbv_binomial_name_file = os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'final_keywords_lists',
+    abbv_binomial_name_file = os.path.join(_keywords_dir,
                                            'abbreviated_binomial_names.txt')
     try:
         with open(abbv_binomial_name_file,
@@ -138,7 +146,7 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
 
         _binomial_names = []
         for g in ['fungi', 'plant']:
-            with open(os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'final_keywords_lists',
+            with open(os.path.join(_keywords_dir,,
                                    g + '_species_binomials_keywords.txt'),
                       'r', encoding="utf8") as file:
                 _binomial_names.extend(file.read().splitlines())
@@ -150,7 +158,7 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
             for line in _abbreviated_binomial_names:
                 f.write(f"{line}\n")
 
-    cleaned_binomial_name_file = os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'final_keywords_lists',
+    cleaned_binomial_name_file = os.path.join(_keywords_dir,
                                            'cleaned_binomial_names.txt')
     try:
         with open(cleaned_binomial_name_file,
@@ -161,7 +169,7 @@ def filter_name_list_with_species_names(list_of_possible_sci_names: List[str]):
 
         _binomial_names = []
         for g in ['fungi', 'plant']:
-            with open(os.path.join(scratch_path, 'MiningMedicinalTaxa', 'literature_downloads', 'final_keywords_lists',
+            with open(os.path.join(_keywords_dir,
                                    g + '_species_binomials_keywords.txt'),
                       'r', encoding="utf8") as file:
                 _binomial_names.extend(file.read().splitlines())
