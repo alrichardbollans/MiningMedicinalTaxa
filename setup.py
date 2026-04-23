@@ -16,7 +16,7 @@ setup(
     install_requires=[
         'langchain==0.3.22',
         'langchain-core==0.3.83',
-        'langchain-openai==0.3.12'
+        'langchain-openai==0.3.12',
         'pydantic',
         'wcvpy >= 1.3.2',
         'openpyxl'
