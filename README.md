@@ -1,5 +1,8 @@
 This is a collection of packages for downloading and filtering corpora (currently CORE v2022) and then exploring named entity recognition and relation extraction in the open access texts.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alrichardbollans/MiningMedicinalTaxa/blob/main/notebook/MiningMedicinalTaxaExample.ipynb)
+
+
 ## LLM Usage Example
 
 An example of how to run a model on a given text file using the prompt in `[prompting.py](LLM_models/prompting.py)` to extract data using the 
@@ -56,6 +59,45 @@ with open('output_scibert_filtered.json', "w") as file_:
     json_out = model_outputs.model_dump(mode="json")
     json.dump(json_out, file_)
 ```
+
+## R
+
+The R wrapper at [`R/mining_medicinal_taxa.R`](R/mining_medicinal_taxa.R) uses [reticulate](https://rstudio.github.io/reticulate/) to call the Python package from R and returns results in JSON format.
+
+First install the packages:
+
+```r
+install.packages("reticulate")
+source("https://raw.githubusercontent.com/alrichardbollans/MiningMedicinalTaxa/main/R/mining_medicinal_taxa.R")
+install_mining_medicinal_taxa()
+# Restart R when this finishes
+```
+Usage example
+
+```r
+source("https://raw.githubusercontent.com/alrichardbollans/MiningMedicinalTaxa/main/R/mining_medicinal_taxa.R")
+mmt_activate()
+
+# Sample text (or use your own .txt)
+sample_url <- "https://raw.githubusercontent.com/alrichardbollans/MiningMedicinalTaxa/main/R/sample.txt"
+txt_file   <- "sample.txt"
+if (!file.exists(txt_file)) download.file(sample_url, txt_file, mode = "wb")
+
+# SciBERT
+models <- load_scibert_models()      # ~400 MB on first run, cached after
+scibert_results <- run_scibert(txt_file, models,
+                               output_json = "scibert_output.json",
+                               run_re = TRUE) # run_re = FALSE for NER only
+print_taxa(scibert_results, "SciBERT")
+
+# GPT set your OpenAI API key first
+Sys.setenv(OPENAI_API_KEY = "sk-...")
+gpt_results <- run_gpt(txt_file,
+                       output_json      = "gpt_output.json",
+                       context_window_k = 5)
+print_taxa(gpt_results, "GPT-4o")
+```
+
 
 ### Manual verification
 
