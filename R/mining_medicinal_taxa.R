@@ -16,8 +16,7 @@
 #   https://huggingface.co/spaces/alrichardbollans/MedicinalTaxonVerifier
 #
 # NOTE: the Verifier app crashes on large JSON payloads. Keep output JSONs under
-# ~4000 tokens. For run_gpt() this is controlled via `context_window_k` — use 3
-# or 4 when you intend to feed the output to the Verifier.
+# ~5000 tokens. For run_gpt() this is controlled via `context_window_k`
 
 if (!requireNamespace("reticulate", quietly = TRUE)) {
   stop("Install reticulate: install.packages('reticulate')")
@@ -140,18 +139,13 @@ run_scibert <- function(txt_file, models, output_json = NULL, run_re = FALSE, cl
 #' OpenAI GPT with structured output. Requires an API key.
 #'
 #' @param txt_file Path to .txt file
-#' @param api_key OpenAI API key. If NULL, reads from the OPENAI_API_KEY env var.
-#'   Set with Sys.setenv(OPENAI_API_KEY = "sk-...") or pass directly. When passed
-#'   directly, the key is set for the duration of this call only and the previous
-#'   value (if any) is restored on exit.
+#' @param api_key OpenAI API key.
+#'   Set with Sys.setenv(OPENAI_API_KEY = "sk-...") or pass directly.
 #' @param output_json Path to save output JSON (compatible with MedicinalTaxonVerifier).
-#'   If NULL, no JSON is saved. Note: the Verifier app crashes on JSONs larger
-#'   than ~4000 tokens of source text — keep `context_window_k` small (3–4) when
+#'   If NULL, no JSON is saved. Note: the Verifier app crashes on large JSONS.
+#'   Keep `context_window_k` small (~5k) when
 #'   producing JSONs you intend to verify.
-#' @param context_window_k Context window in thousands of tokens. Controls chunk
-#'   size — smaller values = more chunks = better recall but slower and more
-#'   API calls. Default 4 (~4000 tokens per chunk; Verifier-compatible). Use 10
-#'   for faster runs when you don't need to verify the output.
+#' @param context_window_k Context window in thousands of tokens. Default 5 (~5000 tokens per chunk; Verifier-compatible).
 #' @param model OpenAI model name (default "gpt-4o-2024-08-06")
 #' @param clean_names If TRUE, filter extracted names using WCVP taxonomy
 #'   knowledge. Removes non-scientific names. Default TRUE.
