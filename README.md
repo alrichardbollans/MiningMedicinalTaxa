@@ -81,6 +81,8 @@ mmt_activate()
 # Sample text (or use your own .txt)
 sample_url <- "https://raw.githubusercontent.com/alrichardbollans/MiningMedicinalTaxa/main/R/sample.txt"
 txt_file   <- "sample.txt"
+download.file(sample_url, txt_file, mode = "wb")
+
 
 # SciBERT
 models <- load_scibert_models()      # ~400 MB on first run, cached after
