@@ -22,7 +22,10 @@ mmt_activate()
 # Sys.setenv(OPENAI_API_KEY = "sk-...")    # only needed for GPT below
 
 # ── 3. Input ────────────────────────────────────────────────────────────
-txt_file <- "5096942.txt"
+# Sample text (or use your own .txt)
+sample_url <- "https://raw.githubusercontent.com/alrichardbollans/MiningMedicinalTaxa/main/R/sample.txt"
+txt_file   <- "sample.txt"
+download.file(sample_url, txt_file, mode = "wb")
 
 # ── 4. SciBERT (local, no API key needed) ───────────────────────────────
 # Loads ~400MB on first run (cached afterwards).
