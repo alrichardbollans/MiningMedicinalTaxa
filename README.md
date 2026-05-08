@@ -96,7 +96,7 @@ Sys.setenv(OPENAI_API_KEY = "sk-...")
 gpt_results <- run_gpt(txt_file,
                        output_json      = "gpt_output.json",
                        context_window_k = 5,
-                       model = "gpt-4o-2024-08-06",)
+                       model = "gpt-4o-2024-08-06")
 print_taxa(gpt_results, "GPT-4o")
 ```
 
