@@ -4,15 +4,15 @@
 #   https://huggingface.co/spaces/alrichardbollans/MedicinalTaxonVerifier
 #
 # IMPORTANT: the Verifier app crashes on large JSON payloads. Keep individual
-# output JSONs under ~4000 tokens. For GPT extraction, this is controlled via
-# `context_window_k` — keep it at 3 or 4 when producing JSONs to verify.
+# output JSONs ~5000 tokens. For GPT extraction, this is controlled via
+# `context_window_k`.
 
 # ── 1. First time only ──────────────────────────────────────────────────
 # install.packages("reticulate")
 # Sys.setenv(WORKON_HOME = "C:/venvs")     # optional: custom virtualenv location
 # source("R/mining_medicinal_taxa.R")
 # install_mining_medicinal_taxa()
-# # This might take a while — restart R after install.
+# # This might take a while. Restart R after install.
 
 # ── 2. Load (every session) ─────────────────────────────────────────────
 # Sys.setenv(WORKON_HOME = "C:/venvs")
@@ -40,14 +40,11 @@ print_taxa(scibert_results, "SciBERT")
 
 # ── 5. GPT (requires API key) ───────────────────────────────────────────
 # Uncomment the whole block to run GPT extraction.
-# Default context_window_k = 4 keeps the output JSON within the Verifier's
-# size limit (~4000 tokens). Bump to 10 for faster runs if you don't need
-# to verify the output.
 #
 # gpt_results <- run_gpt(
 #   txt_file,
 #   output_json      = "gpt_output.json",
-#   context_window_k = 4,
+#   context_window_k = 5,
 #   model            = "gpt-4o-2024-08-06",
 #   clean_names      = TRUE
 # )
