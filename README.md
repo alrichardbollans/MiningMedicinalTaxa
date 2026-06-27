@@ -89,7 +89,7 @@ models <- load_scibert_models()      # ~400 MB on first run, cached after
 scibert_results <- run_scibert(txt_file, models,
                                output_json = "scibert_output.json",
                                run_re = TRUE, # run_re = FALSE for NER only
-                               clean_names = FALSE) # # clean names = TRUE clean outputs by removing annotations with unknown scientific names
+                               clean_names = FALSE) # clean names = TRUE clean outputs by removing annotations with unknown scientific names
 print_taxa(scibert_results, "SciBERT")
 
 # GPT set your OpenAI API key first
@@ -98,7 +98,7 @@ gpt_results <- run_gpt(txt_file,
                        output_json      = "gpt_output.json",
                        context_window_k = 5,
                        model = "gpt-4o-2024-08-06",
-                       clean_names = FALSE) # # clean names = TRUE clean outputs by removing annotations with unknown scientific names
+                       clean_names = FALSE) # clean names = TRUE clean outputs by removing annotations with unknown scientific names
 print_taxa(gpt_results, "GPT-4o")
 ```
 
