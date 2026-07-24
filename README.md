@@ -1,11 +1,11 @@
-This is a collection of packages for downloading and filtering corpora (currently CORE v2022) and then exploring named entity recognition and relation extraction in the open access texts.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alrichardbollans/MiningMedicinalTaxa/blob/main/notebook/MiningMedicinalTaxaExample.ipynb)
-
+A collection of packages for downloading and filtering corpora (currently CORE v2022) and then exploring named entity recognition and
+relation extraction in the extracted texts, used in [_Large language models unlock large text corpora in the search for data on medicinal plants and fungi_](https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.70250).
 
 ## LLM Usage Example
 
-An example of how to run a model on a given text file using the prompt in `[prompting.py](LLM_models/prompting.py)` to extract data using the 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alrichardbollans/MiningMedicinalTaxa/blob/main/notebook/MiningMedicinalTaxaExample.ipynb)
+
+An example of how to run a model on a given text file using the prompt in `[prompting.py](LLM_models/prompting.py)` to extract data using the
 `TaxaData` structure.
 
 First either clone the repo, or install with:
@@ -39,7 +39,9 @@ with open('output_json_path_filtered.json', "w") as file_:
     json.dump(json_out, file_)
 
 ```
+
 ## SciBERT Usage Example
+
 An example of how to run the fine-tuned SciBERT NER + RE models to extract data from a text file. Set `run_re=False` for NER only.
 
 ```python
@@ -50,8 +52,8 @@ from LLM_models.evaluating import clean_model_annotations_using_taxonomy_knowled
 models = load_scibert()
 
 model_outputs = query_scibert(models, 'test.txt',
-                       json_dump='output_scibert.json',
-                       run_re=True)
+                              json_dump='output_scibert.json',
+                              run_re=True)
 # If you want to clean outputs by removing annotations with unknown scientific names:
 model_outputs = clean_model_annotations_using_taxonomy_knowledge(model_outputs)
 
@@ -62,7 +64,8 @@ with open('output_scibert_filtered.json', "w") as file_:
 
 ## R
 
-The R wrapper at [`R/mining_medicinal_taxa.R`](R/mining_medicinal_taxa.R) uses [reticulate](https://rstudio.github.io/reticulate/) to call the Python package from R and returns results in JSON format.
+The R wrapper at [`R/mining_medicinal_taxa.R`](R/mining_medicinal_taxa.R) uses [reticulate](https://rstudio.github.io/reticulate/) to call the Python
+package from R and returns results in JSON format.
 
 First install the packages:
 
@@ -72,6 +75,7 @@ source("https://raw.githubusercontent.com/alrichardbollans/MiningMedicinalTaxa/m
 install_mining_medicinal_taxa()
 # Restart R when this finishes
 ```
+
 Usage example
 
 ```r
@@ -102,8 +106,25 @@ gpt_results <- run_gpt(txt_file,
 print_taxa(gpt_results, "GPT-4o")
 ```
 
-
 ### Manual verification
 
 Outputs from this process (the `json_dump` files) can be manually verified using our reference verifier shiny app, hosted
 here: https://huggingface.co/spaces/alrichardbollans/MedicinalTaxonVerifier
+
+### Reference
+
+To cite this work, see [_Large language models unlock large text corpora in the search for data on medicinal plants and fungi_](https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.70250).
+
+```
+@article{richardbollans_large_2026,
+	title = {Large language models unlock large text corpora in the search for data on medicinal plants and fungi},
+	issn = {2572-2611, 2572-2611},
+	url = {https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.70250},
+	doi = {10.1002/ppp3.70250},
+	urldate = {2026-07-24},
+	journal = {Plants, People, Planet},
+	author = {Richard‐Bollans, Adam and Civita, Francesco and Cossu, Tiziana A. and Saifi, Ifra and Patmore, Kristina and Wilkinson, Caroline and Allkin, Bob},
+	year = {2026},
+	pages = {ppp3.70250},
+}
+```
